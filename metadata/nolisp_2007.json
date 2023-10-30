@@ -1,0 +1,879 @@
+{
+ "title": "ITRW on Nonlinear Speech Processing (NOLISP 2007)",
+ "location": "Paris, France",
+ "startDate": "22/5/2007",
+ "endDate": "25/5/2007",
+ "conf": "NOLISP",
+ "year": "2007",
+ "name": "nolisp_2007",
+ "series": "NOLISP",
+ "SIG": "",
+ "title1": "ITRW on Nonlinear Speech Processing",
+ "title2": "(NOLISP 2007)",
+ "date": "22-25 May 2007",
+ "papers": {
+  "dalessandro07_nolisp": {
+   "authors": [
+    [
+     "Christophe",
+     "d'Alessandro"
+    ]
+   ],
+   "title": "Phase-based methods for voice source analysis",
+   "original": "nol7_001",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Voice source analysis is an important but difficult issue for speech processing. In this talk, three aspects of voice source analysis recently developed at LIMSI (Orsay) and FPMs (Mons) are discussed. In a first part, time domain and spectral domain modelling of glottal flow signals are presented (Doval & al., 2006). It is shown that the glottal flow can be modelled as an anticausal filter (maximum phase) before the glottal closure, and by as a causal filter (minimum phase) after the glottal closure. In a second part, taking advantage of this phase structure, causal and anticausal components of the speech signal are separated according to the location in the Z-plane of the zeros of the Z-Transform (ZZT) of the windowed signal (Bozkurt & al. 2005). Results of a comparative evaluation of the ZZT and linear prediction for source/tract separation are reported. This method is also useful for voice source parameters analysis. Voice open quotient and glottal flow asymmetry analyses using the ZZT and ElectroGlottoGraphy (EGG) are compared (Sturmel & al. 2006). In a third part, glottal closure instant detection using the phase of the wavelet transform is discussed. A method based on the lines of maximum phase in the time-scale plane is proposed. This method is compared to EGG for robust glottal closure instant analysis (Vu Ngoc Tuan & al, 2000).\n",
+    "s Doval, B. / D'Alessandro, C. / Henrich, N., \"The spectrum of glottal flow model\", Acta Acustica United with Acustica, p. 21p, vol. 92, N°6, November-December 2006. Bozkurt, B. / Doval, B. / D'Alessandro, C. / Dutoit, T., \"Zeros of Z-transform representation with application to source-filter separation in speech\", IEEE Signal Processing Letters, p. 344-347, vol. 12, N °4, April 2005. Sturmel, Nicolas / D'Alessandro, C. / Doval, B., \"A spectral method for estimation of the voice speed quotient and evaluation using electroglottography\", 7th Conference on Advances in Quantitative Laryngology, p. 6p, Groningen, The Netherlands, October 6-7, 2006. Vu Ngoc Tuan / d'Alessandro, C., \"Glottal Closure Detection using EGG and the Wavelet Transform\", 4th workshop \"Advances in Objective Laryngoscopy, Voice and Speech Research, Jena, Germany, April 7-8, 2000.\n",
+    ""
+   ]
+  },
+  "mandic07_nolisp": {
+   "authors": [
+    [
+     "Danilo",
+     "Mandic"
+    ]
+   ],
+   "title": "Exploiting nonlinearity in signal processing: qualitative assessment of adaptive filtering algorithms and signal modality characterisation",
+   "original": "nol7_002",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Characterisation of signal in terms of their nonlinear nature has emerged in physics in the mid 1990s and is only now being adopted in signal processing. This talk will highlight the need to assess the nonlinearity within a signal prior to choosing the actual processing models, since e.g. the change from the stochastic to deterministic behaviour in heart rhythm might indicate heart attack. Next, the link between signal nonlinearity characterisation and the modelling beyond second order statistics will be elucidated, and the intricate relationship between the local predictability in phase space and the degree of signal nonlinearity will be analysed. In the next step, the Delay Vector Variance (DVV) method for the simulatenous assessment of signal nonlinearity and uncertainty will be introduced, and several case studies, including fMRI, sleep psychology, and qualitative assessment of machine learning algorithms will be presented. Finally, some emerging online approaches will complete the talk.\n",
+    ""
+   ]
+  },
+  "gonzalvo07_nolisp": {
+   "authors": [
+    [
+     "Xavi",
+     "Gonzalvo"
+    ],
+    [
+     "Ignasi",
+     "Iriondo"
+    ],
+    [
+     "Joan Claudi",
+     "Socoró"
+    ],
+    [
+     "Francesc",
+     "Alías"
+    ],
+    [
+     "Carlos",
+     "Monzo"
+    ]
+   ],
+   "title": "HMM-based Spanish speech synthesis using CBR as F0 estimator",
+   "original": "nol7_007",
+   "page_count": 4,
+   "order": 3,
+   "p1": "7",
+   "pn": "10",
+   "abstract": [
+    "Hidden Markov Models based text-to-speech (HMM-TTS) synthesis is a technique for generating speech from trained statistical models where spectrum, pitch and durations of basic speech units are modelled altogether. The aim of this work is to describe a Spanish HMM-TTS system using CBR as a F0 estimator, analysing its performance objectively and subjectively. The experiments have been conducted on a reliable labelled speech corpus, whose units have been clustered using contextual factors according to the Spanish language. The results show that the CBR-based F0 estimation is capable of improving the HMM-based baseline performance when synthesizing nondeclarative short sentences and reduced contextual information is available.\n",
+    ""
+   ]
+  },
+  "atas07_nolisp": {
+   "authors": [
+    [
+     "Mehmet",
+     "Atas"
+    ],
+    [
+     "Süleyman",
+     "Baykut"
+    ],
+    [
+     "Tayfun",
+     "Akgül"
+    ]
+   ],
+   "title": "A wavelet-based technique towards a more natural sounding synthesized speech",
+   "original": "nol7_011",
+   "page_count": 4,
+   "order": 4,
+   "p1": "11",
+   "pn": "14",
+   "abstract": [
+    "This paper presents a wavelet-based technique to increase the quality and naturalness of LPC based synthesized speech signals. The proposed method is based on wavelet decomposition. We first obtain the wavelet coefficients, and then the variances of the wavelet coefficient at the last four scales (correspond the higher frequency region) of the synthetic speech are replaced by the original variances of the original speech. We apply the technique to synthetic speech. The results suggest that the wavelet-based technique increases the naturalness of the synthesized speech.\n",
+    ""
+   ]
+  },
+  "iriondo07_nolisp": {
+   "authors": [
+    [
+     "Ignasi",
+     "Iriondo"
+    ],
+    [
+     "Santiago",
+     "Planet"
+    ],
+    [
+     "Joan-Claudi",
+     "Socoró"
+    ],
+    [
+     "Francesc",
+     "Alías"
+    ]
+   ],
+   "title": "Objective and subjective evaluation of an expressive speech corpus",
+   "original": "nol7_015",
+   "page_count": 4,
+   "order": 5,
+   "p1": "15",
+   "pn": "18",
+   "abstract": [
+    "This paper presents the validation of the expressive content of an acted oral corpus produced to be used in speech synthesis. Firstly, objective validation has been conducted by means of automatic emotion identification techniques using statistical features obtained from the prosodic parameters of speech. Secondly, a listening test has been performed with a subset of utterances. The relationship between both objective and subjective evaluations is analysed and the obtained conclusions can be useful to improve the following steps related to expressive speech synthesis.\n",
+    ""
+   ]
+  },
+  "faundezzanuy07_nolisp": {
+   "authors": [
+    [
+     "Marcos",
+     "Faundez-Zanuy"
+    ]
+   ],
+   "title": "On the usefulness of linear and nonlinear prediction residual signals for speaker recognition",
+   "original": "nol7_019",
+   "page_count": 4,
+   "order": 6,
+   "p1": "19",
+   "pn": "22",
+   "abstract": [
+    "This paper compares the identification rates of a speaker recognition system using several parameterizations, with special emphasis on the residual signal obtained from linear and nonlinear predictive analysis. It is found that the residual signal is still useful even when using a high dimensional linear predictive analysis. On the other hand, it is shown that the residual signal of a nonlinear analysis contains less useful information, even for a prediction order of 10, than the linear residual signal. This shows the inability of the linear models to cope with nonlinear dependences present in speech signals, which are useful for recognition purposes.\n",
+    ""
+   ]
+  },
+  "charbuillet07_nolisp": {
+   "authors": [
+    [
+     "Christophe",
+     "Charbuillet"
+    ],
+    [
+     "Bruno",
+     "Gas"
+    ],
+    [
+     "Mohamed",
+     "Chetouani"
+    ],
+    [
+     "Jean Luc",
+     "Zarader"
+    ]
+   ],
+   "title": "Multi-filter-bank approach for speaker verification based on genetic algorithm",
+   "original": "nol7_023",
+   "page_count": 4,
+   "order": 7,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "Speech recognition systems usually need a feature extraction stage which aims at obtaining the best signal representation. State of the art speaker verification systems are based on cepstral features like MFCC, LFCC or LPCC. In this article, we propose a feature extraction system based on the combination of three feature extractors adapted to the speaker verification task. A genetic algorithm is used to optimize the features complementarities. This optimization consists in designing a set of three non linear scaled filter banks. Experiments are carried out using a state of the art speaker verification system. Results show that the proposed method improves significantly the system performances on the 2005 Nist SRE Database. Furthermore, the obtained feature extractors show the importance of some specific spectral information for speaker verification.\n",
+    ""
+   ]
+  },
+  "stoll07_nolisp": {
+   "authors": [
+    [
+     "Lara",
+     "Stoll"
+    ],
+    [
+     "Joe",
+     "Frankel"
+    ],
+    [
+     "Nikki",
+     "Mirghafori"
+    ]
+   ],
+   "title": "Speaker recognition via nonlinear discriminant features",
+   "original": "nol7_027",
+   "page_count": 4,
+   "order": 8,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "We use a multi-layer perceptron (MLP) to transform cepstral features into features better suited for speaker recognition. Two types of MLP output targets are considered: phones (Tandem/HATS-MLP) and speakers (Speaker-MLP). In the former case, output activations are used as features in a GMM speaker recognition system, while for the latter, hidden activations are used as features in an SVM system. Using a smaller set of MLP training speakers, chosen through clustering, yields system performance similar to that of a Speaker-MLP trained with many more speakers. For the NIST Speaker Recognition Evaluation 2004, both Tandem/HATS-GMM and Speaker-SVM systems improve upon a basic GMM baseline, but are unable to contribute in a score-level combination with a state-of-the-art GMM system. It may be that the application of normalizations and channel compensation techniques to the current state-ofthe- art GMM has reduced channel mismatch errors to the point that contributions of the MLP systems are no longer additive.\n",
+    ""
+   ]
+  },
+  "ulug07_nolisp": {
+   "authors": [
+    [
+     "Ufuk",
+     "Ülüg"
+    ],
+    [
+     "Tolga Esat",
+     "Özkurt"
+    ],
+    [
+     "Tayfun",
+     "Akgül"
+    ]
+   ],
+   "title": "Bispectrum mel-frequency cepstrum coefficients for robust speaker identification",
+   "original": "nol7_031",
+   "page_count": 4,
+   "order": 9,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "In this paper, we introduce the use of bispectrum slice for mel-frequency cepstrum coefficients as robust textindependent speaker identification. The main advantage of using the bispectrum is to be able to suppress additive Gaussian noise while preserving the phase information of the signal. In order to obtain cepstral coefficients, features of the speech signal are extracted by mel-frequency filter banks, the cosine transform and the logarithm operator. Under various noisy test utterances, we compare and present the performances of the methods which use the bispectrum and the classical mel-frequency cepstrum coefficients.\n",
+    ""
+   ]
+  },
+  "gerber07_nolisp": {
+   "authors": [
+    [
+     "Michael",
+     "Gerber"
+    ],
+    [
+     "Tobias",
+     "Kaufmann"
+    ],
+    [
+     "Beat",
+     "Pfister"
+    ]
+   ],
+   "title": "Perceptron-based class verification",
+   "original": "nol7_035",
+   "page_count": 4,
+   "order": 10,
+   "p1": "35",
+   "pn": "38",
+   "abstract": [
+    "We present a method to use multilayer perceptrons (MLPs) for a verification task, i.e. to verify whether two vectors are from the same class or not. In tests with synthetic data we could show that the verification MLPs are almost optimal from a Bayesian point of view. With speech data we have shown that verification MLPs generalize well such that they can be deployed as well for classes which were not seen during the training.\n",
+    ""
+   ]
+  },
+  "errity07_nolisp": {
+   "authors": [
+    [
+     "Andrew",
+     "Errity"
+    ],
+    [
+     "John",
+     "McKenna"
+    ],
+    [
+     "Barry",
+     "Kirkpatrick"
+    ]
+   ],
+   "title": "Manifold learning-based feature transformation for phone classification",
+   "original": "nol7_039",
+   "page_count": 4,
+   "order": 11,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "This paper investigates approaches for low dimensional speech feature transformation using manifold learning. It has recently been shown that speech sounds may exist on a low dimensional manifold nonlinearly embedded in high dimensional space. A number of techniques have been developed in recent years that attempt to discover the geometric structure of the underlying low dimensional manifold. The manifold learning techniques locally linear embedding and Isomap are considered in this study. The low dimensional feature representations produced by these techniques are applied to several phone classification tasks on the TIMIT corpus. Classification accuracy is analysed and compared to conventional MFCC features and PCA, a linear dimensionality reduction method, transformed features. It is shown that features resulting from manifold learning are capable of yielding higher classification accuracy than these baseline features. The best phone classification accuracy in general is demonstrated by feature transformation with Isomap.\n",
+    ""
+   ]
+  },
+  "domont07_nolisp": {
+   "authors": [
+    [
+     "Xavier",
+     "Domont"
+    ],
+    [
+     "Martin",
+     "Heckmann"
+    ],
+    [
+     "Heiko",
+     "Wersing"
+    ],
+    [
+     "Frank",
+     "Joublin"
+    ],
+    [
+     "Stefan",
+     "Menzel"
+    ],
+    [
+     "Bernhard",
+     "Sendhoff"
+    ],
+    [
+     "Christian",
+     "Goerick"
+    ]
+   ],
+   "title": "Word recognition with a hierarchical neural network",
+   "original": "nol7_043",
+   "page_count": 4,
+   "order": 12,
+   "p1": "43",
+   "pn": "46",
+   "abstract": [
+    "In this paper we propose a feedforward neural network for syllable recognition. The core of the recognition system is based on a hierarchical architecture initially developed for visual object recognition. We show that, given the similarities between the primary auditory and visual cortexes, such a system can successfully be used for speech recognition. Syllables are used as basic units for the recognition. Their spectrograms, computed using a Gammatone filterbank, are interpreted as images and subsequently feed into the neural network after a preprocessing step that enhances the formant frequencies and normalizes the length of the syllables. The performance of our system has been analyzed on the recognition of 25 different monosyllabic words. The parameters of the architecture have been optimized using an evolutionary strategy. Compared to the Sphinx-4 speech recognition system, our system achieves better robustness and generalization capabilities in noisy conditions.\n",
+    ""
+   ]
+  },
+  "keshet07_nolisp": {
+   "authors": [
+    [
+     "Joseph",
+     "Keshet"
+    ],
+    [
+     "David",
+     "Grangier"
+    ],
+    [
+     "Samy",
+     "Bengio"
+    ]
+   ],
+   "title": "Discriminative keyword spotting",
+   "original": "nol7_047",
+   "page_count": 4,
+   "order": 13,
+   "p1": "47",
+   "pn": "50",
+   "abstract": [
+    "This paper proposes a new approach for keyword spotting, which is not based on HMMs. The proposed method employs a new discriminative learning procedure, in which the learning phase aims at maximizing the area under the ROC curve, as this quantity is the most common measure to evaluate keyword spotters. The keyword spotter we devise is based on nonlinearly mapping the input acoustic representation of the speech utterance along with the target keyword into an abstract vector space. Building on techniques used for large margin methods for predicting whole sequences, our keyword spotter distills to a classifier in the abstract vector-space which separates speech utterances in which the keyword was uttered from speech utterances in which the keyword was not uttered. We describe a simple iterative algorithm for learning the keyword spotter and discuss its formal properties. Experiments with the TIMIT corpus show that our method outperforms the conventional HMMbased approach.\n",
+    ""
+   ]
+  },
+  "garciamoral07_nolisp": {
+   "authors": [
+    [
+     "Ana I.",
+     "García-Moral"
+    ],
+    [
+     "Rubén",
+     "Solera-Urena"
+    ],
+    [
+     "Carmen",
+     "Peláez-Moreno"
+    ],
+    [
+     "Fernando",
+     "Díaz-de-María"
+    ]
+   ],
+   "title": "Hybrid models for automatic speech recognition: a comparison of classical ANN and kernel-based methods",
+   "original": "nol7_051",
+   "page_count": 4,
+   "order": 14,
+   "p1": "51",
+   "pn": "54",
+   "abstract": [
+    "Support Vector Machines (SVM) are state-of-the-art methods for machine learning but share with more classical Artificial Neural Networks (ANN) the difficulty of their application to temporally variable input patterns. This is the case in Automatic Speech Recognition (ASR). In this paper we have recalled the solutions provided in the past for ANN and applied them to SVMs performing a comparison between them. Preliminary results show a similar behaviour which results encouraging if we take into account the novelty of the SVM systems in comparison with classical ANNs. The envisioned ways of improvement are outlined in the paper.\n",
+    ""
+   ]
+  },
+  "gravier07_nolisp": {
+   "authors": [
+    [
+     "Guillaume",
+     "Gravier"
+    ],
+    [
+     "Daniel",
+     "Moraru"
+    ]
+   ],
+   "title": "Towards phonetically-driven hidden Markov models: can we incorporate phonetic landmarks in HMM-based ASR?",
+   "original": "nol7_055",
+   "page_count": 4,
+   "order": 15,
+   "p1": "55",
+   "pn": "58",
+   "abstract": [
+    "Automatic speech recognition mainly relies on hidden Markov models (HMM) which make little use of phonetic knowledge. As an alternative, landmark based recognizers rely mainly on precise phonetic knowledge and exploit distinctive features. We propose a theoretical framework to combine both approaches by introducing phonetic knowledge in a non stationary HMM decoder. To demonstrate the potential of the method, we investigate how broad phonetic landmarks could be used to improve a HMM decoder by focusing the best path search. We show that, assuming error free landmark detection, every broad phonetic class brings a small improvement. The use of all the classes reduces the error rate from 22% to 14% on a broadcast news transcription task. We also experimentally validate that landmarks boundaries does not need to be detected precisely and that the algorithm is robust to non detection errors.\n",
+    ""
+   ]
+  },
+  "selouani07_nolisp": {
+   "authors": [
+    [
+     "Sid-Ahmed",
+     "Selouani"
+    ],
+    [
+     "Habib",
+     "Hamam"
+    ],
+    [
+     "Douglas",
+     "OShaughnessy"
+    ]
+   ],
+   "title": "A hybrid genetic-neural front-end extension for robust speech recognition over telephone lines",
+   "original": "nol7_059",
+   "page_count": 4,
+   "order": 16,
+   "p1": "59",
+   "pn": "62",
+   "abstract": [
+    "This paper presents a hybrid technique combining the Karhonen-Loève Transform (KLT), the Multilayer Perceptron (MLP) and Genetic Algorithms (GAs) to obtain less-variant Mel-frequency parameters. The advantages of such an approach are that the robustness can be reached without modifying the recognition system, and that neither assumption nor estimation of the noise are required. To evaluate the effectiveness of the proposed approach, an extensive set of continuous speech recognition experiments are carried out by using the NTIMIT telephone speech database. The results show that the proposed approach outperforms the baseline and conventional systems.\n",
+    ""
+   ]
+  },
+  "gomez07_nolisp": {
+   "authors": [
+    [
+     "P.",
+     "Gómez"
+    ],
+    [
+     "A.",
+     "Álvarez"
+    ],
+    [
+     "L. M.",
+     "Mazaira"
+    ],
+    [
+     "R.",
+     "Fernández"
+    ],
+    [
+     "V.",
+     "Rodellar"
+    ]
+   ],
+   "title": "Estimating the stability and dispersion of the biometric glottal fingerprint in continuous speech",
+   "original": "nol7_063",
+   "page_count": 4,
+   "order": 17,
+   "p1": "63",
+   "pn": "66",
+   "abstract": [
+    "The speakers biometric voice fingerprint may be derived from voice as a whole, or from the vocal tract and glottal signals, after separation by inverse filtering. This last approach has been used by the authors in early work, where it has been shown that the biometric fingerprint obtained from the glottal source or related speech residuals gives a good description of the speakers identity and meta-information, as gender or age. In the present work a new technique is proposed based on the accurate estimation of the glottal residual by adaptive removal of the vocal tract, and the detection of the glottal spectral singularities in continuous speech. Results on a reduced database of speakers demonstrate that the biometric fingerprint estimation is robust, and shows low intra-speaker variability, which makes it a useful tool for speaker identification as well as for pathology detection, and other fields related with speech characterization.\n",
+    ""
+   ]
+  },
+  "richmond07_nolisp": {
+   "authors": [
+    [
+     "Korin",
+     "Richmond"
+    ]
+   ],
+   "title": "Trajectory mixture density network with multiple mixtures for acoustic-articulatory inversion",
+   "original": "nol7_067",
+   "page_count": 4,
+   "order": 18,
+   "p1": "67",
+   "pn": "70",
+   "abstract": [
+    "We have previously proposed a trajectory model which is based on a mixture density network trained with target variables augmented with dynamic features together with an algorithm for estimating maximum likelihood trajectories which respects the constraints between those features. In this paper, we have extended that model to allow diagonal covariance matrices and multiple mixture components. We have evaluated the model on an inversion mapping task and found the trajectory model works well, outperforming smoothing of equivalent trajectories using low-pass filters. Increasing the number of mixture components in the TMDN improves results further.\n",
+    ""
+   ]
+  },
+  "alvarez07_nolisp": {
+   "authors": [
+    [
+     "Aitor",
+     "Álvarez"
+    ],
+    [
+     "Idoia",
+     "Cearreta"
+    ],
+    [
+     "Juan Miguel",
+     "López"
+    ],
+    [
+     "Andoni",
+     "Arruti"
+    ],
+    [
+     "Elena",
+     "Lazkano"
+    ],
+    [
+     "Basilio",
+     "Sierra"
+    ],
+    [
+     "Nestor",
+     "Garay"
+    ]
+   ],
+   "title": "Application of feature subset selection based on evolutionary algorithms for automatic emotion recognition in speech",
+   "original": "nol7_071",
+   "page_count": 4,
+   "order": 19,
+   "p1": "71",
+   "pn": "74",
+   "abstract": [
+    "The study of emotions in human-computer interaction is a growing research area. Focusing on automatic emotion recognition, work is being performed in order to achieve good results particularly in speech and facial gesture recognition. In this paper we present a study performed to analyze different machine learning techniques validity in automatic speech emotion recognition area. Using a bilingual affective database, different speech parameters have been calculated for each audio recording. Then, several machine learning techniques have been applied to evaluate their usefulness in speech emotion recognition. In this particular case, techniques based on evolutive algorithms (EDA) have been used to select speech feature subsets that optimize automatic emotion recognition success rate. Achieved experimental results show a representative increase in the abovementioned success rate.\n",
+    ""
+   ]
+  },
+  "drepper07_nolisp": {
+   "authors": [
+    [
+     "Friedhelm R.",
+     "Drepper"
+    ]
+   ],
+   "title": "Non-stationary self-consistent acoustic objects as atoms of voiced speech",
+   "original": "nol7_075",
+   "page_count": 5,
+   "order": 20,
+   "p1": "75",
+   "pn": "79",
+   "abstract": [
+    "Voiced segments of speech are assumed to be composed of non-stationary voiced acoustic objects which are generated as stationary (secondary) response of a non-stationary drive oscillator and which are analysed by introducing a selfconsistent part-tone decomposition. The self-consistency implies that the part-tones (of voiced continuants) are suited to reconstruct a topologically equivalent image of the hidden drive (glottal master oscillator). As receiver side image the fundamental drive (FD) is suited to describe the broadband voiced excitation as entrained (synchronized) and/or modulated primary response and to serve as low frequency part of the basic time-scale separation of auditive perception, which separates phone or timbre specific processes from intonation and prosody. The self-consistent time-scale separation avoids the conventional assumption of stationary excitation and represents the basic decoding step of the phasemodulation transmission-protocol of self-consistent (voiced) acoustic objects. The present study is focussed on the adaptation of the contours of the centre frequency of the parttone filters to the chirp of the glottal master oscillator.\n",
+    ""
+   ]
+  },
+  "paraskevas07_nolisp": {
+   "authors": [
+    [
+     "I.",
+     "Paraskevas"
+    ],
+    [
+     "E.",
+     "Chilton"
+    ],
+    [
+     "M.",
+     "Rangoussi"
+    ]
+   ],
+   "title": "The Hartley phase cepstrum as a tool for signal analysis",
+   "original": "nol7_080",
+   "page_count": 4,
+   "order": 21,
+   "p1": "80",
+   "pn": "83",
+   "abstract": [
+    "This paper proposes the use of the Hartley Phase Cepstrum as a tool for signal analysis. The phase of a signal conveys critical information, which is exploited in a variety of applications. The role of phase is particularly important for the case of speech or audio signals. Accurate phase information extraction is a prerequisite for speech applications such as coding, synchronization, synthesis or recognition. However, signal phase extraction is not a straightforward procedure, mainly due to the discontinuities appearing in it (wrapping effect). A variety of phase unwrapping algorithms have been proposed to overcome this point, when the extraction of the accurate phase values is required. In order to extract the phase content of a signal for subsequent utilization, it is necessary to choose a function that can encapsulate it. In this paper we propose the use of the Hartley Phase Cepstrum (HPC).\n",
+    ""
+   ]
+  },
+  "benaicha07_nolisp": {
+   "authors": [
+    [
+     "Anis",
+     "Ben Aicha"
+    ],
+    [
+     "Sofia",
+     "Ben Jebara"
+    ]
+   ],
+   "title": "Quantitative perceptual separation of two kinds of degradation in speech denoising applications",
+   "original": "nol7_084",
+   "page_count": 4,
+   "order": 22,
+   "p1": "84",
+   "pn": "87",
+   "abstract": [
+    "Classical objective criteria evaluate speech quality using one quantity which embed all possible kind of degradation. For speech denoising applications, there is a great need to determine with accuracy the kind of the degradation (residual background noise, speech distortion or both). In this work, we propose two perceptual bounds UBPE and LBPE defining regions where original and denoised signals are perceptually equivalent or different. Next, two quantitative criteria PSANR and PSADR are developed to quantify separately the two kinds of degradation. Some simulation results for speech denoising using different approaches show the usefulness of proposed criteria.\n",
+    ""
+   ]
+  },
+  "faraji07_nolisp": {
+   "authors": [
+    [
+     "Neda",
+     "Faraji"
+    ],
+    [
+     "S. M.",
+     "Ahadi"
+    ],
+    [
+     "S. Saloomeh",
+     "Shariati"
+    ]
+   ],
+   "title": "Threshold reduction for improving sparse coding shrinkage performance in speech enhancement",
+   "original": "nol7_088",
+   "page_count": 4,
+   "order": 23,
+   "p1": "88",
+   "pn": "91",
+   "abstract": [
+    "In this paper, we modify the Sparse Coding Shrinkage (SCS) method with an appropriate optimal linear filter (Wiener filter) in order to improve its efficiency as a speech enhancement algorithm.\n",
+    "SCS transform is only applicable for sparse data and speech features do not have this property in either time or frequency domains. Therefore we have used Linear Independent Component Analysis (LICA) to transfer the corrupted speech frames to the sparse code space in which noise and speech components are separated by means of a shrinkage function. Before employing SCS, Wiener filtering was applied on the ICA components to reduce noise energy and consequently the SCS shrinkage threshold. Experimental results have been obtained using connected digit database TIDIGIT contaminated with NATO RSG-10 noise data.\n",
+    ""
+   ]
+  },
+  "espanaboquera07_nolisp": {
+   "authors": [
+    [
+     "S.",
+     "España-Boquera"
+    ],
+    [
+     "M.J.",
+     "Castro-Bleda"
+    ],
+    [
+     "F.",
+     "Zamora-Mart´ýnez"
+    ],
+    [
+     "J.",
+     "Gorbe-Moya"
+    ]
+   ],
+   "title": "Efficient Viterbi algorithms for lexical tree based models",
+   "original": "nol7_092",
+   "page_count": 4,
+   "order": 24,
+   "p1": "92",
+   "pn": "95",
+   "abstract": [
+    "In this paper we propose a family of Viterbi algorithms specialized for lexical tree based FSA and HMM acoustic models. Two algorithms to decode a tree lexicon with left-to-right models with or without skips and other algorithm which takes a directed acyclic graph as input and performs error correcting decoding are presented. They store the set of active states topologically sorted in contiguous memory queues. The number of basic operations needed to update each hypothesis is reduced and also more locality in memory is obtained reducing the expected number of cache misses and achieving a speed-up over other implementations.\n",
+    ""
+   ]
+  },
+  "yang07_nolisp": {
+   "authors": [
+    [
+     "Lin",
+     "Yang"
+    ],
+    [
+     "Jianping",
+     "Zhang"
+    ],
+    [
+     "Yonghong",
+     "Yan"
+    ]
+   ],
+   "title": "Acoustic units selection in Chinese-English bilingual speech recognition",
+   "original": "nol7_096",
+   "page_count": 4,
+   "order": 25,
+   "p1": "96",
+   "pn": "99",
+   "abstract": [
+    "We present an effective method to merge the acoustic units between Chinese and English to develop a language-independent speech recognition system. Chinese as a tonal language has large differences from English. An optimal Chinese phoneme inventory is set up in order to keep consistent with the representation of English acoustic units. Two different approaches for Chinese-English bilingual phoneme modeling are illustrated and compared. One is to combine the Chinese and English phonemes together based on International Phonetic Association (IPA). The other is a data-driven method on the basis of the confusion matrix. Experimental results show that all these methods are feasible and the data-driven method reduced the WER by 0.73% in Chinese and 3.76% in English relatively compared to the IPA-based method. As a by-product, the idea of data sharing across languages can obtain relative 8.7% error reduction under noise condition.\n",
+    ""
+   ]
+  },
+  "liu07_nolisp": {
+   "authors": [
+    [
+     "Zhaojie",
+     "Liu"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ],
+    [
+     "Jian",
+     "Shao"
+    ],
+    [
+     "Qingwei",
+     "Zhao"
+    ],
+    [
+     "Yonghong Yan (1) Ji",
+     "Feng"
+    ]
+   ],
+   "title": "Tone recognition in Mandarin spontaneous speech",
+   "original": "nol7_100",
+   "page_count": 4,
+   "order": 26,
+   "p1": "100",
+   "pn": "103",
+   "abstract": [
+    "This paper reports our study on tone recognition in Mandarin spontaneous speech, which is characterized by complicated tone behaviors. Real-Context is proposed as a new concept used in the tone modeling. First, the(1)ata, which may bring negative influences to the tone model, are removed from the training data by an iterative method. Then we cluster the reduced training data into a few subsets to generate a more refined tone model. Gaussian Mixture Model (GMM) is used for the tone modeling. All experiments are based on the spontaneous speech database, Train04. Experimental results demonstrate the effectiveness of the methods.\n",
+    ""
+   ]
+  },
+  "faraji07b_nolisp": {
+   "authors": [
+    [
+     "Neda",
+     "Faraji"
+    ],
+    [
+     "S. M.",
+     "Ahadi"
+    ]
+   ],
+   "title": "Evaluation of a feature selection scheme on ICA-based filter- bank for speech recognition",
+   "original": "nol7_104",
+   "page_count": 4,
+   "order": 27,
+   "p1": "104",
+   "pn": "107",
+   "abstract": [
+    "In this paper, we propose a new feature selection scheme that can contribute to an ICA-based feature extraction block for speech recognition. The initial set of speech basis functions obtained in independent component analysis training phase, has some redundancies. Thus, finding a minimal-size optimal subset of these basis functions is rather vital. On the contrary to the previous works that used reordering methods on all the frequency bands, we have introduced an algorithm that finds optimal basis functions in each discriminative frequency band. This leads to an appropriate coverage of various frequency components and easy extension to other data is also provided. Our experiments show that the proposed method is very useful, specifically in larger vocabulary size tasks, where the selected basis functions trained using a limited dataset, may get localized in certain frequency bands and not appropriately generalized to residual dataset. The proposed algorithm surmounts this problem by a local reordering method in which contribution of a basis function is specified with three factors: class separability power, energy and central frequency. The experiments on a Persian continuous speech corpus indicated that the proposed method has led to 17% improvement in noisy condition recognition rate in comparison to a conventional MFCC-based system.\n",
+    ""
+   ]
+  },
+  "silva07_nolisp": {
+   "authors": [
+    [
+     "Denilson C.",
+     "Silva"
+    ]
+   ],
+   "title": "A robust endpoint detection algorithm based on identification of the noise nature",
+   "original": "nol7_108",
+   "page_count": 4,
+   "order": 28,
+   "p1": "108",
+   "pn": "111",
+   "abstract": [
+    "The endpoint detection of speech is still a big problem in situations of speech recognition in noisy environments. While traditional methods concentrate on finding speech in noise, the proposed technique is based on noise identification through HMMs, associated with both SNR and euclidean distance of the log-energy calculated on a frame-by-frame basis. Computer experiments confirm that the proposed algorithm gives rise to a considerable improvement on the precision of endpoint detection, specially in severely adverse conditions where the SNR is very low.\n",
+    ""
+   ]
+  },
+  "bouzid07_nolisp": {
+   "authors": [
+    [
+     "Aïcha",
+     "Bouzid"
+    ],
+    [
+     "Noureddine",
+     "Ellouze"
+    ]
+   ],
+   "title": "EMD analysis of speech signal in voiced mode",
+   "original": "nol7_112",
+   "page_count": 4,
+   "order": 29,
+   "p1": "112",
+   "pn": "115",
+   "abstract": [
+    "Like almost all natural phenomena, speech is the result of many nonlinearly interacting processes; therefore any linear analysis has the potential risk of underestimating, or even missing, a great amount of information content. Recently the technique of Empirical Mode Decomposition (EMD) has been proposed as a new tool for the analysis for nonlinear and nonstationary data. We applied EMD analysis to decompose speech signal into intrinsic oscillatory modes. Besides, the LPC analysis of each mode provides an estimation of formants.\n",
+    ""
+   ]
+  },
+  "schnell07_nolisp": {
+   "authors": [
+    [
+     "Karl",
+     "Schnell"
+    ],
+    [
+     "Arild",
+     "Lacroix"
+    ]
+   ],
+   "title": "Estimation of speech features of glottal excitation by nonlinear prediction",
+   "original": "nol7_116",
+   "page_count": 4,
+   "order": 30,
+   "p1": "116",
+   "pn": "119",
+   "abstract": [
+    "Analysis of speech signals can be performed with the aid of linear or nonlinear statistics using appropriate prediction algorithms. In this contribution, speech features are treated using the results of a nonlinear prediction based on Volterra series. Features are investigated representing the prediction gain by nonlinear statistics and representing individual coefficients of the nonlinear components. The features are estimated quasi continuously resulting in a feature signal. Additionally, to obtain features which are highly sensitive to segmentation shifting, an asymmetric window function is integrated into the prediction algorithm. The analyses of speech signals show that the estimated features correlate with the glottal pulses. Furthermore, the investigations show that using the first individual nonlinear coefficient as a feature is advantageous over using the prediction gain.\n",
+    ""
+   ]
+  },
+  "pernia07_nolisp": {
+   "authors": [
+    [
+     "O.",
+     "Pernía"
+    ],
+    [
+     "J. M.",
+     "Gúrriz"
+    ],
+    [
+     "J.",
+     "Ramírez"
+    ],
+    [
+     "C. G.",
+     "Puntonet"
+    ],
+    [
+     "I.",
+     "Turias"
+    ]
+   ],
+   "title": "An efficient VAD based on a generalized Gaussian PDF",
+   "original": "nol7_120",
+   "page_count": 4,
+   "order": 31,
+   "p1": "120",
+   "pn": "123",
+   "abstract": [
+    "The emerging applications of wireless speech communication are demanding increasing levels of performance in noise adverse environments together with the design of high response rate speech processing systems. This is a serious obstacle to meet the demands of modern applications and therefore these systems often needs a noise reduction algorithm working in combination with a precise voice activity detector (VAD). This paper presents a new voice activity detector (VAD) for improving speech detection robustness in noisy environments and the performance of speech recognition systems. The algorithm defines an optimum likelihood ratio test (LRT) involving Multiple and correlated Observations (MCO). An analysis of the methodology for N = {2, 3} shows the robustness of the proposed approach by means of a clear reduction of the classification error as the number of observations is increased. The algorithm is also compared to different VAD methods including the G.729, AMR and AFE standards, as well as recently reported algorithms showing a sustained advantage in speech/non-speech detection accuracy and speech recognition performance.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Papers",
+   "papers": [
+    "dalessandro07_nolisp",
+    "mandic07_nolisp"
+   ]
+  },
+  {
+   "title": "Contributed Papers",
+   "papers": [
+    "gonzalvo07_nolisp",
+    "atas07_nolisp",
+    "iriondo07_nolisp",
+    "faundezzanuy07_nolisp",
+    "charbuillet07_nolisp",
+    "stoll07_nolisp",
+    "ulug07_nolisp",
+    "gerber07_nolisp",
+    "errity07_nolisp",
+    "domont07_nolisp",
+    "keshet07_nolisp",
+    "garciamoral07_nolisp",
+    "gravier07_nolisp",
+    "selouani07_nolisp",
+    "gomez07_nolisp",
+    "richmond07_nolisp",
+    "alvarez07_nolisp",
+    "drepper07_nolisp",
+    "paraskevas07_nolisp",
+    "benaicha07_nolisp",
+    "faraji07_nolisp",
+    "espanaboquera07_nolisp",
+    "yang07_nolisp",
+    "liu07_nolisp",
+    "faraji07b_nolisp",
+    "silva07_nolisp",
+    "bouzid07_nolisp",
+    "schnell07_nolisp",
+    "pernia07_nolisp"
+   ]
+  }
+ ]
+}

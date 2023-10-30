@@ -1,0 +1,583 @@
+{
+ "title": "ITRW on Statistical and Perceptual Audio Processing (SAPA 2004)",
+ "location": "ICC Jeju, Korea",
+ "startDate": "3/10/2004",
+ "endDate": "3/10/2004",
+ "conf": "SAPA",
+ "year": "2004",
+ "name": "sapa_2004",
+ "series": "SAPA",
+ "SIG": "",
+ "title1": "ITRW on Statistical and Perceptual Audio Processing",
+ "title2": "(SAPA 2004)",
+ "date": "3 October 2004",
+ "papers": {
+  "reyesgomez04_sapa": {
+   "authors": [
+    [
+     "Manuel",
+     "Reyes-Gomez"
+    ],
+    [
+     "Nebojsa",
+     "Jojic"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ]
+   ],
+   "title": "Towards single-channel unsupervised source separation of speech mixtures: the layered harmonics/formants separation-tracking model",
+   "original": "sap4_137",
+   "page_count": 6,
+   "order": 1,
+   "p1": "paper 137",
+   "pn": "",
+   "abstract": [
+    "Speaker models for blind source separation are typically based on HMMs consisting of vast numbers of states to capture source spectral variation, and trained on large amounts of isolated speech. Since observations can be similar between sources, inference relies on sequential constraints from the state transition matrix which are, however, quite weak. To avoid these problems, we propose a strategy of capturing local deformations of the time-frequency energy distribution. Since consecutive spectral frames are highly correlated, each frame can be accurately described as a nonuniform deformation of its predecessor. A smooth pattern of deformations is indicative of a single speaker, and the cliffs in the deformation fields may indicate a speaker switch. Further, the log-spectrum of speech can be decomposed into two additive layers, separately describing the harmonics and formant structure. We model smooth deformations as hidden transformation variables in both layers, using MRFs with overlapping subwindows as observations, assumed to be a noisy sum of the two layers. Loopy belief propagation provides for efficient inference. Without any pre-trained speech or speaker models, this approach can be used to fill in missing time-frequency observations, and the local entropy of the deformation fields indicate source boundaries for separation.\n",
+    ""
+   ]
+  },
+  "reddy04_sapa": {
+   "authors": [
+    [
+     "Aarthi M.",
+     "Reddy"
+    ],
+    [
+     "Bhiksha",
+     "Raj"
+    ]
+   ],
+   "title": "Soft mask estimation for single channel speaker separation",
+   "original": "sap4_158",
+   "page_count": 6,
+   "order": 2,
+   "p1": "paper 158",
+   "pn": "",
+   "abstract": [
+    "The problem of single channel speaker separation, attempts to extract a speech signal uttered by the speaker of interest from a signal containing a mixture of auditory signals. Most algorithms that deal with this problem, are based on masking, where reliable components from the mixed signal spectrogram are inversed to obtain the speech signal from speaker of interest. As of now, most techniques, estimate this mask in a binary fashion, resulting in a hard mask. We present a technique to estimate a soft mask that weights the frequency sub-bands of the mixed signal. The speech signal can then be reconstructed from the estimated power spectrum of the speaker of interest. Experimental results shown in this paper, prove that the results are better than those obtained by estimating the hard mask.\n",
+    ""
+   ]
+  },
+  "winter04_sapa": {
+   "authors": [
+    [
+     "Stefan",
+     "Winter"
+    ],
+    [
+     "Hiroshi",
+     "Sawada"
+    ],
+    [
+     "Shoko",
+     "Araki"
+    ],
+    [
+     "Shoji",
+     "Makino"
+    ]
+   ],
+   "title": "Hierarchical clustering applied to overcomplete BSS for convolutive mixtures",
+   "original": "sap4_48",
+   "page_count": 6,
+   "order": 3,
+   "p1": "paper 48",
+   "pn": "",
+   "abstract": [
+    "In this paper we address the problem of overcomplete BSS for convolutive mixtures following a two-step approach. In the first step the mixing matrix is estimated, which is then used to separate the signals in the second step. For estimating the mixing matrix we propose an algorithm based on hierarchical clustering, assuming that the source signals are suffi- ciently sparse. It has the advantage of working directly on the complex valued sample data in the frequency-domain. It also shows better convergence than algorithms based on selforganizing maps. The results are improved by reducing the variance of direction of arrival. Experiments show accurate estimations of the mixing matrix and very low musical tone noise even in reverberant environment.\n",
+    ""
+   ]
+  },
+  "virtanen04_sapa": {
+   "authors": [
+    [
+     "Tuomas",
+     "Virtanen"
+    ]
+   ],
+   "title": "Separation of sound sources by convolutive sparse coding",
+   "original": "sap4_55",
+   "page_count": 6,
+   "order": 4,
+   "p1": "paper 55",
+   "pn": "",
+   "abstract": [
+    "An algorithm for the separation of sound sources is presented. Each source is parametrized as a convolution between a time-frequency magnitude spectrogam and an onset vector. The source model is able to represent several types of sounds, for example repetitive drum sounds and harmonic sounds with modulations. An iterative algorithm is proposed for the estimation the parameters. The algorithm is based on minimizing the reconstruction error and the number of onsets. The number of onsets is minimized by applying the sparse coding scheme for onset vectors. A way of modeling the loudness perception of the human auditory system is proposed. The method compresses high-energy sources, and enables the separation of lowenergy sources which are perceptually significant. The algorithm is able to separate meaningful sources from real-world signals. Simulation experiments were carried out using mixtures of harmonic instruments. Demonstration signals are available at http://www.cs.tut.fi/~tuomasv/demopage.html .\n",
+    ""
+   ]
+  },
+  "asano04_sapa": {
+   "authors": [
+    [
+     "Futoshi",
+     "Asano"
+    ],
+    [
+     "Hideki",
+     "Asoh"
+    ]
+   ],
+   "title": "Sound source localization and separation based on the EM algorithm",
+   "original": "sap4_37",
+   "page_count": 6,
+   "order": 5,
+   "p1": "paper 37",
+   "pn": "",
+   "abstract": [
+    "A method of sound localization using the EM algorithm has been proposed by Feder and Weinstein [1] and Miller and Fuhrmann [2]. In this paper, the signal separation aspect of this algorithm is analyzed and is extended so that it can be applied to separation of signals from moving sound sources.\n",
+    "s\n",
+    "M. Feder and E. Weinstein, \"Parameter estimation of superimposed signals using the EM algorithm,\" IEEE Trans. Acoust. Speech, Signal Processing, vol. 36, no. 4, pp. 477-489, 1988.\n",
+    "M. Miller and D. Fuhrmann, \"Maximum-likelihood narrowband direction finding and the EM algorithm,\" IEEE Trans. Acoust. Speech, Signal Processing, vol. 38, no. 9, pp. 1560-1577, 1990.\n",
+    ""
+   ]
+  },
+  "lathoud04_sapa": {
+   "authors": [
+    [
+     "Guillaume",
+     "Lathoud"
+    ],
+    [
+     "Iain A.",
+     "McCowan"
+    ]
+   ],
+   "title": "A sector-based approach for localization of multiple speakers with microphone arrays",
+   "original": "sap4_93",
+   "page_count": 6,
+   "order": 6,
+   "p1": "paper 93",
+   "pn": "",
+   "abstract": [
+    "Microphone arrays are useful in meeting rooms, where speech needs to be acquired and segmented. For example, automatic speech segmentation allows enhanced browsing experience, and facilitates automatic analysis of large amounts of data. Spontaneous multi-party speech includes many overlaps between speakers; moreover other audio sources such as laptops and projectors can be active. For these reasons, locating multiple wideband sources in a reasonable amount of time is highly desirable. In existing multisource localization approaches, search initialization is very often an issue left open. We propose here a methodology for estimating speech activity in a given sector of the space rather than at a particular point. In experiments on more than one hour of speech from real meeting room multisource recordings, including loudspeakers as well as human speakers, we show that the sector-based approach greatly reduces the search space. At the same time, it achieves effective localization of multiple concurrent speakers.\n",
+    ""
+   ]
+  },
+  "hermansky04_sapa": {
+   "authors": [
+    [
+     "Hynek",
+     "Hermansky"
+    ]
+   ],
+   "title": "Stochastic techniques in deriving perceptual knowledge",
+   "original": "sap4_136",
+   "page_count": 6,
+   "order": 7,
+   "p1": "paper 136",
+   "pn": "",
+   "abstract": [
+    "The paper argues on examples of selected past works that stochastic and knowledge-based approaches to automatic speech recognition do not contradict each other. Frequency resolution of human hearing decreases with increasing frequency. Spectral basis designed for optimal discrimination among different phonemes of speech have similar property. Further, human hearing is most sensitive to modulations with frequency around 4 Hz. Filters on feature trajectories, designed for optimal discrimination among phonemes of speech are bandpass with central frequency around 4 Hz.\n",
+    ""
+   ]
+  },
+  "yeh04_sapa": {
+   "authors": [
+    [
+     "Chunghsin",
+     "Yeh"
+    ],
+    [
+     "Axel",
+     "Röbel"
+    ]
+   ],
+   "title": "Physical principles driven joint evaluation of multiple <i>f</i><sub>0</sub> hypotheses",
+   "original": "sap4_109",
+   "page_count": 6,
+   "order": 8,
+   "p1": "paper 109",
+   "pn": "",
+   "abstract": [
+    "This article is concerned with the estimation of fundamental frequencies in polyphonic signals for the case when the number of sources is known. We propose a new method for joint evaluation of multiple F0 hypotheses based on three physical principles: harmonicity, spectral smoothness and synchronous amplitude evolution within a single source, which are closely related to source segregation in auditory scene analysis. Given the observed spectrum a set of hypothetic partial sequences is derived and an optimal assignment of the observed peaks to the hypothetic sources and noise is performed. Hypothetic partial sequences are then evaluated by a new score function which formulates the guiding principles in a mathematical manner. The algorithm has been tested on a large collection of artificially mixed polyphonic samples and the encouraging results demonstrate the competitive performance of the proposed method.\n",
+    ""
+   ]
+  },
+  "nakatani04_sapa": {
+   "authors": [
+    [
+     "Tomohiro",
+     "Nakatani"
+    ],
+    [
+     "Keisuke",
+     "Kinoshita"
+    ],
+    [
+     "Masato",
+     "Miyoshi"
+    ],
+    [
+     "Parham S.",
+     "Zolfaghari"
+    ]
+   ],
+   "title": "Harmonicity based blind dereverberation with time warping",
+   "original": "sap4_53",
+   "page_count": 6,
+   "order": 9,
+   "p1": "paper 53",
+   "pn": "",
+   "abstract": [
+    "Speech dereverberation is desirable in applications such as robust automatic speech recognition (ASR) in the real world. Although a number of dereverberation methods have been exploited, dereverberation is still a challenging problem especially when using a single microphone. To overcome this problem, a harmonicity based dereverberation method (HERB) has recently been proposed. HERB can blindly estimate the inverse filter of a room impulse response based on harmonicity of speech signals and dereverberate the signals. However, HERB uses an imprecise assumption that hinders the dereverberation performance, that is, the fundamental frequency (F0) of a speech signal is assumed to be constant within a short time frame when extracting the features of harmonic components. In this paper, we introduce time warping analysis into HERB to remove this bottleneck. Time warping analysis expands and contracts the time axis of a signal in order to make the F0 of the signal constant, and makes it possible to estimate harmonic components precisely even when their frequencies change rapidly. We show that time warping analysis can effectively improve the dereverberation effect of HERB when the reverberation time is longer than 0.1 sec.\n",
+    ""
+   ]
+  },
+  "hu04_sapa": {
+   "authors": [
+    [
+     "Guoning",
+     "Hu"
+    ],
+    [
+     "DeLiang",
+     "Wang"
+    ]
+   ],
+   "title": "Auditory segmentation based on event detection",
+   "original": "sap4_62",
+   "page_count": 6,
+   "order": 10,
+   "p1": "paper 62",
+   "pn": "",
+   "abstract": [
+    "Acoustic signals from different sources in a natural environment form an auditory scene. Auditory scene analysis (ASA) is the process in which the auditory system segregates an auditory scene into streams corresponding to different sources. Segmentation is an important stage of ASA where an auditory scene is decomposed into segments, each of which contains signal mainly from one source. We propose a system for auditory segmentation based on analyzing onsets and offsets of auditory events. Our system first detects onsets and offsets, and then generates segments by matching corresponding onsets and offsets. This is achieved through a multiscale approach based on scale-space theory. Systematic evaluation shows that much target speech, including unvoiced speech, is correctly segmented, and target speech and interference are well separated into different segments.\n",
+    ""
+   ]
+  },
+  "ellis04_sapa": {
+   "authors": [
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ],
+    [
+     "Keansub",
+     "Lee"
+    ]
+   ],
+   "title": "Features for segmenting and classifying long-duration recordings of \"personal\" audio",
+   "original": "sap4_106",
+   "page_count": 6,
+   "order": 11,
+   "p1": "paper 106",
+   "pn": "",
+   "abstract": [
+    "A digital recorder weighing ounces and able to record for more than ten hours can be bought for a few hundred dollars. Such devices make possible continuous recordings of \"personal audio\" - storing essentially everything heard by the owner. Without automatic indexing, however, such recordings are almost useless. In this paper, we describe some experiments with recordings of this kind, focusing on the problem of segmenting the recordings into different episodes corresponding to different acoustic environments experienced by the device. We describe several novel features to describe 1-minute-long frames of audio, and investigate their effectiveness at reproducing hand-labeled ground-truth segment boundaries.\n",
+    ""
+   ]
+  },
+  "athineos04_sapa": {
+   "authors": [
+    [
+     "Marios",
+     "Athineos"
+    ],
+    [
+     "Hynek",
+     "Hermansky"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ]
+   ],
+   "title": "PLP-squared: autoregressive modeling of auditory-like 2-d spectro-temporal patterns",
+   "original": "sap4_129",
+   "page_count": 5,
+   "order": 12,
+   "p1": "paper 129",
+   "pn": "",
+   "abstract": [
+    "The temporal trajectories of the spectral energy in auditory critical bands over 250 ms segments are approximated by an all-pole model, the time-domain dual of conventional linear prediction. This quarter-second auditory spectro-temporal pattern is further smoothed by iterative alternation of spectral and temporal all-pole modeling. Just as Perceptual Linear Prediction (PLP) uses an autoregressive model in the frequency domain to estimate peaks in an auditory-like short-term spectral slice, PLP2 uses all-pole modeling in both time and frequency domains to estimate peaks of a two-dimensional spectrotemporal pattern, motivated by considerations of the auditory system.\n",
+    ""
+   ]
+  },
+  "hemmert04_sapa": {
+   "authors": [
+    [
+     "Werner",
+     "Hemmert"
+    ],
+    [
+     "Marcus",
+     "Holmberg"
+    ],
+    [
+     "David",
+     "Gelbart"
+    ]
+   ],
+   "title": "Auditory-based automatic speech recognition",
+   "original": "sap4_74",
+   "page_count": 6,
+   "order": 13,
+   "p1": "paper 74",
+   "pn": "",
+   "abstract": [
+    "In this paper we develop a physiologically motivated model of peripheral auditory processing and evaluate how the different processing steps influence automatic speech recognition in noise. The model features large dynamic compression (>60 dB) and a realistic sensory cell model. The compression range was well matched to the limited dynamic range of the sensory cells and the model yielded surprisingly high recognition scores. We also developed a computationally efficient simplified model of auditory processing and found that a model of adaptation could improve recognition accuracy. Adaptation is a basic principle of neuronal processing, which accentuates signal onsets. Applying this adaptation model to melfrequency cepstral coefficient (MFCC) feature extraction enhanced recognition accuracy in noise (AURORA 2 task, averaged recognition scores) from 56.4% to 75.6% (clean training condition), a relative improvement of 41% in word error rate. Adaptation outperformed RASTA processing by more than 10%, which corresponds to a relative improvement of 31%.\n",
+    ""
+   ]
+  },
+  "hershey04_sapa": {
+   "authors": [
+    [
+     "John",
+     "Hershey"
+    ],
+    [
+     "Trausti",
+     "Kristjansson"
+    ],
+    [
+     "Zhengyou",
+     "Zhang"
+    ]
+   ],
+   "title": "Model-based fusion of bone and air sensors for speech enhancement and robust speech recognition",
+   "original": "sap4_139",
+   "page_count": 6,
+   "order": 14,
+   "p1": "paper 139",
+   "pn": "",
+   "abstract": [
+    "We present a probabilistic framework that uses a bone sensor and air microphone to perform speech enhancement for robust speech recognition. The system exploits advantages of both sensors: the noise resistance of the bone sensor, and the linearity of the air microphone. In this paper we describe the general properties of the bone sensor relative to conventional air sensors. We propose a model capable of adapting to the noise conditions, and evaluate performance using a commercial speech recognition system. We demonstrate considerable improvements in recognition - from a baseline of 57% up to nearly 80% word accuracy - for four subjects on a difficult condition with background speaker interference.\n",
+    ""
+   ]
+  },
+  "prasad04_sapa": {
+   "authors": [
+    [
+     "Rajkishore",
+     "Prasad"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "MAP estimation of speech spectral component under GGD a priori",
+   "original": "sap4_115",
+   "page_count": 6,
+   "order": 15,
+   "p1": "paper 115",
+   "pn": "",
+   "abstract": [
+    "This paper presents Maximum A Posteriori (MAP) estimation of the spectral components of clean speech from the observed data noised by the additive background noise having Gaussian or non-Gaussian statistical distribution. In the proposed algorithm MAP estimator for the spectral components of clean signal is derived using Generalized Gaussian Distribution (GGD) function as a priori statistical models for the spectral components of speech as well as noise. Since the spikiness of the GGD can be controlled by the shape parameter, it is possible to model Gaussian as well as non-Gaussian noise, corrupting the speech signal. The enhancement results for the speech signal corrupted by the Gaussian noise and non- Gaussian noise are presented to show the usefulness of the estimator. Denoising performance for the Laplacian noise and white Gaussian noise have also been compared with that of the conventional Wiener filtering, which assumes Gaussian distributions for both the speech and noise.\n",
+    ""
+   ]
+  },
+  "obuchi04_sapa": {
+   "authors": [
+    [
+     "Yasunari",
+     "Obuchi"
+    ]
+   ],
+   "title": "Multiple-microphone robust speech recognition using decoder-based channel selection",
+   "original": "sap4_52",
+   "page_count": 4,
+   "order": 16,
+   "p1": "paper 52",
+   "pn": "",
+   "abstract": [
+    "In this paper, we focus on speech recognition using multiple microphones with varying quality. The quality of one channel may be much better than other channels and even the output of standard microphone array techniques such as the delay-and-sum beamformer. Therefore, it is important to find a good indicator to select a channel for recognition. This paper introduces Decoder-Based Channel Selection (DBCS) that gives a criterion to evaluate the quality of each channel by comparing the speech recognition hypotheses made from compensated and uncompensated feature vectors. We evaluate the performance of DBCS using speech data recorded by a PDA-like mockup. DBCS with Delta-Cepstrum Normalization for single channel compensation provides significant improvement compared to the delay-and-sum beamformer. In addition, the concept of DBCS is extended to the delayand- sum beamformer outputs of various subset of microphones. This extension gives some additional improvement of the speech recognition accuracy.\n",
+    ""
+   ]
+  },
+  "prodanov04_sapa": {
+   "authors": [
+    [
+     "Plamen",
+     "Prodanov"
+    ],
+    [
+     "Andrzej",
+     "Drygajlo"
+    ]
+   ],
+   "title": "Bayesian networks for error handling through multimodality fusion in spoken dialogues with mobile robots",
+   "original": "sap4_70",
+   "page_count": 6,
+   "order": 17,
+   "p1": "paper 70",
+   "pn": "",
+   "abstract": [
+    "In this paper, we introduce Bayesian networks architecture for combining speech-based information with that from another modality for error handling in human-robot dialogue system. In particular, we report on experiments interpreting speech and laser scanner signals in the dialogue management system of the autonomous tour-guide robot RoboX, successfully deployed at the Swiss National Exhibition (Expo.02). A correct interpretation of the users (visitors) goal or intention at each dialogue state under the uncertainty intrinsic to speech recognition accuracy is a key issue for successful voiceenabled communication between tour-guide robots and visitors. Bayesian networks are used to infer the goal of the user in presence of recognition errors, fusing speech recognition results along with information about the acoustic conditions and data from a laser scanner, which is independent of acoustic noise. Experiments with real-world data, collected during the operation of RoboX at Expo.02 demonstrate the effectiveness of the approach in adverse environment. The proposed architecture makes it possible to model error handling processes in spoken dialogue systems, which include complex combination of different multimodal information sources in cases where such information is available.\n",
+    ""
+   ]
+  },
+  "paula04_sapa": {
+   "authors": [
+    [
+     "Hugo de",
+     "Paula"
+    ],
+    [
+     "Hani",
+     "Yehia"
+    ],
+    [
+     "Mauricio A.",
+     "Loureiro"
+    ]
+   ],
+   "title": "Representation and classification of the timbre space of a single musical instrument",
+   "original": "sap4_86",
+   "page_count": 6,
+   "order": 18,
+   "p1": "paper 86",
+   "pn": "",
+   "abstract": [
+    "In order to map the spectral characteristics of the great variety of sounds a musical instrument may produce, different notes were performed and sampled in several intensity levels across the whole extension of a clarinet. Amplitude and frequency time-varying curves of partials were measured by Discrete Fourier Transform. A limited set of orthogonal spectral bases was derived by Principal Component Analysis techniques. These bases defined spectral sub-spaces capable of representing all tested sounds, which were validated by auditory tests. Sub-spaces involving larger groups of notes were used to compare the sounds according to the distance metrics of the representation. A clustering algorithm was used to infer timbre classes. Preliminary tests with resynthesized sounds with normalized pitch showed a clear relation between the perceived timbre and the cluster label to which the notes were assigned.\n",
+    ""
+   ]
+  },
+  "sagayama04_sapa": {
+   "authors": [
+    [
+     "Shigeki",
+     "Sagayama"
+    ],
+    [
+     "Keigo",
+     "Takahashi"
+    ],
+    [
+     "Hirokazu",
+     "Kameoka"
+    ],
+    [
+     "Takuya",
+     "Nishimoto"
+    ]
+   ],
+   "title": "Specmurt anasylis: a piano-roll-visualization of polyphonic music signal by deconvolution of log-frequency spectrum",
+   "original": "sap4_128",
+   "page_count": 4,
+   "order": 19,
+   "p1": "paper 128",
+   "pn": "",
+   "abstract": [
+    "In this paper, we propose a new signal processing technique, \"specmurt anasylis,\" that provides piano-rolllike visual display of multi-tone signals (e.g., polyphonic music). Specmurt is defined as inverse Fourier transform of linear spectrum with logarithmic frequency, unlike familiar cepstrum defined as inverse Fourier transform of logarithmic spectrum with linear frequency. We apply this technique to music signals frencyque anasylis using specmurt filreting instead of quefrency alanysis using cepstrum liftering. Suppose that each sound contained in the multi-pitch signal has exactly the same harmonic structure pattern (i.e., the energy ratio of harmonic components), in logarithmic frequency domain the overall shape of the multi-pitch spectrum is a superposition of the common spectral patterns with different degrees of parallel shift. The overall shape can be expressed as a convolution of a fundamental frequency pattern (degrees of parallel shift and power) and the common harmonic structure pattern. The fundamental frequency pattern is restored by division of the inverse Fourier transform of a given log-frequency spectrum, i.e., specmurt, by that of the common harmonic structure pattern. The proposed method was successfully tested on several pieces of music recordings.\n",
+    ""
+   ]
+  },
+  "yoshii04_sapa": {
+   "authors": [
+    [
+     "Kazuyoshi",
+     "Yoshii"
+    ],
+    [
+     "Masataka",
+     "Goto"
+    ],
+    [
+     "Hiroshi G.",
+     "Okuno"
+    ]
+   ],
+   "title": "Drum sound identification for polyphonic music using template adaptation and matching methods",
+   "original": "sap4_51",
+   "page_count": 6,
+   "order": 20,
+   "p1": "paper 51",
+   "pn": "",
+   "abstract": [
+    "This paper describes drum sound identification for polyphonic musical audio signals. It is difficult to identify drum sounds in such signals because acoustic features of those sounds vary with each musical piece and precise templates for them cannot be prepared in advance. To solve this problem, we propose new template-adaptation and templatematching methods. The former method adapts a single seed template prepared for each kind of drums to the corresponding drum sound appearing in an actual musical piece containing sounds of various musical instruments. The latter method then uses a carefully-designed distance measure that can detect all the onset times of each drum in the same piece by using the corresponding adapted template. The onset times of bass and snare drums in any piece can thus be identified even if their timbres are different from prepared templates. Experimental results with our methods showed that the accuracy of identifying bass and snare drums in popular music was about 90%.\n",
+    ""
+   ]
+  },
+  "ryynanen04_sapa": {
+   "authors": [
+    [
+     "Matti P.",
+     "Ryynänen"
+    ],
+    [
+     "Anssi P.",
+     "Klapuri"
+    ]
+   ],
+   "title": "Modelling of note events for singing transcription",
+   "original": "sap4_40",
+   "page_count": 6,
+   "order": 21,
+   "p1": "paper 40",
+   "pn": "",
+   "abstract": [
+    "This paper concerns the automatic transcription of music and proposes a method for transcribing sung melodies. The method produces symbolic notations (i.e., MIDI files) from acoustic inputs based on two probabilistic models: a note event model and a musicological model. Note events are described with a hidden Markov model (HMM) using four musical features: pitch, voicing, accent, and metrical accent. The model uses these features to calculate the likelihoods of different notes and performs note segmentation. The musicological model applies key estimation and the likelihoods of two-note and three-note sequences to determine transition likelihoods between different note events. These two models form a melody transcription system with a modular architecture which can be extended with desired front-end feature extractors and musicological rules. The system transcribes correctly over 90 % of notes, thus halving the amount of errors compared to a simple rounding of pitch estimates to the nearest MIDI note.\n",
+    ""
+   ]
+  },
+  "smaragdis04_sapa": {
+   "authors": [
+    [
+     "Paris",
+     "Smaragdis"
+    ]
+   ],
+   "title": "Discovering auditory objects through non-negativity constraints",
+   "original": "sap4_161",
+   "page_count": 6,
+   "order": 22,
+   "p1": "paper 161",
+   "pn": "",
+   "abstract": [
+    "We present a novel method for discovering auditory objects from scenes in a self-organized manner. Our approach is using non-negativity constraints to find the building elements of a monaural auditory input. Surprisingly, although devoid of any statistical measures, this approach discovers independent elements in the scene similarly to previously reported methods employing ICA algorithms. The use of non-negativity constraints makes this work best suited for spectral magnitude analysis and provides a fairly robust method for discovery and extraction of auditory objects from scenes.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Session I",
+   "papers": [
+    "reyesgomez04_sapa",
+    "reddy04_sapa",
+    "winter04_sapa",
+    "virtanen04_sapa",
+    "asano04_sapa",
+    "lathoud04_sapa"
+   ]
+  },
+  {
+   "title": "Session II",
+   "papers": [
+    "hermansky04_sapa",
+    "yeh04_sapa",
+    "nakatani04_sapa",
+    "hu04_sapa",
+    "ellis04_sapa"
+   ]
+  },
+  {
+   "title": "Session III",
+   "papers": [
+    "athineos04_sapa",
+    "hemmert04_sapa",
+    "hershey04_sapa",
+    "prasad04_sapa",
+    "obuchi04_sapa",
+    "prodanov04_sapa"
+   ]
+  },
+  {
+   "title": "Session IV",
+   "papers": [
+    "paula04_sapa",
+    "sagayama04_sapa",
+    "yoshii04_sapa",
+    "ryynanen04_sapa",
+    "smaragdis04_sapa"
+   ]
+  }
+ ]
+}

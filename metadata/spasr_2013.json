@@ -1,0 +1,482 @@
+{
+ "title": "Speech Production in Automatic Speech Recognition (SPASR-2013)",
+ "location": "Lyon, France",
+ "startDate": "30/8/2013",
+ "endDate": "30/8/2013",
+ "conf": "SPASR",
+ "year": "2013",
+ "name": "spasr_2013",
+ "series": "",
+ "SIG": "",
+ "title1": "Speech Production in Automatic Speech Recognition",
+ "title2": "(SPASR-2013)",
+ "date": "30 August 2013",
+ "booklet": "spasr_2013.pdf",
+ "papers": {
+  "narayanan13_spasr": {
+   "authors": [
+    [
+     "Shrikanth S.",
+     "Narayanan"
+    ]
+   ],
+   "title": "Measuring and using speech production information",
+   "original": "spa3_001",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available, presentation only]\n",
+    ""
+   ]
+  },
+  "espywilson13_spasr": {
+   "authors": [
+    [
+     "Carol",
+     "Espy-Wilson"
+    ]
+   ],
+   "title": "The invariant property of gestures",
+   "original": "spa3_002",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Variability in speech particularly as a consequence of production rate is still a great challenge in the development of automatic speech recognition (ASR) systems that perform well with minimal constraints. Articulatory Phonology provides a unified framework for understanding the resulting acoustic consequences of changes in speech production due to gestural overlap and gestural reduction that are often reported as assimilations, insertions, deletions and substitutions. In this talk, I will discuss the development of our speech inversion system, and its ability to extract vocal tract constriction variables and, hence, gestures from speech spoken at different speaking rates. We have conducted several studies to show that augmenting acoustic features with such articulatory information improves the robustness of ASR systems in noise. An additional goal is to provide a framework that models in a seamless way speech variability due to coarticulation and lenition.\n",
+    ""
+   ]
+  },
+  "rudzicz13_spasr": {
+   "authors": [
+    [
+     "Frank",
+     "Rudzicz"
+    ]
+   ],
+   "title": "Completing the noisy circuit - systems of feedback in models of dysarthria",
+   "original": "spa3_003",
+   "page_count": 0,
+   "order": 3,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available, presentation only]\n",
+    ""
+   ]
+  },
+  "richmond13_spasr": {
+   "authors": [
+    [
+     "Korin",
+     "Richmond"
+    ]
+   ],
+   "title": "On measuring and estimating speech articulation",
+   "original": "spa3_004",
+   "page_count": 0,
+   "order": 4,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available, presentation only]\n",
+    ""
+   ]
+  },
+  "denby13_spasr": {
+   "authors": [
+    [
+     "Bruce",
+     "Denby"
+    ]
+   ],
+   "title": "Down with sound - the story of silent speech",
+   "original": "spa3_005",
+   "page_count": 0,
+   "order": 5,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available, presentation only]\n",
+    ""
+   ]
+  },
+  "schuppler13_spasr": {
+   "authors": [
+    [
+     "Barbara",
+     "Schuppler"
+    ],
+    [
+     "Joost van",
+     "Doremalen"
+    ],
+    [
+     "Odette",
+     "Scharenborg"
+    ],
+    [
+     "Bert",
+     "Cranen"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ]
+   ],
+   "title": "The challenge of manner classification in conversational speech",
+   "original": "spa3_011",
+   "page_count": 5,
+   "order": 6,
+   "p1": "11",
+   "pn": "15",
+   "abstract": [
+    "In recent years, acoustic-phonetic features (APF) have received great interest as a replacement for phones in automatic speech recognition (ASR) systems. Many studies have focused on improving feature sets and acoustic parameters to describe the APFs. Invariably, these are developed and tested on a limited number of well-researched databases containing read speech. When tested on conversational speech data, these improved APFs and acoustic parameter sets, however, do not show the same improvement. In two experiments, we show that this approach does not work because some of the basic assumptions (here: segmentation in terms of phones) that work well for read speech do not work for conversational speech. More generally speaking, our studies suggest that we need to take the nature of our application data into account already when building the concepts, when defining the basic assumptions of a method, and not only when applying the method to the application data.\n",
+    "Index Terms: acoustic-phonetic feature classification, conversational speech, support vector machines\n",
+    ""
+   ]
+  },
+  "ramanarayanan13_spasr": {
+   "authors": [
+    [
+     "Vikram",
+     "Ramanarayanan"
+    ],
+    [
+     "Maarten Van",
+     "Segbroeck"
+    ],
+    [
+     "Shrikanth S.",
+     "Narayanan"
+    ]
+   ],
+   "title": "On the nature of data-driven primitive representations of speech articulation",
+   "original": "spa3_016",
+   "page_count": 6,
+   "order": 7,
+   "p1": "16",
+   "pn": "21",
+   "abstract": [
+    "A long standing view in speech production research posits that articulatory representations are low dimensional. Conceptual and computational models have been built based on this view. In this work we explore the nature of low dimensional representations derived directly from articulatory signals based on sparsity constraints. Specifically, we present a method to examine how well derived representations of “primitive movements” of speech articulation can be used to classify broad phone categories. We first extract these spatiotemporal primitives from a data matrix of human speech articulation data using a weakly-supervised learning method that attempts to find a part-based representation of the data in terms of basis units (or primitives) and their corresponding activations over time. For each phone interval, we then derive a feature representation that captures the co-occurrences between the activations of the various bases over different timelags. We show that this feature, derived entirely from activations of these primitive movements, is able to achieve an accuracy of about 80% on an interval-based phone classification task. We discuss the implications of these findings in furthering our understanding of speech signal representations.\n",
+    "Index Terms— speech communication, movement primitives, phone classification, motor theory, information transfer.\n",
+    ""
+   ]
+  },
+  "magimaidoss13_spasr": {
+   "authors": [
+    [
+     "Mathew",
+     "Magimai-Doss"
+    ],
+    [
+     "Ramya",
+     "Rasipuram"
+    ]
+   ],
+   "title": "On using articulatory features in posterior-based ASR system: representation, estimation and integration",
+   "original": "spa3_022",
+   "page_count": 2,
+   "order": 8,
+   "p1": "22",
+   "pn": "23",
+   "abstract": [
+    "Articulatory features describe the properties of speech production, i.e., each sound unit of a language (phone) can be decomposed into a set of features based on the articulators used to produce the sound. Articulatory features (AFs) have been used for automatic speech recognition (ASR) with the aim of better pronunciation modeling, robustness to noise, multilingual and cross-lingual portability of the systems etc. In case of text-to-speech (TTS) conversion systems AFs are explored to achieve emotional speech synthesis. ASR or TTS using AFs poses three main challenges: firstly, the type of AF representation; secondly, the estimation of AFs from the acoustic signal; and finally, the integration into conventional hidden Markov model (HMM) based ASR framework.\n",
+    "The goal of this presentation is to present recent advances made at Idiap Research Institute in addressing the above mentioned challenges in the context of ASR, and open the discussion on natural extension of the work presented here such as, graphemebased ASR, generation of AF based dictionaries, templatebased ASR using AFs, use of deep learning approaches to improve AF estimation].\n",
+    ""
+   ]
+  },
+  "juneja13_spasr": {
+   "authors": [
+    [
+     "Amit",
+     "Juneja"
+    ],
+    [
+     "Mark",
+     "Hasegawa-Johnson"
+    ]
+   ],
+   "title": "Experiments on context awareness and phone error propagation in human and machine speech recognition",
+   "original": "spa3_024",
+   "page_count": 5,
+   "order": 9,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "A comparison of human speech recognition (HSR) and automatic speech recognition (ASR) is presented using a noisy continuous-speech corpus of null grammar or uniformly distributed unigram sentences, focusing on the differential tendency of machines vs. humans to propagate errors from an unclear phone to its neighbors. It is shown using controlled experiments that when given the same context for recognition - in this case a vocabulary of a limited number of known words - ASR makes as much as an order of magnitude more errors than HSR. The study provides evidence to contradict the claim made in recent literature that narrowing down the context of conversation and modeling of exceptional ordering of words is vital in achieving human-like accuracy by ASR. Using Chebyshev confidence intervals it is shown that ASR, but not HSR, propagates a phone recognition error from the phone to its neighbors at a rate significantly higher than chance.\n",
+    "Index Terms: automatic speech recognition, human speech recognition, null grammar, phone errors\n",
+    ""
+   ]
+  },
+  "canevari13_spasr": {
+   "authors": [
+    [
+     "Claudia",
+     "Canevari"
+    ],
+    [
+     "Leonardo",
+     "Badino"
+    ],
+    [
+     "Luciano",
+     "Fadiga"
+    ],
+    [
+     "Giorgio",
+     "Metta"
+    ]
+   ],
+   "title": "Cross-corpus and cross-linguistic evaluation of a speaker-dependent DNN-HMM ASR system using EMA data",
+   "original": "spa3_029",
+   "page_count": 5,
+   "order": 10,
+   "p1": "29",
+   "pn": "33",
+   "abstract": [
+    "We test an hybrid Deep Neural Network - Hidden Markov Model (DNN-HMM) phone recognition system that uses measured articulatory features as additional observations on two English corpora and an Italian corpus. The three corpora contain simultaneous recordings of speech acoustics and EMA (Electromagnetic Articulograph) data. We show that the additional articulatory features reconstructed from speech acoustics through an Acoustic-to-Articulatory Mapping, always produce a phone error reduction, with the exception of one single case where, however, the reconstruction accuracy of the articulatory features is significantly lower than in all other cases. Error analysis shows that in all corpora the articulatory features positively affect the discrimination of almost all phonemes although some phonemic categories are clearly more affected than others.\n",
+    "Index Terms: Acoustic-to-Articulatory Mapping, Electromagnetic articulograph, EMA, Deep Neural Networks, phone recognition\n",
+    ""
+   ]
+  },
+  "li13_spasr": {
+   "authors": [
+    [
+     "Ming",
+     "Li"
+    ],
+    [
+     "Adam",
+     "Lammert"
+    ],
+    [
+     "Jangwon",
+     "Kim"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ],
+    [
+     "Shrikanth S.",
+     "Narayanan"
+    ]
+   ],
+   "title": "Automatic classification of palatal and pharyngealwall shape categories from speech acoustics and inverted articulatory signals",
+   "original": "spa3_034",
+   "page_count": 6,
+   "order": 11,
+   "p1": "34",
+   "pn": "39",
+   "abstract": [
+    "Inter-speaker variability is pervasive in speech, and the ability to predict sources of inter-speaker variability from acoustics can afford scientific and technological advantages. An important source of this variability is vocal tract morphology. This work proposes a statistical model-based approach to classifying the shape of the hard palate and the pharyngeal wall from speech audio. We used principal component analysis for the parameterization of the morphological shape. Analysis using K-means clustering showed that both the palate and the pharyngeal wall shape data group into two major categories. These in turn are used as targets for automatic classification using acoustic features derived at the utterance level with OpenSmile and at the model level using GMM based posterior probability supervectors. Since articulatory motions are dependent on morphological shape, the model uses estimated articulatory features on top of speech acoustics for improving the classification performance. Experimental results showed 70% and 63% unweighted accuracy for binary classifications of palate and pharyngeal wall shapes in the rtMRI database, respectively, and 63% for the palate shape on the X-Ray Microbeam database.\n",
+    "Index Terms: speech production, vocal tract morphology, acoustic-to-articulatory inversion, speaker recognition\n",
+    ""
+   ]
+  },
+  "kim13_spasr": {
+   "authors": [
+    [
+     "Yoon-Chul",
+     "Kim"
+    ],
+    [
+     "Jangwon",
+     "Kim"
+    ],
+    [
+     "Michael",
+     "Proctor"
+    ],
+    [
+     "Asterios",
+     "Toutios"
+    ],
+    [
+     "Krishna",
+     "Nayak"
+    ],
+    [
+     "Sungbok",
+     "Lee"
+    ],
+    [
+     "Shrikanth S.",
+     "Narayanan"
+    ]
+   ],
+   "title": "Toward automatic vocal tract area function estimation from accelerated three-dimensional magnetic resonance imaging",
+   "original": "spa3_040",
+   "page_count": 4,
+   "order": 12,
+   "p1": "40",
+   "pn": "43",
+   "abstract": [
+    "Vocal tract area function estimation from three-dimensional (3D) volumetric dataset often involves complex and manual procedures such as oblique slice cutting and image segmentation. We introduce a semi-automatic method for estimating vocal tract area function from 3D Magnetic Resonance Imaging (MRI) datasets. The method was implemented on a custom MATLAB graphical user interface and computes the area function in a user-interactive way. The 3D MRI datasets were acquired with 1.25 mm isotropic resolution during 8-seconds sustained sound productions of vowels /IY/, /AA/, /UW/ by one male native speaker of American English at a 3 Tesla MRI scanner.\n",
+    "Index Terms: speech production, magnetic resonance imaging, image segmentation, area function, vocal tract shape.\n",
+    ""
+   ]
+  },
+  "freitas13_spasr": {
+   "authors": [
+    [
+     "João",
+     "Freitas"
+    ],
+    [
+     "António",
+     "Teixeira"
+    ],
+    [
+     "Miguel Sales",
+     "Dias"
+    ]
+   ],
+   "title": "Multimodal silent speech interface based on video, depth, surface electromyography and ultrasonic Doppler: data collection and first recognition results",
+   "original": "spa3_044",
+   "page_count": 6,
+   "order": 13,
+   "p1": "44",
+   "pn": "49",
+   "abstract": [
+    "Silent Speech Interfaces use data from the speech production process, such as visual information of face movements. However, using a single modality limits the amount of available information. In this study we start to explore the use of multiple data input modalities in order to acquire a more complete representation of the speech production model. We have selected 4 non-invasive modalities – Visual data from Video and Depth, Surface Electromyography and Ultrasonic Doppler - and created a system that explores the synchronous combination of all 4, or of a subset of them, into a multimodal Silent Speech Interface (SSI). This paper describes the system design, data collection and first word recognition results. As the first acquired corpora are necessarily small for this SSI, we use for classification an example based recognition approach based on Dynamic Time Warping followed by a weighted k-Nearest Neighbor classifier. The first classification results using different vocabularies, with digits, a small set of commands related to Ambient Assisted Living and minimal nasal pairs, show that word recognition benefits can be obtained from a multimodal approach.\n",
+    "Index Terms: silent speech interfaces, multimodal, video and depth information\n",
+    ""
+   ]
+  },
+  "rasilo13_spasr": {
+   "authors": [
+    [
+     "Heikki",
+     "Rasilo"
+    ],
+    [
+     "Okko",
+     "Räsänen"
+    ],
+    [
+     "Bart de",
+     "Boer"
+    ]
+   ],
+   "title": "Virtual infant’s online acquisition of vowel categories and their mapping between dissimilar bodies",
+   "original": "spa3_050",
+   "page_count": 6,
+   "order": 14,
+   "p1": "50",
+   "pn": "55",
+   "abstract": [
+    "In order to understand how humans learn speech imitation without access to detailed articulatory data of other talkers, simulated speech acquisition experiments between two virtual agents were carried out with the goal of maintaining the interaction between the two as natural as possible. As an outcome, a novel model of infants’ vowel acquisition is presented. In the experimental setup, a virtual infant learns vowels in interaction with a virtual caregiver: it babbles vowels randomly, the caregiver answers every babble with an utterance that contains the vowel uttered by the infant in addition to other vocalic content, and the infant associates its own productions to the caregiver’s responses. The infant and the caregiver have different vocal tract sizes, and hence the acoustic qualities of the same vowel differ between the infant and the caregiver. The infant learns on line to map acoustic qualities of its caregiver’s speech onto its own vowel articulations, allowing for instant imitation of the caregiver’s vowel sounds when recognized. As opposed to previous computational studies of vowel acquisition, the infant does not need initial mappings, initial vowel primitives, or knowledge of the caregiver’s vowel categories.\n",
+    "Index Terms: speech acquisition, vowel learning, imitation\n",
+    ""
+   ]
+  },
+  "andrew13_spasr": {
+   "authors": [
+    [
+     "Galen",
+     "Andrew"
+    ],
+    [
+     "Raman",
+     "Arora"
+    ],
+    [
+     "Sujeeth",
+     "Bharadwaj"
+    ],
+    [
+     "Jeff",
+     "Bilmes"
+    ],
+    [
+     "Mark",
+     "Hasegawa-Johnson"
+    ],
+    [
+     "Karen",
+     "Livescu"
+    ]
+   ],
+   "title": "Using articulatory measurements to learn better acoustic features",
+   "original": "spa3_056",
+   "page_count": 2,
+   "order": 15,
+   "p1": "56",
+   "pn": "57",
+   "abstract": [
+    "We summarize recent work on learning improved acoustic features, using articulatory measurements that are available for training but not at test time. The goal is to improve recognition using articulatory information, but without explicitly solving the difficult acoustics-to-articulation inversion problem. We formulate the problem as learning a (linear or nonlinear) transformation of standard acoustic features, such that the transformed vectors are maximally correlated with some (linear or nonlinear) transformation of articulatory measurements. This formulation leads to the standard statistical technique of canonical correlation analysis (CCA) and its nonlinear extension kernel CCA. Along the way, we have developed a scalable variant of kernel CCA and a new type of nonlinear CCA via deep neural networks (deep CCA). The learned features can improve phonetic classification and recognition and generalize across speakers, and deep CCA shows promise over kernel CCA\n",
+    ""
+   ]
+  },
+  "foslerlussier13_spasr": {
+   "authors": [
+    [
+     "Eric",
+     "Fosler-Lussier"
+    ],
+    [
+     "Preethi",
+     "Jyothi"
+    ],
+    [
+     "Joseph",
+     "Keshet"
+    ],
+    [
+     "Karen",
+     "Livescu"
+    ],
+    [
+     "Rohit",
+     "Prabhavalkar"
+    ],
+    [
+     "Hao",
+     "Tang"
+    ]
+   ],
+   "title": "Discriminative learning with latent articulatory variables",
+   "original": "spa3_058",
+   "page_count": 2,
+   "order": 16,
+   "p1": "58",
+   "pn": "59",
+   "abstract": [
+    "We review our recent work, which includes several disparate approaches and tasks, all with the goal of using latent articulatory structure while learning discriminatively.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Talks",
+   "papers": [
+    "narayanan13_spasr",
+    "espywilson13_spasr",
+    "rudzicz13_spasr",
+    "richmond13_spasr",
+    "denby13_spasr"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "schuppler13_spasr",
+    "ramanarayanan13_spasr",
+    "magimaidoss13_spasr",
+    "juneja13_spasr",
+    "canevari13_spasr",
+    "li13_spasr",
+    "kim13_spasr",
+    "freitas13_spasr",
+    "rasilo13_spasr",
+    "andrew13_spasr",
+    "foslerlussier13_spasr"
+   ]
+  }
+ ]
+}

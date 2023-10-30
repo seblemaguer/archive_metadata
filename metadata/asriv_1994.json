@@ -1,0 +1,1387 @@
+{
+ "title": "ESCA Workshop on Automatic Speaker Recognition, Identification and Verification",
+ "location": "Martigny, Switzerland",
+ "startDate": "5/4/1994",
+ "endDate": "7/4/1994",
+ "conf": "ASRIV",
+ "year": "1994",
+ "name": "asriv_1994",
+ "series": "",
+ "SIG": "",
+ "title1": "ESCA Workshop on Automatic Speaker Recognition, Identification and Verification",
+ "date": "5-7 April 1994",
+ "papers": {
+  "furui94_asriv": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "An overview of speaker recognition technology",
+   "original": "sr94_001",
+   "page_count": 9,
+   "order": 1,
+   "p1": "1",
+   "pn": "10",
+   "abstract": [
+    "This paper overviews recent advances in speaker recognition technology. The first part of the paper discusses general topics and issues. Speaker recognition can be divided into speaker identification and verification, and into text-dependent and text-independent methods. The second part of the paper is devoted to discussion of more specific topics of recent interest which have led to interesting new approaches and techniques. They include parameter/distance normalization techniques, VQ-/ergodic-HMM-based text-independent recognition methods, and a text-prompted recognition method. The paper concludes with a short discussion assessing the current status and possibilities for the future.\n",
+    ""
+   ]
+  },
+  "naik94_asriv": {
+   "authors": [
+    [
+     "Jay",
+     "Naik"
+    ]
+   ],
+   "title": "Speaker verification over the telephone network: databases, algorithms and performance assessment",
+   "original": "sr94_031",
+   "page_count": 8,
+   "order": 2,
+   "p1": "31",
+   "pn": "38",
+   "abstract": [
+    "This tutorial is a survey of speaker verification technology and its applications in the telephone network. It describes the algorithms that have been developed to reliably perform personal identity verification over the telephone network. Speech databases for developing and evaluating this technology are described. Assessment of algorithm and system performance and its relevance to practical applications are discussed. Examples of practical implementations of speaker verification technology in the telephone network are also discussed.\n",
+    ""
+   ]
+  },
+  "bimbot94_asriv": {
+   "authors": [
+    [
+     "Frédéric",
+     "Bimbot"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ],
+    [
+     "Andrea",
+     "Paoloni"
+    ]
+   ],
+   "title": "Assessment methodology for speaker identification and verification systems - an overview of SAM-a esprit project 6819 - task 2500",
+   "original": "sr94_075",
+   "page_count": 8,
+   "order": 3,
+   "p1": "75",
+   "pn": "82",
+   "abstract": [
+    "This article summarizes the reflexion carried out during the first phase of SAM-A Esprit project (819, on the topic of assessment methodology for speaker identification and verification systems (task 2500). We underline the need of standard evaluation protocols and we propose several ideas to reach this goal.\n",
+    ""
+   ]
+  },
+  "bennani94_asriv": {
+   "authors": [
+    [
+     "Younès",
+     "Bennani"
+    ],
+    [
+     "Patrick",
+     "Gallinari"
+    ]
+   ],
+   "title": "Connectionist approaches for automatic speaker recognition",
+   "original": "sr94_095",
+   "page_count": 8,
+   "order": 4,
+   "p1": "95",
+   "pn": "102",
+   "abstract": [
+    "This article reviews current research on neural network systems for speaker recognition tasks. We consider two main approaches, the first one relies on direct classification and the second performs speaker modelization. The potential of connectionist models for speaker recognition is first presented and the main algorithms from the two families are then reviewed. We discuss their respective performances and potential for speaker recognition. We compare these techniques to more conventional methods like vector quantization and Hidden Markov models. The paper ends with a summary and suggestions.\n",
+    ""
+   ]
+  },
+  "kunzel94_asriv": {
+   "authors": [
+    [
+     "Hermann J.",
+     "Künzel"
+    ]
+   ],
+   "title": "Current approaches to forensic speaker recognition",
+   "original": "sr94_135",
+   "page_count": 7,
+   "order": 5,
+   "p1": "135",
+   "pn": "142",
+   "abstract": [
+    "Forensic speaker recognition has become an important tool in crime contravention, since the use of the human voice as an instrument in the commission of crime is ever-increasing. To a certain degree, this is undoubtedly a consequence of the highly-developed and fully automated telephone networks of the industrialized countries, which may safeguard a perpetrator's anonymity almost perfectly. To date, different approaches to forensic speaker identification have been developed by phoneticians, linguists, speech scientists and engineers. In this review, the three main types of procedures currently used under various legal systems will be presented. It is argued that although computer-based tools for acoustical analysis and new statistical data about some speaker-specific features may aid the expert in drawing his conclusions, a fully automatic voice identification device is certainly not in sight, due to the vast number of imponderables and distortions of the speech signal which are typical to the forensic situation.\n",
+    ""
+   ]
+  },
+  "tsoi94_asriv": {
+   "authors": [
+    [
+     "Ah Chung",
+     "Tsoi"
+    ],
+    [
+     "David",
+     "Shrimpton"
+    ],
+    [
+     "Brett",
+     "Watson"
+    ],
+    [
+     "Andrew",
+     "Back"
+    ]
+   ],
+   "title": "Application of artificial neural network techniques to speaker verification",
+   "original": "sr94_143",
+   "page_count": 10,
+   "order": 6,
+   "p1": "143",
+   "pn": "152",
+   "abstract": [
+    "Recurrent Neural Networks (RNN) have shown promise in the area of automatic speech recognition. In this tutorial we examine the application of RNN architectures to the problem of text dependent automatic speaker identity verification.\n",
+    ""
+   ]
+  },
+  "veth94_asriv": {
+   "authors": [
+    [
+     "Johan de",
+     "Veth"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ]
+   ],
+   "title": "Comparison of hidden Markov model techniques for automatic speaker verification",
+   "original": "sr94_011",
+   "page_count": 4,
+   "order": 7,
+   "p1": "11",
+   "pn": "14",
+   "abstract": [
+    "In this paper, we compare two alternative approaches for speaker verification based on hidden Markov model (HMM) technology: single Gaussian HMMs and tied multi-Gaussian HMMs. We tested each system using a database of connected digit strings recorded over local and long-distance telephone lines. According to our experiments, tied-mixture models were able to perform better than the single Gaussian approach provided that sufficient training data were available. Results will be discussed for both text-dependent and text-independent speaker verification.\n",
+    ""
+   ]
+  },
+  "dubreucq94_asriv": {
+   "authors": [
+    [
+     "Vincent",
+     "Dubreucq"
+    ],
+    [
+     "Claude",
+     "Vloeberghs"
+    ]
+   ],
+   "title": "The use of the pitch to improve an HMM based speaker recognition method",
+   "original": "sr94_015",
+   "page_count": 3,
+   "order": 8,
+   "p1": "15",
+   "pn": "18",
+   "abstract": [
+    "This article describes an automatic text-independent speaker recognition method based on phonetic Hidden Markov Models (HMM) [1],[2]. The challenge of our method is to reduce the duration of the test phase: only one sentence is requested for the speaker verification. We will describe how the pitch can be used to improve the automatic phoneme segmentation of a sentence and thus also the training and testing phases of the method, reducing the error rates.\n",
+    "We are currently studying a totally different approach that we'll briefly present: the pitch histogram method. This method is only based on the pitch values: each speaker is characterised by his/her pitch frequency histogram. It's not proposed as a complete solution by itself, but could be included as a new feature in a more complete recognition system.\n",
+    ""
+   ]
+  },
+  "forsyth94_asriv": {
+   "authors": [
+    [
+     "Mark E.",
+     "Forsyth"
+    ],
+    [
+     "Paul C.",
+     "Bagshaw"
+    ],
+    [
+     "Mervyn A.",
+     "Jack"
+    ]
+   ],
+   "title": "Incorporating discriminating observation probabilities (DOP) into semi-continuous HMM for speaker verification",
+   "original": "sr94_019",
+   "page_count": 4,
+   "order": 9,
+   "p1": "19",
+   "pn": "22",
+   "abstract": [
+    "This paper describes the use of a semi-continuous hidden Markov models for speaker verification. The system uses a technique for discriminative hidden Markov modelling known as discriminating observation probabilities (DOP). Results are presented for text-dependent experiments on isolated digits from 25 genuine speakers and 84 casual im-poster speakers, recorded over the public telephone network in the United Kingdom. Performance measures which are used to assess the DOP technique are equal error rate, zero false rejection rate, zero false acceptance rate and two measures of the distance between probability distributions for genuine and imposter speakers. The different performance measures are assessed with regard to their suitability for comparing speaker verification algorithms. This analysis further supports previous work which shows that the addition of DOP to an HMM system provides a significant advantage in speaker verification performance.\n",
+    ""
+   ]
+  },
+  "gong94_asriv": {
+   "authors": [
+    [
+     "Yifan",
+     "Gong"
+    ],
+    [
+     "Jean-Paul",
+     "Haton"
+    ]
+   ],
+   "title": "Non-linear interpolation methods for speaker recognition and verification",
+   "original": "sr94_023",
+   "page_count": 4,
+   "order": 10,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "We address two problems related to text-dependent speaker recognition and verification using very short utterances (less than 1 second) both for training and recognition/verification: speaker acoustic models and verification decision thresholds.\n",
+    "The approach to speaker models consists in exploiting speaker-specific acoustic correlations between two sets of parameter vectors relating to the same speaker. A nonlinear vector interpolation technique is used to capture speaker-specific information through least-square-error optimization. To determine an optimum threshold for speaker verification, we studied the minimum risk and minimum error criteria based on Bayes decision rule.\n",
+    "Experiments are based on five utterances of 4 phonemes contained in one sentence. One utterance is used for test and the remaining 4 for training. Evaluated on 72 speakers we obtained 3.9% speaker recognition error rate and 0.45% minimum risk speaker verification total error rate.\n",
+    ""
+   ]
+  },
+  "reynolds94_asriv": {
+   "authors": [
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Speaker identification and verification using Gaussian mixture speaker models",
+   "original": "sr94_027",
+   "page_count": 4,
+   "order": 11,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "This paper presents high performance speaker identification and verification systems based on Gaussian mixture speaker models: robust, statistically based representations of speaker identity. The focus domain is for unconstrained speech, although the systems can equally be used for text-dependent tasks. The identification system is a maximum likelihood classifier and the verification system is a likelihood ratio hypothesis tester using background speaker normalisation.\n",
+    "The systems are evaluated on three widely used speech databases: TIMIT, NITWIT and Switchboard. The different levels of degradations and variabilities found in these databases allow the examination of system results for different task domains. An identification accuracy of 99.7% was obtained for a 168 population on TIMIT, 76.2% for NTIMIT and 82.8% for a 113 population on Switchboard. Global threshold equal error rates of 0.3%, 5.4% and 7.0% were obtained in verification experiments on TIMIT, NTIMIT and Switchboard, respectively.\n",
+    ""
+   ]
+  },
+  "godfrey94_asriv": {
+   "authors": [
+    [
+     "John",
+     "Godfrey"
+    ],
+    [
+     "David",
+     "Graff"
+    ],
+    [
+     "Alvin",
+     "Martin"
+    ]
+   ],
+   "title": "Public databases for speaker recognition and verification",
+   "original": "sr94_039",
+   "page_count": 4,
+   "order": 12,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "In this paper we review several major speech corpora which are designed to support research in speaker recognition and related areas: the KING corpus; KING-SAM, a derivative of the KING corpus; the YOHO corpus; the SWITCHBOARD corpus; and SPIDRE, a derivative subset of SWITCHBOARD. Each one has design characteristics which make it more appropriate for certain types of research or technology development than others. Our purpose here is to acquaint researchers with these properties so that they can make the best choice for their purposes. We will attempt to highlight the amount and nature of the speech data in each corpus, its intended use for training or test where applicable, and the strengths and limitations of each dataset for research and development in such areas as speaker identification, speaker verification, and speaker monitoring.\n",
+    ""
+   ]
+  },
+  "boves94_asriv": {
+   "authors": [
+    [
+     "Louis",
+     "Boves"
+    ],
+    [
+     "Tineke",
+     "Bogaart"
+    ],
+    [
+     "Leonie",
+     "Bos"
+    ]
+   ],
+   "title": "Design and recording of large data bases for use in speaker verification and identification",
+   "original": "sr94_043",
+   "page_count": 4,
+   "order": 13,
+   "p1": "43",
+   "pn": "46",
+   "abstract": [
+    "In this paper the linguistic design, speaker selection, recording procedures and transliteration instructions for three Dutch speech corpora are described. The first corpus is the Dutch POLYPHONE, which can be used for several aplications, among which speaker identification and verification. A special addition to the POLYPHONE corpus is then described, which aims specifically at problems in forensic speaker identification. Finally, a corpus is described that is specifically aimed at speaker verification. All three corpora are limited to telephone speech, recorded of a digital line.\n",
+    ""
+   ]
+  },
+  "carlo94_asriv": {
+   "authors": [
+    [
+     "Andrea Di",
+     "Carlo"
+    ],
+    [
+     "Mauro",
+     "Falcone"
+    ],
+    [
+     "Andrea",
+     "Paoloni"
+    ]
+   ],
+   "title": "Corpus design for speaker recognition assessment",
+   "original": "sr94_047",
+   "page_count": 4,
+   "order": 14,
+   "p1": "47",
+   "pn": "50",
+   "abstract": [
+    "We present the project of an Italian speech database collation over the Public Switched Telephone Network. The goal of this database is to create a reference material for speaker recognition assessment, as regard the Italian language. It is part of a wider Italian national project managed by the ISPT (Istituto Superiore delle Poste e Telecomunicazioni) that is the tutor of the \"Italian Association of Acoustic Databases\" (AIDA). After the production of a set of 6CD for speech recognition assessment and the design of two databases for speech synthesis, the AIDA4 corpus, for the assessment of speaker recognition over the telephone line, has been designed. In this paper we describe the contents of this database, the collation modalities and the technical set up of the collation. As far as possible in designing this database we consider the different kind of speaker recognition systems (text-dependent, text-independent, listening tests, etc.). The start of the collation is planned for the second half of this year, and it will take about eight months. A total of 500 speakers will take part to the realisation of this database. The database will be ownership of the ISPT, that is also the official distributor of all AIDA corpora.\n",
+    ""
+   ]
+  },
+  "bimbot94b_asriv": {
+   "authors": [
+    [
+     "Frédéric",
+     "Bimbot"
+    ],
+    [
+     "Luc",
+     "Mathan"
+    ]
+   ],
+   "title": "Second-order statistical measures for text-independent speaker identification",
+   "original": "sr94_051",
+   "page_count": 4,
+   "order": 15,
+   "p1": "51",
+   "pn": "54",
+   "abstract": [
+    "This paper presents theoretical aspects and experimental results relating to the use of second-order statistical measures, for text-independent speaker recognition. These measures are easy to implement, and computationally efficient. They provide remarkable results for the 420 speakers of the TIMIT database.\n",
+    ""
+   ]
+  },
+  "zhu94_asriv": {
+   "authors": [
+    [
+     "Xiaoyuan",
+     "Zhu"
+    ],
+    [
+     "Yuqing",
+     "Gao"
+    ],
+    [
+     "Shuping",
+     "Ran"
+    ],
+    [
+     "Fangxin",
+     "Chen"
+    ],
+    [
+     "Iain",
+     "Macleod"
+    ],
+    [
+     "Bruce",
+     "Millar"
+    ],
+    [
+     "Michael",
+     "Wagner"
+    ]
+   ],
+   "title": "Text-independent speaker recognition using VQ, mixture Gaussian VQ and ergodic HMMs",
+   "original": "sr94_055",
+   "page_count": 4,
+   "order": 16,
+   "p1": "55",
+   "pn": "58",
+   "abstract": [
+    "Alternative techniques are evaluated for text independent speaker recognition in a speech activated menu navigation task, typical of windows-based interactive computing. Even though the vocabulary employed may be relatively small, ease of management in the target application makes text independence highly desirable. The main techniques studied were weighted and unweighted vector quantisation, mixture Gaussian VQ and ergodic continuous hidden Markov models (CHMM). Data from 25 speakers was acquired in several sessions, with five repetitions of each utterance in each session and an inter-session interval of one or more weeks. The overall results with between session training/test data showed that unweighted conventional VQ was inferior to variance weighted VQ, mixture Gaussian VQ and CHMM. The latter three techniques gave similar performances, achieving a recognition accuracy of about 97 to 98% with utterances from the training vocabulary. Short utterances from outside the training vocabulary gave a recognition accuracy of approximately 93%.\n",
+    ""
+   ]
+  },
+  "matsui94_asriv": {
+   "authors": [
+    [
+     "Tomoko",
+     "Matsui"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Similarity normalization method for speaker verification based on a posteriori probability",
+   "original": "sr94_059",
+   "page_count": 4,
+   "order": 17,
+   "p1": "59",
+   "pn": "62",
+   "abstract": [
+    "This paper proposes two methods for creating a pooled model for all registered speakers to reduce the enormous amount of calculation needed by the similarity normalization method for speaker verification based on a posteriori probability. The proposed methods perform the same as or better than the original method and the amount of calculation is reduced significantly. Speaker verification is tested by using separate populations of customers and impostors in order to evaluate performance under practical conditions. The speaker (and text) verification error rates are roughly 1.6 times larger than if the same population is used for both customers and impostors. Using IS customers and a separate group of 15 impostors, one proposed method achieves a speaker verification error rate of 1.6% for text-independent verification and a speaker and text verification error rate of 1.1%, which is about half that with the original method in text-prompted verification.\n",
+    ""
+   ]
+  },
+  "thevenaz94_asriv": {
+   "authors": [
+    [
+     "Philippe",
+     "Thévenaz"
+    ],
+    [
+     "Heinz",
+     "Hügli"
+    ]
+   ],
+   "title": "Conformity, a new method for text-independent speaker recognition",
+   "original": "sr94_063",
+   "page_count": 4,
+   "order": 18,
+   "p1": "63",
+   "pn": "66",
+   "abstract": [
+    "This article presents Conformity as a new method for text-independent speaker recognition. Its principle is to compare statistical distributions of samples. We estimate these distributions by vector quantization using a single, universal codebook. One computes the frequency of apparition of each codeword for test and reference speech, and the frequencies are compared.\n",
+    "We perform several experiments with a database consisting of many speakers and a high number of tests, and conduct experiments in an opened test methodology. We compare the results to those obtained by other well-known methods.\n",
+    "Our new method yields good results when used alone. It may also be combined advantageously with the classical vector quantization method to which it is complementary. The joint use of these two methods permits an enhanced recognition rate.\n",
+    ""
+   ]
+  },
+  "farrell94_asriv": {
+   "authors": [
+    [
+     "Kevin R.",
+     "Farrell"
+    ],
+    [
+     "Richard J.",
+     "Mammone"
+    ]
+   ],
+   "title": "An evaluation of supervised and unsupervised classifiers for speaker recognition",
+   "original": "sr94_067",
+   "page_count": 4,
+   "order": 19,
+   "p1": "67",
+   "pn": "70",
+   "abstract": [
+    "An evaluation of supervised and unsupervised classifiers is performed for text-independent speaker recognition. Speaker models that use unsupervised classifiers are trained with only the data for that speaker whereas those using supervised classifiers are trained with the data for all speakers. The unsupervised and supervised classifiers considered here are the vector quantization (VQ) classifier and modified neural tree network (MNTN), respectively. The VQ classifier and MNTN are evaluated for several text-independent speaker recognition tasks within a 100 speaker corpus. For closed-set speaker identification the VQ classifier and MNTN demonstrate comparable performance. For speaker verification and open-set speaker identification, the MNTN consistently outperforms the VQ classifier both with and without cohort normalised scores.\n",
+    ""
+   ]
+  },
+  "falavigna94_asriv": {
+   "authors": [
+    [
+     "Daniele",
+     "Falavigna"
+    ],
+    [
+     "Roberto",
+     "Brunelli"
+    ]
+   ],
+   "title": "Person recognition using acoustic and visual cues",
+   "original": "sr94_071",
+   "page_count": 4,
+   "order": 20,
+   "p1": "71",
+   "pn": "74",
+   "abstract": [
+    "A person recognition system that makes use of acoustic and visual features is described. The system combines features at a score level and is capable of performing either an identification or a rejection. The improved performance of the integrated system with respect to the separate subsystems (acoustic and visual) is quantified.\n",
+    ""
+   ]
+  },
+  "wagner94_asriv": {
+   "authors": [
+    [
+     "Michael",
+     "Wagner"
+    ],
+    [
+     "Fangxin",
+     "Chen"
+    ],
+    [
+     "Iain",
+     "Macleod"
+    ],
+    [
+     "Bruce",
+     "Millar"
+    ],
+    [
+     "Shuping",
+     "Ran"
+    ],
+    [
+     "Andrew",
+     "Tridgell"
+    ],
+    [
+     "Xiaoyuan",
+     "Zhu"
+    ]
+   ],
+   "title": "Analysis of type-II errors for VQ-distortion based speaker verification",
+   "original": "sr94_083",
+   "page_count": 4,
+   "order": 21,
+   "p1": "83",
+   "pn": "86",
+   "abstract": [
+    "This paper investigates the distribution of inter-speaker distances for the \"training\" speakers of the TIMIT speech database. The analysis is based on a speaker verification paradigm with 8 speakers serving as customers and the remaining speakers serving as impostors. The distance measure used is an average variance-weighted vector quantisation (VQ) distortion. It is found that the interspeaker distances correlate significantly with the differences of fundamental frequency (FO) between the speakers. Moreover, the shape of the distribution of impostor distances is largely determined by the customer's FO. A distinct asymmetry of VQ distances is observed between low-FO customers and high-FO impostors on the one hand and high-FO customers and low-FO impostors on the other. The type-II error function is estimated from a sample of impostors with similar FO to the customer. Dialect difference within TIMIT is not found to contribute significantly to VQ distance.\n",
+    ""
+   ]
+  },
+  "oglesby94_asriv": {
+   "authors": [
+    [
+     "John",
+     "Oglesby"
+    ]
+   ],
+   "title": "What's in a number?: moving beyond the equal error rate",
+   "original": "sr94_087",
+   "page_count": 4,
+   "order": 22,
+   "p1": "87",
+   "pn": "90",
+   "abstract": [
+    "This paper addresses the issue of speaker verification system assessment. The objective of this work is to develop a way of characterising speaker verification systems in a concise and meaningful manner.\n",
+    "Here a performance profile is suggested, that encompases the important aspects of a system under test, namely the actual verification performance, model storage requirements, confusability of the speakers in the test set, quality of the speech data used and the duration of speech data available for enrollment and testing.\n",
+    "Results are presented that show how this profile of measures can be used to give a more meaningful representation of a given system.\n",
+    ""
+   ]
+  },
+  "ong94_asriv": {
+   "authors": [
+    [
+     "Sherman",
+     "Ong"
+    ],
+    [
+     "Miles P.",
+     "Moody"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Confidence analysis for speaker identification: the effectiveness of various features",
+   "original": "sr94_091",
+   "page_count": 4,
+   "order": 23,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "\"Confidence analysis\" was added to a speaker identification procedure to enable us to get the confidence that the target is indeed present in or absent from the reference list. The degree of confidence was deduced from an analysis of the differences between two groups of curves, namely AvD (Accuracy versos Distance) and PAvD (Pseudo Accuracy versus Distance). AvD was calculated from the percentage of cumulative matches versus intraspeaker distance. PAvD was obtained the same way with the exception that a speaker's test vectors were not compared against his personal reference template. Instead, another candidate with the most pseudo matches was selected to calculate PAvD.\n",
+    "In this paper, we investigate the effectiveness of four sets of acoustic features (autocorrelation coefficients, reflection coefficients, cepstral coefficients, and log area ratio coefficients) applied to the confidence analysis. Experiments reveal that: (1) autocorrelation coefficients set is not effective, (2) reflection coefficients set generally excels against any other feature sets, and (3) for some specific speakers, log area ratio coefficients set and cepstral coefficients set demonstrate their respective superiorities.\n",
+    ""
+   ]
+  },
+  "hattori94_asriv": {
+   "authors": [
+    [
+     "Hiroaki",
+     "Hattori"
+    ]
+   ],
+   "title": "Text-independent speaker verification using neural networks",
+   "original": "sr94_103",
+   "page_count": 4,
+   "order": 24,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "This paper presents a new prediction error normalisation method for speaker verification using predictive neural networks. A prediction error obtained by a predictive neural network strongly depends on a particular input and the goodness of the fit is difficult to determine by comparing the value with a fixed threshold. We propose a prediction error normalisation algorithm which uses the prediction error obtained by a network trained for multiple categories as a measurement of predictability of an input.\n",
+    "The algorithm was evaluated in text-independent speaker verification. Without normalisation, an equal error rate of 41.2% was achieved for 12 male speaker verification, using the normalisation, the equal error rate was improved drastically to 1.5%. This result proved the effectiveness of the proposed algorithm.\n",
+    "The proposed algorithm is also applicable to other speech processing areas which involve comparison with a threshold such as word spotting and rejection of unknown words.\n",
+    ""
+   ]
+  },
+  "fredrickson94_asriv": {
+   "authors": [
+    [
+     "Steven E.",
+     "Fredrickson"
+    ],
+    [
+     "Lionel",
+     "Tarassenko"
+    ]
+   ],
+   "title": "Radial basis functions for speaker identification",
+   "original": "sr94_107",
+   "page_count": 4,
+   "order": 25,
+   "p1": "107",
+   "pn": "110",
+   "abstract": [
+    "Artificial neural networks are applied to the problem of recognising people from their voices. With input vectors consisting of time-normalised cepstral coefficients, radial basis function networks are shown to exceed the speaker classification performance of multilayer percep-trons. With an optimised input vocabulary and the use of multiple observations, error-free results are obtained on a 50 speaker identification task.\n",
+    ""
+   ]
+  },
+  "castellano94_asriv": {
+   "authors": [
+    [
+     "Pierre",
+     "Castellano"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Text-independent speaker identification with functional-link neural networks",
+   "original": "sr94_111",
+   "page_count": 4,
+   "order": 26,
+   "p1": "111",
+   "pn": "114",
+   "abstract": [
+    "The discriminatory capabilities of Speaker Identification (SI) neural networks have traditionally been attributed to the presence of one or two hidden layers in their architectures. This study compares the speaker identification performance of supervised flat functional-link neural networks firstly to that of a multi-layered back-propagation network and secondly to that of the Interactive Laboratory System. In this study and given a 14 speaker database, weights in the layered model were unable to converge to global minimum. This was not the case for the flat architectures. Tensor based functional-link flat networks were found to be superior ( 73 percent correct speech frame classification) to hidden layer architectures ( 30-40 percent correct frame classification). The flat network's SI performance was comparable to that of an established SI technology given a 20 speaker database independent of the first. However the network was three times slower than the latter.\n",
+    ""
+   ]
+  },
+  "hassanein94_asriv": {
+   "authors": [
+    [
+     "K.",
+     "Hassanein"
+    ],
+    [
+     "L.",
+     "Deng"
+    ],
+    [
+     "M. I.",
+     "Elmasry"
+    ]
+   ],
+   "title": "A neural predictive hidden Markov model for speaker recognition",
+   "original": "sr94_115",
+   "page_count": 4,
+   "order": 27,
+   "p1": "115",
+   "pn": "118",
+   "abstract": [
+    "An automatic speaker identification system is developed based on a neural predictive HMM speech recognition system. The neural predictive HMM utilises layered feed-forward neural networks to implement joint linear/nonlinear speech-frame prediction. A Markov chain is used to control changes in the network's weight parameters. The system exhibits high accuracy speaker recognition using very short speech utterances. The system was also shown to be robust against intraspeaker speech variations. The developed system is also well suited for efficient parallel V1SI implementations enabling real time speaker identification performance.\n",
+    ""
+   ]
+  },
+  "schalkwyk94_asriv": {
+   "authors": [
+    [
+     "Johan",
+     "Schalkwyk"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ],
+    [
+     "Ronald A.",
+     "Cole"
+    ],
+    [
+     "Jeffrey R.",
+     "Sachs"
+    ]
+   ],
+   "title": "Detecting an imposter in telephone speech",
+   "original": "sr94_119",
+   "page_count": 4,
+   "order": 28,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "This paper presents initial results on imposter detection in telephone speech. The imposter detector problem is defined in terms of a real-world security problem. Perceptual studies are then presented. These studies present a good estimate on the difficulty of the task at hand; it is found that humans classify approximately 85.6% of our benchmark utterances correctly. To design an automatic imposter detector, features which elicit speaker differences are studied. A baseline system based only on 20'th order Linear Predictive Coefficients (LPC) classifies 75.0% of the test set correctly. By extracting features only in vowel and semi-vowel regions, i.e. where the all-pole model of the linear predictor is most accurate, the classification performance is increased to 80.0%. Further features such as average energy and median pitch result in a correct classification rate of 83.7%, comparable to the perceptual benchmarks. Results are also presented for Mandarin, Japanese and Spanish.\n",
+    ""
+   ]
+  },
+  "giua94_asriv": {
+   "authors": [
+    [
+     "Paolo",
+     "Giua"
+    ],
+    [
+     "Raffaele",
+     "Pisani"
+    ]
+   ],
+   "title": "Intra- and inter-speaker variability",
+   "original": "sr94_123",
+   "page_count": 4,
+   "order": 29,
+   "p1": "123",
+   "pn": "126",
+   "abstract": [
+    "Some of semiautomatic speaker recognising systems exploit the individual difference of vowels features, such as fundamental and formant frequencies. Linear prediction coefficients can be assessed as well.\n",
+    "These differences are processed by means of multi-varied statistical analysis. Raw data used for analysis are yielded by parameters measures.\n",
+    "The aim of this paper is to evaluate results reliability, when parameters determination is accomplished by human operator supported by commercial software for both voice and statistical analysis.\n",
+    ""
+   ]
+  },
+  "thompson94_asriv": {
+   "authors": [
+    [
+     "J.",
+     "Thompson"
+    ],
+    [
+     "J. S.",
+     "Mason"
+    ]
+   ],
+   "title": "The pre-detection of error-prone class members at the enrollment stage of speaker recognition systems",
+   "original": "sr94_127",
+   "page_count": 4,
+   "order": 30,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "Two underlying factors that cause potential error-prone speakers in speaker verification (SV) systems are examined, namely the inter-variance which indicates the individuality of the speaker, and the intra-variance which is measure how much the speech varies over time. It is shown that SV errors can be predicted from either inter or intra-variance but more accurately from a product of the two.\n",
+    "An error-prone speaker detection scheme based on a speaker identification (SI) system is proposed which could be useful at the enrollment stage to improve system performance.\n",
+    ""
+   ]
+  },
+  "williams94_asriv": {
+   "authors": [
+    [
+     "Sheila M.",
+     "Williams"
+    ],
+    [
+     "Sandra P.",
+     "Whiteside"
+    ],
+    [
+     "Gavin J.",
+     "Dempster"
+    ]
+   ],
+   "title": "The punch and judy man: speaker or speakers?",
+   "original": "sr94_131",
+   "page_count": 4,
+   "order": 31,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "This article describes an approach to the analysis of speaker variation through a contrastive study of the voices of characters in a puppet show, produced by a single speaker. The analysis uses a variety of techniques to identify the factors which lead to perceptual discrimination between the character voices and those which are common to all three characters examined.\n",
+    ""
+   ]
+  },
+  "anderson94_asriv": {
+   "authors": [
+    [
+     "Timothy R.",
+     "Anderson"
+    ],
+    [
+     "Roy D.",
+     "Patterson"
+    ]
+   ],
+   "title": "Speaker recognition with the auditory image model and self-organizing feature maps: a comparison with traditional techniques",
+   "original": "sr94_153",
+   "page_count": 4,
+   "order": 32,
+   "p1": "153",
+   "pn": "156",
+   "abstract": [
+    "Speech and speaker recognition were examined using Self-Organizing Feature Maps (SOFMs) and three different representations of speech - traditional Mel-Cepstral Coefficients (MCC) and the integrated outputs of two different models of the auditory periphery: the Auditory Image Model (AIM) of Patterson and Payton's auditory model (PAM). AIM is a functional model of human hearing up to the level of our initial experience of a sound, that is, our 'auditory image' of the sound. PAM is a neurophysiologically based model of the auditory periphery. In the current experiments, the input vectors for the recognizer were based on the neural activity patterns flowing from the cochlear simulations of AIM and PAM. The phoneme recognition results are based on the 39 phoneme classes of K.F. Lee. The results showed that the auditory models supported better recognition accuracy than MCC using the training and test sets from dialect regions 1 and 2 of the TIMIT database ( 1140 sentences from 114 speakers for training, 370 sentences from 37 speakers for testing). The two representations made different types of phoneme recognition errors. Speaker recognition experiments using these same representations showed that AIM provided results comparable to that of MCC. PAM did not perform as well.\n",
+    ""
+   ]
+  },
+  "bonastre94_asriv": {
+   "authors": [
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Henri",
+     "Méloni"
+    ]
+   ],
+   "title": "Inter- and intra-speaker variability of French phonemes - advantages of an explicit knowledge based approach",
+   "original": "sr94_157",
+   "page_count": 4,
+   "order": 33,
+   "p1": "157",
+   "pn": "160",
+   "abstract": [
+    "This article deals with a knowledge based approach in connexion with automatic speaker recognition and, in particular the study of specific spectral parameters of the speaker.\n",
+    ""
+   ]
+  },
+  "braun94_asriv": {
+   "authors": [
+    [
+     "Angelika",
+     "Braun"
+    ]
+   ],
+   "title": "The effect of cigarette smoking on vocal parameters",
+   "original": "sr94_161",
+   "page_count": 4,
+   "order": 34,
+   "p1": "161",
+   "pn": "164",
+   "abstract": [
+    "This contribution addresses the effect of smoking from an acoustic phonetic point of view. 40 speakers served as subjects (20 smokers and 20 non-smokers). The parameters investigated are mean F0, jitter, shimmer, and HNR. Generally, a large overlap was observed between the two groups. No statistically significant differences were observed between group means for average F0 and jitter; shimmer and HNR were found to be marginally significant for all smokers and highly significant for a subgroup of long-term smokers as compared to the controls. A subgroup of heavy smokers on the other hand, was best distinguished from the non-smokers by F0 results.\n",
+    ""
+   ]
+  },
+  "chan94_asriv": {
+   "authors": [
+    [
+     "P. A.",
+     "Chan"
+    ],
+    [
+     "Robert I.",
+     "Damper"
+    ]
+   ],
+   "title": "Voice conversion by whole-spectrum scaling",
+   "original": "sr94_165",
+   "page_count": 4,
+   "order": 35,
+   "p1": "165",
+   "pn": "168",
+   "abstract": [
+    "We describe experiments aimed at quantifying the effectiveness of whole-spectrum multiplicative scaling, with different scaling factors k, as a voice-conversion technique. A review of the literature indicated that the fundamental frequency for female excitation is typically a factor of 1.7 greater than for male excitation, whereas female formants are only some 1.16 times higher, indicating that a single, global setting of k can only be a compromise between competing requirements to scale properly the excitation and envelope parts of the spectrum. Nonetheless, we show that the technique can achieve a useful degree of conversion. While female-to-male transformation was more successful in terms of perceived gender change than vice versa, male speech appeared more robust in terms of retaining naturalness and intelligibility when transformed.\n",
+    ""
+   ]
+  },
+  "falcone94_asriv": {
+   "authors": [
+    [
+     "Mauro",
+     "Falcone"
+    ],
+    [
+     "Nicolò De",
+     "Sario"
+    ]
+   ],
+   "title": "A PC speaker identification system for forensic use: IDEM",
+   "original": "sr94_169",
+   "page_count": 4,
+   "order": 36,
+   "p1": "169",
+   "pn": "172",
+   "abstract": [
+    "The field of Speaker Identification in forensic is one of the oldest application of speech science. Listening test and spectrogram reading have been the most popular approach in this specific task for many years. We introduce a method based on the comparison of vowel formant, and we describe the associated software tools that let you easily perform a complete speaker identification test: starting from speech acquisition and ending with a report on statistical tests. The system has been designed to run on a small computer, and in a user-friendly environment. After a first release of IDEM in 1991[1] we have now reached a (almost) errors free and \"end-user\" robust version of the system. We base our corrections and improvements of the system on our own experience in this field, and on the suggestions of real users, i.e. of several police investigation bureau that extensively use the IDEM system.\n",
+    ""
+   ]
+  },
+  "falcone94b_asriv": {
+   "authors": [
+    [
+     "Mauro",
+     "Falcone"
+    ],
+    [
+     "Andrea",
+     "Paoloni"
+    ]
+   ],
+   "title": "Text-independent speaker verification based on multiple reconstruction of selected speech zones",
+   "original": "sr94_173",
+   "page_count": 4,
+   "order": 37,
+   "p1": "173",
+   "pn": "176",
+   "abstract": [
+    "In this paper we report about a set of experiments in speaker verification, based on algebraic methodologies that consider the covariance matrix of a given speech parametrisation, like LPC cepstrum, vocal tract area and so forth, as the reference \"holder\" of the information related to the speaker's identity. We use an Italian 12 speakers telephonic database, recorded many years ago (first and second collation within two years, third collation after ten years). Speakers are all of the same regional area (Padova) and with very similar voices. We test three different methods on various speech parametrisations and for several selections and grouping strategy of speech file. We found that integral scoring methods as the Arithmetic-Harmonic Sphericity Measure give tantalising results, that standard Malahanobius-like distance has high diagnostic properties, while other Karhunen-Loeve based methods, that theoretically has a high possibility, give disappointing results. The results of these experiments give us guidelines to more extensive investigation on wider databases, focusing our attention to an analytical study of the different properties of algebraic methods in speaker verification.\n",
+    ""
+   ]
+  },
+  "greisbach94_asriv": {
+   "authors": [
+    [
+     "Reinhold",
+     "Greisbach"
+    ],
+    [
+     "Otto",
+     "Esser"
+    ],
+    [
+     "Constanze",
+     "Weinstock"
+    ],
+    [
+     "Theo",
+     "Klinker"
+    ]
+   ],
+   "title": "A comparison of the speaker identification power of continuant sounds",
+   "original": "sr94_177",
+   "page_count": 4,
+   "order": 38,
+   "p1": "177",
+   "pn": "180",
+   "abstract": [
+    "Log-power spectra were calculated in the centre of continuant sounds for speaker identification. Results indicate that there is a difference in speaker identification power among these sounds. Under the conditions of the experimental and computational set-up described in this paper, vowels and nasals seem to contain more information on speaker identity than fricatives.\n",
+    ""
+   ]
+  },
+  "hannah94_asriv": {
+   "authors": [
+    [
+     "M. I.",
+     "Hannah"
+    ],
+    [
+     "A. T.",
+     "Sapeluk"
+    ],
+    [
+     "Robert I.",
+     "Damper"
+    ]
+   ],
+   "title": "The r\u0014le of the reference template in speaker verification",
+   "original": "sr94_181",
+   "page_count": 4,
+   "order": 39,
+   "p1": "181",
+   "pn": "184",
+   "abstract": [
+    "This paper compares 4 different ways of using initial ('training') recordings as reference data ('templates') to be compared with a test token for speaker verification. We show that merging the original training data into a single template - as in 2 of the 4 methods - incurs a loss in speaker discrimination relative to the remaining 2 methods which retain all the data. However, these techniques do have the advantage of reduced computational complexity in terms of both storage requirements and processing time for verification.\n",
+    "The best-performing of our methods used a decision rule in which 60% of the individual matches to each retained template had to satisfy a threshold criterion. However, statistical significance of the superiority of this implementation relative to the next-best, which took a mean of the 5 individual scores as a basis for its accept/reject decision, has not yet been established. This awaits further work with a larger database.\n",
+    ""
+   ]
+  },
+  "homayounpour94_asriv": {
+   "authors": [
+    [
+     "M. Mehdi",
+     "Homayounpour"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "A comparison of some relevant parametric representations for speaker verification",
+   "original": "sr94_185",
+   "page_count": 4,
+   "order": 40,
+   "p1": "185",
+   "pn": "188",
+   "abstract": [
+    "The selection of the best representation of acoustic data is an important task in the design of any speaker verification system. The usual objective in selecting a representation is to enhance those aspects of the signal that contribute significantly to the representation of speaker-dependent information. In this paper, the effectiveness of some spectral representations for speaker verification is evaluated.\n",
+    "The spectral representations considered in our study are: Linear Frequency Cepstrum Coefficients (LFCC), Mel Frequency Cepstrum Coefficients (MFCC), Linear Predictive Cepstrum Coefficients (LPCC), Differences of Adjacent Line Spectrum Pair Frequencies (DALS), Principal Spectral Components (PSC), Orthogonal Partial Correlation Coefficients (OPCC) and the delta (&DELTA;) coefficients derived directly from LPCC and MFCC. A band-pass liftering was done on LPCC coefficients and the resulting weighted LPCC features (BPLPCC) were also considered.\n",
+    "These features were compared on a data base of 11 speakers (6 males and 5 females) who repeated a sequence of words 55 times. Two distance measures were employed in our study. For all cepstral representations and &DELTA; coefficients we employed cepstral and weighed cepstral distance measures. An efficient dynamic time warping method was used to align reference and test data.\n",
+    "PSC was found to have the best performance among all spectral representations mentioned above. Principal component analysis used to obtain PSC seems to be very efficient in extracting the speaker dependent information. Weighting of coefficients by the reciprocal of their variabilities usually leads to good performance in speaker verification. The order of efficiency of studied representations was not the same when coefficients were weighted or not. The cepstrum parameters (LFCC, MFCC, and LPCC) succeed better than DALS in capturing the significant speaker dependent acoustic information when the weighed distance measure was used. A smal increase in performance of LPCC was obtained when LPCC were bandpass littered.\n",
+    ""
+   ]
+  },
+  "lastrucci94_asriv": {
+   "authors": [
+    [
+     "L.",
+     "Lastrucci"
+    ],
+    [
+     "M.",
+     "Gori"
+    ],
+    [
+     "G.",
+     "Soda"
+    ]
+   ],
+   "title": "Neural autoassociators for phoneme-based speaker verification",
+   "original": "sr94_189",
+   "page_count": 4,
+   "order": 41,
+   "p1": "189",
+   "pn": "192",
+   "abstract": [
+    "In last few years connectionist models, mainly-based on multilayered perceptrons, have been used for identifying the speaker identity. To the best of our knowledge however, no significant results have been obtained for speaker verification.\n",
+    "In this paper, we propose a connectionist phoneme-based speaker verification model and give experimental results for assessing its performance. Neural autoassociators are suggested for capturing the speaker's identity. They are trained to reproduce speech frames presented at the input to the output layer. Adequate threshold criteria are proposed for performing rejection. Verification performances were evaluated on DARPA-TIMIT database for /ae/ and /aa/ phonemes in continuous speech, using different thresholds and preprocessing schemes with very promising results.\n",
+    ""
+   ]
+  },
+  "mella94_asriv": {
+   "authors": [
+    [
+     "Odile",
+     "Mella"
+    ]
+   ],
+   "title": "Extraction of formants of oral vowels and critical analysis for speaker characterization",
+   "original": "sr94_193",
+   "page_count": 4,
+   "order": 42,
+   "p1": "193",
+   "pn": "196",
+   "abstract": [
+    "The aim of the present paper is to study the relative efficiency of the first three formants of different French vowels for speaker characterization. First, we evaluate reliable formant frequencies for these vowels by a method based on the knowledge of the vowel and its context. The frequencies are then used to identify an unknown speaker from a group of ten known speakers. For that purpose, a speaker is represented by a vector of one, two or three formant frequencies of his utterance of a given vowel. We discuss the results of the relevance of every vowel for each combination of formant frequencies with respect to the speech production process. We also compare our results with those of other studies and with the non-uniform female/male formant frequency ratios (ki).\n",
+    ""
+   ]
+  },
+  "narendranath94_asriv": {
+   "authors": [
+    [
+     "M.",
+     "Narendranath"
+    ],
+    [
+     "Hema A.",
+     "Murthy"
+    ],
+    [
+     "S.",
+     "Rajendran"
+    ],
+    [
+     "B.",
+     "Yegnanarayana"
+    ]
+   ],
+   "title": "Voice conversion using artificial neural networks",
+   "original": "sr94_197",
+   "page_count": 4,
+   "order": 43,
+   "p1": "197",
+   "pn": "200",
+   "abstract": [
+    "Voice conversion is a procedure for converting the voice characteristics of a speech signal. In this paper we propose a technique for voice conversion using artificial neural networks. A backpropagation network is used to capture a transformation function which maps the formants extracted from the speech of the source speaker to that of the target speaker. An average pitch transformation is used to transform the pitch of the source speaker. Speech with the voice characteristics of the target speaker is synthesized using the transformed parameters.\n",
+    ""
+   ]
+  },
+  "perrin94_asriv": {
+   "authors": [
+    [
+     "Emmanuel",
+     "Perrin"
+    ],
+    [
+     "Jocelyne",
+     "Borel"
+    ],
+    [
+     "Christian",
+     "Berger-Vachon"
+    ],
+    [
+     "Isabelle",
+     "Kauffmann"
+    ]
+   ],
+   "title": "Phonatory signature of the deaf child",
+   "original": "sr94_201",
+   "page_count": 4,
+   "order": 44,
+   "p1": "201",
+   "pn": "204",
+   "abstract": [
+    "The phonatory signature of the vocal pathology is a subject concerning the teams working on the voice abnormality, mainly for diagnostic and rehabilitation purposes. Classically, it is assumed that the pathology changes the fundamental frequency of the voice and does not modify the formants. The present study was made on a group of profoundly deaf children. Altogether 60 children (20 patients and 40 people in a control group) were included in this study. Eleven oral vowels were taken in a spoken sentence. The authors tested the discriminating capacity of the fundamental frequency of the voice and the three first formants. The results show the parameters variability, the parameters modified by the pathology and some characteristics of the voice of the deaf child.\n",
+    ""
+   ]
+  },
+  "rjaibisabhi94_asriv": {
+   "authors": [
+    [
+     "Najet",
+     "Rjaibi-Sabhi"
+    ],
+    [
+     "Elisabeth",
+     "Lhote"
+    ]
+   ],
+   "title": "Variabilty as a means of geographic origin discrimination of Arabic speakers - global and segmented approach for geographic origin identification of Arabic speakers",
+   "original": "sr94_205",
+   "page_count": 4,
+   "order": 45,
+   "p1": "205",
+   "pn": "208",
+   "abstract": [
+    "Our aim is to find a way of determining the geographical origin of Arabic speakers when speaking Standard Arabic. Different approaches are possible. A historical study has been carried out of the work done in the 8th and 10th centuries by grammarians of that time on the dialectal variability of ancient Arabic tribes. A phonological study was also indispensable to determine the status of variants, then perceptual tests were carried out to confirm the existence of dialectal marks. Finally, acoustic approaches enabled us to characterize the speaker on one hand and the geographical origin on the other hand.\n",
+    ""
+   ]
+  },
+  "schoentgen94_asriv": {
+   "authors": [
+    [
+     "Jean",
+     "Schoentgen"
+    ],
+    [
+     "Zoubir",
+     "Azami"
+    ]
+   ],
+   "title": "Closed-phase glottal inverse filtering by means of a compound auto-regressive model",
+   "original": "sr94_209",
+   "page_count": 4,
+   "order": 46,
+   "p1": "209",
+   "pn": "212",
+   "abstract": [
+    "The article concerns techniques for obtaining, representing and comparing voice source signals. Closed-phase formant frequencies and bandwidths were estimated by fitting two linear auto-regressive models to a glottal cycle (the first to the open, the second to the closed phase). The moment of switching from one sub-model to the next was automatically determined by minimizing the overall modelling error. The voice source signal was obtained by inverse filtering speech by means of the closed-phase formants. Its spectrum was represented by a nonlinear zero-memory Volterra model. Two source signals were compared by means of their minimal spectral distance which was obtained by adjusting the nonlinear gain of the Volterra model.\n",
+    ""
+   ]
+  },
+  "cohen94_asriv": {
+   "authors": [
+    [
+     "Arnon",
+     "Cohen"
+    ],
+    [
+     "Tzur",
+     "Vaich"
+    ]
+   ],
+   "title": "On the identification of twins by their voices",
+   "original": "sr94_213",
+   "page_count": 4,
+   "order": 47,
+   "p1": "213",
+   "pn": "216",
+   "abstract": [
+    "Speaker identification systems are based on the fact that speakers differ in their anatomy and in their speech habits. In identical twins the anatomy is identical, or at least very similar, so that speech habits are the main cause for speech differences. Ten pairs of identical twins were recorded and identified using a minimum distance classifier. The distribution of distances from a subject to his twin and to the \"world\" are analyzed using various features. F-Ratios and text independent identification results are presented and discussed.\n",
+    ""
+   ]
+  },
+  "ortegagarcia94_asriv": {
+   "authors": [
+    [
+     "Javier",
+     "Ortega-Garcia"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ]
+   ],
+   "title": "Robust speech modeling for speaker identification in forensic acoustics",
+   "original": "sr94_217",
+   "page_count": 4,
+   "order": 48,
+   "p1": "217",
+   "pn": "220",
+   "abstract": [
+    "Speaker identification is one of the most important topics included in the field of Forensic Acoustics. Nevertheless, classical forensic applications of speaker identification methods have had a great quantity of lacks and problems associated with. The use of non-automatic or semiautomatic evaluation processes, usually realized by means of trained staff and, therefore, under an aural-perceptual subjective identification perspective has urged forensic acoustics research towards new fully automatic evaluation techniques.\n",
+    "Together with this main task, the poor quality of many of the recordings available (including effects like Lombard speech, cocktail party noise or reverberant speech), the non-cooperative nature of talkers (knowing that \"anything the may say can be used against them\") that generates disguised speech, monosyllabic responses, etc., or the non-controlled noisy situations in which recordings have to be taken, add to speaker recognition for forensic acoustics purposes a \"noisy\" component that differentiates it from classical or laboratory applications. All these \"noisy\" components will be added to our clean speech, producing as result degraded or noisy speech.\n",
+    "In section 2, in order to avoid the problem that we have already called noisy speech, a speech enhancement front-end including both single-channel and multi-channel approaches is described. Single-channel approach is intended when no references of the noisy source are available -in these cases, speech enhancement is accomplished with techniques as spectral subtraction or classical filtering. Multichannel approach, needs at least one correlated reference of the noisy source and, in this other case, techniques as adaptive filtering can be used.\n",
+    "On the other side, the use of analysis tools and evaluation techniques (either in time, spectral or cepstral domains) can be effective only if a model of the speech production mechanism can be made [3]. The use of Continuous Density Hidden Markov Models (CDHMM) has proved to be a powerful way of modeling speech utterances, so intraspeaker idiosyncratic factors can be modeled and compared through objective methods and without the subjectivism of human perception. In section 3, together with this, some speaker identification experiments in diverse modeling contexts are also proposed.\n",
+    "In section 4, results of several identification experiments in different S/N situations are presented. Together with this, results of another set of experiments including speech enhancement techniques, proposed in section 2, are also presented.\n",
+    ""
+   ]
+  },
+  "trent94_asriv": {
+   "authors": [
+    [
+     "Larry J.",
+     "Trent"
+    ],
+    [
+     "Charles M.",
+     "Rader"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Using higher order statistics to increase the noise robustness of a speaker identification system",
+   "original": "sr94_221",
+   "page_count": 4,
+   "order": 49,
+   "p1": "221",
+   "pn": "224",
+   "abstract": [
+    "At present, most speaker identification systems use cepstral or linear prediction (IP) based features. The performance of these systems degrades significantly with the presence of noise in the training and/or the testing speech. To improve this performance, higher order statistics (HOS) or cumulant-based LF features are proposed. Using these features and singular value decomposition (SVD), it is shown that the performance of a speaker identification system can be improved considerably in the presence of additive white or colored Gaussian noise.\n",
+    ""
+   ]
+  },
+  "naik94b_asriv": {
+   "authors": [
+    [
+     "Devang",
+     "Naik"
+    ],
+    [
+     "Khaled",
+     "Assaleh"
+    ],
+    [
+     "Richard J.",
+     "Mammone"
+    ]
+   ],
+   "title": "Robust speaker identification using pole filtering",
+   "original": "sr94_225",
+   "page_count": 6,
+   "order": 50,
+   "p1": "225",
+   "pn": "230",
+   "abstract": [
+    "In this paper we introduce a new philosophy of extracting robust features in speech systems based on intelligent processing of the eigenmodes of speech. Intrinsic to this philosophy is an explanation why linear predictive (LP) cepstra of speech provide a powerful feature set for recognition systems. Poles or the eigenmodes of a frame of speech are investigated under mismatches created by varying channel conditions for speaker identification systems.\n",
+    "The study of modes of speech has led to two related processing techniques, each of which provide a measurable degree of robustness under cross channel environments. One technique emphasizes processing of speech in the interframe domain (across many speech frames), while the other technique carries out an adaptive cepstral weighting of the intraframe (within a speech frame) LP spectral components. Experiments for the interframe techniques are presented using speech in the TIMIT database processed through a telephone channel simulator and a part of San Deigo portion of the King Database.  Experiments of the intraframe technique are presented on the San Deigo portion of the King database. The techniques are shown to offer improved speaker identification performance when compared to related common methods in the interframe and intraframe domains.\n",
+    ""
+   ]
+  },
+  "openshaw94_asriv": {
+   "authors": [
+    [
+     "J. P.",
+     "Openshaw"
+    ],
+    [
+     "J. S.",
+     "Mason"
+    ]
+   ],
+   "title": "Optimal noise-masking of cepstral features for robust speaker identification",
+   "original": "sr94_231",
+   "page_count": 4,
+   "order": 51,
+   "p1": "231",
+   "pn": "234",
+   "abstract": [
+    "Noise-masking through the addition of a constant offset to the linear spectral estimates provides a feature space more stable to changes in noise statistics. This leads to performance equivalent to that achieved by explicit modelling. Experimental results show that the masking spectrum need not be identical to that of the noise, implying a reduced noise sensitivity generally. It is found that for very low SNR conditions (<9dB), masking yields better results than for explicit modelling.\n",
+    "Excessive masking levels leads to a convergence of performance for a range of SNR levels from clean to OdB and beyond, implying a stabilised feature space. However results are degraded for the clean case.\n",
+    ""
+   ]
+  },
+  "lin94_asriv": {
+   "authors": [
+    [
+     "Q.",
+     "Lin"
+    ],
+    [
+     "E.",
+     "Jan"
+    ],
+    [
+     "C.",
+     "Che"
+    ],
+    [
+     "James L.",
+     "Flanagan"
+    ]
+   ],
+   "title": "Speaker identification in teleconferencing environments using microphone arrays and neural networks",
+   "original": "sr94_235",
+   "page_count": 4,
+   "order": 52,
+   "p1": "235",
+   "pn": "238",
+   "abstract": [
+    "This paper studies signal enhancement of microphone array sound pickup and neural network (NN) adaptation for reliable speaker identification. Additionally, the report describes a speaker identification system for teleconferencing applications. It is found that beamforming/matched-filter microphone arrays are capable of combating deleterious properties of the acoustic environment, such as multipath distortion (reverberation) and ambient noise. It is also found that neural networks can learn, and thereby compensate for, environmental interference and can adapt testing conditions to training conditions, so that high accuracies can be achieved in speaker identification.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Tutorial Papers",
+   "papers": [
+    "furui94_asriv",
+    "naik94_asriv",
+    "bimbot94_asriv",
+    "bennani94_asriv",
+    "kunzel94_asriv",
+    "tsoi94_asriv"
+   ]
+  },
+  {
+   "title": "Speaker Verification",
+   "papers": [
+    "veth94_asriv",
+    "dubreucq94_asriv",
+    "forsyth94_asriv",
+    "gong94_asriv",
+    "reynolds94_asriv"
+   ]
+  },
+  {
+   "title": "Databases for Speaker Recognition",
+   "papers": [
+    "godfrey94_asriv",
+    "boves94_asriv",
+    "carlo94_asriv"
+   ]
+  },
+  {
+   "title": "Text-Independent Speaker Recognition",
+   "papers": [
+    "bimbot94b_asriv",
+    "zhu94_asriv",
+    "matsui94_asriv",
+    "thevenaz94_asriv",
+    "farrell94_asriv",
+    "falavigna94_asriv"
+   ]
+  },
+  {
+   "title": "Assessment and Evaluation",
+   "papers": [
+    "wagner94_asriv",
+    "oglesby94_asriv",
+    "ong94_asriv"
+   ]
+  },
+  {
+   "title": "Connectionist Speaker Recognition",
+   "papers": [
+    "hattori94_asriv",
+    "fredrickson94_asriv",
+    "castellano94_asriv",
+    "hassanein94_asriv",
+    "schalkwyk94_asriv"
+   ]
+  },
+  {
+   "title": "Intra- and Inter-Speaker Variability",
+   "papers": [
+    "giua94_asriv",
+    "thompson94_asriv",
+    "williams94_asriv"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "anderson94_asriv",
+    "bonastre94_asriv",
+    "braun94_asriv",
+    "chan94_asriv",
+    "falcone94_asriv",
+    "falcone94b_asriv",
+    "greisbach94_asriv",
+    "hannah94_asriv",
+    "homayounpour94_asriv",
+    "lastrucci94_asriv",
+    "mella94_asriv",
+    "narendranath94_asriv",
+    "perrin94_asriv",
+    "rjaibisabhi94_asriv",
+    "schoentgen94_asriv"
+   ]
+  },
+  {
+   "title": "Robustness to Adverse Factors",
+   "papers": [
+    "cohen94_asriv",
+    "ortegagarcia94_asriv",
+    "trent94_asriv",
+    "naik94b_asriv",
+    "openshaw94_asriv",
+    "lin94_asriv"
+   ]
+  }
+ ]
+}

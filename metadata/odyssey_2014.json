@@ -1,0 +1,1579 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2014)",
+ "location": "Joensuu, Finland",
+ "startDate": "16/6/2014",
+ "endDate": "19/6/2014",
+ "conf": "Odyssey",
+ "year": "2014",
+ "name": "odyssey_2014",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2014)",
+ "date": "16-19 June 2014",
+ "papers": {
+  "campbell14_odyssey": {
+   "authors": [
+    [
+     "Joseph P",
+     "Campbell"
+    ]
+   ],
+   "title": "Speaker Recognition for Forensic Applications",
+   "original": "Campbell",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "In forensic speaker comparison, speech utterances are compared by humans and/or machines for use in investigation. It is a high-stakes application that can affect people's lives, therefore demanding the highest scientific standards. Unfortunately, methods used in practice vary widely --- and not always for the better. Methods and practices grounded in science are critical for proper application (and nonapplication) of speaker comparison to a variety of international investigative and forensic applications. This invited keynote, by Dr. Joseph P. Campbell of MIT Lincoln Laboratory, provides a critical analysis of current techniques employed and lessons learned. It is crucial to improve communication between automatic speaker recognition researchers, legal scholars and forensic practitioners internationally. This involves addressing, for instance, central legal, policy, and societal questions such as allowing speaker comparisons in court, requirements for expert witnesses, and requirements for specific automatic or human-based methods to be considered scientific. This keynote is intended as a roadmap in that direction.\n"
+   ]
+  },
+  "martin14_odyssey": {
+   "authors": [
+    [
+     "Alvin F.",
+     "Martin"
+    ],
+    [
+     "Craig S.",
+     "Greenberg"
+    ],
+    [
+     "John M.",
+     "Howard"
+    ],
+    [
+     "George R.",
+     "Doddington"
+    ],
+    [
+     "John J.",
+     "Godfrey"
+    ],
+    [
+     "Vincent M.",
+     "Stanford"
+    ]
+   ],
+   "title": "Effects of the New Testing Paradigm of the 2012 NIST Speaker Recognition Evaluation",
+   "original": "50",
+   "page_count": 5,
+   "order": 2,
+   "p1": "1",
+   "pn": "5",
+   "abstract": [
+    "The 2012 NIST Speaker Recognition Evaluation was substantially different from the prior NIST speaker evaluations in its basic paradigm regarding system knowledge of most of the target speakers. This involved both a substantial increase in the amount of training data for most targets, and the provision of this data in advance of the evaluation with knowledge of these specific targets available to the system for all evaluation trials. We examine the performance effects of these changes, with contrasts provided by a limited number of targets with limited training not made known in advance and by one participant’s system designed not to take advantage of the prior knowledge of multiple targets.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-1"
+  },
+  "vandervloed14_odyssey": {
+   "authors": [
+    [
+     "David",
+     "van der Vloed"
+    ],
+    [
+     "Jos",
+     "Bouten"
+    ],
+    [
+     "David",
+     "van Leeuwen"
+    ]
+   ],
+   "title": "NFI-FRITS: A forensic speaker recognition database and some first experiments",
+   "original": "21",
+   "page_count": 8,
+   "order": 3,
+   "p1": "6",
+   "pn": "13",
+   "abstract": [
+    "In this paper we describe the collection of a speech database with forensically realistic data.  It consists of speech material obtained from lawfully intercepted telephone conversations collected during police investigations.  The speech material therefore is very similar to the kind we encounter in case work at the Netherlands Forensic Institute.  The database is augmented with metadata describing language, accent, speaking style and acoustic conditions.  A total of 604 speakers have been identified in 4188 conversation sides.  After manual speaker attribution using various forms of available metadata, the speech content has been anonymised by zeroing out fragments that might disclose the real identity of speakers.  Additional to the database description, this paper reports on some speaker recognition experiments using a commercially available forensic speaker recognition system.  We can observe some effect of spoken language in terms of calibration, but overall the systems appears not too sensitive to accent or language.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-2"
+  },
+  "vanleeuwen14_odyssey": {
+   "authors": [
+    [
+     "David",
+     "van Leeuwen"
+    ],
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Albert",
+     "Swart"
+    ]
+   ],
+   "title": "A comparison of linear and non-linear calibrations for speaker recognition",
+   "original": "31",
+   "page_count": 5,
+   "order": 4,
+   "p1": "14",
+   "pn": "18",
+   "abstract": [
+    "In recent work on both generative and discriminative score to log-likelihood-ratio calibration, it was shown that linear transforms give good accuracy only for a limited range of operating points. Moreover, these methods required tailoring of the calibration training objective functions in order to target the desired region of best accuracy. Here, we generalize the linear recipes to non-linear ones. We experiment with a non-linear, non-parametric, discriminative PAV solution, as well as parametric, generative, maximum-likelihood solutions that use Gaussian, Student’s T and normal-inverse-Gaussian score distributions. Experiments on NIST SRE’12 scores suggest that the non-linear methods provide wider ranges of optimal accuracy and can be trained without having to resort to objective function tailoring.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-3"
+  },
+  "lei14_odyssey": {
+   "authors": [
+    [
+     "Yun",
+     "Lei"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ],
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Nicolas",
+     "Scheffer"
+    ]
+   ],
+   "title": "Trial-based Calibration for Speaker Recognition in Unseen Conditions",
+   "original": "43",
+   "page_count": 7,
+   "order": 5,
+   "p1": "19",
+   "pn": "25",
+   "abstract": [
+    "This work presents Trial-Based Calibration (TBC), a novel, automated calibration technique robust to both unseen and widely varying conditions. Motivated by the approach taken by forensic experts in speaker recognition, TBC delays estimating calibration parameters until trial-time when acoustic and behavioral conditions of both sides of the trial are known. An audio characterization system is used to select a small subset of candidate calibration audio samples that best match the conditions of the enrollment sample and a subset that resembles the test conditions. Calibration parameters learned from the target and impostor trials generated by pairing up these samples are then used to calibrate the score output from the speaker identification system. Evaluated on a diverse, pooled collection of 5 different databases with 14 distinct conditions, the proposed TBC outperforms traditional calibration methods and obtains calibration performance similar to having an ideally matched calibration set.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-4"
+  },
+  "rohdin14_odyssey": {
+   "authors": [
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Sangeeta",
+     "Biswas"
+    ],
+    [
+     "Koichi",
+     "Shinoda"
+    ]
+   ],
+   "title": "Discriminative PLDA training with application-specific loss functions for speaker verification",
+   "original": "22",
+   "page_count": 7,
+   "order": 6,
+   "p1": "26",
+   "pn": "32",
+   "abstract": [
+    "Speaker verification systems are usually evaluated by a weighted average of its false acceptance (FA) rate and false rejection (FR) rate. The weights are known as the operating point (OP) and depend on the applications. Recent researches suggest that, for the purpose of score calibration of speaker verification systems, it is beneficial to let discriminative training emphasize on the operating points of interest, i.e., use application-specific loss functions. In score calibration, a transformation is applied to the scores in order to make them better represent likelihood ratios. The same application-specific training objective can be used in discriminative training of all parameters of a speaker verification system. In this study, we apply application-specific loss functions in discriminative PLDA training.We observe improvement an improvement in MDC for the male trials of the NIST SRE10 telephone for the targeted operating point compared to the baseline, discriminative PLDA training with logistic regression loss.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-5"
+  },
+  "gonzalezrodriguez14_odyssey": {
+   "authors": [
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Juana",
+     "Gil"
+    ],
+    [
+     "Rubén",
+     "Pérez"
+    ],
+    [
+     "Javier",
+     "Franco-Pedroso"
+    ]
+   ],
+   "title": "What are we missing with i-vectors? A perceptual analysis of i-vector-based falsely accepted trials",
+   "original": "30",
+   "page_count": 8,
+   "order": 7,
+   "p1": "33",
+   "pn": "40",
+   "abstract": [
+    "Speaker comparison, as stressed by the current NIST i-vector Machine Learning Challenge where the speech signals are not available, can be effectively performed through pattern recognition algorithms comparing compact representations of the speaker identity information in a given utterance.  However, this i-vector representation ignores relevant segmental (non-cepstral) and supra-segmental speaker information present in the original speech signal that could significantly improve the decision making process. In order to confirm this hypothesis in the context of NIST SRE trials, two experienced phoneticians have performed a detailed perceptual and instrumental analysis of 18 i-vector-based falsely accepted trials from NIST HASR 2010 and SRE 2010 trying to find noticeable differences between the two utterances in each given trial. Remarkable differences were obtained in all trials under detailed analysis, where combinations of observed differences vary for every trial as expected, showing specially significant differences in voice quality (creakiness, breathiness, etc.), rhythmic and tonal features, and pronunciation patterns, some of them compatible with possible variations across recording sessions and others highly incompatible with the same speaker hypothesis. The results of this analysis suggest the interest in developing banks of non-cepstral segmental and supra-segmental attribute detectors, imitating some of the trained abilities of a non-native phonetician. Those detectors can contribute in a bottom-up decision approach to speaker recognition and provide descriptive information of the different contributions to identity in a given speaker comparison.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-6"
+  },
+  "bousquet14_odyssey": {
+   "authors": [
+    [
+     "Pierre-Michel",
+     "Bousquet"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ]
+   ],
+   "title": "Exploring some limits of Gaussian PLDA modeling  for i-vector distributions",
+   "original": "3",
+   "page_count": 7,
+   "order": 8,
+   "p1": "41",
+   "pn": "47",
+   "abstract": [
+    "Gaussian-PLDA (G-PLDA) modeling for i-vector based speaker verification has proven to be competitive versus heavy-tailed PLDA (HT-PLDA) based on Student's t-distribution, when the latter is much more computationally expensive. However, its results are achieved using a length-normalization, which projects i-vectors on the non-linear and finite surface of a hypersphere. This paper investigates the limits of linear and Gaussian G-PLDA modeling when distribution of data is spherical. In particular, assumptions of homoscedasticity are questionable: the model assumes that the within-speaker variability can be estimated by a unique and linear parameter. A non-probabilistic approach is proposed, competitive with state-of-the-art, which reveals some limits of the Gaussian modeling in terms of goodness of fit. We carry out an analysis of residue, which finds out a relation between the dispersion of a speaker-class and its location and, thus, shows that homoscedasticity assumptions are not fulfilled.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-7"
+  },
+  "dehak14_odyssey": {
+   "authors": [
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Mohamad Hasan",
+     "Bahari"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Hugo Van",
+     "Hamme"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ]
+   ],
+   "title": "GMM Weights Adaptation Based on Subspace Approaches for Speaker Verification",
+   "original": "24",
+   "page_count": 6,
+   "order": 9,
+   "p1": "48",
+   "pn": "53",
+   "abstract": [
+    "In this paper, we explored the use of Gaussian Mixture Model (GMM) weights adaptation for speaker verification. We compared two different subspace weight adaptation approaches: Subspace Multinomial Model (SMM) and Non-Negative factor Analysis (NFA). Both techniques achieved similar results and seemed to outperform the retraining maximum likelihood (ML) weight adaptation. However, the training process for the NFA approach is substantially faster than theSMMtechnique. The i-vector fusion between each weight adaptation approach and the classical i-vector yielded slight improvements on the telephone part of the NIST 2010 Speaker Recognition Evaluation dataset.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-8"
+  },
+  "nautsch14_odyssey": {
+   "authors": [
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Christian",
+     "Rathgeb"
+    ],
+    [
+     "Christoph",
+     "Busch"
+    ],
+    [
+     "Herbert",
+     "Reininger"
+    ],
+    [
+     "Klaus",
+     "Kasper"
+    ]
+   ],
+   "title": "Towards Duration Invariance of i-Vector-based Adaptive Score Normalization",
+   "original": "10",
+   "page_count": 8,
+   "order": 10,
+   "p1": "60",
+   "pn": "67",
+   "abstract": [
+    "It is generally conceded that duration variability has huge effects on the biometric performance of speaker recognition systems. State-of-the-art approaches, which employ i-vector representations, apply adaptive spherical (AS) score-normalizations to improve the performance of the underlying system by using specific statistics on reference and probe templates obtained from additional datasets. While variation and likely a reduction of the signal duration from reference to probe samples is unpredictable, incorporating duration information turns out to be vital in order to prevent a significant raise of entropy. In this paper we propose a duration-invariant extension of the AS-Norm, which is capable of computing more robust scores over a wide range of duration variabilities. The presented technique requires less computational effort at the time of speaker verification, and yields a 19\\% relative-gain in the minimum detection costs on the current NIST i-vector challenge database, compared to the provided NIST i-vector baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-9"
+  },
+  "li14_odyssey": {
+   "authors": [
+    [
+     "Zhi-Yi",
+     "Li"
+    ],
+    [
+     "Wei-Qiang",
+     "Zhang"
+    ],
+    [
+     "Wei-Wei",
+     "Liu"
+    ],
+    [
+     "Yao",
+     "Tian"
+    ],
+    [
+     "Jia",
+     "Liu"
+    ]
+   ],
+   "title": "Text-Independent Speaker Verification via State Alignment",
+   "original": "11",
+   "page_count": 5,
+   "order": 11,
+   "p1": "68",
+   "pn": "72",
+   "abstract": [
+    "To model the speech utterance at a finer granularity, this paper presents a novel state-alignment based supervector modeling method for text-independent speaker verification, which takes advantage of state-alignment method used in hidden Markov model (HMM) based acoustic modeling in speech recognition. By this way, the proposed modeling method can convert a text-independent speaker verification problem to a state-dependent one. Firstly, phoneme HMMs are trained. Then the clustered state Gaussian Mixture Models (GMM) is data-driven trained by the states of all phoneme HMMs. Next, the given speech utterance is modeled to sub-GMM supervectors in state level and be further aligned to be a final supervector. Besides, considering the duration differences between states, a weighting method is also proposed for kernel based support vector machine (SVM) classification. Experimental results in SRE 2008 core-core dataset show that the proposed methods outperform the traditional GMM supervector modeling followed by SVM (GSV-SVM), yielding relative 8.4% and 5.9% improvements of EER and minDCF, respectively.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-10"
+  },
+  "lee14_odyssey": {
+   "authors": [
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ],
+    [
+     "Liping",
+     "Chen"
+    ],
+    [
+     "Wu",
+     "Guo"
+    ],
+    [
+     "Lirong",
+     "Dai"
+    ]
+   ],
+   "title": "Local Variability Modeling for Text-Independent Speaker Verification",
+   "original": "7",
+   "page_count": 6,
+   "order": 12,
+   "p1": "54",
+   "pn": "59",
+   "abstract": [
+    "Total variability model (TVM) was recently proposed for the com-pression of speech utterances to low dimensional vectors (i.e., the so-call identity vector or i-vector). Compared to the variable-length nature of the speech utterances, the i-vectors have fixed length and therefore could be used with simple classifier for text-independent speaker verification task. This paper proposes the local variability model (LVM) the central idea of which is to capture the local vari-ability associated with individual Gaussians in the acoustic space that are absent in the i-vector representation. We analyze the latent structure of both the total and local variability model and show that parameter tying across mixtures leads to powerful methods for information extraction. Experimental results on NIST SRE’08 and SRE’10 datasets show that the proposed LVM is effective for speaker verification.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-11"
+  },
+  "isik14_odyssey": {
+   "authors": [
+    [
+     "Yusuf Ziya",
+     "Isik"
+    ],
+    [
+     "Hakan",
+     "Erdogan"
+    ],
+    [
+     "Ruhi",
+     "Sarikaya"
+    ]
+   ],
+   "title": "A Latent Dirichlet Allocation Based Front-End for Speaker Verification",
+   "original": "52",
+   "page_count": 6,
+   "order": 13,
+   "p1": "131",
+   "pn": "136",
+   "abstract": [
+    "Latent Dirichlet Allocation is a powerful topic model used heavily in natural language processing, image processing and biomedical signal processing fields to discover hidden structures behind observed data. In this work, we have adopted a variant of LDA for continuous descriptor vectors and use this model as a front-end for speaker verification similar to popular i-vector front-end. We have proposed an efficient hierarchical acoustic vocabulary creation method and presented a speaker verification system using latent topic probability features obtained using LDA front-end. We analysed the performance of the LDA front-end for various vocabulary and topic sizes, and obtained encouraging results on NIST SRE corpora. The proposed system is shown to improve the performance of an ivector-PLDA baseline system when tested on NIST SRE12 corpora.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-12"
+  },
+  "hautamaki14_odyssey": {
+   "authors": [
+    [
+     "Ville",
+     "Hautamäki"
+    ],
+    [
+     "Rosa",
+     "Gonzalez Hautamäki"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Anne-Maria",
+     "Laukkanen"
+    ]
+   ],
+   "title": "Comparison of human listeners and speaker verification systems using voice mimicry data",
+   "original": "54",
+   "page_count": 8,
+   "order": 14,
+   "p1": "137",
+   "pn": "144",
+   "abstract": [
+    "Voice mimicry of another speaker’s voice and speech characteristics is considered. In this work, we analyze the performance of two well known speaker verification systems against voice mimicry and compare it with a perceptual test with the same data. Our focus is to gain insights on how well listeners recognize speakers based on their voice samples when mimicry data is included and compare it to the overall performance of state-of-the-art speaker verification systems, a traditional Gaussian mixture model-universal background model (GMM-UBM) and an i-vector based classifier with cosine scoring. For the studied material in Finnish language, the mimicry attack was able to slightly increase the error rate in a range acceptable for the general performance of the system (EER from 9 to 11%). Our data reveals that enhancing the audio material to minimize the differences of data collected in different environments improves the accuracy of the system even in the presence of imitated speech. The performance of the human listening panel shows that successfully imitated speech is difficult to recognize, even more difficult to recognize a person who is intentionally trying to modify his or her own voice. Average listener made 8 errors from 34 selected trials.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-13"
+  },
+  "kenny14_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Pierre",
+     "Ouellet"
+    ],
+    [
+     "Md Jahangir",
+     "Alam"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "Supervised/Unsupervised Voice Activity Detectors for Text-dependent Speaker Recognition on the RSR2015 Corpus",
+   "original": "47",
+   "page_count": 8,
+   "order": 15,
+   "p1": "123",
+   "pn": "130",
+   "abstract": [
+    "Voice activity detection, i.e., discrimination of the speech/non-speech segments in a speech signal, is an important enabling technology for a variety of speech-based applications including the speaker recognition. In this work we provide a performance evaluation of the following supervised and unsupervised VAD algorithms in the context of text-dependent speaker recognition on the RSR2015 (Robust Speaker Recognition 2015) task : Energy-based VAD with and without hangover scheme and endpoint detection, vector quantization-based VAD, Gaussian mixtures model (GMM)-based VAD (both supervised and unsupervised way), and sequential GMM-based VAD. Experimental results show that both the supervised and unsupervised GMM-based VADs perform better than the other VAD algorithms. Considering all three evaluation metrics (equal error rate, old (SRE 2008) and new (SRE 2010) normalized detection cost functions) unsupervised GMM-based VAD performed the best.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-14"
+  },
+  "rohdin14b_odyssey": {
+   "authors": [
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Sangeeta",
+     "Biswas"
+    ],
+    [
+     "Koichi",
+     "Shinoda"
+    ]
+   ],
+   "title": "i-Vector Selection for Effective PLDA Modeling in Speaker Recognition",
+   "original": "23",
+   "page_count": 6,
+   "order": 16,
+   "p1": "100",
+   "pn": "105",
+   "abstract": [
+    "Data selection is an important issue in speaker recognition. In the previous studies, the data selection for background models such as UBM, or SVM background, have been addressed. In this paper, we address the data selection for a PLDA model which is the state-of-art for i-vector scoring. We propose a modified version of k-NN where k is optimized by using local distance-based outlier factor (LDOF). We name this as flexible k-NN or fk-NN. Contrary to the previous studies, our approach does not make use of any other meta-information than gender information such as speech duration, or transmission channel, for selecting data for PLDA models. Our fk-NN obtained significant performance improvements on both male and female trials of NIST Speaker Recognition Evaluation (SRE) 2006 core task, NIST SRE 2008 core task (condition-6) and NIST SRE 2010 coreext-coreext task (condition-5).\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-15"
+  },
+  "desplanques14_odyssey": {
+   "authors": [
+    [
+     "Brecht",
+     "Desplanques"
+    ],
+    [
+     "Kris",
+     "Demuynck"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ]
+   ],
+   "title": "Combining Joint Factor Analysis and iVectors for Robust Language Recognition",
+   "original": "13",
+   "page_count": 8,
+   "order": 17,
+   "p1": "73",
+   "pn": "80",
+   "abstract": [
+    "This paper presents a system to identify the spoken language in challenging audio material such as broadcast news shows. The audio material targeted by the system is characterized by a large range of background conditions (e.g. studio recordings vs. outdoor interviews) and a considerable amount of non-native speakers. The designed model-based language classifier automatically identifies intervals of Flemish (Belgian Dutch), English or French speech. The proposed system is iVector-based, but unlike the standard approach it does not model the Total Variability. Instead, it relies on the original Joint Factor Analysis recipe by modeling the different sources of variability separately. For each speaker a fixed-length low-dimensional feature vector is extracted which encodes the language variability and the other sources of variability separately. The language factors are then fed to a simple language classifier. When assessed on a self-composed dataset containing 9 hours of monolingual broadcast news, 9 hours of multilingual broadcast news and 10 hours of documentaries, this classifier is found to outperform a state-of-the-art eigenchannel compensated discriminatively-trained GMM system by up to 20% relative. A standard iVector baseline is outperformed by up to 40% relative.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-16"
+  },
+  "lazaridis14_odyssey": {
+   "authors": [
+    [
+     "Alexandros",
+     "Lazaridis"
+    ],
+    [
+     "Elie",
+     "Khoury"
+    ],
+    [
+     "Jean-Philippe",
+     "Goldman"
+    ],
+    [
+     "Mathieu",
+     "Avanzi"
+    ],
+    [
+     "Sébastien",
+     "Marcel"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Swiss French Regional Accent Identification",
+   "original": "29",
+   "page_count": 6,
+   "order": 18,
+   "p1": "106",
+   "pn": "111",
+   "abstract": [
+    "In this paper an attempt is made to automatically recognize the speaker’s accent among regional Swiss French accents from four different regions of Switzerland, i.e. Geneva (GE), Martigny (MA), Neuchˆatel (NE) and Nyon (NY). To achieve this goal, we rely on a generative probabilistic framework for classification based on Gaussian mixture modelling (GMM). Two different GMM-based algorithms are investigated: (1) the baseline technique of universal background modelling (UBM) followed by maximum-a-posteriori (MAP) adaptation, and (2) total variability (i-vector) modelling. Both systems perform well, with the i-vector-based system outperforming the baseline system, achieving a relative improvement of 15.3% in the overall regional accent identification accuracy.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-17"
+  },
+  "fernandezgallardo14_odyssey": {
+   "authors": [
+    [
+     "Laura",
+     "Fernandez Gallardo"
+    ],
+    [
+     "Michael",
+     "Wagner"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Spectral Sub-band Analysis of Speaker Verification Employing Narrowband and Wideband Speech",
+   "original": "14",
+   "page_count": 7,
+   "order": 19,
+   "p1": "81",
+   "pn": "87",
+   "abstract": [
+    "It is well known that the speaker discriminative information is not equally distributed over the spectral domain. However, it is still not clear whether that distribution is altered when the speech is transmitted through telecommunication channels, which introduce different kinds of degradations. In this paper we address the analysis of different frequency sub-bands when the speech is distorted with different bandwidth filters and channel codecs, considering narrowband and wideband communications. Our i-vector experiments on different sub-bands with 782 speakers show that standard landline codecs perform generally better than wireless codecs due to their intrinsic coding algorithm, their performance being close to, but slightly worse than that of uncoded speech. Wideband signals offer significant benefits over narrowband for speaker verification. A smaller experiment with 21 speakers leads us to believe that the emerging super-wideband transmissions may provide even better results because it shows important speaker-specific content in the band 8-14kHz.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-18"
+  },
+  "liu14_odyssey": {
+   "authors": [
+    [
+     "Gang",
+     "Liu"
+    ],
+    [
+     "John H.L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Supra-Segmental Feature Based Speaker Trait Detection",
+   "original": "19",
+   "page_count": 6,
+   "order": 20,
+   "p1": "94",
+   "pn": "99",
+   "abstract": [
+    "It is well known that speech utterances convey a rich diversity of information concerning the speaker in addition to related semantic content. Such information may contain speaker traits such as personality, likability, health/pathology, etc. To detect speaker traits in human computer interface is an important task toward formulating more efficient and natural computer engagement. This study proposes two groups of supra-segmental features for improving speaker trait detection performance.  Compared with the 6125 dimension features based baseline system, the proposed supra-segmental system not only improves performance by 9.0%, but also is computationally attractive and proper for real life application since it derives a less than 63 dimension features, which are 99% less than the baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-19"
+  },
+  "vijayan14_odyssey": {
+   "authors": [
+    [
+     "Karthika",
+     "Vijayan"
+    ],
+    [
+     "Vinay",
+     "Kumar"
+    ],
+    [
+     "K Sri Rama",
+     "Murty"
+    ]
+   ],
+   "title": "Allpass modelling of Fourier phase for speaker verification",
+   "original": "32",
+   "page_count": 6,
+   "order": 21,
+   "p1": "112",
+   "pn": "117",
+   "abstract": [
+    "This paper proposes features based on parametric representation of Fourier phase of speech for speaker verification. Direct computation of Fourier phase suffers from phase wrapping, and hence we attempt parametric modelling of phase spectrum using an allpass (AP) filter. The coefficients of the AP filter are estimated by minimizing an entropy based objective function motivated from speech production process. The AP cepstral coefficients (APCC) derived from the group delay response of estimated AP filter are used as features for speaker verification. An i-vector based speaker verification system is employed to evaluate the performance of the proposed APCC features on NIST 2003 speaker recognition evaluation database. The speaker verification system built using APCC features delivered an equal error rate (EER) of 7.58%, illustrating the speaker-specific nature of phase spectrum. The baseline speaker verification system built on mel-frequency cepstral coefficients (MFCC) gave an EER of 1.32%. A relative improvement of 12% was obtained over MFCC features by combining evidences from both MFCC and APCC based systems.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-20"
+  },
+  "zhong14_odyssey": {
+   "authors": [
+    [
+     "Jinghua",
+     "Zhong"
+    ],
+    [
+     "Weiwu",
+     "Jiang"
+    ],
+    [
+     "Helen",
+     "Meng"
+    ],
+    [
+     "Na",
+     "Li"
+    ],
+    [
+     "Zhifeng",
+     "Li"
+    ]
+   ],
+   "title": "An Integration of Random Subspace Sampling and Fishervoice for Speaker Verification",
+   "original": "15",
+   "page_count": 6,
+   "order": 22,
+   "p1": "88",
+   "pn": "93",
+   "abstract": [
+    "In this paper, we propose an integration of random subspace sampling and Fishervoice for speaker verification. In the previous random sampling framework [1], we randomly sample the JFA feature space into a set of low-dimensional subsapces. For every random subspace, we use Fishervoice to model the intrinsic vocal characteristics in a discriminant subspace. The complex speaker characteristics are modeled through multiple subspaces. Through a fusion rule, we form a more powerful and stable classifier that can preserve most of the discriminative information. But in many cases, random subspace sampling may discard too much useful discriminative information for high dimensional feature space. Instead of increasing the number of random subspace or using more complex fusion rules which increase system complexity, we attempt to increase the performance of each individual weak classifier. Hence, we propose to investigate the integration of random subspace sampling with the Fishervoice approach. The proposed new framework is shown to provide better performance in both NIST 2008 and NIST 2010 evaluation corpora. Besides, we also apply Probabilistic Linear Discriminant Analysis (PLDA) on the supervector space. Our proposed framework can improve PLDA performance by a relative decrease of 12.47% in EER and reduced the minDCF from 0.0216 to 0.0210.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-21"
+  },
+  "liu14b_odyssey": {
+   "authors": [
+    [
+     "Gang",
+     "Liu"
+    ],
+    [
+     "John",
+     "Hansen"
+    ],
+    [
+     "Chengzhu",
+     "Yu"
+    ],
+    [
+     "Abhinav",
+     "Misra"
+    ],
+    [
+     "Navid",
+     "Shokouhi"
+    ]
+   ],
+   "title": "Investigating State-of-the-Art Speaker Verification in the case of Unlabeled Development Data",
+   "original": "42",
+   "page_count": 5,
+   "order": 23,
+   "p1": "118",
+   "pn": "122",
+   "abstract": [
+    "This paper describes the systems developed by the Center for Robust Speech Systems (CRSS), Univ. of Texas - Dallas, for the National Institute of Standards and Technology (NIST) i-vector challenge. Given that the emphasis of this challenge is on utilizing unlabeled development data, our system development focuses on: 1) leveraging the channel variation from unlabeled development data through unsupervised clustering; 2) investigating different classifiers containing complementary information that can be used in fusion; and 3) extracting meta-data information for test and model i-vectors. Our results indicate substantial improvements obtained from incorporating one or more of the aforementioned techniques.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-22"
+  },
+  "martin14b_odyssey": {
+   "authors": [
+    [
+     "Alvin F.",
+     "Martin"
+    ],
+    [
+     "Craig S.",
+     "Greenberg"
+    ],
+    [
+     "John M.",
+     "Howard"
+    ],
+    [
+     "George R.",
+     "Doddington"
+    ],
+    [
+     "John J.",
+     "Godfrey"
+    ]
+   ],
+   "title": "NIST Language Recognition Evaluation - Past and Future",
+   "original": "49",
+   "page_count": 7,
+   "order": 24,
+   "p1": "145",
+   "pn": "151",
+   "abstract": [
+    "This is a review of the six NIST Language Recognitions Evaluations from 1996 to 2011. The evolving nature of the task is described, including the (non-)distinction between language and dialect. The languages/dialects tested are noted, and the challenges of data collection for such evaluations and the collections actually undertaken are reviewed. The performance measures employed are defined, and the performance levels achieved in both earlier and later evaluation tasks on different tests are discussed. Plans for the next evaluation in the series are presented.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-23"
+  },
+  "liu14c_odyssey": {
+   "authors": [
+    [
+     "Gang",
+     "Liu"
+    ],
+    [
+     "Qian",
+     "Zhang"
+    ],
+    [
+     "John",
+     "Hansen"
+    ]
+   ],
+   "title": "Robust Language Recognition Based on Diverse Features",
+   "original": "34",
+   "page_count": 6,
+   "order": 25,
+   "p1": "152",
+   "pn": "157",
+   "abstract": [
+    "In real scenarios, robust language identification (LID) is usually hindered by factors such as background noise, channel, and speech duration mismatches. To address these issues, this study focuses on the advancements of diverse acoustic features, back-ends, and their influence on LID system fusion. There is little research about the selection of complementary features for a multiple system fusion in LID. A set of distinct features are considered, which can be grouped into three categories: classical features, innovative features, and extensional features. In addition, both front-end concatenation and back-end fusion are considered. The results suggest that no single feature type is universally vital across all LID tasks and that a fusion of a diverse set is needed to ensure sustained LID performance in challenging scenarios. Moreover, the back-end fusion also consistently enhances the system performance significantly. To be specifically, the proposed hybrid fusion method benefits system performance with a relative +38.5% and +46.1% improvement on the DARPA RATS and the NIST LRE09 data sets, respectively.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-24"
+  },
+  "minematsu14_odyssey": {
+   "authors": [
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Shun",
+     "Kasahara"
+    ],
+    [
+     "Takehiko",
+     "Makino"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ]
+   ],
+   "title": "Speaker-basis Accent Clustering Using Invariant Structure Analysis and the Speech Accent Archive",
+   "original": "46",
+   "page_count": 8,
+   "order": 26,
+   "p1": "158",
+   "pn": "165",
+   "abstract": [
+    "English is the only language available for international communication and is used by approximately 1.5 billions of speakers. It is also known to have a large diversity of pronunciation due to the influence of speakers' mother tongue, called accents. Our project aims at creating a global and speaker-basis map of English accents to be used in teaching and learning World Englishes (WE) as well as research studies of WE. Creating the map mathematically requires a distance matrix in terms of accents among all the speakers considered, and technically requires a method of predicting the accent distance between any pair of the speakers only by using their speech samples. The results of our first trials  were presented with some technical problems found through the experiments. In this paper, recent progresses were explained with additional explanation on the invariant structure, which were omitted in our previous papers due to space of the papers. Use of the invariant structure and Support Vector Regression (SVR) shows a striking performance in predicting the accent distances in a speaker-pair-open mode but the performance is not sufficient in a speaker-open mode.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-25"
+  },
+  "mccree14_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "Mccree"
+    ]
+   ],
+   "title": "Multiclass Discriminative Training of i-vector Language Recognition",
+   "original": "48",
+   "page_count": 7,
+   "order": 27,
+   "p1": "166",
+   "pn": "172",
+   "abstract": [
+    "The current state-of-the-art for acoustic language recognition is an i-vector classifier followed by a discriminatively-trained multiclass back-end. This paper presents a unified approach, where a Gaussian i-vector classifier is trained using Maximum Mutual Information (MMI) to directly optimize the multiclass calibration criterion, so that no separate back-end is needed.  The system is extended to the open set task by training an additional Gaussian model. Results on the NIST LRE11 standard evaluation task confirm that high performance is maintained with this new single-stage approach.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-26"
+  },
+  "bonastre14_odyssey": {
+   "authors": [
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ],
+    [
+     "Samy",
+     "Bengio"
+    ]
+   ],
+   "title": "Telephone Conversation Speaker Diarization Using Mealy-HMMs",
+   "original": "4",
+   "page_count": 6,
+   "order": 28,
+   "p1": "173",
+   "pn": "178",
+   "abstract": [
+    "When Hidden Markov Models (HMMs) were first introduced, two competing representation models were proposed, the Moore model, with separate emission and transition distributions, which is commonly used in speech technologies, and the Mealy model, with a single emission-transition distribution. Since then the literature has mostly focused on the Moore model. In this paper, we would like to show the use of Mealy-HMMs for telephone conversation speaker diarization task. We present the Viterbi training and decoding for Mealy-HMMs and show that it yields similar performance compared to Moore-HMMs with a fewer number of parameters.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-27"
+  },
+  "bredin14_odyssey": {
+   "authors": [
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Antoine",
+     "Laurent"
+    ],
+    [
+     "Achintya",
+     "Sarkar"
+    ],
+    [
+     "Viet-Bac",
+     "Le"
+    ],
+    [
+     "Sophie",
+     "Rosset"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ]
+   ],
+   "title": "Person Instance Graphs for Named Speaker Identification in TV Broadcast",
+   "original": "27",
+   "page_count": 8,
+   "order": 29,
+   "p1": "179",
+   "pn": "186",
+   "abstract": [
+    "We address the problem of named speaker identification in TV broadcast which consists in answering the question \"who speaks when?\" with the real identity of speakers, using person names automatically obtained from speech transcripts. While existing approaches rely on a first speaker diarization step followed by a local name propagation step to speaker clusters, we propose a unified framework called person instance graph where both steps are jointly modeled as a global optimization problem, then solved using integer linear programming. Moreover, when available, acoustic speaker models can be added seamlessly to the graph structure for joint named and acoustic speaker identification - leading to a 10% error decrease (from 45% down to 35%) over a state-of-the-art i-vector speaker identification system on the REPERE TV broadcast corpus.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-28"
+  },
+  "dupuy14_odyssey": {
+   "authors": [
+    [
+     "Grégor",
+     "Dupuy"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ],
+    [
+     "Paul",
+     "Deléglise"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ]
+   ],
+   "title": "Recent Improvements on ILP-based Clustering for Broadcast News Speaker Diarization",
+   "original": "37",
+   "page_count": 7,
+   "order": 30,
+   "p1": "187",
+   "pn": "193",
+   "abstract": [
+    "First we propose a reformulation of the Integer Linear Programming (ILP) clustering method we introduced at Odyssey 2012, for broadcast news Speaker Diarization. We included an overall distance filtering which drastically reduce the complexity of the problems to be solved. Then, we present a clustering approach where the problem is globally considered as a connected graph. The search for Star-graph sub-components allows the system to solve almost the whole clustering problem: only 8 of the 28 shows that compose the January 2013 test corpus of the REPERE 2012 French evaluation campaign, on which the experiments were conducted, were processed with the ILP clustering. Compared to the original formulation of the ILP clustering problem, our contribution lead to a reduction of the number of variables in the ILP problem, from 1743 to 53 on average, and a reduction of the number of constraints, from 3449 to 53 on average. The graph content clustering method appears to be an interesting alternative to the current clustering methods, since its results are better than that of the state of the art approaches like GMM-based HAC (15.18% against 16.22% DER).\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-29"
+  },
+  "dighe14_odyssey": {
+   "authors": [
+    [
+     "Pranay",
+     "Dighe"
+    ],
+    [
+     "Marc",
+     "Ferras"
+    ],
+    [
+     "Herve",
+     "Bourlard"
+    ]
+   ],
+   "title": "Modeling Overlapping Speech using Vector Taylor Series",
+   "original": "9",
+   "page_count": 6,
+   "order": 31,
+   "p1": "194",
+   "pn": "199",
+   "abstract": [
+    "Current speaker diarization systems typically fail to successfully assign multiple speakers speaking simultaneously. According to previous studies, overlapping errors account for a large proportion of the total errors in multi-party speech diarization. In this work, we propose a new approach using Vector Taylor Series (VTS) to obtain overlapping speech models assuming individual speaker models are available, e.g. from the diarization output. We extend the VTS framework to use multiple acoustic classes to account for the non-stationarity of corrupting speaker speech. We propose a system using multi-class VTS to detect single-speaker and two-speaker overlapping speech as well as the speakers involved. We show the effectivity of the approach on distant microphone meeting data, especially with the multiclass approach performing at the state-of-the-art.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-30"
+  },
+  "cooke14_odyssey": {
+   "authors": [
+    [
+     "Martin",
+     "Cooke"
+    ]
+   ],
+   "title": "Speaking in adverse conditions: from behavioural observations to intelligibility-enhancing speech modifications",
+   "original": "Cooke",
+   "page_count": 0,
+   "order": 32,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Speech output technology is finding widespread application, including in scenarios where intelligibility might be compromised -- at least for some listeners -- by adverse conditions. Unlike most current algorithms, talkers continually adapt their speech patterns as a response to the immediate context of spoken communication, where the type of interlocutor and the environment are the dominant situational factors influencing speech production. Observations of speaker behaviour can motivate the design of more robust speech output algorithms. Starting with a listener-oriented categorisation of possible goals for speech modification, this talk will describe some of the extensive set of behavioural findings related to human speech modification, identify those factors which appear to be beneficial, and go on to examine recent computational attempts to apply speaker-inspired modifications to improve intelligibility in the face of both stationary and non-stationary maskers.\n"
+   ]
+  },
+  "kenny14b_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Alam",
+     "Jahangir"
+    ],
+    [
+     "Pierre",
+     "Ouellet"
+    ],
+    [
+     "Marcel",
+     "Kockmann"
+    ]
+   ],
+   "title": "Joint Factor Analysis for Text-Dependent Speaker Verification",
+   "original": "6",
+   "page_count": 8,
+   "order": 33,
+   "p1": "200",
+   "pn": "207",
+   "abstract": [
+    "We tackle the problem of text-dependent speaker verification using a version of Joint Factor Analysis (JFA) in which speaker-phrase variability is modeled with a factorial prior and channel variability with a subspace prior. We implemented this using Zhao and Dong's variational Bayes algorithm, an extension of Vogt's Gauss-Seidel method that supports UBM adaptation to the speaker and channel effects in enrollment and test utterances. We report results on the RSR2015 dataset obtained with two types of likelihood ratio and several strategies for UBM adaptation. We found that using a large UBM and decomposing JFA into a feature extractor and a simple back end classifier (in a way broadly analogous to the i-vector/PLDA cascade) gives better results than using likelihood ratios of either type to make verification decisions. This method involves no UBM adaptation other than to the lexical content of utterances and it is based on Vogt's algorithm rather than Zhao and Dong's. It results in an equal error rate of 0.5\\% on the RSR2015 evaluation set.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-31"
+  },
+  "soldi14_odyssey": {
+   "authors": [
+    [
+     "Giovanni",
+     "Soldi"
+    ],
+    [
+     "Simon",
+     "Bozonnet"
+    ],
+    [
+     "Federico",
+     "Alegre"
+    ],
+    [
+     "Christophe",
+     "Beaugeant"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Short-Duration Speaker Modelling with Phone Adaptive Training",
+   "original": "36",
+   "page_count": 8,
+   "order": 34,
+   "p1": "208",
+   "pn": "215",
+   "abstract": [
+    "This paper presents a new approach to feature-level phone normalisation which aims to improve speaker modelling in the case of short-duration training data. The new approach is referred to as phone adaptive training (PAT). Based on constrained maximum likelihood linear regression (cMLLR) and previous work in speaker adaptive training (SAT), PAT learns a set of transforms which project features into a new phone-normalised but speaker-discriminative space. Originally investigated in the context of speaker diarization, this paper presents new work to assess and optimise PAT at the level of speaker modelling and in the context of automatic speaker verification (ASV). Experiments show that PAT improves the performance of a state-of-the-art iVector ASV system by 50% relative to the baseline.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-32"
+  },
+  "you14_odyssey": {
+   "authors": [
+    [
+     "Changhuai",
+     "You"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Text-Dependent Speaker Verification System in VHF Communication Channel",
+   "original": "5",
+   "page_count": 8,
+   "order": 35,
+   "p1": "216",
+   "pn": "223",
+   "abstract": [
+    "Text-independent speaker verification can reach high accuracy provided that there are sufficient amount of training and test speech utterances. Gaussian mixture model - universal background model (GMM-UBM), joint factor analysis (JFA) and identity-vector (i-vector) represent the dominant techniques used in this area in view of their superior performance. However, their accuracies drop significantly when the duration of speech utterances are much constrained. In many realistic voice biometric application, the speech duration is required to be quite short, which leads to low accuracy. One solution is to use pass-phrases in place of the uncertain contents. In contrast with text-independent system, this kind of text-dependent speaker verification can achieve higher accuracy even when the speech is short. In this paper, we conduct a study on the application of the pass-phrase based speaker modeling and recognition where the speech signal is obtained through VHF (Very High Frequency) communication channel. We attempt to evaluate the effectiveness of the GMM-UBM, JFA, i-vector methods and their fusion system on this text-dependent speaker verification platform. Our primary target is to achieve equal error rate (EER) of over 85~90% under adverse condition using about 3 seconds of speech sample.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-33"
+  },
+  "mccree14b_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "Mccree"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Désiré",
+     "Bansé"
+    ],
+    [
+     "George",
+     "Doddington"
+    ],
+    [
+     "John",
+     "Godfrey"
+    ],
+    [
+     "Alvin",
+     "Martin"
+    ],
+    [
+     "Mark",
+     "Przybocki"
+    ]
+   ],
+   "title": "The NIST 2014 Speaker Recognition i-vector Machine Learning Challenge",
+   "original": "58",
+   "page_count": 7,
+   "order": 36,
+   "p1": "224",
+   "pn": "230",
+   "abstract": [
+    "During late-2013 through mid-2014 NIST coordinated a special machine learning challenge based on the i-vector paradigm widely used by state-of-the-art speaker recognition systems. The i-vector challenge was run entirely online and used as source data fixed-length feature vectors projected into a low-dimensional space (i-vectors) rather than audio recordings.  These changes made the challenge more readily accessible, enabled system comparison with consistency in the front-end and in the amount and type of training data, and facilitated exploration of many more approaches than would be possible in a single evaluation as traditionally run by NIST.  Compared to the 2012 NIST Speaker Recognition Evaluation, the i-vector challenge saw approximately twice as many participants, and a nearly two orders of magnitude increase in the number of systems submitted for evaluation.  Initial results indicate that the leading system achieved a relative improvement of approximately 38% over the baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-34"
+  },
+  "novoselov14_odyssey": {
+   "authors": [
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Timur",
+     "Pekhovsky"
+    ],
+    [
+     "Konstantin",
+     "Simonchik"
+    ]
+   ],
+   "title": "STC Speaker Recognition System for the NIST i-Vector Challenge",
+   "original": "25",
+   "page_count": 10,
+   "order": 37,
+   "p1": "231",
+   "pn": "240",
+   "abstract": [
+    "This paper presents an Speech Technology Center (STC) system submitted to the NIST i-vector challenge. It includes two subsystems, one based on PLDA and one based on SVM. We focus on the task of clustering unlabeled data and using them to train the speaker recognition system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-35"
+  },
+  "vesnicer14_odyssey": {
+   "authors": [
+    [
+     "Bostjan",
+     "Vesnicer"
+    ],
+    [
+     "Jerneja",
+     "Zganec-Gros"
+    ],
+    [
+     "Simon",
+     "Dobrisek"
+    ],
+    [
+     "Vitomir",
+     "Struc"
+    ]
+   ],
+   "title": "Incorporating Duration Information into I-Vector-Based Speaker Recognition Systems",
+   "original": "41",
+   "page_count": 8,
+   "order": 38,
+   "p1": "241",
+   "pn": "248",
+   "abstract": [
+    "Most of the existing literature on i-vector-based speaker recognition focuses on recognition problems, where i-vectors are extracted from speech recordings of sufficient length. The majority of modeling/recognition techniques therefore simply ignores the fact that the i-vectors are most likely estimated unreliably when short recordings are used for their computation. Only recently, a number of  solutions were proposed in the literature to address the problem of duration variability, all treating the i-vector as a random variable whose posterior distribution can be parameterized by the posterior mean and the posterior covariance. In this setting the covariance matrix serves as a measure of uncertainty that is related to the length of the available recording. Different from the these solutions, we address the problem of duration variability through weighted statistics. We demonstrate in the paper how established feature transformation techniques regularly used in the area of speaker recognition, such as PCA or WCCN, can be modified to take duration into account. We evaluate our weighting scheme in the scope of the i-vector challenge organized as part of the Odyssey, Speaker and Language Recognition Workshop 2014 and achieve a minimal CDF of 0.280, which by the time of writing puts our approach in third place among all participating institutions.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-36"
+  },
+  "khosravani14_odyssey": {
+   "authors": [
+    [
+     "Abbas",
+     "Khosravani"
+    ],
+    [
+     "Mohammad Mahdi",
+     "Homayounpour"
+    ]
+   ],
+   "title": "Linearly Constrained Minimum Variance for Robust I-vector Based Speaker Recognition",
+   "original": "33",
+   "page_count": 5,
+   "order": 39,
+   "p1": "249",
+   "pn": "253",
+   "abstract": [
+    "This paper aims at presenting our algorithm used to make submission for the 2013-2014 NIST speaker recognition i-vector challenge. The fixed dimensional i-vector representation of speech utterances provides an opportunity to apply techniques from machine learning community to improve speaker recognition performance. The unlabeled i-vectors provided for development purpose makes the problem more challenging. The proposed method uses the idea of one of the popular robust beamforming techniques named Lineally Constrained Minimum Variance (LCMV), which has been presented in the context of beamforming for signal enhancement. We will show that LCMV can improve performance by building a model from different i-vectors of a given speaker so as to cancel inter-session variability and increase inter-speaker variability. Covariance matrix modification and score normalization using a selection of imposter speakers have been used to further improve performance. As measured by minimum decision cost function defined in the challenge, our result is about 27% better relative to the baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-37"
+  },
+  "ferras14_odyssey": {
+   "authors": [
+    [
+     "Marc",
+     "Ferras"
+    ],
+    [
+     "Elie",
+     "Khoury"
+    ],
+    [
+     "Sébastien",
+     "Marcel"
+    ],
+    [
+     "Laurent El",
+     "Shafey"
+    ]
+   ],
+   "title": "Hierarchical speaker clustering methods for the NIST i-vector Challenge",
+   "original": "57",
+   "page_count": 6,
+   "order": 40,
+   "p1": "254",
+   "pn": "259",
+   "abstract": [
+    "The process of manually labeling data is very expensive and sometimes infeasible due to privacy and security issues. This paper investigates the use of two algorithms for clustering unlabeled training i-vectors. This aims at improving speaker recognition performance by using state-of-the-art supervised techniques in the context of the NIST i-vector Machine Learning Challenge 2014. The first algorithm is the well-known Ward clustering that aims at optimizing an objective function across all clusters.  The second one is a cascade clustering, which benefits from the latest advances in speaker modeling and session compensation techniques, and relies on both the cosine similarity and probabilistic linear discriminant analysis (PLDA). Furthermore, this paper investigates the multi-clustering fusion that opens the door for further improvements. The experimental results show that the use of the automatically labeled i-vectors to train supervised methods such as LDA, PLDA or linear logistic regression-based fusion, decreases the minimum decision cost function by up to 22%.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-38"
+  },
+  "bengio14_odyssey": {
+   "authors": [
+    [
+     "Samy",
+     "Bengio"
+    ]
+   ],
+   "title": "Large Scale Learning of a Joint Embedding Space",
+   "original": "Bengio",
+   "page_count": 0,
+   "order": 41,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Rich document annotation is the task of providing textual semantic to documents like images, videos, music, etc, by ranking a large set of possible annotations according to how they correspond to a given document. In the large scale setting, there could be millions of such rich documents to process and hundreds of thousands of potential distinct annotations. In order to achieve such a task we propose to build a so-called \"embedding space\", into which both documents and annotations can be automatically projected. In such a space, one can then find the nearest annotations to a given image/video/music, or annotations similar to a given annotation. One can even build a semantic tree from these annotations, that corresponds to how concepts (annotations) are similar to each other with respect to their rich document characteristics. We propose a new efficient learning-to-rank approach that can scale to such datasets and show some annotation results for images and music databases.\n"
+   ]
+  },
+  "brummer14_odyssey": {
+   "authors": [
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Alan",
+     "Mccree"
+    ],
+    [
+     "Stephen",
+     "Shum"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Carlos",
+     "Vaquero"
+    ]
+   ],
+   "title": "Unsupervised Domain Adaptation for I-Vector Speaker Recognition",
+   "original": "56",
+   "page_count": 5,
+   "order": 42,
+   "p1": "260",
+   "pn": "264",
+   "abstract": [
+    "In this paper, we present a framework for unsupervised domain adaptation of PLDA based i-vector speaker recognition systems. Given an existing out-of-domain PLDA system, we use it to cluster unlabeled in-domain data, and then use this data to adapt the parameters of the PLDA system. We explore two versions of agglomerative hierarchical clustering that use the PLDA system. We also study two automatic ways to determine the number of clusters in the in-domain dataset. The proposed techniques are experimentally validated in the recently introduced domain adaptation challenge. This challenge provides a very useful setup to explore domain adaptation since it illustrates a significant performance gap between an in-domain and out-of-domain system. Using agglomerative hierarchical clustering with a stopping criterion based on unsupervised calibration we are able to recover 85% of this gap.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-39"
+  },
+  "mccree14c_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "Mccree"
+    ],
+    [
+     "Stephen",
+     "Shum"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ]
+   ],
+   "title": "Unsupervised Clustering Approaches for Domain Adaptation in Speaker Recognition Systems",
+   "original": "51",
+   "page_count": 8,
+   "order": 43,
+   "p1": "265",
+   "pn": "272",
+   "abstract": [
+    "In this paper, we motivate and define the domain adaptation challenge task for speaker recognition. Using an i-vector system trained only on out-of-domain data as a starting point, we propose a framework that utilizes large-scale clustering algorithms and unlabeled in-domain data to adapt the system for evaluation. In presenting the results and analyses of an empirical exploration of this problem, our initial findings suggest that, while perfect clustering yields the best results, imperfect clustering can still provide recognition performance within 15% of the optimal. We further present a system that achieves recognition performance comparable to one that is provided all knowledge of the domain mismatch, and lastly, we outline throughout this paper some of the many directions for future work that this new task provides.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-40"
+  },
+  "cumani14_odyssey": {
+   "authors": [
+    [
+     "Sandro",
+     "Cumani"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ]
+   ],
+   "title": "Generative pairwise models for speaker recognition",
+   "original": "8",
+   "page_count": 7,
+   "order": 44,
+   "p1": "273",
+   "pn": "279",
+   "abstract": [
+    "This paper proposes a simple model for speaker recognition based on i–vector pairs, and analyzes its similarity and differences with respect to the state–of–the–art Probabilistic Linear Discriminant Analysis (PLDA) and Pairwise Support Vector Machine (PSVM) models. Similar to the discriminative PSVM approach, we propose a generative model of i–vector pairs, rather than an usual i–vector based model. The model is based on two Gaussian distributions, one for the “same speakers” and the other for the “different speakers” i–vector pairs, and on the assumption that the i–vector pairs are independent. This independence assumption allows independent distributions to be used for the two classes. The “Two–Gaussian” approach can be extended to the Heavy–Tailed distributions, still allowing a fast closed form solution to be obtained for testing i–vector pairs. We show that this model is closely related to PLDA and to PSVM models, and that tested on the female part of the tel–tel NIST SRE 2010 extended evaluation set, it is able to achieve comparable accuracy with respect to the other models, trained with different objective functions and training procedures.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-41"
+  },
+  "aronowitz14_odyssey": {
+   "authors": [
+    [
+     "Hagai",
+     "Aronowitz"
+    ]
+   ],
+   "title": "Compensating Inter-Dataset Variability in PLDA Hyper-Parameters for Robust Speaker Recognition",
+   "original": "12",
+   "page_count": 7,
+   "order": 45,
+   "p1": "280",
+   "pn": "286",
+   "abstract": [
+    "Recently we have introduced a method named inter-dataset variability compensation (IDVC) in the context of speaker recognition in a mismatched dataset. IDVC compensates dataset shifts in the i-vector space  by constraining the shifts to a low dimensional subspace. The subspace is estimated from a heterogeneous development set which is partitioned into homogenous subsets. In this work we generalize the IDVC method to compensate inter-dataset variability attributed to additional  PLDA hyper-parameters, namely the within and between speaker covariance matrices. Using the proposed method we managed to recover 85% of the degradation due to mismatched PLDA training in the framework of the JHU-2013 domain adaptation challenge.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-42"
+  },
+  "lei14b_odyssey": {
+   "authors": [
+    [
+     "Yun",
+     "Lei"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ],
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Nicolas",
+     "Scheffer"
+    ]
+   ],
+   "title": "Application of Convolutional Neural Networks to Language Identification in Noisy Conditions",
+   "original": "20",
+   "page_count": 6,
+   "order": 46,
+   "p1": "287",
+   "pn": "292",
+   "abstract": [
+    "This paper proposes two novel frontends for robust language identification (LID) using a convolutional neural network (CNN) trained for automatic speech recognition (ASR). In the CNN/i-vector frontend, the CNN is used to obtain the posterior probabilities for i-vector training and extraction instead of a universal background model (UBM). The CNN/posterior frontend is somewhat similar to a phonetic system in that the occupation counts of (tied) triphone states (senones) given by the CNN are used for classification. They are compressed to a low dimensional vector using probabilistic principal component analysis (PPCA). Evaluated on heavily degraded speech data, the proposed front ends provide significant improvements of up to 50% on average equal error rate compared to a UBM/i-vector baseline. Moreover, the proposed frontends are complementary and give significant gains of up to 20% relative to the best single system when combined.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-43"
+  },
+  "kenny14c_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Pierre",
+     "Ouellet"
+    ],
+    [
+     "Vishwa",
+     "Gupta"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ]
+   ],
+   "title": "Deep Neural Networks for extracting Baum-Welch statistics for Speaker Recognition",
+   "original": "28",
+   "page_count": 6,
+   "order": 47,
+   "p1": "293",
+   "pn": "298",
+   "abstract": [
+    "We examine the use of Deep Neural Networks (DNN) in extracting Baum-Welch statistics for i-vector-based text-independent speaker recognition. Instead of training the universal background model using the standard EM algorithm, the components are predefined and correspond to the set of triphone states, the posterior occupancy probabilities of which are modeled by a DNN. Those assignments are then combined with the standard 60-dim MFCC features to calculate first order Baum-Welch statistics in order to train the i-vector extractor and extract i-vectors. The DNN-based assignment force the i-vectors to capture the idiosyncratic way in which each speaker pronounces each particular triphone state, which can enrich the standard short-term spectral representation of the standard i-vectors. After experimenting with Switchboard data and a baseline PLDA classifier, our results showed that although the proposed i-vectors yield inferior performance compared to the standard ones, they are capable of attaining 16% relative improvement when fused with them, meaning that they carry useful complementary information about the speaker's identity. A further experiment with a different DNN configuration attained comparable performance with the baseline i-vectors on NIST 2012 (condition C2, female).\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-44"
+  },
+  "matejka14_odyssey": {
+   "authors": [
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Le",
+     "Zhang"
+    ],
+    [
+     "Tim",
+     "Ng"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Jeff",
+     "Ma"
+    ],
+    [
+     "Bing",
+     "Zhang"
+    ],
+    [
+     "Sri Harish",
+     "Mallidi"
+    ]
+   ],
+   "title": "Neural Network Bottleneck Features for Language Identification",
+   "original": "35",
+   "page_count": 6,
+   "order": 48,
+   "p1": "299",
+   "pn": "304",
+   "abstract": [
+    "This paper presents the application of Neural Network Bottleneck (BN) features in Language Identification (LID).  BN features are generally used for Large Vocabulary Speech Recognition in conjunction with conventional acoustic features, such as MFCC or PLP.  We compare the BN features to several common types of acoustic features used in the present-day state-of-the-art LID systems.  The test set is from DARPA RATS (Robust Automatic Transcription of Speech) program, which seeks to advance state-of-the-art detection capabilities on audio from highly degraded radio communication channels.  On this type of noisy data, we show that in average, the BN features provide a 45% relative improvement in the Cavg or Equal Error Rate (EER) metrics across several test duration conditions, with respect to our single best acoustic features.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-45"
+  },
+  "ghahabi14_odyssey": {
+   "authors": [
+    [
+     "Omid",
+     "Ghahabi"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "i-Vector Modeling with Deep Belief Networks for Multi-Session Speaker Recognition",
+   "original": "44",
+   "page_count": 6,
+   "order": 49,
+   "p1": "305",
+   "pn": "310",
+   "abstract": [
+    "In this paper we propose an impostor selection method for a Deep Belief Network (DBN) based system which models i-vectors in a multi-session speaker verification task. In the proposed method, instead of choosing a fixed number of most informative impostors, a threshold is defined according to the frequencies of impostors. The selected impostors are then clustered and the centroids are considered as the final impostors for target speakers. The system first trains each target speaker unsupervisingly by an adaptation method and then models discriminatively each target speaker using the impostor centroids and target i-vectors. The evaluation is performed on the NIST 2014 i-vector challenge database and it is shown that the proposed DBN-based system achieves 22% relative improvement of minDCF over the baseline system in the challenge.\n"
+   ],
+   "doi": "10.21437/Odyssey.2014-46"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote 1",
+   "papers": [
+    "campbell14_odyssey"
+   ]
+  },
+  {
+   "title": "Calibration, Evaluation & Forensics",
+   "papers": [
+    "martin14_odyssey",
+    "vandervloed14_odyssey",
+    "vanleeuwen14_odyssey",
+    "lei14_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Modeling I",
+   "papers": [
+    "rohdin14_odyssey",
+    "gonzalezrodriguez14_odyssey",
+    "bousquet14_odyssey",
+    "dehak14_odyssey"
+   ]
+  },
+  {
+   "title": "Posters",
+   "papers": [
+    "nautsch14_odyssey",
+    "li14_odyssey",
+    "lee14_odyssey",
+    "isik14_odyssey",
+    "hautamaki14_odyssey",
+    "kenny14_odyssey",
+    "rohdin14b_odyssey",
+    "desplanques14_odyssey",
+    "lazaridis14_odyssey",
+    "fernandezgallardo14_odyssey",
+    "liu14_odyssey",
+    "vijayan14_odyssey",
+    "zhong14_odyssey",
+    "liu14b_odyssey"
+   ]
+  },
+  {
+   "title": "Language Recognition",
+   "papers": [
+    "martin14b_odyssey",
+    "liu14c_odyssey",
+    "minematsu14_odyssey",
+    "mccree14_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Diarization",
+   "papers": [
+    "bonastre14_odyssey",
+    "bredin14_odyssey",
+    "dupuy14_odyssey",
+    "dighe14_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote 2",
+   "papers": [
+    "cooke14_odyssey"
+   ]
+  },
+  {
+   "title": "Text-dependent Speaker Recognition",
+   "papers": [
+    "kenny14b_odyssey",
+    "soldi14_odyssey",
+    "you14_odyssey"
+   ]
+  },
+  {
+   "title": "Nist I-Vector Special Session",
+   "papers": [
+    "mccree14b_odyssey",
+    "novoselov14_odyssey",
+    "vesnicer14_odyssey",
+    "khosravani14_odyssey",
+    "ferras14_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote 3",
+   "papers": [
+    "bengio14_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Modeling II",
+   "papers": [
+    "brummer14_odyssey",
+    "mccree14c_odyssey",
+    "cumani14_odyssey",
+    "aronowitz14_odyssey"
+   ]
+  },
+  {
+   "title": "Neural Nets for Speaker and Language Modeling",
+   "papers": [
+    "lei14b_odyssey",
+    "kenny14c_odyssey",
+    "matejka14_odyssey",
+    "ghahabi14_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/Odyssey.2014"
+}

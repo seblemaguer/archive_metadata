@@ -1,0 +1,358 @@
+{
+ "title": "Summer Workshop on Multimodal Interfaces (eINTERFACE 2005)",
+ "location": "Mons, Belgium",
+ "startDate": "18/7/2005",
+ "endDate": "12/8/2005",
+ "conf": "eINTERFACE",
+ "year": "2005",
+ "name": "einterface_2005",
+ "series": "eINTERFACE",
+ "SIG": "",
+ "title1": "Summer Workshop on Multimodal Interfaces",
+ "title2": "(eINTERFACE 2005)",
+ "date": "18 July - 12 August 2005",
+ "booklet": "einterface_2005.pdf",
+ "papers": {
+  "sargin05_einterface": {
+   "authors": [
+    [
+     "Mehmet Emre",
+     "Sargin"
+    ],
+    [
+     "Ferda",
+     "Ofli"
+    ],
+    [
+     "Yelena",
+     "Yasinnik"
+    ],
+    [
+     "Oya",
+     "Aran"
+    ],
+    [
+     "Alexey",
+     "Karpov"
+    ],
+    [
+     "Stephen",
+     "Wilson"
+    ],
+    [
+     "Yücel",
+     "Yemez"
+    ],
+    [
+     "Engin",
+     "Erzin"
+    ],
+    [
+     "A. Murat",
+     "Tekalp"
+    ]
+   ],
+   "title": "Combined gesture-speech analysis and synthesis",
+   "original": "eint5_01",
+   "page_count": 12,
+   "order": 1,
+   "p1": "1",
+   "pn": "12",
+   "abstract": [
+    "Multi-modal speech and speaker modelling and recognition are widely accepted as vital aspects of state of the art human-machine interaction systems. While correlations between speech and lip motion as well as speech and facial expressions are widely studied, relatively little work has been done to investigate the correlations between speech and gesture.\n",
+    "Detection and modelling of head, hand and arm gestures of a speaker have been studied extensively, and these gestures were shown to carry linguistic information. A typical example is the head gesture while saying \"yes\". In this project, correlation between gestures and speech is investigated. Speech features are selected as Mel Frequency Cepstrum Coefficients (MFCC). Gesture features are composed of positions of hand, elbow and global motion parameters calculated across the head region. In this sense, prior to the detection of gestures, discrete symbol sets for gesture is determined manually and for each symbol, based on the calculated features, model is generated. Using these models for symbol sets, sequence of gesture features is clustered and probable gestures is detected. The correlation between gestures and speech is modelled by examining the cooccurring speech and gesture patterns. This correlation is used to fuse gesture and speech modalities for edutainment applications (i.e. video games, 3-D animations) where natural gestures of talking avatars is animated from speech.\n",
+    ""
+   ]
+  },
+  "martin05_einterface": {
+   "authors": [
+    [
+     "Olivier",
+     "Martin"
+    ],
+    [
+     "J.",
+     "Adel"
+    ],
+    [
+     "A.",
+     "Huerta"
+    ],
+    [
+     "Irene",
+     "Kotsia"
+    ],
+    [
+     "Arman",
+     "Savran"
+    ],
+    [
+     "Raphael",
+     "Sebbe"
+    ]
+   ],
+   "title": "Multimodal caricatural mirror",
+   "original": "eint5_13",
+   "page_count": 8,
+   "order": 2,
+   "p1": "13",
+   "pn": "20",
+   "abstract": [
+    "This project aims at creating a multimodal caricatural mirror, where users see and hear their own emotions amplified by an avatar, mimicking the users facial expressions and prosody using a wide screen and loudspeakers. The goal of the project is also to bring together researchers from various fields so as to build a whole system using everyones expertise. The main technical challenges include facial animation, automatic face tracking, automatic vocal and facial features extraction and multimodal emotion recognition and synthesis.\n",
+    ""
+   ]
+  },
+  "arslan05_einterface": {
+   "authors": [
+    [
+     "Burak",
+     "Arslan"
+    ],
+    [
+     "Andrew",
+     "Brouse"
+    ],
+    [
+     "Julien",
+     "Castet"
+    ],
+    [
+     "Jean-Julien",
+     "Filatriau"
+    ],
+    [
+     "Remy",
+     "Lehembre"
+    ],
+    [
+     "Quentin",
+     "Noirhomme"
+    ],
+    [
+     "Cedric",
+     "Simon"
+    ]
+   ],
+   "title": "Biologically-driven musical instrument",
+   "original": "eint5_21",
+   "page_count": 13,
+   "order": 3,
+   "p1": "21",
+   "pn": "32",
+   "abstract": [
+    "This project proposes to use the analysis of physiological signals (electroencephalogram (EEG), electromyogram (EMG), heart beats) to control sound synthesis algorithms in order to build a biologically driven musical instrument. This project took place during the eNTERFACE'05 summer workshop in Mons, Belgium. Over four weeks, specialists from the fields of brain computer interfaces and sound synthesis worked together to produce playable biologically controlled musical instruments. Indeed, a \"bio- orchestra\", with two new digital musical instruments controlled by physiological signals of two bio-musicians on stage, was offered to a live audience.\n",
+    ""
+   ]
+  },
+  "benoit05_einterface": {
+   "authors": [
+    [
+     "Alexandre",
+     "Benoit"
+    ],
+    [
+     "Laurent",
+     "Bonnaud"
+    ],
+    [
+     "Alice",
+     "Caplier"
+    ],
+    [
+     "Phillipe",
+     "Ngo"
+    ],
+    [
+     "Lionel",
+     "Lawson"
+    ],
+    [
+     "Daniela G.",
+     "Trevisan"
+    ],
+    [
+     "Vjekoslav",
+     "Levacic"
+    ],
+    [
+     "Céline",
+     "Mancas"
+    ],
+    [
+     "Guillaume",
+     "Chanel"
+    ]
+   ],
+   "title": "Multimodal focus attention detection in an augmented driver simulator",
+   "original": "eint5_34",
+   "page_count": 10,
+   "order": 4,
+   "p1": "34",
+   "pn": "43",
+   "abstract": [
+    "This project proposes to develop a driver simulator, which takes into account information about the user state of mind (level of attention, fatigue state, stress state). The users state of mind analysis is based on video data and physiological signals. Facial movements such as eyes blinking, yawning, head rotations are detected on video data: they are used in order to evaluate the fatigue and attention level of the driver. The users electrocardiogram and galvanic skin response are recorded and analyzed in order to evaluate the stress level of the driver. A driver simulator software is modified in order to be able to appropriately react to these critical situations of fatigue and stress: some visual messages are sent to the driver, wheel vibrations are generated and the driver is supposed to react to the alertness messages. A flexible and efficient multi threaded server architecture is proposed to support multi messages sent by different modalities. Strategies for data fusion and fission are also provided. Some of these components are integrated within the first prototype of OpenInterface (the Multimodal Similar platform).\n",
+    ""
+   ]
+  },
+  "stylianou05_einterface": {
+   "authors": [
+    [
+     "Yannis",
+     "Stylianou"
+    ],
+    [
+     "Yannis",
+     "Pantazis"
+    ],
+    [
+     "Felipe",
+     "Calderero"
+    ],
+    [
+     "Pedro",
+     "Larroy"
+    ],
+    [
+     "Francois",
+     "Severin"
+    ],
+    [
+     "Sascha",
+     "Schimke"
+    ],
+    [
+     "Rolando",
+     "Bonal"
+    ],
+    [
+     "Federico",
+     "Matta"
+    ],
+    [
+     "Athanasios",
+     "Valsamakis"
+    ]
+   ],
+   "title": "GMM-based multimodal biometric verification",
+   "original": "eint5_44",
+   "page_count": 8,
+   "order": 5,
+   "p1": "44",
+   "pn": "51",
+   "abstract": [
+    "In this work, we describe how biometric data can be used for person identification and verification. We rely on three categories of traits, that is speech, signature, and face. These distinguishing features or characteristics of a person, on their own, do not provide satisfactory results using well-known techniques. This is the case especially when the number of enrolled persons is large. For this reason, we develop techniques for making good use of all the three traits. In particular, we choose to follow late fusion of the scores of each single trait. The results of these techniques are quite better than using only one trait. Another goal of this work is the creation of a high quality multilingual database with video, audio, and signatures from forty seven persons.\n",
+    ""
+   ]
+  },
+  "dalessandro05_einterface": {
+   "authors": [
+    [
+     "Christophe",
+     "d'Alessandro"
+    ],
+    [
+     "Nicolas",
+     "D'Alessandro"
+    ],
+    [
+     "Sylvain Le",
+     "Beux"
+    ],
+    [
+     "Juraj",
+     "Simko"
+    ],
+    [
+     "Feride",
+     "Çeti"
+    ],
+    [
+     "Hannes",
+     "Pirker"
+    ]
+   ],
+   "title": "The speech conductor: gestural control of speech synthesis",
+   "original": "eint5_52",
+   "page_count": 10,
+   "order": 6,
+   "p1": "52",
+   "pn": "61",
+   "abstract": [
+    "The Speech Conductor project aimed at developing a gesture interface for driving (\"conducting\") a speech synthesis system. Four real-time gesture controlled synthesis systems have been developed. For the first two systems, the efforts focused on high quality voice source synthesis. These \"Baby Synthesizers\" are based on formant synthesis and they include refined voice source components. One of them is based on an augmented LF model (including an aperiodic component), the other one is based on a Causal/Anticausal Linear Model of the voice source (CALM) also augmented with an aperiodic component. The two other systems are able to utter unrestricted speech. They are based on the MaxMBROLA and MidiMBROLA applications. All these systems are controlled by various gesture devices. Informal testing and public demonstrations showed that very natural and expressive synthetic voices can be produced in real time by some combination of input devices/synthesis system.\n",
+    ""
+   ]
+  },
+  "moustakas05_einterface": {
+   "authors": [
+    [
+     "Konstantinos",
+     "Moustakas"
+    ],
+    [
+     "Dimitrios",
+     "Tzovaras"
+    ],
+    [
+     "Sebastien",
+     "Carbini"
+    ],
+    [
+     "Olivier",
+     "Bernier"
+    ],
+    [
+     "Jean Emmanuel",
+     "Viallet"
+    ],
+    [
+     "Stephan",
+     "Raidt"
+    ],
+    [
+     "Matei",
+     "Mancas"
+    ],
+    [
+     "Mariella",
+     "Dimiccoli"
+    ],
+    [
+     "Enver",
+     "Yagci"
+    ],
+    [
+     "Serdar",
+     "Balci"
+    ],
+    [
+     "Eloisa",
+     "Ibanez Leon"
+    ]
+   ],
+   "title": "MASTER-PIECE: a multimodal (gesture+speech) interface for 3d model search and retrieval integrated in a virtual assembly application",
+   "original": "eint5_62",
+   "page_count": 14,
+   "order": 7,
+   "p1": "62",
+   "pn": "75",
+   "abstract": [
+    "The present report presents the framework and the results of Project 7: \"A Multimodal (Gesture+Speech) Interface for 3D Model Search and Retrieval Integrated in a Virtual Assembly Application\", which has been developed during the eNTERFACE-2005 summer workshop in the context of the SIMILAR NoE. The \"MASTER-PIECE\" (Multimodal Assembly with SIMILAR Technologies from European Research utilizing a Personal Interface in an Enhanced Collaborative Environment) project aims at the generation of a multimodal interface using gesture and speech in order to manipulate a virtual assembly application. Besides assembling mechanical objects, the user is capable to perform 3D model content based search in a database of 3D objects using as query model a scene object. Finally, to deal with cases where no query model is available, a sketch based approach is proposed which results in the manual approximate generation of the query model. More specifically, the user can draw a specific number of primitive objects by moving his/her hands and then process-combine them so as to build more complex shapes, which are finally used as query models. Experimental results illustrate that the proposed scheme enhances significantly the realism of the interaction, while using the sketch-based approach the user can search for 3D objects in the database without the need of an initial query object, which is the case in most state of the art approaches.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "papers",
+   "papers": [
+    "sargin05_einterface",
+    "martin05_einterface",
+    "arslan05_einterface",
+    "benoit05_einterface",
+    "stylianou05_einterface",
+    "dalessandro05_einterface",
+    "moustakas05_einterface"
+   ]
+  }
+ ]
+}

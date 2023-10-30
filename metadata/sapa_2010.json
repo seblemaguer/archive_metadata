@@ -1,0 +1,304 @@
+{
+ "title": "ISCA Workshop on Statistical and Perceptual Audio Processing (SAPA 2010)",
+ "location": "Makuhari, Japan",
+ "startDate": "25/9/2010",
+ "endDate": "25/9/2010",
+ "conf": "SAPA",
+ "year": "2010",
+ "name": "sapa_2010",
+ "series": "SAPA",
+ "SIG": "",
+ "title1": "ISCA Workshop on Statistical and Perceptual Audio Processing",
+ "title2": "(SAPA 2010)",
+ "date": "25 September 2010",
+ "papers": {
+  "heckmann10_sapa": {
+   "authors": [
+    [
+     "Martin",
+     "Heckmann"
+    ]
+   ],
+   "title": "Supervised vs. unsupervised learning of spectro temporal speech features",
+   "original": "sap1_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "To overcome limitations of purely spectral speech features we previously introduced Hierarchical Spectro-Temporal (HIST) features. We could show that a combination of HIST and standard features does reduce recognition errors in clean and in noise. The HIST features consist of two hierarchical layers where the corresponding filter functions are learned in a data driven way. In this paper we investigate how different learning methodologies applied to the learning of the filters on the second layer influence the performance. We compare Non-negative Matrix Factorization (NMF), Non-negative Sparse Coding (NNSC), and Weight Coding (WC) on a noisy digit recognition task. NMF and NNSC are unsupervised learning algorithms whereas WC also includes class specific information in the learning process. Additionally we investigate how a mismatch between the database used for learning the features and the one employed for training and testing the recognition system influences the performance.\n",
+    "",
+    "",
+    "Index Terms: Spectro-temporal, NMF, NNSC, WC, robust speech recognition, auditory\n",
+    ""
+   ]
+  },
+  "wu10_sapa": {
+   "authors": [
+    [
+     "Jun",
+     "Wu"
+    ],
+    [
+     "Yu",
+     "Kitano"
+    ],
+    [
+     "Stanislaw Andrzej",
+     "Raczynski"
+    ],
+    [
+     "Shigeki",
+     "Miyabe"
+    ],
+    [
+     "Takuya",
+     "Nishimoto"
+    ],
+    [
+     "Nobutaka",
+     "Ono"
+    ],
+    [
+     "Shigeki",
+     "Sagayama"
+    ]
+   ],
+   "title": "Musical instrument identification based on harmonic temporal timbre features",
+   "original": "sap1_007",
+   "page_count": 6,
+   "order": 2,
+   "p1": "7",
+   "pn": "12",
+   "abstract": [
+    "The Music Instrument Identification research is an important and difficult problem in Music Information Retrieval (MIR). In this paper an algorithm based on flexible harmonic model is proposed to represent the pitch in music by Gaussian mixture structure. The proposed algorithm models each spectral envelope of underlying harmonic structure to approximate the real music and uses EM algorithm to estimate the parameters. Not only is it able to estimate the multipitch (F0) but it also takes the attack problem (a kind of inharmonic structure at the beginning of some pitches) into account. The proposed algorithm makes it possible to envisage the use of timbre features derived from both harmonic part and attack part. Musical instrument recognition is then carried out by using SVM classifier. Experiment shows high performance of the proposed algorithm for instrument identification task.\n",
+    ""
+   ]
+  },
+  "benetos10_sapa": {
+   "authors": [
+    [
+     "Emmanouil",
+     "Benetos"
+    ],
+    [
+     "Simon",
+     "Dixon"
+    ]
+   ],
+   "title": "Multiple-F0 estimation of piano sounds exploiting spectral structure and temporal evolution",
+   "original": "sap1_013",
+   "page_count": 6,
+   "order": 3,
+   "p1": "13",
+   "pn": "18",
+   "abstract": [
+    "This paper proposes a system for multiple fundamental frequency estimation of piano sounds using pitch candidate selection rules which employ spectral structure and temporal evolution. As a time-frequency representation, the Resonator Time- Frequency Image of the input signal is employed, a noise suppression model is used, and a spectral whitening procedure is performed. In addition, a spectral flux-based onset detector is employed in order to select the steady-state region of the produced sound. In the multiple-F0 estimation stage, tuning and inharmonicity parameters are extracted and a pitch salience function is proposed. Pitch presence tests are performed utilizing information from the spectral structure of pitch candidates, aiming to suppress errors occurring at multiples and sub-multiples of the true pitches. A novel feature for the estimation of harmonically related pitches is proposed, based on the common amplitude modulation assumption. Experiments are performed on the MAPS database using 8784 piano samples of classical, jazz, and random chords with polyphony levels between 1 and 6. The proposed system is computationally inexpensive, being able to perform multiple-F0 estimation experiments in realtime. Experimental results indicate that the proposed system outperforms state-of-the-art approaches for the aforementioned task in a statistically significant manner.\n",
+    "",
+    "",
+    "Index Terms: multiple-F0 estimation, resonator timefrequency image, common amplitude modulation\n",
+    ""
+   ]
+  },
+  "ma10_sapa": {
+   "authors": [
+    [
+     "Ning",
+     "Ma"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ],
+    [
+     "Heidi",
+     "Christensen"
+    ],
+    [
+     "Phil",
+     "Green"
+    ]
+   ],
+   "title": "Distant microphone speech recognition in a noisy indoor environment: combining soft missing data and speech fragment decoding",
+   "original": "sap1_019",
+   "page_count": 6,
+   "order": 4,
+   "p1": "19",
+   "pn": "24",
+   "abstract": [
+    "This paper examines the problem of distant microphone speech recognition in noisy indoor home environments. The noise background can be roughly characterised in terms of a slowly varying noise floor in which there are embedded a mixture of energetic but unpredictable acoustic events. Our solution to the problem combines two complementary techniques. First, a soft missing data mask is formed which estimates the degree to which energetic acoustic events are masked by the noise floor. This step relies on a simple adaptive noise model. Second, a fragment decoding system attempts to interpret the energetic regions that are not accounted for by the noise floor model. This component uses models of the target speech to decide whether fragments (time-frequency regions dominated by a single sound source) should be included in the target speech stream or not. This combined approach is able to achieve a performance that is modestly superior to that achieved using speech fragment decoding without an adaptive noise floor. Our experiments also show that speech fragment decoding performs far better than soft missing data decoding in variable noise, achieving 73% keyword recognition accuracy at -6 dB SNR on the Grid corpus task and substantially outperforming multicondition training.\n",
+    "",
+    "",
+    "Index Terms: Noise robust speech recognition; Fragment decoding; Missing data; Reverberation\n",
+    ""
+   ]
+  },
+  "togami10_sapa": {
+   "authors": [
+    [
+     "Masahito",
+     "Togami"
+    ],
+    [
+     "Koichi",
+     "Hori"
+    ]
+   ],
+   "title": "Online speech source separation in meeting scene with time-varying weights of noise covariance matrices",
+   "original": "sap1_025",
+   "page_count": 6,
+   "order": 5,
+   "p1": "25",
+   "pn": "30",
+   "abstract": [
+    "We propose an online speech source separation technique in a meeting situation. The purpose in this paper is online extraction of each speech source from multichannel microphone input signal which is contaminated by speech sources of the other persons (noise sources). The proposed method is one of adaptive beamformers. The proposed method estimates the noise covariance matrix of the multichannel microphone input signal as a weighting average value of a noise covariance matrix of each speech source that is estimated offline. Weighting is done by using estimated activity of each speech source. By using the proposed method, even when the noise covariance matrix of microphone input signal changes rapidly due to nodding, interruption, or turn taking, the speech sources can be separated. Experimental results indicate that the proposed method can track rapid change of the noise covariance matrix and the speech sources can be separated correctly.\n",
+    "",
+    "",
+    "Index Terms: speech source separation, online algorithm, beamforming\n",
+    ""
+   ]
+  },
+  "han10_sapa": {
+   "authors": [
+    [
+     "Yushen",
+     "Han"
+    ],
+    [
+     "Christopher",
+     "Raphael"
+    ]
+   ],
+   "title": "Informed source separation of orchestra and soloist using masking and unmasking",
+   "original": "sap1_031",
+   "page_count": 6,
+   "order": 6,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "A novel technique of unmasking to repair the degradation in sources separated by spectrogram masking is proposed. Our approach is based on explicit knowledge of the musical audio at note level from a score-audio alignment, which we termed Informed Source Separation (ISS). Such knowledge allows the spectrogram energy to be decomposed into note-based models. We assume that a spectrogram mask for the solo is obtained and focus on the problem of repairing the degraded audio. We evaluate the spectrogram as well as the harmonic structure of the music: we either search for unmasked (orchestra) partials of the orchestra to be transposed onto a masked (solo) region or reshape a solo partial with phase and amplitude imputed from unmasked regions. We describe a Kalman smoothing technique to decouple the phase and amplitude of a musical partial that enables the modification to the spectrogram. Audio examples from a piano concerto are available for evaluation.\n",
+    "",
+    "",
+    "Index Terms: musical audio source separation BSS score following spectrogram masking Kalman phase estimation\n",
+    ""
+   ]
+  },
+  "holonowicz10_sapa": {
+   "authors": [
+    [
+     "Piotr",
+     "Holonowicz"
+    ],
+    [
+     "Perfecto",
+     "Herrera"
+    ]
+   ],
+   "title": "Detection of polyphonic music note onsets by application of the Bayesian theory of surprise",
+   "original": "sap1_037",
+   "page_count": 6,
+   "order": 7,
+   "p1": "37",
+   "pn": "42",
+   "abstract": [
+    "In this paper we present an onset detection algorithm that consists of two parts, the detection of transient peaks in an audio spectrum and the classification of the peaks, adapting a model derived from the Bayesian Theory of Surprise. The model is an unsupervised, robust adaptation of conjugate priors, providing the distributions of beliefs about the number of the transient peaks, in a time space as well as in a frequency space. The novelty points marked by the model are then classified according to their relevance in order to filter out non-onset events, caused for example by a background noise. It has been evaluated using a collection of over 170 music excerpts. Our experiments show that the new model can provide an overall performance close to the current state of the art solutions. We discuss the advantages of the presented approach and the ways to overcome its shortcomings and the possible directions of future research.\n",
+    "",
+    "",
+    "Index Terms: onset detection, Bayes, modeling, surprise, novelty\n",
+    ""
+   ]
+  },
+  "kameoka10_sapa": {
+   "authors": [
+    [
+     "Hirokazu",
+     "Kameoka"
+    ],
+    [
+     "Jonathan Le",
+     "Roux"
+    ],
+    [
+     "Yasunori",
+     "Ohishi"
+    ]
+   ],
+   "title": "A statistical model of speech F0 contours",
+   "original": "sap1_043",
+   "page_count": 6,
+   "order": 8,
+   "p1": "43",
+   "pn": "48",
+   "abstract": [
+    "This paper proposes a statistical model of speech fundamental frequency (F0) contours, based on the formulation of the discrete-time stochastic process version of the Fujisaki model, which is known as a well-founded mathematical model representing the control mechanism of vocal fold vibration. There are two important motivations for this statistical formulation. One is to derive a general parameter estimation framework for the Fujisaki model, allowing for the introduction of powerful statistical methods, and the other is to introduce a measure of speech naturalness in terms of an F0 contour through a probability distribution assumption, that can be incorporated into many statistical speech processing problems such as speech analysis, synthesis, separation, denoising and dereverberation.\n",
+    "",
+    "",
+    "Index Terms: speech F0 contour, statistical model\n",
+    ""
+   ]
+  },
+  "baker10_sapa": {
+   "authors": [
+    [
+     "Janet M.",
+     "Baker"
+    ],
+    [
+     "Alex M.",
+     "Chan"
+    ],
+    [
+     "Ksenija",
+     "Marinkovic"
+    ],
+    [
+     "Eric",
+     "Halgren"
+    ],
+    [
+     "Sydney",
+     "Cash"
+    ]
+   ],
+   "title": "Machine learning for learning how the brain recognizes speech and language",
+   "original": "sap1_049",
+   "page_count": 6,
+   "order": 9,
+   "p1": "49",
+   "pn": "54",
+   "abstract": [
+    "Over the past several decades, automatic speech recognition has made great progress through the application of statistics and machine learning, combined with perceptual and structural knowledge about speech and language, as well as its variability. This paper reviews some recent work that applies some of these approaches to cortical processing of speech and language in the human brain to better understand how it functions. Specific experiments demonstrate feasibility for the discrimination of small sets of words (83% on 10 spoken words) and semantic categories (76% on 2 categories). This speech and language information is broadly distributed both spatially and temporally across the brain.\n",
+    "",
+    "",
+    "Index Terms: speech recognition, semantics, machine learning, brain, magnetoencephalography, electroencephalography, support vector machines\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Features and Representation",
+   "papers": [
+    "heckmann10_sapa",
+    "wu10_sapa",
+    "benetos10_sapa"
+   ]
+  },
+  {
+   "title": "Source Separation",
+   "papers": [
+    "ma10_sapa",
+    "togami10_sapa",
+    "han10_sapa"
+   ]
+  },
+  {
+   "title": "Statistics and Learning",
+   "papers": [
+    "holonowicz10_sapa",
+    "kameoka10_sapa",
+    "baker10_sapa"
+   ]
+  }
+ ]
+}

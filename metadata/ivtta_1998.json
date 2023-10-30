@@ -1,0 +1,1251 @@
+{
+ "title": "Interactive Voice Technology for Telecommunications Applications (IVTTA 1998)",
+ "location": "Torino, Italy",
+ "startDate": "29/9/1998",
+ "endDate": "30/9/1998",
+ "conf": "IVTTA",
+ "year": "1998",
+ "name": "ivtta_1998",
+ "series": "",
+ "SIG": "",
+ "title1": "Interactive Voice Technology for Telecommunications Applications",
+ "title2": "(IVTTA 1998)",
+ "date": "29-30 September 1998",
+ "papers": {
+  "gupta98_ivtta": {
+   "authors": [
+    [
+     "Vishwa",
+     "Gupta"
+    ],
+    [
+     "Serge",
+     "Robillard"
+    ],
+    [
+     "Claude",
+     "Pelletier"
+    ]
+   ],
+   "title": "Automation of locality recognition in ADAS plus",
+   "original": "ivt8_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "In North America, people call the directory assistance operator to find the phone number of a business or residential listing. The directory assistance service is generally maintained by telcos, and it represents a significant cost to them. Partial or complete automation of directory assistance would result in significant cost savings for telcos. Nortel has a product called Automated Directory Assistance System (ADAS) Plus which partially automates this directory assistance function through the use of speech recognition. The system has been deployed all across Quebec, through most of U S West and BellSouth. ADAS Plus primarily automates the response to the question \"for what city?\" through speech recognition. We give details of this speech recognition system and outline its performance in the deployed regions.\n",
+    ""
+   ]
+  },
+  "kato98_ivtta": {
+   "authors": [
+    [
+     "Tsuneo",
+     "Kato"
+    ],
+    [
+     "Shingo",
+     "Kuroiwa"
+    ],
+    [
+     "Norio",
+     "Higuchi"
+    ]
+   ],
+   "title": "Area code, country code, and time difference information system and its field trial",
+   "original": "ivt8_005",
+   "page_count": 6,
+   "order": 2,
+   "p1": "5",
+   "pn": "10",
+   "abstract": [
+    "This paper describes an ASR system which responds to customer inquiries over a telephone network. Customer inquiries on area codes, country codes and time differences are one of the most popular items in information service of international telecommunication. This system called ACTIS (Area code, Country code and Time differece Information System) responds to these inquiries. ACTIS recognizes Japanese continuous speech and vocabulary including the names of 299 countries and 721 major cities throughout the world. In this paper, we report on several technical features of the system including 1) new acoustic models using additional acoustic parameters, that is, accelerations of MFCC parameters and a log energy for increasing the recognition rate, 2) CMS (Cepstrum Mean Subtraction) with compensation by recognition results for normalizing various channel characteristics and real-time operation, and 3) robust speech detection and out-of-vocabulary word detection for improving robustness to ambient noise, irrelevant sound and out-of-vocabulary words, along with their effects on computer simulation. We also report on results of field trial at KDD and a subjective assessment by users.\n",
+    ""
+   ]
+  },
+  "billi98_ivtta": {
+   "authors": [
+    [
+     "Roberto",
+     "Billi"
+    ],
+    [
+     "Franco",
+     "Canavesio"
+    ],
+    [
+     "Claudio",
+     "Rullent"
+    ]
+   ],
+   "title": "Automation of telecom Italia directory assistance service: field trial results",
+   "original": "ivt8_011",
+   "page_count": 6,
+   "order": 3,
+   "p1": "11",
+   "pn": "16",
+   "abstract": [
+    "Directory Assistance Services, which are used to retrieve the phone number of residential or business listings, are generally maintained by Telcos and represent a significant cost for them. Partial or complete automation of these services would imply significant cost savings and speech recognition is a promising technique to achieve this goal, although its full exploitation still presents significant technical challenges. Telecom Italia recently carried out a trial of a system designed to completely automate a portion of requests on a country wide basis without any intervention of the operator, implying recognition of residential names on a subscriber database of about 25 million listings. We describe the speech recognition system and report the trial results.\n",
+    ""
+   ]
+  },
+  "peterson98_ivtta": {
+   "authors": [
+    [
+     "Patrick",
+     "Peterson"
+    ],
+    [
+     "Richard",
+     "Ann"
+    ],
+    [
+     "Michael",
+     "Decerbo"
+    ],
+    [
+     "Susan",
+     "Hamilton"
+    ],
+    [
+     "Chia-lin",
+     "Kao"
+    ],
+    [
+     "Ana",
+     "Licuanan"
+    ],
+    [
+     "Varda",
+     "Shaked"
+    ],
+    [
+     "David",
+     "Shu"
+    ]
+   ],
+   "title": "Optimum recognition parameters in multiple domains",
+   "original": "ivt8_017",
+   "page_count": 4,
+   "order": 4,
+   "p1": "17",
+   "pn": "20",
+   "abstract": [
+    "We evaluated large-vocabulary continuous-speech recognizer performance as a function of recognizer tuning parameters for 4 recognition task domains (location, date, time, yes/no) and two different applications (e.g. over-the-telephone reservations) that had some task domains in common. After defining a cost function that included false reject, false accept, and misrecognition errors, we determined optimum parameter values for each domain. The optimum parameter settings differed significantly across domains and even across applications for the same domain. Using a single set of parameter values for all of the tasks in an application can lead to substantial cost penalties for some individual tasks. These results suggest that there can be substantial benefit in using task-specific tuned recognition parameters. We describe a methodology and set of supporting tools for efficiently performing task-specific tuning.\n",
+    ""
+   ]
+  },
+  "kellner98_ivtta": {
+   "authors": [
+    [
+     "Andreas",
+     "Kellner"
+    ],
+    [
+     "Bernd",
+     "Rueber"
+    ],
+    [
+     "Hauke",
+     "Schramm"
+    ]
+   ],
+   "title": "Strategies for name recognition in automatic directory assistance systems",
+   "original": "ivt8_021",
+   "page_count": 6,
+   "order": 5,
+   "p1": "21",
+   "pn": "26",
+   "abstract": [
+    "Recognition of large numbers of different names is the central problem in automatic directory assistance services and many other applications for spoken language dialogue systems. This paper investigates a methodology of stochastically combining N-best lists retrieved from multiple user utterances with the telephone database as an additional knowledge source. This strategy is used in a prototype of a fully automated directory information system which is designed to cover a whole country: After the city has been selected, the user is asked to spell and say the name of the desired person and if necessary also the first name and street. The number of active database entries is reduced in every turn until only a single database entry is left. Results for different recognition strategies are presented on a real-life data collection for databases of various sizes with up to 1 million entries (city of Berlin). The experiments show that a substantial part of all simple requests can be automated with the strategy presented (>80% correctly recognized, 10% rejected).\n",
+    ""
+   ]
+  },
+  "falavigna98_ivtta": {
+   "authors": [
+    [
+     "Daniele",
+     "Falavigna"
+    ],
+    [
+     "Roberto",
+     "Gretter"
+    ]
+   ],
+   "title": "Telephone speech recognition applications at IRST",
+   "original": "ivt8_027",
+   "page_count": 4,
+   "order": 6,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "This paper presents work performed at IRST on automatic telephone speech recognition. The work focuses on development and installation of some systems that allow delivery of automatic services over the telephone. In particular, both a collect call service, for continuous digit recognition, and a voice dialing by name system will be described. Both systems use phone-like units, first trained on wideband databases and then refined on telephone speech material collected at IRST. For each application, a test database was collected on field, on which results are given. A comparison between some techniques for increasing robustness with respect to channel and noise effects is included. Finally, research activities aimed at developing dialogue models will be summarized.\n",
+    ""
+   ]
+  },
+  "neubert98_ivtta": {
+   "authors": [
+    [
+     "F.",
+     "Neubert"
+    ],
+    [
+     "G.",
+     "Gravier"
+    ],
+    [
+     "F.",
+     "Yvon"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "Directory name retrieval over the telephone in the picasso project",
+   "original": "ivt8_031",
+   "page_count": 6,
+   "order": 7,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "The European project PICASSO intends to develop and test several telematics transaction services that will be accessible via the worldwide telephone network. In this framework, ENST works on developing an Automated Speech Recognition system of pronounced and spelled names, for telephone quality speech in French. The recognizer is based on Hidden Markov modeling of speech units using word models for spelled letters and phone models for name pronunciation. Bigram probabilities are introduced at this stage for phonemes and letters, in order to improve the quality of decoding.\n",
+    "The directory was built automatically from the list of the names contained in the database, using a grapheme to phoneme converter for the names and rules for spellings, each entry in the directory consisting of several pronunciations and spelling variants. After the acoustic recognition phase, the corresponding entry in the directory is then found using dynamic alignment of symbol sequences, with insertion, deletion and substitution costs determined from the training data to take into account acoustic confusability. As this lexical search is very time consuming for large directories, we present a faster method using preselection in a tree-based representation of the lexicon. A rescoring strategy on the 10 best outputs is also evaluated.\n",
+    ""
+   ]
+  },
+  "lee98_ivtta": {
+   "authors": [
+    [
+     "Chin-Hui",
+     "Lee"
+    ],
+    [
+     "R.",
+     "Carpenter"
+    ],
+    [
+     "W.",
+     "Chou"
+    ],
+    [
+     "J.",
+     "Chu-Carroll"
+    ],
+    [
+     "W.",
+     "Reichl"
+    ],
+    [
+     "A.",
+     "Saad"
+    ],
+    [
+     "Q.",
+     "Zhou"
+    ]
+   ],
+   "title": "A study on natural language call routing",
+   "original": "ivt8_037",
+   "page_count": 6,
+   "order": 8,
+   "p1": "37",
+   "pn": "42",
+   "abstract": [
+    "Automated call routing is the process of associating a user's request with the desired destination. Although some of the call routing functions can often be accomplished though the use of a touch-tone menu in an interactive voice response system, the interaction between the user and such a system is typically very limited. It is therefore desirable to have a call routing system that takes natural language spoken inputs from the user and asks for additional information to complete the user's request as a human agent would. In this paper we present a recent study on natural language call routing and discuss the capabilities and limitations of current technologies.\n",
+    ""
+   ]
+  },
+  "marinelli98_ivtta": {
+   "authors": [
+    [
+     "Donald",
+     "Marinelli"
+    ],
+    [
+     "Scott",
+     "Stevens"
+    ]
+   ],
+   "title": "Synthetic interviews: the art of creating a 'dyad' between humans and machine-based characters",
+   "original": "ivt8_043",
+   "page_count": 6,
+   "order": 9,
+   "p1": "43",
+   "pn": "48",
+   "abstract": [
+    "Synthetic Interviews is a technology developed at Carnegie Mellon University (CMU) in Pittsburgh, Pennsylvania, by Scott Stevens, Ph.D. and Michael Christel, Ph.D., computer researchers in CMU's School of Computer Science and Software Engineering Institute. Synthetic Interviews provide a means of conversing in-depth with an individual or character, permitting users to ask questions in a conversational manner (just as they would if they were interviewing the figure face-to-face), and receive relevant, pertinent answers to the questions asked. Existing Synthetic Interviews are accessible via either typed or spoken interfaces.\n",
+    ""
+   ]
+  },
+  "azevedo98_ivtta": {
+   "authors": [
+    [
+     "J.",
+     "Azevedo"
+    ],
+    [
+     "N.",
+     "Beires"
+    ],
+    [
+     "Francis",
+     "Charpentier"
+    ],
+    [
+     "M.",
+     "Farrell"
+    ],
+    [
+     "D.",
+     "Johnston"
+    ],
+    [
+     "E.",
+     "LeFlour"
+    ],
+    [
+     "G.",
+     "Micca"
+    ],
+    [
+     "S.",
+     "Militello"
+    ],
+    [
+     "K.",
+     "Schroeder"
+    ]
+   ],
+   "title": "Multilinguality in voice activated information services: the P502 EURESCOM project",
+   "original": "ivt8_049",
+   "page_count": 6,
+   "order": 10,
+   "p1": "49",
+   "pn": "54",
+   "abstract": [
+    "The paper describes the multilingual system developed within the framework of the P502 EURESCOM Project. The system described provides information about major telephone services available in United Kingdom, Germany, France, Italy and Portugal in five languages. We present the results of a number of experiments carried out in the five countries, aiming to try and answer some fundamental questions concerned with the exploitation of a multilingual service. Both technological and interface design issues have been investigated and several alternatives have been tested. The prototypes which were implemented showed that a Transaction Success rate of more than 92% can be obtained when speech recognisers exhibiting good Word Recognition Accuracy are coupled to suitable dialogue interfaces in the IVR system.\n",
+    ""
+   ]
+  },
+  "georgila98_ivtta": {
+   "authors": [
+    [
+     "K.",
+     "Georgila"
+    ],
+    [
+     "A.",
+     "Tsopanoglou"
+    ],
+    [
+     "Nikos",
+     "Fakotakis"
+    ],
+    [
+     "George",
+     "Kokkinakis"
+    ]
+   ],
+   "title": "A dialogue system for telephone-based services integrating spoken and written language",
+   "original": "ivt8_055",
+   "page_count": 5,
+   "order": 11,
+   "p1": "55",
+   "pn": "59",
+   "abstract": [
+    "In this paper, we describe a Dialogue System for Telephone-based Services that integrates spoken (Dialogue Component) and written language (Optical Character Recognition-OCR). This system has been developed for a car insurance company in the framework of the LE-1 1802 project ACCeSS, but can be easily adapted to a different task. Handwritten application forms from prospective clients, concerning new contracts, are processed by the OCR component and the extracted information is stored on a local customers' database. The Dialogue Component reads the customers' database and collects the missing information of the application forms by calling the corresponding customer and asking about the blank or ambiguous fields. The system is currently tested at the company's site.\n",
+    ""
+   ]
+  },
+  "failenschmid98_ivtta": {
+   "authors": [
+    [
+     "Klaus",
+     "Failenschmid"
+    ]
+   ],
+   "title": "Spoken dialogue system design - the influence of the organisational context on the design process",
+   "original": "ivt8_060",
+   "page_count": 5,
+   "order": 12,
+   "p1": "60",
+   "pn": "64",
+   "abstract": [
+    "Most of the currently available speech recognition systems were designed by speech recognition and dialogue experts for clients giving varying degrees of input. In this paper we report on experience gained in reversing this principle of the design process, i.e. dialogue systems are designed by clients with technical assistance from speech recognition experts. This approach was taken in the EC Language Engineering project REWARD which is concerned with enabling experts in a target domain area with very little or no speech recognition experience to design telephone services which use advanced speech recognition technology. The discussion of the organisational impact on the design process makes use of design life cycle analyses carried out in the ESPRIT 4th Framework LTR Concerted Action Project DISC.\n",
+    ""
+   ]
+  },
+  "zanten98_ivtta": {
+   "authors": [
+    [
+     "Gert Veldhuijzen van",
+     "Zanten"
+    ]
+   ],
+   "title": "Adaptive mixed-initiative dialogue management",
+   "original": "ivt8_065",
+   "page_count": 6,
+   "order": 13,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper describes an architecture that supports adaptive mixed-initiative dialogue. It is based on a generalisation of the form-filling paradigm. Rather than a flat slot structure, we use a hierarchy that contains slots at various levels of abstraction. Along with the slot hierarchy, a question hierarchy is defined that allows for adaptive mixed-initiative dialogue. Depending on the success or failure of certain questions, the system can zoom-in to more detailed questions, or zoom-out to higher-level questions.\n",
+    "The distribution of initiative in dialogue is closely related to the granularity of the information that is asked for. To determine the right granularity level for system questions we have to take into account the influences on user freedom, predictability and the knowledge of the user. Giving the user initiative is suitable in situations where the user knows what to do. In such cases, the user may give all relevant information in one turn. However, giving the user more initiative tends to make his behaviour less predictable and therefore increases the chance on speech-understanding errors. The system should switch to lower-level questions when higher-level ones fail, and when the user supplies unsolicited information, the system can switch to higher-level questions.\n",
+    ""
+   ]
+  },
+  "brondsted98_ivtta": {
+   "authors": [
+    [
+     "Tom",
+     "Brondsted"
+    ]
+   ],
+   "title": "The linguistic components of the REWARD dialogue creation environment and run time system",
+   "original": "ivt8_071",
+   "page_count": 6,
+   "order": 14,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "The present paper describes the linguistic components of a platform for building spoken language dialogue systems. The platform is being designed and implemented within the EU-language engineering project REWARD. The linguistic components mainly consist of a suite of general unification based natural language processing utilities and a window based Sub Grammar Design Tool which provides non-experts access to the utilities. The Sub Grammar Design Tool enables non-expert users to implement sub grammars for speech understanding within a minimum of effort.\n",
+    ""
+   ]
+  },
+  "hanrieder98_ivtta": {
+   "authors": [
+    [
+     "Gerhard",
+     "Hanrieder"
+    ]
+   ],
+   "title": "Integration of a mixed-initiative dialogue manager into commercial IVR platforms",
+   "original": "ivt8_077",
+   "page_count": 6,
+   "order": 15,
+   "p1": "77",
+   "pn": "82",
+   "abstract": [
+    "This paper describes the integration of the Dasa Dialogue Manager (DDM) into commercial IVR speech computer platforms. It is argued that system integration is facilitated if natural language understanding and mixed-initiative dialogue control are combined into a single module with a common API. The internal structure of the dialogue manager is described as well as the interface functions. An integration concept is presented which will allow system integrators to add sophisticated mixed-initiative dialogue management as an additional resource to their existing IVR platforms.\n",
+    ""
+   ]
+  },
+  "tan98_ivtta": {
+   "authors": [
+    [
+     "Beng T.",
+     "Tan"
+    ],
+    [
+     "Yong",
+     "Gu"
+    ],
+    [
+     "Trevor",
+     "Thomas"
+    ]
+   ],
+   "title": "Implementation and evaluation of a voice-activated dialling system",
+   "original": "ivt8_083",
+   "page_count": 4,
+   "order": 16,
+   "p1": "83",
+   "pn": "86",
+   "abstract": [
+    "This paper describes the implementation and evaluation of a voice-activated dialling (VAD) system. The system allows an open and customised vocabulary set. The pronunciation of the enrolled entry is produced by the system from spoken examples provided by the users. The recognition rate of the baseline system is 96.43% with vocabulary size of 52. System performance of both single utterance (SU) training and multiple utterance (MU) training approaches are evaluated. Various methods to implement the MU training in VAD is proposed. The system error rate can be reduced by up to 72% when MU training is used. If the system is moved from single user to multiple users environment where users other than the enrolled speaker are also allowed to use the same system without re-enrolment, recognition rate of up to 94.64% can be achieved with the application of MU training.\n",
+    ""
+   ]
+  },
+  "koyama98_ivtta": {
+   "authors": [
+    [
+     "Takao",
+     "Koyama"
+    ],
+    [
+     "Takashi",
+     "Horie"
+    ],
+    [
+     "Takashi",
+     "Yoshioka"
+    ],
+    [
+     "Fuminori",
+     "Yoshitani"
+    ],
+    [
+     "Jun-ichi",
+     "Takahashi"
+    ]
+   ],
+   "title": "A highly intelligible speech synthesis for banking services in financial network system ANSER",
+   "original": "ivt8_087",
+   "page_count": 4,
+   "order": 17,
+   "p1": "87",
+   "pn": "90",
+   "abstract": [
+    "This paper describes the Japanese waveform-based speech synthesis that has been successfully added to the ANSER (Automatic answer Network System for Electronic Request) system , which is widely used for banking services in Japan. This method can produce highly intelligible speech comparable to natural voice. Its key features include a waveform dictionary containing specific waveforms for efficient pitch control, Japanese syllable unit-based waveform-CV, accurate accent control, and efficient waveform concatenation based on signal interpolation. A high intelligibility of 90% was attained (compared with 79% for the current LSP-CVC method) for 500 Japanese family names used in actual service.\n",
+    ""
+   ]
+  },
+  "sanderman98_ivtta": {
+   "authors": [
+    [
+     "Angelien",
+     "Sanderman"
+    ],
+    [
+     "Janienke",
+     "Sturm"
+    ],
+    [
+     "Els den",
+     "Os"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ],
+    [
+     "Anita",
+     "Cremers"
+    ]
+   ],
+   "title": "Evaluation of the dutch train timetable information system developed in the ARISE project",
+   "original": "ivt8_091",
+   "page_count": 6,
+   "order": 18,
+   "p1": "91",
+   "pn": "96",
+   "abstract": [
+    "In this paper we describe the evaluation of a version of a train time table information system that combines explicit verification with mixed-initiative dialogue control in the first part of the interaction. In the second part of the interaction callers were given more freedom in negotiation and navigation. The evaluation is based on the responses of 68 subjects who called the service from their homes and completed a questionnaire; plus ten subjects who performed the same tasks in the laboratory. All subjects carried out three scenarios, of increasing complexity. It appeared that the explicit verification does not add more turn to the dialogue compared to implicit verification. Subjects found it difficult to deal with the open questions in the second part of an interaction, that were meant to facilitate navigation.\n",
+    ""
+   ]
+  },
+  "baggia98_ivtta": {
+   "authors": [
+    [
+     "Paolo",
+     "Baggia"
+    ],
+    [
+     "Giuseppe",
+     "Castagneri"
+    ],
+    [
+     "Morena",
+     "Danieli"
+    ]
+   ],
+   "title": "Field trials of the Italian arise train timetable system",
+   "original": "ivt8_097",
+   "page_count": 6,
+   "order": 19,
+   "p1": "97",
+   "pn": "102",
+   "abstract": [
+    "This paper reports some results of two extensive field trials of the CSELT Arise system. The system provides vocal access to railway timetable for main Italian stations and some European cities. On the basis of the initial experiences we have been able to integrate the automatic system in the architecture of a typical railway information centre, where the timetable information may be delivered to callers by the spoken dialogue system, and the human operators may serve more complex users' requests. Three call centres with automatic systems are currently in operation, and the extension to other twelve call centres are planned within the current year. We argue that the experience we present is relevant from different points of views, in particular because it allowed us to test the impact of the automatic system on the work of the human operators, and the reactions of real callers to the automation of the service.\n",
+    ""
+   ]
+  },
+  "feldes98_ivtta": {
+   "authors": [
+    [
+     "Stefan",
+     "Feldes"
+    ],
+    [
+     "Georg",
+     "Fries"
+    ],
+    [
+     "Eli",
+     "Hagen"
+    ],
+    [
+     "Antje",
+     "Wirth"
+    ]
+   ],
+   "title": "A design environment for acoustic interfaces to databases",
+   "original": "ivt8_103",
+   "page_count": 4,
+   "order": 20,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "We present a novel service creation environment for spoken dialogue interfaces to databases. On the dialogue level, all procedural information has been hidden in the dialogue manager such that the application designer is relieved of the exact specification of individual dialogue steps and can work purely declaratively. The declarations comprise an application's tasks and the parameters needed from the user. On the linguistic level, the designer is requested to provide application specific templates, words, and phrases. A speech generator and a speech interpreter supply the deep linguistic knowledge that is necessary to produce the system's announcements and to recognize and interpret the user's utterances.\n",
+    ""
+   ]
+  },
+  "caloz98_ivtta": {
+   "authors": [
+    [
+     "Gilles",
+     "Caloz"
+    ],
+    [
+     "Cedric",
+     "Jaboulet"
+    ],
+    [
+     "Johnny",
+     "Mariéthoz"
+    ],
+    [
+     "Axel",
+     "Glaeser"
+    ],
+    [
+     "Dominique",
+     "Genoud"
+    ]
+   ],
+   "title": "Voice-b system",
+   "original": "ivt8_107",
+   "page_count": 5,
+   "order": 21,
+   "p1": "107",
+   "pn": "111",
+   "abstract": [
+    "In this paper, we evaluate a speaker verification system in the framework of a common project between IDIAP and ASCOM. The system used is based on new text-dependent speaker verification technologies. The validation has been done on a telephone speech database that contains more than one hundred speakers and the results obtained are between 2% and 4% Half Total Error Rate (HTER), which is acceptable for many applications.\n",
+    ""
+   ]
+  },
+  "mcallister98_ivtta": {
+   "authors": [
+    [
+     "David",
+     "McAllister"
+    ],
+    [
+     "Robert",
+     "Rodman"
+    ],
+    [
+     "Donald",
+     "Bitzer"
+    ],
+    [
+     "Andrew",
+     "Freeman"
+    ]
+   ],
+   "title": "Automated lip-sync animation as a telecommunications aid for the hearing impaired",
+   "original": "ivt8_112",
+   "page_count": 6,
+   "order": 22,
+   "p1": "112",
+   "pn": "117",
+   "abstract": [
+    "Vocal communication is most effective when the listener is able to observe the mouth of the speaker. This is especially true for the hearing impaired, and dramatically true for the deaf, who rely on lip-reading for comprehending speech. Communication over telephone lines is particularly onerous for the hearing impaired as visual information is unavailable. Our research addresses that problem by providing a computational means of taking speech as input and producing an animated mouth as output that moves precisely as if it were articulating the speech. In this paper we continue reporting on our progress in using moments of spectra a measure of spectral shapes to provide a direct mapping from the speech signal to parameters controlling the shape of the lips and position of the jaw during the articulation of the speech. The method requires no text nor does it rely on any form of speech recognition. We report in particular on the progress we have made in distinguishing the visemes the visible phonemes corresponding to /m/ and /n/.\n",
+    ""
+   ]
+  },
+  "lavelle98_ivtta": {
+   "authors": [
+    [
+     "Carine-Alexia",
+     "Lavelle"
+    ],
+    [
+     "Martine de",
+     "Calmes"
+    ],
+    [
+     "Guy",
+     "Pérennou"
+    ]
+   ],
+   "title": "A study of users' behaviors in different states of a spontaneous oral dialogue with an automatic inquiry system",
+   "original": "ivt8_118",
+   "page_count": 6,
+   "order": 23,
+   "p1": "118",
+   "pn": "123",
+   "abstract": [
+    "the observation that most present automatic telephonic inquiry systems remain rigid and quite unattractive for an important part of the public raises the problem of adapting dialogue strategies to potential users. We have been observing users' utterances in 6 corpuses obtained from 5 experiments with different users groups calling our DEMON automatic telephonic inquiry system for train schedule information. We especially focused on users' answer to implicit and explicit confirmation questions, and users' first utterances. We will show figures obtained and how these observations helped us to design new DEMON dialogue strategy.\n",
+    ""
+   ]
+  },
+  "larrey98_ivtta": {
+   "authors": [
+    [
+     "Pierre",
+     "Larrey"
+    ],
+    [
+     "Nadine",
+     "Vigouroux"
+    ],
+    [
+     "Guy",
+     "Pérennou"
+    ]
+   ],
+   "title": "Towards a flexible and contextually appropriate generation of spoken utterances",
+   "original": "ivt8_124",
+   "page_count": 6,
+   "order": 24,
+   "p1": "124",
+   "pn": "129",
+   "abstract": [
+    "Current vocal output generation systems lack portability and variability. Text-to-speech synthesis is not well accepted by users for its lack of conviviality. We propose alternative approaches to generating spoken utterances that fulfill the quality requirements of a speech output system. Our framework for language generation relies on conceptual segments, we controlled their acoustic realization by means of four basic methods based on four levels of representation : signal concatenation, text-to-speech, mimicking synthesis and phonological prosodic command driving the speech synthesizer. Examples produced allow a step towards flexible and contextually appropriate generation of spoken utterances.\n",
+    ""
+   ]
+  },
+  "agelfors98_ivtta": {
+   "authors": [
+    [
+     "Eva",
+     "Agelfors"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Martin",
+     "Dahlquist"
+    ],
+    [
+     "Björn",
+     "Granström"
+    ],
+    [
+     "Magnus",
+     "Lundeberg"
+    ],
+    [
+     "Karl-Erik",
+     "Spens"
+    ],
+    [
+     "Tobias",
+     "Öhman"
+    ]
+   ],
+   "title": "Teleface - the use of a synthetic face for the hard of hearing",
+   "original": "ivt8_130",
+   "page_count": 5,
+   "order": 25,
+   "p1": "130",
+   "pn": "134",
+   "abstract": [
+    "In the Teleface project the possibilities for a visual telephone communication aid for hearing impaired persons are being evaluated. Multimodal speech intelligibility experiments showed a marked intelligibility advantage for the addition of the face information, both for natural and synthetic faces. This is valid for hearing impaired persons as well as for normal-hearing persons in a noisy environment. In this paper we present results from two series of tests with hearing impaired subjects. Keywords: multimodal, speech synthesis, speech recognition, hearing impairment.\n",
+    ""
+   ]
+  },
+  "cosi98_ivtta": {
+   "authors": [
+    [
+     "Piero",
+     "Cosi"
+    ],
+    [
+     "John-Paul",
+     "Hosom"
+    ],
+    [
+     "Johan",
+     "Shalkwyk"
+    ],
+    [
+     "Stephen",
+     "Sutton"
+    ],
+    [
+     "Ronald A.",
+     "Cole"
+    ]
+   ],
+   "title": "Connected digit recognition experiments with the OGI toolkit's neural network and HMM-based recognizers",
+   "original": "ivt8_135",
+   "page_count": 6,
+   "order": 26,
+   "p1": "135",
+   "pn": "140",
+   "abstract": [
+    "This paper describes a series of experiments that compare different approaches to training a speaker-independent continuous-speech digit recognizer using the CSLU Toolkit. Comparisons are made between the Hidden Markov Model (HMM) and Neural Network (NN) approaches. In addition, a description of the CSLU Toolkit research environment is given. The CSLU Toolkit is a research and development software environment that provides a powerful and flexible tool for creating and using spoken language systems for telephone and PC applications. In particular, the CSLU-HMM, the CSLU-NN, and the CSLU-FBNN development environments, with which our experiments were implemented, will be described in detail and recognition results will be compared. Our speech corpus is OGI 30K-Numbers, which is a collection of spontaneous ordinal and cardinal numbers, continuous digit strings and isolated digit strings. The utterances were recorded by having a large number of people recite their ZIP code, street address, or other numeric information over the telephone. This corpus represents a very noisy and difficult recognition task. Our best results (98% word recognition, 92% sentence recognition), obtained with the FBNN architecture, suggest the effectiveness of the CSLU Toolkit in building real-life speech recognition systems.\n",
+    ""
+   ]
+  },
+  "nouza98_ivtta": {
+   "authors": [
+    [
+     "Jan",
+     "Nouza"
+    ],
+    [
+     "Miroslav",
+     "Holada"
+    ]
+   ],
+   "title": "A city information system operating over the telephone",
+   "original": "ivt8_141",
+   "page_count": 4,
+   "order": 27,
+   "p1": "141",
+   "pn": "144",
+   "abstract": [
+    "In the paper we present a voice controlled inquiry system designed for operation on the public telephone network. Its goal is to provide residents as well as visitors of a city by practical information of various types, such as programs of cinemas and theaters, overview of local sport events, timetables of city and regional transport and opening times of public or private institutions. The InfoCity system, as it is named, operates on a system-driven dialogue platform with an isolated-word style input (using a vocabulary of some 220 words and short phrases) and with a TTS generated output. Recently, the InfoCity framework has been adapted for serving the city of Liberec. It has been the first automatic information system of this type developed and tested in Czechia.\n",
+    ""
+   ]
+  },
+  "delogu98_ivtta": {
+   "authors": [
+    [
+     "Cristina",
+     "Delogu"
+    ],
+    [
+     "Andrea Di",
+     "Carlo"
+    ],
+    [
+     "Paolo",
+     "Rotundi"
+    ],
+    [
+     "Danilo",
+     "Sartori"
+    ]
+   ],
+   "title": "A comparison between DTMF and ASRIVR services through objective and subjective evaluation",
+   "original": "ivt8_145",
+   "page_count": 6,
+   "order": 28,
+   "p1": "145",
+   "pn": "150",
+   "abstract": [
+    "We evaluated some features of current ASR technology available in the marketplace for Computer Telephony applications, i.e., speaker independent vocal access through numbers and words, as well as some design techniques such as prompt and recovery. Three different ASR prototypes of the same application have been developed. Furthermore, a DTMF prototype that allows users to enter commands only through the telephone keyboard have been developed, with the purpose of making a comparison between touch tone and speech recognition technologies for telephony services.\n",
+    ""
+   ]
+  },
+  "raptis98_ivtta": {
+   "authors": [
+    [
+     "S.",
+     "Raptis"
+    ],
+    [
+     "C.",
+     "Malliopoulos"
+    ],
+    [
+     "S.",
+     "Bakamidis"
+    ],
+    [
+     "G.",
+     "Stainhaouer"
+    ]
+   ],
+   "title": "A speech agent for remote e-mail access",
+   "original": "ivt8_151",
+   "page_count": 4,
+   "order": 29,
+   "p1": "151",
+   "pn": "154",
+   "abstract": [
+    "This paper presents the design and implementation issues for a desktop agent running under the MS-Windows 95 environment. This agent is the result of the research and development efforts of the authors on speech processing at the Institute for Language and Speech Processing. It has emerged as an extension of the authors' previous work on speech interfaces for visually impaired persons and it is currently supporting only Modern Greek.\n",
+    "The Speech Agent (SA) is responsible for delivering e-mail messages through telephone lines employing speech synthesis and speech recognition techniques. A user can ttonnect'to the agent by simply placing a call to a phone connected to the PC. Using a standard predefined set of commands (words or sentences), the user can then instruct the agent to read an e-mail, check for new e-mails, delete e-mails, etc.\n",
+    ""
+   ]
+  },
+  "selouani98_ivtta": {
+   "authors": [
+    [
+     "Sid-Ahmed",
+     "Selouani"
+    ],
+    [
+     "Jean",
+     "Caelen"
+    ]
+   ],
+   "title": "Arabic phonetic features recognition using modular connectionist architectures",
+   "original": "ivt8_155",
+   "page_count": 6,
+   "order": 30,
+   "p1": "155",
+   "pn": "160",
+   "abstract": [
+    "This paper proposes an approach for reliably identifying complex Arabic phonemes in continuous speech. This is proposed to be done by a mixture of artificial neural experts. These experts are typically time delay neural networks using an original version of the autoregressive backpropagation algorithm (AR-TDNN). A module using specific cues generated by an ear model operates the speech phone segmentation. Perceptual linear predictive (PLP) coefficients, energy, zero crossing rate and their derivatives are used as input parameters. Serial and parallel architectures of AR-TDNN have been implemented and confronted to a monolithic system using simple backpropagation algorithm.\n",
+    ""
+   ]
+  },
+  "mahmoudi98_ivtta": {
+   "authors": [
+    [
+     "Djamila",
+     "Mahmoudi"
+    ]
+   ],
+   "title": "Speech source localization using a multi-resolution technique",
+   "original": "ivt8_161",
+   "page_count": 5,
+   "order": 31,
+   "p1": "161",
+   "pn": "165",
+   "abstract": [
+    "This paper presents a new speech source localization method in an adverse environment for microphone array systems. This method is applied to an octave-band decomposition of the signals obtained by the wavelet transform which uses a fast algorithm with short prototype filters. This method is applied in sub-bands separately and consists of two stages. First, a coarse region where the speech source is present is detected. Then the multi-beamforming operation is used to pinpoint the speaker's location. Both stages are based on the examination of the energy level and its variation. The complete algorithm provides relatively small errors in the source localization estimate.\n",
+    ""
+   ]
+  },
+  "karray98_ivtta": {
+   "authors": [
+    [
+     "Lamia",
+     "Karray"
+    ],
+    [
+     "Chafic",
+     "Mokbel"
+    ],
+    [
+     "Jean",
+     "Monne"
+    ]
+   ],
+   "title": "Solutions for robust speech/non-speech detection in wireless environment",
+   "original": "ivt8_166",
+   "page_count": 5,
+   "order": 32,
+   "p1": "166",
+   "pn": "170",
+   "abstract": [
+    "The use of speech recognition systems in noisy environments requires robustness to adverse conditions. An efficient detection of speech/non-speech segments is therefore necessary. Several approaches have been proposed in order to improve the robustness of speech/non-speech detection used for speech recognition in noisy conditions. In this paper, we describe a robust speech/non-speech detection algorithm based on the estimation of noise statistics: mean and variance. Results of several experiments carried out on a database collected over the GSM network show that this new approach improves the recognizer's global performances, especially in very noisy environments. Then, spectral subtraction is used as a preprocessing technique aiming to increase the robustness to noisy conditions. We show that the improvements concern mainly noisy conditions such as calls from outside or from running cars.\n",
+    ""
+   ]
+  },
+  "miksic98_ivtta": {
+   "authors": [
+    [
+     "Andrej",
+     "Miksic"
+    ],
+    [
+     "Zdravko",
+     "Kacic"
+    ],
+    [
+     "Bogomir",
+     "Horvat"
+    ]
+   ],
+   "title": "O-TEL - an experimental reverse directory telephone service with barge-in capability",
+   "original": "ivt8_171",
+   "page_count": 4,
+   "order": 33,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "Issues of practical implementation of a telephone dialog system are discussed with the reference to the experimental O-TEL system (a telephone reverse directory service) developed at University of Maribor. The system offers a user to call the system, utters the telephone number in order to receive information on the subscriber (name and address). Critical implementation issues are: allowing a full-duplex telephone interaction (user barge-in); design of a dialog flowchart that enables fluent and fast dialog; robust feature extraction with channel compensation; assuring a high recognition accuracy; and synchronizing the system prompt signal with the feature extraction part of a recognizer for the purposes of introducing echo cancellation as a part of feature extraction. Field trials have shown especially high rate of dialog completion and a good error recovery scheme. The capability of barge-in reduced the dialog completion time for up to 56\\% (especially in error recovering phase).\n",
+    ""
+   ]
+  },
+  "littel98_ivtta": {
+   "authors": [
+    [
+     "Bernhard",
+     "Littel"
+    ],
+    [
+     "Josef",
+     "Bauer"
+    ],
+    [
+     "Siegfried",
+     "Janke"
+    ]
+   ],
+   "title": "Speech recognition for the siemens EWSD public exchange",
+   "original": "ivt8_175",
+   "page_count": 4,
+   "order": 34,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "With the Integrated Voice Processing System (IVPS), speech recognition capability has been made available for the EWSD public exchange. For the IVPS we designed a speaker independent, CDHMM-based IWR (isolated word recognition) system, featuring noise reduction, echo cancellation, channel adaptation, non-speech rejection and out-of-vocabulary rejection. A digit and control word vocabulary has been implemented for German, American English, French and Portuguese.\n",
+    ""
+   ]
+  },
+  "moisa98_ivtta": {
+   "authors": [
+    [
+     "Loreta",
+     "Moisa"
+    ],
+    [
+     "Paolo",
+     "Baggia"
+    ],
+    [
+     "Cosmin",
+     "Popovici"
+    ]
+   ],
+   "title": "Language modelling in easydial",
+   "original": "ivt8_179",
+   "page_count": 6,
+   "order": 35,
+   "p1": "179",
+   "pn": "184",
+   "abstract": [
+    "This paper describes the module for the language model generation, integrated in EasyDial, the development environment for spoken dialogue systems designed in CSELT. The goal of this module is to allow the creation of language models for spoken dialogue systems, using advanced techniques, but maintaining low development costs.\n",
+    "The integration in the EasyDial development environment gives the possibility to create a language model for a new domain without additional efforts of the application developer. In particular, the paper emphasises the generation techniques that allow a better adaptation of the language model to the application dialogue strategy.\n",
+    "Moreover we present a solution for the creation of a bootstrap language model for a new application, without any additional development cost.\n",
+    ""
+   ]
+  },
+  "whittaker98_ivtta": {
+   "authors": [
+    [
+     "Steve",
+     "Whittaker"
+    ],
+    [
+     "Frank",
+     "Scahill"
+    ],
+    [
+     "David",
+     "Attwater"
+    ],
+    [
+     "Hilary",
+     "Geenhow"
+    ]
+   ],
+   "title": "Practical issues in the application of speech technology to network and customer service applications",
+   "original": "ivt8_185",
+   "page_count": 6,
+   "order": 36,
+   "p1": "185",
+   "pn": "190",
+   "abstract": [
+    "Speech technology is of increasing importance both in the provision of new network services and in the development of new automated business channels - often to complement existing call-centre, online or e-commerce approaches.\n",
+    "This paper discusses a number of practical issues in the development of complex services and describes a number of experimental, trial and deployed systems focussing on key issues; Large vocabulary database searching - UK name and address transcription Management of dialogue complexity in fluent spoken language systems - the Freedom system\n",
+    ""
+   ]
+  },
+  "nemeth98_ivtta": {
+   "authors": [
+    [
+     "Géza",
+     "Németh"
+    ]
+   ],
+   "title": "From near-nil to everyday life: speech technology based telecommunication services in Hungary",
+   "original": "ivt8_191",
+   "page_count": 6,
+   "order": 37,
+   "p1": "191",
+   "pn": "196",
+   "abstract": [
+    "In the paper an overview will be given about the development of speech technology based telecommunications services in Hungary during the last ten years. It will combine the author's personal experience with analysis of the answers for a questionnaire, sent out to approximately 80 companies in Hungary. Examples of services developed with the participation of DTT TUB will also be reported.\n",
+    ""
+   ]
+  },
+  "chang98_ivtta": {
+   "authors": [
+    [
+     "Harry M.",
+     "Chang"
+    ]
+   ],
+   "title": "Is ASR ready for wireless primetime: measuring the core technology for selected applications",
+   "original": "ivt8_197",
+   "page_count": 6,
+   "order": 38,
+   "p1": "197",
+   "pn": "202",
+   "abstract": [
+    "It is estimated that by the end of 2001 as many as 500 million people worldwide will use cellular services. The nature of hands-busy and eyes-busy situations inherent in the anywhere and anytime wireless communication paradigm presents exciting marketing opportunities and, at the same time, unique technical challenges to the current-generation ASR technology and its new applications. Current industry trends clearly show that incorporating ASR technology into existing or new wireless services as a replacement for touch-tone input is a natural progression in user interface. But is the current-generation ASR technology ready for prime time over wireless channels? Both qualitative and quantitative assessments for the core technology must be adopted by the industry before answering this question. In this paper, we will describe a set of benchmark tasks designed to evaluate the state-of-the-art ASR technologies and present the results of these benchmark tests on two commercially available software-based ASR systems that represent the best core ASR technology on the market.\n",
+    ""
+   ]
+  },
+  "boves98_ivtta": {
+   "authors": [
+    [
+     "Lou",
+     "Boves"
+    ],
+    [
+     "Els den",
+     "Os"
+    ]
+   ],
+   "title": "Speaker recognition in telecom applications",
+   "original": "ivt8_203",
+   "page_count": 6,
+   "order": 39,
+   "p1": "203",
+   "pn": "208",
+   "abstract": [
+    "Now that speech driven information services are developing into transaction systems the interest in Speaker Recognition has been increasing. Basing on research carried out in the EU funded projects CAVE and PICASSO a number of issues are identified that have a direct impact on real-world applications of the Speaker Recognition (SR). In this paper technical issues are addressed first, followed by human factors issues. Then we identify a number of factors that are critical the success of applications of SR in Telematics transaction services. It is explained why SR, as a behavioural biometric protection technique, cannot provide very high security when it is used on its own. Therefore, due attention must be paid to a proper design of the services, taking security into account from the very start. In addition, it appeared that SR can play a major role in making spoken language interfaces more user friendly. The paper ends with some conclusions and recommendations.\n",
+    ""
+   ]
+  },
+  "lamel98_ivtta": {
+   "authors": [
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "S.",
+     "Rosset"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "S.",
+     "Bennacef"
+    ],
+    [
+     "M.",
+     "Garnier-Rizet"
+    ],
+    [
+     "B.",
+     "Prouts"
+    ]
+   ],
+   "title": "The LIMSI ARISE system",
+   "original": "ivt8_209",
+   "page_count": 6,
+   "order": 40,
+   "p1": "209",
+   "pn": "214",
+   "abstract": [
+    "The LIMSI Arise system provides vocal access to rail travel information for main French intercity connections, including timetables, simulated fares and reservations, reductions and services. Our goal is to obtain high dialog success rates with a very open structure, where the user is free to ask any question or to provide any information at any point in time. In order to improve performance with such an open dialog strategy, we make use of implicit confirmation using the callers wording (when possible), and change to a more constrained dialog level when the dialog is not going well. The same system architecture is being used to develop a French/English prototype timetable service for the high speed trains between Paris and London.\n",
+    ""
+   ]
+  },
+  "zeigler98_ivtta": {
+   "authors": [
+    [
+     "Bonnie L.",
+     "Zeigler"
+    ],
+    [
+     "Nick",
+     "Bulley"
+    ]
+   ],
+   "title": "A voice information system supporting compliance in the aviron flumist (TM) vaccine trial",
+   "original": "ivt8_215",
+   "page_count": 4,
+   "order": 41,
+   "p1": "215",
+   "pn": "218",
+   "abstract": [
+    "We describe a Voice Information System (VIS) used to encourage compliance during pharmaceutical trials. Our VIS was developed to support a research trial conducted by Aviron (Mountain View, California, USA) to assess the safety, tolerability, and effectiveness of FluMist (TM) (Influenza Virus Vaccine, Trivalent, Types A & B, Live, Cold-Adapted). The trial was conducted in the U.S. during the '97-'98 flu season. The 4561 participants in the trial received intranasal administration of either the vaccine or a placebo, and subsequently filled out detailed monthly diaries to chronicle their health histories during the effectiveness phase of the trial. The role of our automated voice system was to contact the participants twice a month during the effectiveness phase to communicate information and to ensure compliance in completing and returning the diaries. In the present paper, we describe the architecture and functionality of the VIS, and we report results from using the system throughout the trial. The VIS is a custom-developed Windows NT application, running on a Compaq platform with a multichannel Dialogic telephony subsystem. The application was developed in Visual Basic and linked with an MS/Access database used to set application parameters, store participant information, and record data during system use. We designed the system to make a high volume of calls during a short time window (required by other aspects of the trial process) and to track call progress information and user behavior for each call. The message pragmatics of the calls varied during the trial and included reminders, confirmations, instructions, and news. We based the dialog on simple dialog prototypes, and we varied message delivery as a function of the mode of answering the call (i.e., human, answering machine, modem).\n",
+    "Our results pertain to system performance, user behavior, and diary compliance during the 5-month effectiveness phase of the trial. With regard to system performance, we assess the system in terms of reliability, flexibility, and effectiveness of call completion. With regard to user behavior, we report objective measures reflecting the willingness of participants to receive information transmitted via automated outbound calls. Finally, we draw from our large-scale call sample to provide descriptive statistics that may be useful for establishing design parameters of future voice-interactive applications.\n",
+    ""
+   ]
+  },
+  "lundin98_ivtta": {
+   "authors": [
+    [
+     "Fred J.",
+     "Lundin"
+    ]
+   ],
+   "title": "The Swedish automatic reverse directory service",
+   "original": "ivt8_219",
+   "page_count": 4,
+   "order": 42,
+   "p1": "219",
+   "pn": "222",
+   "abstract": [
+    "As a complementary service to the manual expensive reverse directory service an automatic service has been introduced using diphon based synthetic speech. Some problems from the development of the service are described and how we solved them, and an overview of the system design is given. The inquired number is entered by touch-tone and the corresponding name and the address from Telia's directory database are incorporated correctly into the responding carrier phrase. For the pronunciation both a lexicon with 200.000 entries is used as well as general text-to-speech rules. Spelling options are given. Several steps in improving the dialogue have resulted in high acceptance of the service.\n",
+    ""
+   ]
+  },
+  "nebbia98_ivtta": {
+   "authors": [
+    [
+     "Luciano",
+     "Nebbia"
+    ],
+    [
+     "Silvia",
+     "Quazza"
+    ],
+    [
+     "Pier Luigi",
+     "Salza"
+    ]
+   ],
+   "title": "A specialised speech synthesis technique for application to automatic reverse directory service",
+   "original": "ivt8_223",
+   "page_count": 6,
+   "order": 43,
+   "p1": "223",
+   "pn": "228",
+   "abstract": [
+    "This paper describes a specialised version of Eloquens®, the CSELT's text-to-speech synthesiser, which has been conceived to achieve a substantial improvement for what concerns not only intelligibility, but also speech naturalness in the synthesis of messages in an Automatic Reverse Directory Service. This result has been obtained taking advantage of the peculiarities of the application domain, namely the possibility, or even the preference, to synthesise only isolated words and the restriction of the lexical domain to words occurring in the telephone directory. The system is based on plain concatenative synthesis, using acoustic units larger than diphones and avoiding prosodic manipulation. Coverage completeness is assured by the conventional diphones, which the system can use to synthesise possible missing units. Subjective evaluation demonstrates that the new system has higher intelligibility, requires less comprehension effort and shows a highly improved system acceptance than standard Eloquens®.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Table of Contents and Access to Abstracts",
+   "papers": [
+    "gupta98_ivtta",
+    "kato98_ivtta",
+    "billi98_ivtta",
+    "peterson98_ivtta",
+    "kellner98_ivtta",
+    "falavigna98_ivtta",
+    "neubert98_ivtta",
+    "lee98_ivtta",
+    "marinelli98_ivtta",
+    "azevedo98_ivtta",
+    "georgila98_ivtta",
+    "failenschmid98_ivtta",
+    "zanten98_ivtta",
+    "brondsted98_ivtta",
+    "hanrieder98_ivtta",
+    "tan98_ivtta",
+    "koyama98_ivtta",
+    "sanderman98_ivtta",
+    "baggia98_ivtta",
+    "feldes98_ivtta",
+    "caloz98_ivtta",
+    "mcallister98_ivtta",
+    "lavelle98_ivtta",
+    "larrey98_ivtta",
+    "agelfors98_ivtta",
+    "cosi98_ivtta",
+    "nouza98_ivtta",
+    "delogu98_ivtta",
+    "raptis98_ivtta",
+    "selouani98_ivtta",
+    "mahmoudi98_ivtta",
+    "karray98_ivtta",
+    "miksic98_ivtta",
+    "littel98_ivtta",
+    "moisa98_ivtta",
+    "whittaker98_ivtta",
+    "nemeth98_ivtta",
+    "chang98_ivtta",
+    "boves98_ivtta",
+    "lamel98_ivtta",
+    "zeigler98_ivtta",
+    "lundin98_ivtta",
+    "nebbia98_ivtta"
+   ]
+  }
+ ]
+}

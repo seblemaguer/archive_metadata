@@ -1,0 +1,664 @@
+{
+ "location": "Florence, Italy",
+ "startDate": "1/9/2011",
+ "endDate": "1/9/2011",
+ "title": "First CHiME Workshop on Machine Listening in Multisource Environments (CHiME 2011)",
+ "conf": "CHiME",
+ "year": "2011",
+ "name": "chime_2011",
+ "series": "CHiME",
+ "SIG": "",
+ "title1": "First CHiME Workshop on Machine Listening in Multisource Environments",
+ "title2": "(CHiME 2011)",
+ "date": "1 September 2011",
+ "booklet": "chime_2011.pdf",
+ "papers": {
+  "hurmalainen11_chime": {
+   "authors": [
+    [
+     "Antti",
+     "Hurmalainen"
+    ],
+    [
+     "Katariina",
+     "Mahkonen"
+    ],
+    [
+     "Jort F.",
+     "Gemmeke"
+    ],
+    [
+     "Tuomas",
+     "Virtanen"
+    ]
+   ],
+   "title": "Exemplar-based recognition of speech in highly variable noise",
+   "original": "cm11_001",
+   "page_count": 5,
+   "order": 1,
+   "p1": "1",
+   "pn": "5",
+   "abstract": [
+    "Robustness against varying background noise is a crucial requirement for the use of automatic speech recognition in everyday situations. In previous work, we proposed an exemplarbased recognition system for tackling the issue at low SNRs. In this work, we compare several exemplar-based factorisation and decoding algorithms in pursuit of higher noise robustness. The algorithms are evaluated using the PASCAL CHiME challenge corpus, which contains multiple speakers and authentic living room noise at six SNRs ranging from 9 to -6 dB. The results show that the proposed exemplar-based techniques offer a substantial improvement in the noise robustness of speech recognition.\n",
+    "",
+    "",
+    "Index Terms. automatic speech recognition, exemplar-based, noise robustness, sparse representation\n",
+    ""
+   ]
+  },
+  "kolossa11_chime": {
+   "authors": [
+    [
+     "Dorothea",
+     "Kolossa"
+    ],
+    [
+     "Ramón",
+     "Fernandez Astudillo"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "Steffen",
+     "Zeiler"
+    ],
+    [
+     "Rahim",
+     "Saeidi"
+    ],
+    [
+     "Pejman",
+     "Mowlaee"
+    ],
+    [
+     "João Paulo da Silva",
+     "Neto"
+    ],
+    [
+     "Rainer",
+     "Martin"
+    ]
+   ],
+   "title": "CHiME challenge: approaches to robustness using beamforming and uncertainty-of-observation techniques",
+   "original": "cm11_006",
+   "page_count": 6,
+   "order": 2,
+   "p1": "6",
+   "pn": "11",
+   "abstract": [
+    "While much progress has been made in designing robust automatic speech recognition (ASR) systems, the combination of high noise levels and reverberant room acoustics still poses a major challenge even to state-of-the-art systems. The following paper describes how robust automatic speech recognition in such difficult environments can be approached by combining beamforming and missing data techniques.\n",
+    "The combination of these two techniques is achieved by first estimating uncertainties of observation in the beamforming stage, either in the time or frequency domain, and subsequently transforming these observations with associated uncertainties to the domain of speech recognition. This strategy allows the use of reverberation-insensitive cepstral features, which can still be decoded robustly with the help of uncertainty information gained from the beamforming front end.\n",
+    "In this paper, we investigate a number of different preprocessing options with the somewhat surprising result that a simple fixed delay-and-sum beamformer and a null-steering beamformer, when combined with uncertainty decoding techniques, resulted in the most robust design among a much wider set of investigated techniques.\n",
+    "",
+    "",
+    "Index Terms. robustness, automatic speech recognition, beamforming, uncertainty decoding\n",
+    ""
+   ]
+  },
+  "delcroix11_chime": {
+   "authors": [
+    [
+     "Marc",
+     "Delcroix"
+    ],
+    [
+     "Keisuke",
+     "Kinoshita"
+    ],
+    [
+     "Tomohiro",
+     "Nakatani"
+    ],
+    [
+     "Shoko",
+     "Araki"
+    ],
+    [
+     "Atsunori",
+     "Ogawa"
+    ],
+    [
+     "Takaaki",
+     "Hori"
+    ],
+    [
+     "Shinji",
+     "Watanabe"
+    ],
+    [
+     "Masakiyo",
+     "Fujimoto"
+    ],
+    [
+     "Takuya",
+     "Yoshioka"
+    ],
+    [
+     "Takanobu",
+     "Oba"
+    ],
+    [
+     "Yotaro",
+     "Kubo"
+    ],
+    [
+     "Mehrez",
+     "Souden"
+    ],
+    [
+     "Seong-Jun",
+     "Hahm"
+    ],
+    [
+     "Atsushi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Speech recognition in the presence of highly non-stationary noise based on spatial, spectral and temporal speech/noise modeling combined with dynamic variance adaptation",
+   "original": "cm11_012",
+   "page_count": 6,
+   "order": 3,
+   "p1": "12",
+   "pn": "17",
+   "abstract": [
+    "In this paper, we introduce a system for recognizing speech in the presence of multiple rapidly time-varying noise sources. The main components of the proposed approach are a modelbased speech enhancement pre-processor and an adaptation technique to optimize the integration between the pre-processor and the recognizer. The speech enhancement pre-processor consists of two complementary elements, a multi-channel speechnoise separation method that exploits spatial and spectral information, followed by single channel enhancement that uses the long-term temporal characteristics of speech. To compensate for any mismatch that may remain between the enhanced features and the acoustic model, we employ an adaptation technique that combines conventional MLLR with the dynamic adaptive compensation of the variance of the Gaussians of the acoustic model. Our proposed system greatly improves the audible quality of speech and substantially improves of the keyword recognition accuracy.\n",
+    "",
+    "",
+    "Index Terms. Robust ASR, Source separation, Model-based speech enhancement, Example-based enhancement, Model adaptation, Dynamic variance adaptation\n",
+    ""
+   ]
+  },
+  "nesta11_chime": {
+   "authors": [
+    [
+     "Francesco",
+     "Nesta"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ]
+   ],
+   "title": "Robust automatic speech recognition through on-line semi blind source extraction",
+   "original": "cm11_018",
+   "page_count": 6,
+   "order": 4,
+   "p1": "18",
+   "pn": "23",
+   "abstract": [
+    "This paper describes the system used to process the data of the CHiME Pascal 2011 competition, whose goal is to separate the desired speech and recognize the commands being spoken. The binaural recorded mixtures are processed by an on-line Semi- Blind Source Extraction algorithm. The algorithm is based on a multi-stage architecture combining the advantages of constrained Independent Component Analysis and Wiener-based processing, allowing the estimation of the target signal with limited distortion. The recovered target signal is then fed to the recognizer which uses noise robust features based on Gammatone Frequency Cepstral Coefficients. Moreover, model adaptation to actual processing is applied as a further stage to reduce the acoustic mismatch. Performance comparison between different model/algorithmic settings is reported for both development and test data sets.\n",
+    "",
+    "",
+    "Index Terms. blind source separation, speech enhancement, robust speech recognition\n",
+    ""
+   ]
+  },
+  "weninger11_chime": {
+   "authors": [
+    [
+     "Felix",
+     "Weninger"
+    ],
+    [
+     "Jürgen",
+     "Geiger"
+    ],
+    [
+     "Martin",
+     "Wöllmer"
+    ],
+    [
+     "Björn",
+     "Schuller"
+    ],
+    [
+     "Gerhard",
+     "Rigoll"
+    ]
+   ],
+   "title": "The Munich 2011 CHiME challenge contribution: NMF-BLSTM speech enhancement and recognition for reverberated multisource environments",
+   "original": "cm11_024",
+   "page_count": 6,
+   "order": 5,
+   "p1": "24",
+   "pn": "29",
+   "abstract": [
+    "We present the Munich contribution to the PASCAL ‘CHiME’ Speech Separation and Recognition Challenge: Our approach combines source separation by supervised convolutive non-negative matrix factorisation (NMF) with our tandem recogniser that augments acoustic features by word predictions of a Long Short-Term Memory recurrent neural network in a multi-stream Hidden Markov Model. The performance of our source separation approach is demonstrated in a sequence of gradually refined speech recognisers. While NMF drastically improves performance for all investigated recognisers, best results are obtained with the multi-stream approach along with a novel adaptation technique for noise dictionaries in supervised NMF. On the final Challenge test set, the proposed system delivers an average keyword recognition accuracy of 87.86% across SNRs ranging from -6 to 9 dB, reducing the error rate from 44% to 12% compared to the Challenge baseline.\n",
+    "",
+    "",
+    "Index Terms. Non-Negative Matrix Factorisation, Tandem Speech Recognition\n",
+    ""
+   ]
+  },
+  "ozerov11_chime": {
+   "authors": [
+    [
+     "Alexey",
+     "Ozerov"
+    ],
+    [
+     "Mathieu",
+     "Lagrange"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ]
+   ],
+   "title": "GMM-based classification from noisy features",
+   "original": "cm11_030",
+   "page_count": 6,
+   "order": 6,
+   "p1": "30",
+   "pn": "35",
+   "abstract": [
+    "We consider Gaussian mixture model (GMM)-based classification from noisy features, where the uncertainty over each feature is represented by a Gaussian distribution. For that purpose, we first propose a new GMM training and decoding criterion called log-likelihood integration which, as opposed to the conventional likelihood integration criterion, does not rely on any assumption regarding the distribution of the data. Secondly, we introduce two new Expectation Maximization (EM) algorithms for the two criteria, that allow to learn GMMs directly from noisy features. We then evaluate and compare the behaviors of two proposed algorithms with a categorization task on artificial data and speech data with additive artificial noise, assuming the uncertainty parameters are known.\n",
+    "Experiments demonstrate the superiority of the likelihood integration criterion with the newly proposed EM learning in all tested configurations, thus giving rise to a new family of learning approaches that are insensitive to the heterogeneity of the noise characteristics between testing and training data.\n",
+    "",
+    "",
+    "Index Terms. Uncertainty-based classification, Gaussian mixture model, expectation maximization algorithm\n",
+    ""
+   ]
+  },
+  "heittola11_chime": {
+   "authors": [
+    [
+     "Toni",
+     "Heittola"
+    ],
+    [
+     "Annamaria",
+     "Mesaros"
+    ],
+    [
+     "Tuomas",
+     "Virtanen"
+    ],
+    [
+     "Antti",
+     "Eronen"
+    ]
+   ],
+   "title": "Sound event detection in multisource environments using source separation",
+   "original": "cm11_036",
+   "page_count": 5,
+   "order": 7,
+   "p1": "36",
+   "pn": "40",
+   "abstract": [
+    "This paper proposes a sound event detection system for natural multisource environments, using a sound source separation front-end. The recognizer aims at detecting sound events from various everyday contexts. The audio is preprocessed using non-negative matrix factorization and separated into four individual signals. Each sound event class is represented by a Hidden Markov Model trained using mel frequency cepstral coefficients extracted from the audio. Each separated signal is used individually for feature extraction and then segmentation and classification of sound events using the Viterbi algorithm. The separation allows detection of a maximum of four overlapping events. The proposed system shows a significant increase in event detection accuracy compared to a system able to output a single sequence of events.\n",
+    "",
+    "",
+    "Index Terms. sound event detection, sound source separation, non-negative matrix factorization\n",
+    ""
+   ]
+  },
+  "maas11_chime": {
+   "authors": [
+    [
+     "Roland",
+     "Maas"
+    ],
+    [
+     "Andreas",
+     "Schwarz"
+    ],
+    [
+     "Yuanhang",
+     "Zheng"
+    ],
+    [
+     "Klaus",
+     "Reindl"
+    ],
+    [
+     "Stefan",
+     "Meier"
+    ],
+    [
+     "Armin",
+     "Sehr"
+    ],
+    [
+     "Walter",
+     "Kellermann"
+    ]
+   ],
+   "title": "A two-channel acoustic front-end for robust automatic speech recognition in noisy and reverberant environments",
+   "original": "cm11_041",
+   "page_count": 6,
+   "order": 8,
+   "p1": "41",
+   "pn": "46",
+   "abstract": [
+    "An acoustic front-end for robust automatic speech recognition in noisy and reverberant environments is proposed in this contribution. It comprises a blind source separation-based signal extraction scheme and only requires two microphone signals. The proposed front-end and its integration into the recognition system is analyzed and evaluated in noisy living room-like environments according to the PASCAL CHiME challenge. The results show that the introduced system significantly improves the recognition performance compared to the challenge baseline.\n",
+    "",
+    "",
+    "Index Terms. PASCAL CHiME challenge, robust automatic speech recognition, blind source extraction, speech enhancement\n",
+    ""
+   ]
+  },
+  "koldovsky11_chime": {
+   "authors": [
+    [
+     "Zbynĕk",
+     "Koldovský"
+    ],
+    [
+     "Jiří",
+     "Málek"
+    ],
+    [
+     "Jan",
+     "Nouza"
+    ],
+    [
+     "Miroslav",
+     "Balík"
+    ]
+   ],
+   "title": "CHiME data separation based on target signal cancellation and noise masking",
+   "original": "cm11_047",
+   "page_count": 4,
+   "order": 9,
+   "p1": "47",
+   "pn": "50",
+   "abstract": [
+    "The task of the CHiME challenge is to separate distant speech from noise and recognize the commands being spoken. We propose a separation approach suitable for the CHiME data that relies on the existence of a speech-only recording and assumes fixed positions of the speaker and hearer and stationary reverberant conditions. Using the clean speech segment, a filter that suppresses the target speech is designed. Then, its output provides an estimate of the noise, when the noise is present and comes from different positions. The estimated noise is suppressed from original recordings by an adaptive filter, which outputs the enhanced target signal. The experiments with CHiME data show that this approach improves the keyword recognition accuracy by 7.27%.\n",
+    ""
+   ]
+  },
+  "shibata11_chime": {
+   "authors": [
+    [
+     "Kenichi",
+     "Shibata"
+    ],
+    [
+     "Kengo",
+     "Ikeya"
+    ],
+    [
+     "Yuki",
+     "Deguchi"
+    ],
+    [
+     "Yoichi",
+     "Takebayashi"
+    ],
+    [
+     "Shigeyoshi",
+     "Kitazawa"
+    ],
+    [
+     "Shinya",
+     "Kiriyama"
+    ]
+   ],
+   "title": "Designing multimodal acoustic environment corpus to improve speech interaction in living room",
+   "original": "cm11_051",
+   "page_count": 2,
+   "order": 10,
+   "p1": "51",
+   "pn": "52",
+   "abstract": [
+    "We constructed a multimodal acoustic environment corpus for interaction design. The intelligent environment consists of a living room interacting with different users and adapting it to their preferences. We developed a speech interaction system to control electrical appliances in the living room, and to record and accumulate real-life interaction data to the corpus. The results of interaction analysis indicated that the constructed corpus was effective in investigating the actual conditions of real-life interaction using speech interfaces.\n",
+    "",
+    "",
+    "Index Terms. multimodal acoustic environment corpus, speech interaction design, situation understanding, user environment adaptation\n",
+    ""
+   ]
+  },
+  "gemmeke11_chime": {
+   "authors": [
+    [
+     "Jort F.",
+     "Gemmeke"
+    ],
+    [
+     "Tuomas",
+     "Virtanen"
+    ],
+    [
+     "Antti",
+     "Hurmalainen"
+    ]
+   ],
+   "title": "Exemplar-based speech enhancement and its application to noise-robust automatic speech recognition",
+   "original": "cm11_053",
+   "page_count": 5,
+   "order": 11,
+   "p1": "53",
+   "pn": "57",
+   "abstract": [
+    "In this work an exemplar-based technique for speech enhancement of noisy speech is proposed. The technique works by finding a sparse representation of the noisy speech in a dictionary containing both speech and noise exemplars, and uses the activated dictionary atoms to create a time-varying filter to enhance the noisy speech. The speech enhancement algorithm is evaluated using measured signal to noise ratio (SNR) improvements as well as by using automatic speech recognition. Experiments on the PASCAL CHiME challenge corpus, which contains speech corrupted by both reverberation and authentic living room noise at varying SNRs ranging from 9 to -6 dB, confirm the validity of the proposed technique. Examples of enhanced signals are available at http://www.cs.tut.fi/~tuomasv/.\n",
+    "",
+    "",
+    "Index Terms. speech enhancement, exemplar-based, noise robustness, sparse representations\n",
+    ""
+   ]
+  },
+  "kallasjoki11_chime": {
+   "authors": [
+    [
+     "Heikki",
+     "Kallasjoki"
+    ],
+    [
+     "Sami",
+     "Keronen"
+    ],
+    [
+     "Guy J.",
+     "Brown"
+    ],
+    [
+     "Jort F.",
+     "Gemmeke"
+    ],
+    [
+     "Ulpu",
+     "Remes"
+    ],
+    [
+     "Kalle J.",
+     "Palomäki"
+    ]
+   ],
+   "title": "Mask estimation and sparse imputation for missing data speech recognition in multisource reverberant environments",
+   "original": "cm11_058",
+   "page_count": 6,
+   "order": 12,
+   "p1": "58",
+   "pn": "63",
+   "abstract": [
+    "This work presents an automatic speech recognition system which uses a missing data approach to compensate for environmental noise. The missing, noise-corrupted components are identified using binaural features or a support vector machine (SVM) classifier. To perform speech recognition using the partially observed data, the missing components are substituted with clean speech estimates calculated using sparse imputation. Evaluated on the CHiME reverberant multisource environment corpus, the missing data approach significantly improved the keyword recognition accuracy in moderate and poor SNR conditions. The best results were achieved when the missing components were identified using the binaural features and the clean speech estimates associated with observation uncertainty estimates.\n",
+    "",
+    "",
+    "Index Terms. noise robust, speech recognition, binaural, SVM, sparse imputation, observation uncertainties\n",
+    ""
+   ]
+  },
+  "comminiello11_chime": {
+   "authors": [
+    [
+     "Danilo",
+     "Comminiello"
+    ],
+    [
+     "Michele",
+     "Scarpiniti"
+    ],
+    [
+     "Raffaele",
+     "Parisi"
+    ],
+    [
+     "Albenzio",
+     "Cirillo"
+    ],
+    [
+     "Mauro",
+     "Falcone"
+    ],
+    [
+     "Aurelio",
+     "Uncini"
+    ]
+   ],
+   "title": "Multi-stage collaborative microphone array beamforming in presence of nonstationary interfering signals",
+   "original": "cm11_064",
+   "page_count": 4,
+   "order": 13,
+   "p1": "64",
+   "pn": "67",
+   "abstract": [
+    "This paper describes a novel adaptive beamforming technique, for speech enhancement applications, designed to be robust to nonstationary interfering sources in noisy and reverberant environments. The proposed beamforming architecture aims at extracting the desired source signal and suppressing interfering signals in a multisource environment with unknown a priori conditions. This purpose is realized by means of a multi-stage collaborative generalized sidelobe canceller. The trademark of this architecture relies on a two-level convex combination of two multiple-input single-output (MISO) adaptive systems, which improves the beamformer capability to track undesired sources, in order to achieve a stronger suppression of interfering signals. The potency of the proposed architecture is proved enhancing the speech quality of the desired source in a handsfree teleconferencing application.\n",
+    "",
+    "",
+    "Index Terms. Nonstationary Adaptive Beamforming, Speech Enhancement, Combination of Adaptive Filters\n",
+    ""
+   ]
+  },
+  "ma11_chime": {
+   "authors": [
+    [
+     "Ning",
+     "Ma"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ],
+    [
+     "Heidi",
+     "Christensen"
+    ],
+    [
+     "Phil",
+     "Green"
+    ]
+   ],
+   "title": "Recent advances in fragment-based speech recognition in reverberant multisource environments",
+   "original": "cm11_068",
+   "page_count": 6,
+   "order": 14,
+   "p1": "68",
+   "pn": "73",
+   "abstract": [
+    "This paper addresses the problem of speech recognition using distant binaural microphones in reverberant multisource noise conditions. Our scheme employs a two stage fragment decoding approach: first spectro-temporal acoustic source fragments are identified using signal level cues, and second, a hypothesisdriven stage simultaneously searches for the most probable speech/background fragment labelling and the corresponding acoustic model state sequence. The paper reports recent advances in combining adaptive noise floor modelling and binaural localisation cues within this framework. The decoder is able to derive significant recognition performance benefits from both noise floor tracking and fragment location estimates. Using models trained on noise-free speech, the system achieves an average keyword recognition accuracy of 80.60% for the final test set on the PASCAL CHiME Challenge task.\n",
+    ""
+   ]
+  },
+  "vipperla11_chime": {
+   "authors": [
+    [
+     "Ravichander",
+     "Vipperla"
+    ],
+    [
+     "Simon",
+     "Bozonnet"
+    ],
+    [
+     "Dong",
+     "Wang"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Robust speech recognition in multi-source noise environments using convolutive non-negative matrix factorization",
+   "original": "cm11_074",
+   "page_count": 6,
+   "order": 15,
+   "p1": "74",
+   "pn": "79",
+   "abstract": [
+    "Convolutive non-negative matrix factorization (CNMF) is an effective approach for supervised audio source separation. It relies on the availability of sufficient training data to learn a set of bases for each acoustic source. For automatic speech recognition (ASR) in a multi-source noise environment, the varied nature of background noise makes it a challenging task to learn the noise bases and thereby to suppress it from the speech signal using CNMF. A large amount of training data is required to reliably capture noise variation, but this generally leads to an unacceptable computational burden. Here, we address this problem by learning the noise bases using a computationally efficient, online CNMF approach. By learning the noise bases from several hours of ambient noise data and over a few seconds of local acoustic context, we show that background noise can be effectively attenuated from noisy speech. ASR accuracies on the CHiME corpus with the denoised speech show relative improvements in the range of 42.3% for -6 dB signal-to-noise ratio (SNR) to 2.5% for 9 dB SNR.\n",
+    "",
+    "",
+    "Index Terms. Convolutive non-negative matrix factorization, online CNMF, speech separation, automatic speech recognition\n",
+    ""
+   ]
+  },
+  "bardeli11_chime": {
+   "authors": [
+    [
+     "Rolf",
+     "Bardeli"
+    ]
+   ],
+   "title": "Source separation using the spectral flatness measure",
+   "original": "cm11_080",
+   "page_count": 6,
+   "order": 16,
+   "p1": "80",
+   "pn": "85",
+   "abstract": [
+    "Complex audio scenes with a large number of sound sources pose one of the most difficult problems for audio pattern recognition. Therefore, methods for source separation are very important in this context. Many source separation methods try to exactly recover every source in an audio scene. In this paper, however, we propose an algorithm for the extraction of simpler components from complex audio scenes based on an optimisation approach using a sound complexity measure derived from the spectral flatness measure. We yield good separation for artificial mixtures of three signals with time dependent mixing conditions.\n",
+    "",
+    "",
+    "Index Terms. source separation, spectral flatness measure\n",
+    ""
+   ]
+  },
+  "ozerov11b_chime": {
+   "authors": [
+    [
+     "Alexey",
+     "Ozerov"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ]
+   ],
+   "title": "Using the FASST source separation toolbox for noise robust speech recognition",
+   "original": "cm11_086",
+   "page_count": 2,
+   "order": 17,
+   "p1": "86",
+   "pn": "87",
+   "abstract": [
+    "We describe our submission to the 2011 CHiME Speech Separation and Recognition Challenge. Our speech separation algorithm was built using the Flexible Audio Source Separation Toolbox (FASST) we developed recently. This toolbox is an implementation of a general flexible framework based on a library of structured source models that enable the incorporation of prior knowledge about a source separation problem via userspecifiable constraints. We show how to use FASST to develop an efficient speech separation algorithm for the CHiME dataset. We also describe the acoustic model training and adaptation strategies we used for this submission. Altogether, as compared to the baseline system, we obtain an improvement of keyword recognition accuracies in all conditions. The best improvement of about 40%is achieved in the worst condition of -6 dB Signalto- Noise-Ratio (SNR), where 18 % of this improvement is due to the speech separation. The improvement decreases when the SNR increases. These results indicate that audio source separation can be very helpful to improve speech recognition in noisy or multi-source environments.\n",
+    "",
+    "",
+    "Index Terms. speech separation, source separation, general flexible framework, noise robust speech recognition\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Oral Sessions",
+   "papers": [
+    "hurmalainen11_chime",
+    "kolossa11_chime",
+    "delcroix11_chime",
+    "nesta11_chime",
+    "weninger11_chime",
+    "ozerov11_chime",
+    "heittola11_chime"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "maas11_chime",
+    "koldovsky11_chime",
+    "shibata11_chime",
+    "gemmeke11_chime",
+    "kallasjoki11_chime",
+    "comminiello11_chime",
+    "ma11_chime",
+    "vipperla11_chime",
+    "bardeli11_chime",
+    "ozerov11b_chime"
+   ]
+  }
+ ]
+}

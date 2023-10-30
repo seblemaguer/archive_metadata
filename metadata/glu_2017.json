@@ -1,0 +1,592 @@
+{
+ "title": "GLU 2017 International Workshop on Grounding Language Understanding",
+ "location": "Stockholm, Sweden",
+ "startDate": "25/8/2017",
+ "endDate": "25/8/2017",
+ "URL": "http://www.speech.kth.se/glu2017/",
+ "chair": "Chairs: Giampiero Salvi and Stéphane Dupont",
+ "ISBN": "978-91-639-4916-6",
+ "conf": "GLU",
+ "year": "2017",
+ "name": "glu_2017",
+ "series": "",
+ "SIG": "",
+ "title1": "GLU 2017 International Workshop on Grounding Language Understanding",
+ "date": "25 August 2017",
+ "booklet": "glu_2017.pdf",
+ "papers": {
+  "legenstein17_glu": {
+   "authors": [
+    [
+     "Robert",
+     "Legenstein"
+    ]
+   ],
+   "title": "Binding through assemblies in the human brain: Recent data and models",
+   "original": "abs1",
+   "page_count": 1,
+   "order": 1,
+   "p1": 1,
+   "pn": 1,
+   "abstract": [
+    "Recent experimental data has provided valuable insights into the representation of concepts and language in the human brain. Electrode recordings from the human brain suggest that concepts are represented in the medial temporal lobe (MTL) through sparse sets of neurons (assemblies). Further, fMRI recordings from the human brain suggest that specific subregions of the temporal cortex are dedicated to the representation of specific roles (e.g., subject or object) of concepts in a sentence or visually presented episode. We propose that quickly recruited assemblies of neurons in these subregions act as pointers to previously created assemblies that represent concepts. We refer to these pointers as assembly pointers. In this computational architecture, the thematic role of a word in a sentence or episode (e.g., agent or patient) is bound to a concrete filler (e.g., a word or concept) during language processing, an operation that has been termed variable binding. We provide a proof of principle that the resulting model for binding through assembly pointers can be implemented in networks of spiking neurons, and supports basic operations of brain computations, such as structured recall and the flexible handling of information.\n"
+   ]
+  },
+  "pastra17_glu": {
+   "authors": [
+    [
+     "Katerina",
+     "Pastra"
+    ]
+   ],
+   "title": "Recursion all the way: in Language, Action and Semantic Association",
+   "original": "abs2",
+   "page_count": 1,
+   "order": 2,
+   "p1": 2,
+   "pn": 2,
+   "abstract": [
+    "The phenomenon of recursion has been considered to be a unique characteristic of human language. However, increasing evidence in Neuroscience points to the fact that a fundamental syntactic mechanism is shared between language and action, both of which have a hieararchical and compositional organisation; Broca’s area has been suggested as the neural locus of this mechanism. In this talk, we will present the first formal specification of action with biological bases, the Minimalist Grammar of Action. The grammar allows the development of generative computational models for action in the motor and visuomotor space. Through the grammar, we present examples of recursion in the action space and how a generative action perception/execution system may account for the phenomenon. Furthemore, we go a step further, arguing that recursion is not a phenomenon that arises in the language or action space only; it is a phenomenon that lies in any ’syntactic’ activity, in any space that comprises ’merging’ of elements into more and more complex units. We present recursion in the Semantic Association space (Semantic Memory), through the PRAXICON, the first ever recursive and referential semantic network. We will demonstrate the importance of the network in generalisation and reasoning for a number of applications and discuss the interdisciplinary implications of our argument on recursion.\n"
+   ]
+  },
+  "dupoux17_glu": {
+   "authors": [
+    [
+     "Emmanuel",
+     "Dupoux"
+    ]
+   ],
+   "title": "Towards Autonomous Language Learning",
+   "original": "abs3",
+   "page_count": 1,
+   "order": 3,
+   "p1": 3,
+   "pn": 3,
+   "abstract": [
+    "Speech and language processing relies on massive amounts of annotations and textual resources to train acoustic and language models. This is not sustainable for the majority of the world’s language and prevent from addressing the full complexity and mutability of conversational speech. Yet, young children across all linguistic communities autonomously learn how to communicate in their native language(s) before they even know how to read and write. In this talk, we identify three roadblocks along the path of reverse engineering this ability: unsupervised structure discovery, multimodal contextual grounding, and data efficient learning. We review recent work conducted in these three areas and present a series of increasingly more difficult engineering challenges aimed at improving the technology and ultimately build fully autonomous text-free language processing systems.\n"
+   ]
+  },
+  "antunes17_glu": {
+   "authors": [
+    [
+     "Alexandre",
+     "Antunes"
+    ],
+    [
+     "Gabriella",
+     "Pizzuto"
+    ],
+    [
+     "Angelo",
+     "Cangelosi"
+    ]
+   ],
+   "title": "Communication with Speech and Gestures: Applications of Recurrent Neural Networks to Robot Language Learning",
+   "original": "1",
+   "page_count": 4,
+   "order": 4,
+   "p1": 4,
+   "pn": 7,
+   "abstract": [
+    "Recurrent neural networks have recently shown significant potential in different language applications, ranging from natural language processing to language modelling. This paper introduces a research effort to use such networks to develop and evaluate natural language acquisition on a humanoid robot. Here, the problem is twofold. First, the focus will be put on using the gesture-word combination stage observed in infants to transition from single to multi-word utterances. Secondly, research will be carried out in the domain of connecting action learning with language learning. In the former, the long-short term memory architecture will be implemented, whilst in the latter multiple time-scale recurrent neural networks will be used. This will allow for comparison between the two architectures, whilst highlighting the strengths and shortcomings of both with respect to the language learning problem. Here, the main research efforts, challenges and expected outcomes are described.\n"
+   ],
+   "doi": "10.21437/GLU.2017-1"
+  },
+  "kumar17_glu": {
+   "authors": [
+    [
+     "Ashwini Jaya",
+     "Kumar"
+    ],
+    [
+     "Sören",
+     "Auer"
+    ],
+    [
+     "Christoph",
+     "Schmidt"
+    ],
+    [
+     "Joachim",
+     "Köhler"
+    ]
+   ],
+   "title": "Towards a Knowledge Graph based Speech Interface",
+   "original": "2",
+   "page_count": 5,
+   "order": 5,
+   "p1": 8,
+   "pn": 12,
+   "abstract": [
+    "Applications which use human speech as an input require a speech interface with high recognition accuracy. The words or phrases in the recognized text are annotated with a machine-understandable meaning and linked to knowledge graphs for further processing by the target application. This type of knowledge representation facilitates to use speech interfaces with any spoken input application, since the information is represented in logical, semantic form., retrieving and storing can be followed using any web standard query languages. In this work, we develop a methodology for linking speech input to knowledge graphs. We show that for a corpus with lower WER, the annotation and linking of entities to the DBpedia knowledge graph is considerable. DBpedia Spotlight, a tool to interlink text documents with the linked open data is used to link the speech recognition output to the DBpedia knowledge graph. Such a knowledge-based speech recognition interface is useful for applications such as question answering or spoken dialog systems.\n"
+   ],
+   "doi": "10.21437/GLU.2017-2"
+  },
+  "antanas17_glu": {
+   "authors": [
+    [
+     "Laura",
+     "Antanas"
+    ],
+    [
+     "Jesse",
+     "Davis"
+    ],
+    [
+     "Luc",
+     "De Raedt"
+    ],
+    [
+     "Amy",
+     "Loutfi"
+    ],
+    [
+     "Andreas",
+     "Persson"
+    ],
+    [
+     "Alessandro",
+     "Saffiotti"
+    ],
+    [
+     "Deniz",
+     "Yuret"
+    ],
+    [
+     "Ozan Arkan",
+     "Can"
+    ],
+    [
+     "Emre",
+     "Unal"
+    ],
+    [
+     "Pedro",
+     "Zuidberg Dos Martires"
+    ]
+   ],
+   "title": "Relational Symbol Grounding through Affordance Learning: An Overview of the ReGround Project",
+   "original": "3",
+   "page_count": 5,
+   "order": 6,
+   "p1": 13,
+   "pn": 17,
+   "abstract": [
+    "Symbol grounding is the problem of associating symbols from language with a corresponding referent in the environment. Traditionally, research has focused on identifying single objects and their properties. The ReGround project hypothesizes that the grounding process must consider the full context of the environment, including multiple objects, their properties, and relationships among these objects. ReGround targets the development of a novel framework for “affordance grounding”, by which an agent placed in a new environment can adapt to its new setting and interpret possibly multi-modal input in order to correctly carry out the requested tasks.\n"
+   ],
+   "doi": "10.21437/GLU.2017-3"
+  },
+  "abuzhaya17_glu": {
+   "authors": [
+    [
+     "Rana",
+     "Abu-Zhaya"
+    ],
+    [
+     "Amanda",
+     "Seidl"
+    ],
+    [
+     "Ruth",
+     "Tincoff"
+    ],
+    [
+     "Alejandrina",
+     "Cristia"
+    ]
+   ],
+   "title": "Building a Multimodal Lexicon: Lessons from Infants' Learning of Body Part Words",
+   "original": "4",
+   "page_count": 4,
+   "order": 7,
+   "p1": 18,
+   "pn": 21,
+   "abstract": [
+    "Human children outperform artificial learners because the former quickly acquire a multimodal, syntactically informed, and ever-growing lexicon with little evidence. Most of this lexicon is unlabelled and processed with unsupervised mechanisms, leading to robust and generalizable knowledge. In this paper, we summarize results related to 4-month-olds’ learning of body part words. In addition to providing direct experimental evidence on some of the Workshop’s assumptions, we suggest several avenues of research that may be useful to those developing and testing artificial learners. A first set of studies using a controlled laboratory learning paradigm shows that human infants learn better from tactile-speech than visual-speech co-occurrences, suggesting that the signal/modality should be considered when designing and exploiting multimodal learning tasks. A series of observational studies document the ways in which parents naturally structure the multimodal information they provide for infants, which probably happens in lexically specific ways. Finally, our results suggest that 4-month-olds can pick up on co-occurrences between words and specific touch locations (a prerequisite of learning an association between a body part word and the referent on the child’s own body) after very brief exposures, which we interpret as most compatible with unsupervised predictive models of learning.\n"
+   ],
+   "doi": "10.21437/GLU.2017-4"
+  },
+  "kumardhaka17_glu": {
+   "authors": [
+    [
+     "Akash",
+     "Kumar Dhaka"
+    ],
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Sparse Autoencoder Based Semi-Supervised Learning for Phone Classification with Limited Annotations",
+   "original": "5",
+   "page_count": 5,
+   "order": 8,
+   "p1": 22,
+   "pn": 26,
+   "abstract": [
+    "We propose the application of a semi-supervised learning method to improve the performance of acoustic modelling for automatic speech recognition with limited linguistically annotated material. Our method combines sparse autoencoders with feed-forward networks, thus taking advantage of both unlabelled and labelled data simultaneously through mini-batch stochastic gradient descent. We tested the method with varying proportions of labelled vs unlabelled observations in frame-based phoneme classification on the TIMIT database. Our experiments show that the method outperforms standard supervised models of similar complexity for an equal amount of labelled data and provides competitive error rates compared to state-of-the-art graph-based semi-supervised learning techniques.\n"
+   ],
+   "doi": "10.21437/GLU.2017-5"
+  },
+  "fahlstrommyrman17_glu": {
+   "authors": [
+    [
+     "Arvid",
+     "Fahlström Myrman"
+    ],
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Partitioning of Posteriorgrams Using Siamese Models for Unsupervised Acoustic Modelling",
+   "original": "6",
+   "page_count": 5,
+   "order": 9,
+   "p1": 27,
+   "pn": 31,
+   "abstract": [
+    "Unsupervised methods tend to discover highly speaker-specific representations of speech. We propose a method for improving the quality of posteriorgrams generated from an unsupervised model through partitioning of the latent classes. We do this by training a sparse siamese model to find a linear transformation of the input posteriorgrams to lower-dimensional posteriorgrams. The siamese model makes use of same-category and different-category speech fragment pairs obtained by unsupervised term discovery. After training, the model is converted into an exact partitioning of the posteriorgrams. We evaluate the model on the minimal-pair ABX task in the context of the Zero Resource Speech Challenge. We are able to demonstrate that our method significantly reduces the dimensionality of standard Gaussian mixture model posteriorgrams, while still making them more robust to speaker variations. This suggests that the model may be viable as a general post-processing step to improve probabilistic acoustic features obtained by unsupervised learning.\n"
+   ],
+   "doi": "10.21437/GLU.2017-6"
+  },
+  "ijuin17_glu": {
+   "authors": [
+    [
+     "Koki",
+     "Ijuin"
+    ],
+    [
+     "Takato",
+     "Yamashita"
+    ],
+    [
+     "Tsuneo",
+     "Kato"
+    ],
+    [
+     "Seiichi",
+     "Yamamoto"
+    ]
+   ],
+   "title": "Comparison of Effect of Speaker's Eye Gaze on Selection of Next Speaker between Native- and Second-Language Conversations",
+   "original": "7",
+   "page_count": 5,
+   "order": 10,
+   "p1": 32,
+   "pn": 36,
+   "abstract": [
+    "In face-to-face communication, eye gaze is known to play various roles such as managing the attention of interlocutors, expressing intimacy, exercising social control, highlighting particular speech content and coordinating floor apportionment. In second language (L2) communication, one’s perception of eye gaze is expected to have more importance than in native language (L1) because eye gaze can be used to partially compensate for the deficiencies of verbal expressions. This paper examines the efficiency of eye gaze for floor apportionment through quantitative analyses of eye gaze during three-party conversations in L1 and L2. The authors analyze the average ratios at which the participant to whom the speaker gazes takes the floor according to the duration of pauses between two consecutive utterances. The analysis results show that this ratio decreases as the duration of a pause becomes longer in L1 conversations, whereas the gazed-at participant often takes the floor even after a longer duration of pause in L2 conversations. This suggests that the effect of the speaker’s eye gaze decreased when the duration of pause was prolonged in L1 conversations, whereas this effect was maintained in L2 conversations.\n"
+   ],
+   "doi": "10.21437/GLU.2017-7"
+  },
+  "rasanen17_glu": {
+   "authors": [
+    [
+     "Okko",
+     "Räsänen"
+    ]
+   ],
+   "title": "Language is Not About Language: Towards Formalizing the Role of Extra-Linguistic Factors in Human and Machine Language Acquisition and Communication",
+   "original": "8",
+   "page_count": 5,
+   "order": 11,
+   "p1": 37,
+   "pn": 41,
+   "abstract": [
+    "Despite the large research efforts in understanding early language acquisition (LA), it is still unclear how young children learn to transform their noisy and ambiguous auditory experience into a symbolic compositional representational\nsystem known as language. This paper argues that a major obstacle towards a more comprehensive picture of LA is the lack of a unified conceptual framework that would capture the full extent of factors critical to language learning in real world contexts, and that we should pursue such a framework in order to be able to place individual behavioral studies and computational models into a mutually compatible context. As an example of the issue, the widely used standard model of the speech chain—a description of the information flow from talker’s idea to listener’s interpretation of the meaning of the spoken message—is shown to be insufficient for characterizing learning and communication in natural contexts. Instead, a realistic model should account for the inherent multimodality and contextual dependency of communication and learning by formally acknowledging the role of a shared communicative context, interlocutors’ subjective representations of the shared situation, and how these factors drive message generation and speech perception in order to acquire information on the external world. By understanding how language is connected to the more generic sensorimotor and predictive processing principles of human cognition, we can also start to understand the core forces driving language learning in natural environments and through varying individual developmental trajectories.\n"
+   ],
+   "doi": "10.21437/GLU.2017-8"
+  },
+  "havard17_glu": {
+   "authors": [
+    [
+     "William",
+     "Havard"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Olivier",
+     "Rosec"
+    ]
+   ],
+   "title": "SPEECH-COCO: 600k Visually Grounded Spoken Captions Aligned to MSCOCO Data Set",
+   "original": "9",
+   "page_count": 5,
+   "order": 12,
+   "p1": 42,
+   "pn": 46,
+   "abstract": [
+    "This paper presents an augmentation of MSCOCO dataset where speech is added to image and text. Speech captions are generated using text-to-speech (TTS) synthesis resulting in 616,767 spoken captions (more than 600h) paired with images. Disfluencies and speed perturbation are added to the signal in order to sound more natural. Each speech signal (WAV) is paired with a JSON file containing exact timecode for each word/syllable/phoneme in the spoken caption. Such a corpus could be used for Language and Vision (LaVi) tasks including speech input or output instead of text. Investigating multimodal learning schemes for unsupervised speech pattern discovery is also possible with this corpus, as demonstrated by a preliminary study conducted on a subset of the corpus (10h, 10k spoken captions).\n"
+   ],
+   "doi": "10.21437/GLU.2017-9"
+  },
+  "stefanov17_glu": {
+   "authors": [
+    [
+     "Kalin",
+     "Stefanov"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Vision-based Active Speaker Detection in Multiparty Interaction",
+   "original": "10",
+   "page_count": 5,
+   "order": 13,
+   "p1": 47,
+   "pn": 51,
+   "abstract": [
+    "This paper presents a supervised learning method for automatic visual detection of the active speaker in multiparty interactions. The presented detectors are built using a multimodal multiparty interaction dataset previously recorded with the purpose to explore patterns in the focus of visual attention of humans. Three different conditions are included: two humans involved in task-based interaction with a robot; the same two humans involved in task-based interaction where the robot is replaced by a third human, and a free three-party human interaction. The paper also presents an evaluation of the active speaker detection method in a speaker dependent experiment showing that the method achieves good accuracy rates in a fairly unconstrained scenario using only image data as input. The main goal of the presented method is to provide real-time detection of the active speaker within a broader framework implemented on a robot and used to generate natural focus of visual attention behavior during multiparty human-robot interactions.\n"
+   ],
+   "doi": "10.21437/GLU.2017-10"
+  },
+  "silbervarod17_glu": {
+   "authors": [
+    [
+     "Vered",
+     "Silber-Varod"
+    ],
+    [
+     "Anat",
+     "Lerner"
+    ],
+    [
+     "Oliver",
+     "Jokisch"
+    ]
+   ],
+   "title": "Automatic Speaker's Role Classification With a Bottom-up Acoustic Feature Selection",
+   "original": "11",
+   "page_count": 5,
+   "order": 14,
+   "p1": 52,
+   "pn": 56,
+   "abstract": [
+    "The objective of the current study is to automatically identify the role played by the speaker in a dialogue. By using machine learning procedures over acoustic feature, we wish to automatically trace the footprints of this information through the speech signal. The acoustic feature set was selected from a large statistic-based feature sets including 1,583 dimension features. The analysis is carried out on interactive dialogues of a Map Task setting. The paper first describes the methodology of choosing the 100 most effective attributes among the 1,583 features that were extracted, and then presents the classification results test of the same speaker in two different roles, and a gender-based classification. Results show an average of a 71% classification rate of the role the same speaker played, 65% for all women together and 65% for all men together.\n"
+   ],
+   "doi": "10.21437/GLU.2017-11"
+  },
+  "drexler17_glu": {
+   "authors": [
+    [
+     "Jennifer",
+     "Drexler"
+    ],
+    [
+     "James",
+     "Glass"
+    ]
+   ],
+   "title": "Analysis of Audio-Visual Features for Unsupervised Speech Recognition",
+   "original": "12",
+   "page_count": 5,
+   "order": 15,
+   "p1": 57,
+   "pn": 61,
+   "abstract": [
+    "Research on “zero resource” speech processing focuses on learning linguistic information from unannotated, or raw, speech data, in order to bypass the expensive annotations required by current speech recognition systems. While most recent zero-resource work has made use of only speech recordings, here, we investigate the use of visual information as a source of weak supervision, to see whether grounding speech in a visual context can provide additional benefit for language learning. Specifically, we use a dataset of paired images and audio captions to supervise learning of low-level speech features that can be used for further “unsupervised” processing of any speech data. We analyze these features and evaluate their performance on the Zero Resource Challenge 2015 evaluation metrics, as well as standard keyword spotting and speech recognition tasks. We show that features generated with a joint audio-visual model contain more discriminative linguistic information and are less speaker-dependent than traditional speech features. Our results show that visual grounding can improve speech representations for a variety of zero-resource tasks.\n"
+   ],
+   "doi": "10.21437/GLU.2017-12"
+  },
+  "delbrouck17_glu": {
+   "authors": [
+    [
+     "Jean-Benoit",
+     "Delbrouck"
+    ],
+    [
+     "Stéphane",
+     "Dupont"
+    ],
+    [
+     "Omar",
+     "Seddati"
+    ]
+   ],
+   "title": "Visually Grounded Word Embeddings and Richer Visual Features for Improving Multimodal Neural Machine Translation",
+   "original": "13",
+   "page_count": 6,
+   "order": 16,
+   "p1": 62,
+   "pn": 67,
+   "abstract": [
+    "In Multimodal Neural Machine Translation (MNMT), a neural model generates a translated sentence that describes an image, given the image itself and one source descriptions in English. This is considered as the multimodal image caption translation task. The images are processed with Convolutional Neural Network (CNN) to extract visual features exploitable by the translation model. So far, the CNNs used are pre-trained on object detection and localization task. We hypothesize that richer architecture, such as dense captioning models, may be more suitable for MNMT and could lead to improved translations. We extend this intuition to the word-embeddings, where we compute both linguistic and visual representation for our corpus vocabulary. We combine and compare different configurations and show state-of-the-art results according to previous work.\n"
+   ],
+   "doi": "10.21437/GLU.2017-13"
+  },
+  "brodeur17_glu": {
+   "authors": [
+    [
+     "Simon",
+     "Brodeur"
+    ],
+    [
+     "Luca",
+     "Celotti"
+    ],
+    [
+     "Jean",
+     "Rouat"
+    ]
+   ],
+   "title": "Proposal of a Generative Model of Event-based Representations for Grounded Language Understanding",
+   "original": "14",
+   "page_count": 5,
+   "order": 17,
+   "p1": 68,
+   "pn": 72,
+   "abstract": [
+    "Grounding is the problem of correspondence between the symbolic concepts of language and the physical environment. The research direction that we propose to tackle language acquisition and grounding is based on multimodal event-based representations and probabilistic generative modeling. First, we establish a new multimodal dataset recorded from a mobile robot and describe how such multimodal signals can be efficiently encoded into compact, event-based representations using sparse coding. We highlight how they could be better suited to ground concepts. We then describe a generative probabilistic model based on those event-based representations. We discuss possible applications of this probabilistic framework in the context of a cognitive agent, such as detecting novelty at the inputs or reasoning by building internal simulations of the environment. While this work is still in progress, this could open new perspectives on how representational learning can play a key role in the ability to map structures of the multimodal scene to language.\n"
+   ],
+   "doi": "10.21437/GLU.2017-14"
+  },
+  "azagra17_glu": {
+   "authors": [
+    [
+     "Pablo",
+     "Azagra"
+    ],
+    [
+     "Javier",
+     "Civera"
+    ],
+    [
+     "Ana C.",
+     "Murillo"
+    ]
+   ],
+   "title": "Finding Regions of Interest from Multimodal Human-Robot Interactions",
+   "original": "15",
+   "page_count": 5,
+   "order": 18,
+   "p1": 73,
+   "pn": 77,
+   "abstract": [
+    "Learning new concepts, such as object models, from humanrobot interactions entails different recognition capabilities on a robotic platform. This work proposes a hierarchical approach to address the extra challenges from natural interaction scenarios by exploiting multimodal data. First, a speech-guided recognition of the type of interaction happening is presented. This first step facilitates the following segmentation of relevant visual information to learn the target object model. Our approach includes three complementary strategies to find Regions of Interest (RoI) depending on the interaction type: Point, Show or Speak. We run an exhaustive validation of the proposed strategies using the recently published Multimodal Human-Robot Interaction dataset [1]. The currently presented pipeline is built on the pipeline proposed with the dataset and provides a more complete baseline for target object segmentation on all its recordings.\n"
+   ],
+   "doi": "10.21437/GLU.2017-15"
+  },
+  "shore17_glu": {
+   "authors": [
+    [
+     "Todd",
+     "Shore"
+    ],
+    [
+     "Gabriel",
+     "Skantze"
+    ]
+   ],
+   "title": "Enhancing Reference Resolution in Dialogue Using Participant Feedback",
+   "original": "16",
+   "page_count": 5,
+   "order": 19,
+   "p1": 78,
+   "pn": 82,
+   "abstract": [
+    "Expressions used to refer to entities in a common environment do not originate solely from one participant in a dialogue but are formed collaboratively. It is possible to train a model for resolving these referring expressions (REs) in a static manner using an appropriate corpus, but, due to the collaborative nature of their formation, REs are highly dependent not only on attributes of the referent in question (e.g. color, shape) but also on the dialogue participants themselves. As a proof of concept, we improved the accuracy of a words-as-classifiers logistic regression model by incorporating knowledge about accepting/rejecting REs proposed from other participants.\n"
+   ],
+   "doi": "10.21437/GLU.2017-16"
+  },
+  "saponaro17_glu": {
+   "authors": [
+    [
+     "Giovanni",
+     "Saponaro"
+    ],
+    [
+     "Lorenzo",
+     "Jamone"
+    ],
+    [
+     "Alexandre",
+     "Bernardino"
+    ],
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Interactive Robot Learning of Gestures, Language and Affordances",
+   "original": "17",
+   "page_count": 5,
+   "order": 20,
+   "p1": 83,
+   "pn": 87,
+   "abstract": [
+    "A growing field in robotics and Artificial Intelligence (AI) research is human–robot collaboration, whose target is to enable effective teamwork between humans and robots. However, in many situations human teams are still superior to human–robot teams, primarily because human teams can easily agree on a common goal with language, and the individual members observe each other effectively, leveraging their shared motor repertoire and sensorimotor resources. This paper shows that for cognitive robots it is possible, and indeed fruitful, to combine knowledge acquired from interacting with elements of the environment (affordance exploration) with the probabilistic observation of another agent’s actions. We propose a model that unites (i) learning robot affordances and word descriptions with (ii) statistical recognition of human gestures with vision sensors. We discuss theoretical motivations, possible implementations, and we show initial results which highlight that, after having acquired knowledge of its surrounding environment, a humanoid robot can generalize this knowledge to the case when it observes another agent (human partner) performing the same motor actions previously executed during training.\n"
+   ],
+   "doi": "10.21437/GLU.2017-17"
+  },
+  "hough17_glu": {
+   "authors": [
+    [
+     "Julian",
+     "Hough"
+    ],
+    [
+     "Sina",
+     "Zarriess"
+    ],
+    [
+     "David",
+     "Schlangen"
+    ]
+   ],
+   "title": "Grounding Imperatives to Actions is Not Enough: A Challenge for Grounded NLU for Robots from Human-Human data",
+   "original": "18",
+   "page_count": 4,
+   "order": 21,
+   "p1": 88,
+   "pn": 91,
+   "abstract": [
+    "We present a proposal for a Natural Language Understanding method for simple pick-and-place robots which maps utterances to different levels in an action hierarchy. The hierarchy is a graph containing both lower-level action and higher-level goal levels. This attempts to overcome the surprising lack of overt imperative verb forms in natural task-oriented dialogue, which we show to be the case statistically in a human-human corpus. This proposal shifts the task away from mapping utterances to either actions or goals exclusively, and instead allows flexible mapping to both actions and goals during the interaction. We also show how a continuous communicative grounding mechanism is vital for achieving fluid interaction and show how confirmations and repairs can refer to both the goal and action levels, and that reliance on these overt signals of understanding alone is inadequate for a natural model.\n"
+   ],
+   "doi": "10.21437/GLU.2017-18"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynotes",
+   "papers": [
+    "legenstein17_glu",
+    "pastra17_glu",
+    "dupoux17_glu"
+   ]
+  },
+  {
+   "title": "Regular papers",
+   "papers": [
+    "antunes17_glu",
+    "kumar17_glu",
+    "antanas17_glu",
+    "abuzhaya17_glu",
+    "kumardhaka17_glu",
+    "fahlstrommyrman17_glu",
+    "ijuin17_glu",
+    "rasanen17_glu",
+    "havard17_glu",
+    "stefanov17_glu",
+    "silbervarod17_glu",
+    "drexler17_glu",
+    "delbrouck17_glu",
+    "brodeur17_glu",
+    "azagra17_glu",
+    "shore17_glu",
+    "saponaro17_glu",
+    "hough17_glu"
+   ]
+  }
+ ],
+ "doi": "10.21437/GLU.2017"
+}

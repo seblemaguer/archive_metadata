@@ -1,0 +1,574 @@
+{
+ "series": "",
+ "title": "2021 Edition of the Automatic Speaker Verification and Spoofing Countermeasures Challenge",
+ "location": "Online",
+ "startDate": "16/09/2021",
+ "endDate": "16/09/2021",
+ "URL": "https://www.asvspoof.org/",
+ "conf": "ASVSPOOF",
+ "year": "2021",
+ "name": "asvspoof_2021",
+ "SIG": "",
+ "title1": "2021 Edition of the Automatic Speaker Verification and Spoofing Countermeasures Challenge",
+ "date": "16 September 2021",
+ "booklet": "asvspoof_2021.pdf",
+ "papers": {
+  "tak21_asvspoof": {
+   "authors": [
+    [
+     "Hemlata",
+     "Tak"
+    ],
+    [
+     "Jee-weon",
+     "Jung"
+    ],
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Madhu",
+     "Kamble"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "End-to-end spectro-temporal graph attention networks for speaker verification anti-spoofing and speech deepfake detection",
+   "original": "ASVSPOOF_S_1-1",
+   "page_count": 8,
+   "order": 1,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "Artefacts that serve to distinguish bona fide speech from spoofed or deepfake speech are known to reside in specific sub-bands and/or temporal segments. Various approaches can be used to capture and model such artefacts, however, none works well across a spectrum of diverse spoofing attacks, implying that reliable detection depends upon the fusion of multiple detection systems, each tuned to detect different forms of attack. In this paper we show that better performance can be achieved when the fusion is performed within the model itself and when the representation is learned automatically from raw waveform inputs. The principal contribution is a spectro-temporal graph attention network (GAT) which learns the relationship between cues spanning different sub-bands and temporal intervals. Using a model-level graph fusion of spectral (S) and temporal (T) sub-graphs and a graph pooling strategy to improve discrimination, the proposed RawGAT-ST model achieves an equal error rate of 1.06 % for the ASVspoof 2019 logical access database. This is one of the best results reported to date and is reproducible using an open source implementation."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-1"
+  },
+  "zhang21_asvspoof": {
+   "authors": [
+    [
+     "Lin",
+     "Zhang"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Erica",
+     "Cooper"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Multi-task Learning in Utterance-level and Segmental-level Spoof Detection",
+   "original": "ASVSPOOF_S_1-2",
+   "page_count": 7,
+   "order": 2,
+   "p1": 9,
+   "pn": 15,
+   "abstract": [
+    "In this paper, we provide a series of multi-tasking benchmarks for simultaneously detecting spoofing at the segmental and utterance levels in the PartialSpoof database. First, we propose the SELCNN network, which inserts squeeze-and-excitation (SE) blocks into a light convolutional neural network (LCNN) to enhance the capacity of hidden feature selection. Then, we implement multi-task learning (MTL) frameworks with SELCNN followed by bidirectional long short-term memory (Bi-LSTM) as the basic model. We discuss MTL in PartialSpoof in terms of architecture (uni-branch/multi-branch) and training strategies (from-scratch/warm-up) step-by-step. Experiments show that the multi-task model performs better than single-task models. Also, in MTL, binary-branch architecture more adequately utilizes information from two levels than a uni-branch model. For the binary-branch architecture, fine-tuning a warm-up model works better than training from scratch. Models can handle both segment-level and utterance-level predictions simultaneously overall under binary-branch multi-task architecture. Furthermore, the multi-task model trained by fine-tuning a segmental warm-up model performs relatively better at both levels except on the evaluation set for segmental detection. Segmental detection should be explored further."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-2"
+  },
+  "wang21_asvspoof": {
+   "authors": [
+    [
+     "Xingming",
+     "Wang"
+    ],
+    [
+     "Xiaoyi",
+     "Qin"
+    ],
+    [
+     "Tinglong",
+     "Zhu"
+    ],
+    [
+     "Chao",
+     "Wang"
+    ],
+    [
+     "Shilei",
+     "Zhang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "The DKU-CMRI System for the ASVspoof 2021 Challenge: Vocoder based Replay Channel Response Estimation",
+   "original": "ASVSPOOF_S_1-3",
+   "page_count": 6,
+   "order": 3,
+   "p1": 16,
+   "pn": 21,
+   "abstract": [
+    "This paper describes our submitted DKU-CMRI system for the ASVspoof2021 challenge. For the PA task, assuming that the vocoder can partially eliminate the replay channel information, we used the difference between the vocoder filtered audio and the original audio as the input feature and adopt multiple outlier detection models as the backend classifier. In addition, the pyroomacoustic toolkit and speed perturbation are applied to enhance the system performance. For the LA task, we adopt the Opus codec and the SoX toolkit to augment the training data, and RawNet2 and LFCC-LCNN models are utilized to determine the spoof/bona fide audio. In the evaluation phase, the proposed methods achieve 0.6824 min t-DCF and 24.25% EER on the PA task, and 0.3310 min t-DCF and 8.23% EER on the LA task, respectively. Experimental results demonstrate the strong robustness and generalization ability of our submitted system for the PA task."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-3"
+  },
+  "ge21_asvspoof": {
+   "authors": [
+    [
+     "Wanying",
+     "Ge"
+    ],
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Raw Differentiable Architecture Search for Speech Deepfake and Spoofing Detection",
+   "original": "ASVSPOOF_S_2-1",
+   "page_count": 7,
+   "order": 4,
+   "p1": 22,
+   "pn": 28,
+   "abstract": [
+    "End-to-end approaches to anti-spoofing, especially those which operate directly upon the raw signal, are starting to be competitive with their more traditional counterparts. Until recently, all such approaches consider only the learning of network parameters; the network architecture is still hand crafted. This too, however, can also be learned. Described in this paper is our attempt to learn automatically the network architecture of a speech deepfake and spoofing detection solution, while jointly optimising other network components and parameters, such as the first convolutional layer which operates on raw signal inputs. The resulting raw differentiable architecture search system delivers a tandem detection cost function score of 0.0517 for the ASVspoof 2019 logical access database, a result which is among the best single-system results reported to date."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-4"
+  },
+  "das21_asvspoof": {
+   "authors": [
+    [
+     "Rohan Kumar",
+     "Das"
+    ]
+   ],
+   "title": "Known-unknown Data Augmentation Strategies for Detection of Logical Access, Physical Access and Speech Deepfake Attacks: ASVspoof 2021",
+   "original": "ASVSPOOF_S_2-2",
+   "page_count": 8,
+   "order": 5,
+   "p1": 29,
+   "pn": 36,
+   "abstract": [
+    "The rise in demand of voice biometric systems also increases the threat from various kinds of spoofing attacks from unauthorized users. The latest ASVspoof 2021 challenge devotes to promote such research with very recent kinds of attacks based on logical access, physical access and speech deepfakes. In this work, we consider a few data augmentation methods to have a robust spoofing countermeasure based on the known information from the challenge evaluation protocol and with some unknown approaches that can be useful for each of the three tracks. The data augmentation strategies are carried over considering constant-Q transform based log power spectrum features with a light convolutional neural network framework. The studies show that our system benefits extensively with various known and unknown data augmentation methods and the result for each track outperforms the challenge baselines on the progress phase. We also carried out score level fusion of our systems with the challenge baselines that contributed to further enhance the performance to become one of the top performing systems on evaluation phase of ASVspoof 2021 challenge."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-5"
+  },
+  "yoon21_asvspoof": {
+   "authors": [
+    [
+     "Sunghyun",
+     "Yoon"
+    ],
+    [
+     "Ha-Jin",
+     "Yu"
+    ]
+   ],
+   "title": "Multiple-Point Input and Time-Inverted Speech Signal for The ASVspoof 2021 Challenge",
+   "original": "ASVSPOOF_S_2-3",
+   "page_count": 5,
+   "order": 6,
+   "p1": 37,
+   "pn": 41,
+   "abstract": [
+    "This paper describes the replay attack detection system we submitted to the ASVspoof 2021 challenge. We used two approaches to build the system: 1) multiple-point input for convolutional neural networks (CNNs) and 2) using the phase spectrum of the time-inverted speech signal. Using multiple-point input improves detection accuracy by increasing the amount of information available at a single time. Combining the phase spectra of the original signal and the time-inverted signal reduces the within-class variance, resulting in higher detection accuracy. For each method, we built several subsystems using four kinds of CNN-based networks and five kinds of the combination methods. The final system we submitted was obtained by averaging the scores of all the subsystems. We achieved a min t-DCF of 0.7648 and an EER of 29.55% in the evaluation trials of ASVspoof 2021 physical access scenario."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-6"
+  },
+  "lei21_asvspoof": {
+   "authors": [
+    [
+     "Yuan",
+     "Lei"
+    ],
+    [
+     "Xiao",
+     "Huo"
+    ],
+    [
+     "Yuzong",
+     "Jiao"
+    ],
+    [
+     "Yiu Kei",
+     "Li"
+    ]
+   ],
+   "title": "Deep Metric Learning for Replay Attack Detection",
+   "original": "ASVSPOOF_S_2-4",
+   "page_count": 5,
+   "order": 7,
+   "p1": 42,
+   "pn": 46,
+   "abstract": [
+    "We present our countermeasure system submitted to the ASVspoof 2021 Challenge Physical Access (PA) task. The objective for this challenge is to develop an anti-spoofing technology that identifies speech as either bonafide or intercepted and replayed. Our system uses squeeze-excitation residual networks trained by metric learning method to learn effective representations that have small intra-class distance and large inter-class distance. Post processing methods are explored including linear transformation and template matching to discriminate between bonafide and spoofed utterances. We also conduct experiments on effectiveness of different embedding vector sizes in detecting spooﬁng attacks. We demonstrate that models trained with metric learning method show competitive performance compared with baseline systems. On ASVspoof 2019 development and evaluation dataset, our system improves the min t-DCF scores of baseline algorithms by 54% and 47%, respectively. And on ASVspoof 2021 evaluation dataset, the system achieves a min t-DCF score of 0.8879, which is also better than baseline systems."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-7"
+  },
+  "yamagishi21_asvspoof": {
+   "authors": [
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ]
+   ],
+   "title": "ASVspoof 2021: accelerating progress in spoofed and deepfake speech detection",
+   "original": "ASVSPOOF_S_3-1",
+   "page_count": 8,
+   "order": 8,
+   "p1": 47,
+   "pn": 54,
+   "abstract": [
+    "ASVspoof 2021 is the forth edition in the series of bi-annual challenges which aim to promote the study of spoofing and the design of countermeasures to protect automatic speaker verification systems from manipulation. In addition to a continued focus upon logical and physical access tasks in which there are a number of advances compared to previous editions, ASVspoof 2021 introduces a new task involving deepfake speech detection. This paper describes all three tasks, the new databases for each of them, the evaluation metrics, four challenge baselines, the evaluation platform and a summary of challenge results. Despite the introduction of channel and compression variability which compound the difficulty, results for the logical access and deepfake tasks are close to those from previous ASVspoof editions. Results for the physical access task show the difficulty in detecting attacks in real, variable physical spaces. With ASVspoof 2021 being the first edition for which participants were not provided with any matched training or development data and with this reflecting real conditions in which the nature of spoofed and deepfake speech can never be predicated with confidence, the results are extremely encouraging and demonstrate the substantial progress made in the field in recent years."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-8"
+  },
+  "muller21_asvspoof": {
+   "authors": [
+    [
+     "Nicolas",
+     "Müller"
+    ],
+    [
+     "Franziska",
+     "Dieckmann"
+    ],
+    [
+     "Pavel",
+     "Czempin"
+    ],
+    [
+     "Roman",
+     "Canals"
+    ],
+    [
+     "Konstantin",
+     "Böttinger"
+    ],
+    [
+     "Jennifer",
+     "Williams"
+    ]
+   ],
+   "title": "Speech is Silver, Silence is Golden: What do ASVspoof-trained Models Really Learn?",
+   "original": "ASVSPOOF_S_4-1",
+   "page_count": 6,
+   "order": 9,
+   "p1": 55,
+   "pn": 60,
+   "abstract": [
+    "We present our analysis of a significant data artifact in the official 2019/2021 ASVspoof Challenge Dataset. We identify an uneven distribution of silence duration in the training and test splits, which tends to correlate with the target prediction label. Bonafide instances tend to have significantly longer leading and trailing silences than spoofed instances. \n",
+    "In this paper, we explore this phenomenon and its impact in depth. We compare several types of models trained on a) only the duration of the leading silence and b) only on the duration of leading and trailing silence. Results show that models trained on only the duration of the leading silence perform particularly well, and achieve up to 85% percent accuracy and an equal error rate (EER) of 0.15 (scale between 0 and 1). At the same time, we observe that trimming silence during pre-processing and then training established antispoofing models using signal-based features leads to comparatively worse performance. In that case, EER increases from 0.03 (with silence) to 0.15 (trimmed silence). Our findings suggest that previous work may, in part, have inadvertently learned thespoof/bonafide distinction by relying on the duration of silence as it appears in the official challenge dataset. We discuss the potential consequences that this has for interpreting system scores in the challenge and discuss how the ASV community may further consider this issue.\n"
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-9"
+  },
+  "tomilov21_asvspoof": {
+   "authors": [
+    [
+     "Anton",
+     "Tomilov"
+    ],
+    [
+     "Aleksei",
+     "Svishchev"
+    ],
+    [
+     "Marina",
+     "Volkova"
+    ],
+    [
+     "Artem",
+     "Chirkovskiy"
+    ],
+    [
+     "Alexander",
+     "Kondratev"
+    ],
+    [
+     "Galina",
+     "Lavrentyeva"
+    ]
+   ],
+   "title": "STC Antispoofing Systems for the ASVspoof2021 Challenge",
+   "original": "ASVSPOOF_S_4-2",
+   "page_count": 7,
+   "order": 10,
+   "p1": 61,
+   "pn": 67,
+   "abstract": [
+    "This paper describes Speech Technology Center (STC) anti-spoofing systems submitted to the ASVspoof 2021 challenge in three tracks: logical access (LA), physical access (PA) and new deep-fake (DF) tracks.\\ Proposed solutions in all three tracks were a weighted score-level fusion of several deep neural network models, namely ResNet18, LCNN9, RawNet2, and their modifications. As input features, we used various frontends, including Mel-scaled short-time Fourier transform of an audio signal, linear or rectangular frequency filter banks, and trainable transforms such as LEAF or SinConv.\\ This paper mainly focuses on several approaches that were used to raise generalizing ability of our systems. Augmentation with emulation of codecs frequency distortions based on FIR filters significantly improved results in LA and DF tracks. The problem of overfitting in all tracks was partly solved by applying the mixup technique. To solve out-of-domain data problems and adapt to real replay attacks in the PA track, microphone and room impulse responses augmentation was used. Applied augmentation techniques allowed us to significantly increase the quality and robustness of the proposed spoofing detection systems in all tracks. That is confirmed by the EER values on progress and eval sets: our best system achieved an EER of 1.32 % on the evaluation part of the Challenge corpora in the LA track."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-10"
+  },
+  "caceres21_asvspoof": {
+   "authors": [
+    [
+     "Joaquín",
+     "Cáceres"
+    ],
+    [
+     "Roberto",
+     "Font"
+    ],
+    [
+     "Teresa",
+     "Grau"
+    ],
+    [
+     "Javier",
+     "Molina"
+    ]
+   ],
+   "title": "The Biometric Vox System for the ASVspoof 2021 Challenge",
+   "original": "ASVSPOOF_S_4-3",
+   "page_count": 7,
+   "order": 11,
+   "p1": 68,
+   "pn": 74,
+   "abstract": [
+    "This paper describes the systems developed by Biometric Vox for the ASVspoof 2021 challenge Logical Access (LA) and Physical Access (PA) tracks. The Logical Access track aims at detecting the use of speech synthesis or voice conversion techniques. In the case of the Physical Access track, the task is the detection of replayed speech. We experiment with different input features and neural network architectures. In particular, we propose a lightweight Time Delay Neural Network architecture and the use of Focal Loss as a way to handle class imbalance and emphasize hard-to-classify samples. Additionally, we explore the use of neural networks as embedding extractors and propose a one-class Gaussian classifier on top of these embeddings. Our final system for the PA track obtains min-tDCF=0.6658 and EER=24.44% on the progress set and min-tDCF=0.7462 and EER=29.00% on the evaluation set. On the LA track, our best system obtains min-tDCF=0.2371 and EER=4.54% on the progress set and min-tDCF=0.2747 and EER=5.58% on the evaluation set."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-11"
+  },
+  "chen21_asvspoof": {
+   "authors": [
+    [
+     "Xinhui",
+     "Chen"
+    ],
+    [
+     "You",
+     "Zhang"
+    ],
+    [
+     "Ge",
+     "Zhu"
+    ],
+    [
+     "Zhiyao",
+     "Duan"
+    ]
+   ],
+   "title": "UR Channel-Robust Synthetic Speech Detection System for ASVspoof 2021",
+   "original": "ASVSPOOF_S_4-4",
+   "page_count": 8,
+   "order": 12,
+   "p1": 75,
+   "pn": 82,
+   "abstract": [
+    "In this paper, we present UR-AIR system submission to the logical access (LA) and the speech deepfake (DF) tracks of the ASVspoof 2021 Challenge. The LA and DF tasks focus on synthetic speech detection (SSD), i.e. detecting text-to-speech and voice conversion as spoofing attacks. Different from previous ASVspoof challenges, the LA task this year presents codec and transmission channel variability, while the new task DF presents general audio compression. Built upon our previous research work on improving the robustness of the SSD systems to channel effects, we propose a channel-robust synthetic speech detection system for the challenge. To mitigate the channel variability issue, we use an acoustic simulator to apply transmission codec, compression codec, and convolutional impulse responses to augmenting the original datasets. For the neural network backbone, we adopt Emphasized Channel Attention, Propagation and Aggregation Time Delay Neural Networks (ECAPA-TDNN) as our primary model. We also incorporate one-class learning with channel-robust training strategies to further learn a channel-invariant speech representation. Our submission achieved EER 20.33% in the DF task; EER 5.46% and min-tDCF 0.3094 in the LA task."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-12"
+  },
+  "kang21_asvspoof": {
+   "authors": [
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ]
+   ],
+   "title": "Investigation on activation functions for robust end-to-end spoofing attack detection system",
+   "original": "ASVSPOOF_S_5-1",
+   "page_count": 6,
+   "order": 13,
+   "p1": 83,
+   "pn": 88,
+   "abstract": [
+    "The main objective of the spoofing attack detection system is to detect the artefacts caused by the spoof generation process (i.e., speech synthesis or voice conversion) given a speech sample. Since the selection of activation function can affect the ability of the end-to-end spoof detection to focus on the relevant regions of the feature map, we investigate the effects of different activation functions in the antispoofing countermeasure task. From our results, it could be found that different activation functions enable the end-to-end system to learn complementary information for spoof detection. In order to exploit the complementarity between various activation functions, we propose to adopt the activation ensemble technique within the end-to-end system, where the outputs of different activation functions are pooled together. The proposed framework was experimented on the logical access (LA) task ASVSpoof2019 dataset and outperformed the systems using a single activation function."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-13"
+  },
+  "chen21b_asvspoof": {
+   "authors": [
+    [
+     "Tianxiang",
+     "Chen"
+    ],
+    [
+     "Elie",
+     "Khoury"
+    ],
+    [
+     "Kedar",
+     "Phatak"
+    ],
+    [
+     "Ganesh",
+     "Sivaraman"
+    ]
+   ],
+   "title": "Pindrop Labs' Submission to the ASVspoof 2021 Challenge",
+   "original": "ASVSPOOF_S_5-2",
+   "page_count": 5,
+   "order": 14,
+   "p1": 89,
+   "pn": 93,
+   "abstract": [
+    "Voice spoofing has become a great threat to automatic speaker verification (ASV) systems due to the rapid development of the speech synthesis and voice conversion techniques. How to effectively detect these attacks has become a crucial need to those systems. The ASVspoof 2021 challenge provides a unique opportunity to foster the development and evaluation of new techniques to detect logical access (LA), physical access (PA) and Deepfake (DF) attacks covering a wide range of techniques and audio conditions. The Pindrop Lab participated to both the LA and DF detection tracks. Our submissions to the challenge consist of a cascade of an embedding extractor and a backend classifier. Instead of focusing on an extensive feature engineering and complex score fusion methods, we focus on improving the generalization of the embedding extractor model and the backend classifier model. We use log filter banks as the acoustic features in all our systems. Different pooling methods and loss functions are studied in this work. Additionally, we investigated the effectiveness of stochastic weight averaging, further improved the robustness of the spoofing detection system. Overall, three different variants of the same system have been submitted to the challenge. They all achieved a very competitive performance on both LA and DF tracks, and their combination achieved a min-tDCF of 0.2608 on the LA track and an EER of 16.05% on the DF track."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-14"
+  },
+  "benhafid21_asvspoof": {
+   "authors": [
+    [
+     "Zhor",
+     "Benhafid"
+    ],
+    [
+     "Sid Ahmed",
+     "Selouani"
+    ],
+    [
+     "Mohammed Sidi",
+     "Yakoub"
+    ],
+    [
+     "Abderrahmane",
+     "Amrouche"
+    ]
+   ],
+   "title": "LARIHS ASSERT Reassessment for Logical Access ASVspoof 2021 Challenge",
+   "original": "ASVSPOOF_S_5-3",
+   "page_count": 6,
+   "order": 15,
+   "p1": 94,
+   "pn": 99,
+   "abstract": [
+    "This paper presents the LAboratoire de Recherche en Interaction Humain-Système (LARIHS) reassessment of the JHU's Squeeze-Excitation and Residual neTwork (ASSERT) system for logical access (LA) ASVspoof 2021 challenge. In this work, we investigate the performance of the linear filter cepstral coefficients (LFCCs) baseline low-level features and the log-linear filter banks textrograms (logLFB-textrograms) on the squeeze-excitation residual network (SENet) using more enhanced loss functions i.e., angular margin-based softmax and large margin cosine loss. In addition, we propose new thin SENet backbone versions that use the Max-Feature-Map activation function. According to the challenge progress phase results, logLFB textrograms for ASSERT with ResNet18 and MFM activation system has been chosen to be our submitted system and achieved 0.6741 and 0.3316 min-tDCF for evaluation and progress phases respectively. Moreover, the proposed ASSERT version leads to 60 % min-tDCF relative improvements when compared with the original one for the LA ASVspoof 2019 evaluation part.\n"
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-15"
+  },
+  "kang21b_asvspoof": {
+   "authors": [
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ]
+   ],
+   "title": "CRIM's System Description for the ASVSpoof2021 Challenge",
+   "original": "ASVSPOOF_S_5-4",
+   "page_count": 7,
+   "order": 16,
+   "p1": 100,
+   "pn": 106,
+   "abstract": [
+    "In this paper, we provide description of our submitted systems to the ASVSpoof2021 Challenge logical access attack and audio deep fake tasks. The challenge provides a difficult set of trial speech samples that have been degraded through severe post-processing, including VoIP network transmission or compression. In order to detect the spoof attacks under such adversaries, we have trained multiple systems on a training set augmented with various audio codecs. We built end-to-end countermeasure systems employing residual neural networks and time delay neural networks. Furthermore, in order to analyze and employ the distributive pattern of the frame-level representations for detecting the spoof attacks, we adopted a higher order statistics pooling (HOSP) method for extracting the utterance-level embedding, which have been proven to improve the performance on the ASVSpoof2019 trial set. To exploit the complementary information learned by different model architectures, we have employed activation ensemble and fused the scores from different systems to obtain the final decision score for spoof detection. The results show that using codec augmentation, activation ensemble and HOSP technique can help the system to be more robust against trials with adversarial conditions, and further improvement could be made by performing score-level fusion among different systems."
+   ],
+   "doi": "10.21437/ASVSPOOF.2021-16"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Session 1",
+   "papers": [
+    "tak21_asvspoof",
+    "zhang21_asvspoof",
+    "wang21_asvspoof"
+   ]
+  },
+  {
+   "title": "Session 2",
+   "papers": [
+    "ge21_asvspoof",
+    "das21_asvspoof",
+    "yoon21_asvspoof",
+    "lei21_asvspoof"
+   ]
+  },
+  {
+   "title": "Session 3",
+   "papers": [
+    "yamagishi21_asvspoof"
+   ]
+  },
+  {
+   "title": "Session 4",
+   "papers": [
+    "muller21_asvspoof",
+    "tomilov21_asvspoof",
+    "caceres21_asvspoof",
+    "chen21_asvspoof"
+   ]
+  },
+  {
+   "title": "Session 5",
+   "papers": [
+    "kang21_asvspoof",
+    "chen21b_asvspoof",
+    "benhafid21_asvspoof",
+    "kang21b_asvspoof"
+   ]
+  }
+ ],
+ "doi": "10.21437/ASVSPOOF.2021"
+}

@@ -1,0 +1,2355 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2020)",
+ "location": "Tokyo, Japan",
+ "startDate": "01/11/2020",
+ "endDate": "05/11/2020",
+ "URL": "http://www.odyssey2020.org/",
+ "chair": "Chairs: Kong Aik Lee and Takafumi Koshinaka and Koichi Shinoda",
+ "conf": "Odyssey",
+ "year": "2020",
+ "name": "odyssey_2020",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2020)",
+ "date": "1-5 November 2020",
+ "papers": {
+  "furui20_odyssey": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Modeling of Perceptual Speaker Embedding and Its Application to Speech and Speaker Recognition",
+   "original": "keynote1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Among various information conveyed by spoken utterances, linguistic information about meanings that the speaker wanted to express and individuality information about the speaker are most basic and important for human communication. The human brain stores models of both information, and people recognize these two classes of information easily, clearly and simultaneously. People have common sense about the human voice, and using the common sense, people can capture the characteristics of each speaker's voice from extremely short utterance by each speaker and predict his/her voice uttering new words or sentences. Using this skill, people can separate the voices of many speakers spoken simultaneously or sequentially, and the contents of each utterance can be understood. Although various researches have been conducted on technologies for recognizing speakers of utterances, technologies for automatically adapting recognition models to speakers to improve speech recognition accuracy, and technologies for separating and extracting multiple superimposed utterances, their performances are far below human abilities. It is important to clarify the principle of speaker embedding, in which people model and use the personality of speech, and incorporate it into speech and speaker recognition systems in a semi-supervised or self-supervised manner."
+   ]
+  },
+  "ravanelli20_odyssey": {
+   "authors": [
+    [
+     "Mirco",
+     "Ravanelli"
+    ]
+   ],
+   "title": "Towards Unsupervised Learning of Speech Representations",
+   "original": "keynote2",
+   "page_count": 0,
+   "order": 25,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The success of deep learning techniques strongly depends on the quality of the representations that are automatically discovered from data. These representations should capture intermediate concepts, features, or latent variables, and are commonly learned in a supervised way using large annotated corpora. Even though this is still the dominant paradigm, some crucial limitations arise. Collecting large amounts of annotated examples, for instance, is very costly and time-consuming. Moreover, supervised representations are likely to be biased toward the considered problem, possibly limiting their exportability to other problems and applications. A natural way to mitigate these issues is unsupervised learning. Unsupervised learning attempts to extract knowledge from unlabeled data, and can potentially discover representations that capture the underlying structure of such data. This modality, sometimes referred to as self-supervised learning, is gaining popularity within the computer vision community, while its application on high-dimensional and long temporal sequences like speech still remains challenging. In this keynote, I will summarize some recent efforts to learn general, robust, and transferrable speech representations using unsupervised/self-supervised approaches. In particular, I will focus on a novel technique called Local Info Max (LIM),that learns speech representations using a maximum mutual information approach. I will then introduce the recently-proposed problem-agnostic speech encoder (PASE) that is derived by jointly solving multiple self-supervised tasks. PASE is a first step towards a universal neural speech encoder and turned out to be useful for a large variety of applications such as speech recognition, speaker identification, and emotion recognition."
+   ]
+  },
+  "ferrer20_odyssey": {
+   "authors": [
+    [
+     "Luciana",
+     "Ferrer"
+    ]
+   ],
+   "title": "The importance of Calibration in Speaker Verification",
+   "original": "keynote3",
+   "page_count": 0,
+   "order": 44,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Most modern speaker verification systems produce uncalibrated scores at their output. That is, while these scores contain valuable information to separate the same-speaker from the different-speaker trials, they cannot be interpreted in absolute terms, only relative to their distribution. A calibration stage is usually applied to the output of these systems to convert them into useful absolute measures that can be interpreted and reliably thresholded to make decisions. In this keynote, we will review the definition of calibration, present ways to measure it, discuss when and why we should care about it, and show different methods that can be used to fix calibration when necessary."
+   ]
+  },
+  "wilkinghoff20_odyssey": {
+   "authors": [
+    [
+     "Kevin",
+     "Wilkinghoff"
+    ]
+   ],
+   "title": "On Open-Set Speaker Identification with I-Vectors",
+   "original": "1",
+   "page_count": 7,
+   "order": 61,
+   "p1": 408,
+   "pn": 414,
+   "abstract": [
+    "Open-set speaker identification systems first need to decide if an utterance belongs to one of the known so called blacklist speakers and second identify the exact blacklist speaker. In this paper, an open-set speaker identification system based on i-vectors is presented. The system consists of an outlier detector in combination with a classical closed-set speaker identification chain and utilizes an effective preprocessing technique for i-vectors, called linear alignment. Its overall structure is justified both theoretically and experimentally by comparing multiple outlier detectors. In experimental evaluations, our proposed system reaches an improvement of 37.5% for the top-S Equal Error Rate (EER) and a 50% lower top-1 EER over the baseline system of the 1st Multi-target speaker detection and identification Challenge Evaluation and improves upon all other published results obtained on this dataset.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-58"
+  },
+  "ding20_odyssey": {
+   "authors": [
+    [
+     "Shaojin",
+     "Ding"
+    ],
+    [
+     "Quan",
+     "Wang"
+    ],
+    [
+     "Shuo-Yiin",
+     "Chang"
+    ],
+    [
+     "Li",
+     "Wan"
+    ],
+    [
+     "Ignacio",
+     "Lopez Moreno"
+    ]
+   ],
+   "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
+   "original": "2",
+   "page_count": 7,
+   "order": 65,
+   "p1": 433,
+   "pn": 439,
+   "abstract": [
+    "In this paper, we propose \"\"personal VAD\"\", a system to detect the voice activity of a target speaker at the frame level. This system is useful for gating the inputs to a streaming on-device speech recognition system, such that it only triggers for the target user, which helps reduce the computational cost and battery consumption, especially in scenarios where a keyword detector is unpreferable. We achieve this by training a VAD-alike neural network that is conditioned on the target speaker embedding or the speaker verification score. For each frame, personal VAD outputs the probabilities for three classes: non-speech, target speaker speech, and non-target speaker speech. Under our optimal setup, we are able to train a model with only 130K parameters that outperforms a baseline system where individually trained standard VAD and speaker recognition networks are combined to perform the same task.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-62"
+  },
+  "ferrer20b_odyssey": {
+   "authors": [
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Mitchell",
+     "Mclaren"
+    ]
+   ],
+   "title": "A Speaker Verification Backend for Improved Calibration Performance across Varying Conditions",
+   "original": "5",
+   "page_count": 8,
+   "order": 55,
+   "p1": 372,
+   "pn": 379,
+   "abstract": [
+    "In a recent work, we presented a discriminative backend for speaker verification that achieved good out-of-the-box calibration performance on most tested conditions containing varying levels of mismatch to the training conditions. This backend mimics the standard PLDA-based backend process used in most current speaker verification systems, including the calibration stage. All parameters of the backend are jointly trained to optimize the binary cross-entropy for the speaker verification task. Calibration robustness is achieved by making the parameters of the calibration stage a function of vectors representing the conditions of the signal, which are extracted using a model trained to predict condition labels. In this work, we propose a simplified version of this backend where the vectors used to compute the calibration parameters are estimated within the backend, without the need for a condition prediction model. We show that this simplified method provides similar performance to the previously proposed method while being simpler to implement, and having less requirements on the training data. Further, we provide an analysis of different aspects of the method including the effect of initialization, the nature of the vectors used to compute the calibration parameters, and the effect that the random seed and the number of training epochs has on performance. We also compare the proposed method with the trial-based calibration (TBC) method that, to our knowledge, was the state-of-the-art for achieving good calibration across varying conditions. We show that the proposed method outperforms TBC while also being several orders of magnitude faster to run, comparable to the standard PLDA baseline.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-52"
+  },
+  "kamble20_odyssey": {
+   "authors": [
+    [
+     "Madhu",
+     "Kamble"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Novel Variable Length Teager Energy Profiles for Replay Spoof Detection",
+   "original": "6",
+   "page_count": 8,
+   "order": 22,
+   "p1": 143,
+   "pn": 150,
+   "abstract": [
+    "Replay attacks are developed in order to get fraudulent access of an Automatic Speaker Verification (ASV) system. This attack requires only recording and playback devices. The replay speech gets affected by the use of quality of intermediate devices, and the level of noise present in the acoustic environment. In this paper, we propose Variable length Teager Energy Cepstral Coefficients (VTECC) for replay Spoof Speech Detection (SSD) task. Varying the Dependency Index in Variable length Teager Energy Operator (VTEO) changes the performance of SSD system. The Teager energy profiles and the spectral energy densities obtained show the discrimination information for different DIs. With DI=5, we got reduced % Equal Error Rate (EER) of 6.52 % and 11.93 % on development and evaluation set, respectively, on ASVspoof 2017 version 2.0 challenge database. We further used score-level fusion of baseline system (Constant Q Cepstral Coefficients (CQCC) feature set) and VTECC and reduced the % EER to 5.85 % and 10.94 % on development and evaluation set, respectively. Furthermore, for evaluation set, we investigate the performance on different Replay Configurations (RC). For all the levels of threats, the proposed feature set performed better compared to the other feature sets.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-21"
+  },
+  "li20_odyssey": {
+   "authors": [
+    [
+     "Xu",
+     "Li"
+    ],
+    [
+     "Jinghua",
+     "Zhong"
+    ],
+    [
+     "Jianwei",
+     "Yu"
+    ],
+    [
+     "Shoukang",
+     "Hu"
+    ],
+    [
+     "Xixin",
+     "Wu"
+    ],
+    [
+     "Xunying",
+     "Liu"
+    ],
+    [
+     "Helen",
+     "Meng"
+    ]
+   ],
+   "title": "Bayesian x-vector: Bayesian Neural Network based x-vector System for Speaker Verification",
+   "original": "7",
+   "page_count": 7,
+   "order": 54,
+   "p1": 365,
+   "pn": 371,
+   "abstract": [
+    "Speaker verification systems usually suffer from the mismatch problem between the training and evaluation data, such as the speaker population mismatch, the channel and environment variations. In order to address this issue, it requires the system to have good generalization ability on the unseen data. In this work, we incorporate Bayesian neural network (BNN) into deep neural network (DNN) x-vector speaker verification system to improve the system's generalization ability. With the weight uncertainty modeling provided by BNN, we expect the system could generalize better on the evaluation data and make verification decisions more precisely. Our experiment results indicate that DNN x-vector system could benefit from BNN especially when the mismatch problem is severe in the out-of-domain evaluation. Specifically, results show that the system could benefit from BNN by a relative EER decrease of 2.66% and 2.32% respectively for short- and long-utterance in-domain evaluation. Additionally, the fusion of DNN x-vector and Bayesian x-vector systems could achieve further improvement. Moreover, the evaluation conducted with a larger mismatch, i.e. NIST SRE10 core test in the out-of-domain evaluation, suggests that BNN could bring a larger relative EER decrease of around 4.69%.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-51"
+  },
+  "shi20_odyssey": {
+   "authors": [
+    [
+     "Yanpei",
+     "Shi"
+    ],
+    [
+     "Qiang",
+     "Huang"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "Robust Speaker Recognition Using Speech Enhancement And Attention Model",
+   "original": "8",
+   "page_count": 8,
+   "order": 68,
+   "p1": 451,
+   "pn": 458,
+   "abstract": [
+    "In this paper, a novel architecture for speaker recognition is proposed by cascading speech enhancement and speaker processing. Its aim is to improve speaker recognition performance when speech signals are corrupted by noise. Instead of individually processing speech enhancement and speaker recognition, the two modules are integrated into one framework by a joint optimisation using deep neural networks. Furthermore, to increase robustness against noise, a multi-stage attention mechanism is employed to highlight the speaker related features learned from context information in time and frequency domain. To evaluate speaker identification and verification performance of the proposed approach, we test it on the dataset of VoxCeleb1, one of mostly used benchmark datasets. Moreover, the robustness of our proposed approach is also tested on VoxCeleb1 data when being corrupted by three types of interferences, general noise, music, and babble, at different signal-to-noise ratio (SNR) levels. The obtained results show that the proposed approach using speech enhancement and multi-stage attention models outperforms two strong baselines not using them in most acoustic conditions in our experiments.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-65"
+  },
+  "kamble20b_odyssey": {
+   "authors": [
+    [
+     "Madhu",
+     "Kamble"
+    ],
+    [
+     "Aditya Krishna Sai",
+     "Pulikonda"
+    ],
+    [
+     "Maddala Venkata Siva",
+     "Krishna"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Analysis of Teager Energy Profiles for Spoof Speech Detection",
+   "original": "11",
+   "page_count": 8,
+   "order": 46,
+   "p1": 304,
+   "pn": 311,
+   "abstract": [
+    "The recent advances in the technologies pose a threat to the Automatic Speaker Verification (ASV) systems using different spoofing attacks, such as voice conversion (VC), speech synthesis (SS), and replay. To enhance the security of the ASV system, the need raised for the development of efficient anti-spoofing algorithms to detect spoof speech signals from natural signal. In this paper, we exploit Teager energy-based features for spoof speech detection (SSD) task. The Teager energy profiles computed for natural, VC, SS, and replay signals show the changes around the Glottal Closure Instants (GCIs). In particular, for SS signal, the bumps are very smooth compared to the natural signal. These variations around GCI of Teager energy profiles helps to discriminate the spoof signal from natural counterparts. The experiments are performed on ASVspoof 2015 and BTAS 2016 challenge databases. The Teager energy-based feature set, i.e., Teager Energy Cepstral Coefficients (TECC) performs well for S1-S9 spoofing algorithms obtaining average EER of 0.161 % (however, not for S10, where EER is 58.14 %) whereas state-of-the-art features, namely, Cochlear Filter Cepstral Coefficients-Instantaneous Frequency (CFCC-IF), and Constant-Q Cepstral Coefficients (CQCC) gave an EER of 0.39 % and 0.163 %, respectively. It is interesting to note that significant negative result by proposed feature set to S10 vs. natural speech confirms capability of TECC to represent characteristics of airflow pattern during natural speech production. Furthermore, the experiments performed on BTAS 2016 challenge dataset, gave 2.25 % EER on development set. On evaluation set, TECC feature set gave Half Total Error Rate (HTER) of 3.7 % which is the metric provided by the challenge organizers and thus, overcoming the baseline by a noticeable difference of 3.16 %.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-43"
+  },
+  "bousquet20_odyssey": {
+   "authors": [
+    [
+     "Pierre-Michel",
+     "Bousquet"
+    ],
+    [
+     "Mickaël",
+     "Rouvier"
+    ]
+   ],
+   "title": "Adaptation Strategy and Clustering from Scratch for New Domains of Speaker Recognition",
+   "original": "12",
+   "page_count": 7,
+   "order": 13,
+   "p1": 81,
+   "pn": 87,
+   "abstract": [
+    "This paper investigates the domain adaptation back-end methods introduced over the past years for speaker recognition, when the mismatch between training and test data induces a severe degradation of performance. This analyses lead to suggest some ways, experimentally validated, for the task of collecting in-domain data. The proposed strategy helps to quickly increase accuracy of the detection, without omitting to take into account the practical difficulties of the task of data collecting in real-life situations and without the delay for forming the expected large and speaker-labeled in-domain dataset. Moreover, a new approach of artificial speaker labeling by clustering is proposed, that dispenses of forming a preliminary annotated in-domain dataset, with a similar gain of efficiency.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-12"
+  },
+  "lin20_odyssey": {
+   "authors": [
+    [
+     "Qingjian",
+     "Lin"
+    ],
+    [
+     "Tingle",
+     "Li"
+    ],
+    [
+     "Lin",
+     "Yang"
+    ],
+    [
+     "Junjie",
+     "Wang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Optimal Mapping Loss: A Faster Loss for End-to-End Speaker Diarization",
+   "original": "17",
+   "page_count": 7,
+   "order": 19,
+   "p1": 125,
+   "pn": 131,
+   "abstract": [
+    "A tendency exists that neural network approaches become increasingly popular among submodules of speaker diarization such as voice activity detection, speaker embedding extraction and clustering. Still, end-to-end speaker diarization training remains a challenging task, partly due to hard loss design for the speaker-label ambiguity problem. Permutation-invariant training (PIT) loss could be a possible solution, but its time complexity exceeds O(N!) where N indicates the number of speakers in the audio. In this paper, we improve the PIT loss and further propose a novel optimal mapping loss which directly computes the best matches between output speakers and target speakers. Our proposed loss is based on the Hungarian algorithm and successfully reduces the time complexity to about O(N3) for large N, while keeping the same performance as PIT loss.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-18"
+  },
+  "lin20b_odyssey": {
+   "authors": [
+    [
+     "Qingjian",
+     "Lin"
+    ],
+    [
+     "Weicheng",
+     "Cai"
+    ],
+    [
+     "Lin",
+     "Yang"
+    ],
+    [
+     "Junjie",
+     "Wang"
+    ],
+    [
+     "Jun",
+     "Zhang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "DIHARD II is Still Hard: Experimental Results and Discussions from the DKU-LENOVO Team",
+   "original": "18",
+   "page_count": 8,
+   "order": 16,
+   "p1": 102,
+   "pn": 109,
+   "abstract": [
+    "In this paper, we present the submitted system for the second DIHARD Speech Diarization Challenge from the DKU-LENOVO team. Our diarization system includes multiple modules, namely voice activity detection (VAD), segmentation, speaker embedding extraction, similarity scoring, clustering, resegmentation and overlap detection. For each module, we explore different techniques to enhance the performance. Our final submission employs the ResNet-LSTM based VAD, the Deep ResNet based speaker embedding, the LSTM based similarity scoring and spectral clustering. Variational Bayes (VB) diarization is applied in the resegmentation stage and overlap detection also brings slight improvement. Our proposed system achieves 18.84% DER in Track1 and 27.90% DER in Track2. Although our systems have reduced the DERs by 27.5% and 31.7% relatively against the official baselines, we believe that the diarization task is still very difficult.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-15"
+  },
+  "wang20_odyssey": {
+   "authors": [
+    [
+     "Qiongqiong",
+     "Wang"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Takafumi",
+     "Koshinaka"
+    ]
+   ],
+   "title": "Using Multi-Resolution Feature Maps with Convolutional Neural Networks for Anti-Spoofing in ASV",
+   "original": "19",
+   "page_count": 5,
+   "order": 21,
+   "p1": 138,
+   "pn": 142,
+   "abstract": [
+    "This paper presents a simple but effective method that uses multi-resolution feature maps with convolutional neural networks (CNNs) for anti-spoofing in automatic speaker verification (ASV). The central idea is to alleviate the problem that the feature maps commonly used in anti-spoofing networks are insufficient for building discriminative representations of audio segments, as they are often extracted by a single-length sliding window. Resulting trade-offs between time and frequency resolutions restrict the information in single spectrograms. The proposed method improves both frequency resolution and time resolution by stacking multiple spectrograms that are extracted using different window lengths. These are fed into a convolutional neural network in the form of multiple channels, making it possible to extract more information from input signals while only marginally increasing computational costs. The efficiency of the proposed method has been conformed on the ASVspoof 2019 database. We show that the use of the proposed multiresolution inputs consistently outperforms that of score fusion across different CNN architectures. Moreover, computational cost remains small.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-20"
+  },
+  "jung20_odyssey": {
+   "authors": [
+    [
+     "Jee-Weon",
+     "Jung"
+    ],
+    [
+     "Ju-Ho",
+     "Kim"
+    ],
+    [
+     "Hye-Jin",
+     "Shim"
+    ],
+    [
+     "Seung-bin",
+     "Kim"
+    ],
+    [
+     "Ha-Jin",
+     "Yu"
+    ]
+   ],
+   "title": "Selective Deep Speaker Embedding Enhancement for Speaker Verification",
+   "original": "20",
+   "page_count": 8,
+   "order": 27,
+   "p1": 171,
+   "pn": 178,
+   "abstract": [
+    "Utterances that are input from a distance are one of the major causes of performance degradation in speaker verification systems. In this study, we propose two frameworks for deep speaker embedding enhancement and specifically focus on distant utterances. Both frameworks input speaker embeddings extracted from front-end systems, including deep neural network-based systems, which widen the range of applications. We use speaker embeddings that are extracted by inputting raw waveforms directly into a deep neural network. The first proposed system, skip connection-based selective enhancement, adopts a skip connection that directly connects the input embedding to the output. This skip connection is multiplied by a value between 0 and 1, which is similar to the gate mechanism where the value is concurrently determined by another small deep neural network. This approach allows the selective application of enhancements, thus, when the input embedding is from a close-talk, the skip connection would be more activated. On the other hand, when embedding from a distance is input, the deep neural network would be more activated. The second proposed system, i.e., a selective enhancement discriminative auto-encoder, aims to find a discriminative representation with an encoder-decoder architecture. The hidden representation is divided into two subspaces with the objective to gather speaker information into one subspace by adding additional objective functions and letting the other subspace contain subsidiary information (e.g., reverberation and noise). The effectiveness of both proposed frameworks is evaluated using the VOiCES from a Distance Challenge evaluation set and demonstrates a 11.03 % and 15.97 % relative error reduction, respectively, compared to the baseline, which does not employ an explicit feature enhancement phase.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-25"
+  },
+  "tak20_odyssey": {
+   "authors": [
+    [
+     "Hemlata",
+     "Tak"
+    ],
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ]
+   ],
+   "title": "An Explainability Study of the Constant Q Cepstral Coefficient Spoofing Countermeasure for Automatic Speaker Verification",
+   "original": "21",
+   "page_count": 8,
+   "order": 50,
+   "p1": 333,
+   "pn": 340,
+   "abstract": [
+    "Anti-spoofing for automatic speaker verification is now a well established area of research, with three competitive challenges having been held in the last 6 years. A great deal of research effort over this time has been invested into the development of front-end representations tailored to the spoofing detection task. One such approach known as constant Q cepstral coefficients (CQCCs) have been shown to be especially effective in detecting attacks implemented with a unit selection based speech synthesis algorithm. Despite their success, they largely fail in detecting other forms of spoofing attack where more traditional front-end representations give substantially better results. Similar differences were also observed in the most recent, 2019 edition of the ASVspoof challenge series. This paper reports our attempts to help explain these observations. The explanation is shown to lie in the level of attention paid by each front-end to different sub-band components of the spectrum. Thus far, surprisingly little has been learned about what artefacts are being detected by spoofing countermeasures. Our work hence aims to shed light upon signal or spectrum level artefacts that serve to distinguish different forms of spoofing attack from genuine, bone fide speech. With a better understanding of these artefacts we will be better positioned to design more reliable countermeasures.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-47"
+  },
+  "huang20_odyssey": {
+   "authors": [
+    [
+     "Chien-Lin",
+     "Huang"
+    ]
+   ],
+   "title": "Speaker Characterization Using TDNN, TDNN-LSTM, TDNN-LSTM-Attention based Speaker Embeddings for NIST SRE 2019",
+   "original": "22",
+   "page_count": 5,
+   "order": 63,
+   "p1": 423,
+   "pn": 427,
+   "abstract": [
+    "In this paper, we explore speaker characterization using the time-delay neural network, long short-term memory neural network, and attention (TDNN-LSTM-Attention) based speaker embedding. The speaker embeddings of TDNN, TDNN-LSTM, TDNN-LSTM-Attention are investigated on a large scale of train and testing datasets. Different types of front-end feature extraction are investigated to find good features for speaker embedding. To increase the amount and diversity of the training data, 4 kinds of data augmentation are used to create 7 new copies of the original data. The proposed methods are evaluated with the National Institute of Standards and Technology (NIST) speaker recognition evaluation (SRE) tasks. Experimental results show that the proposed methods achieve the minimum decision cost function of 0.372 and 0.392 with the NIST SRE 2018 and SRE 2019 evaluation datasets, respectively.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-60"
+  },
+  "sadjadi20_odyssey": {
+   "authors": [
+    [
+     "Omid",
+     "Sadjadi"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ],
+    [
+     "Jaime",
+     "Hernandez-Cordero"
+    ]
+   ],
+   "title": "The 2019 NIST Audio-Visual Speaker Recognition Evaluation",
+   "original": "23",
+   "page_count": 7,
+   "order": 39,
+   "p1": 259,
+   "pn": 265,
+   "abstract": [
+    "In 2019, the U.S. National Institute of Standards and Technology (NIST) conducted the most recent in an ongoing series of speaker recognition evaluations (SRE). There were two components to SRE19: 1) a leaderboard style Challenge using unexposed conversational telephone speech (CTS) data from the Call My Net 2 (CMN2) corpus, and 2) an Audio-Visual (AV) evaluation using video material extracted from the unexposed portions of the Video Annotation for Speech Technologies (VAST) corpus. This paper presents an overview of the Audio-Visual SRE19 activity including the task, the performance metric, data, and the evaluation protocol, results and system performance analyses. The Audio-Visual SRE19 was organized in a similar manner to the audio from video (AfV) track in SRE18, except it offered only the open training condition. In addition, instead of extracting and releasing only the AfV data, unexposed multimedia data from the VAST corpus was used to support the Audio-Visual SRE19. It featured two core evaluation tracks, namely audio only and audio-visual, as well as an optional visual only track. A total of 26 organizations (forming 14 teams) from academia and industry participated in the Audio-Visual SRE19 and submitted 102 valid system outputs. Evaluation results indicate: 1) notable performance improvements for the audio only speaker recognition task on the challenging amateur online video domain due to the use of more complex neural network architectures (e.g., ResNet) along with soft margin losses, 2) state-of-the-art speaker and face recognition technologies provide comparable person recognition performance on the amateur online video domain, and 3) audio-visual fusion results in remarkable performance gains (greater than 85% relative) over the audio only or visual only systems.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-37"
+  },
+  "sadjadi20b_odyssey": {
+   "authors": [
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ],
+    [
+     "Jaime",
+     "Hernandez-Cordero"
+    ]
+   ],
+   "title": "The 2019 NIST Speaker Recognition Evaluation CTS Challenge",
+   "original": "24",
+   "page_count": 7,
+   "order": 40,
+   "p1": 266,
+   "pn": 272,
+   "abstract": [
+    "In 2019, NIST conducted a leaderboard style speaker recognition challenge using conversational telephone speech (CTS) data extracted from the unexposed portion of the Call My Net 2 (CMN2) corpus previously used in the 2018 Speaker Recognition Evaluation (SRE). The CTS Challenge was organized in a similar manner to SRE18, except it offered only the open training condition. In addition, similar to the NIST i-vector challenge, the evaluation set consisted of two subsets: a progress subset, and a test subset. Trials for the progress subset comprised 30\\% of the target speakers from the unexposed portion of the CMN2 corpus and was used to monitor progress on the leaderboard, while trials from the remaining 70\\% of the speakers were allocated for the test subset, which was used to generate the official final results determined at the end of the challenge. Which subset (i.e., progress or test) a trial belonged to was unknown to challenge participants, and each system submission had to contain outputs for all of the trials. The CTS Challenge also served as a prerequisite for entrance to the main SRE19 whose primary task was audio-visual person recognition. A total of 67 organizations (forming 51 teams) from academia and industry participated in the CTS Challenge and submitted 1347 valid system outputs. This paper presents an overview of the evaluation and several analyses of system performance for all primary conditions in the CTS Challenge. Compared to the CTS track of SRE18, the SRE19 CTS Challenge results indicate remarkable improvements in performance which are mainly attributed to 1) the availability of large amounts of in-domain development data (publicly available and/or proprietary) from a large number of labeled speakers, 2) speaker representations (aka embeddings) extracted using extended and more complex end-to-end neural network frameworks, and 3) effective use of the provided large development set.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-38"
+  },
+  "gao20_odyssey": {
+   "authors": [
+    [
+     "Xiaoxue",
+     "Gao"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Yi",
+     "Zhou"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Personalized Singing Voice Generation Using WaveRNN",
+   "original": "25",
+   "page_count": 7,
+   "order": 38,
+   "p1": 252,
+   "pn": 258,
+   "abstract": [
+    "In this paper, we formulate a personalized singing voice generation (SVG) framework using WaveRNN with non-parallel training data. We develop an average singing voice generation model using WaveRNN from multi-singer's vocals. To map singing Phonetic PosteriorGrams and prosody features from singing template to time-domain singing samples, a speaker i-vector extracted from target speech is used to control the speaker identity of the generated singing. At run-time, a singing template and target speech samples are used for target singing vocal generation. Specifically, the content and the speaker identity of the target speech is not necessarily the same as that of the singing template. Experimental results on the NUS-48E and NUS-HLT-SLS corpora suggest that the personalized SVG framework outperforms the traditional conversion-vocoder pipeline in the subjective and objective evaluations.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-36"
+  },
+  "li20b_odyssey": {
+   "authors": [
+    [
+     "Sheng",
+     "Li"
+    ],
+    [
+     "Xugang",
+     "Lu"
+    ],
+    [
+     "Raj",
+     "Dabre"
+    ],
+    [
+     "Peng",
+     "Shen"
+    ],
+    [
+     "Hisashi",
+     "Kawai"
+    ]
+   ],
+   "title": "Joint Training End-to-End Speech Recognition Systems with Speaker Attributes",
+   "original": "26",
+   "page_count": 6,
+   "order": 57,
+   "p1": 385,
+   "pn": 390,
+   "abstract": [
+    "The end-to-end (E2E) model allows for simplifying the conventional automatic speech recognition (ASR) systems. It integrates the acoustic model, lexicon, and language model into one neural network. In this paper, we focus on improving the performance of the state-of-the-art transformer-based E2E ASR system (ASR-Transformer). We propose to joint train the compressed ASR-Transformer with speaker recognition (SR) tasks. As a common practice, speaker-ids are used for joint training the ASR and SR tasks. However, this leads to no significant improvement. To address this problem, we propose to augment the labels with bags-of-attributes of speakers instead of simple speaker-ids. Experiments show the proposed method can effectively improve the performance of compressed ASR-Transformer on CSJ corpus. Moreover, the proposed bags-of-attributes method has the potential to be used for building a highly customized ASR system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-54"
+  },
+  "lin20c_odyssey": {
+   "authors": [
+    [
+     "Weiwei",
+     "Lin"
+    ],
+    [
+     "Man Wai",
+     "Mak"
+    ],
+    [
+     "Lu",
+     "Yi"
+    ]
+   ],
+   "title": "Learning Mixture Representation for Deep Speaker Embedding Using Attention",
+   "original": "27",
+   "page_count": 5,
+   "order": 32,
+   "p1": 210,
+   "pn": 214,
+   "abstract": [
+    "Almost all speaker recognition systems involve a step that converts a sequence of frame-level features to a fixed dimension representation. In the context of deep neural networks, it is referred to as statistics pooling. In state-of-the-art speak recognition systems, statistics pooling is implemented by concatenating the mean and standard deviation of a sequence of frame-level features. However, a single mean and standard deviation are very limited descriptive statistics for an acoustic sequence even with a powerful feature extractor like a convolutional neural network. In this paper, we propose a novel statistics pooling method that can produce more descriptive statistics through a mixture representation. Our method is inspired by the expectation-maximization (EM) algorithm in Gaussian mixture models (GMMs). However, unlike the GMMs, the mixture assignments are given by an attention mechanism instead of the Euclidean distances between frame-level features and explicit centers. Applying the proposed attention mechanism to a 121-layer Densenet, we achieve an EER of 1.1\\% in VoxCeleb1 and an EER of 4.77\\% in VOiCES 2019 evaluation set.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-30"
+  },
+  "lapidot20_odyssey": {
+   "authors": [
+    [
+     "Itshak",
+     "Lapidot"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Effects of Waveform PMF on Anti-spoofing Detection for Replay Data - ASVspoof 2019",
+   "original": "28",
+   "page_count": 7,
+   "order": 47,
+   "p1": 312,
+   "pn": 318,
+   "abstract": [
+    "In the context of detection of speaker recognition identity impersonation, we observed that the waveform probability mass function (PMF) of genuine speech differs from significantly of of PMF from identity theft extracts. In previous work we present the analysis of logical access (LA), i.e., for synthesized or converted speech. In this work we extend the analysis for physical access (PA) (replayed speech) as well. We will show that for the replayed data, the changes in PMF influence significantly on spoofing detection performance. Then, we wish to reduce the distribution gap between bona fide speech waveforms and replayed speech waveforms. We propose a genuinization of the spoofing speech (by analogy with Gaussianisation), by shifting the spoofing speech PMF close to the PMF of genuine speech. Our genuinization is evaluated on ASVspoof 2019 challenge datasets, using the baseline system provided by the challenge organization. In terms of equal error rate (EER) it seems that both, linear frequency Cepstral coefficient (LFCC) and constant Q cepstral coefficients (CQCC) features based systems lead to better results when applied on non-genuanized replayed data (even if lower in terms of min-tDCF for the CQCC system). On the other hand, when the systems are trained on genuanized data, the results on genuanized replayed data are very good compared to the results obtained without applying genuinization on the data. As in LA case, the performance is not consistent and it opens problematic questions on generalization capabilities of anti-spoofing systems.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-44"
+  },
+  "chen20_odyssey": {
+   "authors": [
+    [
+     "Tianxiang",
+     "Chen"
+    ],
+    [
+     "Avrosh",
+     "Kumar"
+    ],
+    [
+     "Parav",
+     "Nagarsheth"
+    ],
+    [
+     "Ganesh",
+     "Sivaraman"
+    ],
+    [
+     "Elie",
+     "Khoury"
+    ]
+   ],
+   "title": "Generalization of Audio Deepfake Detection",
+   "original": "29",
+   "page_count": 6,
+   "order": 20,
+   "p1": 132,
+   "pn": 137,
+   "abstract": [
+    "Audio Deepfakes, technically known as logical-access voice spoofing attacks, have become an increased threat on voice interfaces due to the recent breakthroughs in speech synthesis and voice conversion technologies. Effectively detecting these attacks is critical to many speech applications including automatic speaker verification systems. As new types of speech synthesis and voice conversion techniques are emerging rapidly, the generalization ability of spoofing countermeasures is becoming an increasingly critical challenge to solve. This paper focuses on overcoming this issue by using large margin cosine loss function (LMCL) and frequency masking layer to force the neural network to learn more robust feature embeddings. We evaluate the performance of the proposed system on the ASVspoof 2019 logical access (LA) dataset. Additionally, we evaluate it on a noisy version of the ASVspoof 2019 dataset using publicly available noises to simulate more realistic scenarios. Finally, we evaluate the proposed system on a copy of the dataset that is logically replayed through the telephony channel to simulate a spoofing attack scenario in the call center. Our baseline system is based on residual neural network, and has acheived the lowest equal error rate (EER) of 4.04% at the ASVspoof 2019 challenge among all single-system submissions from all participants. Furthermore, the improved system proposed in this paper achieves an EER of 1.26%, which is a reduction by a factor of three over our previous state-of-the-art system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-19"
+  },
+  "yook20_odyssey": {
+   "authors": [
+    [
+     "Dongsuk",
+     "Yook"
+    ],
+    [
+     "Seong-Gyun",
+     "Leem"
+    ],
+    [
+     "Keonnyeong",
+     "Lee"
+    ],
+    [
+     "In-Chul",
+     "Yoo"
+    ]
+   ],
+   "title": "Many-to-Many Voice Conversion Using Cycle-Consistent Variational Autoencoder with Multiple Decoders",
+   "original": "32",
+   "page_count": 7,
+   "order": 33,
+   "p1": 215,
+   "pn": 221,
+   "abstract": [
+    "One of the obstacles in many-to-many voice conversion is the requirement of the parallel training data, which contain pairs of utterances with the same linguistic content spoken by different speakers. Since collecting such parallel data is a highly expensive task, many works attempted to use non-parallel training data for many-to-many voice conversion. One of such approaches is using the variational autoencoder (VAE). Though it can handle many-to-many voice conversion without the parallel training, the VAE based voice conversion methods suffer from low sound qualities of the converted speech. One of the major reasons is because the VAE learns only the self-reconstruction path. The conversion path is not trained at all. In this paper, we propose a cycle consistency loss for the VAE to explicitly learn the conversion path. In addition, we propose to use multiple decoders to further improve the sound qualities of the conventional VAE based voice conversion methods. The effectiveness of the proposed method is validated using objective and the subjective evaluations.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-31"
+  },
+  "wang20b_odyssey": {
+   "authors": [
+    [
+     "Po-Chin",
+     "Wang"
+    ],
+    [
+     "Chia-Ping",
+     "Chen"
+    ],
+    [
+     "Chung-Li",
+     "Lu"
+    ],
+    [
+     "Bo-Cheng",
+     "Chan"
+    ],
+    [
+     "Shan-Wen",
+     "Hsiao"
+    ]
+   ],
+   "title": "Improving Embedding-based Neural-Network Speaker Recognition",
+   "original": "33",
+   "page_count": 7,
+   "order": 9,
+   "p1": 53,
+   "pn": 59,
+   "abstract": [
+    "In this paper, we integrate multiple ideas and techniques into an embedding-based neural-network speaker recognition (NSR) system. Such an NSR system essentially consists of a front-end speaker-embedding extractor and a back-end speaker-matching component. The frontend is a neural network trained with millions of utterances from thousands of speakers. Currently, the backend is based on simple similarity measures such as angle, Euclidean distance, or probabilistic score. We begin with the well-known x-vector baseline, and then incrementally modify the system modules. Regarding front-end extractor, we investigate modification on network architecture, network function, training criteria, and hyper-parameter setting. Regarding back-end matcher, we evaluate PLDA training/adaptation data and system fusion. On the public SRE 2018 Evaluation Dataset, the performance of system as measured by equal-error rate (EER) is improved from 7.01% to 5.16%, which marks a significant relative improvement of 26.5%.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-8"
+  },
+  "yoon20_odyssey": {
+   "authors": [
+    [
+     "Sung-Hyun",
+     "Yoon"
+    ],
+    [
+     "Min-Sung",
+     "Koh"
+    ],
+    [
+     "Ha-Jin",
+     "Yu"
+    ]
+   ],
+   "title": "Phase Spectrum of Time-flipped Speech Signals for Robust Spoofing Detection",
+   "original": "34",
+   "page_count": 7,
+   "order": 48,
+   "p1": 319,
+   "pn": 325,
+   "abstract": [
+    "In spoofing detection, it is important to capture the attributes related to spoofing attacks from a speech signal. A speech signal has various information such as the speaker, phrase, and environment. When the time sequence of the speech signal is flipped (i.e., time reversal and an additional circular shift), phase spectrum is changed although magnitude spectrum is not changed. It has the effect of data augmentation showing additional attributes in phase spectrum which are not included in magnitude spectrum. We assume that those additional attributes in phase spectrum of time-flipped speeches are related to unseen intraclass conditions. Motivated by our assumption, we propose a method of using the phase spectrum based features from both the original and time-flipped speech signals together. If our assumption stands good, it has the effect of reducing intraclass variances because the previously unseen attributes in magnitude spectrum can be considered in phase spectrum. The additional attributes in phase spectrum are helpful to build more robust spoofing detection systems. The experimental results on ASVspoof 2019 logical and physical access scenarios exhibit significant performance improvements for both scenarios compared to that of the baseline.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-45"
+  },
+  "wu20_odyssey": {
+   "authors": [
+    [
+     "Jilong",
+     "Wu"
+    ],
+    [
+     "Yiteng",
+     "Huang"
+    ],
+    [
+     "Hyun-Jin",
+     "Park"
+    ],
+    [
+     "Niranjan",
+     "Subrahmanya"
+    ],
+    [
+     "Patrick",
+     "Violette"
+    ]
+   ],
+   "title": "Small Footprint Multi-channel Keyword Spotting",
+   "original": "35",
+   "page_count": 5,
+   "order": 58,
+   "p1": 391,
+   "pn": 395,
+   "abstract": [
+    "Noise robustness remains a challenging problem in on-device keyword spotting. Using multiple-microphone algorithms like beamforming improves accuracy, but it inevitably pushes up computational complexity and tends to require more memory. In this paper, we propose a new neural-network based architecture which takes multiple microphone signals as inputs. It can achieve better accuracy and incurs just a minimum increase in model size. Compared with a single-channel baseline which runs in parallel on each channel, the proposed architecture reduces the false reject (FR) rate by 36.3% and 46.4% relative on dual-microphone clean and noisy test sets, respectively, at a fixed false accept rate.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-55"
+  },
+  "chen20b_odyssey": {
+   "authors": [
+    [
+     "Liping",
+     "Chen"
+    ],
+    [
+     "Kongaik",
+     "Lee"
+    ],
+    [
+     "Lei",
+     "He"
+    ],
+    [
+     "Frank",
+     "Soong"
+    ]
+   ],
+   "title": "On Early-stop Clustering for Speaker Diarization",
+   "original": "36",
+   "page_count": 7,
+   "order": 17,
+   "p1": 110,
+   "pn": 116,
+   "abstract": [
+    "We propose an early-stop strategy to improve the performance of speaker diarization system based on agglomerative hierarchical clustering (AHC). The proposed strategy generates more clusters than the given number of speakers. Based on these initial clusters, an exhaustive search is used to find the best possible combinations of clusters to match the number of speakers. We show that final clusters are more homogeneous with their corresponding speakers, i.e., with less mixing speech frames from interfering speakers. For the case of unknown number of speakers, we first estimate the number of speakers with the speaker similarity score matrix across all initial clusters. Our experiments conducted on DIHARD shows that the proposed early-stop clustering combined with speaker cluster selection leads to a better cluster purity in speaker and better diarization performance than the conventional AHC. Moreover, in the condition where the number of speakers was not given, with the proposed techniques to estimate the number of speakers and select the clusters corresponding to the speakers, the system performance was stable with regards to different stop thresholds.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-16"
+  },
+  "halpern20_odyssey": {
+   "authors": [
+    [
+     "Bence",
+     "Halpern"
+    ],
+    [
+     "Finnian",
+     "Kelly"
+    ],
+    [
+     "Rob",
+     "van Son"
+    ],
+    [
+     "Anil",
+     "Alexander"
+    ]
+   ],
+   "title": "Residual Networks for Resisting Noise: Analysis of an Embeddings-based Spoofing Countermeasure",
+   "original": "37",
+   "page_count": 7,
+   "order": 49,
+   "p1": 326,
+   "pn": 332,
+   "abstract": [
+    "In this paper we propose a spoofing countermeasure based on Constant Q-transform (CQT) features with a ResNet embeddings extractor and a Gaussian Mixture Model (GMM) classifier. We present a detailed analysis of this approach using the Logical Access portion of the ASVspoof2019 evaluation database, and demonstrate that it provides complementary information to the baseline evaluation systems. We additionally evaluate the CQT-ResNet approach in the presence of various types of real noise, and show that it is more robust than the baseline systems. Finally, we explore some explainable audio approaches to offer the human listener insight into the types of information exploited by the network in discriminating spoofed speech from real speech.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-46"
+  },
+  "liang20_odyssey": {
+   "authors": [
+    [
+     "Tianyu",
+     "Liang"
+    ],
+    [
+     "Yi",
+     "Liu"
+    ],
+    [
+     "Can",
+     "Xu"
+    ],
+    [
+     "Xianwei",
+     "Zhang"
+    ],
+    [
+     "Liang",
+     "He"
+    ]
+   ],
+   "title": "Combined Vector Based on Factorized Time-delay Neural Network for Text-Independent Speaker Recognition",
+   "original": "38",
+   "page_count": 5,
+   "order": 64,
+   "p1": 428,
+   "pn": 432,
+   "abstract": [
+    "Currently, the most effective text-independent speaker recognition method has turned to be extracting speaker embedding from various deep neural networks. Among them, the x-vector extracted from factorized time-delay neural network (F-TDNN) has been demonstrated to be among the best performance on recent NIST SRE evaluations. In our previous works, we have proposed combined vector (c-vector) and proved that the performance can be further improved by introducing phonetic information, which is often ignored in extracting x-vectors. By taking advantages of both F-TDNN and c-vector, we propose an embedding extraction method termed as factorized combined vector (fc-vector). In the NIST SRE18 CTS task, the EER and minDCF18 of fc-vector are 12.1% and 10.5% relatively lower than the x-vector, and 3.4% and 3.9% relatively lower than the c-vector, respectively.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-61"
+  },
+  "ramoji20_odyssey": {
+   "authors": [
+    [
+     "Shreyas",
+     "Ramoji"
+    ],
+    [
+     "Prashant",
+     "Krishnan"
+    ],
+    [
+     "Sriram",
+     "Ganapathy"
+    ]
+   ],
+   "title": "NPLDA: A Deep Neural PLDA Model for Speaker Verification",
+   "original": "39",
+   "page_count": 8,
+   "order": 31,
+   "p1": 202,
+   "pn": 209,
+   "abstract": [
+    "The state-of-art approach for speaker verification consists of a neural network based embedding extractor along with a backend generative model such as the Probabilistic Linear Discriminant Analysis (PLDA). In this work, we propose a neural network approach for backend modeling in speaker recognition. The likelihood ratio score of the generative PLDA model is posed as a discriminative similarity function and the learnable parameters of the score function are optimized using a verification cost. The proposed model, termed as neural PLDA (NPLDA), is initialized using the generative PLDA model parameters. The loss function for the NPLDA model is an approximation of the minimum detection cost function (DCF). The speaker recognition experiments using the NPLDA model are performed on the speaker verificiation task in the VOiCES datasets as well as the SITW challenge dataset. In these experiments, the NPLDA model optimized using the proposed loss function improves significantly over the state-of-art PLDA based speaker verification system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-29"
+  },
+  "ramoji20b_odyssey": {
+   "authors": [
+    [
+     "Shreyas",
+     "Ramoji"
+    ],
+    [
+     "Prashant",
+     "Krishnan"
+    ],
+    [
+     "Bhargavram",
+     "Mysore"
+    ],
+    [
+     "Prachi",
+     "Singh"
+    ],
+    [
+     "Sriram",
+     "Ganapathy"
+    ]
+   ],
+   "title": "LEAP System for SRE 2019 CTS Challenge - Improvements and Error Analysis",
+   "original": "40",
+   "page_count": 8,
+   "order": 42,
+   "p1": 281,
+   "pn": 288,
+   "abstract": [
+    "The NIST Speaker Recognition Evaluation - Conversational Telephone Speech (CTS) challenge 2019 was an open evaluation for the task of speaker verification in challenging conditions. In this paper, we provide a detailed account of the LEAP SRE system submitted to the CTS challenge focusing on the novel components in the back-end system modeling. All the systems used the time-delay neural network (TDNN) based x-vector embeddings. The x-vector system in our SRE19 submission used a large pool of training speakers (about 14k speakers). Following the x-vector extraction, we explored a neural network approach to backend score computation that was optimized for a speaker verification cost. The system combination of generative and neural PLDA models resulted in significant improvements for the SRE evaluation dataset. We also found additional gains for the SRE systems based on score normalization and calibration. Subsequent to the evaluations, we have performed a detailed analysis of the submitted systems. The analysis revealed the incremental gains obtained for different training dataset combinations as well as the modeling methods.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-40"
+  },
+  "stolcke20_odyssey": {
+   "authors": [
+    [
+     "Andreas",
+     "Stolcke"
+    ]
+   ],
+   "title": "Improving Diarization Robustness using Diversification, Randomization and the DOVER Algorithm",
+   "original": "42",
+   "page_count": 7,
+   "order": 15,
+   "p1": 95,
+   "pn": 101,
+   "abstract": [
+    "Speaker diarization based on bottom-up clustering of speech segments by acoustic similarity is often highly sensitive to the choice of hyperparameters, such as the initial number of clusters and feature weighting. Optimizing these hyperparameters is difficult and often not robust across different data sets. We recently proposed the DOVER algorithm for combining multiple diarization hypotheses by voting. Here we propose to mitigate the robustness problem in diarization by using DOVER to average across different parameter choices. We also investigate the combination of diverse outputs obtained by following different merge choices pseudo-randomly in the course of clustering, thereby mitigating the greediness of best-first clustering. We show on two conference meeting data sets drawn from NIST evaluations that the proposed methods indeed yield more robust, and in several cases overall improved, results.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-14"
+  },
+  "han20_odyssey": {
+   "authors": [
+    [
+     "Min Hyun",
+     "Han"
+    ],
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Sung Hwan",
+     "Mun"
+    ],
+    [
+     "Nam Soo",
+     "Kim"
+    ]
+   ],
+   "title": "Information Preservation Pooling for Speaker Embedding",
+   "original": "43",
+   "page_count": 7,
+   "order": 10,
+   "p1": 60,
+   "pn": 66,
+   "abstract": [
+    "Many recent studies on speaker embedding focused on the pooling technique. In the task of speaker recognition, pooling plays an important role of summarizing inputs with variable length into a fixed dimensional output. One of the most popular pooling method for text-independent speaker verification system is attention based pooling method which utilizes an attention mechanism to give different weights to each frame. Utterance-level features are generated by computing weighted means and standard deviations of frame-level features. However, useful information in frame-level features can be compromised during the pooling step. In this paper, we propose a information preservation pooling method that exploits a mutual information neural estimator to preserve local information in frame-level features during the pooling step. We conducted the evaluation on VoxCeleb datasets, which shows that the proposed method reduces equal error rate from the conventional method by 14.6%\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-9"
+  },
+  "kanervisto20_odyssey": {
+   "authors": [
+    [
+     "Anssi",
+     "Kanervisto"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "An Initial Investigation on Optimizing Tandem Speaker Verification and Countermeasure Systems Using Reinforcement Learning",
+   "original": "44",
+   "page_count": 8,
+   "order": 23,
+   "p1": 151,
+   "pn": 158,
+   "abstract": [
+    "The spoofing countermeasure (CM) systems in automatic speaker verification (ASV) are not typically used in isolation of each other. These systems can be combined, for example, into a cascaded system where CM produces first a decision whether the input is synthetic or bona fide speech. In case the CM decides it is a bona fide sample, then the ASV system will consider it for speaker verification. End users of the system are not interested in the performance of the individual sub-modules, but instead are interested in the performance of the combined system. Such combination can be evaluated with tandem detection cost function (t-DCF) measure, yet the individual components are trained separately from each other using their own performance metrics. In this work we study training the ASV and CM components together for a better t-DCF measure by using reinforcement learning. We demonstrate that such training procedure indeed is able to improve the performance of the combined system, and does so with more reliable results than with the standard supervised learning techniques we compare against.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-22"
+  },
+  "nandwana20_odyssey": {
+   "authors": [
+    [
+     "Mahesh Kumar",
+     "Nandwana"
+    ],
+    [
+     "Michael",
+     "Lomnitz"
+    ],
+    [
+     "Colleen",
+     "Richey"
+    ],
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Diego",
+     "Castan"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ]
+   ],
+   "title": "The VOiCES from a Distance Challenge 2019: Analysis of Speaker Verification Results and Remaining Challenges",
+   "original": "45",
+   "page_count": 6,
+   "order": 26,
+   "p1": 165,
+   "pn": 170,
+   "abstract": [
+    "The VOiCES from a Distance Challenge 2019 was held in early 2019 to foster research in the area of speaker recognition and automatic speech recognition (ASR) with a special focus on single-channel distant/far-field audio under various noisy condi- tions. The challenge was based on the VOiCES corpus collected in real reverberant environments. This paper provides details of the challenge and analysis of evaluation results for the speaker recognition task. For the speaker recognition task, a total of 21 international research organizations from academia and in- dustry participated in the challenge and submitted 58 valid sys- tems. We report an in-depth analysis of system performance of the top-performing systems for the task of speaker recognition broken down by multiple factors such as the room acoustics, microphone type, distractor type, and loudspeaker orientation. We also discuss the remaining challenges in far-field speaker recognition and suggest directions for future research.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-24"
+  },
+  "chung20_odyssey": {
+   "authors": [
+    [
+     "Joon Son",
+     "Chung"
+    ],
+    [
+     "Jaesung",
+     "Huh"
+    ],
+    [
+     "Seongkyu",
+     "Mun"
+    ]
+   ],
+   "title": "Delving into VoxCeleb: Environment Invariant Speaker Recognition",
+   "original": "46",
+   "page_count": 8,
+   "order": 52,
+   "p1": 349,
+   "pn": 356,
+   "abstract": [
+    "Research in speaker recognition has recently seen significant progress due to the application of neural network models and the availability of new large-scale datasets. There has been a plethora of work in search for more powerful architectures or loss functions suitable for the task, but these works do not consider what information is learnt by the models, apart from being able to predict the given labels. In this work, we introduce an environment adversarial training framework in which the network can effectively learn speaker-discriminative and environment-invariant embeddings without explicit domain shift during training. We achieve this by utilising the previously unused `video' information in the VoxCeleb dataset. The environment adversarial training allows the network to generalise better to unseen conditions. The method is evaluated on both speaker identification and verification tasks using the VoxCeleb dataset, on which we demonstrate significant performance improvements over baselines.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-49"
+  },
+  "kataria20_odyssey": {
+   "authors": [
+    [
+     "Saurabh",
+     "Kataria"
+    ],
+    [
+     "Phani Sankar",
+     "Nidadavolu"
+    ],
+    [
+     "Jesús",
+     "Villalba"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Analysis of Deep Feature Loss Based Enhancement for Speaker Verification",
+   "original": "47",
+   "page_count": 8,
+   "order": 69,
+   "p1": 459,
+   "pn": 466,
+   "abstract": [
+    "Data augmentation is conventionally used to inject robustness in Speaker Verification systems. Several recently organized challenges focused on handling novel acoustic environments. Deep learning based speech enhancement is a modern solution for this. Recently, a study proposed to optimize the enhancement network in the activation space of a pre-trained auxiliary network.This methodology, called deep feature loss, greatly improved over the state-of-the-art conventional x-vector based system on a children speech dataset called BabyTrain. This work analyzes various facets of that approach and asks few novel questions in that context. We first search for optimal number of auxiliary network activations, training data, and enhancement feature dimension. Experiments reveal the importance of Signal-to-Noise Ratio filtering that we employ to create a large, clean, and naturalistic corpus for enhancement network training. To counter the \"\"mismatch\"\" problem in enhancement, we find enhancing front-end (x-vector network) data helpful while harmful for the back-end (Probabilistic Linear Discriminant Analysis (PLDA)).Importantly, we find enhanced signals contain complementary information to original. Established by combining them in the front-end, this gives ~40% relative improvement over the baseline. We also do an ablation study to remove a noise class from x-vector data augmentation and, for such systems, we establish the utility of enhancement regardless of whether it has seen that noise class itself during training. Finally, we design several dereverberation schemes to conclude ineffectiveness of deep feature loss enhancement scheme for this task.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-66"
+  },
+  "williams20_odyssey": {
+   "authors": [
+    [
+     "Jennifer",
+     "Williams"
+    ],
+    [
+     "Joanna",
+     "Rownicka"
+    ],
+    [
+     "Pilar",
+     "Oplustil"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Comparison of Speech Representations for Automatic Quality Estimation in Multi-Speaker Text-to-Speech Synthesis",
+   "original": "49",
+   "page_count": 8,
+   "order": 34,
+   "p1": 222,
+   "pn": 229,
+   "abstract": [
+    "We aim to characterize how different speakers contribute to the perceived output quality of multi-speaker Text-to-Speech (TTS) synthesis. We automatically rate the quality of TTS using a neural network (NN) trained on human mean opinion score (MOS) ratings. First, we train and evaluate our NN model on 13 different TTS and voice conversion (VC) systems from the ASVSpoof 2019 Logical Access (LA) Dataset. Since it is not known how best to represent speech for this task, we compare 8 different representations alongside MOSNet frame-based features. Our representations include image-based spectrogram features and x-vector embeddings that explicitly model different types of noise such as T60 reverberation time. Our NN predicts MOS with a high correlation to human judgments. We report prediction correlation and error. A key finding is the quality achieved for certain speakers seems consistent, regardless of the TTS or VC system. It is widely accepted that some speakers give higher quality than others for building a TTS system: our method provides an automatic way to identify such speakers. Finally, to see if our quality prediction models generalize, we predict quality scores for synthetic speech using a separate multi-speaker TTS system that was trained on LibriTTS data, and conduct our own MOS listening test to compare human ratings with our NN predictions.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-32"
+  },
+  "zhou20_odyssey": {
+   "authors": [
+    [
+     "Kun",
+     "Zhou"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Transforming Spectrum and Prosody for Emotional Voice Conversion with Non-Parallel Training Data",
+   "original": "50",
+   "page_count": 8,
+   "order": 35,
+   "p1": 230,
+   "pn": 237,
+   "abstract": [
+    "Emotional voice conversion aims to convert the spectrum and prosody to change the emotional patterns of speech, while preserving the speaker identity and linguistic content. Many studies require parallel speech data between different emotional patterns, which is not practical in real life. Moreover, they often model the conversion of fundamental frequency (F0) with a simple linear transform. As F0 is a key aspect of intonation that is hierarchical in nature, we believe that it is more adequate to model F0 in different temporal scales by using wavelet transform. We propose a CycleGAN network to find an optimal pseudo pair from non-parallel training data by learning forward and inverse mappings simultaneously using adversarial and cycle-consistency losses. We also study the use of continuous wavelet transform (CWT) to decompose F0 into ten temporal scales, that describes speech prosody at different time resolution, for effective F0 conversion. Experimental results show that our proposed framework outperforms the baselines both in objective and subjective evaluations.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-33"
+  },
+  "mclaren20_odyssey": {
+   "authors": [
+    [
+     "Mitchell",
+     "Mclaren"
+    ],
+    [
+     "Md Hafizur",
+     "Rahman"
+    ],
+    [
+     "Diego",
+     "Castan"
+    ],
+    [
+     "Mahesh Kumar",
+     "Nandwana"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ]
+   ],
+   "title": "Adaptive Mean Normalization for Unsupervised Adaptation of Speaker Embeddings",
+   "original": "51",
+   "page_count": 7,
+   "order": 14,
+   "p1": 88,
+   "pn": 94,
+   "abstract": [
+    "We propose an active learning approach for the unsupervised normalization of vector representations of speech, such as speaker embeddings, currently in widespread use for speaker recognition systems. We demonstrate that the traditionally used mean for normalization of speaker embeddings prior to probabilistic linear discriminant analysis (PLDA) is suboptimal when the evaluation conditions do not match the training conditions. Using an unlabeled sample of target-domain data, we show that the proposed adaptive mean normalization (AMN) technique is extremely effective for improving discrimination and calibration performance, by up to 26% and 65% relative over out-of-the-box system performance. These benchmarks were performed on four distinctly different datasets for a thorough analysis of AMN robustness. Most notably, for a range of data conditions, AMN enabled the use of a calibration model trained on data mismatched to the conditions being evaluated. The approach was found to be effective when using as few as thirty-two unlabeled samples of target-domain data.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-13"
+  },
+  "tian20_odyssey": {
+   "authors": [
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Black-box Attacks on Automatic Speaker Verification using Feedback-controlled Voice Conversion",
+   "original": "52",
+   "page_count": 6,
+   "order": 24,
+   "p1": 159,
+   "pn": 164,
+   "abstract": [
+    "Automatic speaker verification (ASV) systems in practice are greatly vulnerable to spoofing attacks. The latest voice conversion technologies are able to produce perceptually natural sounding speech that mimics any target speakers. However, the perceptual closeness to a speaker's identity may not be enough to deceive an ASV system. In this work, we propose a framework that uses the output scores of an ASV system as the feedback to a voice conversion system. The attacker framework is a black-box adversary that steals one's voice identity, because it does not require any knowledge about the ASV system but the system outputs. Experimental results conducted on ASVspoof 2019 database confirm that the proposed feedback-controlled voice conversion framework produces adversarial samples that are more deceptive than the straightforward voice conversion, thereby boosting the impostor ASV scores. Further, the perceptual evaluation studies reveal that converted speech do not adversely affect the voice quality from the baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-23"
+  },
+  "sisman20_odyssey": {
+   "authors": [
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Generative Adversarial Networks for Singing Voice Conversion with and without Parallel Data",
+   "original": "53",
+   "page_count": 7,
+   "order": 36,
+   "p1": 238,
+   "pn": 244,
+   "abstract": [
+    "Singing voice conversion (SVC) is a task to convert one singer's voice to sound like that of another, without changing the lyrical content. Singing conveys both lexical and emotional information through words and tones, that needs to be transferred from the source to target. In this paper, we propose novel solutions to SVC based on Generative Adversarial Networks (GANs) with and without parallel training data. With parallel data, we employ GANs to minimize the differences of the distributions between the original target parameters and the generated singing parameters. With non-parallel training data, we employ CycleGANs to estimate an optimal pseudo pair between source and target singers. Moreover, the proposed solutions perform well with limited amount of training data. The experiments show that (1) GANs outperform other state-of-the-art voice conversion when parallel training data are available, (2) CycleGANs achieve competitive voice conversion quality without the need of parallel training data.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-34"
+  },
+  "miyamoto20_odyssey": {
+   "authors": [
+    [
+     "Haruna",
+     "Miyamoto"
+    ],
+    [
+     "Sayaka",
+     "Shiota"
+    ],
+    [
+     "Hitoshi",
+     "Kiya"
+    ]
+   ],
+   "title": "Application of Bandwidth Extension with No Learning to Data Augmentation for Speaker Verification",
+   "original": "54",
+   "page_count": 5,
+   "order": 67,
+   "p1": 446,
+   "pn": 450,
+   "abstract": [
+    "In this paper, we propose a data augmentation scheme with bandwidth extension (BWE) for deep neural network (DNN)-based automatic speaker verification (ASV) systems. One of the DNN-based ASV systems which is named \"x-vector\" requires a large amount of training data. Especially, using a large amount of wideband (WB) data obtains one of the highest performances for the x-vector-based ASV systems. However, when amount and variety of data are limited, it is important to use data augmentation schemes. If the BWE methods can use as data augmentation schemes for x-vector-based systems, the issue on amount and variety of data is relaxed. Some reports have already considered using extended WB data from narrowband (NB) data by DNN-based BWE. Recently, the authors have reported that the effectiveness of BWE methods for machine learning frameworks. Additionally, the quality of generated speeches by non-learning-based BWE is almost same as learning-based BWE. Therefore, in this paper, we aim to demonstrate several non-leaning-based BWE methods are useful as data augmentation for x-vector-based ASV systems. By using Speakers In The Wild database and NIST SRE one, experimental results showed that the proposed system provided the error reduction of 22.7%, compared with our baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-64"
+  },
+  "liu20_odyssey": {
+   "authors": [
+    [
+     "Rui",
+     "Liu"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Feilong",
+     "Bao"
+    ],
+    [
+     "Guanglai",
+     "Gao"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "WaveTTS: Tacotron-based TTS with Joint Time-Frequency Domain Loss",
+   "original": "56",
+   "page_count": 7,
+   "order": 37,
+   "p1": 245,
+   "pn": 251,
+   "abstract": [
+    "Tacotron-based text-to-speech (TTS) systems directly synthesize speech from text input. Such frameworks typically consist of a feature prediction network that maps character sequences to frequency-domain acoustic features, followed by a waveform reconstruction algorithm or a neural vocoder that generates the time-domain waveform from acoustic features. As the loss function is usually calculated only for frequency-domain acoustic features, that doesn't directly control the quality of the generated time-domain waveform. To address this problem, we propose a new training scheme for Tacotron-based TTS, referred to as WaveTTS, that has 2 loss functions: 1) time-domain loss, denoted as the waveform loss, that measures the distortion between the natural and generated waveform; and 2) frequency-domain loss, that measures the Mel-scale acoustic feature loss between the natural and generated acoustic features. WaveTTS ensures both the quality of the acoustic features and the resulting speech waveform. To our best knowledge, this is the first implementation of Tacotron with joint time-frequency domain loss. Experimental results show that the proposed framework outperforms the baselines and achieves high-quality synthesized speech.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-35"
+  },
+  "sivaraman20_odyssey": {
+   "authors": [
+    [
+     "Ganesh",
+     "Sivaraman"
+    ],
+    [
+     "Amruta",
+     "Vidwans"
+    ],
+    [
+     "Elie",
+     "Khoury"
+    ]
+   ],
+   "title": "Speech Bandwidth Expansion For Speaker Recognition On Telephony Audio",
+   "original": "57",
+   "page_count": 6,
+   "order": 66,
+   "p1": 440,
+   "pn": 445,
+   "abstract": [
+    "Practical applications often require speaker recognition systems to work well for audio files of different sampling rates. However, the performance of speaker recognition systems degrades substantially under a mismatched audio sampling rate between the training and testing conditions. For example, wideband speaker recognition models trained on audio files with a 16kHz sampling rate perform poorly on telephony audio with an 8kHz sampling rate due to the missing higher frequency information. In this paper, we propose a Deep Neural Network (DNN) based system to estimate the speech spectrum in the frequencies above 4kHz for narrowband 8kHz telephony audio. We train the proposed system on speech datasets processed using various simulated telephony codecs. Additionally, we perform speaker recognition and verification experiments by using the bandwidth expansion system as a preprocessor for speaker verification using wideband models. The dataset used for speaker verification experiments are downsampled Voxceleb1, downsampled SITW data, and the NIST SRE 2010 protocols. We see a significant improvement in the results compared to a simple upsampling with interpolation and low-pass filtering. These promising experiments show that the proposed bandwidth expansion system can be used successfully as a data augmentation for the training of speaker embeddings.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-63"
+  },
+  "luu20_odyssey": {
+   "authors": [
+    [
+     "Chau",
+     "Luu"
+    ],
+    [
+     "Peter",
+     "Bell"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Dropping Classes for Deep Speaker Representation Learning",
+   "original": "58",
+   "page_count": 8,
+   "order": 53,
+   "p1": 357,
+   "pn": 364,
+   "abstract": [
+    "Many recent works on deep speaker embeddings train their feature extraction networks on large classification tasks, distinguishing between all speakers in a training set. Empirically, this has been shown to produce speaker-discriminative embeddings, even for unseen speakers. However, it is not clear that this is the optimal means of training embeddings that generalize well. This work proposes two approaches to learning embeddings, based on the notion of dropping classes during training. We demonstrate that both approaches can yield performance gains in speaker verification tasks. The first proposed method, DropClass, works via periodically dropping a random subset of classes from the training data and the output layer throughout training, resulting in a feature extractor trained on many different classification tasks. Combined with an additive angular margin loss, this method can yield a 7.9% relative improvement in equal error rate (EER) over a strong baseline on VoxCeleb. The second proposed method, DropAdapt, is a means of adapting a trained model to a set of enrolment speakers in an unsupervised manner. This is performed by fine-tuning a model on only those classes which produce high probability predictions when the enrolment speakers are used as input, again also dropping the relevant rows from the output layer. This method yields a large 13.2% relative improvement in EER on VoxCeleb. The code for this paper has been made publicly available.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-50"
+  },
+  "duroselle20_odyssey": {
+   "authors": [
+    [
+     "Raphaël",
+     "Duroselle"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Irina",
+     "Illina"
+    ]
+   ],
+   "title": "Unsupervised Regularization of the Embedding Extractor for Robust Language Identification",
+   "original": "60",
+   "page_count": 8,
+   "order": 7,
+   "p1": 39,
+   "pn": 46,
+   "abstract": [
+    "State-of-the-art spoken language identification systems are constituted of three modules: a frame-level feature extractor, a segment-level embedding extractor and a final classifier. The performance of these systems degrades when facing mismatch between training and testing data. Most domain adaptation methods focus on adaptation of the final classifier. In this article, we propose a model-based unsupervised domain adaptation of the segment-level embedding extractor. The approach consists of a modification of the loss function used for training the embedding extractor. We introduce a regularization term based on the maximum mean discrepancy loss. Experiments were performed on the RATS corpus with transmission channel mismatch between telephone and radio channels. We obtained the same language identification performance as supervised training on the target domains but without using labeled data from these domains.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-6"
+  },
+  "bai20_odyssey": {
+   "authors": [
+    [
+     "Zhongxin",
+     "Bai"
+    ],
+    [
+     "Xiao-Lei",
+     "Zhang"
+    ],
+    [
+     "Jingdong",
+     "Chen"
+    ]
+   ],
+   "title": "Partial AUC Metric Learning Based Speaker Verification Back-End",
+   "original": "64",
+   "page_count": 5,
+   "order": 56,
+   "p1": 380,
+   "pn": 384,
+   "abstract": [
+    "Equal error rate (EER) is a widely used evaluation metric for speaker verification, which reflects the performance of a verification system at a given decision threshold. However, a value of threshold tuned from one application scenario is generally not optimal when the system is used in another scenario. This motivates the need for optimizing the performance at a range of decision thresholds. To fulfill this objective, we propose to optimize the parameters of a squared Mahalanobis distance metric for directly maximizing the partial area under the ROC curve (pAUC) given an interested range of false positive rate. Experimental results on the NIST SRE 2016 and the core tasks of the Speakers in the Wild (SITW) datasets illustrate the effectiveness of the proposed algorithm.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-53"
+  },
+  "garciaromero20_odyssey": {
+   "authors": [
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Greg",
+     "Sell"
+    ],
+    [
+     "Alan",
+     "Mccree"
+    ]
+   ],
+   "title": "MagNetO: X-vector Magnitude Estimation Network plus Offset for Improved Speaker Recognition",
+   "original": "65",
+   "page_count": 8,
+   "order": 2,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "We present a magnitude estimation network that is combined with a modified ResNet x-vector system to generate embeddings whose inner product is able to produce calibrated scores with increased discrimination. A three-step training procedure is used. First, the network is trained using short segments and a multi-class cross-entropy loss with angular margin softmax. During the second step, only a reduced subset of the DNN parameters are refined using full-length recordings. Finally, the magnitude estimation network is trained using a binary cross-entropy loss over pairs of target and non-target trials. The resulting system is evaluated on 4 widely-used benchmarks and provides significant discrimination and calibration gains at multiple operating points.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-1"
+  },
+  "shen20_odyssey": {
+   "authors": [
+    [
+     "Peng",
+     "Shen"
+    ],
+    [
+     "Xugang",
+     "Lu"
+    ],
+    [
+     "Komei",
+     "Sugiura"
+    ],
+    [
+     "Sheng",
+     "Li"
+    ],
+    [
+     "Hisashi",
+     "Kawai"
+    ]
+   ],
+   "title": "Compensation on x-vector for Short Utterance Spoken Language Identification",
+   "original": "66",
+   "page_count": 6,
+   "order": 8,
+   "p1": 47,
+   "pn": 52,
+   "abstract": [
+    "Feature representation based on x-vector has been successfully applied in spoken language identification tasks.  However, the performance on short utterances is severely degraded.  The degradation is mainly due to the large variation of the x-vector representation for short utterances which results in large model confusion.  One of the solutions is to normalize the representations of short utterances with reference to representations of their corresponding long utterances in x-vector space.  Different from previous work, both mean and variance statistic components in the x-vector are normalized for speaker recognition task, we argue that variance component in the x-vector encodes discriminative information of languages which should not be normalized for short utterances.  Based on this consideration, we proposed an x-vector extraction model for short utterance with adding compensation constraint only for the mean component in the x-vector. Experiments on NIST LRE07 dataset were carried out and showed significant improvement on short utterance LID tasks.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-7"
+  },
+  "zhu20_odyssey": {
+   "authors": [
+    [
+     "Yingke",
+     "Zhu"
+    ],
+    [
+     "Brian",
+     "Mak"
+    ]
+   ],
+   "title": "Orthogonality Regularizations for End-to-End Speaker Verification",
+   "original": "72",
+   "page_count": 7,
+   "order": 4,
+   "p1": 17,
+   "pn": 23,
+   "abstract": [
+    "This paper seeks to explore orthogonal training in end-to-end speaker verification (SV) tasks. In various end-to-end speaker verification systems, cosine similarity has been used as the distance measurement for speaker embeddings. However, the effectiveness of cosine similarity is based on the assumption that the dimensions of the speaker embeddings are orthogonal. In our previous orthogonal training work, we have shown that in SV systems with cosine similarity backend, introducing orthogonality on the weights in speaker-discriminative deep neural networks can significantly improve the system performance. In this paper, we introduce two orthogonality regularizers to end-to-end speaker verification systems. The first one is based on the Frobenius norm, and the second one utilizes restricted isometry property. Both regularization methods can be handily incorporated into end-to-end training. We build systems based on the state-of-the-art end-to-end models. Two network architectures, LSTM and TDNN, are used in order to investigate the effects of orthogonality regularization on different types of models. Systems are assessed on the Voxceleb corpus and significant gains are obtained with our new regularized orthogonal training.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-3"
+  },
+  "alam20_odyssey": {
+   "authors": [
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Gilles",
+     "Boulianne"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Mohamed",
+     "Dahmane"
+    ],
+    [
+     "Mireia",
+     "Diez Sánchez"
+    ],
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Pierre-Luc",
+     "St-Charles"
+    ],
+    [
+     "Marc",
+     "Lalonde"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Petr",
+     "Mizera"
+    ],
+    [
+     "Joao",
+     "Monteiro"
+    ],
+    [
+     "Ladislav",
+     "Mosner"
+    ],
+    [
+     "Cedric",
+     "Noiseux"
+    ],
+    [
+     "Ondřej",
+     "Novotný"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Josef",
+     "Slavicek"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Shuai",
+     "Wang"
+    ],
+    [
+     "Hossein",
+     "Zeinali"
+    ]
+   ],
+   "title": "Analysis of ABC Submission to NIST SRE 2019 CMN and VAST Challenge",
+   "original": "73",
+   "page_count": 7,
+   "order": 43,
+   "p1": 289,
+   "pn": 295,
+   "abstract": [
+    "We present a condensed description and analysis of the joint submission of ABC team for NIST SRE 2019, by BUT, CRIM, Phonexia, Omilia and UAM. We concentrate on challenges that arose during development and we analyze the results obtained on the evaluation data and on our development sets. The conversational telephone speech (CMN2) condition is challenging for current state-of-the-art systems, mainly due to the language mismatch between training and test data. We show that a combination of adversarial domain adaptation, backend adaptation and score normalization can mitigate this mismatch. On the VAST condition, we demonstrate the importance of deploying diarization when dealing with multi-speaker utterances and the drastic improvements that can be obtained by combining audio and visual modalities.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-41"
+  },
+  "vandervloed20_odyssey": {
+   "authors": [
+    [
+     "David",
+     "van der Vloed"
+    ],
+    [
+     "Finnian",
+     "Kelly"
+    ],
+    [
+     "Anil",
+     "Alexander"
+    ]
+   ],
+   "title": "Exploring the Effects of Device Variability on Forensic Speaker Comparison Using VOCALISE and NFI-FRIDA, A Forensically Realistic Database",
+   "original": "74",
+   "page_count": 6,
+   "order": 60,
+   "p1": 402,
+   "pn": 407,
+   "abstract": [
+    "In this paper we present NFI-FRIDA (Netherlands Forensic Institute - Forensically Realistic Inter-Device Audio), a database of speech recordings acquired simultaneously by multiple forensically-relevant recording devices, and demonstrate how this database can be used to support forensic speaker comparison (FSC) casework. We use VOCALISE (Voice Comparison and Analysis of the Likelihood of Speech Evidence), an x-vector based automatic speaker recognition system that allows a forensic practitioner to perform speaker comparisons in a flexible way. After establishing how variability of the recording device affects speaker recognition discrimination performance, we explore how variability of the recording device of the relevant population affects the resulting likelihood ratios. These experiments demonstrate a research methodology for how a forensic practitioner can corroborate their subjective judgment of the 'representativeness' of the relevant population in FSC casework.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-57"
+  },
+  "silnova20_odyssey": {
+   "authors": [
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ]
+   ],
+   "title": "Probabilistic Embeddings for Speaker Diarization",
+   "original": "75",
+   "page_count": 8,
+   "order": 5,
+   "p1": 24,
+   "pn": 31,
+   "abstract": [
+    "Speaker embeddings (x-vectors) extracted from very short segments of speech have recently been shown to give competitive performance in speaker diarization. We generalize this recipe by extracting from each speech segment, in parallel with the x-vector, also a diagonal precision matrix, thus providing a path for the propagation of information about the quality of the speech segment into a PLDA scoring backend. These precisions quantify the uncertainty about what the values of the embeddings might have been if they had been extracted from high quality speech segments. The proposed \\emph{probabilistic embeddings} (x-vectors with precisions) are interfaced with the PLDA model by treating the x-vectors as hidden variables and marginalizing them out. We apply the proposed probabilistic embeddings as input to an agglomerative hierarchical clustering (AHC) algorithm to do diarization in the DIHARD'19 evaluation set. We compute the full PLDA likelihood `by the book' for each clustering hypothesis that is considered by AHC. We show that this gives accuracy gains relative to a baseline AHC algorithm, applied to traditional x-vectors (without uncertainty), and which uses averaging of binary log-likelihood-ratios, rather than by-the-book scoring.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-4"
+  },
+  "mohammadamini20_odyssey": {
+   "authors": [
+    [
+     "Mohammad",
+     "Mohammadamini"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Paul-Gauthier",
+     "Noé"
+    ]
+   ],
+   "title": "Denoising x-vectors for Robust Speaker Recognition",
+   "original": "78",
+   "page_count": 6,
+   "order": 12,
+   "p1": 75,
+   "pn": 80,
+   "abstract": [
+    "Using deep learning methods has led to significant improvement in speaker recognition systems. Introducing x-vectors as a speaker modeling method has made these systems more robust. Since, in challenging environments with noise and reverberation, the performance of x-vectors systems degrades significantly, the demand for denoising techniques remains as before. In this paper, for the first time, we try to denoise the x-vectors speaker embedding. Firstly, we use the i-MAP method which considers that both noise and clean x-vectors have a Gaussian distribution. Then, leveraging denoising autoencoders (DAE) we try to reconstruct the clean x-vector from the corrupted version. After that, we propose two hybrid systems composed of statistical i-MAP and DAE. Finally, we propose a novel DAE architecture, named Deep Stacked DAE, composed of several DAEs where each DAE receives as input the output of its predecessor DAE concatenated with the difference between noisy x-vectors and its predecessor's output. The experiments on Fabiol corpus show that the results given by the hybrid DAE i-MAP method in several cases outperforms the conventional DAE and i-MAP methods. Also, the results for Deep Stacked DAE in most cases is better than the other proposed methods. For utterances longer than 12 seconds we achieved a 51% improvement in terms of EER with Deep Stacked DAE, and for utterances shorter than 2 seconds, Deep Stacked DAE gives 18% improvements compared to the baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-11"
+  },
+  "kethireddy20_odyssey": {
+   "authors": [
+    [
+     "Rashmi",
+     "Kethireddy"
+    ],
+    [
+     "Sudarsana Reddy",
+     "Kadiri"
+    ],
+    [
+     "Santosh",
+     "Kesiraju"
+    ],
+    [
+     "Suryakanth V.",
+     "Gangashetty"
+    ]
+   ],
+   "title": "Zero-Time Windowing Cepstral Coefficients for Dialect Classification",
+   "original": "79",
+   "page_count": 7,
+   "order": 6,
+   "p1": 32,
+   "pn": 38,
+   "abstract": [
+    "In this paper, we propose to use novel acoustic features, namely zero-time windowing cepstral coefficients (ZTWCC) for dialect classification. ZTWCC features are derived from high-resolution spectrum obtained with zero-time windowing (ZTW) method, and were shown to be useful for discriminating speech sound characteristics effectively as compared to a DFT spectrum. Our proposed system is based on i-vectors trained on static and shifted delta coefficients of ZTWCC. The i-vectors are further whitened before classification. The proposed system is compared with i-vector baseline system trained on Mel frequency cepstral coefficient (MFCC) features. Classification results on STYRIALECT database (German) and UT-Podcast (English) database revealed that the system with proposed features outperformed aforementioned baseline system. Our detailed experimental analysis on dialect classification shows that the i-vector system can indeed exploit high spectral resolution of ZTWCC and hence performed better than MFCC features based system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-5"
+  },
+  "mosner20_odyssey": {
+   "authors": [
+    [
+     "Ladislav",
+     "Mošner"
+    ],
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Jan",
+     "Černocký"
+    ]
+   ],
+   "title": "Utilizing VOiCES Dataset for Multichannel Speaker Verification with Beamforming",
+   "original": "80",
+   "page_count": 7,
+   "order": 29,
+   "p1": 187,
+   "pn": 193,
+   "abstract": [
+    "VOiCES from a Distance Challenge 2019 aimed at the evaluation of speaker verification (SV) systems using single-channel trials based on the Voices Obscured in Complex Environmental Settings (VOiCES) corpus. Since it comprises recordings of the same utterances captured simultaneously by multiple microphones in the same environments, it is also suitable for multichannel experiments. In this work, we design a multichannel dataset as well as development and evaluation trials for SV inspired by the VOiCES challenge. Alternatives discarding harmful microphones are presented as well. We asses the utilization of the created dataset for x-vector based SV with beamforming as a front end. Standard fixed beamforming and NN-supported beamforming using simulated data and ideal binary masks (IBM) are compared with another variant of NN-supported beamforming that is trained solely on the VOiCES data. Lack of data revealed by performed experiments with VOiCES-data trained beamformer was tackled by means of a variant of SpecAugment applied to magnitude spectra. This approach led to as much as 10% relative improvement in EER pushing results closer to those obtained by a good beamformer based on IBMs.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-27"
+  },
+  "chettri20_odyssey": {
+   "authors": [
+    [
+     "Bhusan",
+     "Chettri"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Emmanouil",
+     "Benetos"
+    ]
+   ],
+   "title": "Subband Modeling for Spoofing Detection in Automatic Speaker Verification",
+   "original": "81",
+   "page_count": 8,
+   "order": 51,
+   "p1": 341,
+   "pn": 348,
+   "abstract": [
+    "Spectrograms - time-frequency representations of audio signals - have found widespread use in neural network-based spoofing detection. While deep models are trained on the full-band spectrum of the signal, we argue that not all frequency bands are useful for these tasks. In this paper, we systematically investigate the impact of different subbands and their importance on replay spoofing detection on two benchmark datasets: ASVspoof 2017 v2.0 and ASVspoof 2019 PA. We propose a joint subband modelling framework that employs n different sub-networks to learn sub-band specific features. These are later combined and passed to a classifier and the whole network weights are updated during training. Our findings on the ASVspoof 2017 dataset suggest that the most discriminative information appears to be in the first and the last 1 KHz frequency bands, and the joint model trained on these two subbands shows the best performance outperforming the baselines by a large margin. However, these findings do not generalise on the ASVspoof 2019 PA dataset. This suggests that the datasets available for training these models do not reflect real world replay conditions suggesting a need for careful design of datasets for training replay spoofing countermeasures.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-48"
+  },
+  "peri20_odyssey": {
+   "authors": [
+    [
+     "Raghuveer",
+     "Peri"
+    ],
+    [
+     "Haoqi",
+     "Li"
+    ],
+    [
+     "Krishna",
+     "Somandepalli"
+    ],
+    [
+     "Arindam",
+     "Jati"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "An Empirical Analysis of Information Encoded in Disentangled Neural Speaker Representations",
+   "original": "82",
+   "page_count": 8,
+   "order": 30,
+   "p1": 194,
+   "pn": 201,
+   "abstract": [
+    "The primary characteristic of robust speaker representations is that they are invariant to factors of variability not related to speaker identity. Disentanglement of speaker representations is one of the techniques used to improve robustness of speaker representations to both intrinsic factors that are acquired during speech production (e.g., emotion, lexical content) and extrinsic factors that are acquired during signal capture (e.g., channel, noise). Disentanglement in neural speaker representations can be achieved either in a supervised fashion with annotations of the nuisance factors (factors not related to speaker identity) or in an unsupervised fashion without labels of the factors to be removed. In either case it is important to understand the extent to which the various factors of variability are entangled in the representations. In this work, we examine speaker representations with and without unsupervised disentanglement for the amount of information they capture related to a suite of factors. Using classification experiments we provide empirical evidence that disentanglement reduces the information with respect to nuisance factors from speaker representations, while retaining speaker information. This is further validated by speaker verification experiments on the VOiCES corpus in several challenging acoustic conditions. We also show improved robustness in speaker verification tasks using data augmentation during training of disentangled speaker embeddings. Finally, based on our findings, we provide insights into the factors that can be effectively separated using the unsupervised disentanglement technique and discuss potential future directions.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-28"
+  },
+  "gusev20_odyssey": {
+   "authors": [
+    [
+     "Aleksei",
+     "Gusev"
+    ],
+    [
+     "Vladimir",
+     "Volokhov"
+    ],
+    [
+     "Tseren",
+     "Andzhukaev"
+    ],
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Galina",
+     "Lavrentyeva"
+    ],
+    [
+     "Marina",
+     "Volkova"
+    ],
+    [
+     "Alice",
+     "Gazizullina"
+    ],
+    [
+     "Andrey",
+     "Shulipa"
+    ],
+    [
+     "Artem",
+     "Gorlanov"
+    ],
+    [
+     "Anastasia",
+     "Avdeeva"
+    ],
+    [
+     "Artem",
+     "Ivanov"
+    ],
+    [
+     "Alexander",
+     "Kozlov"
+    ],
+    [
+     "Timur",
+     "Pekhovsky"
+    ],
+    [
+     "Yuri",
+     "Matveev"
+    ]
+   ],
+   "title": "Deep Speaker Embeddings for Far-Field Speaker Recognition on Short Utterances",
+   "original": "83",
+   "page_count": 8,
+   "order": 28,
+   "p1": 179,
+   "pn": 186,
+   "abstract": [
+    "Speaker recognition systems based on deep speakers embeddings have achieved significant performance in controlled conditions according to the results obtained for early NIST SRE (Speaker Recognition Evaluation) datasets. From the practical point of view, taking into account the increased interest in virtual assistants (such as Amazon Alexa, Google Home, Apple Siri, etc.), speaker verification on short utterances in uncontrolled noisy environment conditions is one of the most challenging and highly in-demand tasks. This paper presents approaches aimed to achieve two goals: a) improve the quality of far-field speaker verification systems in the presence of environmental noise, reverberation and b) reduce the system quality degradation for short utterances. For this purposes, we considered deep neural network architectures based on TDNN (Time Delay Neural Network) and ResNet (Residual Neural Network) blocks. We experimented with state-of-the-art embedding extractors and their training procedures. Obtained results confirm that ResNet architectures outperform the standard x-vector approach in terms of the speaker verification quality for both long-time and short-time utterances. We also investigate the impact of speech activity detector, different scoring models, adaptation and score normalization techniques. The experimental results are presented for publicly available data and verification protocols for the VoxCeleb1, VoxCeleb2, and VOiCES datasets.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-26"
+  },
+  "vestman20_odyssey": {
+   "authors": [
+    [
+     "Ville",
+     "Vestman"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Neural i-vectors",
+   "original": "84",
+   "page_count": 8,
+   "order": 11,
+   "p1": 67,
+   "pn": 74,
+   "abstract": [
+    "Deep speaker embeddings have been demonstrated to outperform their generative counterparts, i-vectors, in recent speaker verification evaluations. To combine the benefits of high performance and generative interpretation, we investigate the use of deep embedding extractor and i-vector extractor in succession. To bundle deep embedding extractors with i-vector extractors, we adopt aggregation layers inspired by the Gaussian mixture model (GMM) to the embedding extractor networks. The inclusion of GMM-like layer allows the discriminatively trained network to be used as a provider of sufficient statistics for the i-vector extractor to extract what we call neural i-vectors. We test our deep embeddings as well as the proposed neural i-vectors on the Speakers in the Wild (SITW) and the Speaker Recognition Evaluation (SRE) 2018 and 2019 datasets. On the core-core condition of SITW, our deep embeddings obtain performance comparative to the state-of-the-art. The neural i-vectors obtain about 50% worse performance than the deep embeddings, but on the other hand outperform the previous i-vector approaches reported in the literature by a clear margin.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-10"
+  },
+  "garciaperera20_odyssey": {
+   "authors": [
+    [
+     "Leibny Paola",
+     "Garcia Perera"
+    ],
+    [
+     "Jesus",
+     "Villalba"
+    ],
+    [
+     "Herve",
+     "Bredin"
+    ],
+    [
+     "Jun",
+     "Du"
+    ],
+    [
+     "Diego",
+     "Castan"
+    ],
+    [
+     "Alejandrina",
+     "Cristia"
+    ],
+    [
+     "Latane",
+     "Bullock"
+    ],
+    [
+     "Ling",
+     "Guo"
+    ],
+    [
+     "Koji",
+     "Okabe"
+    ],
+    [
+     "Phani Sankar",
+     "Nidadavolu"
+    ],
+    [
+     "Saurabh",
+     "Kataria"
+    ],
+    [
+     "Sizhu",
+     "Chen"
+    ],
+    [
+     "Leo",
+     "Galmant"
+    ],
+    [
+     "Marvin",
+     "Lavechin"
+    ],
+    [
+     "Lei",
+     "Sun"
+    ],
+    [
+     "Marie-Philippe",
+     "Gill"
+    ],
+    [
+     "Bar",
+     "Ben-Yair"
+    ],
+    [
+     "Sajjad",
+     "Abdoli"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Wassim",
+     "Bouaziz"
+    ],
+    [
+     "Hadrien",
+     "Titeux"
+    ],
+    [
+     "Emmanuel",
+     "Dupoux"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Speaker Detection in the Wild: Lessons Learned from JSALT 2019",
+   "original": "85",
+   "page_count": 8,
+   "order": 62,
+   "p1": 415,
+   "pn": 422,
+   "abstract": [
+    "This paper presents the problems and solutions addressed at theJSALT workshop when using a single microphone for speaker detection in adverse scenarios. The main focus was to tackle a wide range of conditions that go from meetings to wild speech. We describe the research threads we explored and a set of modules that was successful for these scenarios. The ultimate goal was to explore speaker detection; but our first finding was that an effective diarization improves detection, and not having a diarization stage impoverishes the performance. All the different configurations of our research agree on this fact and follow a main backbone that includes diarization asa previous stage. With this backbone, we analyzed the following problems: voice activity detection, how to deal with noisy signals, domain mismatch, how to improve the clustering; and the overall impact of previous stages in the final speaker detection. In this pa-per, we show partial results for speaker diarizarion to have a better understanding of the problem and we present the final results for speaker detection\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-59"
+  },
+  "lileikyte20_odyssey": {
+   "authors": [
+    [
+     "Rasa",
+     "Lileikyte"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Assessing Child Communication Engagement via Speech Recognition in Naturalistic Active Learning Spaces",
+   "original": "86",
+   "page_count": 6,
+   "order": 59,
+   "p1": 396,
+   "pn": 401,
+   "abstract": [
+    "The ability to assess children conversational interaction is critical in determining language and cognitive proficiency for typically developing and at-risk children. The earlier at-risk child is identified, the earlier support can be provided to reduce the social impact of the speech disorder. To date, limited research has been performed for young child speech recognition in classroom settings. This study addresses speech recognition research with naturalistic children speech, where age varies from 2.5 to 5 years. Data augmentation is relatively under explored for child speech. Therefore, we investigate the effectiveness of data augmentation techniques to improve both language and acoustic models. We explore alternate text augmentation approaches using adult data, Web data, and via text generated by recurrent neural networks. We also compare several acoustic augmentation techniques: speed perturbation, tempo perturbation, and adult data. Finally, we comment on child word count rates to assess child speech development.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-56"
+  },
+  "villalbalopez20_odyssey": {
+   "authors": [
+    [
+     "Jesus Antonio",
+     "Villalba Lopez"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Nanxin",
+     "Chen"
+    ],
+    [
+     "Gregory",
+     "Sell"
+    ],
+    [
+     "Jonas",
+     "Borgstrom"
+    ],
+    [
+     "Alan",
+     "McCree"
+    ],
+    [
+     "Leibny Paola",
+     "Garcia Perera"
+    ],
+    [
+     "Saurabh",
+     "Kataria"
+    ],
+    [
+     "Phani Sankar",
+     "Nidadavolu"
+    ],
+    [
+     "Pedro",
+     "Torres-Carrasquiilo"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Advances in Speaker Recognition for Telephone and Audio-Visual Data: the JHU-MIT Submission for NIST SRE19",
+   "original": "88",
+   "page_count": 8,
+   "order": 41,
+   "p1": 273,
+   "pn": 280,
+   "abstract": [
+    "We present a condensed description of the joint effort of JHU-CLSP, JHU-HLTCOE and for NIST SRE19. NIST SRE19 consisted of a Tunisian Arabic Telephone Speech challenge (CTS) and an audio-visual (AV) evaluation based on Internet video content. The audio-visual evaluation included the regular audio condition but also novel visual (face recognition) and multi-modal conditions. For CTS and AV-audio conditions, successful systems were based on x-Vector embeddings with very deep encoder networks, i.e, 2D residual networks (ResNet34) and Factorized TDNN (F-TDNN). For CTS, PLDA back-end domain-adapted using SRE18 eval labeled data provided significant gains w.r.t. NIST SRE18 results. For AV-audio, cosine scoring with x-Vector fine-tuned to full-length recordings outperformed PLDA based systems. In CTS, the best fusion attained EER=2.19% and Cprimary=0.205, which are around 50% and 30% better than SRE18 CTS results respectively. The best single system was HLTCOE wide ResNet with EER=2.68% and Cprimary=0.258. In AV-audio, our primary fusion attained EER=1.48% and Cprimary=0.087, which was just slightly better than the best single system (EER=1.78%, Cprimary=0.101). For the AV-video condition, our systems were based on pre-trained face detectors --MT-CNN and RetinaFace-- and face recognition embeddings--ResNets trained with additive angular margin softmax. We focused on selecting the best strategies to select the enrollment faces and how to cluster and combine the embeddings of the faces of the multiple subjects in the test recording. Our primary fusion attained EER=1.87% and Cprimary=0.052. For the multi-modal condition, we just added the calibrated scores of the individual audio and video systems. Thus, we assumed complete independence between audio and video modalities. The multi-modal fusion provided impressive improvement with EER=0.44% and Cprimary=0.018.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-39"
+  },
+  "flemotomos20_odyssey": {
+   "authors": [
+    [
+     "Nikolaos",
+     "Flemotomos"
+    ],
+    [
+     "Panayiotis",
+     "Georgiou"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Linguistically Aided Speaker Diarization Using Speaker Role Information",
+   "original": "91",
+   "page_count": 8,
+   "order": 18,
+   "p1": 117,
+   "pn": 124,
+   "abstract": [
+    "Speaker diarization relies on the assumption that speech segments corresponding to a particular speaker are concentrated in a specific region of the speaker space; a region which represents that speaker's identity. These identities are not known a priori, so a clustering algorithm is typically employed, which is traditionally based solely on audio. Under noisy conditions, however, such an approach poses the risk of generating unreliable speaker clusters. In this work we aim to utilize linguistic information as a supplemental modality to identify the various speakers in a more robust way. We are focused on conversational scenarios where the speakers assume distinct roles and are expected to follow different linguistic patterns. This distinct linguistic variability can be exploited to help us construct the speaker identities. That way, we are able to boost the diarization performance by converting the clustering task to a classification one. The proposed method is applied in real-world dyadic psychotherapy interactions between a provider and a patient and demonstrated to show improved results.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-17"
+  },
+  "monteiro20_odyssey": {
+   "authors": [
+    [
+     "Joao",
+     "Monteiro"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Tiago",
+     "Falk"
+    ]
+   ],
+   "title": "A Multi-condition Training Strategy for Countermeasures Against Spoofing Attacks to Speaker Recognizers",
+   "original": "92",
+   "page_count": 8,
+   "order": 45,
+   "p1": 296,
+   "pn": 303,
+   "abstract": [
+    "In this contribution, we are concerned with the design of effective strategies to train simple-to-use detectors of spoofing attacks to automatic speaker recognizers, i.e., systems able to directly map data into scores indicating the likelihood of an attack, as opposed to complex pipelines involving several independent steps required for training and inference. As such, given that artificial neural networks have been responsible for the shift from pipelines to end-to-end systems within several applications, we specifically target this kind of model. The main challenge in training neural networks for the applications considered herein lies in the fact that openly available spoofing corpora are relatively small due to the inherent difficulty involved in collecting/generating this kind of data. We thus employ a data augmentation strategy enabling the introduction of training examples which significantly improves training data in terms of size and diversity. Neural networks trained on top of augmented training data are shown to be able to attain significant improvement in terms of detection performance when compared to standard GMM-based classifiers.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-42"
+  },
+  "ling20_odyssey": {
+   "authors": [
+    [
+     "Shaoshi",
+     "Ling"
+    ],
+    [
+     "Julian",
+     "Salazar"
+    ],
+    [
+     "Yuzong",
+     "Liu"
+    ],
+    [
+     "Katrin",
+     "Kirchhoff"
+    ]
+   ],
+   "title": "BERTphone: Phonetically-aware Encoder Representations for Utterance-level Speaker and Language Recognition",
+   "original": "93",
+   "page_count": 8,
+   "order": 3,
+   "p1": 9,
+   "pn": 16,
+   "abstract": [
+    "We introduce BERTphone, a Transformer encoder trained on large speech corpora that outputs phonetically-aware contextual representation vectors that can be used for both speaker and language recognition. This is accomplished by training on two objectives: the frst, inspired by adapting BERT to the continuous domain, involves masking spans of input frames and reconstructing the whole sequence for acoustic representation learning; the second, inspired by the success of bottleneck features from ASR, is a sequence-level CTC loss applied to phoneme labels for phonetic representation learning. We pretrain two B E RT P H O N E models (one on Fisher and one on TED-LIUM) and use them as feature extractors into x-vector-style DNNs for both tasks. We attain a state-of-the-art C_avg of 6.16 on the challenging LRE07 3sec closed-set language recognition task. On Fisher and VoxCeleb speaker recognition tasks, we see an 18% relative reduction in speaker EER when training on BERTphone vectors instead of MFCCs. In general, BERTphone outperforms previous phonetic pretraining approaches on the same data.\n"
+   ],
+   "doi": "10.21437/Odyssey.2020-2"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Sadaoki Furui",
+   "papers": [
+    "furui20_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition 1",
+   "papers": [
+    "garciaromero20_odyssey",
+    "ling20_odyssey",
+    "zhu20_odyssey",
+    "silnova20_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language Recognition",
+   "papers": [
+    "kethireddy20_odyssey",
+    "duroselle20_odyssey",
+    "shen20_odyssey",
+    "wang20b_odyssey",
+    "han20_odyssey",
+    "vestman20_odyssey",
+    "mohammadamini20_odyssey",
+    "bousquet20_odyssey",
+    "mclaren20_odyssey"
+   ]
+  },
+  {
+   "title": "Diarization",
+   "papers": [
+    "stolcke20_odyssey",
+    "lin20b_odyssey",
+    "chen20b_odyssey",
+    "flemotomos20_odyssey",
+    "lin20_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing and Countermeasure 1",
+   "papers": [
+    "chen20_odyssey",
+    "wang20_odyssey",
+    "kamble20_odyssey",
+    "kanervisto20_odyssey",
+    "tian20_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Mirco Ravanelli",
+   "papers": [
+    "ravanelli20_odyssey"
+   ]
+  },
+  {
+   "title": "Special Session: VOiCES 2020",
+   "papers": [
+    "nandwana20_odyssey",
+    "jung20_odyssey",
+    "gusev20_odyssey",
+    "mosner20_odyssey",
+    "peri20_odyssey",
+    "ramoji20_odyssey",
+    "lin20c_odyssey"
+   ]
+  },
+  {
+   "title": "Voice Conversion and Synthesis",
+   "papers": [
+    "yook20_odyssey",
+    "williams20_odyssey",
+    "zhou20_odyssey",
+    "sisman20_odyssey",
+    "liu20_odyssey",
+    "gao20_odyssey"
+   ]
+  },
+  {
+   "title": "Evaluation and Benchmarking",
+   "papers": [
+    "sadjadi20_odyssey",
+    "sadjadi20b_odyssey",
+    "villalbalopez20_odyssey",
+    "ramoji20b_odyssey",
+    "alam20_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Luciana Ferrer",
+   "papers": [
+    "ferrer20_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing and Countermeasure 2",
+   "papers": [
+    "monteiro20_odyssey",
+    "kamble20b_odyssey",
+    "lapidot20_odyssey",
+    "yoon20_odyssey",
+    "halpern20_odyssey",
+    "tak20_odyssey",
+    "chettri20_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition 2",
+   "papers": [
+    "chung20_odyssey",
+    "luu20_odyssey",
+    "li20_odyssey",
+    "ferrer20b_odyssey",
+    "bai20_odyssey"
+   ]
+  },
+  {
+   "title": "Speech Application",
+   "papers": [
+    "li20b_odyssey",
+    "wu20_odyssey",
+    "lileikyte20_odyssey",
+    "vandervloed20_odyssey",
+    "wilkinghoff20_odyssey",
+    "garciaperera20_odyssey",
+    "huang20_odyssey",
+    "liang20_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition 3",
+   "papers": [
+    "ding20_odyssey",
+    "sivaraman20_odyssey",
+    "miyamoto20_odyssey",
+    "shi20_odyssey",
+    "kataria20_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/Odyssey.2020"
+}

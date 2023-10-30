@@ -1,0 +1,1092 @@
+{
+ "title": "Multi-Modal Dialogue in Mobile Environments",
+ "location": "Kloster Irsee, Germany",
+ "startDate": "17/6/2002",
+ "endDate": "19/6/2002",
+ "conf": "IDS",
+ "year": "2002",
+ "name": "ids_2002",
+ "series": "IDS",
+ "SIG": "",
+ "title1": "Multi-Modal Dialogue in Mobile Environments",
+ "date": "17-19 June 2002",
+ "papers": {
+  "jameson02_ids": {
+   "authors": [
+    [
+     "Anthony",
+     "Jameson"
+    ]
+   ],
+   "title": "Usabillity issues and methods for mobile multimodal systems",
+   "original": "ids2_kn1",
+   "page_count": 14,
+   "order": 1,
+   "p1": "paper KN1",
+   "pn": "",
+   "abstract": [
+    "Mobile multimodal systems raise some novel usability challenges. Some of these are due to the combination of two characteristics of mobile systems and multimodal systems, respectively: the competition between the system and the environment for the users attention; and the availability of multiple modalities for user input and system output. This paper first presents a theoretical argument that the set of problems raised by the combination of these two characteristics is more than just the union of the two sets raised by each characteristic itself. It then discusses one relatively new method - mobile eye tracking - that can help with the empirical study of these problems. Finally, it considers the question of how automatic system adaptation to a users current resource limitations might ultimately enhance the usability of mobile multimodal systems.\n",
+    ""
+   ]
+  },
+  "huning02_ids": {
+   "authors": [
+    [
+     "Harald",
+     "Hüning"
+    ],
+    [
+     "André",
+     "Berton"
+    ],
+    [
+     "Udo",
+     "Haiber"
+    ],
+    [
+     "Fritz",
+     "Class"
+    ]
+   ],
+   "title": "Speech recognition methods and their potential for dialoguesystems in mobile environments",
+   "original": "ids2_tut",
+   "page_count": 14,
+   "order": 2,
+   "p1": "tutorial paper",
+   "pn": "",
+   "abstract": [
+    "The DaimlerChrysler speech recognizer is specialized for robust speech recognition in noisy environments, in particular for command and control applications. The recognizer that is used in cars has fixed grammars, which restrict the speaker to using short commands. This paper presents methods that allow the user to speak more freely and add spontaneous words to the commands: language modelling, confidence measures, and out-of-vocabulary words. Both the grammars and the statistical language models allow a dynamic update of categories (lists of words of given classes). Furthermore, the grammar descriptions can be extended on the fly. The quality of the recognition results is assessed by confidence measures, which can also be used to detect out-of-vocabulary words. Several units of the recognizer can be run in parallel with different lexica and language models. Finally, several methods are presented that achieve robustness of the recognizer towards varying acoustic conditions, for example speaker changes, changes of the language that is spoken, and background noise. An echo-cancellation method gives the functionality that the user may barge-in when the dialogue system makes a speech output, so the speaker's voice is separated out.\n",
+    ""
+   ]
+  },
+  "tamura02_ids": {
+   "authors": [
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "A robust multi-modal speech recognition method using optical-flow analysis",
+   "original": "ids2_012",
+   "page_count": 12,
+   "order": 3,
+   "p1": "paper 12",
+   "pn": "",
+   "abstract": [
+    "This paper proposes a new multi-modal speech recognition method using optical-flow analysis, evaluating its robustness to acoustic and visual noises. Optical flow is defined as the distribution of apparent velocities in the movement of brightness patterns in an image. Since the optical flow is computed without extracting speaker's lip contours and location, robust visual features can be obtained for lip movements. Our method calculates a visual feature set in each frame consisting of maximum and minimum values of integral of the optical flow. This feature set has not only silence information but also open/close status of the speaker's mouth. The visual feature set is combined with an acoustic feature set in the framework of HMM-based recognition. Triphone HMMs are trained using the combined parameter set extracted from clean speech data. Two multi-modal speech recognition experiments have been carried out. First, acoustic white noise was added to speech wave forms, and a speech recognition experiment was conducted using audio-visual data from 11 male speakers uttering connected Japanese digits. The following improvements of relative reduction of digit error rate over the audio-only recognition scheme were achieved, when the visual information was incorporated into silence HMM: 32% at SNR=10dB and 47% at SNR=15dB. Second, a real-world data distorted both acoustically and visually was recorded in a driving car from six male speakers and recognized. We achieved approximately 17% and 11% relative error reduction compared with audio-only results on batch and incremental MLLR-based adaptation, respectively.\n",
+    ""
+   ]
+  },
+  "aalburg02_ids": {
+   "authors": [
+    [
+     "Stefanie",
+     "Aalburg"
+    ],
+    [
+     "Christophe",
+     "Beaugeant"
+    ],
+    [
+     "Sorel",
+     "Stan"
+    ],
+    [
+     "Tim",
+     "Fingscheidt"
+    ],
+    [
+     "Radu",
+     "Balan"
+    ],
+    [
+     "Justinian",
+     "Rosca"
+    ]
+   ],
+   "title": "Single- and two-channel noise reduction for robust speech recognition",
+   "original": "ids2_018",
+   "page_count": 10,
+   "order": 4,
+   "p1": "paper 18",
+   "pn": "",
+   "abstract": [
+    "Hands-free operation of a mobile phone in car raises major challenges for acoustic enhancement algorithms and speech recognition engines. This is due to a degradation of the speech signal caused by reverberation effects and engine noise. In a typical mobile phone/carkit configuration only the car-kit microphone is used. A legitimate question is whether it is possible to improve the useful signal using the input from the second microphone, namely the microphone of the mobile terminal.\n",
+    "In this paper we show that a speech enhancement algorithm specifically developed for two input channels significantly increases the word recognition rates in comparison with single-channel noise reduction techniques.\n",
+    ""
+   ]
+  },
+  "esteve02_ids": {
+   "authors": [
+    [
+     "Yannick",
+     "Estève"
+    ],
+    [
+     "Christian",
+     "Raymond"
+    ],
+    [
+     "Renato",
+     "De Mori"
+    ]
+   ],
+   "title": "On the use of structures in language models for dialogue -specific solutions For specific problems",
+   "original": "ids2_038",
+   "page_count": 15,
+   "order": 5,
+   "p1": "paper 38",
+   "pn": "",
+   "abstract": [
+    "Availability of large corpora for training language models to develop dialogue systems is rare. Fortunately, for specific dialogue application, many sentences follow a limited number of typical patterns. In a language like French, frequent errors are due to homophones. Three paradigms are proposed in this paper to rescore a trellis of hypothesized words. They are based on sentence patterns detected in the most likely sentence hypothesized in a first recognition phase.\n",
+    ""
+   ]
+  },
+  "buhler02_ids": {
+   "authors": [
+    [
+     "Dirk",
+     "Bühler"
+    ],
+    [
+     "Wolfgang",
+     "Minker"
+    ],
+    [
+     "Jochen",
+     "Häußler"
+    ],
+    [
+     "Sven",
+     "Krüger"
+    ]
+   ],
+   "title": "The Smartkom mobile multi-modal dialogue system",
+   "original": "ids2_002",
+   "page_count": 11,
+   "order": 6,
+   "p1": "paper 2",
+   "pn": "",
+   "abstract": [
+    "This article describes requirements and a prototype system for a flexible multimodal human-machine interaction in two substantially different mobile environments, namely pedestrian and car. The system allows an integrated trip planning using multi-modal input and output. Motivated by the specific safety and privacy requirements in both environments, we present a framework for flexible modality control. A characteristic feature of our framework is the insight that both user and system may independently and asynchronously initiate a modality transition. We conclude with a brief discussion of further issues and research questions.\n",
+    ""
+   ]
+  },
+  "edlund02_ids": {
+   "authors": [
+    [
+     "Jens",
+     "Edlund"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Magnus",
+     "Nordstrand"
+    ]
+   ],
+   "title": "GESOM (Generic System Output Model) - a model for sescribing andgenerating multi-modal output",
+   "original": "ids2_029",
+   "page_count": 11,
+   "order": 7,
+   "p1": "paper 29",
+   "pn": "",
+   "abstract": [
+    "This paper describes GESOM, a model for generation of generalised, high-level multi-modal dialogue system output. Its aim is to let dialogue systems generate output for various output devices and modalities with a minimum of changes to the output generation of the dialogue system. The model was developed and tested within the AdApt spoken dialogue system, from which the bulk of the examples in this paper are taken.\n",
+    ""
+   ]
+  },
+  "edlund02b_ids": {
+   "authors": [
+    [
+     "Jens",
+     "Edlund"
+    ],
+    [
+     "Magnus",
+     "Nordstrand"
+    ]
+   ],
+   "title": "Turn-taking gestures and hourglasses in a multi-modal dialogue system",
+   "original": "ids2_031",
+   "page_count": 10,
+   "order": 8,
+   "p1": "paper 31",
+   "pn": "",
+   "abstract": [
+    "An experiment with 24 subjects was performed. The subjects were split in three groups, and asked to extract information from the AdApt dialogue system for somewhat over 30 minutes per subject. The system configuration varied in that one group had turn-taking gestures from an animated talking head, another had an hourglass symbol to signal when the system was busy, and the third had no turn-taking feedback at all. The results show that although the hourglass setup showed no decrease in efficiency compared to the facial gestures, it made the subjects less satisfied. The lack of turn-taking feedback was noticed and mentioned by half of the subjects in that group.\n",
+    ""
+   ]
+  },
+  "moller02_ids": {
+   "authors": [
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Towards quantifying the influence of user expectation on the quality of mobile services",
+   "original": "ids2_003",
+   "page_count": 15,
+   "order": 9,
+   "p1": "paper 3",
+   "pn": "",
+   "abstract": [
+    "This paper identifies influencing factors on the user's quality perception which are linked to his/her expectation. Emphasis is put on mobile situations and on services which may offer information using different media. For human-to-human speech communication services experimental results are presented. They are interpreted with the help of diffusion theory, and categorized according to a newly developed quality of service schematic.\n",
+    ""
+   ]
+  },
+  "power02_ids": {
+   "authors": [
+    [
+     "G.",
+     "Power"
+    ],
+    [
+     "Robert I.",
+     "Damper"
+    ],
+    [
+     "W.",
+     "Hall"
+    ],
+    [
+     "G. B.",
+     "Wills"
+    ]
+   ],
+   "title": "Realism and naturalness in a conversational multi-modal interface",
+   "original": "ids2_016",
+   "page_count": 14,
+   "order": 10,
+   "p1": "paper 16",
+   "pn": "",
+   "abstract": [
+    "As computing becomes ever more pervasive in everyday life, new interface metaphors are urgently required for mobile and multi-modal applications. In this paper, we consider the issues of realism and naturalness in virtual talking head characters. Specifically, we address the two questions: (1) What is the most appropriate degree of visual realism for a talking head, and does this vary with the degree of interaction? (2) To what extent should the naturalness of the synthetic speech match the realism of the talking head? Experiments are described that provide partial answers, by asking subjects to rate the interfaces on five attributes, as well as providing informal comments. Indications are that users prefer an intermediate level of visual realism, perhaps because this matches the underlying technology (animation, speech synthesis) best. Question (2) is very difficult to answer because of the difficulty of controlling naturalness in a synthesiser. Using three different TTS engines, we found that ratings across attributes varied with the synthesiser although average overall scores were very similar. Interestingly, subjects were not always aware when different synthesisers were being employed.\n",
+    ""
+   ]
+  },
+  "kellner02_ids": {
+   "authors": [
+    [
+     "Andreas",
+     "Kellner"
+    ],
+    [
+     "Thomas",
+     "Portele"
+    ]
+   ],
+   "title": "SPICE - A multimodal conversational user interface to an electronic program guide",
+   "original": "ids2_036",
+   "page_count": 13,
+   "order": 11,
+   "p1": "paper 36",
+   "pn": "",
+   "abstract": [
+    "[\n",
+    "A\n",
+    "b\n",
+    "s\n",
+    "t\n",
+    "r\n",
+    "a\n",
+    "c\n",
+    "t\n",
+    "",
+    "",
+    "n\n",
+    "o\n",
+    "t\n",
+    "",
+    "",
+    "a\n",
+    "v\n",
+    "a\n",
+    "i\n",
+    "l\n",
+    "a\n",
+    "b\n",
+    "l\n",
+    "e\n",
+    "]\n",
+    ""
+   ]
+  },
+  "torge02_ids": {
+   "authors": [
+    [
+     "Sunna",
+     "Torge"
+    ],
+    [
+     "Stefan",
+     "Rapp"
+    ],
+    [
+     "Ralf",
+     "Kompe"
+    ]
+   ],
+   "title": "The planning component of an intelligent human-machine interface in changing environments",
+   "original": "ids2_040",
+   "page_count": 12,
+   "order": 12,
+   "p1": "paper 40",
+   "pn": "",
+   "abstract": [
+    "In a network environment, no matter if Internet or personal area network, many devices, applications, and services, which can be added and removed dynamically, are accessible by the user. An intelligent human interface to such an environment needs to adapt to changes in the network. This does not only concern input, output or understanding parts bnt also the knowledge about functionalities provided by the network. In this paper we describe, how to enhance a multi-modal dialogue system with a planning module, consisting of a reasoning component and abstract models describing the functionalities of the devices, applications, and services which are part of the network. This additional component allows to support plug&play and to serve complex user wishes according to the current available functionalities in the network. The work described in this paper was snccessfully integrated in the prototype system SmartKom.\n",
+    ""
+   ]
+  },
+  "bernsen02_ids": {
+   "authors": [
+    [
+     "Niels Ole",
+     "Bernsen"
+    ],
+    [
+     "Laila",
+     "Dybkjær"
+    ]
+   ],
+   "title": "A multimodal virtual co-driver's problems with the driver",
+   "original": "ids2_048",
+   "page_count": 15,
+   "order": 13,
+   "p1": "paper 48",
+   "pn": "",
+   "abstract": [
+    "The paper discusses a series of four user-oriented design analysis problems in a research prototype multimodal spoken language dialogue system for supporting drivers whilst driving. The problems are: (a) when should the system (not) listen to the speech and non-speech acoustics in the car; (b) how to use the in-car display in conjunction with spoken driver-system dialogue; (c) how to identify the present driver as a basis for building a user model of the driver; and (d) how to create useful adaptive user modelling of the driver. The system discussed is under development and is called VICO or Virtual Intelligent CO-driver.\n",
+    ""
+   ]
+  },
+  "buhler02b_ids": {
+   "authors": [
+    [
+     "Dirk",
+     "Bühler"
+    ],
+    [
+     "Wolfgang",
+     "Minker"
+    ]
+   ],
+   "title": "An architecture for a logic-based human-machine dialogue",
+   "original": "ids2_050",
+   "page_count": 9,
+   "order": 14,
+   "p1": "paper 50",
+   "pn": "",
+   "abstract": [
+    "Motivated by the need to make the human-machine dialogue as efficient and user-friendly as possible we propose a logic-based dialogue approach. It enables the integration of isolated services and functionalities into a unified domain model that serves as the basis for user assistance. Such an assistance seems especially relevant in mobile environments, since an efficient and intelligent interaction is assumed to reduce the distraction of the driver and thus the safety risk.\n",
+    ""
+   ]
+  },
+  "schuster02_ids": {
+   "authors": [
+    [
+     "Matthias",
+     "Schuster"
+    ],
+    [
+     "Stefan",
+     "Grashey"
+    ],
+    [
+     "Hans Jörg",
+     "Heger"
+    ],
+    [
+     "Wolfgang",
+     "Küpper"
+    ]
+   ],
+   "title": "Intuitive authentication in multi-modal devices - A new approach in multi-modal biometrics",
+   "original": "ids2_009",
+   "page_count": 8,
+   "order": 15,
+   "p1": "paper 9",
+   "pn": "",
+   "abstract": [
+    "This paper presents a new approach to combine several biometrics in a multimodal device. The proposed approach does not use typical fusion strategies but is based on the multi-dimensional cost probability densities of the originals and forgers, which can be measured or calculated from the intrinsic cost or score distribution of the single biometrics, and uses different decision strategies within this distribution. The performance of the proposed combination method is shown to be superior to that of the single biometric subsystems. The main advantage of this method is the selectable degree of security or comfort. This means that the false acceptance rate (FAR) or the false rejection rate (FRR) of the overall system can be set according to the desired requirements of the respective authentication scenario. Furthermore the approach enables the combination and integration of all biometric systems which provide the cost distribution of originals and forgers even if they come from different suppliers.\n",
+    ""
+   ]
+  },
+  "muller02_ids": {
+   "authors": [
+    [
+     "Christian",
+     "Müller"
+    ]
+   ],
+   "title": "Multimodal dialog in a mobile pedestrian navigation system",
+   "original": "ids2_014",
+   "page_count": 11,
+   "order": 16,
+   "p1": "paper 14",
+   "pn": "",
+   "abstract": [
+    "This paper describes the outlines of a multimodal interface to a mobile pedestrian navigation system. First it provides a short description of the system REAL that consists of an indoor component (IRREAL) and an outdoor component (ARREAL). Currently the interaction of both is limited to unimodality (manual input and graphical output). The remainder of the paper describes an approach on how to obtain a multimodal interface. On the input side we use a combination of pen and voice. On the output side the graphical path descriptions are augmented by synthesized speech. When planning the multimodal dialog we discriminate between two different user groups: average aged adults and the elderly. Our investigations are focused on how to optimize the systems behaviour to the special needs of these user groups. Finally, the paper briefly describes two approaches that are investigated within this project: using speaker clustering techniques to build up a user model and 3D audio spatialization as an additional navigation cue.\n",
+    ""
+   ]
+  },
+  "pieraccini02_ids": {
+   "authors": [
+    [
+     "Roberto",
+     "Pieraccini"
+    ],
+    [
+     "Bob",
+     "Carpenter"
+    ],
+    [
+     "Eric",
+     "Woudenberg"
+    ],
+    [
+     "Sasha",
+     "Caskey"
+    ],
+    [
+     "Stephen",
+     "Springer"
+    ],
+    [
+     "Jonathan",
+     "Bloom"
+    ],
+    [
+     "Michael",
+     "Phillips"
+    ]
+   ],
+   "title": "Multi-Modal Spoken Dialog with Wireless Devices",
+   "original": "ids2_032",
+   "page_count": 15,
+   "order": 17,
+   "p1": "paper 32",
+   "pn": "",
+   "abstract": [
+    "We discuss the various issues related to the design and implementation of multi-modal spoken dialog systems with wireless client devices. In particular we discuss the design of a usable interface that exploits the complementary features of the audio and visual channels to enhance usability. We then describe two client-server architectures in which we implemented applications for mapping and navigating to points of interest.\n",
+    ""
+   ]
+  },
+  "almeida02_ids": {
+   "authors": [
+    [
+     "Luis",
+     "Almeida"
+    ],
+    [
+     "Ingunn",
+     "Amdal"
+    ],
+    [
+     "Nuno",
+     "Beires"
+    ],
+    [
+     "Malek",
+     "Boualem"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ],
+    [
+     "Els den",
+     "Os"
+    ],
+    [
+     "Pascal",
+     "Filoche"
+    ],
+    [
+     "Rui",
+     "Gomes"
+    ],
+    [
+     "Jan Eikeset",
+     "Knudsen"
+    ],
+    [
+     "Knut",
+     "Kvale"
+    ],
+    [
+     "John",
+     "Rugelbak"
+    ],
+    [
+     "Claude",
+     "Tallec"
+    ],
+    [
+     "Narada",
+     "Warakagoda"
+    ]
+   ],
+   "title": "The MUST Guide to Paris; Implementation and expert evaluation of a multimodal tourist guide toParis",
+   "original": "ids2_004",
+   "page_count": 15,
+   "order": 18,
+   "p1": "paper 4",
+   "pn": "",
+   "abstract": [
+    "In this paper we present the implementation and expert evaluation of a speech centric multimodal demonstrator that has been developed in the EURESCOM1 MUST project (MUltimodal, multilingual information Services for small mobile Terminals). The demonstrator is a tourist guide for Paris. The paper focuses on the technical implementation and interface design of the demonstrator. Based on GALAXY Communicator software, Telenor and Portugal Telecom were able to build transparent, modular, and stable versions of the demonstrator in a relatively short time. User Interface experts at Telenor and Portugal Telecom evaluated the demonstrator in two phases. In phase one they explored the interface. Phase two was a Cognitive Walkthrough with predefined tasks and action sequences. It appeared that it was not obvious that the interface was multimodal, and in particular that it was possible to tap and talk simultaneously. However, some experts discovered simultaneous multimodal interaction after a while, and we observed a very steep learning curve. The experts foresee problems for naïve users, if no special attention is paid to the introduction phase. The implications of the expert evaluation for the planned user tests are discussed at the end of the paper.\n",
+    ""
+   ]
+  },
+  "forkl02_ids": {
+   "authors": [
+    [
+     "Yves",
+     "Forkl"
+    ],
+    [
+     "Michael",
+     "Hellenschmidt"
+    ]
+   ],
+   "title": "Mastering Agent Communication in EMBASSI on the Basis of a Formal Ontology",
+   "original": "ids2_006",
+   "page_count": 13,
+   "order": 19,
+   "p1": "paper 6",
+   "pn": "",
+   "abstract": [
+    "The development of agents, which are working together to accomplish complex tasks, needs efficient appliances - in particular if a great number of developers are involved in designing and implementing the functionalities of the agents and the communication between them. In this article it is shown how a formal ontology and an efficient monitoring of the communication can help to increase development efficiency and to decrease the needs of searching error causes. The ontology also provides ideal means for describing in a uniform and precise way the complete functionality that all of the various components of the system offer to the user.\n",
+    ""
+   ]
+  },
+  "niklfeld02_ids": {
+   "authors": [
+    [
+     "Georg",
+     "Niklfeld"
+    ],
+    [
+     "Michael",
+     "Pucher"
+    ],
+    [
+     "Robert",
+     "Finan"
+    ],
+    [
+     "Wolfgang",
+     "Eckhart"
+    ]
+   ],
+   "title": "Steps towards multi-modal data services in GPRS and in UMTS or WLAN networks",
+   "original": "ids2_017",
+   "page_count": 15,
+   "order": 20,
+   "p1": "paper 17",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the issues faced in developing multi-modal data services for public mobile telecommunications. It discusses applications, standards, mobile devices, and existing R&D efforts. Three demonstrators developed by the authors are presented, including QuickMap, a map finder based on GPRS and WAP-Push.\n",
+    ""
+   ]
+  },
+  "azzini02_ids": {
+   "authors": [
+    [
+     "Ivani",
+     "Azzini"
+    ],
+    [
+     "Toni",
+     "Giorgino"
+    ],
+    [
+     "Luca",
+     "Nardelli"
+    ],
+    [
+     "Marco",
+     "Orlandi"
+    ],
+    [
+     "Carola",
+     "Rognoni"
+    ]
+   ],
+   "title": "An architecture for a multi-modal web browser",
+   "original": "ids2_021",
+   "page_count": 9,
+   "order": 21,
+   "p1": "paper 21",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available.]\n",
+    ""
+   ]
+  },
+  "gustafson02_ids": {
+   "authors": [
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Linda",
+     "Bell"
+    ],
+    [
+     "Johan",
+     "Boye"
+    ],
+    [
+     "Jens",
+     "Edlund"
+    ],
+    [
+     "Mats",
+     "Wirén"
+    ]
+   ],
+   "title": "Constraint manipulation and visualization in a multimodal dialogue system",
+   "original": "ids2_015",
+   "page_count": 15,
+   "order": 22,
+   "p1": "paper 15",
+   "pn": "",
+   "abstract": [
+    "When interacting with spoken and multimodal dialogue systems, it is often difficult for users to understand and influence how their input is processed by the system. In this paper, we describe how these problems were addressed in the multimodal real-estate dialogue system AdApt. During the course of a dialogue, the user's contraints are translated into symbolic icons that are visualized on the screen and can be manipulated by drag-and-drop operations. Users are thus given a clear picture of how their utterances are understood, and are given a transparent means of controlling the interaction with the system.\n",
+    ""
+   ]
+  },
+  "macherey02_ids": {
+   "authors": [
+    [
+     "Klaus",
+     "Macherey"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Scoring criteria for tree based dialogue course management",
+   "original": "ids2_023",
+   "page_count": 15,
+   "order": 23,
+   "p1": "paper 23",
+   "pn": "",
+   "abstract": [
+    "In this paper, we propose different scoring criteria for dialogue course management and investigate their effect on the system's behaviour for choosing the subsequent dialogue action during a dialogue session. Especially, we investigate whether the system is able to detect and resolve ambiguities, and if it always chooses that state which leads as quickly as possible to a final state that presumably meets the user's request. The criteria and used data structures are independently from the underlying domain and can therefore be used for different applications of spoken dialogue systems. Experiments were performed on a German inhouse corpus that covers the domain of a German telephone directory assistance.\n",
+    ""
+   ]
+  },
+  "katsurada02_ids": {
+   "authors": [
+    [
+     "Kouichi",
+     "Katsurada"
+    ],
+    [
+     "Hirobumi",
+     "Yamada"
+    ],
+    [
+     "Yusaku",
+     "Nakamura"
+    ],
+    [
+     "Satoshi",
+     "Kobayashi"
+    ],
+    [
+     "Tsuneo",
+     "Nitta"
+    ]
+   ],
+   "title": "XISL: A devices/contents independent MMI description language",
+   "original": "ids2_041",
+   "page_count": 7,
+   "order": 24,
+   "p1": "paper 41",
+   "pn": "",
+   "abstract": [
+    "In this paper we outline a multimodal interaction description language XISL, (Extensible Interaction-Sheet Language), that is developed to describe multimodal interactions (MMI), and to make the description of interactions independent of XML contents. XISL makes an XML document independent of interactions that may differ between each terminal, and so enables such seamless services as web-browsing to be constructed easily. Since XISL is also independent of the devices, and has the flexibility to describe modalities, the system developer can easily change the user interface without introducing a new set of description language. We implemented an interpreter of XISL, and proved the viability of XISL by experiments using an online shopping application described by XISL.\n",
+    ""
+   ]
+  },
+  "bohus02_ids": {
+   "authors": [
+    [
+     "Dan",
+     "Bohus"
+    ],
+    [
+     "Alex",
+     "Rudnicky"
+    ]
+   ],
+   "title": "LARRI: A language-based maintenance and repair assistant",
+   "original": "ids2_044",
+   "page_count": 13,
+   "order": 25,
+   "p1": "paper 44",
+   "pn": "",
+   "abstract": [
+    "LARRI (Language-based Agent for Retrieval of Repair Information) is a dialog-based system for support of maintenance and repair do- mains, characterized by large amounts of documentation and by pro- cedural information. LARRI is based on an architecture developed by Carnegie Mellon University for the DARPA Communicator program and is integrated with a wearable computer system developed by the Wearable Computing group at Carnegie Mellon University. LARRI adapts a dialog-management architecture developed and optimized for a telephone-based problem solving task (travel planning), and applies it to a very different domain-aircraft maintenance. The system was taken on a field trial on two occasions where it was used by profes- sional aircraft mechanics. We found that our architecture, AGENDA, extended readily to a multi-modal and multi-media framework. At the same time we found that assumptions that were reasonable in a services domain turn out to be inappropriate for a maintenance domain. Apart from the need to manage integration between input modes and output modalities, we found that the system needed to support multiple cat- egories of tasks and that a different balance between user and system goals was required. A significant problem in the maintenance domain is the need to assimilate and make available for language processing appropriate domain information.\n",
+    ""
+   ]
+  },
+  "pakucs02_ids": {
+   "authors": [
+    [
+     "Botond",
+     "Pakucs"
+    ]
+   ],
+   "title": "VoiceXML-based dynamic plug and play dialogue management for mobile environments",
+   "original": "ids2_022",
+   "page_count": 11,
+   "order": 26,
+   "p1": "paper 22",
+   "pn": "",
+   "abstract": [
+    "In this paper it is argned for the ilecessity of a plug and play functionality in speech interfaces in mobile environments. Further, a VoiceXML based plng and play dialogue management solution is introdnced. The paper focuses in partienlar on the plug and play functionality and the dynamic handling of the ping and playable dialogue management capabilities. The plug and play solution is applied in the SesaME architecture and employed within the framework of the PER demonstrator. Finally, first experiences related to the plug and play functionality of the dialogne management are discussed.\n",
+    ""
+   ]
+  },
+  "schneider02_ids": {
+   "authors": [
+    [
+     "René",
+     "Schneider"
+    ],
+    [
+     "Paul",
+     "Heisterkamp"
+    ]
+   ],
+   "title": "Connecting mobile dialogue systems to the World Wide Web",
+   "original": "ids2_049",
+   "page_count": 8,
+   "order": 27,
+   "p1": "paper 49",
+   "pn": "",
+   "abstract": [
+    "We outline a dialogue system for the online reservation of hotels while driving a car. We describe the general system requirements and discuss the interdependencies that exist between dialogue, retrieval, and extraction modules as well as its architecture before illustrating the system at work.\n",
+    ""
+   ]
+  },
+  "minker02_ids": {
+   "authors": [
+    [
+     "Wolfgang",
+     "Minker"
+    ],
+    [
+     "Udo",
+     "Haiber"
+    ],
+    [
+     "Paul",
+     "Heisterkamp"
+    ],
+    [
+     "Sven",
+     "Scheible"
+    ]
+   ],
+   "title": "Intelligent dialogue strategy for accessing infotainment applications in mobile environments",
+   "original": "ids2_001",
+   "page_count": 9,
+   "order": 28,
+   "p1": "paper 1",
+   "pn": "",
+   "abstract": [
+    "This article presents a speech-based user interface to a wide range of entertainment, navigation and communication applications in mobile environments by means of natural human-machine dialogues. The underlying dialogue concept has been developed in the framework of the EU-project SENECA. The novelty relies in the fact that speech recognition inconfidence and word-level ambiguities are compensated by engaging flexible clarification dialogues with the user. The SENECA system demonstrator has been evaluated by means of user tests. Some recent evaluation results are discussed in the paper.\n",
+    ""
+   ]
+  },
+  "halonen02_ids": {
+   "authors": [
+    [
+     "Katriina",
+     "Halonen"
+    ],
+    [
+     "Henri",
+     "Salminen"
+    ],
+    [
+     "Pekka",
+     "Kapanen"
+    ]
+   ],
+   "title": "Ringing tones for mobile phones by voice: usability study",
+   "original": "ids2_005",
+   "page_count": 8,
+   "order": 29,
+   "p1": "paper 5",
+   "pn": "",
+   "abstract": [
+    "This paper presents a usability study of a voice-enabled mobile application, where users can browse, listen to and download new ringing tones to their mobile phones. Speech recognition is used to interpret users' voice commands. The application was developed and tested in three incremental stages, and the call log findings and user feedback results are presented here.\n",
+    ""
+   ]
+  },
+  "sturm02_ids": {
+   "authors": [
+    [
+     "Janienke",
+     "Sturm"
+    ],
+    [
+     "Bert",
+     "Cranen"
+    ],
+    [
+     "Fusi",
+     "Wang"
+    ],
+    [
+     "Jacques",
+     "Terken"
+    ],
+    [
+     "Ilse",
+     "Bakx"
+    ]
+   ],
+   "title": "The Effect of User Experience on Interaction With Multimodal Systems",
+   "original": "ids2_019",
+   "page_count": 15,
+   "order": 30,
+   "p1": "paper 19",
+   "pn": "",
+   "abstract": [
+    "",
+    "",
+    ""
+   ]
+  },
+  "hemsen02_ids": {
+   "authors": [
+    [
+     "Holmer",
+     "Hemsen"
+    ]
+   ],
+   "title": "A testbed for evaluating multimodal dialogue systems for small screen devices",
+   "original": "ids2_047",
+   "page_count": 0,
+   "order": 31,
+   "p1": "paper 47",
+   "pn": "",
+   "abstract": [
+    "This paper discusses the requirements for developing a multimodal spoken dialogue system for mobile phone applications. Since visual output as part of the multimodal system is limited through the restricted screen size of mobile phones, research in the field of information visualisation for small screen devices are discussed and combinations of these techniques with spoken output are sketched. For development and evaluation of multimodal dialogue systems for mobile phones a testbed is currently under development. The architecture of the system is described. Design decisions for the implementation of a prototypic but realistic application: an information retrieval system for the real estate domain, are pointed out. The system builds the basis for future field trials.\n",
+    ""
+   ]
+  },
+  "neuss02_ids": {
+   "authors": [
+    [
+     "Robert",
+     "Neuss"
+    ]
+   ],
+   "title": "Usability engineering as approach to multi-modal human-machine interaction",
+   "original": "ids2_020",
+   "page_count": 11,
+   "order": 32,
+   "p1": "paper 20",
+   "pn": "",
+   "abstract": [
+    "This paper describes a user-oriented approach to a multimodal onboardcomputer system for use in cars. The intention of a prototype design was to demonstrate multimodality under real conditions, so most of the user-tests took place in a driving-simulator environment. The system features speech, gesture and manual input as well as a GUI and speech output and is developed in five steps with systematic user-tests. All the subjects experiences were taken into account when redesigns were accomplished.\n",
+    "The basic principle of the system is that the user can change the input modality at almost any time, but cannot use different channels simultaneously (\"serial redundant multimodality\").\n",
+    ""
+   ]
+  },
+  "oviatt02_ids": {
+   "authors": [
+    [
+     "Sharon",
+     "Oviatt"
+    ],
+    [
+     "Courtney",
+     "Stevens"
+    ],
+    [
+     "Rachel",
+     "Coulston"
+    ],
+    [
+     "Benfang",
+     "Xiao"
+    ],
+    [
+     "Matt",
+     "Wesson"
+    ],
+    [
+     "Cynthia",
+     "Girand"
+    ],
+    [
+     "Evan",
+     "Mellander"
+    ]
+   ],
+   "title": "Toward adaptive conversational interfaces: Modeling speech convergence with animatedpersonas",
+   "original": "ids2_027",
+   "page_count": 8,
+   "order": 33,
+   "p1": "paper 27",
+   "pn": "",
+   "abstract": [
+    "During interpersonal conversation, both children and adults adapt the basic acoustic-prosodic features of their speech to converge with those of their conversational partner. However, comparable adaptivity in users speech signal has not been explored previously during human-computer interaction. In this study, 7-to-10-year-old children interacted with a multimodal conversational interface in which animated characters used text-to-speech output (TTS) to answer questions about marine biology. Analysis of childrens speech input to the animated characters revealed that it adapted to more closely match the TTS output they heard. When speaking with an extroverted animated character whose speech was faster paced and louder, children significantly increased their utterance amplitude and decreased the duration of their dialogue response latencies between conversational turns. In contrast, when speaking with an introverted partner, they decreased their amplitude and increased response latencies. These adaptations were dynamic, bi-directional, and generalized across different user groups and TTS voices. Implications are discussed for guiding childrens spoken language to be better synchronized and more easily processed by a conversational system, and for the future development of robust and adaptive conversational interfaces.\n",
+    ""
+   ]
+  },
+  "geldof02_ids": {
+   "authors": [
+    [
+     "Sabine",
+     "Geldof"
+    ],
+    [
+     "Robert",
+     "Dale"
+    ]
+   ],
+   "title": "Improving route directions on mobile devices",
+   "original": "ids2_042",
+   "page_count": 15,
+   "order": 34,
+   "p1": "paper 42",
+   "pn": "",
+   "abstract": [
+    "The provision of information on mobile devices introduces interesting challenges. The most obvious of these is that ways have to be found of optimising the use of the limited available space; however, we also have to take account of the fact that, unlike many desktop-based tasks, activities carried out on mobile devices often require the user to attend to the external environment. In such cases, it is important that the device be able to provide relatively transparent assistance to the user's performance of a task in the real world.\n",
+    "Our focus is on the delivery of route descriptions via mobile devices: our contention is that, in this context, meaningful segmentation of information is a key element in meeting both of the above challenges. This paper describes our approach to developing a mode of interaction which supports the cognitive involvement of the user in performing the task of following a route description: we describe the technological underpinnings of the work and report on a pilot evaluation in a real task setting.\n",
+    ""
+   ]
+  },
+  "yamakata02_ids": {
+   "authors": [
+    [
+     "Yoko",
+     "Yamakata"
+    ],
+    [
+     "Tatsuya",
+     "Kawahara"
+    ],
+    [
+     "Hiroshi G.",
+     "Okuno"
+    ]
+   ],
+   "title": "Belief network based disambiguation of object reference in spoken dialoguesystem for robot",
+   "original": "ids2_046",
+   "page_count": 0,
+   "order": 35,
+   "p1": "paper 46",
+   "pn": "",
+   "abstract": [
+    "We are studying joint activity in which a remote robot finds an object by commnnicating with the user over a voice-only channel. We focus on how the robot disambiguates the reference of the uttered word or phrase to the target object. For example, by \"cup\", one may refer to a \"teacup\", a \"coffee cup\", or even a \"glass\" under some situations. This reference (hereafter, \"object reference\") is user-dependent. We confirm that a user model of object references is significant by conducting a survey of 12 subjects. In addition to ambiguity of object reference, actual systems should cope with two other sources of uncertainty in speech and image recognition. We present a Belief Network based probabilistic reasoning system to determine the object reference. The resulting system demonstrates that the number of interactions needed to find a common reference is reduced as the user model is refined.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Sessions",
+   "papers": [
+    "jameson02_ids"
+   ]
+  },
+  {
+   "title": "Tutorial Session",
+   "papers": [
+    "huning02_ids"
+   ]
+  },
+  {
+   "title": "Oral Session: Speech Recognition for Multi-Modal Dialogue in Mobile Environments",
+   "papers": [
+    "tamura02_ids",
+    "aalburg02_ids",
+    "esteve02_ids"
+   ]
+  },
+  {
+   "title": "Poster Session: User Interface Issues I & Advanced Multi-Modal Systems I",
+   "papers": [
+    "buhler02_ids",
+    "edlund02_ids",
+    "edlund02b_ids",
+    "moller02_ids",
+    "power02_ids"
+   ]
+  },
+  {
+   "title": "Oral Session: Advanced Multi-Modal Systems II",
+   "papers": [
+    "kellner02_ids",
+    "torge02_ids",
+    "bernsen02_ids",
+    "buhler02b_ids"
+   ]
+  },
+  {
+   "title": "Oral Session: Design Issues for Mobile Environments",
+   "papers": [
+    "schuster02_ids",
+    "muller02_ids",
+    "pieraccini02_ids"
+   ]
+  },
+  {
+   "title": "Oral Sessions: Systems Architecture",
+   "papers": [
+    "almeida02_ids",
+    "forkl02_ids",
+    "niklfeld02_ids",
+    "azzini02_ids",
+    "gustafson02_ids",
+    "macherey02_ids",
+    "katsurada02_ids",
+    "bohus02_ids"
+   ]
+  },
+  {
+   "title": "Poster Session: Applications for Mobile Environments & Evaluation of Multi-Modal",
+   "papers": [
+    "pakucs02_ids",
+    "schneider02_ids",
+    "minker02_ids",
+    "halonen02_ids",
+    "sturm02_ids",
+    "hemsen02_ids"
+   ]
+  },
+  {
+   "title": "Oral Session: User Interface Issues II",
+   "papers": [
+    "neuss02_ids",
+    "oviatt02_ids",
+    "geldof02_ids",
+    "yamakata02_ids"
+   ]
+  }
+ ]
+}

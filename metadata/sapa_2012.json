@@ -1,0 +1,634 @@
+{
+ "title": "SAPA-SCALE conference (SAPA 2012)",
+ "location": "Portland, OR, USA",
+ "startDate": "7/9/2012",
+ "endDate": "8/9/2012",
+ "conf": "SAPA",
+ "year": "2012",
+ "name": "sapa_2012",
+ "series": "SAPA",
+ "SIG": "",
+ "title1": "SAPA-SCALE conference",
+ "title2": "(SAPA 2012)",
+ "date": "7-8 September 2012",
+ "booklet": "sapa_2012.pdf",
+ "papers": {
+  "virtanen12_sapa": {
+   "authors": [
+    [
+     "Tuomas",
+     "Virtanen"
+    ]
+   ],
+   "title": "Human sound perception - what can we learn from it when developing audio analysis algorithms?",
+   "original": "sap2_201",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available]\n",
+    ""
+   ]
+  },
+  "mirbagheri12_sapa": {
+   "authors": [
+    [
+     "Majid",
+     "Mirbagheri"
+    ],
+    [
+     "Yanbo",
+     "Xu"
+    ],
+    [
+     "Shihab",
+     "Shamma"
+    ]
+   ],
+   "title": "Pitch estimation using mutual information",
+   "original": "sap2_001",
+   "page_count": 4,
+   "order": 2,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "A spectrotemporal method based on Mutual Information (MI) is proposed for pitch estimation of voiced speech signals. We use MI as the similarity measure between voiced speech segments and their delayed version. In- stead of measuring linear dependencies, MI measures sta- tistical dependency, which suits the dynamic character- istic of speech signals. Besides, higher-order statistics are directly encoded in the MI while they are not usually taken into account in traditional correlation-based mea- sures. Through experiments on both synthetic signals and a real speech dataset, this new measure is proven to be ef- fective for pitch estimation.\n",
+    "Index Terms: pitch estimation, mutual information, higher-order statistics, periodicity, spectrotemporal\n",
+    ""
+   ]
+  },
+  "nicolao12_sapa": {
+   "authors": [
+    [
+     "Mauro",
+     "Nicolao"
+    ],
+    [
+     "Roger K.",
+     "Moore"
+    ]
+   ],
+   "title": "Establishing some principles of human speech production through two-dimensional computational models",
+   "original": "sap2_005",
+   "page_count": 6,
+   "order": 3,
+   "p1": "5",
+   "pn": "10",
+   "abstract": [
+    "Human speech production is often described as an optimisation process, which tends to maximise the effectiveness of the communication process minimising the effort involved in the production.   The aim of this paper is to investigate this highly complex problem with two dimensionally reduced spaces corresponding to different computational models. Since the highdimensional parameter space which usually describes such a problem is often an issue in the optimal-behaviour computation, two-dimensional models are proposed. The first one analyses the best trajectories visiting the proximity of a set of randomly chosen points. The second one explores the F1-F2 vowel space trying to maximise a set of likelihood functions describing some human production characteristics.   Even though such models need further development, some preliminary correspondences can be observed with some of the elements described in the most popular theories for human speech production. For example, the distance between close competitors directly influences the best trajectory computation and, therefore, the effort needed to achieve the desired tasks. The trajectory planning is also controlled by the degree of motivation selected to achieve the desired accuracy: the higher the motivation, the more the target must be addressed.\n",
+    "Index Terms: human speech production model, reactive production model, hyper/hypo-articulation model, optimisation strategies, trajectory planning\n",
+    ""
+   ]
+  },
+  "nakano12_sapa": {
+   "authors": [
+    [
+     "Tomoyasu",
+     "Nakano"
+    ],
+    [
+     "Masataka",
+     "Goto"
+    ]
+   ],
+   "title": "A spectral envelope estimation method based on F0-adaptive multi-frame integration analysis",
+   "original": "sap2_011",
+   "page_count": 6,
+   "order": 4,
+   "p1": "11",
+   "pn": "16",
+   "abstract": [
+    "This paper presents a novel method of spectral envelope estimation and representation. Despite much sophisticated work in this area, estimating an appropriate envelope is still difficult. We therefore propose an F0-adaptive multi-frame integration analysis method for estimating spectral envelopes with appropriate shape and high temporal resolution. The method does not use pitch marks or phoneme labels and can be used with various types of sound (speech, singing, and instruments). The basic idea is to use F0-adaptive window analysis with a small window length yielding high temporal resolution. The analysis is then extended by using neighboring frames to obtain a stable spectral envelope. In tests using synthesized sound and resynthesized natural sound samples, for 8 of 14 samples the log-spectral distances obtained with the proposed method were smaller than those obtained with well-known previous methods.\n",
+    "Index Terms: spectral envelope, periodic signals, source-filter model, speech/singing, instrument sound\n",
+    ""
+   ]
+  },
+  "do12_sapa": {
+   "authors": [
+    [
+     "Cong-Thanh",
+     "Do"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ]
+   ],
+   "title": "Cochlear implant-like processing of speech signal for speaker verification",
+   "original": "sap2_017",
+   "page_count": 5,
+   "order": 5,
+   "p1": "17",
+   "pn": "21",
+   "abstract": [
+    "In this paper, we investigate the cochlear implant-like processing of speech signal in speaker verification. This processing was applied on each speech utterance, in the temporal domain, to reduce spectral information in the original speech signal and synthesize a new one, called cochlear implant-like spectrally reduced speech (SRS), only from low-bandwidth subband temporal envelopes of the original speech. Spectral analyses, performed on voiced speech frames, showed that despite of the spectral and perceptual reduction induced by the cochlear implant-like signal processing, the global shape of the shortterm spectral envelopes of the SRS signal is rather similar to that of the original speech signal.   Although the SRS is synthesized only from low-bandwidth subband temporal envelopes of original speech signal, its use in a baseline GMM-UBM speaker verification system, with cellular telephone conversational speech of the Switchboard corpus (used in NIST SRE 2002), did not alter substantially the minimal DCF (detection cost function) of the system. Furthermore, using appropriate SRS signals made it possible to reduce the minimal DCF (5.7% relative reduction) of the system. The linear combination at the score level, with equal weights, of the baseline and the SRS-based systems could also help in reducing the minimal DCF.\n",
+    ""
+   ]
+  },
+  "valentinibotinhao12_sapa": {
+   "authors": [
+    [
+     "Cassia",
+     "Valentini-Botinhao"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Evaluating speech intelligibility enhancement for HMM-based synthetic speech in noise",
+   "original": "sap2_022",
+   "page_count": 6,
+   "order": 6,
+   "p1": "22",
+   "pn": "27",
+   "abstract": [
+    "It is possible to increase the intelligibility of speech in noise by enhancing the clean speech signal. In this paper we demonstrate the effects of modifying the spectral envelope of synthetic speech according to the environmental noise. To achieve this, we modify Mel cepstral coefficients according to an intelligibility measure that accounts for glimpses of speech in noise: the Glimpse Proportion measure. We evaluate this method against a baseline synthetic voice trained only with normal speech and a topline voice trained with Lombard speech, as well as natural speech. The intelligibility of these voices was measured when mixed with speech-shaped noise and with a competing speaker at three different levels. The Lombard voices, both natural and synthetic, were more intelligible than the normal voices in all conditions. For speechshaped noise, the proposed modified voice was as intelligible as the Lombard synthetic voice without requiring any recordings of Lombard speech, which are hard to obtain. However, in the case of competing talker noise, the Lombard synthetic voice was more intelligible than the proposed modified voice.\n",
+    "Index Terms: HMM-based speech synthesis, intelligibility of speech in noise, Lombard speech\n",
+    ""
+   ]
+  },
+  "krishnan12_sapa": {
+   "authors": [
+    [
+     "Sunder Ram",
+     "Krishnan"
+    ],
+    [
+     "Chandra Sekhar",
+     "Seelamantula"
+    ]
+   ],
+   "title": "A generalized Stein’s estimation approach for speech enhancement based on perceptual criteria",
+   "original": "sap2_028",
+   "page_count": 6,
+   "order": 7,
+   "p1": "28",
+   "pn": "33",
+   "abstract": [
+    "We address the problem of speech enhancement using a riskestimation approach. In particular, we propose the use the Stein’s unbiased risk estimator (SURE) for solving the problem. The need for a suitable finite-sample risk estimator arises because the actual risks invariably depend on the unknown ground truth. We consider the popular mean-squared error (MSE) criterion first, and then compare it against the perceptually-motivated Itakura-Saito (IS) distortion, by deriving unbiased estimators of the corresponding risks. We use a generalized SURE (GSURE) development, recently proposed by Eldar for MSE. We consider dependent observation models from the exponential family with an additive noise model, and derive an unbiased estimator for the risk corresponding to the IS distortion, which is non-quadratic. This serves to address the speech enhancement problem in a more general setting. Experimental results illustrate that the IS metric is efficient in suppressing musical noise, which affects the MSE-enhanced speech. However, in terms of global signal-to-noise ratio (SNR), the minimum MSE solution gives better results.\n",
+    "Index Terms: Stein’s unbiased risk estimator (SURE), perceptual distortion metrics, generalized SURE (GSURE), speech enhancement.\n",
+    ""
+   ]
+  },
+  "tuske12_sapa": {
+   "authors": [
+    [
+     "Zoltán",
+     "Tüske"
+    ],
+    [
+     "Friedhelm R.",
+     "Drepper"
+    ],
+    [
+     "Ralf",
+     "Schlüter"
+    ]
+   ],
+   "title": "Non-stationary signal processing and its application in speech recognition",
+   "original": "sap2_034",
+   "page_count": 6,
+   "order": 8,
+   "p1": "34",
+   "pn": "39",
+   "abstract": [
+    "The most widely used acoustic feature extraction methods of current automatic speech recognition (ASR) systems are based on the assumption of stationarity. In this paper we extensively evaluate a recently introduced filter stable, non-stationary signal processing method, which relies on an adaptive parttone decomposition of voiced speech to obtain alternative feature vectors for ASR. The non-stationary filterbank allows for more noise robust amplitude based features by suppressing the between-harmonics regions. Furthermore, by adapting the center filter frequencies to the underlying acoustic modes, it is possible to obtain useful phase features which can be interpreted in terms of the non-stationary dynamics within the vocal tract. The features are evaluated on different tasks ranging from vowel classification up to large vocabulary continuous speech recognition.\n",
+    "Index Terms: non-stationary, adaptive filter, noise robust, phase features, ASR\n",
+    ""
+   ]
+  },
+  "lu12_sapa": {
+   "authors": [
+    [
+     "Liang",
+     "Lu"
+    ],
+    [
+     "Arnab",
+     "Ghoshal"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Joint uncertainty decoding with unscented transform for noise robust subspace Gaussian mixture models",
+   "original": "sap2_040",
+   "page_count": 6,
+   "order": 9,
+   "p1": "40",
+   "pn": "45",
+   "abstract": [
+    "Common noise compensation techniques use vector Taylor series (VTS) to approximate the mismatch function. Recent work shows that the approximation accuracy may be improved by sampling. One such sampling technique is the unscented transform (UT), which draws samples deterministically from clean speech and noise model to derive the noise corrupted speech parameters. This paper applies UT to noise compensation of the subspace Gaussian mixture model (SGMM). Since UT requires relatively smaller number of samples for accurate estimation, it has significantly lower computational cost compared to other random sampling techniques. However, the number of surface Gaussians in an SGMM is typically very large, making the direct application of UT, for compensating individual Gaussian components, computationally impractical. In this paper, we avoid the computational burden by employing UT in the framework of joint uncertainty decoding (JUD), which groups all the Gaussian components into small number of classes, sharing the compensation parameters by class. We evaluate the JUD-UT technique for an SGMM system using the Aurora 4 corpus. Experimental results indicate that UT can lead to increased accuracy compared to VTS approximation if the JUD phase factor is untuned, and to similar accuracy if the phase factor is tuned empirically.\n",
+    ""
+   ]
+  },
+  "bashashaik12_sapa": {
+   "authors": [
+    [
+     "M. Ali",
+     "Basha Shaik"
+    ],
+    [
+     "David",
+     "Rybach"
+    ],
+    [
+     "Stefan",
+     "Hahn"
+    ],
+    [
+     "Ralf",
+     "Schlüter"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Hierarchical hybrid language models for open vocabulary continuous speech recognition using WFST",
+   "original": "sap2_046",
+   "page_count": 6,
+   "order": 10,
+   "p1": "46",
+   "pn": "51",
+   "abstract": [
+    "One of the main challenges in automatic speech recognition is recognizing an open, partly unseen vocabulary. To implicitly reduce the out-of-vocabulary (OOV) rate, hybrid vocabularies consisting of full-words and sub-words are used. Nevertheless, when using subwords, OOV rates are not necessarily zero. In this work, we propose the use of separate character level graphones (orthography and phoneme sequence pair) as sub-words to effectively obtain zero OOV rate. To minimize negative effects on the core vocabulary of the most frequent words, a hierarchical language modeling approach is proposed. We augment the first level hybrid language model with an OOV word class, which is replaced by character level graphone sequences using a second-level graphone based character language and acoustic model during search. This approach is realized on-the-fly using weighted finite state transducers. We recognize a significant fraction of OOVs on the Wall Street Journal corpus, compared to the full-word and former hybrid language model based approaches.\n",
+    "Index Terms: open vocabulary, OOV, language model, filler models\n",
+    ""
+   ]
+  },
+  "soldo12_sapa": {
+   "authors": [
+    [
+     "Serena",
+     "Soldo"
+    ],
+    [
+     "Mathew",
+     "Magimai-Doss"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ]
+   ],
+   "title": "Template-based ASR using posterior features and synthetic references: comparing different TTS systems",
+   "original": "sap2_052",
+   "page_count": 6,
+   "order": 11,
+   "p1": "52",
+   "pn": "57",
+   "abstract": [
+    "In recent works, the use of phone class-conditional posterior probabilities (posterior features) directly as features has provided successful results in template-based ASR systems. In this paper, motivated by the high quality of current text-to-speech systems and the robustness of posterior features toward undesired variability, we investigate the use of synthetic speech to generate reference templates. The use of synthetic speech in template-based ASR not only allows to address the issue of in-domain data collection but also the expansion of the vocabulary. On 75- and 600-word task-independent and speakerindependent setup of Phonebook corpus, we show the feasibility of this approach by investigating different synthetic voices produced by HTS-based synthesizer trained on two different databases. Our study shows that synthetic speech templates can yield performance comparable to the natural speech templates, especially with synthetic voices that have high intelligibility.\n",
+    "Index Terms: Speech recognition, template-based approach, posterior features, synthetic reference templates\n",
+    ""
+   ]
+  },
+  "ogbureke12_sapa": {
+   "authors": [
+    [
+     "Kalu U.",
+     "Ogbureke"
+    ],
+    [
+     "João P.",
+     "Cabral"
+    ],
+    [
+     "Julie",
+     "Carson-Berndsen"
+    ]
+   ],
+   "title": "Explicit duration modelling in HMM-based speech synthesis using a hybrid hidden Markov model-multilayer perceptron",
+   "original": "sap2_058",
+   "page_count": 6,
+   "order": 12,
+   "p1": "58",
+   "pn": "63",
+   "abstract": [
+    "In HMM-based speech synthesis, it is important to correctly model duration because it has a significant effect on the perceptual quality of speech, such as rhythm. For this reason, hidden semi-Markov model (HSMM) is commonly used to explicitly model duration instead of using the implicit state duration model of HMM through its transition probabilities. The cost of using HSMM to improve duration modelling is the increase in computational complexity of the parameter re-estimation algorithms and duration clustering using contextual features. This paper proposes to use an alternative explicit duration modelling approach to HSMM which is a hybrid of HMM and multilayer perceptron (MLP). The HMM is initially used for state-level phone alignment, in order to obtain state durations of HMM for each phone. In the second stage, duration modelling is done using an MLP where the inputs are contextual features and the output units are the state durations. Both objective and perceptual evaluations showed that the proposed duration modelling method improved the prediction of duration and the perceptual quality of synthetic speech as compared with HSMM.\n",
+    "Index Terms: duration modelling, HMM-based TTS, hidden Markov model, multilayer perceptron\n",
+    ""
+   ]
+  },
+  "vijayasenan12_sapa": {
+   "authors": [
+    [
+     "Deepu",
+     "Vijayasenan"
+    ],
+    [
+     "Fabio",
+     "Valente"
+    ]
+   ],
+   "title": "Dimensionality reduction of large TDOA vectors for speaker diarization",
+   "original": "sap2_064",
+   "page_count": 4,
+   "order": 13,
+   "p1": "64",
+   "pn": "67",
+   "abstract": [
+    "In this work, we investigate a dimensionality reduction scheme to use Time Delay of Arrival(TDOA) features across all microphones in a traditional HMM/GMM system. The subspace dimension is selected based on dimension of the TDOA vectors in an ideal recording, i.e., without environmental distortion or interference. Experiments in a dataset used in NIST Meeting Diarization evaluation reveal that the dimensionality reduction to a considerably lower dimension improve the diarization error by 3.7%(30% relative). While the proposed scheme has the advantage that it does not require any development set tuning to select the dimension as proposed by previous methods, it retains competitive performance (5% better than tuning the results).\n",
+    "Index Terms: Speaker diarization, Time Delay of Arrival, Dimensionality reduction\n",
+    ""
+   ]
+  },
+  "oualil12_sapa": {
+   "authors": [
+    [
+     "Youssef",
+     "Oualil"
+    ],
+    [
+     "Mathew",
+     "Magimai-Doss"
+    ],
+    [
+     "Friedrich",
+     "Faubel"
+    ],
+    [
+     "Dietrich",
+     "Klakow"
+    ]
+   ],
+   "title": "Joint detection and localization of multiple speakers using a probabilistic interpretation of the steered response power",
+   "original": "sap2_068",
+   "page_count": 6,
+   "order": 14,
+   "p1": "68",
+   "pn": "73",
+   "abstract": [
+    "Detection and localization of multiple speakers in a noisy and reverberant environment is a fundamental and difficult task. In the literature, steered response power (SRP) based techniques are typically used to accomplish this task which can be computationally intensive. Nonetheless, the localization of multiple speakers remains a challenging in practice. In this paper, we present a novel approach based on a probabilistic interpretation of the SRP. The proposed method replaces the discrete search techniques by proposing an approximate analytical form of the SRP, which can adequately detect and localize multiple speakers. In addition to reliable detection and localization, the potential advantage of this approach is that it provides a probability density function (pdf) of the individual speaker positions rather than point estimates. Experiments on the AV16.3 corpus show the efficacy of the proposed approach.\n",
+    "Index Terms: Steered response power, Multiple speaker localization, Gaussian mixture\n",
+    ""
+   ]
+  },
+  "asaei12_sapa": {
+   "authors": [
+    [
+     "Afsaneh",
+     "Asaei"
+    ],
+    [
+     "Bhiksha",
+     "Raj"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ],
+    [
+     "Volkan",
+     "Cevher"
+    ]
+   ],
+   "title": "Structured sparse coding for microphone array location calibration",
+   "original": "sap2_074",
+   "page_count": 6,
+   "order": 15,
+   "p1": "74",
+   "pn": "79",
+   "abstract": [
+    "We address the problem of microphone location calibration where the sensor positions have a sparse spatial approximation on a discretized grid. We characterize the microphone signals as a sparse vector represented over a codebook of multi-channel signals where the support of the representation encodes the microphone locations. The codebook is constructed of multi-channel signals obtained by inverse filtering the acoustic channel and projecting the signals onto a array manifold matrix of the hypothesized geometries. This framework requires that the position of a speaker or the track of its movement to be known without any further assumption about the source signal. The sparse position encoding vector is approximated by model-based sparse recovery algorithm exploiting the block-dependency structure underlying the broadband speech spectrum. The experiments conducted on real data recordings demonstrate the effectiveness of the proposed approach and the importance of the joint sparsity models in multi-channel speech processing tasks.\n",
+    "Index Terms: Microphone array calibration, Structured Sparse coding, Model-based sparse recovery, Multi-party speech signals\n",
+    ""
+   ]
+  },
+  "yoshioka12_sapa": {
+   "authors": [
+    [
+     "Takuya",
+     "Yoshioka"
+    ],
+    [
+     "Daichi",
+     "Sakaue"
+    ]
+   ],
+   "title": "Log-normal matrix factorization with application to speech-music separation",
+   "original": "sap2_080",
+   "page_count": 6,
+   "order": 16,
+   "p1": "80",
+   "pn": "85",
+   "abstract": [
+    "This paper proposes a novel spectrogram factorization method, called log-normal matrix factorization (LogNMF). Conventional nonnegative matrix factorization (NMF) methods cannot efficiently capture random properties of actual spectra because these methods assume that speech and noise spectrograms can be precisely represented by combining a small number of temporally invariant spectral patterns, called basis vectors. This limitation results in unsatisfactory performance when NMF is used for speech enhancement. The proposed method overcomes this limitation by allowing each basis vector to change randomly at each time frame with a log-normal distribution. The use of the log-normal distribution is also desirable in that the degree of divergence between an observed spectrogram and a spectrogram model is measured based on squared errors of log power spectra, which are subjectively meaningful. Experimental results show that LogNMF is able to separate speech signals from background music signals more precisely than NMF.\n",
+    "Index Terms: matrix factorization, log-normal distribution, speech enhancement\n",
+    ""
+   ]
+  },
+  "toroghi12_sapa": {
+   "authors": [
+    [
+     "Rahil Mahdian",
+     "Toroghi"
+    ],
+    [
+     "Friedrich",
+     "Faubel"
+    ],
+    [
+     "Dietrich",
+     "Klakow"
+    ]
+   ],
+   "title": "Multi-channel speech separation with soft time-frequency masking",
+   "original": "sap2_086",
+   "page_count": 6,
+   "order": 17,
+   "p1": "86",
+   "pn": "91",
+   "abstract": [
+    "This paper addresses the problem of separating concurrent speech through a spatial filtering stage and a subsequent time-frequency masking stage. These stages complement each other by first exploiting the spatial diversity and then making use of the fact that different speech signals rarely occupy the same frequency bins at a time. The novelty of the paper consists in the use of auditorymotivated log-sigmoid masks, whose scale parameters are optimized to maximize the kurtosis of the separated speech. Experiments on the Pascal Speech Separation Challenge II show significant improvements compared to previous approaches with binary masks.\n",
+    "Index Terms: speech recognition, microphone arrays, time-frequency masking, kurtosis maximization\n",
+    ""
+   ]
+  },
+  "huang12_sapa": {
+   "authors": [
+    [
+     "Heyun",
+     "Huang"
+    ],
+    [
+     "Louis ten",
+     "Bosch"
+    ],
+    [
+     "Bert",
+     "Cranen"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ]
+   ],
+   "title": "Smoothing speech trajectories by regularization",
+   "original": "sap2_092",
+   "page_count": 6,
+   "order": 18,
+   "p1": "92",
+   "pn": "97",
+   "abstract": [
+    "The articulators of human speech might only be able to move slowly, which results in the gradual and continuous change of acoustic speech properties. Nevertheless, the so-called speech continuity is rarely explored to discriminate different phones. To exploit this, this paper investigates a multiple-frame MFCC representation (that is expected to retain sufficient time-continuity information) in combination with a supervised dimensionality reduction method, whose target is to find low-dimensional representations that optimally separates different phone classes. The speech continuity information is integrated into this framework by using the regularization terms that penalize discontinuities. Experimental results on TIMIT phonetic classification show that the use of regularizers can help to improve the separability of phone classes.\n",
+    "Index Terms: Dimensionality Reduction; Contextual Representation; TIMIT Phone Classification; Regularization; Laplacian Smoothing\n",
+    ""
+   ]
+  },
+  "driesen12_sapa": {
+   "authors": [
+    [
+     "Joris",
+     "Driesen"
+    ],
+    [
+     "Jort F.",
+     "Gemmeke"
+    ],
+    [
+     "Hugo",
+     "Van hamme"
+    ]
+   ],
+   "title": "Data-driven speech representations for NMF-based word learning",
+   "original": "sap2_098",
+   "page_count": 6,
+   "order": 19,
+   "p1": "98",
+   "pn": "103",
+   "abstract": [
+    "State-of-the-art solutions in ASR often rely on large amounts of expert prior knowledge, which is undesirable in some applications. In this paper, we consider a NMFbased framework that learns a small vocabulary of words directly from input data, without prior knowledge such as phone sets and dictionaries. In the context of this learning scheme, we compare several spectral representations of speech. Where necessary, we propose changes to their derivation to avoid the usage of prior linguistic knowledge. Also, in a comparison of several acoustic modelling techniques, we determine what model properties are beneficial to the framework’s performance.\n",
+    "Index Terms: keyword learning, non-negative matrix factorisation, clustering, acoustic modelling\n",
+    ""
+   ]
+  },
+  "ngouokom12_sapa": {
+   "authors": [
+    [
+     "Samuel K.",
+     "Ngouoko M"
+    ],
+    [
+     "Martin",
+     "Heckmann"
+    ],
+    [
+     "Britta",
+     "Wrede"
+    ]
+   ],
+   "title": "Spectro-temporal features with distribution equalization",
+   "original": "sap2_104",
+   "page_count": 6,
+   "order": 20,
+   "p1": "104",
+   "pn": "109",
+   "abstract": [
+    "We could show in the past that Hierarchical Spectro- Temporal (HIST) features improve the performance of Automatic Recognition Systems (ARS) of speech in difficult environments when they are combined with conventional speech spectral features. The target here is to improve the noise robustness of the HIST features by investigating a channel distribution equalization in our feature hierarchy. Thereby, we determine the empirical cumulative distribution of the speech training data set, which is referred to as reference distribution. Afterwards, a distribution adjustment of the training as well as test data is performed with respect to the reference distribution. We carry out the above mentioned distribution equalization in the preprocessing step as well as after each feature extraction step of our HIST feature extraction framework. We evaluate the benefits of such an equalization in the HIST feature extraction process with different noise types.\n",
+    "Index Terms: Spectro-temporal features, distribution equalization\n",
+    ""
+   ]
+  },
+  "sahni12_sapa": {
+   "authors": [
+    [
+     "Kamal",
+     "Sahni"
+    ],
+    [
+     "Pranay",
+     "Dighe"
+    ],
+    [
+     "Rita",
+     "Singh"
+    ],
+    [
+     "Bhiksha",
+     "Raj"
+    ]
+   ],
+   "title": "Language identification using spectro-temporal patch features",
+   "original": "sap2_110",
+   "page_count": 4,
+   "order": 21,
+   "p1": "110",
+   "pn": "113",
+   "abstract": [
+    "We present a novel approach for automatic Language Identification (LID) using spectro-temporal patch features. Our approach is based on the premise that speech and spoken phenomena are characterized by typical visible patterns in time-frequency representations of the signal, and that the manner of occurrence of these patterns is language specific. To model this, we derive a randomly selected library of spectro-temporal patterns from spoken examples from a language, and derive features from the correlations of this library to spectrograms derived from the speech signal. Under our hypothesis, the relative frequency of correlation peaks must be different for different languages. We model this by learning a discriminative classifier based on these features to detect the presence of the language in a recording. The proposed approach has been tested on two different datasets: the VoxForge multilingual speech data and CallFriend corpus available from the Linguistic Data Consortium (LDC).\n",
+    "Index Terms: Language identification, Spectro-temporal patches, Discriminative classification\n",
+    ""
+   ]
+  },
+  "mcdermott12_sapa": {
+   "authors": [
+    [
+     "Josh H.",
+     "McDermott"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ],
+    [
+     "Hideki",
+     "Kawahara"
+    ]
+   ],
+   "title": "Inharmonic speech: a tool for the study of speech perception and separation",
+   "original": "sap2_114",
+   "page_count": 4,
+   "order": 22,
+   "p1": "114",
+   "pn": "117",
+   "abstract": [
+    "Sounds created by a periodic process have a Fourier representation with harmonic structure – i.e., components at multiples of a fundamental frequency. Harmonic frequency relations are a prominent feature of speech and many other natural sounds. Harmonicity is closely related to the perception of pitch and is believed to provide an important acoustic grouping cue underlying sound segregation. Here we introduce a method to manipulate the harmonicity of otherwise natural-sounding speech tokens, providing stimuli with which to study the role of harmonicity in speech perception. Our algorithm utilizes elements of the STRAIGHT framework for speech manipulation and synthesis, in which a recorded speech utterance is decomposed into voiced and unvoiced vocal excitation and vocal tract filtering. Unlike the conventional STRAIGHT method, we model voiced excitation as a combination of time-varying sinusoids. By individually modifying the frequency of each sinusoid, we introduce inharmonic excitation without changing other aspects of the speech signal. The resulting signal remains highly intelligible, and can be used to assess the role of harmonicity in the perception of prosody or in the segregation of speech from mixtures of talkers.\n",
+    "Index Terms: speech synthesis, harmonicity, sound segregation\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Paper",
+   "papers": [
+    "virtanen12_sapa"
+   ]
+  },
+  {
+   "title": "Contributed Papers",
+   "papers": [
+    "mirbagheri12_sapa",
+    "nicolao12_sapa",
+    "nakano12_sapa",
+    "do12_sapa",
+    "valentinibotinhao12_sapa",
+    "krishnan12_sapa",
+    "tuske12_sapa",
+    "lu12_sapa",
+    "bashashaik12_sapa",
+    "soldo12_sapa",
+    "ogbureke12_sapa",
+    "vijayasenan12_sapa",
+    "oualil12_sapa",
+    "asaei12_sapa",
+    "yoshioka12_sapa",
+    "toroghi12_sapa",
+    "huang12_sapa",
+    "driesen12_sapa",
+    "ngouokom12_sapa",
+    "sahni12_sapa",
+    "mcdermott12_sapa"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,702 @@
+{
+ "title": "Error Handling in Spoken Dialogue Systems",
+ "location": "Château d'Oex, Vaud, Switzerland",
+ "startDate": "28/8/2003",
+ "endDate": "31/8/2003",
+ "conf": "EHSD",
+ "year": "2003",
+ "name": "ehsd_2003",
+ "series": "",
+ "SIG": "",
+ "title1": "Error Handling in Spoken Dialogue Systems",
+ "date": "28-31 August 2003",
+ "papers": {
+  "clark03_ehsd": {
+   "authors": [
+    [
+     "Herbert H.",
+     "Clark"
+    ]
+   ],
+   "title": "When to start speaking, when to stop, and how",
+   "original": "ehsd_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "Timing is essential in dialogue. When people speak, they choose not only what to say, but when to say what they say. They cannot speak until they have something to say - until they have formulated a word, phrase, or sentence. Nor can they speak beyond what they have formulated. Still, once they have a bit formulated, they can produce it whenever they want - within limits. And they can suspend speaking whenever they want - also within limits. The proposal is that speakers often mean things by their choice of timing.\n",
+    ""
+   ]
+  },
+  "batliner03_ehsd": {
+   "authors": [
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Christian",
+     "Hacker"
+    ],
+    [
+     "Stefan",
+     "Steidl"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ],
+    [
+     "Jürgen",
+     "Haas"
+    ]
+   ],
+   "title": "User states, user strategies, and system performance: how to match the one with the other",
+   "original": "ehsd_005",
+   "page_count": 6,
+   "order": 2,
+   "p1": "5",
+   "pn": "10",
+   "abstract": [
+    "Apart from the normal linguistic information entailed in user utterances - segmental (phone/word) information and  syntactic/semantic information - there is additional information (supra-segmental and para-linguistic) that can be useful for deciding whether an automatic dialogue system performs well or not. In this paper, we want to deal with such additional information and correlate it with system performance. Moreover, we will examine whether prosodic peculiarities influence word recognition.\n",
+    ""
+   ]
+  },
+  "martinovsky03_ehsd": {
+   "authors": [
+    [
+     "Bilyana",
+     "Martinovsky"
+    ],
+    [
+     "David",
+     "Traum"
+    ]
+   ],
+   "title": "The error is the clue: breakdown in human-machine interaction",
+   "original": "ehsd_011",
+   "page_count": 6,
+   "order": 3,
+   "p1": "11",
+   "pn": "16",
+   "abstract": [
+    "This paper focuses not on the detection and correction of specific errors in the interaction between machines and humans, but rather cases of massive deviation from the user's conversational expectations and desires. This can be the result of too many or too unusual errors, but also from dialogue strategies designed to minimize error, which make the interaction unnatural in other ways. We study causes of irritation such as over-fragmentation, over-clarity, overcoordination, over-directedness, and repetitiveness of verbal action, syntax, and intonation. Human reactions to these irritating features typically appear in the following order: tiredness, tolerance, anger, confusion, irony, humor, exhaustion, uncertainty, lack of desire to communicate. The studied features of human expressions of irritation in  non-face-to-face interaction are: intonation, emphatic speech, elliptic speech, speed of speech, extra-linguistic signs, speed of verbal action, and overlap.\n",
+    ""
+   ]
+  },
+  "aberdeen03_ehsd": {
+   "authors": [
+    [
+     "John",
+     "Aberdeen"
+    ],
+    [
+     "Lisa",
+     "Ferro"
+    ]
+   ],
+   "title": "Dialogue patterns and misunderstandings",
+   "original": "ehsd_017",
+   "page_count": 5,
+   "order": 4,
+   "p1": "17",
+   "pn": "21",
+   "abstract": [
+    "Disruptive errors are common in many human-computer (HC) dialogues. We manually applied initiative and dialogue act annotations to HC dialogues in the travel domain in an effort to find patterns that are predictive of misunderstandings. While we found some interesting patterns of dialogue acts, we also found that a detailed understanding of the misunderstandings in our data required us to perform more in-depth analysis than is possible just by examining dialogue acts. Our hope is that analyses such as these will inform the design of HC dialogue systems, so that systems may predict problematic situations in order to deal with them more effectively.\n",
+    ""
+   ]
+  },
+  "shimojima03_ehsd": {
+   "authors": [
+    [
+     "Atsushi",
+     "Shimojima"
+    ]
+   ],
+   "title": "Dialogues with drawing",
+   "original": "ehsd_023",
+   "page_count": 1,
+   "order": 5,
+   "p1": "23",
+   "pn": "23",
+   "abstract": [
+    "By \"drawing\", we mean the process of producing persistent traces on a surface. Thus, a prototypical example of drawing is the production of ink traces on a sheet of paper, but the notion also encompasses the production of chalk traces on a blackboard, that of pixel traces on a CRT screen, that of finger traces on sand, and so on. The main topic of this talk is not drawing itself, but the case where drawing is used with spoken language in interactive dialogues.\n",
+    "Dialogues with drawing are a very common form of human communication. People often talk while drawing: they give directions by drawing a map, explain ideas while writing on a blackboard, and explain a movement while drawing a curve. People often talk over a drawing: they discuss a travel plan over a road map, discuss a re-modeling over a blueprint, and discuss ideas referring to projected slides.\n",
+    "Partly because of this prevalence of dialogues involving drawing, they are envisioned as one of the promising forms of communication between humans and machines in the future, and explorations have begun on computational systems that help edit hand drawings, recognize them, or even interpret them in a limited domain. (See, for example, papers collected in the proceedings of the AAAI Spring Workshop on Sketch Understandings). A dialogue system that interprets and produces natural drawing is therefore not an unrealistic idea.\n",
+    "Dialogues involving drawing are also an interesting subject of study. Speech is a non-persistent medium of communication, in that spoken sound is available to auditory perception only while it is produced, and it generally leaves no perceivable trace after production. Drawing is, by definition, a persistent medium of communication. Also, drawing generally has a broader bandwidth than speech does: two or more speakers can produce drawing simultaneous on a sufficiently large drawing surface, while spoken sounds produced simultaneously by two or more speakers often interfere with each other and become incomprehensible. It is plausible that dialogues conducted mainly with speech are so structured as to handle the non-persistency and narrow bandwidth of the speech medium, so the presence of drawing can make significant differences in the structure of dialogues. Detailed comparisons can reveal the functions of important structural features for both types of dialogues.\n",
+    "Furthermore, what is drawn in communication is often graphics, such as maps, floor plans, and line figures, as distinguished from words, phrases, and sentences in a certain language. Detailed analyses of the use of drawing in real dialogues can therefore lead to important findings about the expressive functions of graphical representations---the subject vigorously studied in a certain community of cognitive scientists (e.g., Larkin and Simon 1987, Barwise and Etchemendy 1990, Stenning and Oberlander 1995, Shimojima 1999).\n",
+    "The purpose of this talk is to introduce the audience to the subject of dialogues with drawing. I will give an overview of the key studies that have been conducted on the subject, with some focus on our recent empirical work (Umata, Shimojima, and Katagiri, 1999, 2000, 2001, 2002, Takeoka, Shimo jima, and Katagiri 2003). In particular, I will show some relevant data concerning the following questions: Does drawing constitute a turn, as speech typically does? Does drawing by one speaker resist interruptions by the other speaker's speech? Does the occurence of drawing give an excuse to long silence at the speech level? Under what conditions is a \"crush of drawing turns\" (simultaneous drawing on the shared drawing surface) permissible? Under what conditions does drawing have to occur in a sequential order as speech turns typically do? How are speech and drawing integrated in conveying information in dialogues? Does the existence of a drawing make any differences in the use of spoken language?\n",
+    "",
+    "",
+    "I will also try to give an overview of the areas not covered by the previous research, and clarify some of the important research questions in those areas.\n",
+    ""
+   ]
+  },
+  "swerts03_ehsd": {
+   "authors": [
+    [
+     "Marc",
+     "Swerts"
+    ],
+    [
+     "Emiel",
+     "Krahmer"
+    ],
+    [
+     "Pashiera",
+     "Barkhuysen"
+    ],
+    [
+     "Lennard van de",
+     "Laar"
+    ]
+   ],
+   "title": "Audiovisual cues to uncertainty",
+   "original": "ehsd_025",
+   "page_count": 6,
+   "order": 6,
+   "p1": "25",
+   "pn": "30",
+   "abstract": [
+    "This paper presents research on the use of audiovisual prosody to signal a speaker's level of uncertainty. The first study consists of an experiment, in which subjects are asked factual questions in a conversational setting, while they are being filmed. Statistical analyses bring to light that the speakers'  Feeling-of-Knowing (FOK) correlate signifcantly with a  number of visual and verbal properties. Interestingly,  it appears that answers tend to have a higher number of marked feature settings (i.e., divergences of the neutral audiovisual expression) when the FOK score is low, while the reverse is true for non-answers. The second study is a perception experiment, in which a selection of the utterances from the first study is presented to subjects in one of three conditions: vision only, sound only or  vision+sound. Results reveal that human observers can reliably distinguish HighFOK responses from LowFOK responses in all three conditions, be it that answers are easier than non-answers, and that a bimodal presentation of the stimuli is easier than their unimodal counterparts. Results of these two experiments are potentially relevant for improving the communication style in human-machine interaction.\n",
+    ""
+   ]
+  },
+  "araki03_ehsd": {
+   "authors": [
+    [
+     "Masahiro",
+     "Araki"
+    ],
+    [
+     "Akihiko",
+     "Kaga"
+    ],
+    [
+     "Takuya",
+     "Nishimoto"
+    ]
+   ],
+   "title": "Comparison of \"go back\" implementations in VoiceXML",
+   "original": "ehsd_031",
+   "page_count": 4,
+   "order": 7,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "In spoken dialogue systems, the most simple user-side error collection method is a \"go back\" input that is equivalent to \"undo\" button of ordinary graphical user interface. However, hard cording of \"go back\" destination is effective only in a strictly hierarchical menu-based dialogue system without shortcut. Such \"go back\" implementation causes a lost state problem in browsing around type of dialogue or frame-based dialogue. In order to deal with such a problem in VoiceXML-based dialogue systems, we explore and compare three solutions which have different pros and cons.\n",
+    ""
+   ]
+  },
+  "bouraoui03_ehsd": {
+   "authors": [
+    [
+     "Jean-Léon",
+     "Bouraoui"
+    ],
+    [
+     "Gwenael",
+     "Bothorel"
+    ],
+    [
+     "Nadine",
+     "Vigouroux"
+    ]
+   ],
+   "title": "Transcription and annotation of an apprenticeship corpus: application to the correction and self-correction strategies",
+   "original": "ehsd_035",
+   "page_count": 6,
+   "order": 8,
+   "p1": "35",
+   "pn": "40",
+   "abstract": [
+    "Abstract This paper presents a corpus-based study devoted to corrections, self-corrections strategies to recover errors during dialogues. The corpus used results from exercises where air-traffic controllers being formed interacts with people simulating pilots in practice. Considering correction strategies as an answer to errors, we present a fine-grained typology of these strategies, the errors they aims to compensate, and their markers. We also give various statistics about their distribution in the corpus, and comment them, in regards with their application to spoken dialog systems.\n",
+    ""
+   ]
+  },
+  "bousquetvernhettes03_ehsd": {
+   "authors": [
+    [
+     "Caroline",
+     "Bousquet-Vernhettes"
+    ],
+    [
+     "Régis",
+     "Privat"
+    ],
+    [
+     "Nadine",
+     "Vigouroux"
+    ]
+   ],
+   "title": "Error handling in spoken dialogue systems: toward corrective dialogue",
+   "original": "ehsd_041",
+   "page_count": 5,
+   "order": 9,
+   "p1": "41",
+   "pn": "45",
+   "abstract": [
+    "This paper presents a framework on corrective sub-dialogues and error handling in spoken dialogue systems. Starting with a short typology of errors in interactive voice systems, our purposes are to investigate the prevention of these errors in the dialogue, and the handling of corrective sub-dialogues when they occur. We will particularly focus on the implications of this work in the speech understanding system and the dialogue controller.\n",
+    ""
+   ]
+  },
+  "orlandi03_ehsd": {
+   "authors": [
+    [
+     "Marco",
+     "Orlandi"
+    ],
+    [
+     "Christopher",
+     "Culy"
+    ],
+    [
+     "Horacio",
+     "Franco"
+    ]
+   ],
+   "title": "Using dialog corrections to improve speech recognition",
+   "original": "ehsd_047",
+   "page_count": 5,
+   "order": 10,
+   "p1": "47",
+   "pn": "51",
+   "abstract": [
+    "We propose a preliminary method for automatically correcting errors in spoken dialogue systems1. Current spoken dialogue systems usually show a rather static and rigid behavior regarding recognition errors, therefore a feasible method of correcting system errors might be helpful to successfully support user requests. Moreover, a correction differs from non-correction prosodically [1]. Generally a user correction exhibits a greater prosodic difference the more distant it is from the initial error. In this case it is recognized more poorly, and it involves a longer human-machine interaction because this often leds to the same recognition errors.\n",
+    "This paper will focus on methods to adapt the system using the error feedback provided by the user, and basically requires the adaptation of the language model.\n",
+    ""
+   ]
+  },
+  "paek03_ehsd": {
+   "authors": [
+    [
+     "Tim",
+     "Paek"
+    ]
+   ],
+   "title": "Toward a taxonomy of communication errors",
+   "original": "ehsd_053",
+   "page_count": 6,
+   "order": 11,
+   "p1": "53",
+   "pn": "58",
+   "abstract": [
+    "Researchers in a variety of disciples such as conversation analysis, second language acquisition, speech pathology, and computational linguistics have classified various types of communication errors that occur between humans, and between humans and computers. In this paper, we attempt to bring together insights from diverse disciplines into a common theoretical framework from which to compare and contrast various types of errors. We describe a classification scheme based on how people collaboratively resolve uncertainties by establishing the mutual belief that their utterances have been understood well enough for current purposes - a process referred to as grounding. The classification scheme not only highlights how different types of failures are related to each other through the common bond of uncertainty, but also provides guidelines for the design of error handling in automated systems.\n",
+    ""
+   ]
+  },
+  "privat03_ehsd": {
+   "authors": [
+    [
+     "Régis",
+     "Privat"
+    ]
+   ],
+   "title": "Age effect on ASR performances: which dialogue recommendations for adaptive strategies",
+   "original": "ehsd_059",
+   "page_count": 6,
+   "order": 12,
+   "p1": "59",
+   "pn": "64",
+   "abstract": [
+    "The problem discussed in this paper concerns the usability of interactive voice systems for the elderly. This paper will first report on the state of the art of speech technology, with a special focus on the problems encountered by this category of speakers. Secondly, it will describe the case study of the fundamental evaluation of the usability of French dictation systems for elderly people. Finally, we will give preliminary results, mainly on the effect of the age, and will discuss the problem of the adaptation to the user in interactive voice systems.\n",
+    ""
+   ]
+  },
+  "condon03_ehsd": {
+   "authors": [
+    [
+     "Sherri",
+     "Condon"
+    ],
+    [
+     "Keith",
+     "Miller"
+    ]
+   ],
+   "title": "Can you read this well? Error handling in a translated messaging environment",
+   "original": "ehsd_065",
+   "page_count": 6,
+   "order": 13,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper focuses on the behavior that users exhibit when faced with system errors in an instant messaging environment in which the system translates each user's messages into the language of the other participants. Messages were annotated to identify the strategies that participants adopt for managing their interaction, including strategies to repair and adapt to translation problems. Results show that participants employ high proportions of strategies that manage the interaction by explicitly referring to the ongoing communication. These results question the assumption that explicit verification strategies in dialogue systems are dispreferred because they require extra resources.\n",
+    ""
+   ]
+  },
+  "skantze03_ehsd": {
+   "authors": [
+    [
+     "Gabriel",
+     "Skantze"
+    ]
+   ],
+   "title": "Exploring human error handling strategies: implications for spoken dialogue systems",
+   "original": "ehsd_071",
+   "page_count": 6,
+   "order": 14,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "In this study, the user experience and the consequences of different error handling strategies for spoken dialogue are examined. A modification of the Wizard of Oz method is used, where a speech recogniser is included in the setting. This makes it possible to study how humans handle speech recognition errors before a dialogue system is actually built. The results show that wizards tend not to signal non-understanding when they face speech recognition problems, but instead ask task-related questions to confirm the wizards hypothesis about the situation, rather than what has been said. This strategy leads to better understanding of subsequent utterances, whereas signalling non-understanding leads to decreased user experience of task success.\n",
+    ""
+   ]
+  },
+  "gurevych03_ehsd": {
+   "authors": [
+    [
+     "Iryna",
+     "Gurevych"
+    ],
+    [
+     "Robert",
+     "Porzel"
+    ]
+   ],
+   "title": "Using knowledge-based scores for identifying best speech recognition hypothesis",
+   "original": "ehsd_077",
+   "page_count": 5,
+   "order": 15,
+   "p1": "77",
+   "pn": "81",
+   "abstract": [
+    "The paper presents the evaluation of a knowledge-based scoring method applied to the problem of identifying the best speech recognition hypothesis (SRH) in a functioning multimodal dialogue system. The competing SRHs are evaluated in terms of their semantic coherence using the high-level domain knowledge encoded in the ontology. We conducted an annotation experiment and showed that humans can reliably select the best SRH in a given N-best list (agreement 95.35%). The knowledge-based method identifies correctly 88.07% of the best SRHs (given the baseline 63.91%), which is also an improvement over the automatic speech recognizer (ASR) (83.88% accuracy).\n",
+    ""
+   ]
+  },
+  "zollo03_ehsd": {
+   "authors": [
+    [
+     "Teresa",
+     "Zollo"
+    ]
+   ],
+   "title": "Using grammatical analysis to detect misrecognitions",
+   "original": "ehsd_083",
+   "page_count": 6,
+   "order": 16,
+   "p1": "83",
+   "pn": "88",
+   "abstract": [
+    "In systems that use grammatical analysis rather than concept spotting to accomplish natural language understanding, the presence or absence of the top-level constituent \"turn\" can be used to reliably detect whether the users speech was misrecognized. In this paper, a description of the structure of wellformed spoken turns in practical human-computer dialogue is given. We explain how that description of turns can be encoded the context-free grammar rules used by a parser, and how the result of the parsers analysis can be used as a basis for detecting misrecognitions. We provide the results of an evaluation of this error detection strategy in the TRIPS-Pacifica domain showing 92.1%accuracy in classifying speech recognition hypotheses as correct or erroneous, an improvement of 18.2 percentage points above the majority-class baseline.\n",
+    ""
+   ]
+  },
+  "portele03_ehsd": {
+   "authors": [
+    [
+     "Thomas",
+     "Portele"
+    ]
+   ],
+   "title": "Interaction modeling in the SmartKom system",
+   "original": "ehsd_089",
+   "page_count": 6,
+   "order": 17,
+   "p1": "89",
+   "pn": "94",
+   "abstract": [
+    "The research project SmartKom aims at developing sophisticated multimodal user interfaces. The main outcome of the project is an integrated demonstrator combining all research results. One component of this demonstrator is the interaction module that constructs and maintains a model of human-computer interaction. The interaction module uses a set of input sources (about 50 in total) to calculate several values, each describing a very specific aspect. These values (indicators) are combined to construct more general values (models). The model values are then passed on to other SmartKom modules that can exploit them to improve the interaction. Problematic situations are expressed by threemodels in the fourth part of the module. One model describes the likelihood that the user is angry by combining scores from mimic analysis, emotion extraction from prosody, and use of certain words. A secondmodel combines confidence values from recognizers and similar scores from other modules to detect problems in the analysis part of the system. A third model estimates the dialogue progress using the ratio of new information items to total information items and the overall number of information items in the user input.\n",
+    ""
+   ]
+  },
+  "paek03b_ehsd": {
+   "authors": [
+    [
+     "Tim",
+     "Paek"
+    ],
+    [
+     "Eric",
+     "Horvitz"
+    ]
+   ],
+   "title": "On the utility of decision-theoretic hidden subdialog",
+   "original": "ehsd_095",
+   "page_count": 6,
+   "order": 18,
+   "p1": "95",
+   "pn": "100",
+   "abstract": [
+    "A spoken dialog system typically characterizes a domain task with multiple states interconnected by actions or thresholds as transitions between states. As the system attempts to solicit a piece of information from the user, it may have to engage in a hidden subdialog, or error handling within a particular state, before transitioning to a new state. Hidden subdialogs generally center on illocutionary repairs such as a request for repetition or confirmation of a heard utterance. We summarize what we believe to be the distinct advantages of representing error handling in a hidden subdialog as decision making under uncertainty. We motivate the discussion with examples drawn from dialog systems built within the Conversational Architectures Project at Microsoft Research.\n",
+    ""
+   ]
+  },
+  "goldberg03_ehsd": {
+   "authors": [
+    [
+     "Julie",
+     "Goldberg"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ],
+    [
+     "Katrin",
+     "Kirchhoff"
+    ]
+   ],
+   "title": "The impact of response wording in error correction subdialogs",
+   "original": "ehsd_101",
+   "page_count": 6,
+   "order": 19,
+   "p1": "101",
+   "pn": "106",
+   "abstract": [
+    "Spoken human-machine dialogs are prone to communication failures due to imperfect speech recognition and understanding. In order to recover from these failures, users typically engage in error correction subdialogs. Lengthy error correction subdialogs should be avoided since they increase the overall task completion time and decrease user satisfaction. This study analyzes a large corpus of human-computer dialogs and identifies properties of system responses that affect user frustration and recognition error rates in error correction subdialogs.\n",
+    ""
+   ]
+  },
+  "suzuki03_ehsd": {
+   "authors": [
+    [
+     "Noriko",
+     "Suzuki"
+    ],
+    [
+     "Yasuhiro",
+     "Katagiri"
+    ]
+   ],
+   "title": "Prosodic synchrony for error management in human-computer interaction",
+   "original": "ehsd_107",
+   "page_count": 5,
+   "order": 20,
+   "p1": "107",
+   "pn": "111",
+   "abstract": [
+    "This paper presents a new direction for managing the speech recognition errors of a computer with spoken dialogue functions. Our approach uses an implicit control of human voice prosody by focusing on human behavior characteristics, i.e., interactional synchrony at the prosodic level as one of errorprevention methods. In this paper, we introduce a simple experiment to examine the same prosodic synchrony between a subject and a computer at the same acoustic power level as that in human-human conversation. Consequently, we obtained the asymmetric results: subjects follow the change in sound power level in a computer voice when it's in the increasing direction but not in the decreasing direction.\n",
+    ""
+   ]
+  },
+  "bousquetvernhettes03b_ehsd": {
+   "authors": [
+    [
+     "Caroline",
+     "Bousquet-Vernhettes"
+    ],
+    [
+     "Nadine",
+     "Vigouroux"
+    ]
+   ],
+   "title": "Recognition error handling by the speech understanding system to improve spoken dialogue systems",
+   "original": "ehsd_113",
+   "page_count": 6,
+   "order": 21,
+   "p1": "113",
+   "pn": "118",
+   "abstract": [
+    "The aim of this paper is to increase the robustness of speech understanding facing the different kinds of recognition error. Indeed, these errors are frequent in human-machine dialogue and have usually repercussions on all components of the spoken dialogue system.\n",
+    "We propose an approach based on a stochastic and conceptual model. This model is robust to some kinds of errors like insertions and deletions. We present also an extension of this model in order to increase the robustness of the understanding process faced with misrecognitions (i.e. substitutions) and unknown words. We performed trial series on train schedule inquiry application to evaluate the understanding rate when confronted to recognition errors.\n",
+    ""
+   ]
+  },
+  "lendvai03_ehsd": {
+   "authors": [
+    [
+     "Piroska",
+     "Lendvai"
+    ],
+    [
+     "Laura",
+     "Maruster"
+    ]
+   ],
+   "title": "Process discovery for evaluating dialogue strategies",
+   "original": "ehsd_119",
+   "page_count": 4,
+   "order": 22,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "We develop a diagnostic method for detecting problematic dialogue strategies in spoken dialogue systems (SDS). Our tool classifies relations between semantically-pragmatically labelled system prompts and user inputs in a Dutch SDS corpus, and constructs a dependency/frequency graph that provides rich information about the underlying interaction process. The graph can be directly analysed to specify those system events from which more paths lead to problematic user events than to the unproblematic semantic equivalents of those user inputs. As a result, we can pinpoint bad sequences of prompting strategies in the system and suggest ways to replace such prompts with more effective ones. Our approach is a general method that provides straightforward output for evaluating a SDS design, given some labelled data.\n",
+    ""
+   ]
+  },
+  "macherey03_ehsd": {
+   "authors": [
+    [
+     "Klaus",
+     "Macherey"
+    ],
+    [
+     "Oliver",
+     "Bender"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Multi-level error handling for tree based dialogue course management",
+   "original": "ehsd_123",
+   "page_count": 6,
+   "order": 23,
+   "p1": "123",
+   "pn": "128",
+   "abstract": [
+    "For spoken dialogue systems, errors can occur on different levels of the systems architecture. One of the principal causes for errors during a dialogue session are erroneous recognition results which often lead to incorrect semantic interpretations. Even if the speech input signal has been correctly recognized, a natural language understanding component can produce errorprone sentence meanings due to the limitations of its underlying model. To cope with this problem, we introduce a multi-level error-detection mechanism based on several features in order to find erroneous recognitions, error-prone semantic interpretations as well as ambiguities, and contradictions. Here, the  confidence output of one level directly serves as an additional input for the subsequent level. The proposed features and scoring criteria are passed to the dialogue manager which then determines the subsequent dialogue action.\n",
+    ""
+   ]
+  },
+  "mctear03_ehsd": {
+   "authors": [
+    [
+     "Michael",
+     "McTear"
+    ],
+    [
+     "Ian",
+     "O'Neill"
+    ],
+    [
+     "Philip",
+     "Hanna"
+    ],
+    [
+     "Xingkun",
+     "Liu"
+    ]
+   ],
+   "title": "Handling errors and determining confirmation strategies: an object-based approach",
+   "original": "ehsd_129",
+   "page_count": 4,
+   "order": 24,
+   "p1": "129",
+   "pn": "132",
+   "abstract": [
+    "Errors can occur at every level of a dialogue, from the recognition of what words were spoken to the understanding of the intentions behind the words. Our approach to errorhandling assumes that errors cannot be avoided in spoken dialogue and that it is more useful to focus on methods for detecting and dealing with miscommunication when it occurs. An object-based architecture is presented that supports decisions as to what sorts of confirmations should be used at various stages within a dialogue and how a dialogue agent can address miscommunication arising from user misconceptions.\n",
+    ""
+   ]
+  },
+  "seydoux03_ehsd": {
+   "authors": [
+    [
+     "Florian",
+     "Seydoux"
+    ],
+    [
+     "Alex",
+     "Trutnev"
+    ],
+    [
+     "Martin",
+     "Rajman"
+    ]
+   ],
+   "title": "Dialogue management with weak speech recognition: a pragmatic approach",
+   "original": "ehsd_133",
+   "page_count": 6,
+   "order": 25,
+   "p1": "133",
+   "pn": "138",
+   "abstract": [
+    "The present contribution adresses the design of pragmatic solutions for various problems occuring within dialogue-based vocal systems using low performance speech recognition engines (SREs), for example in situations where the used speech recognition engine is not fully adapted to the specific application, or the data necessary for training reliable acoustic and language models is not available. To accomodate the use of a low performance SRE, the following design principles are used to guide the conception of the dialogue model: (1) adopt a (limited) mixed initiative dialogue management strategy to improve flexibility of use; (2) avoid repetitions in the dialogue flow; (3) integrate in the dialogue management strategy mecanisms for recovering from specific dialogue repair situations such as request for help, for repetition, miscommunication, ...; (4) minimize the duration of the dialogues, i.e. aim at dialogues providing the user with the relevant information in a minimal number of turns; (5) provide the user with adequate feedback information about the state of the dialogue and the recognized pieces of information; and (6) filter out as much conflicting data as possible.\n",
+    "The structure of the contribution is the following: we first detail the context in which our dialogue model was designed; then we describe the solutions that have been proposed to implement the above mentioned design principles. Next, from the final evaluation of the system, we derive some insights on the impact of the selected solutions on the user perception of the system. All the proposed solutions were designed, implemented and evaluated in the framework of the InfoVox project.\n",
+    ""
+   ]
+  },
+  "wang03_ehsd": {
+   "authors": [
+    [
+     "Yu-Fang H.",
+     "Wang"
+    ],
+    [
+     "Stefan W.",
+     "Hamerich"
+    ],
+    [
+     "Volker",
+     "Schless"
+    ]
+   ],
+   "title": "Multi-modal and modality specific error handling in the GEMINI project",
+   "original": "ehsd_139",
+   "page_count": 6,
+   "order": 26,
+   "p1": "139",
+   "pn": "144",
+   "abstract": [
+    "GEMINI (Generic Environment for Multilingual Interactive Natural Interfaces) is an EC-funded research project which started in April 2002. The goal of GEMINI is to provide a flexible platform for the generation of applications, able to produce multi-modal and multilingual dialogue interfaces to databases with a minimum of human effort. All description models which are generated by the tools of the platform are based on our newly designed XML-based description language called GDialogXML (Gemini Dialog XML). It is an abstract dialogue description language, which is flexible enough to account for both modality independent and modality specific features of the target language, i.e. VoiceXML or xHTML. The platform will generate high-quality, state-of-the-art applications, e.g. a speech application that includes mixed-initiative dialogues and sophisticated error handling.\n",
+    "In this paper, we focus on the treatment of error handling for speech. Error handling for the web will be done in a future stage of the project.\n",
+    ""
+   ]
+  },
+  "phillips03_ehsd": {
+   "authors": [
+    [
+     "Mike",
+     "Phillips"
+    ]
+   ],
+   "title": "User Interface Design for Spoken Dialog Systems",
+   "original": "ehsd_145",
+   "page_count": 1,
+   "order": 27,
+   "p1": "145",
+   "pn": "145",
+   "abstract": [
+    "SpeechWorks has been involved in the development and deployment of over 300 telephone-based Speech applications. With many of these systems, we have been able to gather extensive usage data, including details of how users respond to the various system prompts, statistics of overall success rates, and in some cases, post-usage interviews and surveys to learn what users like or dislike about these systems. This experience has given us the firm belief that the most important factor in the success of these systems is the design of the application and the associated user interface. While there is still a relationship between the technology performance and the success of the application, in most cases, the technology performs well and most application improvements come from improvements to the user interface. This includes ensuring a match between user expectations and application capabilities, tuning the wording and prosodics of the system prompts, and establishing error handling and confirmation strategies and thresholds. In this talk, I will provide examples of these systems, along with the approach used to design, develop, and deploy successful speech interfaces.\n",
+    ""
+   ]
+  },
+  "streit03_ehsd": {
+   "authors": [
+    [
+     "Michael",
+     "Streit"
+    ]
+   ],
+   "title": "Context Dependent Error Handling by a Three Layered Processing Model",
+   "original": "ehsd_147",
+   "page_count": 6,
+   "order": 28,
+   "p1": "147",
+   "pn": "152",
+   "abstract": [
+    "Basically, there exist two different approaches for detection and handling of problematic situations in dialog systems. One approach tries to identify critical phases and overcomes the problem by restarting from unproblematic states. The second approach draws evidence for problematic situations from semantic content and focuses in repairing the situations by revision of interpretations. We provide a processing model that is capable of restart processing and deeper content-based repair analysis as well. We achieve this, by introducing context based decision processes, which determine the appropriate recovering method, starting from different kinds of evidence for problematic situations and combine this approach with a plan-based subdialog designing facility.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "clark03_ehsd",
+    "batliner03_ehsd",
+    "martinovsky03_ehsd",
+    "aberdeen03_ehsd",
+    "shimojima03_ehsd",
+    "swerts03_ehsd",
+    "araki03_ehsd",
+    "bouraoui03_ehsd",
+    "bousquetvernhettes03_ehsd",
+    "orlandi03_ehsd",
+    "paek03_ehsd",
+    "privat03_ehsd",
+    "condon03_ehsd",
+    "skantze03_ehsd",
+    "gurevych03_ehsd",
+    "zollo03_ehsd",
+    "portele03_ehsd",
+    "paek03b_ehsd",
+    "goldberg03_ehsd",
+    "suzuki03_ehsd",
+    "bousquetvernhettes03b_ehsd",
+    "lendvai03_ehsd",
+    "macherey03_ehsd",
+    "mctear03_ehsd",
+    "seydoux03_ehsd",
+    "wang03_ehsd",
+    "phillips03_ehsd",
+    "streit03_ehsd"
+   ]
+  }
+ ]
+}

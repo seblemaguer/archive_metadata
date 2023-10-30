@@ -1,0 +1,379 @@
+{
+ "series": "SPSC",
+ "title": "3rd Symposium on Security and Privacy in Speech Communication",
+ "location": "Dublin, Ireland",
+ "startDate": "19/08/2023",
+ "endDate": "19/08/2023",
+ "URL": "https://spsc-symposium2023.mobileds.de/",
+ "chair": "Chairs: Ingo Siegert, Jennifer Williams and Sneha Das",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "SPSC",
+ "year": "2023",
+ "name": "spsc_2023",
+ "SIG": "",
+ "title1": "3rd Symposium on Security and Privacy in Speech Communication",
+ "booklet": "spsc_2023.pdf",
+ "date": "19 August 2023",
+ "papers": {
+  "khamsehashari23_spsc": {
+   "authors": [
+    [
+     "Razieh",
+     "Khamsehashari"
+    ],
+    [
+     "Vera",
+     "Schmitt"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Salar",
+     "Mohtaj"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "How Risky is Multimodal Fake News Detection? A Review of Cross-Modal Learning Approaches under EU AI Act Constrains",
+   "original": "SPSC_Paper1",
+   "page_count": 10,
+   "order": 1,
+   "p1": 1,
+   "pn": 10,
+   "abstract": [
+    "Manual review methods have become insufficient when combating today’s scale of online fake news, leading researchers to develop AI-based detection models, many of which struggle with, e.g., multimodal conflicts and ambiguity. Most promising models combine images and textual information in a cross-modal learning strategy. This work summarizes current multimodal fake news detection models, based on cross-modal learning. In order to evaluate if and how they can be applied in real-world use cases, we analyze best-performing models with respect to obligations like risk management, data governance, documentation, transparency, human oversight, and required accuracy, following the European Commission’s AI Act. The analysis shows that the AI Act can be applied to a certain extent only, as the categories and their obligations are vaguely defined, leaving room for interpretation when translating the obligations into technical requirements. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-1"
+  },
+  "feng23_spsc": {
+   "authors": [
+    [
+     "Tiantian",
+     "Feng"
+    ],
+    [
+     "Digbalay",
+     "Bose"
+    ],
+    [
+     "Xuan",
+     "Shi"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Unlocking Foundation Models for Privacy-Enhancing Speech Understanding: An Early Study on Low Resource Speech Training Leveraging Label-guided Synthetic Speech Content",
+   "original": "SPSC_Paper2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "Automatic Speech Understanding (ASU) leverages the power of deep learning models for accurate interpretation of human speech, leading to a wide range of speech applications that enrich the human experience. However, training a robust ASU model requires the curation of a large number of speech samples, creating risks for privacy breaches. In this work, we investigate using foundation models to assist privacy-enhancing speech computing. Unlike conventional works focusing primarily on data perturbation or distributed algorithms, our work studies the possibilities of using pre-trained generative models to synthesize speech content as training data with just label guidance. We show that zero-shot learning with training label-guided synthetic speech content remains a challenging task. On the other hand, our results demonstrate that the model trained with synthetic speech samples provides an effective initialization point for low-resource ASU training. This result reveals the potential to enhance privacy by reducing user data collection but using label-guided synthetic speech content. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-2"
+  },
+  "panariello23_spsc": {
+   "authors": [
+    [
+     "Michele",
+     "Panariello"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Vocoder drift compensation by x-vector alignment in speaker anonymisation",
+   "original": "SPSC_Paper3",
+   "page_count": 5,
+   "order": 3,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    " For the most popular x-vector–based approaches to speaker anonymisation, the bulk of the anonymisation can stem from vocoding rather than from the core anonymisation function which is used to substitute an original speaker x-vector with that of a fictitious pseudo-speaker. This phenomenon can impede the design of better anonymisation systems since there is a lack of fine-grained control over the x-vector space. The work reported in this paper explores the origin of so-called vocoder drift and shows that it is due to the mismatch between the substituted x-vector and the original representations of the linguistic content, intonation and prosody. Also reported is an original approach to vocoder drift compensation. While anonymisation performance degrades as expected, compensation reduces vocoder drift substantially, offers improved control over the x-vector space and lays a foundation for the design of better anonymisation functions in the future.\n"
+   ],
+   "doi": "10.21437/SPSC.2023-3"
+  },
+  "ettenhofer23_spsc": {
+   "authors": [
+    [
+     "Armin",
+     "Ettenhofer"
+    ],
+    [
+     "Jan-Philipp",
+     "Schulze"
+    ],
+    [
+     "Karla",
+     "Pizzi"
+    ]
+   ],
+   "title": "An Integrated Algorithm for Robust and Imperceptible Audio Adversarial Examples",
+   "original": "SPSC_Paper4",
+   "page_count": 8,
+   "order": 4,
+   "p1": 21,
+   "pn": 28,
+   "abstract": [
+    "Audio adversarial examples are audio files that have been manipulated to fool an automatic speech recognition (ASR) system, while still sounding benign to a human listener. Most methods to generate such samples are based on a two-step algorithm: first, a viable adversarial audio file is produced, then, this is fine-tuned with respect to perceptibility and robustness. In this work, we present an integrated algorithm that uses psychoacoustic models and room impulse responses (RIR) in the generation step. The RIRs are dynamically created by a neural network during the generation process to simulate a physical environment to harden our examples against transformations experienced in over-the-air attacks. We compare the different approaches in three experiments: in a simulated environment and in a realistic over-the-air scenario to evaluate the robustness, and in a human study to evaluate the perceptibility. Our algorithms considering psychoacoustics only or in addition to the robustness show an improvement in the signal-to-noise ratio (SNR) as well as in the human perception study, at the cost of an increased word error rate (WER). \n"
+   ],
+   "doi": "10.21437/SPSC.2023-4"
+  },
+  "ramesh23_spsc": {
+   "authors": [
+    [
+     "Guruprasad V",
+     "Ramesh"
+    ],
+    [
+     "Gopinath",
+     "Chennupati"
+    ],
+    [
+     "Milind",
+     "Rao"
+    ],
+    [
+     "Anit Kumar",
+     "Sahu"
+    ],
+    [
+     "Ariya",
+     "Rastrow"
+    ],
+    [
+     "Jasha",
+     "Droppo"
+    ]
+   ],
+   "title": "Federated Representation Learning for Automatic Speech Recognition",
+   "original": "SPSC_Paper5",
+   "page_count": 5,
+   "order": 5,
+   "p1": 29,
+   "pn": 33,
+   "abstract": [
+    "",
+    "Federated Learning (FL) is a privacy-preserving paradigm, allowing edge devices to learn collaboratively without sharing data. Edge devices like Alexa and Siri are prospective sources of unlabeled audio data that can be tapped to learn robust audio representations. In this work, we bring Self-supervised Learning (SSL) and FL together to learn representations for Automatic Speech Recognition respecting data privacy constraints. We use the speaker and chapter information in the unlabeled speech dataset, Libri-Light, to simulate non- IID speaker-siloed data distributions and pre-train an LSTM encoder with the Contrastive Predictive Coding framework with FedSGD. We show that the pre-trained ASR encoder in FL performs as well as a centrally pre-trained model and produces an improvement of 12-15% (WER) compared to no pre-training. We further adapt the federated pre-trained models to a new language, French, and show a 20% (WER) improvement over no pre-training.\n"
+   ],
+   "doi": "10.21437/SPSC.2023-5"
+  },
+  "mehlman23_spsc": {
+   "authors": [
+    [
+     "Nick",
+     "Mehlman"
+    ],
+    [
+     "Xuan",
+     "Shi"
+    ],
+    [
+     "Aditya",
+     "Kommineni"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Detecting Poisoning Attacks against Speech Datasets using Variational Autoencoders",
+   "original": "SPSC_Paper6",
+   "page_count": 7,
+   "order": 6,
+   "p1": 34,
+   "pn": 40,
+   "abstract": [
+    "In this paper, we address the threat of data poisoning attacks by proposing a novel method for detecting and isolating poisoned samples. Our approach uses a variational autoencoder (VAE) trained in an unsupervised fashion on the manipulated dataset. By performing per-class clustering and statistical analysis of the latent vectors, we can identify poisoned classes and separate clean and poisoned samples. We evaluate our method on an audio dataset and demonstrate that we outperform two popular baseline defenses. Furthermore, we show the generalizability of a single trained VAE model in exposing a variety of different poisoning attacks against the same dataset. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-6"
+  },
+  "hintz23_spsc": {
+   "authors": [
+    [
+     "Jan",
+     "Hintz"
+    ],
+    [
+     "Sebastian",
+     "Bayerl"
+    ],
+    [
+     "Yamini",
+     "Sinha"
+    ],
+    [
+     "Suhita",
+     "Ghosh"
+    ],
+    [
+     "Martha",
+     "Schubert"
+    ],
+    [
+     "Sebastian",
+     "Stober"
+    ],
+    [
+     "Korbinian",
+     "Riedhammer"
+    ],
+    [
+     "Ingo",
+     "Siegert"
+    ]
+   ],
+   "title": "Anonymization of Stuttered Speech -- Removing Speaker Information while Preserving the Utterance",
+   "original": "SPSC_Paper7",
+   "page_count": 5,
+   "order": 7,
+   "p1": 41,
+   "pn": 45,
+   "abstract": [
+    "Concealing the identity through speaker anonymization is essential in various situations. This study focuses on investigating how stuttering affects the anonymization process. Two scenarios are considered: preserving the pathology in the diagnostic/remote treatment context and obfuscating the pathology. The paper examines the effectiveness of three state-of-the-art approaches in achieving high anonymization, as well as the preservation of dysfluencies. The findings indicate that while a speaker conversion method may not achieve perfect anonymization (Baseline 27.25% EER and F0 Delta 32.63% EER), it does preserve the pathology. This effect was objectively evaluated by performing a stuttering classification. Although this solution may be useful in a remote treatment scenario for speech pathologies, it presents a vulnerability in anonymization. To address this issue, we propose an alternative approach that uses automatic speech recognition and text-based speech synthesis to avoid re-identification (48.27% EER). \n"
+   ],
+   "doi": "10.21437/SPSC.2023-7"
+  },
+  "zhu23_spsc": {
+   "authors": [
+    [
+     "Yi",
+     "Zhu"
+    ],
+    [
+     "Mohamed",
+     "Imoussaïne-Aïkous"
+    ],
+    [
+     "Carolyn",
+     "Côté-Lussier"
+    ],
+    [
+     "Tiago H.",
+     "Falk"
+    ]
+   ],
+   "title": "Investigating Biases in COVID-19 Diagnostic Systems Processed with Automated Speech Anonymization Algorithms",
+   "original": "SPSC_Paper8",
+   "page_count": 9,
+   "order": 8,
+   "p1": 46,
+   "pn": 54,
+   "abstract": [
+    "Automated voice anonymization algorithms are used to obfuscate speaker identity while leaving other vocal attributes untouched; they have been used for e.g., speech recognition, speech emotion detection, and most recently, remote speech-based health diagnostics. However, speech data is commonly collected in an uncontrolled manner in various environments, potentially compromising its quality, and frequently omits key metadata that could improve model performance. In this study, we employed the Cambridge COVID-19 sound database and used COVID-19 detection as a case study. We first present descriptive statistics on sample composition (i.e., COVID-19 status, age, gender). We also present a measure of signal-to-noise ratio (SNR), a feature of speech that can denote individuals’ socioeconomic status. Next, we assess how age and SNR, the two most unbalanced features of the dataset, are associated with model performance and the impact of automated anonymization algorithms performance. Our findings suggest the existence of diagnostic biases related to age and SNR of the recording, which become more prominent after anonymization. To tackle these biases, we explore the usefulness of two data augmentation methods. We show that although data augmentation helps to recover some loss in overall performance, it can lead to a larger discrepancy in performance for over-represented and under-represented groups. We conclude with a discussion of the limitations associated with using SNR as an indicator of socioeconomic status, and of the potential effects of diagnostic biases associated with socioeconomic status. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-8"
+  },
+  "rech23_spsc": {
+   "authors": [
+    [
+     "Silas",
+     "Rech"
+    ],
+    [
+     "Mohammad Hassan",
+     "Vali"
+    ],
+    [
+     "Tom",
+     "Bäckström"
+    ]
+   ],
+   "title": "Privacy and Quality Improvements in Open Offices Using Multi-Device Speech Enhancement",
+   "original": "SPSC_Paper9",
+   "page_count": 5,
+   "order": 9,
+   "p1": 55,
+   "pn": 59,
+   "abstract": [
+    "Teleconferencing has increased in popularity and often takes place around other people such as open offices. A particular problem of such environments is that multiple users can have independent conversations simultaneously, which leak into each others’ devices. This poses problems of both privacy and quality. In this work, we introduce a multi-device, targeted speech separation network. We call this network IsoNet, as it isolates the dominant speech in a mixture of multiple speakers by generating a mask from interfering speakers. This mask is used to remove speech from other simultaneous conversations in the enhanced speech signal. The privacy improvement is measured by mutual information and the enhancement quality is evaluated with a MUSHRA test, PESQ, and SI-SNR. Our experiments show a statistically significant improvement with IsoNet from 27 to 75 in MUSHRA score and a decrease of mutual information of 60%. IsoNet improves privacy as sensitive speech content is effectively attenuated. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-9"
+  },
+  "gaznepoglu23_spsc": {
+   "authors": [
+    [
+     "Ünal Ege",
+     "Gaznepoglu"
+    ],
+    [
+     "Nils",
+     "Peters"
+    ]
+   ],
+   "title": "Evaluation of the Speech Resynthesis Capabilities of the VoicePrivacy Baseline B1",
+   "original": "SPSC_Paper10",
+   "page_count": 5,
+   "order": 10,
+   "p1": 60,
+   "pn": 64,
+   "abstract": [
+    "Speaker anonymization systems continue to improve their ability to obfuscate the original speaker characteristics in a speech signal, but often create processing artifacts and unnatural sounding voices as a tradeoff. Many of those systems stem from the VoicePrivacy Challenge (VPC) Baseline B1, using a neural vocoder to synthesize speech from an F0, x-vectors and bottleneck features-based speech representation. Inspired by this, we investigate the reproduction capabilities of the aforementioned baseline, to assess how successful the shared methodology is in synthesizing human-like speech. We use four objective metrics to measure speech quality, waveform similarity, and F0 similarity. Our findings indicate that both the speech representation and the vocoder introduces artifacts, causing an unnatural perception. A MUSHRA-like listening test on 18 subjects corroborate our findings, motivating further research on the analysis and synthesis components of the VPC Baseline B1. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-10"
+  },
+  "franzreb23_spsc": {
+   "authors": [
+    [
+     "Carlos",
+     "Franzreb"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "A Comprehensive Evaluation Framework for Speaker Anonymization Systems",
+   "original": "SPSC_Paper11",
+   "page_count": 8,
+   "order": 11,
+   "p1": 65,
+   "pn": 72,
+   "abstract": [
+    "Speaker anonymization consists of concealing the source speaker’s identity, while keeping the linguistic and paralinguistic content intact. It is usually evaluated as a trade-off between privacy and utility. The current standard for privacy evaluation is the automatic speaker verification system (ASV) from the Voice Privacy Challenge (VPC); it involves computing speaker embeddings and comparing them with a trained PLDA algorithm. We implement this ASV system and extend the utility evaluation of the VPC, which previously consisted of automatic speech recognition performance, with emotion preservation, naturalness and performance metrics. Our framework is fast and easily customizable, facilitating the development and evaluation of new anonymization pipelines. We showcase this framework with the StarGANv2-VC, one of the most powerful voice conversion systems available. \n"
+   ],
+   "doi": "10.21437/SPSC.2023-11"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Security and Privacy in Speech Communication Part 1",
+   "papers": [
+    "khamsehashari23_spsc",
+    "feng23_spsc",
+    "panariello23_spsc",
+    "ettenhofer23_spsc",
+    "ramesh23_spsc",
+    "mehlman23_spsc"
+   ]
+  },
+  {
+   "title": "Security and Privacy in Speech Communication Part 2",
+   "papers": [
+    "hintz23_spsc",
+    "zhu23_spsc",
+    "rech23_spsc",
+    "gaznepoglu23_spsc",
+    "franzreb23_spsc"
+   ]
+  }
+ ],
+ "doi": "10.21437/SPSC.2023"
+}

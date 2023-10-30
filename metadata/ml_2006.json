@@ -1,0 +1,657 @@
+{
+ "title": "Multilingual Language and Speech Processing (MULTILING 2006)",
+ "location": "Center for Language and Speech Technology, Stellenbosch University, Stellenbosch, South Africa",
+ "startDate": "9/4/2006",
+ "endDate": "11/4/2006",
+ "conf": "ML",
+ "year": "2006",
+ "name": "ml_2006",
+ "series": "",
+ "SIG": "",
+ "title1": "Multilingual Language and Speech Processing",
+ "title2": "(MULTILING 2006)",
+ "date": "9-11 April 2006",
+ "papers": {
+  "schultz06_ml": {
+   "authors": [
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "SPICE - an interactive toolkit for rapid portability of speech processing systems to new languages",
+   "original": "ml06_kn1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "paper kn1",
+   "pn": "",
+   "abstract": [
+    "In recent years, speech processing products had been widely distributed all over the world, reflecting a general believe that speech technologies have a huge potential to let everyone participate in today's information revolution and to bridge the language barrier gap. In spite of recent improvements in speech and language technologies, development of speech processing systems still requires significant skills and resources to carry out. With more than 6500 languages in the world, the current cost and effort in building speech support is prohibitive to all but the most economically viable languages.\n",
+    "SPICE (Speech Processing: Interactive Creation and Evaluation) aims to overcome both limitations by providing innovative methods and tools for nonexpert users to develop speech processing models, collect appropriate data to build these models, and evaluate the results allowing iterative improvements. Data and components for new languages will become available to everybody improving the mutual understanding and the educational and cultural exchange across the language boundaries.\n",
+    "In this talk I will give an overview of the approaches developed within the SPICE project to rapidly deploy speech processing systems in new languages. These include methods to create acoustic models and pronunciation dictionaries for speech recognition and synthesis, as well as language models in new languages with only limited or no data available in the language of question. These approaches are evaluated on our multilingual text and speech database GlobalPhone which covers 19 languages.\n",
+    ""
+   ]
+  },
+  "caballero06_ml": {
+   "authors": [
+    [
+     "Mónica",
+     "Caballero"
+    ],
+    [
+     "Asunción",
+     "Moreno"
+    ],
+    [
+     "Albino",
+     "Nogueiras"
+    ]
+   ],
+   "title": "Multidialectal acoustic modeling: a comparative study",
+   "original": "ml06_001",
+   "page_count": 4,
+   "order": 2,
+   "p1": "paper 001",
+   "pn": "",
+   "abstract": [
+    "In this paper, multidialectal acoustic modeling based on sharing data across dialects is addressed. A comparative study of different methods of combining data based on decision tree clustering algorithms is presented. Approaches evolved differ in the way of evaluating the similarity of sounds between dialects, and the decision tree structure applied. Proposed systems are tested with Spanish dialects across Spain and Latin America. All multidialectal proposed systems improve monodialectal performance using data from another dialect but it is shown that the way to share data is critical. The best combination between similarity measure and tree structure achieves an improvement of 7% over the results obtained with monodialectal systems.\n",
+    ""
+   ]
+  },
+  "liu06_ml": {
+   "authors": [
+    [
+     "Chen",
+     "Liu"
+    ],
+    [
+     "Lynette",
+     "Melnar"
+    ]
+   ],
+   "title": "Training acoustic models with speech data from different languages",
+   "original": "ml06_002",
+   "page_count": 6,
+   "order": 3,
+   "p1": "paper 002",
+   "pn": "",
+   "abstract": [
+    "We present a technique to train acoustic models for a target language using speech data from distinct source languages. In this approach, no native training data from the target language is required. The acoustic model candidates for each targetlanguage phoneme are automatically selected from a group of existing source languages by means of a combined phoneticphonological (CPP) metric, developed by incorporating statistically-derived phonetic and phonological distance information (Liu and Melnar, Interspeech 2005). The method assumes availability of sufficient native training data for the source languages and pronunciation lexica for both the target and source languages. Once the model candidates are determined for each target-language phoneme, the target HMMs are trained with the speech data from the source languages by means of a \"silkie-hen-on-duck-eggs\" strategy - namely the target phoneme model training is embedded in the source phoneme model training. The recognition performance of the resultant models is comparable to that of our previously-reported CPP-derived models built through multimixture construction while the size of the current models is only a fraction of the previous models, depending on the number of HMM candidates used for each target phoneme. Utilizing the CPP metric, both versions of the models reach the performance of models generated by a data-driven acoustic-distance mapping approach, far above the general phoneme symbol-based cross-language transfer strategies.\n",
+    ""
+   ]
+  },
+  "rangarajan06_ml": {
+   "authors": [
+    [
+     "Vivek",
+     "Rangarajan"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Detection of non-native named entities using prosodic features for improved speech recognition and translation",
+   "original": "ml06_003",
+   "page_count": 5,
+   "order": 4,
+   "p1": "paper 003",
+   "pn": "",
+   "abstract": [
+    "In this work, we describe the use of acoustic-prosodic features to detect and localize non-native named entities spoken by a native speaker in the target language (English) for the purpose of improved speech recognition and translation. The exaggerated variation in accent and duration introduced by the speaker for non-native names is exploited in the detection process through the use of prosodic features like f0 excursions, durational variations and pause information. First, we validate the use of prosodic features in classifying non-native named entities (person names in Chinese, Japanese, Russian, Spanish, Italian, Persian, Indian) in the first mention spoken by native English speakers. We set up the problem as a binary classification task between the non-native named entities and other content words spoken by the speakers in the native language. Results based on a Support Vector Machine (SVM) classifier indicate a 80% classification accuracy for such events. Second, we use the prosody-based SVM classifier to detect and localize named entities at the output of an Automatic Speech Recognizer (ASR).\n",
+    ""
+   ]
+  },
+  "niesler06_ml": {
+   "authors": [
+    [
+     "Thomas",
+     "Niesler"
+    ],
+    [
+     "Daniel",
+     "Willett"
+    ]
+   ],
+   "title": "Language identification and multilingual speech recognition using discriminatively trained acoustic models",
+   "original": "ml06_004",
+   "page_count": 6,
+   "order": 5,
+   "p1": "paper 004",
+   "pn": "",
+   "abstract": [
+    "We perform language identification experiments for four prominent South-African languages using a multilingual speech recognition system. Specifically, we show how successfully Afrikaans, English, Xhosa and Zulu may be identified using a single set of HMMs and a single recognition pass. We further demonstrate the effect of language identification-specific discriminative acoustic model training on both the per-language recognition accuracy as well as the accuracy of the language identification process. Experiments indicate that discriminative training leads to a small overall improvement in language identification accuracy while not affecting the speech recognition performance strongly. Furthermore, language identification is found to be more error prone and discriminative training less effective for code-mixed utterances, indicating that these may require special treatment within a multilingual speech recognition system.\n",
+    ""
+   ]
+  },
+  "kessens06_ml": {
+   "authors": [
+    [
+     "Judith",
+     "Kessens"
+    ]
+   ],
+   "title": "Non-native pronunciation modeling in a command & control recognition task: a comparison between acoustic and lexical modeling",
+   "original": "ml06_005",
+   "page_count": 5,
+   "order": 6,
+   "p1": "paper 005",
+   "pn": "",
+   "abstract": [
+    "In order to improve automatic recognition of English commands spoken by non-native speakers, we have modeled non-native pronunciation variation of Dutch, French and Italian. The results of lexical and acoustical modeling appeared to be source language and speaker dependent. Lexical modeling only resulted in a substantial improvement (of 35%) for the French speakers. Acoustic model adaptation halved the word error rates for the Italian speakers, whereas no improvements were found by lexical modeling of frequently observed Italian-accented non-native pronunciation variants. The performance for the Dutch speakers only slightly improved by lexical and acoustic modeling.\n",
+    ""
+   ]
+  },
+  "davel06_ml": {
+   "authors": [
+    [
+     "Marelie",
+     "Davel"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ]
+   ],
+   "title": "Extracting pronunciation rules for phonemic variants",
+   "original": "ml06_006",
+   "page_count": 5,
+   "order": 7,
+   "p1": "paper 006",
+   "pn": "",
+   "abstract": [
+    "Various automated techniques can be used to generalise from phonemic lexicons through the extraction of grapheme-to-phoneme rule sets. These techniques are particularly useful when developing pronunciation models for previously unmodelled languages: a frequent requirement when developing multilingual speech processing systems. However, many of the learning algorithms (such as Dynamically Expanding Context or Default& Refine) experience difficulty in accommodating alternate pronunciations that occur in the training lexicon.\n",
+    "In this paper we propose an approach for the incorporation of phonemic variants in a typical instancebased learning algorithm, Default&Refine. We investigate the use of a combined pseudo-phoneme associated with a set of generation restriction rules to model those phonemes that are consistently realised as two or more variants in the training lexicon.\n",
+    "We evaluate the effectiveness of this approach using the Oxford Advanced Learners Dictionary, a publicly available English pronunciation lexicon. We find that phonemic variation exhibits sufficient regularity to be modelled through extracted rules, and that acceptable variants may be underrepresented in the studied lexicon. The proposed method is applicable to many approaches besides the Default&Refine algorithm, and provides a simple but effective technique for including phonemic variants in grapheme-to-phoneme rule extraction frameworks.\n",
+    ""
+   ]
+  },
+  "niesler06b_ml": {
+   "authors": [
+    [
+     "Thomas",
+     "Niesler"
+    ]
+   ],
+   "title": "Language-dependent state clustering for multilingual speech recognition in Afrikaans, South African English, Xhosa and Zulu",
+   "original": "ml06_007",
+   "page_count": 4,
+   "order": 8,
+   "p1": "paper 007",
+   "pn": "",
+   "abstract": [
+    "The development of automatic speech recognition systems requires significant quantities of annotated acoustic data. In South Africa, the large number of spoken languages hampers such data collection efforts. Furthermore, code switching and mixing are commonplace since most citizens speak two or more languages fluently. As a result a considerable degree of phonetic cross pollination between languages can be expected. We investigate whether it is possible to combine speech data from different languages in order to improve the performance of a speech recognition system in any one language. For our investigation we use recently collected Afrikaans, South African English, Xhosa and Zulu speech databases. We extend the decision-tree clustering process normally used to construct tiedstate hidden Markov models to allow the inclusion of languagespecific questions, and compare the performance of systems that allow sharing between languages with those that do not. We find that multilingual acoustic models obtained in this way show a small but consistent improvement over separate-language systems when applied to Afrikaans and English, and to Xhosa and Zulu. The improvement for the latter pair of languages is greater, which is consistent with their larger degree of phonetic similarity.\n",
+    ""
+   ]
+  },
+  "diehl06_ml": {
+   "authors": [
+    [
+     "Frank",
+     "Diehl"
+    ],
+    [
+     "Asunción",
+     "Moreno"
+    ],
+    [
+     "Enric",
+     "Monte"
+    ]
+   ],
+   "title": "Crosslingual adaptation of semi-continuous HMMs using acoustic sub-simplex projection",
+   "original": "ml06_008",
+   "page_count": 6,
+   "order": 9,
+   "p1": "paper 008",
+   "pn": "",
+   "abstract": [
+    "With the demand on providing automatic speech recognition (ASR) systems for many markets the question of porting an ASR system to a new language is of practical interest. Transferring already existing hidden Markov models (HMM) from a source to the target language is seen as a key step to cope with this task. Typically, such a crosslingual model adaptation task consists of a three step procedure. It starts by polyphone decision tree specialisation (PDTS), specialising the phonetic-acoustic decision tree of the source models to the target language. In a second step initial target language models are predicted out of the adjusted decision tree. Finally, the predicted acoustic models are adapted to the target language using a limited amount of target data.\n",
+    "In this work we focus on the final model adaptation step in the case of a system architecture employing semi-continuous HMMs (SCHMM). In contrast to continuous density HMMs (CDHMM), adaptation techniques for SCHMMs are not as well developed. In particular, no powerful transformation based adaptation method for adjusting the information bearing mixture weights of the common prototype densities is on-hand. To overcome this problem we introduce a novel adaptation scheme for SCHMM. The method relies on the projection of retrained model parameters to a solution sub-simplex which is obtained through acoustic regression classes derived from the decision tree of the source models. The performance of the procedure is demonstrated by the transfer of multilingual Spanish-English-German models to Slovenian and to French. In the full paper, reference results for a standard maximum likelihood linear regression (MLLR) approach are given too.\n",
+    ""
+   ]
+  },
+  "wet06_ml": {
+   "authors": [
+    [
+     "Febe de",
+     "Wet"
+    ],
+    [
+     "Thomas",
+     "Niesler"
+    ],
+    [
+     "Philippa",
+     "Louw"
+    ]
+   ],
+   "title": "Nguni and Sotho varieties of South African English - distant cousins or twins?",
+   "original": "ml06_009",
+   "page_count": 4,
+   "order": 10,
+   "p1": "paper 009",
+   "pn": "",
+   "abstract": [
+    "It is well established that accent can have a detrimental effect on the performance of automatic speech recognition (ASR) systems. While accents are usually classified in terms of a speakers mother tongue, it remains to be determined if and when this linguistic classification is appropriate for the development of ASR technology. This study focuses on South African English as produced by mother tongue speakers of Nguni and Sotho languages, which account for over 70% of the countrys population. The aim of the investigation is to determine whether these two accent groups should be treated as a single variety, or whether it is better to treat them separately. We begin with a perceptual experiment in which human listeners classify different English accents. Subsequently, speech recognition experiments are conducted to determine whether the acoustic models benefit from the incorporation of Nguni/Sotho accent classifications. The results of the perceptual experiment indicate that most listeners cannot correctly identify a speakers mother tongue based on their English accent. This finding is supported by the results of the recognition experiments.\n",
+    ""
+   ]
+  },
+  "pols06_ml": {
+   "authors": [
+    [
+     "Louis C. W.",
+     "Pols"
+    ],
+    [
+     "Elena",
+     "Lyakso"
+    ],
+    [
+     "Jeannette M. van der",
+     "Stelt"
+    ],
+    [
+     "Ton G.",
+     "Wempe"
+    ],
+    [
+     "Krisztina",
+     "Zajdó"
+    ]
+   ],
+   "title": "Vowel data of early speech development in several languages",
+   "original": "ml06_010",
+   "page_count": 4,
+   "order": 11,
+   "p1": "paper 010",
+   "pn": "",
+   "abstract": [
+    "It is notoriously difficult to perform reliable spectro-temporal analyses on speech of young children (up to two years of age), partly because of the high pitch of their voices. Formants are very poorly defined and thus we used a pitch-synchronous bandfilter analysis, followed by a principal components analysis to represent the acoustic characteristics of childrens vowel(-like) productions. Since young childrens vowel realizations are very hard to label consistently, it is fortunate that this analysis method works just as well for unlabeled data. This way we can still study the size and form of the acoustic vowel space and its changes over the first two years of life. This is indispensable information to develop a universal vowel acquisition theory and to establish effective treatment methods to remediate disordered vowel productions. So far we have analyzed vowel data from 5 to 8 boys at two years of age in each of the following three languages: Dutch, Hungarian and Russian. Many practical difficulties were encountered (related among other things with the ways of collecting and actually recording the vocalizations), that made comparisons within and between languages not always easy, but nevertheless some language specific properties appear to be detectable.\n",
+    ""
+   ]
+  },
+  "demol06_ml": {
+   "authors": [
+    [
+     "Mike",
+     "Demol"
+    ],
+    [
+     "Werner",
+     "Verhelst"
+    ],
+    [
+     "Piet",
+     "Verhoeve"
+    ]
+   ],
+   "title": "A study of speech pauses for multilingual time-scaling applications",
+   "original": "ml06_011",
+   "page_count": 6,
+   "order": 12,
+   "p1": "paper 011",
+   "pn": "",
+   "abstract": [
+    "In this paper we present a study of silent speech pauses at three different speaking rates, based on the analysis of four hours of read speech in six European languages. Our results confirm earlier observations by Campione et al. that the logarithmic duration of the pauses can be well approximated by a bi-Gaussian distribution and we found this also to be true at slow and fast speaking rates. Our analysis further shows that, as far as the long speech pauses are concerned, similar strategies for speaking slowly or rapidly are used in all languages considered. For speaking slowly, speakers increase the total amount of pauses and they effectively use a wider range of pause durations. Overall, however, besides using more pauses, there appeared to be no striking change in the average pause duration, nor in the variance of the distribution of the pause durations. For speaking rapidly, speakers decrease the amount of pauses used and they refrain from using the longest pauses that occur in their normal speech. Overall, this results in a lower average duration of the pauses and a smaller variance of the pause durations.\n",
+    ""
+   ]
+  },
+  "dziubalskakolaczyk06_ml": {
+   "authors": [
+    [
+     "Katarzyna",
+     "Dziubalska-Kolaczyk"
+    ],
+    [
+     "Anna",
+     "Bogacka"
+    ],
+    [
+     "Dawid",
+     "Pietrala"
+    ],
+    [
+     "Mikolaj",
+     "Wypych"
+    ],
+    [
+     "Grzegorz",
+     "Krynicki"
+    ]
+   ],
+   "title": "PELT: an English language tutorial system for Polish speakers",
+   "original": "ml06_012",
+   "page_count": 4,
+   "order": 13,
+   "p1": "paper 012",
+   "pn": "",
+   "abstract": [
+    "The Polish-English Literacy Tutor (PELT) is a multimodal multilingual tutorial system for foreign language learning (in this case English for adult Polish learners), and as such requires a specific speech recognition system dealing with highly accented, strongly variable second language speech. The aim of the paper is to present the challenges we encountered when preparing a new corpus of second language speech: phonetic characteristics of Polish English, corpus preparation and annotation, corpus statistics with the observed pronunciation problems of Polish speakers in English and the error-detector to be constructed. Solutions employed for PELT could be applied to accented foreigner speech recognition systems, e.g. English spoken by learners of various language backgrounds.\n",
+    ""
+   ]
+  },
+  "kanokphara06_ml": {
+   "authors": [
+    [
+     "Supphanat",
+     "Kanokphara"
+    ],
+    [
+     "Julie",
+     "Carson-Berndsen"
+    ]
+   ],
+   "title": "Articulatory-acoustic-feature-based automatic language identification",
+   "original": "ml06_013",
+   "page_count": 4,
+   "order": 14,
+   "p1": "paper 013",
+   "pn": "",
+   "abstract": [
+    "Automatic language identification is one of the important topics in multilingual speech technology. Ideal language identification systems should be able to classify the language of speech utterances within a specific time before further processing by language-dependent speech recognition systems or monolingual listeners begins. Currently the best language identification systems are based on HMM-based speech recognition systems. However, with the cost of this low percentage error, comes an increase in computational complexity. This paper proposes an alternative way of using HMM-based speech recognition systems. Instead of using phoneme level acoustic models and n-gram language models, articulatory feature level acoustic models and n-gram language models are introduced. With this approach, the computational complexities of language identification systems are considerably reduced due to the fact that the size of the articulatory feature inventory is naturally smaller than that of the of phoneme inventory.\n",
+    ""
+   ]
+  },
+  "gibbon06_ml": {
+   "authors": [
+    [
+     "Dafydd",
+     "Gibbon"
+    ],
+    [
+     "Eno-Abasi",
+     "Urua"
+    ],
+    [
+     "Moses",
+     "Ekpenyong"
+    ]
+   ],
+   "title": "Problems and solutions in african tone language text-to-speech",
+   "original": "ml06_014",
+   "page_count": 5,
+   "order": 15,
+   "p1": "paper 014",
+   "pn": "",
+   "abstract": [
+    "One of the most useful HLT systems for use with non-literate communities is Text-to-Speech, with typical applications in health, market and education information dissemination. However, current TTS development environments are far from being language independent: adaptation of an existing voice in one language to a voice in another is a common procedure. During development of a TTS prototype for Ibibio, a Nigerian Niger-Congo, Lower Cross language, in the Local Language Speech Technology Initiative, several levels of infrastructural and linguistic problems were identified. This contribution outlines these problems, concentrating mainly on requirements for African tone language TTS, and formulates solution strategies for both rule-driven and data-driven TTS development.\n",
+    ""
+   ]
+  },
+  "govender06_ml": {
+   "authors": [
+    [
+     "N.",
+     "Govender"
+    ],
+    [
+     "C.",
+     "Kuun"
+    ],
+    [
+     "V.",
+     "Zimu"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ],
+    [
+     "Marelie",
+     "Davel"
+    ]
+   ],
+   "title": "Computational models of prosody in the Nguni languages",
+   "original": "ml06_015",
+   "page_count": 6,
+   "order": 16,
+   "p1": "paper 015",
+   "pn": "",
+   "abstract": [
+    "We investigate two related issues in the computational modeling of Nguni prosody, based on annotated databases of isiZulu and isiXhosa speech. Firstly, we show that a simple template can be used to describe the tonal characteristics of vowels and adjectives spoken in isolation, and that contextual effects have only a mild impact on this template. This analysis was based on a simple mapping between pitch and tone; in the second part of the paper, we show that pitch and amplitude actually play comparable roles in producing tonal percepts.\n",
+    ""
+   ]
+  },
+  "parssinen06_ml": {
+   "authors": [
+    [
+     "Kimmo",
+     "Pärssinen"
+    ],
+    [
+     "Marko",
+     "Moberg"
+    ]
+   ],
+   "title": "Multilingual data configurable text-to-speech system for embedded devices",
+   "original": "ml06_016",
+   "page_count": 5,
+   "order": 17,
+   "p1": "paper 016",
+   "pn": "",
+   "abstract": [
+    "In this paper a low footprint multilingual text-to-speech (MLTTS) framework is presented. The system is a part of a speaker independent name dialing system that has been introduced in Nokia Series 60 mobile phones. In the ML-TTS systems that are based on the Klatt88 engine there usually exist sets of language specific rules that are used to modify the speech synthesis parameters. Usually, the size of the program code due to the language specific rules becomes large when the number of languages increases. In addition, adding TTS support for a new language is not so easy when the TTS rules are implemented as program code. The development work would require the modifications of the source code, which is always prone to errors and time consuming. The paper presents a novel scheme that both alleviates the memory problems and also makes the language development easier compared to the typical existing solutions. In this framework the language dependent TTS rules are implemented as a scripting language that is stored in text files, one file per each language. The files are converted into a binary form and the rules therefore are implemented as data. With the approach, only the data of the active language needs to be kept in memory and typically the size of a single data file remains small. During synthesis an interpreter is used to process the rules and modify the synthesis parameters accordingly. Moreover, adding TTS support for a new language involves writing the new set of language specific rules and ideally no modifications to the TTS engine code are needed. In addition to the language specific rules, all language dependent information, such as the prosodic model, is stored into the binary file i.e. the language package. Also due to the introduction of the language packages, the TTS engine can be configured to any desired set of languages simply by preparing and providing the associated language packages.\n",
+    ""
+   ]
+  },
+  "olaszi06_ml": {
+   "authors": [
+    [
+     "Péter",
+     "Olaszi"
+    ],
+    [
+     "Tina",
+     "Burrows"
+    ],
+    [
+     "Kate",
+     "Knill"
+    ]
+   ],
+   "title": "Investigating prosodic modifications for polyglot text-to-speech synthesis",
+   "original": "ml06_017",
+   "page_count": 5,
+   "order": 18,
+   "p1": "paper 017",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the need for applying English prosody when synthesising English portions of mixed English/German texts using a German-based polyglot text-to-speech (TTS) synthesis system. The polyglot system is based on a monolingual German TTS system, which uses a phone mapping from English to German to synthesise English texts. Two systems with varying degrees of assimilation to English are compared, one in which prosody is derived from the German monolingual system, and one in which the prosody is derived from an equivalent English monolingual system. The naturalness of the different prosody approaches and overall intelligibility and acceptability of the polyglot systems is assessed by native bi-lingual speakers of both English and German, on German texts containing varying lengths of English inclusions, and on complete texts in English. The results show that both German and English subjects preferred English prosody for longer English inclusions or complete English texts, but had no preference for short inclusions.\n",
+    ""
+   ]
+  },
+  "pape06_ml": {
+   "authors": [
+    [
+     "Daniel",
+     "Pape"
+    ],
+    [
+     "Christine",
+     "Mooshammer"
+    ]
+   ],
+   "title": "Is intrinsic pitch language-dependent? - evidences from a cross-linguistic vowel pitch experiment (with additional screening of the listeners' DL for music and speech",
+   "original": "ml06_018",
+   "page_count": 6,
+   "order": 19,
+   "p1": "paper 018",
+   "pn": "",
+   "abstract": [
+    "Intrinsic Pitch differences (perceived pitch differences between high vs. low vowels) were found for Germanic languages. Our previous results gave evidence for a strong cross-linguistic difference when examining non-Germanic languages. We therefore designed a cross-linguistic vowel pitch discrimination experiment to examine the existence of intrinsic pitch in non-Germanic languages in comparison to Germanic languages. The experiment was conducted seperately with two groups of listeners: professional musicians and listeners who did not play an instrument at all. In a pre-experiment we screened the difference limen (dl) for the pitch discrimination of (1) musical stimuli and (2) speech stimuli. The reason was to screen the listeners ability to successfully manage the following vowel pitch discrimination experiments and to allow listeners to train to identify pitch differences, which facilitates the following experiment.\n",
+    "Results for German listeners indicate intrinsic pitch differences corresponding to values given in literature. However, when examining groups differing in musical education it was found that intrinsic pitch is a weak phenomenon, with no significant results for the professional musicians. Results for Italian listeners show no pitch bias at all, indicating that intrinsic pitch is not present in this Romance language. We therefore give first evidence to the presented hypothesis that intrinsic pitch has to be classified as a language-specific phenomenon: It is assumed that the cue F0 is not used to classify vowel quality differences in the examined Romance languages.\n",
+    ""
+   ]
+  },
+  "caballero06b_ml": {
+   "authors": [
+    [
+     "Mónica",
+     "Caballero"
+    ],
+    [
+     "Asunción",
+     "Moreno"
+    ]
+   ],
+   "title": "Statistical modeling of pronunciation variation by hierarchical grouping rule inference",
+   "original": "ml06_019",
+   "page_count": 6,
+   "order": 20,
+   "p1": "paper 019",
+   "pn": "",
+   "abstract": [
+    "In this paper, a data-driven approach to statistical modeling pronunciation variation is proposed. It consists of learning stochastic pronunciation rules. The proposed method jointly models different rules that define the same transformation. Hierarchic Grouping Rule Inference (HIEGRI) algorithm is proposed to generate this model based on graphs. HIEGRI algorithm detects the common patterns of an initial set of rules and infers more general rules for each given transformation. A rule selection strategy is used to find as general as possible rules without losing modeling accuracy. Learned rules are applied to generate pronunciation variants in a context-dependent acoustic model based recognizer. Pronunciation variation modeling method is evaluated on a Spanish recognizer framework.\n",
+    ""
+   ]
+  },
+  "rubagotti06_ml": {
+   "authors": [
+    [
+     "Enrico",
+     "Rubagotti"
+    ]
+   ],
+   "title": "Is it possible to train a speech recognition system on text only?",
+   "original": "ml06_020",
+   "page_count": 5,
+   "order": 21,
+   "p1": "paper 020",
+   "pn": "",
+   "abstract": [
+    "According to speech recognition literature, one cause of recognition error is the difference in training and testing conditions. One cause of this is the use of speakers with different accents in training and testing. This is because, in the stochastic and deterministic approaches, the system is trained on pairs of acoustic signal- linguistic units. This paper describes the development of a training system that employs only graphemes and studies the feasibility of a model that employs the speech signal, a bigram model, frequencies of four grams and a distance measure of a text from a specific language to recognize speech. This system should be independent of variations in pronunciation and employable in languages for which a corpus has not yet been developed. A model was specified in the class of shallow languages and an experiment was carried out using a phonotypical transcription in Italian with a 22% WER. The input of the system was not the acoustic signal but phonemes to reduce the computational complexity in this preliminary phase. The algorithm employed in the test maps from phonemes to graphemes using a map that dynamically changes to minimise the distance of the output from the expected language. The difference between conventional phoneme parsing and our method is that in the conventional method the mapping phoneme grapheme is given before the recognition procedure, whereas in our method the map that is chosen is the one that minimises the distance between the output and the expected language.\n",
+    ""
+   ]
+  },
+  "romsdorfer06_ml": {
+   "authors": [
+    [
+     "Harald",
+     "Romsdorfer"
+    ],
+    [
+     "Beat",
+     "Pfister"
+    ]
+   ],
+   "title": "Character stream parsing of mixed-lingual text",
+   "original": "ml06_021",
+   "page_count": 6,
+   "order": 22,
+   "p1": "paper 021",
+   "pn": "",
+   "abstract": [
+    "In multilingual countries text-to-speech synthesis systems often have to deal with sentences containing inclusions of multiple other languages in form of phrases, words or even parts of words. Such sentences can only be correctly processed using a system that incorporates a mixed-lingual morphological and syntactic analyzer. A prerequisite for such an analyzer is the correct identification of word and sentence boundaries. Traditional text analysis applies to both problems simple heuristic methods within a text preprocessing step. These methods, however, are not reliable enough for analyzing mixed-lingual sentences.\n",
+    "This paper presents a new approach towards word and sentence boundary identification for mixed-lingual sentences that bases upon parsing of character streams. Additionally this approach can also be used for word identification in languages without a designated word boundary symbol like Chinese or Japanese. To date, this mixed-lingual text analysis supports any mixture of English, French, German, Italian and Spanish.\n",
+    ""
+   ]
+  },
+  "latorre06_ml": {
+   "authors": [
+    [
+     "Javier",
+     "Latorre"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "New approach to polyglot synthesis: how to speak any language with anyone²s voice",
+   "original": "ml06_022",
+   "page_count": 6,
+   "order": 23,
+   "p1": "paper 022",
+   "pn": "",
+   "abstract": [
+    "In this paper we present a new method to synthesize multiple languages with the voice of any arbitrary speaker. We call this method \"HMM-based speaker-adaptable polyglot synthesis\". The idea consists in mixing data from several speakers in different languages to create a speakerindependent multilingual acoustic model. By means of MLLR, we can adapt this model to the voice of any given speaker. With the adapted model, it is possible to synthesize speech in any of the languages included in the training corpus with the voice of the target speaker, regardless of the language spoken by that speaker. When the language to be synthesized and the language of the target speaker are different, the performance of our method is better than that of other approaches based on monolingual models and phone mapping. Languages with no available speech resources can also be synthesized with a polyglot synthesizer by means of phone mapping. In this case, the performance of a polyglot synthesizer is better than that of any other monolingual synthesizers based on languages which were used to train the polyglot one.\n",
+    ""
+   ]
+  },
+  "tomokiyo06_ml": {
+   "authors": [
+    [
+     "Laura Mayfield",
+     "Tomokiyo"
+    ],
+    [
+     "Carol Jay",
+     "Sisson"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Mixed-mode multilinguality in TTS: the case of Canadian French",
+   "original": "ml06_023",
+   "page_count": 6,
+   "order": 24,
+   "p1": "paper 023",
+   "pn": "",
+   "abstract": [
+    "The coexistence of English and French in Canada presents a number of interesting problems for text-to-speech (TTS) synthesis. The pronunciation of Canadian French is fairly well documented and can be captured by recording a speaker of the appropriate dialect for the voice database. The desired behavior of the system in speaking the many English words, names, and expressions that can populate French text, however, is not well understood, varying from user to user and from context to context. In this paper we present an analysis of English in Canadian French TTS, examining the intelligibility and preferability of English and French pronunciations. Our results suggest that it is best to consider different modes of synthesis, ranging from near-English pronunciation of English terms to near-French, and that different tasks require different approaches to the problem.\n",
+    ""
+   ]
+  },
+  "black06_ml": {
+   "authors": [
+    [
+     "Alan W.",
+     "Black"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Speaker clustering for multilingual synthesis",
+   "original": "ml06_024",
+   "page_count": 5,
+   "order": 25,
+   "p1": "paper 024",
+   "pn": "",
+   "abstract": [
+    "Today, speech synthesizers in new languages are typically built by collecting several hours of well recorded speech in the target language. The time and effort involved in collection and correction can be prohibitive when lack of resources is common in addressing under-represented languages. An alternative method is to use acoustic data from an existing synthesizer in a different language and train adaptation models from a small corpus (20-50 sentences) in the target language. Following the work of GlobalPhone [Schultz, 2001], which uses multi-lingual databases and adapts acoustic models to target languages for speech recognition. This paper presents a method to build multi-lingual synthesizers using combined data from multiple languages, instead of building a large number of different synthesis voices. Using speaker clustering techniques we find suitable speakers for combined synthesizers.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "schultz06_ml",
+    "caballero06_ml",
+    "liu06_ml",
+    "rangarajan06_ml",
+    "niesler06_ml",
+    "kessens06_ml",
+    "davel06_ml",
+    "niesler06b_ml",
+    "diehl06_ml",
+    "wet06_ml",
+    "pols06_ml",
+    "demol06_ml",
+    "dziubalskakolaczyk06_ml",
+    "kanokphara06_ml",
+    "gibbon06_ml",
+    "govender06_ml",
+    "parssinen06_ml",
+    "olaszi06_ml",
+    "pape06_ml",
+    "caballero06b_ml",
+    "rubagotti06_ml",
+    "romsdorfer06_ml",
+    "latorre06_ml",
+    "tomokiyo06_ml",
+    "black06_ml"
+   ]
+  }
+ ]
+}

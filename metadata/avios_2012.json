@@ -1,0 +1,455 @@
+{
+ "title": "Afeka-AVIOS Speech Processing Conference",
+ "location": "Tel Aviv, Israel",
+ "startDate": "19/6/2012",
+ "endDate": "20/6/2012",
+ "conf": "AVIOS",
+ "year": "2012",
+ "name": "avios_2012",
+ "series": "",
+ "SIG": "",
+ "title1": "Afeka-AVIOS Speech Processing Conference",
+ "date": "19-20 June 2012",
+ "papers": {
+  "furui12_avios": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Automatic speech recognition: trials, tribulations, and triumphs",
+   "original": "avio_101",
+   "page_count": 0,
+   "order": 1,
+   "p1": "(presentation)",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available - presentation only]\n",
+    ""
+   ]
+  },
+  "mahoney12_avios": {
+   "authors": [
+    [
+     "Peter",
+     "Mahoney"
+    ]
+   ],
+   "title": "Industry perspective: transitioning from recognition to understanding",
+   "original": "avio_102",
+   "page_count": 0,
+   "order": 2,
+   "p1": "(presentation)",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available - presentation only]\n",
+    ""
+   ]
+  },
+  "mamou12_avios": {
+   "authors": [
+    [
+     "Jonathan",
+     "Mamou"
+    ],
+    [
+     "Abhinav",
+     "Sethy"
+    ],
+    [
+     "Bhuvana",
+     "Ramabhadran"
+    ]
+   ],
+   "title": "New developments in spoken query transcription",
+   "original": "avio_001",
+   "page_count": 3,
+   "order": 3,
+   "p1": "1",
+   "pn": "3",
+   "abstract": [
+    "The rapid growth of mobile devices with the ability to browse the Internet has opened up interesting application areas for speech and natural language processing technologies. Voice search is one such application where speech technology is making a big impact by enabling people to access the Internet conveniently from mobile devices. Spoken queries are a natural medium for searching the Mobile Web, especially in the common case where typing on the device keyboard is not practical. Voice search is now recognized as a core feature of mobile devices and several applications have been developed. Generally, in such applications, a spoken query is automatically recognized and the Automatic Speech Recognition (ASR) 1-best hypothesis is sent to a textbased web search engine. Modeling the distribution of words in spoken queries offers different challenges compared to more conventional speech applications. The differences arise from the fact that the voice search application serves as a front-end to web search engines. Users typically provide the search engine with the keywords that will aid them in retrieving the information they are interested in. Spoken web queries, especially keyword style queries, are typically short and do not follow the syntax and grammar observed in other ASR tasks. A natural approach for spoken queries language modeling consists of exploiting a variety of search query logs to model spoken queries. However publically available large corpora for search query logs are rare and in most cases difficult to collect from the Internet. In this paper, we propose two approaches to improve the language model (LM) for voice search ASR systems; these approaches do not rely on the availability of a search engine query log data and thus have a broader application. First, we propose to extract named entities from web textual data such as web crawls and treat them as substitute for query data. An LM targeted towards keywords and query terms is generated and is combined with a more general n-gram LM. Second, we look at measures related to semantic relatedness between query terms. The semantic relatedness between the keywords of a spoken query stems from co-occurring together in the same web document or context even if the keywords are not necessarily adjacent and ordered in the same way as in the query. Our approach is thus based on the idea that if the ASR hypothesis terms tend to cooccur frequently in the searched corpus, the hypothesis is more likely to be correct. The co-occurrence models presented in this paper for the voice search task provide supplementary information to the conventional n-gram statistical LM. We present various types of co-occurrence constraints and scoring functions which capture different forms of semantic relationship between query terms. We show that named-entity and co-occurrence information gives a 2.4% relative accuracy improvement compared to the best baseline from an unpruned n-gram model.\n",
+    ""
+   ]
+  },
+  "baryosef12_avios": {
+   "authors": [
+    [
+     "Yossi",
+     "Bar-Yosef"
+    ],
+    [
+     "Ruth",
+     "Aloni-Lavi"
+    ],
+    [
+     "Irit",
+     "Opher"
+    ],
+    [
+     "Noam",
+     "Lotner"
+    ],
+    [
+     "Ella",
+     "Tetariy"
+    ],
+    [
+     "Vered",
+     "Silber-Varod"
+    ],
+    [
+     "Vered",
+     "Aharonson"
+    ],
+    [
+     "Ami",
+     "Moyal"
+    ]
+   ],
+   "title": "Cross-language phonetic-search for keyword spotting",
+   "original": "avio_004",
+   "page_count": 4,
+   "order": 4,
+   "p1": "4",
+   "pn": "7",
+   "abstract": [
+    "Phonetic-search is a method used to enable fast search of spoken keywords within large amounts of audio recordings. The phonetic search process consists of two stages – the indexing phase, where a phonetic lattice is constructed, and the search phase, where keywords are searched in this lattice. The performance of phonetic search systems is highly sensitive to the accuracy of the phonetic recognition, and therefore acoustic model training requires substantial amounts of audio and linguistic resources. Recently, there is a growing demand for applications that require support for keyword spotting in many different languages, including under-resourced languages. Supporting such languages, however, poses a substantial challenge for phonetic-search, since achieving merely reasonable performance requires a lot of training data. In the current research presented here, we propose methods for supporting a new language (the target language), while coping with limited resources, by using existing acoustic models of another language (the source language). In the indexing phase, acoustic models of the source language are used to generate phonetic lattices. Then, the search for keywords in the target language is performed over the recognized lattices. The search is performed by using a cross-language phonetic mapping between the target and source language phonemes. This paper presents methods for cross-language phonetic-search configurations, which depend on the amount of target language available data. Phonetic-search experiments were performed on Spanish as a target language and using American-English and Levantine Arabic as source languages. Results are compared to standard monolingual acoustic modeling in Spanish and show that it is possible to achieve reasonable applicable accuracy for retrieval of spoken words using different combinations of phonetic mappings.\n",
+    "Index Terms. Keyword-spotting; phonetic-search; under-resourced languages\n",
+    ""
+   ]
+  },
+  "lapidot12_avios": {
+   "authors": [
+    [
+     "Itshak",
+     "Lapidot"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Optimizing feature representation for speaker diarization using PCA and LDA",
+   "original": "avio_008",
+   "page_count": 4,
+   "order": 5,
+   "p1": "8",
+   "pn": "11",
+   "abstract": [
+    "In this work we examine the interest of both LDA and PCA applied on the mel-cepstrum coefficients for speaker diarization. PCA is applied before the diarization process when LDA is used after an initial diarization step. We show that PCA allows a reduction in diarization time but do not offer a diarization error reduction contrarily to LDA which allows a performance improvement of about 14:8% (relative).\n",
+    ""
+   ]
+  },
+  "aronowitz12_avios": {
+   "authors": [
+    [
+     "Hagai",
+     "Aronowitz"
+    ]
+   ],
+   "title": "Voice biometrics for user authentication",
+   "original": "avio_012",
+   "page_count": 4,
+   "order": 6,
+   "p1": "12",
+   "pn": "16",
+   "abstract": [
+    "Voice biometrics for user authentication is a task in which the goal is to perform convenient, robust and secure authentication of speakers. In this work we investigate the use of state-of-theart text-independent and text-dependent speaker verification technology for user authentication. We evaluate three different authentication conditions: global digit strings, speaker specific digit stings and prompted digit strings. Harnessing the characteristics of the different types of conditions can provide benefits such as authentication transparent to the user (convenience), spoofing robustness (security) and improved accuracy (reliability). The systems were evaluated on a corpus collected by Wells Fargo Bank which consists of 750 speakers. We show how to adapt techniques such as joint factor analysis (JFA), i-vectors, Gaussian mixture models with nuisance attribute projection (GMM-NAP) and hidden Markov models with NAP (HMM-NAP) to obtain improved results for new authentication scenarios and environments.\n",
+    "Overall, EERs significantly lower than 1% have been obtained for the matched channel condition, while the error almost triples for the mismatched channel condition.\n",
+    "In order to be able to use advanced techniques such as JFA and i-vectors in a realistic low-latency system we have developed the JFAlight method and the efficient i-vector extraction method for efficient approximated JFA and i-vector scoring. Using these algorithms we managed to speed up the JFA and i-vector methods to be comparable to the widely used NAP method.\n",
+    ""
+   ]
+  },
+  "tankus12_avios": {
+   "authors": [
+    [
+     "Ariel",
+     "Tankus"
+    ],
+    [
+     "Itzhak",
+     "Fried"
+    ],
+    [
+     "Shy",
+     "Shoham"
+    ]
+   ],
+   "title": "Speech decoding from human spike trains",
+   "original": "avio_016",
+   "page_count": 4,
+   "order": 7,
+   "p1": "16",
+   "pn": "19",
+   "abstract": [
+    "Brain-machine interfaces (BMIs) rely on decoding neuronal activity from a large number of electrodes. The implantation procedures, however, do not guarantee that all recorded units encode task-relevant information: selection of task-relevant neurons is critical to performance but is typically performed heuristically. Here, we describe an algorithm for decoding/classification of volitional actions from multiple spike trains, which automatically selects the relevant neurons. The method is based on sparse decomposition of the high-dimensional neuronal feature space, projecting it onto a low-dimensional space of codes serving as unique class labels. The new method is tested against a range of existing methods using recordings of the activity of 716 neurons in 11 neurosurgical patients who performed speech tasks. The suggested method achieves significantly higher accuracies, orders of magnitude faster than existing methods, rendering sparse decomposition highly attractive for BMIs.\n",
+    ""
+   ]
+  },
+  "elisha12_avios": {
+   "authors": [
+    [
+     "Oren",
+     "Elisha"
+    ],
+    [
+     "Ariel",
+     "Tarasiuk"
+    ],
+    [
+     "Yaniv",
+     "Zigel"
+    ]
+   ],
+   "title": "Automatic detection of obstructive sleep apnea using speech signal analysis",
+   "original": "avio_020",
+   "page_count": 4,
+   "order": 8,
+   "p1": "20",
+   "pn": "23",
+   "abstract": [
+    "Obstructive sleep apnea (OSA) is a sleep disorder associated with several anatomical abnormalities of the upper airway. Our hypothesis is that it is possible to distinguish between OSA and non-OSA subjects by analyzing particular speech signal properties using an automatic computerized system. The database for this research was constructed from 90 male subjects who were recorded reading a one-minute speech protocol immediately prior to a full polysomnography study; specific phonemes were isolated using closed group phoneme identification; seven independent Gaussian mixture models (GMM)-based classifiers were implemented for the task of OSA / non-OSA classification; a fusion process was designed to combine the scores of these classifiers and a validation procedure took place in order to examine the system’s performance. Results of 91.66% specificity and 91.66% sensitivity were achieved using a leave one out procedure when the data was manually segmented. The system performances were somewhat decreased when the automatic segmentation was used, resulting in 83.33% specificity and 81.25% sensitivity.\n",
+    "Index Terms. Obstructive sleep apnea, speech signal processing, speaker recognition, phoneme identification.\n",
+    ""
+   ]
+  },
+  "wasserblat12_avios": {
+   "authors": [
+    [
+     "Moshe",
+     "Wasserblat"
+    ],
+    [
+     "Ezra",
+     "Daya"
+    ],
+    [
+     "Eyal",
+     "Hurvitz"
+    ],
+    [
+     "Maya",
+     "Gorodetsky"
+    ],
+    [
+     "Dmitri",
+     "Volsky"
+    ],
+    [
+     "Ido",
+     "Dagan"
+    ],
+    [
+     "Meni",
+     "Adler"
+    ],
+    [
+     "Asher",
+     "Steren"
+    ],
+    [
+     "Sebastian",
+     "Pado"
+    ],
+    [
+     "Tae-Gil",
+     "Noh"
+    ],
+    [
+     "Britta",
+     "Zeller"
+    ],
+    [
+     "Günter",
+     "Neumann"
+    ],
+    [
+     "Kathrin",
+     "Eichler"
+    ],
+    [
+     "Rui",
+     "Wang"
+    ],
+    [
+     "Gabriele",
+     "Fidanza"
+    ],
+    [
+     "Giorgio",
+     "Gianforme"
+    ],
+    [
+     "Matthias",
+     "Meisdrock"
+    ],
+    [
+     "Bernardom",
+     "Magnini"
+    ],
+    [
+     "Luisa",
+     "Bentivogli"
+    ],
+    [
+     "Roberto",
+     "Zanoli"
+    ],
+    [
+     "Alberto",
+     "Lavelli"
+    ]
+   ],
+   "title": "Introduction to the EXCITEMENT project: towards an open platform for EXploring customer interactions through textual entailMENT",
+   "original": "avio_024",
+   "page_count": 4,
+   "order": 9,
+   "p1": "24",
+   "pn": "27",
+   "abstract": [
+    "Identifying semantic inferences between text units is a major underlying language processing task, needed in practically all text understanding applications. While such inferences are broadly needed, there are currently no generic semantic “engines” or platforms for broad textual inference. The primary scientific motivation for the EXCITEMENT project is to change this ineffective state of affairs and to offer an encompassing open source platform for textual inference. On the industrial side, EXCITEMENT is focused on the text analytics and speech analytics markets and follows the increasing demand for automatically analyzing customer interactions, which today cross multiple channels including speech, email, chat and social media.\n",
+    ""
+   ]
+  },
+  "lotner12_avios": {
+   "authors": [
+    [
+     "Noam",
+     "Lotner"
+    ],
+    [
+     "Michal",
+     "Gishri"
+    ],
+    [
+     "Vered",
+     "Aharonson"
+    ],
+    [
+     "Ami",
+     "Moyal"
+    ]
+   ],
+   "title": "A multi-stage spoken dialogue question-answering system",
+   "original": "avio_028",
+   "page_count": 0,
+   "order": 10,
+   "p1": "(presentation)",
+   "pn": "",
+   "abstract": [
+    "[Abstract not available - presentation only]\n",
+    ""
+   ]
+  },
+  "aharonson12_avios": {
+   "authors": [
+    [
+     "Eran",
+     "Aharonson"
+    ],
+    [
+     "Vered",
+     "Aharonson"
+    ],
+    [
+     "Talya",
+     "Porat"
+    ],
+    [
+     "Vered",
+     "Silber-Varod"
+    ]
+   ],
+   "title": "Calling um... john or calling john! - the perceptual effect of prosody in voice-activated system responses",
+   "original": "avio_029",
+   "page_count": 4,
+   "order": 11,
+   "p1": "29",
+   "pn": "32",
+   "abstract": [
+    "In this paper we try to improve the human-machine interaction of a voice-activated system by adding prosodic characteristics to the system. We focus on verbal hesitation, which is manifested by speech disfluencies. In human-human communication recent research shows that moderate disfluencies make speakers more credible. In addition, people tend to react more leniently to an erroneous answer, if the answer was given by the conversant in a hesitating manner, implying that the responding person is unsure of the correct answer. In this study we investigate the hypothesis that users will react in a similar way to voice activated systems. Specifically, we hypothesized that adding prosodic features to the system’s speech responses, will increase the user’s perception of the system credibility, his/her overall satisfaction and reduce frustration while using the system.\n",
+    "Index Terms. Multimodal Interaction; Human-Machine Interaction; prosody; speech recognition\n",
+    ""
+   ]
+  },
+  "oxman12_avios": {
+   "authors": [
+    [
+     "Erez",
+     "Oxman"
+    ],
+    [
+     "Eduard",
+     "Golshtein"
+    ]
+   ],
+   "title": "Detection of lexical stress using an iterative feature normalization method",
+   "original": "avio_033",
+   "page_count": 4,
+   "order": 12,
+   "p1": "33",
+   "pn": "36",
+   "abstract": [
+    "Lexical stress plays an important role in the understandability of non-native speakers. It is known that the perception of stress by native English speakers depends on the prosodic features pitch, energy and duration. However, these features are highly variable, and their realization depends on the mother tongue of the speaker. In this paper we present a system for the automatic detection of lexical stress in English disyllabic words spoken by Hebrew and Native English speakers. A novel normalization technique that reduces the variability of the prosodic features is used. This normalization reduces the variability of the intrinsic phrase features such as speaking rate and the intrinsic phoneme features such as phoneme types within the phrase. The pitch gradient feature is used and found to significantly improve performance on Hebrew speakers while having a modest improvement on Native speakers. Detection rates of the system and of non-expert native listeners were compared in reference to that of native expert transcribers. The system achieved primary stress detection rate that outperforms the average detection rate of non-expert listeners.\n",
+    ""
+   ]
+  },
+  "amir12_avios": {
+   "authors": [
+    [
+     "Noam",
+     "Amir"
+    ],
+    [
+     "Osnat",
+     "Tzenker"
+    ],
+    [
+     "Ofer",
+     "Amir"
+    ],
+    [
+     "Judith",
+     "Rosenhouse"
+    ]
+   ],
+   "title": "Quantifying vowel characteristics in Hebrew and Arabic",
+   "original": "avio_037",
+   "page_count": 7,
+   "order": 13,
+   "p1": "37",
+   "pn": "43",
+   "abstract": [
+    "Abstract. The dominant characteristics of spoken vowels are the two first formants. Thus the vowel systems of many different languages have been documented and compared through their F1-F2 space. Hebrew and Spoken Arabic, both Semitic languages, have five basic vowels: /i e a o u/, though Spoken Arabic has both short and long versions of each. In this paper we present an overview of the results of several studies on vowel formants in both languages. We first compare formants of isolated phonation and connected speech in Hebrew, showing how the formant space is reduced drastically in connected speech as compared to isolated phonation, and how in some cases a clear assimilation to surrounding context can be observed. We then present results on read speech in two Arabic dialects. We show the subtle differences between the two, and discuss the effect of vowel duration also. Finally we discuss how the results can be influenced by the research methodology, and comment on the relevance of the results to speech processing technologies.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Papers",
+   "papers": [
+    "furui12_avios",
+    "mahoney12_avios"
+   ]
+  },
+  {
+   "title": "Contributed Papers",
+   "papers": [
+    "mamou12_avios",
+    "baryosef12_avios",
+    "lapidot12_avios",
+    "aronowitz12_avios",
+    "tankus12_avios",
+    "elisha12_avios",
+    "wasserblat12_avios",
+    "lotner12_avios",
+    "aharonson12_avios",
+    "oxman12_avios",
+    "amir12_avios"
+   ]
+  }
+ ]
+}

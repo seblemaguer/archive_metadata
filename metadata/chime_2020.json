@@ -1,0 +1,836 @@
+{
+ "title": "6th International Workshop on Speech Processing in Everyday Environments (CHiME 2020)",
+ "location": "Online Virtual Workshop",
+ "startDate": "4/5/2020",
+ "endDate": "4/5/2020",
+ "URL": "https://chimechallenge.github.io/chime2020-workshop/",
+ "chair": "Chairs: Jon Barker, Emmanuel Vincent, Shinji Watanabe and Michael Mandel",
+ "conf": "CHiME",
+ "year": "2020",
+ "name": "chime_2020",
+ "series": "CHiME",
+ "SIG": "",
+ "title1": "6th International Workshop on Speech Processing in Everyday Environments",
+ "title2": "(CHiME 2020)",
+ "date": "4 May 2020",
+ "papers": {
+  "watanabe20_chime": {
+   "authors": [
+    [
+     "Shinji",
+     "Watanabe"
+    ],
+    [
+     "Michael",
+     "Mandel"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ]
+   ],
+   "title": "Overview of the 6th CHiME Challenge",
+   "original": "CHiME_2020_paper_intro",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "This presentation overviews the 6th CHiME Speech Separation and Recognition Challenge (CHiME-6). The challenge revisits the previous CHiME-5 challenge and further considers the problem of distant multi-microphone conversational speech diarization and recognition in everyday home environments. Speech material is the same as the previous CHiME-5 recordings except for accurate array synchronization. The material was elicited using a dinner party scenario with efforts taken to capture data that is representative of natural conversational speech. The challenge has two tracks: Track 1 for segmented multispeaker speech recognition and Track 2, which for the first time consider *unsegmented* multispeaker speech recognition. For Track 2 we introduce a new performance metric \"concatenated minimum-permutation word error rate\" (cpWER). We present a description of the Track 1 and Track 2 baseline systems, including components for speech enhancement, speaker diarization, and speech recognition. We then overview the 34 systems that were submitted by the 13 teams who competed. The best Trac 1 speech recognition system achieved a WER ~30%, a substantial improvement over the best WER of 46.1% achieved in CHiME-5. The best Track 2 system employed a target-speaker voice activitiy detection approach to largely solve the overlapped speaker diarization problem and achieve a cpWER score of 44.5%, significantly lower than all other entrants.\n"
+   ]
+  },
+  "watanabe20b_chime": {
+   "authors": [
+    [
+     "Shinji",
+     "Watanabe"
+    ],
+    [
+     "Michael",
+     "Mandel"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ],
+    [
+     "Ashish",
+     "Arora"
+    ],
+    [
+     "Xuankai",
+     "Chang"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ],
+    [
+     "Vimal",
+     "Manohar"
+    ],
+    [
+     "Daniel",
+     "Povey"
+    ],
+    [
+     "Desh",
+     "Raj"
+    ],
+    [
+     "David",
+     "Snyder"
+    ],
+    [
+     "Aswin Shanmugam",
+     "Subramanian"
+    ],
+    [
+     "Jan",
+     "Trmal"
+    ],
+    [
+     "Bar Ben",
+     "Yair"
+    ],
+    [
+     "Christoph",
+     "Boeddeker"
+    ],
+    [
+     "Zhaoheng",
+     "Ni"
+    ],
+    [
+     "Yusuke",
+     "Fujita"
+    ],
+    [
+     "Shota",
+     "Horiguchi"
+    ],
+    [
+     "Naoyuki",
+     "Kanda"
+    ],
+    [
+     "Takuya",
+     "Yoshioka"
+    ],
+    [
+     "Neville",
+     "Ryant"
+    ]
+   ],
+   "title": "CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings",
+   "original": "CHiME_2020_paper_watanabe",
+   "page_count": 7,
+   "order": 2,
+   "p1": 1,
+   "pn": 7,
+   "abstract": [
+    "Following the success of the 1st, 2nd, 3rd, 4th and 5th CHiME challenges we organize the 6th CHiME Speech Separation and Recognition Challenge (CHiME-6). The new challenge revisits the previous CHiME-5 challenge and further considers the problem of distant multi-microphone conversational speech diarization and recognition in everyday home environments. Speech material is the same as the previous CHiME-5 recordings except for accurate array synchronization. The material was elicited using a dinner party scenario with efforts taken to capture data that is representative of natural conversational speech. This paper provides a baseline description of the CHiME-6 challenge for both segmented multispeaker speech recognition (Track 1) and unsegmented multispeaker speech recognition (Track 2). Of note, Track 2 is the first challenge activity in the community to tackle an unsegmented multispeaker speech recognition scenario with a complete set of reproducible open source baselines providing speech enhancement, speaker diarization, and speech recognition modules."
+   ],
+   "doi": "10.21437/CHiME.2020-1"
+  },
+  "chen20_chime": {
+   "authors": [
+    [
+     "Hangting",
+     "Chen"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ],
+    [
+     "Qian",
+     "Shi"
+    ],
+    [
+     "Zuozhen",
+     "Liu"
+    ]
+   ],
+   "title": "The IOA Systems for CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_chen",
+   "page_count": 4,
+   "order": 3,
+   "p1": 8,
+   "pn": 11,
+   "abstract": [
+    "The paper presents IOA’s submission to the 6th CHiME Challenge. Our systems include the front-end enhancement combining deep learning-based and probabilistic model-based source separation, training data augmentation, acoustic modeling with multi-channel branches and system fusion. Tested on the evaluation sets, our best system for Track 1 Category A/B has yielded 35.11%/34.53% word error rate (WER) respectively, with an absolute reduction of 16.18%/16.76% compared with the baseline model."
+   ],
+   "doi": "10.21437/CHiME.2020-2"
+  },
+  "ren20_chime": {
+   "authors": [
+    [
+     "Xiaoming",
+     "Ren"
+    ],
+    [
+     "Huifeng",
+     "Zhu"
+    ],
+    [
+     "Liuwei",
+     "Wei"
+    ],
+    [
+     "Linju",
+     "Yang"
+    ],
+    [
+     "Ming",
+     "Yu"
+    ],
+    [
+     "Chenxing",
+     "Li"
+    ],
+    [
+     "Dong",
+     "Wei"
+    ],
+    [
+     "Jie",
+     "Hao"
+    ]
+   ],
+   "title": "The OPPO System for CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_ren",
+   "page_count": 4,
+   "order": 4,
+   "p1": 12,
+   "pn": 15,
+   "abstract": [
+    "This paper describes our system and experimental results for the 6th CHiME Challenge. We participate in Track1(ASR only) on Category A and B. Category A is a system based on conventional acoustic modeling and official language modeling. The outputs of the acoustic model must remain frame-level tied phonetic (senone) targets and the lexicon and language model must not be changed compared to the conventional ASR baseline. Category B is all other systems. Our system mainly includes data preparation, frontend processing, acoustic modeling, lattice rescoring with RNN Language Model(RNNLM) and system combination. The frontend employs the baseline Guided Source Separation(GSS) [1]. For backend, we use TDNN-F and CNN-TDNNF [2] acoustic models, the systems employs a combination of 8 acoustic models, and finally we apply Minimum Bayes Risk(MBR) [3] decoding for multiple lattices of different acoustic models. Comparing with the official baseline system, our system can get 20.44% and 18.07% relative Word Error Rate(WER) reduction on the dev and eval sets respectively."
+   ],
+   "doi": "10.21437/CHiME.2020-3"
+  },
+  "tang20_chime": {
+   "authors": [
+    [
+     "Haoyuan",
+     "Tang"
+    ],
+    [
+     "Huanliang",
+     "Wang"
+    ],
+    [
+     "Jiajun",
+     "Wang"
+    ],
+    [
+     "Li",
+     "Zhang"
+    ],
+    [
+     "Jia",
+     "Bin"
+    ],
+    [
+     "Zhi",
+     "Li"
+    ]
+   ],
+   "title": "The Qdreamer Systems for CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_tang",
+   "page_count": 3,
+   "order": 5,
+   "p1": 16,
+   "pn": 18,
+   "abstract": [
+    "This paper presents our discription to the Chime-6 ASR system. We experimented different ways to improve the performance of our ASR system[1][2], including 1) training data augmentation via different version of enhanced training data. 2) state-level minimum bayes risk (sMBR) training. 3) acoustic model fusion. 4) system combination of different version of ehanced testing data using minimum bayes risk (MBR) decoding. 5) the forward and backward long short-term memory (LSTM) based language modeling. Experiments shows our best system in category A achieved 37.6 and 39.0 of word error rates (WER) for development and evaluation set for track1 in category A."
+   ],
+   "doi": "10.21437/CHiME.2020-4"
+  },
+  "du20_chime": {
+   "authors": [
+    [
+     "Jun",
+     "Du"
+    ],
+    [
+     "Yan-Hui",
+     "Tu"
+    ],
+    [
+     "Lei",
+     "Sun"
+    ],
+    [
+     "Li",
+     "Chai"
+    ],
+    [
+     "Xin",
+     "Tang"
+    ],
+    [
+     "Mao-Kui",
+     "He"
+    ],
+    [
+     "Feng",
+     "Ma"
+    ],
+    [
+     "Jia",
+     "Pan"
+    ],
+    [
+     "Jian-Qing",
+     "Gao"
+    ],
+    [
+     "Dan",
+     "Liu"
+    ],
+    [
+     "Chin-Hui",
+     "Lee"
+    ],
+    [
+     "Jing-Dong",
+     "Chen"
+    ]
+   ],
+   "title": "The USTC-NELSLIP Systems for CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_du",
+   "page_count": 5,
+   "order": 7,
+   "p1": 19,
+   "pn": 23,
+   "abstract": [
+    "This technical report describes our submission to the 6th CHiME Challenge. The submitted systems for CHiME-6 cover both the multiple-array speech recognition track and multiple-array diarization and recognition track. For each track, the results corresponded to Category A and Category B are reported. The main technique points of our submission include the deep learning based iterative speech separation, training data augmentation via different versions of the official training data, SNR-based array selection, front-end model fusion, acoustic model fusion. Tested on the development and eval test set, our best system takes the first place among all submitted systems in both two tasks of track 1."
+   ],
+   "doi": "10.21437/CHiME.2020-5"
+  },
+  "yang20_chime": {
+   "authors": [
+    [
+     "Xuerui",
+     "Yang"
+    ],
+    [
+     "Yongyu",
+     "Gao"
+    ],
+    [
+     "Shi",
+     "Qiu"
+    ],
+    [
+     "Song",
+     "Li"
+    ],
+    [
+     "Qingyang",
+     "Hong"
+    ],
+    [
+     "Xuesong",
+     "Liu"
+    ],
+    [
+     "Lin",
+     "Li"
+    ],
+    [
+     "Dexin",
+     "Liao"
+    ],
+    [
+     "Hao",
+     "Lu"
+    ],
+    [
+     "Feng",
+     "Tong"
+    ],
+    [
+     "Qiuhan",
+     "Guo"
+    ],
+    [
+     "Huixiang",
+     "Huang"
+    ],
+    [
+     "Jiwei",
+     "Li"
+    ]
+   ],
+   "title": "The CW-XMU System For CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_yang",
+   "page_count": 5,
+   "order": 8,
+   "p1": 24,
+   "pn": 28,
+   "abstract": [
+    "In this paper, we present Cloudwalk Technology and Xiamen Universitys joint effort for CHiME-6 Challenge to recognize highly-overlapped and very natural conversational speech in dinner party environment. We explored DNN-HMM hybrid system for track 1 rank A and end-to-end model for track 1 rank B. In addition, we also explore different data augmentation approaches and front-end speech enhancement methods to further improve the accuracy of speech recognition systems. We investigated various algorithms in speech diarization systems for track 2. Our system came up with 41.65% WER for development set and 40.24% WER for evaluation set in rank A, as well as 40.25% WER for development set and 39.62% WER for evaluation in rank B for track 1. For track 2 category A, results are 57.72% DER, 61.85% JER and 77.5% WER for development set, as well as 65.36% DER, 67.32% JER, 72.52% WER for evaluation sets."
+   ],
+   "doi": "10.21437/CHiME.2020-6"
+  },
+  "lee20_chime": {
+   "authors": [
+    [
+     "Hung-Shin",
+     "Lee"
+    ],
+    [
+     "Yu-Huai",
+     "Peng"
+    ],
+    [
+     "Pin-Tuan",
+     "Huang"
+    ],
+    [
+     "Ying-Chun",
+     "Tseng"
+    ],
+    [
+     "Chia-Hua",
+     "Wu"
+    ],
+    [
+     "Yu",
+     "Tsao"
+    ],
+    [
+     "Hsin-Min",
+     "Wang"
+    ]
+   ],
+   "title": "The Academia Sinica Systems of Speech Recognition and Speaker Diarization for the CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_lee",
+   "page_count": 4,
+   "order": 9,
+   "p1": 29,
+   "pn": 32,
+   "abstract": [
+    "This paper describes the Academia Sinica systems for the tracks of multiple-array ASR (Track 1) and diarization+ASR (Track2) in the 6th CHiME Challenge. For Track 1, we take a different approach from the official baseline to preprocess the Kinect data and derive the state-level alignment. In addition, we develop two LF-MMI-based acoustic models, the discriminative autoencoders (DcAE) and the feature-enhanced acoustic model (FEAM), which consider feature-level regularization and enhancement, respectively. For Track 2, we propose a new CNN-based training scheme, which develops speech representations by expanding the data into a set of segments, each of which contains more than one speaker. In training, a soft label is applied to each segment based on the speaker occupation ratio, and the standard cross entropy loss is used. In the evaluation set, our best system for Track 1 (Category A) achieves 46.8% WER, slightly better than the baseline performance (51.4%). For Track 2 (Category A), our system is also superior to the baseline while using the same TDNN-based acoustic model. The DER, JER, and WER are relatively improved by 13.24%, 12.60%, and 6.57%, respectively."
+   ],
+   "doi": "10.21437/CHiME.2020-7"
+  },
+  "sreeram20_chime": {
+   "authors": [
+    [
+     "Anirudh",
+     "Sreeram"
+    ],
+    [
+     "Anurenjan",
+     "Purushothaman"
+    ],
+    [
+     "Rohit",
+     "Kumar"
+    ],
+    [
+     "Sriram",
+     "Ganapathy"
+    ]
+   ],
+   "title": "LEAP Submission to CHiME-6 ASR Challenge",
+   "original": "CHiME_2020_paper_sreeram",
+   "page_count": 3,
+   "order": 10,
+   "p1": 33,
+   "pn": 35,
+   "abstract": [
+    "This paper reports the LEAP submission to the CHiME-6 challenge. The CHiME-6 Automatic Speech Recognition (ASR) challenge Track 1 involved the recognition of speech in noisy and reverberant acoustic conditions in home environments with multiple-party interactions. For the challenge submission, the LEAP system used extensive data augmentation and a factorized time-delay neural network (TDNN) architecture. We also explored a neural architecture that interleaved the TDNN layers with LSTM layers. The submitted system improved the Kaldi recipe by 2% in terms of relative word-error-rate improvements."
+   ],
+   "doi": "10.21437/CHiME.2020-8"
+  },
+  "medennikov20_chime": {
+   "authors": [
+    [
+     "Ivan",
+     "Medennikov"
+    ],
+    [
+     "Maxim",
+     "Korenevsky"
+    ],
+    [
+     "Tatiana",
+     "Prisyach"
+    ],
+    [
+     "Yuri",
+     "Khokhlov"
+    ],
+    [
+     "Mariya",
+     "Korenevskaya"
+    ],
+    [
+     "Ivan",
+     "Sorokin"
+    ],
+    [
+     "Tatiana",
+     "Timofeeva"
+    ],
+    [
+     "Anton",
+     "Mitrofanov"
+    ],
+    [
+     "Andrei",
+     "Andrusenko"
+    ],
+    [
+     "Ivan",
+     "Podluzhny"
+    ],
+    [
+     "Aleksandr",
+     "Laptev"
+    ],
+    [
+     "Aleksei",
+     "Romanenko"
+    ]
+   ],
+   "title": "The STC System for the CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_medennikov",
+   "page_count": 6,
+   "order": 12,
+   "p1": 36,
+   "pn": 41,
+   "abstract": [
+    "This paper is a description of the Speech Technology Center (STC) systems for the CHiME-6 challenge aimed at multimicrophone multi-speaker speech recognition and diarization in a dinner party scenario. We participated in both Track 1 and Track 2 and submitted our results for Ranking A as well as Ranking B for each track.\n",
+    "The soft-activity based Guided Source Separation (GSS) as a front-end and a combination of advanced acoustic modeling techniques such as GSS-based training data augmentation, multi-stride and multi-stream self-attention layers, statistics layer and SpecAugment, as well as the lattice-level fusion of acoustic models were applied in the 1st track system. Our system for Track 1 was in the top three systems, achieving 30% relative WER reduction over the baseline. Additionally, lattice rescoring with a neural language model was applied for Ranking B. Overall, this led to 34% relative WER reduction over the baseline in Track 1.\n",
+    "For Track 2, we proposed a novel Target-Speaker Voice Activity Detection (TS-VAD) approach to solve the diarization problem. Good diarization results made it possible to perform GSS on the obtained segments. TS-VAD is based on i-vector speaker embeddings, which are initially estimated using a strong diarization system based on spectral clustering of x-vectors. The back-end from the Track 1 system was used in the second track. The system for Track 2 demonstrated state-of-the-art performance, outperforming the baseline by 39% DER, 45% JER, 43% WER (Ranking A) and 45% WER (Ranking B) relative."
+   ],
+   "doi": "10.21437/CHiME.2020-9"
+  },
+  "boeddeker20_chime": {
+   "authors": [
+    [
+     "Christoph",
+     "Boeddeker"
+    ],
+    [
+     "Tobias",
+     "Cord-Landwehr"
+    ],
+    [
+     "Jens",
+     "Heitkaemper"
+    ],
+    [
+     "Cătălin",
+     "Zorilă"
+    ],
+    [
+     "Reinhold",
+     "Haeb-Umbach"
+    ]
+   ],
+   "title": "Towards a Speaker Diarization System for the CHiME 2020 Dinner Party Transcription",
+   "original": "CHiME_2020_paper_boeddeker",
+   "page_count": 6,
+   "order": 13,
+   "p1": 42,
+   "pn": 47,
+   "abstract": [
+    "In this work, we present our joint efforts on Track 2 of the CHiME 6 challenge, where two to three hours long sessions of a dinner party are to be transcribed without the use of start and end time annotations for each utterance during evaluation. The first contribution introduces an extension to an earlier proposed neural speaker diarization system by additionally incorporating spatial features, but violates the challenge rules by using oracle information about the speaker permutation in different segments. However, the results are promising and warrant future investigations. The second contribution follows the challenge guidelines and combines our system presented during the last challenge with the Track 2 baseline diarization system. Different acoustic models with system combination are tested on the enhanced data and deliver significant performance improvements over the baseline, both with the baseline and a modified language model."
+   ],
+   "doi": "10.21437/CHiME.2020-10"
+  },
+  "arora20_chime": {
+   "authors": [
+    [
+     "Ashish",
+     "Arora"
+    ],
+    [
+     "Desh",
+     "Raj"
+    ],
+    [
+     "Aswin Shanmugam",
+     "Subramanian"
+    ],
+    [
+     "Ke",
+     "Li"
+    ],
+    [
+     "Bar",
+     "Ben-Yair"
+    ],
+    [
+     "Matthew",
+     "Maciejewski"
+    ],
+    [
+     "Piotr",
+     "Zelasko"
+    ],
+    [
+     "Paola",
+     "Garcia"
+    ],
+    [
+     "Shinji",
+     "Watanabe"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ]
+   ],
+   "title": "The JHU Multi-Microphone Multi-Speaker ASR System for the CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_arora",
+   "page_count": 7,
+   "order": 14,
+   "p1": 48,
+   "pn": 54,
+   "abstract": [
+    "This paper summarizes the JHU team’s efforts in tracks 1 and 2 of the CHiME-6 challenge for distant multi-microphone conversational speech diarization and recognition in everyday home environments. We explore multi-array processing techniques at each stage of the pipeline, such as multi-array guided source separation (GSS) for enhancement and acoustic model training data, posterior fusion for speech activity detection, PLDA score fusion for diarization, and lattice combination for automatic speech recognition (ASR). We also report results with different acoustic model architectures, and integrate other techniques such as online multi-channel weighted prediction error (WPE) dereverberation and variational Bayes-hidden Markov model (VB-HMM) based overlap assignment to deal with reverberation and overlapping speakers, respectively. As a result of these efforts, our ASR systems achieve a word error rate of 40.5% and 67.5% on tracks 1 and 2, respectively, on the evaluation set. This is an improvement of 10.8% and 10.4% absolute, over the challenge baselines for the respective tracks."
+   ],
+   "doi": "10.21437/CHiME.2020-11"
+  },
+  "ni20_chime": {
+   "authors": [
+    [
+     "Zhaoheng",
+     "Ni"
+    ],
+    [
+     "Michael I.",
+     "Mandel"
+    ]
+   ],
+   "title": "CUNY Speech Diarization System for the CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_ni",
+   "page_count": 3,
+   "order": 15,
+   "p1": 55,
+   "pn": 57,
+   "abstract": [
+    "In this paper, we present a speech diarization system for the second track of the CHiME-6 challenge. Different from using the Agglomerative Hierarchical Clustering (AHC) algorithm in the baseline system, we apply the spectral clustering algorithm on the similarity matrices generated by probabilistic linear discriminant analysis (PLDA). To overcome the speech overlap problem, we apply a post-processing stage which detects the overlap in the segment and assign the segment to two speakers. The results show that our system reduces the word error rate to 76.04% for the development set and 72.74% for the evaluation set."
+   ],
+   "doi": "10.21437/CHiME.2020-12"
+  },
+  "zmolikova20_chime": {
+   "authors": [
+    [
+     "Katerina",
+     "Zmolikova"
+    ],
+    [
+     "Martin",
+     "Kocour"
+    ],
+    [
+     "Federico",
+     "Landini"
+    ],
+    [
+     "Karel",
+     "Beneš"
+    ],
+    [
+     "Martin",
+     "Karafiát"
+    ],
+    [
+     "Hari Krishna",
+     "Vydana"
+    ],
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Murali Karthick",
+     "Baskar"
+    ],
+    [
+     "Ján",
+     "Svec"
+    ],
+    [
+     "Ladislav",
+     "Mošner"
+    ],
+    [
+     "Vladimir",
+     "Malenovský"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ],
+    [
+     "Bolaji",
+     "Yusuf"
+    ],
+    [
+     "Ondrej",
+     "Novotný"
+    ],
+    [
+     "František",
+     "Grezl"
+    ],
+    [
+     "Igor",
+     "Szöke"
+    ],
+    [
+     "Jan \"Honza\"",
+     "Černocký"
+    ]
+   ],
+   "title": "BUT System for CHiME-6 Challenge",
+   "original": "CHiME_2020_paper_zmolikova",
+   "page_count": 4,
+   "order": 16,
+   "p1": 58,
+   "pn": 61,
+   "abstract": [
+    "This paper describes BUT’s efforts in the development of the system for the CHiME-6 challenge with far-field dinner party recordings [1]. Our experiments are on both diarization and speech recognition parts of the system. For diarization, we employ the VBx framework which uses Bayesian hidden Markov model with eigenvoice priors on x-vectors. For acoustic modeling, we explore using different subsets of data for training, different neural network architectures, discriminative training, more robust i-vectors, and semi-supervised training on VoxCeleb data. Besides, we perform experiments with a neural network-based language model, exploring how to overcome the small size of the text corpus and incorporate across-segment context. When fusing our best systems, we achieve 41.21% / 42.55% WER on Track 1, for development and evaluation respectively, and 55.15% / 69.04% on Track 2, for development and evaluation respectively. Aside from techniques used in our final submitted systems, we also describe our efforts in end-to-end diarization and end-to-end speech recognition."
+   ],
+   "doi": "10.21437/CHiME.2020-13"
+  },
+  "zorila20_chime": {
+   "authors": [
+    [
+     "Cătălin",
+     "Zorilă"
+    ],
+    [
+     "Mohan",
+     "Li"
+    ],
+    [
+     "Daichi",
+     "Hayakawa"
+    ],
+    [
+     "Min",
+     "Liu"
+    ],
+    [
+     "Ning",
+     "Ding"
+    ],
+    [
+     "Rama",
+     "Doddipatla"
+    ]
+   ],
+   "title": "Toshiba’s Speech Recognition System for the CHiME 2020 Challenge",
+   "original": "CHiME_2020_paper_zorila",
+   "page_count": 5,
+   "order": 17,
+   "p1": 62,
+   "pn": 66,
+   "abstract": [
+    "This paper summarizes the Toshiba entry for Track 1 of CHiME 2020 challenge, corresponding to the multi-array speech recognition task. The system is based on conventional acoustic modeling (AM), where phonetic targets are tied to features at the frame-level, and it consists of a combination of convolutional neural networks (CNNs) (with or without residual connections) and factorized time delay neural networks (TDNNFs). We also explored several enhancement strategies for the train and test data, speaker normalization and discriminative training. Results are reported using the provided 3-gram language model (3G LM) and after rescoring with a neural network language model (RNN LM). Following system combination, the submitted system achieves a performance of 35.89% and 37.54% word error rate (WER) using 3G LM on the development (DEV) and evaluation (EVAL) sets, respectively. Using the RNN LM, our system achieves a performance of 34.83% and 36.83% WER on DEV and EVAL, respectively. The proposed system was ranked 4th in both the constrained and the unconstrained language model subtracks."
+   ],
+   "doi": "10.21437/CHiME.2020-14"
+  },
+  "yu20_chime": {
+   "authors": [
+    [
+     "Dong",
+     "Yu"
+    ]
+   ],
+   "title": "Solving Cocktail Party Problem – From Single Modality to Multi-Modality",
+   "original": "CHiME_2020_paper_yu",
+   "page_count": 0,
+   "order": 11,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The cocktail party problem is one of the difficult problems yet to be solved to enable high-accuracy speech recognition in everyday environments. In this talk, I will introduce our recent attempts to attack this problem with a focus on multi-channel multi-modal approaches.\n"
+   ]
+  },
+  "garciaperera20_chime": {
+   "authors": [
+    [
+     "Leibny Paola",
+     "Garcia Perera"
+    ]
+   ],
+   "title": "Diarization, the Missing Link in Speech Technologies",
+   "original": "CHiME_2020_paper_garcia",
+   "page_count": 0,
+   "order": 6,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The amount of unlabeled speech data that is available enormously outweighs the labeled data, and there is great potential in using this data to improve the performance of current speech recognition systems and related technologies. A primary goal of research in this domain is to automatically compute labels for the unlabelled data with an acceptable level of accuracy for downstream applications. One such task is to answer the question \"who spoke when\" in a recording, identifying regions containing speech and assigning speaker identity labels to each utterance. This labeling, called speaker diarization, is not typically the final task for applications, but often a missing link in a pipeline that can boost the performance of automatic speech recognition and speaker and language identification systems. In this talk, I will guide you through a journey of this missing link. We will start with a brief discussion of the key components that comprise the state-of-the-art systems—discussing the usage of a voice activity detector, speaker embeddings, scoring and clustering techniques. Next, we will demonstrate the aspects in which current systems fail and propose new alternatives to attain better performance. We will address overlap detection, resegmentation, and speaker turn detection among others. In addition, we will give some insights of the newest solutions, such as end-to-end approaches. Then, we will go beyond diarization and explore the positive impact of including a diarization stage in speech and speaker recognition systems. Finally, we will discuss the influence of diarization in other fields such as cognitive science and linguistics.\n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Oral Session 1 ",
+   "papers": [
+    "watanabe20_chime",
+    "watanabe20b_chime",
+    "chen20_chime",
+    "ren20_chime",
+    "tang20_chime"
+   ]
+  },
+  {
+   "title": "Keynote 1: Leibny Paola Garcia Perara ",
+   "papers": [
+    "garciaperera20_chime"
+   ]
+  },
+  {
+   "title": "Oral Session 2 ",
+   "papers": [
+    "du20_chime",
+    "yang20_chime",
+    "lee20_chime",
+    "sreeram20_chime"
+   ]
+  },
+  {
+   "title": "Keynote 2: Dong Yu",
+   "papers": [
+    "yu20_chime"
+   ]
+  },
+  {
+   "title": "Oral Session 3 ",
+   "papers": [
+    "medennikov20_chime",
+    "boeddeker20_chime",
+    "arora20_chime",
+    "ni20_chime",
+    "zmolikova20_chime",
+    "zorila20_chime"
+   ]
+  }
+ ],
+ "doi": "10.21437/CHiME.2020"
+}

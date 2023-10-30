@@ -1,0 +1,717 @@
+{
+ "title": "6th SIGDial Workshop on Discourse and Dialogue (SIGDial 2005)",
+ "location": "Lisbon, Portugal",
+ "startDate": "2/9/2005",
+ "endDate": "3/9/2005",
+ "conf": "SIGDial",
+ "year": "2005",
+ "name": "sigdial_2005",
+ "series": "SIGDial",
+ "SIG": "SIGDial",
+ "title1": "6th SIGDial Workshop on Discourse and Dialogue",
+ "title2": "(SIGDial 2005)",
+ "date": "2-3 September 2005",
+ "papers": {
+  "pieraccini05_sigdial": {
+   "authors": [
+    [
+     "Roberto",
+     "Pieraccini"
+    ],
+    [
+     "Juan",
+     "Huerta"
+    ]
+   ],
+   "title": "Where do we go from here? research and commercial spoken dialog systems",
+   "original": "sgd6_001",
+   "page_count": 10,
+   "order": 1,
+   "p1": "1",
+   "pn": "10",
+   "abstract": [
+    "The spoken dialog industry has reached a maturity characterized by a vertical structure of technology vendors, platform integrators, application developers, and hosting companies. At the same time industrial standards are pervading the underlöying technology and prividing higher and higher levels of interoperability. On one hand commercial dialog systems are largely based on a pragmatic apprich which aims at usability and task completion. On the other hand, spoken dialog research has been moving on a parallel path trying to attain naturalness and freedom of communiation. However, the evolution of the commercial path shows that naturalness and freedom of expression are not necessarily a prerequisite for usability, given the constraints of the current technology. The differene between the two goals has been influencing a parallel evolution of the architectures and in particular of the dialog management abstractions. We beliebe it is the time to get a high level perspective on both lines of work, and aim to a synergistic convergence.\n",
+    ""
+   ]
+  },
+  "wesseling05_sigdial": {
+   "authors": [
+    [
+     "Wieneke",
+     "Wesseling"
+    ],
+    [
+     "Rob J. J. H. van",
+     "Son"
+    ]
+   ],
+   "title": "Early preparation of experimentally elicited minimal responses",
+   "original": "sgd6_011",
+   "page_count": 8,
+   "order": 2,
+   "p1": "11",
+   "pn": "18",
+   "abstract": [
+    "In both human-human and human-machine conversation, an important task for the participants is to identify the moment the other participant finishes speaking, giving them the possibility of taking over the turn in talk. In an RT experiment, consistent evidence was found for an intermediate stage in the planning and articulation of elicited minimal responses in the shape of early larynx and glottal movements in laryngograph recordings. Using a simple Response Time model, it is estimated that this intermediate stage occurs at approximately 2/3 of the integration-time needed for the articulation of a response. Impoverished intonation only stimuli were still adequate to elicit minimal responses, but a longer integration-time was required to initiate a response.\n",
+    ""
+   ]
+  },
+  "avesani05_sigdial": {
+   "authors": [
+    [
+     "Cinzia",
+     "Avesani"
+    ],
+    [
+     "Mario",
+     "Vayra"
+    ]
+   ],
+   "title": "Accenting, deaccenting and information structure in Italian dialogue",
+   "original": "sgd6_019",
+   "page_count": 6,
+   "order": 3,
+   "p1": "19",
+   "pn": "24",
+   "abstract": [
+    "Do Italian speakers deaccent given information? In this study we examined word tokens repeatedly mentioning the same entity within a task-oriented dialogue. Contrary to what is expected in Germanic languages, results show that the vast majority of the repeated mentions are accented irrespective of their being hearer/discourse given or discourse segment given .\n",
+    ""
+   ]
+  },
+  "williams05_sigdial": {
+   "authors": [
+    [
+     "Jason D.",
+     "Williams"
+    ],
+    [
+     "Pascal",
+     "Poupart"
+    ],
+    [
+     "Steve",
+     "Young"
+    ]
+   ],
+   "title": "Partially observable Markov decision processes with continuous observations for dialogue management",
+   "original": "sgd6_025",
+   "page_count": 10,
+   "order": 4,
+   "p1": "25",
+   "pn": "34",
+   "abstract": [
+    "This work shows how a dialogue model can be represented as a Partially Observable Markov Decision Process (POMDP) with observations composed of a discrete and continuous component. The continuous component enables the model to directly incorporate a confidence score for automated planning. Using a testbed simulated dialogue management problem, we show how recent optimization techniques are able to find a policy for this continuous POMDP which outperforms a traditional MDP approach. Further, we present a method for automatically improving handcrafted dialogue managers by incorporating POMDP belief state monitoring, including confidence score information. Experiments on the testbed system show significant improvements for several example handcrafted dialogue managers across a range of operating conditions.\n",
+    ""
+   ]
+  },
+  "paek05_sigdial": {
+   "authors": [
+    [
+     "Tim",
+     "Paek"
+    ],
+    [
+     "David Maxwell",
+     "Chickering"
+    ]
+   ],
+   "title": "The Markov assumption in spoken dialogue management",
+   "original": "sgd6_035",
+   "page_count": 10,
+   "order": 5,
+   "p1": "35",
+   "pn": "44",
+   "abstract": [
+    "The goal of dialogue management in a spoken dialogue system is to take actions based on observations and inferred beliefs. To ensure that the actions optimize the performance or robustness of the system, researchers have turned to reinforcement learning methods to learn policies for action selection. To derive an optimal policy from data, the dynamics of the system is often represented as a Markov Decision Process (MDP), which assumes that the state of the dialogue depends only on the previous state and action. In this paper, we investigate whether constraining the state space by the Markov assumption, especially when the structure of the state space may be unknown, truly affords the highest reward. In a simulation experiment conducted in the context of a dialogue system for interacting with a speech-enabled web browser, models under the Markov assumption did not perform as well as an alternative model which attempts to classify the total reward with accumulating features. We discuss the implications of the study as well as limitations.\n",
+    ""
+   ]
+  },
+  "schatzmann05_sigdial": {
+   "authors": [
+    [
+     "Jost",
+     "Schatzmann"
+    ],
+    [
+     "Kallirroi",
+     "Georgila"
+    ],
+    [
+     "Steve",
+     "Young"
+    ]
+   ],
+   "title": "Quantitative evaluation of user simulation techniques for spoken dialogue systems",
+   "original": "sgd6_045",
+   "page_count": 10,
+   "order": 6,
+   "p1": "45",
+   "pn": "54",
+   "abstract": [
+    "The lack of suitable training and testing data is currently a major roadblock in applying machine-learning techniques to dialogue management. Stochastic modelling of real users has been suggested as a solution to this problem, but to date few of the proposed models have been quantitatively evaluated on real data. Indeed, there are no established criteria for such an evaluation. This paper presents a systematic approach to testing user simulations and assesses the most prominent domain-independent techniques using a large DARPA Communicator corpus of human-computer dialogues. We show that while recent advances have led to significant improvements in simulation quality, simple statistical metrics are still sufficient to discern synthetic from real dialogues.\n",
+    ""
+   ]
+  },
+  "chung05_sigdial": {
+   "authors": [
+    [
+     "Grace",
+     "Chung"
+    ],
+    [
+     "Stephanie",
+     "Seneff"
+    ],
+    [
+     "Chao",
+     "Wang"
+    ]
+   ],
+   "title": "Automatic induction of language model data for a spoken dialogue system",
+   "original": "sgd6_055",
+   "page_count": 10,
+   "order": 7,
+   "p1": "55",
+   "pn": "64",
+   "abstract": [
+    "When building a new spoken dialogue application, large amounts of domain specific data are required. This paper addresses the issue of generating in-domain training data when little or no real user data are available. The twostage approach taken begins with a data induction phase whereby linguistic constructs from out-of-domain sentences are harvested and integrated with artificially constructed in-domain phrases. After some syntactic and semantic filtering, a large corpus of synthetically assembled user utterances is induced. The second stage involves sampling the synthetic corpus towards the goal of obtaining data that would be representative of the statistics of applicationspecific real user interactions. The sampling methods proposed employ an example-based generation framework, a simulated user model and information extracted from development data. Evaluation is conducted on recognition performance in a restaurant information domain. We show that word error rate can be reduced when limited amounts of real user training data are augmented with synthetic data derived by our methods.\n",
+    ""
+   ]
+  },
+  "denecke05_sigdial": {
+   "authors": [
+    [
+     "Matthias",
+     "Denecke"
+    ],
+    [
+     "Norihito",
+     "Yasuda"
+    ]
+   ],
+   "title": "Does this answer your question? towards dialogue management for restricted domain question answering systems",
+   "original": "sgd6_065",
+   "page_count": 12,
+   "order": 8,
+   "p1": "65",
+   "pn": "76",
+   "abstract": [
+    "The main problem when going from task-oriented dialogue systems to interactive restricted-domain question answering systems is that the lack of task structure prohibits making simplifying assumptions as in task-oriented dialogue systems. In order to address this issue, we propose a solution that combines representations based on keywords extracted from the user utterances with machine learning to learn the dialogue management function. More specifically, we propose to use Support Vector Machines to classify the dialogue state containing the extracted keywords in order to determine the next action to be taken by the dialogue manager. Much of the content selection for clari¯cation question usually found in dialogue managers is moved to an instance-based generation component. The proposed method has the advantage that it does not rely on an explicit representation of task structure as is necessary for task oriented dialogue systems.\n",
+    ""
+   ]
+  },
+  "fernandez05_sigdial": {
+   "authors": [
+    [
+     "Raquel",
+     "Fernández"
+    ],
+    [
+     "Jonathan",
+     "Ginzburg"
+    ],
+    [
+     "Shalom",
+     "Lappin"
+    ]
+   ],
+   "title": "Using machine learning for non-sentential utterance classification",
+   "original": "sgd6_077",
+   "page_count": 10,
+   "order": 9,
+   "p1": "77",
+   "pn": "86",
+   "abstract": [
+    "In this paper we investigate the use of machine learning techniques to classify a wide range of non-sentential utterance types in dialogue, a necessary first step in the interpretation of such fragments. We train different learners on a set of contextual features that can be extracted from PoS information. Our results achieve an 87% weighted f-score - a 25% improvement over a simple rule-based algorithm baseline.\n",
+    ""
+   ]
+  },
+  "forbesriley05_sigdial": {
+   "authors": [
+    [
+     "Kate",
+     "Forbes-Riley"
+    ],
+    [
+     "Diane J.",
+     "Litman"
+    ]
+   ],
+   "title": "Using bigrams to identify relationships between student certainness states and tutor responses in a spoken dialogue corpus",
+   "original": "sgd6_087",
+   "page_count": 10,
+   "order": 10,
+   "p1": "87",
+   "pn": "96",
+   "abstract": [
+    "We use n-gram techniques to identify dependencies between student affective states of certainty and subsequent tutor dialogue acts, in an annotated corpus of human-human spoken tutoring dialogues. We first represent our dialogues as bigrams of annotated student and tutor turns. We next use chi2 2 analysis to identify dependent bigrams. Our results show dependencies between many student states and subsequent tutor dialogue acts. We then analyze the dependent bigrams and suggest ways that our current computer tutor can be enhanced to adapt its dialogue act generation based on these dependencies.\n",
+    ""
+   ]
+  },
+  "rieser05_sigdial": {
+   "authors": [
+    [
+     "Verena",
+     "Rieser"
+    ],
+    [
+     "Ivana",
+     "Kruijff-Korbayová"
+    ],
+    [
+     "Oliver",
+     "Lemon"
+    ]
+   ],
+   "title": "A corpus collection and annotation framework for learning multimodal clarification strategies",
+   "original": "sgd6_097",
+   "page_count": 10,
+   "order": 11,
+   "p1": "97",
+   "pn": "106",
+   "abstract": [
+    "Current dialogue systems are fairly poor in generating the wide range of clarification strategies as found in human-human dialogue. The overall aim of this work is to learn when and how to best employ different types of clarification strategies in multimodal dialogue systems. This paper describes a framework for learning multimodal clarification strategies for an in-car MP3 music player dialogue system. The framework consists of three major parts. First we collect data on multimodal clarification strategies in a wizard-of-oz study. Second we extract feature in the stateaction space to learn an initial policy from this data. Third we specify a reward function to refine that policy using extensions of existing evaluation schemes.\n",
+    ""
+   ]
+  },
+  "jovanovic05_sigdial": {
+   "authors": [
+    [
+     "Natasa",
+     "Jovanovic"
+    ],
+    [
+     "Rieks op den",
+     "Akker"
+    ],
+    [
+     "Anton",
+     "Nijholt"
+    ]
+   ],
+   "title": "A corpus for studying addressing behavior in multi-party dialogues",
+   "original": "sgd6_107",
+   "page_count": 10,
+   "order": 12,
+   "p1": "107",
+   "pn": "116",
+   "abstract": [
+    "This paper describes a multi-modal corpus of hand-annotated meeting dialogues that was designed for studying addressing behavior in face-to-face conversations. The corpus contains annotated dialogue acts, addressees, adjacency pairs and gaze direction. First, we describe the corpus design where we present the annotation schema, annotation tools and annotation process itself. Then, we analyze the reproducibility and stability of the annotation schema.\n",
+    ""
+   ]
+  },
+  "gruenstein05_sigdial": {
+   "authors": [
+    [
+     "Alexander",
+     "Gruenstein"
+    ],
+    [
+     "John",
+     "Niekrasz"
+    ],
+    [
+     "Matthew",
+     "Purver"
+    ]
+   ],
+   "title": "Meeting structure annotation: data and tools",
+   "original": "sgd6_117",
+   "page_count": 11,
+   "order": 13,
+   "p1": "117",
+   "pn": "127",
+   "abstract": [
+    "We present a set of annotations of hierarchical topic segmentations and action item subdialogues collected over 65 meetings from the ICSI and ISL meeting corpora, designed to support automatic meeting understanding and analysis. We describe an architecture for representing, annotating, and analyzing multi-party discourse, including: an ontology of multimodal discourse, a programming interface for that ontology, and an audiovisual toolkit which facilitates browsing and annotating discourse, as well as visualizing and adjusting features for machine learning tasks.\n",
+    ""
+   ]
+  },
+  "bohus05_sigdial": {
+   "authors": [
+    [
+     "Dan",
+     "Bohus"
+    ],
+    [
+     "Alexander I.",
+     "Rudnicky"
+    ]
+   ],
+   "title": "Sorry, i didn²t catch that! - an investigation of non-understanding errors and recovery strategies",
+   "original": "sgd6_128",
+   "page_count": 16,
+   "order": 14,
+   "p1": "128",
+   "pn": "143",
+   "abstract": [
+    "We present results from an extensive empirical analysis of non-understanding errors and ten non-understanding recovery strategies, based on a corpus of dialogs collected with a spoken dialog system that handles conference room reservations. More specifically, the issues we investigate are: what are the main sources of non-understanding errors? What is the impact of these errors on global performance? How do various strategies for recovery from non-understandings compare to each other? What are the relationships between these strategies and subsequent user response types, and which response types are more likely to lead to successful recovery? Can dialog performance be improved by using a smarter policy for engaging the non-understanding recovery strategies? If so, can we learn such a policy from data? Whenever available, we compare and contrast our results with other studies in the literature. Finally, we summarize the lessons learned and present our plans for future work inspired by this analysis.\n",
+    ""
+   ]
+  },
+  "filisko05_sigdial": {
+   "authors": [
+    [
+     "Ed",
+     "Filisko"
+    ],
+    [
+     "Stephanie",
+     "Seneff"
+    ]
+   ],
+   "title": "Developing city name acquisition strategies in spoken dialogue systems via user simulation",
+   "original": "sgd6_144",
+   "page_count": 12,
+   "order": 15,
+   "p1": "144",
+   "pn": "154",
+   "abstract": [
+    "This paper describes our recent work on mechanisms for error recovery in spoken dialogue systems. We focus on the acquisition of city names and dates in the flight reservation domain. We are specifically interested in addressing the issue of acquiring out-of-vocabulary city names through a speak-and-spell mode subdialogue. In order to explore various dialogue strategies, we developed a user simulation system, which includes a configurable simulated user and a novel method of utterance generation. The latter utilizes a concatenative speech synthesizer, along with an existing corpus of dialogues, to produce a large variety of simulated inputs. The results from various simulated user configurations are presented, along with a discussion of how the simulated user facilitates the debugging of dialogue strategies and the discovery of situations unanticipated by the system developer.\n",
+    ""
+   ]
+  },
+  "hassel05_sigdial": {
+   "authors": [
+    [
+     "Liza",
+     "Hassel"
+    ],
+    [
+     "Eli",
+     "Hagen"
+    ]
+   ],
+   "title": "Evaluation of a dialogue system in an automotive environment",
+   "original": "sgd6_155",
+   "page_count": 10,
+   "order": 16,
+   "p1": "155",
+   "pn": "165",
+   "abstract": [
+    "In this paper we discuss features to enhance the usability of a spoken dialogue system (SDS) in an automotive environment. We describe the tests that were performed to evaluate those features, and the methods used to assess the test results. One of these methods is a modification of PARADISE, a framework for evaluating the performance of SDSs (Walker et al., 1998). We discuss its drawbacks for the evaluation of SDSs like ours, the modifications we have carried out, and the test results.\n",
+    ""
+   ]
+  },
+  "moller05_sigdial": {
+   "authors": [
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Parameters for quantifying the interaction with spoken dialogue telephone services",
+   "original": "sgd6_166",
+   "page_count": 12,
+   "order": 17,
+   "p1": "166",
+   "pn": "177",
+   "abstract": [
+    "When humans interact with spoken dialogue systems, parameters can be logged which quantify the flow of the interaction, the behavior of the user and the system, and the performance of individual system modules during the interaction. Although such parameters are not directly linked to the quality perceived by the user, they provide useful information for system development, optimization, and maintenance. This paper presents a collection of such parameters which are now considered to be recommended by the International Telecommunication Union (ITU-T) for evaluating telephone-based spoken dialogue services. As an initial evaluation, a case study is described which shows that the parameters correlate only weakly with subjective judgments, but that they still may be used for predicting quality with PARADISE-style regression models.\n",
+    ""
+   ]
+  },
+  "skantze05_sigdial": {
+   "authors": [
+    [
+     "Gabriel",
+     "Skantze"
+    ]
+   ],
+   "title": "GALATEA: a discourse modeller supporting concept-level error handling in spoken dialogue systems",
+   "original": "sgd6_178",
+   "page_count": 12,
+   "order": 18,
+   "p1": "178",
+   "pn": "189",
+   "abstract": [
+    "In this paper, a discourse modeller for conversational spoken dialogue systems, called GALATEA, is presented. Apart from handling the resolution of ellipses and anaphora, it tracks the \"grounding status\" of concepts that are mentioned during the discourse, i.e. information about who said what when. This grounding information also contains concept confidence scores that are derived from the speech recogniser word confidence scores. The discourse model may then be used for concept-level error handling, i.e. grounding of concepts, fragmentary clarification requests, and detection of erroneous concepts in the model at later stages in the dialogue.\n",
+    ""
+   ]
+  },
+  "horacek05_sigdial": {
+   "authors": [
+    [
+     "Helmut",
+     "Horacek"
+    ],
+    [
+     "Magdalena",
+     "Wolska"
+    ]
+   ],
+   "title": "A hybrid model for tutorial dialogs",
+   "original": "sgd6_190",
+   "page_count": 10,
+   "order": 19,
+   "p1": "190",
+   "pn": "199",
+   "abstract": [
+    "Until recently, rigid and sometimes cumbersome structures, which underly dialog patterns considered manageable for achieving a given task in a controlled manner, proved to be a serious weakness of interactive systems. Through the introduction of the information state as a representation to control the evolving state of a dialog, substantial improvements were obtained, with elaborations made for information-seeking and task-oriented dialogs. For handling tutorial dialogs, more rigid schemas are still in frequent use, due to the different requirements for this genre, which include more freedom on behalf of the human conversant due to limited pressure to understand a student's dialog contributions in full detail. In order to enable more exible dialogs that also do justice to particularities of tutorial issues, we propose a mixed automaton- and information-state based model of dialogs. Capabilities of this model include elaborations to handle multiple task contributions in one turn, and abstractions from domainand task-specific reasoning. A consequence of this design is the concentration on issues related to dialog proper, which increases the system's portability, a burning issue in the area of tutorial systems.\n",
+    ""
+   ]
+  },
+  "blaylock05_sigdial": {
+   "authors": [
+    [
+     "Nate",
+     "Blaylock"
+    ],
+    [
+     "James",
+     "Allen"
+    ]
+   ],
+   "title": "A collaborative problem-solving model of dialogue",
+   "original": "sgd6_200",
+   "page_count": 12,
+   "order": 20,
+   "p1": "200",
+   "pn": "211",
+   "abstract": [
+    "We present a formal model of agent collaborative problem solving and use it to define a novel type of dialogue model. The model provides a rich structure for tracking dialogue state and supports a wide range of dialogue, including dialogue which contributes to interleaved planning and execution of domain goals.\n",
+    ""
+   ]
+  },
+  "buhler05_sigdial": {
+   "authors": [
+    [
+     "Dirk",
+     "Bühler"
+    ],
+    [
+     "Wolfgang",
+     "Minker"
+    ],
+    [
+     "Artha",
+     "Elciyanti"
+    ]
+   ],
+   "title": "Using language modelling to integrate speech recognition with a flat semantic analysis",
+   "original": "sgd6_212",
+   "page_count": 5,
+   "order": 21,
+   "p1": "212",
+   "pn": "216",
+   "abstract": [
+    "One-stage decoding as an integration of speech recognition and linguistic analysis into one probabilistic process is an interesting trend in speech research. In this paper, we present a simple one-stage decoding scheme that can be realised without the implementation of a specialized decoder, nor the use of complex language models. Instead, we reduce an HMMbased semantic analysis to the problem of deriving annotated versions of the conventional language model, while the acoustic model remains unchanged. We present experiments with the ATIS corpus (Price, 1990) in which the performance of the one-stage method is shown to be comparable with the traditional two-stage approach, while requiring a significantly smaller increase in language model size.\n",
+    ""
+   ]
+  },
+  "wang05_sigdial": {
+   "authors": [
+    [
+     "Yu-Fang H.",
+     "Wang"
+    ],
+    [
+     "Stefan W.",
+     "Hamerich"
+    ],
+    [
+     "Marcus E.",
+     "Hennecke"
+    ],
+    [
+     "Volker M.",
+     "Schubert"
+    ]
+   ],
+   "title": "Speech-controlled media file selection on embedded systems",
+   "original": "sgd6_217",
+   "page_count": 5,
+   "order": 22,
+   "p1": "217",
+   "pn": "221",
+   "abstract": [
+    "We present a speech-controllable MP3 player for embedded systems. In addition to basic commands such as \"next\" or \"repeat\" one main feature of the system is the selection of titles, artists, albums, genres, or composers by speech. We will describe the implemented dialog and discuss challenges for a real-world application. The findings and considerations of the paper easily extend to general audio media.\n",
+    ""
+   ]
+  },
+  "hassel05b_sigdial": {
+   "authors": [
+    [
+     "Liza",
+     "Hassel"
+    ],
+    [
+     "Eli",
+     "Hagen"
+    ]
+   ],
+   "title": "Adaptation of an automotive dialogue system to users² expertise",
+   "original": "sgd6_222",
+   "page_count": 5,
+   "order": 23,
+   "p1": "222",
+   "pn": "226",
+   "abstract": [
+    "Spoken dialogue systems (SDSs) can be used to operate devices, e.g. in the automotive environment. People using these systems usually have different levels of experience. However, most systems do not take this into account. In this paper we present a method to build a dialogue system in an automotive environment that adapts to the users experience with the system. We implemented the adaptation in a prototype and carried out exhaustive tests. Our usability tests show that adaptation increases both user performance and user satisfaction.\n",
+    ""
+   ]
+  },
+  "dybkjr05_sigdial": {
+   "authors": [
+    [
+     "Hans",
+     "Dybkjær"
+    ],
+    [
+     "Laila",
+     "Dybkjær"
+    ]
+   ],
+   "title": "Dialogdesigner - a tool for rapid system design and evaluation",
+   "original": "sgd6_227",
+   "page_count": 5,
+   "order": 24,
+   "p1": "227",
+   "pn": "231",
+   "abstract": [
+    "As spoken dialogue systems mature, the need for rapid development tools increases. We describe such a tool that is currently being used for commercial design, specification and evaluation, and that is in the process of being developed into a complete case tool.\n",
+    ""
+   ]
+  },
+  "traum05_sigdial": {
+   "authors": [
+    [
+     "David",
+     "Traum"
+    ],
+    [
+     "William",
+     "Swartout"
+    ],
+    [
+     "Jonathan",
+     "Gratch"
+    ],
+    [
+     "Stacy",
+     "Marsella"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Eduard",
+     "Hovy"
+    ],
+    [
+     "Shri",
+     "Narayanan"
+    ],
+    [
+     "Andrew",
+     "Marshall"
+    ],
+    [
+     "Dagen",
+     "Wang"
+    ],
+    [
+     "Sudeep",
+     "Gandhe"
+    ],
+    [
+     "Anton",
+     "Lenski"
+    ]
+   ],
+   "title": "Dealing with doctors: a virtual human for non-team interaction",
+   "original": "sgd6_232",
+   "page_count": 5,
+   "order": 25,
+   "p1": "232",
+   "pn": "236",
+   "abstract": [
+    "We present a virtual human doctor who can engage in multi-modal negotiation dialogue with people from other organizations. The doctor is part of the SASO-ST system, used for training for non-team interactions.\n",
+    ""
+   ]
+  },
+  "bernsen05_sigdial": {
+   "authors": [
+    [
+     "Niels Ole",
+     "Bernsen"
+    ],
+    [
+     "Laila",
+     "Dybkjær"
+    ]
+   ],
+   "title": "Meet Hans Christian Andersen",
+   "original": "sgd6_237",
+   "page_count": 5,
+   "order": 26,
+   "p1": "237",
+   "pn": "241",
+   "abstract": [
+    "This paper presents the second running prototype of a multimodal conversational edutainment system embodying 3D animated fairytale author Hans Christian Andersen.\n",
+    ""
+   ]
+  },
+  "boye05_sigdial": {
+   "authors": [
+    [
+     "Johan",
+     "Boye"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ]
+   ],
+   "title": "How to do dialogue in a fairy-tale world",
+   "original": "sgd6_242",
+   "page_count": 5,
+   "order": 27,
+   "p1": "242",
+   "pn": "246",
+   "abstract": [
+    "The work presented in this paper is an endeavor to create a prototype of a computer game with spoken dialogue capabilities. Advanced spoken dialogue has the potential to considerably enrich computer games, where it for example would allow players to refer to past events and to objects currently not visible on the screen. It would also allaow users to interact socially and to negotiate solutions with the game characters. The game takes place in a fairy-tale world, and features two different fairy-tale characters, who can interact with the player and with each other using spoken dialogue. The fairy-tale characters are separate entities in the sense that each character has its own set of goals and its own perception of the world. This paper gives an overview of the functionality of the implemented dialogue manager in the NICE fairy-tale game system.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Long Papers and Invited Talks",
+   "papers": [
+    "pieraccini05_sigdial",
+    "wesseling05_sigdial",
+    "avesani05_sigdial",
+    "williams05_sigdial",
+    "paek05_sigdial",
+    "schatzmann05_sigdial",
+    "chung05_sigdial",
+    "denecke05_sigdial",
+    "fernandez05_sigdial",
+    "forbesriley05_sigdial",
+    "rieser05_sigdial",
+    "jovanovic05_sigdial",
+    "gruenstein05_sigdial",
+    "bohus05_sigdial",
+    "filisko05_sigdial",
+    "hassel05_sigdial",
+    "moller05_sigdial",
+    "skantze05_sigdial",
+    "horacek05_sigdial",
+    "blaylock05_sigdial"
+   ]
+  },
+  {
+   "title": "Short Papers and Demos",
+   "papers": [
+    "buhler05_sigdial",
+    "wang05_sigdial",
+    "hassel05b_sigdial",
+    "dybkjr05_sigdial",
+    "traum05_sigdial",
+    "bernsen05_sigdial",
+    "boye05_sigdial"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,799 @@
+{
+ "series": "SLTU",
+ "title": "Spoken Language Technologies for Under-Resourced Languages",
+ "location": "Universiti Sains, Penang, Malaysia",
+ "startDate": "3/5/2010",
+ "endDate": "5/5/2010",
+ "original_url": "http://www.isca-speech.org/archive/SLTU_2010",
+ "original_title": "Spoken Language Technologies for Under-Resourced Languages",
+ "logo": "su10.gif",
+ "conf": "SLTU",
+ "year": "2010",
+ "name": "sltu_2010",
+ "SIG": "SIGUL",
+ "title1": "Spoken Language Technologies for Under-Resourced Languages",
+ "date": "3-5 May 2010",
+ "papers": {
+  "li10_sltu": {
+   "authors": [
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "BISTRA: Malay-English bidirectional speech translation",
+   "original": "su10_001",
+   "page_count": 1,
+   "order": 1,
+   "p1": "1",
+   "pn": "",
+   "abstract": [
+    "In this talk, I will describe the development of a Malay-English bidirectional speech translation system in the Institute for Infocomm Research, Singapore, as part of the Asian Speech Translation Advanced Research Consortium. I will introduce the basic components and the linguistic resources, in particular, large vocabulary continuous speech recognition, speech synthesis, and machine translation concerning Malay language. I will also discuss the network-based system architecture that supports the real-time speech translation service.\n",
+    ""
+   ]
+  },
+  "sarikaya10_sltu": {
+   "authors": [
+    [
+     "Ruhi",
+     "Sarikaya"
+    ]
+   ],
+   "title": "Towards building effective language translation systems",
+   "original": "su10_002",
+   "page_count": 2,
+   "order": 2,
+   "p1": "2",
+   "pn": "3",
+   "abstract": [
+    "Automatic Language Translation - widely known as Machine Translation (MT) - has been one of the long-standing elusive goals in natural language processing and artificial intelligence. With the effect of increasing globalization at the individual and enterprise level, and wide-spread use of social networking sites the necessity to exchange knowledge between people who do not share a common language put MT into the spotlight. Now, having access to vast amounts of translation data and powerful computers, we are closer than ever to achieving that goal. In this talk we focus on building usable machine translation systems. We will highlight the practical and fundamental challenges for building MT systems and present our solutions and approaches on both fronts. In particular, we first give an overview of MT research, then focus on parallel data construction for MT, language and MT modeling in continuous space. We also demonstrate working MT systems for various applications between English and several major languages.\n",
+    ""
+   ]
+  },
+  "waibel10_sltu": {
+   "authors": [
+    [
+     "Alexander",
+     "Waibel"
+    ]
+   ],
+   "title": "Speech translators for humanitarian projects",
+   "original": "su10_004",
+   "page_count": 2,
+   "order": 3,
+   "p1": "4",
+   "pn": "5",
+   "abstract": [
+    "This talk will describe Jibbigo and our speech translators designed and experimented in the context of humanitarian exercises in Thailand, Honduras and Indonesia.\n",
+    ""
+   ]
+  },
+  "perez10_sltu": {
+   "authors": [
+    [
+     "Alicia",
+     "Pérez"
+    ],
+    [
+     "M. Inés",
+     "Torres"
+    ],
+    [
+     "Francisco",
+     "Casacuberta"
+    ]
+   ],
+   "title": "Exploiting morphology in speech translation with phrase-based finite-state transducers",
+   "original": "su10_006",
+   "page_count": 4,
+   "order": 4,
+   "p1": "6",
+   "pn": "9",
+   "abstract": [
+    "This work implements a novel formulation for phrase-based translation models making use of morpheme-based translation units under a stochastic finite-state framework. This approach has an additional interest for speech translation tasks since it leads to the integration of the acoustic and translation models.\n",
+    "As a further contribution, this is the first paper addressing a Basque-to-Spanish speech translation task. For this purpose a morpheme based finite-state recognition system is combined with a finite-state transducer that translates phrases of morphemes in the source language into usual sequences of words in the target language.\n",
+    "The proposed models were assessed under a limiteddomain application task. Good performances were obtained for the proposed phrase-based finite-state translation model using morphemes as translation units, and also notable improvements are obtained in decoding time.\n",
+    "",
+    "",
+    "Index Terms: Speech Translation, Stochastic Finite- State Transducers, Morphology\n",
+    ""
+   ]
+  },
+  "tarjan10_sltu": {
+   "authors": [
+    [
+     "Balázs",
+     "Tarján"
+    ],
+    [
+     "Péter",
+     "Mihajlik"
+    ]
+   ],
+   "title": "On morph-based LVCSR improvements",
+   "original": "su10_010",
+   "page_count": 7,
+   "order": 5,
+   "p1": "10",
+   "pn": "16",
+   "abstract": [
+    "Efficient large vocabulary continuous speech recognition of morphologically rich languages is a big challenge due to the rapid vocabulary growth. To improve the results various subword units - called as morphs - are applied as basic language elements. The improvements over the word baseline, however, are changing from negative to error rate halving across languages and tasks. In this paper we make an attempt to explore the source of this variability. Different LVCSR tasks of an agglutinative language are investigated in numerous experiments using full vocabularies. The improvement results are compared to pre-existing other language results, as well. Important correlations are found between the morph-based improvements and between the vocabulary growths and the corpus sizes.\n",
+    ""
+   ]
+  },
+  "heerden10_sltu": {
+   "authors": [
+    [
+     "Charl van",
+     "Heerden"
+    ],
+    [
+     "Neil",
+     "Kleynhans"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ],
+    [
+     "Marelie",
+     "Davel"
+    ]
+   ],
+   "title": "Pooling ASR data for closely related languages",
+   "original": "su10_017",
+   "page_count": 7,
+   "order": 6,
+   "p1": "17",
+   "pn": "23",
+   "abstract": [
+    "We describe several experiments that were conducted to assess the viability of data pooling as a means to improve speech-recognition performance for under-resourced languages. Two groups of closely related languages from the Southern Bantu language family were studied, and our tests involved phoneme recognition on telephone speech using standard tied-triphone Hidden Markov Models. Approximately 6 to 11 hours of speech from around 170 speakers was available for training in each language. We find that useful improvements in recognition accuracy can be achieved when pooling data from languages that are highly similar, with two hours of data from a closely related language being approximately equivalent to one hour of data from the target language in the best case. However, the benefit decreases rapidly as languages become slightly more distant, and is also expected to decrease when larger corpora are available. Our results suggest that similarities in triphone frequencies are the most accurate predictor of the performance of language pooling in the conditions studied here.\n",
+    "",
+    "",
+    "Index Terms: speech recognition, under-resourced languages, data pooling\n",
+    ""
+   ]
+  },
+  "mac10_sltu": {
+   "authors": [
+    [
+     "Dang-Khoa",
+     "Mac"
+    ],
+    [
+     "Véronique",
+     "Aubergé"
+    ],
+    [
+     "Albert",
+     "Rilliard"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ]
+   ],
+   "title": "Vietnamese multimodal social affects: how prosodic attitudes can be recognized and confused",
+   "original": "su10_024",
+   "page_count": 5,
+   "order": 7,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "Social affective expression is a main part of face-to-face interaction and it is highly linked to the language through the culture. This paper presents a study on Audio-Visual prosodic attitudes in Vietnamese, an under-resourced tonal language. Based on an audio-visual corpus of 16 attitudes, perception experiments were carried out with Vietnamese and French participants. The result analysis shows the relative contribution of audio, visual, and audio-visual information in attitude perception. It also shows how native and non-native listeners recognize and confuse the attitudes, thus allows us to investigate the cultural specificities and cross-cultural common attitudes in Vietnamese.\n",
+    "",
+    "",
+    "Index Terms: Audio-visual corpus, Prosodic social affects, Cross-cultural perception, Vietnamese\n",
+    ""
+   ]
+  },
+  "barnard10_sltu": {
+   "authors": [
+    [
+     "Etienne",
+     "Barnard"
+    ],
+    [
+     "Sabine",
+     "Zerbian"
+    ]
+   ],
+   "title": "From tone to pitch in Sepedi",
+   "original": "su10_029",
+   "page_count": 6,
+   "order": 8,
+   "p1": "29",
+   "pn": "34",
+   "abstract": [
+    "We investigate the acoustic realization of tone in continuous utterances in Sepedi (a language in the Southern Bantu family). Human labelers marked each of the 271 syllables in a 15-sentence corpus produced by a single speaker as \"high\" or \"low\". Automatic pitch extraction was then used to estimate the fundamental frequencies of the voiced segments of each of these syllables. Statistical analysis of the resulting pitch contours confirms that the mean pitch frequencies of the syllabic nuclei serve as the primary indicator of tone, with the relative frequencies of successive syllables being the most relevant measure. Our analysis also suggests that additional factors may play a role in the production and perception of tone.\n",
+    "",
+    "",
+    "Index Terms: Tone languages, pitch contours, Sepedi, Southern Bantu\n",
+    ""
+   ]
+  },
+  "alam10_sltu": {
+   "authors": [
+    [
+     "Firoj",
+     "Alam"
+    ],
+    [
+     "S. M. Murtoza",
+     "Habib"
+    ],
+    [
+     "Dil Afroza",
+     "Sultana"
+    ],
+    [
+     "Mumit",
+     "Khan"
+    ]
+   ],
+   "title": "Development of annotated Bangla speech corpora",
+   "original": "su10_035",
+   "page_count": 7,
+   "order": 9,
+   "p1": "35",
+   "pn": "41",
+   "abstract": [
+    "This paper describes the development procedure of three different Bangla read speech corpora which can be used for phonetic research and developing speech applications. Several criteria were maintained in the corpora development process that includes considering the phonetic and prosodic features during text selection. On the other hand, a specification was maintained in the recording phase as the speaking style is a vital part in speech applications. We also concentrated on proper text normalization, pronunciation, aligning, and labeling. The labeling was done manually – in the present endeavor sentence level labeling (annotation) was completed by maintaining a specification so that it could be expanded in future.\n",
+    "",
+    "",
+    "Index Terms: speech corpora, phonetic research, speech processing\n",
+    ""
+   ]
+  },
+  "caelenhaumont10_sltu": {
+   "authors": [
+    [
+     "Geneviève",
+     "Caelen-Haumont"
+    ],
+    [
+     "Brigitte",
+     "Cortial"
+    ],
+    [
+     "Christian",
+     "Culas"
+    ],
+    [
+     "Tran Tri",
+     "Doi"
+    ],
+    [
+     "Thom Dinh",
+     "Hong"
+    ],
+    [
+     "Xuyen Lê",
+     "Thi"
+    ],
+    [
+     "Hung Phan",
+     "Luong"
+    ],
+    [
+     "Thanh Nguyen",
+     "Ngoc"
+    ],
+    [
+     "Emmanuel",
+     "Pannier"
+    ],
+    [
+     "Vanessa",
+     "Roux"
+    ],
+    [
+     "Jean-Pierre",
+     "Salmon"
+    ],
+    [
+     "Alice",
+     "Vittrant"
+    ],
+    [
+     "Hoang Thi",
+     "Vuong"
+    ],
+    [
+     "Ly A",
+     "Song"
+    ]
+   ],
+   "title": "Mo Piu minority language: data base, first steps and first experiments",
+   "original": "su10_042",
+   "page_count": 9,
+   "order": 10,
+   "p1": "42",
+   "pn": "50",
+   "abstract": [
+    "This paper is a first contribution about the Mo Piu language and culture. This ethnic minority is settled in the mountains of the North Vietnam. This culture being not documented at all at the international level, its language is said 'under-resourced' in the point of view of the automatic processing.\n",
+    "After a cultural, social and economical presentation of this minority, the paper focusses on the results of the first field ground undertaken in june 2009, and especially on the data basis, and the first experiments on the Mo Piu speech (method and preliminary results). The study in progression is concerning the domain of human recognition of melodic segments in order to try to find out 1° if this language is tonal or not 2° and if so, what are the tonal units.\n",
+    "",
+    "",
+    "Index Terms: Mo Piu, ethnic groups, under-resourced language, endangered language, data basis, prosody, tonal units.\n",
+    ""
+   ]
+  },
+  "anumanchipalli10_sltu": {
+   "authors": [
+    [
+     "Gopala Krishna",
+     "Anumanchipalli"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Adaptation techniques for speech synthesis in under-resourced languages",
+   "original": "su10_051",
+   "page_count": 5,
+   "order": 11,
+   "p1": "51",
+   "pn": "55",
+   "abstract": [
+    "This paper presents techniques for building speech synthesizers targeted at limited data scenarios - limited data from a target speaker; limited or no data in a target language. A resource sharing strategy within speakers and languages is presented giving promising directions for under-resourced languages. Our results show the importance of the amount of training data, the selection of languages and the mappings across languages in a multilingual setting. The objective evaluations conclusively prove that the presented adaptation techniques are well suited for building voices in resource-scarce conditions.\n",
+    "",
+    "",
+    "Index Terms: Speech Synthesis, Adaptation, Voice conversion, under-resourced languages.\n",
+    ""
+   ]
+  },
+  "sze10_sltu": {
+   "authors": [
+    [
+     "Hong Kai",
+     "Sze"
+    ],
+    [
+     "Tan Tien",
+     "Ping"
+    ],
+    [
+     "Tang Enya",
+     "Kong"
+    ],
+    [
+     "Cheah",
+     "Yu-N"
+    ]
+   ],
+   "title": "Malay language modeling in large vocabulary continuous speech recognition with linguistic information",
+   "original": "su10_056",
+   "page_count": 6,
+   "order": 12,
+   "p1": "56",
+   "pn": "61",
+   "abstract": [
+    "In this paper, our recent progress in developing and evaluating Malay Large Vocabulary Continuous Speech Recognizer (LVCSR) with considerations of linguistic information is discussed. The best baseline system has a WER of 15.8%. In order to propose methods to improve the accuracies further, additional experiments have been performed using linguistic information such as part-ofspeech and stem. We have also tested our system by creating a language model using a small amount of texts and suggested that linguistic knowledge can be used to improve the accuracy of Malay automatic speech recognition system.\n",
+    "",
+    "",
+    "Index Terms: Speech Recognition, Agglutinative Language, Language Modeling, Part-Of-Speech, Stem\n",
+    ""
+   ]
+  },
+  "lamel10_sltu": {
+   "authors": [
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Bianca",
+     "Vieru"
+    ]
+   ],
+   "title": "Development of a speech-to-text transcription system for Finnish",
+   "original": "su10_062",
+   "page_count": 6,
+   "order": 13,
+   "p1": "62",
+   "pn": "67",
+   "abstract": [
+    "This paper describes the development of a speech-to-text transcription system for the Finnish language. Finnish is a Finno-Ugric language spoken by about 6 million of people living in Finland, but also by some minorities in Sweden, Norway, Russia and Estonia. System development was carried out without any detailed manual transcriptions, relying instead on several sources of audio and textual data were found on the web. Some of the audio sources were associated with approximate (and usually partial) texts, which were used to provide estimates of system performance.\n",
+    ""
+   ]
+  },
+  "tachbelie10_sltu": {
+   "authors": [
+    [
+     "Martha Yifiru",
+     "Tachbelie"
+    ],
+    [
+     "Solomon Teferra",
+     "Abate"
+    ],
+    [
+     "Wolfgang",
+     "Menzel"
+    ]
+   ],
+   "title": "Morpheme-based automatic speech recognition for a morphologically rich language - Amharic",
+   "original": "su10_068",
+   "page_count": 6,
+   "order": 14,
+   "p1": "68",
+   "pn": "73",
+   "abstract": [
+    "Out-of-vocabulary (OOV) words are a major source of error in a speech recognition system and various methods have been proposed to increase the performance of the systems by properly dealing with them. This paper presents an automatic speech recognition experiment conducted to see the effect of OOV words on the performance speech recognition system for Amharic (a morphologically rich language). We tried to solve the OOV problem by using morphemes as dictionary and language model units. It has been found that for a small vocabulary (5k) system morphemes are better lexical and language modeling units than words. An absolute improvement (in word recognition accuracy) of 11.57% has been obtained as a result of using a morph-based vocabulary. However, for large vocabularies morpheme-based systems did not bring much performance improvement as they suffer from acoustic confusability and limited language model scope while wordbased recognizers benefit much from OOV rate reduction.\n",
+    "",
+    "",
+    "Index Terms: Out-of-Vocabulary problem, Morphemebased speech recognition, Amharic\n",
+    ""
+   ]
+  },
+  "addadecker10_sltu": {
+   "authors": [
+    [
+     "Martine",
+     "Adda-Decker"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Natalie D.",
+     "Snoeren"
+    ]
+   ],
+   "title": "Initializing acoustic phone models of under-resourced languages: a case-study of Luxembourgish",
+   "original": "su10_074",
+   "page_count": 7,
+   "order": 15,
+   "p1": "74",
+   "pn": "80",
+   "abstract": [
+    "The national language of the Grand-Duchy of Luxembourg, Luxembourgish, has often been characterized as one of Europe's under-described and under-resourced languages. In this contribution we report on our ongoing work to take Luxembourgish on board as an e-language: an electronically searchable spoken language. More specifically, we focus on the issue of producing acoustic seed models for Luxembourgish. A phonemic inventory was defined and linked to inventories from major neighboring languages (German, French and English), with the help of the IPA symbol set. Acoustic seed model sets were composed using monolingual German, French or English acoustic model sets and corresponding forced alignment segmentations were compared.\n",
+    "Next a super-set of multilingual acoustic seeds was used putting together the three language-dependent sets. The language-identity of the aligned acoustic models provides information about the overall acoustic adequacy of both the cross-language phonemic correspondances and the acoustic models. Furthermore some information can be gleaned on inter-language distances: the German acoustic models provided the best match with 54.3% of the segments aligned using German seeds, 35.3% using the English ones and only 10.4% using the French acoustic models. Since Luxembourgish is considered a Western Germanic language close to German, this result is in line with its linguistic typology.\n",
+    ""
+   ]
+  },
+  "mangeot10_sltu": {
+   "authors": [
+    [
+     "Mathieu",
+     "Mangeot"
+    ],
+    [
+     "Sereysethy",
+     "Touch"
+    ]
+   ],
+   "title": "MotÀmot project: building a multilingual lexical system via bilingual dictionaries",
+   "original": "su10_081",
+   "page_count": 6,
+   "order": 16,
+   "p1": "81",
+   "pn": "86",
+   "abstract": [
+    "The MotAMot project aims to develop a multilingual lexical network focused on languages of Southeast Asia and especially Vietnamese and Khmer. The macrostructure is a pivot structure with a monolingual volume for each language and a pivot one connecting each word sense of each monolingual volume. The microstructure is based on the explanatory and combinatorial lexicography. Contributions will be made online on the Jibiki platform by a community of volunteers constituted around serious games lexical. Each entry will be given a level of quality, as well as for each contributor.\n",
+    ""
+   ]
+  },
+  "khalilov10_sltu": {
+   "authors": [
+    [
+     "Maxim",
+     "Khalilov"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ],
+    [
+     "Inguna",
+     "Skadina"
+    ],
+    [
+     "Edgars",
+     "Bralitis"
+    ],
+    [
+     "Lauma",
+     "Pretkalnina"
+    ]
+   ],
+   "title": "English-latvian SMT: the challenge of translating into a free word order language",
+   "original": "su10_087",
+   "page_count": 8,
+   "order": 17,
+   "p1": "87",
+   "pn": "94",
+   "abstract": [
+    "This paper presents a comparative study of two approaches to statistical machine translation (SMT) and their application to a task of English-to-Latvian translation, which is still an open research line in the field of automatic translation.\n",
+    "We consider a state-of-the-art phrase-based SMT and an alternative N-gram-based SMT systems. The major differences between these two approaches lie in the distinct representations of bilingual units, which are the components of the bilingual model driving translation process and in the statistical modeling of the translation context.\n",
+    "Latvian being a rather free word order language implies additional difficulties to the translation process. We contrast different reordering models and investigate how well they deal with the word ordering issue.\n",
+    "Moving beyond automatic scores of translation quality that are classically presented in MT research papers, we contribute presenting a manual error analysis of MT systems output that helps to shed light on advantages and disadvantages of the SMT systems under consideration and identify the most prominent source of errors typical for both SMT systems.\n",
+    "",
+    "",
+    "Index Terms. Natural languages, finite state machines, language processing, statistical machine translation.\n",
+    ""
+   ]
+  },
+  "malik10_sltu": {
+   "authors": [
+    [
+     "M. G. Abbas",
+     "Malik"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ],
+    [
+     "Pushpak",
+     "Bhattachariyya"
+    ]
+   ],
+   "title": "Analysis of Noori Nasta'leeq for major Pakistani languages",
+   "original": "su10_095",
+   "page_count": 9,
+   "order": 18,
+   "p1": "95",
+   "pn": "103",
+   "abstract": [
+    "Nasta'leeq is a bidirectional, diagonal, non-monotonic, cursive, highly context-sensitive and very complex writing style for languages like Urdu, Punjabi, Balochi and Kashmiri. Each is written in a variant of the Perso-Arabic script. The style is characterized by well-formed orthographic rules that are passed down from generation to generation of calligraphers and old manuscripts. It is present in calligraphic arts and printed materials of the present, but orthographic rules have not been quantitatively analyzed in detail for the above-mentioned languages. This paper first presents the salient features of the Perso-Arabic script and briefly introduces its different writing styles. It also briefly discusses alphabets of major Pakistani languages. Finally, it gives the quantitative analysis of Nasta'leeq and explains its context-sensitive behavior with respect to Pakistani languages, knowing that it is equally true for Arabic, Persian and other languages written in derivations of the Perso- Arabic script. Finally, it discusses the Context-Sensitive Substitution Grammar of Nasta'leeq, a computational model of Nasta'leeq.\n",
+    "",
+    "",
+    "Index Terms: Nasta'leeq, script, Arabic, Persian, Urdu, Punjabi, Sindhi, Balochi, Kashmiri\n",
+    ""
+   ]
+  },
+  "vu10_sltu": {
+   "authors": [
+    [
+     "Ngoc Thang",
+     "Vu"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Optimization on Vietnamese large vocabulary speech recognition",
+   "original": "su10_104",
+   "page_count": 7,
+   "order": 19,
+   "p1": "104",
+   "pn": "110",
+   "abstract": [
+    "This paper summarizes our latest efforts toward a large vocabulary speech recognition system for Vietnamese. We describe the Vietnamese text and speech database which we collected as part of our GlobalPhone corpus. Based on these data we improve our initial Vietnamese recognition system [1] by applying various state-of-the art techniques such as semi-tied covariance and discriminative training. Furthermore, we achieve significant improvements by building two systems based on different tone modeling approaches and then apply system cross-adaptation and confusion networks combination. The best Vietnamese speech recognition system employs a 3-pass decoding strategy and achieves a syllablebased error rate of 7.9% on read newspaper speech. In addition, we perform initial experiments on the Voice of Vietnam (VOV) speech corpus [2] and achieve a syllable error rate of 16.5%.\n",
+    "",
+    "",
+    "Index Terms: Vietnamese speech recognition, data collection, discriminative training, system combination\n",
+    "s Ngoc Thang Vu and Tanja Schultz. Vietnamese Large Vocabulary Continuous Speech Recognition. In: ASRU, Italy 2009. Thang Tat Vu, Dung Tien Nguyen, Mai Chi Luong and John-Paul Hosom. Vietnamese Large Vocabulary Continuous Speech Recognition. In: 9th European Conference on Speech Communication and Technology, Lisbon, Portugal, 2005.\n",
+    ""
+   ]
+  },
+  "touch10_sltu": {
+   "authors": [
+    [
+     "Sereysethy",
+     "Touch"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ]
+   ],
+   "title": "Voice aided input for phrase selection using a low level ASR approach – application to French and Khmer phrasebooks",
+   "original": "su10_111",
+   "page_count": 5,
+   "order": 20,
+   "p1": "111",
+   "pn": "115",
+   "abstract": [
+    "We report the ongoing results of an effort to embed a \"light\" ASR for a future smart-phone-based multimodal multilingual phrase-book which allows users to look for a sentence by simply pronouncing it. We compared a phoneme-based low level approach with a conventional word-based high level approach. The former approach has been found promising in terms of accuracy and performance in a restricted task-oriented domain suitable for handheld devices with low-resources. The experiments have been performed on both high- and under-resourced languages: French and Khmer.\n",
+    "",
+    "",
+    "Index Terms: Phrasebook, ASR, embedded system\n",
+    ""
+   ]
+  },
+  "sam10_sltu": {
+   "authors": [
+    [
+     "Sethserey",
+     "Sam"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Cheung-Chi",
+     "Leung"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Autonomous acoustic model adaptation for multilingual meeting transcription involving high- and low-resourced languages",
+   "original": "su10_116",
+   "page_count": 6,
+   "order": 21,
+   "p1": "116",
+   "pn": "121",
+   "abstract": [
+    "In speech technology, we found several challenges in automatic speech transcription system for multilingual conferences or meetings. Firstly, the dialog occurs between native and non-native speakers. Secondly, the non-native speakers come from different parts of the world (e.g., English spoken by native French speakers or English spoken by native Vietnamese speakers, etc.). Thirdly, no data or a limited amount of data is available to bootstrap the acoustic modeling. This paper presents some autonomous online and offline acoustic model adaptation approaches, which required no additional data in the adaptation process, to deal with above challenges as well as to improve the performance of the phone recognizers used for automatic transcription purpose. Experiments show that our adaptation approach (online interpolation with MLLR based on PRVSM) can provide about 4% absolute gain in Phone Accuracy Rate (PAR) compared to the multilingual baseline system and it is even better than the performance of the supervised monolingual systems.\n",
+    "",
+    "",
+    "Index Terms: ASR, multilingual acoustic modeling, language label voting, PR-VSM, MLLR.\n",
+    ""
+   ]
+  },
+  "anberbir10_sltu": {
+   "authors": [
+    [
+     "Tadesse",
+     "Anberbir"
+    ],
+    [
+     "Tomio",
+     "Takara"
+    ],
+    [
+     "Dong Yoon",
+     "Kim"
+    ]
+   ],
+   "title": "Modeling of geminate duration in an amharic text-to-speech synthesis system",
+   "original": "su10_122",
+   "page_count": 8,
+   "order": 22,
+   "p1": "122",
+   "pn": "129",
+   "abstract": [
+    "This paper presents analysis and modeling of geminate duration in Amharic Text-to-Speech (AmhTTS) synthesis system. AmhTTS is a parametric and rule-based system that employs a cepstral method. The system uses a source filter model for speech production and a Log Magnitude Approximation (LMA) filter as the vocal tract filter. Fundamental speech units of the system are syllables. Gemination in Amharic is one of the distinctive features of the language which plays a crucial role for the naturalness of synthesized speech sound. Therefore, in our study we mainly consider geminates and models the duration in AmhTTS system. The effectiveness of the durational model employed in our system was evaluated using 200 words (of which 40% of words containing one or more geminated syllables and 75% of the words containing sixth order syllables) and 5 sentences (with one or more words with geminated syllables) and we found promising results. The listening test results showed that accurate estimation of geminates duration is crucial for intelligibility and natural sounding of AmhTTS system. Our modeling greatly improved the intelligibility and naturalness of the system.\n",
+    "",
+    "",
+    "Index Terms: Amharic, geminates, speech synthesis, duration, cepstrum.\n",
+    ""
+   ]
+  },
+  "do10_sltu": {
+   "authors": [
+    [
+     "Thi-Ngoc-Diep",
+     "Do"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ]
+   ],
+   "title": "Unsupervised SMT for a low-resourced language pair",
+   "original": "su10_130",
+   "page_count": 6,
+   "order": 23,
+   "p1": "130",
+   "pn": "135",
+   "abstract": [
+    "This paper presents an unsupervised method in application of extracting parallel sentence pairs from a comparable corpus. A translation system is used to mine the comparable corpus and to withdraw the parallel sentence pairs. An iteration process is implemented not only to increase the number of extracted parallel sentence pairs but also to improve the quality of translation system. A comparison between this unsupervised method and a semi-supervised method is also presented. The unsupervised extracting method was tested in a hard condition: the parallel corpus did not exist and the comparable corpus contained up to 50% of non parallel sentence pairs. However, the result shows that the unsupervised method can be really applied in the case of lacking parallel data.\n",
+    "",
+    "",
+    "Index Terms: unsupervised method, extract parallel sentence pairs, comparable corpus.\n",
+    ""
+   ]
+  },
+  "nguyen10_sltu": {
+   "authors": [
+    [
+     "Viet Son",
+     "Nguyen"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "René",
+     "Carré"
+    ]
+   ],
+   "title": "Production and perception of Vietnamese final stop consonants /p, t, k/",
+   "original": "su10_136",
+   "page_count": 6,
+   "order": 24,
+   "p1": "136",
+   "pn": "141",
+   "abstract": [
+    "The bursts and voiced formant transitions are well known as separate cues to the place of articulation of initial stop consonant. The Vietnamese presents three final voiceless stop consonants /p, t, k/ without bursts. It is an opportunity to study these final stop consonants and to compare their characteristics with those of the corresponding initial stop consonants. This paper analyses these final consonants in terms of the vowel-consonant (VC) transition duration, the starting formant transition values and the slopes of the VC transition. Measurements have shown that in the same vocalic contexts (the same preceding vowel contexts), the three final stop consonants /p, t, k/ are always clearly different by at least one of the three slopes of F1, F2 and F3. In perception tests, synthesized consonant C in the context /a/-C are recognized as /p/, or /t/, or /k/ when the slopes of the /a/-C transition of F2 and F3 are varied. It means that slopes of the VC transition is an important parameter that allows Vietnamese distinguishing three final voiceless stop consonant /p, t, k/ in Vietnamese language.\n",
+    "",
+    "",
+    "Index Terms: Final stop consonant, Vietnamese\n",
+    ""
+   ]
+  },
+  "yeong10_sltu": {
+   "authors": [
+    [
+     "Yin-Lai",
+     "Yeong"
+    ],
+    [
+     "Tien-Ping",
+     "Tan"
+    ]
+   ],
+   "title": "Language identification of code switching Malay-English words using syllable structure information",
+   "original": "su10_142",
+   "page_count": 4,
+   "order": 25,
+   "p1": "142",
+   "pn": "145",
+   "abstract": [
+    "This paper introduces a language identification approach using syllable structure information. We also review and compare other approaches. Most of these approaches use linguistic information for language identification. The information used for language identification is Malay affixation information, English vocabulary list, alphabet ngram, grapheme n-gram. The approach using syllable structure information has the highest accuracy at 93.73% compared to other approaches. Based on the accuracy result of comparison, by using syllable structure 1.91% accuracy had increased for language identification compare with the second higher result in this paper. Syllable structure information is able to gain a better result for language identification.\n",
+    "",
+    "",
+    "Index Terms: Language identification, code switching, syllable structure information, Malay, English\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Papers",
+   "papers": [
+    "li10_sltu",
+    "sarikaya10_sltu",
+    "waibel10_sltu"
+   ]
+  },
+  {
+   "title": "Contributed Papers",
+   "papers": [
+    "perez10_sltu",
+    "tarjan10_sltu",
+    "heerden10_sltu",
+    "mac10_sltu",
+    "barnard10_sltu",
+    "alam10_sltu",
+    "caelenhaumont10_sltu",
+    "anumanchipalli10_sltu",
+    "sze10_sltu",
+    "lamel10_sltu",
+    "tachbelie10_sltu",
+    "addadecker10_sltu",
+    "mangeot10_sltu",
+    "khalilov10_sltu",
+    "malik10_sltu",
+    "vu10_sltu",
+    "touch10_sltu",
+    "sam10_sltu",
+    "anberbir10_sltu",
+    "do10_sltu",
+    "nguyen10_sltu",
+    "yeong10_sltu"
+   ]
+  }
+ ]
+}

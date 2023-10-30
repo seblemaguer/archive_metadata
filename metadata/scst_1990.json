@@ -1,0 +1,700 @@
+{
+ "title": "ESCA Workshop on Speaker Characterization in Speech Technology",
+ "location": "Edinburgh, Scotland, UK",
+ "startDate": "26/6/1990",
+ "endDate": "28/6/1990",
+ "conf": "SCST",
+ "year": "1990",
+ "name": "scst_1990",
+ "series": "",
+ "SIG": "",
+ "title1": "ESCA Workshop on Speaker Characterization in Speech Technology",
+ "date": "26-28 June 1990",
+ "papers": {
+  "bamberg90_scst": {
+   "authors": [
+    [
+     "Paul G.",
+     "Bamberg"
+    ]
+   ],
+   "title": "Adaptable phoneme-based models for large-vocabulary speech recognition",
+   "original": "scst_001",
+   "page_count": 9,
+   "order": 1,
+   "p1": "1",
+   "pn": "9",
+   "abstract": [
+    "The nature of the training process for a speech-recognition system changes radically once the size of the vocabulary becomes larger than the number of words for which a user is willing to provide training tokens. Below this threshold, it is reasonable to make an independent model for each word in the vocabulary. Such a model, based on data from that word and no others, can in principle capture all the acoustic-phonetic subtleties of the word, even though the phonetic spelling of the word is not even used in constructing the model.\n",
+    "For continuous speech recognition, the quantity of data required for complete training grows much more rapidly than vocabulary. In the simple case of a recognizer for three-digit strings, for example, each digit should at a minimum be trained in initial, medial, and final position, while for optimum performance all digit triples should be included in the training data.\n",
+    "Even if one could find a speaker who was willing to provide the necessary volume of training data, there would remain the problem of adapting to new speakers. As long as each possible utterance is regarded as independent of all others, training remains as time-consuming for new speakers as for the original speaker.\n",
+    "In recognizers that have a \"front end\" that attempts to recognize phonemes and a \"back end\" that recognizes words and sentences, it is natural to focus on phonemes in the training process. Even in a recognizer that makes no recognition decisions except the identity of the complete utterance that was spoken, it becomes essential to carry out training at the level of phonemes.\n",
+    ""
+   ]
+  },
+  "furui90_scst": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Speaker-dependent-feature extraction, recognition and processing techniques",
+   "original": "scst_010",
+   "page_count": 18,
+   "order": 2,
+   "p1": "10",
+   "pn": "27",
+   "abstract": [
+    "This paper presents recent advances in and perspectives of research on speaker-dependent feature extraction from speech waves, automatic speaker identification and verification, speaker adaptation in speech recognition, and voice conversion techniques. Various speaker identification/verification and speaker adaptation algorithms have recently been proposed, and remarkable progress has been achieved in these fields. Improvement of synthesized speech quality by adding the naturalness of voice individuality and conversion of synthesized voice individuality from one speaker to another are as yet little exploited research fields that must be studied in the near future. Research on speaker-dependent information is one of the most important future directions for realizing advanced speech information processing systems.\n",
+    ""
+   ]
+  },
+  "carlson90_scst": {
+   "authors": [
+    [
+     "Rolf",
+     "Carlson"
+    ],
+    [
+     "Björn",
+     "Granström"
+    ],
+    [
+     "Inger",
+     "Karlsson"
+    ]
+   ],
+   "title": "Experiments with voice modelling in speech synthesis",
+   "original": "scst_028",
+   "page_count": 11,
+   "order": 3,
+   "p1": "28",
+   "pn": "39",
+   "abstract": [
+    "The need for voice variations is apparent in different speech synthesis applications, such as voice prosthesis and translating telephony. Speaking style variations are an important means of discriminating information of different kinds, Bladon et al. (1987). Data on speaker variability is now being accumulated Fant et al. (1990) have investigated speaker variations in the context of a multi-talker speech data base. More detailed analysis of voice source dynamics have been studied by Gobi (1988) and Karlsson (1988).\n",
+    "In this presentation we want to describe some recent experiments with voice modelling. We have used speech synthesis as a research vehicle to study both global effects, voice transformations and more individualized transforms implemented by changes in definitions and rules in the text-to-speech system. The present research versions of the KTH text-to-speech system and the possibility for interactive manipulations at the parameter level with on-screen reference to natural speech constitute a flexible environment for such experiments. Special effort is invested into the creation of a female voice. Transformations by global rules of male parameters are not judged to be sufficient. Changes in definitions and rules are made according to data from a natural female voice.\n",
+    "We have recently implemented a more realistic voice source, an expansion of the LF model. The spectral properties of this new voice source and the possibility of dynamic variation have proved to be essential for modelling a female voice.\n",
+    "Our approach has been to make a stylization of individual utterances spoken by speakers with different voice characteristics. In this process we have started with rule generated parameters and adjusted the target values according to the different voices, using the possibility to overlay a spectrogram of natural speech on the speech synthesis parameter traces. Results from inverse filtering have been used in setting the appropriate voice source parameters. Typically one or two specifications per speech sound has been used for each vocal tract and source parameter, i.e. in contrast to the approach taken by Pinto et al. (1989) we are not trying to model the human speaker frame by frame but rather to make a stylization that later on can be generalized when formulating rules for the different speakers.\n",
+    "In our paper we will describe an extended synthesizer GLOVE, compared to the stan- dard OVE III (Liljencrants, 1968) including several new features like a modified LF source model (Figure 1). Then we will describe the software environment that has been created for this kind of synthesis work. Finally we will illustrate the approximation method by presenting two synthesized versions, using the two synthesizers, and a natural female utterance of the same sentence. Some of the remaining modelling problems will be discussed.\n",
+    ""
+   ]
+  },
+  "abe90_scst": {
+   "authors": [
+    [
+     "Masanobu",
+     "Abe"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ],
+    [
+     "Hisao",
+     "Kuwabara"
+    ]
+   ],
+   "title": "Voice conversion for an interpreting telephone",
+   "original": "scst_040",
+   "page_count": 6,
+   "order": 4,
+   "p1": "40",
+   "pn": "45",
+   "abstract": [
+    "The goal of voice conversion for an interpreting telephone is to preserve the individuality of a speaker's speech when that speaker's utterances are translated and used to synthesize speech in another language. We call the problem \"cross-language voice conversion\". We address three issues in this paper. The first is an algorithm for voice conversion. Our approach considers voice conversion as a mapping problem between two speakers' spectra. The characteristics of speaker individuality is converted by mapping codebooks. Secondly we show that cross-language voice conversion is possible using data from a bilingual speaker. The conclusion reached from an experiment is that the difference in listening quality between speech coded with a codebook obtained from the same language, or with a codebook obtained from the other language is very small. Finally, to generate a mapping codebook for cross-language voice conversion we proposed making use of a bilingual speaker's speech as a bridge, and evaluated the performance by spectrum distortion. The converted speech from English male to Japanese female is as understandable as the unconverted English speech and, moreover, it is recognized as female speech.\n",
+    ""
+   ]
+  },
+  "bamberg90b_scst": {
+   "authors": [
+    [
+     "Paul G.",
+     "Bamberg"
+    ],
+    [
+     "Mark A.",
+     "Mandel"
+    ]
+   ],
+   "title": "Adaptation performance in a large-vocabulary recognizer",
+   "original": "scst_046",
+   "page_count": 7,
+   "order": 5,
+   "p1": "46",
+   "pn": "52",
+   "abstract": [
+    "For large-vocabulary speech recognizers the complete training process is so time-consuming that a typical user is unlikely to find it worth the effort. While a user might be willing to provide five training tokens for each of 200 words, no one is willing to provide that many tokens for each word in a 25,000 word vocabulary. Phoneme-based recognizers, such as the ones developed at Dragon Systems, require less training data and need to be trained fully only once per language, not once per task, but the complete training process requires expertise in acoustic phonetics that is beyond the typical user of a dictation system.\n",
+    "Fortunately, much of what is \"learned\" about a vocabulary in the process of training a phoneme-based speaker-dependent recognizer is in fact information that is nearly speaker-independent. Allophonic variation of phonemes, coarticulation effects between phonemes, and phoneme durations do not vary widely among different speakers.\n",
+    "When simple spectral parameters are employed, the parameters in the model for a given phoneme, even in a carefully controlled context, vary enough from one speaker to another to degrade recognition performance unacceptably. This may result both from differences in vocal tract length and other physiological parameters or from variations in vowel characteristics that are characteristic of different dialects. The goal of speaker adaptation is to correct for these differences on the basis on data drawn from a set of words that is much smaller than the total vocabulary size.\n",
+    "Human listeners quickly adapttoanew speaker when listening to a familiar language. Presumably this is because they have internalized rules for allophonic variation and coarticulation and can quickly extrapolate new information about vowel formants from one context to another.\n",
+    "Isolated-word recognizers that can independently adapt models for individual words have been available for several years. For large-vocabulary recognition, this form of adaptation is unacceptably slow, because adaptation of the entire vocabulary would require each word to be used at least once. A user has the right to anticipate that saying \"educated\", for example, should help also in adapting \"educate\", \"educating\", and \"educates\".\n",
+    "The DragonDictate recognizer employs standard hidden Markov model recognition techniques, but the models for 25,000 words are all based on about 2000 \"phonemic segments\". These phonemic segments are intended to provide a basis for rapid adaptation.\n",
+    ""
+   ]
+  },
+  "bitzer90_scst": {
+   "authors": [
+    [
+     "B.",
+     "Bitzer"
+    ],
+    [
+     "R.",
+     "Domer"
+    ]
+   ],
+   "title": "Speech-training-system for the deaf",
+   "original": "scst_053",
+   "page_count": 5,
+   "order": 6,
+   "p1": "53",
+   "pn": "57",
+   "abstract": [
+    "Up to now, the speech training of the deaf was mainly practiced under control of a hearing person. With the use of this automatic speech recognition system a flexible training in pronounciation is possible with considerably less supervision. The specification of the present project has been written in order to meet this specific requiement. The development of a modified speech recognition system should enclose some theoretical aspects of this field, while the main topics of the University of Paderborn are to optimize the application of commercial systems in different applications and to find out new arguments for the developement of future systems in practise.\n",
+    ""
+   ]
+  },
+  "blomberg90_scst": {
+   "authors": [
+    [
+     "Mats",
+     "Blomberg"
+    ]
+   ],
+   "title": "Adaptation to a speaker's voice in a speech recognition system based on synthetic phoneme references",
+   "original": "scst_058",
+   "page_count": 8,
+   "order": 7,
+   "p1": "58",
+   "pn": "65",
+   "abstract": [
+    "A recognition system based on a reference library of synthetic phoneme prototypes is described. The phoneme templates are specified in terms of control parameters to a serial formant synthesiser. The vocabulary and grammar is described in a finite-state phoneme network. Each phoneme is divided into a number of substates representing transitions and steady-state regions. The parameters of the transition states are interpolated from the steady-state parameters. At each state, a 16-channel filter bank section is computed from the synthesis parameters. Dynamic adaptation to the speaker's voice source spectrum is performed during recognition. Without adaptation, the average recognition for ten male speakers was 88% on an isolated-word task using a 26-word vocabulary. Adding voice source adaptation raised the performance to 96%. On a vocabulary of 3 connected digits, the adaptation technique improved the recognition rate for six male speakers from 87.7% to 92.8%. The improvement was largest for subjects with low initial recognition rate, indicating the usefulness of the voice source adaptation technique for certain voices. Current work is directed towards speaker adaptation of phoneme parameters and modelling of the variability of the parameter dynamics at phoneme boundaries.\n",
+    ""
+   ]
+  },
+  "bonneaumaynard90_scst": {
+   "authors": [
+    [
+     "H.",
+     "Bonneau-Maynard"
+    ]
+   ],
+   "title": "Vector quantization for speaker adaptation: results on a 5000-word database",
+   "original": "scst_066",
+   "page_count": 6,
+   "order": 8,
+   "p1": "66",
+   "pn": "71",
+   "abstract": [
+    "In view of designing a speaker-independent large vocabulary recognition system, we evaluate a vector quantization approach for speaker adaptation.\n",
+    "Only one speaker (the reference speaker) pronounces the application vocabulary. He also pronounces a small vocabulary called the adaptation vocabulary. Each new speaker then merely pronounces the adaptation vocabulary.\n",
+    "We have compared two adaptation methods, establishing a correspondence between the codebooks of the reference and the new speakers, on a 20-speaker database with a 104-word adaptation vocabulary. Method I uses a transposed codebook to represent the new speaker during the recognition process, whereas Method II uses a codebook which is obtained by clustering analysis on the NS's pronunciation of the adaptation vocabulary. The adaptation vocabulary contains 136 words. Comparison of performance of the two methods shows that a new speaker's codebook is not necessary to represent the new speaker. Consequently we have used the first method to perform tests with a 5000-word application vocabulary, and a 4-speaker database. The adaptation is still efficient (the mean improvement is about 14%), even if the relative improvement is 30% compared to 56% obtained in the 104-word application experiment. Further experiments show that the recognition accuracy can be improved by increasing the adaptation vocabulary size and the codebook size.\n",
+    ""
+   ]
+  },
+  "broeders90_scst": {
+   "authors": [
+    [
+     "A. P. A.",
+     "Broeders"
+    ],
+    [
+     "A. C. M.",
+     "Rietveld"
+    ]
+   ],
+   "title": "The effect of cognitive stress on pitch and duration",
+   "original": "scst_072",
+   "page_count": 6,
+   "order": 9,
+   "p1": "72",
+   "pn": "77",
+   "abstract": [
+    "The present investigation explores the possibility of examining the effect of cognitive stress on pitch and duration. A production experiment was carried out in which short speech fragments produced in the execution of a simple task were compared with similar samples produced by speakers involved in more complex tasks. The prosodic variables investigated were the extent of the FO-excursion and the duration of the utterance. The same material was used in a perception test to determine whether listeners were able to discriminate the two types of speech material. Preliminary results show that there is no single, uniform effect for all speakers, but that effects vary for different speakers.\n",
+    ""
+   ]
+  },
+  "campbell90_scst": {
+   "authors": [
+    [
+     "W. Nick",
+     "Campbell"
+    ]
+   ],
+   "title": "Timing invariance in read speech",
+   "original": "scst_078",
+   "page_count": 6,
+   "order": 10,
+   "p1": "78",
+   "pn": "82",
+   "abstract": [
+    "An experiment is reported that studies the inter-speaker and intra-speaker variability of timing in speech. Twelve speakers were instructed to read a short passage from a popular magazine twice each; once at a slower reading speed and once at a faster rate of articulation. Comparisons of the durational characteristics of the readings were performed at the syllable level.\n",
+    "One more 'reading' was included in a second stage of the experiment, to compare the output from a computer text-to-speech system with that of the human performers. Timings are compared and show that the durations predicted by the computer-speech system fall within the variance observed in the performance of the human readers.\n",
+    ""
+   ]
+  },
+  "krom90_scst": {
+   "authors": [
+    [
+     "Guus de",
+     "Krom"
+    ]
+   ],
+   "title": "A new cepstrum-based technique for the estimation of spectral signal-to-noise ratios in speech signals",
+   "original": "scst_083",
+   "page_count": 11,
+   "order": 11,
+   "p1": "83",
+   "pn": "93",
+   "abstract": [
+    "A new method to calculate a spectral signal to noise ratio (SNR) in speech signals is presented. The method is based on a source-filter model of voice production, and involves filtering of the magnitude spectrum by means of a fundamental frequency adaptive cepstrum comb-liftering algorithm. The level difference in a certain frequency band between the original, unfiltered spectrum and the filtered (noise) spectrum is defined as the SNR. The method is tested with synthetic /a:/ like signals generated at fundamental frequencies of 110 and 220 Hz, differing in either the relative level of the noise burst, jitter or shimmer factor. SNR values are compared with the SNR values obtained with an adaptation of a method as described by Hiraoka et al. (1984). Results indicate that the method is sensitive to the amount of noise in the signal and the degree of perturbation, especially jitter. Measurements on recordings of normal and pathological voices indicate that the obtained SNR values can be used as one of the acoustical correlates of (pathological) voice quality.\n",
+    ""
+   ]
+  },
+  "eatock90_scst": {
+   "authors": [
+    [
+     "J.",
+     "Eatock"
+    ],
+    [
+     "J. S.",
+     "Mason"
+    ]
+   ],
+   "title": "Speaker-dependent speech classification in speaker recognition",
+   "original": "scst_094",
+   "page_count": 4,
+   "order": 12,
+   "p1": "94",
+   "pn": "97",
+   "abstract": [
+    "In this paper a method previously suggested by one of the Authors [1], for automatically labelling speech depending upon its speaker discriminating content, is further developed. We show that feature class performance is speaker-dependent, indicating person-specific speech classification to be more appropriate than the original proposal of person-independent classification. A hierarchical classifier is introduced as an alternative to the codebook classifier investigated previously. The ability of person-dependent hierarchical classifiers to automatically distinguish between features with good discriminating properties and those with poor discriminating properties is demonstrated. Finally, those parts of speech that the personalised classifiers label as having good properties for speaker recognition are compared with those given high weightings by an alternative neural network approach. This comparison shows the correlation between the two approaches.\n",
+    ""
+   ]
+  },
+  "falcone90_scst": {
+   "authors": [
+    [
+     "Mauro",
+     "Falcone"
+    ],
+    [
+     "Andrea",
+     "Paoloni"
+    ]
+   ],
+   "title": "Phonemic classification in mufti speakers and speaker independent environment",
+   "original": "scst_098",
+   "page_count": 8,
+   "order": 13,
+   "p1": "98",
+   "pn": "105",
+   "abstract": [
+    "Phonemic classification is still one of the most popular approach to automatic speech recognition. We address the problem of phonemic classification performance in a multi speakers and speaker independent environment A new tecnique for pattern classification is introduced The method is based on partial reconstruction of the target vectors, representing the speech signal in different parametrization forms, using projections on privileged orthonormal bases. The significative different results, obtained in function of the training and test experiments, in case of multi speakers and speaker independent evaluation, are discussed. Italian digits, that phonemically cover about half of the Italian phonemic vocaburary, was used as training and test signal. A total of 250 sentences spoken by five male speakers was used in this preliminary experiment. Phonemic classification performance moves around 50% for the speaker independent experiment, while in a multi speakers environment reachs the 65% of correct classification. The proposed method seems to be, although in its preliminary idiot-proof form, a good pattern matching solution for different speech parametrization in spite of its simple theorical justification, and its very low computational complexity.\n",
+    ""
+   ]
+  },
+  "fant90_scst": {
+   "authors": [
+    [
+     "Gunnar",
+     "Fant"
+    ],
+    [
+     "Anita",
+     "Kruckenberg"
+    ],
+    [
+     "Lennart",
+     "Nord"
+    ]
+   ],
+   "title": "Prosodic and segmental speaker variations",
+   "original": "scst_106",
+   "page_count": 15,
+   "order": 14,
+   "p1": "106",
+   "pn": "120",
+   "abstract": [
+    "The purpose of our presentation is to make an inventory of knowledge developed at the KTH about speaker variabilities including findings from our more recent databank projects on text reading. We shall have something to say about male/female differences, voice source characteristics, and about prosodic and segmental features in connected speech. We also have some data of more general statistical nature such as pause durations, long time average spectrum, and about relative proportions of voiced and voiceless segments in speech.\n",
+    ""
+   ]
+  },
+  "hermes90_scst": {
+   "authors": [
+    [
+     "Dik J.",
+     "Hermes"
+    ]
+   ],
+   "title": "Synthesis of breathy vowels",
+   "original": "scst_121",
+   "page_count": 6,
+   "order": 15,
+   "p1": "121",
+   "pn": "126",
+   "abstract": [
+    "When vowels are synthesised by means of a source-filter model, a delta-pulse train is often used as a source signal. Although breathiness can to some extent be simulated by using a sophisticated glottal-source model, a more complete simulation of breathiness requires the addition of aspiration noise. When stationary noise is used, however, the noise is to a large extent perceived as coming from a separate sound source which hardly contributes to the breathy timbre of the vowel. It will be shown that this problem can be solved by using noise with a temporal envelope of the same periodicity as the pulse train. In a simple source-filter model, a combination of lowpass-filtered pulses and -synchronous highpass-filtered noise bursts of equal energy was used as source signal. In this way, the noise was no longer perceived as a separate sound, but integrated perceptually with the strictly periodic part of the signal, thus affecting a natural-sounding breathiness.\n",
+    ""
+   ]
+  },
+  "hieronymus90_scst": {
+   "authors": [
+    [
+     "James L.",
+     "Hieronymus"
+    ]
+   ],
+   "title": "Formant normalisation for speech recognition and vowel studies",
+   "original": "scst_127",
+   "page_count": 4,
+   "order": 16,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "Good vowel recognition and studies of vowels from different talkers requires an accurate method for compensating for speaker differences in formant target frequencies. The major variance seen in the data is between males and females. However, even within the same sex class, there are large variations in the formant target frequencies for the same vowel in the same phonetic context. Various methods of compensating for speaker variation in formants were studied. Bark scaled formants and subtraction of Bark fundamental frequency from the first formant was tried first. In spite of recent published papers on the efficacy of this technique, it was found inadequate. The transformations were incapable of improving the clusters of the cardinal vowels for example. A modification of the Gerstman technique, determining the speaker's formant range and then transforming into an \"ideal\" talker's range was found to account for most of the variance due to different talkers. This technique was applied to vowel in context studies on American English. Formant ranges were studied for 125 talkers of General American English. Plots of formant ranges for males and females showed interesting patterns. The lower limit of the second formant was not very different, while the lower limit of the first formant was lower for males. Both the first and second formant maxima were larger for females. The modified Gerstman transformation was able to superimpose the formant targets for the same vowel in the same context from different talkers into the same region of Fl, F2 space. There remained some residual variance between male and female, even after the transformation. These trends are shown in a series of plots of vowel target frequency data.\n",
+    ""
+   ]
+  },
+  "javkin90_scst": {
+   "authors": [
+    [
+     "Hector",
+     "Javkin"
+    ],
+    [
+     "Brian",
+     "Hanson"
+    ],
+    [
+     "Abigail",
+     "Kaun"
+    ]
+   ],
+   "title": "The effects of breathy voice on intelligibility",
+   "original": "scst_131",
+   "page_count": 4,
+   "order": 17,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "Breathiness is used to form linguistic contrasts in some languages, but also characterizes speakers as individuals and, to an extent, by gender. The acoustic consequences of breathy phonation are varied, and separable in synthetic speech: they include the introduction of a frication component into the voice source, a raising of the relative amplitude of the first harmonic and a lowering of the overall spectral tilt. Henton and Bladon (1985) claimed that breathiness diminishes intelligibility. Javkin, Hanson and Kaun (1989) argued that there were technical problems with Henton and Bladon's claim and showed that adding a frication component to a modal voice source did not increase difference limen for vowels. However, Javkin et al did not test intelligibility itself nor did they test the other effects of breathiness. The experiment described in the present paper used synthetic speech to separate and measure the effects of the different acoustic consequences of breathiness on the intelligibility of isolated words. No significant effect was found.\n",
+    ""
+   ]
+  },
+  "kraayeveld90_scst": {
+   "authors": [
+    [
+     "J.",
+     "Kraayeveld"
+    ],
+    [
+     "A. C. M.",
+     "Rietveld"
+    ],
+    [
+     "Vincent J. J. P. van",
+     "Heuven"
+    ]
+   ],
+   "title": "Prosodic speaker characteristics in Dutch",
+   "original": "scst_135",
+   "page_count": 5,
+   "order": 18,
+   "p1": "135",
+   "pn": "139",
+   "abstract": [
+    "The aim of this four-year project, started in September 1989, is to determine the ex- tent to which speakers can be distinguished on the basis of prosodic parameters. In this contribution, a description is given of the methodology and the scope of the project. In the research to be carried out different types of speech elicitation techniques will be used. Some of them aim at producing samples with controlled pitch contours, for the measurement of individual pitch movements. Less structured speech samples will be used for long-term prosodic measurements. A range of prosodic parameters will be extracted to span a multi-dimensional speakers' space. These will include mean FO, final FO, dec- lination, steepness of FO rises and falls, amount of pitch perturbation, speech rate, and voiced/unvoiced speech ratio.\n",
+    "The ways in which people speak depend on a number of factors, like e.g. communicative intent. We hope to find certain speaker-specific relationships between prosodic parameters that are relatively stable across different speech modes (e.g. read-out and spontaneous speech).\n",
+    "Results obtained so far are necessarily of a preliminary nature.\n",
+    ""
+   ]
+  },
+  "kuwabara90_scst": {
+   "authors": [
+    [
+     "Hisao",
+     "Kuwabara"
+    ],
+    [
+     "T.",
+     "Takagi"
+    ]
+   ],
+   "title": "Acoustic parameters of voice individuality and voice-quality control by analysis-synthesis method",
+   "original": "scst_140",
+   "page_count": 4,
+   "order": 19,
+   "p1": "140",
+   "pn": "142",
+   "abstract": [
+    "Experiments on voice individuality have been performed using an analysis- synthesis system capable of modifying pitch, formant frequencies, and formant bandwidths. The results show that the perception of voice- individuality is significantly affected by formant shifts, especially of the lower three, and it is completely lost for uniform shift of a five percent. Pitch frequency and bandwidth manipulation, on the other hand, is less important to the individuality perception.\n",
+    ""
+   ]
+  },
+  "lacheretdujour90_scst": {
+   "authors": [
+    [
+     "Anne",
+     "Lacheret-Dujour"
+    ],
+    [
+     "Maxine",
+     "Eskénazi"
+    ]
+   ],
+   "title": "Individual phonological variations in continuous speech",
+   "original": "scst_143",
+   "page_count": 6,
+   "order": 20,
+   "p1": "143",
+   "pn": "148",
+   "abstract": [
+    "A speech recognition system must include informations concerning the phonological variability of speech. Starting with limsi's deterministic grapheme-to-phoneme conversion program, GRAPHON, we have deve- loped a rule-based text-to-phoneme translator which takes into account phonological variations in French. Tests of this system, VARION.0, showed that too many variants were being generated. It therefore became essential to explore knowledge linguistic and extra-linguistic sources such as speech rate, lessen the number of possible variants at a given point\n",
+    ""
+   ]
+  },
+  "lhote90_scst": {
+   "authors": [
+    [
+     "Elisabeth",
+     "Lhote"
+    ],
+    [
+     "Laura",
+     "Abou Haidar"
+    ]
+   ],
+   "title": "Speaker verification by a vocal proxemy cue",
+   "original": "scst_149",
+   "page_count": 6,
+   "order": 21,
+   "p1": "149",
+   "pn": "154",
+   "abstract": [
+    "Speaker recognition by human requires various elements of anterior cognition of a speaker by another. Automatic recognition takes place only step by step : before trying to isolate a speaker among several possible ones, it is essential to be able to recognize the same person in the variability of his or her own production [Liénard, 1989]. In this case, the recognition system is a speaker verification system. The control of a speaker's variability is a necessary condition for the comparison between  several  speakers.\n",
+    "We think that in the act of speech, the speaker exerts a personal temporal control over the whole neuro-muscular commands necessary to a sequence of speech sounds. A CVCV sequence can be influenced by the word in which it takes place, by the intonation that carries it, but it keeps the trace of the speaker who produces it in the way by which he programs the sequence of gestures in order to reach the target.\n",
+    "A first study led us to identify the same speaker among voices that were recorded in different conditions. With the help of auditory and acoustic analysis we were able to check the speaker's identity by the observation of formant trajectories and fundamental frequency variation. In a second study we used these criteria to compare two groups of speakers : the first is constituted of particularly close speakers -. same sex, family, .,-, the second of non particularly close speakers.\n",
+    ""
+   ]
+  },
+  "maturi90_scst": {
+   "authors": [
+    [
+     "Pietro",
+     "Maturi"
+    ]
+   ],
+   "title": "Speaker identification in forensics: a simulation experiment",
+   "original": "scst_155",
+   "page_count": 6,
+   "order": 22,
+   "p1": "155",
+   "pn": "160",
+   "abstract": [
+    "The Author has been recently appointed by Naples Law Court to identify the voices of anonymous criminals present in telephone calls intercepted by the Police. The many technical problems faced on such occasions make this task very hard and its results probably questionable. The method followed is here tested by means of a simulation experiment: the same procedures are applied to a group of voices including a known voice (FAL) which is pretended to be the criminal's and three other voices (X, U, Z) among which is a sample of the same known voice. If the result is an identification of the right voice (X) as belonging to the speaker to identify (FAL), the method will prove to be reliable.\n",
+    ""
+   ]
+  },
+  "millar90_scst": {
+   "authors": [
+    [
+     "J. Bruce",
+     "Millar"
+    ],
+    [
+     "S. R.",
+     "Hawkins"
+    ]
+   ],
+   "title": "Selecting representative speakers",
+   "original": "scst_161",
+   "page_count": 6,
+   "order": 23,
+   "p1": "161",
+   "pn": "166",
+   "abstract": [
+    "Within the context of a multi-speaker corpus of spoken Australian English the impact of speaker characteristics on a simple isolated-word recognition system are analysed. The issue of concern in this study is to measure the effect of the selection of speakers used to train the system, and to devise methods for selecting those speakers likely to comprise the best possible training set for the system. Of all factors affecting performance, the selection of speakers comprising the training set is shown to be the most important. Given a limited amount of speech data from a total population of users, an algorithm is developed to select a sub-set of speakers on whose speech data the system may be trained to obtain optimum performance over all the speakers. A training set that comprises speakers whose characteristics evenly sample the entire speaker space is shown to have attractive properties.\n",
+    ""
+   ]
+  },
+  "monaghan90_scst": {
+   "authors": [
+    [
+     "Alex I. C.",
+     "Monaghan"
+    ],
+    [
+     "D. Robert",
+     "Ladd"
+    ]
+   ],
+   "title": "Speaker-dependent and speaker-independent parameters in intonation",
+   "original": "scst_167",
+   "page_count": 8,
+   "order": 24,
+   "p1": "167",
+   "pn": "174",
+   "abstract": [
+    "Given the highly structured nature of intonational phonology, we would expect that intonation could be described by a small set of phonetic parameters, and that inter-speaker variation would be constrained to a few specific parameters within this set. In order to characterise the range of inter-speaker phonetic variation in the realisation of a single phonological specification, it is necessary to refer to a model of the phonetics of intonation whose parameters correspond to tyhe dimensions along which speaker characteristics vary. We present a model of pitch contour generation, originally developed for speech synthesis applications, by which speakers' intonational behaviour can be reduced to just such a small set of phonetic parameters, and we illustrate the range of inter-speaker and intra-speaker variation which this model can produce. Problems with the interpretation of these parameters are also discussed.\n",
+    ""
+   ]
+  },
+  "schoentgen90_scst": {
+   "authors": [
+    [
+     "Jean",
+     "Schoentgen"
+    ],
+    [
+     "Raoul de",
+     "Guchteneere"
+    ]
+   ],
+   "title": "An algorithm for the measurement of jitter",
+   "original": "scst_175",
+   "page_count": 6,
+   "order": 25,
+   "p1": "175",
+   "pn": "180",
+   "abstract": [
+    "We present a new algorithm for the precise measurement of the duration of consecutive glottis cycles with a view to the analysis of jitter. Conventionally, jitter features take on the shape of the dispersion measurement in the durations of consecutive periods in an analysis interval of typically one second. Strictly speaking, this scheme is only valid provided that consecutive period values are purely random; otherwise, second-order statistics are required to complement dispersion measurements . The purpose of the analysis procedure presented here is i) to check the randomness of the glottis cycle aperiodicities and ii) to put jitter analysis back into a framework of time series analysis. The algorithm which we propose works both on laryngograms and acoustic signals. It achieves the required degree of precision by oversampling with on-line testing of the accuracy of the waveform reconstruction. It outputs several jitter measurements and displays the time series of the period values and the statistical distribution of the deviations of the instantaneous cycle durations from a running mean. Preliminary results obtained on healthy subjects are given.\n",
+    ""
+   ]
+  },
+  "skvarc90_scst": {
+   "authors": [
+    [
+     "Jure",
+     "Skvarc"
+    ],
+    [
+     "Marijan",
+     "Miletic"
+    ]
+   ],
+   "title": "Speaker sex estimation",
+   "original": "scst_181",
+   "page_count": 6,
+   "order": 26,
+   "p1": "181",
+   "pn": "186",
+   "abstract": [
+    "Abstract: Some characteristics of human speech are unique to each person and may be used for a speaker identification. We are presenting a method for a speaker sex estimation based upon fundamental speech frequency. A minimum quality of the input speech signal was carefully checked. Presented method uses a short time discrete Fourier transform /DFT/ technique.\n",
+    ""
+   ]
+  },
+  "thevenaz90_scst": {
+   "authors": [
+    [
+     "P.",
+     "Thévenaz"
+    ],
+    [
+     "H.",
+     "Hügli"
+    ]
+   ],
+   "title": "Combining four text independent speaker recognition methods",
+   "original": "scst_187",
+   "page_count": 5,
+   "order": 27,
+   "p1": "187",
+   "pn": "191",
+   "abstract": [
+    "This paper deals with automatic text independent speaker recognition in a telephone bandwidth context. First, the meaning of text independence is reviewed; then, we present our solution to this problem.\n",
+    "Our aim is to get a sufficient number of different methods, in order to fruitfully combine them. Hence we present four methods of text independent speaker verification. Algorithms and performances are individually analyzed before we attempt to combine them. These methods are essentially statistical in nature; they make use of cepstral vectors obtained by LPC analysis.\n",
+    "The first method simply characterizes the speaker by his mean cepstrum. The second method is based on the accumulation of vector quantization error of a locution by the speaker's codebook. The third method is derived from the second one by using differential cepstral vectors instead. The fourth and last method exploits the histogram of entries in a universal cepstrum codebook, according to a vector quantization technique.\n",
+    "The combination of the resulting distances given by these four methods is achieved by a Fisher linear discriminant analysis, which provides a great improvement in performances over any single method. The performances achieved are compared to what can be found elsewhere in the literature.\n",
+    ""
+   ]
+  },
+  "tielen90_scst": {
+   "authors": [
+    [
+     "M. T. J.",
+     "Tielen"
+    ]
+   ],
+   "title": "Perception of the voices of men and women in relation to their profession",
+   "original": "scst_192",
+   "page_count": 6,
+   "order": 28,
+   "p1": "192",
+   "pn": "197",
+   "abstract": [
+    "A listening experiment has been performed in which, among others, the identification of profession (6 categories), sex (male and female) and age (4 categories) of 60 speakers from 3 different profession categories was measured. The 40 subjects also gave their opinion about typical voice and pronunciation characteristics in six different professions. This was done by means of 18 semantic bipolar 7-point scales. The first results show that sex has been identified 99.6% correct The identification of the age of the speakers was also rather well determined (the linear correlation between the mean scores and the actual ages was 0.83 for the male and 0.71 for the female speakers). The identification of someone's profession shows that there is some relationship between voice and pronunciation characteristics and profession. Furthermore, certain prototypical effects concerning the speaker's sex versus the profession judged were found. Only part of the data has been analysed so far.\n",
+    ""
+   ]
+  },
+  "heuvel90_scst": {
+   "authors": [
+    [
+     "Henk van den",
+     "Heuvel"
+    ],
+    [
+     "Bert",
+     "Cranen"
+    ],
+    [
+     "A. C. M.",
+     "Rietveld"
+    ]
+   ],
+   "title": "Inter- and intra-speaker variability in Dutch speech segments: towards an analysis framework",
+   "original": "scst_198",
+   "page_count": 6,
+   "order": 29,
+   "p1": "198",
+   "pn": "203",
+   "abstract": [
+    "Although a great deal of research on speaker recognition has been carried out over the past decades, the phonetic description of speech segments showing varying degrees of speaker specific information has not received much attention as yet. Questions that arise here are: which phonemes contain more speaker specific information than others? Is this information located in the stationary or in the transitional parts of the phoneme? Can these findings be related to coarticulation phenomena? A research project is currently under way at the University of Nijmegen which addresses these questions for a limited set of Dutch phonemes. This paper describes the analysis framework that has been developed for this project.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Tutorial Papers",
+   "papers": [
+    "bamberg90_scst",
+    "furui90_scst",
+    "carlson90_scst"
+   ]
+  },
+  {
+   "title": "Conference Papers",
+   "papers": [
+    "abe90_scst",
+    "bamberg90b_scst",
+    "bitzer90_scst",
+    "blomberg90_scst",
+    "bonneaumaynard90_scst",
+    "broeders90_scst",
+    "campbell90_scst",
+    "krom90_scst",
+    "eatock90_scst",
+    "falcone90_scst",
+    "fant90_scst",
+    "hermes90_scst",
+    "hieronymus90_scst",
+    "javkin90_scst",
+    "kraayeveld90_scst",
+    "kuwabara90_scst",
+    "lacheretdujour90_scst",
+    "lhote90_scst",
+    "maturi90_scst",
+    "millar90_scst",
+    "monaghan90_scst",
+    "schoentgen90_scst",
+    "skvarc90_scst",
+    "thevenaz90_scst",
+    "tielen90_scst",
+    "heuvel90_scst"
+   ]
+  }
+ ]
+}

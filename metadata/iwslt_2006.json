@@ -1,0 +1,1048 @@
+{
+ "title": "International Workshop on Spoken Language Translation (IWSLT 2006)",
+ "location": "Keihanna Science City, Kyoto, Japan",
+ "startDate": "27/11/2006",
+ "endDate": "28/11/2006",
+ "conf": "IWSLT",
+ "year": "2006",
+ "name": "iwslt_2006",
+ "series": "IWSLT",
+ "SIG": "",
+ "title1": "International Workshop on Spoken Language Translation",
+ "title2": "(IWSLT 2006)",
+ "date": "27-28 November 2006",
+ "booklet": "iwslt_2006.pdf",
+ "papers": {
+  "lazzari06_iwslt": {
+   "authors": [
+    [
+     "Gianni",
+     "Lazzari"
+    ]
+   ],
+   "title": "TC-STAR: a speech to speech translation project",
+   "original": "slt6_301",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Speech to speech translation is a challenging research problem. To simplify the task and make it somewhat more feasible, the first research project addressing this topic in the 1990's worked on restricted domains such as scheduling appointment.   TC-STAR (Technology and Corpora for Speech to Speech Translation) is the first joint research project addressing speech-to-speech translation in an unrestricted domain. TC-STAR works on European parliamentary speeches in native or non-native English and Spanish. The topics of the speeches include everything that is discussed in the European Parliament. Moreover the translation of Chinese broadcast news into Englis was chosen in order to link the project to available international benchmarks.   My talk will give an overview of the TC-STAR project, the main achievements and the results of the last evaluation campaign.\n",
+    ""
+   ]
+  },
+  "roukos06_iwslt": {
+   "authors": [
+    [
+     "Salim",
+     "Roukos"
+    ]
+   ],
+   "title": "Recent results on MT evaluation in the GALE program",
+   "original": "slt6_302",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "We will give an overview of the first year's evaluation results of the GALE program that is based on human post editing of the output of MT systems. A post-editor edits the MT system output until the same meaning is conveyed as in the \"Gold\" reference. The Human Translation Error Rate (HTER) counts the number of edits performed by a post-editor normalized by the length of the \"Gold\" reference as the MT error metric. We will report on the sensitivity and stability of the new HTER metric for evaluating MT systems. We also compare the correlation of various automated metrics (BLEU, TER) to HTER.\n",
+    ""
+   ]
+  },
+  "paul06_iwslt": {
+   "authors": [
+    [
+     "Michael",
+     "Paul"
+    ]
+   ],
+   "title": "Overview of the IWSLT 2006 evaluation campaign",
+   "original": "slt6_001",
+   "page_count": 15,
+   "order": 3,
+   "p1": "1",
+   "pn": "15",
+   "abstract": [
+    "This paper gives an overview of the evaluation campaign results of the International Workshop on Spoken Language Translation (IWSLT) 2006. In this workshop, we focused on the translation of spontaneous speech. The translation directions were Arabic, Chinese, Italian, or Japanese into English. In total, 21 translation systems from 19 research groups participated in this year's evaluation campaign. Both automatic and subjective evaluations were carried out in order to investigate the impact of spontaneity aspects on automatic speech recognition (ASR) and machine translation (MT) system performance as well as the robustness of state-of-the-art MT systems towards speech recognition errors.\n",
+    ""
+   ]
+  },
+  "bangalore06_iwslt": {
+   "authors": [
+    [
+     "Srinivas",
+     "Bangalore"
+    ],
+    [
+     "Stephan",
+     "Kanthak"
+    ],
+    [
+     "Patrick",
+     "Haffner"
+    ]
+   ],
+   "title": "Finite-state transducer-based statistical machine translation using joint probabilities",
+   "original": "slt6_016",
+   "page_count": 7,
+   "order": 4,
+   "p1": "16",
+   "pn": "22",
+   "abstract": [
+    "In this paper, we present our system for statistical machine translation that is based on weighted finite-state transducers. We describe the construction of the transducer, the estimation of the weights, acquisition of phrases (locally ordered tokens) and the mechanism we use for global reordering. We also present a novel approach to machine translation that uses a maximum entropy model for parameter estimation and contrast its performance to the finite-state translation model on the IWSLT Chinese-English data sets.\n",
+    ""
+   ]
+  },
+  "boitet06_iwslt": {
+   "authors": [
+    [
+     "Christian",
+     "Boitet"
+    ],
+    [
+     "Youcef",
+     "Bey"
+    ],
+    [
+     "Mutsuko",
+     "Tomokiyo"
+    ],
+    [
+     "Wenjie",
+     "Cao"
+    ],
+    [
+     "Hervé",
+     "Blanchon"
+    ]
+   ],
+   "title": "IWSLT-06: experiments with commercial MT systems and lessons from subjective evaluations",
+   "original": "slt6_023",
+   "page_count": 8,
+   "order": 5,
+   "p1": "23",
+   "pn": "30",
+   "abstract": [
+    "This is a short report of our participation to IWSLT-06. First, we let 2 commercial systems participate as fairly as possible (SYSTRAN v5.0 for CE, JE, AE, & IE, Atlas-II for JE), taking care of preprocessing and postprocessing tasks, and tuning as many \"pairs\" as possible by creating \"user dictionaries\" and finding a good combination of parameters (such as dictionary priority). Second, we took part in the subjective evaluation of CE results (fluency and adequacy). Details on experiments and methodological remarks are provided, with a perspective to introduce less expensive and more objective human- and task-related evaluation methods.\n",
+    ""
+   ]
+  },
+  "stroppa06_iwslt": {
+   "authors": [
+    [
+     "Nicolas",
+     "Stroppa"
+    ],
+    [
+     "Andy",
+     "Way"
+    ]
+   ],
+   "title": "MATREX: DCU machine translation system for IWSLT 2006",
+   "original": "slt6_031",
+   "page_count": 6,
+   "order": 6,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "In this paper, we give a description of the machine translation system developed at DCU that was used for our first participation in the evaluation campaign of the International Workshop on Spoken Language Translation (2006).   This system combines two types of approaches. First, we use an EBMT approach to collect aligned chunks based on two steps: deterministic chunking of both sides and chunk alignment. We use several chunking and alignment strategies. We also extract SMT-style aligned phrases, and the two types of resources are combined.   We participated in the Open Data Track for the following translation directions: Arabic-English and Italian-English, for which we translated both the single-best ASR hypotheses and the correct recognition results. We report the results of the system for the provided evaluation sets.\n",
+    ""
+   ]
+  },
+  "carpuat06_iwslt": {
+   "authors": [
+    [
+     "Marine",
+     "Carpuat"
+    ],
+    [
+     "Yihai",
+     "Shen"
+    ],
+    [
+     "Xiaofeng",
+     "Yu"
+    ],
+    [
+     "Dekai",
+     "Wu"
+    ]
+   ],
+   "title": "Toward integrating word sense and entity disambiguation into statistical machine translation",
+   "original": "slt6_037",
+   "page_count": 8,
+   "order": 7,
+   "p1": "37",
+   "pn": "44",
+   "abstract": [
+    "We describe a machine translation approach being designed at HKUST to integrate semantic processing into statistical machine translation, beginning with entity and word sense disambiguation. We show how integrating the semantic modules consistently improves translation quality across several data sets. We report results on five different IWSLT 2006 speech translation tasks, representing HKUST's first participation in the IWSLT spoken language translation evaluation campaign. We translated both read and spontaneous speech transcriptions from Chinese to English, achieving reasonable performance despite the fact that our system is essentially text-based and therefore not designed and tuned to tackle the challenges of speech translation. We also find that the system achieves reasonable results on a wide range of languages, by evaluating on read speech transcriptions from Arabic, Italian, and Japanese into English.\n",
+    ""
+   ]
+  },
+  "lee06_iwslt": {
+   "authors": [
+    [
+     "Young-Suk",
+     "Lee"
+    ]
+   ],
+   "title": "IBM Arabic-to-English translation for IWSLT 2006",
+   "original": "slt6_045",
+   "page_count": 8,
+   "order": 8,
+   "p1": "45",
+   "pn": "52",
+   "abstract": [
+    "We present techniques for improving domainspecific translation quality with a relatively high OOV ratio on test data sets. The key idea is to maximize the vocabulary coverage without degrading the translation quality. We maximize vocabulary coverage by segmenting a word into a sequence of morphemes, prefix*-stem-suffix* and by adding a large amount of out-of-domain training corpora. To preserve the domainspecific meaning of vocabularies occurring in both domain-specific and out-of-domain training corpora, we assign a higher weight to the domain-specific corpus than to the out-ofdomain corpora. IBM Arabic-to-English spoken language translation systems using these techniques have demonstrated the best performances in the Open Data Track of the IWSLT2006 Evaluation Campaign.\n",
+    ""
+   ]
+  },
+  "chen06_iwslt": {
+   "authors": [
+    [
+     "Boxing",
+     "Chen"
+    ],
+    [
+     "Roldano",
+     "Cattoni"
+    ],
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "The ITC-irst SMT system for IWSLT 2006",
+   "original": "slt6_053",
+   "page_count": 6,
+   "order": 9,
+   "p1": "53",
+   "pn": "58",
+   "abstract": [
+    "This paper reports on the participation of ITC-irst to the evaluation campaign of the International Workshop on Spoken Language Translation 2006. Our two-pass system is the evolution of the one we employed for the 2005 campaign: in the first pass, an N-best list of translations is generated for each source sentence by means of a beam-search decoder; in the second pass, N-best lists are rescored and reranked exploiting additional feature functions. Main updates brought to the 2005 system involve novel additional features which are here described. Results on development sets are analyzed and commented.\n",
+    ""
+   ]
+  },
+  "shen06_iwslt": {
+   "authors": [
+    [
+     "Wade",
+     "Shen"
+    ],
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "The JHU workshop 2006 IWSLT system",
+   "original": "slt6_059",
+   "page_count": 5,
+   "order": 10,
+   "p1": "59",
+   "pn": "63",
+   "abstract": [
+    "This paper describes the SMT we built during the 2006 JHU Summer Workshop for the IWSLT 2006 evaluation. Our effort focuses on two parts of the speech translation problem: 1) efficient decoding of word lattices and 2) novel applications of factored translation models to IWSLT-specific problems. In this paper, we present results from the open-track Chinese-to-English condition. Improvements of 5-10% relative BLEU are obtained over a high performing baseline. We introduce a new open-source decoder that implements the state-of-the-art in statistical machine translation.\n",
+    ""
+   ]
+  },
+  "nakazawa06_iwslt": {
+   "authors": [
+    [
+     "Toshiaki",
+     "Nakazawa"
+    ],
+    [
+     "Kun",
+     "Yu"
+    ],
+    [
+     "Daisuke",
+     "Kawahara"
+    ],
+    [
+     "Sadao",
+     "Kurohashi"
+    ]
+   ],
+   "title": "Example-based machine translation based on deeper NLP",
+   "original": "slt6_064",
+   "page_count": 7,
+   "order": 11,
+   "p1": "64",
+   "pn": "70",
+   "abstract": [
+    "This paper describes our Kyoto-U system that attended the IWSLT06 Japanese-English machine translation task. Example-based machine translation is applied in this system to integrate our study on both structural NLP and machine translation.\n",
+    ""
+   ]
+  },
+  "shen06b_iwslt": {
+   "authors": [
+    [
+     "Wade",
+     "Shen"
+    ],
+    [
+     "Brian",
+     "Delaney"
+    ],
+    [
+     "Timothy",
+     "Anderson"
+    ]
+   ],
+   "title": "The MIT-LL/AFRL IWSLT-2006 MT system",
+   "original": "slt6_071",
+   "page_count": 6,
+   "order": 12,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "The MIT-LL/AFRL MT system is a statistical phrasebased translation system that implements many modern SMT training and decoding techniques. Our system was designed with the long-term goal of dealing with corrupted ASR input and limited amounts of training data for speech-to-speech MT applications. This paper will discuss the architecture of the MIT-LL/AFRL MT system, improvements over our 2005 system, and experiments with manual and ASR transcription data that were run as part of the IWSLT-2006 evaluation campaign.\n",
+    ""
+   ]
+  },
+  "komachi06_iwslt": {
+   "authors": [
+    [
+     "Mamoru",
+     "Komachi"
+    ],
+    [
+     "Yuji",
+     "Matsumoto"
+    ],
+    [
+     "Masaaki",
+     "Nagata"
+    ]
+   ],
+   "title": "Phrase reordering for statistical machine translation based on predicate-argument structure",
+   "original": "slt6_077",
+   "page_count": 6,
+   "order": 13,
+   "p1": "77",
+   "pn": "82",
+   "abstract": [
+    "In this paper, we describe a novel phrase reordering model based on predicate-argument structure. Our phrase reordering method utilizes a general predicate-argument structure analyzer to reorder source language chunks based on predicate-argument structure. We explicitly model long-distance phrase alignments by reordering arguments and predicates. The reordering approach is applied as a preprocessing step in training phase of a phrase-based statistical MT system. We report experimental results in the evaluation campaign of IWSLT 2006.\n",
+    ""
+   ]
+  },
+  "zhang06_iwslt": {
+   "authors": [
+    [
+     "Ruiqiang",
+     "Zhang"
+    ],
+    [
+     "Hirofumi",
+     "Yamamoto"
+    ],
+    [
+     "Michael",
+     "Paul"
+    ],
+    [
+     "Hideo",
+     "Okuma"
+    ],
+    [
+     "Keiji",
+     "Yasuda"
+    ],
+    [
+     "Yves",
+     "Lepage"
+    ],
+    [
+     "Etienne",
+     "Denoual"
+    ],
+    [
+     "Daichi",
+     "Mochihashi"
+    ],
+    [
+     "Andrew",
+     "Finch"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ]
+   ],
+   "title": "The niCT-ATR statistical machine translation system for the IWSLT 2006 evaluation",
+   "original": "slt6_083",
+   "page_count": 8,
+   "order": 14,
+   "p1": "83",
+   "pn": "90",
+   "abstract": [
+    "This paper describes the NiCT-ATR statistical machine translation (SMT) system used for the IWSLT 2006 evaluation compaign. We participated in all four language pair translation tasks (CE, JE, AE and IE) and all two tracks (OPEN and CSTAR). We used a phrase-based SMT in the OPEN track and a hybrid multiple translation engine in the CSTAR track. We also equipped our system with some of new preprocessing and post-processing techniques for Chinese word segmentation, named entity translation, punctuation and capitalization, sentence splitting, and language model adaptation. Our experiments show these features significantly improved our system.\n",
+    ""
+   ]
+  },
+  "chai06_iwslt": {
+   "authors": [
+    [
+     "Chunguang",
+     "Chai"
+    ],
+    [
+     "Jinhua",
+     "Du"
+    ],
+    [
+     "Wei",
+     "Wei"
+    ],
+    [
+     "Keyan",
+     "Zhou"
+    ],
+    [
+     "Peng",
+     "Liu"
+    ],
+    [
+     "Yanqing",
+     "He"
+    ],
+    [
+     "Chengqing",
+     "Zong"
+    ]
+   ],
+   "title": "NLPR translation system for IWSLT 2006 evaluation campaign",
+   "original": "slt6_091",
+   "page_count": 4,
+   "order": 15,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "In this paper we describe a hybrid approach to Chinese-to-English spoken language translation system used for the IWSLT 2006 evaluation campaign. In this system, the phrase-based statistical machine translation (SMT) engine is combined with the template-based machine translation (TBMT) engine and a simple way is proposed to select the best translation from the results generated by the two translation engines. The experiments prove that the combination can improve the performance of translation system. As the input sentences are speech recognition results and have no punctuation information, we restore the punctuation in source sentences in the processing and post-processing.\n",
+    ""
+   ]
+  },
+  "watanabe06_iwslt": {
+   "authors": [
+    [
+     "Taro",
+     "Watanabe"
+    ],
+    [
+     "Jun",
+     "Suzuki"
+    ],
+    [
+     "Hajime",
+     "Tsukada"
+    ],
+    [
+     "Hideki",
+     "Isozaki"
+    ]
+   ],
+   "title": "NTT statistical machine translation for IWSLT 2006",
+   "original": "slt6_095",
+   "page_count": 8,
+   "order": 16,
+   "p1": "95",
+   "pn": "102",
+   "abstract": [
+    "We present the NTT translation system that is experimented for the evaluation campaign of “International Workshop on Spoken Language Translation (IWSLT).” The system consists of two primary components: a hierarchical phrase-based statistical machine translation system and a reranking system. The former is conceptualized as a synchronous-CFG in which phrases are hierarchically combined using nonterminals. The latter uses a modified voted perceptron approach with large number of features. Experiments showed that our hierarchical phrase-based model outperformed a conventional phrase-based model. In addition, our reranking algorithm further boosted the performance.\n",
+    ""
+   ]
+  },
+  "mauser06_iwslt": {
+   "authors": [
+    [
+     "Arne",
+     "Mauser"
+    ],
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Saša",
+     "Hasan"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "The RWTH statistical machine translation system for the IWSLT 2006 evaluation",
+   "original": "slt6_103",
+   "page_count": 8,
+   "order": 17,
+   "p1": "103",
+   "pn": "110",
+   "abstract": [
+    "We give an overview of the RWTH phrase-based statistical machine translation system that was used in the evaluation campaign of the International Workshop on Spoken Language Translation (IWSLT) 2006. The system was ranked first with respect to the BLEU measure in all language pairs it was used.   Using a two-pass aproach, we first generate the N best translation candidates. The second pass consists of rescoring and reranking these candidates. We will give a description of the search algorithm as well as of the models used in each pass.   We will also describe our method for dealing with punctuation restoration, in order to overcome the difficulties of spoken language translation.   This work also includes a brief description of the system combination done by the partners participating in the European TC-Star project.\n",
+    ""
+   ]
+  },
+  "whitelock06_iwslt": {
+   "authors": [
+    [
+     "Pete",
+     "Whitelock"
+    ],
+    [
+     "Victor",
+     "Poznanski"
+    ]
+   ],
+   "title": "The SLE example-based translation system",
+   "original": "slt6_111",
+   "page_count": 5,
+   "order": 18,
+   "p1": "111",
+   "pn": "115",
+   "abstract": [
+    "In this paper, we describe a hybrid approach to Machine Translation that exploits a corpus of example translations augmented with resources and techniques from rule-based MT. Our main motivation is to achieve reasonable accuracy for some subdomains with good time and space characteristics. Our architecture is relatively deterministic and therefore quite modest in its consumption of computational resources. At the same time, algorithms inspired by a view of translation in terms of string edits allow us to exploit some of the information available in the corpus to improve accuracy in a way that would be more difficult in other models. We describe the system which we developed at Sharp, illustrate how it exploits syntactic and semantic analysis for improved matching and disambiguation, and analyse our competition results.\n",
+    ""
+   ]
+  },
+  "crego06_iwslt": {
+   "authors": [
+    [
+     "Josep M.",
+     "Crego"
+    ],
+    [
+     "Adrià de",
+     "Gispert"
+    ],
+    [
+     "Patrik",
+     "Lambert"
+    ],
+    [
+     "Maxim",
+     "Khalilov"
+    ],
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ],
+    [
+     "Rafael E.",
+     "Banchs"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ]
+   ],
+   "title": "The TALP n-gram-based SMT system for IWSLT 2006",
+   "original": "slt6_116",
+   "page_count": 7,
+   "order": 19,
+   "p1": "116",
+   "pn": "122",
+   "abstract": [
+    "This paper describes TALPtuples, the 2006 Ngram-based statistical machine translation system developed at the TALP Research Center of the UPC (Universitat Polit&# 30;ecnica de Catalunya) in Barcelona. Emphasis is put on improvements and extensions of the system of previous years, being highlighted and empirically compared. Mainly, these include a novel and much more ef&# 2;cient word ordering strategy based on reordering patterns, a linguistically-guided tuple segmentation criterion and improved optimization procedures.   The paper provides details of this system participation in the third InternationalWorkshop on Spoken Language Translation (IWSLT) held in Kyoto, Japan in November 2006. Results on four translation directions are reported, namely from Arabic, Chinese, Italian and Japanese into English for the open data track, thoroughly explaining all language-related preprocessing and optimization schemes.\n",
+    ""
+   ]
+  },
+  "costajussa06_iwslt": {
+   "authors": [
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "Josep M.",
+     "Crego"
+    ],
+    [
+     "Adrià de",
+     "Gispert"
+    ],
+    [
+     "Patrik",
+     "Lambert"
+    ],
+    [
+     "Maxim",
+     "Khalilov"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ],
+    [
+     "Rafael E.",
+     "Banchs"
+    ]
+   ],
+   "title": "TALP phrase-based system and TALP system combination for IWSLT 2006",
+   "original": "slt6_123",
+   "page_count": 7,
+   "order": 20,
+   "p1": "123",
+   "pn": "129",
+   "abstract": [
+    "This paper describes the TALP phrase-based statistical machine translation system, enriched with the statistical machine reordering technique. We also report the combination of this system and the TALP-tuple, the n-gram-based statistical machine translation system. We report the results for all the tasks (Chinese, Arabic, Italian and Japanese to English) in the framework of the third evaluation campaign of the InternationalWorkshop on Spoken Language Translation.\n",
+    ""
+   ]
+  },
+  "eck06_iwslt": {
+   "authors": [
+    [
+     "Matthias",
+     "Eck"
+    ],
+    [
+     "Ian",
+     "Lane"
+    ],
+    [
+     "Nguyen",
+     "Bach"
+    ],
+    [
+     "Sanjika",
+     "Hewavitharana"
+    ],
+    [
+     "Muntsin",
+     "Kolss"
+    ],
+    [
+     "Bing",
+     "Zhao"
+    ],
+    [
+     "Almut Silja",
+     "Hildebrand"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "The UKA/CMU statistical machine translation system for IWSLT 2006",
+   "original": "slt6_130",
+   "page_count": 8,
+   "order": 21,
+   "p1": "130",
+   "pn": "137",
+   "abstract": [
+    "This paper describes the UKA/CMU statistical machine translation system used in the IWSLT 2006 evaluation campaign. The system is based on phrase-to-phrase translations extracted from a bilingual corpus. We compare two different phrase alignment techniques both based on word alignment probabilities. The system was used for all language pairs and data conditions in the evaluation campaign translating both the ASR output (as 1best) and the correct recognition results.\n",
+    ""
+   ]
+  },
+  "zollmann06_iwslt": {
+   "authors": [
+    [
+     "Andreas",
+     "Zollmann"
+    ],
+    [
+     "Ashish",
+     "Venugopal"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "The CMU-UKA syntax augmented machine translation system for IWSLT-06",
+   "original": "slt6_138",
+   "page_count": 7,
+   "order": 22,
+   "p1": "138",
+   "pn": "144",
+   "abstract": [
+    "We present the CMU-UKA Syntax Augmented Machine Translation System that was used in the IWSLT-06 evaluation campaign. We participated in the C-Star data track using only the Full BTEC corpus, for Chinese-English translation, focusing on transcript translation. We applied techniques that produce true-cased, punctuated translations from non-punctuated Chinese transcripts, generating translations which score higher against the Official metric than against the lower-cased, punctuation removed metric. Our results demonstrate the impact of syntax and hierarchy based models for speech transcript translation.\n",
+    ""
+   ]
+  },
+  "kirchhoff06_iwslt": {
+   "authors": [
+    [
+     "Katrin",
+     "Kirchhoff"
+    ],
+    [
+     "Kevin",
+     "Duh"
+    ],
+    [
+     "Chris",
+     "Lim"
+    ]
+   ],
+   "title": "The University of Washington machine translation system for IWSLT 2006",
+   "original": "slt6_145",
+   "page_count": 8,
+   "order": 23,
+   "p1": "145",
+   "pn": "162",
+   "abstract": [
+    "This paper describes the University of Washington's submission to the IWSLT 2006 evaluation campaign. We present a multi-pass statistical phrase-based machine translation system for the Italian-English open-data track. The focus of our work was on the use of heterogeneous data sources for training translation and language models, the use of several novel rescoring features in the second pass, and exploiting N-best information for translation in the ASR-output condition. Results show mixed bene&# 2;ts of adding out-of-domain data and using N-best information and demonstrate improvements for some of the novel rescoring features.\n",
+    ""
+   ]
+  },
+  "chen06b_iwslt": {
+   "authors": [
+    [
+     "Yidong",
+     "Chen"
+    ],
+    [
+     "Xiaodong",
+     "Shi"
+    ],
+    [
+     "Changle",
+     "Zhou"
+    ]
+   ],
+   "title": "The XMU phrase-based statistical machine translation system for IWSLT 2006",
+   "original": "slt6_153",
+   "page_count": 5,
+   "order": 24,
+   "p1": "153",
+   "pn": "157",
+   "abstract": [
+    "In this paper, an overview of the XMU phrase-based statistical machine translation system for the 2006 IWSLT Speech Translation Evaluation was given. In this year's evaluation, we participated in the open data track for ASR lattice and Cleaned Transcripts for the Chinese-English translation direction. The system ranked 7th among the 12 participating systems in the Chinese-English spontaneous speech ASR output task, 11th among the 15 participating systems in the Chinese-English read speech ASR output task and 8th among the 15 participating systems in the Cleaned Transcripts task.\n",
+    ""
+   ]
+  },
+  "matusov06_iwslt": {
+   "authors": [
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Arne",
+     "Mauser"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Automatic sentence segmentation and punctuation prediction for spoken language translation",
+   "original": "slt6_158",
+   "page_count": 8,
+   "order": 25,
+   "p1": "158",
+   "pn": "165",
+   "abstract": [
+    "This paper studies the impact of automatic sentence segmentation and punctuation prediction on the quality of machine translation of automatically recognized speech. We present a novel sentence segmentation method which is specifically tailored to the requirements of machine translation algorithms and is competitive with state-of-the-art approaches for detecting sentence-like units. We also describe and compare three strategies for predicting punctuation in a machine translation framework, including the simple and effective implicit punctuation generation by a statistical phrase-based machine translation system. Our experiments show the robust performance of the proposed sentence segmentation and punctuation prediction approaches on the IWSLT Chinese-to-English and TC-STAR English-to-Spanish speech translation tasks in terms of translation quality.\n",
+    ""
+   ]
+  },
+  "schwenk06_iwslt": {
+   "authors": [
+    [
+     "Holger",
+     "Schwenk"
+    ],
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ]
+   ],
+   "title": "Continuous space language models for the IWSLT 2006 task",
+   "original": "slt6_166",
+   "page_count": 8,
+   "order": 26,
+   "p1": "166",
+   "pn": "173",
+   "abstract": [
+    "The language model of the target language plays an important role in statistical machine translation systems. In this work, we propose to use a new statistical language model that is based on a continuous representation of the words in the vocabulary. A neural network is used to perform the projection and the probability estimation. This kind of approach is in particular promising for tasks where a very limited amount of resources are available, like the BTEC corpus of tourism related questions.   This language model is used in two state-of-the-art statistical machine translation systems that were developed by UPC for the 2006 IWSLT evaluation campaign: a phrase- and an n-gram-based approach. An experimental evaluation for four different language pairs is provided (translation of Mandarin, Japanese, Arabic and Italian to English). The proposed method achieved improvements in the BLEU score of up to 3 points on the development data and of almost 2 points on the official test data.\n",
+    ""
+   ]
+  },
+  "ueffing06_iwslt": {
+   "authors": [
+    [
+     "Nicola",
+     "Ueffing"
+    ]
+   ],
+   "title": "Using monolingual source-language data to improve MT performance",
+   "original": "slt6_174",
+   "page_count": 8,
+   "order": 27,
+   "p1": "174",
+   "pn": "181",
+   "abstract": [
+    "Statistical machine translation systems are usually trained on large amounts of bilingual text and of monolingual text in the target language. In this paper, we will present a self-training approach which additionally explores the use of monolingual source text, namely the documents to be translated, to improve the system performance. An initial version of the translation system is used to translate the source text. Among the generated translations, target sentences of low quality are automatically identified and discarded. The reliable translations together with their sources are then used as a new bilingual corpus for training an additional phrase translation model. Thus, the translation system can be adapted to the new source data even if no bilingual data in this domain is available. Experimental evaluation was performed on a standard Chinese-to-English translation task. We focus on settings where the domain and/or the style of the test data is different from that of the training material. We will show a significant improvement in translation quality through the use of the adaptive phrase translation model. BLEU score rises up to 1.1 points, and mWER is reduced by up to 3.1% absolute.\n",
+    ""
+   ]
+  },
+  "chen06c_iwslt": {
+   "authors": [
+    [
+     "Boxing",
+     "Chen"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Reordering rules for phrase-based statistical machine translation",
+   "original": "slt6_182",
+   "page_count": 8,
+   "order": 28,
+   "p1": "182",
+   "pn": "189",
+   "abstract": [
+    "This paper proposes the use of rules automatically extracted from word aligned training data to model word reordering phenomena in phrase-based statistical machine translation. Scores computed from matching rules are used as additional feature functions in the rescoring stage of the automatic translation process from various languages to English, in the ambit of a popular traveling domain task. Rules are defined either on Part-of-Speech or words. Part-of- Speech rules are extracted from and applied to Chinese, while lexicalized rules are extracted from and applied to Chinese, Japanese and Arabic.   Both Part-of-Speech and lexicalized rules yield an absolute improvement of the BLEU score of 0.4-0.9 points without affecting the NIST score, on the Chinese-to-English translation task. On other language pairs which differ a lot in the word order, the use of lexicalized rules allows to observe significant improvements as well.\n",
+    ""
+   ]
+  },
+  "lambert06_iwslt": {
+   "authors": [
+    [
+     "Patrik",
+     "Lambert"
+    ],
+    [
+     "Rafael E.",
+     "Banchs"
+    ]
+   ],
+   "title": "Tuning machine translation parameters with SPSA",
+   "original": "slt6_190",
+   "page_count": 7,
+   "order": 29,
+   "p1": "190",
+   "pn": "196",
+   "abstract": [
+    "Most of statistical machine translation systems are combinations of various models, and tuning of the scaling factors is an important step. However, this optimisation problem is hard because the objective function has many local minima and the available algorithms cannot achieve a global optimum. Consequently, optimisations starting from different initial settings can converge to fairly different solutions. We present tuning experiments with the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm, and compare them to tuning with the widely used downhill simplex method. With IWSLT 2006 Chinese-English data, both methods showed similar performance, but SPSA was more robust to the choice of initial settings.\n",
+    ""
+   ]
+  },
+  "shen06c_iwslt": {
+   "authors": [
+    [
+     "Wade",
+     "Shen"
+    ],
+    [
+     "Brian",
+     "Delaney"
+    ],
+    [
+     "Timothy",
+     "Anderson"
+    ]
+   ],
+   "title": "An efficient graph search decoder for phrase-based statistical machine translation",
+   "original": "slt6_197",
+   "page_count": 8,
+   "order": 30,
+   "p1": "197",
+   "pn": "204",
+   "abstract": [
+    "In this paper we describe an efficient implementation of a graph search algorithm for phrase-based statistical machine translation. Our goal was to create a decoder that could be used for both our research system and a real-time speechto- speech machine translation demonstration system. The search algorithm is based on a Viterbi graph search with an A* heuristic. We were able to increase the speed of our decoder substantially through the use of on-the-fly beam pruning and other algorithmic enhancements. The decoder supports a variety of reordering constraints as well as arbitrary ngramdecoding. In addition, we have implemented disk based translation models and a messaging interface to communicate with other components for use in our real-time speech translation system.\n",
+    ""
+   ]
+  },
+  "vilar06_iwslt": {
+   "authors": [
+    [
+     "David",
+     "Vilar"
+    ],
+    [
+     "Maja",
+     "Popović"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "AER: do we need to “improve” our alignments?",
+   "original": "slt6_205",
+   "page_count": 8,
+   "order": 31,
+   "p1": "205",
+   "pn": "212",
+   "abstract": [
+    "Currently most statistical machine translation systems make use of alignments as a first step in the process of training the actual translation models. Several researchers have investigated how to improve the alignment quality, with the (intuitive) assumption that better alignments increase the translation quality. In this paper we will investigate this assumption and show that this is not always the case.\n",
+    ""
+   ]
+  },
+  "shimizu06_iwslt": {
+   "authors": [
+    [
+     "Tohru",
+     "Shimizu"
+    ],
+    [
+     "Yutaka",
+     "Ashikari"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ],
+    [
+     "Hideki",
+     "Kashioka"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Development of client-server speech translation system on a multi-lingual speech communication platform",
+   "original": "slt6_213",
+   "page_count": 4,
+   "order": 32,
+   "p1": "213",
+   "pn": "216",
+   "abstract": [
+    "This paper describes a client-server speech-to-speech translation system developed on a multi-lingual speech communication platform. This platform enables easy assembly of speech communication system from the corresponding software modules (e.g. speech recognition, spoken language machine-translation, speech synthesis). This client-server speech translation system is designed for use at mobile terminals. Terminals and servers are connected via a 3G public mobile phone networks, and speech translation services are available at various places with thin client. This system realizes hands-free communication and robustness for real use of speech translation in noisy environments. A microphone array and new noise suppression technique improves speech recognition performance, and a corpus-based approach enables wide coverage, robustness and portability to new languages and domains. Recent evaluation of the overall system showed that the utterance correctness of speech recognition output achieved 83%, and more than 88% of the utterances are correctly translated for Japanse-English and Japanese- Chinese.\n",
+    "Index Terms. speech-to-speech translation system, corpus-based, client-server\n",
+    ""
+   ]
+  },
+  "vogel06_iwslt": {
+   "authors": [
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Mike",
+     "Dillinger"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ],
+    [
+     "Ruiqiang",
+     "Zhang"
+    ]
+   ],
+   "title": "Speech translation - where is the progress? what are the challenges?",
+   "original": "slt6_303",
+   "page_count": 0,
+   "order": 33,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "5 years of machine translation evaluations, esp. those organized by NIST, tell a wonderful success story: machine translation has made amazing progress, at least when translating text sources, like news, for the \"big\" languages like Arabic and Chinese. This improvement comes from using more data in data-driven MT systems, but also from better models, better training and decoding algorithms.   The picture seems less sparkling when we look at speech translation. Even in a simple approach, in which first-best recognition result is fed into a text translation system the improvements in speech recognition and in machine translation will result in improved speech translation. There has been quite some work on tighter coupling between the two components, like lattice translation, using ASR features in MT and optimizing the end-to-end performance, it still seems to be once-in-a-while improvements which result from this work. Additional topics relating to speech translation are disfluency removal, segmentation and automatic punctuation.   The panel discussion will take a critical look at recent work in speech translation: What has been done? What improvements have been reported? How solid are these improvements? Are there any important aspects of speech translation which have been completely overlooked or are deemed to be important but beyond the reach of our current technologies? Are there additional requirements when speech translation is not an end but the output fed into other systems, like question answering systems?  How close are we to useful applications of speech translation technology?\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Talks",
+   "papers": [
+    "lazzari06_iwslt",
+    "roukos06_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign",
+   "papers": [
+    "paul06_iwslt",
+    "bangalore06_iwslt",
+    "boitet06_iwslt",
+    "stroppa06_iwslt",
+    "carpuat06_iwslt",
+    "lee06_iwslt",
+    "chen06_iwslt",
+    "shen06_iwslt",
+    "nakazawa06_iwslt",
+    "shen06b_iwslt",
+    "komachi06_iwslt",
+    "zhang06_iwslt",
+    "chai06_iwslt",
+    "watanabe06_iwslt",
+    "mauser06_iwslt",
+    "whitelock06_iwslt",
+    "crego06_iwslt",
+    "costajussa06_iwslt",
+    "eck06_iwslt",
+    "zollmann06_iwslt",
+    "kirchhoff06_iwslt",
+    "chen06b_iwslt"
+   ]
+  },
+  {
+   "title": "Technical Papers",
+   "papers": [
+    "matusov06_iwslt",
+    "schwenk06_iwslt",
+    "ueffing06_iwslt",
+    "chen06c_iwslt",
+    "lambert06_iwslt",
+    "shen06c_iwslt",
+    "vilar06_iwslt"
+   ]
+  },
+  {
+   "title": "Demonstration",
+   "papers": [
+    "shimizu06_iwslt"
+   ]
+  },
+  {
+   "title": "Panel Discussion",
+   "papers": [
+    "vogel06_iwslt"
+   ]
+  }
+ ]
+}

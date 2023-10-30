@@ -1,0 +1,1200 @@
+{
+ "title": "ESCA - NATO/RSG 10 Workshop on Applications of Speech Technology",
+ "location": "Lautrach, Germany",
+ "startDate": "16/9/1993",
+ "endDate": "17/9/1993",
+ "conf": "AST",
+ "year": "1993",
+ "name": "ast_1993",
+ "series": "",
+ "SIG": "",
+ "title1": "ESCA - NATO/RSG 10 Workshop on Applications of Speech Technology",
+ "date": "16-17 September 1993",
+ "papers": {
+  "gavignet93_ast": {
+   "authors": [
+    [
+     "Frederic",
+     "Gavignet"
+    ],
+    [
+     "Francis",
+     "Charpentier"
+    ],
+    [
+     "Martine",
+     "Merle"
+    ],
+    [
+     "Jacques",
+     "Toen"
+    ],
+    [
+     "Azim",
+     "Mitha"
+    ]
+   ],
+   "title": "Vocal access to the AFP scientific news service through the telephone network",
+   "original": "ast3_015",
+   "page_count": 4,
+   "order": 1,
+   "p1": "15",
+   "pn": "18",
+   "abstract": [
+    "This paper describes an interactive voice response (IVR) system that provides telephone access to the scientific news produced by the French Press Agency (AFP). *. Speech recognition is used to facilitate the access to the news items through a list of keywords corresponding to forty predefined scientific topics. Text-to-speech synthesis is used for the vocal output of the news items since they are changed every week. When entering the service, the caller first selects a topic, then he listens to the existing titles and abstracts, and if he wishes he orders the complete text of a given article for subsequent fax transmittal. The four-channel server runs on a PC based platform that uses commercially available speech recognition and text-to-speech synthesis boards. The system will be installed in the Paris area in autumn 93 and will be run as a shared-revenue service.\n",
+    ""
+   ]
+  },
+  "spiegel93_ast": {
+   "authors": [
+    [
+     "Murray F.",
+     "Spiegel"
+    ]
+   ],
+   "title": "Coping with telephone directories that were never intended for synthesis applications",
+   "original": "ast3_019",
+   "page_count": 4,
+   "order": 2,
+   "p1": "19",
+   "pn": "22",
+   "abstract": [
+    "Telephone company directories, such a$ those used for Directory Assistance, cannot be used directly to provide information needed for speech synthesis services. This is because the information in the database is stored in a format that a) was intended for visual inspection and b) requires human interpretation. Speech synthesisers, on the other hand, usually require full sentences with proper word order for their input. This paper will describe some common problems with on-line telephone directories and will discuss techniques for converting them to formats appropriate for services based on speech synthesis, such as reverse directory (Automated Customer Name and Address) and Who's Calling (Audible Caller Name Delivery). Since similar problems can arise from new services based on other (non-telecommunications) databases, the examples and suggestions provided in this paper will likely be useful for other applications.\n",
+    ""
+   ]
+  },
+  "dobler93_ast": {
+   "authors": [
+    [
+     "S.",
+     "Dobler"
+    ],
+    [
+     "P.",
+     "Meyer"
+    ],
+    [
+     "H. W.",
+     "Rühl"
+    ]
+   ],
+   "title": "Voice-controlled assistance for the new German mail area codes",
+   "original": "ast3_023",
+   "page_count": 4,
+   "order": 3,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "A set of speech technology algorithms and tools has been developed and tested in a mail area code information system and several other applications. Speaker independent connected-words recognition was used to recognize isolated words, area codes with four digits, telephone numbers of variable length, and times of day in their natural German format (M16 Uhr 45\"). Speech synthesis was employed for two purposes: Text-to-speech allowed to rapidly specify, test, and modify voice-based dialogues. Synthesis by concept helped to echo a large set of city and town names corresponding to area codes in a natural utterance context. Our experience shows, that recognition both of isolated and connected words works sufficiently well, even in noisy environments, and that synthesis by concept is sufficiently natural to be accepted by naive listeners.\n",
+    ""
+   ]
+  },
+  "carey93_ast": {
+   "authors": [
+    [
+     "M. J.",
+     "Carey"
+    ],
+    [
+     "C. J.",
+     "Parris"
+    ],
+    [
+     "D. Y.",
+     "Wong"
+    ]
+   ],
+   "title": "Speech coding for storage and transmission",
+   "original": "ast3_027",
+   "page_count": 4,
+   "order": 4,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "The paper reviews the current state of speech coding technology with reference to applications involving the storage of speech and its transmission in computer networks. It examines the different constraints placed on algorithms for storage, and explores the design flexibility which this allows. An example algorithm is used to illustrate these points. The paper also compares the advantages and disadvantages of speech coding with speech synthesis and text to speech for message storage. Text to speech has the advantage of the lowest overall bit rate, less than 200 b/s, and can provide an unlimited vocabulary allowing messages to be constructed for unforeseen dialogue but has the lowest speech quality. Speech synthesis requires the off-line construction of a predetermined set of messages, often involving the skilled editing of the speech parameters, but offers higher quality at bit rates around 2 kb/s. Speech coding gives the highest quality and does not require off-line editing. The falling cost of storage media will result in it becoming the preferred technique for applications where the dialogue can be predicted in advance.\n",
+    ""
+   ]
+  },
+  "gagnoulet93_ast": {
+   "authors": [
+    [
+     "C.",
+     "Gagnoulet"
+    ],
+    [
+     "Christel",
+     "Sorin"
+    ]
+   ],
+   "title": "CNET speech recognition and text-to-speech for telecommunications applications",
+   "original": "ast3_031",
+   "page_count": 4,
+   "order": 5,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "Since 1988, several improvments of the CNET speech recognition systems have been introduced in France for Interactive Voice Services (TVS) proposed over the telephone network. Since 1992, the CNET Text-to-Speech (TTS) system is also used in an general public IVS This paper describes some of these applications, presents the results of the associated field evaluations and indicates the main conclusions drawn from this experience.\n",
+    ""
+   ]
+  },
+  "teunissen93_ast": {
+   "authors": [
+    [
+     "Leo F. F.",
+     "Teunissen"
+    ]
+   ],
+   "title": "Dutch postbank and speech recognition",
+   "original": "ast3_035",
+   "page_count": 4,
+   "order": 6,
+   "p1": "35",
+   "pn": "38",
+   "abstract": [
+    "The Postbank, part of the ING Bank, offers clients the possibility of receiving up-to-date stock-information by using speech recognition. The service obviously fills in needs. To be able to extend services, the author hopes to convince technicians that they should leave their laboratories and show the guts to offer their maybe not completely finished product to users. Then, domain-knowledge of experts can be coupled with recognition to compensate for a low recognition and make speech recognition more widely available and accepted.\n",
+    ""
+   ]
+  },
+  "temem93_ast": {
+   "authors": [
+    [
+     "Jean-Noel",
+     "Temem"
+    ],
+    [
+     "Sylvain",
+     "Gitton"
+    ]
+   ],
+   "title": "An experience with speech technologies applied to SNCF's telephone information centres",
+   "original": "ast3_039",
+   "page_count": 4,
+   "order": 7,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "This paper describes an experimentation conducted by SNCF (French railways) to evaluate the validity of Interactive Voice Response Systems connected to a railway database to deliver train timetable and commercial information. Two interactivity modes are presented: touch-tone DTMF and speech recognition. This paper presents the details of the actual application from the point of view of the end-user of these new technologies.\n",
+    ""
+   ]
+  },
+  "hunt93_ast": {
+   "authors": [
+    [
+     "Melvyn J.",
+     "Hunt"
+    ]
+   ],
+   "title": "An advanced telephone-based flight information system",
+   "original": "ast3_043",
+   "page_count": 4,
+   "order": 8,
+   "p1": "43",
+   "pn": "46",
+   "abstract": [
+    "This paper describes a study of how an existing, commercially successful telephone-based flight information service using small-vocabulary, isolated-word, speaker-independent speech recognition could be improved by using more advanced technology. Continuous speech recognition was introduced throughout, and the vocabulary was increased from around 14 words to almost 200, including the letters of the alphabet. The confidence with which an utterance is recognized is used to control the extent to which confirmations are required in the dialogue, and multiple interpretations can be offered. A \"talkover facility\" frees the system from the need to use beep prompts and allows a user to interrupt lengthy explanations and hop around spoken lists. The new system also exhibits a limited word-spotting ability. The result is a service that is much faster and more natural to use.\n",
+    ""
+   ]
+  },
+  "doddington93_ast": {
+   "authors": [
+    [
+     "George",
+     "Doddington"
+    ]
+   ],
+   "title": "Issues in transferring speech technology to real-world applications",
+   "original": "ast3_047",
+   "page_count": 1,
+   "order": 9,
+   "p1": "47",
+   "pn": "48",
+   "abstract": [
+    "The world is now well on its way into the information age, courtesy of spectacular advances in computer and communications technology. And if past progress is any indication of the future, then we've hardly begun. The current emphasis on high technology implicitly assumes a future with ever more computing power and communications bandwidth - many orders of magnitude more, and an explosion in the number and variety of end-user functions that are available and served by such massive information infrastructure. This is the vision of the future in the information age.\n",
+    ""
+   ]
+  },
+  "taylor93_ast": {
+   "authors": [
+    [
+     "Michael R.",
+     "Taylor"
+    ]
+   ],
+   "title": "Experience, observations and insights into the industrialisation of speech technology",
+   "original": "ast3_049",
+   "page_count": 4,
+   "order": 10,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "This paper reviews the author's experience in developing speech technology to meet the diverse requirements of the health, defence, security and financial markets. Three distinct phases of the speech technology industrialisation cycle are identified: the R&D phase; the product development phase; and the commercialisation phase. Typical speech technology industrialisation traps are identified and the value of \"proof of concept\" and \"proof of application\" demonstrators are emphasised. The paper indicates that successful industrialisation of speech technology depends on collaborative interaction between R&D staff, product developers, system integrators and marketing staff, in addition to matching speech technology capabilities with the perceived requirements of end-user groups and product manufacturers.\n",
+    ""
+   ]
+  },
+  "nitta93_ast": {
+   "authors": [
+    [
+     "T.",
+     "Nitta"
+    ],
+    [
+     "Y.",
+     "Masai"
+    ],
+    [
+     "J.",
+     "Iwasaki"
+    ],
+    [
+     "S.",
+     "Tanaka"
+    ],
+    [
+     "H.",
+     "Kamio"
+    ],
+    [
+     "H.",
+     "Matsu'uta"
+    ]
+   ],
+   "title": "Applying multimodal spoken dialogue to social-automation systems",
+   "original": "ast3_053",
+   "page_count": 4,
+   "order": 11,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "In this paper, we first briefly introduce voice input applications which we have developed during the last ten years. Then, after the discussion of some applications to social-automation systems, problems concerning the speech recognition capabilities and the user-system interaction facilities in practical environments are pointed out. Next, we describe a real-time multimodal dialogue system' which has been newly developed to overcome these problems. The system provides multiple input channels of spontaneous speech and touch, as well as multiple output channels of graphics and voice responses. The system also provides three sensors to detect the user's behavior and to plan interactive strategies. The experimental results using a map-guidance task are also discussed.\n",
+    ""
+   ]
+  },
+  "guyomard93_ast": {
+   "authors": [
+    [
+     "Marc",
+     "Guyomard"
+    ],
+    [
+     "Ludovic",
+     "Lietard"
+    ],
+    [
+     "Jacques",
+     "Siroux"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ]
+   ],
+   "title": "AVOCAT: a vocal display system for tennis",
+   "original": "ast3_057",
+   "page_count": 4,
+   "order": 12,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "We describe the system AVOCAT (Affichage VOCAl pour le Tennis) conceived to keep the score of a tennis match from the umpire's announcements. After describing the language of umpiring and the architecture of the system, we present a mixed speech recognition (mono- multi-speaker) model, which we created from multi-speaker recognition software. Finally we give the results of an evaluation.\n",
+    ""
+   ]
+  },
+  "boogaart93_ast": {
+   "authors": [
+    [
+     "Tineke",
+     "Boogaart"
+    ],
+    [
+     "Paul van",
+     "Alphen"
+    ],
+    [
+     "Jeroen",
+     "Döll"
+    ]
+   ],
+   "title": "Application oriented assessment of dialogue systems",
+   "original": "ast3_061",
+   "page_count": 4,
+   "order": 13,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "The design of user friendly Interactive Voice Response and Audiotex systems that employ speech recognition for navigating through the menu requires that the menu structure is optimised with respect to the expected performance of the recogniser. To help us find the optimal menu structure, we have developed and implemented a tool that computes several global as well as local diagnostic measures for the combination of the menu tree and the recogniser's performance. In this paper we first explain the background of our work. Then we proceed to present and describe the Figure Of Merit that was developed and the tool that was built to implement it. The Figure Of Merit takes into account the proportion of calls in which no recognition errors occur, the proportion of calls that are successful, and the expected number of extra dialogue pairs in successful calls containing recognition errors. Moreover, the dialogue nodes that are most likely to cause errors are displayed. The paper ends with a short account of our first experience in using the Figure Of Merit and its attendant tools.\n",
+    ""
+   ]
+  },
+  "oleary93_ast": {
+   "authors": [
+    [
+     "Gerald C.",
+     "O'Leary"
+    ],
+    [
+     "Clifford J.",
+     "Weinstein"
+    ]
+   ],
+   "title": "Military and other government applications of human-machine communication by voice",
+   "original": "ast3_065",
+   "page_count": 5,
+   "order": 14,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper describes a range of opportunities for military and government applications of human-machine communication by voice, based on visits and contacts with numerous user organizations in the United States. The applications include some which appear to be feasible by careful integration of current state-of-the-art technology, and others which will require a varying mix of advances in speech technology and in integration of the technology into applications environments. Applications which are described include: (1) speech recognition and synthesis for mobile command and control; (2) speech processing for a portable, multi-function soldier's computer; (3) speech and language-based technology for naval combat team tactical training; (4) speech technology for command and control on a carrier flight deck; (5) control of auxiliary systems, and alert and warning generation, in fighter aircraft and in helicopters; and (6) voice check-in, report entry, and communication for law enforcement agents or for special forces. A phased approach for transfer of the technology into applications is outlined, where integration of applications systems is pursued in parallel with advanced research to meet future application needs.\n",
+    ""
+   ]
+  },
+  "bares93_ast": {
+   "authors": [
+    [
+     "Michel",
+     "Bares"
+    ]
+   ],
+   "title": "Conceptual approach to model the man-machine interface: (application to the pilot's associate)",
+   "original": "ast3_071",
+   "page_count": 4,
+   "order": 15,
+   "p1": "71",
+   "pn": "74",
+   "abstract": [
+    "In the past we have believed that, in an embedded system framework, the best way of solving the problem of an on-board interaction system was to make a judicious choice of the communication channel and to improve its related techniques. That was the very case for the speech processing devices that are to outfit the next generation of manned combat aircraft. In France, a similar choice has been made for the Rafale D. What is getting strange right now, is that we realize that the only use of speech processing systems is not sufficient although an on-board aircraft operationnal use is more and more feasable. We also realize, considering the pilot's associate for instance, that man-machine interface and dialogue are getting more and more complex and cannot be based on one single channel. In other words, speech processing although interesting by itself appears to be used with more benefit if we are able to \"multiplex\" it with other communication devices. In the context of a pilot's assistance, it is becoming necessary to envisage a multimodal approach. But in this way, we have to tackle new questions : what is an interaction ? how to get to represent the semantics of an interaction? etc... Finally we have to define a new global conceptual approach which could be used to model a multimodal man-machine interaction integrating voice. In this paper we describe some essential elements about this approach and introduce some adequate notions.\n",
+    ""
+   ]
+  },
+  "south93_ast": {
+   "authors": [
+    [
+     "A. J.",
+     "South"
+    ]
+   ],
+   "title": "Automatic speech recognition in the military fast jet",
+   "original": "ast3_075",
+   "page_count": 4,
+   "order": 16,
+   "p1": "75",
+   "pn": "78",
+   "abstract": [
+    "It has long been recognised that the use of automatic speech recognition has the potential to be of considerable help to the crew of military fast jets. Past trials and simulation experiments have shown that the error rates of the ASR equipment used was not low enough for the benefits to be realised in practice. The most recent flight trials conducted by DRA have shown large improvements in recognition accuracy, and have been received favourably by the aircrew. An accuracy of over 95% has been achieved for command phrases in straight and level flight and simulated terrain avoidance. This level of accuracy is believed to be adequate for operational use. The subjects' subjective ratings of the recognition accuracy were \"acceptable\" or better in over 70% of cases.\n",
+    ""
+   ]
+  },
+  "granstrom93_ast": {
+   "authors": [
+    [
+     "Björn",
+     "Granström"
+    ],
+    [
+     "Mats",
+     "Blomberg"
+    ],
+    [
+     "Kjell",
+     "Elenius"
+    ],
+    [
+     "A.",
+     "Roxström"
+    ],
+    [
+     "S.",
+     "Nordholm"
+    ],
+    [
+     "S.",
+     "Nordebo"
+    ],
+    [
+     "I.",
+     "Claesson"
+    ],
+    [
+     "B.",
+     "Waernulf"
+    ],
+    [
+     "K.",
+     "Eke"
+    ]
+   ],
+   "title": "An experimental voice-based traffic information provider for vehicle drivers",
+   "original": "ast3_079",
+   "page_count": 4,
+   "order": 17,
+   "p1": "79",
+   "pn": "82",
+   "abstract": [
+    "This study describes the development of a voice-based driver interface that has been carried out in a project within the Swedish RTI program. The work covers aspects on speech recognition under adverse conditions, speech synthesis and information management. It has resulted in a pilot demonstrator used for preliminary field trials. As a test bed for a voice based operator interface, the traffic information provided by RDS/TMC (Radio Data System / Traffic Message Channel) has been used. This information is currently broadcast in the Gothenburg region of Sweden. The experimental system presents the decoded TMC messages in spoken output. Since many different messages are broadcast, it should be possible to make a selection of the most interesting and urgent ones. This may be done using an on-board, voice-controlled, PC-based information management system. A speaker adaptive recognizer for a limited vocabulary is used. The noise polluted environment in a car will impede the performance of a speech recognizer. In order to substantially reduce these effects the speech is input via a microphone array using spatial and adaptive filtering techniques. Furthermore, the recognition system is specifically designed to be able to compensate for ambient noise. The voice output is provided by a formant speech synthesizer. To improve the speech quality, phonetic text input has been used to a considerable extent combined with careful design of the spoken utterances.\n",
+    ""
+   ]
+  },
+  "abbott93_ast": {
+   "authors": [
+    [
+     "Martin",
+     "Abbott"
+    ],
+    [
+     "Charles",
+     "Bateman"
+    ]
+   ],
+   "title": "Applications of speech technology in vehicles",
+   "original": "ast3_083",
+   "page_count": 4,
+   "order": 18,
+   "p1": "83",
+   "pn": "86",
+   "abstract": [
+    "Marconi Speech and Information Systems (MSIS) have recently been participating in two projects which investigate the application of speech recognition and speech output technology in vehicles. The first project, completed in 1991, was a feasibility study for Inmarsat, in which a voice command system was used for requesting or logging information via an Inmarsat-C satellite terminal mounted on board a truck. The second project, in collaboration with Lotus Engineering and the Institute of Sound and Vibration Research (ISVR) at Southampton University, is ongoing, and investigates techniques for achieving reliable control of cellular telephones and audio systems in vehicles. It will culminate in a prototype installation for use in field trials.\n",
+    ""
+   ]
+  },
+  "gerlach93_ast": {
+   "authors": [
+    [
+     "M.",
+     "Gerlach"
+    ],
+    [
+     "R.",
+     "Onken"
+    ]
+   ],
+   "title": "Speech input/output as interface devices for communication between aircraft pilots and the pilot assistant system \"GASSY\"",
+   "original": "ast3_087",
+   "page_count": 4,
+   "order": 19,
+   "p1": "87",
+   "pn": "90",
+   "abstract": [
+    "A knowledge-based system is described which aims at supporting aircraft pilots in decision making, flight planning and flight plan execution. The interface between the support system and the pilots is established using extensively speech input and speech output. In this article a description is given how these communication devices are integrated into the system and in which way the information flow is controlled.\n",
+    ""
+   ]
+  },
+  "marque93_ast": {
+   "authors": [
+    [
+     "F.",
+     "Marque"
+    ],
+    [
+     "S. K.",
+     "Bennacef"
+    ],
+    [
+     "Francoise",
+     "Néel"
+    ],
+    [
+     "S.",
+     "Trinh"
+    ]
+   ],
+   "title": "PAROLE: a vocal dialogue system for air traffic control training",
+   "original": "ast3_091",
+   "page_count": 4,
+   "order": 20,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "This paper presents a dialogue system integrating speech recognition and synthesis, designed as an aid to Air Traffic Training. The PAROLE prototype assumes tasks which used to be executed by an operator called the \"pseudo-pilot\": vocal interface with the trainee controller, simulation of the behaviour of aircraft pilots and interface with the air traffic simulator. After fundamental studies, an industrial prototype was developed last year by a consortium comprising the CENA, STERIA Ingenierie & Telecom, LIMSI-CNRS, SEXTANT-AVIONIQUE and VBCSYS. This year it will be systematically assessed with real trainee controllers at the ENAC (Engineering School for Air-Traffic Controllers).\n",
+    ""
+   ]
+  },
+  "pastor93_ast": {
+   "authors": [
+    [
+     "Dominique",
+     "Pastor"
+    ],
+    [
+     "Christian",
+     "Gulli"
+    ]
+   ],
+   "title": "D.i.v.a. (DIalogue vocal pour aeronef) performances in simulated aircraft cockpit environments",
+   "original": "ast3_095",
+   "page_count": 4,
+   "order": 21,
+   "p1": "95",
+   "pn": "98",
+   "abstract": [
+    "This paper describes the results we obtained during recognition tests in simulated aircraft cockpit environments. In previous papers, we had shown that Speech-Noise Discrimination and Noise Cancellation were useful in order to improve recognition rates in noisy environments [1] and under G-load [2]. Such algorithms have been involved in the Sextant Speech Recognizer prototype whose name is D.LV.A. (Dialogue Vocal pour Aeronef). The aim of this paper, after having recalled some characteristics of our system, is to decribe the results we obtained under simulated aircraft cockpit environments.\n",
+    ""
+   ]
+  },
+  "steeneken93_ast": {
+   "authors": [
+    [
+     "Herman J. M.",
+     "Steeneken"
+    ],
+    [
+     "J. G. van",
+     "Velden"
+    ]
+   ],
+   "title": "The effect of an oxygen mask on automatic speech recognition",
+   "original": "ast3_099",
+   "page_count": 4,
+   "order": 22,
+   "p1": "99",
+   "pn": "102",
+   "abstract": [
+    "The effect of an oxygen mask on the performance of an ASR system was studied. We also investigated some physical parameters of the mask which describe the deterioration of the speech signal (SNR, frequency response, breath noise, etc.). Based on that description an attempt was made to simulate these effects by means of a transmission channel simulator. Two data bases were recorded (a condensed version of the AFTI-F16 cockpit control words, and the diagnostic CVC-words). Several  recognizers were used to evaluate the recognition performance for the recorded data bases and the conditions of deterioration. The results show that the oxygen mask has a significant effect on recognition  performance. In combination with cockpit noise, up to levels of 100 dBA, a relatively small effect due to the noise and the sound attenuation by the oxygen mask on the recognition performance is observed. It was shown that the linear effect of an oxygen mask on speech transmission can be simulated by a FIR filter.\n",
+    ""
+   ]
+  },
+  "baker93_ast": {
+   "authors": [
+    [
+     "Janet M.",
+     "Baker"
+    ]
+   ],
+   "title": "Using speech recognition for dictation and other large vocabulary applications",
+   "original": "ast3_103",
+   "page_count": 9,
+   "order": 23,
+   "p1": "103",
+   "pn": "112",
+   "abstract": [
+    "Since its commercial introduction in 1990, general-purpose large vocabulary speech recognition has found broad-ranging applications. Although dictation and document creation applications predominate, other significant applications have fanned out to span database /information retrieval queries, mail routing by name/address designation, directory/information services, voice programming, and electronic mail generation. This tutorial focuses on application requirements, and typical case studies of users in Europe and North America.\n",
+    ""
+   ]
+  },
+  "sharman93_ast": {
+   "authors": [
+    [
+     "R. A.",
+     "Sharman"
+    ]
+   ],
+   "title": "Speech interfaces for computer systems: experience with an automatic dictation system",
+   "original": "ast3_113",
+   "page_count": 4,
+   "order": 24,
+   "p1": "113",
+   "pn": "116",
+   "abstract": [
+    "Speech Recognition technologies have been developed largely in terms of criteria relevant to the evaluation of the technology itself, such as vocabulary size, speaking style, and speaker characteristics. The application of this technology to the automation of existing tasks such as command-and-control, or office-dictation, have encountered a range of usability problems not previously considered important. Such factors include the type of feedback, the nature of user and system training, adaptation, and the methodology required for correction and repair of incomplete or inaccurate communication. A case study derived from extensive testing of the different types of interfaces employed for office dictation using a large-vocabulary speech recognition system is given. A new classification of speech Interfaces is proposed concentrating on the granularity of speech input, the type of feedback given, and the adaptive nature of the interface. This is presented as a step towards the establishment of some principles of dialogue design for speech interfaces in general..\n",
+    ""
+   ]
+  },
+  "pettman93_ast": {
+   "authors": [
+    [
+     "Michael",
+     "Pettman"
+    ]
+   ],
+   "title": "The applications and implications of speech recognition in the professional and executive office",
+   "original": "ast3_117",
+   "page_count": 4,
+   "order": 25,
+   "p1": "117",
+   "pn": "120",
+   "abstract": [
+    "In this paper, Michael Pettman, a commercial lawyer practising in London draws some conclusions about the use of speech recognition systems in the professional and executive office arising from his own experience of deploying the DragonDictate software in his office and from his experience as a director of the UK DragonDictate distributor, ASA Voice Writer Limited which has some 40 customer sites in the UK.\n",
+    ""
+   ]
+  },
+  "derouault93_ast": {
+   "authors": [
+    [
+     "A. M.",
+     "Derouault"
+    ],
+    [
+     "E.",
+     "Keppel"
+    ],
+    [
+     "S.",
+     "Fusi"
+    ],
+    [
+     "J. C.",
+     "Marcadet"
+    ],
+    [
+     "E.",
+     "Janke"
+    ]
+   ],
+   "title": "The IBM speech server series and its applications in europe",
+   "original": "ast3_121",
+   "page_count": 4,
+   "order": 26,
+   "p1": "121",
+   "pn": "124",
+   "abstract": [
+    "This paper describes the Automatic Dictation product announced in November 92 for 5 major languages and summarizes the pilot experiments conducted between 1989 and 1992 in different application areas. The IBM Speech Server Series is based upon the Tangora technology and can run on a standalone RS/6000 environment or in a network environment with an RS/6000 server and PS/2 or RS/6000 clients. It features a Starter Set vocabulary of more than 20,000 entries, to which a few thousands entries can be added by a user. Experiments were conducted in 5 different areas throughout Europe: Banking, Insurance, Legal, Health and Technical Documentation. Resulls confirmed the system accuracy in a real environment. Benefits for the user are both quantitative in terms of productivity and qualitative in terms of user friendliness.\n",
+    ""
+   ]
+  },
+  "falck93_ast": {
+   "authors": [
+    [
+     "Thomas",
+     "Falck"
+    ],
+    [
+     "Stephan",
+     "Gamm"
+    ],
+    [
+     "Anja",
+     "Kerner"
+    ]
+   ],
+   "title": "Multimodal dialogues make feature phones easier to use",
+   "original": "ast3_125",
+   "page_count": 4,
+   "order": 27,
+   "p1": "125",
+   "pn": "130",
+   "abstract": [
+    "Today's feature phones support the user during call set-up with a key-controlled electronic directory. More sophisticated terminals have a voice dialling feature. Usability evaluations reveal strengths and weaknesses for both features. In order to make the product more usable human factors considerations speak for an integration of both features. Along with this goes an integration of the two modalities, namely key control and voice control. The resulting multimodal dialogue between man and machine turns out to be the crucial part for a more usable product.\n",
+    ""
+   ]
+  },
+  "hiller93_ast": {
+   "authors": [
+    [
+     "Steven",
+     "Hiller"
+    ],
+    [
+     "Edmund",
+     "Rooney"
+    ],
+    [
+     "Jean-Paul",
+     "Lefevre"
+    ],
+    [
+     "Mervyn",
+     "Jack"
+    ]
+   ],
+   "title": "SPELL: a pronunciation training device based on speech technology",
+   "original": "ast3_131",
+   "page_count": 4,
+   "order": 28,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "This paper describes the application of speech technology in a workstation to improve the pronunciation of foreign language students. The SPELL workstation uses techniques of speech analysis to assess and improve learners' pronunciation in modules for teaching consonant production, vowel quality, rhythm and intonation, in three European languages (English, French and Italian). Each teaching module is discussed in terms of its phonetic basis, the implementation of its analysis modules and a description of the associated graphic user interface.\n",
+    ""
+   ]
+  },
+  "love93_ast": {
+   "authors": [
+    [
+     "Naomi",
+     "Love"
+    ]
+   ],
+   "title": "Strain is such a pain",
+   "original": "ast3_135",
+   "page_count": 5,
+   "order": 29,
+   "p1": "135",
+   "pn": "140",
+   "abstract": [
+    "The pain of RSI is not Just a physical one, it can lead to an even more painful uphill struggle, whereby sufferers are forced into battle with employers, doctors and the system to first recognise and then give practical help to alleviate their affliction. Those who are fortunate enough to have discovered voice activated computer systems see their introduction as \"a positive way forward\".\n",
+    ""
+   ]
+  },
+  "schutte93_ast": {
+   "authors": [
+    [
+     "Burkhard",
+     "Schütte"
+    ]
+   ],
+   "title": "Speech recognition in the rehabilitation of mobility-impaired persons",
+   "original": "ast3_141",
+   "page_count": 4,
+   "order": 30,
+   "p1": "141",
+   "pn": "144",
+   "abstract": [
+    "It is the goal of this paper to show which innovations the use of speech recognition has introduced in the field of rehabilitation and which relevance these innovations have for the people undergoing rehabilitation. A possible rehabilitation course will be followed and the use of speech recognition at each stage will be examined. References will also be made to the obstacles of obtaining/financing a speech recognition system, an obstacle still in the way of large-scale implementations of such systems.\n",
+    ""
+   ]
+  },
+  "cheepen93_ast": {
+   "authors": [
+    [
+     "Christine",
+     "Cheepen"
+    ],
+    [
+     "James",
+     "Monaghan"
+    ]
+   ],
+   "title": "The computer aided learning enhancement project (CALE)",
+   "original": "ast3_145",
+   "page_count": 4,
+   "order": 31,
+   "p1": "145",
+   "pn": "148",
+   "abstract": [
+    "The problem of customising ASR systems to achieve maximum functionality in a special needs context, depends on close liaison with users of the prototype system and readiness to develop in terms of their needs. Some of these needs stem from requests but more are based on observations of typical problems that arise. The present paper outlines some of the features - and techniques used to find them - of the CALE system.\n",
+    ""
+   ]
+  },
+  "jack93_ast": {
+   "authors": [
+    [
+     "Mervyn A.",
+     "Jack"
+    ],
+    [
+     "J. C.",
+     "Foster"
+    ],
+    [
+     "F. W.",
+     "Stentiford"
+    ]
+   ],
+   "title": "Usability analysis of intelligent dialogues for automated telephone services",
+   "original": "ast3_149",
+   "page_count": 4,
+   "order": 32,
+   "p1": "149",
+   "pn": "152",
+   "abstract": [
+    "This paper describes work carried out as part of a five year research project to investigate the design, implementation and evaluation of dialogues for automated telephone services. The project involves a series of large-scale field experiments using a new Wizard of Oz (WOZ) scheme for the investigation of the perceived usability of such services. The WOZ experimental workbench is based around a simulation of a speech recognition system with selectable performance characteristics, allowing experiments to be carried out with recogniser performance capabilities extrapolated beyond the current state-of-the-art. The WOZ system also possesses a fully integrated dialogue component which can be independently modified to suit different experimental objectives. Experiments using the WOZ scheme are described with details of the user evaluation measures employed in the research, together with experimental results.\n",
+    ""
+   ]
+  },
+  "macdermid93_ast": {
+   "authors": [
+    [
+     "C.",
+     "MacDermid"
+    ]
+   ],
+   "title": "Conversations with a spoken dialogue system: findings from Wizard of Oz simulations",
+   "original": "ast3_153",
+   "page_count": 4,
+   "order": 33,
+   "p1": "153",
+   "pn": "156",
+   "abstract": [
+    "During the development of speech-based database enquiry systems for dialogue over the telephone with members of the general public, Wizard of Oz simulations (in which an accomplice plays the role of the system) were conducted. The simulations provided evidence of naive callers adapting their speech to the system's presumed capabilities. They have also shown that callers tolerate speech recognition errors where there is graceful error recovery However, the data have raised questions about the need for constraints to be imposed on callers' initial utterances if dialogues are to be successful.\n",
+    ""
+   ]
+  },
+  "caelen93_ast": {
+   "authors": [
+    [
+     "Jean",
+     "Caelen"
+    ]
+   ],
+   "title": "Speech and multimodal interface: the case of ICPdraw",
+   "original": "ast3_157",
+   "page_count": 5,
+   "order": 34,
+   "p1": "157",
+   "pn": "162",
+   "abstract": [
+    "This paper presents a multimodal human-machine interface implementation. The ICPdraw architecture is detailed, especially with respect to event management and interpretation of the multimodal informations. Multilayered organization is built as follows: dedicaced hardware (speech recognition and synthesis, gesture recognition), and event servers (speech, mouse, etc.) at the low level, event manager for mixing all multimodal information, dialogue controller, communication interface with the application at the high level.\n",
+    ""
+   ]
+  },
+  "nemeth93_ast": {
+   "authors": [
+    [
+     "Géza",
+     "Németh"
+    ],
+    [
+     "Attila",
+     "Tihanyi"
+    ],
+    [
+     "Gábor",
+     "Olaszy"
+    ],
+    [
+     "József",
+     "Gátmezei"
+    ]
+   ],
+   "title": "Integrated application of low bit rate coding and text-to-speech synthesis for intelligent telecommunications services",
+   "original": "ast3_163",
+   "page_count": 4,
+   "order": 35,
+   "p1": "163",
+   "pn": "166",
+   "abstract": [
+    "In the paper speech technology aspects of a voice announcement system (called Intelligent Message System, IMS) designed for providing real-time multichannel services for crossbar and/or for stored program control (SPC) exchanges will be introduced. The most important messages are coded from human voice at a bit rate of 1.5 kbits/s. Additional messages can be created instantly on the spot, from existing vocabulary elements or by using the MULTIVOX multilingual text-to-speech system /I/, enhanced with extra editing and downloading capabilities. An approximately double Eurocard format board contains a Voice Synthesizer Subsystem (VSS)t that can handle maximum 16 channels in real-time from a vocabulary of approximately four minutes. 10 VSS boards (i.e. 160 channels) can be controlled together using the multipoint RS-422 interface. The system has been installed in six large exchanges of approximately 160.000 lines between December 1992 and May 1993 . Keywords: intelligent telecommunications services, speech synthesis, voice announcement, messaging systems, exchange extensions.\n",
+    ""
+   ]
+  },
+  "belhoula93_ast": {
+   "authors": [
+    [
+     "Karim",
+     "Belhoula"
+    ]
+   ],
+   "title": "A concept for the synthesis of names",
+   "original": "ast3_167",
+   "page_count": 4,
+   "order": 36,
+   "p1": "167",
+   "pn": "170",
+   "abstract": [
+    "In view of many applications the synthesis of names (names of people, places, streets and trades) is of increasing importance, and in the near future it will be integrated in several services. However, most commercially available text-to-speech systems are unable to pronounce names correctly, since these systems were first of all developed for the synthesis of standard vocabulary. Thus, most German synthesis systems perform quite well for the segmentation of compound words into morphemes and for the letter-to-sound rules, but these algorithms are not necessarily appropriate for the pronunciation of German names. Furthermore, there are cases where names cannot be processed with the German morphological and phonetical rules when these names are derived from other languages. This paper will introduce a concept for the synthesis of person first names.\n",
+    ""
+   ]
+  },
+  "azemard93_ast": {
+   "authors": [
+    [
+     "Frédéric",
+     "Azémard"
+    ],
+    [
+     "Jean-Pierre",
+     "Macchion"
+    ]
+   ],
+   "title": "From an event to a conceptual graph to interpret in a multimodal context",
+   "original": "ast3_171",
+   "page_count": 4,
+   "order": 37,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "In this paper, we expose the choices we did for the multimodal events interpretation. We consider speech events in the french natural language and mouse clicks. We show how we turn the events into conceptual graphs and we introduce the various stages which bring these graphs to the dialog manager.\n",
+    ""
+   ]
+  },
+  "castaing93_ast": {
+   "authors": [
+    [
+     "Marie-Francoise",
+     "Castaing"
+    ],
+    [
+     "Dominique",
+     "Truc-Martini"
+    ]
+   ],
+   "title": "STANDIA: an intelligent voice-activated switchboard. design and ergonomic study",
+   "original": "ast3_175",
+   "page_count": 4,
+   "order": 38,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "Standia is a project to design an intelligent voice-activated switchboard reproducing all the functions of a conventional telephone switchboard. To be closer to a real situation, we observed and analysed the activities of a conventional switchboard. The corpus which was collected (500 dialogues) allowed us to check the assumptions of the designers of Standia. By studying an analysing the human-human communication in the records, we proposed some ergonomics recommendations in the telephone topics. Keywords: human factor science in telephone system, speech technology\n",
+    ""
+   ]
+  },
+  "ciaramella93_ast": {
+   "authors": [
+    [
+     "A.",
+     "Ciaramella"
+    ],
+    [
+     "D.",
+     "Clementino"
+    ],
+    [
+     "L.",
+     "Fissore"
+    ],
+    [
+     "R.",
+     "Pacifici"
+    ],
+    [
+     "S.",
+     "Sperti"
+    ]
+   ],
+   "title": "Voice dialling by name in a PBX environment",
+   "original": "ast3_179",
+   "page_count": 4,
+   "order": 39,
+   "p1": "179",
+   "pn": "182",
+   "abstract": [
+    "We present a Voice Dialling System with access by name, to be employed on a PBX with a lexicon of nearly 1000 entries, based on a real-time speaker-independent recognizer with customizable vocabulary. The recognizer is based on the Open Vocabulary Speech Recognition (OVSR) technology which paves the way to speech recognition applications requiring frequent user customization of task vocabulary.\n",
+    ""
+   ]
+  },
+  "pouteau93_ast": {
+   "authors": [
+    [
+     "Xavier",
+     "Pouteau"
+    ],
+    [
+     "Bertrand",
+     "Gaiffe"
+    ],
+    [
+     "Jean-Marie",
+     "Pierrel"
+    ]
+   ],
+   "title": "A knowledge-based approach towards operative multintodal dialogues: MELODIA experiment",
+   "original": "ast3_183",
+   "page_count": 4,
+   "order": 40,
+   "p1": "183",
+   "pn": "186",
+   "abstract": [
+    "MELODIA is a development environment that has been developped in order to deal with the needs of interfaces for command and control applications. In this perspective, both issues of easiness of use and genericity for the development of the interface are raised. This project aims at providing the user of the final interface with a \"natural\" means of communication and the developper with a set of tools that allow for a modular, knowledge-based approach.\n",
+    ""
+   ]
+  },
+  "tambakas93_ast": {
+   "authors": [
+    [
+     "D.",
+     "Tambakas"
+    ],
+    [
+     "G.",
+     "Epitropakis"
+    ],
+    [
+     "Nikos",
+     "Fakotakis"
+    ],
+    [
+     "George",
+     "Kokkinakis"
+    ]
+   ],
+   "title": "A voice interactive educational system",
+   "original": "ast3_187",
+   "page_count": 4,
+   "order": 41,
+   "p1": "187",
+   "pn": "190",
+   "abstract": [
+    "This paper describes the application of speech recognition and text-to-speech synthesis to a voice interactive system that can be used for educational activities, such as skill training, self teaching in various primary and secondary school levels, etc. In addition, this system is suitable for disabled people because the user communicates with the system through voice and not only through the standard I/O PC devices.\n",
+    ""
+   ]
+  },
+  "junqua93_ast": {
+   "authors": [
+    [
+     "Jean-Claude",
+     "Junqua"
+    ],
+    [
+     "Philippe",
+     "Morin"
+    ]
+   ],
+   "title": "Towards successful and usable multimodal applications using speech technology",
+   "original": "ast3_191",
+   "page_count": 4,
+   "order": 42,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "After pointing out some of the factors that we believe are essential in the realization of successful voice-based user interfaces, we describe briefly the architecture and important features of the multimodal dialogue PARTNER that we are currently developing. Then, we outline the main characteristics of an Intelligent Home Appliance Controller application (IHAC) to which we apply our system.\n",
+    ""
+   ]
+  },
+  "canavesio93_ast": {
+   "authors": [
+    [
+     "F.",
+     "Canavesio"
+    ],
+    [
+     "G.",
+     "Castagneri"
+    ],
+    [
+     "G. Di",
+     "Fabbrizio"
+    ],
+    [
+     "F.",
+     "Senia"
+    ]
+   ],
+   "title": "An overview on recogniser testing activities performed in CSELT",
+   "original": "ast3_195",
+   "page_count": 4,
+   "order": 43,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "The goal of this paper is to describe the testing activities on telephone speech recognisers performed in CSELT during the last year. Both commercial devices and laboratory prototypes have been widely tested in laboratory following the specification developed in the ESPRIT Project SAM. For this purpose speech databases, collected over the Italian Public Switched Telephone Network (PSTN), have been used. Recently, a new facility developed in CSELT, allowed on-line testing of re cognisers during the collection of speech database. These data have been used to verify the laboratory test setup.\n",
+    ""
+   ]
+  },
+  "cotto93_ast": {
+   "authors": [
+    [
+     "Daniel",
+     "Cotto"
+    ]
+   ],
+   "title": "Improvement of unrestricted text synthesis by the linguistic preprocessing tool: TEXOR",
+   "original": "ast3_199",
+   "page_count": 4,
+   "order": 44,
+   "p1": "199",
+   "pn": "202",
+   "abstract": [
+    "In this paper we describe our linguistic preprocessing tool for synthesizing unrestricted texts : TEXOR. It consists of three modules : a metatextual module, a textual and a configuration ones. Then we introduce applications which can integrate TEXOR, in particular voice computer workstations for visually impaired persons. Last, we present a first evaluation of our system. This evaluation have been realized in the framework of electronic newspaper reading.\n",
+    ""
+   ]
+  },
+  "damper93_ast": {
+   "authors": [
+    [
+     "Robert I.",
+     "Damper"
+    ],
+    [
+     "S. D.",
+     "Wood"
+    ]
+   ],
+   "title": "Speech versus keying: a human factors study",
+   "original": "ast3_203",
+   "page_count": 4,
+   "order": 45,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "Speech, recognition capability is generally believed to offer great benefits in human-computer interaction. This belief has not always been supported by experimental comparisons of speech and competitor input media such as keying. One study which has purportedly shown the very significant superiority of speech over keying is that of Poock (1980). This paper argues that this finding is an artifact of a methodological Saw, specifically that the command vocabulary is chosen to suit the requirements of speech input and makes little or concession to the requirements of keying. We describe experiments modelled on those of Poock but designed to overcome this flaw and demonstrate that the claimed superiority, disappears. In fact, we find that speech input is 10.6% slower (although this difference is not statistically significant) and 360% more error-prone than, keying.\n",
+    ""
+   ]
+  },
+  "lamel93_ast": {
+   "authors": [
+    [
+     "Lori F.",
+     "Lamel"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "B.",
+     "Prouts"
+    ],
+    [
+     "C.",
+     "Bouhier"
+    ],
+    [
+     "R.",
+     "Boesch"
+    ]
+   ],
+   "title": "Generation and synthesis of broadcast messages",
+   "original": "ast3_207",
+   "page_count": 4,
+   "order": 46,
+   "p1": "207",
+   "pn": "210",
+   "abstract": [
+    "In this paper we present a system designed by VECSYS, in collaboration with LIMSI, to generate and synthesize high quality broadcast messages. The system is currently under-going evaluation tests to automatically generate and broadcast messages about weather and airport conditions. The generated messages are alternately broadcast in French and in English.\n",
+    "This paper focuses on the synthesis aspects of the system which synthesizes messages by concatenation of speech units stored in the form of a dictionary. The texts corresponding to the messages to be synthesized and broadcast are automatically generated by a server, and transmitted to the synthesis component. Should the system be unable to generate the message from existing entries in the dictionary, the system permits a human operator to record the message which is subsequently broadcast.\n",
+    ""
+   ]
+  },
+  "mitchell93_ast": {
+   "authors": [
+    [
+     "John C.",
+     "Mitchell"
+    ]
+   ],
+   "title": "How voice technology is changing popular application software",
+   "original": "ast3_211",
+   "page_count": 4,
+   "order": 47,
+   "p1": "211",
+   "pn": "214",
+   "abstract": [
+    "Early attempts at commercial voice recognition seem to be based on replacing keyboard commands with simple phrases. The result is that authors of documents still have to learn how computer systems work. This presents a major obstacle to the growth of voice recognition. Many authors do not want to master the technology but almost all would agree that, if the benefits were available without this proviso, they could be won over. This document examines how voice recognition systems, with particular reference to large vocabulary word processing applications, can be significantly enhanced to produce the perceived penetration into the marketplace that otherwise may well remain a distant possibility.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "gavignet93_ast",
+    "spiegel93_ast",
+    "dobler93_ast",
+    "carey93_ast",
+    "gagnoulet93_ast",
+    "teunissen93_ast",
+    "temem93_ast",
+    "hunt93_ast",
+    "doddington93_ast",
+    "taylor93_ast",
+    "nitta93_ast",
+    "guyomard93_ast",
+    "boogaart93_ast",
+    "oleary93_ast",
+    "bares93_ast",
+    "south93_ast",
+    "granstrom93_ast",
+    "abbott93_ast",
+    "gerlach93_ast",
+    "marque93_ast",
+    "pastor93_ast",
+    "steeneken93_ast",
+    "baker93_ast",
+    "sharman93_ast",
+    "pettman93_ast",
+    "derouault93_ast",
+    "falck93_ast",
+    "hiller93_ast",
+    "love93_ast",
+    "schutte93_ast",
+    "cheepen93_ast",
+    "jack93_ast",
+    "macdermid93_ast",
+    "caelen93_ast",
+    "nemeth93_ast",
+    "belhoula93_ast",
+    "azemard93_ast",
+    "castaing93_ast",
+    "ciaramella93_ast",
+    "pouteau93_ast",
+    "tambakas93_ast",
+    "junqua93_ast",
+    "canavesio93_ast",
+    "cotto93_ast",
+    "damper93_ast",
+    "lamel93_ast",
+    "mitchell93_ast"
+   ]
+  }
+ ]
+}

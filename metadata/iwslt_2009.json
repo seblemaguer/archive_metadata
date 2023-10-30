@@ -1,0 +1,859 @@
+{
+ "title": "International Workshop on Spoken Language Translation (IWSLT 2009)",
+ "location": "Tokyo, Japan",
+ "startDate": "1/12/2009",
+ "endDate": "2/12/2009",
+ "conf": "IWSLT",
+ "year": "2009",
+ "name": "iwslt_2009",
+ "series": "IWSLT",
+ "SIG": "",
+ "title1": "International Workshop on Spoken Language Translation",
+ "title2": "(IWSLT 2009)",
+ "date": "1-2 December 2009",
+ "booklet": "iwslt_2009.pdf",
+ "papers": {
+  "koehn09_iwslt": {
+   "authors": [
+    [
+     "Philipp",
+     "Koehn"
+    ]
+   ],
+   "title": "Human translation and machine translation",
+   "original": "slt9_201",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "While most of recent machine translation work has focus on the gisting application (i.e., translating web pages), another important application is to aid human translators. To build better computer aided translation tools, we first need to understand how human translators work. We discuss how human translators work and what tools they typically use. We also build a novel tool that offers post-editing, interactive sentence completion, and display of translation options (online at www.caitra.org). We collected timing logs on interactions with the tool, which allows detailed analysis of translator behavior.\n",
+    ""
+   ]
+  },
+  "natarajan09_iwslt": {
+   "authors": [
+    [
+     "Premkumar",
+     "Natarajan"
+    ]
+   ],
+   "title": "Two-way speech-to-speech translation for communicating across language barriers",
+   "original": "slt9_202",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Two-way speech-to-speech (S2S) translation is a spoken language application that integrates multiple technologies including speech recognition, machine translation, text-to-speech synthesis, and dialog management. In recent years, research into S2S systems has resulted in several modeling techniques for improving coverage on broad domains and rapid configuration for new language pairs or domains. This talk will highlight recent advances in S2S area that range from improvements in component technologies to improvements in the end-to-end system for mobile use. I will also present metrics for evaluating the S2S technology, a methodology for determining the impact of different causes of errors, and future directions for research and development.\n",
+    ""
+   ]
+  },
+  "torisawa09_iwslt": {
+   "authors": [
+    [
+     "Kentaro",
+     "Torisawa"
+    ]
+   ],
+   "title": "Monolingual knowledge acquisition and a multilingual information environment",
+   "original": "slt9_203",
+   "page_count": 0,
+   "order": 3,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Large-scale knowledge acquisition from the Web has been a popular research topic in the last five years. This talk gives an overview of our current project aiming at the acquisition of a large scale semantic network from the Web, and in the talk I explore its possible interaction with machine translation research. Particularly, I would like to focus on two topics; multilingual corpora as source of knowledge and the applications of machine translation enabled by our technology. I will discuss a framework of bilingual co-training that gives a marked improvement in accuracy of the acquired knowledge by using two corpora written in two different languages. Also, I will show our technology can enable a new type of tasks for machine translation in Web applications.\n",
+    ""
+   ]
+  },
+  "paul09_iwslt": {
+   "authors": [
+    [
+     "Michael",
+     "Paul"
+    ]
+   ],
+   "title": "Overview of the IWSLT 2009 evaluation campaign",
+   "original": "slt9_001",
+   "page_count": 18,
+   "order": 4,
+   "p1": "1",
+   "pn": "18",
+   "abstract": [
+    "This paper gives an overview of the evaluation campaign results of the International Workshop on Spoken Language Translation (IWSLT) 2009. In this workshop, we focused on the translation of task-oriented human dialogs in travel situations. The speech data was recorded through human interpreters, where native speakers of different languages were asked to complete certain travel-related tasks like hotel reservations using their mother tongue. The translation of the freely-uttered conversation was carried out by human interpreters. The obtained speech data was annotated with dialog and speaker information.   The translation directions were English into Chinese and vice versa for the Challenge Task, and Arabic, Chinese, and Turkish, which is a new edition, into English for the standard BTEC Task. In total, 18 research groups participated in this year's event. Automatic and subjective evaluations were carried out in order to investigate the impact of task-oriented human dialogs on automatic speech recognition (ASR) and machine translation (MT) system performance, as well as the robustness of state-of-the-art MT systems for speech-tospeech translation in a dialog scenario.\n",
+    ""
+   ]
+  },
+  "kopru09_iwslt": {
+   "authors": [
+    [
+     "Selçuk",
+     "Köprü"
+    ]
+   ],
+   "title": "Apptek Turkish-English machine translation system description for IWSLT 2009",
+   "original": "slt9_019",
+   "page_count": 5,
+   "order": 5,
+   "p1": "19",
+   "pn": "23",
+   "abstract": [
+    "In this paper, we describe the techniques that are explored in the AppTek system to enhance the translations in the Turkish to English track of IWSLT09. The submission was generated using a phrase-based statistical machine translation system. We also researched the usage of morpho-syntactic information and the application of word reordering in order to improve the translation results. The results are evaluated based on BLEU and METEOR scores. We show that the usage of morpho-syntactic information yields 3 BLEU points gain in the overall system.\n",
+    ""
+   ]
+  },
+  "costajussa09_iwslt": {
+   "authors": [
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "Rafael E.",
+     "Banchs"
+    ]
+   ],
+   "title": "Barcelona media SMT system description for the IWSLT 2009: introducing source context information",
+   "original": "slt9_024",
+   "page_count": 5,
+   "order": 6,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "This paper describes the Barcelona Media SMT system in the IWSLT 2009 evaluation campaign. The Barcelona Media system is an statistical phrase-based system enriched with source context information. Adding source context in an SMT system is interesting to enhance the translation in order to solve lexical and structural choice errors. The novel technique uses a similarity metric among each test sentence and each training sentence. First experimental results of this technique are reported in the Arabic and Chinese Basic Traveling Expression Corpus (BTEC) task. Although working in a single domain, there are ambiguities in SMT translation units and slight improvements in BLEU are shown in both tasks (Zh2En and Ar2En).\n",
+    ""
+   ]
+  },
+  "ma09_iwslt": {
+   "authors": [
+    [
+     "Yanjun",
+     "Ma"
+    ],
+    [
+     "Tsuyoshi",
+     "Okita"
+    ],
+    [
+     "Özlem",
+     "Çetinoğlu"
+    ],
+    [
+     "Jinhua",
+     "Du"
+    ],
+    [
+     "Andy",
+     "Way"
+    ]
+   ],
+   "title": "Low-resource machine translation using MATREX: the DCU machine translation system for IWSLT 2009",
+   "original": "slt9_029",
+   "page_count": 8,
+   "order": 7,
+   "p1": "29",
+   "pn": "36",
+   "abstract": [
+    "In this paper, we give a description of the Machine Translation (MT) system developed at DCU that was used for our fourth participation in the evaluation campaign of the International Workshop on Spoken Language Translation (IWSLT 2009). Two techniques are deployed in our system in order to improve the translation quality in a low-resource scenario. The first technique is to use multiple segmentations in MT training and to utilise word lattices in decoding stage. The second technique is used to select the optimal training data that can be used to build MT systems. In this year's participation, we use three different prototype SMT systems, and the output from each system are combined using standard system combination method. Our system is the top system for Chinese–English CHALLENGE task in terms of BLEU score.\n",
+    ""
+   ]
+  },
+  "bertoldi09_iwslt": {
+   "authors": [
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Arianna",
+     "Bisazza"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Germán",
+     "Sanchis-Trilles"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "FBK @ IWSLT 2009",
+   "original": "slt9_037",
+   "page_count": 8,
+   "order": 8,
+   "p1": "37",
+   "pn": "44",
+   "abstract": [
+    "This paper reports on the participation of FBK at the IWSLT 2009 Evaluation. This year we worked on the Arabic-English and Turkish-English BTEC tasks with a special effort on linguistic preprocessing techniques involving morphological segmentation. In addition, we investigated the adaptation problem in the development of systems for the Chinese- English and English-Chinese challenge tasks; in particular, we explored different ways for clustering training data into topic or dialog-specific subsets: by producing (and combining) smaller but more focused models, we intended to make better use of the available training data, with the ultimate purpose of improving translation quality.\n",
+    ""
+   ]
+  },
+  "lepage09_iwslt": {
+   "authors": [
+    [
+     "Yves",
+     "Lepage"
+    ],
+    [
+     "Adrien",
+     "Lardilleux"
+    ],
+    [
+     "Julien",
+     "Gosme"
+    ]
+   ],
+   "title": "The GREYC translation memory for the IWSLT 2009 evaluation campaign: one step beyond translation memory",
+   "original": "slt9_045",
+   "page_count": 5,
+   "order": 9,
+   "p1": "45",
+   "pn": "49",
+   "abstract": [
+    "This year's GREYC translation system is an improved translation memory that was designed from scratch to experiment with an approach whose goal is just to improve over the output of a standard translation memory by making heavy use of sub-sentential alignments in a restricted case of translation by analogy. The tracks the system participated in are all BTEC tracks: Arabic to English, Chinese to English, and Turkish to English.\n",
+    ""
+   ]
+  },
+  "duan09_iwslt": {
+   "authors": [
+    [
+     "Xiangyu",
+     "Duan"
+    ],
+    [
+     "Deyi",
+     "Xiong"
+    ],
+    [
+     "Hui",
+     "Zhang"
+    ],
+    [
+     "Min",
+     "Zhang"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "I<sup>2</sup>r’s machine translation system for IWSLT 2009",
+   "original": "slt9_050",
+   "page_count": 5,
+   "order": 10,
+   "p1": "50",
+   "pn": "54",
+   "abstract": [
+    "In this paper, we describe the system and approach used by the Institute for Infocomm Research (I2R) for the IWSLT 2009 spoken language translation evaluation campaign. Two kinds of machine translation systems are applied, namely, phrase-based machine translation system and syntax-based machine translation system. To test syntax-based machine translation system on spoken language translation, variational systems are explored. On top of both phrase-based and syn-tax-based single systems, we further use rescoring method to improve the individual system performance and use system combination method to combine the strengths of the different individual systems. Rescoring is applied on each single sys-tem output, and system combination is applied on all rescor-ing outputs. Finally, our system combination framework shows better performance in Chinese-English BTEC task.\n",
+    ""
+   ]
+  },
+  "mi09_iwslt": {
+   "authors": [
+    [
+     "Haitao",
+     "Mi"
+    ],
+    [
+     "Yang",
+     "Liu"
+    ],
+    [
+     "Tian",
+     "Xia"
+    ],
+    [
+     "Xinyan",
+     "Xiao"
+    ],
+    [
+     "Yang",
+     "Feng"
+    ],
+    [
+     "Jun",
+     "Xie"
+    ],
+    [
+     "Hao",
+     "Xiong"
+    ],
+    [
+     "Zhaopeng",
+     "Tu"
+    ],
+    [
+     "Daqi",
+     "Zheng"
+    ],
+    [
+     "Yajuan",
+     "Lu"
+    ],
+    [
+     "Qun",
+     "Liu"
+    ]
+   ],
+   "title": "The ICT statistical machine translation systems for the IWSLT 2009",
+   "original": "slt9_055",
+   "page_count": 5,
+   "order": 11,
+   "p1": "55",
+   "pn": "59",
+   "abstract": [
+    "This paper describes the ICT Statistical Machine Translation systems that used in the evaluation campaign of the International Workshop on Spoken Language Translation (IWSLT) 2009. For this year's evaluation, we participated in the Challenge Task (Chinese-English and English-Chinese) and BTEC Task (Chinese-English). And we mainly focus on one new method to improve single system's translation quality. Specifically, we developed a sentence-similarity based development set selection technique. For each task, we finally submitted the single system who got the maximum BLEU scores on the selected development set. The four single translation systems are based on different techniques: a linguistically syntax-based system, two formally syntax-based systems and a phrase-based system. Typically, we didn't use any rescoring or system combination techniques in this year's evaluation.\n",
+    ""
+   ]
+  },
+  "bougares09_iwslt": {
+   "authors": [
+    [
+     "Fethi",
+     "Bougares"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Hervé",
+     "Blanchon"
+    ]
+   ],
+   "title": "LIG approach for IWSLT09 : using multiple morphological segmenters for spoken language translation of Arabic",
+   "original": "slt9_060",
+   "page_count": 5,
+   "order": 12,
+   "p1": "60",
+   "pn": "64",
+   "abstract": [
+    "This paper describes the LIG experiments in the context of IWSLT09 evaluation (Arabic to English Statistical Machine Translation task). Arabic is a morphologically rich language, and recent experimentations in our laboratory have shown that the performance of Arabic to English SMT systems varies greatly according to the Arabic morphological segmenters applied. Based on this observation, we propose to use simultaneously multiple segmentations for machine translation of Arabic. The core idea is to keep the ambiguity of the Arabic segmentation in the system input (using confusion networks or lattices). Then, we hope that the best segmentation will be chosen during MT decoding. The mathematics of this multiple segmentation approach are given. Practical implementations in the case of verbatim text translation as well as speech translation (outside of the scope of IWSLT09 this year) are proposed. Experiments conducted in the framework of IWSLT evaluation campaign show the potential of the multiple segmentation approach. The last part of this paper explains in detail the different systems submitted by LIG at IWSLT09 and the results obtained.\n",
+    ""
+   ]
+  },
+  "schwenk09_iwslt": {
+   "authors": [
+    [
+     "Holger",
+     "Schwenk"
+    ],
+    [
+     "Loïc",
+     "Barrault"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ],
+    [
+     "Patrik",
+     "Lambert"
+    ]
+   ],
+   "title": "LIUM’s statistical machine translation systems for IWSLT 2009",
+   "original": "slt9_065",
+   "page_count": 6,
+   "order": 13,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper describes the systems developed by the LIUM laboratory for the 2009 IWSLT evaluation. We participated in the Arabic and Chinese to English BTEC tasks. We developed three different systems: a statistical phrase-based system using the Moses toolkit, an Statistical Post-Editing system and a hierarchical phrase-based system based on Joshua. A continuous space language model was deployed to improve the modeling of the target language. These systems are combined by a confusion network based approach.\n",
+    ""
+   ]
+  },
+  "shen09_iwslt": {
+   "authors": [
+    [
+     "Wade",
+     "Shen"
+    ],
+    [
+     "Brian",
+     "Delaney"
+    ],
+    [
+     "A. Ryan",
+     "Aminzadeh"
+    ],
+    [
+     "Tim",
+     "Anderson"
+    ],
+    [
+     "Ray",
+     "Slyh"
+    ]
+   ],
+   "title": "The MIT-LL/AFRL IWSLT-2009 MT system",
+   "original": "slt9_071",
+   "page_count": 8,
+   "order": 14,
+   "p1": "71",
+   "pn": "78",
+   "abstract": [
+    "This paper describes the MIT-LL/AFRL statistical MT system and the improvements that were developed during the IWSLT 2009 evaluation campaign. As part of these efforts, we experimented with a number of extensions to the standard phrase-based model that improve performance on the Arabic and Turkish to English translation tasks. We discuss the architecture of the MIT-LL/AFRL MT system, improvements over our 2008 system, and experiments we ran during the IWSLT-2009 evaluation. Specifically, we focus on 1) Cross-domain translation using MAP adaptation and unsupervised training, 2) Turkish morphological processing and translation, 3) improved Arabic morphology for MT preprocessing, and 4) system combination methods for machine translation.\n",
+    ""
+   ]
+  },
+  "utiyama09_iwslt": {
+   "authors": [
+    [
+     "Masao",
+     "Utiyama"
+    ],
+    [
+     "Hirofumi",
+     "Yamamoto"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ]
+   ],
+   "title": "Two methods for stabilizing MERT: NICT at IWSLT 2009",
+   "original": "slt9_079",
+   "page_count": 4,
+   "order": 15,
+   "p1": "79",
+   "pn": "82",
+   "abstract": [
+    "This paper describes the NICT SMT system used in the International Workshop on Spoken Language Translation (IWSLT) 2009 evaluation campaign. We participated in the Challenge Task. Our system was based on a fairly common phrase-based machine translation system. We used two methods for stabilizing MERT.\n",
+    ""
+   ]
+  },
+  "li09_iwslt": {
+   "authors": [
+    [
+     "Maoxi",
+     "Li"
+    ],
+    [
+     "Jiajun",
+     "Zhang"
+    ],
+    [
+     "Yu",
+     "Zhou"
+    ],
+    [
+     "Chengqing",
+     "Zong"
+    ]
+   ],
+   "title": "The CASIA statistical machine translation system for IWSLT 2009",
+   "original": "slt9_083",
+   "page_count": 8,
+   "order": 16,
+   "p1": "83",
+   "pn": "90",
+   "abstract": [
+    "This paper reports on the participation of CASIA (Institute of Automation Chinese Academy of Sciences) at the evaluation campaign of the International Workshop on Spoken Language Translation 2009. We participated in the challenge tasks for Chinese-to- English and English-to-Chinese translation respectively and the BTEC task for Chinese-to-English translation only. For all of the tasks, system performance is improved with some special methods as follows: 1) combining different results of Chinese word segmentation, 2) combining different results of word alignments, 3) adding reliable bilingual words with high probabilities to the training data, 4) handling named entities including person names, location names, organization names, temporal and numerical expressions additionally, 5) combining and selecting translations from the outputs of multiple translation engines, 6) replacing Chinese character with Chinese Pinyin to train the translation model for Chinese-to- English ASR challenge task. This is a new approach that has never been introduced before.\n",
+    ""
+   ]
+  },
+  "nakov09_iwslt": {
+   "authors": [
+    [
+     "Preslav",
+     "Nakov"
+    ],
+    [
+     "Chang",
+     "Liu"
+    ],
+    [
+     "Wei",
+     "Lu"
+    ],
+    [
+     "Hwee Tou",
+     "Ng"
+    ]
+   ],
+   "title": "The NUS statistical machine translation system for IWSLT 2009",
+   "original": "slt9_091",
+   "page_count": 8,
+   "order": 17,
+   "p1": "91",
+   "pn": "98",
+   "abstract": [
+    "We describe the system developed by the team of the National University of Singapore for the Chinese-English BTEC task of the IWSLT 2009 evaluation campaign. We adopted a state-of-the-art phrase-based statistical machine translation approach and focused on experiments with different Chinese word segmentation standards. In our official submission, we trained a separate system for each segmenter and we combined the outputs in a subsequent re-ranking step. Given the small size of the training data, we further re-trained the system on the development data after tuning. The evaluation results show that both strategies yield sizeable and consistent improvements in translation quality.\n",
+    ""
+   ]
+  },
+  "wu09_iwslt": {
+   "authors": [
+    [
+     "Xianchao",
+     "Wu"
+    ],
+    [
+     "Takuya",
+     "Matsuzaki"
+    ],
+    [
+     "Naoaki",
+     "Okazaki"
+    ],
+    [
+     "Yusuke",
+     "Miyao"
+    ],
+    [
+     "Jun’ichi",
+     "Tsujii"
+    ]
+   ],
+   "title": "The UOT system: improve string-to-tree translation using head-driven phrase structure grammar and predicate-argument structures",
+   "original": "slt9_099",
+   "page_count": 8,
+   "order": 18,
+   "p1": "99",
+   "pn": "106",
+   "abstract": [
+    "We present the UOT Machine Translation System that was used in the IWSLT-09 evaluation campaign. This year, we participated in the BTEC track for Chinese-to-English trans- lation. Our system is based on a string-to-tree framework. To integrate deep syntactic information, we propose the use of parse trees and semantic dependencies on English sen- tences described respectively by Head-driven Phrase Struc- ture Grammar and Predicate-Argument Structures. We re- port the results of our system on both the development and test sets.\n",
+    ""
+   ]
+  },
+  "murakami09_iwslt": {
+   "authors": [
+    [
+     "Jin’ichi",
+     "Murakami"
+    ],
+    [
+     "Masato",
+     "Tokuhisa"
+    ],
+    [
+     "Satoru",
+     "Ikehara"
+    ]
+   ],
+   "title": "Statistical machine translation adding pattern-based machine translation in Chinese-English translation",
+   "original": "slt9_107",
+   "page_count": 6,
+   "order": 19,
+   "p1": "107",
+   "pn": "112",
+   "abstract": [
+    "We have developed a two-stage machine translation (MT) system. The first stage is a rule-based machine translation system. The second stage is a normal statistical machine translation system. For Chinese-English machine translation, first, we used a Chinese-English rule-based MT, and we obtained  ”ENGLISH” sentences from Chinese sentences. Second,  we used a standard statistical machine translation. This means that we translated ”ENGLISH” to English machine translation. We believe this method has two advantages. One is that there are fewer unknown words. The other is that it produces structured or grammatically correct sentences. From the results of experiments, we obtained a BLEU score of 0.3151 in the BTEC-CE task using our proposed method. In contrast, we obtained a BLEU score of 0.3311 in the BTEC-CE task using a standard method (moses). This means that our proposed method was not as effective for the BTEC-CE task. Therefore, we will try to improve the performance by optimizing parameters.\n",
+    ""
+   ]
+  },
+  "mermer09_iwslt": {
+   "authors": [
+    [
+     "Coşkun",
+     "Mermer"
+    ],
+    [
+     "Hamza",
+     "Kaya"
+    ],
+    [
+     "Mehmet Uğur",
+     "Doğan"
+    ]
+   ],
+   "title": "The tÜBITAK-UEKAE statistical machine translation system for IWSLT 2009",
+   "original": "slt9_113",
+   "page_count": 5,
+   "order": 20,
+   "p1": "113",
+   "pn": "117",
+   "abstract": [
+    "We describe our Arabic-to-English and Turkish-to-English machine translation systems that participated in the IWSLT 2009 evaluation campaign. Both systems are based on the Moses statistical machine translation toolkit, with added components to address the rich morphology of the source languages. Three different morphological approaches are investigated for Turkish. Our primary submission uses linguistic morphological analysis and statistical disambiguation to generate morpheme-based translation models, which is the approach with the better translation performance. One of the contrastive submissions utilizes unsupervised subword segmentation to generate non-linguistic subword-based translation models, while another contrastive system uses word-based models but makes use of lexical approximation to cope with out-of-vocabulary words, similar to the approach in our Arabic-to-English submission.\n",
+    ""
+   ]
+  },
+  "gasco09_iwslt": {
+   "authors": [
+    [
+     "Guillem",
+     "Gascó"
+    ],
+    [
+     "Joan Andreu",
+     "Sánchez"
+    ]
+   ],
+   "title": "UPV translation system for IWSLT 2009",
+   "original": "slt9_118",
+   "page_count": 6,
+   "order": 21,
+   "p1": "118",
+   "pn": "123",
+   "abstract": [
+    "In this paper, we describe the machine translation system developed at the Polytechnic University of Valencia, which was used in our participation in the International Workshop on Spoken Language Translation (IWSLT) 2009. We have taken part only in the Chinese-English BTEC Task. In the evaluation campaign, we focused on the use of our hybrid translation system over the provided corpus and less effort was devoted to the use of pre- and post-processing techniques that could have improved the results.   Our decoder is a hybrid machine translation system that combines phrase-based models together with syntax-based translation models. The syntactic formalism that underlies the whole decoding process is a Chomsky Normal Form Stochastic Inversion Transduction Grammar (SITG) with phrasal productions and a log-linear combination of probability models. The decoding algorithm is a CYK-like algorithm that combines the translated phrases inversely or directly in order to get a complete translation of the input sentence.\n",
+    ""
+   ]
+  },
+  "yang09_iwslt": {
+   "authors": [
+    [
+     "Mei",
+     "Yang"
+    ],
+    [
+     "Amittai",
+     "Axelrod"
+    ],
+    [
+     "Kevin",
+     "Duh"
+    ],
+    [
+     "Katrin",
+     "Kirchhoff"
+    ]
+   ],
+   "title": "The University of Washington machine translation system for IWSLT 2009",
+   "original": "slt9_124",
+   "page_count": 5,
+   "order": 22,
+   "p1": "124",
+   "pn": "128",
+   "abstract": [
+    "This paper describes the University of Washington's system for the 2009 International Workshop on Spoken Language Translation (IWSLT) evaluation campaign. Two systems were developed, one each for the BTEC Chinese-to-English and Arabic-to-English tracks. We describe experiments with different preprocessing and alignment combination schemes. Our main focus this year was on exploring a novel semisupervised approach to N-best list reranking; however, this method yielded inconclusive results.\n",
+    ""
+   ]
+  },
+  "bisazza09_iwslt": {
+   "authors": [
+    [
+     "Arianna",
+     "Bisazza"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Morphological pre-processing for Turkish to English statistical machine translation",
+   "original": "slt9_129",
+   "page_count": 7,
+   "order": 23,
+   "p1": "129",
+   "pn": "135",
+   "abstract": [
+    "We tried to cope with the complex morphology of Turkish by applying different schemes of morphological word segmentation to the training and test data of a phrase-based statistical machine translation system. These techniques allow for a considerable reduction of the training dictionary, and lower the out-of-vocabulary rate of the test set. By minimizing differences between lexical granularities of Turkish and English we can produce more refined alignments and a better modeling of the translation task. Morphological segmentation is highly language dependent and requires a fair amount of linguistic knowledge in its development phase. Yet it is fast and light-weight – does not involve syntax – and appears to benefit our IWSLT09 system: our best segmentation scheme associated to a simple lexical approximation technique achieved a 50% reduction of out-of-vocabulary rate and over 5 point BLEU improvement above the baseline.\n",
+    ""
+   ]
+  },
+  "cmejrek09_iwslt": {
+   "authors": [
+    [
+     "Martin",
+     "Čmejrek"
+    ],
+    [
+     "Bowen",
+     "Zhou"
+    ],
+    [
+     "Bing",
+     "Xiang"
+    ]
+   ],
+   "title": "Enriching SCFG rules directly from efficient bilingual chart parsing",
+   "original": "slt9_136",
+   "page_count": 8,
+   "order": 24,
+   "p1": "136",
+   "pn": "143",
+   "abstract": [
+    "In this paper, we propose a new  method for training translation rules for a Synchronous Context-free Grammar. A bilingual chart parser is used to generate the parse forest, and EM algorithm to estimate expected counts for each rule of the ruleset. Additional rules are constructed as combinations of reliable rules occurring in the parse forest. The new method of proposing additional translation rules is independent of word alignments. We present the theoretical background for this method, and initial experimental results on German-English translations of Europarl data.\n",
+    ""
+   ]
+  },
+  "hayashi09_iwslt": {
+   "authors": [
+    [
+     "Katsuhiko",
+     "Hayashi"
+    ],
+    [
+     "Taro",
+     "Watanabe"
+    ],
+    [
+     "Hajime",
+     "Tsukada"
+    ],
+    [
+     "Hideki",
+     "Isozaki"
+    ]
+   ],
+   "title": "Structural support vector machines for log-linear approach in statistical machine translation",
+   "original": "slt9_144",
+   "page_count": 8,
+   "order": 25,
+   "p1": "144",
+   "pn": "151",
+   "abstract": [
+    "Minimum error rate training (MERT) is a widely used learning method for statistical machine translation. In this paper, we present a SVM-based training method to enhance generalization ability. We extend MERT optimization by maximizing the margin between the reference and incorrect translations under the L2-norm prior to avoid overfitting problem. Translation accuracy obtained by our proposed methods is more stable in various conditions than that obtained by MERT. Our experimental results on the French- English WMT08 shared task show that degrade of our proposed methods is smaller than that of MERT in case of small training data or out-of-domain test data.\n",
+    ""
+   ]
+  },
+  "hoang09_iwslt": {
+   "authors": [
+    [
+     "Hieu",
+     "Hoang"
+    ],
+    [
+     "Philipp",
+     "Koehn"
+    ],
+    [
+     "Adam",
+     "Lopez"
+    ]
+   ],
+   "title": "A unified framework for phrase-based, hierarchical, and syntax-based statistical machine translation",
+   "original": "slt9_152",
+   "page_count": 8,
+   "order": 26,
+   "p1": "152",
+   "pn": "159",
+   "abstract": [
+    "Despite many differences between phrase-based, hierarchical, and syntax-based translation models, their training and testing pipelines are strikingly similar. Drawing on this fact, we extend the Moses toolkit to implement hierarchical and syntactic models, making it the first open source toolkit with end-to-end support for all three of these popular models in a single package. This extension substantially lowers the barrier to entry for machine translation research across multiple models.\n",
+    ""
+   ]
+  },
+  "sanchistrilles09_iwslt": {
+   "authors": [
+    [
+     "Germán",
+     "Sanchis-Trilles"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Online language model adaptation for spoken dialog translation",
+   "original": "slt9_160",
+   "page_count": 8,
+   "order": 27,
+   "p1": "160",
+   "pn": "167",
+   "abstract": [
+    "This paper focuses on the problem of language model adaptation in the context of Chinese-English cross-lingual dialogs, as set-up by the challenge task of the IWSLT 2009 Evaluation Campaign. Mixtures of n-gram language models are investigated, which are obtained by clustering bilingual training data according to different available human annotations, respectively, at the dialog level, turn level, and dialog act level. For the latter case, clustering of IWSLT data was in fact induced through a comparable Italian-English parallel corpus provided with dialog act annotations. For the sake of adaptation, mixture weight estimation is performed either at the level of single source sentence or test set. Estimated weights are then transferred to the target language mixture model. Experimental results show that, by training different specific language models weighted according to the actual input instead of using a single target language model, significant gains in terms of perplexity and BLEU can be achieved.\n",
+    ""
+   ]
+  },
+  "hori09_iwslt": {
+   "authors": [
+    [
+     "Chiori",
+     "Hori"
+    ],
+    [
+     "Sakriani",
+     "Sakti"
+    ],
+    [
+     "Michael",
+     "Paul"
+    ],
+    [
+     "Noriyuki",
+     "Kimura"
+    ],
+    [
+     "Yutaka",
+     "Ashikari"
+    ],
+    [
+     "Ryosuke",
+     "Isotani"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Network-based speech-to-speech translation",
+   "original": "slt9_168",
+   "page_count": 1,
+   "order": 28,
+   "p1": "168",
+   "pn": "",
+   "abstract": [
+    "This demo shows the network-based speech-to-speech translation system. The system was designed to perform realtime, location-free, multi-party translation between speakers of different languages. The spoken language modules: automatic speech recognition (ASR), machine translation (MT), and text-to-speech synthesis (TTS), are connected through Web servers that can be accessed via client applications worldwide. In this demo, we will show the multiparty speech-to-speech translation of Japanese, Chinese, Indonesian, Vietnamese, and English, provided by the NICT server. These speech-to-speech modules have been developed by NICT as a part of A-STAR (Asian Speech Translation Advanced Research) consortium project.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "koehn09_iwslt",
+    "natarajan09_iwslt",
+    "torisawa09_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign",
+   "papers": [
+    "paul09_iwslt",
+    "kopru09_iwslt",
+    "costajussa09_iwslt",
+    "ma09_iwslt",
+    "bertoldi09_iwslt",
+    "lepage09_iwslt",
+    "duan09_iwslt",
+    "mi09_iwslt",
+    "bougares09_iwslt",
+    "schwenk09_iwslt",
+    "shen09_iwslt",
+    "utiyama09_iwslt",
+    "li09_iwslt",
+    "nakov09_iwslt",
+    "wu09_iwslt",
+    "murakami09_iwslt",
+    "mermer09_iwslt",
+    "gasco09_iwslt",
+    "yang09_iwslt"
+   ]
+  },
+  {
+   "title": "Technical Papers",
+   "papers": [
+    "bisazza09_iwslt",
+    "cmejrek09_iwslt",
+    "hayashi09_iwslt",
+    "hoang09_iwslt",
+    "sanchistrilles09_iwslt"
+   ]
+  },
+  {
+   "title": "Demo",
+   "papers": [
+    "hori09_iwslt"
+   ]
+  }
+ ]
+}

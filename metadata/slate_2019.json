@@ -1,0 +1,1005 @@
+{
+ "series": "SLaTE",
+ "title": "8th ISCA Workshop on Speech and Language Technology in Education (SLaTE 2019)",
+ "location": "Graz, Austria",
+ "startDate": "20/9/2019",
+ "endDate": "21/9/2019",
+ "URL": "https://sites.google.com/view/slate2019",
+ "chair": "Chairs: Keelan Evanini and Helmer Strik",
+ "conf": "SLaTE",
+ "year": "2019",
+ "name": "slate_2019",
+ "SIG": "SLaTE",
+ "title1": "8th ISCA Workshop on Speech and Language Technology in Education",
+ "title2": "(SLaTE 2019)",
+ "date": "20-21 September 2019",
+ "papers": {
+  "yarra19_slate": {
+   "authors": [
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ]
+   ],
+   "title": "voisTUTOR: Virtual Operator for Interactive Spoken English TUTORing",
+   "original": "abs1",
+   "page_count": 2,
+   "order": 8,
+   "p1": 35,
+   "pn": 36,
+   "abstract": [
+    "Second language (L2) learners of English could improve their pronunciation using automatic tutoring apps that provide detailed feedback. However, the availability of such apps are very few and, at most, the feedback from those apps are limited in the sense that they provide a minimal feedback for improving correct usage of phonemes. But, to achieve better pronunciation quality, the L2 learners are required to correctly place stress, intonation and pauses in their spoken utterances. In this demo, we present a self learning app called voisTUTOR that provide more detailed feedback on correct usage of phonemes as well as stress, intonation and pauses. In this app, the feedback is provided specific to each of these four categories by showing a score representing learner's quality as well as their mismatches with respect to expert's pronunciation. We believe that this app could be useful to the learners who do not have easy access to effective spoken English training.\n"
+   ]
+  },
+  "richardson19_slate": {
+   "authors": [
+    [
+     "Fred",
+     "Richardson"
+    ],
+    [
+     "John",
+     "Steinberg"
+    ],
+    [
+     "Gordon",
+     "Vidaver"
+    ],
+    [
+     "Steve",
+     "Feinstein"
+    ],
+    [
+     "Ray",
+     "Budd"
+    ],
+    [
+     "Jennifer",
+     "Melot"
+    ],
+    [
+     "Paul",
+     "Gatewood"
+    ],
+    [
+     "Douglas",
+     "Jones"
+    ]
+   ],
+   "title": "Corpora Design and Score Calibration for Text Dependent Pronunciation Proficiency Recognition",
+   "original": "12",
+   "page_count": 5,
+   "order": 16,
+   "p1": 64,
+   "pn": 68,
+   "abstract": [
+    "This work investigates methods for improving a pronunciation proficiency recognition system, both in terms of phonetic level posterior probability calibration, and in ordinal utterance level classification, for Modern Standard Arabic (MSA), Spanish and Russian. To support this work, utterance level labels were obtained by crowd-sourcing the annotation of language learners' recordings. Phonetic posterior probability estimates extracted using automatic speech recognition systems trained in each language were estimated using a beta calibration approach [1] and language proficiency level was estimated using an ordinal regression [2]. Fusion with language recognition (LR) scores from an i-vector system [3] trained on 23 languages is also explored. Initial results were promising for all three languages and it was demonstrated that the calibrated posteriors were effective for predicting pronunciation proficiency. Significant relative gains of 16% mean absolute error for the ordinal regression and 17% normalized cross entropy for the binary beta regression were achieved on MSA through fusion with LR scores.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-12"
+  },
+  "budd19_slate": {
+   "authors": [
+    [
+     "Ray",
+     "Budd"
+    ],
+    [
+     "Tamas",
+     "Marius"
+    ],
+    [
+     "Paul",
+     "Gatewood"
+    ],
+    [
+     "Doug",
+     "Jones"
+    ]
+   ],
+   "title": "Using K-Means in SVR-Based Text Difficulty Estimation",
+   "original": "16",
+   "page_count": 5,
+   "order": 20,
+   "p1": 84,
+   "pn": 88,
+   "abstract": [
+    "A challenge for second language learners, educators, and test creators is the identification of authentic materials at the right level of difficulty. In this work, we present an approach to automatically measure text difficulty, integrated into Auto-ILR, a web-based system that helps find text material at the right level for learners in 18 languages. The Auto-ILR subscription service scans web feeds, extracts article content, evaluates the difficulty, and notifies users of documents that match their skill level. Difficulty is measured on the standard ILR scale with language-specific support vector machine regression (SVR) models built from vectors incorporating length features, term frequencies, relative entropy, and K-means clustering.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-16"
+  },
+  "sokhatskyi19_slate": {
+   "authors": [
+    [
+     "Volodymyr",
+     "Sokhatskyi"
+    ],
+    [
+     "Olga",
+     "Zvyeryeva"
+    ],
+    [
+     "Ievgen",
+     "Karaulov"
+    ],
+    [
+     "Dmytro",
+     "Tkanov"
+    ]
+   ],
+   "title": "Embedding-based system for the Text part of CALL v3 shared task",
+   "original": "4",
+   "page_count": 4,
+   "order": 4,
+   "p1": 16,
+   "pn": 19,
+   "abstract": [
+    "This paper presents a scoring system that has shown the top result on the text subset of CALL v3 shared task. The presented system is based on text embeddings, namely NNLM [1] and BERT [2]. The distinguishing feature of the given approach is that it does not rely on the reference grammar file for scoring. The model is compared against approaches that use the grammar file and proves the possibility to achieve similar and even higher results without a predefined set of correct answers.\nThe paper describes the model itself and the data preparation process that played a crucial role in the model training.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-4"
+  },
+  "akhlaghi19_slate": {
+   "authors": [
+    [
+     "Elham",
+     "Akhlaghi"
+    ],
+    [
+     "Branislav",
+     "Bédi"
+    ],
+    [
+     "Matthias",
+     "Butterweck"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Johanna",
+     "Gerlach"
+    ],
+    [
+     "Hanieh",
+     "Habibi"
+    ],
+    [
+     "Junta",
+     "Ikeda"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Sabina",
+     "Sestigiani"
+    ],
+    [
+     "Ghil'ad",
+     "Zuckermann"
+    ]
+   ],
+   "title": "Demonstration of LARA: A Learning and Reading Assistant",
+   "original": "abs2",
+   "page_count": 2,
+   "order": 9,
+   "p1": 37,
+   "pn": 38,
+   "abstract": [
+    "We propose to demo LARA (Learning and Reading Assistant), a set of tools currently being developed in the context of a collaborative open project for building and using online computer-assisted language learning (CALL) content. LARA offers a range of options for semi-automatically transforming text into a hypertext version designed to give support to non-native readers. The demo is intended to accompany our full paper about LARA; here we focus on describing some of the content we will present.\n"
+   ]
+  },
+  "baur19_slate": {
+   "authors": [
+    [
+     "Claudia",
+     "Baur"
+    ],
+    [
+     "Andrew",
+     "Caines"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Johanna",
+     "Gerlach"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "Xizi",
+     "Wei"
+    ]
+   ],
+   "title": "Overview of the 2019 Spoken CALL Shared Task",
+   "original": "1",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "We present an overview of the third edition of the Spoken CALL Shared Task. Groups competed on a prompt-response task using English-language data collected, through an online CALL game, from Swiss German teens in their second and third years of learning English. Each item consists of a written German prompt and an audio file containing a spoken response. The task is to accept linguistically correct responses and reject linguistically incorrect ones, with \"linguistically correct\" defined by a gold standard derived from human annotations. Scoring was performed using a metric based on the idea of maximising the ratios correct-accept-rate/false-accept-rate and correct-reject-rate/false-reject-rate. The third edition received sixteen entries, with the best score substantially improving on last year's edition of the task. We analyse factors which make it difficult to label items correctly, concluding that, as in the previous edition, good speech recognition is most important. Finally, we suggest a strategy for continuing the task.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-1"
+  },
+  "akhlaghi19b_slate": {
+   "authors": [
+    [
+     "Elham",
+     "Akhlaghi"
+    ],
+    [
+     "Branislav",
+     "Bédi"
+    ],
+    [
+     "Matt",
+     "Butterweck"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Johanna",
+     "Gerlach"
+    ],
+    [
+     "Hanieh",
+     "Habibi"
+    ],
+    [
+     "Junta",
+     "Ikeda"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Sabina",
+     "Sestigiani"
+    ],
+    [
+     "Ghil'ad",
+     "Zuckermann"
+    ]
+   ],
+   "title": "Overview of LARA: A Learning and Reading Assistant",
+   "original": "19",
+   "page_count": 5,
+   "order": 23,
+   "p1": 99,
+   "pn": 103,
+   "abstract": [
+    "We present an overview of LARA (Learning and Reading Assistant), a set of tools currently being developed in the context of a collaborative open project for building and using online CALL content. LARA offers a range of options for semi-automatically transforming text into a hypertext version designed to give support to non-native readers. Functionality includes construction of a personalised concordance based on the learner's reading history, addition of recorded audio files, and insertion of links to translations and online linguistic resources. We present initial evaluations of LARA content developed for Icelandic, Farsi and Italian, and briefly describe content created in several more languages. We conclude by noting ethical issues that arise and outlining plans for further development of LARA.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-19"
+  },
+  "strik19_slate": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "Anna",
+     "Ovchinnikova"
+    ],
+    [
+     "Camilla",
+     "Giannini"
+    ],
+    [
+     "Angela",
+     "Pantazi"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ]
+   ],
+   "title": "Students' acceptance of MySpeechTrainer to improve spoken Academic English",
+   "original": "22",
+   "page_count": 5,
+   "order": 26,
+   "p1": 114,
+   "pn": 118,
+   "abstract": [
+    "CALL systems with ASR-technology may provide a solution for the growing need to support students' English communication skills at universities, but so far developments in this direction have been limited. MySpeechTrainer is an ASR-based CALL system intended to help students improve their general Academic English oral communication skills, as well as subject-specific vocabulary. In this paper we report on a study that evaluated the acceptance of MySpeechTrainer from the perspective of its target users. To this end, the 'Unified Theory of Acceptance and Use of Technology' (UTAUT) model, which is frequently used in ICT research, was employed to analyze students' acceptance and use of the new system. Two groups of students from Nijmegen and Utrecht universities used and reviewed MySpeechTrainer (N=87). Results of statistical analysis indicated that Social Influence was one of the main predictors of students' readiness to use the system. Participants were generally positive about MySpeechTrainer and indicated the need for more supportive and informative feedback.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-22"
+  },
+  "gretter19_slate": {
+   "authors": [
+    [
+     "Roberto",
+     "Gretter"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Daniele",
+     "Falavigna"
+    ]
+   ],
+   "title": "The FBK system for the 2019 Spoken CALL Shared Task",
+   "original": "2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "This paper describes the systems developed by FBK for the 2019 Spoken CALL Shared Task, that requires to automatically grade Swiss students, speaking German, that have to answer in English to German prompts. All answers are automatically transcribed, using an Automatic Speech Recognition (ASR) system, and labelled as accept or reject by a classifier. We developed an improved version of the baseline ASR system (made available by the organizers of the challenge), that has been used to produce better automatic transcriptions, from which a set of linguistic features are derived. Then, features vectors, computed at sentence level, are fed into a neural network based classifier that predicts the labels.  In this paper we describe the details of the developed ASR system, as well as the set of features used in the accept/reject classification task. We also discuss the impact of subsets of features on the final classification performance.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-2"
+  },
+  "xue19_slate": {
+   "authors": [
+    [
+     "Wei",
+     "Xue"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland van",
+     "Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Acoustic correlates of speech intelligibility: the usability of the eGeMAPS feature set for atypical speech",
+   "original": "9",
+   "page_count": 5,
+   "order": 13,
+   "p1": 48,
+   "pn": 52,
+   "abstract": [
+    "Although speech intelligibility has been studied in different fields such as speech pathology, language learning, psycholinguistics, and speech synthesis, it is still unclear which concrete speech features most impact intelligibility. Commonly used subjective measures of speech intelligibility based on labour-intensive human ratings are time-consuming and expensive, so objective procedures based on automatically calculated features are needed. In this paper, we investigate possible correlations between a set of objective features and speech intelligibility. Specifically, we study the usability of acoustic features in the eGeMAPS feature set for predicting phoneme intelligibility by using stepwise linear multiple regression analysis. The results showed that the acoustic features are potentially usable for predicting intelligibility. This finding may help to boost the development of automatic procedures to measure speech intelligibility with the underlying relevant acoustic phonetic characteristics. Our analysis also covers the comparison between two speech types (dysarthric and normal), and between two different types of speech material (isolated words and running text). Finally, we discuss possible avenues for future research on speech intelligibility and implications for clinical practice.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-9"
+  },
+  "rose19_slate": {
+   "authors": [
+    [
+     "Ralph L.",
+     "Rose"
+    ]
+   ],
+   "title": "Fluidity: Developing second language fluency with real-time feedback during speech practice",
+   "original": "abs3",
+   "page_count": 2,
+   "order": 10,
+   "p1": 39,
+   "pn": 40,
+   "abstract": [
+    "Fluidity is a JavaFX framework application that is designed to give second language learners instruction in how to develop their speech fluency. While learners are practicing giving a monologic speech, the application measures certain features of their speech fluency (e.g., phonation vs. silence time, syllable count, pause count) and updates these measures in real-time. The application also gives real-time feedback to learners through an on-screen avatar nicknamed \"Fludie\" that changes its facial expression according to the fluency measures: for example, pleased when fluent, but not satisfied when disfluent. After each speech practice, learners may review their practice through playback and while viewing multiple visualizations of their speech fluency. Future development plans of Fluidity include increased capability for gamification, more sophisticated feedback to learners, customization of desired fluency profiles, and more speech practice methods.\n"
+   ]
+  },
+  "yeung19_slate": {
+   "authors": [
+    [
+     "Gary",
+     "Yeung"
+    ],
+    [
+     "Alison L.",
+     "Bailey"
+    ],
+    [
+     "Amber",
+     "Afshan"
+    ],
+    [
+     "Morgan",
+     "Tinkler"
+    ],
+    [
+     "Marlen Q.",
+     "Pérez"
+    ],
+    [
+     "Alejandra",
+     "Martin"
+    ],
+    [
+     "Anahit A.",
+     "Pogossian"
+    ],
+    [
+     "Samuel",
+     "Spaulding"
+    ],
+    [
+     "Hae Won",
+     "Park"
+    ],
+    [
+     "Manushaqe",
+     "Muco"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ],
+    [
+     "Cynthia",
+     "Breazeal"
+    ]
+   ],
+   "title": "A robotic interface for the administration of language, literacy, and speech pathology assessments for children",
+   "original": "abs4",
+   "page_count": 2,
+   "order": 11,
+   "p1": 41,
+   "pn": 42,
+   "abstract": [
+    "A preliminary implementation of a robotic interface for the administration of language, literacy, and speech pathology assessments for children is presented. This robot assessment protocol will be used for several ongoing studies to improve the performance of educational robots for children. The robot used is JIBO, a personal assistant-style robot capable of expressing itself with its poseable body. JIBO's implementation is intended for children as young as 4 years old. JIBO is designed to have friendly interactions with young children while administering assessments such as the evaluation of pronunciation, alphabetic knowledge, and explanatory discourse. Additionally, this implementation is currently being used to collect a speech database of such assessments being administered to children.\n"
+   ]
+  },
+  "kobashikawa19_slate": {
+   "authors": [
+    [
+     "Satoshi",
+     "Kobashikawa"
+    ],
+    [
+     "Atushi",
+     "Odakura"
+    ],
+    [
+     "Takao",
+     "Nakamura"
+    ],
+    [
+     "Takeshi",
+     "Mori"
+    ],
+    [
+     "Kimitaka",
+     "Endo"
+    ],
+    [
+     "Takafumi",
+     "Moriya"
+    ],
+    [
+     "Ryo",
+     "Masumura"
+    ],
+    [
+     "Yushi",
+     "Aono"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Does Speaking Training Application with Speech Recognition Motivate Junior High School Students in Actual Classroom? -- A Case Study",
+   "original": "23",
+   "page_count": 5,
+   "order": 27,
+   "p1": 119,
+   "pn": 123,
+   "abstract": [
+    "This paper investigates the effectiveness of a speech training application with question answering problems based on speech recognition which is robust to noise in a classroom. In actual classrooms, since a lot of students speak at the same time, input speech waveforms include speech noise from neighboring students. To the best of our knowledge, no speech training study has examined speech recognition with the focus on actual noise corrupted speech input in classrooms. Since existing mobile applications assumed solitary voice input, they failed to evaluate the input as corrupted by speech noise. To maintain students' motivation even in noisy environments, our application ignores the insertion errors around the user's intended sentence. To adapt to junior high school students' speech and the background speech noise, we introduce unsupervised adaption with matched sentences by comparing the speech recognition results and target sentences candidates. We also improve the user interface by reflecting the feedback from teachers and students. The results of a two month trial with over 140 students in a public junior high school show that our speech recognizer improves accuracy and our application achieves a positive user experience.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-23"
+  },
+  "kothalkar19_slate": {
+   "authors": [
+    [
+     "Prasanna V.",
+     "Kothalkar"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "Ying",
+     "Luo"
+    ],
+    [
+     "Joanne",
+     "Rojas"
+    ],
+    [
+     "John",
+     "Nash"
+    ],
+    [
+     "Beth",
+     "Rous"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Tagging child-adult interactions in naturalistic, noisy, daylong school environments using i-vector based diarization system",
+   "original": "17",
+   "page_count": 5,
+   "order": 21,
+   "p1": 89,
+   "pn": 93,
+   "abstract": [
+    "Assessing child growth in terms of speech and language is a crucial indicator of long term learning ability and life-long progress. Since the preschool classroom provides a potent opportunity for monitoring growth in young children's interactions, analyzing such data has come into prominence for early childhood researchers. The foremost task of any analysis of such naturalistic recordings would involve parsing and tagging the interactions between adults and young children. An automated tagging system will provide child interaction metrics and would be important for any further processing. This study investigates the language environment of 3-5 year old children using a CRSS based diarization strategy employing an i-vector-based baseline that captures adult-to-child or child-to-child rapid conversational turns in a naturalistic noisy early childhood setting. We provide analysis of various loss functions and learning algorithms using Deep Neural Networks to separate child speech from adult speech. Performance is measured in terms of diarization error rate, Jaccard error rate and shows good results for tagging adult vs. children's speech. Distinction between primary and secondary child would be useful for monitoring a given child and analysis is provided for the same. Our diarization system provides insights into the direction for pre-processing and analyzing challenging naturalistic daylong child speech recordings.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-17"
+  },
+  "dobbriner19_slate": {
+   "authors": [
+    [
+     "Johanna",
+     "Dobbriner"
+    ],
+    [
+     "Oliver",
+     "Jokisch"
+    ]
+   ],
+   "title": "Implementing and Evaluating Methods of Dialect Classification on Read and Spontaneous German Speech",
+   "original": "10",
+   "page_count": 6,
+   "order": 14,
+   "p1": 53,
+   "pn": 58,
+   "abstract": [
+    "The majority of pronunciation tutoring systems is addressing foreign learners of a language, while some applications, such as the rhetoric or articulation training of actors and managers, are also dedicated to native speakers. In particular, accent-reduction tutoring requires reliable methods of Automatic Dialect Classification (ADC) on both, learners' or reference speech. Beyond that, ADC can support further applications of language and speech technology, e.g. the localization of call-center talks or a forensic analysis. Our contribution describes ADC experiments on different corpora of read and spontaneous German speech, which are not based on prior corpus transcriptions. We started with selected feature combinations and classification methods, which have been already studied on English, Mandarin or Arabic. Based on this, we implemented, trained and evaluated classifiers on German dialect varieties in the corpora \"Regional Variants of German 1\" (RVG) and \"Deutsch Heute\" (DH). Our test design is focused on differences among the read and spontaneous speech data. The evaluation indicates, that a three or nine-class dialect discrimination and classification on read and spontaneous speech are utilizing the same basic principles, although the overall results, purely using spectral or correlating features, are less sophisticated and call for further clarifications.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-10"
+  },
+  "sudhakara19_slate": {
+   "authors": [
+    [
+     "Sweekar",
+     "Sudhakara"
+    ],
+    [
+     "Manoj Kumar",
+     "Ramanathi"
+    ],
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ],
+    [
+     "Anurag",
+     "Das"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ]
+   ],
+   "title": "Noise robust goodness of pronunciation measures using teacher's utterance",
+   "original": "13",
+   "page_count": 5,
+   "order": 17,
+   "p1": 69,
+   "pn": 73,
+   "abstract": [
+    "In the applications of computer-aided pronunciation training (CAPT), evaluation of second language learner's pronunciation is an important task. For this task, goodness of pronunciation (GoP) is shown to be effective and is typically computed under clean speech conditions. However, in real scenarios, CAPT systems often need to deal with noisy conditions, which could degrade the effectiveness of GoP. We analyze the variations in GoP performance under noisy conditions by adding three types of noises namely, babble, white and f-16 at 20 dB, 10 dB and 0 dB signal-to-noise ratio (SNR) conditions. We hypothesize that the use of phonemes uttered by a teacher would make GoP score more robust and mimic the human rating closely, based on which we propose a modification to the typical lexicon based GoP (LGoP). The proposed scheme is referred as teacher utterance based GoP (TGoP). In addition, GoP of learner's and teacher's utterances are combined to propose a GoP like (GL) score based on the difference between the two. Correlation coefficient between the GoPs and the teacher's ratings is used as the performance metric. Experiments conducted on the speech data collected from Indian English learners reveal that, although the performance of different GoP schemes drops with additive noise, TGoP performs better than LGoP in both clean and noisy conditions. In low SNR conditions, GL performs better than both TGoP and LGoP.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-13"
+  },
+  "yarra19b_slate": {
+   "authors": [
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ],
+    [
+     "Manoj Kumar",
+     "Ramanathi"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ]
+   ],
+   "title": "Comparison of automatic syllable stress detection quality with time-aligned boundaries and context dependencies",
+   "original": "15",
+   "page_count": 5,
+   "order": 19,
+   "p1": 79,
+   "pn": 83,
+   "abstract": [
+    "Syllable stress is detected automatically using a classifier trained with stress labels and features computed based on acoustics within syllables. Typically, in real scenarios, syllable data is estimated considering an acoustic model (AM) and a lexicon. Thus, their quality affects the stress detection performance (accuracy). In this work, we analyse variations in the accuracies on ISLE corpus containing spoken English utterances from non-native speakers. In the analysis, we consider five AMs and five lexicons containing native English pronunciations augmented with different percentages of non-native pronunciations collected from the corpus. For each AM and lexicon combination, we estimate syllable data using two existing forced-alignment techniques and observe that the accuracies obtained with the features from both the data are comparable. Further, we propose a set of features based on context dependencies of the syllable nuclei. For all the combinations, the accuracies are higher when context based features are augmented with acoustic based features and the highest accuracy is obtained for the combination whose estimated syllable data has the least error. Among all five lexicons, the highest and the least accuracies for ITA & GER are obtained when the lexicons include all & none and none & all of the non-native pronunciations respectively.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-15"
+  },
+  "godde19_slate": {
+   "authors": [
+    [
+     "Erika",
+     "Godde"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ],
+    [
+     "Marie-Line",
+     "Bosse"
+    ]
+   ],
+   "title": "Reading Prosody Development: Automatic Assessment for a Longitudinal Study",
+   "original": "20",
+   "page_count": 5,
+   "order": 24,
+   "p1": 104,
+   "pn": 108,
+   "abstract": [
+    "We discuss here the benefit of an automatic assessment technique, recently proposed for multidimensional scoring of children readings. The objective of this research is to monitor the development of reading prosody in a longitudinal study. We recorded 57 children in grade 2, then during their grade 3 while reading the same text. First year recordings were assessed subjectively and used to train the automatic tool. The second year recordings were also assessed both subjectively and automatically. We compare here the results given by the automatic vs. subjective assessment and have a look at the progress of the assessed reading skills of the children: expressivity, phrasing, smoothness and rate.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-20"
+  },
+  "lin19_slate": {
+   "authors": [
+    [
+     "Zhenchao",
+     "Lin"
+    ],
+    [
+     "Yusuke",
+     "Inoue"
+    ],
+    [
+     "Tasavat",
+     "Trisitichoke"
+    ],
+    [
+     "Shintaro",
+     "Ando"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Native Listeners' Shadowing of Non-native Utterances as Spoken Annotation Representing Comprehensibility of the Utterances",
+   "original": "8",
+   "page_count": 5,
+   "order": 12,
+   "p1": 43,
+   "pn": 47,
+   "abstract": [
+    "Recently, researchers' attention has been paid to pronunciation assessment not based on comparison between learners' utterances and native models, but based on comprehensibility of the utterances [1, 2, 3]. In our previous studies [4, 5], native listeners' shadowing was investigated and shown to be effective to predict comprehensibility perceived by listeners (shadowers). In this paper, native listeners' shadowings are viewed as spoken annotations that can represent comprehensibility. In [4, 5], to predict comprehensibility of a non-native utterance, the GOP scores of its corresponding native listeners' shadowings were calculated by using a DNN-based ASR front-end. Generally speaking, annotations are prepared manually and, even when some techniques are used for annotations, only stable and reliable techniques should be used. In this paper, a simpler, stabler, and more reliable method to derive comprehensibility annotations was proposed. After native listeners' shadowing, they are asked to read aloud the sentence intended by the learner. Reading is the most prepared speech and shadowing is probably the least prepared speech. DTW between the two utterances is supposed to be able to quantify and predict comprehensibility or shadowability perceived by the shadowers. In experiments, DTW between shadowings and readings shows higher correlation than the GOP scores of shadowings.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-8"
+  },
+  "srinivasan19_slate": {
+   "authors": [
+    [
+     "Aparna",
+     "Srinivasan"
+    ],
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ]
+   ],
+   "title": "Automatic assessment of pronunciation and its dependent factors by exploring their interdependencies using DNN and LSTM",
+   "original": "7",
+   "page_count": 5,
+   "order": 7,
+   "p1": 30,
+   "pn": 34,
+   "abstract": [
+    "In the applications of computer assisted language learning, it is important to assess the pronunciation quality of second language learners in an automatic manner. Typically, this assessment is posed as a classification problem wherein the overall pronunciation quality is estimated at discrete levels. For classification, features are heuristically computed for an entire utterance considering factors influencing the pronunciation quality. However, the heuristic computation at the utterance level could not help in exploring the interdependencies between the factors and their effect at the sub-segment level. In this work, we learn the interdependencies between the factors by jointly modeling the labels representing the qualities of factors as well as pronunciation. Further, we also consider sub-segment level features for modeling. Experiments are conducted on data collected from Indian learners, considering the accuracy between the estimated qualities and the human expert ratings as performance measure. The highest improvements are found to be 19.13% and 14.93% (relative) when the proposed joint model is used with sub-segment and utterance level features respectively, and are compared to that of the baseline scheme without using a joint model.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-7"
+  },
+  "hajji19_slate": {
+   "authors": [
+    [
+     "Mohamed El",
+     "Hajji"
+    ],
+    [
+     "Morgane",
+     "Daniel"
+    ],
+    [
+     "Lucile",
+     "Gelin"
+    ]
+   ],
+   "title": "Transfer Learning based Audio Classification for a noisy and speechless recordings detection task, in a classroom context",
+   "original": "21",
+   "page_count": 5,
+   "order": 25,
+   "p1": 109,
+   "pn": 113,
+   "abstract": [
+    "In this work, we study the effect of Transfer Learning on an audio classification task. The recordings to classify are young children reading aloud isolated words in a classroom context. We aim at detecting which recordings are noisy and/or speechless. We explored both Recurrent Neural Network and Fully Connected Neural Network architectures. To train our classifiers, a Transfer Learning based feature extraction approach is introduced, using the VGGish pre-trained model made available by Google as a feature extractor. Due to pedagogical constraints, the different possible misclassifications do not have the same consequences. Therefore, an alternative metric to the F1 score is presented, which takes into account the pedagogical consequences of the possible misclassifications.  Results show that networks trained on Transfer Learning based features perform better than networks trained on Mel-Frequency Cepstral Coefficients, which are typically used in speech recognition tasks, with a relative improvement of 25% in our metric between the best performing models. These networks also provide a reduction of three to five times of computation time for training.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-21"
+  },
+  "proenca19_slate": {
+   "authors": [
+    [
+     "Jorge",
+     "Proença"
+    ],
+    [
+     "Ganna",
+     "Raboshchuk"
+    ],
+    [
+     "Ângela",
+     "Costa"
+    ],
+    [
+     "Paula",
+     "Lopez-Otero"
+    ],
+    [
+     "Xavier",
+     "Anguera"
+    ]
+   ],
+   "title": "Teaching American English pronunciation using a TTS service",
+   "original": "11",
+   "page_count": 5,
+   "order": 15,
+   "p1": 59,
+   "pn": 63,
+   "abstract": [
+    "In computer-assisted language learning (CALL) applications students are able to learn/improve a language using automated tools. CALL applications benefit from having spoken examples by native language speakers in order to teach pronunciation. Realistically, this is limited to the pre-defined curricula that the application is teaching. In this work we allow the learner to practice pronunciation on freely input text, where the reference audio is generated using a text-to-speech (TTS) system. Instead of building a TTS system from scratch, we use a high quality external service (Amazon Polly TTS).  In order to successfully use Amazon Polly as a reference for teaching pronunciation, we carefully control the input text normalization and expansion steps and use the visemes information returned by Polly to select the best phonetic transcription out of all the possible transcriptions computed from the text. We show the usefulness of the approach by comparing the pronunciation scores obtained by a native speaker reading some test sentences to scores from the TTS audio on the same sentences. These show that the TTS audio reaches a similar pronunciation score as real audio, and therefore we conclude that it can be used as a reference for pronunciation learning. We also discuss and address issues of transcription and audio mismatch.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-11"
+  },
+  "qian19_slate": {
+   "authors": [
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Peter",
+     "Jančovič"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ]
+   ],
+   "title": "The University of Birmingham 2019 Spoken CALL Shared Task Systems: Exploring the importance of word order in text processing",
+   "original": "3",
+   "page_count": 5,
+   "order": 3,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "This paper describes the systems developed by the University of Birmingham for the 2019 Spoken CALL Shared Task (ST) challenge. The task is automatic assessment of grammatical and semantic aspects of English spoken by German-speaking Swiss teenagers. Our system has two main components: automatic speech recognition (ASR) and text processing (TP). We use the ASR system that we developed for 2018 ST challenge. This is a DNN-HMM system based on sequence training with the state-level minimal Bayes risk criteria. It achieved word-error-rates (WER) of 8.89% for the ST2 test set and 10.94% for the ST3 test set. This paper focuses on development of the TP component. In particular, we explore machine learning (ML) approaches which preserve different degrees of word order. The ST responses are represented as vectors using Word2Vec and Doc2Vec models and the similarities between ASR transcriptions and reference responses are calculated using Word Mover's Distance (WMD) and Dynamic Programming (DP). A baseline rule-based TP system obtained a Df ull score of 5.639 and 5.476 for the ST2 and ST3 test set, respectively. The best ML-based TP, consisting of a Word2Vec model trained on the ST data, DP-based similarity calculation and a neural network, achieved Dfull score of 7.379 and 5.740 for ST2 and ST3 test sets, respectively.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-3"
+  },
+  "chiarain19_slate": {
+   "authors": [
+    [
+     "Neasa Ní",
+     "Chiaráin"
+    ],
+    [
+     "Ailbhe Ní",
+     "Chasaide"
+    ]
+   ],
+   "title": "An Scéalaí: autonomous learners harnessing speech and language technologies",
+   "original": "18",
+   "page_count": 5,
+   "order": 22,
+   "p1": 94,
+   "pn": 98,
+   "abstract": [
+    "This paper presents an autonomous language learning platform which has speech and language technology at its core. An Scéalaí ('the Storyteller') is a web-based interactive iCALL system that allows learners to compose their own text and correct it by listening to the text spoken with synthetic voices (aural proofing) and by responding to NLP prompts that detect errors. All learner interactions are logged and monitored, allowing researchers to observe the learning processes.  A pilot study by 14 learners of Irish in the US was conducted to explore the efficacy of the corrective mechanisms currently implemented in the platform.  The results of the pilot study indicate that both mechanisms currently on offer were effective in the development of writing skills but work in rather different ways. Aural proofing appears to generate an immediate corrective response which indicates that it is serving both to develop awareness of specific phonological contrasts as well as basic phonic rules of the language. In the case of the NLP prompts, corrections were also made, although the data suggest that this is a slower process and that learners may, at least initially, merely be satisfying the system's prompts rather than discovering the grammatical basis of the correction.  The pilot has been useful in pointing towards future directions for platform development that can take the needs of this type of adult autonomous learner into account.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-18"
+  },
+  "lu19_slate": {
+   "authors": [
+    [
+     "Yiting",
+     "Lu"
+    ],
+    [
+     "Mark J. F.",
+     "Gales"
+    ],
+    [
+     "Katherine M.",
+     "Knill"
+    ],
+    [
+     "Potsawee",
+     "Manakul"
+    ],
+    [
+     "Yu",
+     "Wang"
+    ]
+   ],
+   "title": "Disfluency Detection for Spoken Learner English",
+   "original": "14",
+   "page_count": 5,
+   "order": 18,
+   "p1": 74,
+   "pn": 78,
+   "abstract": [
+    "One of the challenges for computer aided language learning (CALL) is providing high quality feedback to learners. An obstacle to improving feedback is the lack of labelled training data for tasks such as spoken \"grammatical\" error detection and correction, both of which provide important features that can be used in downstream feedback systems. One approach to addressing this lack of data is to convert the output of an automatic speech recognition (ASR) system into a form that is closer to text data, for which there is significantly more labelled data available. Disfluency detection, locating regions of the speech where for example false starts and repetitions occur, and subsequent removal of the associated words, helps to make speech transcriptions more text-like. Additionally, ASR systems do not usually generate sentence-like units, the output is simply a sequence of words associated with the particular speech segmentation used for coding. This motivates the need for automated systems for sentence segmentation. By combining these approaches, advanced text processing techniques should perform significantly better on the output from spoken language processing systems. Unfortunately there is not enough labelled data available to train these systems on spoken learner English. In this work disfluency detection and \"sentence\" segmentation systems trained on data from native speakers are applied to spoken grammatical error detection and correction tasks for learners of English. Performance gains using these approaches are shown on a free speaking test.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-14"
+  },
+  "guevararukoz19_slate": {
+   "authors": [
+    [
+     "Adriana",
+     "Guevara-Rukoz"
+    ],
+    [
+     "Alexander",
+     "Martin"
+    ],
+    [
+     "Yutaka",
+     "Yamauchi"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Prototyping a web-based phonetic training game to improve /r/-/l/ identification by Japanese learners of English",
+   "original": "5",
+   "page_count": 5,
+   "order": 5,
+   "p1": 20,
+   "pn": 24,
+   "abstract": [
+    "Even after years of study, language learners may have difficulty perceiving L2 sounds. For instance, Japanese listeners show difficulty differentiating American English /r/ and /l/. Previous research has shown that phonetic training may improve learners' perception of the contrast. While this training paradigm appears as a promising tool for language learning, its transition from the laboratory to the classroom needs to be facilitated. Not only does phonetic training require recording and/or manually editing many training exemplars, training sessions are also often long and repetitive. Given these obstacles, the long-term goal is to make phonetic training more applicable to real-life learning. In this preliminary study, we prototype a self-paced, web-based phonetic training program, featuring both identification and discrimination tasks as playable mini-games. Participants are trained using nonword minimal pairs (e.g., /lapu/-/rapu/), presented in isolation in clean speech. Their ability to identify the target phonemes is assessed before and after training, with stimuli also presented in noise and/or in sentences, to test perceptual robustness. We assess the effectiveness of the phonetic training game in its current form and discuss future improvements, notably in the context of using speech engineering to automate and augment High Variability Phonetic Training (HVPT) programs.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-5"
+  },
+  "chen19_slate": {
+   "authors": [
+    [
+     "Lei",
+     "Chen"
+    ],
+    [
+     "Qianyong",
+     "Gao"
+    ],
+    [
+     "Qiubing",
+     "Liang"
+    ],
+    [
+     "Jiahong",
+     "Yuan"
+    ],
+    [
+     "Yang",
+     "Liu"
+    ]
+   ],
+   "title": "Automatic Scoring Minimal-Pair Pronunciation Drills by Using Recognition Likelihood Scores and Phonological Features",
+   "original": "6",
+   "page_count": 5,
+   "order": 6,
+   "p1": 25,
+   "pn": 29,
+   "abstract": [
+    "In the mispronunciation detection task using automatic speech recognition (ASR) technology, a recent trend is utilizing phonological features (PFs). PFs have an advantage in generating pronunciation correction feedback comparing with the likelihood features from the ASR framework. However, previous studies only compared PFs with one type of likelihood feature, goodness of pronunciation (GOP). In this paper, we conducted a more thorough comparison by including more likelihood features proposed in the previous literature. Our experiments showed that PFs brought additional performance gains over basic likelihood features, but not for the feature set containing log likelihood ratio (LLR) features. Our findings are helpful to the community for a better understanding of the contributions of PFs to the mispronunciation detection task.\n"
+   ],
+   "doi": "10.21437/SLaTE.2019-6"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Paper Session I (Spoken CALL Shared Task)",
+   "papers": [
+    "baur19_slate",
+    "gretter19_slate",
+    "qian19_slate",
+    "sokhatskyi19_slate"
+   ]
+  },
+  {
+   "title": "Paper Session II (Pronunciation)",
+   "papers": [
+    "guevararukoz19_slate",
+    "chen19_slate",
+    "srinivasan19_slate"
+   ]
+  },
+  {
+   "title": "Demo Session",
+   "papers": [
+    "yarra19_slate",
+    "akhlaghi19_slate",
+    "rose19_slate",
+    "yeung19_slate"
+   ]
+  },
+  {
+   "title": "Paper Session III (Comprehensibility, Intelligibility, and Dialect Classification)",
+   "papers": [
+    "lin19_slate",
+    "xue19_slate",
+    "dobbriner19_slate"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "proenca19_slate",
+    "richardson19_slate",
+    "sudhakara19_slate",
+    "lu19_slate",
+    "yarra19b_slate",
+    "budd19_slate",
+    "kothalkar19_slate"
+   ]
+  },
+  {
+   "title": "Paper Session IV (Call Systems and Reading Prosody)",
+   "papers": [
+    "chiarain19_slate",
+    "akhlaghi19b_slate",
+    "godde19_slate"
+   ]
+  },
+  {
+   "title": "Paper Session V (Classroom)",
+   "papers": [
+    "hajji19_slate",
+    "strik19_slate",
+    "kobashikawa19_slate"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLaTE.2019"
+}

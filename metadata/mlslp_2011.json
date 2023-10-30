@@ -1,0 +1,515 @@
+{
+ "title": "Machine Learning in Speech and Language Processing (MLSLP 2011)",
+ "location": "Bellevue, WA, USA",
+ "startDate": "27/6/2011",
+ "endDate": "27/6/2011",
+ "conf": "MLSLP",
+ "year": "2011",
+ "name": "mlslp_2011",
+ "series": "MLSLP",
+ "SIG": "",
+ "title1": "Machine Learning in Speech and Language Processing",
+ "title2": "(MLSLP 2011)",
+ "date": "27 June 2011",
+ "booklet": "mlslp_2011.pdf",
+ "papers": {
+  "dasgupta11_mlslp": {
+   "authors": [
+    [
+     "Sanjoy",
+     "Dasgupta"
+    ]
+   ],
+   "title": "Recent advances in active learning",
+   "original": "ml11_101",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "A key requirement for being able to learn a good classifier is having enough labeled data. In many situations, however, unlabeled data is easily available but labels are expensive to come by. In the active learning scenario, each label has a non-negligible cost, and the goal, starting with a large pool of unlabeled data, is to adaptively decide which points to label, so that a good classifier is obtained at low cost.   Many active learning strategies run into severe problems with sampling bias; the theory has therefore focused on how to correctly manage this bias while attaining good label complexity. I will summarize recent work in the machine learning community that achieves this goal through algorithms that are simple and practical enough to be used in large-scale applications.\n",
+    ""
+   ]
+  },
+  "saul11_mlslp": {
+   "authors": [
+    [
+     "Lawrence",
+     "Saul"
+    ],
+    [
+     "Chih-Chieh",
+     "Cheng"
+    ],
+    [
+     "Fei",
+     "Sha"
+    ]
+   ],
+   "title": "Online learning of large margin hidden Markov models for automatic speech recognition",
+   "original": "ml11_102",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "We explore the use of sequential, mistake-driven updates for online learning and acoustic feature adaptation in large margin hidden Markov models. The updates are applied to the parameters of acoustic models after the decoding of individual training utterances. For large margin training, the updates attempt to separate the log-likelihoods of correct and incorrect transcriptions by an amount proportional to their Hamming distance. For acoustic feature adaptation, the updates attempt to improve recognition by linearly transforming the features computed by the front end. We evaluate acoustic models trained in this way on the TIMIT speech database. We find that online updates for large margin training not only converge faster than analogous batch optimizations, but also yield lower phone error rates than approaches that do not attempt to enforce a large margin. Finally, experimenting with different schemes for initialization and parameter-tying, we find that acoustic feature adaptation leads to further improvements beyond the already significant gains achieved by large margin training.\n",
+    ""
+   ]
+  },
+  "hovy11_mlslp": {
+   "authors": [
+    [
+     "Eduard",
+     "Hovy"
+    ]
+   ],
+   "title": "On the role of machine learning in NLP",
+   "original": "ml11_103",
+   "page_count": 0,
+   "order": 3,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Almost all of NLP consists of the following three kinds of tasks: transforming information from one representation into another, identifying within a larger collection a fragment or subset obeying given desiderata, and assigning an appropriate label to a given exemplar. These tasks used to be performed by algorithms using manually crafted rules. The power, and the promise, of Machine Learning is to perform much of this work automatically. Over the past 20 years, NLP researchers have explored many kinds of learning algorithms on existing and/or easily created corpora for a wide range of tasks and phenomena. By using existing corpora or cleverly leveraging resources, they have avoided the difficult tasks of designing representations and building training data. But nothing is free forever. To make headway achieve increasingly high performance in various NLP tasks, we are going to need some deeper thinking about the phenomena themselves, about suitable representations for them, and about corpora that illustrate their complexity and scale. The core problem is that Machine Learning focuses on only half of the problem: it has nothing to say about the nature of the phenomena being addressed, and is not, ultimately, very useful for arriving at a deeper understanding of how language works. The best way forward for NLP, I believe, is to recognize that we need (at least) two kinds of researchers: the NLP linguists and the NLP engineers. In this talk I outline the problem and suggest ways in which ML researchers (who mostly are NLP engineers) can facilitate the work of NLP linguists. This effort will be repaid handsomely, since there remain many challenging problems in NLP, ready to be addressed once the linguistic perspectives and representations have been addressed.\n",
+    ""
+   ]
+  },
+  "saon11_mlslp": {
+   "authors": [
+    [
+     "George",
+     "Saon"
+    ],
+    [
+     "Jen-Tzung",
+     "Chien"
+    ]
+   ],
+   "title": "Bayesian sensing hidden Markov models for speech recognition",
+   "original": "ml11_104",
+   "page_count": 0,
+   "order": 4,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "We introduce Bayesian sensing hidden Markov models to represent speech data based on a set of state-dependent basis vectors. By incorporating the prior density of sensing weights, the relevance of a feature vector to different bases is determined by the corresponding precision parameters. The model parameters, consisting of the basis vectors, the precision matrices of the sensing weights and the precision matrices of the reconstruction errors, are jointly estimated by maximizing the likelihood function, which is marginalized over the weights. We derive recursive solutions for the three parameters, which are expressed via maximum a posteriori estimates of the sensing weights.   This model was fielded in the latest DARPA GALE Arabic Broadcast News transcription evaluation and has shown gains on the evaluation data over state-of-the-art discriminatively trained HMMs with conventional Gaussian mixture models.\n",
+    ""
+   ]
+  },
+  "eisner11_mlslp": {
+   "authors": [
+    [
+     "Jason",
+     "Eisner"
+    ],
+    [
+     "Markus",
+     "Dreyer"
+    ]
+   ],
+   "title": "A non-parametric Bayesian approach to inflectional morphology",
+   "original": "ml11_105",
+   "page_count": 0,
+   "order": 5,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "We learn how the words of a language are inflected, given a plain text corpus plus a small supervised set of known paradigms. The approach is principled, simply performing empirical Bayesian inference under a straightforward generative model that explicitly describes the generation of The grammar and subregularities of the language (via many finite-state transducers coordinated in a Markov Random Field). The infinite inventory of types and their inflectional paradigms (via a Dirichlet Process Mixture Model based on the above grammar). The corpus of tokens (by sampling inflected words from the above inventory).\n",
+    "Our inference algorithm cleanly integrates several techniques that handle the different levels of the model: classical dynamic programming operations on the finite-state transducers, loopy belief propagation in the Markov Random Field, and MCMC and MCEM for the non-parametric Dirichlet Process Mixture Model.   We will build up the various components of the model in turn, showing experimental results along the way for several intermediate tasks such as lemmatization, transliteration, and inflection. Finally, we show that modeling paradigms jointly with the Markov Random Field, and learning from unannotated text corpora via the non-parametric model, significantly improves the quality of predicted word inflections.\n",
+    ""
+   ]
+  },
+  "hasegawajohnson11_mlslp": {
+   "authors": [
+    [
+     "Mark",
+     "Hasegawa-Johnson"
+    ],
+    [
+     "Jui-Ting",
+     "Huang"
+    ],
+    [
+     "Xiaodan",
+     "Zhuang"
+    ]
+   ],
+   "title": "Unlabeled data and other marginals",
+   "original": "ml11_106",
+   "page_count": 0,
+   "order": 6,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Machine learning minimizes bounds on E[h] computed over an unknown distribution p(x,y). Unlabeled data describe p(x), while scientific prior knowledge can describe p(y). This talk will discuss the use of unlabeled data to compute p(x), and of articulatory phonology to compute p(y), for acoustic modeling and pronunciation modeling in automatic speech recognition. We will demonstrate that, if either p(x) or p(y) is known, it's possible to substantially reduce the VC dimension of the function space, thereby substantially reducing the expected risk of the classifier. As a speculative example, we will show that p(y) can be improved (relative to usual ASR methods) using finite state machines based on articulatory phonology, and preliminary results will be reviewed. As a more fully developed example, we will show that the VC dimension of a maximum mutual information (MMI) speech recognizer can be bounded by the conditional entropy of y given x; the resulting training criterion is MMI over labeled data, minus conditional label entropy of unlabeled data. Algorithms and experimental results will be provided for the cases of isolated phone recognition, and of retraining using N-best lists.\n",
+    ""
+   ]
+  },
+  "chang11_mlslp": {
+   "authors": [
+    [
+     "Ming-Wei",
+     "Chang"
+    ],
+    [
+     "James",
+     "Clarke"
+    ],
+    [
+     "Dan",
+     "Goldwasser"
+    ],
+    [
+     "Lev",
+     "Ratinov"
+    ],
+    [
+     "Vivek",
+     "Srikumar"
+    ],
+    [
+     "Dan",
+     "Roth"
+    ]
+   ],
+   "title": "Structured prediction with indirect supervision",
+   "original": "ml11_107",
+   "page_count": 0,
+   "order": 7,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Machine learning (ML) has already made significant impacts on our daily life. From hand-written digit recognition, spam filtering to ranking search results, machine learning techniques help us build intelligent systems more easily and make computers seem smarter. Nevertheless, current ML techniques support limited set of supervision protocols, making it difficult to transfer human knowledge to machines efficiently without labeling examples explicitly. However, structured tasks, which involve many interdependent decisions for a given example, are expensive to label. Given that many important tasks in natural language processing and information extraction are structured tasks, it is important to develop learning frameworks that can use knowledge resources and other sources of indirect supervision in addition to labeled examples for the current task.\n",
+    ""
+   ]
+  },
+  "bilmes11_mlslp": {
+   "authors": [
+    [
+     "Jeff",
+     "Bilmes"
+    ],
+    [
+     "Hui",
+     "Lin"
+    ],
+    [
+     "Andrew",
+     "Guillory"
+    ]
+   ],
+   "title": "Applications of submodular functions in speech and NLP",
+   "original": "ml11_108",
+   "page_count": 0,
+   "order": 8,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Submodular functions have a long history in economics, game theory, combinatorial optimization, electrical networks, and operations research. A submodular function operates on subsets of a finite ground set, and has certain properties that make optimization either tractable or approximable whereas otherwise neither would be possible. In this talk, after briefly reviewing relevant properties, we will discuss several applications of submodularity in speech and natural language processing. First, we will see how submodular functions can be used to address the problem of finding a subset of a large speech corpus that is useful for accurately and rapidly prototyping novel and computationally expensive speech recognition architectures. The principle partition of a submodular function allows rapid exploration of the tradeoff between limiting the number and quality of types vs. the number and quality of tokens in such a corpus. Secondly, we present a class of submodular functions useful for document summarization tasks, each combining fidelity and diversity terms. We show better than existing state-of-art results in both generic and query-focused document summarization on the DUC 2004-2007 evaluations. We also show that some well-known methods for document summarization are in fact submodular. Lastly, given time, we may present new methods for active semi-supervised learning on submodular functions.\n",
+    ""
+   ]
+  },
+  "mcallester11_mlslp": {
+   "authors": [
+    [
+     "David",
+     "McAllester"
+    ]
+   ],
+   "title": "Generalization bounds and consistency for latent-structural probit and ramp loss",
+   "original": "ml11_109",
+   "page_count": 0,
+   "order": 9,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Linear predictors are scale-insensitive - the prediction does not change when the weight vector defining the predictor is scaled up or down. This implies that direct regularization of the performance of a linear predictor with a scale sensitive regularizer (such as a norm of the weight vector) is meaningless. Linear predictors are typically learned by introducing a scale-sensitive surrogate loss function such as the hinge loss of an SVM. However, no convex surrogate loss function can be consistent in general - in finite dimension SVMs are not consistent. Here we generalize probit loss and ramp loss to the latent-structural setting and show that both of these loss functions are consistent in arbitrary dimension for an arbitrary bounded task loss. Empirical experience with probit loss and ramp loss will be briefly discussed.\n",
+    ""
+   ]
+  },
+  "steedman11_mlslp": {
+   "authors": [
+    [
+     "Mark",
+     "Steedman"
+    ]
+   ],
+   "title": "Some open problems in machine learning for NLP",
+   "original": "ml11_110",
+   "page_count": 0,
+   "order": 10,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Natural language processing is obstructed by two problems: that of ambiguity, and that of skewed distributions. Together they engender acute sparsity of data for supervised learning, both of grammars and parsing models.   The paper expresses some pessimism about the prospects for getting around this problem using unsupervised methods, and considers the prospects for finding naturally labeled datasets to extend supervised methods.\n",
+    ""
+   ]
+  },
+  "chen11_mlslp": {
+   "authors": [
+    [
+     "Stanley",
+     "Chen"
+    ],
+    [
+     "Stephen",
+     "Chu"
+    ],
+    [
+     "Ahmad",
+     "Emami"
+    ],
+    [
+     "Lidia",
+     "Mangu"
+    ],
+    [
+     "Bhuvana",
+     "Ramabhadran"
+    ],
+    [
+     "Ruhi",
+     "Sarikaya"
+    ],
+    [
+     "Abhinav",
+     "Sethy"
+    ]
+   ],
+   "title": "Performance prediction and shrinking language models",
+   "original": "ml11_111",
+   "page_count": 0,
+   "order": 11,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "In this talk, we present a simple empirical law that vastly outperforms the Akaike and Bayesian Information Criterions at predicting the test set likelihood of an exponential language model. We discuss under what conditions this relationship holds; how it can be used to improve the design of language models; and whether these ideas can be applied to other types of statistical models as well. Specifically, we show how this relationship led to the design of \"Model M\", a class-based language model that outperforms all previous models of this type.\n",
+    ""
+   ]
+  },
+  "bengio11_mlslp": {
+   "authors": [
+    [
+     "Yoshua",
+     "Bengio"
+    ]
+   ],
+   "title": "On learning distributed representations of semantics",
+   "original": "ml11_112",
+   "page_count": 0,
+   "order": 12,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "Machine learning algorithms try to characterize configurations of variables that are plausible (somehow similar to those seen in the training set, and predictive of those that could be seen in a test set) so as to be able to answer questions about these configurations. A general approach towards this goal is to learn *representations* of these configurations that help to generalize to new configurations. We expose the statistical advantages of representations that are *distributed* and *deep* (at multiple levels of representation) and survey some of the advances in such feature learning algorithms, along with some of our recent work in this area, for natural language processing and pattern recognition. In particular, we highlight our effort towards modeling semantics beyond single-word embeddings, to capture relations between concepts and produce models of 2-argument relations such as (subject, verb, object) seen as (argument1, relation, argument2) that can be used to answer questions, disambiguate text, and learn from free text and knowledge bases in the same representational space.\n",
+    ""
+   ]
+  },
+  "moore11_mlslp": {
+   "authors": [
+    [
+     "Robert",
+     "Moore"
+    ],
+    [
+     "John",
+     "DeNero"
+    ]
+   ],
+   "title": "L1 and L2 regularization for multiclass hinge loss models",
+   "original": "ml11_001",
+   "page_count": 5,
+   "order": 13,
+   "p1": "1",
+   "pn": "5",
+   "abstract": [
+    "This paper investigates the relationship between the loss function, the type of regularization, and the resulting model sparsity of discriminatively-trained multiclass linear models. The effects on sparsity of optimizing log loss are straightforward: L2 regularization produces very dense models while L1 regularization produces much sparser models. However, optimizing hinge loss yields more nuanced behavior. We give experimental evidence and theoretical arguments that, for a class of problems that arises frequently in natural-language processing, both L1- and L2-regularized hinge loss lead to sparser models than L2-regularized log loss, but less sparse models than L1-regularized log loss. Furthermore, we give evidence and arguments that for models with only indicator features, there is a critical threshold on the weight of the regularizer below which L1- and L2-regularized hinge loss tends to produce models of similar sparsity.\n",
+    "Index Terms: regularization, hinge loss, support vector machines, SVMs, sparsity\n",
+    ""
+   ]
+  },
+  "badiezadegan11_mlslp": {
+   "authors": [
+    [
+     "Shirin",
+     "Badiezadegan"
+    ],
+    [
+     "Richard",
+     "Rose"
+    ]
+   ],
+   "title": "A comparison of performance monitoring approaches to fusing spectrogram channels in speech recognition",
+   "original": "ml11_006",
+   "page_count": 5,
+   "order": 14,
+   "p1": "6",
+   "pn": "10",
+   "abstract": [
+    "Implementations of two performance monitoring approaches to feature channel integration in robust automatic speech recognition are presented. These approaches combine multiple feature channels, where the first one uses a feed-forward entropy-based criterion and the second one, motivated by psychophysical evidence in human speech perception, employs a closed loop criterion relating to the overall performance of the system. The multiple feature channels correspond to an ensemble of reconstructed spectrograms generated by applying multiresolution discrete wavelet transform analysissynthesis filter-banks to corrupted speech spectrograms. The spectrograms associated with these feature channels differ in the degree to which information has been suppressed in multiple scales and frequency bands. The performance of these approaches is evaluated in the Aurora 3 speech in noise task domain.\n",
+    "Index Terms: spectrographic mask, wavelet-based denoising, spectrogram reconstruction\n",
+    ""
+   ]
+  },
+  "sun11_mlslp": {
+   "authors": [
+    [
+     "Meng",
+     "Sun"
+    ],
+    [
+     "Hugo",
+     "Van hamme"
+    ]
+   ],
+   "title": "A two-layer non-negative matrix factorization model for vocabulary discovery",
+   "original": "ml11_011",
+   "page_count": 5,
+   "order": 15,
+   "p1": "11",
+   "pn": "15",
+   "abstract": [
+    "A two-layer NMF model is proposed for vocabulary discovery. The model first extracts low-level vocabulary patterns based on a histogram of co-occurrences of Gaussians. Then latent units are discovered by spectral embedding of Gaussians at layer-1. Layer-2 discovers vocabulary patterns based on the histogram of co-occurrences of the latent units. Improvements in unordered word error rates are observed from the low-level representation to the two-layermodel on the Aurora2/ Clean database. The relation between the latent units and the states of an HMM is discussed.\n",
+    "Index Terms: non-negativematrix factorization, hidden Markov models, speech recognition\n",
+    ""
+   ]
+  },
+  "lonsdale11_mlslp": {
+   "authors": [
+    [
+     "Deryle",
+     "Lonsdale"
+    ],
+    [
+     "Carl",
+     "Christensen"
+    ]
+   ],
+   "title": "Automating the scoring of elicited imitation tests",
+   "original": "ml11_016",
+   "page_count": 5,
+   "order": 16,
+   "p1": "16",
+   "pn": "20",
+   "abstract": [
+    "This paper explores the role of machine learning in automating the scoring for one kind of spoken language test: elicited imitation (EI). After sketching the background and rationale for EI testing, we give a brief overview of EI test results that we have collected. To date, the administration and scoring of these tests have been done sequentially and the scoring latency has not been critically important; our goal now is to automate the test. We show how this implies the need for an adaptive capability at run time, and motivate the need for machine learning in the creation of this kind of test. We discuss our sizable store of data from prior EI test administrations. Then we show various experiments that illustrate how this prior information is useful in predicting student performance. We present simulations designed to foreshadow how well the system will be able to adapt on-the-fly to student responses. Finally, we draw conclusions and mention possible future work.\n",
+    ""
+   ]
+  },
+  "shah11_mlslp": {
+   "authors": [
+    [
+     "Rushin",
+     "Shah"
+    ],
+    [
+     "Bo",
+     "Lin"
+    ],
+    [
+     "Kevin Dela",
+     "Rosa"
+    ],
+    [
+     "Anatole",
+     "Gershman"
+    ],
+    [
+     "Robert",
+     "Frederking"
+    ]
+   ],
+   "title": "Improving cross-document co-reference with semi-supervised information extraction modelsi",
+   "original": "ml11_021",
+   "page_count": 5,
+   "order": 17,
+   "p1": "21",
+   "pn": "25",
+   "abstract": [
+    "In this paper, we consider the problem of cross-document co-reference (CDC). Existing approaches tend to treat CDC as an information retrieval based problem and use features such as TF-IDF cosine similarity to cluster documents and/or co-reference chains. We augmented these features with features based on biographical attributes, such as occupation, nationality, gender, etc., obtained by using semi-supervised attribute extraction models. Our results suggest that the addition of these features boosts the performance of our CDC system considerably. The extraction of such specific attributes allows us to use features, such as semantic similarity, mutual information and approximate name similarity which have not been used so far for CDC with traditional bag-of-words models. Our system achieves F0.5 scores of 0.82 and 0.81 on the WePS-1 and WePS-2 datasets, which rival the best reported scores for this problem.\n",
+    ""
+   ]
+  },
+  "chen11b_mlslp": {
+   "authors": [
+    [
+     "David",
+     "Chen"
+    ],
+    [
+     "Raymond",
+     "Mooney"
+    ]
+   ],
+   "title": "Panning for gold: finding relevant semantic content for grounded language learning",
+   "original": "ml11_026",
+   "page_count": 6,
+   "order": 18,
+   "p1": "26",
+   "pn": "30",
+   "abstract": [
+    "One of the key challenges in grounded language acquisition is resolving the intentions of the expressions. Typically the task involves identifying a subset of records from a list of candidates as the correct meaning of a sentence. While most current work assume complete or partial independence between the records, we examine a scenario in which they are strongly related. By representing the set of potential meanings as a graph, we explicitly encode the relationships between the candidate meanings.We introduce a refinement algorithm that first learns a lexicon which is then used to remove parts of the graphs that are irrelevant. Experiments in a navigation domain shows that the algorithm successfully recovered over three quarters of the correct semantic content.\n",
+    "Index Terms: ambiguously supervised learning, grounded language acquisition\n",
+    ""
+   ]
+  },
+  "hermansky11_mlslp": {
+   "authors": [
+    [
+     "Hynek",
+     "Hermansky"
+    ],
+    [
+     "Nima",
+     "Mesgarani"
+    ],
+    [
+     "Samuel",
+     "Thomas"
+    ]
+   ],
+   "title": "Performance monitoring for robustness in automatic recognition of speechi",
+   "original": "ml11_031",
+   "page_count": 4,
+   "order": 19,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "A new method to deal with an unexpected harmful variability (noise) in speech during the operation of the system is reviewed. The fundamental idea is to derive in the training phase statistics of the system output for the data on which the system was trained and adaptively modify the system so that statistics derived during the operation are similar. Multiple processing streams are formed by extracting different spectral and temporal modulation components from the speech signal. Information in each stream is used to estimate posterior probabilities of speech sounds (posteriogram) in each stream, and these estimates are fused to derive the final posteriogram. The autocorrelation matrix of a modified final posteriogram is adopted as the measure that summarizes the system performance. Initial setup of the fusion module is found by cross-correlating the probability estimates with phoneme labels on training data. During an operation, the matrix derived on the training data serves as the desirable target and the fusion module is modified to optimize the system performance. Results on phoneme recognition from noisy speech indicate the effectiveness of the method.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Speakers (Abstracts and presentations only, no full papers)",
+   "papers": [
+    "dasgupta11_mlslp",
+    "saul11_mlslp",
+    "hovy11_mlslp",
+    "saon11_mlslp",
+    "eisner11_mlslp",
+    "hasegawajohnson11_mlslp",
+    "chang11_mlslp",
+    "bilmes11_mlslp",
+    "mcallester11_mlslp",
+    "steedman11_mlslp",
+    "chen11_mlslp",
+    "bengio11_mlslp"
+   ]
+  },
+  {
+   "title": "Poster Session (Full papers)",
+   "papers": [
+    "moore11_mlslp",
+    "badiezadegan11_mlslp",
+    "sun11_mlslp",
+    "lonsdale11_mlslp",
+    "shah11_mlslp",
+    "chen11b_mlslp",
+    "hermansky11_mlslp"
+   ]
+  }
+ ]
+}

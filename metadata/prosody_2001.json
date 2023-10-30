@@ -1,0 +1,812 @@
+{
+ "title": "ITRW on Prosody in Speech Recognition and Understanding",
+ "location": "Molly Pitcher Inn, Red Bank, NJ, USA",
+ "startDate": "22/10/2001",
+ "endDate": "24/10/2001",
+ "conf": "Prosody",
+ "year": "2001",
+ "name": "prosody_2001",
+ "series": "",
+ "SIG": "",
+ "title1": "ITRW on Prosody in Speech Recognition and Understanding",
+ "date": "22-24 October 2001",
+ "papers": {
+  "shriberg01_prosody": {
+   "authors": [
+    [
+     "Elizabeth",
+     "Shriberg"
+    ],
+    [
+     "Andreas",
+     "Stolcke"
+    ]
+   ],
+   "title": "Prosody modeling for automatic speech understanding: an overview of recent research at SRI",
+   "original": "prsr_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "paper 1",
+   "pn": "",
+   "abstract": [
+    "Prosody has long been studied as an important knowledge source for speech understanding. In recent years there has been a large amount of computational work aimed at prosodic modeling for automatic speech recognition and understanding. Whereas most current approaches to speech processing model only the words, prosody provides an additional knowledge source that is inherent in, and exclusive to, spoken language. It can therefore provide additional information that is not directly available from text alone, and also serves as a partially redundant knowledge source that may help overcome the errors resulting from faulty word recognition.\n",
+    "In this paper, we summarize recent work at SRI International in the area of computational prosody modeling, and results from several recognition tasks where prosodic knowledge proved to be of help. We present only a high-level perspective and summary of our research; for details the reader is referred to publications cited.\n",
+    ""
+   ]
+  },
+  "bates01_prosody": {
+   "authors": [
+    [
+     "Rebecca",
+     "Bates"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ]
+   ],
+   "title": "Modeling pronunciation variation in conversational speech using syntax and discourse",
+   "original": "prsr_003",
+   "page_count": 6,
+   "order": 2,
+   "p1": "paper 3",
+   "pn": "",
+   "abstract": [
+    "A significant source of variation in spontaneous speech is due to intra-speaker pronunciation changes. Previous work in automatic speech recognition has identified several factors that affect pronunciation variability such as phonetic context and speaking rate. This work examines new higher level information sources: syntax and discourse structure, specifically the relationship between these factors and pronunciation variation as seen in reduction and hyper-articulation. Analyses of hand-labeled data are used to determine features for phoneindependent variables characterizing pronunciation changes, which in turn are used in a decision-tree based dynamic pronunciation model. Pronunciation prediction experiments show a reduction in phone error rate of 10% over a baseline model using only phonetic context.\n",
+    ""
+   ]
+  },
+  "batliner01_prosody": {
+   "authors": [
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ],
+    [
+     "Jan",
+     "Buckow"
+    ],
+    [
+     "Richard",
+     "Huber"
+    ],
+    [
+     "Volker",
+     "Warnke"
+    ],
+    [
+     "Heinrich",
+     "Niemann"
+    ]
+   ],
+   "title": "Duration features in prosodic classification: why normalization comes second, and what they really encode",
+   "original": "prsr_004",
+   "page_count": 6,
+   "order": 3,
+   "p1": "paper 4",
+   "pn": "",
+   "abstract": [
+    "For the classification of boundaries and accents in German and English spontaneous speech in the VERBMOBIL project (speech to speech translation system), we use a large prosodic feature vector; duration features represent the most important feature class. They are computed in three different ways: (1) The word duration is normalized with respect to the expected word duration: DURNORM; (2) Duration is normalized as for the number of syllables in the word: DURSYLL; (3) The absolute duration value DURABS of a word is taken. Normally, we use all these feature classes simultaneously. In the present paper, we have a look at the impact of each of these duration classes separately. In addition, we use partof- speech (POS) information as a further knowledge source. It turns out that throughout, the best feature class, if used alone, is DURABS, followed by DURSYLL, and third comes DURNORM. Best results are achieved by using all feature classes together. With POS information, better results can be achieved than without. This effect is larger for accent classification than for boundary classification, and much larger in combination with DURNORM than in combination with DURSYLL or DURABS. These results indicate that especially DURABS does not only encode prosodic but to a large extent syntactic POS information as well: content words are normally more prone to be accentuated than function words, and at the same time, they tend to be longer. This information is of course lost if duration is normalized, as is the case for DURSYLL and DURNORM.\n",
+    ""
+   ]
+  },
+  "bouwman01_prosody": {
+   "authors": [
+    [
+     "Gies",
+     "Bouwman"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ]
+   ],
+   "title": "Using information on lexical stress for utterance verification",
+   "original": "prsr_005",
+   "page_count": 6,
+   "order": 4,
+   "p1": "paper 5",
+   "pn": "",
+   "abstract": [
+    "ASR applications like nationwide telephone directory assistance (DA) face the challenge of making a correct classification with only minimal amounts of acoustic data. For this reason, current systems still make too many errors in order to be useful. In the perspective of the idea that no recognition is better than misrecognition, a feasible system should therefore detect and reject the least reliable hypotheses. This process is known as utterance verification.\n",
+    "Against the disadvantage of having few information, there is the advantage that isolated utterances have a relatively small degree of prosodic variation, for instance in intonation, speech rate and accent. In this paper we investigate how one can capitalise on this advantage in terms of better utterance verification. We define a number of confidence measures (CMs) on prosodic features and evaluate several linear combinations of one or more CMs.\n",
+    "Experimental results on a field corpus of city names show that a relative improvement of 11.0% Confidence Error Rate can be achieved when compared to a conventional system with only a Log Likelihood Ratio CM.\n",
+    ""
+   ]
+  },
+  "christensen01_prosody": {
+   "authors": [
+    [
+     "Heidi",
+     "Christensen"
+    ],
+    [
+     "Yoshihiko",
+     "Gotoh"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Punctuation annotation using statistical prosody models",
+   "original": "prsr_006",
+   "page_count": 6,
+   "order": 5,
+   "p1": "paper 6",
+   "pn": "",
+   "abstract": [
+    "This paper is about the development of statistical models of prosodic features to generate linguistic meta-data for spoken language. In particular, we are concerned with automatically punctuating the output of a broadcast news speech recogniser. We present a statistical finite state model that combines prosodic, linguistic and punctuation class features. Experimental results are presented using the Hub-4 Broadcast News corpus, and in the light of our results we discuss the issue of a suitable method of evaluating the present task.\n",
+    ""
+   ]
+  },
+  "dainora01_prosody": {
+   "authors": [
+    [
+     "Audra",
+     "Dainora"
+    ]
+   ],
+   "title": "Eliminating downstep in prosodic labeling of American English",
+   "original": "prsr_007",
+   "page_count": 6,
+   "order": 6,
+   "p1": "paper 7",
+   "pn": "",
+   "abstract": [
+    "I remove downstep from the phonological inventory of English based on careful statistical study. In my data I find no distinction between tones labeled downstepped and tones labeled nondownstepped. If tones considered downstepped are indeed in a compressed pitch range relative to the preceding tone, then they should have a target drop in frequency that is different from the target for nondownstepped tones. Instead I find that the frequency drops obey a normal distribution that shows no evidence of bimodality. The values of the frequency drops for downstepped and nondownstepped tones form the right- and left-hand tails of this distribution.\n",
+    ""
+   ]
+  },
+  "girand01_prosody": {
+   "authors": [
+    [
+     "Cynthia V.",
+     "Girand"
+    ],
+    [
+     "Alan",
+     "Bell"
+    ]
+   ],
+   "title": "Disfluency detection: classifying repeated words as planned or unplanned",
+   "original": "prsr_008",
+   "page_count": 4,
+   "order": 7,
+   "p1": "paper 8",
+   "pn": "",
+   "abstract": [
+    "Improving the accuracy of speech recognition depends partly on the ability to correctly recognize disfluencies in conversational speech. Conversational data contains instances of both unplanned repetitions (e.g. and its filling in with with grass...) and planned repetitions (e.g. We have had very very poor luck with uh all of the core crops...). If a word repetition is improperly identified as a speech disfluency, important information contained in the speech signal could be lost. The results of this paper show that while some of the prosodic characteristics of duration and silent pause structure are similar in planned and unplanned repetitions, their duration structures differ significantly in certain respects. The most significant finding shows that the types of lexical items that occur in planned and unplanned repetitions are quite different. Fairly accurate (97%) classification of repetitions as either planned or unplanned is possible by considering the word category that the item belongs to.\n",
+    ""
+   ]
+  },
+  "greenberg01_prosody": {
+   "authors": [
+    [
+     "Steven",
+     "Greenberg"
+    ],
+    [
+     "Shawn",
+     "Chang"
+    ],
+    [
+     "Leah",
+     "Hitchcock"
+    ]
+   ],
+   "title": "The relation between stress accent and vocalic identity in spontaneous American English discourse",
+   "original": "prsr_009",
+   "page_count": 6,
+   "order": 8,
+   "p1": "paper 9",
+   "pn": "",
+   "abstract": [
+    "There is a systematic relationship between stress accent and vocalic identity in spontaneous English discourse (the Switchboard corpus composed of telephone dialogues). Low vowels are much more likely to be fully accented than their high vocalic counterparts. And conversely, high vowels are far more likely to lack stress accent than low or mid vocalic segments. Such patterns imply that stress accent and vocalic identity (particularly vowel height) are bound together at some level of lexical representation. Statistical analysis of a manually annotated corpus (Switchboard) indicates that vocalic duration is likely to serve as an important acoustic cue for stress accent, particularly for diphthongs and the low, tense monophthongs. In addition, multilayer perceptrons (MLPs) were trained on a portion of this annotated material in order to automatically label the corpus with respect to stress accent. The automatically derived labels are highly concordant with those of human transcribers (79% concordance within a quarter-step of accent level and 97.5% concordant within a half-step of accent level). In order to achieve such a high degree of concordance it is necessary to include features pertaining not only to the duration and amplitude of the vocalic nuclei, but also those associated with speaker gender, syllabic duration and most importantly, vocalic identity. Such results suggest that vocalic identity is intimately associated with stress accent in spontaneous American English (and vice versa), thereby providing a potential foundation with which to model pronunciation variation for automatic speech recognition.\n",
+    ""
+   ]
+  },
+  "heldner01_prosody": {
+   "authors": [
+    [
+     "Mattias",
+     "Heldner"
+    ]
+   ],
+   "title": "Spectral emphasis as an additional source of information in accent detection",
+   "original": "prsr_010",
+   "page_count": 4,
+   "order": 9,
+   "p1": "paper 10",
+   "pn": "",
+   "abstract": [
+    "This study deals with the relevance of spectral emphasis for accent detection. Spectral emphasis may be described as an acoustic feature reflecting the relative intensity in the higher frequency bands. In an experiment using a rudimentary accent detector, spectral emphasis was shown to be more useful for the detection of accents than overall intensity. Furthermore, spectral emphasis was found to outperform f0 in certain conditions. It is argued here, therefore, that it might be worthwhile to include spectral emphasis in systems using a combination of acoustic features for automatic classification of prosodic categories.\n",
+    ""
+   ]
+  },
+  "hirose01_prosody": {
+   "authors": [
+    [
+     "Keikichi",
+     "Hirose"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Yohei",
+     "Hashimoto"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ]
+   ],
+   "title": "Continuous speech recognition of Japanese using prosodic word boundaries detected by mora transition modeling of fundamental frequency contours",
+   "original": "prsr_011",
+   "page_count": 6,
+   "order": 10,
+   "p1": "paper 11",
+   "pn": "",
+   "abstract": [
+    "An HMM-based method of detecting prosodic word boundaries was developed  for Japanese continuous speech and was successfully integrated into a  mora-basis continuous speech recognition system with two stages operating  without and with prosodic information. The method is based on modeling the  fundamental frequency (F0) contour of input speech as transitions of  mora-unit F0 contours and operates after receiving mora boundary  information form the 1st stage of the recognition system. The 1st  and the 2nd stages use different mora bi-gram models as their  language models: one trained not taking prosodic word boundary  location into account and the other taking into account. Because  of perplexity reduction of the model from the 1st to the 2nd stages,  an improved recognition result can be obtained from the 2nd stage.  In the current paper, the method is explained with experimental results.  Issues of grammar scale factor for the boundary detection and N-best  scheme for the speech recognition are also included. Improvements in  mora recognition rates from the 1st to the 2nd stages were observable  in both speaker-closed and -open experiments.\n",
+    ""
+   ]
+  },
+  "hirschberg01_prosody": {
+   "authors": [
+    [
+     "Julia",
+     "Hirschberg"
+    ],
+    [
+     "Diane",
+     "Litman"
+    ],
+    [
+     "Marc",
+     "Swerts"
+    ]
+   ],
+   "title": "Detecting misrecognitions and corrections in spoken dialogue systems from `aware' sites",
+   "original": "prsr_012",
+   "page_count": 4,
+   "order": 11,
+   "p1": "paper 12",
+   "pn": "",
+   "abstract": [
+    "We explore the extent to which misrecognitions and corrections in spoken dialogue systems can be predicted from information about other turn categories in the preceding or following context. Features including whether or not subsequent turns represent `aware' sites, in which users first become aware that the system has misheard them, or corrections, and whether or not prior turns represent `aware' sites or are misrecognized are used to identify following turns as potential correction sites and to detect whether previous turns were in fact misrecognized. This represents a new phase in our ongoing work identifying corrections and misrecognitions to improve the performance of spoken dialogue systems.\n",
+    ""
+   ]
+  },
+  "ishi01_prosody": {
+   "authors": [
+    [
+     "Carlos Toshinori",
+     "Ishi"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ]
+   ],
+   "title": "Recognition of accent and intonation types of Japanese using F0 parameters related to human pitch perception",
+   "original": "prsr_013",
+   "page_count": 6,
+   "order": 12,
+   "p1": "paper 13",
+   "pn": "",
+   "abstract": [
+    "Based on a new approach of representing F0 in mora units (F0mora), several parameters (average and target values of F0 in CV and VC segments) were proposed. Then, a variable (F0ratio) was defined representing the F0 movement between two consecutive morae, and their distributions were analyzed and used to create models for each accent type. Evaluation results indicated that average values of VC units and target values of CV units showed the best performances in the accent type identification task. In order to investigate the causes of these results from a perceptual viewpoint, the candidates for F0mora were checked considering how they were related to perceived mora pitch values. For this purpose, MIDI sounds were used as references to perceived mora pitch (F0human). Analysis on the mismatches between F0human and the proposed F0mora parameters showed mismatches especially when pitch change occurs within the syllables. As for the intonation type identification, several acoustic features were proposed to represent 6 types of sentence final tones, each conveying different information of subjects intentions and attitudes. The proposed acoustic features for relative duration and sentence final pitch change showed good correspondence to perceptual features.\n",
+    ""
+   ]
+  },
+  "jansen01_prosody": {
+   "authors": [
+    [
+     "Wouter",
+     "Jansen"
+    ],
+    [
+     "Michelle L.",
+     "Gregory"
+    ],
+    [
+     "Jason M.",
+     "Brenier"
+    ]
+   ],
+   "title": "Prosodic correlates of directly reported speech: Evidence from conversational speech",
+   "original": "prsr_014",
+   "page_count": 4,
+   "order": 13,
+   "p1": "paper 14",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the prosodic characteristics of reported speech in the Switchboard corpus. We find that directly reported speech is signalled by a greater overall pitch range than the surrounding narrative material and is typically preceded by intonational phrase boundaries. By contrast, prosody does not seem to distinguish indirectly reported speech from ordinary narrative speech. The implications of these findings for ASR are discussed.\n",
+    ""
+   ]
+  },
+  "johnson01_prosody": {
+   "authors": [
+    [
+     "Michael T.",
+     "Johnson"
+    ],
+    [
+     "Leah H.",
+     "Jamieson"
+    ]
+   ],
+   "title": "Temporal features for broadcast news segmentation",
+   "original": "prsr_015",
+   "page_count": 6,
+   "order": 14,
+   "p1": "paper 15",
+   "pn": "",
+   "abstract": [
+    "The task of automatically segmenting an acoustic signal into categories (such as speech, speech over background music, or music) is an important step in the transcription process. We are attempting to improve the accuracy of such segmentation systems by incorporating suprasegmental and other temporal information into the frame-based classifiers typically used for this purpose. Two specific approaches are introduced here, one based on using frequency contours to improve the location of segment boundaries and one based on including temporal features directly into the frame-based classifier. Results indicate that improvement in classification accuracy can be achieved through the use of temporal information, particularly for the speech plus music class where methods using traditional features often give poor results.\n",
+    ""
+   ]
+  },
+  "koumpis01_prosody": {
+   "authors": [
+    [
+     "Konstantinos",
+     "Koumpis"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "The role of prosody in a voicemail summarization system",
+   "original": "prsr_016",
+   "page_count": 6,
+   "order": 15,
+   "p1": "paper 16",
+   "pn": "",
+   "abstract": [
+    "When a speaker leaves a voicemail message there are prosodic cues that emphasize the important points in the message, in addition to lexical content. In this paper we compare and visualize the relative contribution of these two types of features within a voicemail summarization system. We describe the system's ability to generate summaries of two test sets, having trained and validated using 700 messages from the IBM Voicemail corpus. Results measuring the quality of summary artifacts show that combined lexical and prosodic features are at least as robust as combined lexical features alone across all operating conditions.\n",
+    ""
+   ]
+  },
+  "kurematsu01_prosody": {
+   "authors": [
+    [
+     "Akira",
+     "Kurematsu"
+    ],
+    [
+     "Mitsuhiro",
+     "Hosoki"
+    ],
+    [
+     "Yasuo",
+     "Morimoto"
+    ]
+   ],
+   "title": "Prosody pattern recognition and identification of utterance intentions in Japanese spontaneous speech",
+   "original": "prsr_017",
+   "page_count": 4,
+   "order": 16,
+   "p1": "paper 17",
+   "pn": "",
+   "abstract": [
+    "This paper describes a study on the identifying of speech acts in Japanese spontaneous speech, based on prosodic information. The procedure for identifying dialogue act tags relevant to illocutional force types by analyzing of the prosodic information and through keyword recognition is described. The annotation elements contain illocutional force types, following Japanese dialogue tagging procedure. The use of prosody information is shown to be effective for dialogue tagging of Japanese spontaneous dialogue.\n",
+    ""
+   ]
+  },
+  "lee01_prosody": {
+   "authors": [
+    [
+     "Shi-wook",
+     "Lee"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Incorporation of prosodic modules for large vocabulary continuous speech recognition",
+   "original": "prsr_018",
+   "page_count": 5,
+   "order": 17,
+   "p1": "paper 18",
+   "pn": "",
+   "abstract": [
+    "Thios work explores ways of incorporating prosodic modules for efficiently improving the performance of Large Vocabulary Continuous Sopeech Recognition (LVCSR). Prosodic-syntactic boundary as an information source can be used to improve the performance of LVCSR in both efficiency and accuracy. In this paper, we address the effect of language model score on setting pruning beam width and how to controll the Cross-word Dependent (CCD) models by prosodic boundary information. In the first pass decoding, dynamic beam search strategy regarding inner-word and cross-word paths is proposed to reduce search space efficiently, and then cross-word context dependent models are optimized using boundary information in tghe second pass decoding. The experimental evaluation demonstrates the efficiency of incorporation of prosodic modules and shows the effect of the syntactic and prosodic boundary in LVCSR.\n",
+    ""
+   ]
+  },
+  "levit01_prosody": {
+   "authors": [
+    [
+     "Michael",
+     "Levit"
+    ],
+    [
+     "Richard",
+     "Huber"
+    ],
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Elmar",
+     "Noeth"
+    ]
+   ],
+   "title": "Use of prosodic speech characteristics for automated detection of alcohol intoxication",
+   "original": "prsr_019",
+   "page_count": 4,
+   "order": 18,
+   "p1": "paper 19",
+   "pn": "",
+   "abstract": [
+    "In this paper we describe our methodology for automatic detection of speaker alcoholization. Our task is restricted to detection of considerable alcoholization (alcohol blood level greater or equal 0.8 per mille), so that a two-class classification problem is to be solved. In particular, our attention is focused on the influence of the alcohol intoxication on the prosodical aspect of the spoken language. A new kind of signal intervals underlying the extraction of prosodic features (phrasal units) is proposed along with a method for their localization, which makes it possible to avoid the word segmentation of the speech signal as a preceding stage of the classi\u0002cation process. We also assess the utility of various prosodic features computed on such intervals for the task specified  above. In our experiments on unseen data, we achieved classification rates of almost 69% when discriminating between alcoholized vs. not alcoholized speech.\n",
+    ""
+   ]
+  },
+  "megyesi01_prosody": {
+   "authors": [
+    [
+     "Beáta",
+     "Megyesi"
+    ],
+    [
+     "Sofia",
+     "Gustafson-Capková"
+    ]
+   ],
+   "title": "Pausing in dialogues and read speech in Swedish: Speakers production and listeners interpretation",
+   "original": "prsr_020",
+   "page_count": 6,
+   "order": 19,
+   "p1": "paper 20",
+   "pn": "",
+   "abstract": [
+    "In this study, we investigate the characteristics of pausing in speakers' production and listeners' interpretation in three different speaking styles in Swedish: elicited spontaneous dialogues, professional and non-professional news reading. Considerable attention is given to the positions in which pauses can appear, in particular their discourse context regarding theme shift. We show that the acoustic silent intervals that are perceived by the listeners correlate with the discourse structure, while perceived pauses having an acoustic silence in the speech signal, correlate to the duration of the acoustic silence.\n",
+    "The results show clear differences between the speaking styles. In reading, the majority of acoustic pauses are perceived and the majority of both the acoustic and perceived pauses are located at theme shift. In dialogues, on the other hand, few acoustic pauses are perceived by the listeners and the majority of both the acoustic and perceived pauses are positioned at theme continuation. Furthermore, where many pauses are perceived by the listeners, such as in non-professional reading and dialogues, we find long acoustic silent intervals.\n",
+    ""
+   ]
+  },
+  "minematsu01_prosody": {
+   "authors": [
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Keiichi",
+     "Tsuda"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ]
+   ],
+   "title": "Quantitative analysis of F<sub>0</sub>-induced variations of cepstrum coefficients",
+   "original": "prsr_021",
+   "page_count": 5,
+   "order": 20,
+   "p1": "paper 21",
+   "pn": "",
+   "abstract": [
+    "In this paper, the correlation between cepstrum coe.cients and fundamental frequencies (F0) is quantitatively analyzed. One of our previous studies pointed out that cepstrum coefficients of vowel sounds are varied because of F0 changes and that the variation can be modeled by the multivariate regression analysis. After this previous study, the current work is focused upon the analysis of the correlation in voiced consonant sounds, that in unvoiced consonant sounds, and the dependency of the correlation on speakers/phonemes. After these analyses, several experiments are carried out to examine whether the models built for characterizing the correlation can be used for speech recognition or not. Results show that the distance between distributions of two similar phones, such as /s/ and /z/, and /m/ and /n/, is significantly increased by applying the models.\n",
+    ""
+   ]
+  },
+  "ostendorf01_prosody": {
+   "authors": [
+    [
+     "Mari",
+     "Ostendorf"
+    ],
+    [
+     "I.",
+     "Shafran"
+    ],
+    [
+     "Stefanie",
+     "Shattuck-Hufnagel"
+    ],
+    [
+     "L.",
+     "Carmichael"
+    ],
+    [
+     "W.",
+     "Byrne"
+    ]
+   ],
+   "title": "A prosodically labeled database of spontaneous speech",
+   "original": "prsr_022",
+   "page_count": 3,
+   "order": 21,
+   "p1": "paper 22",
+   "pn": "",
+   "abstract": [
+    "This paper describes a prosodically labeled database of conversational speech, representing a subset of the Switchboard and Callhome corpora. The prosodic transcription system is a  simplification of the ToBI system aimed at phenomena that would be most useful for automatic transcription and linguistic analysis of conversational speech. The transcription method and a distributional analysis of the types of prosodic events are described.\n",
+    ""
+   ]
+  },
+  "ozeki01_prosody": {
+   "authors": [
+    [
+     "Kazuhiko",
+     "Ozeki"
+    ],
+    [
+     "Kazuyuki",
+     "Takagi"
+    ],
+    [
+     "Hajime",
+     "Kubota"
+    ]
+   ],
+   "title": "The use of prosody in Japanese dependency structure analysis",
+   "original": "prsr_023",
+   "page_count": 4,
+   "order": 22,
+   "p1": "paper 23",
+   "pn": "",
+   "abstract": [
+    "Natural language processing has traditionally relied solely on information extracted from written materials.  Recently, as part of natural language processing and speech processing merge into spoken language processing, a new possibility is opening up to  exploit prosodic information, which is lost when utterances  are transcribed into letters or characters, for language processing. Such a possibility is worth  pursuing from both linguistic and technological points of view. This paper focuses on syntactic information  contained in prosodic features extracted from read Japanese sentences, and describes a method of exploiting it in dependency structure analysis.\n",
+    ""
+   ]
+  },
+  "shafran01_prosody": {
+   "authors": [
+    [
+     "Izhak",
+     "Shafran"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ],
+    [
+     "Richard",
+     "Wright"
+    ]
+   ],
+   "title": "Prosody and phonetic variability: Lessons learned from acoustic model clustering",
+   "original": "prsr_024",
+   "page_count": 5,
+   "order": 23,
+   "p1": "paper 24",
+   "pn": "",
+   "abstract": [
+    "Most research on the use of prosody in automatic speech processing has focused on F0, energy and duration correlates to prosodic structure. However, there are multiple sources of evidence suggesting that there are spectral correlates as well. This paper presents an analysis of prosodically labeled conversational speech data using acoustic parameters and clustering techniques that are standard in speech recognition. We find acoustic differences primarily associated with segment position at prosodic constituent onsets and at prominent syllables. Importantly, phones at fluent vs. disfluent boundaries are frequently placed in different clusters. These differences can be leveraged in a \"multiple pronunciation\" acoustic model to aid in detecting fluent vs. disfluent prosodic boundaries, and potentially for improving recognition accuracy.\n",
+    ""
+   ]
+  },
+  "shih01_prosody": {
+   "authors": [
+    [
+     "Chilin",
+     "Shih"
+    ],
+    [
+     "Greg",
+     "Kochanski"
+    ],
+    [
+     "Eric",
+     "Fosler-Lussier"
+    ],
+    [
+     "Melody",
+     "Chan"
+    ],
+    [
+     "Jia-Hong",
+     "Yuan"
+    ]
+   ],
+   "title": "Implications of prosody modeling for prosody recognition",
+   "original": "prsr_025",
+   "page_count": 6,
+   "order": 24,
+   "p1": "paper 25",
+   "pn": "",
+   "abstract": [
+    "This paper introduces Stem-ML, which is a model of the prosody generation process with an associated description language, and suggests how it may help prosody recognition. We applied Stem-ML modeling to three topics: the modeling of prosodic strengths, intonation types, and noun phrase patterns. Stem-ML parameters derived from F0 contours may have a more consistent relationship with prosodic events than raw F0 values.  This may improve identification of accent classes, accent strengths, and intonation types.\n",
+    ""
+   ]
+  },
+  "shriberg01b_prosody": {
+   "authors": [
+    [
+     "Elizabeth",
+     "Shriberg"
+    ],
+    [
+     "Andreas",
+     "Stolcke"
+    ],
+    [
+     "Don",
+     "Baron"
+    ]
+   ],
+   "title": "Can prosody aid the automatic processing of multi-party meetings? evidence from predicting punctuation, dis\u0003uencies, and overlapping speech",
+   "original": "prsr_026",
+   "page_count": 8,
+   "order": 25,
+   "p1": "paper 26",
+   "pn": "",
+   "abstract": [
+    "We investigate whether probabilistic modeling of prosody can aid various automatic labeling tasks essential for processing of multi-party meetings. Task 1, automatic punctuation, seeks to classify sentence boundaries and dis\u0003uencies. Task 2, jumpin points, predicts locations within foreground speech at which background speakers start talking; Task 3, jump-in words, examines characteristics of the speech they use to do so. Data are from the ICSI Meeting Recorder corpus. To infer inherent cues, analyses are based on close-talking microphone signals and recognizer forced alignments. As a generous baseline for word-level cues, we compare prosodic models to those of a language model given the true words. Results for Task 1 show prosody reduces classi\u0002cation error by 10% relative over the cheating language model; furthermore when this task is run in ìonlineî mode the prosodic model degrades less than does the language model. For Task 2, the language model provides no information, while the prosodic model reduces entropy by 13% over chance. For Task 3, a prosodic model reduces entropy by 25% over chance. Analyses also show interesting prosodic patterns, which differ over tasks. Task 1 uses cues similar to those for Switchboard (but not Broadcast News) data. Task 2 predicts jump-in points that look prosodically like sentence boundaries but that are not actually such boundaries. And Task 3 shows that speakers ìraiseî their voice when starting during another's talk, compared to starting during silence. These results provide evidence that prosodic modeling can be of use for the automatic processing of meetings. Further results and implications for future automatic meeting processing systems are discussed.\n",
+    ""
+   ]
+  },
+  "siepmann01_prosody": {
+   "authors": [
+    [
+     "Rolf",
+     "Siepmann"
+    ],
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Daniela",
+     "Oppermann"
+    ]
+   ],
+   "title": "Using prosodic features to characterize off-talk in human-computer interaction",
+   "original": "prsr_027",
+   "page_count": 4,
+   "order": 26,
+   "p1": "paper 27",
+   "pn": "",
+   "abstract": [
+    "This paper provides a prosodic analysis of so-called Off-Talk in spoken German in human-computer interaction. Off-Talk consists of user utterances, which are not directed to the automatic speech processing system. These utterances have to be mastered automatically as far as possible. The data collection in the SmartKom project is described and problems with the consistent annotation of Off-Talk are discussed. Different forms of Off-Talk are distinguished and compared prosodically with each other as well as with other speech, which is directed to the system. The analysis includes various perceptual and acoustic prosodic features. There are clear differences in the distribution of prominent accents and phrase boundaries found. F0 range turned out to be a further relevant feature. In future, a refined definition of Off-Talk has to be applied, which fulfills our requirements for consistent and efficient annotation.\n",
+    ""
+   ]
+  },
+  "wang01_prosody": {
+   "authors": [
+    [
+     "Chao",
+     "Wang"
+    ],
+    [
+     "Stephanie",
+     "Seneff"
+    ]
+   ],
+   "title": "Prosodic scoring of recognition outputs in the JUPITER domain",
+   "original": "prsr_028",
+   "page_count": 6,
+   "order": 27,
+   "p1": "paper 28",
+   "pn": "",
+   "abstract": [
+    "JUPITER is a conversational system that allows users to access weather information over the telephone using natural speech. This work examines the use of prosodic information to predict speech recognition errors more accurately for improved system robustness. Two approaches were explored here. The first approach is based on a probabilistic con\u0002dence scoring framework, which uses prosodic cues as additional features to improve both utterance-level and word-level con\u0002dence scoring. The second approach aims at scoring part of the prosodic space, focusing on phrases that bear important communicative functions. We explored the feasibility of characterizing directly the F0 contours of some carefully selected English phrase patterns. We envision that these models can be applied to resort recognizer N-best outputs or to support rejection.\n",
+    ""
+   ]
+  },
+  "yang01_prosody": {
+   "authors": [
+    [
+     "Li-chiung",
+     "Yang"
+    ]
+   ],
+   "title": "Prosodic shape and expressive meaning: the expression and recognition of emotions in spontaneous speech",
+   "original": "prsr_029",
+   "page_count": 6,
+   "order": 28,
+   "p1": "paper 29",
+   "pn": "",
+   "abstract": [
+    "Emotion is an integral component of human speech, and prosody uniquely represents the expressive meaning that is fundamental to communication. In this study, we demonstrate how the subtle and finely differentiated meanings permeating spontaneous speech are communicated by prosodic variations and show that it is the differences in shape that communicate the degree of uncertainty or certainty with respect to the speakers knowledge state, specific emotional states, the intensity of emotion, and the effects of other co-occurring emotions.\n",
+    ""
+   ]
+  },
+  "murray01_prosody": {
+   "authors": [
+    [
+     "Kathleen M.",
+     "Murray"
+    ]
+   ],
+   "title": "Annotations relating pitch to laryngealization information",
+   "original": "prsr_030",
+   "page_count": 1,
+   "order": 29,
+   "p1": "paper 30",
+   "pn": "",
+   "abstract": [
+    "When people speak, there is a noticeable tune to their voice  that can convey important information apart from just the  words themselves; pitch is a word that often describes this  tune. This statement summarizes annotations that relate pitch  to other information for use in future dialogue research.\n",
+    ""
+   ]
+  },
+  "werner01_prosody": {
+   "authors": [
+    [
+     "Stefan",
+     "Werner"
+    ]
+   ],
+   "title": "Acoustic classification of intonational events",
+   "original": "prsr_031",
+   "page_count": 1,
+   "order": 30,
+   "p1": "paper 31",
+   "pn": "",
+   "abstract": [
+    "In my current research, ways are sought to automatically classify intonational events on the basis of their acoustic realization, without employing any preconceptions about structures in the data. In particular, any (a priori) references to categories of intonation models, be they ToBI or other, are strictly avoided, and instead the data space is searched for clusters before any interpretations are applied.\n",
+    "For clustering, mainly self-organizing maps are used. They are applied to high-dimensional acoustic feature vectors, containing all available temporal and F0 information related to intonational events. In a preliminary step, the continous F0 curve has been transformed into a sequence of turning points (straightline stylization) which are then grouped in pairs, each one of whose is measured for the various acoustic parameters of the feature vector. The resulting clusters can be further examined with statistical methods in order to search for rules to construct them.\n",
+    "Our feature vectors can also be used as metarepresentations, e.g. in the comparison of different intonation models either directly or via empirical data. Design and evaluation of intonation models (potentially both for recognition and synthesis) should profit from this approach where no premature phonological reasoning can contaminate the data and comparisons of linguistically incompatible models become possible.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Paper",
+   "papers": [
+    "shriberg01_prosody"
+   ]
+  },
+  {
+   "title": "Contributed Papers",
+   "papers": [
+    "bates01_prosody",
+    "batliner01_prosody",
+    "bouwman01_prosody",
+    "christensen01_prosody",
+    "dainora01_prosody",
+    "girand01_prosody",
+    "greenberg01_prosody",
+    "heldner01_prosody",
+    "hirose01_prosody",
+    "hirschberg01_prosody",
+    "ishi01_prosody",
+    "jansen01_prosody",
+    "johnson01_prosody",
+    "koumpis01_prosody",
+    "kurematsu01_prosody",
+    "lee01_prosody",
+    "levit01_prosody",
+    "megyesi01_prosody",
+    "minematsu01_prosody",
+    "ostendorf01_prosody",
+    "ozeki01_prosody",
+    "shafran01_prosody",
+    "shih01_prosody",
+    "shriberg01b_prosody",
+    "siepmann01_prosody",
+    "wang01_prosody",
+    "yang01_prosody"
+   ]
+  },
+  {
+   "title": "Late Breaking Abstracts",
+   "papers": [
+    "murray01_prosody",
+    "werner01_prosody"
+   ]
+  }
+ ]
+}

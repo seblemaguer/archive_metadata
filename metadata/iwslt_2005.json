@@ -1,0 +1,842 @@
+{
+ "title": "International Workshop on Spoken Language Translation (IWSLT 2005)",
+ "location": "Pittsburgh, PA, USA",
+ "startDate": "24/10/2005",
+ "endDate": "25/10/2005",
+ "conf": "IWSLT",
+ "year": "2005",
+ "name": "iwslt_2005",
+ "series": "IWSLT",
+ "SIG": "",
+ "title1": "International Workshop on Spoken Language Translation",
+ "title2": "(IWSLT 2005)",
+ "date": "24-25 October 2005",
+ "booklet": "iwslt_2005.pdf",
+ "papers": {
+  "eck05_iwslt": {
+   "authors": [
+    [
+     "Matthias",
+     "Eck"
+    ],
+    [
+     "Chiori",
+     "Hori"
+    ]
+   ],
+   "title": "Overview of the IWSLT 2005 evaluation campaign",
+   "original": "slt5_001",
+   "page_count": 22,
+   "order": 1,
+   "p1": "1",
+   "pn": "22",
+   "abstract": [
+    "This paper reports an overview of the evaluation campaign results of the IWSLT 2005 workshop1. The BTEC corpus, which consists of typical travel domain phrases, was used. Data for the five language pairs Arabic/Chinese/Japanese/Korean to English and English to Chinese was prepared. To study how much the amount of the training data and how much different training and decoding approaches contribute to the performance, a supplied data and an unrestricted data track were introduced. In addition, translation results were evaluated not only for text input but also speech recognition output. 19 systems from 17 organizations participated in the evaluation. All machine translation results were evaluated using automatic evaluation metrics. The most popular track, translating text form Chinese to English, was graded by 3 humans in terms of Fluency, Adequacy and Meaning Maintenance. The correlation between automatic evaluation metrics and human judgment was examined.\n",
+    ""
+   ]
+  },
+  "zhang05_iwslt": {
+   "authors": [
+    [
+     "Ruiqiang",
+     "Zhang"
+    ],
+    [
+     "Genichiro",
+     "Kikui"
+    ],
+    [
+     "Hirofumi",
+     "Yamamoto"
+    ],
+    [
+     "Wai-Kit",
+     "Lo"
+    ]
+   ],
+   "title": "A decoding algorithm for word lattice translation in speech translation",
+   "original": "slt5_023",
+   "page_count": 7,
+   "order": 2,
+   "p1": "23",
+   "pn": "29",
+   "abstract": [
+    "We propose a novel statistical machine translation decoding algorithm for speech translation to improve speech translation quality. The algorithm can translate the speech recognition word lattice, where more hypotheses are utilized to bypass the misrecognized single-best hypotheses. We also show that a speech recognition confidence measure, implemented by posterior probability, is effective to improve speech translation. The proposed techniques were tested in a Japanese-to-English speech translation task. The experimental results demonstrate the improved speech translation performance by the proposed techniques.\n",
+    ""
+   ]
+  },
+  "zhang05b_iwslt": {
+   "authors": [
+    [
+     "Ruiqiang",
+     "Zhang"
+    ],
+    [
+     "Genichiro",
+     "Kikui"
+    ],
+    [
+     "Hirofumi",
+     "Yamamoto"
+    ]
+   ],
+   "title": "Using multiple recognition hypotheses to improve speech translation",
+   "original": "slt5_030",
+   "page_count": 7,
+   "order": 3,
+   "p1": "30",
+   "pn": "36",
+   "abstract": [
+    "This paper describes our recent work on integrating speech recognition and machine translation for improving speech translation performance. Two approaches are applied and their performance are evaluated in the workshop of IWSLT 2005. The first is direct N-best hypothesis translation, and the second, a pseudo-lattice decoding algorithm for translating word lattice, can dramatically reduce computation cost incurred by the first approach. We found in the experiments that both of these approaches could improve speech translation significantly.\n",
+    ""
+   ]
+  },
+  "lepage05_iwslt": {
+   "authors": [
+    [
+     "Yves",
+     "Lepage"
+    ],
+    [
+     "Etienne",
+     "Denoual"
+    ]
+   ],
+   "title": "ALEPH: an EBMT system based on the preservation of proportional analogies between sentences across languages",
+   "original": "slt5_037",
+   "page_count": 8,
+   "order": 4,
+   "p1": "37",
+   "pn": "44",
+   "abstract": [
+    "We designed, implemented and assessed ALEPH, a pure example-based machine translation system. It strictly does not make any use of variables, templates or training, does not have any explicit transfer component, and does not require any preprocessing of the aligned examples. It relies on a specific operation: the resolution of analogical equations, that neutralizes translation divergences in an elegant way. Starting only from theoretical results, a system that is state-of-the-art with the top IWSLT 2004 results could be built in six month time. Evaluated on the Unrestricted Data track of IWSLT 2004, our system achieved second place in CE, and third place in JE (with best BLEU for this latter track). For this year's evaluation campaign, the features of the system allowed its immediate application to all possible language pairs in the C-STAR tracks.\n",
+    ""
+   ]
+  },
+  "paul05_iwslt": {
+   "authors": [
+    [
+     "Michael",
+     "Paul"
+    ],
+    [
+     "Takao",
+     "Doi"
+    ],
+    [
+     "Youngsook",
+     "Hwang"
+    ],
+    [
+     "Kenji",
+     "Imamura"
+    ],
+    [
+     "Hideo",
+     "Okuma"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ]
+   ],
+   "title": "Nobody is perfect: ATR's hybrid approach to spoken language translation",
+   "original": "slt5_045",
+   "page_count": 8,
+   "order": 5,
+   "p1": "45",
+   "pn": "52",
+   "abstract": [
+    "This paper describes ATR's hybrid approach to spoken language translation and it's application to the IWSLT 2005 translation task. Multiple corpus-based translation engines are used to translate the same input, whereby the best translation among the element MT outputs is selected according to statistical models.   The evaluation results of the Japanese-to-English and Chinese-to-English translation tasks for different training data conditions showed the potential of the proposed hybrid approach and revealed new directions in how to improve the current system performance.\n",
+    ""
+   ]
+  },
+  "hewavitharana05_iwslt": {
+   "authors": [
+    [
+     "Sanjika",
+     "Hewavitharana"
+    ],
+    [
+     "Bing",
+     "Zhao"
+    ],
+    [
+     "Almut Silja",
+     "Hildebrand"
+    ],
+    [
+     "Matthias",
+     "Eck"
+    ],
+    [
+     "Chiori",
+     "Hori"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "The CMU statistical machine translation system for IWSLT 2005",
+   "original": "slt5_053",
+   "page_count": 8,
+   "order": 6,
+   "p1": "53",
+   "pn": "60",
+   "abstract": [
+    "In this paper we describe the CMU statistical machine translation system used in the IWSLT 2005 evaluation campaign. This system is based on phrase-to-phrase translations extracted from a bilingual corpus. We experimented with two different phrase extraction methods; PESA on-the-fly phrase extraction and alignment free extraction method. The translation model, language model and other features were combined in a log-linear model during decoding. We present our experiments on model adaptation for new data in a different domain, as well as combining different translation hypotheses to obtain better translations.   We participated in the supplied data track for manual transcriptions in the translation directions: Arabic- English, Chinese-English, Japanese-English and Korean- English. For Chinese-English direction we also worked on ASR output of the supplied data, and with additional data in unrestricted and C-STAR tracks.\n",
+    ""
+   ]
+  },
+  "eck05b_iwslt": {
+   "authors": [
+    [
+     "Matthias",
+     "Eck"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "Low cost Portability for statistical machine translation based on n-gram frequency and TF-IDF",
+   "original": "slt5_061",
+   "page_count": 7,
+   "order": 7,
+   "p1": "61",
+   "pn": "67",
+   "abstract": [
+    "Statistical machine translation relies heavily on the available training data. In some cases it is necessary to limit the amount of training data that can be created for or actually used by the systems. We introduce weighting schemes which allow us to sort sentences based on the frequency of unseen n-grams. A second approach uses TF-IDF to rank the sentences. After sorting we can select smaller training corpora and we are able to show that systems trained on much less training data achieve a very competitive performance compared to baseline systems using all available training data.\n",
+    ""
+   ]
+  },
+  "koehn05_iwslt": {
+   "authors": [
+    [
+     "Philipp",
+     "Koehn"
+    ],
+    [
+     "Amittai",
+     "Axelrod"
+    ],
+    [
+     "Alexandra Birch",
+     "Mayne"
+    ],
+    [
+     "Chris",
+     "Callison-Burch"
+    ],
+    [
+     "Miles",
+     "Osborne"
+    ],
+    [
+     "David",
+     "Talbot"
+    ]
+   ],
+   "title": "Edinburgh system description for the 2005 IWSLT speech translation evaluation",
+   "original": "slt5_068",
+   "page_count": 8,
+   "order": 8,
+   "p1": "68",
+   "pn": "75",
+   "abstract": [
+    "Our participation in the IWSLT 2005 speech translation task is our first effort to work on limited domain speech data. We adapted our statistical machine translation system that performed successfully in previous DARPA competitions on open domain text translations. We participated in the supplied corpora transcription track. We achieved the highest BLEU score in 2 out of 5 language pairs and had competitive results for the other language pairs.\n",
+    ""
+   ]
+  },
+  "lee05_iwslt": {
+   "authors": [
+    [
+     "Young-Suk",
+     "Lee"
+    ]
+   ],
+   "title": "IBM statistical machine translation for spoken languages",
+   "original": "slt5_076",
+   "page_count": 8,
+   "order": 9,
+   "p1": "76",
+   "pn": "83",
+   "abstract": [
+    "We discuss performance enhancing techniques we have developed for the IWSLT 2005 Evaluation Campaign: (i) a phrase acquisition technique which expands the phrase boundaries to include target words aligned to null source words in a principled manner, and (ii) a system combination technique which selects the minimum cost translation output out of many translation outputs of the same input segment produced by various systems using different phrase translation lexicons. We also discuss IBM system performances in the Arabic to English and Chinese to English translation evaluations of the IWSLT 2005 evaluation campaign.\n",
+    ""
+   ]
+  },
+  "deneefe05_iwslt": {
+   "authors": [
+    [
+     "Steve",
+     "DeNeefe"
+    ],
+    [
+     "Kevin",
+     "Knight"
+    ]
+   ],
+   "title": "ISI's 2005 statistical machine translation entries",
+   "original": "slt5_084",
+   "page_count": 4,
+   "order": 10,
+   "p1": "84",
+   "pn": "87",
+   "abstract": [
+    "ISI entered two statistical machine translation systems in the IWSLT evaluation this year: one was phrase-based and the other syntax-based. The syntax-based system represents the results of a current research effort, while the phrase-based system is representative of the current techniques in state-ofthe- art machine translation. This paper primarily describes the syntax-based system and its comparison to the phrasebased system. We will give a brief overview of the components of the systems and discuss the performance on the IWSLT development data, the evaluation results, and some post-evaluation results.\n",
+    ""
+   ]
+  },
+  "chen05_iwslt": {
+   "authors": [
+    [
+     "Boxing",
+     "Chen"
+    ],
+    [
+     "Roldano",
+     "Cattoni"
+    ],
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "The ITC-irst SMT system for IWSLT-2005",
+   "original": "slt5_088",
+   "page_count": 7,
+   "order": 11,
+   "p1": "88",
+   "pn": "94",
+   "abstract": [
+    "This paper describes the statistical machine translation system developed at ITC-irst for the evaluation campaign of the International Workshop on Spoken Language Translation 2005. The system exploits two search passes: the first pass is performed by a beam-search decoder which generates an n-best list of translations, the second by a simple re-scoring algorithm. The two passes apply log-linear phrase-based models with an increasing number of feature functions. Runs have been submitted under the supplieddata and manual-transcription conditions for three language pairs: Chinese-to-English, Japanese-to-English and Arabicto- English. Moreover, the Japanese-to-English system has been also employed under the ASR first-best condition. Significant improvements are reported by exploiting alternative word-alignments, and by using novel feature functions in the re-scoring step.\n",
+    ""
+   ]
+  },
+  "menezes05_iwslt": {
+   "authors": [
+    [
+     "Arid",
+     "Menezes"
+    ],
+    [
+     "Chris",
+     "Quirk"
+    ]
+   ],
+   "title": "Microsoft research treelet translation system: IWSLT evaluation",
+   "original": "slt5_095",
+   "page_count": 4,
+   "order": 12,
+   "p1": "95",
+   "pn": "98",
+   "abstract": [
+    "The Microsoft Research translation system is a syntactically informed phrasal SMT system that uses a phrase translation model based on dependency treelets and a global reordering model based on the source dependency tree. These models are combined with several other knowledge sources in a log- linear manner. The weights of the individual components in the log-linear model are set by an automatic parameter-tuning method. We give a brief overview of the components of the system and discuss its performance at IWSLT in two tracks: Japanese to English (supplied data and tools), and English to Chinese (supplied data and tools).\n",
+    ""
+   ]
+  },
+  "shen05_iwslt": {
+   "authors": [
+    [
+     "Wade",
+     "Shen"
+    ],
+    [
+     "Brian",
+     "Delaney"
+    ],
+    [
+     "Timothy",
+     "Anderson"
+    ]
+   ],
+   "title": "The MIT-LL/AFRL MT system",
+   "original": "slt5_099",
+   "page_count": 5,
+   "order": 13,
+   "p1": "99",
+   "pn": "103",
+   "abstract": [
+    "The MIT-LL/AFRL MT system is a statistical phrase-based translation system that implements many modern SMT training and decoding techniques. Our system was designed with the long term goal of dealing with corrupted ASR input for Speech-to-Speech MT applications. This paper will discuss the architecture of the MIT-LL/AFRL MT system, and experiments with manual and ASR transcription data that were run as part of the IWSLT-2005 Chinese-to-English evaluation campaign.\n",
+    ""
+   ]
+  },
+  "pang05_iwslt": {
+   "authors": [
+    [
+     "Wei",
+     "Pang"
+    ],
+    [
+     "Zhendong",
+     "Yang"
+    ],
+    [
+     "Zhenbiao",
+     "Chen"
+    ],
+    [
+     "Wei",
+     "Wei"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Chengqing",
+     "Zong"
+    ]
+   ],
+   "title": "The CASIA phrase-based machine translation system",
+   "original": "slt5_104",
+   "page_count": 8,
+   "order": 14,
+   "p1": "104",
+   "pn": "111",
+   "abstract": [
+    "In this paper we propose a phrase-based translation system. In the system, we use phrase translation model instead of word-based model. An improved method of computing phrase translation probability is studied. We translate numeral phrases first by using a standard templates depository. We develop a phrase-based decoder that employs a beam search algorithm. To make the result more reasonable, we apply those words with fertility probability of zero. We improve the previously proposed tracing back algorithm to get the best path. Some experiments concerned are presented.\n",
+    ""
+   ]
+  },
+  "tsukada05_iwslt": {
+   "authors": [
+    [
+     "Hajime",
+     "Tsukada"
+    ],
+    [
+     "Taro",
+     "Watanabe"
+    ],
+    [
+     "Jun",
+     "Suzuki"
+    ],
+    [
+     "Hideto",
+     "Kazawa"
+    ],
+    [
+     "Hideki",
+     "Isozaki"
+    ]
+   ],
+   "title": "The NTT statistical machine translation system for IWSLT2005",
+   "original": "slt5_112",
+   "page_count": 6,
+   "order": 15,
+   "p1": "112",
+   "pn": "117",
+   "abstract": [
+    "This paper reports the NTT statistical translation system participating in the evaluation campaign of IWSLT 2005. The NTT system is based on a phrase translation model and utilizes a large number of features with a log-linear model. We studied the various features recently developed in this research field and evaluate the system using supplied data as well as publicly available Chinese, Japanese, and English data. Despite domain mismatch, additional data helped improve translation accuracy.\n",
+    ""
+   ]
+  },
+  "ohashi05_iwslt": {
+   "authors": [
+    [
+     "Kazuteru",
+     "Ohashi"
+    ],
+    [
+     "Kazuhide",
+     "Yamamoto"
+    ],
+    [
+     "Kuniko",
+     "Saito"
+    ],
+    [
+     "Masaaki",
+     "Nagata"
+    ]
+   ],
+   "title": "NUT-NTT statistical machine translation system for IWSLT 2005",
+   "original": "slt5_118",
+   "page_count": 6,
+   "order": 16,
+   "p1": "118",
+   "pn": "123",
+   "abstract": [
+    "In this paper, we present a novel distortion model for phrase-based statistical machine translation. Unlike the previous phrase distortion models whose role is to simply penalize nonmonotonic alignments[1, 2], the new model assigns the probability of relative position between two source language phrases aligned to the two adjacent target language phrases. The phrase translation probabilities and phrase distortion probabilities are calculated from the N-best phrase alignment of the training bilingual sentences. To obtain Nbest phrase alignment, we devised a novel phrase alignment algorithm based on word translation probabilities and N-best search. Experiments show that the phrase distortion model and phrase translation model improve the BLEU and NIST scores over the baseline method.\n",
+    ""
+   ]
+  },
+  "sasaki05_iwslt": {
+   "authors": [
+    [
+     "Miki",
+     "Sasaki"
+    ],
+    [
+     "Toshiki",
+     "Murata"
+    ]
+   ],
+   "title": "A pattern-based machine translation system — yakushite net MT engine",
+   "original": "slt5_124",
+   "page_count": 7,
+   "order": 17,
+   "p1": "124",
+   "pn": "130",
+   "abstract": [
+    "This paper introduces our pattern-based machine translation system. Our system enables us to register translation patterns including more complicated sentence structures rather than just simple words and limited types of expressions. Having registered in the Japanese to English section of IWSLT05, we aimed to input as many expressions as possible to our system in order to achieve successful translation of travel expression into English within a limited period of time.\n",
+    ""
+   ]
+  },
+  "xu05_iwslt": {
+   "authors": [
+    [
+     "Jia",
+     "Xu"
+    ],
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Integrated Chinese word segmentation in statistical machine translation",
+   "original": "slt5_131",
+   "page_count": 7,
+   "order": 18,
+   "p1": "131",
+   "pn": "137",
+   "abstract": [
+    "A Chinese sentence is represented as a sequence of characters, and words are not separated from each other. In statistical machine translation, the conventional approach is to segment the Chinese character sequence into words during the pre-processing. The training and translation are performed afterwards. However, this method is not optimal for two reasons: 1. The segmentations may be erroneous. 2. For a given character sequence, the best segmentation depends on its context and translation.   In order to minimize the translation errors, we take different segmentation alternatives instead of a single segmentation into account and integrate the segmentation process with the search for the best translation. The segmentation decision is only taken during the generation of the translation. With this method we are able to translate Chinese text at the character level. The experiments on the IWSLT 2005 task showed improvements in the translation performance using two translation systems: a phrase-based system and a finite state transducer based system. For the phrase-based system, the improvement of the BLEU score is 1.5% absolute.\n",
+    ""
+   ]
+  },
+  "matusov05_iwslt": {
+   "authors": [
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Gregor",
+     "Leusch"
+    ],
+    [
+     "Oliver",
+     "Bender"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Evaluating machine translation output with automatic sentence segmentation",
+   "original": "slt5_138",
+   "page_count": 7,
+   "order": 19,
+   "p1": "138",
+   "pn": "144",
+   "abstract": [
+    "This paper presents a novel automatic sentence segmentation method for evaluating machine translation output with possibly erroneous sentence boundaries. The algorithm can process translation hypotheses with segment boundaries which do not correspond to the reference segment boundaries, or a completely unsegmented text stream. Thus, the method is especially useful for evaluating translations of spoken language. The evaluation procedure takes advantage of the edit distance algorithm and is able to handle multiple reference translations. It efficiently produces an optimal automatic segmentation of the hypotheses and thus allows application of existing well-established evaluation measures. Experiments show that the evaluation measures based on the automatically produced segmentation correlate with the human judgement at least as well as the evaluation measures which are based on manual sentence boundaries.\n",
+    ""
+   ]
+  },
+  "zens05_iwslt": {
+   "authors": [
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Oliver",
+     "Bender"
+    ],
+    [
+     "Saša",
+     "Hasan"
+    ],
+    [
+     "Shahram",
+     "Khadivi"
+    ],
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Jia",
+     "Xu"
+    ],
+    [
+     "Yuqi",
+     "Zhang"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "The RWTH phrase-based statistical machine translation system",
+   "original": "slt5_145",
+   "page_count": 8,
+   "order": 20,
+   "p1": "145",
+   "pn": "152",
+   "abstract": [
+    "We give an overview of the RWTH phrase-based statistical machine translation system that was used in the evaluation campaign of the International Workshop on Spoken Language Translation 2005.   We use a two pass approach. In the first pass, we generate a list of the N best translation candidates. The second pass consists of rescoring and reranking this N-best list. We will give a description of the search algorithm as well as the models that are used in each pass.   We participated in the supplied data tracks for manual transcriptions for the following translation directions: Arabic-English, Chinese-English, English-Chinese and Japanese-English. For Japanese-English, we also participated in the C-Star track. In addition, we performed translations of automatic speech recognition output for Chinese- English and Japanese-English. For both language pairs, we translated the single-best ASR hypotheses. Additionally, we translated Chinese ASR lattices.\n",
+    ""
+   ]
+  },
+  "kim05_iwslt": {
+   "authors": [
+    [
+     "Yookyung",
+     "Kim"
+    ],
+    [
+     "Jun",
+     "Huang"
+    ],
+    [
+     "Youssef",
+     "Billawala"
+    ],
+    [
+     "Demitrios",
+     "Master"
+    ],
+    [
+     "Farzad",
+     "Ehsani"
+    ]
+   ],
+   "title": "Sehda s<sup>2</sup>MT: incorporation of syntax into statistical translation system",
+   "original": "slt5_153",
+   "page_count": 6,
+   "order": 21,
+   "p1": "153",
+   "pn": "158",
+   "abstract": [
+    "This paper describes Sehda's S2MT (Syntactic Statistical Machine Translation) system submitted to the Korean-English track in the evaluation campaign of the IWSLT-05 workshop. The S2MT is a phrase-based statistical system trained on linguistically processed parallel data.\n",
+    ""
+   ]
+  },
+  "engelbrecht05_iwslt": {
+   "authors": [
+    [
+     "Herman A.",
+     "Engelbrecht"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Rapid development of an Afrikaans-English speech-to-speech translator",
+   "original": "slt5_159",
+   "page_count": 8,
+   "order": 22,
+   "p1": "159",
+   "pn": "166",
+   "abstract": [
+    "In this paper we investigate the rapid deployment of a twoway Afrikaans to English Speech-to-Speech Translation system. We discuss the approaches and amount of work involved to port a system to a new language pair, i.e. the steps required to rapidly adapt ASR, MT and TTS component to Afrikaans under limited time and data constraints. The resulting system represents the first prototype built for Afrikaans to English speech translation.\n",
+    ""
+   ]
+  },
+  "crego05_iwslt": {
+   "authors": [
+    [
+     "Josep M.",
+     "Crego"
+    ],
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ]
+   ],
+   "title": "N-gram-based versus phrase-based statistical machine translation",
+   "original": "slt5_167",
+   "page_count": 8,
+   "order": 23,
+   "p1": "167",
+   "pn": "174",
+   "abstract": [
+    "This work summarizes a comparison between two approaches to Statistical Machine Translation (SMT), namely Ngram-based and Phrase-based SMT. In both approaches, the translation process is based on bilingual units related by word-to-word alignments (pairs of source and target words), while the main differences are based on the extraction process of these units and the statistical modeling of the translation context. The study has been carried out on two different translation tasks (in terms of translation difficulty and amount of available training data), and allowing for distortion (reordering) in the decoding process. Thus it extends a previous work were both approaches were compared under monotone conditions. We finally report comparative results in terms of translation accuracy, computation time and memory size. Results show how the ngram-based approach outperforms the phrase-based approach by achieving similar accuracy scores in less computational time and with less memory needs.\n",
+    ""
+   ]
+  },
+  "costajussa05_iwslt": {
+   "authors": [
+    [
+     "Marta R.",
+     "Costa-jussà"
+    ],
+    [
+     "José A. R.",
+     "Fonollosa"
+    ]
+   ],
+   "title": "Tuning a phrase-based statistical translation system for the IWSLT 2005 Chinese to English and Arabic to English tasks",
+   "original": "slt5_175",
+   "page_count": 6,
+   "order": 24,
+   "p1": "175",
+   "pn": "180",
+   "abstract": [
+    "Nowadays, most of the statistical translation systems are based on phrases (i.e. groups of words). We describe a phrase-based system using a modified method for the phrase extraction which deals with larger phrases while keeping a reasonable number of phrases. Also, different alignments to extract phrases are allowed and additional features are used which lead to a clear improvement in the performance of translation. Finally, the system manages to do reordering. We report results in terms of translation accuracy by using the BTEC corpus in the tasks of Chinese to English and Arabic to English, in the framework of IWSLT'05 evaluation.\n",
+    ""
+   ]
+  },
+  "crego05b_iwslt": {
+   "authors": [
+    [
+     "Josep M.",
+     "Crego"
+    ],
+    [
+     "Adrià de",
+     "Gispert"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ]
+   ],
+   "title": "The TALP ngram-based SMT system for IWSLT'05",
+   "original": "slt5_181",
+   "page_count": 8,
+   "order": 25,
+   "p1": "181",
+   "pn": "188",
+   "abstract": [
+    "This paper provides a description of TALP-Ngram, the tuple-based statistical machine translation system developed at the TALP Research Center of the UPC (Universitat Polit`ecnica de Catalunya). Briefly, the system performs a log-linear combination of a translation model and additional feature functions. The translation model is estimated as an N-gram of bilingual units called tuples, and the feature functions include a target language model, a word penalty, and lexical features, depending on the language pair and task.   The paper describes the participation of the system in the second international workshop on spoken language translation (IWSLT) held in Pittsburgh, October 2005. Results on Chinese-to-English and Arabic-to-English tracks using supplied data are reported.\n",
+    ""
+   ]
+  },
+  "gimenez05_iwslt": {
+   "authors": [
+    [
+     "Jesús",
+     "Giménez"
+    ],
+    [
+     "Enrique",
+     "Amigó"
+    ],
+    [
+     "Chiori",
+     "Hori"
+    ]
+   ],
+   "title": "Machine translation evaluation inside QARLA",
+   "original": "slt5_189",
+   "page_count": 8,
+   "order": 26,
+   "p1": "189",
+   "pn": "196",
+   "abstract": [
+    "In this work we present the fundamentals of the IQMT framework for MT evaluation. IQMT offers a common workbench on which existing evaluation metrics can be utilized. We suggest the IQ measure and test it on the Chinese-to- English data from the IWSLT 2004 Evaluation Campaign. We show how the correlation with human assessments at the system level improves substantially for most individual metrics. Moreover, IQMT allows to robustly combine several metrics avoiding scaling problems and metric weightings. Several metric combinations were tried, but correlations did not further improve significantly.\n",
+    ""
+   ]
+  },
+  "kurohashi05_iwslt": {
+   "authors": [
+    [
+     "Sadao",
+     "Kurohashi"
+    ],
+    [
+     "Toshiaki",
+     "Nakazawa"
+    ],
+    [
+     "Alexis",
+     "Kauffmann"
+    ],
+    [
+     "Daisuke",
+     "Kawahara"
+    ]
+   ],
+   "title": "Example-based machine translation pursuing fully structural NLP",
+   "original": "slt5_197",
+   "page_count": 6,
+   "order": 27,
+   "p1": "197",
+   "pn": "202",
+   "abstract": [
+    "We are conducting Example-Based Machine Translation research aiming at the improvement both of structural NLP and machine translation. This paper describes UTokyo system challenged IWSLT05 Japanese-English translation tasks.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Evaluation Campaign",
+   "papers": [
+    "eck05_iwslt",
+    "zhang05_iwslt",
+    "zhang05b_iwslt",
+    "lepage05_iwslt",
+    "paul05_iwslt",
+    "hewavitharana05_iwslt",
+    "eck05b_iwslt",
+    "koehn05_iwslt",
+    "lee05_iwslt",
+    "deneefe05_iwslt",
+    "chen05_iwslt",
+    "menezes05_iwslt",
+    "shen05_iwslt",
+    "pang05_iwslt",
+    "tsukada05_iwslt",
+    "ohashi05_iwslt",
+    "sasaki05_iwslt",
+    "xu05_iwslt"
+   ]
+  },
+  {
+   "title": "Technical Papers",
+   "papers": [
+    "matusov05_iwslt",
+    "zens05_iwslt",
+    "kim05_iwslt",
+    "engelbrecht05_iwslt",
+    "crego05_iwslt",
+    "costajussa05_iwslt",
+    "crego05b_iwslt",
+    "gimenez05_iwslt",
+    "kurohashi05_iwslt"
+   ]
+  }
+ ]
+}

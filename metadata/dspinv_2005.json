@@ -1,0 +1,1038 @@
+{
+ "title": "Biennial on DSP for In-Vehicle and Mobile Systems",
+ "location": "Sesimbra, Portugal",
+ "startDate": "2/9/2005",
+ "endDate": "3/9/2005",
+ "conf": "DSPinV",
+ "year": "2005",
+ "name": "dspinv_2005",
+ "series": "",
+ "SIG": "",
+ "title1": "Biennial on DSP for In-Vehicle and Mobile Systems",
+ "date": "2-3 September 2005",
+ "papers": {
+  "ishimitsu05_dspinv": {
+   "authors": [
+    [
+     "Shunsuke",
+     "Ishimitsu"
+    ]
+   ],
+   "title": "Noise source contribution of accelerating cars and audibility evaluations",
+   "original": "div5_M1-1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "paper M1-1",
+   "pn": "",
+   "abstract": [
+    "Recently, many researches who work with time-frequency analysis using wavelet transform have focused on analyzing wavelets that are derived using a mathematical approach. In the present analysis, a measured signal is adopted as the wavelet, and we analyze the correlation between acoustic signals in the car cabin and suction noise signals by applying the proposed system. Because traditional calculations of correlation repeat the averaging procedure, the original signal must be stationary. Consequentially, a technique for separating and identifying noises from each part of the engine has been used for noise source contribution analysis. To apply the method to time-varying signals, the concept of an instantaneous correlation factor (ICF) is introduced, and we prove that a dominant feature of the correlation can be estimated by the ICF. The timevarying correlation for noise source contribution analysis of an accelerating car is analyzed. In addition, a fundamental experiment on audibility impressions in that case was also conducted.\n",
+    ""
+   ]
+  },
+  "ramos05_dspinv": {
+   "authors": [
+    [
+     "Pedro",
+     "Ramos"
+    ],
+    [
+     "Luis",
+     "Vicente"
+    ],
+    [
+     "Roberto",
+     "Torrubia"
+    ],
+    [
+     "Ana",
+     "López"
+    ],
+    [
+     "Ana",
+     "Salinas"
+    ],
+    [
+     "Enrique",
+     "Masgrau"
+    ]
+   ],
+   "title": "On the complexity-performance tradeoff of two active noise control systems for vehicles",
+   "original": "div5_M1-2",
+   "page_count": 0,
+   "order": 2,
+   "p1": "paper M1-2",
+   "pn": "",
+   "abstract": [
+    "The aim of this paper is to show the experimental results achieved in the attenuation of periodic disturbances inside a vehicle with two Active Noise Control algorithms implemented on the TMS320C6701 DSP and to compare the computational complexity of both strategies: (1) Modified FxGAL: Modified filtered-x gradient adaptive lattice algorithm. This technique is based on the signal orthogonalization carried out by an adaptive lattice predictor in a previous stage. (2) Gì-FxSLMS: Filtered-x sequential least mean square algorithm with step-size gain. This strategy is based on partial updates of the weights of an adaptive filter as well as on the controlled increase in step-size of the algorithm. This work illustrates by means of two different algorithms the tradeoff established among computational costs, convergence rate, stability and mean- square error excess when DSP-based strategies are used in control systems focused on the attenuation of acoustic disturbances.\n",
+    ""
+   ]
+  },
+  "wahab05_dspinv": {
+   "authors": [
+    [
+     "Abdul",
+     "Wahab"
+    ],
+    [
+     "Chin-Keong",
+     "Tan"
+    ],
+    [
+     "Hüseyin",
+     "Abut"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ]
+   ],
+   "title": "M1-3 driver recognition using FNN and statistical methods",
+   "original": "div5_M1-3",
+   "page_count": 0,
+   "order": 3,
+   "p1": "paper M1-3",
+   "pn": "",
+   "abstract": [
+    "Advancements in biometrics-based authentication have led to its increasing prominence and are being incorporated into everyday tasks. Existing vehicle security systems rely only on alarms or smart card as forms of protection. A biometric driver recognition system utilizing driving behaviors can be incorporated into existing vehicle security system to form a multimodal identification system and offer a higher degree of multilevel protection. The system can be subsequently integrated into intelligent vehicle systems where it can be used for detection of any abnormal driver behavior for purpose of achieving safer driving. In this paper we present features extracted using Gaussian Mixture Models (GMM) from accelerator and brake pedal pressure signals which are used as inputs to a driver identification/verification system. The Evolving Fuzzy Neural Network (EFuNN) was used to demonstrate the validity of the proposed system. Results obtained from the experiments are compared to that of the statistical method and shows potential of the recognition system to be used for real-time application. A high identification rate and low verification error rate were obtained using the GMM-based features indicating considerable difference in the way different drivers apply pressure to the pedals.\n",
+    ""
+   ]
+  },
+  "cetingul05_dspinv": {
+   "authors": [
+    [
+     "Ertan",
+     "Cetingul"
+    ],
+    [
+     "Engin",
+     "Erzin"
+    ],
+    [
+     "Yücel",
+     "Yemez"
+    ],
+    [
+     "A. Murat",
+     "Tekalp"
+    ]
+   ],
+   "title": "Use of lip information for robust speaker identification and speech recognition",
+   "original": "div5_M1-4",
+   "page_count": 0,
+   "order": 4,
+   "p1": "paper M1-4",
+   "pn": "",
+   "abstract": [
+    "This study investigates the benefits of multimodal fusion of audio, lip motion and lip texture modalities for speaker and speech recognition. The audio modality is represented by the well-known mel-frequency cepstral coefficients (MFCC) along with the first and second derivatives, whereas lip texture modality is represented by the 2D-DCT coefficients of the luminance component within a bounding box about the lip region. A new lip motion modality representation based on discriminative analysis of the dense motion vectors within the same bounding box is employed for speaker/speech recognition. The fusion of audio, lip texture and lip motion modalities is performed by the so-called Reliability Weighted Summation (RWS) decision rule. Experimental results show that inclusion of lip motion and lip texture modalities provides further performance gains in both speaker identification and speech recognition scenarios.\n",
+    ""
+   ]
+  },
+  "erdogan05_dspinv": {
+   "authors": [
+    [
+     "Hakan",
+     "Erdogan"
+    ],
+    [
+     "Ali Nazmi",
+     "Özyagci"
+    ],
+    [
+     "Taner",
+     "Eskil"
+    ],
+    [
+     "Mete",
+     "Rodoper"
+    ],
+    [
+     "Aytül",
+     "Erçil"
+    ],
+    [
+     "Hüseyin",
+     "Abut"
+    ]
+   ],
+   "title": "Experiments on decision fusion for driver recognition",
+   "original": "div5_M1-5",
+   "page_count": 0,
+   "order": 5,
+   "p1": "paper M1-5",
+   "pn": "",
+   "abstract": [
+    "In this work, we study the individual as well as combined performance of various driving behavior signals on identifying the driver of a motor vehicle. We investigate a number of classifier fusion techniques to combine multiple channel decisions. We observe that some driving signals carry more biometric information than others. When we use trainable combining methods, we can reduce identification error significantly using only driving behavior signals. Classifier combination methods seem to be very useful in multi-modal biometric identification in a car environment.\n",
+    ""
+   ]
+  },
+  "nishiwaki05_dspinv": {
+   "authors": [
+    [
+     "Yoshihiro",
+     "Nishiwaki"
+    ],
+    [
+     "Koji",
+     "Ozawa"
+    ],
+    [
+     "Chiyomi",
+     "Miyajima"
+    ],
+    [
+     "Katsunobu",
+     "Itou"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Toshihiro",
+     "Wakita"
+    ]
+   ],
+   "title": "Driver identification based on spectral analysis of driving behavioral signals",
+   "original": "div5_M1-6",
+   "page_count": 0,
+   "order": 6,
+   "p1": "paper M1-6",
+   "pn": "",
+   "abstract": [
+    "In this paper, drivers characteristics in driving behaviors are extracted through spectral analysis of driving signals. We assume that drivers characteristics while accelerating or decelerating can be represented by cepstral features obtained through spectral analysis of gas and brake pedal operation signals and the cepstral features of each driver are modeled with a Gaussian mixture model (GMM). Driver models are evaluated in driver identification experiments using driving signals of 276 drivers collected in a real vehicle on a city road. Experimental results show that the driver model based on cepstral features achieves a 76.8% driver identification rate, resulting in a 55% error reduction over a conventional driver model that uses raw gas and brake pedal operation signals.\n",
+    ""
+   ]
+  },
+  "servetti05_dspinv": {
+   "authors": [
+    [
+     "Antonio",
+     "Servetti"
+    ],
+    [
+     "Juan Carlos De",
+     "Martin"
+    ]
+   ],
+   "title": "Variable time-scale audio streaming over 802.11 inter-vehicular ad-hoc networks",
+   "original": "div5_M1-7",
+   "page_count": 0,
+   "order": 7,
+   "p1": "paper M1-7",
+   "pn": "",
+   "abstract": [
+    "This paper presents an analysis of audio streaming in an inter- vehicular network based on 802.11b wireless devices. In such a scenario characterized by strong link availability variations, we investigate the performance of an adaptive packet scheduling policy that adapts the inter-packet transmission interval to the channel conditions. Network simulations are used to evaluate the effects of varying the transmission time scale between zero, when the connection is not available, to as fast as possible when the channel is available and reliable. Results show that the proposed approach ensures high quality audio streaming among the nodes of the inter-vehicular network by heavily reducing the percentage of lost packets and with only a limited increase in the delay and jitter.\n",
+    ""
+   ]
+  },
+  "bucciol05_dspinv": {
+   "authors": [
+    [
+     "Paolo",
+     "Bucciol"
+    ],
+    [
+     "Enrico",
+     "Masala"
+    ],
+    [
+     "Juan Carlos De",
+     "Martin"
+    ]
+   ],
+   "title": "Adaptive h.264 video transmission over 802.11 inter- vehicular ad hoc networks",
+   "original": "div5_M1-8",
+   "page_count": 0,
+   "order": 8,
+   "p1": "paper M1-8",
+   "pn": "",
+   "abstract": [
+    "This paper focuses on video communications in inter-vehicular environments using the 802.11 ad hoc network protocol. In the first part of the work we present the results of transmission experiments between two cars equipped with 802.11 devices in two typical driving scenarios, urban and highway. Various video bitrates and packetization policies have been tested. The results show that the two scenarios differ in terms of link availability and SNR. Moreover, the video quality measured at the receiver by means of the PSNR value shows that the best packetization policy depends on the scenario. Building on these results, we design an algorithm which adapts the video packet size to the current driving conditions to improve the efficiency of the video transmission. Consistent perceptual quality gains in terms of PSNR value (up to about 3 dB) are achieved with respect to a fixed-policy transmission technique.\n",
+    ""
+   ]
+  },
+  "xu05_dspinv": {
+   "authors": [
+    [
+     "Haitian",
+     "Xu"
+    ],
+    [
+     "Zheng-Hua",
+     "Tan"
+    ],
+    [
+     "Paul",
+     "Dalsgaard"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ],
+    [
+     "Ralf",
+     "Mattethat"
+    ]
+   ],
+   "title": "AAU-DSR: a user configurable distributed speech recognition system",
+   "original": "div5_M1-9",
+   "page_count": 0,
+   "order": 9,
+   "p1": "paper M1-9",
+   "pn": "",
+   "abstract": [
+    "The growth in wireless communication and mobile devices has supported the development of distributed speech recognition (DSR) systems. During the last decade this has led to the establishment of DSR standards and an increased interest in research aimed at systems exploiting DSR. So far, however, DSR- based systems executing on mobile devices are only in their infancy. One reason probably is the missing availability of corresponding easy-to-use software development packages. This paper presents a prototype version of a configurable DSR system for the development of speech enabled applications on mobile devices. The system is implemented on the basis of the ETSIDSR advanced front-end and the SPHINX IV recogniser. A dedicated protocol is defined between the DSR client and the recognition server supporting simultaneous access from a number of clients. This makes it possible for different clients to create and configure recognition tasks on the basis of a set of predefined recognition modes. The paper gives a detailed introduction to this system including its architecture, design considerations and evaluation results.\n",
+    ""
+   ]
+  },
+  "nogueira05_dspinv": {
+   "authors": [
+    [
+     "S.",
+     "Nogueira"
+    ],
+    [
+     "F.",
+     "Gechter"
+    ],
+    [
+     "Y.",
+     "Ruichek"
+    ],
+    [
+     "A.",
+     "Koukam"
+    ],
+    [
+     "F.",
+     "Charpillet"
+    ]
+   ],
+   "title": "Environment perception environment for vehicle autonomous navigation in urban areas",
+   "original": "div5_M1-10",
+   "page_count": 0,
+   "order": 10,
+   "p1": "paper M1-10",
+   "pn": "",
+   "abstract": [
+    "Since two decades, research programs have studied the concept of \"Tintelligent vehicles\". The aim is to develop an intelligent transportation system based on a fleet of fully automated cars designed for short trips at low speed in urban areas. This system will offer advantages of high flexibility, efficiently, safety, and thus, will improve the quality of life un our cities (protection of the environment, better management of parking areas, etc.). One of the key functions that a such transportation system must achieve concerns vehicle autonomous navigation. This paper presents our research activities on environment perception for vehicle autonomous navigation using passive and active sensor technologies. We are particularly interested in stereo vision for obstacle detection, line following and landmarks recognition. The developed algorithms are implemented and tested using a fully automated vehicle platform (Robosofts RobuCab) equipped with various sensors.\n",
+    ""
+   ]
+  },
+  "okada05_dspinv": {
+   "authors": [
+    [
+     "Ryuzo",
+     "Okada"
+    ],
+    [
+     "Hiroaki",
+     "Nakai"
+    ],
+    [
+     "Kenji",
+     "Furukawa"
+    ],
+    [
+     "Tatsuo",
+     "Kozakaya"
+    ],
+    [
+     "Yasuhiro",
+     "Taniguchi"
+    ],
+    [
+     "Jun",
+     "Tanabe"
+    ],
+    [
+     "Takashi",
+     "Miyamori"
+    ],
+    [
+     "Tatsuya",
+     "Shimoike"
+    ]
+   ],
+   "title": "An image recognition soc \"viscontiTM\" for automative applications",
+   "original": "div5_M1-11",
+   "page_count": 0,
+   "order": 11,
+   "p1": "paper M1-11",
+   "pn": "",
+   "abstract": [
+    "In this paper, we present an image recognition SoC named \"ViscontiTM\", which has been developed to provide advanced safety assistance for automobile drivers. This SoC is an 18-GOPS multi-VLIW processor, in which three 3-way VLIW processors and peripheral modules such as memory controllers, video I/Os and an affine transformation module are integrated. The SoC design is based on a configurable MeP (Media embedded Processor) architecture, which supports superior capabilities for automobile image processing, i.e. high compute performance, low cost and low power dissipation. We have implemented several types of our previously proposed image recognition algorithms on the SoC, and describe three example applications briefly in this paper.\n",
+    ""
+   ]
+  },
+  "li05_dspinv": {
+   "authors": [
+    [
+     "Weifeng",
+     "Li"
+    ],
+    [
+     "Katsunobu",
+     "Itou"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "On the complexity-performance tradeoff of two active noise control systems for vehicles",
+   "original": "div5_M2-1",
+   "page_count": 0,
+   "order": 12,
+   "p1": "paper M2-1",
+   "pn": "",
+   "abstract": [
+    "This paper describes a new single-channel in-car speech enhancement method that estimates the log spectra of speech at a close-talking microphone based on the nonlinear regression of the log spectra of noisy signal captured by a distant microphone and the estimated noise. We compare the speech enhancement performance of proposed method to those of spectral subtraction (SS) and short-time spectral attenuation (STSA) based methods. The proposed method provides significant overall quality improvements in our subjective evaluation on the regression-enhanced speech. Based on our isolated word recognition experiments conducted under 15 real car environments, the proposed adaptive nonlinear regression approach shows an advantage in average relative word error rate (WER) reductions of 54.2% and 16.5%, respectively, compared to original noisy speech and ETSI advanced front-end.\n",
+    ""
+   ]
+  },
+  "akbacak05_dspinv": {
+   "authors": [
+    [
+     "Murat",
+     "Akbacak"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "General issues in environmental noise tracking for robust in- vehicle speech applications: supervised vs unsupervised acoustic noise analysis",
+   "original": "div5_M2-2",
+   "page_count": 0,
+   "order": 13,
+   "p1": "paper M2-2",
+   "pn": "",
+   "abstract": [
+    "In this paper, we present an overview of Environmental Sniffing framework with current extensions to the system. The framework of Environmental Sniffing is focused on detection, classification and tracking changing acoustic environments. Here, we extend the framework to detect and track acoustic environmental conditions which are determined in an unsupervised approach as opposed to the supervised approach employed in [1,2]. Knowledge extracted about the acoustic environmental conditions is used to determine which environment dependent speech recognizer to use. Critical Performance Rate (CPR), previously considered in [1,2], is also presented. The sniffing framework is compared to a ROVER solution for automatic speech recognition (ASR) using different noise conditioned recognizers in terms of Word Error Rate (WER) and CPU usage. Results are presented in this paper for supervised noise analysis. Results show that the model matching scheme using the knowledge extracted from the audio stream by Environmental Sniffing does a better job than a ROVER solution both in accuracy and computation. A relative 11:1% WER improvement is achieved with a relative 75% reduction in CPU resources.\n",
+    ""
+   ]
+  },
+  "zhang05_dspinv": {
+   "authors": [
+    [
+     "Xianxian",
+     "Zhang"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Toshiki",
+     "Maeno"
+    ],
+    [
+     "Kathryn",
+     "Arehart"
+    ]
+   ],
+   "title": "Speaker source localization using audio-visual data and array processing based speech enhancement for in-vehicle environments",
+   "original": "div5_M2-3",
+   "page_count": 0,
+   "order": 14,
+   "p1": "paper M2-3",
+   "pn": "",
+   "abstract": [
+    "Human-Computer interaction for in-vehicle systems requires effective audio capture, tracking of who is speaking, environmental noise suppression, and robust processing for applications such as route navigation, hands-free mobile communications, and human-to-human communications for hearing impaired subjects. In this paper, we consider two interactive speech processing frameworks for in- vehicle systems. First, we consider integrating audio-visual processing for localization the primary speech for a driver using a route navigation system. Integrating both visual and audio content allows us to reject unintended speech to be submitted for speech recognition within the route dialog system. Second, we consider a combined multi- channel array processing scheme based on a combined fixed and adaptive array processing scheme (CFA-BF) with a spectral constrained iterative Auto-LSP and auditory masked GMMSE-AMT-ERB processing for speech enhancement. The combined scheme takes advantage of the strengths offered by array processing methods in noisy environments, as well as speed and efficiency for single channel methods. We evaluate the audio-visual localization scheme for route navigation dialogs and show improved speech accuracy by up to 40% using the CIAIR in-vehicle data corpus from Nagoya, Japan. For the combine array processing and speech enhancement methods, we demonstrate consistent levels of noise suppression and voice communication quality improvement using a subset of the TIMIT corpus with four real noise sources, with an overall average 26dB increase in SegSNR from the original degraded audio corpus.\n",
+    ""
+   ]
+  },
+  "dat05_dspinv": {
+   "authors": [
+    [
+     "Tran Huy",
+     "Dat"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "Speech enhancement based on Gaussian mixture modeling in the sub-band log-power domain",
+   "original": "div5_M2-4",
+   "page_count": 0,
+   "order": 15,
+   "p1": "paper M2-4",
+   "pn": "",
+   "abstract": [
+    "We present a speech enhancement system based on Gaussian mixture modeling in the sub-band log-power domain of the observed noisy speech. The basic idea of this method is fitting the actual behaviors of noise and noisy speech powers in terms of their distributions in each sub-band and employing the statistical methods for the noise power estimation and speech activity discrimination. The conventional two components GMM with standard EM algorithm is applied in each sub- band for each segment of half second of the observed noisy speech power. Two statistical methods of maximum a posterior probability (MAP) and cumulative distribution function equalization (CDFE) are developed in this works for the noise estimation. For the voice activity detection, an adaptable decision rule is proposed for the speech recognition application. The noise power and VAD are used in a Wiener filtering system. In an experimental evaluation on AURORA2 database, we compare the proposed to the conventional VAD and noise estimation method. From the experimental results, the proposed VAD method is superior in the non-speech detection rate and the Wiener filtering system based on proposed noise estimation performed better in speech recognition rate, especially in the case when CDFE estimator is employed.\n",
+    ""
+   ]
+  },
+  "kaminuma05_dspinv": {
+   "authors": [
+    [
+     "Atsunobu",
+     "Kaminuma"
+    ],
+    [
+     "Daisuke",
+     "Saitoh"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Tsuyoki",
+     "Nishikawa"
+    ],
+    [
+     "Akinobu",
+     "Lee"
+    ]
+   ],
+   "title": "Rapid filter adaptation for frequency-domain independent component analysis in various car noise environments",
+   "original": "div5_M2-5",
+   "page_count": 0,
+   "order": 16,
+   "p1": "paper M2-5",
+   "pn": "",
+   "abstract": [
+    "A computational complexity reduction method in a noise reduction algorithm using ICA in car components is described. We examined a noise suppression system and a speech enhancement system that use frequency-domain independent component analysis (hereafter FDICA) in car compartments with speech input systems. To achieve real-time processing in a car, we must reduce the computational complexity. We solved this problem with real-time processing by controlling the adaptive timing.\n",
+    ""
+   ]
+  },
+  "petrick05_dspinv": {
+   "authors": [
+    [
+     "Rico",
+     "Petrick"
+    ],
+    [
+     "Diane",
+     "Hirschfeld"
+    ],
+    [
+     "Christian",
+     "Gruber"
+    ],
+    [
+     "Gregor",
+     "Kinast"
+    ]
+   ],
+   "title": "Comparison of signal enhancement techniques in communications and speech control tasks for a single-DSP in-car application",
+   "original": "div5_M2-6",
+   "page_count": 0,
+   "order": 17,
+   "p1": "paper M2-6",
+   "pn": "",
+   "abstract": [
+    "Speech related in-car tasks can be subdivided into hands-free communication and speech control oriented tasks. While the former is characterized by signal processing in the telephone bandwidth, the latter uses multimedia-bandwidth. The accuracy and ergonomics of both types of applications is severely influenced by external noise conditions and the technologies applied for signal enhancement. Different techniques for signal enhancement are discussed like a four channel microphone array, a single channel noise reduction and an acoustic echo cancellation, implemented on a single DSP chip. A suitable system design is introduced which matches both types of applications by an optimal combination of the different signal enhancement approaches. A number of objective and subjective experiments using real world speech and noise corpora recorded in a car and in a truck environment are accomplished for evaluation of the system quality. Finally, some recommendations for noise reduction techniques in low cost applications are derived.\n",
+    ""
+   ]
+  },
+  "ortega05_dspinv": {
+   "authors": [
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ],
+    [
+     "Enrique",
+     "Masgrau"
+    ],
+    [
+     "Luis",
+     "Buera"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ]
+   ],
+   "title": "Acoustic echo reduction in a two-channel speech reinforcement system for vehicles",
+   "original": "div5_M2-7",
+   "page_count": 0,
+   "order": 18,
+   "p1": "paper M2-7",
+   "pn": "",
+   "abstract": [
+    "A two-channel speech reinforcement system which has the goal of improving speech intelligibility inside cars is presented in this work. As microphones pick up not only the voice of the speaker but also the reinforced speech coming from the loudspeakers, feedback paths appear in a speech reinforcement system for vehicles. This feedback paths can make the system become unstable and acoustic echo cancellation is needed in order to avoid it. In a two-channel system, two system identifications must be performed for each channel, one of them is an open-loop identification and the other one is closed-loop. Several methods have been proposed for echo suppression in open-loop systems like hands-free systems. We propose here the use of echo suppression filters specially designed for closed-loop subsystems along with echo suppression filters for open-loop subsystems based on the optimal filtering theory. The spectral estimation method for the power spectral density of the residual echo suppression filters is presented along with the derivation of the optimal echo suppression filter needed in the closed-loop subsystem. Results about the performance of the proposed system are also provided.\n",
+    ""
+   ]
+  },
+  "buera05_dspinv": {
+   "authors": [
+    [
+     "Luis",
+     "Buera"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ]
+   ],
+   "title": "Multi-environment linear normalization for robust speech analysis in cars",
+   "original": "div5_M2-8",
+   "page_count": 0,
+   "order": 19,
+   "p1": "paper M2-8",
+   "pn": "",
+   "abstract": [
+    "In this paper Phoneme-Dependent Multi-Environment Models based Linear feature Normalization, PD-MEMLIN, is presented. The target of this algorithm is learning the mismatch between clean and noisy feature vectors associated to a pair of Gaussians of the same phoneme (one for a clean model, and the other one for a noisy model), for each basic defined environment. These differences are estimated in a previous training process with stereo data. In order to compensate some of the problems of the independence assumption of the feature vectors components and the mismatch error between perfect and proposed transformations, two approaches have been proposed too: a multi-environment rotation transformation algorithm, and the use of transformed space acoustic models. The behavior of this technique was studied for speech recognition and speaker verification and identification in a real acoustic environment. The experiments were carried out with SpeechDat Car database and the results show an average improvement in speech recognition of more than 77% using PD-MEMLIN, and more than 85% using transformed space acoustic models and multi-environment rotation transformation. In speaker verification and identification, PD-MEMLIN is applied as a previous phase to clean the signal, with an average improvement in Equal-Error Rate of more than 70%, and 48.69%, respectively.\n",
+    ""
+   ]
+  },
+  "li05b_dspinv": {
+   "authors": [
+    [
+     "Junfeng",
+     "Li"
+    ],
+    [
+     "Xugang",
+     "Lu"
+    ],
+    [
+     "Masato",
+     "Akagi"
+    ]
+   ],
+   "title": "Noise reduction based on microphone array and post-filtering for robust speech recognition in car environments",
+   "original": "div5_M2-9",
+   "page_count": 0,
+   "order": 20,
+   "p1": "paper M2-9",
+   "pn": "",
+   "abstract": [
+    "We conducted a study in fiscal 2000-2002 concerning a network- distributed voiceactivated telematics service system and another study in fiscal 2003-2004 concerning a voice-activated system and driver distraction. Based on those original studies, this paper presents dialogue management corresponding to the drivers workload and other factors, with the aim of help to develop consensus for voice- activated in-vehicle systems.\n",
+    ""
+   ]
+  },
+  "mizumachi05_dspinv": {
+   "authors": [
+    [
+     "Mitsunori",
+     "Mizumachi"
+    ],
+    [
+     "Katsuyuki",
+     "Niyada"
+    ]
+   ],
+   "title": "Estimation of active speaker's direction using particle filtering",
+   "original": "div5_M2-10",
+   "page_count": 0,
+   "order": 21,
+   "p1": "paper M2-10",
+   "pn": "",
+   "abstract": [
+    "Building in-car human-machine interfaces, information on speakers direction is helpful for speech enhancement and controlling a video camera. Direction-Of-Arrival (DOA) estimation has been an essential problem in multi-channel acoustic signal processing. This paper proposes two-step particle filtering in a spectro-spatial domain for achieving robust DOA estimation under noisy environments such as in-car environments. The two-step filtering aims at combining the advantages of both traditional cross-correlation (CC) and generalized cross- correlation (GCC) methods. In multiple sound source conditions, proposal particle distribution given by DOA estimates, which are previously obtained, contributes to track the sudden change of an active sound source without latency. Experimental results show that the proposed method is superior both in accuracy and stability to conventional CC and GCC methods under noisy and slightly reverberant environments.\n",
+    ""
+   ]
+  },
+  "zhang05b_dspinv": {
+   "authors": [
+    [
+     "Zhipeng",
+     "Zhang"
+    ],
+    [
+     "Kei",
+     "Kikuiri"
+    ],
+    [
+     "Nobuhiko",
+     "Naka"
+    ],
+    [
+     "Tomoyuki",
+     "Ohya"
+    ]
+   ],
+   "title": "ICA-based technique in air and bone-conductive microphones for speech enhancement",
+   "original": "div5_M2-11",
+   "page_count": 0,
+   "order": 22,
+   "p1": "paper M2-11",
+   "pn": "",
+   "abstract": [
+    "How to obtain clean speech signal in noisy environments is a crucial issue for improving the appeal of mobile phones. This paper proposes to supplement the existing normal air-conductive microphone with a bone-conductive microphone for noise reduction. We propose to apply the ICA (Independent Component Analysis)- based technique to the air and bone-conductive microphone combination for speech enhancement. The speech signal output by the bone-conductive microphone has the advantage of very high SNR, which well supports the generation of a clean speech signal in combination with a normal microphone. We evaluate this method by a Japanese digital recognition system. The results confirm that the proposed method can allow a mobile phone to obtain a clean speech signal even if the background noise is relatively high.\n",
+    ""
+   ]
+  },
+  "isa05_dspinv": {
+   "authors": [
+    [
+     "Takashi",
+     "Isa"
+    ],
+    [
+     "Toshiyuki",
+     "Sekiya"
+    ],
+    [
+     "Tetsuji",
+     "Ogawa"
+    ],
+    [
+     "Tetsunori",
+     "Kobayashi"
+    ]
+   ],
+   "title": "A method for solving the permutation problem of frequency-domain blind source separation using reference signal",
+   "original": "div5_M2-12",
+   "page_count": 0,
+   "order": 23,
+   "p1": "paper M2-12",
+   "pn": "",
+   "abstract": [
+    "This paper presents a method for solving the permutation problem. This is a problem specific to frequency domain blind source separation within the framework of independent component analysis. Towards this problem, we propose a method which uses reference signals. For each frequency bin, the permutation alignment is fixed by calculating correlation coefficients between the reference signal and the separated signal. Reference signals are obtained as signals corresponding to each individual original source. The reference signals are chosen or obtained subjectively, and do not need to be separated well. For example, the conventional beamforming technique gives suitable reference signals. The experimental results of double talk recognition with 20K vocabulary show that the proposed method is effective to achieve 20% error reduction rate compared with the established DOA-based approach.\n",
+    ""
+   ]
+  },
+  "levy05_dspinv": {
+   "authors": [
+    [
+     "Christophe",
+     "Levy"
+    ],
+    [
+     "Georges",
+     "Linares"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "A mobile phone embedded digit-recognition",
+   "original": "div5_A1-1",
+   "page_count": 0,
+   "order": 24,
+   "p1": "paper A1-1",
+   "pn": "",
+   "abstract": [
+    "Speech recognition applications are known to require a significant amount of memory. However, the targeted context of this work - mobile phone embedded speech recognition system - only authorizes less than 100kB of memory. In order to fit the memory resource, a global codebook of Gaussians is learned to derive state-dependent probability density functions. This strategy aims at storing only the transformation function parameters for each state. In this paper, two upper limits (concerning the acoustic model size) are set to 50kB and 100kB. The proposed approaches are evaluated on the French corpus VODIS (digit recognition - recorded into car with or without fan/opened window/radio - with a very low Signal/Noise Ratio). This preliminary study allows to build systems fitting the memory constraint with a DER (Digit Error Rate) around 10.9% (for model less than 100kB) which represents a DER absolute increase less than 1% compared to an HMM-based baseline system respecting the same memory constraint. Despite this increase, performance of both approaches remains comparable since the DER is still in the confident interval.\n",
+    ""
+   ]
+  },
+  "kadambe05_dspinv": {
+   "authors": [
+    [
+     "Shubha",
+     "Kadambe"
+    ]
+   ],
+   "title": "Study of effect of speaker variability and driving conditions on the performance of an ASR engine inside a vehicle",
+   "original": "div5_A1-2",
+   "page_count": 0,
+   "order": 25,
+   "p1": "paper A1-2",
+   "pn": "",
+   "abstract": [
+    "Spoken dialogue based information retrieval systems are being used inside vehicles. The user satisfaction of using such a system depends on how an ASR engine performs. However, the performance of an ASR is affected by speaker variability, driving conditions, etc.. Here, we report the study that we performed to analyze these effects of speaker variability, different driving conditions and the effect of driving task on the ASR performance. This study consists of experimental design, data collection and systematically testing an ASR engine using this data. From the obtained results, it can be observed that (I) the ASR performance exhibits (a) significant speaker variability since the stress of driving task varies from speaker to speaker, (b) significant performance degradation across driving conditions since the noise type and level varies and (c) significant effect of driving task on recognition performance, and (II) the effect of live noise on recognition performance is not same as adding car noise to the pre-recorded speech data. The former observations are important since by just training an ASR engine on lots of speech data will not help and it is essential to include stress factors and cognition load in ASR engines to improve its performance.\n",
+    ""
+   ]
+  },
+  "matassoni05_dspinv": {
+   "authors": [
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Maurizio",
+     "Omologo"
+    ],
+    [
+     "Piergiorgio",
+     "Svaizer"
+    ]
+   ],
+   "title": "Hands-free in-car speech interaction in the VICO project",
+   "original": "div5_A1-3",
+   "page_count": 0,
+   "order": 26,
+   "p1": "paper A1-3",
+   "pn": "",
+   "abstract": [
+    "This paper presents goals, system architecture and main results of VICO (Virtual Intelligent CO-driver), a project aiming at the development of an intelligent conversational agent enabling natural hands-free interaction between humans and digital devices in the car. The underlying design principles and system framework are given, as well as an overview of the components of the final prototype working in a real environment. Finally the results of the evaluation phase are discussed.\n",
+    ""
+   ]
+  },
+  "yamaguchi05_dspinv": {
+   "authors": [
+    [
+     "Yukiko",
+     "Yamaguchi"
+    ],
+    [
+     "Keita",
+     "Hayashi"
+    ],
+    [
+     "Takahiro",
+     "Ono"
+    ],
+    [
+     "Shingo",
+     "Kato"
+    ],
+    [
+     "Yuki",
+     "Irie"
+    ],
+    [
+     "Tomohiro",
+     "Ohno"
+    ],
+    [
+     "Hiroya",
+     "Murao"
+    ],
+    [
+     "Shigeki",
+     "Matsubara"
+    ],
+    [
+     "Nobuo",
+     "Kawaguchi"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ]
+   ],
+   "title": "Towards robust spoken dialog systems using large-scale in-car speech corpus",
+   "original": "div5_A1-4",
+   "page_count": 0,
+   "order": 27,
+   "p1": "paper A1-4",
+   "pn": "",
+   "abstract": [
+    "We have been studying various topics by using a large-scale corpus, which was built at CIAIR, to construct a robust and practical spoken dialogue system. The CIAIR project has developed a data collection vehicle and collected about 179 hours of multi-modal data in total. We have transcribed the speech data by about 800 subjects, and annotated speech intentions, dependency structures, dialogue structures to the text data. We are continuing various research using the annotated data, such as speech. Intention understanding and speakers knowledge acquisition. In this paper, we introduce our research activities, and present the various fruits of the in-car speech corpus.\n",
+    ""
+   ]
+  },
+  "rigoll05_dspinv": {
+   "authors": [
+    [
+     "Gerhard",
+     "Rigoll"
+    ],
+    [
+     "Markus",
+     "Ablassmeier"
+    ]
+   ],
+   "title": "Exploitation of context information for natural speech dialogue management in car environments",
+   "original": "div5_A1-5",
+   "page_count": 0,
+   "order": 28,
+   "p1": "paper A1-5",
+   "pn": "",
+   "abstract": [
+    "This contribution focuses on a situation- and user-aware approach of multimodal dialogue management implemented in a framework for the automotive environment. A dedicated dialogue manager for drivers interaction with driver information systems (like infotainment and communication systems) as well as driver assistance systems has been developed and tested. One main focus in the development was the ability to make context-dependent decisions. The dialogue manager provides flexible and usercentered speech dialogues and support multimodal interfaces, like buttons or turning knobs combined with speech. For the dialogue control, a frame- based approach is used. The dialogue description is realized in XML which allows for an easy overview over the dialogue structure. Visual outputs are displayed on several screens in the car. The usability evaluation shows an improvement of effectiveness, a higher joy of use through the possibility of submitting several pieces of information in only one dialogue step with natural speech comparing to a menu-based spoken dialogue. The situation-dependent information assistants reached a high acceptance. The test persons rated the context-based way of frame-based interaction as comfortable and important.\n",
+    ""
+   ]
+  },
+  "nemeth05_dspinv": {
+   "authors": [
+    [
+     "Géza",
+     "Németh"
+    ],
+    [
+     "Géza",
+     "Kiss"
+    ],
+    [
+     "Bálint",
+     "Tóth"
+    ]
+   ],
+   "title": "Cross platform solution of communication and voice/graphical user interface for mobile devices in vehicles",
+   "original": "div5_A1-6",
+   "page_count": 0,
+   "order": 29,
+   "p1": "paper A1-6",
+   "pn": "",
+   "abstract": [
+    "Two long-term goals of our research is to develop a standardized communication interface between the mobile device and other onboard systems and to create a parametrical, scaleable user interface, both with voice and graphical user input/output. This paper describes the main requirements, principles and aspects of a voice/graphical user interface and of a Bluetooth based communication interface. Requirements and limitations for the implementation of speech synthesis on mobile devices will also be introduced. As a sample application of a mobile device on a vehicle an SMS-reader application will be presented.\n",
+    ""
+   ]
+  },
+  "georges05_dspinv": {
+   "authors": [
+    [
+     "Linares",
+     "Georges"
+    ],
+    [
+     "Nocera",
+     "Pascal"
+    ],
+    [
+     "Ravera",
+     "Bertrand"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Automatic transcription of Tetra transcoded broadcast news",
+   "original": "div5_A1-7",
+   "page_count": 0,
+   "order": 30,
+   "p1": "paper A1-7",
+   "pn": "",
+   "abstract": [
+    "The use of speech based distant services from mobile devices requires sufficient network performance and disponsibility. Low rate speech coding reduces significantly these resource requirements, but it could have also a negative impact on speech quality. In this paper, we study the effect of Tetra transcoding on a speech recognition system. Experiments are conducted on an continuous speech large vocabulary task, using the LIA automatic speech recognition system (SPEERAL). We use the French broadcast news corpus provided for the Ester evaluation campaign. We first perform recognition using our baseline wide band system; results are then compared to one obtained using acoustic models trained on transcoded data. Our results show that processing of transcoded speech requires the adaptation of ASR system in order to reach a good level of performance.\n",
+    ""
+   ]
+  },
+  "nishimoto05_dspinv": {
+   "authors": [
+    [
+     "Takuya",
+     "Nishimoto"
+    ],
+    [
+     "Makoto",
+     "Shioya"
+    ],
+    [
+     "Juhei",
+     "Takahashi"
+    ],
+    [
+     "Hideharu",
+     "Daigo"
+    ]
+   ],
+   "title": "A study on dialogue management principles corresponding to the driver's workload",
+   "original": "div5_A1-8",
+   "page_count": 0,
+   "order": 31,
+   "p1": "paper A1-8",
+   "pn": "",
+   "abstract": [
+    "We conducted a study in fiscal 2000-2002 concerning a network- distributed voiceactivated telematics service system and another study in fiscal 2003-2004 concerning a voice-activated system and driver distraction. Based on those original studies, this paper presents dialogue management corresponding to the drivers workload and other factors, with the aim of help to develop consensus for voice- activated in-vehicle systems.\n",
+    ""
+   ]
+  },
+  "hataoka05_dspinv": {
+   "authors": [
+    [
+     "Nobuo",
+     "Hataoka"
+    ],
+    [
+     "Hirohiko",
+     "Sagawa"
+    ],
+    [
+     "Yasunari",
+     "Obuchi"
+    ],
+    [
+     "Masahiko",
+     "Tateishi"
+    ],
+    [
+     "Ichiro",
+     "Akahori"
+    ],
+    [
+     "Jeongwoo",
+     "Ko"
+    ],
+    [
+     "Fumihiko",
+     "Murase"
+    ],
+    [
+     "Teruko",
+     "Mitamura"
+    ],
+    [
+     "Eric",
+     "Nyberg"
+    ]
+   ],
+   "title": "Robust speech dialog management system for mobile and car applications",
+   "original": "div5_A1-9",
+   "page_count": 0,
+   "order": 32,
+   "p1": "paper A1-9",
+   "pn": "",
+   "abstract": [
+    "In Car Information Service Systems (Car Telematics), Speech Dialog Interfaces are important from safety viewpoints. However, there are many technical problems such as flexible dialog management, robust task management, and intelligent user assistance. We have proposed the CAMMIA (Conversational Agent for Multimedia and Mobile Information Access) to solve these technical problem. In this paper, we propose robust dialog management strategy and system architecture consisting of a Dialog Management and a Task Management, separately. Finally, we report the system evaluation results to confirm effectiveness of the proposed system architecture and dialog management for the mobile use.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "ishimitsu05_dspinv",
+    "ramos05_dspinv",
+    "wahab05_dspinv",
+    "cetingul05_dspinv",
+    "erdogan05_dspinv",
+    "nishiwaki05_dspinv",
+    "servetti05_dspinv",
+    "bucciol05_dspinv",
+    "xu05_dspinv",
+    "nogueira05_dspinv",
+    "okada05_dspinv",
+    "li05_dspinv",
+    "akbacak05_dspinv",
+    "zhang05_dspinv",
+    "dat05_dspinv",
+    "kaminuma05_dspinv",
+    "petrick05_dspinv",
+    "ortega05_dspinv",
+    "buera05_dspinv",
+    "li05b_dspinv",
+    "mizumachi05_dspinv",
+    "zhang05b_dspinv",
+    "isa05_dspinv",
+    "levy05_dspinv",
+    "kadambe05_dspinv",
+    "matassoni05_dspinv",
+    "yamaguchi05_dspinv",
+    "rigoll05_dspinv",
+    "nemeth05_dspinv",
+    "georges05_dspinv",
+    "nishimoto05_dspinv",
+    "hataoka05_dspinv"
+   ]
+  }
+ ]
+}

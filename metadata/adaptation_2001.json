@@ -1,0 +1,1177 @@
+{
+ "title": "Workshop on Adaptation Methods for Speech Recognition",
+ "location": "Sophia Antipolis, France",
+ "startDate": "29/8/2001",
+ "endDate": "30/8/2001",
+ "conf": "Adaptation",
+ "year": "2001",
+ "name": "adaptation_2001",
+ "series": "",
+ "SIG": "",
+ "title1": "Workshop on Adaptation Methods for Speech Recognition",
+ "date": "29-30 August 2001",
+ "papers": {
+  "woodland01_adaptation": {
+   "authors": [
+    [
+     "Phil C.",
+     "Woodland"
+    ]
+   ],
+   "title": "Speaker adaptation for continuous density HMMs: A review",
+   "original": "adap_011",
+   "page_count": 9,
+   "order": 1,
+   "p1": "11",
+   "pn": "19",
+   "abstract": [
+    "This paper reviews some popular speaker adaptation schemes that can be applied to continuous density hidden Markov models. These fall into three families based on MAP adaptation; linear transforms of model parameters such as maximum likelihood linear regression; and speaker clustering/speaker space methods such as eigenvoices. The strengths and weaknesses of each adaptation family are discussed along with extensions that have been proposed to improve the basic schemes which result in a number of hybrid approaches. A number of general extensions are discussed which include methods for improved unsupervised adaptation and discriminative adaptation. There is also a brief discussion of speaker normalisation and the relationship to model-based adaptation. The paper includes a brief discussion of other factors that directly interact with speaker adaptation of HMMs is included, such as adaptation to the acoustic environment and speaker-specific pronunciation dictionaries.\n",
+    ""
+   ]
+  },
+  "kenny01_adaptation": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Gilles",
+     "Boulianne"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "Inter-speaker correlations, intra-speaker correlations and Bayesian adaptation",
+   "original": "adap_021",
+   "page_count": 4,
+   "order": 2,
+   "p1": "21",
+   "pn": "24",
+   "abstract": [
+    "There are two types of prior distribution that can be viewed as natural for extended MAP (or EMAP) speaker adaptation. One arises from modeling the correlations between speakers (assumed to be constant across HMM Gaussians) and the other from modeling the correlations between HMM Gaussians (assumed to be constant across speakers). In this paper we present new results establishing the usefulness of correlations of the first type for speaker adaptation and we outline a tensor product construction which enables both types of correlation to be integrated in a common mathematical framework. We also present the results of some experiments which suggest that the two types of correlation are equally effective for speaker adaptation and that there is no incremental improvement to be gained by modeling both of them simultaneously.\n",
+    ""
+   ]
+  },
+  "kim01_adaptation": {
+   "authors": [
+    [
+     "Dong Kook",
+     "Kim"
+    ],
+    [
+     "Nam Soo",
+     "Kim"
+    ]
+   ],
+   "title": "Maximum a posteriori adaptation of HMM parameters based on probabilisticprinciple component analysis",
+   "original": "adap_025",
+   "page_count": 4,
+   "order": 3,
+   "p1": "25",
+   "pn": "28",
+   "abstract": [
+    "In this paper, we propose a new approach to hidden Markov model (HMM) adaptation based on the probabilistic principle component analysis (PPCA). The proposed approach has been developed to adapt not only the HMM means but also the variances and mixture weights simultaneously. Due to a set of constraints, we apply the PPCA model in the transformed domain where we adapt the variance and mixture weight. The PPCA model provides the information of correlation among speech units as well as the prior probability density function (pdf) associated with each HMM parameter. In order to adapt the HMM parameters, we use the generalized expectation maximization (GEM) algorithm in which the M-step requires the parameters to be chosen such that the auxiliary function could be increased. The experimental results show that the proposed PPCA-based adaptation approach significantly outperforms the conventional MAP approach when only a small amount of adaptation data is provided.\n",
+    ""
+   ]
+  },
+  "ouellet01_adaptation": {
+   "authors": [
+    [
+     "Pierre",
+     "Ouellet"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "Experiments with MLLR applied to switchboard models",
+   "original": "adap_029",
+   "page_count": 4,
+   "order": 4,
+   "p1": "29",
+   "pn": "32",
+   "abstract": [
+    "To improve our phone recognizer (38.8% accuracy on Switchboard test data), we investigated the power of MLLR adaptation on HMMs estimated from Switchboard training data. We evaluated its effectiveness on three tasks: speaker adaptation within the Switchboard corpus, environment adaptation for performing recognition on WSJ utterances and language adaptation for performing recognition on BREF utterances (clean read French speech). We used a single iteration of supervised MLLR and a global regression matrix. Two results were surprising: first, although Switchboard speaker adaptation improved accuracy globally (0.69% absolute improvement), it was detrimental for certain speakers; second, environment adaptation was more successful than speaker adaptation in the sense that using WSJ test and adaptation data yielded greater accuracy than using Switchboard test and adaptation data. For language adaptation, a situation in which training and test data were mismatched in environment, speaker, speaking style and language, MLLR could increase the baseline accuracy from 18.4% to 25.4%. Our models were standard HMMs with 5400 4-component Gaussian mixture pdfs.\n",
+    ""
+   ]
+  },
+  "kuhn01_adaptation": {
+   "authors": [
+    [
+     "Roland",
+     "Kuhn"
+    ],
+    [
+     "Florent",
+     "Perronnin"
+    ],
+    [
+     "Jean-Claude",
+     "Junqua"
+    ]
+   ],
+   "title": "Time is money: Why very rapid adaptation matters",
+   "original": "adap_033",
+   "page_count": 4,
+   "order": 5,
+   "p1": "33",
+   "pn": "36",
+   "abstract": [
+    "Very rapid adaptation (i.e., adaptation over the range from 0 to 30 sec. of speech data) of ASR systems has great commercial importance and scientific interest. This paper describes some applications of very rapid adaptation, discusses techniques for achieving it, and argues that work in this field has implications for the overall structure of ASR systems. Finally, directions for future work are proposed.\n",
+    ""
+   ]
+  },
+  "nguyen01_adaptation": {
+   "authors": [
+    [
+     "Patrick",
+     "Nguyen"
+    ],
+    [
+     "Luca",
+     "Rigazio"
+    ],
+    [
+     "Roland",
+     "Kuhn"
+    ],
+    [
+     "Jean-Claude",
+     "Junqua"
+    ],
+    [
+     "Christian",
+     "Wellekens"
+    ]
+   ],
+   "title": "Self-adaptation using eigenvoices for large-vocabulary continuousspeech recognition",
+   "original": "adap_037",
+   "page_count": 4,
+   "order": 6,
+   "p1": "37",
+   "pn": "40",
+   "abstract": [
+    "In this paper, we present the application of eigenvoices to self-adaptation. This adaptation algorithm happens to be rather well-suited for such a task. First, it is an extremely fast adaptation algorithm, and thus well tailored to work for very short amounts of adaptation data. It is also believed to be rather more tolerant of errorful recognition. A third property is the explicit aim to reduce the dimensionality that translates into compact computation of the likelihood. This can be exploited as an embedded confidence measure to minimize the impact of errors in the transcription.\n",
+    "Our experiments were carried out on the Wall Street Journal evaluation task (WSJ). We reduced our word error rate (WER) by one percent absolute to 9.7%.\n",
+    ""
+   ]
+  },
+  "zhang01_adaptation": {
+   "authors": [
+    [
+     "Zhipeng",
+     "Zhang"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "MDL-based cluster number decision methods for speaker clustering and MLLR adaptation",
+   "original": "adap_041",
+   "page_count": 4,
+   "order": 7,
+   "p1": "41",
+   "pn": "44",
+   "abstract": [
+    "Speaker clustering is one of the major methods for speaker adaptation. MLLR (Maximum Likelihood Linear Regression) adaptation using transformation matrices corresponding to phone classes/clusters is another useful method especially when the length of utterances for adaptation is limited. In these methods, how to decide the most appropriate number of clusters is an important research issue. This paper proposes to use the MDL (Minimum Description Length) criterion to decide the optimum number of speaker clusters as well as phone clusters according to the size of utterances for clustering and adaptation. Experimental results of speaker clustering and MLLR-based speaker adaptation show that the MDL criterion derives the optimum number of clusters according to the size of utterances, which achieves the highest recognition performance.\n",
+    ""
+   ]
+  },
+  "gunawardana01_adaptation": {
+   "authors": [
+    [
+     "Asela",
+     "Gunawardana"
+    ],
+    [
+     "William",
+     "Byrne"
+    ]
+   ],
+   "title": "Convergence of DLLR rapid speaker adaptation algorithms",
+   "original": "adap_045",
+   "page_count": 4,
+   "order": 8,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "Discounted Likelihood Linear Regression (DLLR) is a speaker adaptation technique for cases where there is insufficient data for MLLR adaptation. Here, we provide an alternative derivation of DLLR by using a censored EM formulation which postulates additional adaptation data which is hidden. This derivation shows that DLLR, if allowed to converge, provides maximum likelihood solutions. Thus the robustness of DLLR to small amounts of data is obtained by slowing down the convergence of the algorithm and by allowing termination of the algorithm before overtraining occurs. We then show that discounting the observed adaptation data by postulating additional hidden data can also be extended to MAP estimation of MLLR-type adaptation transformations.\n",
+    ""
+   ]
+  },
+  "chen01_adaptation": {
+   "authors": [
+    [
+     "Kuan-Ting",
+     "Chen"
+    ],
+    [
+     "Hsin-Min",
+     "Wang"
+    ]
+   ],
+   "title": "Eigenspace-based linear transformation approachfor rapid speaker adaptation",
+   "original": "adap_049",
+   "page_count": 4,
+   "order": 9,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "This paper presents our recent effort on the development of the eigenspace-based linear transformation approach for rapid speaker adaptation. The proposed approach toward prior density selection for the MAPLR framework was developed by introducing a priori knowledge analysis on the training speakers via probabilistic principal component analysis (PPCA), so as to construct an eigenspace for speaker-specific full regression matrices as well as to derive a set of bases called eigen-transformations. The prior densities of MAPLR transformations for each outside speaker are then chosen in the space spanned by the first few eigen-transformations. By incorporating the PPCA model of transformation parameters into the MAPLR scheme, the number of free parameters can be significantly reduced, while the underlying structure of the acoustic space as well as the precise modeling of the inter-dimensional correlation among the model parameters can be well preserved. Rapid supervised adaptation experiments showed that the proposed approach not only is superior to the conventional MLLR approach using either diagonal or block-diagonal regression matrices, but also outperformed by a great amount the full-matrix MLLR with either a global transformation or multiple transformations corresponding to different phonetic classes.\n",
+    ""
+   ]
+  },
+  "heck01_adaptation": {
+   "authors": [
+    [
+     "Larry",
+     "Heck"
+    ],
+    [
+     "Nikki",
+     "Mirghafori"
+    ]
+   ],
+   "title": "On-line unsupervised adaptation in speaker verification:Confidence-based updates and improved parameter estimation",
+   "original": "adap_053",
+   "page_count": 4,
+   "order": 10,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "This paper presents the second part of a new approach to on-line unsupervised adaptation in speaker verification. The new approach extends previous work in the literature by (1) improving performance on the enrollment handset-type when adapting on a different handset-type (e.g., improving performance on cellular when adapting on a landline office phone), (2) accomplishing this cross channel improvement without increasing the size of the speaker model after adaptation, (3) employing a countbased, parameter-dependent smoothing algorithm that emphasizes the use of mean parameters in the speaker models until sufficient adaptation data are present to accurately estimate variances, and (4) developing a new confidence-based adaptation update weight which minimizes the corrupting effects on the speaker models from impostor attacks. Experimental results show a 61% (rel.) overall reduction in EER using the new on-line adaptation approach even with a significant impostor attack rate, and a 24% improvement in EER due to the new confidencebased adaptation scheme for those speaker models corrupted by impostor utterances.\n",
+    ""
+   ]
+  },
+  "uebel01_adaptation": {
+   "authors": [
+    [
+     "L. F.",
+     "Uebel"
+    ],
+    [
+     "Phil C.",
+     "Woodland"
+    ]
+   ],
+   "title": "Speaker Adaptation Using Lattice-Based MLLR",
+   "original": "adap_057",
+   "page_count": 4,
+   "order": 11,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "This paper presents lattice-based maximum likelihood linear regression (MLLR) for unsupervised adaptation. Lattice MLLR accumulates the statistics used in the MLLR transform estimation procedure using a forward-backward pass through a word-lattice of alternative hypotheses rather than assuming that the 1-best transcription is accurate as in standard unsupervised MLLR. This results in the ability to robustly estimate a larger number of transforms from the same amount of adaptation data. Lattice-based MLLR can therefore yield lower word error rates than standard unsupervised MLLR and it is compared experimentally to a version of MLLR using confidence scores. Recognition experiments show that lattice-based MLLR can reduce word error rates on Switchboard Minitrain task by 1.4% absolute and on NIST Hub5 1998 evaluation set by 1.0%.\n",
+    ""
+   ]
+  },
+  "uebel01b_adaptation": {
+   "authors": [
+    [
+     "L. F.",
+     "Uebel"
+    ],
+    [
+     "Phil C.",
+     "Woodland"
+    ]
+   ],
+   "title": "Discriminative linear transforms for speaker adaptation",
+   "original": "adap_061",
+   "page_count": 4,
+   "order": 12,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "Linear transform adaptation techniques such asMaximum Likelihood Linear Regression (MLLR) are a popular and effective family of methods for speaker adaptation. MLLR estimates transform parameters for Gaussian means and variances using a maximum likelihood (ML) objective function. This paper discusses the use of an alternative discriminative objective function for linear transform estimation, which is an interpolation of the maximum mutual information (MMI) objective function and the ML criterion. This Discriminative Linear Transform (DLT) more directly reduces the word error rate of the adaptation data than MLLR and assuming good generalisation will also reduce test-set error rates. The implementation of DLT estimation is discussed and test-data recognition results compared to those from standard unconstrained MLLR (mean and variance adaptation) using the 1994 WSJ/NAB spoke 3 non-native adaptation task. The results show that relative reductions in word error rate between 7% and 19% can be obtained by using DLTs.\n",
+    ""
+   ]
+  },
+  "sagayama01_adaptation": {
+   "authors": [
+    [
+     "Shigeki",
+     "Sagayama"
+    ],
+    [
+     "Koichi",
+     "Shinoda"
+    ],
+    [
+     "Mitsuru",
+     "Nakai"
+    ],
+    [
+     "Hiroshi",
+     "Shimodaira"
+    ]
+   ],
+   "title": "Analytic Methods for acoustic model adaptation:A review",
+   "original": "adap_067",
+   "page_count": 10,
+   "order": 13,
+   "p1": "67",
+   "pn": "76",
+   "abstract": [
+    "This paper discusses analytic methods of acoustic model adaptation for automatic speech recognition and reviews other major methods. The main purpose of this paper is to demonstrate the potential of analytic approach for model adaptation. As an example of analytic methods, Jacobian Adaptation (JA) is intensively discussed and its potential of applicability to speech recognition problems is revealed. Vector Field Smoothing (VFS) is introduced as an extension of a special case of JA. Other method reviewed in this paper include Maximum A Posteriori (MAP) estimation, transformation-based approaches including Maximum Likelihood Linear Regression (MLLR), structural approaches, model selection including Eigenvoice, and feature compensation including Speaker Adaptive Training (SAT).\n",
+    ""
+   ]
+  },
+  "chien01_adaptation": {
+   "authors": [
+    [
+     "Jen-Tzung",
+     "Chien"
+    ]
+   ],
+   "title": "A Bayesian prediction approach to robust speech recognition andonline speaker adaptation",
+   "original": "adap_077",
+   "page_count": 4,
+   "order": 14,
+   "p1": "77",
+   "pn": "80",
+   "abstract": [
+    "Because the acoustic environments are uncertain and nonstationary, it is necessary to characterize the uncertainty of speech hidden Markov models (HMMs) for recognition and trace the uncertainty sequentially to match the nonstationary environments. In this study, we develop a new Bayesian predictive classification (BPC) framework for robust decision and online speaker adaptation. The BPC decision is established by modeling the uncertainties of HMM mean vector and precision matrix using a conjugate prior density. The framebased predictive distributions using multivariate t distributions and approximate Gaussian distributions are exploited. After recognition, the prior density is pooled with the likelihood of the current sentence to generate the reproducible prior density. The hyperparameters of prior density are accordingly adjusted to meet the newest environments and apply for the recognition of coming data. As a result, an efficient online unsupervised learning is developed for speech recognition without needing adaptation data. In the experiments, the proposed approach is significantly better than the conventional plug-in maximum a posteriori (MAP) decision.\n",
+    ""
+   ]
+  },
+  "cerisara01_adaptation": {
+   "authors": [
+    [
+     "Christophe",
+     "Cerisara"
+    ],
+    [
+     "Khalid",
+     "Daoudi"
+    ]
+   ],
+   "title": "Modeling dependency between regression classes in MLLR usingmultiscale autoregressive models",
+   "original": "adap_081",
+   "page_count": 4,
+   "order": 15,
+   "p1": "81",
+   "pn": "84",
+   "abstract": [
+    "Adapting acoustic models to a new environment is usually realized by considering model transformations that are estimated on the adaptation corpus. Since such a corpus usually contains very few data, the models' Gaussians are most often partitioned into a few regression classes, and all the Gaussians in the same class share the same transformation. It is further possible to increase the number of transformations by modeling the dependency between the regression classes. We present, in this paper, such a technique where dependency is modeled by multiscale autoregressive (MAR) processes. The power of the MAR framework resides in its ability to efficiently and optimally estimate the state vector at each node of the regression tree, based on sparse and noisy measurements at different resolutions. The method is evaluated on a french numbers recognition task where the test corpus has been recorded in a car at various speeds and noise levels. The proposed adaptation method is based on Maximum Likelihood Linear Regression.\n",
+    ""
+   ]
+  },
+  "couvreur01_adaptation": {
+   "authors": [
+    [
+     "Laurent",
+     "Couvreur"
+    ],
+    [
+     "S.",
+     "Dupont"
+    ],
+    [
+     "C.",
+     "Ris"
+    ],
+    [
+     "J.-M.",
+     "Boite"
+    ],
+    [
+     "Christophe",
+     "Couvreur"
+    ]
+   ],
+   "title": "Fast adaptation for robust speech recognition in reverberant environments",
+   "original": "adap_085",
+   "page_count": 4,
+   "order": 16,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "We present a fast method, i.e. requiring little data, for adapting a hybrid Hidden Markov Model / Multi Layer Perceptron speech recognizer to reverberant environments. Adaptation is performed by a linear transformation of the acoustic feature space. A dimensionality reduction technique similar to the eigenvoice approach is also investigated. A pool of adaptation transformations are estimated a priori for various reverberant environments. Then, the principal directions of the pool are extracted, the so-called eigenrooms. The adaptation transformation for every new reverberant environment is constrained to lay on the subspace spanned by the most significant eigenrooms. Consequently, the adaptation procedure involves estimating only the projection coefficients on the selected eigenrooms, which requires less data than direct estimation of the adaptation transformation. Supervised adaptation experiments for recognition of connected digit sequences (AURORA database) in reverberant environments are carried out. Standard adaptation demonstrates improvements in word error rate higher than 30% for typical reverberation levels. The eigenroom-based adaptation technique implemented so far allows at most 50% reduction of adaptation data for the same improvement.\n",
+    ""
+   ]
+  },
+  "glotin01_adaptation": {
+   "authors": [
+    [
+     "Hervé",
+     "Glotin"
+    ]
+   ],
+   "title": "Dominant speaker detection based on voicing for adaptive audio-visual ASRrobust to speech noise",
+   "original": "adap_089",
+   "page_count": 4,
+   "order": 17,
+   "p1": "89",
+   "pn": "92",
+   "abstract": [
+    "We investigate the use of voicing in state-of-the-art Large Vocabulary Continuous Audio-visual automatic Speech Recognition (AV-LVCSR). In this work we apply an original adaptive weighting function using voicing level to estimate the appropriate combination weights for each of the modalities. We show that we can improve the state-of-the-art AV-LVCSR performance under speech noise by using a detector of the dominant speaker which is a function of the voicing level. We re- fine the weighting function according to sensibility and speci- ficity of the dominant speaker detector. In this first experiment, weighting functions are threshold functions of the voicing level. Rather than testing all possible thresholds, three of them are arbitrarily chosen so that the sensitivity, or specificity of the detector, reaches 95%, or so that sensitivity and specificity are equal. Results show that the AV-LVCSR system we use is improved by 5.7% using a weighing function with high sensibility to dominant speaker activity.\n",
+    ""
+   ]
+  },
+  "rigazio01_adaptation": {
+   "authors": [
+    [
+     "Luca",
+     "Rigazio"
+    ],
+    [
+     "David",
+     "Kryze"
+    ],
+    [
+     "Patrick",
+     "Nguyen"
+    ],
+    [
+     "Jean-Claude",
+     "Junqua"
+    ]
+   ],
+   "title": "Joint environment and speaker adaptation",
+   "original": "adap_093",
+   "page_count": 4,
+   "order": 18,
+   "p1": "93",
+   "pn": "96",
+   "abstract": [
+    "In this paper we address the problem of speaker adaptation in noisy environments. We aim at estimating speaker adapted models from noisy data by combining unsupervised speaker adaptation with model-based noise compensation. Speaker adapted models obtained with this method should contain as little information about the environment as possible, so that they can be reused in different environments. We propose a method based on linear approximations of the cepstral operator that allows for the computation of environment independent speaker adapted models from environment dependent models. The method is used in conjunction with MLLR speaker adaptation and jacobian model compensation. Results for a 2000 word task on real car noise show that unsupervised speaker adaptation combined with noise compensation provides an error rate reduction of 20% to 30% compared to noise compensation alone.\n",
+    ""
+   ]
+  },
+  "siohan01_adaptation": {
+   "authors": [
+    [
+     "Olivier",
+     "Siohan"
+    ],
+    [
+     "Arun C.",
+     "Surendran"
+    ]
+   ],
+   "title": "Structural Bayesian predictive adaptation of Hidden Markov Models",
+   "original": "adap_097",
+   "page_count": 4,
+   "order": 19,
+   "p1": "97",
+   "pn": "100",
+   "abstract": [
+    "Typical transformation-based model adaptation techniques (e.g. MLLR) in speech recognition systems rely on deriving point estimates of some fixed but unknown parameters (e.g. transformation matrices). These techniques face shortcomings in terms of accuracy and flexibility of modeling the mismatch, accuracy in estimating the parameters, and in efficiency of data usage. In this paper we present a unified framework to address these problems. Bayesian predictive (BP) techniques have been recently introduced which address the problems of accuracy and flexibility by explicitly taking into account uncertainties associated with the parameters to be estimated. This is done via the use of predictive densities in the decision rule. As any Bayesian technique, BP adaptation requires accurate specification of the prior densities. This paper describes how an accurate and efficient estimation of priors densities can be carried out for large vocabulary applications which typically involve a large number of prior densities. The proposed approach is evaluated on a non-native speaker adaptation task using the WSJ Spoke3 corpus.\n",
+    ""
+   ]
+  },
+  "kommer01_adaptation": {
+   "authors": [
+    [
+     "Robert van",
+     "Kommer"
+    ],
+    [
+     "Beat",
+     "Hirsbrunner"
+    ]
+   ],
+   "title": "Word model adaptation in voice-activated teleservices",
+   "original": "adap_101",
+   "page_count": 4,
+   "order": 20,
+   "p1": "101",
+   "pn": "104",
+   "abstract": [
+    "In voice-activated teleservices, two types of speech recognition systems are commonly used, (tri)phone-based and wholeword model recognizers. While the first type of systems exhibits a convenient implementation to recognize any new vocabulary word, the second achieves a higher performance level when the necessary and specific training data is available. In order to bridge the performance gap between these two systems, this paper describes a new adaptation method based on a two-tier speech model. More specifically, the first tier of the model architecture performs the phone-based recognition, while the second tier implements the adaptation to the whole-word models. Experimental results for connected word recognition are presented in two different cases, (i) for a hybrid NN/HMM recognition system, and (ii) for the new two-tier hybrid system that is implemented through a Multirate Neural Network (MNN) front-end. According to the results obtained within the described experimental settings, the adaptation method reduces the error rate by more than 80%. Furthermore, the new system is an example of modular spatiotemporal modeling of speech.\n",
+    ""
+   ]
+  },
+  "torre01_adaptation": {
+   "authors": [
+    [
+     "Angel de la",
+     "Torre"
+    ],
+    [
+     "Dominique",
+     "Fohr"
+    ],
+    [
+     "Jean Paul",
+     "Haton"
+    ]
+   ],
+   "title": "On the comparison of front-ends for robust speech recognitionin car environments",
+   "original": "adap_105",
+   "page_count": 4,
+   "order": 21,
+   "p1": "105",
+   "pn": "108",
+   "abstract": [
+    "In this paper we compare several front-ends for Automatic Speech Recognition systems operating under noise conditions. The analyzed front-ends are based on standard MFCC parameterizations and include methods to compensate the effect of the noise over the representation of the speech signal. Three different compensation methods are considered in this work: Cepstral Mean Normalization, Spectral Subtraction and a novel method that we propose, based on a Statistical Compensation of the noise in the logarithmic Filter Bank Output domain.\n",
+    "The considered front-ends are evaluated with Automatic Speech Recognition experiments using speech acquired in car environments. Making use of the French VODIS speech database (recorded in several cars running in real traffic situations) we have carried out recognition experiments to compare the different front-ends. The results show that the front-end including the Statistical Compensation of the noise outperforms the other considered methods.\n",
+    ""
+   ]
+  },
+  "bouwman01_adaptation": {
+   "authors": [
+    [
+     "Gies",
+     "Bouwman"
+    ],
+    [
+     "Louis",
+     "Boves"
+    ]
+   ],
+   "title": "Using discriminative principles for recognising city names",
+   "original": "adap_109",
+   "page_count": 4,
+   "order": 22,
+   "p1": "109",
+   "pn": "112",
+   "abstract": [
+    "In this paper we address the problem of mismatch in train and test conditions. Counter intuitive as it may seem, we do this by employing a particular element from the well-known training paradigm of Minimum Classification Error training. Rather than recognising a sentence according to maximum likelihood, we examine a number of likelihood ratio-based word score techniques in order to rescore and resort N-best lists.\n",
+    "Experiments for a Dutch city name recognition task did not lead to improved recognition performance. Analysing the results however, we see a number of promising handles for more succesful attempts in the future. We find cues that the information modelled in antimodels is not only useful for keyword spotting and confidence measure assessment, but may be valuable for decoding as well.\n",
+    ""
+   ]
+  },
+  "srinivasamurthy01_adaptation": {
+   "authors": [
+    [
+     "Naveen",
+     "Srinivasamurthy"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ],
+    [
+     "Antonio",
+     "Ortega"
+    ]
+   ],
+   "title": "Use of model transformations for distributed speech recognition",
+   "original": "adap_113",
+   "page_count": 4,
+   "order": 23,
+   "p1": "113",
+   "pn": "116",
+   "abstract": [
+    "Due to bandwidth limitations, the speech recognizer in distributed speech recognition (DSR) applications has to use encoded speech  either traditional speech encoding or speech encoding optimized for recognition. The penalty incurred in reducing the bitrate is degradation in speech recognition performance. The diversity of the applications using DSR implies that a variety of speech encoders can be used to compress speech. By treating the encoder variability as a mismatch we propose using model transformation to reduce the speech recognition performance degradation. The advantage of using model transformation is that only a single model set needs to be trained at the server, which can be adapted on the fly to the input speech data. We were able to reduce the word error rate by 61.9 %, 63.3 % and 56.3 % for MELP, GSM and MFCC-encoded data, respectively, by using MAP adaptation, which shows the generality of our proposed scheme.\n",
+    ""
+   ]
+  },
+  "sagayama01b_adaptation": {
+   "authors": [
+    [
+     "Shigeki",
+     "Sagayama"
+    ],
+    [
+     "Yutaka",
+     "Kato"
+    ],
+    [
+     "Mitsuru",
+     "Nakai"
+    ],
+    [
+     "Hiroshi",
+     "Shimodaira"
+    ]
+   ],
+   "title": "Jacobian approach to joint adaptation tonoise, channel and vocal tract length",
+   "original": "adap_117",
+   "page_count": 4,
+   "order": 24,
+   "p1": "117",
+   "pn": "120",
+   "abstract": [
+    "This paper describes the Jacobian approach to simultaneously adapting acoustic models to unknown noise, channel and vocal tract length from a supervised adaptation data. As has been both theoretically and experimentally shown, Jacobian adaptation is one of most efficient methods for model adaptation if the target condition is close to the initial condition. It utilizes the linear relationship in the neighbor of the initial condition which in turn can be used in decomposition of multiple factors. The analytic relationship between noise, channel, vocal tract length and the observed cepstrum is linearized using the Jacobian matrices. Least squares fit gives the estimates of noise, channel and vocal tract stretch parameters. Experimental evaluation gave a significant improvement to the recognition accuracy.\n",
+    ""
+   ]
+  },
+  "strik01_adaptation": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Pronunciation adaptation at the lexical level",
+   "original": "adap_123",
+   "page_count": 8,
+   "order": 25,
+   "p1": "123",
+   "pn": "130",
+   "abstract": [
+    "There are various kinds of adaptation which can be used to enhance the performance of automatic speech recognizers. This paper is about pronunciation adaptation at the lexical level, i.e. about modeling pronunciation variation at the lexical level. In the early years of automatic speech recognition (ASR) research, the amount of pronunciation variation was limited by using isolated words. Since the focus gradually shifted from isolated words to conversational speech, the amount of pronunciation variation present in the speech signals has increased, as has the need to model it. This is reflected by the growing attention for this topic. In this paper, an overview of the studies on lexicon adaptation is presented. Furthermore, many examples are mentioned of situations in which lexicon adaptation is likely to improve the performance of speech recognizers. Finally, it is argued that some assumptions made in current standard ASR systems are not in line with the properties of the speech signals. Consequently, the problem of pronunciation variation at the lexical level probably cannot be solved by simply adding new transcriptions to the lexicon, as it is generally done at the moment.\n",
+    ""
+   ]
+  },
+  "tian01_adaptation": {
+   "authors": [
+    [
+     "Jilei",
+     "Tian"
+    ],
+    [
+     "Imre",
+     "Kiss"
+    ],
+    [
+     "Olli",
+     "Viikki"
+    ]
+   ],
+   "title": "Pronunciation and acoustic model adaptation forimproving multilingual speech recognition",
+   "original": "adap_131",
+   "page_count": 4,
+   "order": 26,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "In this paper, we address the importance of pronunciation and acoustic model adaptation in multilingual speech recognition. When aiming at modeling several languages simultaneously, the degree of speaker and language variability is even greater than when concentrating on only one language. To compensate the pronunciation variability across various speaker, bi-lingual pronunciation modeling is proposed. Once the appropriate pronunciation has been found, the unused transcription is removed in order to prevent the expansion of the vocabulary size. To further compensate the mismatches between the multilingual acoustic models and the speaker's pronunciation, MAP on-line acoustic model adaptation is applied. Experimental results with 12 languages indicate the efficiency of the joint use of these techniques. Compared with the non-adapted multilingual system, the bi-lingual pronunciation modeling and on-line acoustic model adaptation produced the average cross-language error rate reduction of 67.6% in the clean, and 55.4% in the noisy operating conditions.\n",
+    ""
+   ]
+  },
+  "baum01_adaptation": {
+   "authors": [
+    [
+     "Micha",
+     "Baum"
+    ],
+    [
+     "Rudolf",
+     "Muhr"
+    ],
+    [
+     "Gernot",
+     "Kubin"
+    ]
+   ],
+   "title": "A Phonetic lexicon for adaptation in ASR for Austrian German",
+   "original": "adap_135",
+   "page_count": 4,
+   "order": 27,
+   "p1": "135",
+   "pn": "138",
+   "abstract": [
+    "We present a phonetic lexicon for Austrian German, which was generated automatically from the canonic version of a German pronunciation dictionary. The lexicon is based on narrow transcription in Sam-Pa. Both the speech files and the canonic dictionary are taken from the SpeechDat-AT database. Since the recorded items are mainly read speech the differences between the canonic form and the real pronunciations do not reflect local dialects but are rather influenced from a regional or national standard. There are differences partly due to the extension of the phoneme set, partly due to coexistence of multiple variants.\n",
+    ""
+   ]
+  },
+  "delphinpoulat01_adaptation": {
+   "authors": [
+    [
+     "Lionel",
+     "Delphin-Poulat"
+    ]
+   ],
+   "title": "Comparison of techniques for environment/applicationadaptation in a telephony context",
+   "original": "adap_139",
+   "page_count": 4,
+   "order": 28,
+   "p1": "139",
+   "pn": "142",
+   "abstract": [
+    "Model adaptation is a key point to have reliable speech recognizers for practical applications. In this article, we recall the main adaptation techniques: Maximum a Posteriori and MLLR Adaptation. We emphasize the sources of knowledge they use and show how to take them into account; for MLLR a data-driven clustering procedure is presented: a Gaussian tree is built at training time; based on this tree and adaptation data, the clusters for adaptation are chosen. We report experiments on field data that show the efficiency of adaptation techniques both in supervised and unsupervised mode in practical telephony applications.\n",
+    ""
+   ]
+  },
+  "goronzy01_adaptation": {
+   "authors": [
+    [
+     "Silke",
+     "Goronzy"
+    ],
+    [
+     "Ralf",
+     "Kompe"
+    ],
+    [
+     "Stefan",
+     "Rapp"
+    ]
+   ],
+   "title": "Generating non-native pronunciation variants for lexicon adaptation",
+   "original": "adap_143",
+   "page_count": 4,
+   "order": 29,
+   "p1": "143",
+   "pn": "146",
+   "abstract": [
+    "Traditional approaches to model pronunciation variations either require expert knowledge or extensive speech databases. In the cases where non-native speech is considered they are too costly, especially if a flexible modelling of various accents is desired. We propose to exclusively use native speech databases to derive non-native pronunciation variants. We use a phoneme recognizer to generate English pronunciations for German words and use these to train decision trees that are able to predict the respective English-accented variant from the German canonical transcription. In first experiments we achieved promising results using the enhanced dictionary for decoding accented-data.\n",
+    ""
+   ]
+  },
+  "illina01_adaptation": {
+   "authors": [
+    [
+     "Irina",
+     "Illina"
+    ],
+    [
+     "Djamel",
+     "Mostefa"
+    ]
+   ],
+   "title": "Structural maximum a posteriori adaptation for mixture stochastictrajectory framework",
+   "original": "adap_147",
+   "page_count": 4,
+   "order": 30,
+   "p1": "147",
+   "pn": "150",
+   "abstract": [
+    "In this paper we address the problem of the adaptation of a speech recognition system to a new environment. The aim of adaptation is to compensate the mismatch between training and testing conditions without retraining completely the recognition system. The questions are what has to be compensated and how? We propose to compensate the means and variances of the Gaussian pdfs, representing the acoustic models, using the linear transformations and ML and MAP estimations. To better take into account the variability of the adaptation data, the pdfs of models are organised in a tree. This tree structure is used also for the definition of prior densities of transformations. The approach is called Structural Maximum a Posteriori adaptation (SMAP). SMAP is developed for a segment-based model, the Mixture Stochastic Trajectory Model (MSTM). Experimental results on RM task for supervised speaker adaptation show that SMAP significantly outperforms the MLLR adaptation for the same amount of adaptation data and the same number of transformation parameters.\n",
+    ""
+   ]
+  },
+  "cremelie01_adaptation": {
+   "authors": [
+    [
+     "Nick",
+     "Cremelie"
+    ],
+    [
+     "Louis ten",
+     "Bosch"
+    ]
+   ],
+   "title": "Improving the recognition of foreign names and non-nativespeech by combining multiple grapheme-to-phoneme converters",
+   "original": "adap_151",
+   "page_count": 4,
+   "order": 31,
+   "p1": "151",
+   "pn": "154",
+   "abstract": [
+    "Tasks involving the recognition of native as well as foreign names and being accessed by native as well as non-native speakers are not handled very well by a baseline ASR system with single language acoustical models and one transcription per word in its lexicon. One possible solution is lexical adaptation: alternative transcriptions allowing for a closer match with actual pronunciations from the speakers, are added to the lexicon. In this paper it is shown how transcriptions created by foreign language grapheme-tophoneme converters can be integrated adequately in the recognizer and serve the objected purpose. The experiments reported here show that this approach can effectively deal with foreign names and non-native speakers, as WER reductions of almost 60% relative are attained.\n",
+    ""
+   ]
+  },
+  "trouvain01_adaptation": {
+   "authors": [
+    [
+     "Jürgen",
+     "Trouvain"
+    ],
+    [
+     "Jacques",
+     "Koreman"
+    ],
+    [
+     "Attilio",
+     "Erriquez"
+    ],
+    [
+     "Bettina",
+     "Braun"
+    ]
+   ],
+   "title": "Articulation rate measures and their relation tophone classification in spontaneous and read German speech",
+   "original": "adap_155",
+   "page_count": 4,
+   "order": 32,
+   "p1": "155",
+   "pn": "158",
+   "abstract": [
+    "This paper evaluates articulation rate measures and rate characteristics of read and spontaneous speech on the basis of a manually labelled database for German. The results of phone classification experiments for three different articulation rates only partially confirm our expectations. Phonetic explanations are suggested.\n",
+    ""
+   ]
+  },
+  "wolff01_adaptation": {
+   "authors": [
+    [
+     "Matthias",
+     "Wolff"
+    ],
+    [
+     "Matthias",
+     "Eichner"
+    ],
+    [
+     "Rüdiger",
+     "Hoffmann"
+    ]
+   ],
+   "title": "Automatic learning and optimization of pronunciationdictionaries",
+   "original": "adap_159",
+   "page_count": 4,
+   "order": 33,
+   "p1": "159",
+   "pn": "162",
+   "abstract": [
+    "Pronunciation dictionaries are the interface between orthographic and phonetic representation of the speech signal and are thereby a substantial component of speech recognition systems. In many systems simple canonical pronunciation forms are used within the dictionary. They represent the \"correct\" pronunciation as they are found in lexicons and neither contain the most frequent pronunciation nor pronunciation variations. Often canonical dictionaries are manually extended by pronunciation variants to improve the performance of the dictionary. This is a time consuming process that depends on the skill and expert knowledge of the scientist. Another popular approach utilizes rules for the generation of pronunciation variants. Unless the rule set contains a large quantity of specialized rules with a very long context, the major disadvantage of this approach lies in its tendency to overgeneralize. Also rule sets often do not provide information on the probability of usage of the rules. A third frequent approach is the data-driven generation of rules sets or pronunciation models. These methods try to eliminate manual work (and human errors) and allow a scalable degree of generalization as well as the estimation of rule application or variant probabilities.\n",
+    "In this paper we introduce a method for automatic training of pronunciation dictionaries from a speech database. We will give a overview of our training procedure and discuss experimental results.\n",
+    ""
+   ]
+  },
+  "bellegarda01_adaptation": {
+   "authors": [
+    [
+     "Jerome R.",
+     "Bellegarda"
+    ]
+   ],
+   "title": "An overview of statistical language model adaptation",
+   "original": "adap_165",
+   "page_count": 10,
+   "order": 34,
+   "p1": "165",
+   "pn": "174",
+   "abstract": [
+    "Speech recognition performance is severely affected when the lexical, syntactic, or semantic characteristics of the discourse in the training and recognition tasks differ. The aim of language model adaptation is to exploit specific, albeit limited, knowledge about the recognition task to compensate for this mismatch. More generally, an adaptive language model seeks to maintain an adequate representation of the current task domain under changing conditions involving potential variations in vocabulary, syntax, content, and style. This paper presents an overview of the major approaches proposed to address this issue, and offers some perspectives regarding their comparative merits and associated trade-offs.\n",
+    ""
+   ]
+  },
+  "andorno01_adaptation": {
+   "authors": [
+    [
+     "M.",
+     "Andorno"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ],
+    [
+     "C.",
+     "Popovici"
+    ],
+    [
+     "L.",
+     "Fissore"
+    ],
+    [
+     "C.",
+     "Vair"
+    ]
+   ],
+   "title": "Toward automatic adaptation of the acoustic models and ofthe formulation variants in a directory assistance application",
+   "original": "adap_175",
+   "page_count": 4,
+   "order": 35,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "The framework of this work is an already operational voice activated Directory Assistance (DA) service that allows a large amount of data from the field to be collected. Our goal is to improve its performance by adapting the acoustic models and the formulation variants of the system to the field.\n",
+    "For model adaptation, we propose to dynamically generate - without supervision - additional Hidden Markov Models tailored to the application environment and vocabulary. We report results showing significant improvements obtained in the recognition of the city names.\n",
+    "A relevant problem in DA for business listings is that customers formulate their requests for the same listing with a great variability. We show that an unsupervised approach allows to detect user formulations that were not foreseen by the designers, and that can be added, as variants, to the denominations already included in the system to reduce its failures.\n",
+    ""
+   ]
+  },
+  "vaufreydaz01_adaptation": {
+   "authors": [
+    [
+     "D.",
+     "Vaufreydaz"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "C.",
+     "Bergamini"
+    ],
+    [
+     "R.",
+     "Lamy"
+    ]
+   ],
+   "title": "From generic to task-oriented speech recognition:French experience in the NESPOLE! European project",
+   "original": "adap_179",
+   "page_count": 4,
+   "order": 36,
+   "p1": "179",
+   "pn": "182",
+   "abstract": [
+    "This paper presents CLIPS laboratory activities in speech recognition related to language model adaptation and acoustic model adaptation in the NESPOLE! European project. ASR system needed to be adapted in two ways. The language model had to deal with task specific vocabulary and the acoustic model had to be robust to VoIP (Voice over IP) speech.\n",
+    "It was shown that Internet, as a very large source of text, can be a very interesting database for spoken language modelling adaptation. The influence of different VoIP codecs on the performance of our speech recognition engine was investigated and a new strategy was proposed to cope with degradation due to low bitrate coding. The acoustic models of the speech recognition system were trained with transcoded speech. Results have shown that this strategy allows to recover acceptable performance for the NESPOLE! project context.\n",
+    ""
+   ]
+  },
+  "giuliani01_adaptation": {
+   "authors": [
+    [
+     "Diego",
+     "Giuliani"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Unsupervised language and acoustic model adaptationfor cross domain portability",
+   "original": "adap_183",
+   "page_count": 4,
+   "order": 37,
+   "p1": "183",
+   "pn": "186",
+   "abstract": [
+    "This work investigates the task of porting a broadcast news recognition system to a conversational speech domain, for which only untranscribed acoustic data are available. An iterative adaptation procedure is proposed that alternatively generates automatic speech transcriptions and performs acoustic and language model adaptation. The procedure was applied on a tourist-information conversational domain, for which 8 hours of audio data were available for development and 2 hours for testing. On the test set, the broadcast news system yields a word-error-rate of 51.0% while a task specific system achieves a word-error-rate of 21.2%. Unsupervised porting experiments allowed to reduce the gap between the two reference systems by 61%.\n",
+    ""
+   ]
+  },
+  "bertoldi01_adaptation": {
+   "authors": [
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Lexicon adaptation for broadcast news transcription",
+   "original": "adap_187",
+   "page_count": 4,
+   "order": 38,
+   "p1": "187",
+   "pn": "190",
+   "abstract": [
+    "This paper presents a technique for dynamically extending the language model lexicon of an Italian broadcast news transcription system. New words are selected dayby- day, from contemporary news available on the Internet, according to a strategy that tries to minimize the out-of-vocabulary rate of the language model. Phonetic transcriptions of new words are generated automatically with an in-house developed software tool. Experiments, performed with the ITC-irst 62K-word baseline system, show that using approximate phonetic transcriptions for less frequent words does not impact on recognition performance. Lexicon extension up to 122K words were evaluated on 19 news programs, spanning over one month, for a total of 6 hours of speech. The best lexicon extension strategy permitted to reduce the out-ofvocabulary rate by 61.8%, from 1.57% to 0.60%, and the word error rate by 2.16%, from 25.03% to 24.49%.\n",
+    ""
+   ]
+  },
+  "bellegarda01b_adaptation": {
+   "authors": [
+    [
+     "Jerome R.",
+     "Bellegarda"
+    ]
+   ],
+   "title": "A new approach to the adaptation of latent semantic information",
+   "original": "adap_191",
+   "page_count": 4,
+   "order": 39,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "Latent semantic analysis suffers from a relatively high sensitivity to both task domain and composition style. Because the traditional \"folding-in\" process simply populates the existing semantic vector space with current data, performance degrades when training and operating conditions differ. On the other hand, recomputing the semantic space from scratch typically precludes real-time operation. An adaptation strategy therefore makes sense as a potential compromise. This paper investigates the use of a linear transformation to suitably update the semantic space as new data becomes available. This transformation takes into account the compound effects of adding both new words and new documents. Experiments with different increment sizes are conducted, and the paper discusses the comparative merits of this approach under several scenarios.\n",
+    ""
+   ]
+  },
+  "chen01b_adaptation": {
+   "authors": [
+    [
+     "Langzhou",
+     "Chen"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Gilles",
+     "Adda"
+    ],
+    [
+     "Martine",
+     "Adda-Decker"
+    ]
+   ],
+   "title": "Language model adaptation for broadcastnews transcription",
+   "original": "adap_195",
+   "page_count": 4,
+   "order": 40,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "This paper reports on languagemodel adaptation for the broadcast news transcription task. Language model adaptation for this task is challenging in that the subject of any particular show or portion thereof is unknown in advance and is often related to more than one topic. One of the problems in language model adaptation is the extraction of reliable topic information from the audio signal, particularly in the presence of recognition errors. In this work, we draw upon techniques used in information retrieval to extract topic information from the word recognizer hypotheses, which are then used to automatically select adaptation data from a large general text corpus. Two adaptive language models, a mixture-based model and a MAP-based model, have been investigated using the adaptation data. Experiments carried out with the LIMSI Mandarin broadcast news transcription systemgives a relative character error rate reduction of 4.3% by combining both adaptation methods.\n",
+    ""
+   ]
+  },
+  "lefevre01_adaptation": {
+   "authors": [
+    [
+     "Fabrice",
+     "Lefevre"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ]
+   ],
+   "title": "Genericity and adaptability issuesfor task-independent speech recognition",
+   "original": "adap_199",
+   "page_count": 4,
+   "order": 41,
+   "p1": "199",
+   "pn": "202",
+   "abstract": [
+    "The last decade has witnessed major advances in core speech recognition technology, with todays systems able to recognize continuous speech from many speakerswithout the need for an explicit enrollment procedure. Despite these improvements, speech recognition is far from being a solved problem. Most recognition systems are tuned to a particular task and porting the system to another task or language is both time-consuming and expensive.\n",
+    "Our recent work addresses issues in speech recognizer portability, with the goal of developing generic core speech recognition technology. In this paper, we first assess the genericity of wide domain models by evaluating performance on several tasks. Then, transparent methods are used to adapt generic acoustic and languagemodels to a specific task. Unsupervised acousticmodels adaptation is contrasted with supervised adaptation, and a systemin- loop scheme for incremental unsupervisedacoustic and linguistic models adaptation is investigated. Experiments on a spontaneous dialog task show that with the proposed scheme, a transparently adapted generic system can perform nearly as well (about a 1% absolute gap in word error rates) as a task-specific system trained on several tens of hours of manually transcribed data.\n",
+    ""
+   ]
+  },
+  "whittaker01_adaptation": {
+   "authors": [
+    [
+     "E. W. D.",
+     "Whittaker"
+    ]
+   ],
+   "title": "Temporal adaptation of language models",
+   "original": "adap_203",
+   "page_count": 4,
+   "order": 42,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "In this paper, the implications of recognising speech from news broadcasts that change on a daily basis are investigated from the perspective of audio indexing. First, vocabulary coverage is found to be of great importance. In daily newspapers and daily news broadcasts it is observed that half the total number of unique words that occur over time are used on only one day and are never used again. The extent to which vocabularies can be adapted is examined and it is found that it is difficult to obtain substantially increased vocabulary coverage using external sources of time-dependent data. The second implication of time-varying data is the ability to effectively adapt the language model used in the speech recogniser so as best to match the speech that is being recognised. Language model adaptation using different methods of combining external sources of time and domain dependent data are investigated using both fixed and adapted vocabularies. It is found that the improvements obtained recognising ten consecutive shows of the radio programme Marketplace do not generally justify the effort involved in adapting the language models especially if the baseline language model is well trained.\n",
+    ""
+   ]
+  },
+  "bechet01_adaptation": {
+   "authors": [
+    [
+     "Frédéric",
+     "Bechet"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ],
+    [
+     "Renato",
+     "de Mori"
+    ]
+   ],
+   "title": "Tree-based language model dedicated to natural spoken dialog systems",
+   "original": "adap_207",
+   "page_count": 4,
+   "order": 43,
+   "p1": "207",
+   "pn": "210",
+   "abstract": [
+    "Within the framework of Natural Spoken Dialog systems1, we propose in this paper a method which automatically builds, from a training corpus, a set of Language Models (LMs) organized as a binary tree and called a Tree-based LM (TLM). Each LM corresponds to a specific dialogue situation, where the general LM is attached to the root node and the leaves represent the more specialized ones. Such LMs can be used to automatically adapt the decoding process to the dialog situation. We propose a two-pass decoding strategy, which implements this idea: a LM is dynamically selected from the TLM according to a list of Nbest hypotheses produced by a first decoding process, then this LM is used to perform a rescoring process on the word graph previously calculated.\n",
+    ""
+   ]
+  },
+  "sepesymaucec01_adaptation": {
+   "authors": [
+    [
+     "Mirjam",
+     "Sepesy Maucec"
+    ],
+    [
+     "Zdravko",
+     "Kacic"
+    ],
+    [
+     "Bogomir",
+     "Horvat"
+    ]
+   ],
+   "title": "A framework for language model adaptation for highly-inflected Slovenian",
+   "original": "adap_211",
+   "page_count": 4,
+   "order": 44,
+   "p1": "211",
+   "pn": "214",
+   "abstract": [
+    "This paper describes a new framework to construct topicadapted language models for large vocabulary speech recognition of highly-inflected Slovenian language. Two important difficulties of high inflectionality in Slovenian language are discussed, out-of-vocabulary rate and feature extraction for topic detection. To use the most popular language models (N-grams) and the well-known classifiers (TFIDF, naive Bayes) effectively, we define different basic units at different stages of language model construction. Basic language models use smaller lexical units. Words are decomposed into stems and endings. In contrast, classifiers require larger units, having semantic information. Words with the same meaning, but different grammatical form, are mapped into a set of equivalence classes. The proposed techniques for basic units selection are language independent. They can be applied to other languages, where words are formed by many different inflectional affixatation. Experimental results of adaptation obtained on the corpus of documents of the second largest Slovenian newspaper Ve¡cer show the additional 5% improvement in perplexity over basic morphological models.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Lecture: Speaker Adaptation",
+   "papers": [
+    "woodland01_adaptation"
+   ]
+  },
+  {
+   "title": "Speaker Adaptation",
+   "papers": [
+    "kenny01_adaptation",
+    "kim01_adaptation",
+    "ouellet01_adaptation",
+    "kuhn01_adaptation",
+    "nguyen01_adaptation",
+    "zhang01_adaptation",
+    "gunawardana01_adaptation",
+    "chen01_adaptation",
+    "heck01_adaptation",
+    "uebel01_adaptation",
+    "uebel01b_adaptation"
+   ]
+  },
+  {
+   "title": "Invited Lecture: Adaptation of Models and to Environment",
+   "papers": [
+    "sagayama01_adaptation"
+   ]
+  },
+  {
+   "title": "Adaptation of Models and to Environment",
+   "papers": [
+    "chien01_adaptation",
+    "cerisara01_adaptation",
+    "couvreur01_adaptation",
+    "glotin01_adaptation",
+    "rigazio01_adaptation",
+    "siohan01_adaptation",
+    "kommer01_adaptation",
+    "torre01_adaptation",
+    "bouwman01_adaptation",
+    "srinivasamurthy01_adaptation",
+    "sagayama01b_adaptation"
+   ]
+  },
+  {
+   "title": "Invited Lecture: Lexicon Adaptation",
+   "papers": [
+    "strik01_adaptation"
+   ]
+  },
+  {
+   "title": "Lexicon Adaptation",
+   "papers": [
+    "tian01_adaptation",
+    "baum01_adaptation",
+    "delphinpoulat01_adaptation",
+    "goronzy01_adaptation",
+    "illina01_adaptation",
+    "cremelie01_adaptation",
+    "trouvain01_adaptation",
+    "wolff01_adaptation"
+   ]
+  },
+  {
+   "title": "Invited Lecture: Language and Task Adaptation",
+   "papers": [
+    "bellegarda01_adaptation"
+   ]
+  },
+  {
+   "title": "Language and Task Adaptation",
+   "papers": [
+    "andorno01_adaptation",
+    "vaufreydaz01_adaptation",
+    "giuliani01_adaptation",
+    "bertoldi01_adaptation",
+    "bellegarda01b_adaptation",
+    "chen01b_adaptation",
+    "lefevre01_adaptation",
+    "whittaker01_adaptation",
+    "bechet01_adaptation",
+    "sepesymaucec01_adaptation"
+   ]
+  }
+ ]
+}

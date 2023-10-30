@@ -1,0 +1,1380 @@
+{
+ "title": "12th ISCA Speech Synthesis Workshop (SSW2023)",
+ "location": "Grenoble, France",
+ "startDate": "26/08/2023",
+ "endDate": "28/08/2023",
+ "URL": "https://ssw2023.org/",
+ "chair": "Chair: Gérard Bailly; co-organizers; Thomas Hueber, Damien Lolive, Nicolas Obin and Olivier Perrotin",
+ "conf": "SSW",
+ "year": "2023",
+ "name": "ssw_2023",
+ "series": "SSW",
+ "SIG": "SynSIG",
+ "title1": "12th ISCA Speech Synthesis Workshop",
+ "title2": "(SSW2023)",
+ "booklet": "ssw_2023.pdf",
+ "date": "26-28 August 2023",
+ "papers": {
+  "shiralishahreza23_ssw": {
+   "authors": [
+    [
+     "Sajad",
+     "Shirali-Shahreza"
+    ],
+    [
+     "Gerald",
+     "Penn"
+    ]
+   ],
+   "title": "Better Replacement for TTS Naturalness Evaluation",
+   "original": "SSW2023_paper48",
+   "page_count": 7,
+   "order": 31,
+   "p1": 197,
+   "pn": 203,
+   "abstract": [
+    "Text-To-Speech (TTS) systems are commonly evaluated alongtwo main dimensions: intelligibility and naturalness. Whilethere are clear proxies for intelligibility measurements such astranscription Word-Error-Rate (WER), naturalness is not nearlyso well defined. In this paper, we present the results of ourattempt to learn what aspects human listeners consider whenthey are asked to evaluate the “naturalness” of TTS systems.We conducted a user study similar to common TTS evaluationsand at the end asked the subject to define the sense ofnaturalness that they had used. Then we coded their answersand statistically analysed the distribution of codes to create alist of aspects that users consider as part of naturalness. We cannow provide a list of suggested replacement questions to useinstead of a single oblique notion of naturalness.\n"
+   ],
+   "doi": "10.21437/SSW.2023-31"
+  },
+  "guennec23_ssw": {
+   "authors": [
+    [
+     "David",
+     "Guennec"
+    ],
+    [
+     "Lily",
+     "Wadoux"
+    ],
+    [
+     "Aghilas",
+     "Sini"
+    ],
+    [
+     "Nelly",
+     "Barbot"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ]
+   ],
+   "title": "Voice Cloning: Training Speaker Selection with Limited Multi-Speaker Corpus",
+   "original": "SSW2023_paper16",
+   "page_count": 7,
+   "order": 27,
+   "p1": 170,
+   "pn": 176,
+   "abstract": [
+    "Text-To-Speech synthesis with few data is a challengingtask, in particular when choosing the target speaker is not anoption. Voice cloning is a popular method to alleviate these issues using only a few minutes of target speech. To do this, themodel must first be trained on a large corpus of thousands ofhours and hundreds of speakers. In this paper, we tackle thechallenge of cloning voices with a much smaller corpus, using both the speaker adaptation and speaker encoding methods.We study the impact of selecting our training speakers basedon their similarity to the targets. We train models using onlythe training speakers closest/farthest to our targets in terms ofspeaker similarity from a pool of 14 speakers. We show thatthe selection of speakers in the training set has an impact on thesimilarity to the target speaker. The effect is more prominent forspeaker encoding than adaptation. However, it remains nuancedwhen it comes to naturalness.\n"
+   ],
+   "doi": "10.21437/SSW.2023-27"
+  },
+  "duret23_ssw": {
+   "authors": [
+    [
+     "Jarod",
+     "Duret"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ],
+    [
+     "Titouan",
+     "Parcollet"
+    ]
+   ],
+   "title": "Learning Multilingual Expressive Speech Representation for Prosody Prediction without Parallel Data",
+   "original": "SSW2023_paper52",
+   "page_count": 7,
+   "order": 29,
+   "p1": 184,
+   "pn": 190,
+   "abstract": [
+    "We propose a method for speech-to-speech emotionpreserving translation that operates at the level of discretespeech units. Our approach relies on the use of multilingualemotion embedding that can capture affective information in alanguage-independent manner. We show that this embeddingcan be used to predict the pitch and duration of speech units ina target language, allowing us to resynthesize the source speechsignal with the same emotional content. We evaluate our approach to English and French speech signals and show that itoutperforms a baseline method that does not use emotional information, including when the emotion embedding is extractedfrom a different language. Even if this preliminary study doesnot address directly the machine translation issue, our resultsdemonstrate the effectiveness of our approach for cross-lingualemotion preservation in the context of speech resynthesis.\n"
+   ],
+   "doi": "10.21437/SSW.2023-29"
+  },
+  "shankar23_ssw": {
+   "authors": [
+    [
+     "Ravi",
+     "Shankar"
+    ],
+    [
+     "Archana",
+     "Venkataraman"
+    ]
+   ],
+   "title": "Adaptive Duration Modification of Speech using Masked Convolutional Networks and Open-Loop Time Warping",
+   "original": "SSW2023_paper40",
+   "page_count": 7,
+   "order": 28,
+   "p1": 177,
+   "pn": 183,
+   "abstract": [
+    "We propose a new method to adaptively modify the rhythm of agiven speech signal. We train a masked convolutional encoder-decoder network to generate this attention map via a stochasticversion of the mean absolute error loss function. Our modelalso predicts the length of the target speech signal using the encoder embeddings, which determines the number of time stepsfor the decoding operation. During testing, we use the learnedattention map as a proxy for the frame-wise similarity matrixbetween the given input speech and an unknown target speechsignal. In an open-loop fashion, we compute a warping pathfor rhythm modification. Our experiments demonstrate that thisadaptive framework achieves similar performance as the fullysupervised dynamic time warping algorithm on both voice conversion and emotion conversion tasks. We also show that themodified speech utterances achieve high user quality ratings,thus highlighting the practical utility of our method.\n"
+   ],
+   "doi": "10.21437/SSW.2023-28"
+  },
+  "kayyar23_ssw": {
+   "authors": [
+    [
+     "Kishor",
+     "Kayyar"
+    ],
+    [
+     "Christian",
+     "Dittmar"
+    ],
+    [
+     "Nicola",
+     "Pia"
+    ],
+    [
+     "Emanuel",
+     "Habets"
+    ]
+   ],
+   "title": "Subjective Evaluation of Text-to-Speech Models: Comparing Absolute Category Rating and Ranking by Elimination Tests",
+   "original": "SSW2023_paper24",
+   "page_count": 6,
+   "order": 30,
+   "p1": 191,
+   "pn": 196,
+   "abstract": [
+    "Modern text-to-speech (TTS) models are typically subjectivelyevaluated using an Absolute Category Rating (ACR) method.This method uses the mean opinion score to rate each modelunder test. However, if the models are perceptually too similar,assigning absolute ratings to stimuli might be difficult and proneto subjective preference errors. Pairwise comparison tests offerrelative comparison and capture some of the subtle differencesbetween the stimuli better. However, pairwise comparisons takemore time as the number of tests increases exponentially withthe number of models. Alternatively, a ranking-by-elimination(RBE) test can assess multiple models with similar benefits aspairwise comparisons for subtle differences across models without the time penalty. We compared the ACR and RBE tests forTTS evaluation in a controlled experiment. We found that theobtained results were statistically similar even in the presenceof perceptually close TTS models.\n"
+   ],
+   "doi": "10.21437/SSW.2023-30"
+  },
+  "elmers23_ssw": {
+   "authors": [
+    [
+     "Mikey",
+     "Elmers"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ]
+   ],
+   "title": "The Impact of Pause-Internal Phonetic Particles on Recall in Synthesized Lectures",
+   "original": "SSW2023_paper50",
+   "page_count": 7,
+   "order": 32,
+   "p1": 204,
+   "pn": 210,
+   "abstract": [
+    "We studied the effect of pause-internal phonetic particles(PINTs) on recall for native and non-native listeners of Englishin a listening experiment with synthesized material that simulated a university lecture. Using a neural speech synthesizertrained on recorded lectures with PINTs annotations, we generated three distinct conditions: a base version, a “silence” version where non-silence PINTs were replaced with silence, anda “nopints” version where all PINTs, including silences, wereremoved. Half of the participants were informed they were listening to computer-generated audio, while the other half weretold the audio was recorded with a poor-quality microphone.We found that neither the condition nor the participants’ nativelanguage significantly affected their overall score, and the presence of PINTs before critical information had a negative effecton recall. This study highlights the importance of consideringPINTs for educational purposes in speech synthesis systems.\n"
+   ],
+   "doi": "10.21437/SSW.2023-32"
+  },
+  "raitio23_ssw": {
+   "authors": [
+    [
+     "Tuomo",
+     "Raitio"
+    ],
+    [
+     "Javier",
+     "Latorre"
+    ],
+    [
+     "Andrea",
+     "Davis"
+    ],
+    [
+     "Tuuli",
+     "Morrill"
+    ],
+    [
+     "Ladan",
+     "Golipour"
+    ]
+   ],
+   "title": "Improving the quality of neural TTS using long-form content and multi-speaker multi-style modeling",
+   "original": "SSW2023_paper45",
+   "page_count": 6,
+   "order": 23,
+   "p1": 144,
+   "pn": 149,
+   "abstract": [
+    "Neural text-to-speech (TTS) can provide quality close to naturalspeech if an adequate amount of high-quality speech material isavailable for training. However, acquiring speech data for TTStraining is costly and time-consuming, especially if the goal isto generate different speaking styles. In this work, we showthat we can transfer speaking style across speakers and improve the quality of synthetic speech by training a multi-speakermulti-style (MSMS) model with long-form recordings, in addition to regular TTS recordings. In particular, we show that 1)multi-speaker modeling improves the overall TTS quality, 2) theproposed MSMS approach outperforms pre-training and finetuning approach when utilizing additional multi-speaker data,and 3) long-form speaking style is highly rated regardless of thetarget text domain.\n"
+   ],
+   "doi": "10.21437/SSW.2023-23"
+  },
+  "matsunaga23_ssw": {
+   "authors": [
+    [
+     "Yuta",
+     "Matsunaga"
+    ],
+    [
+     "Takaaki",
+     "Saeki"
+    ],
+    [
+     "Shinnosuke",
+     "Takamichi"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ]
+   ],
+   "title": "Improving robustness of spontaneous speech synthesis with linguistic speech regularization and pseudo-filled-pause insertion",
+   "original": "SSW2023_paper35",
+   "page_count": 7,
+   "order": 10,
+   "p1": 62,
+   "pn": 68,
+   "abstract": [
+    "We present a training method with linguistic speech regularization that improves the robustness of spontaneous speech synthesis methods with filled pause (FP) insertion. Spontaneousspeech synthesis is aimed at producing speech with human-likedisfluencies, such as FPs. Because modeling the complex datadistribution of spontaneous speech with a rich FP vocabulary ischallenging, the quality of FP-inserted synthetic speech is oftenlimited. To address this issue, we present a method for synthesizing spontaneous speech that improves robustness to diverseFP insertions. Regularization is used to stabilize the synthesis ofthe linguistic speech (i.e., non-FP) elements. To further improverobustness to diverse FP insertions, it utilizes pseudo-FPs sampled using an FP word prediction model as well as ground-truthFPs. Our experiments demonstrated that the proposed methodimproves the naturalness of synthetic speech with ground-truthand predicted FPs by 0.24 and 0.26, respectively.\n"
+   ],
+   "doi": "10.21437/SSW.2023-10"
+  },
+  "diatlova23_ssw": {
+   "authors": [
+    [
+     "Daria",
+     "Diatlova"
+    ],
+    [
+     "Vitalii",
+     "Shutov"
+    ]
+   ],
+   "title": "EmoSpeech: guiding FastSpeech2 towards Emotional Text to Speech",
+   "original": "SSW2023_paper13",
+   "page_count": 7,
+   "order": 17,
+   "p1": 106,
+   "pn": 112,
+   "abstract": [
+    "State-of-the-art speech synthesis models try to get as close aspossible to the human voice. Hence, modelling emotions is anessential part of Text-To-Speech (TTS) research. In our work,we selected FastSpeech2 as the starting point and proposed aseries of modifications for synthesizing emotional speech. According to automatic and human evaluation, our model, EmoSpeech, surpasses existing models regarding both MOS scoreand emotion recognition accuracy in generated speech. Weprovided a detailed ablation study for every extension to Fast-Speech2 architecture that forms EmoSpeech. The uneven distribution of emotions in the text is crucial for better, synthesized speech and intonation perception. Our model includes aconditioning mechanism that effectively handles this issue byallowing emotions to contribute to each phone with varying intensity levels. The human assessment indicates that proposedmodifications generate audio with higher MOS and emotionalexpressiveness.\n"
+   ],
+   "doi": "10.21437/SSW.2023-17"
+  },
+  "ibrahimov23_ssw": {
+   "authors": [
+    [
+     "Ibrahim",
+     "Ibrahimov"
+    ],
+    [
+     "Gabor",
+     "Gosztolya"
+    ],
+    [
+     "Tamas Gabor",
+     "Csapo"
+    ]
+   ],
+   "title": "Data Augmentation Methods on Ultrasound Tongue Images for Articulation-to-Speech Synthesis",
+   "original": "SSW2023_paper41",
+   "page_count": 6,
+   "order": 36,
+   "p1": 230,
+   "pn": 235,
+   "abstract": [
+    "Articulation-to-Speech Synthesis (ATS) focuses on convertingarticulatory biosignal information into audible speech, nowadays mostly using DNNs, with a future target application of aSilent Speech Interface. Ultrasound Tongue Imaging (UTI) isan affordable and non-invasive technique that has become popular for collecting articulatory data. Data augmentation has beenshown to improve the generalization ability of DNNs, e.g. toavoid overfitting, introduce variations into the existing dataset,or make the network more robust against various noise types onthe input data. In this paper, we compare six different data augmentation methods on the UltraSuite-TaL corpus during UTI-based ATS using CNNs. Validation mean squared error is usedto evaluate the performance of CNNs, while by the synthesizedspeech samples, the performace of direct ATS is measured using MCD and PESQ scores. Although we did not find largedifferences in the outcome of various data augmentation techniques, the results of this study suggest that while applying dataaugmentation techniques on UTI poses some challenges due tothe unique nature of the data, it provides benefits in terms ofenhancing the robustness of neural networks. In general, articulatory control might be beneficial in TTS as well.\n"
+   ],
+   "doi": "10.21437/SSW.2023-36"
+  },
+  "zhang23_ssw": {
+   "authors": [
+    [
+     "Weicheng",
+     "Zhang"
+    ],
+    [
+     "Cheng-Chieh",
+     "Yeh"
+    ],
+    [
+     "Will",
+     "Beckman"
+    ],
+    [
+     "Tuomo",
+     "Raitio"
+    ],
+    [
+     "Ramya",
+     "Rasipuram"
+    ],
+    [
+     "Ladan",
+     "Golipour"
+    ],
+    [
+     "David",
+     "Winarsky"
+    ]
+   ],
+   "title": "Audiobook synthesis with long-form neural text-to-speech",
+   "original": "SSW2023_paper46",
+   "page_count": 5,
+   "order": 22,
+   "p1": 139,
+   "pn": 143,
+   "abstract": [
+    "Despite recent advances in text-to-speech (TTS) technology, auto-narration of long-form content such as books remainsa challenge. The goal of this work is to enhance neural TTS tobe suitable for long-form content such as audiobooks. In addition to high quality, we aim to provide a compelling and engaging listening experience with expressivity that spans beyonda single sentence to a paragraph level so that the user can notonly follow the story but also enjoy listening to it. Towards thatgoal, we made four enhancements to our baseline TTS system:incorporation of BERT embeddings, explicit prosody prediction from text, long-context modeling over multiple sentences,and pre-training on long-form data. We propose an evaluationframework tailored to long-form content that evaluates the synthesis on segments spanning multiple paragraphs and focuseson elements such as comprehension, ease of listening, ability tokeep attention, and enjoyment. The evaluation results show thatthe proposed approach outperforms the baseline on all evaluatedmetrics, with an absolute 0.47 MOS gain in overall quality. Ablation studies further confirm the effectiveness of the proposedenhancements.\n"
+   ],
+   "doi": "10.21437/SSW.2023-22"
+  },
+  "louw23_ssw": {
+   "authors": [
+    [
+     "Johannes Abraham",
+     "Louw"
+    ]
+   ],
+   "title": "Cross-lingual transfer using phonological features for resource-scarce text-to-speech",
+   "original": "SSW2023_paper44",
+   "page_count": 7,
+   "order": 9,
+   "p1": 55,
+   "pn": 61,
+   "abstract": [
+    "In this work, we explore the use of phonological features incross-lingual transfer within resource-scarce settings. We modify the architecture of VITS to accept a phonological featurevector as input, instead of phonemes or characters. Subsequently, we train multispeaker base models using data from LibriTTS and then fine-tune them on single-speaker Afrikaans andisiXhosa datasets of varying sizes, representing the resource-scarce setting. We evaluate the synthetic speech both objectively and subjectively and compare it to models trained withthe same data using the standard VITS architecture. In our experiments, the proposed system utilizing phonological featuresas input converges significantly faster and requires less data thanthe base system. We demonstrate that the model employingphonological features is capable of producing sounds in the target language that were unseen in the source language, even inlanguages with significant linguistic differences, and with only5 minutes of data in the target language.\n"
+   ],
+   "doi": "10.21437/SSW.2023-9"
+  },
+  "bailly23_ssw": {
+   "authors": [
+    [
+     "Gérard",
+     "Bailly"
+    ],
+    [
+     "Martin",
+     "Lenglet"
+    ],
+    [
+     "Olivier",
+     "Perrotin"
+    ],
+    [
+     "Esther",
+     "Klabbers"
+    ]
+   ],
+   "title": "Advocating for text input in multi-speaker text-to-speech systems",
+   "original": "SSW2023_paper6",
+   "page_count": 7,
+   "order": 1,
+   "p1": 1,
+   "pn": 7,
+   "abstract": [
+    "Nowadays text-to-speech synthesis (TTS) systems are mostcommonly trained using phonetic input. This is mostly due tothe poor performance of the letter-to-sound (L2S) mapping (inparticular with languages with opaque orthography) performedby end-to-end TTS: the empirical distribution of the words sampled in the sole training corpus cannot compete with pronunciation dictionaries. Taylor and Richmond [1] actually reportedletter-to-sound errors – implicitly performed by end-to-end systems from raw text input – close to 10%.This paper nevertheless shows that speakers produce lawful phonological variations and that end-to-end TTS systemstrained to accept text input – once trained adequately – can capture these variations of pronunciation that are strong markersof sociolinguistic features. We illustrate such variations on liaisons and schwas in French and r-linking in British English.We therefore advocate for restoring text input for TTS, so thatthe many aspects of style variations (produced by speakers aswell as stylistic variations) encoded by suprasegmental featurescan also be reflected in actual variations of pronunciation.\n"
+   ],
+   "doi": "10.21437/SSW.2023-1"
+  },
+  "joly23_ssw": {
+   "authors": [
+    [
+     "Arnaud",
+     "Joly"
+    ],
+    [
+     "Marco",
+     "Nicolis"
+    ],
+    [
+     "Ekaterina",
+     "Peterova"
+    ],
+    [
+     "Alessandro",
+     "Lombardi"
+    ],
+    [
+     "Ammar",
+     "Abbas"
+    ],
+    [
+     "Arent van",
+     "Korlaar"
+    ],
+    [
+     "Aman",
+     "Hussain"
+    ],
+    [
+     "Parul",
+     "Sharma"
+    ],
+    [
+     "Alexis",
+     "Moinet"
+    ],
+    [
+     "Mateusz",
+     "Lajszczak"
+    ],
+    [
+     "Penny",
+     "Karanasou"
+    ],
+    [
+     "Antonio",
+     "Bonafonte"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ],
+    [
+     "Elena",
+     "Sokolova"
+    ]
+   ],
+   "title": "Controllable Emphasis with zero data for text-to-speech",
+   "original": "SSW2023_paper5",
+   "page_count": 7,
+   "order": 18,
+   "p1": 113,
+   "pn": 119,
+   "abstract": [
+    "We present a scalable method to produce high quality emphasis for text-to-speech (TTS) that does not require recordings orannotations. Many TTS models include a phoneme durationmodel. A simple but effective method to achieve emphasizedspeech consists in increasing the predicted duration of the emphasised word. We show that this is significantly better thanspectrogram modification techniques improving naturalness by7.3% and correct testers’ identification of the emphasized wordin a sentence by 40% on a reference female en-US voice. Weshow that this technique significantly closes the gap to methodsthat require explicit recordings. The method proved to be scalable and preferred in all four languages tested (English, Spanish, Italian, German), for different voices and multiple speakingstyles.\n"
+   ],
+   "doi": "10.21437/SSW.2023-18"
+  },
+  "finkelstein23_ssw": {
+   "authors": [
+    [
+     "Lev",
+     "Finkelstein"
+    ],
+    [
+     "Chun-an",
+     "Chan"
+    ],
+    [
+     "Vincent",
+     "Wan"
+    ],
+    [
+     "Heiga",
+     "Zen"
+    ],
+    [
+     "Rob",
+     "Clark"
+    ]
+   ],
+   "title": "FiPPiE: A Computationally Efficient Differentiable method for Estimating Fundamental Frequency From Spectrograms",
+   "original": "SSW2023_paper19",
+   "page_count": 7,
+   "order": 34,
+   "p1": 218,
+   "pn": 224,
+   "abstract": [
+    "In this paper we present FiPPiE, a Filter-Inferred Pitch Posteriorgram Estimator – a method of estimating fundamental frequency from spectrograms, either linear or mel, by applying aspecial kind of filter in the spectral domain. Unlike other worksin this field, we developed a procedure for training an optimizedfilter (or kernel) for this type of estimation. FiPPiE, based onthis optimized filter, demonstrated itself as a reliable fundamental frequency estimator that is computationally efficient, differentiable, and easily implementable. We demonstrate the performance of the method both by the analysis of its behavior onhuman recordings, and by the stability analysis with help of anautomated system.\n"
+   ],
+   "doi": "10.21437/SSW.2023-34"
+  },
+  "das23_ssw": {
+   "authors": [
+    [
+     "Arnab",
+     "Das"
+    ],
+    [
+     "Suhita",
+     "Ghosh"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Ingo",
+     "Siegert"
+    ],
+    [
+     "Sebastian",
+     "Stober"
+    ]
+   ],
+   "title": "StarGAN-VC++: Towards Emotion Preserving Voice Conversion Using Deep Embeddings",
+   "original": "SSW2023_paper31",
+   "page_count": 7,
+   "order": 13,
+   "p1": 81,
+   "pn": 87,
+   "abstract": [
+    "Voice conversion (VC) transforms an utterance to sound like anotherperson without changing the linguistic content. A recently proposedgenerative adversarial network-based VC method, StarGANv2-VCis very successful in generating natural-sounding conversions.However, the method fails to preserve the emotion of the sourcespeaker in the converted samples. Emotion preservation is necessaryfor natural human-computer interaction. In this paper, we showthat StarGANv2-VC fails to disentangle the speaker and emotionrepresentations, pertinent to preserve emotion. Specifically, thereis an emotion leakage from the reference audio used to capture thespeaker embeddings while training. To counter the problem, wepropose novel emotion-aware losses and an unsupervised methodwhich exploits emotion supervision through latent emotion representations. The objective and subjective evaluations prove the efficacyof the proposed strategy over diverse datasets, emotions, gender, etc.\n"
+   ],
+   "doi": "10.21437/SSW.2023-13"
+  },
+  "wang23_ssw": {
+   "authors": [
+    [
+     "Siyang",
+     "Wang"
+    ],
+    [
+     "Gustav Eje",
+     "Henter"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ]
+   ],
+   "title": "On the Use of Self-Supervised Speech Representations in Spontaneous Speech Synthesis",
+   "original": "SSW2023_paper43",
+   "page_count": 7,
+   "order": 26,
+   "p1": 163,
+   "pn": 169,
+   "abstract": [
+    "Self-supervised learning (SSL) speech representations learnedfrom large amounts of diverse, mixed-quality speech datawithout transcriptions are gaining ground in many speech-technology applications. Prior work has shown that SSL isan effective intermediate representation in two-stage text-to-speech (TTS) for both read and spontaneous speech. However, it is still not clear which SSL and which layer from eachSSL model is most suited for spontaneous TTS. We address thisshortcoming by extending the scope of comparison for SSL inspontaneous TTS to 6 different SSLs and 3 layers within eachSSL. Furthermore, SSL has also shown potential in predictingthe mean opinion scores (MOS) of synthesized speech, but thishas only been done in read-speech MOS prediction. We extendan SSL-based MOS prediction framework previously developedfor scoring read speech synthesis and evaluate its performanceon synthesized spontaneous speech. All experiments are conducted twice on two different spontaneous corpora in order tofind generalizable trends. Overall, we present comprehensiveexperimental results on the use of SSL in spontaneous TTS andMOS prediction to further quantify and understand how SSLcan be used in spontaneous TTS. Audios samples: https://www.speech.kth.se/tts-demos/sp_ssl_tts.\n"
+   ],
+   "doi": "10.21437/SSW.2023-26"
+  },
+  "tanaka23_ssw": {
+   "authors": [
+    [
+     "Kou",
+     "Tanaka"
+    ],
+    [
+     "Hirokazu",
+     "Kameoka"
+    ],
+    [
+     "Takuhiro",
+     "Kaneko"
+    ]
+   ],
+   "title": "PRVAE-VC: Non-Parallel Many-to-Many Voice Conversion with Perturbation-Resistant Variational Autoencoder",
+   "original": "SSW2023_paper3",
+   "page_count": 6,
+   "order": 14,
+   "p1": 88,
+   "pn": 93,
+   "abstract": [
+    "This paper describes a novel approach to non-parallel many-to-many voice conversion (VC) that utilizes a variant of the conditional variational autoencoder (VAE) called a perturbation-resistant VAE (PRVAE). In VAE-based VC, it is commonly assumed that the encoder extracts content from the input speechwhile removing source speaker information. Following this extraction, the decoder generates output from the extracted content and target speaker information. However, in practice,the encoded features may still retain source speaker information, which can lead to a degradation of speech quality duringspeaker conversion tasks. To address this issue, we proposea perturbation-resistant encoder trained to match the encodedfeatures of the input speech with those of a pseudo-speech generated through a content-preserving transformation of the inputspeech’s fundamental frequency and spectral envelope using acombination of pure signal processing techniques. Our experimental results demonstrate that this straightforward constraintsigniﬁcantly enhances the performance in non-parallel many-to-many speaker conversion tasks. Audio samples can be accessedat http://www.kecl.ntt.co.jp/people/tanaka.ko/projects/prvaevc/.\n"
+   ],
+   "doi": "10.21437/SSW.2023-14"
+  },
+  "yoshimura23_ssw": {
+   "authors": [
+    [
+     "Takenori",
+     "Yoshimura"
+    ],
+    [
+     "Takato",
+     "Fujimoto"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "SPTK4: An Open-Source Software Toolkit for Speech Signal Processing",
+   "original": "SSW2023_paper10",
+   "page_count": 7,
+   "order": 33,
+   "p1": 211,
+   "pn": 217,
+   "abstract": [
+    "The Speech Signal Processing ToolKit (SPTK) is an opensource suite of speech signal processing tools, which has beendeveloped and maintained by the SPTK working group and haswidely contributed to the speech signal processing communitysince 1998. Although SPTK has reached over a hundred thousand downloads, the concepts as well as the features have notyet been widely disseminated. This paper gives an overview ofSPTK and demonstrations to provide a better understanding ofthe toolkit. We have recently developed its differentiable PyTorch version, diffsptk, to adapt to advancements in the deeplearning field. The details of diffsptk are also presented in thispaper. We hope that the toolkit will help developers and researchers working in the field of speech signal processing.\n"
+   ],
+   "doi": "10.21437/SSW.2023-33"
+  },
+  "finkelstein23b_ssw": {
+   "authors": [
+    [
+     "Lev",
+     "Finkelstein"
+    ],
+    [
+     "Joshua",
+     "Camp"
+    ],
+    [
+     "Rob",
+     "Clark"
+    ]
+   ],
+   "title": "Importance of Human Factors in Text-To-Speech Evaluations",
+   "original": "SSW2023_paper26",
+   "page_count": 7,
+   "order": 5,
+   "p1": 27,
+   "pn": 33,
+   "abstract": [
+    "Both mean opinion score (MOS) evaluations and preferencetests in text-to-speech are often associated with high rating variance. In this paper we investigate two important factors thataffect that variance. One factor is that the variance is comingfrom how raters are picked for a specific test, and another is thedynamic behavior of individual raters across time.This paper increases the awareness of these issues when designing an evaluation experiment, since the standard confidenceinterval on the test level cannot incorporate the variance associated with these two factors. We show the impact of the twosources of variance and how they can be mitigated. We demonstrate that simple improvements in experiment design such asusing a smaller number of rating tasks per rater can significantlyimprove the experiment confidence intervals / reproducibilitywith no extra cost.\n"
+   ],
+   "doi": "10.21437/SSW.2023-5"
+  },
+  "lameris23_ssw": {
+   "authors": [
+    [
+     "Harm",
+     "Lameris"
+    ],
+    [
+     "Ambika",
+     "Kirkland"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ]
+   ],
+   "title": "Situating Speech Synthesis: Investigating Contextual Factors in the Evaluation of Conversational TTS",
+   "original": "SSW2023_paper29",
+   "page_count": 6,
+   "order": 11,
+   "p1": 69,
+   "pn": 74,
+   "abstract": [
+    "Speech synthesis evaluation methods have lagged behind thedevelopment of TTS systems, with single sentence read-speechMOS naturalness evaluation on crowdsourcing platforms beingthe industry standard. For TTS to successfully be applied insocial contexts, evaluation methods need to be socially embedded in the situation where they will be deployed. Due to thetime and cost constraints of conducting an in-person interactionevaluation for TTS, we examine the effect of introducing situational context and preceding sentence context to participants ina subjective listening experiment. We conduct a suitability evaluation for a robot game guide that explains game rules to participants using two synthesized spontaneous voices: an instruction-specific and a general spontaneous voice. Results indicate thatthe inclusion of context influences user ratings, highlighting theneed for context-aware evaluations. However, the type of context did not significantly affect the results.\n"
+   ],
+   "doi": "10.21437/SSW.2023-11"
+  },
+  "fong23_ssw": {
+   "authors": [
+    [
+     "Jason",
+     "Fong"
+    ],
+    [
+     "Hao",
+     "Tang"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Spell4TTS: Acoustically-informed spellings for improving text-to-speech pronunciations",
+   "original": "SSW2023_paper42",
+   "page_count": 6,
+   "order": 2,
+   "p1": 8,
+   "pn": 13,
+   "abstract": [
+    "Ensuring accurate pronunciation is critical for high-quality text-to-speech (TTS). This typically requires a phoneme-based pronunciation dictionary, which is labour-intensive and costly tocreate. Previous work has suggested using graphemes insteadof phonemes, but the inevitable pronunciation errors that occurcannot be fixed, since there is no longer a pronunciation dictionary. As an alternative, speech-based self-supervised learning(SSL) models have been proposed for pronunciation control, butthese models are computationally expensive to train, producerepresentations that are not easily interpretable, and capture unwanted non-phonemic information. To address these limitations, we propose Spell4TTS, a novel method that generatesacoustically-informed word spellings. Spellings are both interpretable and easily edited. The method could be applied to anyexisting pre-built TTS system. Our experiments show that themethod creates word spellings that lead to fewer TTS pronunciation errors than the original spellings, or an Automatic SpeechRecognition baseline. Additionally, we observe that pronunciation can be further enhanced by ranking candidates in the spaceof SSL speech representations, and by incorporating Human-in-the-Loop screening over the top-ranked spellings devised byour method. By working with spellings of words (composed ofcharacters), the method lowers the entry barrier for TTS system development for languages with limited pronunciation resources. It should reduce the time and cost involved in creatingand maintaining pronunciation dictionaries.\n"
+   ],
+   "doi": "10.21437/SSW.2023-2"
+  },
+  "vecino23_ssw": {
+   "authors": [
+    [
+     "Biel Tura",
+     "Vecino"
+    ],
+    [
+     "Adam",
+     "Gabrys"
+    ],
+    [
+     "Daniel",
+     "Matwicki"
+    ],
+    [
+     "Andrzej",
+     "Pomirski"
+    ],
+    [
+     "Tom",
+     "Iddon"
+    ],
+    [
+     "Marius",
+     "Cotescu"
+    ],
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ]
+   ],
+   "title": "Lightweight End-to-end Text-to-speech Synthesis for low resource on-device applications",
+   "original": "SSW2023_paper15",
+   "page_count": 5,
+   "order": 35,
+   "p1": 225,
+   "pn": 229,
+   "abstract": [
+    "Recent works have shown that modelling raw waveform directly from text in an end-to-end (E2E) fashion produces morenatural-sounding speech than traditional neural text-to-speech(TTS) systems based on a cascade or two-stage approach. However, current E2E state-of-the-art models are computationallycomplex and memory-consuming, making them unsuitable forreal-time offline on-device applications in low-resource scenarios. To address this issue, we propose a Lightweight E2E-TTS(LE2E) model that generates high-quality speech requiring minimal computational resources. We evaluate the proposed modelon the LJSpeech dataset and show that it achieves state-of-the-art performance while being up to 90% smaller in terms ofmodel parameters and 10× faster in real-time-factor. Furthermore, we demonstrate that the proposed E2E training paradigmachieves better quality compared to an equivalent architecturetrained in a two-stage approach. Our results suggest that LE2Eis a promising approach for developing real-time, high quality,low-resource TTS applications for on-device applications.\n"
+   ],
+   "doi": "10.21437/SSW.2023-35"
+  },
+  "moya23_ssw": {
+   "authors": [
+    [
+     "Marcel Granero",
+     "Moya"
+    ],
+    [
+     "Penny",
+     "Karanasou"
+    ],
+    [
+     "Sri",
+     "Karlapati"
+    ],
+    [
+     "Bastian",
+     "Schnell"
+    ],
+    [
+     "Nicole",
+     "Peinelt"
+    ],
+    [
+     "Alexis",
+     "Moinet"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ]
+   ],
+   "title": "A Comparative Analysis of Pretrained Language Models for Text-to-Speech",
+   "original": "SSW2023_paper11",
+   "page_count": 7,
+   "order": 3,
+   "p1": 14,
+   "pn": 20,
+   "abstract": [
+    "State-of-the-art text-to-speech (TTS) systems have utilized pre-trained language models (PLMs) to enhance prosody and create more natural-sounding speech. However, while PLMs havebeen extensively researched for natural language understanding(NLU), their impact on TTS has been overlooked. In this study,we aim to address this gap by conducting a comparative analysis of different PLMs for two TTS tasks: prosody predictionand pause prediction. Firstly, we trained a prosody predictionmodel using 15 different PLMs. Our findings revealed a logarithmic relationship between model size and quality, as well assignificant performance differences between neutral and expressive prosody. Secondly, we employed PLMs for pause prediction and found that the task was less sensitive to small models.We also identified a strong correlation between our empiricalresults and the GLUE scores obtained for these language models. To the best of our knowledge, this is the first study of itskind to investigate the impact of different PLMs on TTS.\n"
+   ],
+   "doi": "10.21437/SSW.2023-3"
+  },
+  "seebauer23_ssw": {
+   "authors": [
+    [
+     "Fritz",
+     "Seebauer"
+    ],
+    [
+     "Michael",
+     "Kuhlmann"
+    ],
+    [
+     "Reinhold",
+     "Haeb-Umbach"
+    ],
+    [
+     "Petra",
+     "Wagner"
+    ]
+   ],
+   "title": "Re-examining the quality dimensions of synthetic speech",
+   "original": "SSW2023_paper18",
+   "page_count": 7,
+   "order": 6,
+   "p1": 34,
+   "pn": 40,
+   "abstract": [
+    "The aim of this paper is to generate a more comprehensiveframework for evaluating synthetic speech. To this end, a lineof tests resulting in an exploratory factor analysis (EFA) havebeen carried out. The proposed dimensions that encapsulate theconstruct of “synthetic speech quality” are: “human-likeness”,“audio quality”, “negative emotion”, “dominance”, “positiveemotion”, “calmness”, “seniority” and “gender”, with item-to-total correlations pointing towards “gender” being an orthogonal construct. A subsequent analysis on common acoustic features, found in forensic and phonetic literature, reveals veryweak correlations with the proposed scales. Inter-rater andinter-item agreement measures additionally reveal low consistency within the scales. We also make the case that there is aneed for a more fine grained approach when investigating thequality of synthetic speech systems, and propose a method thatattempts to capture individual quality dimensions in the timedomain.\n"
+   ],
+   "doi": "10.21437/SSW.2023-6"
+  },
+  "kirkland23_ssw": {
+   "authors": [
+    [
+     "Ambika",
+     "Kirkland"
+    ],
+    [
+     "Shivam",
+     "Mehta"
+    ],
+    [
+     "Harm",
+     "Lameris"
+    ],
+    [
+     "Gustav Eje",
+     "Henter"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ]
+   ],
+   "title": "Stuck in the MOS pit: A critical analysis of MOS test methodology in TTS evaluation",
+   "original": "SSW2023_paper20",
+   "page_count": 7,
+   "order": 7,
+   "p1": 41,
+   "pn": 47,
+   "abstract": [
+    "The Mean Opinion Score (MOS) is a prevalent metric in TTSevaluation. Although standards for collecting and reportingMOS exist, researchers seem to use the term inconsistently, andunderreport the details of their testing methodologies. A survey of Interspeech and SSW papers from 2021-2022 shows thatmost authors do not report scale labels, increments, or instructions to participants, and those who do diverge in terms of theirimplementation. It is also unclear in many cases whether listeners were asked to rate naturalness, or overall quality. MOSobtained for natural speech using different testing methodologies vary in the surveyed papers: specifically, quality MOS ison average higher than naturalness MOS. We carried out several listening tests using the same stimuli but with differencesin the scale increment and instructions about what participantsshould rate, and found that both of these variables affected MOSfor some systems.\n"
+   ],
+   "doi": "10.21437/SSW.2023-7"
+  },
+  "chen23_ssw": {
+   "authors": [
+    [
+     "Haolin",
+     "Chen"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Diffusion Transformer for Adaptive Text-to-Speech",
+   "original": "SSW2023_paper23",
+   "page_count": 6,
+   "order": 25,
+   "p1": 157,
+   "pn": 162,
+   "abstract": [
+    "Given the success of diffusion in synthesizing realistic speech,we investigate how diffusion can be included in adaptive text-to-speech systems. Inspired by the adaptable layer norm modulesfor Transformer, we adapt a new backbone of diffusion models, Diffusion Transformer, for acoustic modeling. Specifically,the adaptive layer norm in the architecture is used to conditionthe diffusion network on text representations, which further enables parameter-efficient adaptation. We show the new architecture to be a faster alternative to its convolutional counterpartfor general text-to-speech, while demonstrating a clear advantage on naturalness and similarity over the Transformer for few-shot and few-parameter adaptation. In the zero-shot scenario,while the new backbone is a decent alternative, the main benefit of such an architecture is to enable high-quality parameter-efficient adaptation when finetuning is performed.\n"
+   ],
+   "doi": "10.21437/SSW.2023-25"
+  },
+  "stan23_ssw": {
+   "authors": [
+    [
+     "Adriana",
+     "Stan"
+    ],
+    [
+     "Johannah",
+     "O'Mahony"
+    ]
+   ],
+   "title": "An analysis on the effects of speaker embedding choice in non auto-regressive TTS",
+   "original": "SSW2023_paper27",
+   "page_count": 5,
+   "order": 21,
+   "p1": 134,
+   "pn": 138,
+   "abstract": [
+    "In this paper we introduce a first attempt on understandinghow a non-autoregressive factorised multi-speaker speech synthesis architecture exploits the information present in differentspeaker embedding sets. We analyse if jointly learning the representations, and initialising them from pretrained models determine any quality improvements for target speaker identities.In a separate analysis, we investigate how the different sets ofembeddings impact the network’s core speech abstraction (i.e.zero conditioned) in terms of speaker identity and representation learning. We show that, regardless of the used set of embeddings and learning strategy, the network can handle variousspeaker identities equally well, with barely noticeable variationsin speech output quality, and that speaker leakage within thecore structure of the synthesis system is inevitable in the standard training procedures adopted thus far.\n"
+   ],
+   "doi": "10.21437/SSW.2023-21"
+  },
+  "omahony23_ssw": {
+   "authors": [
+    [
+     "Johannah",
+     "O'Mahony"
+    ],
+    [
+     "Catherine",
+     "Lai"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Synthesising turn-taking cues using natural conversational data",
+   "original": "SSW2023_paper34",
+   "page_count": 6,
+   "order": 12,
+   "p1": 75,
+   "pn": 80,
+   "abstract": [
+    "As speech synthesis quality reaches high levels of naturalnessfor isolated utterances, more work is focusing on the synthesisof context-dependent conversational speech. The role of context in conversation is still poorly understood and many contextual factors can affect an utterances’s prosodic realisation.Most studies incorporating context use rich acoustic or textualembeddings of the previous context, then demonstrate improvements in overall naturalness. Such studies are not informativeabout what the context embedding represents, or how it affectsan utterance’s realisation. So instead, we narrow the focus toa single, explicit contextual factor. In the current work, this isturn-taking. We condition a speech synthesis model on whetheran utterance is turn-final. Objective measures and targeted subjective evaluation are used to demonstrate that the model cansynthesise turn-taking cues which are perceived by listeners,with results being speaker-dependent.\n"
+   ],
+   "doi": "10.21437/SSW.2023-12"
+  },
+  "do23_ssw": {
+   "authors": [
+    [
+     "Phat",
+     "Do"
+    ],
+    [
+     "Matt",
+     "Coler"
+    ],
+    [
+     "Jelske",
+     "Dijkstra"
+    ],
+    [
+     "Esther",
+     "Klabbers"
+    ]
+   ],
+   "title": "Strategies in Transfer Learning for Low-Resource Speech Synthesis: Phone Mapping, Features Input, and Source Language Selection",
+   "original": "SSW2023_paper47",
+   "page_count": 6,
+   "order": 4,
+   "p1": 21,
+   "pn": 26,
+   "abstract": [
+    "We compare using a PHOIBLE-based phone mapping methodand using phonological features input in transfer learning forTTS in low-resource languages. We use diverse source languages (English, Finnish, Hindi, Japanese, and Russian) andtarget languages (Bulgarian, Georgian, Kazakh, Swahili, Urdu,and Uzbek) to test the language-independence of the methodsand enhance the findings’ applicability. We use Character ErrorRates from automatic speech recognition and predicted MeanOpinion Scores for evaluation. Results show that both phonemapping and features input improve the output quality and thelatter performs better, but these effects also depend on the specific language combination. We also compare the recently-proposed Angular Similarity of Phone Frequencies (ASPF) witha family tree-based distance measure as a criterion to selectsource languages in transfer learning. ASPF proves effectiveif label-based phone input is used, while the language distancedoes not have expected effects.\n"
+   ],
+   "doi": "10.21437/SSW.2023-4"
+  },
+  "platek23_ssw": {
+   "authors": [
+    [
+     "Ondřej",
+     "Plátek"
+    ],
+    [
+     "Ondrej",
+     "Dusek"
+    ]
+   ],
+   "title": "MooseNet: A Trainable Metric for Synthesized Speech with a PLDA Module",
+   "original": "SSW2023_paper53",
+   "page_count": 7,
+   "order": 8,
+   "p1": 48,
+   "pn": 54,
+   "abstract": [
+    "We present MooseNet, a trainable speech metric that predictsthe listeners’ Mean Opinion Score (MOS). We propose a novelapproach where the Probabilistic Linear Discriminative Analysis (PLDA) generative model is used on top of an embedding obtained from a self-supervised learning (SSL) neuralnetwork (NN) model. We show that PLDA works well witha non-finetuned SSL model when trained only on 136 utterances (ca. one minute training time) and that PLDA consistentlyimproves various neural MOS prediction models, even stateof-the-art models with task-specific fine-tuning. Our ablationstudy shows PLDA training superiority over SSL model fine-tuning in a low-resource scenario. We also improve SSL modelfine-tuning using a convenient optimizer choice and additionalcontrastive and multi-task training objectives. The fine-tunedMooseNet NN with the PLDA module achieves the best results,surpassing the SSL baseline on the VoiceMOS Challenge data.\n"
+   ],
+   "doi": "10.21437/SSW.2023-8"
+  },
+  "hirai23_ssw": {
+   "authors": [
+    [
+     "Ryunosuke",
+     "Hirai"
+    ],
+    [
+     "Yuki",
+     "Saito"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ]
+   ],
+   "title": "Federated Learning for Human-in-the-Loop Many-to-Many Voice Conversion",
+   "original": "SSW2023_paper14",
+   "page_count": 6,
+   "order": 15,
+   "p1": 94,
+   "pn": 99,
+   "abstract": [
+    "We propose a method for training a many-to-many voice conversion (VC) model that can additionally learn users’ voiceswhile protecting the privacy of their data. Conventional many-to-many VC methods train a VC model using a publicly available or proprietary multi-speaker corpus. However, they do notalways achieve high-quality VC for input speech from varioususers. Our method is based on federated learning, a frameworkof distributed machine learning where a developer and userscooperatively train a machine learning model while protectingthe privacy of user-owned data. We present a proof-of-conceptmethod on the basis of StarGANv2-VC (i.e., Fed-StarGANv2-VC) and demonstrate that our method can achieve speaker similarity comparable to conventional non-federated StarGANv2-VC.\n"
+   ],
+   "doi": "10.21437/SSW.2023-15"
+  },
+  "kashkin23_ssw": {
+   "authors": [
+    [
+     "Anton",
+     "Kashkin"
+    ],
+    [
+     "Ivan",
+     "Karpukhin"
+    ],
+    [
+     "Svyatoslav",
+     "Shishkin"
+    ]
+   ],
+   "title": "HiFi-VC: High Quality ASR-based Voice Conversion",
+   "original": "SSW2023_paper8",
+   "page_count": 6,
+   "order": 16,
+   "p1": 100,
+   "pn": 105,
+   "abstract": [
+    "The goal of voice conversion is to convert the input voice tomatch the target speaker’s voice while keeping text and prosodyintact. Voice conversion is usually used in entertainment andspeaking-aid systems, as well as applied for speech data generation and augmentation. The development of any-to-any voiceconversion systems, which are capable of generating voices unseen during training, is of particular interest to both researchersand the industry. Despite recent progress, any-to-any conversion quality is still inferior to natural speech.In this work, we propose a new any-to-any voice conversionpipeline. To the best of our knowledge, it is the first use of anASR encoder with a GAN training objective in the voice conversion system. We also implement a joint conditional decoder-vocoder model, which simplifies training and improves performance. According to multiple subjective and objective evaluations, our method outperforms modern systems in terms ofvoice quality, similarity, and consistency.\n"
+   ],
+   "doi": "10.21437/SSW.2023-16"
+  },
+  "lenglet23_ssw": {
+   "authors": [
+    [
+     "Martin",
+     "Lenglet"
+    ],
+    [
+     "Olivier",
+     "Perrotin"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "Local Style Tokens: Fine-Grained Prosodic Representations For TTS Expressive Control",
+   "original": "SSW2023_paper9",
+   "page_count": 7,
+   "order": 19,
+   "p1": 120,
+   "pn": 126,
+   "abstract": [
+    "Neural Text-To-Speech (TTS) models achieve great performances regarding naturalness, but modeling expressivity remains an ongoing challenge. Some success was found through implicit approaches like Global Style Tokens (GST), but these methods model speech style at utterance-level. In this paper, we propose to add an auxiliary module called Local Style Tokens (LST) in the encoder-decoder pipeline to model local variations in prosody. This module can implement various scales of representations; we chose Word-level and Phoneme-level prosodic representations to assess the capabilities of the proposed module to better model sub-utterance style variations. Objective evaluation of the synthetic speech shows that LST modules better capture prosodic variations on 12 common styles compared to a GST baseline. These results were validated by participants during listening tests.\n"
+   ],
+   "doi": "10.21437/SSW.2023-19"
+  },
+  "kakouros23_ssw": {
+   "authors": [
+    [
+     "Sofoklis",
+     "Kakouros"
+    ],
+    [
+     "Juraj",
+     "Šimko"
+    ],
+    [
+     "Martti",
+     "Vainio"
+    ],
+    [
+     "Antti",
+     "Suni"
+    ]
+   ],
+   "title": "Investigating the Utility of Surprisal from Large Language Models for Speech Synthesis Prosody",
+   "original": "SSW2023_paper32",
+   "page_count": 7,
+   "order": 20,
+   "p1": 127,
+   "pn": 133,
+   "abstract": [
+    "This paper investigates the use of word surprisal, a measure ofthe predictability of a word in a given context, as a feature toaid speech synthesis prosody. We explore how word surprisalextracted from large language models (LLMs) correlates withword prominence, a signal-based measure of the salience of aword in a given discourse. We also examine how context lengthand LLM size affect the results, and how a speech synthesizerconditioned with surprisal values compares with a baseline system. To evaluate these factors, we conducted experiments using a large corpus of English text and LLMs of varying sizes.Our results show that word surprisal and word prominence aremoderately correlated, suggesting that they capture related butdistinct aspects of language use. We find that length of contextand size of the LLM impact the correlations, but not in the direction anticipated, with longer contexts and larger LLMs generally underpredicting prominent words in a nearly linear manner. We demonstrate that, in line with these findings, a speechsynthesizer conditioned with surprisal values provides a minimal improvement over the baseline with the results suggestinga limited effect of using surprisal values for eliciting appropriateprominence patterns.\n"
+   ],
+   "doi": "10.21437/SSW.2023-20"
+  },
+  "mehta23_ssw": {
+   "authors": [
+    [
+     "Shivam",
+     "Mehta"
+    ],
+    [
+     "Siyang",
+     "Wang"
+    ],
+    [
+     "Simon",
+     "Alexanderson"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ],
+    [
+     "Gustav Eje",
+     "Henter"
+    ]
+   ],
+   "title": "Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis",
+   "original": "SSW2023_paper28",
+   "page_count": 7,
+   "order": 24,
+   "p1": 150,
+   "pn": 156,
+   "abstract": [
+    "With read-aloud speech synthesis achieving high naturalnessscores, there is a growing research interest in synthesising spontaneous speech. However, human spontaneous face-to-face conversation has both spoken and non-verbal aspects (here, co-speech gestures). Only recently has research begun to explore the benefits of jointly synthesising these two modalitiesin a single system. The previous state of the art used non-probabilistic methods, which fail to capture the variability ofhuman speech and motion, and risk producing oversmoothingartefacts and sub-optimal synthesis quality. We present thefirst diffusion-based probabilistic model, called Diff-TTSG, thatjointly learns to synthesise speech and gestures together. Ourmethod can be trained on small datasets from scratch. Furthermore, we describe a set of careful uni- and multi-modal subjective tests for evaluating integrated speech and gesture synthesissystems, and use them to validate our proposed approach.\n"
+   ],
+   "doi": "10.21437/SSW.2023-24"
+  },
+  "alwaisi23_ssw": {
+   "authors": [
+    [
+     "Shaimaa",
+     "Alwaisi"
+    ],
+    [
+     "Mohammed Salah",
+     "Al-Radhi"
+    ],
+    [
+     "Géza",
+     "Németh"
+    ]
+   ],
+   "title": "Universal Approach to Multilingual Multispeaker Child Speech SynthesisUniversal Approach to Multilingual Multispeaker Child Speech Synthesis ",
+   "original": "SSW2023_LBR1",
+   "page_count": 2,
+   "order": 37,
+   "p1": 236,
+   "pn": 237,
+   "abstract": [
+    "ignificant progress has been made in developing text-to-speech (TTS) models. However, building TTS models specifically for children remains a challenge. The lack of child speech datasets and the difficulty in constructing such datasets have limited research in this area. Children often speak less clearly and exhibit significant variations in volume, rhythm, and the range of emotions they express. This study explores the utilization of a universal neural vocoder based on BIGVGAN and AutoVocoder for child speech synthesis. We trained the AutoVocoder on the adult LJ speech 1.1 dataset and then examined the effectiveness of using neural vocoders as a foundation for synthesizing conversational multi-speaker child speech. Our objective was to investigate how these vocoders can be fine-tuned and adapted to capture the distinct characteristics of child speech while minimizing the reliance on extensive child speech datasets. The experimental results demonstrated that the BIGVGAN vocoder outperformed others in synthesizing clear, natural-sounding conversational multi-speaker child speech. Despite challenges posed by the English MyST and Hungarian datasets used in this study, which included non-phonetic noise, indiscernible speech, and audio files of varying lengths, the AutoVocoder significantly enhanced the quality and clarity of the synthesized child speech. Preliminary findings indicate that the BIGVGAN model successfully generated high-quality synthesized child voices. \n"
+   ]
+  },
+  "fong23b_ssw": {
+   "authors": [
+    [
+     "Seraphina",
+     "Fong"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Gianluca",
+     "Esposito"
+    ],
+    [
+     "Alessio",
+     "Brutti"
+    ]
+   ],
+   "title": "Towards Speaker-Independent Voice Conversion for Improving Dysarthric Speech Intelligibility ",
+   "original": "SSW2023_LBR2",
+   "page_count": 2,
+   "order": 38,
+   "p1": 238,
+   "pn": 239,
+   "abstract": [
+    "To improve the intelligibility of dysarthric patient speech, state-of-the-art work has focused on speaker-dependent voice conversion (VC) systems. Speaker-dependent systems are computationally expensive as they require training an individual model for a given speaker and often need many hours of speech data to perform well. Recording hours of speech data can be challenging for patients with dysarthria to provide. The present work, as part of a master’s thesis project, proposes to investigate speaker-independent approaches for improving dysarthric speech intelligibility. Objective evaluation of preliminary results demonstrate that speaker-independent VC has potential, with pretrained any-to-any models performing better than training a single many-to-many model from scratch.\n"
+   ]
+  },
+  "jacquelin23_ssw": {
+   "authors": [
+    [
+     "Maxime",
+     "Jacquelin"
+    ],
+    [
+     "Maeva",
+     "Garnier"
+    ],
+    [
+     "Laurent",
+     "Girin"
+    ],
+    [
+     "Rémy",
+     "Vincent"
+    ],
+    [
+     "Olivier",
+     "Perrotin"
+    ]
+   ],
+   "title": "Exploring the multidimensional representation of individual speech acoustic parameters extracted by deep unsupervised models ",
+   "original": "SSW2023_LBR3",
+   "page_count": 2,
+   "order": 39,
+   "p1": 240,
+   "pn": 241,
+   "abstract": [
+    "Understanding latent representations of speech by unsupervised models enables powerful signal analysis, transformation, and generation. Numerous studies have identified directions of variation of acoustic features such as fundamental frequency or formants in unsupervised models latent spaces, but it is yet not well understood why the variation of such one-dimensional features is often explained by multiple latent dimensions. This paper proposes a methodology for interpreting these dimensions, in the latent space of a variational autoencoder trained on a multi-speaker database.\n"
+   ]
+  },
+  "li23_ssw": {
+   "authors": [
+    [
+     "Zhu",
+     "Li"
+    ],
+    [
+     "Xiyuan",
+     "Gao"
+    ],
+    [
+     "Shekhar",
+     "Nayak"
+    ],
+    [
+     "Matt",
+     "Coler"
+    ]
+   ],
+   "title": "SarcasticSpeech: Speech Synthesis for Sarcasm in Low-Resource Scenarios ",
+   "original": "SSW2023_LBR4",
+   "page_count": 2,
+   "order": 40,
+   "p1": 242,
+   "pn": 243,
+   "abstract": [
+    "Sarcastic speech synthesis, the ability to generate speech that\nconveys sarcasm, can have several significant implications in\nvarious contexts, such as entertainment and better human-computer interaction. This study presents a first attempt to\napply transfer learning techniques from a diverse speech style\ndataset to the challenging domain of sarcastic speech synthesis.\nThe limited availability of specific sarcastic speech data poses\nsignificant challenges in capturing the expressive nature of sarcasm. By leveraging transfer learning, a pre-trained model is\nfine-tuned using a dataset encompassing various speech styles,\nincluding sarcastic speech. The synthesized sound contains\nsome robotic elements, indicating moderate performance improvements in sarcastic speech synthesis through transfer learning. Future work will explore the application of multi-modal\napproaches to improve sarcastic speech synthesis and further\nenhance the expressiveness and naturalness of generated sarcastic speech.\n"
+   ]
+  },
+  "sanders23_ssw": {
+   "authors": [
+    [
+     "Nicholas",
+     "Sanders"
+    ],
+    [
+     "Korin",
+     "Richmond"
+    ]
+   ],
+   "title": "Recovering Discrete Prosody Inputs via Invert-Classify ",
+   "original": "SSW2023_LBR5",
+   "page_count": 2,
+   "order": 41,
+   "p1": 244,
+   "pn": 245,
+   "abstract": [
+    "Modeling prosody in Text-to-Speech (TTS) is challenging due to ambiguous orthography and the high cost of annotating prosodic events. This study focuses on the modeling of contrastive focus, the emphasis of a word to contrast it to presup- positions held by an interlocutor. Modeling of contrastive focus can be done in TTS by using binary, symbolic inputs at the word level in a supervised setting. To address the absence of annotated data, we propose the Invert-Classify method, which leverages a frozen TTS model and unlabeled parallel text-speech data to recover missing contrastive focus inputs. Our approach achieves a binary F-score of 0.71 for contrastive focus annotation recovery, utilizing only 10% of annotated training data. These findings establish fundamental insights and techniques that can be extended and refined for other prosody modeling methods in TTS. \n"
+   ]
+  },
+  "sigurgeirsson23_ssw": {
+   "authors": [
+    [
+     "Atli Thor",
+     "Sigurgeirsson"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Using a Large Language Model to Control Speaking Style for Expressive TTS ",
+   "original": "SSW2023_LBR6",
+   "page_count": 2,
+   "order": 42,
+   "p1": 246,
+   "pn": 247,
+   "abstract": [
+    "Large generative language models have been used to solve various language-related tasks. We explore whether such models can suggest appropriate prosody for expressive TTS. We train a TTS model and then prompt the language model to suggest appropriate changes to pitch, energy and duration. The prompt can be designed for any task and we prompt the model to make suggestions based on target speaking style and dialogue context. The proposed method is rated most appropriate in 49.9% of cases compared to 31.0% for a baseline model\n"
+   ]
+  },
+  "strickland23_ssw": {
+   "authors": [
+    [
+     "Emmett",
+     "Strickland"
+    ],
+    [
+     "Dana",
+     "Aubakirova"
+    ],
+    [
+     "Dorin",
+     "Doncenco"
+    ],
+    [
+     "Diego",
+     "Torres"
+    ],
+    [
+     "Marc",
+     "Evrard"
+    ]
+   ],
+   "title": "NaijaTTS: A pitch-controllable TTS model for Nigerian Pidgin",
+   "original": "SSW2023_LBR7",
+   "page_count": 2,
+   "order": 43,
+   "p1": 248,
+   "pn": 249,
+   "abstract": [
+    "The following report introduces an ongoing project to produce a pitch-controllable speech synthesis model for Nigerian Pidgin, a widely-spoken but poorly-resourced language of West Africa. The first dedicated Nigerian Pidgin TTS model, NaijaTTS, is intended to provide a tool for linguists wishing to study the prosody of this language in an experimental context. In this paper, we present the key objectives of our model, the progress made thus far, and the challenges involved in building a TTS model for this low-resource language.\n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Orals 1: TTS input",
+   "papers": [
+    "bailly23_ssw",
+    "fong23_ssw",
+    "moya23_ssw",
+    "do23_ssw"
+   ]
+  },
+  {
+   "title": "Orals 2: Evaluation",
+   "papers": [
+    "finkelstein23b_ssw",
+    "seebauer23_ssw",
+    "kirkland23_ssw",
+    "platek23_ssw"
+   ]
+  },
+  {
+   "title": "Orals 3: Beyond text-to-speech",
+   "papers": [
+    "louw23_ssw",
+    "matsunaga23_ssw",
+    "lameris23_ssw",
+    "omahony23_ssw"
+   ]
+  },
+  {
+   "title": "Orals 4: Voice conversion",
+   "papers": [
+    "das23_ssw",
+    "tanaka23_ssw",
+    "hirai23_ssw",
+    "kashkin23_ssw"
+   ]
+  },
+  {
+   "title": "Orals 5: Expressivity, emotion and styles",
+   "papers": [
+    "diatlova23_ssw",
+    "joly23_ssw",
+    "lenglet23_ssw",
+    "kakouros23_ssw"
+   ]
+  },
+  {
+   "title": "Orals 6: Long form, multimodal & multi-speaker TTS",
+   "papers": [
+    "stan23_ssw",
+    "zhang23_ssw",
+    "raitio23_ssw",
+    "mehta23_ssw"
+   ]
+  },
+  {
+   "title": "Posters SSW",
+   "papers": [
+    "chen23_ssw",
+    "wang23_ssw",
+    "guennec23_ssw",
+    "shankar23_ssw",
+    "duret23_ssw",
+    "kayyar23_ssw",
+    "shiralishahreza23_ssw",
+    "elmers23_ssw",
+    "yoshimura23_ssw",
+    "finkelstein23_ssw",
+    "vecino23_ssw",
+    "ibrahimov23_ssw"
+   ]
+  },
+  {
+   "title": "Late breaking reports (not peer reviewed)",
+   "papers": [
+    "alwaisi23_ssw",
+    "fong23b_ssw",
+    "jacquelin23_ssw",
+    "li23_ssw",
+    "sanders23_ssw",
+    "sigurgeirsson23_ssw",
+    "strickland23_ssw"
+   ]
+  }
+ ],
+ "doi": "10.21437/SSW.2023"
+}

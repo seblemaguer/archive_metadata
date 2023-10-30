@@ -1,0 +1,724 @@
+{
+ "title": "Modeling Pronunciation Variation",
+ "location": "Rolduc, The Netherlands",
+ "startDate": "4/5/1998",
+ "endDate": "6/5/1998",
+ "conf": "MPV",
+ "year": "1998",
+ "name": "mpv_1998",
+ "series": "",
+ "SIG": "",
+ "title1": "Modeling Pronunciation Variation",
+ "date": "4-6 May 1998",
+ "papers": {
+  "addadecker98_mpv": {
+   "authors": [
+    [
+     "Martine",
+     "Adda-Decker"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ]
+   ],
+   "title": "Pronunciation variants across systems, languages and speaking style",
+   "original": "mpv8_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "This contribution aims at evaluating the use of pronunciation variants across different system configurations, languages and speaking styles. This study is limited to the use of variants during speech alignment, given an orthographic transcription and a phonemically represented lexicon, thus focusing on the modeling abilities of the acoustic word models. Parallel and sequential variants are tested in order to measure the spectral and temporal modeling accuracy. As a preliminary step we investigated the dependance of the aligned variants on the recognizer configuration. A cross-lingual study was carried out for read speech in French and American English using the BREF and the WSJ corpora. A comparison between read and spontaneous speech is presented for French based on alignments from BREF (read) and MASK (spontaneous) data.\n",
+    ""
+   ]
+  },
+  "bacchiani98_mpv": {
+   "authors": [
+    [
+     "M.",
+     "Bacchiani"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ]
+   ],
+   "title": "Joint acoustic unit design and lexicon generation",
+   "original": "mpv8_007",
+   "page_count": 6,
+   "order": 2,
+   "p1": "7",
+   "pn": "12",
+   "abstract": [
+    "Although most parameters in a speech recognition system are estimated from data by use of an objective function, the unit inventory and lexicon are generally hand crafted and therefore unlikely to be optimal. This paper proposes a joint solution to the related problems of learning a unit inventory and corresponding lexicon from data. The proposed algorithm performs comparably to a state-of-the-art phone-based system on a speaker independent read speech task with moderate vocabulary size.\n",
+    ""
+   ]
+  },
+  "beulen98_mpv": {
+   "authors": [
+    [
+     "K.",
+     "Beulen"
+    ],
+    [
+     "S.",
+     "Ortmanns"
+    ],
+    [
+     "A.",
+     "Eiden"
+    ],
+    [
+     "S.",
+     "Martin"
+    ],
+    [
+     "L.",
+     "Welling"
+    ],
+    [
+     "J.",
+     "Overmann"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Pronunciation modelling in the RWTH large vocabulary speech recognizer",
+   "original": "mpv8_013",
+   "page_count": 4,
+   "order": 3,
+   "p1": "13",
+   "pn": "16",
+   "abstract": [
+    "In this paper we describe the application of pronunciation variants for our large vocabulary continuous speech recognizer. We will explain how the pronunciation variants were used in training and recognition and give some recognition results on three different corpora. The recognition tests were performed on the Wall Street Journal (WSJ) November 92 development and evaluation corpora (5 000 words), the North American Business (NAB) HI development corpus (20000 words) and on the Verbmobil 1996 evaluation corpus (5 000 words). For the WSJ and NAB corpora, a slight improvement in recognition accuracy can be observed, while for the Verbmobil corpus the error rate remains unchanged. In addition, we will discuss the incorporation of phrases in combination with pronunciation variants in the pronunciation lexicon as well as the language model. The recognition results on the WSJ November 92 development and evaluation corpora show that the main improvement due to phrases is caused by the language model.\n",
+    ""
+   ]
+  },
+  "bonaventura98_mpv": {
+   "authors": [
+    [
+     "P.",
+     "Bonaventura"
+    ],
+    [
+     "F.",
+     "Gallocchio"
+    ],
+    [
+     "J.",
+     "Mari"
+    ],
+    [
+     "G.",
+     "Micca"
+    ]
+   ],
+   "title": "Speech recognition methods for non-native pronunciation variations",
+   "original": "mpv8_017",
+   "page_count": 6,
+   "order": 4,
+   "p1": "17",
+   "pn": "22",
+   "abstract": [
+    "The experiment aims to verify the effects of non-native pronunciations on ASR performance. The basic CSELTs HMM, sub-word units recogniser, trained on the Italian and English phonetic sets, has been tested by three groups of bilingual subjects, respectively native speakers of Italian, English and Spanish on a vocabulary composed of 100 Italian and 100 English words. A noticeable drop in Word Accuracy was measured for production of English words by Italian subjects using the English recogniser and for production of Italian words by English subjects using the Italian recogniser. On the other hand, a small increase in error rate was observed for Spanish subjects using the Italian recogniser. The adoption of multiple phonetic transcriptions obtained by a-priori knowledge about alterations of the native pronunciations due to the influence of the native phonological system by the speaker, reduced the error rate by around 8%. Similar results were also obtained by adopting alternative transcriptions based on a posteriori information about the preferred non-native pronunciation phenomena, either obtained from the n-best variants generated by the HMM recogniser itself, or pointed out by the selection of the phonetic variants operated by a phonetic Neural Network (NN) decoder run on a development data set. Finally, a preliminary test was run using the a priori transcriptions with a multi-phonetic recogniser, trained simultaneously on a multilingual speech database consisting of Italian, English, Spanish and German utterances.\n",
+    ""
+   ]
+  },
+  "cremelie98_mpv": {
+   "authors": [
+    [
+     "Nick",
+     "Cremelie"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ]
+   ],
+   "title": "In search of pronunciation rules",
+   "original": "mpv8_023",
+   "page_count": 5,
+   "order": 5,
+   "p1": "23",
+   "pn": "28",
+   "abstract": [
+    "In this paper a data-driven method for the automatic induction of pronunciation rules by means of the analysis of an orthographically transcribed speech corpus is presented. One part of the rules are positive rules describing a transformation that can be applied to the reference transcription of a word in order to produce an alternative pronunciation of that word. Most of the rules however are negative rules describing a transformation that should not be applied in a particular context. The rule learning process first compiles a list of candidate pronunciation rules. A rule pruning procedure, informed by statistics derived from the training corpus, subsequently reduces the rule set without introducing any significant loss of information. Finally, the rules are labeled as either positive or negative. By applying the rules, a consistent set of pronunciation variants of each word is generated. Experiments show that the introduction of such variants in a segment-based recognizer significantly improves the recognition accuracy.\n",
+    ""
+   ]
+  },
+  "ferreiros98_mpv": {
+   "authors": [
+    [
+     "Javier",
+     "Ferreiros"
+    ],
+    [
+     "Javier",
+     "Macias-Guarasa"
+    ],
+    [
+     "José M.",
+     "Pardo"
+    ],
+    [
+     "Luis",
+     "Villarrubia"
+    ]
+   ],
+   "title": "Introducing multiple pronunciations in Spanish speech recognition systems",
+   "original": "mpv8_029",
+   "page_count": 6,
+   "order": 6,
+   "p1": "29",
+   "pn": "34",
+   "abstract": [
+    "Pronunciation variations are common sources of recognition errors in real-world applications, so that specific techniques must be developed to handle them. We are describing a method to incorporate pronunciation alternatives that have been tested with both continuous and isolated word speech recognisers for Spanish. We present an automatic grapheme-to-phoneme system, modified to generate alternate pronunciations. It works according to phonological rules manually developed using certain variations, well known in the linguistic community but not widely exploited in the Spanish speech recognition arena. We will apply this strategy only to the recognition stage of both a continuous speech recogniser for clean speech data, and an isolated one for a telephone environment task. We will report improvements up to 20% decrease in error rate, for the continuous speech task, while for the isolated word recognition task, no significant effect has been found. We will conclude analysing which effects have led to these results and discuss future work to be done.\n",
+    ""
+   ]
+  },
+  "foslerlussier98_mpv": {
+   "authors": [
+    [
+     "Eric",
+     "Fosler-Lussier"
+    ],
+    [
+     "Nelson",
+     "Morgan"
+    ]
+   ],
+   "title": "Effects of speaking rate and word frequency on conversational pronunciations",
+   "original": "mpv8_035",
+   "page_count": 6,
+   "order": 7,
+   "p1": "35",
+   "pn": "40",
+   "abstract": [
+    "The possible set of pronunciations in continuous speech corpora change dynamically with many factors. Two variables, speaking rate and word predictability, seemed to be promising candidates for integration into dynamic ASR pronunciation models; however, our initial efforts to incorporate these factors into phone-level decision tree models met with limited success. In this paper, we confirm the intuition that these factors have an effect on ASR systems, and analyze the relationship between these factors and pronunciations in order to shed light on why the decision trees models failed. We present a statistical exploration of the effects of these factors at the word, syllable, and phone level in the Switchboard corpus. We show that both increased speaking rate and word likelihood can induce a significant shift in probabilities of the pronunciations of frequent words. Using these data, we hypothesize reasons for the difficulty in incorporating these dynamic measures into phone-level decision trees.\n",
+    ""
+   ]
+  },
+  "fukada98_mpv": {
+   "authors": [
+    [
+     "Toshiaki",
+     "Fukada"
+    ],
+    [
+     "Takayoshi",
+     "Yoshimura"
+    ],
+    [
+     "Yoshinori",
+     "Sagisaka"
+    ]
+   ],
+   "title": "Automatic generation of multiple pronunciations based on neural networks and language statistics",
+   "original": "mpv8_041",
+   "page_count": 6,
+   "order": 8,
+   "p1": "41",
+   "pn": "46",
+   "abstract": [
+    "We propose a method for automatically generating a pronunciation dictionary based on a pronunciation neural network that can predict plausible pronunciations (alternative pronunciations) from the canonical pronunciation. This method can generate multiple forms of alternative pronunciations using the pronunciation network. For generating a sophisticated alternative pronunciation dictionary, two techniques are described: (1) alternative pronunciations with likelihoods and (2) alternative pronunciations for word boundary phonemes. Experimental results on spontaneous speech show that the automatically-derived pronunciation dictionaries give consistently higher recognition rates than a conventional dictionary.\n",
+    ""
+   ]
+  },
+  "greenberg98_mpv": {
+   "authors": [
+    [
+     "Steven",
+     "Greenberg"
+    ]
+   ],
+   "title": "Speaking in shorthand - a syllable-centric perspective for understanding pronunciation variation",
+   "original": "mpv8_047",
+   "page_count": 10,
+   "order": 9,
+   "p1": "47",
+   "pn": "56",
+   "abstract": [
+    "Current-generation automatic speech recognition (ASR) systems model spoken discourse as a linear sequence of words and phones. Because it is unusual for every phone within a word to be pronounced in a standard (\"canonical\") way, ASR systems often depend on a multi-pronunciation lexicon to match an acoustic sequence with a lexical unit. Since there are, in practice, many different ways for a word to be pronounced, this standard approach adds a layer of complexity and ambiguity to the decoding process which, if modified, could potentially improve recognition performance. Systematic analysis of pronunciation variation in a corpus of spontaneous English discourse (Switchboard) demonstrates that the variation observed is systematic at the level of the syllable. Syllabic onsets are realized in canonical form far more frequently than either coda or nuclear constituents. Prosodic stress also plays an important role in pronunciation. The governing mechanism is likely to involve the informational valence associated with syllable elements, and for this reason pronunciation variation offers a potential window onto the mechanisms responsible for the production and understanding of speech. \"The little things are infinitely the most important\" - Arthur Conan Doyle\n",
+    ""
+   ]
+  },
+  "heine98_mpv": {
+   "authors": [
+    [
+     "Henrik",
+     "Heine"
+    ],
+    [
+     "Gunnar",
+     "Evermann"
+    ],
+    [
+     "Uwe",
+     "Jost"
+    ]
+   ],
+   "title": "An HMM-based probabilistic lexicon",
+   "original": "mpv8_057",
+   "page_count": 6,
+   "order": 10,
+   "p1": "57",
+   "pn": "62",
+   "abstract": [
+    "When moving from read speech to spontaneous conversational speech, recognition accuracy of todays ASR systems usually decreases about 20-40% even with a huge amount of appropriate training data. We believe that this is to a large degree due to the variability of pronunciations observed in spontaneous speech. In this paper we propose the use of syllable-based Hidden- Markov-Models as a separate explicit pronunciation model. The use of sub-word units allows to even predict pronunciations for words that have not been observed in the training data. Since the output of a phone recognizer is used as input to the lexical model no manually phone-labeled data is needed for training. It can be shown that the HMM-based model does indeed learn the variations observed in the data. Using these pronunciation models allows to create better phone transcriptions of speech data and thus more specialized acoustic models. Utilizing these acoustical models for improved speech recognition though will require a close integration of the pronunciation models into the decoding process.\n",
+    ""
+   ]
+  },
+  "holter98_mpv": {
+   "authors": [
+    [
+     "Trym",
+     "Holter"
+    ],
+    [
+     "Torbjorn",
+     "Svendsen"
+    ]
+   ],
+   "title": "Maximum likelihood modelling of pronunciation variation",
+   "original": "mpv8_063",
+   "page_count": 4,
+   "order": 11,
+   "p1": "63",
+   "pn": "66",
+   "abstract": [
+    "This paper addresses the problem of generating lexical word representations that properly represent natural pronunciation variations for the purpose of improved speech recognition accuracy. The current work is based on a procedure for data-driven optimisation of the pronunciation dictionary which creates a single baseform per word in the vocabulary, subject to a maximum likelihood (ML) criterion [1]. In the current approach, we extend the ML formulation in order to achieve optimal modelling of pronunciation variations. Since different words will not in general exhibit the same amount of pronunciation variation, the procedure allows words to be represented by a different number of baseforms. The method improves the sub-word description of the vocabulary words, and has been shown to improve recognition performance on the DARPA Resource Management (RM) task.\n",
+    ""
+   ]
+  },
+  "lehtinen98_mpv": {
+   "authors": [
+    [
+     "Gunnar",
+     "Lehtinen"
+    ],
+    [
+     "Schamai",
+     "Safra"
+    ]
+   ],
+   "title": "Generation and selection of pronunciation variants for a flexible word recognizer",
+   "original": "mpv8_067",
+   "page_count": 5,
+   "order": 12,
+   "p1": "67",
+   "pn": "72",
+   "abstract": [
+    "This paper presents an approach for the generation and selection of pronunciation transcriptions for a flexible word recognizer. The basic idea is to produce pronunciation #variants and corresponding scores with a set of pronunciation variation rules, which are weighted with their frequencies of occurence measured on the training data. This approach addresses the problem of interfering transcriptions of different words producing recognition errors. As an extreme test case, pronunciation variants are produced by segmenting the graphemic string and replacing the graphemic segments into phonemic ones, according to a grapheme-phoneme cluster pair alphabet that covers all possible grapheme-phoneme relations in German. Results show that even with such inaccurate \"pronunciation variation\" rules recognition is at least as good as with standard phonetic transcriptions, without even a need for a lexicon. This is of course a major advantage for a flexible word recognizer.\n",
+    ""
+   ]
+  },
+  "mokbel98_mpv": {
+   "authors": [
+    [
+     "Houda",
+     "Mokbel"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ]
+   ],
+   "title": "Derivation of the optimal phonetic transcription set for a word from its acoustic realisations",
+   "original": "mpv8_073",
+   "page_count": 6,
+   "order": 13,
+   "p1": "73",
+   "pn": "78",
+   "abstract": [
+    "This paper describes an approach which uses two iterative algorithms for automatically finding multiple phonetic transcriptions of words, given sample utterances of the words and an inventory of context-dependent subword units. Based on an analysis of the TV-best phonetic decoding of the available utterances of a word, the proposed approach uses a likelihood criterion for deriving the optimal phonetic transcription set (cardinal and contents) for that word. To do that, it determines a partition of the set of utterances such that each subset is associated to one of the transcription variants. As the number of transcription variants derived by the algorithms is not the same for all the words in the test corpus, we investigate the word error rate evolution as function of the mean number of variants per corpus (this number varies according to a threshold value). Speaker independent recognition results on tasks consisting of the 10 digits and of 36 French isolated words collected over the telephone (Tregor corpus) are promising.\n",
+    ""
+   ]
+  },
+  "mouriabeji98_mpv": {
+   "authors": [
+    [
+     "Feriel",
+     "Mouria-Beji"
+    ]
+   ],
+   "title": "Context and speed dependent phonemic models for continuous speech recognition",
+   "original": "mpv8_079",
+   "page_count": 6,
+   "order": 14,
+   "p1": "79",
+   "pn": "84",
+   "abstract": [
+    "In this paper, we discuss the possibility of explicitly modeling, at a symbolic level, the contextual variation and the speaking rate effects which are the main sources of error in a continuous speech recognition system that uses phonems as the basic recognition units. It has been shown that modeling the phonetic context improves speech recognition accuracy. This paper describes a new approach called the automatically expending speed and context (AESC) approach, for including context-specific modelling in the ML-VINICS system where contextual deformations of the speech are described in a speech event-synchronized way rather than in the traditional time-synchronized way. Based on this approach, three models using respectively neural networks, stochastic trajectory modelling and a statistical method, were developed. When tested, with different speed, on a 1200 french sentences vocabulary, pronounced by eight male and two female speakers, they lead to an improvement in the recognition rate.\n",
+    ""
+   ]
+  },
+  "nock98_mpv": {
+   "authors": [
+    [
+     "H. J.",
+     "Nock"
+    ],
+    [
+     "S. J.",
+     "Young"
+    ]
+   ],
+   "title": "Detecting and correcting poor pronunciations for multiword units",
+   "original": "mpv8_085",
+   "page_count": 6,
+   "order": 15,
+   "p1": "85",
+   "pn": "90",
+   "abstract": [
+    "A popular heuristic technique for pronunciation modelling extends the lexicon with pronunciations for selected word phrases or multiword units in order to capture limited cross-word pronunciation effects without significantly increasing acoustic confusability or computational requirements. This paper describes methods for selecting a set of multiwords and for learning alternative pronunciations which are more representative of those found in fluent speech. The methods are evaluated on the Switchboard spontaneous speech task.\n",
+    ""
+   ]
+  },
+  "perennou98_mpv": {
+   "authors": [
+    [
+     "Guy",
+     "Perennou"
+    ],
+    [
+     "Laure",
+     "Brieussel-Pousse"
+    ]
+   ],
+   "title": "Phonological component in automatic speech recognition",
+   "original": "mpv8_091",
+   "page_count": 6,
+   "order": 16,
+   "p1": "91",
+   "pn": "96",
+   "abstract": [
+    "The present contribution has a double purpose. For one thing, it aims to introduce the pronunciation modelling - especially variability and context-dependency of the pronunciation - within the MHAT (Markovian Harmonic Adaptation and Transduction) framework. Lexical materials and a phonological are also defined within this framework. At the same time, within the above context, using spontaneous speech data through the telephone, three approaches of the pronunciation modelling for the continuous speech recognition are compared, the first one with a single pronunciation per word, the second one with context-free multiple variants per word and the third with context-dependent multiple variants per word.\n",
+    ""
+   ]
+  },
+  "peters98_mpv": {
+   "authors": [
+    [
+     "S. Douglas",
+     "Peters"
+    ],
+    [
+     "Peter",
+     "Stubley"
+    ]
+   ],
+   "title": "Visualizing speech trajectories",
+   "original": "mpv8_097",
+   "page_count": 5,
+   "order": 17,
+   "p1": "97",
+   "pn": "102",
+   "abstract": [
+    "While most research into pronunciation variation focuses on the phonology of the problem, this paper examines the problem in the acoustic domain. The motivation for this is simple: phonetic boundaries imply an artificial quantization of a fundamentally continuous process. The acoustic feature space to be considered is that of the cepstrum-based features used in a state-of-the-art speech recognition system. As a result, pronunciation variation will be investigated from the \"perspective\" of an automatic speech recognizer. In order to better visualize the acoustic effects of pronunciation variation, a tool has been constructed to project the acoustic features onto a suitable viewing plane. Acoustic models are also projected onto the same plane in order to appreciate the mismatch between typical acoustic data and carefully trained continuous-density Gaussian mixture observation pdfs.\n",
+    ""
+   ]
+  },
+  "polzin98_mpv": {
+   "authors": [
+    [
+     "Thomas S.",
+     "Polzin"
+    ],
+    [
+     "Alexander",
+     "Waibel"
+    ]
+   ],
+   "title": "Pronunciation variations in emotional speech",
+   "original": "mpv8_103",
+   "page_count": 5,
+   "order": 18,
+   "p1": "103",
+   "pn": "108",
+   "abstract": [
+    "In this paper we demonstrate how the emotional state of the speaker influences his or her speech. We show that recognition accuracy varies significantly depending on the emotional state of the speaker. Our system models the pronunciation variation of emotional speech both at the acoustic and prosodic level. We show that using emotion-specific acoustic and prosodic models allows the system to discriminate among four emotions (happy sad, angry, and afraid) well above chance level. Finally, we show that emotion-specific modeling improves the word accuracy of the speech recognition system when faced with emotional speech.\n",
+    ""
+   ]
+  },
+  "riley98_mpv": {
+   "authors": [
+    [
+     "M.",
+     "Riley"
+    ],
+    [
+     "W.",
+     "Byrne"
+    ],
+    [
+     "M.",
+     "Finke"
+    ],
+    [
+     "S.",
+     "Khudanpur"
+    ],
+    [
+     "Andrej",
+     "Ljolje"
+    ],
+    [
+     "J.",
+     "McDonough"
+    ],
+    [
+     "K.",
+     "Nock"
+    ],
+    [
+     "M.",
+     "Saraclar"
+    ],
+    [
+     "C.",
+     "Wooters"
+    ],
+    [
+     "G.",
+     "Zavaliagkos"
+    ]
+   ],
+   "title": "Stochastic pronunciation modelling from hand-labelled phonetic corpora",
+   "original": "mpv8_109",
+   "page_count": 8,
+   "order": 19,
+   "p1": "109",
+   "pn": "116",
+   "abstract": [
+    "In the early '90s, the availability of the TIMIT read-speech phonetically transcribed corpus led to work at AT&T on the automatic inference of pronunciation variation. This work, briefly summarized here, used stochastic decisions trees trained on phonetic and linguistic features, and was applied to the DARPA North American Business News read-speech ASR task.\n",
+    "More recently, the ICSI spontaneous-speech phonetically transcribed corpus was collected at the behest of the 1996 and 1997 LVCSR Summer Workshops held at Johns Hopkins University. A 1997 workshop (WS97) group focused on pronunciation inference from this corpus for application to the DoD Switchboard spontaneous telephone speech ASR task. We describe several approaches taken there. These include (1) one analogous to the AT&T approach, (2) one, inspired by work at WS96 and CMU, that involved adding pronunciation variants of a sequence of one or more words ('multiwords') in the corpus (with corpus-derived probabilities) into the ASR lexicon, and (l-f-2) a hybrid approach in which a decision-tree model was used to automatically phonetically transcribe a much larger speech corpus than ICSI and then the multiword approach was used to construct an ASR recognition pronunciation lexicon.\n",
+    ""
+   ]
+  },
+  "ristad98_mpv": {
+   "authors": [
+    [
+     "Eric Sven",
+     "Ristad"
+    ],
+    [
+     "Peter N.",
+     "Yianilos"
+    ]
+   ],
+   "title": "A surficial pronunciation model",
+   "original": "mpv8_117",
+   "page_count": 3,
+   "order": 20,
+   "p1": "117",
+   "pn": "120",
+   "abstract": [
+    "We argue for a surficial pronunciation model: a model without underlying forms. The surficial model outperforms a traditional generative model by a significant margin on conversational speech (Switchboard) as well as on read speech (TIMIT). Our results suggest that the true mapping from underlying forms to surface forms is too complex to be accurately modeled using current techniques, and that we would be best served to model the surface forms directly.\n",
+    ""
+   ]
+  },
+  "roach98_mpv": {
+   "authors": [
+    [
+     "Peter",
+     "Roach"
+    ],
+    [
+     "Simon",
+     "Arnfield"
+    ]
+   ],
+   "title": "Variation information in pronunciation dictionaries",
+   "original": "mpv8_121",
+   "page_count": 4,
+   "order": 21,
+   "p1": "121",
+   "pn": "124",
+   "abstract": [
+    "The role of a machine-readable pronunciation dictionary in ASR typically involves the look-up at some stage of a canonical pronunciation represented in phonemic transcription. Beyond this basic information, the problem of intra- and inter-speaker variation in usually thought to require the application of general rules which use phonetic knowledge about pronunciation variation to supply appropriate variant forms for different phonological contexts and different speakers. This approach is supported by the fact that most machine-readable dictionaries provide only one pronunciation per word, except where there are widely differing alternatives, and therefore contain little or no information about variation. However, specialist pronunciation dictionaries exist for English which contain in electronic form a rich documentation of pronunciation variants in the form of a computer database, and this in principle makes the information available for use in ASR systems. Unfortunately, the coding of information about alternative pronunciations for human users of the dictionaries is not easily adaptable for ASR purposes, and the number of alternatives coded in these dictionaries has never been calculated. This paper discusses how the information compactly coded in a pronouncing dictionary might be expanded into a full list of regularly found pronunciation variants which retains the details of preferences and contextual forms and could be used in ASR applications.\n",
+    ""
+   ]
+  },
+  "safra98_mpv": {
+   "authors": [
+    [
+     "Schamai",
+     "Safra"
+    ],
+    [
+     "Gunnar",
+     "Lehtinen"
+    ],
+    [
+     "Karl",
+     "Huber"
+    ]
+   ],
+   "title": "Modeling pronunciation variations and coarticulation with finite-state transducers in CSR",
+   "original": "mpv8_125",
+   "page_count": 6,
+   "order": 22,
+   "p1": "125",
+   "pn": "130",
+   "abstract": [
+    "In this paper we report on how Finite-State Transducers (FST) can be integrated into a CSR system to express the regular context-dependent relationship between a canonical phonemic language model and its possible phonetic realizations, and thus cover many of pronunciation variation and inter- and intra-word coarticulation phenomena. By having a separate intermediate model for those phenomena we keep them out of the higher lexical level and the lower level of acoustic models so each of the levels can be handled separately and can be made more accurate. We present some experimental results of the use of FSTs in our experimental CSR system ARCOS-G[1]. These FSTs were compiled from combinations of so-called two-level rules which were assembled manually according to a small set of well-known linguistic rules in German. We then address the question of automatically generating FSTs from examples. Our special focus is to keep the resulting FSTs manageably small by combining the many particular rules learned from examples with few, but more general rules manually collected. Experiments with different approaches are presented.\n",
+    ""
+   ]
+  },
+  "schiel98_mpv": {
+   "authors": [
+    [
+     "Florian",
+     "Schiel"
+    ],
+    [
+     "Andreas",
+     "Kipp"
+    ],
+    [
+     "Hans-Günther",
+     "Tillmann"
+    ]
+   ],
+   "title": "Statistical modelling of pronunciation: it's not the model, it's the data",
+   "original": "mpv8_131",
+   "page_count": 6,
+   "order": 23,
+   "p1": "131",
+   "pn": "136",
+   "abstract": [
+    "In this paper we describe a method to model pronunciation for ASR in the German VERBMOBIL task. Our findings suggest that a simple model, i.e. pronunciation variants modelled by SAM-PA units and weighted with a-posteriori probabilities, can be used successfully for ASR, if there is a sufficient amount of reliably transcribed speech data available. Manual segmentation and labelling of speech (especially spontaneous speech, as in the scheduling task of VERBMOBIL) is very expensive and time consuming and requires carefully trained experts and supervisors. Even with considerable effort it is not possible to produce broad phonetic transcripts for more than a small part of today customary speech databases. Therefore, as a first step in our approach we developed the fully automatic segmentation and labelling tool MAUS ('Munich Automatic Segmentation') for spontaneous German speech. The first part of our presentation will give a concise description of the MAUS method as well as an evaluation by comparing the results of MAUS with inter-labeller agreements of three expert phoneticians on the same data. The results show that MAUS operates within the range of human experts in terms of transcription while the timing information still lacks the quality of human segmenters. In a second step we used the MAUS system to segment and label 32h of speech in the 1996 VERBMOBIL acoustic evaluation to obtain more 320.000 transcribed words from the scheduling task. A simple counting, pruning and discounting technique (similar to that used for language modelling) is used to derive a probabilistic model of pronunciation. It provides a varying number of pronunciation variants per lexical entity together with the a-posteriori probability P(V|W) that a variant V is uttered given the lexical entity W. A baseline system using HTK was set up for the 1996 VERBMOBIL evaluation task using monophones and a 'most likely' pronunciation dictionary (the 'most likelihood' was judged by a human expert NOT by empiric data). A second system with statistical modelling of pronunciation together with a proper re-training of the acoustic models showed significant better results on the same task in terms of word accuracy. Prom these findings we conclude that there's more to be done to achieve reliable and precisely labelled and segmented speech data than to investigate into very complex models which are usually prune to over-generalisation and lexical ambiguity.\n",
+    ""
+   ]
+  },
+  "strik98_mpv": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ]
+   ],
+   "title": "Modeling pronunciation variation for ASR: overview and comparison of methods",
+   "original": "mpv8_137",
+   "page_count": 8,
+   "order": 24,
+   "p1": "137",
+   "pn": "144",
+   "abstract": [
+    "In this contribution an overview is provided of the papers presented at this workshop. First, the most important characteristics that distinguish the various studies on pronunciation variation modeling are discussed. Subsequently, the issues of evaluation and comparison are addressed. Particular attention is paid to some of the most important factors that make it difficult to compare the different methods in an objective way. Finally, some conclusions are drawn as to the importance of objective evaluation and the way in which it could be carried out.\n",
+    ""
+   ]
+  },
+  "wester98_mpv": {
+   "authors": [
+    [
+     "Mirjam",
+     "Wester"
+    ],
+    [
+     "Judith M.",
+     "Kessens"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Improving the performance of a dutch CSR by modeling pronunciation variation",
+   "original": "mpv8_145",
+   "page_count": 6,
+   "order": 25,
+   "p1": "145",
+   "pn": "150",
+   "abstract": [
+    "This paper describes how the performance of a continuous speech recognizer for Dutch has been improved by modeling pronunciation variation. We used three methods in order to model pronunciation variation. First, within-word variation was dealt with. Phonological rules were applied to the words in the lexicon, thus automatically generating pronunciation variants. Secondly, cross-word pronunciation variation was accounted for by adding multi-words and their variants to the lexicon. Thirdly, probabilities of pronunciation variants were incorporated in the language model (LM), and thresholds were used to choose which pronunciation variants to add to the LMs. For each of the methods, recognition experiments were carried out. A significant improvement in error rates was measured.\n",
+    ""
+   ]
+  },
+  "williams98_mpv": {
+   "authors": [
+    [
+     "Gethin",
+     "Williams"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Confidence measures for evaluating pronunciation models",
+   "original": "mpv8_151",
+   "page_count": 5,
+   "order": 26,
+   "p1": "151",
+   "pn": "156",
+   "abstract": [
+    "In this paper, we investigate the use of confidence measures for the evaluation of pronunciation models and the employment of these evaluations in an automatic baseform learning process. The confidence measures and pronunciation models are obtained from the ABBOT hybrid Hidden Markov Model/Artificial Neural Network (HMM/ANN) Large Vocabulary Continuous Speech Recognition (LVCSR) system [8]. Experiments were carried out for a number of baseform learning schemes using the ARPA North American Business News (NAB) and the Broadcast News (BN) corpora from which it was found that a confidence measure based scheme provided the largest reduction in Word Error Rate (WER).\n",
+    ""
+   ]
+  },
+  "wiseman98_mpv": {
+   "authors": [
+    [
+     "Richard",
+     "Wiseman"
+    ],
+    [
+     "Simon",
+     "Downey"
+    ]
+   ],
+   "title": "Dynamic and static improvements to lexical baseforms",
+   "original": "mpv8_157",
+   "page_count": 6,
+   "order": 27,
+   "p1": "157",
+   "pn": "162",
+   "abstract": [
+    "One limitation of many speaker independent recognition systems is their dependence on a single-baseform dictionary to model word pronunciations. This paper investigates two approaches to improve lexical baseforms. In the first, 'ideal' transcriptions of utterances are looked up in a pronunciation dictionary and are compared to phonetic level hand-annotated transcriptions. The differences between the two transcriptions reveal many common mispronunciations, accent-based alternatives, false-starts and incorrect word substitutions. The second approach applies phonologically developed rules and transforms to the lexical representation of the utterance, generating a pronunciation network. This approach has the advantage of being able to explicitly model cross-word coarticulation effects, whereas the former approach models them implicitly to a certain extent. The relative merits of each technique are investigated using a set of experiments performed on a phonetically rich data- base and the WSJCamO corpus.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "addadecker98_mpv",
+    "bacchiani98_mpv",
+    "beulen98_mpv",
+    "bonaventura98_mpv",
+    "cremelie98_mpv",
+    "ferreiros98_mpv",
+    "foslerlussier98_mpv",
+    "fukada98_mpv",
+    "greenberg98_mpv",
+    "heine98_mpv",
+    "holter98_mpv",
+    "lehtinen98_mpv",
+    "mokbel98_mpv",
+    "mouriabeji98_mpv",
+    "nock98_mpv",
+    "perennou98_mpv",
+    "peters98_mpv",
+    "polzin98_mpv",
+    "riley98_mpv",
+    "ristad98_mpv",
+    "roach98_mpv",
+    "safra98_mpv",
+    "schiel98_mpv",
+    "strik98_mpv",
+    "wester98_mpv",
+    "williams98_mpv",
+    "wiseman98_mpv"
+   ]
+  }
+ ]
+}

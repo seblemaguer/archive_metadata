@@ -1,0 +1,1587 @@
+{
+ "title": "2nd ESCA/IEEE Workshop on Speech Synthesis (SSW 2)",
+ "location": "Mohonk Mountain House, New Paltz, NY, USA",
+ "startDate": "12/9/1994",
+ "endDate": "15/9/1994",
+ "conf": "SSW",
+ "year": "1994",
+ "name": "ssw_1994",
+ "series": "SSW",
+ "SIG": "SynSIG",
+ "title1": "2nd ESCA/IEEE Workshop on Speech Synthesis",
+ "title2": "(SSW 2)",
+ "date": "12-15 September 1994",
+ "papers": {
+  "pierrehumbert94_ssw": {
+   "authors": [
+    [
+     "Janet",
+     "Pierrehumbert"
+    ],
+    [
+     "Stefan",
+     "Frisch"
+    ]
+   ],
+   "title": "Source allophony and speech synthesis",
+   "original": "ssw2_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "The paper presents experimental results on glottalized segments, demonstrating the interaction of segmental and prosodic factors. Successful synthesis of glottalization based on the Klatt (1988) source model is presented.\n",
+    ""
+   ]
+  },
+  "richard94_ssw": {
+   "authors": [
+    [
+     "Gael",
+     "Richard"
+    ],
+    [
+     "Christophe",
+     "D'Alessandro"
+    ]
+   ],
+   "title": "Time-domain analysis/synthesis of the aperiodic component of speech signals",
+   "original": "ssw2_005",
+   "page_count": 4,
+   "order": 2,
+   "p1": "5",
+   "pn": "8",
+   "abstract": [
+    "This paper introduces a new analysis/synthesis algorithm for representing the aperiodic component of the excitation source in speech signals. This component is decomposed as a sum of random Formant Wave Forms (FWF). The time of arrivals of the FWF define the virtual excitation source. The signal is decomposed in subbands, and, according to the random modulation theory, each passband signal is represented as an envelope modulating an oscillating term. For each signal in a band, the formant filter parameters and the excitation source are esti- mated in the time domain. DCR tests show that this new representation scheme gives a very good fusion of the aperiodic component with the quasi-periodic component of speech. The method proposed provides new relevant parameters for manipulating the voice quality features that are linked to noise.\n",
+    ""
+   ]
+  },
+  "bailly94_ssw": {
+   "authors": [
+    [
+     "Gerard",
+     "Bailly"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Bernard",
+     "Gabioud"
+    ]
+   ],
+   "title": "Building prototypes for articulatory speech synthesis",
+   "original": "ssw2_009",
+   "page_count": 4,
+   "order": 3,
+   "p1": "9",
+   "pn": "12",
+   "abstract": [
+    "We present a method for specifying acoustic targets for articulatory synthesis. The controller is driven by an \"acoustic\" score which specifies the skeleton of the desired audio-visual properties of the output. We examine here the possibility of specifying simple VV and CV transitions.\n",
+    ""
+   ]
+  },
+  "bickley94_ssw": {
+   "authors": [
+    [
+     "Corine A.",
+     "Bickley"
+    ],
+    [
+     "Kenneth N.",
+     "Stevens"
+    ],
+    [
+     "David R.",
+     "Williams"
+    ]
+   ],
+   "title": "A framework for synthesis of segments based on articulatory parameters",
+   "original": "ssw2_013",
+   "page_count": 4,
+   "order": 4,
+   "p1": "13",
+   "pn": "16",
+   "abstract": [
+    "Procedures are described for rule-based synthesis of segmental aspects of an utterance using a formant synthesizer controlled by higher-level (HL) parameters. The rules for segmental synthesis are described in terms of: (1) the formation and release of a consonantal constriction; (2) the actions of the secondary articulators of the glottis, the velopharyngeal opening, active pharyngeal expansion or contraction, and consonant- induced changes in fundamental frequency; and (3) rules specifying formant parameters related to tongue-body movements and lip rounding. Several examples of synthesis based on this production model are given.\n",
+    ""
+   ]
+  },
+  "wilhelmstricarico94_ssw": {
+   "authors": [
+    [
+     "Reiner",
+     "Wilhelms-Tricarico"
+    ],
+    [
+     "Joseph S.",
+     "Perkell"
+    ]
+   ],
+   "title": "Biomechanical and physiologically based speech modeling",
+   "original": "ssw2_017",
+   "page_count": 4,
+   "order": 5,
+   "p1": "17",
+   "pn": "20",
+   "abstract": [
+    "Improvements in speech synthesis may be achieved through an increased understanding of the actual physiology and control of speech production. Towards this end, a 3-dimensional dynamic finite-element tongue model is described which is the first component of a research project directed at a physiologically based computer simulation of the vocal tract.\n",
+    ""
+   ]
+  },
+  "rodriguezcrespo94_ssw": {
+   "authors": [
+    [
+     "M. A.",
+     "Rodríguez-Crespo"
+    ],
+    [
+     "P.",
+     "Sanz-Velasco"
+    ],
+    [
+     "L.",
+     "Monzón-Serrano"
+    ],
+    [
+     "J. G.",
+     "Escalada-Sardina"
+    ]
+   ],
+   "title": "On the use of a sinusoidal model for speech synthesis units",
+   "original": "ssw2_021",
+   "page_count": 4,
+   "order": 6,
+   "p1": "21",
+   "pn": "24",
+   "abstract": [
+    "This paper discusses the adequacy of a model that represents the speech signal as a sum of sine waves to the requirements of concatenative speech synthesis in TTS. This model allows wide range and high quality prosodic modifications, and produces smooth transitions where the speech segments are joined. A preference test has been carried out between speech synthesized using a pitch synchronous LPC (PS-LPC) synthesizer and the sinusoidal synthesizer.\n",
+    ""
+   ]
+  },
+  "conway94_ssw": {
+   "authors": [
+    [
+     "Stephen M.",
+     "Conway"
+    ]
+   ],
+   "title": "Using feed-forward neural networks to produce vowel formant tracks in CVC triphones",
+   "original": "ssw2_025",
+   "page_count": 4,
+   "order": 7,
+   "p1": "25",
+   "pn": "28",
+   "abstract": [
+    "Abstract I have investigated the ability of neural networks to learn to map from CVC triphones to vowel formant tracks and the effect of a number of factors on that process. Intelligible speech is produced. The input representation has little effect, but the output representation is very important, with a simple triple of frequency values for the start, centre and end of each formant being most effective.\n",
+    ""
+   ]
+  },
+  "shih94_ssw": {
+   "authors": [
+    [
+     "Chilin",
+     "Shih"
+    ],
+    [
+     "Benjamin",
+     "Ao"
+    ]
+   ],
+   "title": "Duration study for the AT&t Mandarin text-to-speech system",
+   "original": "ssw2_029",
+   "page_count": 4,
+   "order": 8,
+   "p1": "29",
+   "pn": "32",
+   "abstract": [
+    "We present in this paper the methodology and results of a duration study designed for the Mandarin Chinese Text-to-speech system of AT&T Bell Laboratories. A greedy algorithm is used to select text from on-line corpora to maximize the coverage of factors that are important to duration study. Duration model and interesting results will be discussed.\n",
+    ""
+   ]
+  },
+  "prieto94_ssw": {
+   "authors": [
+    [
+     "Pilar",
+     "Prieto"
+    ],
+    [
+     "Jan P. H. van",
+     "Santen"
+    ],
+    [
+     "Julia",
+     "Hirschberg"
+    ]
+   ],
+   "title": "Patterns of f<sub>0</sub> peak placement in Mexican Spanish",
+   "original": "ssw2_033",
+   "page_count": 4,
+   "order": 9,
+   "p1": "33",
+   "pn": "36",
+   "abstract": [
+    "A speaker of Mexican Spanish read 405 declarative sentences containing nine distinct target syllables with an H* accent, under different prosodic conditions: end of intonational phrase, end of intermediate phrase, and phrase-medial (varying syllabic position in the word and distance to the next stressed syllable). A preliminary analysis shows that intrasyllabic segmental durations and prosodic factors such as adjacency to word, intonational, and intermediate boundaries, as well as stress clash, are key components in the prediction of peak location.\n",
+    ""
+   ]
+  },
+  "hamada94_ssw": {
+   "authors": [
+    [
+     "Hiroshi",
+     "Hamada"
+    ],
+    [
+     "Jin'ichi",
+     "Chiba"
+    ]
+   ],
+   "title": "A GUI-based interactive speech editor for synthetic speech creation",
+   "original": "ssw2_037",
+   "page_count": 4,
+   "order": 10,
+   "p1": "37",
+   "pn": "40",
+   "abstract": [
+    "For the purpose of modifying synthetic speech style, an \"interactive speech editor\" has been developed. The interactive speech editor is a software package running on a personal computer coupled to a Japanese text-to-speech synthesizer. The speech editor has three major functions: (i)edit the basic text input to the text-to-speech synthesizer, (ii)alter the prosodic features of the synthetic speech by interacting with a graphical user interface (GUI), (iii)control prosodic feature parameters to achieve emphasis of specific words or phrases according to the emphasis level. Evaluation experiments show that the interactive speech editor is a useful and powerful tool for achieving any desired synthetic speech style.\n",
+    ""
+   ]
+  },
+  "abe94_ssw": {
+   "authors": [
+    [
+     "Masanobu",
+     "Abe"
+    ],
+    [
+     "Hideyuki",
+     "Mizuno"
+    ]
+   ],
+   "title": "A strategy for changing speaking styles in text-to-speech systems",
+   "original": "ssw2_041",
+   "page_count": 4,
+   "order": 11,
+   "p1": "41",
+   "pn": "44",
+   "abstract": [
+    "For enhancing the performance of text-to-speech(TTS) systems, this paper proposes the extraction of rules specific to particular speaking styles. This strategy makes it easy for a TTS system to synthesize speech in various speaking styles. As the first trial, three speaking styles were examined. Specific rules were generated for 1st and 3rd formant frequency, Fo height assignment for minor phrases, average phoneme duration, duration lengthening in a syllable followed by a pause or sentence end, and speech power gain. The rules were integrated into a conventional TTS system and listening tests confirmed the good performance of the proposed strategy.\n",
+    ""
+   ]
+  },
+  "hertz94_ssw": {
+   "authors": [
+    [
+     "Susan R.",
+     "Hertz"
+    ],
+    [
+     "Elizabeth C.",
+     "Zsiga"
+    ],
+    [
+     "Kenneth J. de",
+     "Jong"
+    ],
+    [
+     "Paul",
+     "Gries"
+    ],
+    [
+     "Katherine E.",
+     "Lockwood"
+    ]
+   ],
+   "title": "From database to speech: a multi-dialect relational database integrated with the Eloquence synthesis technology",
+   "original": "ssw2_045",
+   "page_count": 4,
+   "order": 12,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "This paper describes a multi-dialect relational database designed to support development of a multi-voice computer program, called Eloquence, for rule-based synthesis of four dialects of American English - General American, Brooklyn, Boston, and a dialect of Alabama. In addition to higher-level linguistic information, the database includes detailed spectral and durational information about formants, voicing, frication, and aspiration for a variety of utterance types in each dialect. From information in the database, multi-tiered utterance representations can be automatically generated for immediate synthesis with the Delta System, the rule development tool being used to implement and test Eloquence. This paper first gives background information about Eloquence and then describes the database, exemplifying how it is being used to derive rules for the language-universal (LU), language-specific/dialect-general (LS), and dialect-specific (DS) components in Eloquence.\n",
+    ""
+   ]
+  },
+  "guiardmarigny94_ssw": {
+   "authors": [
+    [
+     "Thierry",
+     "Guiard-Marigny"
+    ],
+    [
+     "Ali",
+     "Adjoudani"
+    ],
+    [
+     "Christian",
+     "Benoît"
+    ]
+   ],
+   "title": "A 3-d model of the lips for visual speech synthesis",
+   "original": "ssw2_049",
+   "page_count": 4,
+   "order": 13,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "Unlike most of the regions of the human face, lips are essentially characterized by their border contours. The internal and external contours of the vermilion zone can be fitted by means of algebraic equations. The coefficients of these equations must be controlled so that the lip shape can be adapted to various speakers conformations and to any speech gesture. To reach this goal, the 3-D model of the lips here described has been worked out from geometrical analysis of the natural lips of a French speaker videotaped when uttering the most representative coarticulated strings of French phonemes. The reference labial database we used was made of 22 lip-jaw shapes that constitute the \"labial space\" of a French speaker and of the most relevant parameters. From this, a 2-D lip model was developed to adjust a set of continuous functions that best fit the front contours of the 22 \"visemes\". Then all the various equation coefficients were predicted from only three anatomical parameters which can easy to measure on the speaker's face. This model was then extended to 3D. Equations of the lip contours in the axial plane was similarly obtained. Volume was then given to the lips by linearly interpolating three intermediate contours in between the internal and external ones. Ultimately, five parameters are necessary to predict all the equations of this 3-D model.\n",
+    ""
+   ]
+  },
+  "goff94_ssw": {
+   "authors": [
+    [
+     "B. Le",
+     "Goff"
+    ],
+    [
+     "Thierry",
+     "Guiard-Marigny"
+    ],
+    [
+     "M.",
+     "Cohen"
+    ],
+    [
+     "Christian",
+     "Benoît"
+    ]
+   ],
+   "title": "Real-time analysis-synthesis and intelligibility of talking faces",
+   "original": "ssw2_053",
+   "page_count": 4,
+   "order": 14,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "Analytic measurement of visual parameters relevant to the labial production of speech as well as real-time 3D computer animated models of the lips and of the face have been implemented on two coupled computers, so that synthetic lips alone or a whole facial model can mimic on line (or play back) the actual gestures of a natural speaker. The geometric measurements performed on the speaker's lips and jaw are made through image processing of the front and profile view of the speaker's face. Data are transmitted to a display computer through a control interface which delivers the proper parameters to control the animation of the 3D models. The lip model uses five control parameters and the facial model uses one extra one: jaw lowering. At present, the tongue is not controlled. We here present the real-time techniques used for analysis, animation of the 3D models, and synchronization of the two processes. Finally, we evaluate the bimodal intelligibility of speech under five levels of acoustic degradation by added noise. We compare the intelligibility of the speech signal presented alone, with the lip model, with the facial model, and with the original speaker's face. Our results confirm the importance of visual information in the perception of speech: The whole natural face restores two thirds of the missing auditory intelligibility when the acoustic transmission is degraded or missing; the facial model (tongue movements excluded) restores half of it; and the lip model alone restores a third of it.\n",
+    ""
+   ]
+  },
+  "hirai94_ssw": {
+   "authors": [
+    [
+     "Toshio",
+     "Hirai"
+    ],
+    [
+     "Naoto",
+     "Iwahashi"
+    ],
+    [
+     "Norio",
+     "Higuchi"
+    ],
+    [
+     "Yoshinori",
+     "Sagisaka"
+    ]
+   ],
+   "title": "Automatic extraction of FO control parameters using statistical analysis",
+   "original": "ssw2_057",
+   "page_count": 4,
+   "order": 15,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "In this paper, automatic derivation of F0 control parameters using Multiple Split Regression (MSR) is proposed. In this derivation, a superpositional F0-model was employed to reduce the number of parameters. Control parameters were determined automatically using MSR, and were optimized using a hill climbing algorithm to minimize the error between observed and predicted F0 contours. Major findings in a test using 200 read sentences of Japanese were as follows : (1) the dominant factor controlling amplitude of the accent command was accent type, (2) for the phrase command it was the number of morae in the previous phrase.\n",
+    ""
+   ]
+  },
+  "campbell94_ssw": {
+   "authors": [
+    [
+     "Nick",
+     "Campbell"
+    ]
+   ],
+   "title": "Prosody and the selection of units for concatenation synthesis",
+   "original": "ssw2_061",
+   "page_count": 4,
+   "order": 16,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "The ATR μ-talk non-uniform unit system of concatenative synthesis has been shown to produce very high quality synthetic speech, but is slow and expensive in memory. Furthermore, it was designed for Japanese and is not directly applicable to other languages. This paper shows how the μ-talk principle can be generalised for multi-lingual synthesis, and describes methods for database pruning and faster unit selection that overcome the main criticisms levelled against the Japanese version. To reduce selection time, we substitute prosodic selection criteria for the acoustic measures, and show that these result in faster unit selection that minimises post- processing of the speech waveform and thus reduces distortion in the output speech. To reduce database size, we generate a rectangular array of non-uniform segments to a predetermined depth. This preserves sparse units and maximises tokens of the common sounds of the language.\n",
+    ""
+   ]
+  },
+  "kraft94_ssw": {
+   "authors": [
+    [
+     "Volker",
+     "Kraft"
+    ]
+   ],
+   "title": "Does the resulting speech quality improvement make a sophisticated concatenation of time-domain synthesis units worthwhile?",
+   "original": "ssw2_065",
+   "page_count": 4,
+   "order": 17,
+   "p1": "65",
+   "pn": "68",
+   "abstract": [
+    "Concatenating speech synthesis units give rise to temporal discontinuities in the short time spectral envelope of a synthetic speech signal. Among the various methods for increasing the speech fluency, three methods for unit segmentation and two methods for interpolation were applied to our demisyllable-based TD-PSOLA synthesizer. By means of a pair-comparison test it was found that no significant quality increase could be achieved by any of the evaluated concatenation methods.\n",
+    ""
+   ]
+  },
+  "pearson94_ssw": {
+   "authors": [
+    [
+     "Steve",
+     "Pearson"
+    ],
+    [
+     "Heather",
+     "Moran"
+    ],
+    [
+     "Kazue",
+     "Hata"
+    ],
+    [
+     "Frode",
+     "Holm"
+    ]
+   ],
+   "title": "Combining concatenation and formant synthesis for improved intelligibility and naturalness in text-to-speech systems",
+   "original": "ssw2_069",
+   "page_count": 4,
+   "order": 18,
+   "p1": "69",
+   "pn": "72",
+   "abstract": [
+    "A general method which combines formant synthesis by rule and time-domain concatenation is investigated. The method aims to keep the advantages of both techniques, while at the same time minimizing difficulties such as prosodic modification and spectral discontinuities at the points of concatenation. We have integrated sampled natural glottal source [1] and sampled voiceless consonants into a real- time text-to-speech formant synthesizer. Also we have incorporated, in special cases, voicing amplitude envelopes and formant transitions derived from natural speech. Several listening tests were performed to evaluate these methods. The initial results are very promising. As found for Japanese [2], we obtained a significant overall improvement in intelligibility over our previous formant synthesizer. Also the results of subjective analysis show that these methods can improve naturalness and listenability factors.\n",
+    "s Matsui, K., S. Pearson, K. Hata, and T. Kamai,  Proc. ICASSP 2.769-772, May, 1991, Toronto, Canada. Improving Naturalness in Text-to-Speech Synthesis using Natural Glottal Source. Kamai, T., K. Matsui, May l993. Acoustical Society of Japan Meeting. Investigation of Formant Synthesis Hybridized by introduction of Natural Waveform Segments.\n",
+    ""
+   ]
+  },
+  "henton94_ssw": {
+   "authors": [
+    [
+     "Caroline",
+     "Henton"
+    ],
+    [
+     "Peter",
+     "Litwinowicz"
+    ]
+   ],
+   "title": "Saying and seeing it with feeling: techniques for synthesizing visible, emotional speech",
+   "original": "ssw2_073",
+   "page_count": 4,
+   "order": 19,
+   "p1": "73",
+   "pn": "76",
+   "abstract": [
+    "We describe attempts to synthesize visible speech in real-time on a Macintosh® personal computer, and to enable the user to color the text of the speech to be synthesized emotionally, according to the user's wishes, the representation of the text, or the semantics of the utterance. The animated visible speech will be demonstrated, in real time, using a variety of on-screen agents and faces. The speech synthesizer used is Apple Computer's MacinTalkPro2®, running on a Quadra AV® computer.\n",
+    ""
+   ]
+  },
+  "hirst94_ssw": {
+   "authors": [
+    [
+     "Daniel",
+     "Hirst"
+    ],
+    [
+     "Nancy",
+     "Ide"
+    ],
+    [
+     "Jean",
+     "Véronis"
+    ]
+   ],
+   "title": "Coding fundamental frequency patterns for multi-lingual synthesis with INTSINT in the MULTEXT project",
+   "original": "ssw2_077",
+   "page_count": 4,
+   "order": 20,
+   "p1": "77",
+   "pn": "80",
+   "abstract": [
+    "MULTEXT (Multilingual Text Tools and Corpora) is the largest project funded under the European Commission's LRE (Linguistic Research and Engineering) Program. Intended to contribute to the development of generally usable software tools to manipulate and analyse multi-lingual text and speech, and to annotate multi-lingual text and speech corpora with structural and linguistic markup, it will attempt to establish conventions for the encoding of such corpora, building on and contributing to the preliminary recommendations of the relevant international and European standardization initiatives. MULTEXT will also work towards establishing a set of guidelines for linguistic software development, which will be widely published in order to enable future development by others. The project consortium, consisting of eight academic and research institutions and six major European industrial partners, is committed to making its results, namely corpus, tools, specifications and accompanying documentation, freely and publicly available.\n",
+    "At the outset of the project, the consortium will (in cooperation with the European Advisory Group on Language Engineering Standards, EAGLES) undertake to analyse, test and extend the SGML-based recommendations of the Text Encoding Initiative (TEI) on real-size data, and gradually develop encoding conventions specifically suited to multi-lingual corpora and the needs of NL and Speech corpus-based research. By using the emerging software tools, the consortium plans to produce a substantial annotated multilingual corpus, including parallel texts and spoken data, in six EC languages (English, French, Spanish, German, Italian and Dutch). The entire corpus will be marked for gross logical and structural features; subsets of the corpus will be marked and hand-validated for sentence and sub-sentence features, pan of speech, alignment of parallel texts, and prosody. All markup will have to comply to the TEI-based corpus encoding conventions established within the project. The corpus will also serve as a testbed for the project tools and a resource for future tool development and evaluation.\n",
+    ""
+   ]
+  },
+  "oliveira94_ssw": {
+   "authors": [
+    [
+     "Luis C.",
+     "Oliveira"
+    ]
+   ],
+   "title": "Text-to-speech synthesis with dynamic control of source parameters",
+   "original": "ssw2_081",
+   "page_count": 4,
+   "order": 21,
+   "p1": "81",
+   "pn": "84",
+   "abstract": [
+    "This paper describes the study of some characteristics of the source parameters dynamics to derive a preliminary set of rules that were integrated in text-to-speech systems. An automated procedure estimated the source parameters of 534 seconds of voiced speech from a set of 300 English sentences spoken by a single female speaker. The results showed a strong inverse correlation between the vowel midpoint value of source parameters and the vowel duration. The same parameters tend to decrease on vowel onsets and to increase on vowels offsets. This seems to indicate a prosodic nature of this parameters requiring special treatment in concatenative-based tts systems that use source modification techniques, like PSOLA and multi-pulse.\n",
+    ""
+   ]
+  },
+  "iles94_ssw": {
+   "authors": [
+    [
+     "Jon",
+     "Iles"
+    ],
+    [
+     "William",
+     "Edmondson"
+    ]
+   ],
+   "title": "Feature driven formant synthesis",
+   "original": "ssw2_085",
+   "page_count": 4,
+   "order": 22,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "This paper presents a brief summary of work carried out with a hybrid speech synthesis strategy. This synthesis strategy has been developed to allow control of the synthesis process using a representation based on distinctive feature notation. The hybrid approach has been found to offer advantages over other synthesis strategies, including the ability to mimic subtle features of natural speech, provision for variability in the precision of articulation, and the possibility of inverting the articulatory-acoustic mapping.\n",
+    ""
+   ]
+  },
+  "talkin94_ssw": {
+   "authors": [
+    [
+     "David",
+     "Talkin"
+    ],
+    [
+     "Colin W.",
+     "Wightman"
+    ]
+   ],
+   "title": "The aligner: text to speech alignment using Markov models and a pronunciation dictionary",
+   "original": "ssw2_089",
+   "page_count": 4,
+   "order": 23,
+   "p1": "89",
+   "pn": "92",
+   "abstract": [
+    "The past several years have seen fundamental changes in the methods of speech communication research and in the approaches to speech technology development. We can now test theories on a scale that was impractical a few years ago. Where theory fails, we can now contemplate a purely empirical approach to describing speech phenomena. This change has been partly driven by several factors related to computational technology, including: (1) enhanced communication across disciplines (E.g. engineering - linguistics); (2) availability of large standard speech databases; (3) mathematically and computationally tractable models of speech acoustic realizations (e.g. hidden Markov models); (4) more powerful computers; (5) standardized, portable speech R&D tools; and (5) demands from potential applications.\n",
+    "The practical manifestations of this change are emerging in the form new speech products and greatly improved performance of laboratory speech recognition systems. Speech synthesis technol- ogy is also beginning to reap the benefits of these changes. For example, striking improvements have been made in text-to-speech (TTS) systems as a result of empirical studies of natural productions at the prosodic and segmental levels. Large-scale text analyses have led to more robust methods for part-of-speech determination, homograph disambiguation, and stressing of complex nominals. We can anticipate that this trend will continue and develop tools to enable new methods. Several technical areas benefit from the availability of laxge time-aligned phonetically-labeled databases. Basic speech and language studies concerned with timing of events, dialectical variation, coarticulation and segmental-prosodic interactions usually require some annotation of the speech signal at the segmental level. Development of convincing models of segment duration variation as a function of context is important to the implementation of high-quality TTS systems. Acoustic models used as the basis for speech recognizers can be trained more quickly if good initial estimates of the phone and word boundaries can be obtained. Synchronization of cross-modal stimuli with speech is of interest to those studying perception and in the entertainment industry where realistic facial animations can be achieved through such synchronization.\n",
+    "The idea of automatic text-speech alignment is an old one. Several implementation approaches have been taken with varying degrees of success. Space does not permit even a cursory review of the extensive work in this area. While many of these systems achieve very good performance, they are often inconvenient to use and/oF are not easily accessible to many who could benefit from them. The work described in this paper is a direct result of interactions at the Third Prosody Workshop held at Ohio State University in June 1993, where there was some discussion about ways to automate parts of the ToBI transcription procedure. It became clear that considerable progress along these lines could be made if a text-speech aligner could be provided to more workers in the field.\n",
+    "The major contributions offered by the aligner described here are: (1) Accessibility: The system is readily available and can run on most UNIX workstations. (2) Ease of use: The requirements for human intervention in the process have been reduced to a minimum. Convenient graphical interfaces are provided for all operator tasks. (3) Good alignment accuracy is achieved in a speaker- independent mode. (4) Phone sequence and boundaries are determined automatically from the word sequence and the speech signal. (5) Fast alignment: It runs in near real time on common workstations. (6) Evaluation was performed on a standard database.\n",
+    ""
+   ]
+  },
+  "ljolje94_ssw": {
+   "authors": [
+    [
+     "Andrej",
+     "Ljolje"
+    ],
+    [
+     "Julia",
+     "Hirschberg"
+    ],
+    [
+     "Jan P. H. van",
+     "Santen"
+    ]
+   ],
+   "title": "Automatic speech segmentation for concatenative inventory selection",
+   "original": "ssw2_093",
+   "page_count": 4,
+   "order": 24,
+   "p1": "93",
+   "pn": "96",
+   "abstract": [
+    "Development of multiple synthesis systems requires multiple transcribed speech databases. Here we explore an automatic technique for speech segmentation into phonetic segments applied to an Italian single speaker database. The output segmentation is compared to manual segmentations by two human transcribers. The performance is very good on voiced stop to vowel boundaries and unvoiced fricative to vowel boundaries, while vowel to vowel and voiced fricative to vowel boundaries are estimated less accurately.\n",
+    ""
+   ]
+  },
+  "kroger94_ssw": {
+   "authors": [
+    [
+     "Bernd J.",
+     "Kröger"
+    ]
+   ],
+   "title": "Generating articulatory movement patterns by a segmental and a gestural production model",
+   "original": "ssw2_097",
+   "page_count": 4,
+   "order": 25,
+   "p1": "97",
+   "pn": "100",
+   "abstract": [
+    "An articulatory speech synthesizer comprizing a segmental and a gestural control concept and capable of producing utterances from an unlimited vocabulary has been developed The control concepts are introduced and compared qualitatively.\n",
+    ""
+   ]
+  },
+  "barbosa94_ssw": {
+   "authors": [
+    [
+     "Plinio",
+     "Barbosa"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "Generation of pauses within the z-score model",
+   "original": "ssw2_101",
+   "page_count": 4,
+   "order": 26,
+   "p1": "101",
+   "pn": "104",
+   "abstract": [
+    "[No abstract available.]\n",
+    ""
+   ]
+  },
+  "coile94_ssw": {
+   "authors": [
+    [
+     "Bert Van",
+     "Coile"
+    ],
+    [
+     "A. De",
+     "Zitter"
+    ],
+    [
+     "L. Van",
+     "Tichelen"
+    ],
+    [
+     "A.",
+     "Vorstermans"
+    ]
+   ],
+   "title": "Prosody transplantation in text-to-speech: applications and tools",
+   "original": "ssw2_105",
+   "page_count": 4,
+   "order": 27,
+   "p1": "105",
+   "pn": "108",
+   "abstract": [
+    "This paper deals with the technique of Prosody Transplantation as a method to improve the quality of synthetic speech in Text-to-Speech applications. This technique is very useful in applications where at least some messages or parts of messages to be synthesized are fixed. The concept of Prosody Transplantation, its advantages and its drawbacks are described. We also discuss some algorithms and programs to facilitate the prosody transplantation process.\n",
+    ""
+   ]
+  },
+  "coker94_ssw": {
+   "authors": [
+    [
+     "Cecil H.",
+     "Coker"
+    ]
+   ],
+   "title": "Articulatory text to speech",
+   "original": "ssw2_109",
+   "page_count": 1,
+   "order": 28,
+   "p1": "109",
+   "pn": "",
+   "abstract": [
+    "Two decades ago we had a text-to-speech system that used an articulatory model [Coker, Umeda and Browman, \"Automatic synthesis from ordinary English text,\" IEEE Trans., AU-21, 293-298 (1973); Coker, \"A model of articulatory dynamics and control,\" Proc. IEEE, 64, 452-460 (1976) ]. Recently we have revived that system and included many serious changes. The system is integrated to the current AT&T TTS [Olive, Roe and Tschirgi, \"Speech processing systems that listen, too,\" AT&T Technology, V6, N4, 1991], for analysis of numbers, abbreviations and acronyms, and for grammatical and phrase analysis.\n",
+    "An interface to a vocal-tract acoustic model [Sondhi & Schroeter, \"A hybrid time-frequency domain articulatory speech synthesizer,\" IEEE Trans., ASSP-35, 955-967 (1987) ] exists, but is largely untested. Currently, the best results are produced by computing formants area function and driving a formant synthesizer. Use of the formant intermediary is a matter of history and convenience, rather than valid reason. I presently produce /r/ and /l/ by acoustic means, assign formant bandwidths, detail spectra of fricatives, and deal with a few other details in the frequency domain. The new incarnation has many differences from the articulatory synthesizer of the 70's. lateral acoustic modes in phoneme /I/. 2) a two-branch model of nasals, rather than pole-zero pairs; 3) more detailed representation of fricatives; 4) more realistic model of fricative amplitude as function of articulatory constric- tion and glottal adjustment; 5) a model of changing glottal voiced spectra as function of glottal 6) a model of aspiration during voicing.\n",
+    "At the physiological and acoustic level, there is a new model of glottal behavior, and boundary and stress. Also in the new incarnation are substantial changes in the strategy for articulatory motion between phonemes. This was based on articulatory mimic studies [Parthasarathy & Coker, \"On automatic estimation of articulatory parameters in a text-to-speech system,\" Computer Speech &: Language, 6, 37-75 (1992) ], in which optimizations were done over typically syllable-length segments, and the feedback manipulations were done on phoneme-sized units: target values, times and speeds of transition.\n",
+    "The new version produces a quality of synthesis clearly superior to that of the earlier work. Spectrograms and even waveforms of the synthesis aren't casually distinguishable from natural speech. Improved spectral details, both in steady states and transients, make the synthesis understandable at rates in the order of 180 - 190 words a minute.\n",
+    ""
+   ]
+  },
+  "beckman94_ssw": {
+   "authors": [
+    [
+     "Mary E.",
+     "Beckman"
+    ]
+   ],
+   "title": "Speech models and speech synthesis",
+   "original": "ssw2_110",
+   "page_count": 4,
+   "order": 29,
+   "p1": "110",
+   "pn": "",
+   "abstract": [
+    "Basic research in speech science over the last half century has enjoyed enormous benefits from our endeavours to synthesize speech by machine. For example, developing programs for simulating the time course of fundamental frequency variation over sentences and longer utterances has been an indispensible research tool in our basic understanding of intonation. Synthesis systems, in turn, have directly benefited from being able to incorporate the models of linguistic control of FO originally built to test one or another theory of intonation. Moreover, incorporating these models in turn has made synthesis into an important research tool in another area of linguistics - namely, the examination of phonetic correlates of discourse structure and pragmatic intent, research that should lead us that much closer to our ultimate goal of going beyond mere synthesis to speech generation. Models of temporal control are another area that can see important cross-fertilization of results and ideas between basic research and synthesis. Since the 1970s, many synthesis systems have modeled timing control as the computation of context-sensitive durations for acoustic intervals corresponding to phoneme segments or their subunits. Such models have allowed us to take full advantage of statistical tools and the large speech data-bases now available, while yet incorporating the insights of several decades of smaller controlled laboratory experiments on segment durations. A fruitful next step might be to explore how synthesis systems can incorporate a new consensus about timing control that has emerged from the recent explosion of basic research on articulation. Studies of articulatory kinematics suggest that a closer modeling of the spectral effects of articulator movement will be an important element in improving how well our synthesis systems capture the salient phonetic correlates of stress and phrasing. They also suggest that duration can no longer be treated quite so independently of fundamental frequency, amplitude varation, and other aspects of the spectrum now often modeled by the choice of concatenative unit.\n",
+    ""
+   ]
+  },
+  "boeffard94_ssw": {
+   "authors": [
+    [
+     "Olivier",
+     "Boeffard"
+    ],
+    [
+     "F.",
+     "Violaro"
+    ]
+   ],
+   "title": "Improving the robustness of text-to-speech synthesizers for large prosodic variations",
+   "original": "ssw2_111",
+   "page_count": 4,
+   "order": 30,
+   "p1": "111",
+   "pn": "114",
+   "abstract": [
+    "This paper describes a hybrid harmonic-plus-noise analysis/synthesis system developed to evaluate the potentiality of such systems in the pitch synchronous, concatenation-based, text-to-speech synthesizers. The main motivation for this work was the need for a system that enables greater prosodic modifications than the current generation of the PSOLA type systems. This is a primordial requirement in order to obtain a more natural sounding, high quality, text-to-speech synthesizer.\n",
+    ""
+   ]
+  },
+  "portele94_ssw": {
+   "authors": [
+    [
+     "Thomas",
+     "Portele"
+    ],
+    [
+     "Florian",
+     "Höfer"
+    ],
+    [
+     "Wolfgang",
+     "Hess"
+    ]
+   ],
+   "title": "A mixed inventory structure for German concatenative synthesis",
+   "original": "ssw2_115",
+   "page_count": 4,
+   "order": 31,
+   "p1": "115",
+   "pn": "118",
+   "abstract": [
+    "When generating synthetic speech by unit concatenation a major point is the definition of the unit inventory. Traditionally, diphone or demisyllable inventories are used but both unit types have their drawbacks. Based on the results of a comprehensive investigation of coarticulatory phenomena at syllable boundaries, a new mixed inventory structure was developed which is syllable oriented but does not demand a definite decision about the position of a syllable boundary. A preliminary evaluation comparing the mixed with a demisyllable and a diphone inventory confirms that indeed some of the disadvantages of the two standard methods vanish when the mixed inventory structure is used. A complete inventory was established that consists of approximately 2200 units for the German language.\n",
+    ""
+   ]
+  },
+  "conkie94_ssw": {
+   "authors": [
+    [
+     "Alistair",
+     "Conkie"
+    ],
+    [
+     "Stephen",
+     "Isard"
+    ]
+   ],
+   "title": "Optimal coupling of diphones",
+   "original": "ssw2_119",
+   "page_count": 4,
+   "order": 32,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "We describe several ways of measuring spectral mismatch at diphone joins. We report on the effect for synthetic speech of choosing diphone boundaries so as to minimise the various different measures.\n",
+    ""
+   ]
+  },
+  "karlsson94_ssw": {
+   "authors": [
+    [
+     "Inger",
+     "Karlsson"
+    ],
+    [
+     "Lennart",
+     "Neovius"
+    ]
+   ],
+   "title": "Rule-based female speech synthesis - segmental level improvements",
+   "original": "ssw2_123",
+   "page_count": 4,
+   "order": 33,
+   "p1": "123",
+   "pn": "126",
+   "abstract": [
+    "In this paper we will discuss development of rule-based female speech synthesis, focusing on segmental level improvements. A higher degree of naturalness is achieved by the inclusion of voice source variations and more complex articulation modelling. Source, formant and pole/zero parameter data generated by inverse filtering have been interpreted and incorporated into the female text-to-speech rule system. In particular, the quality of consonants with complex articulations and vowel-consonant transitions is enhanced. A diagnostic intelligibility test was performed on the preliminary rule system. Results are discussed in terms of error sources and possible solutions. On-going work includes fine-tuning of LF-source and pole/zero parameter control, based on these results.\n",
+    ""
+   ]
+  },
+  "bunnell94_ssw": {
+   "authors": [
+    [
+     "H. T.",
+     "Bunnell"
+    ],
+    [
+     "D.",
+     "Yarrington"
+    ],
+    [
+     "K. E.",
+     "Barner"
+    ]
+   ],
+   "title": "Pitch control in diphone synthesis",
+   "original": "ssw2_127",
+   "page_count": 4,
+   "order": 34,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "A hybrid time domain and LPC approach to speech pitch control is developed. This approach uses a low order LPC analysis and residual excitation to alter pitch period length during voiced speech. This approach differs from standard residual excited LPC in that LP reconstruction is applied only during voiced segments. Listening tests were used to compare PSOLA and the hybrid method under conditions of increasing or decreasing FO in natural speech tokens. The natural speech was recorded by two talkers, a female adult and female child. Results suggest that, while the overall performance of the two methods is similar, the methods differ in their effectiveness with direction of FO shift and over talkers.\n",
+    ""
+   ]
+  },
+  "ross94_ssw": {
+   "authors": [
+    [
+     "Ken",
+     "Ross"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ]
+   ],
+   "title": "A dynamical system model for generating F0 for synthesis",
+   "original": "ssw2_131",
+   "page_count": 4,
+   "order": 35,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "This work develops a new model of fundamental frequency (F0) generation that incorporates traditional methods of F0 modeling, but also has parameters that can be automatically estimated from prosodically labeled speech. We generate F0 with a state-space dynamical system model which assumes that there is an unobserved state vector corresponding to the noisy observation of F0 and energy. Parameters of the model are specified to capture segment, syllable, and/or phrase level effects. Since there are missing observations corresponding to the state vector and unvoiced segments, we use a non-traditional method for parameter estimation based on an EM algorithm developed for speech recognition applications. In experiments on an independent test set, we obtained a rms error of 33 Hz for F0.\n",
+    ""
+   ]
+  },
+  "higuchi94_ssw": {
+   "authors": [
+    [
+     "Norio",
+     "Higuchi"
+    ],
+    [
+     "Toshio",
+     "Hirai"
+    ],
+    [
+     "Yoshinori",
+     "Sagisaka"
+    ]
+   ],
+   "title": "Effect of speaking style on parameters of fundamental frequency contour",
+   "original": "ssw2_135",
+   "page_count": 4,
+   "order": 36,
+   "p1": "135",
+   "pn": "138",
+   "abstract": [
+    "The authors have analyzed the fundamental frequency (F0) contours of Japanese sentences spoken in four styles, e.g. unmarked, hurried, angry and gentle, for the synthesis of natural sounding speech. Thirty-five sentences in each speaking style spoken by a professional narrator were analyzed. The parameters of the Fo generation model proposed by Fujisaki, i.e. the minimum value of F0 (Fmin), the amplitude of the phrase commands (Ap) and the amplitude of the accent commands (Aa), are used here as key factors in the analysis. In the case of the sentences spoken angrily, Fmin is kept high, and the change due to both the phrase component and the accent component is minimal. Consequently, the FQ contours of sentences spoken angrily are flat. On the other hand, in the sentences spoken softly, the dynamic range due to the accent component is greater than for the others, and in order to keep it high the amplitude of the phrase component is accordingly suppressed. The Fo contours of the sentences spoken hurriedly are similar except that the amplitude of the accent commands is slightly smaller than for those spoken normally. It was found that these parameters are useful to express the difference due to the speaking styles.\n",
+    ""
+   ]
+  },
+  "mobius94_ssw": {
+   "authors": [
+    [
+     "Bernd",
+     "Möbius"
+    ]
+   ],
+   "title": "A quantitative model of German intonation and its application to speech synthesis",
+   "original": "ssw2_139",
+   "page_count": 4,
+   "order": 37,
+   "p1": "139",
+   "pn": "142",
+   "abstract": [
+    "This paper presents the adaptation of FujisakTs quantitative model to the analysis of German intonation and its application to the synthesis of fundamental frequency (FO) contours by rule. We investigated the sources of variation of the moders parameter values as obtained by analyzing utterances in a database. On the basis of this analysis we have constructed a set of rules that capture linguistic as well as speaker-dependent features and generate artificial FO contours for target utterances. Acceptability of the rule-generated intonation patterns was tested in a series of perceptual experiments. The rules have been implemented in the HADIFIX speech synthesis system for German.\n",
+    ""
+   ]
+  },
+  "frenkenberger94_ssw": {
+   "authors": [
+    [
+     "S.",
+     "Frenkenberger"
+    ],
+    [
+     "Betina",
+     "Schnabel"
+    ],
+    [
+     "M.",
+     "Alissali"
+    ],
+    [
+     "Markus",
+     "Kommenda"
+    ]
+   ],
+   "title": "Prosodic parsing based on parsing of minimal syntactic structures",
+   "original": "ssw2_143",
+   "page_count": 4,
+   "order": 38,
+   "p1": "143",
+   "pn": "146",
+   "abstract": [
+    "This paper describes a new prosodic phrasing implemented on the German version of the multilingual CNET PS OLA TTS system. The new approach renders parsing reliable and robust. Moreover it provides efficient results for the majority of text in the context of unlimited vocabulary and unrestricted syntactical complexity, where neither semantic nor pragmatic information is available.\n",
+    "The whole process is split into two steps, firstly, the decomposition of the sentences (identified by punctuation marks) into minimal syntactic units; and secondly, the arrangement of the syntactic units in prosodic phrases (constituents).\n",
+    "The use of minimal syntactic units avoids the obligatory construction of a syntax tree, which is a well-known source of errors. Since stress rules usually start from the syntax tree, this approach demands an alternative to supplying degrees of accentuation. In this approach, each rule for the parsing into minimal syntactic units implicitly denotes those degrees.\n",
+    ""
+   ]
+  },
+  "sanderman94_ssw": {
+   "authors": [
+    [
+     "Angelien",
+     "Sanderman"
+    ]
+   ],
+   "title": "How can prosody segment the flow of (synthetic) speech?",
+   "original": "ssw2_147",
+   "page_count": 4,
+   "order": 39,
+   "p1": "147",
+   "pn": "150",
+   "abstract": [
+    "The research to be reported here is concerned with the demarcative function of prosody at the sentence level. The main aim was to model the performance of a speaker as to his/her way of prosodically 'chunking' the flow of speech. The prosodic behavior which was perceptually effective has been approximated in the form of recipes for synthetic speech. The results show that the listeners have a significant preference for the synthetic speech with the recipes.\n",
+    ""
+   ]
+  },
+  "kohler94_ssw": {
+   "authors": [
+    [
+     "Klaus J.",
+     "Kohler"
+    ]
+   ],
+   "title": "Parametric control of prosodic variables by symbolic input in TTS synthesis",
+   "original": "ssw2_151",
+   "page_count": 4,
+   "order": 40,
+   "p1": "151",
+   "pn": "154",
+   "abstract": [
+    "The Kiel prosodic model for German (KIM), its TTS implementation and the development of a research tool for prosodic modelling and synthesis are outlined.\n",
+    ""
+   ]
+  },
+  "dalessandro94_ssw": {
+   "authors": [
+    [
+     "Christophe",
+     "D'Alessandro"
+    ],
+    [
+     "Piet",
+     "Mertens"
+    ],
+    [
+     "Frédéric",
+     "Beaugendre"
+    ]
+   ],
+   "title": "Automatic stylization of intonation: application to speech synthesis",
+   "original": "ssw2_155",
+   "page_count": 4,
+   "order": 41,
+   "p1": "155",
+   "pn": "158",
+   "abstract": [
+    "We present an algorithm for automatic intonation stylisation. The algorithm is based on a model of intonation perception. The output of the algorithm is a set of static or dynamic tones, for each phonetic syllable (the \"tonal score\"). Resynthesis experiments show that stylized contours are identical to natural contours. This approach is compared with the pitch movements approach for intonation synthesis.\n",
+    ""
+   ]
+  },
+  "hirschberg94_ssw": {
+   "authors": [
+    [
+     "Julia",
+     "Hirschberg"
+    ],
+    [
+     "Pilar",
+     "Prieto"
+    ]
+   ],
+   "title": "Training intonational phrasing rules automatically for English and Spanish text-to-speech",
+   "original": "ssw2_159",
+   "page_count": 4,
+   "order": 42,
+   "p1": "159",
+   "pn": "162",
+   "abstract": [
+    "We describe a procedure for acquiring intonational phrasing rules for text-to-speech synthesis automatically, from annotated text, and some evaluation of this procedure for English and Mexican Spanish. The procedure employs decision trees generated automatically, using Classification and Regression Tree techniques, from text corpora which have been hand-labeled with likely locations of intonational boundaries by native speakers, in conjunction with information available about the text via simple text analysis techniques. Rules generated by this method have been implemented in the English version of the Bell Laboratories Text-to-Speech System and have been developed for the Mexican Spanish version of that system. These rules currently achieve better than 95% accuracy for English and better than 94% for Spanish.\n",
+    ""
+   ]
+  },
+  "pijper94_ssw": {
+   "authors": [
+    [
+     "Jan Roelof de",
+     "Pijper"
+    ]
+   ],
+   "title": "High-quality message-to-speech generation in a practical application",
+   "original": "ssw2_163",
+   "page_count": 4,
+   "order": 43,
+   "p1": "163",
+   "pn": "166",
+   "abstract": [
+    "This paper describes the use of concatenation of prerecorded words to generate spoken messages in a practical application. This simple technique can lead to quite acceptable results if the utterances are provided with appropriate prosody using a waveform manipulation technique.\n",
+    ""
+   ]
+  },
+  "hirose94_ssw": {
+   "authors": [
+    [
+     "Keikichi",
+     "Hirose"
+    ],
+    [
+     "Mayumi",
+     "Sakata"
+    ],
+    [
+     "Masafumi",
+     "Osame"
+    ],
+    [
+     "Hiroya",
+     "Fujisaki"
+    ]
+   ],
+   "title": "Analysis and synthesis of fundamental frequency contours for the spoken dialogue in Japanese",
+   "original": "ssw2_167",
+   "page_count": 4,
+   "order": 44,
+   "p1": "167",
+   "pn": "170",
+   "abstract": [
+    "Prosodic features of spoken dialogue were analyzed and the results were compared with those of read speech. A wider dynamic range was observed in the fundamental frequencies, accompanied by an increase in their mean value. The wider dynamic range is caused by increases in the amplitude of accent commands and in the magnitude of phrase commands. A wider dynamic range was also observed in the syllable duration. On the average, syllable duration was reduced to a great extent. Based on the results, prosodic rules were constructed for spoken dialogue by modifying those already developed for the read speech. The issue of the focal control was also addressed and incorporated in the prosodic rules. The validity of these rules was proved by the listening test of synthetic speech.\n",
+    ""
+   ]
+  },
+  "monaghan94_ssw": {
+   "authors": [
+    [
+     "Alex I. C.",
+     "Monaghan"
+    ]
+   ],
+   "title": "Intonation accent placement in a concept-to-dialogue system",
+   "original": "ssw2_171",
+   "page_count": 4,
+   "order": 45,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "This paper describes the intonation accent placement rules of Bridge, a computer programme which generates spoken dialogues from the communicative goals of two model agents. l By modelling the entire process of speech generation, from ideation to acoustics, BRIDGE can produce all the information required by the intonation rules. There are three main stages in the intonation component of Bridge: the assignment of prosodic boundaries, the computation of accentability, and the application of a rhythm rule. This paper concentrates on accentability.\n",
+    "An important point is that Bridge's intonation rules make no use of syntactic structure: our working hypothesis is that syntax is not relevant to determining intonation.\n",
+    ""
+   ]
+  },
+  "taylor94_ssw": {
+   "authors": [
+    [
+     "Paul",
+     "Taylor"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Synthesizing conversational intonation from a linguistically rich input",
+   "original": "ssw2_175",
+   "page_count": 4,
+   "order": 46,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "This paper describes a general system which maps from a phonological specification of an utterance Js intonation to a F0 contour. The system can accommodate a variety of feature based phonological description schemes. Speaker dependent characteristics can be modelled and an automatic method of determining these is described.\n",
+    ""
+   ]
+  },
+  "tzoukermann94_ssw": {
+   "authors": [
+    [
+     "Evelyne",
+     "Tzoukermann"
+    ]
+   ],
+   "title": "Text-to-speech for French",
+   "original": "ssw2_179",
+   "page_count": 4,
+   "order": 47,
+   "p1": "179",
+   "pn": "182",
+   "abstract": [
+    "This paper describes the status of the French text-to-speech system being developed at AT&T Bell Laboratories as part of a larger project for multilingual text-to-speech systems, including languages such as Mexican Spanish, Italian, German, Russian, and Chinese. These systems, based on diphone and triphone concatenation, follow the general framework of the Bell Laboratories English NewTTS system. A description of the French system is provided along with problems particular to French.\n",
+    ""
+   ]
+  },
+  "ferri94_ssw": {
+   "authors": [
+    [
+     "G.",
+     "Ferri"
+    ],
+    [
+     "P.",
+     "Pierucci"
+    ],
+    [
+     "D.",
+     "Sanzone"
+    ]
+   ],
+   "title": "An integrated morpho-syntactic analysis with phonetic transcription for an Italian text-to-speech system",
+   "original": "ssw2_183",
+   "page_count": 4,
+   "order": 48,
+   "p1": "183",
+   "pn": "186",
+   "abstract": [
+    "As a part of a project aimed at developing of an Italian text-to-speech system, a morpho-syntactic analyzer was set up. The main goal of this analyzer was to provide all the syntactic and morphologic features for each word of a written text. Furthermore, the phonetic transcription of each word was determined. Finally, syntactically related words were marked to form a suitable basis for pitch contour determination.\n",
+    ""
+   ]
+  },
+  "sproat94_ssw": {
+   "authors": [
+    [
+     "Richard",
+     "Sproat"
+    ],
+    [
+     "Joseph",
+     "Olive"
+    ]
+   ],
+   "title": "A modular architecture for multi-lingual text-to-speech",
+   "original": "ssw2_187",
+   "page_count": 4,
+   "order": 49,
+   "p1": "187",
+   "pn": "190",
+   "abstract": [
+    "We describe the architecture of the AT&T Bell Laboratories New text-to-speech (TTS) system. The modular pipeline design of NewTTS enhances capabilities for research on TTS since it facilitates revision and replacement of modules of the system, and it makes it easy to insert into the pipeline tools that modify various TTS parameters. While we illustrate most of these points with reference to the English version of NewTTS, we will also sketch how systems for other languages are being developed within the NewTTS framework.\n",
+    ""
+   ]
+  },
+  "gunther94_ssw": {
+   "authors": [
+    [
+     "Carsten",
+     "Günther"
+    ],
+    [
+     "Claudia",
+     "Maienborn"
+    ],
+    [
+     "Andrea",
+     "Schopp"
+    ]
+   ],
+   "title": "SYNPHONICS - a cognitive motivated approach to a concept-to-speech system",
+   "original": "ssw2_191",
+   "page_count": 4,
+   "order": 50,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "This paper presents the architecture and the procedural aspects of a psycholinguistic motivated concept- to-speech system. The SYNPHONICS system covers the incremental generation of utterances from prelinguistic conceptual structures to the formation of semantic, syntactic, phonological (including prosodic), phonetic-articulatory, and acoustic structures, controlling a speech synthesis module.\n",
+    ""
+   ]
+  },
+  "breen94_ssw": {
+   "authors": [
+    [
+     "Andrew P.",
+     "Breen"
+    ]
+   ],
+   "title": "The BT Laureate text-to-speech system",
+   "original": "ssw2_195",
+   "page_count": 4,
+   "order": 51,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "Over the last four years BT laboratories have been developing a sophisticated text to speech system, called Laureate. The approach adopted in the Laureate system has been to maximise the usability of the system for differing applications, while retaining an effective research and development tool. During the design phase of the system, a number of specific requirements were identified, prominent amongst these being the desire to ensure good speech quality and naturalness, but not at the cost of intelligibility.\n",
+    ""
+   ]
+  },
+  "daelemans94_ssw": {
+   "authors": [
+    [
+     "Walter",
+     "Daelemans"
+    ],
+    [
+     "Antal van den",
+     "Bosch"
+    ]
+   ],
+   "title": "A language-independent, data-oriented architecture for grapheme-to-phoneme conversion",
+   "original": "ssw2_199",
+   "page_count": 4,
+   "order": 52,
+   "p1": "199",
+   "pn": "202",
+   "abstract": [
+    "We report on an implemented grapheme-to-phoneme conversion architecture. Given a set of examples (spelling words with their associated phonetic representation) in a language, a grapheme-to-phoneme conversion system is automatically produced for that language which takes as its input the spelling of words, and produces as its output the phonetic transcription according to the rules implicit in the training data. This paper describes the architecture and focuses on our solution to the alignment problem: given the spelling and the phonetic trancription of a word (often differing in length), these two representations have to be aligned in such a way that grapheme symbols or strings of grapheme symbols are consistently associated with the same phonetic symbol. If this alignment has to be done by hand, it is extremely labour-intensive.\n",
+    ""
+   ]
+  },
+  "pols94_ssw": {
+   "authors": [
+    [
+     "Louis C.W.",
+     "Pols"
+    ],
+    [
+     "Ute",
+     "Jekosch"
+    ]
+   ],
+   "title": "A structured way of looking at the performance of text-to-speech systems",
+   "original": "ssw2_203",
+   "page_count": 4,
+   "order": 53,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "Via the Cocosda Bulletin Board an extensive QUESTIONNAIRE was distributed in 1993, upon which 16 reactions have been received. Almost all these reactions were very interesting and detailed. They contain a wealth of ideas and suggestions. In our presentation for this ESCA/IEEE Workshop we combine, on the one hand the suggestions from the respondents with, on the other hand the knowledge and experience collected in various projects (SPIN, SAM(-A), Eagles, and (Euro)Cocosda), into a new approach for a structured way of evaluating the performance of text-to-speech systems. The basic idea is to define a set of keywords/descriptors that specify the system under study, with special emphasis on its application. In a similar way the available and to-be-developed tests should be characterized. System/application can then be linked, in a matrix-type way, to the suite of tests, and a proper selection can then be made, or it might become apparent that additional specific tests are still required.\n",
+    ""
+   ]
+  },
+  "aguilar94_ssw": {
+   "authors": [
+    [
+     "Lourdes",
+     "Aguilar"
+    ],
+    [
+     "Josep M.",
+     "Fernández"
+    ],
+    [
+     "Juan M.",
+     "Garrido"
+    ],
+    [
+     "Joaquim",
+     "Llisterri"
+    ],
+    [
+     "Alejandro",
+     "Macarrón"
+    ],
+    [
+     "Luis",
+     "Monzón"
+    ],
+    [
+     "Miguel Ángel",
+     "Rodriguez"
+    ]
+   ],
+   "title": "Evaluation of a Spanish text-to-speech system",
+   "original": "ssw2_207",
+   "page_count": 4,
+   "order": 54,
+   "p1": "207",
+   "pn": "210",
+   "abstract": [
+    "A battery of tests for output assessment of Spanish TTS systems is presented, as well as its application to the system developed by Telefonica /+D. This battery is an adaptation to Spanish of tests already used in other languages. At phonemic level, consonants, consonant clusters and vowel combinations are evaluated. At word level, identification of words in meaningful sentences as well as in semantically unpredictable sentences is considered. Evaluation of comprehension is accomplished by means of a listening test, and the global quality and user's acceptance is assessed using a paired adjectives test. The results show that the Telefonica I+D TTS system can be favorably compared with existing English products and offers insights for further improvements.\n",
+    ""
+   ]
+  },
+  "belhoula94_ssw": {
+   "authors": [
+    [
+     "Karim",
+     "Belhoula"
+    ],
+    [
+     "Marianne",
+     "Kugler"
+    ],
+    [
+     "Regina",
+     "Krüger"
+    ],
+    [
+     "Hans-Wilhelm",
+     "Rühl"
+    ]
+   ],
+   "title": "Evaluation of a TTS-system intended for the synthesis of names",
+   "original": "ssw2_211",
+   "page_count": 4,
+   "order": 55,
+   "p1": "211",
+   "pn": "214",
+   "abstract": [
+    "With the integration of new services into the telecommunication networks, there is an increasing demand for automatic announcement and information systems employing oral communication. Since many telephone-network applications use large databases, synthetic speech is ideal for this purpose. One particular problem in speech synthesis is however, the pronunciation of proper names, because most tts-systems were initially developed to convert standard vocabulary. Moreover, names can be of very diverse etymological origins, their pronunciation often shows a significant deviation from the German standard letter-to-sound rules. Focusing on the demand of such new applications, we have developed a tts-system called PHRITTS in a joint project involving the Ruhr-Universiat Bochum and the Philips Kommunikations Industrie (PKIAG, Nürnberg, Germany). Since we are principally interested in good pronunciation and consequently producing highly intelligable names, we carried out a test to investigate how grapheme-to-phoneme conversion performs. This paper provides an overview of the TTS-system PHRITTS and reports the method and results of the evaluation test.\n",
+    ""
+   ]
+  },
+  "pisoni94_ssw": {
+   "authors": [
+    [
+     "David B.",
+     "Pisoni"
+    ]
+   ],
+   "title": "Perceptual evaluation of synthetic speech: what have we learned over the last 15 years and where are we going in the future?",
+   "original": "ssw2_215",
+   "page_count": 1,
+   "order": 56,
+   "p1": "215",
+   "pn": "",
+   "abstract": [
+    "In this presentation, I will first summarize the results we have obtained over the last 15 years on the perception of synthetic speech produced by rule. A wide variety of behavioral studies have been carried out on phoneme intelligibility, word recognition and comprehension to learn more about how human listeners perceive and understand various kinds of synthetic speech produced by rule. While some of this research, particularly the studies on segmental intelligibility, has been directed toward applied issues dealing with perceptual evaluation and assessment of different synthesis systems, other aspects of our research program over the years have been more theoretically motivated and were designed to learn more about speech perception and spoken language comprehension. Our findings have shown that the perception of synthetic speech depends on several general factors including the acoustic-phonetic properties of the speech signal, the specific cognitive demands of the information processing task the listener is asked to perform and the previous background and experience of the listener. Some suggestions for future research on improving naturalness, intelligibility and comprehension will be offered in light of several recent findings from our laboratory on the role of stimulus variability and the contribution of indexical factors to speech perception and spoken word recognition. These findings demonstrate that human listeners encode and preserve very fine talker-specific details in memory; these details appear to be employed in the perceptual analysis of natural speech and may need to be retained and carefully reproduced in the next generation of synthesis-by-rule systems in order to achieve high levels of intelligibility and naturalness that are comparable to natural speech. Our perceptual findings have shown the importance of behavioral testing with human listeners as an integral component of evaluation and assessment techniques in synthesis research. In order to improve synthetic speech in the future, we believe it will be necessary to incorporate much more acoustic-phonetic detail into the synthesis rules. Variability is useful and informative and human listeners employ these sources of information in speech perception and spoken word recognition.\n",
+    ""
+   ]
+  },
+  "pelachaud94_ssw": {
+   "authors": [
+    [
+     "Catherine",
+     "Pelachaud"
+    ],
+    [
+     "Scott",
+     "Prevost"
+    ]
+   ],
+   "title": "Sight and sound: generating facial expressions and spoken intonation from context",
+   "original": "ssw2_216",
+   "page_count": 4,
+   "order": 57,
+   "p1": "216",
+   "pn": "219",
+   "abstract": [
+    "This paper presents an implemented system for automatically producing prosodically appropriate speech and corresponding facial expressions for animated, three-dimensional agents that respond to simple database queries. Unlike previous text-to-facial animation approaches, the system described here produces synthesized speech and facial animations entirely from scratch, starting with semantic representations of the message to be conveyed, which are based in turn on a discourse model and a small database of facts about the modeled world.\n",
+    ""
+   ]
+  },
+  "horne94_ssw": {
+   "authors": [
+    [
+     "Merle",
+     "Horne"
+    ],
+    [
+     "Marcus",
+     "Filipsson"
+    ]
+   ],
+   "title": "Computational extraction of lexico-grammatical information for generation of Swedish intonation",
+   "original": "ssw2_220",
+   "page_count": 4,
+   "order": 58,
+   "p1": "220",
+   "pn": "223",
+   "abstract": [
+    "This article presents a discussion of a number of algorithms being developed which will enable the generation of prosodic structure for Swedish restricted texts. These algorithms, including a word-class tagger, a complex-word identifier and a prosodic parser form part of a linguistic preprocessor to a text-to-speech system for generation of intonation.\n",
+    ""
+   ]
+  },
+  "marsi94_ssw": {
+   "authors": [
+    [
+     "Erwin",
+     "Marsi"
+    ],
+    [
+     "Peter-Arno",
+     "Coppen"
+    ],
+    [
+     "Carlos",
+     "Gussenhoven"
+    ],
+    [
+     "Toni",
+     "Rietveld"
+    ]
+   ],
+   "title": "Prosodic and intonational domains in speech synthesis",
+   "original": "ssw2_224",
+   "page_count": 4,
+   "order": 59,
+   "p1": "224",
+   "pn": "227",
+   "abstract": [
+    "This research concerns the restructuring of Association Domains (ADs) in Dutch. An AD is the intonational domain within which an autosegmental description of an intonation contour is phonetically realised. Restructuring is the process that joins two ADs to form a single AD. The hypotheses addressed here state that restructuring depends on the syntactic structure, in this case the distinction between a PP that is internal or external to an NP, in combination with the length of the resultant AD. Statistically significant evidence was supplied by a perception experiment in which raters judged which of two contours, one with two ADs and the other with a single restructured AD, was more appropriate, given an utterance with one of the two syntactic structures mentioned.\n",
+    ""
+   ]
+  },
+  "nakatani94_ssw": {
+   "authors": [
+    [
+     "Christine H.",
+     "Nakatani"
+    ]
+   ],
+   "title": "Discourse structural constraints on accent in narrative",
+   "original": "ssw2_228",
+   "page_count": 4,
+   "order": 60,
+   "p1": "228",
+   "pn": "231",
+   "abstract": [
+    "This paper examines the relationship between discourse structure and intonational prominence or pitch accent It is argued, based on the distribution of pitch accent in spontaneous narrative speech, that accent function must be interpreted against a dynamic background of linguistic factors, including grammatical function, lexical form, and discourse structural constraints that affect the attentional status of referents. Modeling of the interactions among these factors should enable richer prosodic variation in speech generation systems.\n",
+    ""
+   ]
+  },
+  "dirksen94_ssw": {
+   "authors": [
+    [
+     "Arthur",
+     "Dirksen"
+    ],
+    [
+     "John",
+     "Coleman"
+    ]
+   ],
+   "title": "All-prosodic synthesis architecture",
+   "original": "ssw2_232",
+   "page_count": 4,
+   "order": 61,
+   "p1": "232",
+   "pn": "235",
+   "abstract": [
+    "We present a speech synthesis architecture, IPOX, which allows the integration of various aspects of prosodic structure at different structural levels. This is achieved by using a hierarchical, metrical representation of the input string in analysis as well as phonetic interpretation. The output of the latter step consists of parameters for the Klatt synthesizer. The architecture is based primarily on YorkTalk (Coleman 1992, 1994; Local 1992), but differs in that it uses a rule compiler (Dirksen 1993), which allows a clean separation of linguistic statements and computational execution, as well as a more concise statement of various kinds of generalizations.\n",
+    ""
+   ]
+  },
+  "local94_ssw": {
+   "authors": [
+    [
+     "John",
+     "Local"
+    ],
+    [
+     "Richard",
+     "Ogden"
+    ]
+   ],
+   "title": "A model of timiny for non-segmental phonological structure",
+   "original": "ssw2_236",
+   "page_count": 4,
+   "order": 62,
+   "p1": "236",
+   "pn": "239",
+   "abstract": [
+    "One of the enduring problems in achieving natural sounding synthetic speech is that of getting the rhythm right. Usually this problem is construed as the search for appropriate algorithms for altering durations of segments under various contextual conditions (eg initially versus final in word or phrase, in stressed versus unstressed syllables). Recently, Campbell and Isard (1991) have suggested that a more effective model is one in which the syllable is taken as the distinguished timing unit and segmental durations accommodated secondarily to syllable durations. We propose here that there is no distinguished timing unit While other synthesis systems use phonemes, diphones or other linearly arranged phone-sized units and employ 'hidden structure1, YorkTalk uses explicit tree-like phonological representations. We will compare the temporal characteristics of the output of the YorkTalk system with Klattalk (Klatt, ms) on one hand and the naturalistic observations of Fowler (1981) on the other. We will show that it is possible to produce similar, natural sounding temporal relations by employing linguistic structures which are given a compositional parametric and temporal interpretation (Local, 1992; Ogden, 1992). YorkTalk's metrical and phontactic parsers parse input into structures consisting of feet, syllables and syllable constituents. In these structures, the rime is the head of the syllable, the nucleus is the head of the rime and the strong syllable is the head of the foot (cf Coleman 1992). Every node in the graph is given a head-first temporal and parametric phonetic interpretation. A co-production model of coarticulation (cf Fowler 1980) is implemented in YorkTalk by overlaying parameters. Since the nucleus is the head of the syllable the nucleus and syllable are coextensive. By fitting the onset and coda within the temporal space of the nucleus they inherit the properties of the whole syllable. Where structures permit, constituents are shared between syllables as shown below (ambisyllabicity). The temporal interpretation of ambisyllabicity is the temporal and parametric overlaying of one syllable on another (Local, 1992; Ogden, 1992).\n",
+    "s Campbell, W.N. & Isard, S.D. (1991) 'Segment durations in a syllable frame', Journal of Phonetics, 19, 37-47. Coleman, J C (1992): The phonetic interpretation of headed phonological structures containing overlapping constituents. Phonology Yearbook 9 (1), 1-44.  Klatt, D (1986: unpublished ms) Klattalk: the conversion of English text to speech. Fowler, C A (1980): Coarticulation and theories of extrinsic timing. Journal of Phonetics 8,113-133. Fowler, C A(1981):A relationship between coarticulation and compensatory shortening. Phonetica 38,35-50. Local, J K (1992): Modelling assimilation in a non-segmental rule-free phonology. In G J Docherty and D R Ladd (eds): Papers in laboratory Phonology II. Cambridge: CUP, 190-223. Local, J K & R Ogden (forthcoming): Temporal exponents of word-structure in English. York Research Papers in Linguistics. YLLS/RP 1994-2. Ogden, R (1992): Parametric Interpretation in YorkTalk. York Papers in Linguistics 16, 81-99.\n",
+    ""
+   ]
+  },
+  "santen94_ssw": {
+   "authors": [
+    [
+     "Jan P. H. van",
+     "Santen"
+    ]
+   ],
+   "title": "Using statistics in text-to-speech system construction",
+   "original": "ssw2_240",
+   "page_count": 4,
+   "order": 63,
+   "p1": "240",
+   "pn": "243",
+   "abstract": [
+    "There is a growing tendency in text-to-speech system construction to replace components consisting of manually constructed rules by components generated by general purpose statistical techniques. This paper discusses a construction process that incorporates aspects of both approaches, as well new statistical methods.\n",
+    ""
+   ]
+  },
+  "yarowsky94_ssw": {
+   "authors": [
+    [
+     "David",
+     "Yarowsky"
+    ]
+   ],
+   "title": "Homograph disambiguation in speech synthesis",
+   "original": "ssw2_244",
+   "page_count": 4,
+   "order": 64,
+   "p1": "244",
+   "pn": "247",
+   "abstract": [
+    "This paper presents a statistical decision procedure for lexical ambiguity resolution in speech synthesis. Based on decision lists, the algorithm incorporates both local syntactic patterns and more distant collocational evidence, combining the strengths of decision trees, N-gram taggers and Bayesian classifiers. The algorithm is applied to 7 major types of ambiguity where context is used to choose a word's pronunciation.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "pierrehumbert94_ssw",
+    "richard94_ssw",
+    "bailly94_ssw",
+    "bickley94_ssw",
+    "wilhelmstricarico94_ssw",
+    "rodriguezcrespo94_ssw",
+    "conway94_ssw",
+    "shih94_ssw",
+    "prieto94_ssw",
+    "hamada94_ssw",
+    "abe94_ssw",
+    "hertz94_ssw",
+    "guiardmarigny94_ssw",
+    "goff94_ssw",
+    "hirai94_ssw",
+    "campbell94_ssw",
+    "kraft94_ssw",
+    "pearson94_ssw",
+    "henton94_ssw",
+    "hirst94_ssw",
+    "oliveira94_ssw",
+    "iles94_ssw",
+    "talkin94_ssw",
+    "ljolje94_ssw",
+    "kroger94_ssw",
+    "barbosa94_ssw",
+    "coile94_ssw",
+    "coker94_ssw",
+    "beckman94_ssw",
+    "boeffard94_ssw",
+    "portele94_ssw",
+    "conkie94_ssw",
+    "karlsson94_ssw",
+    "bunnell94_ssw",
+    "ross94_ssw",
+    "higuchi94_ssw",
+    "mobius94_ssw",
+    "frenkenberger94_ssw",
+    "sanderman94_ssw",
+    "kohler94_ssw",
+    "dalessandro94_ssw",
+    "hirschberg94_ssw",
+    "pijper94_ssw",
+    "hirose94_ssw",
+    "monaghan94_ssw",
+    "taylor94_ssw",
+    "tzoukermann94_ssw",
+    "ferri94_ssw",
+    "sproat94_ssw",
+    "gunther94_ssw",
+    "breen94_ssw",
+    "daelemans94_ssw",
+    "pols94_ssw",
+    "aguilar94_ssw",
+    "belhoula94_ssw",
+    "pisoni94_ssw",
+    "pelachaud94_ssw",
+    "horne94_ssw",
+    "marsi94_ssw",
+    "nakatani94_ssw",
+    "dirksen94_ssw",
+    "local94_ssw",
+    "santen94_ssw",
+    "yarowsky94_ssw"
+   ]
+  }
+ ]
+}

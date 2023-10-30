@@ -1,0 +1,901 @@
+{
+ "title": "5th International Workshop on Speech Processing in Everyday Environments (CHiME 2018)",
+ "location": "Hyderabad, India",
+ "startDate": "7/9/2018",
+ "endDate": "7/9/2018",
+ "URL": "http://spandh.dcs.shef.ac.uk/chime_workshop/chime2018",
+ "chair": "Chairs: Jon Barker, Shinji Watanabe and Emmanuel Vincent",
+ "conf": "CHiME",
+ "year": "2018",
+ "name": "chime_2018",
+ "series": "CHiME",
+ "SIG": "",
+ "title1": "5th International Workshop on Speech Processing in Everyday Environments",
+ "title2": "(CHiME 2018)",
+ "date": "7 September 2018",
+ "booklet": "chime_2018.pdf",
+ "papers": {
+  "bhatt18_chime": {
+   "authors": [
+    [
+     "Gaurav",
+     "Bhatt"
+    ],
+    [
+     "Akshita",
+     "Gupta"
+    ],
+    [
+     "Aditya",
+     "Arora"
+    ],
+    [
+     "Balasubramanian",
+     "Raman"
+    ]
+   ],
+   "title": "Acoustic features fusion using attentive multi-channel deep architecture",
+   "original": "7",
+   "page_count": 5,
+   "order": 8,
+   "p1": 30,
+   "pn": 34,
+   "abstract": [
+    "",
+    "In this paper, we present a novel deep fusion architecture for audio classification tasks. The multi-channel model presented is formed using deep convolution layers where different acoustic features are passed through each channel. To enable dissemination of information across the channels, we introduce attention feature maps that aid in the alignment of frames. The output of each channel is merged using interaction parameters that non-linearly aggregate the representative features. Finally, we evaluate the performance of the proposed architecture on three benchmark datasets :- DCASE-2016 and LITIS Rouen (acoustic scene recognition), and CHiME-Home (tagging). Our experimental results suggest that the architecture presented outperforms the standard baselines and achieves outstanding performance on the task of acoustic scene recognition and audio tagging."
+   ],
+   "doi": "10.21437/CHiME.2018-7"
+  },
+  "boeddecker18_chime": {
+   "authors": [
+    [
+     "Christoph",
+     "Boeddecker"
+    ],
+    [
+     "Jens",
+     "Heitkaemper"
+    ],
+    [
+     "Joerg",
+     "Schmalenstroeer"
+    ],
+    [
+     "Lukas",
+     "Drude"
+    ],
+    [
+     "Jahn",
+     "Heymann"
+    ],
+    [
+     "Reinhold",
+     "Haeb-Umbach"
+    ]
+   ],
+   "title": "Front-end processing for the CHiME-5 dinner party scenario",
+   "original": "8",
+   "page_count": 6,
+   "order": 9,
+   "p1": 35,
+   "pn": 40,
+   "abstract": [
+    "This contribution presents a speech enhancement system for the CHiME-5 Dinner Party Scenario. The front-end employs multi-channel linear time-variant filtering and achieves its gains without the use of a neural network. We present an adaptation of blind source separation techniques to the CHiME-5 database which we call Guided Source Separation (GSS). Using the baseline acoustic and language model, the combination of Weighted Prediction Error based dereverberation, guided source separation, and beamforming reduces the WER by 10.54% (relative) for the single array track and by 21.12 % (relative) on the multiple array track."
+   ],
+   "doi": "10.21437/CHiME.2018-8"
+  },
+  "doddipatla18_chime": {
+   "authors": [
+    [
+     "Rama",
+     "Doddipatla"
+    ],
+    [
+     "Takehiko",
+     "Kagoshima"
+    ],
+    [
+     "Cong-Thanh",
+     "Do"
+    ],
+    [
+     "Petko",
+     "Petkov"
+    ],
+    [
+     "Catalin-Tudor",
+     "Zorila"
+    ],
+    [
+     "Euihyun",
+     "Kim"
+    ],
+    [
+     "Daichi",
+     "Hayakawa"
+    ],
+    [
+     "Hiroshi",
+     "Fujimura"
+    ],
+    [
+     "Yannis",
+     "Stylianou"
+    ]
+   ],
+   "title": "The Toshiba entry to the CHiME 2018 Challenge",
+   "original": "9",
+   "page_count": 5,
+   "order": 10,
+   "p1": 41,
+   "pn": 45,
+   "abstract": [
+    "This paper summarises the Toshiba entry to the single-array track of the CHiME 2018 speech recognition challenge. The system is based on conventional acoustic modelling (AM), where phonetic targets are tied to features at the frame-level, and use the provided tri-gram language model. The system is ranked in category A that focuses on acoustic robustness. Array signals are first enhanced using speaker dependent generalised eigenvalue (GEV) based beamforming. Two different acoustic representations are then extracted from the enhanced signals: i) log Mel filter-bank and ii) subband temporal envelope (STE) features. Separate acoustic models, trained on each set, are used for lattice combination. The AM combines convolutional and recurrent architectures in a single CNN-BLSTM model. Speaker adaptation, limited to vocal tract length normalisation (VTLN), de-reverberation and speaker suppression are also considered. Following system combination, the Toshiba entry achieves 60.8% word error rate (WER) on the development (dev) set and 56.5% WER on the evaluation (eval) set respectively. The system is ranked 4th in the A category."
+   ],
+   "doi": "10.21437/CHiME.2018-9"
+  },
+  "du18_chime": {
+   "authors": [
+    [
+     "Jun",
+     "Du"
+    ],
+    [
+     "Tian",
+     "Gao"
+    ],
+    [
+     "Lei",
+     "Sun"
+    ],
+    [
+     "Feng",
+     "Ma"
+    ],
+    [
+     "Yi",
+     "Fang"
+    ],
+    [
+     "Di-Yuan",
+     "Liu"
+    ],
+    [
+     "Qiang",
+     "Zhang"
+    ],
+    [
+     "Xiang",
+     "Zhang"
+    ],
+    [
+     "Hai-Kun",
+     "Wang"
+    ],
+    [
+     "Jia",
+     "Pan"
+    ],
+    [
+     "Jian-Qing",
+     "Gao"
+    ],
+    [
+     "Chin-Hui",
+     "Lee"
+    ],
+    [
+     "Jing-Dong",
+     "Chen"
+    ]
+   ],
+   "title": "The USTC-iFlytek systems for CHiME-5 Challenge",
+   "original": "3",
+   "page_count": 5,
+   "order": 3,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "This report describes our submission to the fifth CHiME Challenge. The main technical points of our system include the deep learning based speech enhancement and separation, training data augmentation via different versions of the official training data, SNR-based array selection, front-end model fusion, acoustic model fusion, and language model fusion. Tested on the development test set, our best system for single-array track using official LM has yielded a 37.7% WER relative reduction over the results given by official baseline system.\n"
+   ],
+   "doi": "10.21437/CHiME.2018-3"
+  },
+  "joshi18_chime": {
+   "authors": [
+    [
+     "Sonal",
+     "Joshi"
+    ],
+    [
+     "Ashish",
+     "Panda"
+    ],
+    [
+     "Meet",
+     "Soni"
+    ],
+    [
+     "Rupayan",
+     "Chakraborty"
+    ],
+    [
+     "Sunilkumar",
+     "Kopparapu"
+    ],
+    [
+     "Nikhil",
+     "Mohanan"
+    ],
+    [
+     "Premanand",
+     "Nayak"
+    ],
+    [
+     "Rajbabu",
+     "Velmurugan"
+    ],
+    [
+     "Preeti",
+     "Rao"
+    ]
+   ],
+   "title": "CHiME 2018 Workshop: Enhancing beamformed audio using time delay neural network denoising autoencoder",
+   "original": "10",
+   "page_count": 3,
+   "order": 11,
+   "p1": 46,
+   "pn": 48,
+   "abstract": [
+    "In the submitted system to CHiME-5 challenge, we propose front-end enhancement of the beamformed array utterances to mitigate mismatch conditions between close-talking utterances and array utterances. Our initial experiments showed that an Acoustic Model trained by using only close-talking microphone utterances gave a superior performance than the baseline acoustic model when tested using close-talking utterances of the development set. Taking this cue, we explored the hypothesis that if array utterances are mapped to corresponding close-talking utterances, the system trained using only worn utterances will perform better. Towards this end, we trained a Time Delay Neural Network De-noising autoencoder (TDNN-DAE) using non-overlapping speech close-talking microphone utterances (targets) and their corresponding beamform utterances. However, the proposed system could not outperform the baseline."
+   ],
+   "doi": "10.21437/CHiME.2018-10"
+  },
+  "kanda18_chime": {
+   "authors": [
+    [
+     "Naoyuki",
+     "Kanda"
+    ],
+    [
+     "Rintaro",
+     "Ikeshita"
+    ],
+    [
+     "Shota",
+     "Horiguchi"
+    ],
+    [
+     "Yusuke",
+     "Fujita"
+    ],
+    [
+     "Kenji",
+     "Nagamatsu"
+    ],
+    [
+     "Xiaofei",
+     "Wang"
+    ],
+    [
+     "Vimal",
+     "Manohar"
+    ],
+    [
+     "Nelson Enrique",
+     "Yalta Soplin"
+    ],
+    [
+     "Matthew",
+     "Maciejewski"
+    ],
+    [
+     "Szu-Jui",
+     "Chen"
+    ],
+    [
+     "Aswin Shanmugam",
+     "Subramanian"
+    ],
+    [
+     "Ruizhi",
+     "Li"
+    ],
+    [
+     "Zhiqi",
+     "Wang"
+    ],
+    [
+     "Jason",
+     "Naradowsky"
+    ],
+    [
+     "L. Paola",
+     "Garcia-Perera"
+    ],
+    [
+     "Gregory",
+     "Sell"
+    ]
+   ],
+   "title": "The Hitachi/JHU CHiME-5 system: Advances in speech recognition for everyday home environments using multiple microphone arrays",
+   "original": "2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "This paper presents Hitachi and JHU’s efforts on developing CHiME-5 system to recognize dinner party speeches recorded by multiple microphone arrays. We newly developed (1) the way to apply multiple data augmentation methods, (2) residual bidirectional long short-term memory, (3) 4-ch acoustic models, (4) multiple-array combination methods, (5) hypothesis deduplication method, and (6) speaker adaptation technique of neural beamformer. As the results, our best system in category B achieved 52.38% of word error rates (WERs) for development set, which corresponded to 35% of relative WER reduction from the state-of-the-art baseline. Our best system also achieved 48.20% of WER for evaluation set, which was the 2nd best result in the CHiME-5 competition.\n"
+   ],
+   "doi": "10.21437/CHiME.2018-2"
+  },
+  "keren18_chime": {
+   "authors": [
+    [
+     "Gil",
+     "Keren"
+    ],
+    [
+     "Jing",
+     "Han"
+    ],
+    [
+     "Björn",
+     "Schuller"
+    ]
+   ],
+   "title": "Scaling speech enhancement in unseen environments with noise embeddings",
+   "original": "6",
+   "page_count": 5,
+   "order": 7,
+   "p1": 25,
+   "pn": 29,
+   "abstract": [
+    "We address the problem of speech enhancement generalisation to unseen environments by performing two manipulations. First, we embed an additional recording from the environment alone, and use this embedding to alter activations in the main enhancement subnetwork. Second, we scale the number of noise environments present at training time to 16,784 different environments. Experiment results show that both manipulations reduce word error rates of a pretrained speech recognition system and improve enhancement quality according to a number of performance measures. Specifically, our best model reduces the word error rate from 34.04% on noisy speech to 15.46% on the enhanced speech."
+   ],
+   "doi": "10.21437/CHiME.2018-6"
+  },
+  "dalmia18_chime": {
+   "authors": [
+    [
+     "Siddharth",
+     "Dalmia"
+    ],
+    [
+     "Suyoun",
+     "Kim"
+    ],
+    [
+     "Florian",
+     "Metze"
+    ]
+   ],
+   "title": "Situation informed end-to-end ASR for noisy environments",
+   "original": "11",
+   "page_count": 4,
+   "order": 12,
+   "p1": 49,
+   "pn": 52,
+   "abstract": [
+    "This paper describes an end-to-end speech recognition system for the 5th CHiME challenge that addresses continuous conversation in everyday environments using distributed microphone arrays. The main contribution of our system is the investigation of an effective adaptation method within the end-to-end system based on speaker gender information, microphone array information, and conversational history information for better gen- eralization. Without using any speech enhancement technique, or data augmentation, or data cleaning up, or lexicon information, our proposed system produces better ASR performance than the baseline system (LF-MMI TDNN) which requires the lexicon information and a complicated conventional modeling process (i.e. HMM/GMM, triphone-based acoustic modeling, fMLLR, SAT, i-vector, Data cleaning up, etc). Our final ASR system achieves an absolute word error rate reduction of 12.6% on development set in comparison to the end-to-end baseline system, and an absolute word error rate reduction of 1.5% on evaluation set in comparison to conventional baseline system (LF-MMI TDNN) in a single-array track."
+   ],
+   "doi": "10.21437/CHiME.2018-11"
+  },
+  "kitza18_chime": {
+   "authors": [
+    [
+     "Markus",
+     "Kitza"
+    ],
+    [
+     "Wilfried",
+     "Michel"
+    ],
+    [
+     "Christoph",
+     "Boeddeker"
+    ],
+    [
+     "Jens",
+     "Heitkaemper"
+    ],
+    [
+     "Tobias",
+     "Menne"
+    ],
+    [
+     "Ralf",
+     "Schlüter"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ],
+    [
+     "Joerg",
+     "Schmalenstroeer"
+    ],
+    [
+     "Lukas",
+     "Drude"
+    ],
+    [
+     "Jahn",
+     "Heymann"
+    ],
+    [
+     "Reinhold",
+     "Haeb-Umbach"
+    ]
+   ],
+   "title": "The RWTH/UPB system combination for the CHiME 2018 Workshop",
+   "original": "12",
+   "page_count": 5,
+   "order": 13,
+   "p1": 53,
+   "pn": 57,
+   "abstract": [
+    "This paper describes the systems for the single-array track and the multiple-array track of the 5th CHiME Challenge. The final system is a combination of multiple systems, using Confusion Network Combination (CNC). The different systems presented here are utilizing different front-ends and training sets for a Bidirectional Long Short-Term Memory (BLSTM) Acoustic Model (AM). The front-end was replaced by enhancements provided by Paderborn University. The back-end has been implemented using RASR and RETURNN. Additionally, a system combination including the hypothesis word graphs from the system of the submission has been performed, which results in the final best system."
+   ],
+   "doi": "10.21437/CHiME.2018-12"
+  },
+  "li18_chime": {
+   "authors": [
+    [
+     "Chenxing",
+     "Li"
+    ],
+    [
+     "Tieqiang",
+     "Wang"
+    ]
+   ],
+   "title": "The ZTSpeech system for CHiME-5 Challenge: A far-field speech recognition system with front-end and robust back-end",
+   "original": "13",
+   "page_count": 6,
+   "order": 14,
+   "p1": 58,
+   "pn": 63,
+   "abstract": [
+    "In this paper, we describe our ZTSpeech for two tracks of CHiME-5 challenge. For front-end, our experiments conduct the comparisons between several popular beamforming methods. Besides, we also propose a omnidirectional minimum variance distortionless response (OMVDR) followed by weighted prediction error (WPE). Furthermore, we investigate the impact of data augmentation and data combinations. For back-end, several acoustic models (AMs) with different architectures are deeply investigated. N-gram-based and recurrent neural network (RNN)-based language models (LMs) are both evaluated. For single-array track, by combining the most effective approaches, our final system can achieve 11.94% promotion on performance in evaluation set, from 73.27% to 61.33%. For multiple-array track, our final system can achieve 12.29% improvement in evaluation set, from 73.30% to 61.01%.\n"
+   ],
+   "doi": "10.21437/CHiME.2018-13"
+  },
+  "long18_chime": {
+   "authors": [
+    [
+     "Yanhua",
+     "Long"
+    ],
+    [
+     "Renke",
+     "He"
+    ]
+   ],
+   "title": "The SHNU system for the CHiME-5 Challenge",
+   "original": "14",
+   "page_count": 3,
+   "order": 15,
+   "p1": 64,
+   "pn": 66,
+   "abstract": [
+    "",
+    "This paper is a description of our system submitted to the 5th CHiME challenge. In this challenge, we only focus on the A-single-array task. Several improvements over the conventional ASR baseline have been used, including the speech processing front-end, the automatic training data augmentation of the official training data, and the acoustic model combination with different structures. The final overall WERs of both the development and evaluation sets only using the reference Kinect array are around 64%."
+   ],
+   "doi": "10.21437/CHiME.2018-14"
+  },
+  "medennikov18_chime": {
+   "authors": [
+    [
+     "Ivan",
+     "Medennikov"
+    ],
+    [
+     "Ivan",
+     "Sorokin"
+    ],
+    [
+     "Aleksei",
+     "Romanenko"
+    ],
+    [
+     "Dmitry",
+     "Popov"
+    ],
+    [
+     "Yuri",
+     "Khokhlov"
+    ],
+    [
+     "Tatiana",
+     "Prisyach"
+    ],
+    [
+     "Nikolay",
+     "Malkovskiy"
+    ],
+    [
+     "Vladimir",
+     "Bataev"
+    ],
+    [
+     "Sergei",
+     "Astapov"
+    ],
+    [
+     "Maxim",
+     "Korenevsky"
+    ],
+    [
+     "Alexander",
+     "Zatvornitskiy"
+    ]
+   ],
+   "title": "The STC System for the CHiME 2018 Challenge",
+   "original": "1",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "This paper describes the Speech Technology Center (STC) system for the 5th CHiME challenge. This challenge considers the problem of distant multi-microphone conversational speech recognition in everyday home environments. Our efforts were focused on the single-array track, however, we participated in the multiple-array track as well. The system is in the ranking A of the challenge: acoustic models remain frame-level tied phonetic targets, lexicon and language model are not changed compared to the conventional ASR baseline. Our system employs a combination of 4 acoustic models based on convolutional and recurrent neural networks. Speaker adaptation with target speaker masks and multi-channel speaker-aware acoustic model with neural network beamforming are two major features of the system. Moreover, various techniques for improving acoustic models are applied, including array synchronization, data cleanup, alignment transfer, mixup, speed perturbation data augmentation, room simulation, and backstitch training. Our system scored 3rd in the single-array track with Word Error Rate (WER) of 55.5% and 4th in the multiple-array track with WER of 55.6% on the evaluation data, achieving a substantial improvement over the baseline system.\n"
+   ],
+   "doi": "10.21437/CHiME.2018-1"
+  },
+  "misbullah18_chime": {
+   "authors": [
+    [
+     "Alim",
+     "Misbullah"
+    ]
+   ],
+   "title": "Robust network structures for acoustic model on CHiME5 Challenge dataset",
+   "original": "15",
+   "page_count": 3,
+   "order": 16,
+   "p1": 67,
+   "pn": 69,
+   "abstract": [
+    "Our work is focus on robust acoustic model for the 5th CHiME5 challenge. To boost the performance to be better than baseline, we designed different network structure that can be suitable for CHiME5 challenge dataset. Our final result can achieve 13% relative improvement compare to the baseline."
+   ],
+   "doi": "10.21437/CHiME.2018-15"
+  },
+  "mohanan18_chime": {
+   "authors": [
+    [
+     "Nikhil",
+     "Mohanan"
+    ],
+    [
+     "Premanand",
+     "Nayak"
+    ],
+    [
+     "Rajbabu",
+     "Velmurugan"
+    ],
+    [
+     "Preeti",
+     "Rao"
+    ],
+    [
+     "Sonal",
+     "Joshi"
+    ],
+    [
+     "Ashish",
+     "Panda"
+    ],
+    [
+     "Meet",
+     "Soni"
+    ],
+    [
+     "Rupayan",
+     "Chakraborty"
+    ],
+    [
+     "Sunilkumar",
+     "Kopparapu"
+    ]
+   ],
+   "title": "NMF based front-end processing in multi-channel distant speech recognition",
+   "original": "16",
+   "page_count": 6,
+   "order": 17,
+   "p1": 70,
+   "pn": 75,
+   "abstract": [
+    "The submitted system for CHiME-5 challenge focuses on implementing a better front-end for an automatic speech recognition (ASR) system trained on the data provided by CHiME-5. In this work, we focus on using non-negative matrix factorization (NMF) based technique to denoise and dereverberation. In Approach 1, the degraded single-channel speech utterances were enhanced using multi-channel Weighted prediction error (WPE) or NMF followed by a minimum variance distortionless response (MVDR) beamformer to obtain an enhanced signal. In Approach 2, we used multi-channel MVDR followed by a NMF based single-channel enhancement. Using the baseline acoustic model (AM), these enhanced speech utterances did not provide improved WER compared to the baseline Beamformit based system. So, we retrained the AM using WPE enhanced data for training (Approach 3). These approaches were able to improve the ASR results as compared to baseline. We are submitting results for the single-array track and only focus on acoustic robustness (i.e., ranking A)."
+   ],
+   "doi": "10.21437/CHiME.2018-16"
+  },
+  "patil18_chime": {
+   "authors": [
+    [
+     "Ankur",
+     "Patil"
+    ],
+    [
+     "Maddala V.",
+     "Siva Krishna"
+    ],
+    [
+     "Mehak",
+     "Piplani"
+    ],
+    [
+     "Pulikonda",
+     "Aditya Sai"
+    ],
+    [
+     "Hardik B.",
+     "Sailor"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "DA-IICT/IIITV system for the 5th CHiME 2018 Challenge",
+   "original": "17",
+   "page_count": 5,
+   "order": 18,
+   "p1": 76,
+   "pn": 80,
+   "abstract": [
+    "This paper presents our work on end-to-end (E2E) system development for multiple array track in the CHiME-5 challenge 2018. In particular, we propose to use E2E Lattice Free Maximum Mutual Information (LF-MMI) for acoustic modeling. For front-end, Mel Frequency Spectral Coefficients (MFSC) and Power Normalized Spectral Coefficients (PNSC) features are used. We employ delay-and-sum beamformer for speech enhancement of training and development data. The Recurrent Neural Network Language Model (RNNLM) rescoring is also explored along with 3-gram language model. Our E2E LF-MMI Time Delay Neural Network (TDNN) system performed better than the E2E system provided in the challenge with an absolute reduction of 10.95 % in WER. The final system combination further reduces the WER to 78.63 %. Hence, our proposed system combination captures complementary information due to various E2E systems trained on full training data, beamformed data and using MFSC and PNSC features, respectively."
+   ],
+   "doi": "10.21437/CHiME.2018-17"
+  },
+  "qu18_chime": {
+   "authors": [
+    [
+     "Dan",
+     "Qu"
+    ],
+    [
+     "Cheng-Ran",
+     "Liu"
+    ],
+    [
+     "Xu-Kiu",
+     "Yang"
+    ],
+    [
+     "Wen-lin",
+     "Zhang"
+    ]
+   ],
+   "title": "The NDSC transcription system for the 2018 CHiME-5 Challenge",
+   "original": "18",
+   "page_count": 4,
+   "order": 19,
+   "p1": 81,
+   "pn": 84,
+   "abstract": [
+    "The National Digital Switching System Engineering and Technological R&D Center (NDSC) speech-to-text transcription system for the 2018 CHiME-5 is described. The time delay neural network (TDNN) and TDNN-long short term memory recurrent neural network (TDNN-LSTM) systems are trained using deep bottleneck features (BNF). Since the audio recordings from parallel worn microphone are available, the third system is trained, in which the alignments of audio recordings from Kinect device are generated from worn microphone audio recordings. At last, the minimum Bayes risk (MBR) combination was utilized to combine different systems and reduce WER further. The WER of our system on develop dataset is 74.61%, leading to a 6% absolute reduction comparing with the baseline system."
+   ],
+   "doi": "10.21437/CHiME.2018-18"
+  },
+  "sun18_chime": {
+   "authors": [
+    [
+     "Sining",
+     "Sun"
+    ],
+    [
+     "Yangyang",
+     "Shi"
+    ],
+    [
+     "Ching-Feng",
+     "Yeh"
+    ],
+    [
+     "Suliang",
+     "Bu"
+    ],
+    [
+     "Mei-Yuh",
+     "Hwang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "Multiple beamformers with ROVER for the CHiME-5 Challenge",
+   "original": "19",
+   "page_count": 3,
+   "order": 20,
+   "p1": 85,
+   "pn": 87,
+   "abstract": [
+    "In this paper, we describe our systems and report our results for the CHiME-5 single-array track. We focus on front-end multi-channel speech processing, including beamforming and dereverberation. To address the complexity of the data and recording scenario, we use multiple beamformers where each beamformer targets at a predefined direction. N-Best lists are obtained from decoding each beamformed signal. These multiple N-best lists are further processed by ROVER to get the final result. Before beamforming, a multi-channel generalized weighted prediction error method is adopted to do the dereverberation. Comparing with the official baseline system, CNN-TDNN-F shows significant improvement. In language modeling, LSTM-based language model re-scoring generates additional improvement. Without system fusion, our single system can get 14.4% relative word error rate reduction on development set over the baseline system."
+   ],
+   "doi": "10.21437/CHiME.2018-19"
+  },
+  "unterholzner18_chime": {
+   "authors": [
+    [
+     "Hannes",
+     "Unterholzner"
+    ],
+    [
+     "Lukas",
+     "Pfeifenberger"
+    ],
+    [
+     "Franz",
+     "Pernkopf"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Alessio",
+     "Brutti"
+    ],
+    [
+     "Daniele",
+     "Falavigna"
+    ]
+   ],
+   "title": "Channel-selection for distant-speech recognition on CHiME-5 dataset",
+   "original": "20",
+   "page_count": 3,
+   "order": 21,
+   "p1": 88,
+   "pn": 90,
+   "abstract": [
+    "The 5th CHiME Speech Separation and Recognition Challenge represents a realistic scenario to validate the variety of techniques required to properly handle conversational multi-party speech acquired with distant microphones. We address the problem of channel selection using a DNN-based channel classifier that predicts good channels according to the oracle results. In combination with ROVER as a final combination step, we can improve the performance with respect to the baseline system."
+   ],
+   "doi": "10.21437/CHiME.2018-20"
+  },
+  "xiong18_chime": {
+   "authors": [
+    [
+     "Feifei",
+     "Xiong"
+    ],
+    [
+     "Jisi",
+     "Zhang"
+    ],
+    [
+     "Bernd",
+     "Meyer"
+    ],
+    [
+     "Heidi",
+     "Christensen"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ]
+   ],
+   "title": "Channel selection using neural network posterior probability for speech recognition with distributed microphone arrays in everyday environments",
+   "original": "5",
+   "page_count": 6,
+   "order": 6,
+   "p1": 19,
+   "pn": 24,
+   "abstract": [
+    "This paper presents an automatic speech recognition (ASR) system for the 5th CHiME Speech Separation and Recognition Challenge for transcribing continuous conversations recorded in everyday environments with distributed microphone arrays. The main contribution of the proposed system is the investigation of an effective real-time channel selection scheme to pick up reliable microphones/array for target speakers. It is shown that the proposed channel selection method produces better ASR performance than the reference channel provided by the baseline system, as well as comparable results to a reference-required selection approach based on speech intelligibility test as the oracle case. Instead of including all available data for training data augmentation, channel selection can be also applied to the training data selection to minimize the training-test mismatch. Further, complementary knowledge can be obtained when the best two channels are selected specially in periods of overlapping speech. The final ASR system, which additionally incorporates improved acoustic modeling and system combination, achieves absolute word error rate reductions of 9.2% and 7.0% with development and evaluation test set, respectively, compared to the baseline in the context of multiple-array track."
+   ],
+   "doi": "10.21437/CHiME.2018-5"
+  },
+  "zhao18_chime": {
+   "authors": [
+    [
+     "Zhiwei",
+     "Zhao"
+    ],
+    [
+     "Jian",
+     "Wu"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "The NWPU System for CHiME-5 Challenge",
+   "original": "4",
+   "page_count": 3,
+   "order": 5,
+   "p1": 16,
+   "pn": 18,
+   "abstract": [
+    "The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5) [1] considers the problem of distant multi-microphone conversational speech recognition in everyday home environments. In this challenge, we take advantage of several beamforming techniques, powerful TDNN-F [2] acoustic models, pruned lattice-rescoring algorithm as well as ROVER [3] based system fusion. Compared to the official base-line, our best system achieves around 18% and 17% absolute WER reduction on the development and test sets respectively."
+   ],
+   "doi": "10.21437/CHiME.2018-4"
+  },
+  "hansen18_chime": {
+   "authors": [
+    [
+     "John H L",
+     "Hansen"
+    ]
+   ],
+   "title": "Robust speaker diarization and recognition in naturalistic data streams: Challenges for multi-speaker tasks & learning spaces",
+   "original": "abs2",
+   "page_count": 0,
+   "order": 22,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Speech Technology is advancing beyond general speech recognition for voice command and telephone applications. Today, the emergence of many voice enabled speech systems have required the need for more effective distant based speech voice capture and automatic speech and speaker recognition. The ability to employ speech and language technology to assess human- to-human interactions is opening up new research paradigms which can have a profound impact on assessing human interaction including personal communication traits, and contribute to improving the quality of life and educational experience of individuals. In this talk, we will explore recent research trends on automatic audio diarization and speaker recognition for audio streams which include multi-tracks, speakers, and environments with distant based speech capture. Specifically, we will consider (i) Prof-Life-Log corpus, (ii) Education based child & student based Peer-Lead Team Learning, and (iii) Apollo-11 massive multi-track audio processing (19,000hrs of data). These domains in the context of CHIME workshops will be discussed in terms of algorithmic advancements, as well as directions for continued research.\n"
+   ]
+  },
+  "metze18_chime": {
+   "authors": [
+    [
+     "Florian",
+     "Metze"
+    ]
+   ],
+   "title": "Open-domain audiovisual speech recognition and video summarization",
+   "original": "abs1",
+   "page_count": 0,
+   "order": 4,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Video understanding is one of the hardest challenges in AI. If a machine can look at videos and “understand” the events that are being shown, then machines could learn by themselves, perhaps even without supervision, simply by “watching” broadcast TV, Facebook, Youtube, or similar sites. Making progress towards this goal requires contributions from experts in diverse fields, including computer vision, automatic speech recognition, machine translation, natural language processing, multimodal information processing, and multimedia. I will report the outcomes of the JSALT 2018 Workshop on this topic, including advances in multitask learning for joint audiovisual captioning, summarization, and translation, as well as auxiliary tasks such as text-only translation, language modeling, story segmentation, and classification. I will demonstrate a few results on the “How-to” dataset of instructional videos harvested from the web by my team at Carnegie Mellon University and discuss remaining challenges and possible other datasets for this research."
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Oral Session 1",
+   "papers": [
+    "medennikov18_chime",
+    "kanda18_chime",
+    "du18_chime"
+   ]
+  },
+  {
+   "title": "Keynote: Florian Metze",
+   "papers": [
+    "metze18_chime"
+   ]
+  },
+  {
+   "title": "Oral Session 2",
+   "papers": [
+    "zhao18_chime",
+    "xiong18_chime",
+    "keren18_chime"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "bhatt18_chime",
+    "boeddecker18_chime",
+    "doddipatla18_chime",
+    "joshi18_chime",
+    "dalmia18_chime",
+    "kitza18_chime",
+    "li18_chime",
+    "long18_chime",
+    "misbullah18_chime",
+    "mohanan18_chime",
+    "patil18_chime",
+    "qu18_chime",
+    "sun18_chime",
+    "unterholzner18_chime"
+   ]
+  },
+  {
+   "title": "Keynote: John H.L. Hansen",
+   "papers": [
+    "hansen18_chime"
+   ]
+  }
+ ],
+ "doi": "10.21437/CHiME.2018"
+}

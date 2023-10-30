@@ -1,0 +1,564 @@
+{
+ "title": "4th Workshop on Child Computer Interaction (WOCCI 2014)",
+ "location": "Singapore",
+ "startDate": "19/9/2014",
+ "endDate": "19/9/2014",
+ "conf": "WOCCI",
+ "year": "2014",
+ "name": "wocci_2014",
+ "series": "WOCCI",
+ "SIG": "CHILD",
+ "title1": "4th Workshop on Child Computer Interaction",
+ "title2": "(WOCCI 2014)",
+ "date": "19 September 2014",
+ "booklet": "wocci_2014.pdf",
+ "papers": {
+  "cosi14_wocci": {
+   "authors": [
+    [
+     "Piero",
+     "Cosi"
+    ],
+    [
+     "Mauro",
+     "Nicolao"
+    ],
+    [
+     "Giulio",
+     "Paci"
+    ],
+    [
+     "Giacomo",
+     "Sommavilla"
+    ],
+    [
+     "Fabio",
+     "Tesser"
+    ]
+   ],
+   "title": "Comparing open source ASR toolkits on Italian children speech",
+   "original": "wc14_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "In this paper, we consider two different aspects of the automatic speech recognition task: the effectiveness of using open-source ASR toolkits and the quite problematic recognition of children speech. On this difficult task, we compare three well established and widely available ASR toolkits and we finally demonstrate the feasibility of applying these results to speech recognition and spoken dialogue system design. Even if various open source ASR toolkits are now available, we were mainly interested in evaluate the usability of the relatively new BAVIECA system in comparison to two systems (SONIC and SPHINX) for which we had already various results in past experiments on children speech. This paper is intended to provide the reader with a simple overview of the solutions adopted by the three different systems under investigation and with the demonstration of their effectiveness on children speech. Furthermore, the paper provides suggestions for future research directions in the field.\n",
+    "",
+    "",
+    "Index Terms: Open Source, ASR, Tookit, SONIC, SPHINX, BAVIECA, Children Speech.\n",
+    ""
+   ]
+  },
+  "hamalainen14_wocci": {
+   "authors": [
+    [
+     "Annika",
+     "Hämäläinen"
+    ],
+    [
+     "Sara",
+     "Candeias"
+    ],
+    [
+     "Hyongsil",
+     "Cho"
+    ],
+    [
+     "Hugo",
+     "Meinedo"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "Thomas",
+     "Pellegrini"
+    ],
+    [
+     "Michael",
+     "Tjalve"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ],
+    [
+     "Miguel Sales",
+     "Dias"
+    ]
+   ],
+   "title": "Correlating ASR errors with developmental changes in speech production: a study of 3-10-year-old European Portuguese children’s speech",
+   "original": "wc14_007",
+   "page_count": 7,
+   "order": 2,
+   "p1": "7",
+   "pn": "13",
+   "abstract": [
+    "Automatically recognising children’s speech is a very difficult task. This difficulty can be attributed to the high variability in children’s speech, both within and across speakers. The variability is due to developmental changes in children’s anatomy, speech production skills et cetera, and manifests itself, for example, in fundamental and formant frequencies, the frequency of disfluencies, and pronunciation quality. In this paper, we report the results of acoustic and auditory analyses of 3-10-year-old European Portuguese children’s speech. Furthermore, we are able to correlate some of the pronunciation error patterns revealed by our analyses – such as the truncation of consonant clusters – with the errors made by a children’s speech recogniser trained on speech collected from the same age group. Other pronunciation error patterns seem to have little or no impact on speech recognition performance. In future work, we will attempt to use our findings to improve the performance of our recogniser.\n",
+    "",
+    "",
+    "Index Terms: automatic speech recognition, children’s speech, acoustic analysis, auditory analysis, error analysis, European Portuguese, pronunciation quality\n",
+    ""
+   ]
+  },
+  "shivakumar14_wocci": {
+   "authors": [
+    [
+     "Prashanth Gurunath",
+     "Shivakumar"
+    ],
+    [
+     "Alexandros",
+     "Potamianos"
+    ],
+    [
+     "Sungbok",
+     "Lee"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Improving speech recognition for children using acoustic adaptation and pronunciation modeling",
+   "original": "wc14_015",
+   "page_count": 5,
+   "order": 3,
+   "p1": "15",
+   "pn": "19",
+   "abstract": [
+    "Developing a robust Automatic Speech Recognition (ASR) sys- tem for children is a challenging task because of increased vari- ability in acoustic and linguistic correlates as function of young age. The acoustic variability is mainly due to the developmen- tal changes associated with vocal tract growth. On the linguis- tic side, the variability is associated with limited knowledge of vocabulary, pronunciations and other linguistic constructs. This paper presents a preliminary study towards better acous- tic modeling, pronunciation modeling and front-end processing for children’s speech. Results are presented as a function of age. Speaker adaptation significantly reduces mismatch and variabil- ity improving recognition results across age groups. In addition, introduction of pronunciation modeling shows promising per- formance improvements.\n",
+    "",
+    "",
+    "Index Terms: automatic speech recognition, acoustic model- ing, pronunciation modeling, acoustic adaptation, front-end fea- tures\n",
+    ""
+   ]
+  },
+  "gray14_wocci": {
+   "authors": [
+    [
+     "Sharmistha S.",
+     "Gray"
+    ],
+    [
+     "Daniel",
+     "Willett"
+    ],
+    [
+     "Jianhua",
+     "Lu"
+    ],
+    [
+     "Joel",
+     "Pinto"
+    ],
+    [
+     "Paul",
+     "Maergner"
+    ],
+    [
+     "Nathan",
+     "Bodenstab"
+    ]
+   ],
+   "title": "Child automatic speech recognition for US English: child interaction with living-room-electronic-devices",
+   "original": "wc14_021",
+   "page_count": 6,
+   "order": 4,
+   "p1": "21",
+   "pn": "26",
+   "abstract": [
+    "Adult-targeted automatic speech recognition (ASR) has made significant advancements in recent years and can produce speech-to-text output with very low word-error-rate, for multiple languages, and in various types of noisy environments, e.g. car noise, living-room, outdoor-noise, etc. But when it comes to child speech, little is available at the performance level of adult targeted ASR. It requires a considerable amount of data to build an ASR for naturally spoken, spontaneous, and continuous child speech. In this study, we show that using a minimal amount of data we adapt multiple components of a state-of-the-art adult centric large vocabulary continuous speech recognition (LVCSR) system to form a child specific LVCSR system. The resulting ASR system improves the accuracy for children speaking US English to living room electronic devices (LRED), e.g. a voice-operated TV or computer. Techniques we explore in this paper include vocal tract length normalization, acoustic model adaptation, language model adaptation with childspecific content lists and grammars, as well as a neural network based approach to automatically classify child data. The combined initiative towards child-specific ASR system for the LRED domain results in relative WER improvement of 27.2% compared to adult-targeted models.\n",
+    "",
+    "",
+    "Index Terms: children’s speech, automatic speech recognition, acoustic adaptation, language model adaptation, large vocabulary continuous speech recognition.\n",
+    ""
+   ]
+  },
+  "safavi14_wocci": {
+   "authors": [
+    [
+     "Saeid",
+     "Safavi"
+    ],
+    [
+     "Maryam",
+     "Najafian"
+    ],
+    [
+     "Abualsoud",
+     "Hanani"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ],
+    [
+     "Peter",
+     "Jančovič"
+    ]
+   ],
+   "title": "Comparison of speaker verification performance for adult and child speech",
+   "original": "wc14_027",
+   "page_count": 5,
+   "order": 5,
+   "p1": "27",
+   "pn": "31",
+   "abstract": [
+    "Although speaker verification is an established area of speech technology, previous studies have been restricted to adult speech. This paper investigates speaker verification for children’s speech, using the PF-STAR children’s speech corpus. A contemporary GMM-based speaker verification system, using MFCC features and maximum score normalization, is applied to adult and child speech at various bandwidths using comparable test and training material. The results show that the Equal Error Rate (EER) for child speech is almost four times greater than that for adults. A study of the effect of bandwidth on EER shows that for adult speaker verification, the spectrum can be conveniently partitioned into three frequency bands: up to 3.5-4kHz, which contains individual differences in the part of the spectrum due to primary vocal tract resonances, the region between 4kHz and 6kHz, which contains further speaker-specific information and gives a significant reduction in EER, and the region above 6kHz. These finding are consistent with previous research. For young children’s speech a similar pattern emerges, but with each region shifted to higher frequency values.\n",
+    "",
+    "",
+    "Index Terms: speaker recognition, child speech, Gaussian mixture model, bandwidth, PF-STAR, ABI-1, ABI-2\n",
+    ""
+   ]
+  },
+  "berkling14_wocci": {
+   "authors": [
+    [
+     "Kay",
+     "Berkling"
+    ],
+    [
+     "Nadine",
+     "Pflaumer"
+    ]
+   ],
+   "title": "Phontasia - a phonics trainer for German spelling in primary education",
+   "original": "wc14_033",
+   "page_count": 6,
+   "order": 6,
+   "p1": "33",
+   "pn": "38",
+   "abstract": [
+    "Dyslexia has increased manifold over the last few years and may in part be due to unstructured teaching of spelling. For the English language, decades of research have gone into the study of phonics, the systematic instruction of letter to sound connections in context, culminating in the National Reading Panel in 2000. It has affirmed that phonics is an important ingredient in standard teaching methodologies for English. No similar research has been done to such detailed degree for elementary school L1 spelling instruction in German. One reason may be that German orthographic depth is shallow compared to English. However, the high complexity of the syllabic structure in German may well warrant a closer look at specific systematic sequencing of skill instruction. While such sequencing using phonics was present in primers until the end of the 19th century, it is not present in contemporary primers. In this paper phonics categories are proposed for the German language that build on basic German word patterns in analogy to the English progression. Based on the theoretical development of the first levels an extensible mobile app prototype has been developed.\n",
+    "",
+    "",
+    "Index Terms: Orthography, Phonics, German, Text Analysis, Educational Application\n",
+    ""
+   ]
+  },
+  "boril14_wocci": {
+   "authors": [
+    [
+     "Hynek",
+     "Bořil"
+    ],
+    [
+     "Qian",
+     "Zhang"
+    ],
+    [
+     "Ali",
+     "Ziaei"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ],
+    [
+     "Dongxin",
+     "Xu"
+    ],
+    [
+     "Jill",
+     "Gilkerson"
+    ],
+    [
+     "Jeffrey A.",
+     "Richards"
+    ],
+    [
+     "Yiwen",
+     "Zhang"
+    ],
+    [
+     "Xiaojuan",
+     "Xu"
+    ],
+    [
+     "Hongmei",
+     "Mao"
+    ],
+    [
+     "Lei",
+     "Xiao"
+    ],
+    [
+     "Fan",
+     "Jiang"
+    ]
+   ],
+   "title": "Automatic assessment of language background in toddlers through phonotactic and pitch pattern modeling of short vocalizations",
+   "original": "wc14_039",
+   "page_count": 5,
+   "order": 7,
+   "p1": "39",
+   "pn": "43",
+   "abstract": [
+    "This study utilizes phonotactic and pitch pattern modeling for automatic assessment of toddlers' language background from short vocalization segments. The experiments are conducted on audio recordings of twelve 25.31 months old USborn and Shanghainese toddlers. Each recording captures a whole-day sound track of an ordinary day in the toddlers' life spent in their natural environment. In a preliminary study, we observed that in spite of the limited presence of linguistic content in the early age child vocalizations, certain phonotactic and prosodic patterns were correlated with the child's language background. In the current effort, we analyze to what extent these language-salient cues can be leveraged in the context of automatic language background classification. Besides a traditional parallel phone recognition with statistical language modeling (PPRLM) and phone recognition with support vector machines (PRSVM), a novel scheme that utilizes pitch patterns (PPSVM) is proposed. The classification results on very short vocalizations (on average less than 3 seconds long) confirm that both phonotactic and prosodic features capture a languagespecific content, reaching equal error rates (EER) of 32.45% for PRSVM, 31.33% for PPSVM, and 29.97% in a fusion of PRSVM and PPSVM systems. The competitive performance of PPSVM suggests that pitch contours carry a significant portion of the language-specific information in toddlers' vocalizations.\n",
+    "",
+    "",
+    "Index Terms: language background assessment, toddlers, child vocalization, phonotactic modeling, pitch patterns, PPRLM, PRSVM, PPSVM.\n",
+    ""
+   ]
+  },
+  "sztaho14_wocci": {
+   "authors": [
+    [
+     "Dávid",
+     "Sztahó"
+    ],
+    [
+     "Gábor",
+     "Kiss"
+    ],
+    [
+     "László",
+     "Czap"
+    ],
+    [
+     "Klára",
+     "Vicsi"
+    ]
+   ],
+   "title": "A computer-assisted prosody pronunciation teaching system",
+   "original": "wc14_045",
+   "page_count": 5,
+   "order": 8,
+   "p1": "45",
+   "pn": "49",
+   "abstract": [
+    "Work in the last decade shows, that Computer-Assisted Pronunciation Teaching (CAPT) systems are useful, flexible tools for giving pronunciation instructions and evaluating at subject’s speech. This paper describes a newly developed CAPT system that intends to address appropriate teaching of such supra-segmental parameters as intonation, stress and speech rhythm. Two modules are implemented: (1) intonation and stress teaching, and (2) rhythm teaching using dynamic time warping. The automatic feedback of the system is evaluated by using speech samples from hard of hearing children. The automatic assessment methods give automatic feedback that is consistent with the subjective decisions of teachers. Visual feedback was also proposed which is based on the dynamic time warping algorithm and gives simple and understandable visualization of the intonation and rhythm of the subject’s utterance.\n",
+    "",
+    "",
+    "Index Terms: speech prosody, intonation, speech recognition, speech aid\n",
+    ""
+   ]
+  },
+  "wang14_wocci": {
+   "authors": [
+    [
+     "Weiyi",
+     "Wang"
+    ],
+    [
+     "Georgios",
+     "Athanasopoulos"
+    ],
+    [
+     "Selma",
+     "Yilmazyildiz"
+    ],
+    [
+     "Georgios",
+     "Patsis"
+    ],
+    [
+     "Valentin",
+     "Enescu"
+    ],
+    [
+     "Hichem",
+     "Sahli"
+    ],
+    [
+     "Werner",
+     "Verhelst"
+    ],
+    [
+     "Antoine",
+     "Hiolle"
+    ],
+    [
+     "Matthew",
+     "Lewis"
+    ],
+    [
+     "Lola",
+     "Cañamero"
+    ]
+   ],
+   "title": "Natural emotion elicitation for emotion modeling in child-robot interactions",
+   "original": "wc14_051",
+   "page_count": 6,
+   "order": 9,
+   "p1": "51",
+   "pn": "56",
+   "abstract": [
+    "Obtaining spontaneous emotional expressions is the very first and vital step in affective computing studies, for both psychologists and computer scientists. However, it is quite challenging to record them in real life, especially when certain modalities are required (e.g. 3D representation of the body). Traditional elicitation and capturing protocols either introduce the awareness of the recording, which may impair the naturalness of the behaviors, or cause too much information loss. In this paper, we present natural emotion elicitation and recording experiments, which were set in child-robot interaction scenarios. Several state-of-the-art technologies were employed to acquire the multi-modal expressive data that will be further used for emotion modeling and recognition studies. The obtained recordings exhibit the expected emotional expressions.\n",
+    "",
+    "",
+    "Index Terms: child-robot interaction, natural emotion elicitation, multi-modal recording\n",
+    ""
+   ]
+  },
+  "ilu14_wocci": {
+   "authors": [
+    [
+     "Saratu Yusuf",
+     "Ilu"
+    ],
+    [
+     "Mumtaz B.",
+     "Mustafa"
+    ],
+    [
+     "Siti Salwah",
+     "Salim"
+    ],
+    [
+     "Mehdi",
+     "Malekzadeh"
+    ]
+   ],
+   "title": "Age-based factors in the interface design of CAPT systems for children",
+   "original": "wc14_057",
+   "page_count": 5,
+   "order": 10,
+   "p1": "57",
+   "pn": "61",
+   "abstract": [
+    "Today’s children are using computer based application in various activities especially in learning and education. Many of these tools and application such as the Computer Aided Pronunciation Training (CAPT) system allow children to enjoy the learning process with little supervision. For these applications to have a maximum effect on children’s learning and education, it must be attractive to the. This is achievable with appropriate user interface (UI) design. As children grow, so do their ability, taste and preferences. They interact differently with these applications as they grow older. This study has reviewed several articles on how age factors influence the UI design. The review focuses on age related abilities such as cognitive, literacy, concentration and feedback. A team of six individuals evaluated several existing CAPT systems to determine the influence of age-based factors on the interface design. From our evaluation, we found that most of the CAPT systems have incorporated age-based feedback and literacy. However, many of the CAPT systems fail to consider the age-based factor of concentration in their UI design.\n",
+    "",
+    "",
+    "Index Terms: Children, age-based factor, learning application, age-based interaction\n",
+    ""
+   ]
+  },
+  "rayner14_wocci": {
+   "authors": [
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Claudia",
+     "Baur"
+    ],
+    [
+     "Nikos",
+     "Tsourakis"
+    ]
+   ],
+   "title": "CALL-SLT lite: a minimal framework for building interactive speech-enabled CALL applications",
+   "original": "wc14_063",
+   "page_count": 7,
+   "order": 11,
+   "p1": "63",
+   "pn": "69",
+   "abstract": [
+    "We present a framework, CALL-SLT Lite, which can be used by people with only very basic software skills to create interactive multimodal speech-enabled CALL games suitable for beginner/low intermediate child language learners. The games are deployed over the web and can be accessed through a normal browser, and the framework is completely language-independent. As the name suggests, the framework grew out of an earlier platform, CALL-SLT, which enables construction of similar games but uses a more sophisticated architecture. We review the history of the project, describing the type of game we are aiming to build and our reasons for believing that they are useful, and then present CALL-SLT Lite and an initial evaluation comparing the performance of the two versions of the framework. The results suggest that the Lite framework, although much simpler, offers performance at least as good as that of the original system.\n",
+    "",
+    "",
+    "Index Terms: CALL, speech recognition, web\n",
+    ""
+   ]
+  },
+  "tsourakis14_wocci": {
+   "authors": [
+    [
+     "Nikos",
+     "Tsourakis"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Claudia",
+     "Baur"
+    ]
+   ],
+   "title": "Formative feedback in an interactive spoken CALL system",
+   "original": "wc14_071",
+   "page_count": 7,
+   "order": 12,
+   "p1": "71",
+   "pn": "77",
+   "abstract": [
+    "By definition spoken dialogue CALL systems should be easy to use and understand. However, interaction in this context is often far from unhindered. In this paper we introduce a formative feedback mechanism in our CALL system, which can monitor interaction, report errors and provide advice and suggestions to users. The distinctive feature of this mechanism is the ability to combine information from different sources and decide on the most pertinent feedback, which can also be adapted in terms of phrasing, style and language. We conducted experiments at three secondary schools in Germanspeaking Switzerland and the obtained results suggest that our feedback mechanism helps students during interaction and contributes as a motivating factor.\n",
+    "",
+    "",
+    "Index Terms: formative feedback, CALL, children, German\n",
+    ""
+   ]
+  },
+  "evanini14_wocci": {
+   "authors": [
+    [
+     "Keelan",
+     "Evanini"
+    ],
+    [
+     "Youngsoon",
+     "So"
+    ],
+    [
+     "Jidong",
+     "Tao"
+    ],
+    [
+     "Diego",
+     "Zapata-Rivera"
+    ],
+    [
+     "Christine",
+     "Luce"
+    ],
+    [
+     "Laura",
+     "Battistini"
+    ],
+    [
+     "Xinhao",
+     "Wang"
+    ]
+   ],
+   "title": "Performance of a trialogue-based prototype system for English language assessment for young learners",
+   "original": "wc14_079",
+   "page_count": 6,
+   "order": 13,
+   "p1": "79",
+   "pn": "84",
+   "abstract": [
+    "This paper describes a trialogue-based system for assessing the spoken language abilities of young learners of English. Specifically, the system employs spoken dialogue system components in interactive, conversation-based assessment tasks involving the test taker and two virtual interlocutors. The tasks are designed to be engaging for young learners of English at the elementary school level by incorporating real-life situations into the conversations and by providing immediate feedback about their spoken responses. The system was deployed in a data collection experiment with 18 young learners of English in a public school in the USA (grades 3-5) from a variety of language backgrounds. The system was able to produce overall task completion scores for each participant that correlated with scores based on human annotations at a rate of r=0:803. In addition, the participants’ responses to a user experience survey indicate that most participants felt that the virtual interlocutors understood their responses. This prototype demonstrates that this approach to using interactive, conversation-based assessments is a viable method of assessing the English language skills of young learners.\n",
+    "",
+    "",
+    "Index Terms: spoken dialogue systems, English language assessment, trialogue, young learners\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "ASR and Verification",
+   "papers": [
+    "cosi14_wocci",
+    "hamalainen14_wocci",
+    "shivakumar14_wocci",
+    "gray14_wocci",
+    "safavi14_wocci"
+   ]
+  },
+  {
+   "title": "Poster and Demo Session",
+   "papers": [
+    "berkling14_wocci",
+    "boril14_wocci",
+    "sztaho14_wocci",
+    "wang14_wocci"
+   ]
+  },
+  {
+   "title": "Interaction",
+   "papers": [
+    "ilu14_wocci",
+    "rayner14_wocci",
+    "tsourakis14_wocci",
+    "evanini14_wocci"
+   ]
+  }
+ ]
+}

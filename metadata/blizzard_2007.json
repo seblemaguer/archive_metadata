@@ -1,0 +1,608 @@
+{
+ "SIG": "SynSIG",
+ "location": "Bonn, Germany",
+ "startDate": "25/8/2007",
+ "endDate": "25/8/2007",
+ "conf": "Blizzard",
+ "year": "2007",
+ "name": "blizzard_2007",
+ "series": "Blizzard",
+ "title": "Evaluation of text-to-speech systems",
+ "title1": "Evaluation of text-to-speech systems",
+ "date": "25 August 2007",
+ "papers": {
+  "fraser07_blizzard": {
+   "authors": [
+    [
+     "Mark",
+     "Fraser"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2007",
+   "original": "blz3_001",
+   "page_count": 12,
+   "order": 1,
+   "p1": "paper 001",
+   "pn": "",
+   "abstract": [
+    "In Blizzard 2007, the third Blizzard Challenge, participants were asked to build voices from a dataset, a defined subset and, following certain constraints, a subset of their choice. A set of test sentences was then released to be synthesised. An online evaluation of the submitted synthesised sentences focused on naturalness and intelligibility, and added new sec- tions for degree of similarity to the original speaker, and similarity in terms of naturalness of pairs of sentences from different systems. We summarise this year's Blizzard Challenge and look ahead to possible designs for Blizzard 2008 in the light of participant and listener feedback.\n",
+    ""
+   ]
+  },
+  "ni07_blizzard": {
+   "authors": [
+    [
+     "Jinfu",
+     "Ni"
+    ],
+    [
+     "Toshio",
+     "Hirai"
+    ],
+    [
+     "Hisashi",
+     "Kawai"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ],
+    [
+     "Minoru",
+     "Tsuzaki"
+    ],
+    [
+     "Shinsuke",
+     "Sakai"
+    ],
+    [
+     "Ranniery",
+     "Maia"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "ATRECSS -- ATR English speech corpus for speech synthesis",
+   "original": "blz3_002",
+   "page_count": 4,
+   "order": 2,
+   "p1": "paper 002",
+   "pn": "",
+   "abstract": [
+    "This paper introduces a large-scale phonetically-balanced English speech corpus developed at ATR for corpus-based speech synthesis. This corpus includes a 16-hour American English speech data spoken by a professional male narrator in \"reading style.\" The contents of prompt sentences concern basically news articles, travel conversations, and novels. The prompt sentences were selected from huge collections of texts using a greedy algorithm to maximize the coverage of linguistic units, such as diphones and triphones. A few measures were taken to control undesirable recording variations in voice quality in the short term (daily) and long term (monthly) while recording the prompt sentences. Statistical figures of the corpus developed as well as those of subsets provided for Blizzard Challenge 2006 and 2007 are presented.\n",
+    ""
+   ]
+  },
+  "clark07_blizzard": {
+   "authors": [
+    [
+     "Robert A. J.",
+     "Clark"
+    ],
+    [
+     "Monika",
+     "Podsiadlo"
+    ],
+    [
+     "Mark",
+     "Fraser"
+    ],
+    [
+     "Catherine",
+     "Mayo"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Statistical analysis of the Blizzard Challenge 2007 listening test results",
+   "original": "blz3_003",
+   "page_count": 6,
+   "order": 3,
+   "p1": "paper 003",
+   "pn": "",
+   "abstract": [
+    "Blizzard 2007 is the third Blizzard Challenge, in which participants build voices from a common dataset. A large listening test is conducted which allows comparison of systems in terms of naturalness and intelligibility. New sections were added to the listening test for 2007 to test the perceived similarity of the speaker's identity between natural and synthetic speech. In this paper, we present the results of the listening test and the subsequent statistical analysis.\n",
+    ""
+   ]
+  },
+  "aylett07_blizzard": {
+   "authors": [
+    [
+     "Matthew P.",
+     "Aylett"
+    ],
+    [
+     "J. Sebastian",
+     "Andersson"
+    ],
+    [
+     "Leonardo",
+     "Badino"
+    ],
+    [
+     "Christopher J.",
+     "Pidcock"
+    ]
+   ],
+   "title": "The Cerevoice Blizzard entry 2007: are small database errors worse than compression artifacts?",
+   "original": "blz3_004",
+   "page_count": 4,
+   "order": 4,
+   "p1": "paper 004",
+   "pn": "",
+   "abstract": [
+    "In commercial systems the memory footprint of unit selection systems is often a key issue. This is especially true for PDAs and other embedded devices. In this years Blizzard entry CereProc R gave itself the criteria that the full database system entered would have a smaller memory footprint than either of the two smaller database entries. This was accomplished by applying speex speech compression to the full database entry. In turn a set of small database techniques used to improve the quality of small database systems in last years entry were extended. Finally, for all systems, two quality control methods were applied to the underlying database to improve the lexicon and transcription match to the underlying data. Results suggest that mild audio quality artifacts introduced by lossy compression have almost as much impact on MOS perceived quality as concatenation errors introduced by sparse data in the smaller systems with bulked diphones.\n",
+    ""
+   ]
+  },
+  "black07_blizzard": {
+   "authors": [
+    [
+     "Alan W.",
+     "Black"
+    ],
+    [
+     "Christina L.",
+     "Bennett"
+    ],
+    [
+     "Benjamin C.",
+     "Blanchard"
+    ],
+    [
+     "John",
+     "Kominek"
+    ],
+    [
+     "Brian",
+     "Langner"
+    ],
+    [
+     "Kishore",
+     "Prahallad"
+    ],
+    [
+     "Arthur",
+     "Toth"
+    ]
+   ],
+   "title": "CMU Blizzard 2007: a hybrid acoustic unit selection system from statistically predicted parameters",
+   "original": "blz3_005",
+   "page_count": 5,
+   "order": 5,
+   "p1": "paper 005",
+   "pn": "",
+   "abstract": [
+    "This paper describes CMU's entry for the Blizzard Challenge 2007. Our eventual system consisted of a hybrid statistical parameter generation system whose output was used to do acoustic unit selection. After testing a number of varied systems, this system proved the best in our internal tests. This paper also explains some of the limitations we see in our techniques. The CMU system is identified as D in the result charts.\n",
+    ""
+   ]
+  },
+  "richmond07_blizzard": {
+   "authors": [
+    [
+     "Korin",
+     "Richmond"
+    ],
+    [
+     "Volker",
+     "Strom"
+    ],
+    [
+     "Robert A.",
+     "Clark"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Sue",
+     "Fitt"
+    ]
+   ],
+   "title": "Festival <i>multisyn</i> voices for the 2007 Blizzard Challenge",
+   "original": "blz3_006",
+   "page_count": 5,
+   "order": 6,
+   "p1": "paper 006",
+   "pn": "",
+   "abstract": [
+    "This paper describes selected aspects of the Festival Multisyn entry to the Blizzard Challenge 2007. We provide an overview of the process of building the three required voices from the speech data provided. This paper focuses on new features of Multisyn which are currently under development and which have been employed in the system used for this Blizzard Challenge. These differences are the application of a more flexible phonetic lattice representation during forced alignment labelling and the use of a pitch accent target cost component. Finally, we also examine aspects of the speech data provided for this year's Blizzard Challenge and raise certain issues for discussion concerning the aim of comparing voices made with differing subsets of the data provided.\n",
+    ""
+   ]
+  },
+  "schroeder07_blizzard": {
+   "authors": [
+    [
+     "Marc",
+     "Schroeder"
+    ],
+    [
+     "Anna",
+     "Hunecke"
+    ]
+   ],
+   "title": "MARY TTS participation in the Blizzard Challenge 2007",
+   "original": "blz3_007",
+   "page_count": 6,
+   "order": 7,
+   "p1": "paper 007",
+   "pn": "",
+   "abstract": [
+    "This paper describes the second participation of the open source MARY TTS unit selection system in a Blizzard challenge. Compared to last year's system, a number of well-defined changes have been made to the algorithm, concerning unit definition, prosody models, and signal modification. The results in this year's challenge are considerably improved, confirming that the changes were worthwhile. The paper also reports on an approach to the selection of a subset of the utterances provided, in order to build a voice with good coverage not larger than the pre-defined \"Arctic\" subset. Results show that this small voice is perceived slightly better than the voice we built from the Arctic subset.\n",
+    ""
+   ]
+  },
+  "yamagishi07_blizzard": {
+   "authors": [
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Heiga",
+     "Zen"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "Speaker-independent HMM-based speech synthesis system - HTS-2007 system for the Blizzard Challenge 2007",
+   "original": "blz3_008",
+   "page_count": 6,
+   "order": 8,
+   "p1": "paper 008",
+   "pn": "",
+   "abstract": [
+    "This paper describes an HMM-based speech synthesis system developed by the HTS working group for the Blizzard Challenge 2007. To further explore the potential of HMM-based speech synthesis, we incorporate new features in our conventional system which underpin a speaker-independent approach: speaker adaptation techniques; adaptive training for HSMMs; and full covariance modeling using the CSMAPLR transforms.\n",
+    ""
+   ]
+  },
+  "weiss07_blizzard": {
+   "authors": [
+    [
+     "Christian",
+     "Weiss"
+    ],
+    [
+     "Sergio",
+     "Paulo"
+    ],
+    [
+     "Luis",
+     "Figueira"
+    ],
+    [
+     "Luis C.",
+     "Oliveira"
+    ]
+   ],
+   "title": "Blizzard Entry: integrated voice building and synthesis for unit-selection TTS",
+   "original": "blz3_009",
+   "page_count": 5,
+   "order": 9,
+   "p1": "paper 009",
+   "pn": "",
+   "abstract": [
+    "In this paper we describe our system used for the 2007 Blizzard Challenge TTS evaluation task. Following the rules we were building three voices from the given speech database where a first voice was created from the full data a second voice was build from the ARCTIC subset data and a third voice from a self-defined subset. The self defined subset was choosen by a text selection algorithm that selected sentences out of the full speech data recordings. Although the Blizzard team provides an already labeled corpus we were buling all the voices from scratch using our own segmentation and pre-processing tools. As result we show in this paper our segmentaion algorithm, the text-selection algorithm for choosing an optimal subset from the full speech data corpus and the voice building and synthesis system itself. Since a TTS system can be divided in an offline and online process we describe the offline pre-processing, the modules we use to prepare the data and describe the online synthesis runtime process how the acoustic soundfiles are generated.\n",
+    ""
+   ]
+  },
+  "kaszczuk07_blizzard": {
+   "authors": [
+    [
+     "Michal",
+     "Kaszczuk"
+    ],
+    [
+     "Lukasz",
+     "Osowski"
+    ]
+   ],
+   "title": "The IVO software Blizzard 2007 entry: improving Ivona speech synthesis system",
+   "original": "blz3_010",
+   "page_count": 4,
+   "order": 10,
+   "p1": "paper 010",
+   "pn": "",
+   "abstract": [
+    "In this paper we wish to describe special version of Ivona Speech Synthesis System with US English voice developed in IVO Software for The Blizzard Challenge 2007. Current system is based on improved speech synthesis technique originally developed for the previous challenge - The Blizzard Challenge 2006. An evaluation made by different Blizzard listeners groups, which gave the highest Mean Opinion Score to Ivona shows us, that nowadays Ivona is one of the top of available Text To Speech solutions. Hence we show a basic overview of the Ivona Speech Synthesis System, methodology and problems which we experienced during building US English voice from the ATR database prepared for Blizzard Challenge 2007. We also show a short analysis of Blizzard Challenge 2007 results and future plans of development for Ivona Speech Synthesis System.\n",
+    ""
+   ]
+  },
+  "rozak07_blizzard": {
+   "authors": [
+    [
+     "Mike",
+     "Rozak"
+    ]
+   ],
+   "title": "Text-to-speech designed for a massively multiplayer online role-playing game (MMORPG)",
+   "original": "blz3_011",
+   "page_count": 6,
+   "order": 11,
+   "p1": "paper 011",
+   "pn": "",
+   "abstract": [
+    "CircumReality is a niche-market massively-multiplayer online role-playing game (MMORPG or MMOG) that relies heavily on text-to-speech (TTS) for narration, non-player character (NPC) speech, and text chat between players. Associated speech technologies enable voice chat and voice transformation/disguise. Most contemporary TTS engines are geared towards hand-held devices or telephony, resulting in technology that is not ideally suited for games. This paper discusses how a game-oriented TTS engine differs from a telephony or device-oriented TTS engine, and how those differences affect the technology.\n",
+    ""
+   ]
+  },
+  "ding07_blizzard": {
+   "authors": [
+    [
+     "Feng",
+     "Ding"
+    ],
+    [
+     "Jari",
+     "Alhonen"
+    ]
+   ],
+   "title": "Non-uniform unit selection through search strategy for Blizzard Challenge 2007",
+   "original": "blz3_012",
+   "page_count": 4,
+   "order": 12,
+   "p1": "paper 012",
+   "pn": "",
+   "abstract": [
+    "This present paper describes a non-uniform unit selection synthesis system for the Blizzard Challenge 2007. Non- uniform unit is used to maximize the length of unit sequence to be selected for the target sequence. In a minor modification from the previous implementation, a different search strategy is introduced to transfer a usual phoneme-based speech system to a non-uniform unit selection system, without big changes to the voice database. The front-end analysis results, such as syllable boundary, word boundary, and prosody phrase boundary, are utilized to search from different layers. The probable best small unit instance will be selected, gradually growing up to a longer unit. It is still possible to give up an original phoneme sequence existing in the database if that sequence mismatches the context significantly.\n",
+    ""
+   ]
+  },
+  "wouters07_blizzard": {
+   "authors": [
+    [
+     "Johan",
+     "Wouters"
+    ]
+   ],
+   "title": "SVOX participation in Blizzard 2007",
+   "original": "blz3_013",
+   "page_count": 4,
+   "order": 13,
+   "p1": "paper 013",
+   "pn": "",
+   "abstract": [
+    "This paper describes the SVOX system architecture and the steps we took to integrate the Blizzard database into our system. The results of the Blizzard evaluation show that SVOX is a leader in small and large footprint unit selection. Analysis of the mean opinion scores for specific sentences shows where our system can improve most. Some recommendations for future Blizzard Challenges are also made.\n",
+    ""
+   ]
+  },
+  "buchholz07_blizzard": {
+   "authors": [
+    [
+     "Sabine",
+     "Buchholz"
+    ],
+    [
+     "Norbert",
+     "Braunschweiler"
+    ],
+    [
+     "Masahiro",
+     "Morita"
+    ],
+    [
+     "Gabe",
+     "Webster"
+    ]
+   ],
+   "title": "The Toshiba entry for the 2007 Blizzard Challenge",
+   "original": "blz3_014",
+   "page_count": 6,
+   "order": 14,
+   "p1": "paper 014",
+   "pn": "",
+   "abstract": [
+    "This paper describes the system with which we took part in the Blizzard Challenge for the first time. It describes how we created our own annotation from scratch and introduces the various system components, in particular the back-end. Results show that our system achieves excellent intelligibility, in particular with less data (e.g. the lowest word error rate for voice C 1), and reasonable naturalness (MOS of 3.0, 2.9 and 2.9 for voice A, B and C, respectively). They also reveal that our simple approach of randomly selecting sentences for voice C worked well.\n",
+    ""
+   ]
+  },
+  "cahill07_blizzard": {
+   "authors": [
+    [
+     "Peter",
+     "Cahill"
+    ],
+    [
+     "Julie",
+     "Carson-Berndsen"
+    ]
+   ],
+   "title": "The Jess Blizzard Challenge 2007 entry",
+   "original": "blz3_015",
+   "page_count": 4,
+   "order": 15,
+   "p1": "paper 015",
+   "pn": "",
+   "abstract": [
+    "The Blizzard Challenge is an independent evaluation of syn- thetic speech systems. This paper describes the Jess system, one of the participants in the Blizzard Challenge 2007. One of the unique features of the Jess system is the use of articulatory-acoustic feature detection to ensure a higher degree of acoustic consistency at joins. To make results comparable with the system presented last year all components of the system except the actual synthesiser were the same as last year's entry.\n",
+    ""
+   ]
+  },
+  "bonafonte07_blizzard": {
+   "authors": [
+    [
+     "Antonio",
+     "Bonafonte"
+    ],
+    [
+     "Jordi",
+     "Adell"
+    ],
+    [
+     "Pablo D.",
+     "Aguero"
+    ],
+    [
+     "Daniel",
+     "Erro"
+    ],
+    [
+     "Ignasi",
+     "Esquerra"
+    ],
+    [
+     "Asunción",
+     "Moreno"
+    ],
+    [
+     "Javier",
+     "Perez"
+    ],
+    [
+     "Tatyana",
+     "Polyakova"
+    ]
+   ],
+   "title": "The UPC TTS system description for the 2007 Blizzard Challenge",
+   "original": "blz3_016",
+   "page_count": 4,
+   "order": 16,
+   "p1": "paper 016",
+   "pn": "",
+   "abstract": [
+    "This paper presents the evaluation of Ogmios, the UPC TTS system carried out within the Blizzard Challenge Initiative, 2007. Ogmios is a unit-selection based system. Prosodic models are used to select the units using acoustic measures in the target cost but the selected units are not modified. Most of the modules of Ogmios rely on data driven techniques. This evaluation confirms that this framework allow fast development of synthetic voices in new languages. Index Terms: speech synthesis, synthesis systems, Blizzard evaluation.\n",
+    ""
+   ]
+  },
+  "ling07_blizzard": {
+   "authors": [
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Long",
+     "Qin"
+    ],
+    [
+     "Heng",
+     "Lu"
+    ],
+    [
+     "Yu",
+     "Gao"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ],
+    [
+     "Ren-Hua",
+     "Wang"
+    ],
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Zhi-Wei",
+     "Zhao"
+    ],
+    [
+     "Jin-Hui",
+     "Yang"
+    ],
+    [
+     "Jie",
+     "Chen"
+    ],
+    [
+     "Guo-Ping",
+     "Hu"
+    ]
+   ],
+   "title": "The USTC and iflytek speech synthesis systems for Blizzard Challenge 2007",
+   "original": "blz3_017",
+   "page_count": 6,
+   "order": 17,
+   "p1": "paper 017",
+   "pn": "",
+   "abstract": [
+    "This paper introduces the speech synthesis systems developed by USTC and iFlytek for Blizzard Challenge 2007. These two systems are both HMM-based ones and employ similar training algorithms, where contextual dependent HMMs for spectrum, F0 and duration are estimated according to the acoustic features and contextual information of training database. However, different synthesis methods are adopted for these two systems. In USTC system, speech parameters are generated directly from these statistical models and parametric synthesizer is used to reconstruct speech waveform. The iFlytek system is a waveform concatenation one, which uses maximum likelihood criterion of statistical models to guide the selection of phone-sized candidate units. Comparing the evaluation results of these two systems in Blizzard Challenge 2007, we find that the parametric synthesis system achieves better performance than unit selection method in intelligibility. On the other hand, the synthesized speech of the unit selection system is more similar to the original speech and more natural especially when the full training set is used.\n",
+    ""
+   ]
+  },
+  "jun07_blizzard": {
+   "authors": [
+    [
+     "Won-Suk",
+     "Jun"
+    ],
+    [
+     "Deok-Su",
+     "Na"
+    ],
+    [
+     "Seong-Won",
+     "Kim"
+    ],
+    [
+     "Myung",
+     "Kim"
+    ],
+    [
+     "Joon-Woo",
+     "Lee"
+    ],
+    [
+     "Jong-Seok",
+     "Lee"
+    ]
+   ],
+   "title": "The Voicetext text-to-speech system for the Blizzard Challenge 2007",
+   "original": "blz3_018",
+   "page_count": 4,
+   "order": 18,
+   "p1": "paper 018",
+   "pn": "",
+   "abstract": [
+    "This paper introduces the VoiceText text-to-speech system developed by Voiceware. By means of corpus based concatenative speech synthesis technique, we built high quality synthetic voices using the dataset provided for the Blizzard challenge 2007. The evaluation results show that VoiceText achieved high performances in both naturalness and intelligibility of synthesized speech.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "fraser07_blizzard",
+    "ni07_blizzard",
+    "clark07_blizzard",
+    "aylett07_blizzard",
+    "black07_blizzard",
+    "richmond07_blizzard",
+    "schroeder07_blizzard",
+    "yamagishi07_blizzard",
+    "weiss07_blizzard",
+    "kaszczuk07_blizzard",
+    "rozak07_blizzard",
+    "ding07_blizzard",
+    "wouters07_blizzard",
+    "buchholz07_blizzard",
+    "cahill07_blizzard",
+    "bonafonte07_blizzard",
+    "ling07_blizzard",
+    "jun07_blizzard"
+   ]
+  }
+ ]
+}

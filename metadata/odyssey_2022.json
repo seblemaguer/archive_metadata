@@ -1,0 +1,2149 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2022)",
+ "location": "Beijing, China",
+ "startDate": "28/6/2022",
+ "endDate": "1/7/2022",
+ "URL": "http://www.odyssey2022.org/",
+ "chair": "Chair: Thomas Fang Zheng",
+ "ISSN": "2312-2846",
+ "conf": "Odyssey",
+ "year": "2022",
+ "name": "odyssey_2022",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2022)",
+ "date": "28 June - 1 July 2022",
+ "papers": {
+  "wang22_odyssey": {
+   "authors": [
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Investigating Self-Supervised Front Ends for Speech Spoofing Countermeasures",
+   "original": "odyssey2022_paper_2",
+   "page_count": 7,
+   "order": 14,
+   "p1": 100,
+   "pn": 106,
+   "abstract": [
+    "Self-supervised speech model is a rapid progressing research topic, and many pre-trained models have been released and used in various down stream tasks. For speech anti-spoofing, most countermeasures (CMs) use signal processing algorithms to extract acoustic features for classification. In this study, we use pre-trained self-supervised speech models as the front end of spoofing CMs. We investigated different back end architectures to be combined with the self-supervised front end, the effectiveness of fine-tuning the front end, and the performance of using different pre-trained self-supervised models. Our findings showed that, when a good pre-trained front end was fine-tuned with either a shallow or a deep neural network-based back end on the ASVspoof 2019 logical access (LA) training set, the resulting CM not only achieved a low EER score on the 2019 LA test set but also significantly outperformed the baseline on the ASVspoof 2015, 2021 LA, and 2021 deepfake test sets. A sub-band analysis further demonstrated that the CM mainly used the information in a specific frequency band to discriminate the bona fide and spoofed trials across the test sets.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-14"
+  },
+  "peng22_odyssey": {
+   "authors": [
+    [
+     "Junyi",
+     "Peng"
+    ],
+    [
+     "Chunlei",
+     "Zhang"
+    ],
+    [
+     "Jan \"Honza\"",
+     "Černocký"
+    ],
+    [
+     "Dong",
+     "Yu"
+    ]
+   ],
+   "title": "Progressive Contrastive Learning for Self-Supervised Text-Independent Speaker Verification",
+   "original": "odyssey2022_paper_3",
+   "page_count": 8,
+   "order": 3,
+   "p1": 17,
+   "pn": 24,
+   "abstract": [
+    "Self-supervised speaker representation learning has drawn attention extensively in recent years. Most of the work is based on the iterative “clustering-classification” learning framework, and the performance is sensitive to the pre-defined number of clusters. However, the cluster number is hard to estimate when dealing with large-scale unlabeled data. In this paper, we propose a progressive contrastive learning (PCL) algorithm to dynamically estimate the cluster number at each step based on the statistical characteristics of the data itself, and the estimated number will progressively approach the ground-truth speaker number with the increasing of step. Specifically, we first update the data queue by current augmented samples. Then, eigendecomposition is introduced to estimate the number of speakers in the updated data queue. Finally, we assign the queued data into the estimated cluster centroid and construct a contrastive loss, which encourages the speaker representation to be closer to its cluster centroid and away from others. Experimental results on VoxCeleb1 demonstrate the effectiveness of our proposed PCL compared with existing self-supervised approaches.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-3"
+  },
+  "yamashita22_odyssey": {
+   "authors": [
+    [
+     "Natsuo",
+     "Yamashita"
+    ],
+    [
+     "Shota",
+     "Horiguchi"
+    ],
+    [
+     "Takeshi",
+     "Homma"
+    ]
+   ],
+   "title": "Improving the Naturalness of Simulated Conversations for End-to-End Neural Diarization",
+   "original": "odyssey2022_paper_4",
+   "page_count": 8,
+   "order": 19,
+   "p1": 133,
+   "pn": 140,
+   "abstract": [
+    "This paper investigates a method for simulating natural conversation in the model training of end-to-end neural diarization (EEND). Due to the lack of any annotated real conversational dataset, EEND is usually pretrained on a large-scale simulated conversational dataset first and then adapted to the target real dataset. Simulated datasets play an essential role in the training of EEND, but as yet there has been insufficient investigation into an optimal simulation method. We thus propose a method to simulate natural conversational speech. In contrast to conventional methods, which simply combine the speech of multiple speakers, our method takes turn-taking into account. We define four types of speaker transition and sequentially arrange them to simulate natural conversations. The dataset simulated using our method was found to be statistically similar to the real dataset in terms of the silence and overlap ratios. The experimental results on two-speaker diarization using the CALLHOME and CSJ datasets showed that the simulated dataset contributes to improving the performance of EEND.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-19"
+  },
+  "kang22_odyssey": {
+   "authors": [
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ]
+   ],
+   "title": "Investigation on Mixup Strategies for End-to-End Voice Spoof Detection System",
+   "original": "odyssey2022_paper_5",
+   "page_count": 7,
+   "order": 8,
+   "p1": 55,
+   "pn": 61,
+   "abstract": [
+    "For building a reliable spoof detection system for speaker verification applications, it is important to ensure that the system generalizes well to spoof attack types unobserved during the training process. To achieve this, we explore various possible adaptations of the mixup augmentation technique to the spoof detection system training, which involves mixing within-bonafide, within-spoof, and between bonafide and spoof samples. Moreover, we propose a novel two-stage mixup strategies which are designed to increase the generalization of the end-to-end spoof detection system to unseen attack types. The systems trained with different mixup configurations were experimented on the logical access (LA) task of the ASVSpoof2019 dataset, and the proposed framework showed the best performance.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-8"
+  },
+  "gong22_odyssey": {
+   "authors": [
+    [
+     "Yijun",
+     "Gong"
+    ],
+    [
+     "Xiao-Lei",
+     "Zhang"
+    ]
+   ],
+   "title": "DP-Means: An Efficient Bayesian Nonparametric Model for Speaker Diarization",
+   "original": "odyssey2022_paper_7",
+   "page_count": 6,
+   "order": 22,
+   "p1": 156,
+   "pn": 161,
+   "abstract": [
+    "Recently, Bayesian probabilistic model based clustering gets superior performance in speaker diarization, however, it is much more complicated than widely used efficient clustering algorithms, which is not convenient for some real-life scenarios. In this paper, we propose a covariance-asymptotic variant to Dirichlet process mixture models (DPMM), named Dirichlet process means (DP-means) clustering for speaker diarization. Similar to Bayesian nonparametric models (e.g. DPMM), DP-means can constantly generate new clusters during clustering, which is suitable to the speaker diarization problem where the number of speakers is determined on-the-fly. Different from Bayesian nonparametric models, DP-means is a hard clustering that does not need to optimize the variance of mixtures, which is efficient for real-world problems. We further exploited an initialization method to obtain the prior cluster centroids for DP-means. Experimental results on the CALLHOME, AMI and DIHARD III corpora show that the proposed method is more efficient than the state-of-the-art speaker clustering methods with slight performance degradation.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-22"
+  },
+  "castan22_odyssey": {
+   "authors": [
+    [
+     "Diego",
+     "Castan"
+    ],
+    [
+     "Md Hafizur",
+     "Rahman"
+    ],
+    [
+     "Sarah",
+     "Bakst"
+    ],
+    [
+     "Chris",
+     "Cobo-Kroenke"
+    ],
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Martin",
+     "Graciarena"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ]
+   ],
+   "title": "Speaker-Targeted Synthetic Speech Detection",
+   "original": "odyssey2022_paper_8",
+   "page_count": 8,
+   "order": 9,
+   "p1": 62,
+   "pn": 69,
+   "abstract": [
+    "Text-to-speech (TTS) and voice conversion (VC) technologies are evolving quickly towards realistic-sounding human-like voices. As this technology improves, so does the opportunity for malpractice in speaker identification (SID) via spoofing, the process of impersonating a voice biometric via synthesis. More data typically equates to a more realistic voice model, which poses an issue for well-known subjects, such as politicians and celebrities, who have vast amounts of multimedia available online. Detection of synthetic speech has relied on signal processing techniques that focus on the generation of new acoustic features and train deep-learning models to detect when an audio file has been manipulated through the characterization of unnatural changes or artifacts. However, these techniques do not use any information from the speaker they are evaluating. This paper proposes to incorporate information from the speaker-of-interest (SoI) into the models to avoid specific spoofing attacks for certain vulnerable people as a logical access (LA) control tool. The wealth of data for well-known people can also be used to train a speaker-specific spoofing detector with a higher level of accuracy than a speaker-independent model. The paper proposes a new xResNet-PLDA system and compares it to three different baseline systems: a state-of-the-art speaker identification system, an xResNet system trained to discriminate between bonafide and fake speech, and a speaker identification system in which the PLDA and calibration models were trained with bonafide and fake speech. We evaluated the systems in two different scenarios — a cross-validation scenario and a holdout scenario — with three different databases. We show how the proposed system outperforms dramatically the baseline systems in each scenario and for each database. Finally, we show how using a small amount of the SoI’s speech to adapt global calibration parameters improves the performance of the system, especially in unseen conditions.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-9"
+  },
+  "miao22_odyssey": {
+   "authors": [
+    [
+     "Xiaoxiao",
+     "Miao"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Erica",
+     "Cooper"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Natalia",
+     "Tomashenko"
+    ]
+   ],
+   "title": "Language-Independent Speaker Anonymization Approach Using Self-Supervised Pre-Trained Models",
+   "original": "odyssey2022_paper_9",
+   "page_count": 8,
+   "order": 39,
+   "p1": 279,
+   "pn": 286,
+   "abstract": [
+    "Speaker anonymization aims to protect the privacy of speakers while preserving spoken linguistic information from speech. Current mainstream neural network speaker anonymization systems are complicated, containing an F0 extractor, speaker encoder, automatic speech recognition acoustic model (ASR AM), speech synthesis acoustic model and speech waveform generation model. Moreover, as an ASR AM is language-dependent, trained on English data, it is hard to adapt it into another language. In this paper, we propose a simpler self-supervised learning (SSL)-based method for language-independent speaker anonymization without any explicit language-dependent model, which can be easily used for other languages. Extensive experiments were conducted on the VoicePrivacy Challenge 2020 datasets in English and AISHELL-3 datasets in Mandarin to demonstrate the effectiveness of our proposed SSL-based language-independent speaker anonymization method.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-39"
+  },
+  "zhang22_odyssey": {
+   "authors": [
+    [
+     "Yucong",
+     "Zhang"
+    ],
+    [
+     "Qinjian",
+     "Lin"
+    ],
+    [
+     "Weiqing",
+     "Wang"
+    ],
+    [
+     "Lin",
+     "Yang"
+    ],
+    [
+     "Xuyang",
+     "Wang"
+    ],
+    [
+     "Junjie",
+     "Wang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Low-Latency Online Speaker Diarization with Graph-Based Label Generation",
+   "original": "odyssey2022_paper_10",
+   "page_count": 8,
+   "order": 23,
+   "p1": 162,
+   "pn": 169,
+   "abstract": [
+    "This paper introduces an online speaker diarization system that can handle long-time audio with low latency. We enable Agglomerative Hierarchy Clustering (AHC) to work in an online fashion by introducing a label matching algorithm. This algorithm solves the inconsistency between output labels and hidden labels that are generated each turn. To ensure the low latency in the online setting, we introduce a variant of AHC, namely chkpt-AHC, to cluster the speakers. In addition, we propose a speaker embedding graph to exploit a graph-based re-clustering method, further improving the performance. In the experiment, we evaluate our systems on both DIHARD3 and VoxConverse datasets. The experimental results show that our proposed online systems have better performance than our baseline online system and have comparable performance to our offline systems. We find out that the framework combining the chkpt-AHC method and the label matching algorithm works well in the online setting. Moreover, the chkpt-AHC method greatly reduces the time cost, while the graph-based re-clustering method helps improve the performance.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-23"
+  },
+  "cumani22_odyssey": {
+   "authors": [
+    [
+     "Sandro",
+     "Cumani"
+    ],
+    [
+     "Salvatore",
+     "Sarni"
+    ]
+   ],
+   "title": "Impostor Score Statistics as Quality Measures for the Calibration of Speaker Verification Systems",
+   "original": "odyssey2022_paper_11",
+   "page_count": 8,
+   "order": 4,
+   "p1": 25,
+   "pn": 32,
+   "abstract": [
+    "Trial-dependent miscalibration can severely affect the performance of speaker verification systems. Global calibration methods address the problem by incorporating side-information into the calibration model. Alternatively, score normalization approaches exploit statistics computed from scores of impostor cohorts. While effective in some scenarios, the latter approaches suffer from poor global calibration, and in some cases may even increase trial-dependent miscalibration with respect to unnormalized scores. While the former issue can be addressed through global calibration, the latter problem can result in degraded performance. In this work, we provide a theoretical framework for incorporating impostor score statistics as side information in discriminative calibration models. Our approach allows us to improve both global and trial-dependent calibration, without incurring in some of the issues of score normalization. Results on SRE 2019 and SITW datasets show that our approach achieves similar or better (up to 15% relative) results compared to state-of-the-art score normalization techniques. The model can also be trivially extended to incorporate additional side-information.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-4"
+  },
+  "wang22b_odyssey": {
+   "authors": [
+    [
+     "Quan",
+     "Wang"
+    ],
+    [
+     "Yang",
+     "Yu"
+    ],
+    [
+     "Jason",
+     "Pelecanos"
+    ],
+    [
+     "Yiling",
+     "Huang"
+    ],
+    [
+     "Ignacio Lopez",
+     "Moreno"
+    ]
+   ],
+   "title": "Attentive Temporal Pooling for Conformer-Based Streaming Language Identification in Long-Form Speech",
+   "original": "odyssey2022_paper_14",
+   "page_count": 8,
+   "order": 36,
+   "p1": 255,
+   "pn": 262,
+   "abstract": [
+    "In this paper, we introduce a novel language identification system based on conformer layers. We propose an attentive temporal pooling mechanism to allow the model to carry information in long-form audio via a recurrent form, such that the inference can be performed in a streaming fashion. Additionally, we investigate two domain adaptation approaches to allow adapting an existing language identification model without retraining the model parameters for a new domain. We perform a comparative study of different model topologies under different constraints of model size, and find that conformer-based models significantly outperform LSTM and transformer based models. Our experiments also show that attentive temporal pooling and domain adaptation improve model accuracy.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-36"
+  },
+  "rikhye22_odyssey": {
+   "authors": [
+    [
+     "Rajeev",
+     "Rikhye"
+    ],
+    [
+     "Quan",
+     "Wang"
+    ],
+    [
+     "Qiao",
+     "Liang"
+    ],
+    [
+     "Yanzhang",
+     "He"
+    ],
+    [
+     "Ian",
+     "McGraw"
+    ]
+   ],
+   "title": "Closing the Gap Between Single-User and Multi-User VoiceFilter-Lite",
+   "original": "odyssey2022_paper_15",
+   "page_count": 7,
+   "order": 41,
+   "p1": 294,
+   "pn": 300,
+   "abstract": [
+    "VoiceFilter-Lite is a speaker-conditioned voice separation model that plays a crucial role in improving speech recognition and speaker verification by suppressing overlapping speech from non-target speakers. However, one limitation of VoiceFilter-Lite, and other speaker-conditioned speech models in general, is that these models are usually limited to a single target speaker. This is undesirable as most smart home devices now support multiple enrolled users. In order to extend the benefits of personalization to multiple users, we previously developed an attention-based speaker selection mechanism and applied it to VoiceFilter-Lite. However, the original multi-user VoiceFilter-Lite model suffers from significant performance degradation compared with single-user models. In this paper, we devised a series of experiments to improve the multi-user VoiceFilter-Lite model. By incorporating a dual learning rate schedule and by using feature-wise linear modulation (FiLM) to condition the model with the attended speaker embedding, we successfully closed the performance gap between multi-user and single-user VoiceFilter-Lite models on single-speaker evaluations. At the same time, the new model can also be easily extended to support any number of users, and significantly outperforms our previously published model on multi-speaker evaluations.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-41"
+  },
+  "padi22_odyssey": {
+   "authors": [
+    [
+     "Sarala",
+     "Padi"
+    ],
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Dinesh",
+     "Manocha"
+    ],
+    [
+     "Ram D.",
+     "Sriram"
+    ]
+   ],
+   "title": "Multimodal Emotion Recognition Using Transfer Learning from Speaker Recognition and BERT-Based Models",
+   "original": "odyssey2022_paper_16",
+   "page_count": 8,
+   "order": 57,
+   "p1": 407,
+   "pn": 414,
+   "abstract": [
+    "Automatic emotion recognition plays a key role in computer-human interaction as it has the potential to enrich the next-generation artificial intelligence with emotional intelligence. It finds applications in customer and/or representative behavior analysis in call centers, gaming, personal assistants, and social robots, to mention a few. Therefore, there has been an increasing demand to develop robust automatic methods to analyze and recognize the various emotions. In this paper, we propose a neural network-based emotion recognition framework that uses a late fusion of transfer-learned and fine-tuned models from speech and text modalities. More specifically, we i) adapt a residual network (ResNet) based model trained on a large-scale speaker recognition task using transfer learning along with a spectrogram augmentation approach to recognize emotions from speech, and ii) use a fine-tuned bidirectional encoder representations from transformers (BERT) based model to represent and recognize emotions from the text. The proposed system then combines the Resnet and BERT-based model scores using a late fusion strategy to further improve the emotion recognition performance. The proposed multimodal solution addresses the data scarcity limitation in emotion recognition using transfer learning, data augmentation, and fine-tuning, thereby improving the generalization performance of the emotion recognition models. We evaluate the effectiveness of our proposed multimodal approach on the interactive emotional dyadic motion capture (IEMOCAP) dataset. Experimental results indicate that both audio and text-based models improve the emotion recognition performance and that the proposed multimodal solution achieves state-of-the-art results on the IEMOCAP benchmark.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-57"
+  },
+  "pelecanos22_odyssey": {
+   "authors": [
+    [
+     "Jason",
+     "Pelecanos"
+    ],
+    [
+     "Quan",
+     "Wang"
+    ],
+    [
+     "Yiling",
+     "Huang"
+    ],
+    [
+     "Ignacio Lopez",
+     "Moreno"
+    ]
+   ],
+   "title": "Parameter-Free Attentive Scoring for Speaker Verification",
+   "original": "odyssey2022_paper_17",
+   "page_count": 7,
+   "order": 28,
+   "p1": 200,
+   "pn": 206,
+   "abstract": [
+    "This paper presents a novel study of parameter-free attentive scoring for speaker verification. Parameter-free scoring provides the flexibility of comparing speaker representations without the need of an accompanying parametric scoring model. Inspired by the attention component in Transformer neural networks, we propose a variant of the scaled dot product attention mechanism to compare enrollment and test segment representations. In addition, this work explores the effect on performance of (i) different types of normalization, (ii) independent versus tied query/key estimation, (iii) varying the number of key-value pairs and (iv) pooling multiple enrollment utterance statistics. Experimental results for a 4 task average show that a simple parameter-free attentive scoring mechanism can improve the average EER by 10% over the best cosine similarity baseline.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-28"
+  },
+  "liu22_odyssey": {
+   "authors": [
+    [
+     "Wei",
+     "Liu"
+    ],
+    [
+     "Meng",
+     "Sun"
+    ],
+    [
+     "Xiongwei",
+     "Zhang"
+    ],
+    [
+     "Hugo Van",
+     "hamme"
+    ],
+    [
+     "Thomas Fang",
+     "Zheng"
+    ]
+   ],
+   "title": "A Multi-Resolution Front-End for End-to-End Speech Anti-Spoofing",
+   "original": "odyssey2022_paper_19",
+   "page_count": 6,
+   "order": 17,
+   "p1": 120,
+   "pn": 125,
+   "abstract": [
+    "The choice of an optimal time-frequency resolution is usually a difficult but important step in tasks involving speech signal classification, e.g., speech anti-spoofing. The variations of the performance with different choices of time-frequency resolutions can be as large as those with different model architectures, which makes it difficult to judge what the improvement actually comes from when a new network architecture is invented and introduced as the classifier. In this paper, we propose a multi-resolution front-end for feature extraction in an end-to-end classification framework. Optimal weighted combinations of multiple time-frequency resolutions will be learned automatically given the objective of a classification task. Features extracted with different time-frequency resolutions are weighted and concatenated as inputs to the successive networks, where the weights are predicted by a learnable neural network inspired by the weighting block in squeeze-and-excitation networks (SENet). Furthermore, the refinement of the chosen time-frequency resolutions is investigated by pruning the ones with relatively low importance, which reduces the complexity and size of the model. The proposed method is evaluated on the tasks of speech anti-spoofing and its superiority has been justified by comparing with similar baselines.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-17"
+  },
+  "kang22b_odyssey": {
+   "authors": [
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ]
+   ],
+   "title": "Domain Generalized Speaker Embedding Learning via Mutual Information Minimization",
+   "original": "odyssey2022_paper_20",
+   "page_count": 7,
+   "order": 25,
+   "p1": 178,
+   "pn": 184,
+   "abstract": [
+    "Over the recent years, various deep learning-based embedding extraction methods were proposed for speaker verification. Although the deep embedding extraction methods showed impressive performance in various speaker verification tasks, their performance is limited when it comes to mismatched conditions due to the variability within them unrelated to the main task. In order to alleviate this problem, we propose a novel training strategy that regularizes the embedding network to have minimum information about the nuisance attributes. To achieve this, our proposed method aims to minimize the mutual information between the speaker embedding and the nuisance labels during the training process, where the mutual information is estimated using the statistics obtained via an auxiliary normalizing flow model. The proposed method is evaluated on cross-lingual and multi-genre speaker verification datasets, and the results show that the proposed strategy can effectively minimize the within-speaker variability on the embedding space.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-25"
+  },
+  "alumae22_odyssey": {
+   "authors": [
+    [
+     "Tanel",
+     "Alumäe"
+    ],
+    [
+     "Kunnar",
+     "Kukk"
+    ]
+   ],
+   "title": "Pretraining Approaches for Spoken Language Recognition: TalTech Submission to the OLR 2021 Challenge",
+   "original": "odyssey2022_paper_21",
+   "page_count": 8,
+   "order": 34,
+   "p1": 240,
+   "pn": 247,
+   "abstract": [
+    "This paper investigates different pretraining approaches to spoken language identification. The paper is based on our submission to the Oriental Language Recognition 2021 Challenge. We participated in two tracks of the challenge: constrained and unconstrained language recognition. For the constrained track, we first trained a Conformer-based encoder-decoder model for multilingual automatic speech recognition (ASR), using the provided training data that had transcripts available. The shared encoder of the multilingual ASR model was then finetuned for the language identification task. For the unconstrained task, we relied on both externally available pretrained models as well as external data: the multilingual XLSR-53 wav2vec2.0 model was finetuned on the VoxLingua107 corpus for the language recognition task, and finally finetuned on the provided target language training data, augmented with CommonVoice data. Our primary metric Cavg values on the Test set are 0.0079 for the constrained task and 0.0119 for the unconstrained task which resulted in the second place in both rankings. In post-evaluation experiments, we study the amount of target language data needed for training an accurate backend model, the importance of multilingual pretraining data, and compare different models as finetuning starting points.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-34"
+  },
+  "li22_odyssey": {
+   "authors": [
+    [
+     "Yanxiong",
+     "Li"
+    ],
+    [
+     "Wucheng",
+     "Wang"
+    ],
+    [
+     "Hao",
+     "Chen"
+    ],
+    [
+     "Wenchang",
+     "Cao"
+    ],
+    [
+     "Wei",
+     "Li"
+    ],
+    [
+     "Qianhua",
+     "He"
+    ]
+   ],
+   "title": "Few-Shot Speaker Identification Using Depthwise Separable Convolutional Network with Channel Attention",
+   "original": "odyssey2022_paper_22",
+   "page_count": 7,
+   "order": 31,
+   "p1": 221,
+   "pn": 227,
+   "abstract": [
+    "Although few-shot learning has attracted much attention from the fields of image and audio classification, few efforts have been made on few-shot speaker identification. In the task of few-shot learning, overfitting is a tough problem mainly due to the mismatch between training and testing conditions. In this paper, we propose a few-shot speaker identification method which can alleviate the overfitting problem. In the proposed method, the model of a depthwise separable convolutional network with channel attention is trained with a prototypical loss function. Experimental datasets are extracted from three public speech corpora: Aishell-2, VoxCeleb1 and TORGO. Experimental results show that the proposed method exceeds state-of-the-art methods for few-shot speaker identification in terms of accuracy and F-score.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-31"
+  },
+  "chen22_odyssey": {
+   "authors": [
+    [
+     "Zuoer",
+     "Chen"
+    ],
+    [
+     "Liang",
+     "He"
+    ]
+   ],
+   "title": "A Quick and Effective Speaker Diarization System",
+   "original": "odyssey2022_paper_23",
+   "page_count": 8,
+   "order": 24,
+   "p1": 170,
+   "pn": 177,
+   "abstract": [
+    "Currently, Agglomerative Hierarchical Clustering with Variational Bayes Hidden Markov Model re-clustering (AHC-VBHMM) and spectral clustering (SC) are two dominant clustering methods for speaker diarization task. The former has the state-of-the-art performance on several well-known evaluation databases, such as CallHome 97, CallHome 00, NIST RT09, Dihard and etc, with the cost of high computation. The latter needs less computation resources but fails to make better usage of the time series information. To take advantages of the merits of these two methods, we propose a quick and effective diarization method, which is based on adaptive spectral clustering and the VBHMM re-clustering. Besides, we adopt an end-to-end diarization method to solve the overlapping speech problem. The proposed system boost the diarization performance with lower diarization error rate (DER) and real time factor (RTF) on the evaluation databases.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-24"
+  },
+  "kai22_odyssey": {
+   "authors": [
+    [
+     "Hiroto",
+     "Kai"
+    ],
+    [
+     "Shinnosuke",
+     "Takamichi"
+    ],
+    [
+     "Sayaka",
+     "Shiota"
+    ],
+    [
+     "Hitoshi",
+     "Kiya"
+    ]
+   ],
+   "title": "Robustness of Signal Processing-Based Pseudonymization Method Against Decryption Attack",
+   "original": "odyssey2022_paper_24",
+   "page_count": 7,
+   "order": 40,
+   "p1": 287,
+   "pn": 293,
+   "abstract": [
+    "In this paper, we propose a framework for evaluating the robustness of speech pseudonymization methods. Among privacy-protecting methods, signal processing-based and machine learning-based methods have been proposed as pseudonymization methods. Although most studies evaluate the pseudonymization performance of a method, the consideration of irreversibility, which is as important as performance, has been absent. While there are studies taking account of threats from the disclosure of partial information of a pseudonymization scheme, only few have discussed irreversibility for the case of malicious attacks, namely decryption attacks. Thus, we demonstrate irreversibility by evaluating the robustness of pseudonymization methods against decryption attacks in this paper. A decryption attack scenario is assumed that is advantageous to attackers because it allows access to the internal design and the pseudonymized speech generated from a pseudonymization system. From there, attackers try to build a system to decrypt pseudonymized speech to reveal the identity behind the original speech. In our experiments, we evaluate our previously proposed pseudonymization methods using single or multiple signal processing-based speech modification methods. The results demonstrate that “single” ones are vulnerable to decryption attacks, whereas “multiple” ones greatly improve the robustness against such attacks.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-40"
+  },
+  "tong22_odyssey": {
+   "authors": [
+    [
+     "Fuchuan",
+     "Tong"
+    ],
+    [
+     "Siqi",
+     "Zheng"
+    ],
+    [
+     "Haodong",
+     "Zhou"
+    ],
+    [
+     "Xingjia",
+     "Xie"
+    ],
+    [
+     "Qingyang",
+     "Hong"
+    ],
+    [
+     "Lin",
+     "Li"
+    ]
+   ],
+   "title": "Deep Representation Decomposition for Rate-Invariant Speaker Verification",
+   "original": "odyssey2022_paper_25",
+   "page_count": 5,
+   "order": 32,
+   "p1": 228,
+   "pn": 232,
+   "abstract": [
+    "While promising performance for speaker verification has been achieved by deep speaker embeddings, the advantage would reduce in the case of speaking-style variability. Speaking rate mismatch is often observed in practical speaker verification systems, which may actually degrade the system performance. To reduce intra-class discrepancy caused by speaking rate, we propose a deep representation decomposition approach with adversarial learning to learn speaking rate-invariant speaker embeddings. Specifically, adopting an attention block, we decompose the original embedding into identity-related component and rate-related component through multi-task training. Additionally, to reduce the latent relationship between the two decomposed components, we further propose a cosine mapping block to train the parameters adversarially to minimize the cosine similarity between the two decomposed components. As a result, identity-related features become robust to speaking rate and then are used for verification. Experiments are conducted on VoxCeleb1 data and HI-MIA data to demonstrate the effectiveness of our proposed approach.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-32"
+  },
+  "bakst22_odyssey": {
+   "authors": [
+    [
+     "Sarah",
+     "Bakst"
+    ],
+    [
+     "Chris",
+     "Cobo-Kroenke"
+    ],
+    [
+     "Aaron",
+     "Lawson"
+    ],
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Allen",
+     "Stauffer"
+    ]
+   ],
+   "title": "Time-Varying Score Reliability Prediction in Speaker Identification",
+   "original": "odyssey2022_paper_26",
+   "page_count": 6,
+   "order": 29,
+   "p1": 207,
+   "pn": 212,
+   "abstract": [
+    "The present work proposes a method for estimating confidence in speaker identification scores in the time domain. The motivation for this work comes from forensic fingerprinting, where confidence in a captured fingerprint’s capacity to successfully identify its source is determined by the clarity of the print, but, crucially, this clarity may not be consistent across the print. Hicklin et al. [1] propose a standard for assessing confidence in different regions of a fingerprint based on this clarity, allowing for nuanced analysis of fingerprint biometric information. Speech audio poses a similar problem for speaker identification (SID), where there may be variability in the reliability of the scores output by the SID system for different time segments of an audio sample. Here we evaluate acoustic characteristics that can be directly measured from audio to evaluate SID score reliability over time segments of equal length.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-29"
+  },
+  "dinkel22_odyssey": {
+   "authors": [
+    [
+     "Heinrich",
+     "Dinkel"
+    ],
+    [
+     "Zhiyong",
+     "Yan"
+    ],
+    [
+     "Yongqing",
+     "Wang"
+    ],
+    [
+     "Junbo",
+     "Zhang"
+    ],
+    [
+     "Yujun",
+     "Wang"
+    ]
+   ],
+   "title": "An Empirical Study of Weakly Supervised Audio Tagging Embeddings for General Audio Representations",
+   "original": "odyssey2022_paper_27",
+   "page_count": 6,
+   "order": 54,
+   "p1": 390,
+   "pn": 395,
+   "abstract": [
+    "We study the usability of pre-trained weakly supervised audio tagging (AT) models as feature extractors for general audio representations. We mainly analyze the feasibility of transferring those embeddings to other tasks within the speech and sound domains. Specifically, we benchmark weakly supervised pre-trained models (MobileNetV2 and EfficientNet-B0) against modern self-supervised learning methods (BYOL-A) as feature extractors. Fourteen downstream tasks are used for evaluation ranging from music instrument classification to language classification. Our results indicate that AT pre-trained models are an excellent transfer learning choice for music, event, and emotion recognition tasks. Further, finetuning AT models can also benefit speech-related tasks such as keyword spotting and intent classification.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-54"
+  },
+  "sadjadi22_odyssey": {
+   "authors": [
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ]
+   ],
+   "title": "The NIST CTS Speaker Recognition Challenge",
+   "original": "odyssey2022_paper_28",
+   "page_count": 8,
+   "order": 44,
+   "p1": 314,
+   "pn": 321,
+   "abstract": [
+    "Following the success of the 2019 conversational telephone speech (CTS) speaker recognition challenge, which received 1347 submissions from 67 academic and industrial organizations, the US National Institute of Standards and Technology (NIST) has been conducting a second iteration of the CTS challenge since August 2020. The current iteration of the CTS Challenge is a leaderboard-style speaker recognition evaluation using telephony data extracted from the unexposed portions of the Call My Net 2 (CMN2) and Multi-Language Speech (MLS) corpora collected by the LDC. The CTS Challenge is currently organized in a similar manner to the SRE19 CTS Challenge, offering only an open training condition using two evaluation subsets, namely Progress and Test. Unlike in the SRE19 Challenge, no training or development set was initially released, and NIST has publicly released the leaderboards on both subsets for the CTS Challenge. Which subset (i.e., Progress or Test) a trial belongs to is unknown to challenge participants, and each system submission needs to contain outputs for all of the trials. The CTS Challenge has also served, and will continue to do so, as a prerequisite for entrance to the regular SREs (such as SRE21). Since August 2020, a total of 53 organizations (forming 33 teams) from academia and industry have participated in the CTS Challenge and submitted more than 4400 valid system outputs. This paper presents an overview of the evaluation and several analyses of system performance for some primary conditions in the CTS Challenge. The CTS Challenge results thus far indicate remarkable improvements in performance due to 1) speaker embeddings extracted using large-scale and complex neural network architectures such as ResNets along with angular margin losses for speaker embedding extraction, 2) extensive data augmentation, 3) the use of large amounts of in-house proprietary data from a large number of labeled speakers, 4) long-duration fine-tuning.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-44"
+  },
+  "sadjadi22b_odyssey": {
+   "authors": [
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ]
+   ],
+   "title": "The 2021 NIST Speaker Recognition Evaluation",
+   "original": "odyssey2022_paper_29",
+   "page_count": 8,
+   "order": 45,
+   "p1": 322,
+   "pn": 329,
+   "abstract": [
+    "The 2021 Speaker Recognition Evaluation (SRE21) was the latest cycle of the ongoing evaluation series conducted by the U.S. National Institute of Standards and Technology (NIST) since 1996. It was the second large-scale multimodal speaker/person recognition evaluation organized by NIST (the first one being SRE19). Similar to SRE19, it featured two core evaluation tracks, namely audio and audio-visual, as well as an optional visual track. In addition to offering fixed and open training conditions, it also introduced new challenges for the community, thanks to a new multimodal (i.e., audio, video, and selfie images) and multilingual (i.e., with multilingual speakers) corpus, termed WeCanTalk, collected outside North America by the Linguistic Data Consortium (LDC). These challenges included: 1) trials (target and non-target) with enrollment and test segments originating from different domains (i.e., telephony versus video), and 2) trials (target and non-target) with enrollment and test segments spoken in different languages (i.e., cross-lingual trials). This paper presents an overview of SRE21 including the tasks, performance metric, data, evaluation protocol, results and system performance analyses. A total of 23 organizations (forming 15 teams) from academia and industry participated in SRE21 and submitted 158 valid system outputs. Evaluation results indicate: audio-visual fusion produce substantial gains in performance over audio-only or visual-only systems; top performing speaker and face recognition systems exhibited comparable performance under the matched domain conditions present in this evaluation; and, the use of complex neural network architectures (e.g., ResNet) along with angular losses with margin, data augmentation, as well as long duration fine-tuning contributed to notable performance improvements for the audio-only speaker recognition task.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-45"
+  },
+  "guennec22_odyssey": {
+   "authors": [
+    [
+     "David",
+     "Guennec"
+    ],
+    [
+     "Hassan",
+     "Hajipoor"
+    ],
+    [
+     "Gwénolé",
+     "Lecorvé"
+    ],
+    [
+     "Pascal",
+     "Lintanf"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ],
+    [
+     "Antoine",
+     "Perquin"
+    ],
+    [
+     "Gaëlle",
+     "Vidal"
+    ]
+   ],
+   "title": "BreizhCorpus: A Large Breton Language Speech Corpus and Its Use for Text-to-Speech Synthesis",
+   "original": "odyssey2022_paper_31",
+   "page_count": 8,
+   "order": 37,
+   "p1": 263,
+   "pn": 270,
+   "abstract": [
+    "Breton is a minority language spoken in the Brittany region of France. Public initiatives are being undertaken in order to preserve the Breton language. As an effort toward that goal, we created a large Breton speech corpus and related automatic annotation tools. The corpus contains 20 hours of reading aloud for both a male and a female Breton speaker. Then, end-to-end text-to-speech synthesis systems are built. Subjective evaluation suggests that the systems are able to reproduce the voices of the original speakers faithfully.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-37"
+  },
+  "li22b_odyssey": {
+   "authors": [
+    [
+     "Lantian",
+     "Li"
+    ],
+    [
+     "Di",
+     "Wang"
+    ],
+    [
+     "Wenqiang",
+     "Du"
+    ],
+    [
+     "Dong",
+     "Wang"
+    ]
+   ],
+   "title": "C-P Map: A Novel Evaluation Toolkit for Speaker Verification",
+   "original": "odyssey2022_paper_33",
+   "page_count": 8,
+   "order": 43,
+   "p1": 306,
+   "pn": 313,
+   "abstract": [
+    "Evaluation trials are used to probe performance of automatic speaker verification (ASV) systems. In spite of the clear importance and impact, evaluation trials have not been seriously treated in research and engineering practice. This paper firstly presents a theoretical analysis on evaluation trials and highlights potential bias with the most popular cross-pairing approach used in trials design. To interpret and settle this problem, we define the concept of trial config and C-P map derived from it. The C-P map measures the performance of an ASV system on various trial configs in a 2-dimensional map. On the map, each location represents a particular trial config and its corresponding color represents the system performance. Experiments conducted on representative ASV systems show that the proposed C-P map offers a powerful evaluation toolkit for ASV performance analysis and comparison. The source code for C-P map has been release at https://gitlab.com/csltstu/sunine.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-43"
+  },
+  "tak22_odyssey": {
+   "authors": [
+    [
+     "Hemlata",
+     "Tak"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Jee-weon",
+     "Jung"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Automatic Speaker Verification Spoofing and Deepfake Detection Using Wav2vec 2.0 and Data Augmentation",
+   "original": "odyssey2022_paper_34",
+   "page_count": 8,
+   "order": 16,
+   "p1": 112,
+   "pn": 119,
+   "abstract": [
+    "The performance of spoofing countermeasure systems depends fundamentally upon the use of sufficiently representative training data. With this usually being limited, current solutions typically lack generalisation to attacks encountered in the wild. Strategies to improve reliability in the face of uncontrolled, unpredictable attacks are hence needed. We report in this paper our efforts to use self-supervised learning in the form of a wav2vec 2.0 front-end with fine tuning. Despite initial base representations being learned using only bona fide data and no spoofed data, we obtain the lowest equal error rates reported in the literature for both the ASVspoof 2021 Logical Access and Deepfake databases. When combined with data augmentation, these results correspond to an improvement of almost 90% relative to our baseline system.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-16"
+  },
+  "sholokhov22_odyssey": {
+   "authors": [
+    [
+     "Alexey",
+     "Sholokhov"
+    ],
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Baselines and Protocols for Household Speaker Recognition",
+   "original": "odyssey2022_paper_35",
+   "page_count": 8,
+   "order": 26,
+   "p1": 185,
+   "pn": 192,
+   "abstract": [
+    "Speaker recognition on household devices, such as smart speakers, features several challenges: (i) robustness across a vast number of heterogeneous domains (households), (ii) short utterances, (iii) possibly absent speaker labels of the enrollment data (passive enrollment), and (iv) presence of unknown persons (guests). While many commercial products exist, there is less published research and no publicly-available evaluation protocols or open-source baselines. Our work serves to bridge this gap by providing an accessible evaluation benchmark derived from public resources (VoxCeleb and ASVspoof 2019 data) along with a preliminary pool of open-source baselines. This includes four algorithms for active enrollment (speaker labels available) and one algorithm for passive enrollment.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-26"
+  },
+  "ge22_odyssey": {
+   "authors": [
+    [
+     "Wanying",
+     "Ge"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Explainable Deepfake and Spoofing Detection: An Attack Analysis Using SHapley Additive exPlanations",
+   "original": "odyssey2022_paper_36",
+   "page_count": 7,
+   "order": 10,
+   "p1": 70,
+   "pn": 76,
+   "abstract": [
+    "Despite several years of research in deepfake and spoofing detection for automatic speaker verification, little is known about the artefacts that classifiers use to distinguish between bona fide and spoofed utterances. An understanding of these is crucial to the design of trustworthy, explainable solutions. In this paper we report an extension of our previous work to better understand classifier behaviour to the use of SHapley Additive exPlanations (SHAP) to attack analysis. Our goal is to identify the artefacts that characterise utterances generated by different attacks algorithms. Using a pair of classifiers which operate either upon raw waveforms or magnitude spectrograms, we show that visualisations of SHAP results can be used to identify attack-specific artefacts and the differences and consistencies between synthetic speech and converted voice spoofing attacks.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-10"
+  },
+  "liu22b_odyssey": {
+   "authors": [
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Spoofing-Aware Speaker Verification with Unsupervised Domain Adaptation",
+   "original": "odyssey2022_paper_37",
+   "page_count": 7,
+   "order": 12,
+   "p1": 85,
+   "pn": 91,
+   "abstract": [
+    "In this paper, we initiate the concern of enhancing the spoofing robustness of the automatic speaker verification (ASV) system, without the primary presence of a separate countermeasure module. We start from the standard ASV framework of the ASVspoof 2019 baseline and approach the problem from the back-end classifier based on probabilistic linear discriminant analysis. We employ three unsupervised domain adaptation techniques to optimize the back-end using the audio data in the training partition of the ASVspoof 2019 dataset. We demonstrate notable improvements on both logical and physical access scenarios, especially on the latter where the system is attacked by replayed audios, with a maximum of 36.1% and 5.3% relative improvement on bonafide and spoofed cases, respectively. We perform additional studies such as per-attack breakdown analysis, data composition, and integration with a countermeasure system at score-level with Gaussian back-end.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-12"
+  },
+  "villalba22_odyssey": {
+   "authors": [
+    [
+     "Jesús",
+     "Villalba"
+    ],
+    [
+     "Bengt J.",
+     "Borgstrom"
+    ],
+    [
+     "Saurabh",
+     "Kataria"
+    ],
+    [
+     "Jaejin",
+     "Cho"
+    ],
+    [
+     "Pedro A.",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Advances in Speaker Recognition for Multilingual Conversational Telephone Speech: The JHU-MIT System for NIST SRE20 CTS Challenge",
+   "original": "odyssey2022_paper_38",
+   "page_count": 8,
+   "order": 47,
+   "p1": 338,
+   "pn": 345,
+   "abstract": [
+    "We present a condensed description of the joint effort of JHU-CLSP/HLTCOE and MIT-LL for NIST SRE20. NIST SRE20 CTS consisted of multilingual conversational telephone speech. The set of languages included in the evaluation was not provided, encouraging the participants to develop systems robust to any language. We evaluated x-vector architectures based on ResNet, squeeze-excitation ResNets, Transformers and EfficientNets. Though squeeze-excitation ResNets and Efficient-Nets provide superior performance in in-domain tasks like VoxCeleb, regular ResNet34 was more robust in the challenge scenario. On the contrary, squeeze-excitation networks over-fitted to the training data, mostly in English. We also proposed a novel PLDA mixture and k-NN PLDA back-ends to handle the multilingual trials. The former clusters the x-vector space expecting that each cluster will correspond to a language family. The latter trains a PLDA model adapted to each enrollment speaker using the nearest speakers–i.e., those with similar language/channel. The k-NN back-end improved Act. Cprimary (Cp) by 68% in SRE16-19 and 22% in SRE20 Progress w.r.t. a single adapted PLDA back-end. Our best single system achieved Act. Cp=0.110 in SRE20 progress. Meanwhile, our best fusion obtained Act. Cp=0.110 in the progress–8% better than single– and Cp=0.087 in the eval set.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-47"
+  },
+  "villalba22b_odyssey": {
+   "authors": [
+    [
+     "Jesús",
+     "Villalba"
+    ],
+    [
+     "Bengt J.",
+     "Borgstrom"
+    ],
+    [
+     "Saurabh",
+     "Kataria"
+    ],
+    [
+     "Magdalena",
+     "Rybicka"
+    ],
+    [
+     "Carlos D.",
+     "Castillo"
+    ],
+    [
+     "Jaejin",
+     "Cho"
+    ],
+    [
+     "L. Paola",
+     "García-Perera"
+    ],
+    [
+     "Pedro A.",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Advances in Cross-Lingual and Cross-Source Audio-Visual Speaker Recognition: The JHU-MIT System for NIST SRE21",
+   "original": "odyssey2022_paper_39",
+   "page_count": 8,
+   "order": 30,
+   "p1": 213,
+   "pn": 220,
+   "abstract": [
+    "We present a condensed description of the joint effort of JHU-CLSP/HLTCOE, MIT-LL and AGH for NIST SRE21. NIST SRE21 consisted of speaker detection over multilingual conversational telephone speech (CTS) and audio from video (AfV). Besides the regular audio track, the evaluation also contains visual (face recognition) and multi-modal tracks. This evaluation exposes new challenges, including cross-source–i.e., CTS vs. AfV– and cross-language trials. Each speaker can speak two or three languages among English, Mandarin and Cantonese. For the audio track, we evaluated embeddings based on Res2Net and ECAPA-TDNN, where the former performed the best. We used PLDA based back-ends trained on previous SRE and VoxCeleb and adapted to a subset of Mandarin/Cantonese speakers. Some novel contributions of this submission are: the use of neural bandwidth extension (BWE) to reduce the mismatch between the AFV and CTS conditions; and invariant representation learning (IRL) to make the embeddings from a given speaker invariant to language. Res2Net with neural BWE was the best monolithic system.\nWe used a pre-trained RetinaFace face detector and ArcFace embeddings for the visual track, following our NIST SRE19 work. We also included a new system using a deep pyramid single shot face detector and face embeddings trained on Crystal loss and probabilistic triplet loss, which performed the best. The number of face embeddings in the test video was reduced by agglomerative clustering or weighting the embedding based on the face detection confidence. Cosine scoring was used to compare embeddings. For the multi-modal track, we just added the calibrated likelihood ratios of the audio and visual conditions, assuming independence between modalities. The multi-modal fusion improved Cprimary by 72% w.r.t. audio.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-30"
+  },
+  "liu22c_odyssey": {
+   "authors": [
+    [
+     "Hexin",
+     "Liu"
+    ],
+    [
+     "Leibny Paola Garcia",
+     "Perera"
+    ],
+    [
+     "Andy W. H.",
+     "Khong"
+    ],
+    [
+     "Justin",
+     "Dauwels"
+    ],
+    [
+     "Suzy J.",
+     "Styles"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ]
+   ],
+   "title": "Enhancing Language Identification Using Dual-Mode Model with Knowledge Distillation",
+   "original": "odyssey2022_paper_40",
+   "page_count": 7,
+   "order": 35,
+   "p1": 248,
+   "pn": 254,
+   "abstract": [
+    "We propose to employ a dual-mode framework on the x-vector self-attention (XSA-LID) model with knowledge distillation (KD) to enhance its language identification (LID) performance for both long and short utterances. The dual-mode XSA-LID model is trained by jointly optimizing both the full and short modes with their respective inputs being the full-length speech and its short clip extracted by a specific Boolean mask, and KD is applied to further boost the performance on short utterances. In addition, we investigate the impact of clip-wise linguistic variability and lexical integrity for LID by analyzing the variation of LID performance in terms of the lengths and positions of the mimicked speech clips. We evaluated our approach on the MLS14 data from the NIST 2017 LRE. With the 3 s random-location Boolean mask, our proposed method achieved 19.23%, 21.52% and 8.37% relative improvement in average cost compared with the XSA-LID model on 3 s, 10 s, and 30 s speech, respectively.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-35"
+  },
+  "abdrakhmanova22_odyssey": {
+   "authors": [
+    [
+     "Madina",
+     "Abdrakhmanova"
+    ],
+    [
+     "Saniya",
+     "Abushakimova"
+    ],
+    [
+     "Yerbolat",
+     "Khassanov"
+    ],
+    [
+     "Huseyin Atakan",
+     "Varol"
+    ]
+   ],
+   "title": "A Study of Multimodal Person Verification Using Audio-Visual-Thermal Data",
+   "original": "odyssey2022_paper_41",
+   "page_count": 7,
+   "order": 33,
+   "p1": 233,
+   "pn": 239,
+   "abstract": [
+    "In this paper, we study an approach to multimodal person verification using audio, visual, and thermal modalities. The combination of audio and visual modalities has already been shown to be effective for robust person verification. From this perspective, we investigate the impact of further increasing the number of modalities by adding thermal images. In particular, we implemented unimodal, bimodal, and trimodal verification systems using state-of-the-art deep learning architectures and compared their performance under clean and noisy conditions. We also compared two popular fusion approaches based on simple score averaging and the soft attention mechanism. The experiment conducted on the SpeakingFaces dataset demonstrates the superior performance of the trimodal verification system. Specifically, on the easy test set, the trimodal system outperforms the best unimodal and bimodal systems by over 50% and 18% relative equal error rates, respectively, under both the clean and noisy conditions. On the hard test set, the trimodal system outperforms the best unimodal and bimodal systems by over 40% and 13% relative equal error rates, respectively, under both the clean and noisy conditions. To enable reproducibility of the experiment and facilitate research into multimodal person verification, we made our code, pretrained models, and preprocessed dataset freely available in our GitHub repository.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-33"
+  },
+  "lu22_odyssey": {
+   "authors": [
+    [
+     "Jingze",
+     "Lu"
+    ],
+    [
+     "Yuxiang",
+     "Zhang"
+    ],
+    [
+     "Wenchao",
+     "Wang"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ]
+   ],
+   "title": "Robust Cross-SubBand Countermeasure Against Replay Attacks",
+   "original": "odyssey2022_paper_44",
+   "page_count": 7,
+   "order": 18,
+   "p1": 126,
+   "pn": 132,
+   "abstract": [
+    "In the ASVspoof2021 physical access (PA) task, due to the mismatch between the simulated training data and the evaluation data from the real scenario, performance of previous top-performing countermeasure systems had a significant degradation. The main reason for this phenomenon can be attributed to a simulation-to-real gap. In this work, the effect of sim-to-real gap is investigated on different datasets for replay attacks. Differences in the frequency domain between simulated and real datasets are investigated to cross the sim-to-real gap. On the basis of our previous work, different sub-band acoustic features have different capabilities in distinguishing spoof utterances from bonafide ones. To decrease the effect of sim-to-real gap and build a robust anti-spoofing system against the replay attacks, a cross-subband countermeasure is proposed in this work. Furthermore, we use visualized heatmap to explore the artefacts captured by model trained with cross-subband method. To verify the generalization capability of the cross-subband method on different datasets, several sets of comparative experiments were also done. The results show that our cross-subband countermeasure is robust to sim-to-real gap in the PA task, and the fusion model based on it is regarded as one of the top-performing antispoofing systems in the ASVspoof2021 Challenge.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-18"
+  },
+  "kalda22_odyssey": {
+   "authors": [
+    [
+     "Joonas",
+     "Kalda"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ]
+   ],
+   "title": "Collar-Aware Training for Streaming Speaker Change Detection in Broadcast Speech",
+   "original": "odyssey2022_paper_45",
+   "page_count": 7,
+   "order": 20,
+   "p1": 141,
+   "pn": 147,
+   "abstract": [
+    "In this paper, we present a novel training method for speaker change detection models. Speaker change detection is often viewed as a binary sequence labelling problem. The main challenges with this approach are the vagueness of annotated change points caused by the silences between speaker turns and imbalanced data due to the majority of frames not including a speaker change. Conventional training methods tackle these by artificially increasing the proportion of positive labels in the training data. Instead, the proposed method uses an objective function which encourages the model to predict a single positive label within a specified collar. This is done by marginalizing over all possible subsequences that have exactly one positive label within the collar. Experiments on English and Estonian datasets show large improvements over the conventional training method. Additionally, the model outputs have peaks concentrated to a single frame, removing the need for post-processing to find the exact predicted change point which is particularly useful for streaming applications.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-20"
+  },
+  "lavrentyeva22_odyssey": {
+   "authors": [
+    [
+     "Galina",
+     "Lavrentyeva"
+    ],
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Vladimir",
+     "Volokhov"
+    ],
+    [
+     "Anastasia",
+     "Avdeeva"
+    ],
+    [
+     "Aleksei",
+     "Gusev"
+    ],
+    [
+     "Alisa",
+     "Vinogradova"
+    ],
+    [
+     "Igor",
+     "Korsunov"
+    ],
+    [
+     "Alexander",
+     "Kozlov"
+    ],
+    [
+     "Timur",
+     "Pekhovsky"
+    ],
+    [
+     "Andrey",
+     "Shulipa"
+    ],
+    [
+     "Evgeny",
+     "Smirnov"
+    ],
+    [
+     "Vasily",
+     "Galyuk"
+    ]
+   ],
+   "title": "STC Speaker Recognition System for the NIST SRE 2021",
+   "original": "odyssey2022_paper_48",
+   "page_count": 8,
+   "order": 49,
+   "p1": 354,
+   "pn": 361,
+   "abstract": [
+    "The 2021 Speaker Recognition Evaluation (SRE21) is the next of an open speaker recognition evaluations conducted by the US National Institute of Standards and Technology (NIST). In 2021 the challenge was focused on person detection over conversational telephone speech (CTS) and audio from video. It introduces new cross-channel and multilingual speaker recognition tasks by providing diverse evaluation corpus. This paper summarizes STC Ltd. single systems developed during the NIST 2021 Speaker Recognition Evaluation for both fixed and open training conditions. During the NIST SRE21 we were focused on the training of the state-of-the-art deep speaker embeddings extractors like ResNets and ECAPA networks by using additive angular margin based loss functions. Additionally, inspired by the recent success of the wav2vec 2.0 features in automatic speech recognition we explored the effectiveness of this approach in the speaker verification field. According to our observations the fine-tuning of the pretrained large wav2vec 2.0 model provides our best performing systems for open track conditions. Our experiments with wav2vec 2.0 based extractors for the fixed track showed that unsupervised autoregressive pretraining with Contrastive Predictive Coding loss opens the door to training powerful transformer-based extractors from raw speech signals.\nFor video modality we developed our best solution with RetinaFace face detector and deep ResNet face embeddings extractor trained on large face image datasets.\nWe note that our single and fusion systems demonstrated strong performance in the SRE21.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-49"
+  },
+  "shim22_odyssey": {
+   "authors": [
+    [
+     "Hye-jin",
+     "Shim"
+    ],
+    [
+     "Hemlata",
+     "Tak"
+    ],
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Hee-Soo",
+     "Heo"
+    ],
+    [
+     "Jee-weon",
+     "Jung"
+    ],
+    [
+     "Joon Son",
+     "Chung"
+    ],
+    [
+     "Soo-Whan",
+     "Chung"
+    ],
+    [
+     "Ha-Jin",
+     "Yu"
+    ],
+    [
+     "Bong-Jin",
+     "Lee"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Baseline Systems for the First Spoofing-Aware Speaker Verification Challenge: Score and Embedding Fusion",
+   "original": "odyssey2022_paper_49",
+   "page_count": 8,
+   "order": 46,
+   "p1": 330,
+   "pn": 337,
+   "abstract": [
+    "Deep learning has brought impressive progress in the study of both automatic speaker verification (ASV) and spoofing countermeasures (CM). Although solutions are mutually dependent, they have typically evolved as standalone sub-systems whereby CM solutions are usually designed for a fixed ASV system. The work reported in this paper aims to gauge the improvements in reliability that can be gained from their closer integration. Results derived using the popular ASVspoof2019 dataset indicate that the equal error rate (EER) of a state-of-the-art ASV system degrades from 1.63% to 23.83% when the evaluation protocol is extended with spoofed trials. However, even the straightforward integration of ASV and CM systems in the form of score-sum and deep neural network-based fusion strategies reduce the EER to 1.71% and 6.37%, respectively. The new Spoofing-Aware Speaker Verification (SASV) challenge has been formed to encourage greater attention to the integration of ASV and CM systems as well as to provide a means to benchmark different solutions.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-46"
+  },
+  "kuzmin22_odyssey": {
+   "authors": [
+    [
+     "Nikita",
+     "Kuzmin"
+    ],
+    [
+     "Igor",
+     "Fedorov"
+    ],
+    [
+     "Alexey",
+     "Sholokhov"
+    ]
+   ],
+   "title": "Magnitude-Aware Probabilistic Speaker Embeddings",
+   "original": "odyssey2022_paper_50",
+   "page_count": 8,
+   "order": 1,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "Recently, hyperspherical embeddings have established themselves as a dominant technique for face and voice recognition. Specifically, Euclidean space vector embeddings are learned to encode person-specific information in their direction while ignoring the magnitude. However, recent studies have shown that the magnitudes of the embeddings extracted by deep neural networks may indicate the quality of the corresponding inputs. This paper explores the properties of the magnitudes of the embeddings related to quality assessment and out-of-distribution detection. We propose a new probabilistic speaker embedding extractor using the information encoded in the embedding magnitude and leverage it in the speaker verification pipeline. We also propose several quality-aware diarization methods and incorporate the magnitudes in those. Our results indicate significant improvements over magnitude-agnostic baselines both in speaker verification and diarization tasks.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-1"
+  },
+  "he22_odyssey": {
+   "authors": [
+    [
+     "Jincheng",
+     "He"
+    ],
+    [
+     "Yuanyuan",
+     "Bao"
+    ],
+    [
+     "Na",
+     "Xu"
+    ],
+    [
+     "Hongfeng",
+     "Li"
+    ],
+    [
+     "Shicong",
+     "Li"
+    ],
+    [
+     "Linzhang",
+     "Wang"
+    ],
+    [
+     "Fei",
+     "Xiang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Single-Channel Target Speaker Separation Using Joint Training with Target Speaker's Pitch Information",
+   "original": "odyssey2022_paper_51",
+   "page_count": 5,
+   "order": 42,
+   "p1": 301,
+   "pn": 305,
+   "abstract": [
+    "Despite the great progress achieved in the target speaker separation (TSS) task, we are still trying to find other robust ways for performance improvement which are independent of the model architecture and the training loss. Pitch extraction plays an important role in many applications such as speech enhancement and speech separation. It is also a challenging task when there are multiple speakers in the same utterance. In this paper, we explore if the target speaker pitch extraction is possible and how the extracted target pitch could help to improve the TSS performance. A target pitch extraction model is built and incorporated into different TSS models using two different strategies, namely concatenation and joint training. The experimental results on the LibriSpeech dataset show that both training strategies could bring significant improvements to the TSS task, even the precision of the target pitch extraction module is not high enough.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-42"
+  },
+  "wu22_odyssey": {
+   "authors": [
+    [
+     "Haibin",
+     "Wu"
+    ],
+    [
+     "Jiawen",
+     "Kang"
+    ],
+    [
+     "Lingwei",
+     "Meng"
+    ],
+    [
+     "Yang",
+     "Zhang"
+    ],
+    [
+     "Xixin",
+     "Wu"
+    ],
+    [
+     "Zhiyong",
+     "Wu"
+    ],
+    [
+     "Hung-yi",
+     "Lee"
+    ],
+    [
+     "Helen",
+     "Meng"
+    ]
+   ],
+   "title": "Tackling Spoofing-Aware Speaker Verification with Multi-Model Fusion",
+   "original": "odyssey2022_paper_53",
+   "page_count": 8,
+   "order": 13,
+   "p1": 92,
+   "pn": 99,
+   "abstract": [
+    "Recent years have witnessed the extraordinary development of automatic speaker verification (ASV). However, previous works show that state-of-the-art ASV models are seriously vulnerable to voice spoofing attacks, and the recently proposed high-performance spoofing countermeasure (CM) models only focus solely on the standalone anti-spoofing tasks, and ignore the subsequent speaker verification process. How to integrate the CM and ASV together remains an open question. A spoofing aware speaker verification (SASV) challenge has recently taken place with the argument that better performance can be delivered when both CM and ASV subsystems are optimized jointly. Under the challenge’s scenario, the integrated systems proposed by the participants are required to reject both impostor speakers and spoofing attacks from target speakers, which intuitively and effectively matches the expectation of a reliable, spoofing-robust ASV system. This work focuses on fusion-based SASV solutions and propose a multi-model fusion framework to leverage the power of multiple state-of-the-art ASV and CM models. The proposed framework vastly improves the SASV-EER from 8.75% to be 1.17%, which is 86% relative improvement compared to the best baseline system in the SASV challenge.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-13"
+  },
+  "mohammadamini22_odyssey": {
+   "authors": [
+    [
+     "Mohammad",
+     "MohammadAmini"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Sandipana",
+     "Dowerah"
+    ],
+    [
+     "Romain",
+     "Serizel"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ]
+   ],
+   "title": "Learning Noise Robust ResNet-Based Speaker Embedding for Speaker Recognition",
+   "original": "odyssey2022_paper_54",
+   "page_count": 6,
+   "order": 6,
+   "p1": 41,
+   "pn": 46,
+   "abstract": [
+    "The presence of background noise and reverberation, especially in far distance speech utterances diminishes the performance of speaker recognition systems. This challenge is addressed on different levels from the signal level in the front end to the scoring technique adaptation in the back end. In this paper, two new variants of ResNet-based speaker recognition systems are proposed that make the speaker embedding more robust against additive noise and reverberation. The goal of the proposed systems is to extract x-vectors in noisy environments that are close to their corresponding x-vector in a clean environment. To do so, the speaker embedding network minimizes the speaker classification loss function and the distance between pairs of noisy and clean x-vectors jointly. The experimental results obtained by our systems are compared with the baseline ResNet system. In different situations with real and simulated noises and reverberation conditions, the modified systems outperform the baseline ResNet system. The proposed systems are tested with four evaluation protocols. In the presence of artificial noise and reverberation, we achieved 19% improvement of EER. The main advantage of the proposed systems is their efficiency against real noise and reverberation. In the presence of real noise and reverberation, we achieved 15% improvement of EER.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-6"
+  },
+  "gong22b_odyssey": {
+   "authors": [
+    [
+     "Zhuo",
+     "Gong"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Longfei",
+     "Yang"
+    ],
+    [
+     "Takahiro",
+     "Shinozaki"
+    ],
+    [
+     "Sheng",
+     "Li"
+    ],
+    [
+     "Hisashi",
+     "Kawai"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Self-Adaptive Multilingual ASR Rescoring with Language Identification and Unified Language Model",
+   "original": "odyssey2022_paper_60",
+   "page_count": 6,
+   "order": 58,
+   "p1": 415,
+   "pn": 420,
+   "abstract": [
+    "Language Models (LM) can be used in automatic speech recognition (ASR) rescoring to select the hypothesis with the fewest errors. While in multilingual ASR, multiple LMs might be used based on language identification (LID) given by the multilingual ASR outputs. However, in the traditional shallow fusion method, a static LM weight is determined by a development set. This static weight might not fulfill the situations of all languages in test data. And for multiple LMs, different weight needs to be searched for each LM. Instead, A unified multilingual LM will receive a LID token at the beginning of its auto-regressive predicting to decide which language to decode, so that merely one weight is necessary for LM rescoring. Then, we propose a multilingual ASR rescoring method which dynamically tunes the LM weight during decoding to optimize the balance between the end-to-end (E2E) multilingual ASR model and the LM according to the LM’s entropy and logits score as model confidence metrics. With this method, resources for search the best hyperparameter LM weight can also be saved. The experiments are mainly conducted on Common voice and Voxforge corpora. The results show that this method can reach the performance of the best static LM weight and even defeat it in several languages with no hyperparameter to be tuned and nearly zero overhead.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-58"
+  },
+  "xu22_odyssey": {
+   "authors": [
+    [
+     "Longting",
+     "Xu"
+    ],
+    [
+     "Mianxin",
+     "Tian"
+    ],
+    [
+     "Xing",
+     "Guo"
+    ],
+    [
+     "Zhiyong",
+     "Shan"
+    ],
+    [
+     "Jie",
+     "Jia"
+    ],
+    [
+     "Yiyuan",
+     "Peng"
+    ],
+    [
+     "Jichen",
+     "Yang"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ]
+   ],
+   "title": "A Novel Feature Based on Graph Signal Processing for Detection of Physical Access Attacks",
+   "original": "odyssey2022_paper_61",
+   "page_count": 5,
+   "order": 15,
+   "p1": 107,
+   "pn": 111,
+   "abstract": [
+    "Speaker verification systems face threat from various spoofing attacks and particularly, the physical access attacks or replay attacks that are most common show an imminent threat. Literature shows that graph signal processing (GSP) shows a better correlation between speech samples and explore more hidden information from speech than the traditional digital signal processing methods. With this motivation, we propose a novel feature based on GSP, namely, graph frequency cepstral coefficient (GFCC). We use the combined shift operator to construct the graph signal, and then carry out the graph Fourier analysis to extract GFCC features. It is observed that compared to fast Fourier transform, the GFT can more accurately represent the structural relationship of speech samples, which makes the real and replay speech very distinguishable in the frequency domain. We use the GFCC features with a light convolutional neural network system in our studies. The results on ASVspoof 2019 physical access corpus show that the proposed GFCC feature based system outperforms the challenge baselines by a large margin and emerge as one of the best performing state-of-the-art single systems.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-15"
+  },
+  "hu22_odyssey": {
+   "authors": [
+    [
+     "Chenguang",
+     "Hu"
+    ],
+    [
+     "Qingran",
+     "Zhan"
+    ],
+    [
+     "Miao",
+     "Liu"
+    ],
+    [
+     "Xiang",
+     "Xie"
+    ]
+   ],
+   "title": "BIT Submission for the Conversational Speaker Diarization Challenge",
+   "original": "odyssey2022_paper_63",
+   "page_count": 8,
+   "order": 21,
+   "p1": 148,
+   "pn": 155,
+   "abstract": [
+    "This paper describes the BIT(Beijing Institute of Technology) system submitted to the Conversational Speaker Diarization Challenge. We firstly present the details of the front-end system, which comprises a Speech Activity Detection (SAD) module and a speaker embedding extraction module. Then based on the results of the clustering-based module, two iterative back-end models with multi-scale similarity measure are investigated: Support Vector Classifier (SVC) system and U-Net system. Finally, DOVER algorithm is adopted for model fusion. Experimental results show that our system yields a DER of 5.18% in the challenge, a relative improvement of 34% over the baseline system provided by the organizer. Our system won the first place among all submitted systems without needing to use any of additional embedding extracting model.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-21"
+  },
+  "silnova22_odyssey": {
+   "authors": [
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Ladislav",
+     "Mošner"
+    ],
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Pavel",
+     "Matĕjka"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ],
+    [
+     "Ondřej",
+     "Glembek"
+    ],
+    [
+     "Niko",
+     "Brummer"
+    ]
+   ],
+   "title": "Analyzing Speaker Verification Embedding Extractors and Back-Ends Under Language and Channel Mismatch",
+   "original": "odyssey2022_paper_65",
+   "page_count": 8,
+   "order": 2,
+   "p1": 9,
+   "pn": 16,
+   "abstract": [
+    "In this paper, we analyze the behavior and performance of speaker embeddings and the back-end scoring model under domain and language mismatch. We present our findings regarding ResNet-based speaker embedding architectures and show that reduced temporal stride yields improved performance. We then consider a PLDA back-end and show how a combination of small speaker subspace, language-dependent PLDA mixture, and nuisance-attribute projection can have a drastic impact on the performance of the system. Besides, we present an efficient way of scoring and fusing class posterior logit vectors recently shown to perform well on speaker verification task. The experiments are performed using the NIST SRE 2021 setup.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-2"
+  },
+  "therattil22_odyssey": {
+   "authors": [
+    [
+     "Anand",
+     "Therattil"
+    ],
+    [
+     "Priyanka",
+     "Gupta"
+    ],
+    [
+     "Piyushkumar K.",
+     "Chodingala"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "Teager Energy Based-Detection of One-point and Two-point Replay Attacks: Towards Cross-Database Generalization",
+   "original": "odyssey2022_paper_67",
+   "page_count": 8,
+   "order": 7,
+   "p1": 47,
+   "pn": 54,
+   "abstract": [
+    "Generalization of countermeasure (CM) systems is crucial for voice anti-spoofing in real-world scenarios. To that effect, in this paper, an attempt is made towards the generalization of CM system through the cross-database evaluation between the standard statistically meaningful corpora, namely, ASVSpoof 2017 V2.0, ASVSpoof 2019, and Voice Spoofing Detection Corpus (VSDC). To the best of authors’ knowledge, VSDC is the only dataset that which contains both One-Point Replay (1PR) and Two-Point Replay (2PR) utterances. Furthermore, we have investigated the effect of reverberation and noise suppression capabilities of TEO on the different types of replay signals, i.e., 1PR and 2PR signals. To that effect, we have compared performance of different variants of TECC w.r.t frequency scale (i.e., Linear, Mel, and Inv-Mel) w.r.t state-of-the-art features, such as MFCC, CQCC, LFCC. TECC is found to outperform the rest of the features and thus, validating our hypothesis of capturing reverberation more efficiently via TECC. TECC (Mel) gave % EER of 31.65% and 31.96% with training on ASVSpoof 2017 and testing on 0PR-1PR and 0PR-2PR VSDC, respectively. Further, % EER for TECC (Linear) with training on VSDC and testing on ASVSpoof 2017 for development and evaluation sets are 20.01% and 27.63%, respectively. Finally, the analysis of latency period is presented where TECC gave the optimal performance, indicating the potential for practical Spoofed Speech Detection (SSD) system development.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-7"
+  },
+  "ghimire22_odyssey": {
+   "authors": [
+    [
+     "Sandip",
+     "Ghimire"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Rosa González",
+     "Hautamäki"
+    ]
+   ],
+   "title": "Gamified Speaker Comparison by Listening",
+   "original": "odyssey2022_paper_68",
+   "page_count": 7,
+   "order": 59,
+   "p1": 421,
+   "pn": 427,
+   "abstract": [
+    "We address speaker comparison by listening in a game-like environment, hypothesized to make the task more motivating for naive listeners. We present the same 30 trials selected with the help of an x-vector speaker recognition system from VoxCeleb to a total of 150 crowdworkers recruited through Amazon’s Mechanical Turk. They are divided into cohorts of 50, each using one of three alternative interface designs: (i) a traditional (non-gamified) design; (ii) a gamified design with feedback on decisions, along with points, game level indications, and possibility for interface customization; (iii) another gamified design with an additional constraint of maximum of 5 ‘lives’ consumed by wrong answers. We analyze the impact of these interface designs to listener error rates (both misses and false alarms), probability calibration, time of quitting, along with survey questionnaire. The results indicate improved performance from (i) to (ii) and (iii), particularly in terms of balancing the two types of detection errors.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-59"
+  },
+  "sun22_odyssey": {
+   "authors": [
+    [
+     "Haoran",
+     "Sun"
+    ],
+    [
+     "Chen",
+     "Chen"
+    ],
+    [
+     "Lantian",
+     "Li"
+    ],
+    [
+     "Dong",
+     "Wang"
+    ]
+   ],
+   "title": "Cycleflow: Purify Information Factors by Cycle Loss",
+   "original": "odyssey2022_paper_69",
+   "page_count": 8,
+   "order": 38,
+   "p1": 271,
+   "pn": 278,
+   "abstract": [
+    "SpeechFlow is a powerful speech factorization model based on information bottleneck (IB), and its effectiveness has been reported by several studies. A potential problem of SpeechFlow, however, is that if the IB channels are not well designed, the resultant factors cannot be well disentangled. In this study, we propose a CycleFlow model that combines random factor substitution and cycle consistency loss to solve this problem. Theoretical analysis shows that the novel approach enforces independent information codes without sacrificing reconstruction loss. Experiments on voice conversion tasks demonstrate that this simple technique can effectively reduce mutual information between codes, and produce clearly better conversion than the vanilla SpeechFlow.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-38"
+  },
+  "zhang22b_odyssey": {
+   "authors": [
+    [
+     "You",
+     "Zhang"
+    ],
+    [
+     "Ge",
+     "Zhu"
+    ],
+    [
+     "Zhiyao",
+     "Duan"
+    ]
+   ],
+   "title": "A Probabilistic Fusion Framework for Spoofing Aware Speaker Verification",
+   "original": "odyssey2022_paper_70",
+   "page_count": 8,
+   "order": 11,
+   "p1": 77,
+   "pn": 84,
+   "abstract": [
+    "The performance of automatic speaker verification (ASV) systems could be degraded by voice spoofing attacks. Most existing works aimed to develop standalone spoofing countermeasure (CM) systems. Relatively little work targeted at developing an integrated spoofing aware speaker verification (SASV) system. In the recent SASV challenge, the organizers encourage the development of such integration by releasing official protocols and baselines. In this paper, we build a probabilistic framework for fusing the ASV and CM subsystem scores. We further propose fusion strategies for direct inference and fine-tuning to predict the SASV score based on the framework. Surprisingly, these strategies significantly improve the SASV equal error rate (EER) from 19.31% of the baseline to 1.53% on the official evaluation trials of the SASV challenge. We verify the effectiveness of our proposed components through ablation studies and provide insights with score distribution analysis.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-11"
+  },
+  "alam22_odyssey": {
+   "authors": [
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Radek",
+     "Beneš"
+    ],
+    [
+     "Marián",
+     "Beszédeš"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ],
+    [
+     "Mohamed",
+     "Dahmane"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ],
+    [
+     "Hamed",
+     "Ghodrati"
+    ],
+    [
+     "Ondřej",
+     "Glembek"
+    ],
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Pavel",
+     "Matĕjka"
+    ],
+    [
+     "Ladislav",
+     "Mošner"
+    ],
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ]
+   ],
+   "title": "Development of ABC Systems for the 2021 Edition of NIST Speaker Recognition Evaluation",
+   "original": "odyssey2022_paper_71",
+   "page_count": 8,
+   "order": 48,
+   "p1": 346,
+   "pn": 353,
+   "abstract": [
+    "In this contribution, we provide a description of the ABC team’s collaborative efforts toward the development of speaker verification systems for the NIST Speaker Recognition Evaluation 2021 (NIST-SRE2021). Cross-lingual and cross-dataset trials are the two main challenges introduced in the NIST-SRE2021. Submissions of ABC team are the result of active collaboration of researchers from BUT, CRIM, Omilia and Innovatrics. We took part in all three close condition tracks for audio-only, audio-visual and visual-only verification tasks. Our audio-only systems follow deep speaker embeddings (e.g., x-vectors) with a subsequent PLDA scoring paradigm. As embeddings extractor, we select some variants of residual neural network (ResNet), factored time delay neural network (FTDNN) and Hybrid Neural Network (HNN) architectures. The HNN embeddings extractor employs CNN, LSTM and TDNN networks and incorporates a multi-level global-local statistics pooling method in order to aggregate the speaker information within short time-span and utterance-level context. Our visual-only systems are based on pretrained embeddings extractors employing some variants of ResNet and the scoring is based on cosine distance. When developing an audio-visual system, we simply fuse the outputs of independent audio and visual systems. Our final submitted systems are obtained by performing score level fusion of subsystems followed by score calibration.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-48"
+  },
+  "solewicz22_odyssey": {
+   "authors": [
+    [
+     "Yosef",
+     "Solewicz"
+    ],
+    [
+     "Noa",
+     "Cohen"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Srikanth",
+     "Madikeri"
+    ],
+    [
+     "Jan ”Honza”",
+     "Čercnocký"
+    ]
+   ],
+   "title": "Speaker Recognition on Mono-Channel Telephony Recordings",
+   "original": "odyssey2022_paper_72",
+   "page_count": 7,
+   "order": 27,
+   "p1": 193,
+   "pn": 199,
+   "abstract": [
+    "Conversations stored as mono data is a common problem in many real world speaker recognition applications. In this paper, we focus on investigative scenarios, where a number of mono telephone conversations are available for a speaker of interest. For example, a human operator may have verified that the speaker is present in these conversations. We propose several approaches for automatically creating enrollment models for the speaker of interest from such data. We then use the enrollment models to search for appearances of the speaker of interest in other calls. We analyze the performance of the different method on two dataset that matches our scenario, one is from a simulated case and one is from a real case.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-27"
+  },
+  "wang22c_odyssey": {
+   "authors": [
+    [
+     "Haoxu",
+     "Wang"
+    ],
+    [
+     "Yan",
+     "Jia"
+    ],
+    [
+     "Zeqing",
+     "Zhao"
+    ],
+    [
+     "Xuyang",
+     "Wang"
+    ],
+    [
+     "Junjie",
+     "Wang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Generating TTS Based Adversarial Samples for Training Wake-Up Word Detection Systems Against Confusing Words",
+   "original": "odyssey2022_paper_76",
+   "page_count": 5,
+   "order": 56,
+   "p1": 402,
+   "pn": 406,
+   "abstract": [
+    "Wake-up word detection models are widely used in real life, but suffer from severe performance degradation when encountering adversarial samples. In this paper we discuss the concept of confusing words in adversarial samples. Confusing words are commonly encountered, which are various kinds of words that sound similar to the predefined keywords. To enhance the robustness of the wake-up word detection system against confusing words, we propose several methods to generate the adversarial confusing samples for simulating real confusing words scenarios in which we usually do not have any real confusing samples in the training set. The generated samples include concatenated audio, synthesized data, and partially masked keywords. Moreover, we use a domain embedding concatenated system to improve the performance. Experimental results show that the adversarial samples generated in our approach help improve the system’s robustness in both the common scenario and the confusing words scenario. In addition, we release the confusing words testing database called HI-MIA-CW for future research.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-56"
+  },
+  "alam22b_odyssey": {
+   "authors": [
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Abderrahim",
+     "Fathan"
+    ]
+   ],
+   "title": "Hybrid Neural Network-Based Deep Embedding Extractors for Text-Independent Speaker Verification",
+   "original": "odyssey2022_paper_77",
+   "page_count": 8,
+   "order": 5,
+   "p1": 33,
+   "pn": 40,
+   "abstract": [
+    "In this contribution, we propose a multi-stream hybrid neural network for extracting speaker discriminant utterance-level embedding vectors. In this approach, an input acoustic feature frame is processed in multiple parallel pipelines where each stream has a unique dilation rate for incorporating diversity of temporal resolution in embedding processing. In order to aggregate the speaker information within short time-span and utterance-level context, proposed extractor employs multi-level global-local statistics pooling. In addition, we also propose an ensemble embedding extractor that employs both a hybrid neural network (HNN) and an extended time delay neural network - Long short-term memory (ETDNN-LSTM) hybrid modules for including diversified temporal resolution and for capturing complementarity. In order to evaluate the proposed systems, a set of experiments on the CNCeleb corpus were conducted, and the proposed multi-stream hybrid network outperformed the conventional approaches trained on the same dataset. The ensemble approach is found to provide the best results in terms of all considered evaluation metrics.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-5"
+  },
+  "kang22c_odyssey": {
+   "authors": [
+    [
+     "Jintao",
+     "Kang"
+    ],
+    [
+     "Aijun",
+     "Li"
+    ],
+    [
+     "Jingyang",
+     "Li"
+    ]
+   ],
+   "title": "Formant Dynamics of Chinese Compound Vowels with Implications for Forensic Speaker Identification",
+   "original": "odyssey2022_paper_78",
+   "page_count": 6,
+   "order": 55,
+   "p1": 396,
+   "pn": 401,
+   "abstract": [
+    "This study investigates the speaker-discriminatory potential of the Standard Chinese compound vowels in their formant dynamics. The first four formants were extracted from spontaneous speech materials. Two different methods (general polynomials and Legendre polynomials) of fitting formant trajectories of the 8 compound vowels from 85 male speakers were used to compute coefficients as input to a random forest classifier. Besides, original values (averages and raw data) of these formant frequencies were also input to the above classifier as benchmarks. The results show that high-frequency formants (F3 and F4) display a greater discriminatory power compared to low-frequency formants (F1 and F2) in [ai], [ia], [iou], and [uei] while low formants display greater power in the other 4 nasal compound vowels. As for curve fitting methods, Legendre coefficients perform better than the general coefficients in the random forest classifier, while the means perform worst. Furthermore, formants from [ia], [in] and [iou] are better at distinguishing speakers than other 5 compound vowels.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-55"
+  },
+  "tan22_odyssey": {
+   "authors": [
+    [
+     "YingWei",
+     "Tan"
+    ],
+    [
+     "XueFeng",
+     "Ding"
+    ]
+   ],
+   "title": "The Volkswagen-Mobvoi System for CN-Celeb Speaker Recognition Challenge 2022",
+   "original": "odyssey2022_paper_79",
+   "page_count": 6,
+   "order": 50,
+   "p1": 362,
+   "pn": 367,
+   "abstract": [
+    "Our submission to the track 1 of the CN-CELEB Speaker Recognition Challenge 2022 (CNSRC 2022) is described by this report. The track 1 task only uses the CN-Celeb training set for training/tuning the system. The objective of this task is to improve performance on the standard CN-Celeb evaluation set. Based on the state-of-the-art SEResnet speaker embedding network, we explore a novel network architecture with split-attention, called ResNeSt, and novel hybrid statistics pooling methods. Based on these techniques, we achieve significant improvement over the SEResnet baselines. Furthermore, in-domain data finetuning, attention back-end methods, speaker-wise adaptive score normalization (AS-Norm) and score calibration on duration efficiently improve the robustness. Finally, our system is a fusion of 23 models and achieves tenth place in the track 1 of CNSRC 2022. The minDCF of our submission is 0.4159, and the corresponding EER is 7.333%.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-50"
+  },
+  "kang22d_odyssey": {
+   "authors": [
+    [
+     "Woo Hyun",
+     "Kang"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ]
+   ],
+   "title": "Investigation on Deep Speaker Embedding Extraction Methods for Multi-Genre Speaker Verification",
+   "original": "odyssey2022_paper_80",
+   "page_count": 8,
+   "order": 52,
+   "p1": 376,
+   "pn": 383,
+   "abstract": [
+    "In this paper, we provide description of our experimented systems on the CNCeleb dataset. The CNCeleb dataset provides a difficult set of trial that were collected from multiple genres of speech and consists of real-world adversaries, including noise, overlapped background speakers, cross-channel, and short durational test samples. In order to extract a reliable speaker embedding vector under such harsh environment, we have trained multiple systems with different training strategies and architectures. More specifically, we have experimented with not only the conventional ECAPA-TDNN or ResNet architectures, but also the recently proposed multi-stream hybrid neural network. Furthermore, we have trained the systems with speaker discriminative losses, along with a domain generalization training strategy. Our experimental results show that the hybrid architectures can effectively improve the speaker verification performance in a multi-genre scenario. Moreover, fusing different types of hybrid systems further improved the performance, which indicates that different hybrid architectures can learn complementary speaker-dependent information to each other.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-52"
+  },
+  "zhang22c_odyssey": {
+   "authors": [
+    [
+     "Jialin",
+     "Zhang"
+    ],
+    [
+     "Qinghua",
+     "Ren"
+    ],
+    [
+     "Youcai",
+     "Qin"
+    ],
+    [
+     "Zikai",
+     "Wan"
+    ],
+    [
+     "Qirong",
+     "Mao"
+    ]
+   ],
+   "title": "Cross-Scene Speaker Verification Based on Dynamic Convolution for the CNSRC 2022 Challenge",
+   "original": "odyssey2022_paper_82",
+   "page_count": 8,
+   "order": 51,
+   "p1": 368,
+   "pn": 375,
+   "abstract": [
+    "This paper mainly presents our developed approach for the CNSRC2022 competition, specifically the open and fixed tracks in speaker verification task. In the context of speaker verification, a standard protocol is to extract the discriminative feature embeddings to determine the speaker identity via the similarity calculation. Compared to the VoxCeleb datasets, the CN-Celeb datasets involve more complex conditions as well as more challenging scenarios, which increases multi-genre and cross-genre complexity greatly. For fixed track, we have proposed two main improvement options. In terms of the model architecture, adaptive convolution extracts more robust representations, while dynamic convolution improves the representation capacity of the model. In terms of the task, we find that the noisy scene information could bring the negative effect. To handle this problem, we adopt a gradient reversal layer to decouple the harmful scene features. For open track, we use a pre-trained model trained on the VoxCeleb datasets, and then fine-tune it on the CN-Celeb datasets. Finally, by fusing the scores of each system, our method achieves 0.4195 minDCF in the fixed track and 0.3707 minDCF in the open track.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-51"
+  },
+  "su22_odyssey": {
+   "authors": [
+    [
+     "Xinmei",
+     "Su"
+    ],
+    [
+     "Qingran",
+     "Zhan"
+    ],
+    [
+     "Chenguang",
+     "Hu"
+    ],
+    [
+     "Xiang",
+     "Xie"
+    ]
+   ],
+   "title": "Combination of Multiple Embeddings for Speaker Retrieval",
+   "original": "odyssey2022_paper_83",
+   "page_count": 6,
+   "order": 53,
+   "p1": 384,
+   "pn": 389,
+   "abstract": [
+    "Speaker retrieval (SR) is a task to select the enrolled speakers from a large amount of test utterances. Extracting speaker embeddings in retrieval tasks depends on deep neural networks in general. The Emphasized Channel Attention, Propagation and Aggregation in Time Delay Neural Network (ECAPA-TDNN), which is the state-of-the-art (SOTA) neural network in the field of speaker verification (SV), can also be used in solving SR problems. In this paper, we propose an extension of architecture based on ECAPA-TDNN that combines multiple embeddings in different layers. First, we replace the front TDNN layers in ECAPA-TDNN with multi-scale convolution layers that are adopted by multi-scale 1-D convolutional kernels. By applying multi-scale convolution, multiple scales of feature maps are extracted and multiple information is learned by the neural network. Second, skip connections in SE-Res2blocks are added to avoid overfitting. Third, a novel pooling method is employed and concatenated with the statistic attentive pooling to achieve better performances. Combination of multiple poolings can help the network get more spatial features. The proposed system obtains a relative improvement of 22.7% comparing with the SOTA model before. A further qualitative analysis shows that our proposed system can better cluster utterances from the same speaker.\n"
+   ],
+   "doi": "10.21437/Odyssey.2022-53"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Speaker Recognition 1",
+   "papers": [
+    "kuzmin22_odyssey",
+    "silnova22_odyssey",
+    "peng22_odyssey",
+    "cumani22_odyssey",
+    "alam22b_odyssey",
+    "mohammadamini22_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing and Countermeasure 1",
+   "papers": [
+    "therattil22_odyssey",
+    "kang22_odyssey",
+    "castan22_odyssey",
+    "ge22_odyssey",
+    "zhang22b_odyssey",
+    "liu22b_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing and Countermeasure 2",
+   "papers": [
+    "wu22_odyssey",
+    "wang22_odyssey",
+    "xu22_odyssey",
+    "tak22_odyssey",
+    "liu22_odyssey",
+    "lu22_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Diarization",
+   "papers": [
+    "yamashita22_odyssey",
+    "kalda22_odyssey",
+    "hu22_odyssey",
+    "gong22_odyssey",
+    "zhang22_odyssey",
+    "chen22_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition 2",
+   "papers": [
+    "kang22b_odyssey",
+    "sholokhov22_odyssey",
+    "solewicz22_odyssey",
+    "pelecanos22_odyssey",
+    "bakst22_odyssey",
+    "villalba22b_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language Recognition",
+   "papers": [
+    "li22_odyssey",
+    "tong22_odyssey",
+    "abdrakhmanova22_odyssey",
+    "alumae22_odyssey",
+    "liu22c_odyssey",
+    "wang22b_odyssey"
+   ]
+  },
+  {
+   "title": "Voice Synthesis, Anonymization and Separation",
+   "papers": [
+    "guennec22_odyssey",
+    "sun22_odyssey",
+    "miao22_odyssey",
+    "kai22_odyssey",
+    "rikhye22_odyssey",
+    "he22_odyssey"
+   ]
+  },
+  {
+   "title": "Evaluation and Benchmarking",
+   "papers": [
+    "li22b_odyssey",
+    "sadjadi22_odyssey",
+    "sadjadi22b_odyssey",
+    "shim22_odyssey",
+    "villalba22_odyssey",
+    "alam22_odyssey",
+    "lavrentyeva22_odyssey"
+   ]
+  },
+  {
+   "title": "Special Session: CNSRC 2022",
+   "papers": [
+    "tan22_odyssey",
+    "zhang22c_odyssey",
+    "kang22d_odyssey",
+    "su22_odyssey"
+   ]
+  },
+  {
+   "title": "Speech Application",
+   "papers": [
+    "dinkel22_odyssey",
+    "kang22c_odyssey",
+    "wang22c_odyssey",
+    "padi22_odyssey",
+    "gong22b_odyssey",
+    "ghimire22_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/Odyssey.2022"
+}

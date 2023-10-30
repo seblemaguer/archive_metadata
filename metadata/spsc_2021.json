@@ -1,0 +1,827 @@
+{
+ "title": "2021 ISCA Symposium on Security and Privacy in Speech Communication",
+ "location": "Online",
+ "startDate": "10/11/2021",
+ "endDate": "12/11/2021",
+ "URL": "https://spsc-symposium2021.de/",
+ "chair": "Chairs: Ingo Siegert and Karla Markert",
+ "intro": "intro.pdf",
+ "conf": "SPSC",
+ "year": "2021",
+ "name": "spsc_2021",
+ "series": "",
+ "SIG": "",
+ "title1": "2021 ISCA Symposium on Security and Privacy in Speech Communication",
+ "date": "10-12 November 2021",
+ "booklet": "spsc_2021.pdf",
+ "papers": {
+  "bach21_spsc": {
+   "authors": [
+    [
+     "Joscha",
+     "Bach"
+    ]
+   ],
+   "title": "From Minsky's Society of Mind to a Society of Minds? Artificial Intelligence, Language Models and Agency",
+   "original": "SPSC_Symposium_2021_Keynote_1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Artificial Intelligence is mostly concerned with creating intelligent systems by imposing order on mindless parts. Marvin Minsky's seminal book \"Society of Mind\" suggests that a mind is composed of a multitude of interacting agents, coordinating to create the overall functionality of intelligent agency. If we extend this paradigm beyond individual minds, we are entering the realm of collective, social agency, and can discuss about ethics based on shared purposes."
+   ]
+  },
+  "koenecke21_spsc": {
+   "authors": [
+    [
+     "Allison",
+     "Koenecke"
+    ]
+   ],
+   "title": "Racial Disparities in Automated Speech Recognition",
+   "original": "SPSC_Symposium_2021_Keynote_2",
+   "page_count": 0,
+   "order": 2,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Automated speech recognition (ASR) systems are now used in a variety of applications to convert spoken language to text, from virtual assistants, to closed captioning, to hands-free computing. By analyzing a large corpus of sociolinguistic interviews with white and African American speakers, we demonstrate large racial disparities in the performance of popular commercial ASR systems developed by Amazon, Apple, Google, IBM, and Microsoft. Our results point to hurdles faced by African Americans in using increasingly widespread tools driven by speech recognition technology. More generally, our work illustrates the need to audit emerging machine-learning systems to ensure they are broadly inclusive. See more at fairspeech.stanford.edu."
+   ]
+  },
+  "traynor21_spsc": {
+   "authors": [
+    [
+     "Patrick",
+     "Traynor"
+    ]
+   ],
+   "title": "Exploiting the Gaps Between Human and Machine Understanding of Audio: Frameworks, Attacks, and Defenses",
+   "original": "SPSC_Symposium_2021_Keynote_3",
+   "page_count": 0,
+   "order": 3,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Modern machine learning techniques now enable a wide range of voice-driven systems. Such systems not only power our personal assistants and transcribe our text message, but also enable the creation of convincing virtual avatars, assist in air traffic control, and give voice to those who can no longer speak. However, the algorithms underlying these systems process and \"understand\" audio far differently that humans do, creating substantial vulnerabilities. In this talk, I discuss a range of such attacks and how they target real systems, a shared framework by which these attacks can be compared, and how such vulnerabilities might actually serve as the basis of stronger systems."
+   ]
+  },
+  "woubie21_spsc": {
+   "authors": [
+    [
+     "Abraham",
+     "Woubie"
+    ],
+    [
+     "Tom",
+     "Bäckström"
+    ]
+   ],
+   "title": "Federated Learning for Privacy Preserving On-Device Speaker Recognition",
+   "original": "SPSC_Symposium_2021_paper_1",
+   "page_count": 5,
+   "order": 4,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "State-of-the-art speaker recognition systems are usually trained on a single computer using speech data collected from multiple users. However, these speech samples may contain private information which users are not willing to share. To overcome such potential breaches of privacy, we investigate the use of federated learning in speaker recognition. Distributed learning methods such as federated learning enable us to train a shared model without sharing the private data by  training the models on edge devices where the data resides. In the proposed system, each edge device trains an individual model which is subsequently sent to a secure aggregator. To provide contrasting data without the need for transmitting data, we use a generative adversarial network (GAN) to generate impostor data at the edge. Afterwards, the secure aggregator merges the individual models, builds a global model and transmits the global model to the edge devices through a main server. Experimental results on the Voxceleb-1 dataset show that the use of federated learning for speaker recognition system provides two advantages. Firstly, it retains privacy since the raw data does not leave the edge devices. Secondly, experimental results show that the aggregated model provides better average equal error rate than the individual models."
+   ],
+   "doi": "10.21437/SPSC.2021-1"
+  },
+  "woubie21b_spsc": {
+   "authors": [
+    [
+     "Abraham",
+     "Woubie"
+    ],
+    [
+     "Tom",
+     "Bäckström"
+    ],
+    [
+     "Pablo Pérez",
+     "Zarazaga"
+    ]
+   ],
+   "title": "The Use of Audio Fingerprints for Authentication of Speakers on Speech Operated Interfaces",
+   "original": "SPSC_Symposium_2021_paper_2",
+   "page_count": 4,
+   "order": 5,
+   "p1": 6,
+   "pn": 9,
+   "abstract": [
+    "In a multi-speaker and multi-device environment, we need acoustic fingerprint information for authentication between devices. Thus, in these kinds of environments, it is crucial to continuously check the authenticity of speakers and devices within a short duration since different speakers could join or leave the environment. In this work, we propose the provision of different levels of authentication to different speakers in a multi-speaker multi-device environment using acoustic audio fingerprint information. Firstly, the audio fingerprints are extracted continuously every few seconds. Then, the extracted fingerprints are passed to a speaker recognition module which checks if the fingerprint is enrolled for that particular environment or not. Finally, the proper level of authentication is provided for each speaker. Our experimental results on Voxceleb-1 dataset show that acoustic fingerprints can be successfully used for authentication purposes in a multi-speaker multi-device environment."
+   ],
+   "doi": "10.21437/SPSC.2021-2"
+  },
+  "williams21_spsc": {
+   "authors": [
+    [
+     "Jennifer",
+     "Williams"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "",
+     "Paul-Gauthier"
+    ],
+    [
+     "Cassia",
+     "Valentini-Botinhao"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Revisiting Speech Content Privacy",
+   "original": "SPSC_Symposium_2021_paper_3",
+   "page_count": 5,
+   "order": 12,
+   "p1": 42,
+   "pn": 46,
+   "abstract": [
+    "In this paper, we discuss an important aspect of speech privacy: protecting spoken content. New capabilities from the field of machine learning provide a unique and timely opportunity to revisit speech content protection. There are many different applications of content privacy, even though this area has been underexplored in speech technology research. This paper presents several scenarios that indicate a need for speech content privacy even as the specific techniques to achieve content privacy may necessarily vary. Our discussion includes several different types of content privacy including recoverable and non-recoverable content. Finally, we introduce evaluation strategies as well as describe some of the difficulties that may be encountered."
+   ],
+   "doi": "10.21437/SPSC.2021-9"
+  },
+  "fabien21_spsc": {
+   "authors": [
+    [
+     "Maël",
+     "Fabien"
+    ],
+    [
+     "Seyyed Saeed",
+     "Sarfjoo"
+    ],
+    [
+     "Petr",
+     "Motlicek"
+    ],
+    [
+     "Srikanth",
+     "Madikeri"
+    ]
+   ],
+   "title": "Graph2Speak: Improving Speaker Identification using Network Knowledge in Criminal Conversational Data",
+   "original": "SPSC_Symposium_2021_paper_4",
+   "page_count": 4,
+   "order": 6,
+   "p1": 10,
+   "pn": 13,
+   "abstract": [
+    "Criminal investigations mostly rely on the collection of speech conversational data in order to identify speakers and build or enrich an existing criminal network. Social network analysis tools\nare then applied to identify the central characters and the different communities within the network. This paper introduces a new method, Graph2Speak, to re-rank individuals after applying\na speaker identification step, by leveraging the frequency of previous interactions extracted from a graph. We deploy our method on two candidate datasets for criminal conversational data, Crime Scene Investigation (CSI), a television show, and the ROXANNE simulated data. We demonstrate that our method can reduce the error rates of the speaker identification baseline by up to 12% (relative)."
+   ],
+   "doi": "10.21437/SPSC.2021-3"
+  },
+  "markert21_spsc": {
+   "authors": [
+    [
+     "Karla",
+     "Markert"
+    ],
+    [
+     "Romain",
+     "Parracone"
+    ],
+    [
+     "Mykhailo",
+     "Kulakov"
+    ],
+    [
+     "Philip",
+     "Sperl"
+    ],
+    [
+     "Ching-Yu",
+     "Kao"
+    ],
+    [
+     "Konstantin",
+     "Böttinger"
+    ]
+   ],
+   "title": "Visualizing Automatic Speech Recognition – Means for a Better Understanding?",
+   "original": "SPSC_Symposium_2021_paper_7",
+   "page_count": 7,
+   "order": 7,
+   "p1": 14,
+   "pn": 20,
+   "abstract": [
+    "Automatic speech recognition (ASR) is improving ever more at mimicking human speech processing. The functioning of ASR, however, remains to a large extent obfuscated by the complex structure of the deep neural networks (DNNs) they are based on. In this paper, we show how so-called attribution methods, that we import from image recognition and suitably adapt to handle audio data, can help to clarify the working of ASR. Taking DeepSpeech, an end-to-end model for ASR, as a case study, we show how these techniques help to visualize which features of the input are the most influential in determining the output. We focus on three visualization techniques: Layer-wise Relevance Propagation (LRP), Saliency Maps, and Shapley Additive Explanations (SHAP). We compare these methods and discuss potential further applications, such as in the detection of adversarial examples."
+   ],
+   "doi": "10.21437/SPSC.2021-4"
+  },
+  "fabien21b_spsc": {
+   "authors": [
+    [
+     "Maël",
+     "Fabien"
+    ],
+    [
+     "Petr",
+     "Motlicek"
+    ]
+   ],
+   "title": "Open-Set Speaker Identification pipeline in live criminal investigations",
+   "original": "SPSC_Symposium_2021_paper_8",
+   "page_count": 4,
+   "order": 8,
+   "p1": 21,
+   "pn": 24,
+   "abstract": [
+    "Speaker recognition has many applications in conversational data, including in forensic science where Law Enforcement Agencies (LEAs) aim to assess the identity of a speaker on a specific recorded telephone call. However, speaker identification (SID) systems require initial enrollment data, whereas LEAs might start a case with text or video evidence, and few to no enrollment data. In this paper, we introduce the ROXANNE simulated dataset, a multilingual corpus of acted telephone calls following a screenplay prepared by LEAs. We also present a process to build criminal networks from SID, by addressing practical constraints of these investigations. Our process reaches a speaker accuracy of 92.4% on the simulated data and a conversation accuracy of 84.9%. We finally offer some future directions for this work."
+   ],
+   "doi": "10.21437/SPSC.2021-5"
+  },
+  "schmitt21_spsc": {
+   "authors": [
+    [
+     "Vera",
+     "Schmitt"
+    ],
+    [
+     "Veronika",
+     "Solopova"
+    ],
+    [
+     "Vinicius",
+     "Woloszyn"
+    ],
+    [
+     "Jessica de Jesus de Pinho",
+     "Pinhal"
+    ]
+   ],
+   "title": "Implications of the New Regulation Proposed by the European Commission on Automatic Content Moderation",
+   "original": "SPSC_Symposium_2021_paper_9",
+   "page_count": 5,
+   "order": 13,
+   "p1": 47,
+   "pn": 51,
+   "abstract": [
+    "In April 2021 the European Commission (EC) proposed a new regulation to establish a regulatory structure for the risk assessment of Artificial Intelligence (AI) systems and applications. The intended goal of initiating a harmonised legal framework for the European Union (EU) poses new challenges in developing countermeasures for hate speech and fake news detection. This analysis investigates the implications of the proposed regulations on different automatic content moderation approaches such as flagging, blocking and filtering. The fuzzy nature of the risk categories causes major challenges for the risk categorisation task and leaves room for future improvements of the proposed regulations."
+   ],
+   "doi": "10.21437/SPSC.2021-10"
+  },
+  "bonastre21_spsc": {
+   "authors": [
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "‪Paul-Gauthier",
+     "Noé‬"
+    ],
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Brij Mohan Lal",
+     "Srivastava"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Natalia",
+     "Tomashenko"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Benchmarking and challenges in security and privacy for voice biometrics",
+   "original": "SPSC_Symposium_2021_paper_10",
+   "page_count": 5,
+   "order": 14,
+   "p1": 52,
+   "pn": 56,
+   "abstract": [
+    "For many decades, research in speech technologies has focused upon improving reliability. With this now meeting user expectations for a range of diverse applications, speech technology\nis today omni-present. As result, a focus on security and privacy has now come to the fore. Here, the research effort is in its relative infancy and progress calls for greater, multidisciplinary\ncollaboration with security, privacy, legal and ethical experts among others. Such collaboration is now underway. To help catalyse the efforts, this paper provides a high-level overview of some related research. It targets the non-speech audience and describes the benchmarking methodology that has spearheaded progress in traditional research and which now drives recent security and privacy initiatives related to voice biometrics. We describe: the ASVspoof challenge relating to\nthe development of spoofing countermeasures; the VoicePrivacy initiative which promotes research in anonymisation for privacy preservation."
+   ],
+   "doi": "10.21437/SPSC.2021-11"
+  },
+  "backstrom21_spsc": {
+   "authors": [
+    [
+     "Tom",
+     "Bäckström"
+    ],
+    [
+     "Sneha",
+     "Das"
+    ],
+    [
+     "Pablo Pérez",
+     "Zarazaga"
+    ],
+    [
+     "Johannes",
+     "Fischer"
+    ],
+    [
+     "Rainhard Dieter",
+     "Findling"
+    ],
+    [
+     "Stephan",
+     "Sigg"
+    ],
+    [
+     "Le Ngu",
+     "Nguyen"
+    ]
+   ],
+   "title": "Intuitive Privacy from Acoustic Reach: A Case for Networked Voice User-Interfaces",
+   "original": "SPSC_Symposium_2021_paper_12",
+   "page_count": 5,
+   "order": 15,
+   "p1": 57,
+   "pn": 61,
+   "abstract": [
+    "The effect that advances in voice interface technologies have on privacy has not yet received the attention it deserves. Systems in which multiple devices collaborate to provide a unified user-interface amplify those worries about privacy. We discuss ethical implications of voice enabled devices on privacy in typical scenarios at home, office, in a car and in the public. From our findings, it follows that the reach of voice can be exploited as a feature to intuitively define the extent of privacy. In particular, the acoustic reach of speech signals can serve as a feature\nfor designing privacy-gentle voice user-interfaces which are intuitive to use. We argue that this approach poses reasonable technological requirements and establishes a natural experience of privacy which confirms intuitive perception."
+   ],
+   "doi": "10.21437/SPSC.2021-12"
+  },
+  "markert21b_spsc": {
+   "authors": [
+    [
+     "Karla",
+     "Markert"
+    ],
+    [
+     "Donika",
+     "Mirdita"
+    ],
+    [
+     "Konstantin",
+     "Böttinger"
+    ]
+   ],
+   "title": "Language Dependencies in Adversarial Attacks on Speech Recognition Systems",
+   "original": "SPSC_Symposium_2021_paper_14",
+   "page_count": 7,
+   "order": 9,
+   "p1": 25,
+   "pn": 31,
+   "abstract": [
+    "Automatic speech recognition (ASR) systems are ubiquitously present in our daily devices. They are vulnerable to adversarial attacks, where manipulated input samples fool the ASR system’s\nrecognition. While adversarial examples for various English ASR systems have already been analyzed, there exists no inter-language comparative vulnerability analysis. We compare the attackability of a German and an English ASR system, taking Deepspeech as an example. We investigate if one of the language models is more susceptible to manipulations than the other. The results of our experiments suggest statistically significant differences between English and German in terms of computational effort necessary for the successful generation of adversarial examples. This result encourages further research in language-dependent characteristics in the robustness analysis of ASR."
+   ],
+   "doi": "10.21437/SPSC.2021-6"
+  },
+  "nourtel21_spsc": {
+   "authors": [
+    [
+     "Hubert",
+     "Nourtel"
+    ],
+    [
+     "Pierre",
+     "Champion"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Anthony",
+     "Larcher"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ]
+   ],
+   "title": "Evaluation of Speaker Anonymization on Emotional Speech",
+   "original": "SPSC_Symposium_2021_paper_15",
+   "page_count": 5,
+   "order": 16,
+   "p1": 62,
+   "pn": 66,
+   "abstract": [
+    "Speech data carries a range of personal information, such as the speaker’s identity and emotional state. These attributes can be used for malicious purposes. With the development of virtual assistants, a new generation of privacy threats has emerged. Current studies have addressed the topic of preserving speech privacy. One of them, the VoicePrivacy initiative aims to promote the development of privacy preservation tools for speech technology. The task selected for the VoicePrivacy 2020 Challenge (VPC) is about speaker anonymization. The goal is to hide the source speaker’s identity while preserving the linguistic information. The baseline of the VPC makes use of a voice conversion. This paper studies the impact of the speaker anonymization baseline system of the VPC on emotional information present in speech utterances. Evaluation is performed following the VPC rules regarding the attackers’ knowledge about the anonymization system. Our results show that the VPC baseline system does not suppress speakers’ emotions against informed attackers. When comparing anonymized speech to original speech, the emotion recognition performance is degraded by 15% relative to IEMOCAP data, similar to the degradation observed for automatic speech recognition used to evaluate the preservation of the linguistic information."
+   ],
+   "doi": "10.21437/SPSC.2021-13"
+  },
+  "maly21_spsc": {
+   "authors": [
+    [
+     "Kvetoslav",
+     "Maly"
+    ],
+    [
+     "Gerhard",
+     "Backfried"
+    ],
+    [
+     "Francesco",
+     "Calderoni"
+    ],
+    [
+     "Jan \"Honza\"",
+     "Černocký"
+    ],
+    [
+     "Erinc",
+     "Dikici"
+    ],
+    [
+     "Maël",
+     "Fabien"
+    ],
+    [
+     "Jan",
+     "Hořínek"
+    ],
+    [
+     "Joshua",
+     "Hughes"
+    ],
+    [
+     "Miroslav",
+     "Janošík"
+    ],
+    [
+     "Marek",
+     "Kovac"
+    ],
+    [
+     "Petr",
+     "Motlicek"
+    ],
+    [
+     "Hoang H.",
+     "Nguyen"
+    ],
+    [
+     "Shantipriya",
+     "Parida"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Miroslav",
+     "Skácel"
+    ],
+    [
+     "Sergej",
+     "Zerr"
+    ],
+    [
+     "Dietrich",
+     "Klakow"
+    ],
+    [
+     "Dawei",
+     "Zhu"
+    ],
+    [
+     "Aravind",
+     "Krishnan"
+    ]
+   ],
+   "title": "ROXSD: a Simulated Dataset of Communication in Organized Crime",
+   "original": "SPSC_Symposium_2021_paper_16",
+   "page_count": 5,
+   "order": 10,
+   "p1": 32,
+   "pn": 36,
+   "abstract": [
+    "Criminal investigations contain sensitive and confidential material and are nonpublic by nature. Access to investigation data is very limited and restricted to only selected groups of\nindividuals. Even for research purposes, data typically cannot be accessed freely. Within criminal investigations, data is still processed manually to a large extent. Solutions provided for automation of this processing — or even of individual processing steps — can be assumed to have a significant impact on the work of Law Enforcement Agencies (LEAs). Automation may\neffectively be key to handle large and complex amounts of data in an efficient manner under the typical operating conditions of LEAs. This paper introduces the ROXANNE Simulated Dataset\n(ROXSD), a dataset with unique properties prepared by the ROXANNE Project1 with assistance from several LEAs, to facilitate the development and evaluation of novel tools and technologies\nfor criminal investigations. ROXSD consists of a set of simulated intercepted telephone conversations in a variety of languages. The story follows a realistic setting and includes the\nconditions and constraints of a real investigation. The network topology corresponding to the conversations was created by partner LEAs to reflect various typical organized crime groups.\nConversations have been transcribed carefully and annotated in the original language and in English. The dataset is expected to provide a sound basis for further research and is available to download for researchers under signed agreement."
+   ],
+   "doi": "10.21437/SPSC.2021-7"
+  },
+  "emanuilov21_spsc": {
+   "authors": [
+    [
+     "Ivo",
+     "Emanuilov"
+    ],
+    [
+     "Katerina",
+     "Yordanova"
+    ]
+   ],
+   "title": "Brave New World? Processing of personal data about employees under Art. 9 of GDPR in the context of human-robot interaction",
+   "original": "SPSC_Symposium_2021_paper_17",
+   "page_count": 6,
+   "order": 17,
+   "p1": 67,
+   "pn": 72,
+   "abstract": [
+    "Ensuring safe and secure collaboration between robots and human workers is essential for the successful deployment of artificial intelligence on the factory shop floor. Any such interaction\ndepends on actions such as perception, sensing and action on the part of the robot which are, essentially, enabled by the realtime processing of personal data concerning the factory workers.\nThe majority of these data would easily fall into the special category of personal data under article 9 GDPR, e.g. as biometric data. This means that their processing would in principle\nbe prohibited unless allowed by one of the explicit exceptions. In this paper, we analyse which of these grounds may be applicable, taking into account the specifics of these interactions on\nthe shop floor, that is, in an employment context with high level of safety risks. We explore the problem focusing on selected scenarios which are inspired from real or planned deployments\nof human-robot collaborative manufacturing technologies in the industries of aerospace, maritime and automotive manufacturing."
+   ],
+   "doi": "10.21437/SPSC.2021-14"
+  },
+  "pizarro21_spsc": {
+   "authors": [
+    [
+     "Matias",
+     "Pizarro"
+    ],
+    [
+     "Dorothea",
+     "Kolossa"
+    ],
+    [
+     "Asja",
+     "Fischer"
+    ]
+   ],
+   "title": "Robustifying automatic speech recognition by extracting slowly varying features",
+   "original": "SPSC_Symposium_2021_paper_18",
+   "page_count": 5,
+   "order": 11,
+   "p1": 37,
+   "pn": 41,
+   "abstract": [
+    "In the past few years, it has been shown that deep learning systems are highly vulnerable under attacks with adversarial examples. Neural-network-based automatic speech recognition\n(ASR) systems are no exception. Targeted and untargeted attacks can modify an audio input signal in such a way that humans still recognise the same words, while ASR systems are steered to predict a different transcription. In this paper, we propose a defense mechanism against targeted adversarial attacks consisting in removing fast-changing features from the audio signals, either by applying slow feature analysis, a low-pass filter, or both, before feeding the input to the ASR system. We perform an empirical analysis of hybrid ASR models trained on data pre-processed in such a way. While the resulting models perform quite well on benign data, they are significantly more robust against targeted adversarial attacks: Our final, proposed model shows a performance on clean data similar to the baseline model, while being more than four times more robust."
+   ],
+   "doi": "10.21437/SPSC.2021-8"
+  },
+  "lorincz21_spsc": {
+   "authors": [
+    [
+     "Beáta",
+     "Lőrincz"
+    ]
+   ],
+   "title": "Contributions to neural speech synthesis using limited data enhanced with lexical features",
+   "original": "SPSC_Symposium_2021_paper_21",
+   "page_count": 3,
+   "order": 21,
+   "p1": 83,
+   "pn": 85,
+   "no_doi": true,
+   "abstract": [
+    "Building single or multi-speaker neural network-based text-tospeech synthesis systems commonly relies on the availability of large amounts of high quality recordings from each speaker and conditioning the training process on the speaker’s identity or on a learned representation of it. However, when little data is available from each speaker, or the number of speakers is limited, the speech synthesis system can be hard to train and will result in poor speaker similarity and naturalness. In order to address this issue we explore several directions by engaging speaker adaptation, additional loss terms, data augmentation, speaker selection methods and different types of textual representations to improve the quality of the synthetic output speech. Our experiments are focused on the Romanian language that is considered a low-resource language. Objective and subjective measures are used to evaluate the effectiveness of the proposed methods."
+   ]
+  },
+  "wienrich21_spsc": {
+   "authors": [
+    [
+     "Carolin",
+     "Wienrich"
+    ],
+    [
+     "Astrid",
+     "Carolus"
+    ]
+   ],
+   "title": "A More Holistic View of Literacy Specifications in the Context of Speech-based Systems",
+   "original": "SPSC_Symposium_2021_paper_22",
+   "page_count": 3,
+   "order": 18,
+   "p1": 73,
+   "pn": 75,
+   "no_doi": true,
+   "abstract": [
+    "The concept of digital literacy has been introduced as a new cultural technique that is regarded as essential for successful participation in our (future) digitized world. With the increasing importance of Artificial Intelligence (AI), media- and technology related literacy concepts need to be extended to meet AI-related developments and progress. Recently, this extended concept\nhas been introduced as AI Literacy (short: AIL). In this context, the Competence Behavioral Model of AI Literacy (short: CBM-AIL) has been introduced specifying the dimensions of AI Literacy and arguing for a more holistic view – beyond mere technological and cognitive aspects. This paper transfers the CBM-AIL to the area of speech-based technology. Further, it gives an overview of the dimensions and subdimensions of the model and its meaning for the users interacting with speech based technology."
+   ]
+  },
+  "leschanowsky21_spsc": {
+   "authors": [
+    [
+     "Anna",
+     "Leschanowsky"
+    ],
+    [
+     "Birgit",
+     "Brüggemeier"
+    ],
+    [
+     "Nils",
+     "Peters"
+    ]
+   ],
+   "title": "Design Implications for Human-Machine Interactions from a Qualitative Pilot Study on Privacy",
+   "original": "SPSC_Symposium_2021_paper_23",
+   "page_count": 4,
+   "order": 19,
+   "p1": 76,
+   "pn": 79,
+   "abstract": [
+    "There are only few qualitative studies investigating privacy in Human-Machine Interaction (HMI). We conducted an exploratory qualitative study with the aim to better understand factors that influence privacy in HMI and how they relate to privacy in Human-to-Human Interaction (HHI). From there, we derived recommendations that can help designers to promote informed decision making and improve data sharing processes. We discuss the main distinguishing factors that were found carrying out semi-structured interviews. First, HMI contexts miss flexibility and proper protection strategies such that users can not easily protect themselves similar to what they are used to in HHI. Second, users were able to easily evaluate benefits of sharing data while risks remained elusive and difficult to assess. Further research is needed to understand the impact of this imbalance on users’ informed decision making."
+   ],
+   "doi": "10.21437/SPSC.2021-16"
+  },
+  "siegert21_spsc": {
+   "authors": [
+    [
+     "Ingo",
+     "Siegert"
+    ]
+   ],
+   "title": "Speaker anonymization solution for public voice-assistant interactions – Presentation of a Work in Progress Development",
+   "original": "SPSC_Symposium_2021_paper_24",
+   "page_count": 3,
+   "order": 20,
+   "p1": 80,
+   "pn": 82,
+   "no_doi": true,
+   "abstract": [
+    "The use of voice assistants has rapidly grown and they can be found in millions of households. And a lot of effort has be made by researchers to improve the usage of these systems. One issue\nthat remains open is the usage of voice assistants and recording of interactions for research purposes in public environments due to privacy concerns. Although data collections, offering\nunconstrained, unscripted public interactions are quite rare and mainly only focus on transcribed content or have focused on private usage, short pre-defined tasks or specific domains. The\ncurrent paper presents an approach on how voice data recordings of user interactions with voice assistants in a public space can be recorded and processed in conformity with the GDPR."
+   ]
+  },
+  "backstrom21b_spsc": {
+   "authors": [
+    [
+     "Tom",
+     "Backstrom"
+    ],
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Karla",
+     "Markert"
+    ],
+    [
+     "Ingo",
+     "Siegert"
+    ]
+   ],
+   "title": "How to collect speech data with human rights in mind – Workshop at the SPSC Symposium 2021",
+   "original": "Workshop_SPSC_Symposium_2021",
+   "page_count": 3,
+   "order": 22,
+   "p1": 86,
+   "pn": 88,
+   "no_doi": true,
+   "abstract": [
+    "“Everyone has the right to respect for his private and family life, his home and his correspondence”, states Article 8 of the European Convention on Human Rights. With every new abuse case of personal data in language resources, the debate about the security and privacy of the data quickly runs high to go down again soon. These debates often ask for strict regulation: that any data collection should be forbidden or at least strongly regulated. However, the recent improvements for speech-based technologies, i.e. speech recognition, speech understanding and speech interaction, would not be possible without the exhaustive collection of heterogeneous speech data. This workshop aims to bring together researchers from various scientific fields to establish a discussion on the technology-driven and legal-driven perspective on speech data collections. To account for the limited body of literature in that emerging field, the workshop aims to a prepare a written synopsis of the different scientific perspectives on speech data collection with human rights in mind.\n"
+   ]
+  },
+  "jasserandbreeman21_spsc": {
+   "authors": [
+    [
+     "Catherine",
+     "Jasserand-Breeman"
+    ]
+   ],
+   "title": "‘How to Collect Speech Data with Human Rights in Mind’  - The legal view",
+   "original": "Workshop_Talk_1",
+   "page_count": 0,
+   "order": 23,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    " Recently Facebook released a large-scale dataset of speech data for research purposes, VoxPopuli, see https://github.com/facebookresearch/voxpopuli. The data were not scrapped from the Internet but extracted from public event recordings made available on the European Parliament, see https://www.europarl.europa.eu/website/multimedia-centre/en/about_us.html. If the materials published on the website are not subject to copyright restrictions (Either because they are copyright-free or copyright-holders have waived their rights.), they can be still subject to other rights and conditions (such as personality rights or data protection rules). Yet, it does not seem that Facebook acknowledged it and even assessed the legal basis under which the personal data contained in the recordings could be processed. Copyright and data protection issues are often mixed up. The increased use of Creative Commons licences (allowing the re-use of copyrightable works) to release large-scale datasets (containing personal data) illustrate it; see also Catherine Jasserand, ‘Free to re-use? The case of facial images scrapped from the Internet and compiled in mega research datasets’.\n",
+    "Data publicly made available cannot be re-used based on their availability. If they are personal data, they still need to be processed under one of the legal grounds identified in the GDPR (or other applicable data protection legislation) (Article 6 and Article 9 GDPR). When data are collected directly from the data subjects, one could rely on consent\\, and explicit consent for sensitive data. But what could be the legal basis when the data are obtained from third parties? Could it be the legitimate interest of the data controllers? (Art. 6(1)(f) GDPR) The performance of a task carried out in the public interest? (Art. 6(1)(e) GDPR) Or the research exception allowing the processing of sensitive data? (Art. 9 (2)(j) GDPR) A rigorous analysis of all the legal grounds provided by the GDPR is needed. But besides identifying a possible legal basis, complying with data subject’s rights and data protection principles when the data originates from third parties constitutes another challenge. Last but not least, regulators (e.g. the European Data Protection Supervisor) and human rights organizations (e.g. the Council of Europe) seem to support the use of synthetic data to develop and train AI models at large-scale, see https://edps.europa.eu/press-publications/press-news/blog/future-privacy-synthetic_en; see Council of Europe’s Guidelines on Facial Recognition (2021) and https://rm.coe.int/guidelines-on-facial-recognition/1680a134f3.\n"
+   ]
+  },
+  "martins21_spsc": {
+   "authors": [
+    [
+     "Ayana",
+     "Martins"
+    ]
+   ],
+   "title": "‘How to Collect Speech Data with Human Rights in Mind’  - Medical speech data analysis",
+   "original": "Workshop_Talk_2",
+   "page_count": 0,
+   "order": 24,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Applying speech analysis for medical diagnosis requires building databases in which speech samples are paired to disease status. This is often achieved through clinical studies in collaboration with healthcare providers. In most clinical studies, data anonymization (sensu GDPR) is possible, but that is not always the case for voice recordings. Healthcare providers have high expectations on data protection and the possibility of anonymization. Thus, studies involving voice recordings require new channels and processes for collaboration. Data protection good practices have long put emphasis on security and minimizing the risk of re-identification. The GDPR has added emphasis on giving citizens a choice regarding what happens to their data. In this workshop, we highlight an example where there is a potential trade-off between these two aspects of data protection.  To protect their patients, healthcare providers are normally not willing to share identifiers in the context of clinical research. How to ensure the data rights of individual citizens when we cannot identify which voice recordings belong to them? \n"
+   ]
+  },
+  "choukri21_spsc": {
+   "authors": [
+    [
+     "Khalid",
+     "Choukri"
+    ]
+   ],
+   "title": "‘How to Collect Speech Data with Human Rights in Mind’  - Language Resources, ethics and IPR",
+   "original": "Workshop_Talk_3",
+   "page_count": 0,
+   "order": 25,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Speech is one of the most conspicuous biometric characteristic of humans. Recent data-driven approaches are the basis of all Machine Learning/ Deep Learning techniques. In addition to being a biometric dimension, speech signal carries various information about speaker gender, affective and emotions, etc., while the recorded audio content may contain private or confidential information. The signal may even reflect the environment in which it was recorded, making it identifiable.\nAll these aspects have to be addressed in data collection and production. In some contexts, speakers’ informed consent would be sufficient, while in many others ethical and legal issues have to be carefully considered.\nOne may imagine a data collection that has to reflect real emotions of the speakers e.g. fear, sadness, joy, etc. The debate on how to provoke such affective reactions, from multiple views such as ethical, psychological, cultural, etc., is essential. Should the collection simulate fears or provoke real ones? Should the speakers be informed in advance or not, and what if the speakers are kids?\nIn all circumstances, data production implies high costs and heavy processes which lead to ownership and intellectual property right reflection. Fair behavior, but also current regulations (e.g. GDPR in Europe), require that speakers can withdraw their consent any time, including years after the packaging of the data. The EU imposes that some resources can only be shared with countries that adopted similar regulations. How can one comply with such commitments while sharing the resource with the community at large under very permissive licences that do not allow to monitor all uses made of the data? Last but not least, what happens if one obtains, in very good faith, a language data set from sources that do not comply with these requirements and discover, once in use, the process infringes some of these principles?\nThis workshop aims at opening the debate on all these aspects to better share current practices, learn from other disciplines, and contemplate good/best practices in the field.\n"
+   ]
+  },
+  "kruger21_spsc": {
+   "authors": [
+    [
+     "Julia",
+     "Krüger"
+    ]
+   ],
+   "title": "‘How to Collect Speech Data with Human Rights in Mind’  - The users' view",
+   "original": "Workshop_Talk_4",
+   "page_count": 0,
+   "order": 26,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "From the perspective of user-centred psychological research, both the user's behaviour during the interaction with a voice-controlled system and the user variables predicting his/her behaviour are of interest. Of further interest is the user's subjective experience of the interaction, which here in terms of holistic UX means all internal processes (ideas, attitudes, thoughts, feelings, etc.) that occur before, during or after the interaction. \n% In order to achieve these research goals, it is necessary in terms of experimental design and data collection to a) evoke an evolving interaction (i.e. to enable mostly longer interaction sequences), b) to use as many modalities as possible to collect user information (i.e. to collect multimodal data), and c) to enable the user to reflect on the interaction afterwards (i.e. to conduct user interviews). \n% This leads, in addition to known difficulties of the ethical and legal feasibility of collecting sensitive user information, to extensive reflections regarding fears of data misuse and trade-offs of self-disclosures from the participants themselves. These are the focus of this presentation. \n% In the course of collecting the Last Minute corpus, a multi-modal data set with interactions between subjects and a speech-based system simulated by using the Wizard-of-Oz technique was collected. \n% Semi-structured interviews on the subjective experience of the interactions revealed a range of ideas in this regard and different degrees of self-disclosure and data misuse fears.\n% The four types of experience developed from this will be presented with a focus on these in order to bring the users' perspective on data protection and related fears into the workshop. \n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynotes",
+   "papers": [
+    "bach21_spsc",
+    "koenecke21_spsc",
+    "traynor21_spsc"
+   ]
+  },
+  {
+   "title": "Privacy and security using speech and speaker recognition technologies",
+   "papers": [
+    "woubie21_spsc",
+    "woubie21b_spsc",
+    "fabien21_spsc",
+    "markert21_spsc",
+    "fabien21b_spsc",
+    "markert21b_spsc",
+    "maly21_spsc",
+    "pizarro21_spsc"
+   ]
+  },
+  {
+   "title": "Speech privacy, speaker anonymization and legal regulations",
+   "papers": [
+    "williams21_spsc",
+    "schmitt21_spsc",
+    "bonastre21_spsc",
+    "backstrom21_spsc",
+    "nourtel21_spsc",
+    "emanuilov21_spsc",
+    "wienrich21_spsc",
+    "leschanowsky21_spsc",
+    "siegert21_spsc"
+   ]
+  },
+  {
+   "title": "PhD track",
+   "papers": [
+    "lorincz21_spsc"
+   ]
+  },
+  {
+   "title": "Workshop",
+   "papers": [
+    "backstrom21b_spsc",
+    "jasserandbreeman21_spsc",
+    "martins21_spsc",
+    "choukri21_spsc",
+    "kruger21_spsc"
+   ]
+  }
+ ],
+ "doi": "10.21437/SPSC.2021"
+}

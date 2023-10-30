@@ -1,0 +1,2396 @@
+{
+ "location": "Fragrant Hill Hotel, Beijing",
+ "startDate": "13/10/2000",
+ "endDate": "15/10/2000",
+ "original_url": "http://www.isca-speech.org/archive_open/iscslp2000/index.html",
+ "original_title": "Int'l Symp. on Chinese Spoken Language Proc.",
+ "logo": "top_right.jpg",
+ "conf": "ISCSLP",
+ "year": "2000",
+ "name": "iscslp_2000",
+ "series": "ISCSLP",
+ "SIG": "CSLP",
+ "title": "International Symposium on Chinese Spoken Language Processing",
+ "title1": "International Symposium on Chinese Spoken Language Processing",
+ "date": "13-15 October 2000",
+ "papers": {
+  "huang00_iscslp": {
+   "authors": [
+    [
+     "Changning",
+     "Huang"
+    ]
+   ],
+   "title": "Recent Trends in NLP Research",
+   "original": "HUANGChangning",
+   "page_count": 1,
+   "order": 1,
+   "p1": "1",
+   "pn": "1",
+   "abstract": [
+    "Parsing is a well-known key issue in Natural Language Processing (NLP). Corpus investigation shows the following two facts: (1) CFG rules based on mono-labels, such as POS/PT, are not sufficient for parsing, and (2) CFG rules also have Zipf's distribution in corpus, i.e. the total number of rules aren't limited as expectation. The recent trends of NLP research are heavily influenced by those facts. The speaker will introduce his observation on those trends, such as multiple features and unification-based grammars, lexicalism in grammar researches, statistical language modeling and corpus-based approaches. Although the first two remedies still forward along the traditional linguistics approaches, but they explore linguistic knowledge with much more fine grain, especially lexical knowledge, than before. The last remedy falls into the so-called experientialism approaches. It is based on observable facts rather than on linguist's intuition. The mission of those approaches is to acquire linguistic knowledge with more fine grain from very large corpora automatically or semi-automatically. Because this is still the bottle-neck of NLP technology developments.\n"
+   ]
+  },
+  "lee00_iscslp": {
+   "authors": [
+    [
+     "Chin-Hui",
+     "Lee"
+    ]
+   ],
+   "title": "From Graphical to Voice User Interface: The Next Revolution",
+   "original": "LEEChinhui",
+   "page_count": 1,
+   "order": 2,
+   "p1": "2",
+   "pn": "2",
+   "abstract": [
+    "From Graphical to Voice User Interface: The Next Revolution Chin-Hui LEE Dialogue Systems Research Department, Bell Labs, Lucent Technologies Murray Hill, New Jersey, USA chl@research.bell-labs.com The end of the 20th century witnesses the explosive growth of internet usage. Human beings are no longer satisfied with simple connectivity among people which is the main thrust for technology advancement in communications in a large part of the last one hundred years after the invention of the telephone. In addition to talking among people, they now have an increasing appetite for more information and content. The most common vehicle for accessing information residing on many websites across the globe is still the dominating interface of point and click with a mouse using the graphical user interface (GUI). However due to the emerging need for wireless and mobile internet appliances, such as cellphones and personal data assistants, the traditional GUI is having difficulties in delivering content effectively because of the miniaturization of keyboards and displays. On the other hand, voice input and output devices are usually built-in and heavily used in such mobile communicators. Since speech is the most natural means of interface and communication especially in eyes-busy and hands-busy situations, voice will be a dominating mode in newly designed multi-modal user interfaces for future devices. This calls for a revolutionary design of a voice user interface (VUI) to supplement the conventional GUIs. In this talk we review the core voice technology components, including automatic speech recognition (ASR), text-to-speech (TTS), speaker verification (SV) and utterance verification (UV). We discuss technology capabilities and limitations of each technology. In order to build effective VUIs, dialogue management and natural language understanding are two critical components that are not yet mature and many research issues are still open and need to be addressed. Even with all the constraints, a number of large scale applications and services have been implemented and deployed in recent years. Voice portal companies have also been established to take advantage of the increasing application needs. We will present a few application examples and discuss why they are successful. Finally recent approaches to web and phone service integration and personalized voice portals are illustrated. They point to new technology challenges in order to realize VUIs. They also offer tremendous business opportunities and benefits to the society in the global village of the coming information age in the new millennium.\n"
+   ]
+  },
+  "chou00_iscslp": {
+   "authors": [
+    [
+     "Wu",
+     "Chou"
+    ]
+   ],
+   "title": "Topics on Minimum Classification Error Rate Based Discriminant Function Approach to Speech Recognition",
+   "original": "WUChou",
+   "page_count": 8,
+   "order": 3,
+   "p1": "3",
+   "pn": "10",
+   "abstract": [
+    "In this paper, we study discriminant function based minimum recognition error rate pattern recognition approach. This approach departs from the conventional paradigm which links a classiﬁcation/recognition task to the problem of distribution estimation. Instead, it takes a discriminant function based statistical pattern recognition approach and the goodness of this approach to classiﬁcation error rate minimization is established through a special loss function. It is meaningful even when the model correctness assumption is known not valid. The use of discriminant function has a signiﬁcant impact on classiﬁer design, since in many realistic applications, such as speech recognition, the true distribution form of the source is rarely known precisely and without model correctness assumption, the classical optimality theory of the distribution estimation approach can not be applied directly. We discussissues in this new classiﬁer design paradigm and present various extensions of this approach for applications in speech processing.\n"
+   ]
+  },
+  "yan00_iscslp": {
+   "authors": [
+    [
+     "Yonghong",
+     "Yan"
+    ]
+   ],
+   "title": "Toward Making Speech Part of People's Daily Life",
+   "original": "YANYonghong",
+   "page_count": 1,
+   "order": 4,
+   "p1": "11",
+   "pn": "11",
+   "abstract": [
+    "Speech recognition technologies have been improved significantly during the past decade. Among different recognition tasks, the Large Vocabulary Continuous Speech Recognition (LVCSR) is still one of the most challenging topics. The most recognized benchmark of the progress is the DARPA annual speech recognition evaluations. In this talk we will first present an overview of DARPA sponsored evaluations, then we will discuss the opportunities and challenges speech community are facing. Recent years witnessed the migration of speech systems from labs to market places; making speech recognition be part of people’s daily life is no longer a far fetch vision. Ranged from data entry (dictation) tasks to telephony based information services, speech technology is becoming more and more practical and useful. The DARPA speech evaluation administrated by National Institute of Standards & Technology (NIST), coupled with millions of dollars of research funding, has served its unique role in promoting the advancement of speech technology. From Navy Resource Management (RM) task to Wall Street Journal (WSJ) task, and to the most recent Switchboard task (Telephone conversation) and Broadcast News (BN) task, the tasks’ complexities and difficulties constantly challenged the limits of the recognition algorithms and commonly available computing powers. The major research breakthroughs and the best benchmark results for these tasks during the past evaluations will be presented. The second part of this talk will discuss the technical challenges and opportunities in making speech to be part of people’s life. Although the progress so far achieved is very encouraging, however speech technology is still not mature enough to satisfy ordinary users needs. Speech is still fragile. Rather than to be a solved problem, there are plenty of things needs to be done or even needs to be understood in speech even as it is today. Speech research still has both scientific interest and practical need. For example when compared to human, the following issues still remain largely open to the best of our knowledge: (1) how to adapt a system quickly to a novel user or new acoustic environment, (2) how to handle new words and the related language modeling issue, (3) how to do reliable confidence measure and rejection, and (4) how to interact with users in an intuitive and concise way. In the final part of the talk we will give a very brief introduction of Intel China Research Center's research focus as we are new in this area.\n"
+   ]
+  },
+  "chen00_iscslp": {
+   "authors": [
+    [
+     "Sin-Horng",
+     "Chen"
+    ]
+   ],
+   "title": "A Corpus-Based Prosodic Modeling Method for Mandarin and Min-Nan Text-to-Speech Conversions",
+   "original": "CHENSinhorng",
+   "page_count": 10,
+   "order": 5,
+   "p1": "12",
+   "pn": "21",
+   "abstract": [
+    "This talk gives an introduction to a recurrent neural network (RNN) based prosody synthesis method for both Mandarin and Min-Nan text-to-speech (TTS) conversions. The method uses a four-layer RNN to model the dependency of output prosodic information and input linguistic information. Main advantages of the method are the capability of learning many human's prosody pronunciation rules automatically and the relatively short time of system development. Two variations of the baseline RNN prosody synthesis method are also discussed. One uses an additional fuzzy-neural network to infer some fuzzy rules of affections friom high-level linguistic features for assisting in the RNN prosody generation. The other uses additional statistical models of prosodic parameter to remove some affecting factors of linguistic features for reducing the load of the RNN.\n"
+   ]
+  },
+  "xu00_iscslp": {
+   "authors": [
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ]
+   ],
+   "title": "Processing Some Special Features in Chinese Speech Recognition",
+   "original": "XUBo",
+   "page_count": 1,
+   "order": 6,
+   "p1": "22",
+   "pn": "22",
+   "abstract": [
+    "Chinese is one of the most popular languages in the world and the automatic processing of Chinese spoken language in future Internet environment attracts lots of attentions even from the view of global both in industry and research community. Although the methods used in Chinese language processing generally follow the methods used in western language processing, still researchers in this field have to handle some special features possessed by Chinese language. For example, in acoustic level, Chinese is a monosyllable-structured tonal language; there are rich dialect categories around China resulting in serious accent problem, etc. In language level, Chinese is a non-alphabetic language, no boundary between words in text, no clear definition of what a word is and there are no systematic grammar in Chinese, etc. Researches in Chinese spoken language processing community have to pay great efforts in handling these special features while keeping the traces of general technology progress. This paper particularly will focus on processing three features named tone modeling and processing, language modeling and accent issues respectively. For tone recognition, background knowledge and several tones modeling methods will be firstly introduced and then a unified triphone and tone modeling, proposed by NLPR, will be introduced. This unified modeling softly distinguishes the phone-dependent and tone-dependent context information under the decision tree scheme and makes the decoding more compact and more discriminative. For accent issue, result shows there are still exists more than 10% recognition accuracy differences even incorporate very large training speech database. Definitely, the accent-specific pronunciation modeling is necessary to over come the problem. Here we will introduce our preliminary result on this topic using “context dependent error learning” algorithm. For statistical language modeling, some statistical data, recognition result and findings will be outlined and analyzed under very large corpus. Based on these observation, The guidelines and future directions will be given to remove the “statistical language noises” by deliberately optimize the lexicon, training corpus and adopting more advanced modeling algorithm to reach the highlevel performance.\n"
+   ]
+  },
+  "li00_iscslp": {
+   "authors": [
+    [
+     "Jing",
+     "Li"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ]
+   ],
+   "title": "Context-Independent Chinese Initial-Final Acoustic Modeling",
+   "original": "002",
+   "page_count": 4,
+   "order": 7,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "In this paper, a method for the Context-Independent (CI) Chinese Initial-Final acoustic modeling for continuous speech recognition task is proposed. The initial-final (I/F) structure is a characteristic of Chinese language. Initials and finals are smaller units compared to syllables, the use of which is helpful to reduce the number of SRUs. Furthermore, it should be possible to build context-dependent (CD) models. In our experiments, we use knowledge-based criteria to define the CI initial-final units. There are four kinds of CI initial-final units in this paper. The experimental results show that the accuracy of the CI initial-final models is near to or lower than that of the CI syllable model, but the size of model is significantly reduced. Keywords: SRUs, Context-Independent, Initial-Final Acoustic Modeling\n"
+   ]
+  },
+  "zee00_iscslp": {
+   "authors": [
+    [
+     "Eric",
+     "Zee"
+    ]
+   ],
+   "title": "Frequency Analysis of The Vowels in Cantonese",
+   "original": "068",
+   "page_count": 4,
+   "order": 8,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "The study investigates the spectral characteristics of the vowels in Cantonese. Results show that (1) the vowels in the (C)V:S syllables undershoot in the formant frequencies relative to the canonical target formant pattern associated with the same vowels in the (C)V: syllables; (2) the center formant frequency values for the vowels in the (C)VS syllables are not representative of the quality of the vowels due to short vowel duration; and (3) the center formant frequencies for the vowels in the (C)V: and (C)V:S syllables can be useful in terms of vowel transcription.\n"
+   ]
+  },
+  "sun00_iscslp": {
+   "authors": [
+    [
+     "Jiping",
+     "Sun"
+    ],
+    [
+     "Xing",
+     "Jing"
+    ],
+    [
+     "Li",
+     "Deng"
+    ]
+   ],
+   "title": "Annotation and Use of Speech Production Corpus for Building Language-Universal Speech Recognizers",
+   "original": "093",
+   "page_count": 4,
+   "order": 9,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "A corpus linguistic study is reported in this paper, guided by articulatory phonology and by general phonetic principles of speech production. A direct application of this study is the construction of Hidden Markov Model topologies for automatic speech recognition, taking into account integrated multilingualism with the consideration of the common physiological organs and processes involved in the production of speech sounds from the world’s languages. We demonstrate in this study that incorporation of speech production principles can provide effective constraints on pronunciation modeling for the purpose of building language-universal speech recognizers.\n"
+   ]
+  },
+  "liu00_iscslp": {
+   "authors": [
+    [
+     "Yi",
+     "Liu"
+    ],
+    [
+     "Pascale",
+     "Fung"
+    ]
+   ],
+   "title": "Rule-based Word Pronunciation Networks Generation For Mandarin Speech Recognition",
+   "original": "104",
+   "page_count": 4,
+   "order": 10,
+   "p1": "35",
+   "pn": "38",
+   "abstract": [
+    "Modeling pronunciation variation in spontaneous speech is very important for improving the recognition accuracy. One limitation of current recognition systems is their dictionaries for recognition only contain one standard pronunciation for each entry, so that the amount of variability that can be modeled is very limited. In this paper, we proposed to generate pronunciation networks based on rules to instead of traditional dictionary for decoder. The networks consider the special structure of Chinese and incorporate acceptable variants of each Chinese syllable . Also, an automatically learning algorithm is designed to get the variation rules. The proposed method was experimented on Hub4NE 1997 Mandarin Broadcast News Corpus and HLTC stack decoder. The syllable recognition error rate was reduced 3.20% absolutely with both intraand inter-syllable variations are both modeled.\n"
+   ]
+  },
+  "lin00_iscslp": {
+   "authors": [
+    [
+     "Maocan",
+     "Lin"
+    ],
+    [
+     "Jingzhu",
+     "Yan"
+    ]
+   ],
+   "title": "Prosodic Structure and Hierarchical Stress in Utterance of Standard Chinese --- One of Cues to Chinese Intonation",
+   "original": "114",
+   "page_count": 5,
+   "order": 11,
+   "p1": "39",
+   "pn": "44",
+   "abstract": [
+    "Prosodic word and its prominence and prosodic phrase are examined in this experiment. And the prominence in prosodic word is related to stress. It seems to us that the hierarchical stress in sentence spoken is one of intonational cues in Chinese. Tone and intonation in Chinese are two different phonological events in spoken sentence. "
+   ]
+  },
+  "li00b_iscslp": {
+   "authors": [
+    [
+     "Aijun",
+     "Li"
+    ],
+    [
+     "Xiaoxia",
+     "Chen"
+    ],
+    [
+     "Guohua",
+     "Sun"
+    ],
+    [
+     "Wu",
+     "Hua"
+    ],
+    [
+     "Zhigang",
+     "Yin"
+    ],
+    [
+     "Yiqing",
+     "Zu"
+    ]
+   ],
+   "title": "Speech Corpus Collection and Annotation",
+   "original": "116",
+   "page_count": 4,
+   "order": 12,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "This paper will particularly introduce a read and a spontaneous speech corpus to show how to collect and annotate the task dependent speech corpora. Additionally, segmental labeling convention SAMPA-C and prosodic labeling convention CToBI are depicted. Finally, known and new results are given or compared for these two annotated corpora.\n"
+   ]
+  },
+  "gao00_iscslp": {
+   "authors": [
+    [
+     "Sheng",
+     "Gao"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ]
+   ],
+   "title": "A New Framework For Mandarin LVCSR Based On One-pass Decoder",
+   "original": "049",
+   "page_count": 4,
+   "order": 13,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "This paper describes a new framework based on one-pass and decision tree based class-triphone acoustic modeling for Mandarin LVCSR. Compared with the multi-pass decoder, it should be more knowledgeable and efficient as all sources are used at the same time when the decoder could be well organized and optimized. We give a detail about the organization of our one-pass decoder and how to handle the search space explosion by giant number of triphone and cross-word extension dealing with unknown right context including the tone context. The experimental results show that the character error rate (CER) was reduced to 13.04% for open LM and 2.8% for close LM with non-tonal class-triphone model based on the male test database from China National Hi-Tech Project 863. And with tonal class-triphone model, CER reaches 10.31% and has a 21% relative character error reduction compared with non-tonal class-triphone model.\n"
+   ]
+  },
+  "wang00_iscslp": {
+   "authors": [
+    [
+     "Xianfang",
+     "Wang"
+    ],
+    [
+     "Limin",
+     "Du"
+    ]
+   ],
+   "title": "The Design of Dialogue Management in a Mixed Initiative Chinese Spoken Dialogue System Engine",
+   "original": "054",
+   "page_count": 4,
+   "order": 14,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "In this paper, we propose a domain-transparent design of dialogue management in a mixed initiative Chinese spoken dialogue system engine. This design pushes the domaindependent parts of the dialogue management to the external task configure file, leaving the dialogue manager independent of the domain. The task configure file consists of a set of states each of which is associated with a task action and the constraint to apply the action, not the internal and external resources available for the system. Thus, the count of the states is decreased. It is convenient for designing the dialogue system in a specified domain and porting it to another domain, which is only need to replace the task configure file, leaving the dialogue manager unchanged. Applying this design, the effort of porting a spoken dialogue system across different domain can be relieved.\n"
+   ]
+  },
+  "lin00b_iscslp": {
+   "authors": [
+    [
+     "Bor-Shen",
+     "Lin"
+    ],
+    [
+     "Lin-Shan",
+     "Lee"
+    ]
+   ],
+   "title": "Computer-aided Design/Analysis for Chinese Spoken Dialogue Systems",
+   "original": "079",
+   "page_count": 4,
+   "order": 15,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "Conventionally design principles for spoken dialogue systems are drawn either from experiences or from corpus-based analysis. However, human experiences are usually not precise enough for engineering design, while for corpus-based analysis many factors such as speech recognition or understanding performance and user’s behavior can never be precisely controlled. Recently, a new design/analysis approach by computer simulation was proposed. This paper presents the experiences of using this approach to design Chinese spoken dialogue systems. The simulation indicated the following observations and design principles. The transaction success rate (reliability) and slot transmission efficiency (efficiency) are usually conflicting design goals, and trade-off between them thus exists. Since reliability is more important than efficiency in general, it is desirable to achieve higher reliability at the price of reduced slot transmission efficiency when the reliability is not adequate. According to the simulation results, when the speech recognition accuracy cannot be improved, there still exists limited flexibility for tuning the dialogue performance by selecting among the strategies and considering the trade-offs. It is not only possible to select among the strategies considering the design goals, but to estimate the gain obtained and the price paid in the selection. New dialogue strategies can also be designed and numerically verified in this way.\n"
+   ]
+  },
+  "wang00b_iscslp": {
+   "authors": [
+    [
+     "Hsien-Chang",
+     "Wang"
+    ],
+    [
+     "Jhing-Fa",
+     "Wang"
+    ]
+   ],
+   "title": "Simulating Real Speech Recognizers for the Performance Evaluation of Spoken Language Systems",
+   "original": "086",
+   "page_count": 4,
+   "order": 16,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "This paper proposes a novel concept to devise a virtual speech recognizer (VSR) for evaluating the effect of a speech recognizer over Mandarin spoken language system (SLS). The VSR can simulate a real speech recognizer to output the simulated recognition result, i.e., syllable lattice or keyword lattice, by controlling some parameters such as the Top-N accuracy, insertion, deletion, and substitution error rates. The VSR is useful since it can help the researcher to test how a speech recognizer affects his language model or SLS without the need of any real speech recognizer (RSR). To show the feasibility of the proposed VSR, one experiment is done to show the reality of the VSR and the other experiment is to compare how speech recognizers affects a given SLS using VSR and RSR."
+   ]
+  },
+  "wang00c_iscslp": {
+   "authors": [
+    [
+     "Huei-Ming",
+     "Wang"
+    ],
+    [
+     "Yi-Chung",
+     "Lin"
+    ]
+   ],
+   "title": "Error-Tolerant and Goal-Oriented Approach in Designing a Mandarin Spoken Dialogue System",
+   "original": "096",
+   "page_count": 4,
+   "order": 17,
+   "p1": "65",
+   "pn": "68",
+   "abstract": [
+    "Speech recognition error and complicated dialogues are the major obstacles to making spoken dialog systems widely used in our daily lives. In this paper, we proposed an error-tolerant and goal-oriented approach to make spoken dialog systems robust to recognition error and scalable to handle diverse applications.\n"
+   ]
+  },
+  "meng00_iscslp": {
+   "authors": [
+    [
+     "Helen M.",
+     "Meng"
+    ],
+    [
+     "Wai Ching",
+     "Tsui"
+    ]
+   ],
+   "title": "Comprehension Across Application Domains and Languages",
+   "original": "103",
+   "page_count": 4,
+   "order": 18,
+   "p1": "69",
+   "pn": "298",
+   "abstract": [
+    "This work demonstrates that our natural language understanding framework can be applied across application domains and languages with ease.  Approaches towards language understanding generally involve much handcrafting, e.g. in writing grammars or annotating corpora, hence portability is a desirable trait in the development of language understanding systems. Our framework for natural language understanding couples semantic tagging with Belief Networks for communicative goal inference, and has delivered promising results in the ATIS (Air Travel Information Systems) domain. This work applies the approach to the stocks domain. Furthermore, the approach is extended to Chinese, to support a biliteral / trilingual (English with two Chinese dialects) spoken dialog system known as ISIS. We introduce the transformationbased parsing technique for language understanding, and found that it is effective in disambiguating among the various kinds of numeric expressions prevalent in the stocks domain, as well as infer possible semantic categories for out-of-vocabulary words. The nonterminal categories produced by parsing are fed to Belief Networks trained on English or Chinese queries for inferring the user’s communicative goal. Our experiments gave a goal identification performance of 94% and 93% for Chinese and English respectively. Keywords: multilingual, natural language understanding, crossdomains, cross-languages\n"
+   ]
+  },
+  "chen00b_iscslp": {
+   "authors": [
+    [
+     "Yiqiang",
+     "Chen"
+    ],
+    [
+     "Wen",
+     "Gao"
+    ],
+    [
+     "Jiyong",
+     "Ma"
+    ]
+   ],
+   "title": "Hand Gesture Recognition Based on Decision Tree",
+   "original": "027",
+   "page_count": 4,
+   "order": 19,
+   "p1": "299",
+   "pn": "302",
+   "abstract": [
+    "In this paper, we present a new technique for the recognition of hand gesture using decision tree method based on information entropy. Some rules are derived from the decision tree using training data, which can classify sixty-five different hand gestures. Normalization for all sensors in a DataGlove are also proposed to model the data variations of each sensor, which result from the same gesture variations. Compared with ANN, the proposed decision tree approach can not only improve the recognition performance by 12.2%, but also overcome the limitation of ANN in tedious training time.\n"
+   ]
+  },
+  "dong00_iscslp": {
+   "authors": [
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Kim Teng",
+     "Lua"
+    ]
+   ],
+   "title": "An Example-based Approach for Prosody Generation in Chinese Speech synthesis",
+   "original": "032",
+   "page_count": 5,
+   "order": 20,
+   "p1": "303",
+   "pn": "308",
+   "abstract": [
+    "Prosody generation is an important issue in text to speech system. We present in this paper an example-based approach for prosody generation in mandarin Chinese speech synthesis. The general idea is that we are trying to get the prosodic information from real speech examples. We first analyze given Chinese text, and form a linguistic feature vector, which describes the phonetic and lexicon characteristics of the text. Then we search a database to find the best match of the vector, which is a similar occurrence of the text. The prosody parameters of the searched example will be the guideline of the prosody we are going to generate. The method is a hierarchical approach. The final prosody is the combination of three elements, which are syllable level prosody, phrase level prosody pattern and sentence level prosody constraint. The experimental results showed that the proposed method generates relatively good prosody.\n"
+   ]
+  },
+  "cao00_iscslp": {
+   "authors": [
+    [
+     "Jianfen",
+     "Cao"
+    ],
+    [
+     "Shinan",
+     "Lu"
+    ],
+    [
+     "Yufang",
+     "Yang"
+    ]
+   ],
+   "title": "Strategy and tactics on The Enhancement of Naturalness in Chinese TTS",
+   "original": "039",
+   "page_count": 6,
+   "order": 21,
+   "p1": "309",
+   "pn": "314",
+   "abstract": [
+    "This paper tries to make theoretical and descriptive contributions to the study on the enhancement of naturalness in Chinese TTS. The content includes a description on prosodic information of Chinese and some preliminary consideration respected to the strategy of prosodic information processing.\n"
+   ]
+  },
+  "ma00_iscslp": {
+   "authors": [
+    [
+     "Zhong-Ke",
+     "Ma"
+    ],
+    [
+     "Wei",
+     "Li"
+    ],
+    [
+     "Deyu",
+     "Xia"
+    ],
+    [
+     "Ren-Hua",
+     "Wang"
+    ]
+   ],
+   "title": "An Efficient Method To Synthesize Chinese Speech With Speaker Style",
+   "original": "043",
+   "page_count": 4,
+   "order": 22,
+   "p1": "315",
+   "pn": "318",
+   "abstract": [
+    "This paper introduces a corpus-based Chinese speech synthesis method, which can produce Chinese speech with the style of original speaker who records the corpus. There are two major problems in speech synthesis based on corpus. First, what contents should be kept in the corpus? Second, given a target sentence, how to select the synthesis units in corpus? Focusing on these two questions, we present our solution.\n"
+   ]
+  },
+  "ni00_iscslp": {
+   "authors": [
+    [
+     "Jinfu",
+     "Ni"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ]
+   ],
+   "title": "Experimental Evaluation of A Functional Modeling of Fundamental Frequency Contours of Standard Chinese Sentences",
+   "original": "063",
+   "page_count": 4,
+   "order": 23,
+   "p1": "319",
+   "pn": "322",
+   "abstract": [
+    "In our previous report, a functional model of fundamental frequency (F0) contours of Chinese sentences was developed and was shown to be able to represent an observed F0 contour well only from its peak values of consisting syllables. This paper evaluates the model especially from the viewpoint on the model parameter control in F0 contour generation. The results obtained through experiments on 2509 Chinese utterances producced by 8 native speakers indicated that model parameters can be categorized into 3 groups: (1) parameters independent to speakers and utterances, (2) a pair of parameters representing top and bottom values of voice register of a speaker, and (3) parameters tightly related to and thus conveying linguistic (and para-, non-linguistic) information of utterances. By representing F0 values as relative values in a register and further transposing then onto a warped scale, F0 contours for utterances of the same linguistic content but in different frequency registers can be utilized together to investigate the third group parameters. Through analysis of 538 tri- and 938 tetra-syllable words, parameter controls in realizing 59 tri- and 221 tetra-tone sandhi patterns were decided. Investigation was further conducted on the automatic detection of syllable F0 peaks with a total error rate of around 9.4% for 996 sentences."
+   ]
+  },
+  "zhang00_iscslp": {
+   "authors": [
+    [
+     "Yaxin",
+     "Zhang"
+    ],
+    [
+     "Anton",
+     "Medievski"
+    ],
+    [
+     "James",
+     "Lawrence"
+    ]
+   ],
+   "title": "Impact of Tone Information on Chinese Name Recognition",
+   "original": "115",
+   "page_count": 5,
+   "order": 24,
+   "p1": "323",
+   "pn": "326",
+   "abstract": [
+    "This paper describes a study on tone statistics of people’s names in Mandarin Chinese. We studied a Chinese name database consisting of 1.6 million names. The statistical analysis shows the potential for a problem with tone confusable names in a Mandarin voice tag dialing system. Two factors influence how serious the problem is: the length of the voice tag; and the vocabulary size of the system. We performed benchmark testing to compare recognition performance of an English version speech recognizer and a tone enhanced version, both working on a small database of Chinese names. From this analysis we conclude that enhancing an English version speech recognizer to add tonal recognition capabilities would improve recognition of Chinese names, reducing the recognition error rate by 10 – 20%.\n"
+   ]
+  },
+  "wang00d_iscslp": {
+   "authors": [
+    [
+     "Fan",
+     "Wang"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ]
+   ],
+   "title": "A Self adapting Endpoint Detection Algorithm for Speech Recognition in Noisy Environment Based on 1/f Process",
+   "original": "004",
+   "page_count": 4,
+   "order": 25,
+   "p1": "327",
+   "pn": "330",
+   "abstract": [
+    "This paper presents an effective and robust speech endpoint detection method based on 1/f process technique, which is suitable for robust continuous speech recognition system in variable noisy environments. The Gaussian 1/f process, which is a mathematical model for statistically self-similar random processes from fractals, is selected to model both speech and background noise. Then, an optimal Bayesian two-class classifier is developed to discriminate between real noisy speech and background noise by the wavelet coefficients with Karhunen-Loeve-type properties of the 1/f processes. Finally, for robust requirement, a few templates are build for speech and the parameters of the background noise can be dynamically adapted in runtime to deal with the variation of both speech and noise. In our experiments, 10 minutes long speech with different types of noises was tested using this new endpoint detector. A high performance with over 90% detection accuracy was achieved."
+   ]
+  },
+  "chien00_iscslp": {
+   "authors": [
+    [
+     "Jen-Tzung",
+     "Chien"
+    ]
+   ],
+   "title": "Online Unsupervised Learning of HMM Parameters for Speaker Adaptation",
+   "original": "040",
+   "page_count": 4,
+   "order": 26,
+   "p1": "331",
+   "pn": "334",
+   "abstract": [
+    "This paper presents an online unsupervised learning algorithm to flexibly adapt the speaker-independent (SI) hidden Markov models (HMM’s) to new speaker. We apply the quasi-Bayes (QB) estimate to incrementally obtain word sequence and adaptation parameters for adjusting HMM’s once a block of unlabeled data is enrolled. Accordingly, the nonstationary statistics of varying speakers can be successively traced according to the newest enrollment data. To improve the QB estimate, we employ the adaptive initial hyperparameters in the beginning session of online learning. These hyperparameters are estimated from a cluster of training speakers closest to the test speaker. Additionally, we develop a selection process to select reliable parameters from a list of candidates for unsupervised learning. A set of reliability assessment criteria is explored. From the experiments, we confirm the effectiveness of proposed method and find that using the adaptive initial hyperparameters in online learning and the multiple assessments in parameter selection can improve the speaker adaptation performance.\n"
+   ]
+  },
+  "jia00_iscslp": {
+   "authors": [
+    [
+     "Ying",
+     "Jia"
+    ],
+    [
+     "Yonghong",
+     "Yan"
+    ],
+    [
+     "Baosheng",
+     "Yuan"
+    ],
+    [
+     "Jian",
+     "Liu"
+    ]
+   ],
+   "title": "Word Error Rate Reduction by Bottom-Up Tone Integration to Chinese Continuous Speech Recognition System",
+   "original": "052",
+   "page_count": 4,
+   "order": 27,
+   "p1": "335",
+   "pn": "338",
+   "abstract": [
+    "In this paper, a bottom-up integration structure to model tone influence at various levels is proposed. At acoustic level, pitch is extracted as a continuous acoustic variable. At phonetic level, we treat the main vowel with different tones as different phonemes. In triphone building phase, we evaluated a set of questions about tone for each decision tree node. At word level, a set of tone change rules was used to build transcription for training data and word lattice for decoding. At sentence level, some sentence ending words with light tone are added to system vocabulary. Integration at these five levels experimentally drops the word error rate from 9.9 to 7.8 on a Chinese continuous speech dictation task.\n"
+   ]
+  },
+  "li00c_iscslp": {
+   "authors": [
+    [
+     "Gongjun",
+     "Li"
+    ],
+    [
+     "Na",
+     "Dong"
+    ],
+    [
+     "Toshiro",
+     "Ishikawa"
+    ]
+   ],
+   "title": "Optimization of N-gram Parameters for Natural Language Processing",
+   "original": "092",
+   "page_count": 4,
+   "order": 28,
+   "p1": "339",
+   "pn": "342",
+   "abstract": [
+    "In this paper we present the drawbacks of conventional approaches to the estimation of ngram in Chinese natural language processing, that is, the optimization of n-gram parameters is independent of its discriminative capability. To fight with this problem, we bring up with discriminative estimation criterion, on which the parameters of n-grams can be optimized. We implement this approach on the platform of the conversion from Chinese pinyin to Chinese character. We conduct experiments based on the tagged text corpus by Peking University. Experimental results show that the conversion rate can be remarkably raised by at most 41.4%.\n"
+   ]
+  },
+  "tang00_iscslp": {
+   "authors": [
+    [
+     "Haijiang",
+     "Tang"
+    ],
+    [
+     "Pascale",
+     "Fung"
+    ]
+   ],
+   "title": "A Multi-path Syllable To Word Decoder With Language Model Optimization and Automatic Lexicon Augmentation",
+   "original": "108",
+   "page_count": 4,
+   "order": 29,
+   "p1": "343",
+   "pn": "346",
+   "abstract": [
+    "Syllable to word decoding plays a very important role in Chinese large vocabulary continuous speech recognition (LVCSR). However, lack of word boundary and other characteristics of Chinese language prohibit the development of high quality language model and decoder. In this paper, we present a multi-path search algorithm with language model optimization and automatic lexicon augmentation method to improve the accuracy of syllable to word decoding. The experiment result shows that our method achieves 34.76% character accuracy improvement over the baseline performance.\n"
+   ]
+  },
+  "di00_iscslp": {
+   "authors": [
+    [
+     "Shuo",
+     "Di"
+    ],
+    [
+     "Lei",
+     "Zhang"
+    ],
+    [
+     "Zheng",
+     "Chen"
+    ],
+    [
+     "Eric",
+     "Chang"
+    ],
+    [
+     "Kai-Fu",
+     "Lee"
+    ]
+   ],
+   "title": "N-Gram Language Model Compression Using Scalar Quantization and Incremental Coding",
+   "original": "111",
+   "page_count": 4,
+   "order": 30,
+   "p1": "347",
+   "pn": "350",
+   "abstract": [
+    "This paper describes a novel approach of compressing large trigram language models, which uses scalar quantization to compress log probabilities and back-off coefficients, and incremental coding to compress entry pointers. Experiments show that the new approach achieves roughly 2.5 times of compression ratio compared to the well-known tree-bucket format while keeps the perplexity and accessing speed almost unchanged. The high compression ratio enables our method to be used in various SLM-based applications such as Pinyin input method and dictation on handheld devices with little available memory.\n"
+   ]
+  },
+  "zhu00_iscslp": {
+   "authors": [
+    [
+     "Donglai",
+     "Zhu"
+    ],
+    [
+     "Yu",
+     "Hu"
+    ],
+    [
+     "Ren-Hua",
+     "Wang"
+    ]
+   ],
+   "title": "Automatic Segmentation and Labeling of Speech Corpus Based on HMM With Adaptation",
+   "original": "042",
+   "page_count": 4,
+   "order": 31,
+   "p1": "351",
+   "pn": "354",
+   "abstract": [
+    "In this article we advise to adopt the adaptive technique of acoustic model in the automatic segmentation and labeling of speech corpus. Since the precision of the data segmentation only based on speaker independent model is not good enough, we should transform the speaker independent model into the speaker dependent one. The training method leading to speaker dependent model needs a large amount of training data and will cost a lot of time, while the adaptive method can modify model parameters to match current speaker in a short time with a few training data and get comparatively precise segmentation results. And at the same time, in order to make the segmentation results more precise, we also combine the boundary adjustment based on the features of acoustics and phonetics and adopt an iterative procedure.\n"
+   ]
+  },
+  "fu00_iscslp": {
+   "authors": [
+    [
+     "Guokang",
+     "Fu"
+    ],
+    [
+     "Liqin",
+     "Shen"
+    ]
+   ],
+   "title": "Model Distance and It's Application on Mixed-language Speech Recognition System",
+   "original": "045",
+   "page_count": 4,
+   "order": 32,
+   "p1": "355",
+   "pn": "358",
+   "abstract": [
+    "The failure of current mono language based Speech Recognition Systems in recognizing mixed language makes a need arise to establish a mixed system. One of the important items is how to deﬁne a good phone set in such a mixed system. This paper presents an algorithm on how to determine which two phones should be merged automatically. A Mandarin&English mixed Acoustic Model is trained and the algorithm is applied to deﬁne the merged mixed phone set. Test results show the eﬀectiveness of a mixed system and the algorithm.\n"
+   ]
+  },
+  "ma00b_iscslp": {
+   "authors": [
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Qiang",
+     "Huo"
+    ]
+   ],
+   "title": "Benchmark Results of Triphone-based Acoustic Modeling on HKU96 and HKU99 Putonghua Corpora",
+   "original": "056",
+   "page_count": 4,
+   "order": 33,
+   "p1": "359",
+   "pn": "362",
+   "abstract": [
+    "HKU96 and HKU99 are two Putonghua corpora constructed at The University of Hong Kong. This paper presents the benchmark results of our baseline Putonghua recognition system based on triphone acoustic modeling on these two corpora. We describe the basic phone set, the syllable pronunciation lexicon, the hand-crafted linguistic question set for decision-tree-based state-tying, the experimental setups, and the training and testing protocols for obtaining our benchmark results. With these details, those who acquire HKU96 and HKU99 should be able to reproduce our experimental results."
+   ]
+  },
+  "lee00b_iscslp": {
+   "authors": [
+    [
+     "Lin-Shan",
+     "Lee"
+    ],
+    [
+     "Lee-Feng",
+     "Chien"
+    ],
+    [
+     "Yumin",
+     "Lee"
+    ]
+   ],
+   "title": "Global Information Access by Chinese Spoken Language In A Wireless Era -- Overview With Some Recent Results",
+   "original": "082",
+   "page_count": 4,
+   "order": 34,
+   "p1": "363",
+   "pn": "366",
+   "abstract": [
+    "The rapid development of the Internet and the World Wide Web has created a global network that will soon become a physical embodiment of the entire human knowledge and a complete integration of the global information activities. It is believed that one of the user-friendliest and natural approaches for accessing the network will be via human voice, and the integration of spoken language processing technologies with broadband wireless technologies will be a key to the evolution of a broadband wireless information community. This paper offers an overview of the above concept, some technical considerations and some recent results.\n"
+   ]
+  },
+  "zong00_iscslp": {
+   "authors": [
+    [
+     "Chengqing",
+     "Zong"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ]
+   ],
+   "title": "Design And Implementation of A Chinese-To-English Spoken Language Translation System",
+   "original": "109",
+   "page_count": 4,
+   "order": 35,
+   "p1": "367",
+   "pn": "72",
+   "abstract": [
+    "In this paper, we describe the design and implementation of a Chinese-to-English spoken language translation system. The system employs the multiple translation engines, and it consists of a template-based translator, a semantic parsing based translator (SPBT) and a statistic based translator (SBT) as well. SPBT uses the interchange format (IF) to represent the understanding results of input utterance. The target language generator generates the translation results according to IF. The dialog knowledge manager is designed to record the dialog history and help the Chinese parser to find the topics of the analyzing utterance. Now the system is under construction, and it is restricted in the domain of hotel reservation. Some preliminary experimental results are reported in the paper.\n"
+   ]
+  },
+  "zhang00b_iscslp": {
+   "authors": [
+    [
+     "Jiyong",
+     "Zhang"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Mingxing",
+     "Xu"
+    ],
+    [
+     "Shuqing",
+     "Li"
+    ]
+   ],
+   "title": "Intra-syllable Dependent Phonetic Modeling For Chinese Speech Recognition",
+   "original": "005",
+   "page_count": 4,
+   "order": 36,
+   "p1": "73",
+   "pn": "76",
+   "abstract": [
+    "A novel acoustic modeling method for Chinese speech recognition based on Intra-Syllable Dependent Phone (ISDP) set is proposed. The ISDP set extends the traditional phone set based on the intra-syllable information of Chinese phonetic knowledge. The acoustic models based on ISDP set (ISDPMs) have the following features. First, they are suitable for the case of a rather small scale of training data. Second, this scheme is an integration form of the tri-phone modeling and the syllable modeling. The mixed Gaussian densities are used to describe the feature space of each ISDP and the Viterbi algorithm is adopted for decoding process. In addition, the ISDP-syllable search tree is designed and presented to reduce the decoding complexity. Our Experimental result shows that the ISDP modeling is more flexible and faster than the syllable modeling meanwhile it causes no much performance reduction. Keywords: Chinese speech recognition, intra-syllable dependent phone based models (ISDPMs), mixed Gaussian density, ISDPsyllable search tree\n"
+   ]
+  },
+  "liu00b_iscslp": {
+   "authors": [
+    [
+     "Zhimin",
+     "Liu"
+    ],
+    [
+     "Xihong",
+     "Wu"
+    ],
+    [
+     "Bin",
+     "Zhen"
+    ],
+    [
+     "Huisheng",
+     "Chi"
+    ]
+   ],
+   "title": "Modeling of Three Types of Auditory Nerve and Its Application in Speech Recognition",
+   "original": "034",
+   "page_count": 4,
+   "order": 37,
+   "p1": "77",
+   "pn": "80",
+   "abstract": [
+    "A novel auditory nerve model is described here which simulates the three types of auditory nerves existing in the auditory system. The inspiration of the model is the absence of the simulation of the different types of auditory nerves in current auditory models. Based on the previous work, three sub-models replace the prevailing single auditory nerve discharge model in the common peripheral auditory models. Three auditory features were extracted and applied in speech recognition experiments. The results show that three models have different noise-resistant properties and the model with large dynamic range is exceptionally robust in speech recognition.\n"
+   ]
+  },
+  "yin00_iscslp": {
+   "authors": [
+    [
+     "Bo",
+     "Yin"
+    ],
+    [
+     "Ren-Hua",
+     "Wang"
+    ]
+   ],
+   "title": "A Hierarchic Processing Model In Chinese TTS",
+   "original": "044",
+   "page_count": 4,
+   "order": 38,
+   "p1": "81",
+   "pn": "84",
+   "abstract": [
+    "This paper puts forward a kind of hierarchy text processing model aimed at Chinese TTS system, and defines corresponding hierarchy labeling system. The actual realization on the hierarchic processing is also given in detail, and the processing tactics on the subphrase layer is specially discussed.\n"
+   ]
+  },
+  "li00d_iscslp": {
+   "authors": [
+    [
+     "Haiping",
+     "Li"
+    ],
+    [
+     "Liqin",
+     "Shen"
+    ],
+    [
+     "Guokang",
+     "Fu"
+    ],
+    [
+     "C.J.",
+     "Chen"
+    ]
+   ],
+   "title": "A Promising Syllable Decomposition Method for Tone Languages' Speech Recognition",
+   "original": "046",
+   "page_count": 4,
+   "order": 39,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "A new syllable decomposition method, which uses the tone information of the main vowel in a syllable to distinguish the tone of the whole syllable, is proposed in this paper. Compared to the scheme, in which a syllable is decomposed into an initial and a final, and the tone information is carried on by the final, the new scheme reduces the number of phonemes in the phone set of a recognition system. It handles the syllabic languages especially the ones with complicated tonal phonology such as Cantonese successfully, and also can be generalized to other tonal languages. Experiments on both Cantonese and Mandarin to compare the performance of systems using these two schemes, lead to that the new scheme got a little bit better accuracy than the old one while reduces the number of phonemes dramatically in recognition system. Such a method is promising to be used in more real speech recognition system or product.\n"
+   ]
+  },
+  "niu00_iscslp": {
+   "authors": [
+    [
+     "Xiaochuan",
+     "Niu"
+    ],
+    [
+     "Liqin",
+     "Shen"
+    ],
+    [
+     "Weibin",
+     "Zhu"
+    ],
+    [
+     "Qin",
+     "Shi"
+    ]
+   ],
+   "title": "Modeling And Decision Tree Based Prediction of Pitch Contour In IBM Mandarin Speech Synthesis System",
+   "original": "048",
+   "page_count": 4,
+   "order": 40,
+   "p1": "89",
+   "pn": "92",
+   "abstract": [
+    "In this paper, a method of pitch contour modelling based on the hidden Markov model (HMM) states of an acoustic unit is presented. A pair of vectors is computed from the alignment of the speech data with the acoustic unit’s HMM states. The pitch contour feature of the acoustic unit is represented by the vector pair so that the variants of the acoustic unit’s pitch contour can be measured and compared. Using this model, pitch contour decision trees are constructed for phones in Mandarin from a single speaker’s continuous reading speech database. The trees are used in the Mandarin speech synthesis system, which is trained over the same database, to predict the pitch contour of a certain phone according to its phone context. The naturalness of the synthesized Mandarin speech is highly improved.\n"
+   ]
+  },
+  "chang00_iscslp": {
+   "authors": [
+    [
+     "Yueh-Chin",
+     "Chang"
+    ],
+    [
+     "Wan-Ling",
+     "Chang"
+    ],
+    [
+     "Guang-Hui",
+     "Syu"
+    ],
+    [
+     "Hsiao-Chuan",
+     "Wang"
+    ]
+   ],
+   "title": "Some Prosodic Properties of MAT Speech Database",
+   "original": "058",
+   "page_count": 4,
+   "order": 41,
+   "p1": "93",
+   "pn": "96",
+   "abstract": [
+    "MAT (Mandarin speech data across Taiwan) is a telephone speech data collection project conducted in Taiwan during 1995 1998. Over 7000 speakers have provided the speech data through the public telephone systems. Its outcome is a series of MAT databases. The plentiful speech data in MAT databases are valuable materials for the study of properties of Mandarin spoken in Taiwan. Some particular properties would be of interest to linguists and also useful for identifying the accent of Taiwanese. In this paper, several prosodic features in MAT databases are investigated. They are the stress patterns of disyllabic words, the intensity and duration of syllable finals, and the pitch pattern of lexical tones.\n"
+   ]
+  },
+  "lo00_iscslp": {
+   "authors": [
+    [
+     "Wai-Kit",
+     "Lo"
+    ],
+    [
+     "Helen M.",
+     "Meng"
+    ],
+    [
+     "P.C.",
+     "Ching"
+    ]
+   ],
+   "title": "Sub-Syllabic Acoustic Modeling Across Chinese Dialects",
+   "original": "062",
+   "page_count": 4,
+   "order": 42,
+   "p1": "97",
+   "pn": "100",
+   "abstract": [
+    "This paper presents a series of experiments on sub-syllabic unit selection across the two Chinese dialects – Mandarin and Cantonese. Evaluations are based on syllable recognition using only acoustic\ninformation, and no lexical knowledge is incorporated. We use a variety of subsyllabic acoustic models, motivated by phonological and lingustic structures charactersitics of Chinese. Our results should provide a useful reference for work in large-vocabulary\nChinese speech recognition, as well as related tasks, e.g. spoken document retrieval."
+   ]
+  },
+  "ding00_iscslp": {
+   "authors": [
+    [
+     "Hongwei",
+     "Ding"
+    ],
+    [
+     "Joerg",
+     "Helbig"
+    ]
+   ],
+   "title": "Prosodic Alternative Units in a Mandarin Chinese Speech Synthesizer",
+   "original": "065",
+   "page_count": 4,
+   "order": 43,
+   "p1": "101",
+   "pn": "104",
+   "abstract": [
+    "The Mandarin Chinese synthesis component of the Dresden Speech Synthesizer DreSS is based on an inventory of syllabic units. The inventory contains all Chinese syllables with the possible tones in up to three phonetic variations for a correct modeling of the cross syllable coarticulation effects. In order to improve the naturalness and fluency of the synthesized speech, the inventory was complemented with prosodic alternative units for non-accented syllables, especially for neutral tone particles. In this paper, two strategies of the generation of such units are compared – the extraction from specially constructed carrier sentences and the extraction from read speech corpus of newspapers texts. The results of a listening test show the best performance for the units from carrier sentences.\n"
+   ]
+  },
+  "shen00_iscslp": {
+   "authors": [
+    [
+     "Xipeng",
+     "Shen"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ]
+   ],
+   "title": "A CART-Based Hierarchical Stochastic Model for Prosodic Phrasing in Chinese",
+   "original": "069",
+   "page_count": 4,
+   "order": 44,
+   "p1": "105",
+   "pn": "108",
+   "abstract": [
+    "A CART-Based stochastic model for prediction of prosodic phrase breaks from input text of Chinese is provided in this work. All the features used in this model are almost obtained automatically. A novel and efficient algorithm—LLW algorithm is proposed here. Experiments demonstrate a high success rate of prosodic phrase breaks prediction from input sentences with little syntactic information(81% success rate, 6.1% false rate).\n"
+   ]
+  },
+  "chen00c_iscslp": {
+   "authors": [
+    [
+     "Sin-Horng",
+     "Chen"
+    ],
+    [
+     "Chen-Chung",
+     "Ho"
+    ]
+   ],
+   "title": "A Min-Nan Text-to-Speech System",
+   "original": "072",
+   "page_count": 4,
+   "order": 45,
+   "p1": "109",
+   "pn": "112",
+   "abstract": [
+    "This paper presents an implementation of a Min-Nan text-to-speech (TTS) system. The system is designed based on the same principle of developing a Mandarin TTS system proposed previously. It takes 877 base-syllables as basic synthesis units and uses a recurrent neural network (RNN) based prosody synthesizer to generate proper prosodic parameters for synthesizing natural output speech. It is implemented by software and runs in real-time on PC. An informal subjective listening test confirmed that the system performed well. All synthetic speeches sounded well for well-tokenized texts and fair for texts with automatic tokenization."
+   ]
+  },
+  "yue00_iscslp": {
+   "authors": [
+    [
+     "Dongjian",
+     "Yue"
+    ],
+    [
+     "Peiqi",
+     "Chai"
+    ]
+   ],
+   "title": "A Subband Speech Coding Scheme Based On Code Excited Linear Predictive Coding",
+   "original": "080",
+   "page_count": 4,
+   "order": 46,
+   "p1": "113",
+   "pn": "116",
+   "abstract": [
+    "With the features of computer network based on packet switching mode, a new variable bitrate, subband speech coding scheme which is combined the CELP (Code Excited Linear Predictive Coding), vector quantization and wavelet decomposition techniques is proposed in this paper. This subband speech coding scheme based on CELP provides a flexible variable bitrate speech coding method and suits packet switching network. It allows the switch nodes to regulate or control the transmission bitrate of speech within a large flexible range actively. A lot of speech coding experiments show that the result is satisfying.\n"
+   ]
+  },
+  "yue00b_iscslp": {
+   "authors": [
+    [
+     "Dongjian",
+     "Yue"
+    ],
+    [
+     "Peiqi",
+     "Chai"
+    ]
+   ],
+   "title": "The Features of Chinese Computer-aided Language Learning System",
+   "original": "081",
+   "page_count": 4,
+   "order": 47,
+   "p1": "117",
+   "pn": "120",
+   "abstract": [
+    "In this paper, we firstly analyse the trend of spoken language or speech learning at present. We then investigate the problems of applying speech technology in language learning and key techniques to be used. According to the features of Chinese spoken language, we propose the rules and methods when a Computer Assisted Language Learning (CALL) system for learning Chinese is designed or realized.\n"
+   ]
+  },
+  "zhu00b_iscslp": {
+   "authors": [
+    [
+     "Weizhong",
+     "Zhu"
+    ],
+    [
+     "Kenji",
+     "Matsui"
+    ]
+   ],
+   "title": "A Study of Phoneme and Syllable Duration Characteristics of Mandarin Chinese",
+   "original": "084",
+   "page_count": 4,
+   "order": 48,
+   "p1": "121",
+   "pn": "124",
+   "abstract": [
+    "The multiple regression model was used to study the phoneme and syllable duration characteristics of mandarin Chinese. The source speech material is a phonetically balanced text corpus collected from newspapers and spoken by a professional female announcer. Since the syllable, in an Initial/Final format, was adopted as a basic synthesis unit in our Chinese TTS system, the investigations were taken on both Initial/Final and syllable bases. RMS error values of the model are 18.6, 36.9 and 43.1 ms for Initial, Final, and syllable, respectively. The results are quite close to those reported in literature, which may use different approaches, such as neural networks. In the multiple regression model, an interesting finding is that the factor of the following syllable is much larger than that of the preceding syllable. This evidence is further discussed by focusing into two-syllable words in the utterances. From our informal listening tests, we confirmed that this approach improves the naturalness of synthetic speech as compared to our previous rule-bases duration model. "
+   ]
+  },
+  "gu00_iscslp": {
+   "authors": [
+    [
+     "Hung-Yan",
+     "Gu"
+    ],
+    [
+     "Chung-Chieh",
+     "Yang"
+    ]
+   ],
+   "title": "A Sentence-Pitch-Contour Generation Method Using VQ/HMM for Mandarin Text-to-speech",
+   "original": "094",
+   "page_count": 4,
+   "order": 49,
+   "p1": "125",
+   "pn": "128",
+   "abstract": [
+    "In this paper, a method with sentence-wide optimization consideration is proposed to generate a Mandarin sentence's pitch-contour. The developed model is called the sentence pitch-contour HMM (SPC-HMM) due to its use of VQ (vector quantization) and HMM (hidden Markov model). To construct an SPC-HMM, the pitch-contours of the syllables from each training sentence are normalized on both time and pitch-height first. The method for pitchheight normalization is effective and newly developed here. After normalization, the pitch-contour of each training syllable is vector quantized. Then, the quantization code and lexical tones of adjacent syllables are combined to define the observation symbol sequences for HMM training. In the synthesis phase, when given a sentence and its relevant text-analysis information, the most probable observation sequence is generated by finding the sentencewide largest probability path with a dynamic-programming based algorithm. We had conducted practical perception tests. It is found that the speech synthesized by using the sentence pitch-contour generated from out method is slightly better than uttered by an ordinary speaker. Besides, the comprehensibility of the synthesized speech is also promoted. Keywords: Text-to-speech, pitch-contour, hidden Markov model, vector quantization\n"
+   ]
+  },
+  "lau00_iscslp": {
+   "authors": [
+    [
+     "Wai",
+     "Lau"
+    ],
+    [
+     "Y.W.",
+     "Wong"
+    ],
+    [
+     "W.K.",
+     "Lo"
+    ],
+    [
+     "Tan",
+     "Lee"
+    ],
+    [
+     "P.C.",
+     "Ching"
+    ]
+   ],
+   "title": "A Study on the Contribution of Lexical Tones in Chinese LVCSR",
+   "original": "098",
+   "page_count": 4,
+   "order": 50,
+   "p1": "129",
+   "pn": "132",
+   "abstract": [
+    "Tone is an indispensable component in tonal language such as Chinese and other Asian languages. This paper presents a comprehensive study on the importance of lexical tones in Chinese dialects, namely Mandarin and Cantonese, in large-vocabulary continuous speech recognition (LVCSR) tasks. Based on the different tone accuracies, the improvement in recognition after incorporating tone information is examined. It is shown that in the best scenario when searching a syllable lattice for character sequence with perfect tone information, an improvement in accuracy b 11.28% and 11.09% is achievable for Mandarin and Cantonese respectively. There is also an improvement of around 8.5% when searching perfect syllable sequence for characters using perfect tone information."
+   ]
+  },
+  "law00_iscslp": {
+   "authors": [
+    [
+     "K.M.",
+     "Law"
+    ],
+    [
+     "K.Y.",
+     "Kwan"
+    ],
+    [
+     "Tan",
+     "Lee"
+    ]
+   ],
+   "title": "Corpus-based Cantonese Speech Synthesis With Non-uniform Units",
+   "original": "100",
+   "page_count": 4,
+   "order": 51,
+   "p1": "133",
+   "pn": "136",
+   "abstract": [
+    "This paper presents a corpus-based approach for Cantonese text-to-speech synthesis. We make use of a large corpus of recordings of broadcast news over the radio. An acoustic inventory is built from speech segments extracted from this corpus. The extracted units are non-uniform in their linguistic lengths. More precisely they include lexical words and monosyllables with tones. The acoustic units are properly labeled with a set of linguistic attributes that mainly describe their phonetic and prosodic context. Speech synthesis is performed by simple concatenation of best-matching units available, without any kind of signal modification. The results of subjective listening test on a preliminary implementation of the proposed method are reported."
+   ]
+  },
+  "chen00d_iscslp": {
+   "authors": [
+    [
+     "Yiqiang",
+     "Chen"
+    ],
+    [
+     "Wen",
+     "Gao"
+    ],
+    [
+     "Tingshao",
+     "Zhu"
+    ]
+   ],
+   "title": "Linguistic Features Selection in Fundament Frequency Patterns",
+   "original": "105",
+   "page_count": 4,
+   "order": 52,
+   "p1": "137",
+   "pn": "202",
+   "abstract": [
+    "The prosodic pattern generation and prediction is more important for synthesizing natural sounding speech reproduction of input Chinese text. In this paper, the typical pitch models are clustered from a large actual speech database firstly. Then we propose several methods including rough set method and Bayesian relief network on linguistic features selection, which can be directly used to predict pitch, energy, and duration patterns. A comparison between these two methods is proposed and to overcome each disadvantage, we combined the results of these two methods, and coded the most important features to Bayesian relief network firstly. After learning, some experiment shows the F0 model prediction based on the selected features is the same as\noriginal one for most pitches."
+   ]
+  },
+  "luo00_iscslp": {
+   "authors": [
+    [
+     "Chunhua",
+     "Luo"
+    ],
+    [
+     "Mingxing",
+     "Xu"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ]
+   ],
+   "title": "Acoustic Level Error Analysis in Continuous Speech Recognition",
+   "original": "003",
+   "page_count": 4,
+   "order": 53,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "In this paper, we make a detailed analysis on the errors that may occur in a continuous speech recognition system, and define two sets of judge rules to perform the error analysis. Using these judge rules, we can efficiently find the most important factors that influence the performance of our speech recognition system and know how to improve it. The experimental results show that our judge rules have the ability to identify the types of errors in our system. They are also consistent with some conclusions drawn by other experiments. Keywords: continuous speech recognition, judge rules, error analysis\n"
+   ]
+  },
+  "zhang00c_iscslp": {
+   "authors": [
+    [
+     "Guoliang",
+     "Zhang"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ]
+   ],
+   "title": "Tone Recognition of Chinese Continuous Speech",
+   "original": "008",
+   "page_count": 4,
+   "order": 54,
+   "p1": "207",
+   "pn": "210",
+   "abstract": [
+    "In this paper our approach to the lexical tone recognition of Chinese continuous speech is presented. The Mixed Gaussian Continuous Probability Model (MGCPM) [1] is used for the tone modeling, and the quadric curve is adopted to simulate the Fundamental frequency (F0) contour, whose three coefficients are calculated and taken as the features of the tone models. The tone variety in continuous Chinese speech recognition is an issue that must be faced in the tone modeling. There are two kinds of tone varieties, the change from canonical one to noncanonical one without changing the pitch trend and that from one to another different one. In order to reduce the negative influence caused by the tone varieties, an iterative method is proposed to distinguish the syllables which have tone varieties and remove them from the whole training data, and then the Tone Variety Matrix (TVM) is introduced for improving the performance of tone models. Experiments have been done based on the continuous Chinese speech database named \"863\" database. The top1 and top2 accuracy for baseline MGCPM is 67% and 90%, while that for MGCPM incorporated with TVM is 70% and 92%.\n"
+   ]
+  },
+  "yang00_iscslp": {
+   "authors": [
+    [
+     "Dali",
+     "Yang"
+    ],
+    [
+     "Mingxing",
+     "Xu"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ]
+   ],
+   "title": "A Noise Cancellation Method Based on Wavelet Transform",
+   "original": "010",
+   "page_count": 4,
+   "order": 55,
+   "p1": "211",
+   "pn": "214",
+   "abstract": [
+    "In this paper, we present a frequency band threshold based on wavelet transform (FBT) noise cancellation method. The noise cancellation is enable to improve on the articulation of the speech. Although the edge information of the speech is very important for recognition system to use, most traditional noise cancellation methods based on spectrum analysis smooth these edges of the original speech. We hope to get a noise cancellation method that keeps these edges information. We knew that the performance of edge detection based on wavelet transform is very high. So we use wavelet transform for noise cancellation. Noise cancellation methods based on wavelet transform were referred to papers [1][2]. The method was given by paper [1] is not real-time. Hence this method is difficult to be used a practical system. Although the real-time property of the noise cancellation method was referred to paper [2] is perfect, the aural performance is defective. This method has a single threshold (ST). It ignored the difference of the frequency bands. FBT is presented by us in this paper possesses two characteristics as follow: (1) These thresholds depend on frequency bands. (2) These thresholds are self-adjusting. Based on two judgement standards---signal noise rate (impersonal standard) and the articulation of the speech (subjective standard), we did comparison experiments between FBT and ST. Although FBT’s signal noise rate inferior to the ST’s, FBT’s waveform distortion is less than ST’s and FBT’s articulation of the speech is remarkable superior to the ST’s. We particularly analyzed the causes of the phenomena and did the comparison experiments of these two methods on the same speech recognition system. The conclusion is FBT is superior to ST. Key words Noise Cancellation Wavelet transform Frequency Band Threshold\n"
+   ]
+  },
+  "wang00e_iscslp": {
+   "authors": [
+    [
+     "Anhong",
+     "Wang"
+    ],
+    [
+     "Huaiqiao",
+     "Bao"
+    ],
+    [
+     "Jiayou",
+     "Chen"
+    ]
+   ],
+   "title": "Primary Research on The Viseme System in Standard Chinese",
+   "original": "036",
+   "page_count": 4,
+   "order": 56,
+   "p1": "215",
+   "pn": "218",
+   "abstract": [
+    "The study of traditional phonetics indicates the shape of lips takes important effect on the articulations of consonants and vowels. [1]. AVSP (Audio-Visual Speech Processing) can improve the naturalness of synthetical speech and recognition rate of the speech recognition system. Especially in computer-synthesized face, the movements of lip-shape play a crucial role. The present research aims to theorize a system of lip-shape variety comparison of the phoneme system of Standard Chinese. A new terminology “viseme system” is given to this system. A small-scale visual speech database was created firstly and the viseme system in Standard Chinese is concluded based on the database and through a series of statistics methods.\n"
+   ]
+  },
+  "dong00b_iscslp": {
+   "authors": [
+    [
+     "Lin",
+     "Dong"
+    ],
+    [
+     "Biqin",
+     "Lin"
+    ],
+    [
+     "Bao-Zong",
+     "Yuan"
+    ]
+   ],
+   "title": "Speech Interactive Web Page Designing and Implantation Based on Agent",
+   "original": "038",
+   "page_count": 4,
+   "order": 57,
+   "p1": "219",
+   "pn": "222",
+   "abstract": [
+    "According speech recognition and speech synthesis research work progressing, speech application in Internet is more and more widely used. Speech technology was used in Internet such as voice browser in English and other language, voice mail and speech interactive Web page etc. In this paper design and establishment of speech interactive HTTP Web page using Agent technology was presented, normal HTTP Web page function was expanded made it has speech interactive function. Speech interactive Web page reserved normal HTTP Web page function add speech interface, made it possible allowing people using speech access to the Internet. Accessing to the speech interactive Web paper can not only using normal GUI explore, but also can using PDA, Mobil phone and other device which haven't keyboard. Using speech interactive Web page can release people concerning Information such as weather forecast, stock and traffic information etc, which can help user using speech acquire information."
+   ]
+  },
+  "guo00_iscslp": {
+   "authors": [
+    [
+     "Qing",
+     "Guo"
+    ],
+    [
+     "Yonghong",
+     "Yan"
+    ],
+    [
+     "Zhiwei",
+     "Lin"
+    ],
+    [
+     "Baosheng",
+     "Yuan"
+    ],
+    [
+     "Qingwei",
+     "Zhao"
+    ],
+    [
+     "Jian",
+     "Liu"
+    ]
+   ],
+   "title": "Keyword Spotting in Auto-Attendant System",
+   "original": "053",
+   "page_count": 3,
+   "order": 58,
+   "p1": "223",
+   "pn": "226",
+   "abstract": [
+    "In this paper, an auto-attendant system using finite state grammar (FSG) based on a continuous speech recognition (CSR) model is introduced. However, by using two virtual garbage models, one is to match the leading extraneous speech before the key name and the other to match the tailing extraneous speech following the key name, we managed to reach a more flexible and robust auto-attendant system. The experiment result show that, in our auto attendant system (about 240 names), to the name only test set and the sentence test set 1 composed of sentences that FSG can recognize, the recognition rate of the keyword spotting system is almost the same as that of FSG. To the sentence test set 2 composed of sentences that undefined in the FSG the keyword spotting system outperforms the FSG system remarkably. Not affecting the recognition accuracy of name only test set and the sentence test set 1, task dependent keyword models cut off additional 20% of error rate comparing with task independent keyword models in the sentence test set 2.\n"
+   ]
+  },
+  "peng00_iscslp": {
+   "authors": [
+    [
+     "Gang",
+     "Peng"
+    ],
+    [
+     "Bo",
+     "Zhang"
+    ],
+    [
+     "William S-Y.",
+     "Wang"
+    ]
+   ],
+   "title": "Duration Modeling in Mandarin Connected Digit Recognition",
+   "original": "059",
+   "page_count": 4,
+   "order": 59,
+   "p1": "227",
+   "pn": "230",
+   "abstract": [
+    "Digit string recognition is required in many applications which need to recognize numbers such as telephone numbers, credit card numbers, date, etc. In order to design a high performance recognizer, duration information is explored in this study. In a Mandarin connected digit recognizer, insertion and deletion errors amount to more than two thirds of the total recognition errors because there exist two mono-phonemic digits and a heavily rhotacized vowel. In order to use duration information more efﬁciently, we propose a method to model context dependent word duration information and then incorporate it directly in the decoding algorithm. Experimental results show that this method reduces word error rate by as much as 32.1%.\n"
+   ]
+  },
+  "huang00b_iscslp": {
+   "authors": [
+    [
+     "Chao-Shih",
+     "Huang"
+    ],
+    [
+     "Hsiao-Chuan",
+     "Wang"
+    ]
+   ],
+   "title": "A Divergence-based Model Separation",
+   "original": "061",
+   "page_count": 4,
+   "order": 60,
+   "p1": "231",
+   "pn": "234",
+   "abstract": [
+    "In this paper, a divergence-based training algorithm is proposed for model separation, where the relative divergence between models is derived from KullbackLeibler (KL) information. We attempt to improve the discriminative power of existing model while the environment-matched training data is not available. It could be applied to improve the model discrimination after model-based compensation technique is performed for robust speech recognition. Traditionally, the model training is based on data driven such as maximum likelihood (ML) estimation or discriminative training. Compared to ML training, the minimum classification error (MCE) objective in discriminative training leads significant gain in accuracy. We attempt to improve model discrimination based on an approximate classification error analysis, relative divergence. We found that the smaller the relative divergence is, the more discriminative powers of the two models are. In the proposed algorithm, we try to directly obtain the discriminant function for model training from the relative divergence. Thus, the model parameters can be adjusted based on minimum relative divergence. Experimental results demonstrate that the divergence-based model separation method can achieve better recognition performance.\n"
+   ]
+  },
+  "gao00b_iscslp": {
+   "authors": [
+    [
+     "Shan",
+     "Gao"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ],
+    [
+     "Chengqing",
+     "Zhong"
+    ]
+   ],
+   "title": "An Adaptive Information Retrieval System Based on Fuzzy Set",
+   "original": "076",
+   "page_count": 4,
+   "order": 61,
+   "p1": "235",
+   "pn": "238",
+   "abstract": [
+    "The advent of the World Wide Web has increased the importance of Information Retrieval. Retrieval strategies assign a measure of similarity between a query and a document. We usually have a notion that the more often terms are found in both the document and query, the more “relevant” the document is deemed to be the query.[1] But how to retrieve relevant information from extremely large document collections is not easy. This paper describes a new approach for adaptive information retrieval based on fuzzy set. The system applied this approach can retrieve some relevant documents from the document collection according to the topic that a user query. Key Words: Information Retrieval, Fuzzy Set, membership function, similarity coefficient.\n"
+   ]
+  },
+  "liu00c_iscslp": {
+   "authors": [
+    [
+     "Li",
+     "Liu"
+    ],
+    [
+     "Tiecheng",
+     "Yu"
+    ]
+   ],
+   "title": "A Time-domain Female-male Voice Conversion Algorithm",
+   "original": "078",
+   "page_count": 3,
+   "order": 62,
+   "p1": "239",
+   "pn": "242",
+   "abstract": [
+    "In this paper, we put forward a time-domain female-male voice conversion algorithm. This method mainly focuses on two acoustic features that are thought to be the most important to speech individuality: pitch frequency and formant frequencies. To change pitch frequency, we cut off or add the low amplitude parts of speech signals in one pitch period. To change formants, according to the relationship between zero-cross rate and formants, and basing on the semi-waveform vector database which the former students formed during carrying out a speech waveform encoding algorithm, we use DTW technology to find a semi-waveform vector in the database to substitute the original semi-waveform. Experiments show that this algorithm is feasible. The average pitch frequency ratio of female speech to male speech is about 1.5 and the average formant frequencies ratio of female to male is about 1.2. We also found that the converted male voice is better than the converted female voice. Key words: voice conversion, pitch frequency, formant frequency.\n"
+   ]
+  },
+  "jou00_iscslp": {
+   "authors": [
+    [
+     "Szu-Chen",
+     "Jou"
+    ],
+    [
+     "Shih-Chieh",
+     "Chien"
+    ],
+    [
+     "Woei-Chyang",
+     "Shieh"
+    ],
+    [
+     "Jau-Hung",
+     "Chen"
+    ],
+    [
+     "Sen-Chia",
+     "Chang"
+    ]
+   ],
+   "title": "CCL eAttendant - An On-line Auto Attendant System",
+   "original": "097",
+   "page_count": 4,
+   "order": 63,
+   "p1": "243",
+   "pn": "140",
+   "abstract": [
+    "In this paper, we present an on-line auto attendant system, CCL eAttendant, which has been employed on the CCL/ITRI telephone network since January 2000. This system is composed of speech recognition, text-to-speech, computer-telephony integration, and HTML data importer modules. It is based on WinTel architecture and is built on a Pentium-III PC with MS-Windows NT and a Dialogic D/41Esc telephony board. CCL eAttendant enables people to find CCL employees’ extension numbers and forward calls by speech.\n"
+   ]
+  },
+  "yan00b_iscslp": {
+   "authors": [
+    [
+     "Pengju",
+     "Yan"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Mingxing",
+     "Xu"
+    ],
+    [
+     "Yinfei",
+     "Huang"
+    ]
+   ],
+   "title": "Word-class Stochastic Model in A Spoken Language Dialogue System",
+   "original": "001",
+   "page_count": 4,
+   "order": 64,
+   "p1": "141",
+   "pn": "144",
+   "abstract": [
+    "Spoken Language Understanding (SLU) is a key component of spoken dialogue systems. One popular SLU method is to use the continuous speech recognizer where the Part-Of-Speech (POS) tagging is employed to determine the underlying word-class sequences. We present here a Word-Class Stochastic Model (WCSM) to describe the temporal word/word-class sequences, which is fit into the standard paradigm of the Hidden Markov Models (HMMs). The model training is done on the basis of a general-purpose, large-vocabulary-sized, labeled corpus, which makes the model comparatively easy to construct. We apply the model to a prototype dialogue system named EasyNav, and the use of domain-specific knowledge, i.e., semantic-meaningful keywords, helps to increase the speed and accuracy of the POS tagging process. "
+   ]
+  },
+  "huang00c_iscslp": {
+   "authors": [
+    [
+     "Yinfei",
+     "Huang"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ]
+   ],
+   "title": "EasyCmd: Navigation by Voice Commands",
+   "original": "006",
+   "page_count": 4,
+   "order": 65,
+   "p1": "145",
+   "pn": "148",
+   "abstract": [
+    "In this paper we present a system named EasyCmd that provides voice navigation on the desktop of Microsoft Window 9x system. Speech recognition engine for EasyCmd is much similar to that for dictation machine. Statistical Knowledge Based Frame Synchronous Search algorithm (SKBFSS) and Word Search Tree (WST) technologies are applied for acoustic decoding. Recognition Score Gap (RSG) is used for rejection. We also describe the techniques of monitoring the system, collecting vocabulary and simulating system operations, which are essential to enhance the desktop with voice commands.\n"
+   ]
+  },
+  "li00e_iscslp": {
+   "authors": [
+    [
+     "Shuqing",
+     "Li"
+    ],
+    [
+     "Lei",
+     "He"
+    ],
+    [
+     "Ditang",
+     "Fang"
+    ]
+   ],
+   "title": "Experiments and Analysis for Speaker Dependent Mandarin Syllable Recognition",
+   "original": "009",
+   "page_count": 4,
+   "order": 66,
+   "p1": "149",
+   "pn": "152",
+   "abstract": [
+    "It is well known that the word accuracy of a speaker independent (SI) continuous speech recognition system cannot be good enough for many real-world applications due to many interference factors in speech signal: pronunciation variance by speakers, different kinds of environment noise, and so on. Thus, analyzing the action procedure of each interference factor, then eliminating its effect as possible via the inverse processing may significantly improve the performance of recognizer. In this paper, we make a series of experiments to find out the potential space of the inverse processing research for improving the performance of an applied SI continuous speech recognizer. These experiments are arranged in a perfect condition, in which all kinds of effects are avoided as possible. After the experimental results presentation with corresponding analysis, we give some suggestions for future research.\n"
+   ]
+  },
+  "lu00_iscslp": {
+   "authors": [
+    [
+     "Shinan",
+     "Lu"
+    ],
+    [
+     "Lin",
+     "He"
+    ],
+    [
+     "Ge",
+     "Yu"
+    ],
+    [
+     "Yongkang",
+     "Feng"
+    ],
+    [
+     "Juan",
+     "Liu"
+    ]
+   ],
+   "title": "A Comparison Between Synthetic Speech and Natural Speech of Chinese",
+   "original": "023",
+   "page_count": 5,
+   "order": 67,
+   "p1": "153",
+   "pn": "158",
+   "abstract": [
+    "In this paper 15 synthetic Chinese sentences provided by four typical Chinese TTS system have been analyzed, and compared with natural speech. Results reveal the remarkable differences between natural speech and synthetic speech including the temporal organization and intonation, which are the essential cause of degrading naturalness of synthetic speech. Therefore the parser and prosody design are emphasized for developing a new Chinese TTS system."
+   ]
+  },
+  "chen00e_iscslp": {
+   "authors": [
+    [
+     "Shaoyan",
+     "Chen"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ],
+    [
+     "Yintao",
+     "Yang"
+    ]
+   ],
+   "title": "A Robust Method Based on Likelihood Estimation for Speech Signal Detecion",
+   "original": "028",
+   "page_count": 4,
+   "order": 68,
+   "p1": "159",
+   "pn": "162",
+   "abstract": [
+    "Speech signal detection is found to have a variety of applications in the speech communication. Many methods have been proposed for that purpose. Most of these methods can achieve very high detection accuracy for a reasonable given false alarm probability in clean speech environment. However, these methods become less reliable in the noisy environment. The accurate detection of speech signal is proven to be still very difficult in the presence of noise and interference. In this paper, we propose a method to use the likelihood estimated from a noise model to detect the speech signal. We shall address the problems on how to train a noise model, how to use the likelihood to detect the speech signal and how to use an on-line adaptation procedure to adapt the model parameters to a new noisy environment. We will also present experiment results to demonstrate some of the properties and advantages of the method.\n"
+   ]
+  },
+  "wang00f_iscslp": {
+   "authors": [
+    [
+     "Yu",
+     "Wang"
+    ],
+    [
+     "Xiaoyan",
+     "Zhu"
+    ]
+   ],
+   "title": "An New Approach for Incremental Speaker Adaptation",
+   "original": "041",
+   "page_count": 4,
+   "order": 69,
+   "p1": "163",
+   "pn": "166",
+   "abstract": [
+    "This paper presents an approach for fast, incremental speaker adaptation based on MAP algorithm with a simplified MLLR module, which is used to minimizes the mismatches caused by the different speaking environments and speaker connatural characteristics before MAP processing. The most important advantage of the new approach is that it can not only have a quick adaptation with a few short utterances but also be more accurate even in a noisy environment. Experimental results show that using the new approach can improve the word error rate by 20.3% in a quiet environment, and by 27.6% in a noisy environment.\n"
+   ]
+  },
+  "zhang00d_iscslp": {
+   "authors": [
+    [
+     "Xiangdong",
+     "Zhang"
+    ],
+    [
+     "Baosheng",
+     "Yuan"
+    ],
+    [
+     "Ying",
+     "Jia"
+    ],
+    [
+     "Lingyun",
+     "Tuo"
+    ],
+    [
+     "Yonghong",
+     "Yan"
+    ]
+   ],
+   "title": "Develop Telephony Speech Recognition Systems for Real-world Application",
+   "original": "050",
+   "page_count": 4,
+   "order": 70,
+   "p1": "167",
+   "pn": "170",
+   "abstract": [
+    "This paper introduces our initial effort in building Mandarin acoustic model for Chinese stock information retrieval system based on Intel's LVCSR framework [1][2]. To build a robust and accurate system, a number of experiments were conducted to find the optimal parameters in various levels such as front-end feature, phonetic transcription, etc. We conducted comparison experiment to find the optimal configuration on the bandwidths for the telephony acoustic model in general. To build an accurate task-specific modeling, we introduce a hybrid context-dependent modeling of which the task-dependent training data and the taskindependent one are treated differently in the modeling. The experiment result on two task-specific applications shows the proposed modeling can produce significant WER reduction. The telephone corpora were collected at ICRC to improve the robustness against both noise and channel effects.\n"
+   ]
+  },
+  "zhang00e_iscslp": {
+   "authors": [
+    [
+     "Bo",
+     "Zhang"
+    ],
+    [
+     "Gang",
+     "Peng"
+    ],
+    [
+     "William S-Y.",
+     "Wang"
+    ]
+   ],
+   "title": "Noise-Robust Speech Recognition Based on Reliable Bands",
+   "original": "060",
+   "page_count": 4,
+   "order": 71,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "Under noisy conditions, due to the redundancy of speech signal, there are some spectral bands (Reliable Bands) whose local SNR’s are high enough to be used effectively by a recognizer. Based on this, a novel, phonetically motivated Reliable Bands Guided similarity measure (RBG measure) is proposed. It has the following features. Firstly, for reference spectrum, frequency bands which have larger absolute energy or sharper spectral peaks are marked as reliable bands. They are to be given more weight than the other bands in the deﬁnition of the RBG measure. Secondly, within each reliable band, similarity between formant positions and formant shapes of test spectrum and reference spectrum is explicitly modeled. Lastly, the measure can automatically emphasize spectral bands whose amplitudes change abruptly, which normally contain more reliable dynamic features of the speech signal. Both the RBG measure and the PMC method are tested on a speaker-independent, continuous Mandarin digit string recognition task, under 15 noisy conditions. Noises are drawn from the NOISEX92 database. The RBG measure shows an average 4.22% word accuracy score below the PMC method above 0 dB. However, it outperforms the PMC method by 8.82% at 0 dB. More importantly, the RBG measure does not rely on accurate end-point detection and accurate modeling of the background noise, which are difﬁcult tasks in themselves. To further improve the performance of the RBG measure, we discuss the possibility of integrating the ﬁndings in the Computational Auditory Scene Analysis (CASA) ﬁeld into the current system. First, we reviewed the theory of Auditory Scene Analysis, which was originally established by Bregman in 1990. We then discuss some computational models which were proposed for separating input sounds mixture into different sound streams. Finally we consider the possibility of integrating such models into the RBG measure. "
+   ]
+  },
+  "xu00b_iscslp": {
+   "authors": [
+    [
+     "Yunbiao",
+     "Xu"
+    ],
+    [
+     "Masahiro",
+     "Araki"
+    ],
+    [
+     "Yasuhisa",
+     "Niimi"
+    ]
+   ],
+   "title": "A Multilingual Spoken Dialog System",
+   "original": "064",
+   "page_count": 5,
+   "order": 72,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "This paper will briefly introduce MSDSKIT-1 (Multilingual Spoken Dialogue System Version 1.0 developed by Kyoto Institute of Technology) which integrates Japanese and Chinese now. It is a promotion vision of the SDSKIT-3 (Spoken Dialogue System in Japanese). This system can provide services such as sight-seeing introduction, traffic guidance, hotel reservation. A user can also plan his itinerary under the conduction of the system. We regard a spoken dialogue system as an integrated system with a language-dependent speech interface and a language-independent dialogue controller. We must carefully consider the linguistic characteristics of the particular language for the language-dependent\ninterface during designing a multilingual spoken dialogue system, for example, the syntactical structural features for the language parser. In order to promote SDSKIT-3 into a multilingual system (called as MSDSKIT-1), a great effort has been taken. This\npaper will present such effort on two aspects: (1)\nChinese speech recognizer (2) Chinese language\nparser."
+   ]
+  },
+  "wang00g_iscslp": {
+   "authors": [
+    [
+     "Yong",
+     "Wang"
+    ],
+    [
+     "Jiang",
+     "Han"
+    ],
+    [
+     "Jian",
+     "Liu"
+    ]
+   ],
+   "title": "Selection of Different Language Model Using Dialogue State",
+   "original": "067",
+   "page_count": 4,
+   "order": 73,
+   "p1": "179",
+   "pn": "182",
+   "abstract": [
+    "Domain-specific dialogue system is an important and also commercial-practicable application of speech recognition technique, and it is very helpful to decrease the search space in the aspects of accuracy improvement and search time reduction in speech recognition. Adequate use of dialogue-state-dependent language models in dialogue systems can decrease the search space greatly if a reasonable prediction of the dialogue states is feasible, and will make a dialogue system more robust in real practice. This paper presents a novel method of selecting different rule-based sub-language-models based on dialogue states to decrease the search space, which will select an adequate rulebased sub-language model in different conversation step according to the context. Experiments show that it is simple and effective in improving accuracy and recognition speed, and will be very useful in small and medium task domain.\n"
+   ]
+  },
+  "zhou00_iscslp": {
+   "authors": [
+    [
+     "Yun",
+     "Zhou"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ],
+    [
+     "Bing",
+     "Zhao"
+    ]
+   ],
+   "title": "The Analysis of Copus Oriented Spoken Chinese Dialog Understanding",
+   "original": "071",
+   "page_count": 3,
+   "order": 74,
+   "p1": "183",
+   "pn": "186",
+   "abstract": [
+    "Such issues as dialog structure, dialog act analysis, turn segmentation (that is, segment a turn into several sentences or utterance units) have not yet been successfully resolved, especially in spoken Chinese dialog. Our corpus consists of 94(more than 3,000 turns) telephone-recorded Chinese humanhuman dialogues in the domain of room reservation.In this paper, we give some results of analysis of the corpus. We concentrate on four important phenomena in spoken Chinese: sentences hyperbaton, sentence fragment, speech repair, cue phrase. These four phenomena, we think, are essential for turn segmentation as well as other problems.\n"
+   ]
+  },
+  "wang00h_iscslp": {
+   "authors": [
+    [
+     "Xia",
+     "Wang"
+    ],
+    [
+     "Yuan",
+     "Dong"
+    ],
+    [
+     "Juha",
+     "Iso-Sipil"
+    ],
+    [
+     "Olli",
+     "Viikki"
+    ]
+   ],
+   "title": "On Integrating Tonal Information Into Chinese Speech Recognition",
+   "original": "073",
+   "page_count": 4,
+   "order": 75,
+   "p1": "187",
+   "pn": "190",
+   "abstract": [
+    "Reliable pitch detection is important in Chinese speech recognition since Chinese is a tonal language. In this paper, several pitch information integration approaches are investigated. In a noise-free environment, conventional pitch estimators work quite well. In adverse conditions, however, robustness of pitch detection algorithms is still a challenging problem. Our experimental results show that by using pitch information, a performance improvement can be obtained in a clean environment. However, a substantial recognition accuracy degradation is observed in adverse conditions due to the noise sensitivity of pitch estimators. Our experimental results indicate that front-end extracting higher-order cepstral coefficients provides the best results when testing the recognition performance in Chinese.\n"
+   ]
+  },
+  "lin00c_iscslp": {
+   "authors": [
+    [
+     "Chia-Hsien",
+     "Lin"
+    ],
+    [
+     "Hsiao-Chuan",
+     "Wang"
+    ]
+   ],
+   "title": "Keyword Spotting By Searching The Syllable Lattices",
+   "original": "087",
+   "page_count": 4,
+   "order": 76,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "This paper presents a keyword spotting method based on searching a syllable lattice structure. The Mandarin syllables are represented in initial-final models. By one-stage dynamic programming, an utterance is converted into a sequence of topN-candidate syllables. It comes out a syllable lattice structure for this input utterance. A vocabulary of predefined keywords is represented as a set of syllable sequences. By searching the syllable sequences of keywords in the syllable lattice structure, we can spot the keywords in the utterance. A ranking and scoring algorithm is proposed for searching the keywords. The utterance verification for non-keyword rejection is also implicitly presented in this proposed algorithm.\n"
+   ]
+  },
+  "wang00i_iscslp": {
+   "authors": [
+    [
+     "Yih-Ru",
+     "Wang"
+    ],
+    [
+     "Ke-Shu",
+     "Chen"
+    ]
+   ],
+   "title": "RCD Sub-syllable HMM Modeling By Decision Tree Clustering Using MAT-2000 Database",
+   "original": "095",
+   "page_count": 4,
+   "order": 77,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "In this paper, the decision tree clustering method using two different similarity measures as model splitting criteria is applied to continuous Mandarin speech recognition for training right-context-dependent (RCD) sub-syllable HMM models. Instead of using phone-like units, we adopt initial and final sub-syllables as the basic recognition units. A large telephone-speech database, MAT-2000, is used to test the training method. A recognition rate of 67.3% was obtained for a 500-sentence test set. As compared with the case of using context-independent (CI) models, a recognition rate improvement of 3.3% was achieved."
+   ]
+  },
+  "hsieh00_iscslp": {
+   "authors": [
+    [
+     "Wei-Ping",
+     "Hsieh"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ],
+    [
+     "Kuan-Ting",
+     "Chen"
+    ],
+    [
+     "Hsin-Ming",
+     "Wang"
+    ]
+   ],
+   "title": "Initial Experiments On Recognition of Internet-Accessible Compressed Mandarin Speech",
+   "original": "099",
+   "page_count": 4,
+   "order": 78,
+   "p1": "199",
+   "pn": "246",
+   "abstract": [
+    "Massive quantities of spoken audio are becoming available on the web. For example, many radio and television stations are now broadcasting Internet-accessible contents. Automatic recognition of spoken audio that has been degraded by the compression schemes, which enable the delivery of streaming audio over the Internet, could be of great interest for indexing and retrieval purposes. Considering the characteristics and monosyllabic structure of the Chinese language, a syllable-based framework for retrieving Mandarin broadcast news has been investigated at Academia Sinica Taipei. This paper reports on our initial experiments on recognition of Internet-accessible Mandarin broadcast news in two data types - RealAudio and TrueSpeech."
+   ]
+  },
+  "jin00_iscslp": {
+   "authors": [
+    [
+     "Ling",
+     "Jin"
+    ],
+    [
+     "Genqing",
+     "Wu"
+    ],
+    [
+     "Fang",
+     "Zheng"
+    ],
+    [
+     "Wenhu",
+     "Wu"
+    ]
+   ],
+   "title": "Improved Strategies For Intelligent Sentence Input Method Engine System",
+   "original": "007",
+   "page_count": 4,
+   "order": 79,
+   "p1": "247",
+   "pn": "250",
+   "abstract": [
+    "This paper describes a Chinese keyboard intelligent fullsentence input method system based on tri-gram language model. In this system, we use efficient algorithms to reduce the size of the language model, accelerate the search and enhance the accuracy. The n-gram model is presented in a novel structure, which shrinks the model and enables it with look-ahead and buffer techniques to reduce the times of visiting the disk to fetch the n-gram unit and to adapt the language model to user domain quickly. Besides that, we have designed an efficient dynamic programming algorithm to segment input alphabetic sequence into syllabic cells; thereby it can be fit for different input ways.\n"
+   ]
+  },
+  "zhen00_iscslp": {
+   "authors": [
+    [
+     "Bin",
+     "Zhen"
+    ],
+    [
+     "Xihong",
+     "Wu"
+    ],
+    [
+     "Zhimin",
+     "Liu"
+    ],
+    [
+     "Huisheng",
+     "Chi"
+    ]
+   ],
+   "title": "An Enhanced RASTA Processing for Speaker Identification",
+   "original": "024",
+   "page_count": 4,
+   "order": 80,
+   "p1": "251",
+   "pn": "254",
+   "abstract": [
+    "In this paper, we propose an Enhanced RASTA (E_RASTA) technique for speaker identification. The new method consists of classical RASTA filtering in logarithmic spectrum domain following by another RASTA processing in spectrum domain. In this manner, both the channel distortion and additive noise are removed effectively. In isolated digit speaker identification experiment on TI46 database, we found that the E_RASTA performed equal or better than J_RASTA method. The new method does not need the estimation of speech SNR in order to determinate the optimal value of J and multitemplates in J_RASTA, and the information of how the speech degrades.\n"
+   ]
+  },
+  "zhang00f_iscslp": {
+   "authors": [
+    [
+     "Cuiling",
+     "Zhang"
+    ],
+    [
+     "Xiaoli",
+     "Liu"
+    ],
+    [
+     "Tiejun",
+     "Tan"
+    ],
+    [
+     "Jingxu",
+     "Cui"
+    ]
+   ],
+   "title": "Coarticulation and Application of Lateral in Standard Chinese in Speaker Identification",
+   "original": "029",
+   "page_count": 4,
+   "order": 81,
+   "p1": "255",
+   "pn": "258",
+   "abstract": [
+    "Lateral is one of the four voiced consonants in Standard Chinese and it often displays many variants in pronunciation because of different following vowels. It’s distribution of formant frequency changes greatly withdifferent vowels and assumes strong coarticulation.Itissuggested that the coarticulation is different from person to person. Whereas lateral has relative stability and value of formant frequency of the same speaker assumes relative stable state. Therefore, the individual features of the coarticulation may be anticipated in speaker’s sound.The aim of the article is to study coarticulation of lateral with different vowels, it’s behavior in different speakers and application in speaker identification.\n"
+   ]
+  },
+  "wu00_iscslp": {
+   "authors": [
+    [
+     "Hua",
+     "Wu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ]
+   ],
+   "title": "An Interlingua for Dialogue Translation",
+   "original": "030",
+   "page_count": 4,
+   "order": 82,
+   "p1": "259",
+   "pn": "262",
+   "abstract": [
+    "An interchange format (IF) suitable for spoken language translation is introduced in this paper. It is a semantic representation of languages and used as a kind of interlingua among different languages. The most obvious characteristics of the semantic representation are its independence of peculiarities of any language and its underspecification. The whole semantic representation has up to four components: speaker tag, speech act, topic and arguments. The development of the interchange format is guided by the corpus of our hotel reservation domain. And the IF has been applied to two languages: Chinese and English. This paper will also discuss the role of the interchange format in our spoken language translation system.\n"
+   ]
+  },
+  "qing00_iscslp": {
+   "authors": [
+    [
+     "Xi-Ke",
+     "Qing"
+    ],
+    [
+     "Ke",
+     "Chen"
+    ]
+   ],
+   "title": "On Use of GMM for Multilingual Speaker Verification: An Empirical Study",
+   "original": "037",
+   "page_count": 4,
+   "order": 83,
+   "p1": "263",
+   "pn": "266",
+   "abstract": [
+    "This paper presents an empirical study on multilingual speaker verification based on a sophisticated statistical model – Gaussian Mixture Model (GMM). The languages used include Mandarin, Cantonese, and English. Comparative results of speaker verification are presented in terms of different databases associated with different languages. Our simulation results indicate that GMM can be used as a unified model in multilingual speaker verification, which provides an easy-touse way for building a multilingual speaker verification system.\n"
+   ]
+  },
+  "liu00d_iscslp": {
+   "authors": [
+    [
+     "Yang",
+     "Liu"
+    ],
+    [
+     "Jiasong",
+     "Sun"
+    ],
+    [
+     "Zuoying",
+     "Wang"
+    ]
+   ],
+   "title": "Comparison of Several Smoothing Methods in Statistical Language Model",
+   "original": "047",
+   "page_count": 4,
+   "order": 84,
+   "p1": "267",
+   "pn": "270",
+   "abstract": [
+    "With the development of computer technology and the appearance of huge training text corpus, the performance of language model has improved a lot recently. But its intrinsic sparse data problem still exists. This paper investigates several smoothing methods in the application of Chinese continuous speech recognition. We compare the performance of different methods, particularly in the situation of pruned language model and conclude that the KneserNey strategy is better for the model without pruning while its performance decreases for the pruned language model.\n"
+   ]
+  },
+  "cheng00_iscslp": {
+   "authors": [
+    [
+     "Wei",
+     "Cheng"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ]
+   ],
+   "title": "Statistical Approach to Chinese-English Spoken-language Translation in Hotel Reservation Domain",
+   "original": "057",
+   "page_count": 4,
+   "order": 85,
+   "p1": "271",
+   "pn": "274",
+   "abstract": [
+    "This paper investigates a preliminary translation system from Chinese to English based on the statistical approach and tests its performance on a limited-domain spoken-language task: hotel reservation. A bilingual corpus is available for the task, which exhibits some typical phenomena of spontaneous speech. The experiments are performed on both the text transcription and the speech recognizer output. The word error rate is about 14%. Some analyses present a great potential for improving the translation quality. From the results and analyses, a broad prospect is showed on the statistical approach to the spokenlanguage translation.\n"
+   ]
+  },
+  "yu00_iscslp": {
+   "authors": [
+    [
+     "Hua",
+     "Yu"
+    ]
+   ],
+   "title": "Unsupervised Word Induction Using MDL Criterion",
+   "original": "070",
+   "page_count": 4,
+   "order": 86,
+   "p1": "275",
+   "pn": "278",
+   "abstract": [
+    "Unsupervised learning of units (phonemes, words, phrases, etc.) is important to the design of statistical speech and NLP systems. This paper presents a general source-codingframework for inducing words from natural language text without word boundaries. An efﬁcient search algorithm is developed to optimize the minimum description length (MDL) induction criterion. Despite some seemingly over-simpliﬁed modeling assumption, we achieved good results on several word induction problems.\n"
+   ]
+  },
+  "xia00_iscslp": {
+   "authors": [
+    [
+     "Hairong",
+     "Xia"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Taiyi",
+     "Huang"
+    ]
+   ],
+   "title": "Block Analysis of Bilingual Corpus for Chinese-English Statistical Machine Translation",
+   "original": "077",
+   "page_count": 4,
+   "order": 87,
+   "p1": "279",
+   "pn": "282",
+   "abstract": [
+    "In this paper, we describe a bilingual corpus processing strategy, block analysis, from a new point of view. By this analysis strategy, we want to extract more information from bilingual corpus for future statistical machine translation. At first, we define some block types and give some statistical data from a Chinese-English bilingual corpus under this framework. Then a block-based alignment algorithm is presented, by which we can extract and align the corresponding bilingual blocks automatically. Some experimental results show that block analysis is practical and more informative than any other word-based approach.\n"
+   ]
+  },
+  "zhang00g_iscslp": {
+   "authors": [
+    [
+     "Min",
+     "Zhang"
+    ],
+    [
+     "Engsiong",
+     "Chng"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Semi-class-based N-gram Language Modeling for Chinese Dictation",
+   "original": "085",
+   "page_count": 4,
+   "order": 88,
+   "p1": "283",
+   "pn": "286",
+   "abstract": [
+    "In this paper, we propose a novel semi-class-based n-gram language modeling. The proposed modeling estimates the n-gram probability from the observed frequencies of word-class n-tuples, constituted by the (n-1) classes of preceding (n-1) words of the utterance and the current word itself. Three kinds of language modeling, word-based, class-based and semi-class-based n-gram modeling are implemented to build bi-gram and tri-gram models for a vocabulary of 50k words over a corpus of over 200 millions Chinese words. The parameter numbers and LM perplexities among the three models have been studied and compared. Our experiments show that our proposal of using the semi-class language modeling is a good tradeoff between the number of parameters and LM perplexity.\n"
+   ]
+  },
+  "zhao00_iscslp": {
+   "authors": [
+    [
+     "Jun",
+     "Zhao"
+    ],
+    [
+     "Jianfeng",
+     "Gao"
+    ],
+    [
+     "Eric",
+     "Chang"
+    ],
+    [
+     "Mingjing",
+     "Li"
+    ]
+   ],
+   "title": "Lexicon Optimization for Chinese Language Modeling",
+   "original": "101",
+   "page_count": 4,
+   "order": 89,
+   "p1": "287",
+   "pn": "290",
+   "abstract": [
+    "In this paper, we present an approach to lexicon optimization for Chinese language modeling. The method is an iterative procedure consisting of two phases, namely lexicon generation and lexicon pruning. In the first phase, we extract appropriate new words from a very large training corpus using statistical approaches. In the second phase, we prune the lexicon to a preset memory limitation using a perplexity minimization criterion. Experimental results show up to a 6% character perplexity reduction compared to the baseline lexicon.\n"
+   ]
+  },
+  "zhang00h_iscslp": {
+   "authors": [
+    [
+     "Yan",
+     "Zhang"
+    ],
+    [
+     "Bo",
+     "Xu"
+    ],
+    [
+     "Chengqing",
+     "Zong"
+    ]
+   ],
+   "title": "Rule-based Post-Processing of Pinyin To Chinese Characters Conversion System",
+   "original": "106",
+   "page_count": 4,
+   "order": 90,
+   "p1": "291",
+   "pn": "294",
+   "abstract": [
+    "Statistical method is a good way for pinyin to Chinese characters conversion and has gotten preferable conversion rate. However, there are still several percent words cannot be converted correctly with the method. This paper presents an error correction approach based on grammatical and semantic rules. According to the conversion results and neighboring information obtained from pinyin to Chinese characters using statistical method, we build a knowledge base consists of phrase rules, syntactic rules and semantic rules. By analyzing the syntactic structure of sentences, we check the semantic correction at some local part of speech node. This method is used for error correction as a post processing method under the assumption of localized error point at preliminary experiment. The experiments prove that the correct conversion rate is improved based on rule method. Key words: Pinyin to Chinese characters conversion, error correction, knowledge base, post-processing\n"
+   ]
+  },
+  "zhang00i_iscslp": {
+   "authors": [
+    [
+     "Feng",
+     "Zhang"
+    ],
+    [
+     "Zheng",
+     "Chen"
+    ],
+    [
+     "Guozhong",
+     "Dai"
+    ],
+    [
+     "Mingjing",
+     "Li"
+    ]
+   ],
+   "title": "Chinese Pinyin Input Method For Mobile Phone",
+   "original": "113",
+   "page_count": 4,
+   "order": 91,
+   "p1": "295",
+   "pn": "298",
+   "abstract": [
+    "Chinese input method is one of the most difficult problems in Chinese Language Processing. And to input Chinese word in mobile phone effectively is an even bigger challenge. In this paper, we propose a new Chinese pinyin input method in mobile phone. This method uses a compact statistical bigram based language model. Also, to meet the special requirements of Chinese pinyin input in mobile phone, we introduce some new features for the search engine and user interface of our system.\n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "huang00_iscslp",
+    "lee00_iscslp",
+    "chou00_iscslp",
+    "yan00_iscslp",
+    "chen00_iscslp",
+    "xu00_iscslp"
+   ]
+  },
+  {
+   "title": "Acoustic Phonetics And Speech Analysis",
+   "papers": [
+    "li00_iscslp",
+    "zee00_iscslp",
+    "sun00_iscslp",
+    "liu00_iscslp",
+    "lin00_iscslp",
+    "li00b_iscslp"
+   ]
+  },
+  {
+   "title": "Recognition and Understanding of Spoken Language",
+   "papers": [
+    "gao00_iscslp",
+    "wang00_iscslp",
+    "lin00b_iscslp",
+    "wang00b_iscslp",
+    "wang00c_iscslp",
+    "meng00_iscslp"
+   ]
+  },
+  {
+   "title": "Generation and Synthesis of Spoken Language",
+   "papers": [
+    "chen00b_iscslp",
+    "dong00_iscslp",
+    "cao00_iscslp",
+    "ma00_iscslp",
+    "ni00_iscslp",
+    "zhang00_iscslp"
+   ]
+  },
+  {
+   "title": "Robust Speech Recognition and Language Modeling",
+   "papers": [
+    "wang00d_iscslp",
+    "chien00_iscslp",
+    "jia00_iscslp",
+    "li00c_iscslp",
+    "tang00_iscslp",
+    "di00_iscslp"
+   ]
+  },
+  {
+   "title": "Information Access by Speech and Speech Translation",
+   "papers": [
+    "zhu00_iscslp",
+    "fu00_iscslp",
+    "ma00b_iscslp",
+    "lee00b_iscslp",
+    "zong00_iscslp"
+   ]
+  },
+  {
+   "title": "Speech analysis and Speech Synthesis",
+   "papers": [
+    "zhang00b_iscslp",
+    "liu00b_iscslp",
+    "yin00_iscslp",
+    "li00d_iscslp",
+    "niu00_iscslp",
+    "chang00_iscslp",
+    "lo00_iscslp",
+    "ding00_iscslp",
+    "shen00_iscslp",
+    "chen00c_iscslp",
+    "yue00_iscslp",
+    "yue00b_iscslp",
+    "zhu00b_iscslp",
+    "gu00_iscslp",
+    "lau00_iscslp",
+    "law00_iscslp",
+    "chen00d_iscslp"
+   ]
+  },
+  {
+   "title": "Acoustic Modeling",
+   "papers": [
+    "luo00_iscslp",
+    "zhang00c_iscslp",
+    "yang00_iscslp",
+    "wang00e_iscslp",
+    "dong00b_iscslp",
+    "guo00_iscslp",
+    "peng00_iscslp",
+    "huang00b_iscslp",
+    "gao00b_iscslp",
+    "liu00c_iscslp",
+    "jou00_iscslp"
+   ]
+  },
+  {
+   "title": "Recognition and Understanding of Spoken Language",
+   "papers": [
+    "yan00b_iscslp",
+    "huang00c_iscslp",
+    "li00e_iscslp",
+    "lu00_iscslp",
+    "chen00e_iscslp",
+    "wang00f_iscslp",
+    "zhang00d_iscslp",
+    "zhang00e_iscslp",
+    "xu00b_iscslp",
+    "wang00g_iscslp",
+    "zhou00_iscslp",
+    "wang00h_iscslp",
+    "lin00c_iscslp",
+    "wang00i_iscslp",
+    "hsieh00_iscslp"
+   ]
+  },
+  {
+   "title": "Speaker Verification and Speech Translation",
+   "papers": [
+    "jin00_iscslp",
+    "zhen00_iscslp",
+    "zhang00f_iscslp",
+    "wu00_iscslp",
+    "qing00_iscslp",
+    "liu00d_iscslp",
+    "cheng00_iscslp",
+    "yu00_iscslp",
+    "xia00_iscslp",
+    "zhang00g_iscslp",
+    "zhao00_iscslp",
+    "zhang00h_iscslp",
+    "zhang00i_iscslp"
+   ]
+  }
+ ]
+}

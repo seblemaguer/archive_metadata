@@ -1,0 +1,374 @@
+{
+ "title": "Multi-Lingual Interoperability in Speech Technology",
+ "location": "Leusden, The Netherlands",
+ "startDate": "13/9/1999",
+ "endDate": "14/9/1999",
+ "conf": "MIST",
+ "year": "1999",
+ "name": "mist_1999",
+ "series": "",
+ "SIG": "",
+ "title1": "Multi-Lingual Interoperability in Speech Technology",
+ "date": "13-14 September 1999",
+ "papers": {
+  "compernolle99_mist": {
+   "authors": [
+    [
+     "Dirk van",
+     "Compernolle"
+    ]
+   ],
+   "title": "Speech recognition by goats, wolves, sheep and ... non-natives",
+   "original": "mist_tu9",
+   "page_count": 7,
+   "order": 1,
+   "p1": 1,
+   "pn": 7,
+   "abstract": [
+    "This paper gives an overview of current understanding of acoustic-phonetic issues arising when trying to recognize speech from non-native speakers. Regional accents can be modeled by systematic shifts in pronunciation. These can often better be represented by multiple models, than by pronunciation variants in the dictionary. The problem of non-native speech is much more difficult because it is influenced both by native and spoken language, making a multi-model approach inappropriate. It is also characterized by a much higher speaker variability due to different levels of proficiency. A few language-pair specific rules describing the prototyical nativised pronunciation was found to be useful both in general speech recognition as in dedicated applications. However, due to the nature of the errors and the mappings, non-native speech recognition will remain inherently much harder. Moreover, the trend in speech recognition towards more detailed modeling is counterproductive for the recognition of non-natives.\n",
+    ""
+   ]
+  },
+  "wanneroy99_mist": {
+   "authors": [
+    [
+     "R.",
+     "Wanneroy"
+    ],
+    [
+     "E.",
+     "Bilinski"
+    ],
+    [
+     "C.",
+     "Barras"
+    ],
+    [
+     "Martine",
+     "Adda-Decker"
+    ],
+    [
+     "Edouard",
+     "Geoffrois"
+    ]
+   ],
+   "title": "Acoustic-phonetic modeling of non-native speech for language identification",
+   "original": "mist_024",
+   "page_count": 5,
+   "order": 2,
+   "p1": 8,
+   "pn": 12,
+   "abstract": [
+    "The aim of this paper is to investigate to what extent non native speech may deteriorate language identification (LID) performances and to improve them using acoustic adaptation. Our reference LID system is based on a phonotactic approach. The system makes use of language-independent acoustic models and language-specific phone-based bigram language models. Experiments are conducted on the SQALE test database, which contains recordings from English, French and German native speakers, and on the MIST database, which contains non-native speech in the same languages uttered by Dutch speakers. Using 5 seconds of telephone quality speech, language identification error rate amounts to 19% for native speech and to 31% for non-native speech, thus yielding about 60% relative error rate increase. Eventually we propose to improve non-native language identification by an adaptation of the acoustic models to the non-native speech.\n",
+    ""
+   ]
+  },
+  "leeuwen99_mist": {
+   "authors": [
+    [
+     "David A. van",
+     "Leeuwen"
+    ],
+    [
+     "Rosemary",
+     "Orr"
+    ]
+   ],
+   "title": "Speech recognition of non-native speechusing native and non-native acoustic models",
+   "original": "mist_dvl",
+   "page_count": 6,
+   "order": 3,
+   "p1": 13,
+   "pn": 18,
+   "abstract": [
+    "A speech recognition system is subjected to the speech of non-native speakers, using both native and non-native acoustic phone models. The problems in- volved with the mapping of phoneset from the non- native to native language are investigated, and a detailed analysis of phone confusions is made. For Dutch speakers, British English acoustic models give the best word recognition results.\n",
+    ""
+   ]
+  },
+  "cole99_mist": {
+   "authors": [
+    [
+     "Ronald A.",
+     "Cole"
+    ],
+    [
+     "Ben",
+     "Serridge"
+    ],
+    [
+     "John-Paul",
+     "Hosom"
+    ],
+    [
+     "Andrew",
+     "Cronk"
+    ],
+    [
+     "Ed",
+     "Kaiser"
+    ]
+   ],
+   "title": "A platform for multilingual research in spoken dialogue systems",
+   "original": "mist_030",
+   "page_count": 6,
+   "order": 4,
+   "p1": 19,
+   "pn": 24,
+   "abstract": [
+    "Multilingual speech technology research would be greatly facilitated by an integrated and comprehensive set of software tools that enable research and development of core language technologies and interactive language systems in any language. Such a multilingual platform has been one of our goals in developing the CSLU Toolkit. The Toolkit is composed of components that are essentially language-independent, and support research and development of recognition, understanding, text-to-speech synthesis, facial animation, and spoken dialogue systems. Portions of the Toolkit have already been ported to Italian, German, and Vietnamese. In addition, a complete Mexican-Spanish version of the Toolkit has been created, and is in daily use at the Universidad de las Americas in Puebla (UDLA). In this paper we outline some of the issues involved in porting the Toolkit to a new language, and describe why the Toolkit is well suited to multilingual adaptation.\n",
+    ""
+   ]
+  },
+  "samarta99_mist": {
+   "authors": [
+    [
+     "Eduardo",
+     "Sá Marta"
+    ],
+    [
+     "Luis",
+     "Vieira de Sá"
+    ]
+   ],
+   "title": "Auditory features underlying cross-language human capabilitiesin stop consonant discrimination",
+   "original": "mist_029",
+   "page_count": 6,
+   "order": 5,
+   "p1": 25,
+   "pn": 30,
+   "abstract": [
+    "For some phonemic distinctions human listeners exhibit a marked cross-language capability, in that they are capable of highly correct classification in relation to sounds (like CVs or VCVs) uttered by speakers of another language. This is particularly true regarding distinctions that are perceived in a more categorical fashion, like that of 3-way PLACE discrimination in stop consonants. It is plausible that the reason for this is a mostly common (across languages) auditory basis for human communication of this discrimination. Also, human communication of this discrimination is notably impervious to non-drastic variations in the frequencytransfer curve, which suggests that the relevant auditory features must have some inherent insensibility to these variations.\n",
+    "Models for two specialized auditory cells (onset cells with wide receptive fields, which can detect weak onsets synchronized across frequency, and sequence cells which detect frequency-ascending sequences composed of two onsets) were refined for the discrimination of DENTAL vs LABIAL stop consonants and applied to large spelling databases in Portuguese, German, and U.S. English. Similar discriminatory capability was observed both for German and U.S. English. Integration with a 3rd auditory feature resulted in error scores of approximately 2% when exactly the same model is applied to either German or U.S. English sounds.\n",
+    ""
+   ]
+  },
+  "voiers99_mist": {
+   "authors": [
+    [
+     "William D.",
+     "Voiers"
+    ]
+   ],
+   "title": "Uses of the diagnostic rhyme test (English version)for evaluating multilingual operability inaviation communications: An exploratory investigation",
+   "original": "mist_033",
+   "page_count": 6,
+   "order": 6,
+   "p1": 31,
+   "pn": 36,
+   "abstract": [
+    "Diagnostic Rhyme Test (DRT) materials by native speakers of English (American), German and French were presented under undegraded and degraded conditions to English speaking listening crews of three national origins: American, German and French. The effects of the speakers native language, the listeners native language and all permutations of the two on DRT scores were significant, depending on the speech feature involved, but the speaker's linguistic background was the major determinant of the types of error that occurred. The total number of errors was lowest for American speakers, regardless of the nationality of the listeners, and when the listeners were American, regardless of the nationality of the speakers. Errors with respect to voicing, sustention, sibilation and graveness occurred most often.\n",
+    ""
+   ]
+  },
+  "wijngaarden99_mist": {
+   "authors": [
+    [
+     "Sander J. van",
+     "Wijngaarden"
+    ]
+   ],
+   "title": "Speech intelligibility of native and non-native speech",
+   "original": "mist_003",
+   "page_count": 6,
+   "order": 7,
+   "p1": 37,
+   "pn": 42,
+   "abstract": [
+    "The intelligibility of speech is known to be lower if the talker is non-native instead of native for the given language. This study is aimed at quantifying the overall degradation due to acoustic-phonetic limitations of nonnative talkers of Dutch, specifically of Dutch-speaking Americans who have lived in the Netherlands 1-3 years. Experiments were performed using phoneme intelligibility and sentence intelligibility tests, using additive noise as a means of degrading the intelligibility of speech utterances for test purposes. The overall difference in sentence intelligibility between native Dutch talkers and American talkers of Dutch, using native Dutch listeners, was found to correspond to a difference in speech-to-noise ratio of approximately 3 dB. The main contribution to the degradation of speech intelligibility by introducing non-native talkers and/or listeners, is by confusion of vowels, especially those that do not occur in American English.\n",
+    ""
+   ]
+  },
+  "micca99_mist": {
+   "authors": [
+    [
+     "Giorgio",
+     "Micca"
+    ],
+    [
+     "Enrico",
+     "Palme"
+    ],
+    [
+     "Alessandra",
+     "Frasca"
+    ]
+   ],
+   "title": "Multilingual vocabularies in automatic speech recognition",
+   "original": "mist_036",
+   "page_count": 4,
+   "order": 8,
+   "p1": 43,
+   "pn": 46,
+   "abstract": [
+    "The paper describes a method for dealing with multilingual vocabularies in speech recognition tasks. We present an approach that combines acoustic descriptive precision and capability of generalization to multiple languages. The approach is based on the concept of classes of transitions between phones. The classes are defined by means of objective measures on acoustic similarities among sounds of different languages. This procedure stems from the definition of a general language-independent model. When a new language is to be added to the model, the phonological structure of the language is mapped onto the set of classes belonging to the general model. Successively, if a limited amount of language-specific speech data becomes available for the new language, we identify those sounds which require the definition of additional classes. The experiments have been conducted in Italian, English and Spanish languages. The method can also be considered as a way of implementing cross-lingual porting of recognition models for a rapid prototyping of recognizers in a new target language, specifically in cases whereby the collection of large training databases would be economically infeasible.\n",
+    ""
+   ]
+  },
+  "uebler99_mist": {
+   "authors": [
+    [
+     "Ulla",
+     "Uebler"
+    ]
+   ],
+   "title": "Speech recognition in 7 languages",
+   "original": "mist_026",
+   "page_count": 6,
+   "order": 9,
+   "p1": 47,
+   "pn": 52,
+   "abstract": [
+    "In this study we present approaches to multilingual speech recognition. We first define different approaches, namely portation, cross-lingual and simultaneous multilingual speech recognition and present results in these approaches. In recent years we have ported our recognizer to other languages than German. Some experiments presented here show the performance of cross-lingual speech recognition of an untrained language with a recognizer trained with other languages. Our results show that some languages like Italian are per se easier to recognize with any of the recognizers than other languages. The substitution of phones for cross-lingual recognition is an important point and we compared results in cross-lingual recognition for different baseline systems and found that the number of shared acoustic units is very important for the performance.\n",
+    ""
+   ]
+  },
+  "kohler99_mist": {
+   "authors": [
+    [
+     "Joachim",
+     "Köhler"
+    ]
+   ],
+   "title": "Comparing three methods to create multilingual phone models forvocabulary independent speech recognition tasks",
+   "original": "mist_025",
+   "page_count": 6,
+   "order": 10,
+   "p1": 53,
+   "pn": 58,
+   "abstract": [
+    "This paper presents three different methods to develop multilingual phone models for flexible speech recognition tasks. The main goal of our investigations is to find multilingual speech units which work equally well in many languages. With this universal set it is possible to build speech recognition systems for a variety of languages. One advantage of this approach is to share acoustic-phonetic parameters in a HMM based speech recognition system. The multilingual approach starts with the phone set of six languages ending up with 232 language-dependent and context-independent phone models. Then, we developed three different methods to map the language-dependent models to a multilingual phone set. The first method is a direct mapping to the phone set of the International Phonetic Association (IPA). In the second approach we apply an automatic clustering algorithm for the phone models. The third method exploits the similarities of single mixture components of the language-dependent models. Like the first method the language specific models are mapped to the IPA inventory. In the second step an agglomerative clustering is performed on density level to find regions of similarities between the phone models of different languages. The experiments carried out with the SpeechDat(M) database show that the third method yields in almost the same recognition rate as with language-dependent models. However, using this method we observe a huge reduction of the number of densities in the multilingual system.\n",
+    ""
+   ]
+  },
+  "zissman99_mist": {
+   "authors": [
+    [
+     "Marc A.",
+     "Zissman"
+    ],
+    [
+     "Kay M.",
+     "Berkling"
+    ]
+   ],
+   "title": "Automatic Language Identification",
+   "original": "mist_t17",
+   "page_count": 9,
+   "order": 11,
+   "p1": 59,
+   "pn": 67,
+   "abstract": [
+    "Automatic language identification is the process by which the language of a digitized speech utterance is recognized by a computer. In this paper, we will describe the set of available cues for language identifi- cation and discuss the different approaches to building working systems. This overview includes a range of historic approaches, contemporary systems that have been evaluated on standard databases, as well as promising future approaches. Comparative results are also reported.\n",
+    ""
+   ]
+  },
+  "durou99_mist": {
+   "authors": [
+    [
+     "Geoffrey",
+     "Durou"
+    ]
+   ],
+   "title": "Multilingual text-independent speaker identification",
+   "original": "mist_022",
+   "page_count": 5,
+   "order": 12,
+   "p1": 68,
+   "pn": 72,
+   "abstract": [
+    "In this paper, we investigate two facets of speaker recognition : cross-language speaker identification and same-language non-native text-independent speaker identification. In this context, experiments have been conducted, using standard multi-Gaussian modeling, on the brand new multi-language TNO corpus. Our results indicate how speaker identification performance might be affected when speakers do not use the same language during the training and testing, or when the population is composed of non-native speakers.\n",
+    ""
+   ]
+  },
+  "pellegrino99_mist": {
+   "authors": [
+    [
+     "François",
+     "Pellegrino"
+    ],
+    [
+     "Jérôme",
+     "Farinas"
+    ],
+    [
+     "Régine",
+     "André-Obrecht"
+    ]
+   ],
+   "title": "Vowel system modeling: A complement to phoneticmodeling in language identification",
+   "original": "mist_035",
+   "page_count": 6,
+   "order": 13,
+   "p1": 73,
+   "pn": 78,
+   "abstract": [
+    "Most systems of Automatic Language Identification are based on phonotactic approaches. However, it is more and more evident that taking other features (phonetic, phonological, prosodic, etc.) into account will improve performances. This paper presents an unsupervised phonetic approach that aims to consider phonological cues related to the structure of vocalic and consonantal systems.\n",
+    "In this approach, unsupervised vowel/non vowel detection is used to model separately vocalic and consonantal systems. These Gaussian Mixture Models are initialized with a data-driven variant of the LBG algorithm: the LBG-Rissanen algorithm.\n",
+    "With 5 languages from the OGI MLTS corpus and in a closed set identification task, the system reaches 85 % of correct identification using 45-second duration utterances for male speakers. Using the vowel system modeling as a complement to an unsupervised phonetic modeling increases this performance up to 91 % while still requiring no labeled data.\n",
+    ""
+   ]
+  },
+  "berkling99_mist": {
+   "authors": [
+    [
+     "Kay",
+     "Berkling"
+    ],
+    [
+     "Julie",
+     "Vonwiller"
+    ],
+    [
+     "Chris",
+     "Cleirigh"
+    ]
+   ],
+   "title": "SCoPE, syllable core and periphery evaluation: automaticsyllabification and application to foreign accentidentification",
+   "original": "mist_034",
+   "page_count": 7,
+   "order": 14,
+   "p1": 79,
+   "pn": 85,
+   "abstract": [
+    "In this paper we apply a study of the structure of the English language towards an automatic syllabifi- cation algorithm. Elements of syllable structure are defined according to both their position in the syllable and to the position of the syllable within word structure. Elements of syllable structure that only occur at morpheme boundaries or that extend for the duration of morphemes are identified as peripheral elements; those that can occur anywhere with regard to word morphology are identified as core elements. All languages potentially make a distinction between core and peripheral elements of their syllable structure, however the specific forms these structures take will vary from language to language. In addition to problems posed by differences in phoneme inventories, we expect speakers with the greatest syllable structural differences between native and foreign language to have greatest difficulty with pronunciation in the foreign language. In this paper we will analyse two accents of Australian English: Arabic whose core/periphery structure is similar to English and Vietnamese, whose structure is maximally different to English.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Non-native Speech and Accents",
+   "papers": [
+    "compernolle99_mist",
+    "wanneroy99_mist",
+    "leeuwen99_mist"
+   ]
+  },
+  {
+   "title": "Human Perception and Assessment",
+   "papers": [
+    "cole99_mist",
+    "samarta99_mist",
+    "voiers99_mist",
+    "wijngaarden99_mist"
+   ]
+  },
+  {
+   "title": "Cross-Language Studies",
+   "papers": [
+    "micca99_mist",
+    "uebler99_mist",
+    "kohler99_mist"
+   ]
+  },
+  {
+   "title": "Identification",
+   "papers": [
+    "zissman99_mist",
+    "durou99_mist",
+    "pellegrino99_mist",
+    "berkling99_mist"
+   ]
+  }
+ ]
+}

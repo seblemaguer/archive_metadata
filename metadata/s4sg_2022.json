@@ -1,0 +1,399 @@
+{
+ "series": "S4SG",
+ "title": "1st Workshop on Speech for Social Good (S4SG)",
+ "location": "Incheon, Korea",
+ "startDate": "24/09/2022",
+ "endDate": "25/09/2022",
+ "URL": "https://s4sg-workshop.github.io",
+ "chair": "Chairs: Anurag Katakkar and Alan W Black",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "S4SG",
+ "year": "2022",
+ "name": "s4sg_2022",
+ "SIG": "",
+ "title1": "1st Workshop on Speech for Social Good",
+ "title2": "(S4SG)",
+ "date": "24-25 September 2022",
+ "booklet": "s4sg_2022.pdf",
+ "papers": {
+  "kumar22_s4sg": {
+   "authors": [
+    [
+     "Ritesh",
+     "Kumar"
+    ],
+    [
+     "Siddharth",
+     "Singh"
+    ],
+    [
+     "Shyam",
+     "Ratan"
+    ],
+    [
+     "Mohit",
+     "Raj"
+    ],
+    [
+     "Sonal",
+     "Sinha"
+    ],
+    [
+     "Sumitra",
+     "Mishra"
+    ],
+    [
+     "Bornini",
+     "Lahiri"
+    ],
+    [
+     "Vivek",
+     "Seshadri"
+    ],
+    [
+     "Kalika",
+     "Bali"
+    ],
+    [
+     "Atul Kr.",
+     "Ojha"
+    ]
+   ],
+   "title": "Annotated Speech Corpus for Low Resource Indian Langauges: Awadhi, Bhojpuri, Braj and Magahi",
+   "original": "1",
+   "page_count": 5,
+   "order": 2,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "In this paper we discuss an in-progress work on the development of a speech corpus for four low-resource Indo-Aryan languages - Awadhi, Bhojpuri, Braj and Magahi - using the field methods of linguistic data collection. The total size of the corpus currently stands at approximately 18 hours (approx. 4-5 hours each language) and it is transcribed and annotated with grammatical information such as part-of-speech tags, morphological features and Universal dependency relationships. We discuss our methodology for data collection in these languages, most of which was done in the middle of the COVID - 19 pandemic, with one of the aims being to generate some additional income for low-income groups speaking these languages. In the paper, we also discuss the results of the baseline experiments for automatic speech recognition system in these languages.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-1"
+  },
+  "brixey22_s4sg": {
+   "authors": [
+    [
+     "Jacqueline",
+     "Brixey"
+    ],
+    [
+     "David",
+     "Traum"
+    ]
+   ],
+   "title": "Towards an Automatic Speech Recognizer for the Choctaw language",
+   "original": "2",
+   "page_count": 4,
+   "order": 3,
+   "p1": 6,
+   "pn": 9,
+   "abstract": [
+    "In this work we describe ongoing development of the first automatic speech recognition (ASR) system for the American indigenous language, Choctaw (ISO 639-2: cho, endonym: Chahta). Choctaw is spoken by the Choctaw people, with an estimated 10,000 fluent speakers across three federally recognized Choctaw tribes. The Choctaw language is subject-object-verb order, and is highly inflectional, with prefixes, suffixes, and infixes possible on a single verb base. The language also has rhythmic lengthening, in which certain vowels are lengthened based on vowels in affixes. The motivation for developing an ASR system include: assisting in efforts to revitalize and reclaim the endangered language by aiding language learners; promoting additional contexts and scenarios for increased language use, such as conversations with automated dialogue systems; and supporting language documentation. We describe our collection of two-party conversational data and repetition of prepared phrases from a diverse set of speakers that was used to train the system. The ASR model was implemented using Kaldi. The model is currently trained and tested on a subset of the collected data, and achieves a WER of 49.35%.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-2"
+  },
+  "ogayo22_s4sg": {
+   "authors": [
+    [
+     "Perez",
+     "Ogayo"
+    ],
+    [
+     "Graham",
+     "Neubig"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "Building TTS systems for low resource languages under resource constraints",
+   "original": "3",
+   "page_count": 0,
+   "order": 4,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The field of speech synthesis has advanced to remarkable levels of producing natural-sounding speech given sufficient high-quality data. As a result, speech synthesis applications are increasingly becoming ubiquitous for high resource languages. However, support for low resource languages is limited by the lack of data. This project aims to democratize text-to-speech systems and datasets for African languages. Through a participatory approach, we curate data from existing \"found\" sources and record datasets using more affordable equipment. We build Flite-based voices that can be easily deployed to mobile phones and require less expensive compute to train so that the work can be accessible. We release the speech data, code, and trained voices for 16 African languages to help researchers and developers. In addition, through our website users can interact with the synthesizers and provide feedback for iterative improvement of the synthesizers. Finally, we show that we can develop synthesizers that generate intelligible speech with 25 minutes of created speech, even when recorded in suboptimal environments. This paper appears in Interspeech 2022 as \"Building African Voices\", doi: 10.21437/Interspeech.2022-152"
+   ]
+  },
+  "dutta22_s4sg": {
+   "authors": [
+    [
+     "Satwik",
+     "Dutta"
+    ],
+    [
+     "Jacob C.",
+     "Reyna"
+    ],
+    [
+     "Jay F.",
+     "Buzhardt"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "John H.L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Can Smartphones be a cost-effective alternative to LENA for Early Childhood Language Intervention?",
+   "original": "4",
+   "page_count": 5,
+   "order": 6,
+   "p1": 10,
+   "pn": 14,
+   "abstract": [
+    "Although non-profit commercial products such as LENA can provide valuable feedback to parents and early childhood educators about their children’s or student’s daily communication interactions, their cost and technology requirements put them out of reach of many families who could benefit. Over the last two decades, smartphones have become commonly used in most households irrespective of their socio-economic background. In this study, conducted during the COVID-19 pandemic, we aim to compare audio collected on LENA recorders versus smartphones available to families in an unsupervised data collection protocol. Approximately 10 hours of audio evaluated in this study was collected by three families in their homes during parent-child science book reading activities with their children. We report comparisons and found similar performance between the two audio capture devices based on their speech signal-to-noise ratio (NIST STNR) and word-error-rates calculated using automatic speech recognition (ASR) engines. Finally, we discuss implications of this study for expanding this technology to more diverse populations, limitations and future directions.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-3"
+  },
+  "zhang22_s4sg": {
+   "authors": [
+    [
+     "Yixuan",
+     "Zhang"
+    ],
+    [
+     "Yuanyuan",
+     "Zhang"
+    ],
+    [
+     "Tanvina",
+     "Patel"
+    ],
+    [
+     "Odette",
+     "Scharenborg"
+    ]
+   ],
+   "title": "Comparing data augmentation and training techniques to reduce bias against non-native accents in hybrid speech recognition systems",
+   "original": "5",
+   "page_count": 5,
+   "order": 7,
+   "p1": 15,
+   "pn": 19,
+   "abstract": [
+    "One important problem that needs tackling for wide deployment of Automatic Speech Recognition (ASR) is the bias in ASR, i.e., ASRs tend to generate more accurate predictions for certain speaker groups while making more errors on speech from other groups. We aim to reduce bias against non-native speakers of Dutch compared to native Dutch speakers. We investigate three different data augmentation techniques - speed and volume perturbation and pitch shift - to increase the amount of non-native accented Dutch training data, and use the augmented data for two transfer learning techniques: model fine-tuning and multi-task learning, to reduce bias in a state-of-the-art hybrid HMM-DNN Kaldi-based ASR system. Experimental results on Dutch read speech and human-machine interaction (HMI) speech showed that although individual data augmentation techniques did not always yield an improved recognition performance, the combination of all three did. Importantly, bias was reduced by more than 18% absolute compared to the baseline system for read speech when applying pitch shift and multitask training, and by more than 7% for HMI speech when applying all three data augmentation techniques during fine-tuning, while improving recognition accuracy of both native and non-native Dutch speech.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-4"
+  },
+  "deviyani22_s4sg": {
+   "authors": [
+    [
+     "Athiya",
+     "Deviyani"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "Text Normalization for Speech Systems for All Languages",
+   "original": "6",
+   "page_count": 6,
+   "order": 8,
+   "p1": 20,
+   "pn": 25,
+   "abstract": [
+    "Most text-to-speech systems suffer from the limitation that its inputs should be a set of strings of characters with standard pronunciation, and struggle when given input is in the form of symbols, numbers, or abbreviations that often occur in real text. One of the most common ways to address this problem is to automatically map non-standard words to standard words using statistical, neural and rule-driven methods. However, despite the significant efforts of normalizing such words, there is just too much variability in existing corpora such that it is extremely challenging to capture edge cases. In this work, we propose a tool which aids data collection from (non-programmer) native speakers to allow numbers and other common non-standard words to be mapped to standard words that can be pronounced correctly by a synthesizer, while addressing related problems such as identifying common non-standard words appear in text and how do we ask questions from native speakers to get sufficient information to allow a useful normalization of non-standard words.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-5"
+  },
+  "tobin22_s4sg": {
+   "authors": [
+    [
+     "Jimmy",
+     "Tobin"
+    ],
+    [
+     "Qisheng",
+     "Li"
+    ],
+    [
+     "Subhashini",
+     "Venugopalan"
+    ],
+    [
+     "Katie",
+     "Seaver"
+    ],
+    [
+     "Richard",
+     "Cave"
+    ],
+    [
+     "Katrin",
+     "Tomanek"
+    ]
+   ],
+   "title": "Assessing ASR Model Quality on Disordered Speech using BERTScore",
+   "original": "7",
+   "page_count": 5,
+   "order": 10,
+   "p1": 26,
+   "pn": 30,
+   "abstract": [
+    "Word Error Rate (WER) is the primary metric used to assess automatic speech recognition (ASR) model quality. It has been shown that ASR models tend to have much higher WER on speakers with speech impairments than typical English speakers. It is hard to determine if models can be be useful at such high error rates. This study investigates the use of BERTScore, an evaluation metric for text generation, to provide a more informative measure of ASR model quality and usefulness. Both BERTScore and WER were compared to prediction errors manually annotated by Speech Language Pathologists for error type and assessment. BERTScore was found to be more correlated with human assessment of error type and assessment. BERTScore was specifically more robust to orthographic changes (contraction and normalization errors) where meaning was preserved. Furthermore, BERTScore was a better fit of error assessment than WER, as measured using an ordinal logistic regression and the Akaike’s Information Criterion (AIC). Overall, our findings suggest that BERTScore can complement WER when assessing ASR model performance from a practical perspective, especially for accessibility applications where models are useful even at lower accuracy than for typical speech.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-6"
+  },
+  "therattil22_s4sg": {
+   "authors": [
+    [
+     "Anand",
+     "Therattil"
+    ],
+    [
+     "Aastha",
+     "Kachhi"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Cross-Teager Cepstral Coefficients For Dysarthric Severity Level Classification",
+   "original": "8",
+   "page_count": 5,
+   "order": 11,
+   "p1": 31,
+   "pn": 35,
+   "abstract": [
+    "Dysarthria is a degenerative motor speech impairment, generally resulting into neurological damage in human body. This impairment causes the speech to be unintelligible to the humans, depending on the patient’s severity-level. Classification of dysarthric severity-level aids as a diagnostic tool to assess advancement of the patient’s condition, which also aids in dysarthric Automatic Speech Recognition (ASR), as the traditional ASR systems performs poorly on dysarthric speech. This study investigates the effect of Cross-Teager Energy Cepstral Coefficients (CTECC) on standard and statically meaningful UA-Speech corpus, which captures the energy-based signal from microphone array using the deep learning architecture, such as Convolutional Neural Network (CNN) with classification accuracy of 95.76%. The key objective of this thesis is to select optimal microphone (channel) with minimum amount of energy, which captures the maximum linguistic information of dysarthric speech. Additionally, the performance of CTECC feature is compared with Short-Time Fourier Transform (STFT)-based features, which gave classification accuracy of 91.76% on CNN classifier. Further, the Jaccard index, Matthew’s Correlation Coefficient (MCC), F1-score, and Hamming loss are used to examine feature discrimination power. Finally, we analyze the latency period for the proposed CTECC feature set for practical deployment of the classification system.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-7"
+  },
+  "yoshimoto22_s4sg": {
+   "authors": [
+    [
+     "Takuma",
+     "Yoshimoto"
+    ],
+    [
+     "Ryoichi",
+     "Takashima"
+    ],
+    [
+     "Chiho",
+     "Sasaki"
+    ],
+    [
+     "Tetsuya",
+     "Takiguchi"
+    ]
+   ],
+   "title": "Highly Intelligible Speech Synthesis for Spinal Muscular Atrophy Patients Based on Model Adaptation",
+   "original": "9",
+   "page_count": 5,
+   "order": 12,
+   "p1": 36,
+   "pn": 40,
+   "abstract": [
+    "Recently, speech signal processing technology has been used to assist people with disabilities, and the demand for such technology is increasing. In this study, we focus on spinal muscular atrophy (SMA) patients. SMA is a neuromuscular disease. Those with this disease have speech that is unclear compared to that of normal subjects which results from the use of a ventilator after a tracheotomy and from the atrophy of muscles that move the mouth, etc. Therefore, it is difficult to understand what they are saying, making communication difficult. In this paper, we analyze the speech of people with SMA and propose a text-to-speech (TTS) system to aid in communication. The proposed system uses an approach that adapts a TTS model pre-trained using normal speech to speech of a person with SMA. This system can synthesize speech having both of intelligibility derived from normal speech and individuality derived from the speech of the target subject with SMA.\n"
+   ],
+   "doi": "10.21437/S4SG.2022-8"
+  },
+  "kumar22b_s4sg": {
+   "authors": [
+    [
+     "Pratyush",
+     "Kumar"
+    ]
+   ],
+   "title": "What does it really take to build speech recognition systems for the next billion users?",
+   "original": "keynote1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Dr. Pratyush Kumar talks about the AI4Bharat project which aims to \"bring parity with respect to English in AI technologies for Indian languages with open-source contributions in datasets, models, and applications and by enabling an innovation ecosystem\". He talks about the trifecta of data, models, and applications required to realise this mission. He also describes three datasets that include several low-resource Indian languages - Dhwani, Shrutilipi, and Kathbath - the challenges associated with curating these datasets, and experiments with ASR models to achieve state-of-the-art performance. The talk concludes with discussion about open-source contributions to the AI4Bharat platform, including the Chitralekha project, an ASR tool integrated in NPTEL (a leading online learning platform) with support for 9 Indian languages.\n"
+   ]
+  },
+  "scharenborg22_s4sg": {
+   "authors": [
+    [
+     "Odette",
+     "Scharenborg"
+    ],
+    [
+     "Emily",
+     "Ahn"
+    ],
+    [
+     "Gopala",
+     "Anumanchipalli"
+    ],
+    [
+     "Sakriani",
+     "Sakti"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "Panel Discussion: Data Collection, Bias, and Ethical Concerns in Speech Processing",
+   "original": "panel",
+   "page_count": 0,
+   "order": 5,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Going beyond mainstream modelling-focused research, this panel discussion focuses on questions of data collection, bias, and ethical concerns in speech processing. Moderated by Alan W Black, the discussion solicits answers from experts with diverse backgrounds on questions of consequences of bias in data collection, consequences of machine learning algorithms, large pre-trained language models in speech, and the differences of incentive in academia and industry.\n"
+   ]
+  },
+  "ramanarayanan22_s4sg": {
+   "authors": [
+    [
+     "Vikram",
+     "Ramanarayanan"
+    ]
+   ],
+   "title": "Multimodal Dialog Technologies for Neurological and Mental Health",
+   "original": "keynote2",
+   "page_count": 0,
+   "order": 9,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "While deep learning based approaches have made huge strides in improving the performance of speech technologies, several challenges prevent them from being directly useful in the medical domain. In this keynote, Dr. Vikram Ramanarayanan talks about \"Multimodal Conversational AI for Remote Patient Health Assessment and Monitoring\". His presentation delineates the drawbacks of incumbent clinical assessment practices and highlights the urgent need for remote patient monitoring and assessment in healthcare, especially in the wake of the COVID-19 pandemic. The talk covers task-oriented multimodal systems deployed in real-world scenarios, issues in bridging the gap between academic innovation an in-clinic use, and open challenges, and case studies from different disorders, and a discussion on the aforementioned challenges unique to deploying speech technologies in the medical domain.\n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Low-Resource/Multilingual NLP",
+   "papers": [
+    "kumar22b_s4sg",
+    "kumar22_s4sg",
+    "brixey22_s4sg",
+    "ogayo22_s4sg"
+   ]
+  },
+  {
+   "title": "Panel Discussion and Miscellaneous Topics",
+   "papers": [
+    "scharenborg22_s4sg",
+    "dutta22_s4sg",
+    "zhang22_s4sg",
+    "deviyani22_s4sg"
+   ]
+  },
+  {
+   "title": "Medical Applications",
+   "papers": [
+    "ramanarayanan22_s4sg",
+    "tobin22_s4sg",
+    "therattil22_s4sg",
+    "yoshimoto22_s4sg"
+   ]
+  }
+ ],
+ "doi": "10.21437/S4SG.2022"
+}

@@ -1,0 +1,540 @@
+{
+ "title": "2nd Workshop on Speech, Language and Audio in Multimedia (SLAM 2014)",
+ "location": "Penang, Malaysia",
+ "startDate": "11/9/2014",
+ "endDate": "12/9/2014",
+ "original_url": "http://www.isca-speech.org/archive/slam_2014",
+ "conf": "SLAM",
+ "year": "2014",
+ "name": "slam_2014",
+ "series": "SLAM",
+ "SIG": "SLIM",
+ "title1": "2nd Workshop on Speech, Language and Audio in Multimedia",
+ "title2": "(SLAM 2014)",
+ "date": "11-12 September 2014",
+ "booklet": "slam_2014.pdf",
+ "papers": {
+  "narayanan14_slam": {
+   "authors": [
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Behavioral informatics from multimodal human interaction cues",
+   "original": "slm4_001",
+   "page_count": 1,
+   "order": 1,
+   "p1": "1",
+   "pn": "",
+   "abstract": [
+    "The confluence of advances in sensing, communication and computing technologies is allowing capture and access to data of human interaction and its context, in diverse forms and modalities, in ways that were unimaginable even a few years ago. Importantly, these data afford the analysis and interpretation of multi-modal cues of verbal and non-verbal human behaviour. These signals carry crucial information about not only a person’s intent and identity but also underlying attitudes and emotions. Automatically capturing these cues, although vastly challenging, offers the promise of not just efficient data processing but in tools for discovery that enable hitherto unimagined insights. Recent computational approaches that have leveraged judicious use of both data and domain knowledge have shown promising advances in this regards, for example in deriving rich information about behaviour constructs. This talk will focus on some of the advances (and challenges) in gathering such data and creating algorithms for machine processing of such cues. It will highlight some of our ongoing efforts in Behavioural Signal Processing (BSP)—technology and algorithms for quantitatively and objectively understanding typical, atypical and distressed human behaviour — with a specific focus on communicative, affective and social behaviour. The talk will illustrate Behavioural Informatics applications of these techniques that contribute to quantifying higher-level, often subjectively described, human behaviour in a domain-sensitive fashion using examples from Autism, Couple therapy and Addiction counselling.\n",
+    ""
+   ]
+  },
+  "kan14_slam": {
+   "authors": [
+    [
+     "Min-Yen",
+     "Kan"
+    ]
+   ],
+   "title": "Opportunities for multimedia analysis in scholarly digital libraries",
+   "original": "slm4_002",
+   "page_count": 1,
+   "order": 2,
+   "p1": "2",
+   "pn": "",
+   "abstract": [
+    "Today's scientific literature contains a multitude of multimedia data. While we struggle as a community to define the next generation of scholarly dissemination, we should also capitalize on the opportunities to mine our scholarly literature. Aside from text, documents embed figures representing examples, charts of experimental results, diagrams illustrating workflows, often accompanied by their explanatory captions. Scholars use key phrases, argumentative flow and section headers as discourse markers to indicate important results. By machine reading of these documents, we can enable semi-automated scientific discovery, including the generation of augmented and linked slide presentations, survey papers, collection of scientific terms and their definitions. We will present the current state of these works, describing work done at NUS while touching on other international groups' initiatives. In many fora, the scientific record is also accompanied by more informal presentations such as keynotes and conference talks. With the growing proportion of these talks being recorded and opened to the public, we have a chance to link the textual data within scientific documents to their oral presentations. We touch on the recent work in all of these areas and point forward to the upcoming synergies between ASR, NLP and multimedia analysis that will augment and define the next generation of digital libraries.   We will present the Association of Computational Linguistics' current thinking towards enabling this process workflow. We have designed a digital library that allows third parties to request, ingest and process the official scientific publications of the ACL Anthology, and allow them to publish their results in a designated part of the website.\n",
+    ""
+   ]
+  },
+  "elizalde14_slam": {
+   "authors": [
+    [
+     "Benjamin",
+     "Elizalde"
+    ],
+    [
+     "Mirco",
+     "Ravanelli"
+    ],
+    [
+     "Karl",
+     "Ni"
+    ],
+    [
+     "Damian",
+     "Borth"
+    ],
+    [
+     "Gerald",
+     "Friedland"
+    ]
+   ],
+   "title": "Audio-concept features and hidden Markov models for multimedia event detection",
+   "original": "slm4_003",
+   "page_count": 6,
+   "order": 3,
+   "p1": "3",
+   "pn": "8",
+   "abstract": [
+    "Multimedia event detection (MED) on user-generated content is the task of finding an event, e.g., a Flash mob or Attempting a bike trick, using its content characteristics. Recent research has focused on approaches that use semantically defined “concepts” trained with annotated audio clips. Using audio concepts allows us to show semantic evidence of their relationship to events, by looking at the probability distribution of the audio concepts per event. However, while the concept-based approach has been useful in image detection, audio concepts have generally not surpassed the performance of low-level audio features like Mel Frequency Cepstral Coefficients (MFCCs) in addressing the unstructured acoustic composition of video events. Such audio-concept based systems could benefit from temporal information, due to one of the intrinsic characteristics of audio: it occurs across a time interval. This paper presents a multimedia event detection system that uses audio concepts; it exploits the temporal correlation of audio characteristics for each particular event at two levels. The first level involves analyzing the short- and long-term surrounding context information for the audio concepts, through an implementation of a Hierarchical Deep Neural Network (H-DNN), to determine engineered audio-concept features. At the second level, we use Hidden Markov Models (HMMs) to describe the continuous and non-stationary characteristics of the audio signal throughout the video. Experiments using the TRECVID MED 2013 corpus show that an HMM system based on audio-concept features can perform competitively when compared with an MFCC-based system.\n",
+    "",
+    "",
+    "Index Terms: Audio Concepts, Video Event Detection, TRECVID MED, Deep Neural Networks, Hidden Markov Models.\n",
+    ""
+   ]
+  },
+  "quillen14_slam": {
+   "authors": [
+    [
+     "Carl",
+     "Quillen"
+    ],
+    [
+     "Kara",
+     "Greenfield"
+    ],
+    [
+     "William",
+     "Campbell"
+    ]
+   ],
+   "title": "Talking head detection by likelihood-ratio test",
+   "original": "slm4_009",
+   "page_count": 5,
+   "order": 4,
+   "p1": "9",
+   "pn": "13",
+   "abstract": [
+    "Detecting accurately when a person whose face is visible in an audio-visual medium is the audible speaker is an enabling technology with a number of useful applications. These include fused audio/visual speaker recognition, AV (audio/visual) segmentation and diarization as well as AV synchronization. The likelihood-ratio test formulation and feature signal processing employed here allow the use of high-dimensional feature sets in the audio and visual domain, and the approach appears to have good detection performance for AV segments as short as a few seconds. Computation costs for the resulting algorithm are modest, typically much less than the front-end facedetection system. While the resulting system requires model training, only true condition training (i.e. video where the talking speaker is audible) is required.\n",
+    ""
+   ]
+  },
+  "fernandezmartinez14_slam": {
+   "authors": [
+    [
+     "Fernando",
+     "Fernández-Martínez"
+    ],
+    [
+     "Alejandro",
+     "Hernández-García"
+    ],
+    [
+     "Ascensión",
+     "Gallardo-Antolín"
+    ],
+    [
+     "Fernando",
+     "Díaz-De-María"
+    ]
+   ],
+   "title": "Combining audio-visual features for viewers’ perception classification of Youtube car commercials",
+   "original": "slm4_014",
+   "page_count": 5,
+   "order": 5,
+   "p1": "14",
+   "pn": "18",
+   "abstract": [
+    "In this paper, we present a computational model capable of predicting the viewer perception of Youtube car TV commercials by using a set of low-level audio and visual descriptors. Our research goal relies on the hypothesis that these descriptors could reflect to some extent the objective value of the videos and, in turn, the average viewer’s perception. To that end, and as a novel approach to this problem, we automatically annotate our video corpus, grouped into 2 classes corresponding to different satisfaction levels, by means of a regular k-means algorithm applied to the video metadata related to users feedback. Evaluation results show that simple linear logistic regression models based on the 10 best visual descriptors and on the 10 best audio descriptors individually perform reasonably well, achieving a classification accuracy of roughly 70% and 75%, respectively. Combination of audio and visual descriptors yields better performance, roughly 86% for the top-20 selected from the entire descriptor set, but tipping the balance in favor of the audio ones (i.e. 17 vs 3). Audio content bigger influence in this domain is also evidenced by a side analysis of the video comments.\n",
+    "",
+    "",
+    "Index Terms: subjective assessment, video aesthetics, Music Information Retrieval, video metadata\n",
+    ""
+   ]
+  },
+  "simon14_slam": {
+   "authors": [
+    [
+     "Anca",
+     "Simon"
+    ],
+    [
+     "Camille",
+     "Guinaudeau"
+    ],
+    [
+     "Pascale",
+     "Sébillot"
+    ],
+    [
+     "Guillaume",
+     "Gravier"
+    ]
+   ],
+   "title": "Investigating domain-independent nlp techniques for precise target selection in video hyperlinking",
+   "original": "slm4_019",
+   "page_count": 5,
+   "order": 6,
+   "p1": "19",
+   "pn": "23",
+   "abstract": [
+    "Automatic generation of hyperlinks in multimedia video data is a subject with growing interest, as demonstrated by recent work undergone in the framework of the Search and Hyperlinking task within the Mediaeval benchmark initiative. In this paper, we compare NLP-based strategies for precise target selection in video hyperlinking exploiting speech material, with the goal of providing hyperlinks from a specified anchor to help information retrieval. We experimentally compare two approaches enabling to select short portions of videos which are relevant and possibly complementary with respect to the anchor. The first approach exploits a bipartite graph relating utterances and words to find the most relevant utterances. The second one uses explicit topic segmentation, whether hierarchical or not, to select the target segments. Experimental results are reported on the Mediaeval 2013 Search and Hyperlinking dataset which consists of BBC videos, demonstrating the interest of hierarchical topic segmentation for precise target selection.\n",
+    "",
+    "",
+    "Index Terms: Multimedia hyperlinking, topic segmentation, link analysis, information retrieval\n",
+    ""
+   ]
+  },
+  "damnati14_slam": {
+   "authors": [
+    [
+     "Geraldine",
+     "Damnati"
+    ],
+    [
+     "Benoît",
+     "Favre"
+    ],
+    [
+     "Frédéric",
+     "Bechet"
+    ],
+    [
+     "Delphine",
+     "Charlet"
+    ]
+   ],
+   "title": "Person name recognition and linking from overlay text in TV broadcast shows",
+   "original": "slm4_024",
+   "page_count": 5,
+   "order": 7,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "Identifying people in video broadcast is by nature a multimodal task: persons can be identified thanks to biometric information (face or voice), or thanks to a reference to their identity in the overlaid text or the speech content. In the framework of the French evaluation program Repere, this paper presents a method for identifying speakers in videos without any a-priori models, based only on overlaid text often used to introduce guests or journalists occurring for the first time in a given TV show. We show that Entity Linking improves speaker identification performance by reducing ambiguities in OCR transcriptions and allowing to add biometric constraints in the multimodal fusion process. All the methods presented are evaluated on the Repere video corpus of broadcast shows from 2 French TV channels and 5 different shows (news, talk shows, magazine).\n",
+    "",
+    "",
+    "Index Terms: OCR, Named Entity, Entity Linking, Multimodal fusion\n",
+    ""
+   ]
+  },
+  "illina14_slam": {
+   "authors": [
+    [
+     "Irina",
+     "Illina"
+    ],
+    [
+     "Dominique",
+     "Fohr"
+    ],
+    [
+     "Georges",
+     "Linarès"
+    ]
+   ],
+   "title": "Proper name retrieval from diachronic documents for automatic speech transcription using lexical and temporal context",
+   "original": "slm4_029",
+   "page_count": 5,
+   "order": 8,
+   "p1": "29",
+   "pn": "33",
+   "abstract": [
+    "Proper names are usually key to understanding the information contained in a document. Our work focuses on increasing the vocabulary coverage of a speech transcription system by automatically retrieving new proper names from contemporary diachronic text documents. The idea is to use in-vocabulary proper names as an anchor to collect new linked proper names from the diachronic corpus. Our assumption is that time is an important feature for capturing name-to-context dependencies, that was confirmed by temporal mismatch experiments. We studied a method based on Mutual Information and proposed a new method based on cosine-similarity measure that dynamically augment the automatic speech recognition system vocabulary. Recognition results show a significant reduction of the word error rate using augmented vocabulary for broadcast news transcription.\n",
+    "",
+    "",
+    "Index Terms: speech recognition, out-of-vocabulary words, proper names, vocabulary augmentation\n",
+    ""
+   ]
+  },
+  "bernard14_slam": {
+   "authors": [
+    [
+     "Guillaume",
+     "Bernard"
+    ],
+    [
+     "Olivier",
+     "Galibert"
+    ],
+    [
+     "Juliette",
+     "Kahn"
+    ]
+   ],
+   "title": "The second official REPERE evaluation",
+   "original": "slm4_034",
+   "page_count": 5,
+   "order": 9,
+   "p1": "34",
+   "pn": "38",
+   "abstract": [
+    "The REPERE Challenge aims at supporting research on people recognition in multimodal conditions. Following a 2012 dry-run and a first official campaign, the second official evaluation of systems has been conducted at the beginning of 2014. To both help system development and assess the technology progress a specific corpus has been developed. It current totals 60 hours of video with multimodal annotations. The systems have to answer the following questions: Who is speaking? Who is present in the video? What names are cited? What names are displayed? The challenge is to combine the various informations coming from the speech and the images. For the 2014 edition, a surprise show has been added to the test corpus and a new method to estimate the significance of the performance difference has been introduced.\n",
+    "",
+    "",
+    "Index Terms: REPERE, multimodality, evaluation, fusion, person recognition\n",
+    ""
+   ]
+  },
+  "lorenzotrueba14_slam": {
+   "authors": [
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Julián D.",
+     "Echeverry-Correa"
+    ],
+    [
+     "Roberto",
+     "Barra-Chicote"
+    ],
+    [
+     "Rubén",
+     "San-Segundo"
+    ],
+    [
+     "Javier",
+     "Ferreiros"
+    ],
+    [
+     "Ascensión",
+     "Gallardo-Antolín"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Simon",
+     "King"
+    ],
+    [
+     "Juan M.",
+     "Montero"
+    ]
+   ],
+   "title": "Development of a genre-dependent TTS system with cross-speaker speaking-style transplantation",
+   "original": "slm4_039",
+   "page_count": 4,
+   "order": 10,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "One of the biggest challenges in speech synthesis is the production of contextually-appropriate naturally sounding synthetic voices. This means that a Text-To-Speech system must be able to analyze a text beyond the sentence limits in order to select, or even modulate, the speaking style according to a broader context. Our current architecture is based on a two-step approach: text genre identification and speaking style synthesis according to the detected discourse genre. For the final implementation, a set of four genres and their corresponding speaking styles were considered: broadcast news, live sport commentaries, interviews and political speeches. In the final TTS evaluation, the four speaking styles were transplanted to the neutral voices of other speakers not included in the training database. When the transplanted styles were compared to the neutral voices, transplantation was significantly preferred and the similarity to the target speaker was as high as 78%.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, speaking style transplantation, automatic genre identification, Latent Semantic Analysis\n",
+    ""
+   ]
+  },
+  "budnik14_slam": {
+   "authors": [
+    [
+     "Mateusz",
+     "Budnik"
+    ],
+    [
+     "Johann",
+     "Poignant"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Georges",
+     "Quénot"
+    ]
+   ],
+   "title": "Active selection with label propagation for minimizing human effort in speaker annotation of TV shows",
+   "original": "slm4_043",
+   "page_count": 5,
+   "order": 11,
+   "p1": "43",
+   "pn": "47",
+   "abstract": [
+    "In this paper an approach minimizing the human involvement in the manual annotation of speakers is presented. At each iteration a selection strategy choses the most suitable speech track for manual annotation, which is then associated with all the tracks in the cluster that contains it. The study makes use of a system that propagates the speaker track labels. This is done using a agglomerative clustering with constraints. Several different unsupervised active learning selection strategies are evaluated.   Additionally, the presented approach can be used to efficiently generate sets of speech tracks for training biometric models. In this case both the length of the speech track for a given person and its purity are taken into consideration.   To evaluate the system the REPERE video corpus was used. Along with the speech tracks extracted from the videos, the optical character recognition system was adapted to extract names of potential speakers. This was then used as the ’cold start’ for the selection method.\n",
+    "",
+    "",
+    "Index Terms: active learning, annotation propagation, clustering, speaker identification\n",
+    ""
+   ]
+  },
+  "madhu14_slam": {
+   "authors": [
+    [
+     "Nilesh",
+     "Madhu"
+    ],
+    [
+     "Sung Kyo",
+     "Jung"
+    ]
+   ],
+   "title": "Speaker recognition performance under ideal-knowledge noise suppression: an investigation",
+   "original": "slm4_048",
+   "page_count": 5,
+   "order": 12,
+   "p1": "48",
+   "pn": "52",
+   "abstract": [
+    "Speaker recognition in mobile devices suffers from poor performance in noisy environments, necessitating the use of noisesuppression algorithms. These typically apply time-frequency masks – optimised on the signal statistics – to the noisy signal spectrum, suppressing the noise components while preserving the speech. Studies in the field of speech recognition demonstrate that ideal time-frequency masks (i.e. masks generated based on ideal knowledge of the speech and noise spectra) improve the recognition rate even at very poor signal-to-noiseratios (SNRs). The effects of such masking on the performance of speaker recognition systems are studied here, to gain a better understanding of pre-processing that is beneficial for automated speaker recognition. Two masking approaches are considered: the ideal binary mask and the ideal Wiener filter. We demonstrate that such ideal noise suppression significantly improves the recognition rate over the unprocessed system. As any noise suppression algorithm involves a trade-off between noise modulation and speech attenuation artefacts, the relative effect of these artefacts on speaker recognition performance is analysed next. We show that speech attenuation has a larger influence on the performance as compared to noise modulation at typical SNR values. Thus, we conclude, preserving speech even at the cost of lower noise suppression (and, consequently, larger noise modulation) is beneficial to speaker recognition. This conclusion is further validated.\n",
+    "",
+    "",
+    "Index Terms: Speaker recognition, ideal binary mask, ideal Wiener filter, noise suppression\n",
+    ""
+   ]
+  },
+  "khaw14_slam": {
+   "authors": [
+    [
+     "Yen-Min Jasmina",
+     "Khaw"
+    ],
+    [
+     "Tien-Ping",
+     "Tan"
+    ]
+   ],
+   "title": "Preparation of MaDiTS corpus for Malay dialect translation and speech synthesis system",
+   "original": "slm4_053",
+   "page_count": 5,
+   "order": 13,
+   "p1": "53",
+   "pn": "57",
+   "abstract": [
+    "This paper presents our work in acquiring a Malay dialect translation and speech synthesis corpus. In this study, an architecture of speech corpus acquisition, which including Malay dialect translation and Malay dialect grapheme to phoneme (G2P), was proposed. The pronunciation dictionary for dialectal Malay was generated through G2P tool. As dialectal Malay is considered as scarce resource, dialectal translation rules were developed for translating standard Malay text into dialectal Malay. With this, Kelantanese Malay is chosen in this research as it is considered as one of the Malay dialect from Kelantan, which positioned in the northeast of Peninsular Malaysia. This dialect is very distinctive. Evaluation results showed that the selected sentences through proposed approach has a correlation coefficient of about 0.99, which mean that it is phonetically well balanced.\n",
+    "",
+    "",
+    "Index Terms: Malay dialect translation, Malay dialect grapheme to phoneme, speech synthesis corpus\n",
+    ""
+   ]
+  },
+  "parlak14_slam": {
+   "authors": [
+    [
+     "Cevahir",
+     "Parlak"
+    ],
+    [
+     "Banu",
+     "Diri"
+    ],
+    [
+     "Fikret",
+     "Gürgen"
+    ]
+   ],
+   "title": "A cross-corpus experiment in speech emotion recognition",
+   "original": "slm4_058",
+   "page_count": 4,
+   "order": 14,
+   "p1": "58",
+   "pn": "61",
+   "abstract": [
+    "In this work we will introduce EmoSTAR as a new emotional database and perform cross-corpus tests between EmoSTAR and EmoDB (Berlin Emotional Database) using one of the two databases as training set and the other as test set. We will also investigate the performance of feature selectors in both databases. Feature extraction will be implemented with openSMILE toolkit employing Emobase and Emo_large configurations. Classification and feature selection will be run with WEKA tool. EmoSTAR is still under development for more samples and emotion types and we will welcome emotional speech sample donations from the speech community. EmoSTAR is available only for personal research purposes via email to the authors by signing an End User License Agreement.\n",
+    "",
+    "",
+    "Index Terms: EmoSTAR, cross-corpus emotion analysis, emotion mining\n",
+    ""
+   ]
+  },
+  "chowdhury14_slam": {
+   "authors": [
+    [
+     "Shammur Absar",
+     "Chowdhury"
+    ],
+    [
+     "Giuseppe",
+     "Riccardi"
+    ],
+    [
+     "Firoj",
+     "Alam"
+    ]
+   ],
+   "title": "Unsupervised recognition and clustering of speech overlaps in spoken conversations",
+   "original": "slm4_062",
+   "page_count": 5,
+   "order": 15,
+   "p1": "62",
+   "pn": "66",
+   "abstract": [
+    "We are interested in understanding speech overlaps and their function in human conversations. Previous studies on speech overlaps have relied on supervised methods, small corpora and controlled conversations. The characterization of overlaps based on timing, semantic and discourse function requires an analysis over a very large feature space. In this study, the corpus of overlapped speech segments was automatically extracted from human-human spoken conversations using a large vocabulary Automatic Speech Recognizer (ASR) and a turn segmenter. Each overlap instance is automatically projected onto a high dimensional space of acoustic and lexical features. Then, we used unsupervised clustering to find the distinct and well-separated clusters in terms of acoustic and lexical features. We have evaluated recognition and clustering algorithms over a large set of real human-human spoken conversations. The clusters have been comparatively evaluated in terms of feature distributions and their contribution to the automatic classification of the clusters.\n",
+    "",
+    "",
+    "Index Terms: Overlapping Speech, Human Conversation, Discourse, Language understanding\n",
+    ""
+   ]
+  },
+  "park14_slam": {
+   "authors": [
+    [
+     "Taejin",
+     "Park"
+    ],
+    [
+     "Seungkwon",
+     "Beack"
+    ],
+    [
+     "Taejin",
+     "Lee"
+    ]
+   ],
+   "title": "Noise robust feature for automatic speech recognition based on mel-spectrogram gradient histogram",
+   "original": "slm4_067",
+   "page_count": 5,
+   "order": 16,
+   "p1": "67",
+   "pn": "71",
+   "abstract": [
+    "This paper proposes an alternative scheme for extracting speech features in an automatic speech recognition (ASR) system. If an ASR system is trained using a clean speech source, a noisy environment may cause a mismatch between the features from the recognition data and those from the training data. This mismatch deteriorates the recognition accuracy. Thus, unlike in existing speech features, another approach to minimizing the mismatches between clean and noisy speech features is needed. In this paper, we propose a feature extraction technique that is robust to noisy environments. The proposed scheme is based on the weighted histogram of the time-frequency gradient in a Melspectrogram image. Unlike previous approaches that use the magnitude of a Mel-spectrogram, we use the angle and magnitude information of a local gradient by employing a weighted histogram. Thus, our proposed speech feature shows a lower mean square error (MSE) between clean and noisy condition features as compared to other well-known speech features. In addition, the proposed scheme improves the word recognition test in a noisy environment with a relatively smaller number of coefficients as compared to similar studies.\n",
+    "",
+    "",
+    "Index Terms: automatic speech recognition (ASR), noise robust speech feature, Mel-spectrogram gradient histogram\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "narayanan14_slam",
+    "kan14_slam"
+   ]
+  },
+  {
+   "title": "Multimodality, Event Detection",
+   "papers": [
+    "elizalde14_slam",
+    "quillen14_slam",
+    "fernandezmartinez14_slam"
+   ]
+  },
+  {
+   "title": "NLP in Speech and Video Processing",
+   "papers": [
+    "simon14_slam",
+    "damnati14_slam",
+    "illina14_slam"
+   ]
+  },
+  {
+   "title": "Speaker-Related Processing in Multimedia",
+   "papers": [
+    "bernard14_slam",
+    "lorenzotrueba14_slam",
+    "budnik14_slam",
+    "madhu14_slam"
+   ]
+  },
+  {
+   "title": "Multimedia-Related Issues",
+   "papers": [
+    "khaw14_slam",
+    "parlak14_slam",
+    "chowdhury14_slam",
+    "park14_slam"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1787 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2004)",
+ "location": "Toledo, Spain",
+ "startDate": "31/5/2004",
+ "endDate": "3/6/2004",
+ "conf": "Odyssey",
+ "year": "2004",
+ "name": "odyssey_2004",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2004)",
+ "date": "31 May - 3 June 2004",
+ "papers": {
+  "rose04_odyssey": {
+   "authors": [
+    [
+     "Phil",
+     "Rose"
+    ]
+   ],
+   "title": "Technical forensic speaker identification from a Bayesian linguist's perspective",
+   "original": "ody4_003",
+   "page_count": 8,
+   "order": 1,
+   "p1": "3",
+   "pn": "10",
+   "abstract": [
+    "Important methodological aspects of Technical Forensic Speaker Identification are discussed and exemplified. The centrality of the Likelihood Ratio of Bayes' Theorem as the proper way of forensically evaluating speech evidence is emphasised, as well as the many different types of evidence that are of use in discriminating same-speaker from differentspeaker speech samples.\n",
+    ""
+   ]
+  },
+  "meuwly04_odyssey": {
+   "authors": [
+    [
+     "Didier",
+     "Meuwly"
+    ]
+   ],
+   "title": "Forensic speaker recognition: an evidence odyssey",
+   "original": "ody4_011",
+   "page_count": 2,
+   "order": 2,
+   "p1": "11",
+   "pn": "12",
+   "abstract": [
+    "Introduction\n",
+    "This summary describes firstly a general procedure for the evaluation of biometric technology and secondly the two forensic scenarios in which biometric technology can be involved. Then, an example of biometric evaluation in a simulated application is presented: 2 automatic speaker recognition systems are tested and compared in a forensic scenario. Biometric Evaluation Technology evaluation\n",
+    "The goal of a technology evaluation is to compare competing algorithms from a single technology. Testing of all algorithms is done on a standardized database collected by a \"universal\" sensor. Nonetheless, performance against this database will depend upon both the environment and the population in which it was collected. Because the database is fixed, results of technology tests are repeatable [1]. Scenarios evaluation The goal of scenario testing is to determine the overall system performance in a prototype or simulated application. Testing is done on a complete system in an environment that models a \"realworld\" target application of interest. Each tested system will have its own acquisition sensor and so will receive slightly different data. Consequently, care will be required that data collection across all tested systems is in the same environment with the same population. Test results will be repeatable only to the extent that the modelled scenario can be carefully controlled [1]. Operational evaluation The goal of operational testing is to determine the performance of a complete biometric system in a specific application environment with a specific target population. In general, operational test results will not be repeatable because of unknown and undocumented differences between operational environments [1].\n",
+    "Forensic scenarios Biometric technology can be applied to infer the identity of the source of forensic trace material in two forensic scenarios defined in [2]: the forensic investigative scenario and the forensic evaluative scenario. These two scenarios are explained using automatic speaker recognition as an example.\n",
+    "Forensic investigative scenario: production of short lists Automatic speaker recognition can be used to establish a short list of the most relevant sources of a questioned recording among a set of known potential speakers. The expression \"known potential 2 speakers\" enhances the fact that the hypotheses tested during a forensic investigation should be plausible but cannot be exhaustive. In this scenario the biometric technology is used to compute the likelihood of the questioned recording, given each known potential speaker.\n",
+    "Forensic evaluative scenario: production of likelihood ratios Automatic speaker recognition can also be used to evaluate a questioned recording presented as a piece of evidence in front of a court of justice, when the prosecution and the defence support mutually exclusive hypotheses for the source of the questioned recording. If the prosecution supports the hypothesis that the defendant is the source of the questioned recording and the defence supports the hypothesis that another speaker is the source of the questioned recording, the biometric technology can be used to compute the likelihood ratio of the questioned recording, given the two competing hypotheses.\n",
+    "Comparison of 2 automatic speaker recognition systems tested in the forensic evaluative scenario The Automatic SPeaker Individualisation Systems 1 and 2 (ASPIC 1 and 2) developed by the Swiss Institute of Technology (ITS-EPFL) and the University of Lausanne (IPS-UNIL) have been tested and compared in the forensic evaluative scenario. Likelihood ratios have been produced using a database of 3 sets chosen to model this scenario: 1) a set of recordings from speakers playing the role of the defendants, 2) a set of recordings from speakers modelling the potential population and 3) a set composed of questioned recordings simulating several forensic conditions: dialogues without or with noise, anonymous calls without or with disguise transmitted through the PSTN or the GSM network and recorded with a digital or an analogue recording system.\n",
+    "Conclusion The definition of forensic scenarios as specific applications in which biometric technology can be involved enables the capability to set up evaluation frameworks to test and compare technologies such as automatic speaker recognition in forensic scenarios. Bibliography\n",
+    "A. J. Mansfield and J. L. Wayman, \"Report Best Practices in Testing and Reporting Performance of Biometric Devices For Biometrics Working Group,\" Centre for Mathematics and Scientific Computing, National Physical Laboratory, Teddington, Middlesex, UK Issue 2 draft 9, 08/02 2002. G. Jackson, C. Champod, I. W. Evett, and S. Jones, \"The forensic scientist - investigator or evaluator,\" personal communication, paper in preparation.\n",
+    ""
+   ]
+  },
+  "przybocki04_odyssey": {
+   "authors": [
+    [
+     "Mark",
+     "Przybocki"
+    ],
+    [
+     "Alvin F.",
+     "Martin"
+    ]
+   ],
+   "title": "NIST speaker recognition evaluation chronicles",
+   "original": "ody4_015",
+   "page_count": 8,
+   "order": 3,
+   "p1": "15",
+   "pn": "22",
+   "abstract": [
+    "NIST has coordinated annual evaluations of textindependent speaker recognition since 1996. During the course of this series of evaluations there have been notable milestones related to the development of the evaluation paradigm and the performance achievements of state-of-the-art systems. We document here the variants of the speaker detection task that have been included in the evaluations and the history of the best performance results for this task. Finally, we discuss the data collection and protocols for the 2004 evaluation and beyond.\n",
+    ""
+   ]
+  },
+  "moraru04_odyssey": {
+   "authors": [
+    [
+     "Daniel",
+     "Moraru"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ],
+    [
+     "Corinne",
+     "Fredouille"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "ELISA nist RT03 broadcast news speaker diarization experiments",
+   "original": "ody4_023",
+   "page_count": 6,
+   "order": 4,
+   "p1": "23",
+   "pn": "28",
+   "abstract": [
+    "This paper presents the ELISA consortium activities in automatic speaker diarization (also known as speaker segmentation) during the NIST Rich Transcription (RT) 2003 evaluation. The experiments were achieved on real broadcast news data (HUB4), in the framework of the ELISA consortium. The paper firstly shows the interest of segmentation in acoustic macro classes (like gender or bandwidth) as a front-end processing for segmentation/diarization task. The impact of this prior acoustic segmentation is evaluated in terms of speaker diarization performance. Secondly, two different approaches from CLIPS and LIA laboratories are presented and different possibilities of combining them are investigated. The system submitted as ELISA primary obtained the second lower diarization error rate compared to the other RT03-participant primary systems. Another ELISA system submitted as secondary outperformed the best primary system (i.e. it obtained the lowest speaker diarization error rate).\n",
+    ""
+   ]
+  },
+  "campbell04_odyssey": {
+   "authors": [
+    [
+     "Joseph P.",
+     "Campbell"
+    ],
+    [
+     "Hirotaka",
+     "Nakasone"
+    ],
+    [
+     "Christopher",
+     "Cieri"
+    ],
+    [
+     "David",
+     "Miller"
+    ],
+    [
+     "Kevin",
+     "Walker"
+    ],
+    [
+     "Alvin F.",
+     "Martin"
+    ],
+    [
+     "Mark A.",
+     "Przybocki"
+    ]
+   ],
+   "title": "The MMSR bilingual and crosschannel corpora for speaker recognition research and evaluation",
+   "original": "ody4_029",
+   "page_count": 4,
+   "order": 5,
+   "p1": "29",
+   "pn": "32",
+   "abstract": [
+    "We describe efforts to create corpora to support and evaluate systems that meet the challenge of speaker recognition in the face of both channel and language variation. In addition to addressing ongoing evaluation of speaker recognition systems, these corpora are aimed at the bilingual and crosschannel dimensions. We report on specific data collection efforts at the Linguistic Data Consortium, the 2004 speaker recognition evaluation program organized by the National Institute of Standards and Technology (NIST), and the research ongoing at the US Federal Bureau of Investigation and MIT Lincoln Laboratory. We cover the design and requirements, the collections and evaluation integrating discussions of the data preparation, research, technology development and evaluation on a grand scale.\n",
+    ""
+   ]
+  },
+  "brummer04_odyssey": {
+   "authors": [
+    [
+     "Niko",
+     "Brümmer"
+    ]
+   ],
+   "title": "Application-independent evaluation of speaker detection",
+   "original": "ody4_033",
+   "page_count": 8,
+   "order": 6,
+   "p1": "33",
+   "pn": "40",
+   "abstract": [
+    "We present a Bayesian analysis of the evaluation of speaker detection performance. We use expectation of utility to confirm that likelihood-ratio is both an optimum and application-independent form of output for speaker detection systems. We point out that the problem of likelihood-ratio calculation is equivalent to the problem of optimization of decision thresholds. It is shown that the decision cost that is used in the existing NIST evaluations effectively forms a utility (a proper scoring rule) for the evaluation of the quality of likelihood-ratio presentation. As an alternative, a logarithmic utility (a strictly proper scoring rule) is proposed. Finally, an information-theoretic interpretation of the expected logarithmic utility is given. It is hoped that this analysis and the proposed evaluation method will promote the use of likelihood-ratio detector output rather than decision output.\n",
+    ""
+   ]
+  },
+  "campbell04b_odyssey": {
+   "authors": [
+    [
+     "William M.",
+     "Campbell"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ],
+    [
+     "Joseph P.",
+     "Campbell"
+    ]
+   ],
+   "title": "Fusing discriminative and generative methods for speaker recognition: experiments on switchboard and NFI/TNO field data",
+   "original": "ody4_041",
+   "page_count": 4,
+   "order": 7,
+   "p1": "41",
+   "pn": "44",
+   "abstract": [
+    "Discriminatively trained support vector machines have recently been introduced as a novel approach to speaker recognition. Support vector machines (SVMs) have a distinctly different modeling strategy in the speaker recognition problem. The standard Gaussian mixture model (GMM) approach focuses on modeling the probability density of the speaker and the background (a generative approach). In contrast, the SVM models the boundary between the classes. Another interesting aspect of the SVM is that it does not directly produce probabilistic scores. This poses a challenge for combining results with a GMM. We therefore propose strategies for fusing the two approaches. We show that the SVM and GMM are complementary technologies. Recent evaluations by NIST (telephone data) and NFI/TNO (forensic data) give a unique opportunity to test the robustness and viability of fusing GMM and SVM methods. We show that fusion produces a system which can have relative error rates 23% lower than individual systems.\n",
+    ""
+   ]
+  },
+  "liu04_odyssey": {
+   "authors": [
+    [
+     "Ying",
+     "Liu"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ],
+    [
+     "Michael",
+     "Carey"
+    ]
+   ],
+   "title": "Speaker recognition using a trajectory-based segmental HMM",
+   "original": "ody4_045",
+   "page_count": 6,
+   "order": 8,
+   "p1": "45",
+   "pn": "50",
+   "abstract": [
+    "A segmental HMM is a HMM whose states are associated with sequences of acoustic feature vectors (or segments), rather than individual vectors. By treating segments as homogeneous units it is possible, for example, to develop better models of speech dynamics. This paper begins by describing a type of segmental HMM in which the relationship between the state and acoustic level descriptions of a speech signal is regulated by an intermediate, articulatory layer, and discusses its potential benefits for speaker recognition. As a first step towards applying this type of model to speaker recognition, text-dependent speaker verification results obtained on YOHO using a simpler segmental HMM are presented, which show a 44% reduction in false acceptances using the segmental model compared with a conventional HMM. Experiments in text-independent speaker verification on Switchboard are then described.\n",
+    ""
+   ]
+  },
+  "kajarekar04_odyssey": {
+   "authors": [
+    [
+     "Sachin",
+     "Kajarekar"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Kemal",
+     "Sönmez"
+    ],
+    [
+     "Jing",
+     "Zheng"
+    ],
+    [
+     "Elizabeth",
+     "Shriberg"
+    ],
+    [
+     "Andreas",
+     "Stolcke"
+    ]
+   ],
+   "title": "Modeling NERFs for speaker recognition",
+   "original": "ody4_051",
+   "page_count": 6,
+   "order": 9,
+   "p1": "51",
+   "pn": "56",
+   "abstract": [
+    "We introduce a new type of feature to capture long-range patterns associated with individual speakers or with speaking styles . NERFs, or Nonuniform Extraction Region Features, are defined based on regions of speech that are delimited by various automatically extractable events of interest. There is a wide unexplored space of potentially useful NERFs, but to use them successfully, at least two important challenges must be addressed: (1) methods for coping with inherently missing features, and (2) methods for feature selection from large sets of potentially correlated NERFs. We address the issue of missing features in this paper. We propose three methods for modeling NERFs that cope with missing features. We show that on the 2003 NIST extended-data speaker recognition evaluation task, a NERF system yields an EER of 11.6% alone, and improves the MFCC baseline performance by roughly 15% relative.\n",
+    ""
+   ]
+  },
+  "solomonoff04_odyssey": {
+   "authors": [
+    [
+     "Alex",
+     "Solomonoff"
+    ],
+    [
+     "Carl",
+     "Quillen"
+    ],
+    [
+     "William M.",
+     "Campbell"
+    ]
+   ],
+   "title": "Channel compensation for SVM speaker recognition",
+   "original": "ody4_057",
+   "page_count": 6,
+   "order": 10,
+   "p1": "57",
+   "pn": "62",
+   "abstract": [
+    "One of the major remaining challenges to improving accuracy in state-of-the-art speaker recognition algorithms is reducing the impact of channel and handset variations on system performance. For Gaussian Mixture Model based speaker recognition systems, a variety of channel-adaptation techniques are known and available for adapting models between different channel conditions, but for the much more recent Support Vector Machine (SVM) based approaches to this problem, much less is known about the best way to handle this issue. In this paper we explore techniques that are specific to the SVM framework in order to derive fully non-linear channel compensations. The result is a system that is less sensitive to specific kinds of labeled channel variations observed in training.\n",
+    ""
+   ]
+  },
+  "botti04_odyssey": {
+   "authors": [
+    [
+     "Filippo",
+     "Botti"
+    ],
+    [
+     "Anil",
+     "Alexander"
+    ],
+    [
+     "Andrzej",
+     "Drygajlo"
+    ]
+   ],
+   "title": "An interpretation framework for the evaluation of evidence in forensic automatic speaker recognition with limited suspect data",
+   "original": "ody4_063",
+   "page_count": 6,
+   "order": 11,
+   "p1": "63",
+   "pn": "68",
+   "abstract": [
+    "This paper proposes an interpretation framework for the evaluation of evidence in forensic automatic speaker recognition where only a single recording of the suspect and a single trace (questioned recording) are provided. In such a case the withinsource variability of the suspect cannot be evaluated. An estimation of within-source and between-sources variability is performed for the case using a database of speakers recorded in the similar conditions of the case. Two measures of interpreting the evidence within the Bayesian framework are compared, one using the Likelihood Ratio (LR) and the other, giving complementary information, using Error Ratio (ER). Experimental results using the proposed methodology are presented and the two interpretation measures are discussed.\n",
+    ""
+   ]
+  },
+  "alexander04_odyssey": {
+   "authors": [
+    [
+     "Anil",
+     "Alexander"
+    ],
+    [
+     "Filippo",
+     "Botti"
+    ],
+    [
+     "Andrzej",
+     "Drygajlo"
+    ]
+   ],
+   "title": "Handling mismatch in corpus-based forensic speaker recognition",
+   "original": "ody4_069",
+   "page_count": 6,
+   "order": 12,
+   "p1": "69",
+   "pn": "74",
+   "abstract": [
+    "This paper deals with automatic speaker recognition in forensic applications and handling mismatched technical conditions in a Bayesian framework for evaluating the strength of evidence. Mismatch in recording conditions has to be considered in the estimation of the strength of evidence, i.e., how likely it is that a questioned recording (trace) has been produced by a suspected speaker rather than by any other person from a relevant population. In forensic speaker recognition, in order to estimate such a likelihood ratio, a Bayesian interpretation framework and a corpus based methodology is employed.\n",
+    "Although automatic speaker recognition has shown high performance under controlled conditions, the conditions in which recordings are made by the police (anonymous calls and wiretapping) cannot be controlled and are far from ideal. Differences in the phone handset, in the transmission channel and in the recording tools introduce a variability, over and above the variability of human speech. In this paper we focus on how to estimate and deal with differences in recording conditions of the databases used: detection of whether there is good discrimination between speakers within a database, detection of significant mismatch in recording conditions and statistical compensation in case of mismatch.\n",
+    ""
+   ]
+  },
+  "leeuwen04_odyssey": {
+   "authors": [
+    [
+     "David A. van",
+     "Leeuwen"
+    ],
+    [
+     "Jos S.",
+     "Bouten"
+    ]
+   ],
+   "title": "Results of the 2003 NFI-TNO forensic speaker recognition evaluation",
+   "original": "ody4_075",
+   "page_count": 8,
+   "order": 13,
+   "p1": "75",
+   "pn": "82",
+   "abstract": [
+    "In this paper we report on the results of the NFITNO speaker recognition evaluation held in 2003. The speech material used in this evaluation has been obtained from wire-tapped recordings from real police investigations in the Netherlands. In total six experiments were carried out, one main experiment in Dutch, one experiment in which speech lengths were systematically varied, three language dependence experiments, and one experiment evaluating a proposed forensic procedure for providing evidence in court cases. The lowest equal error rate of all systems was 12.1% in the condition using 15 seconds test segments and 60 seconds training segments.\n",
+    ""
+   ]
+  },
+  "gonzalezrodriguez04_odyssey": {
+   "authors": [
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Daniel",
+     "Ramos-Castro"
+    ],
+    [
+     "Marta",
+     "Garcia-Gomar"
+    ],
+    [
+     "Javier",
+     "Ortega-Garcia"
+    ]
+   ],
+   "title": "On robust estimation of likelihood ratios: the ATVS-UPM system at 2003 NFI/TNO forensic evaluation",
+   "original": "ody4_083",
+   "page_count": 8,
+   "order": 14,
+   "p1": "83",
+   "pn": "90",
+   "abstract": [
+    "This paper summarizes the different algorithms developed in ATVS-UPM in order to submit a reliable Likelihood Ratio based forensic system, fully compliant with the bayesian framework for the analysis of forensic evidences, to 2003 NFI-TNO Forensic Speaker Recognition Evaluation. Once identified the main causes and consequences of the erratic estimation of Likelihood Ratios due to forensic conditions, mainly lack of data and mismatch between suspect and questioned speech, several algorithms are proposed and assessed using Switchboard data. Moreover, a new algorithm, TDLRA (Target Dependent Likelihood Ratio Alignment), guarantees efficiently the presumption of innocence for non-target speakers, which is a mandatory condition of any forensic system. The LR-based submitted system is then assessed with NFI-TNO forensic field data, showing an excellent performance in all evaluation conditions, preserving the presumption of innocence and providing a meaningful Likelihood Ratio for any questioned-speech/suspect-speech pair of the evaluation, which could be directly used for reporting to Court under this bayesian forensic framework.\n",
+    ""
+   ]
+  },
+  "baker04_odyssey": {
+   "authors": [
+    [
+     "Brendan",
+     "Baker"
+    ],
+    [
+     "Robbie",
+     "Vogt"
+    ],
+    [
+     "Michael",
+     "Mason"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Improved phonetic and lexical speaker recognition through MAP adaptation",
+   "original": "ody4_091",
+   "page_count": 6,
+   "order": 15,
+   "p1": "91",
+   "pn": "96",
+   "abstract": [
+    "High level features such as phone and word n-grams have been shown to be effective for speaker recognition, particularly when used along side traditional acoustic speaker recognition techniques. The applicability of these high-level recognition systems is impeded by the large training data requirements needed to build robust and stable speaker models. This paper describes an extension to an existing phone n-gram based speaker recognition technique, whereby MAP adaptation is used in the speaker model training process. Results obtained for the NIST 2003 Speaker Recognition Extended Data Task indicate that a significant improvement in performance can be gained through the use of this model estimation technique. In our tests, we were able to improve performance over the baseline system, and at the same time, halved the training data requirement. Further experimentation using MAP adaptation on word n-gram models also showed improvement over baseline results, suggesting that the technique could be applied to other multinomial distribution feature sets.\n",
+    ""
+   ]
+  },
+  "klusacek04_odyssey": {
+   "authors": [
+    [
+     "David",
+     "Klusácek"
+    ]
+   ],
+   "title": "Optimal detection in case of the sparse training data",
+   "original": "ody4_097",
+   "page_count": 8,
+   "order": 16,
+   "p1": "97",
+   "pn": "104",
+   "abstract": [
+    "We will treat a task of statistical detection using discrete alphabet in this paper. It is well known that the likelihood ratio detector is the optimal one, provided that \"measurements\" taken on the detected object are mutually independent and that we know the feature distributions of target and background objects precisely. The detector presented here is optimal using only the independence assumption. Instead of requiring the knowledge of the underlying distributions it relies on the training data itself. Further, we introduce the averaging technique which aims to lower the effects of statistical dependence. This averaged detector outperformed similarly averaged likelihood ratio detector by 7% relative in the task of speaker detection.\n",
+    ""
+   ]
+  },
+  "garciaromero04_odyssey": {
+   "authors": [
+    [
+     "D.",
+     "Garcia-Romero"
+    ],
+    [
+     "J.",
+     "Fierrez-Aguilar"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Javier",
+     "Ortega-Garcia"
+    ]
+   ],
+   "title": "On the use of quality measures for text-independent speaker recognition",
+   "original": "ody4_105",
+   "page_count": 6,
+   "order": 17,
+   "p1": "105",
+   "pn": "110",
+   "abstract": [
+    "The use of quality information on automatic recognition systems is studied. From an apparent definition of what constitutes a quality measure, a framework for the successful exploitation of the quality information is derived. Potential applications are also introduced at different phases of the recognition process, namely: enrollment, scoring and multi-level fusion stages. Traditional likelihood scoring stage is further developed providing guidelines for the practical application of the proposed ideas. Preliminary experiments corroborate the benefits of the proposed quality-guided recognition approach. In particular, a frame-level quality measure meeting a goodness criterion based on deviation from the fundamental frequency is used, obtaining encouraging initial results.\n",
+    ""
+   ]
+  },
+  "hannani04_odyssey": {
+   "authors": [
+    [
+     "Asmaa El",
+     "Hannani"
+    ],
+    [
+     "Dijana",
+     "Petrovska-Delacrétaz"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "Linear and non-linear fusion of ALISP-based and GMM systems for text-independent speaker verification",
+   "original": "ody4_111",
+   "page_count": 6,
+   "order": 18,
+   "p1": "111",
+   "pn": "116",
+   "abstract": [
+    "Current state-of-the-art speaker verification algorithms use Gaussian Mixture Models (GMM) to estimate the probability density function of the acoustic feature vectors. They are denoted here as global systems. In order to give better performance, they have to be combined with other classifiers, using different fusion methods. The performance of the final classi- fier depend on the choice of the single classifiers and also on the fusion technique used to combine them. In our previous studies we have used the data-driven Automatic Language Independent Speech Processing (ALISP) segmentation method to segment the speech data, as a first step of the speaker verification task. Dynamic Time Warping (DTW) distortion measure was used as a distortion measure between two speech segments and Logistic Regression Function to determine the optimal weights of the speech segments (including \"silences\"). This system is denoted as ALISP-DTW system. In this paper the focus is put on the fusion techniques used to combine ALISP-DTW and GMM systems. We show that when using a non-linear fusion method (Multi-Layer Perceptron), we improve slightly the final fusion result as compared to the linear fusion strategies.\n",
+    ""
+   ]
+  },
+  "barras04_odyssey": {
+   "authors": [
+    [
+     "Claude",
+     "Barras"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Unsupervised online adaptation for speaker verification over the telephone",
+   "original": "ody4_157",
+   "page_count": 4,
+   "order": 19,
+   "p1": "157",
+   "pn": "160",
+   "abstract": [
+    "This paper presents experiments of unsupervised adaptation for a speaker detection system. The system used is a standard speaker verification system based on cepstral features and Gaussian mixture models. Experiments were performed on cellular speech data taken from the NIST 2002 speaker detection evaluation. There was a total of about 30.000 trials involving 330 target speakers and more than 90% of impostor trials. Unsupervised adaptation significantly increases the system accuracy, with a reduction of the minimal detection cost function (DCF) from 0.33 for the baseline system to 0.25 with unsupervised online adaptation. Two incremental adaptation modes were tested, either by using a fixed decision threshold for adaptation, or by using the a posteriori probability of the true target for weighting the adaptation. Both methods provide similar results in the best configurations, but the latter is less sensitive to the actual threshold value.\n",
+    ""
+   ]
+  },
+  "pelecanos04_odyssey": {
+   "authors": [
+    [
+     "Jason",
+     "Pelecanos"
+    ],
+    [
+     "Upendra",
+     "Chaudhari"
+    ],
+    [
+     "Ganesh",
+     "Ramaswamy"
+    ]
+   ],
+   "title": "Compensation of utterance length for speaker verification",
+   "original": "ody4_161",
+   "page_count": 4,
+   "order": 20,
+   "p1": "161",
+   "pn": "164",
+   "abstract": [
+    "The effect of utterance length on the estimation of the likelihood of a speaker has previously seen a brief treatment in past works. In many speaker recognition evaluations, the utterances were typically configured to have a relatively consistent length. This paper investigates the effect of varying enrollment and test utterance lengths on the score distributions and consequently their effect on performance. In addition, this study examines the mixing of a number of variable training length utterance trials in a single evaluation. To address this problem, a parametric solution using splines is proposed and is shown to significantly reduce the error in the conducted experiments.\n",
+    ""
+   ]
+  },
+  "ben04_odyssey": {
+   "authors": [
+    [
+     "Mathieu",
+     "Ben"
+    ],
+    [
+     "Frédéric",
+     "Bimbot"
+    ],
+    [
+     "Guillaume",
+     "Gravier"
+    ]
+   ],
+   "title": "Enhancing the robustness of Bayesian methods for text-independent automatic speaker verification",
+   "original": "ody4_165",
+   "page_count": 8,
+   "order": 21,
+   "p1": "165",
+   "pn": "172",
+   "abstract": [
+    "In this paper we present the main advances of the IRISA speech group from 2001 to 2004 in robust methods for Bayesian adaptation of speaker models and Bayesian decision. The probabilistic framework and the state-of-the-art Bayesian approach for automatic speaker verification are first recalled. We then describe two original contributions for robust Bayesian decision. The first one is a score normalization technique whose main advantage is that it does not need any external data as opposed to other score normalizations. The second technique is a constrained Bayesian adaptation scheme which operates a normalization of the speaker models in order to compensate for speakerdependent biases in the verification scores. Experiments using these two methods showed significant improvements over the baseline systems. Finally, theoretical developments of a hierarchical Bayesian adaptation scheme based on a dependency tree structure is presented, with preliminary experiment results.\n",
+    ""
+   ]
+  },
+  "vogt04_odyssey": {
+   "authors": [
+    [
+     "Robbie",
+     "Vogt"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Bayes factor scoring of GMMs for speaker verification",
+   "original": "ody4_173",
+   "page_count": 6,
+   "order": 22,
+   "p1": "173",
+   "pn": "178",
+   "abstract": [
+    "This paper implements and assesses the Bayes factor as a replacement verification criterion to the likelihood-ratio test in the context of GMM-based speaker verification. An advantage of the Bayesian method is that model parameters are considered random variables, allowing for the incorporation of prior information and uncertainty of parameter estimates into the scoring process. A novel development of Bayes factors for GMMs is presented based on incremental adaptation that is well-suited to inclusion in existing state-of-the-art GMM-UBM systems. Experiments on the 1999 NIST Speaker Recognition Evaluation corpus demonstrate improved performance over expected log-likelihood ratio scoring particularly when combined with the feature mapping technique.\n",
+    ""
+   ]
+  },
+  "campbell04c_odyssey": {
+   "authors": [
+    [
+     "William M.",
+     "Campbell"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Pedro A.",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Language recognition with support vector machines",
+   "original": "ody4_285",
+   "page_count": 4,
+   "order": 23,
+   "p1": "285",
+   "pn": "288",
+   "abstract": [
+    "Support vector machines (SVMs) have become a popular tool for discriminative classification. Powerful theoretical and computational tools for support vector machines have enabled significant improvements in pattern classification in several areas. An exciting area of recent application of support vector machines is in speech processing. A key aspect of applying SVMs to speech is to provide a SVM kernel which compares sequences of feature vectors - a sequence kernel. We propose the use of sequence kernels for language recognition. We apply our methods to the NIST 2003 language evaluation task. Results demonstrate the potential of the new SVM methods.\n",
+    ""
+   ]
+  },
+  "martin04_odyssey": {
+   "authors": [
+    [
+     "Terrence",
+     "Martin"
+    ],
+    [
+     "Eddie",
+     "Wong"
+    ],
+    [
+     "Brendan",
+     "Baker"
+    ],
+    [
+     "Michael",
+     "Mason"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Pitch and energy trajectory modelling in a syllable length temporal framework for language identification",
+   "original": "ody4_289",
+   "page_count": 8,
+   "order": 24,
+   "p1": "289",
+   "pn": "296",
+   "abstract": [
+    "Recent studies have indicated that language identity is encapsulated in a more complicated manner to that represented by short term acoustic features. In particular, trajectory information over syllable-like durations have shown significant promise. This study introduces a novel three-tiered language identification approach which incorporates this information as well as acoustic context in the form of broad syllabic events. Experimental results using the CallFriend database demonstrate the effectiveness of these systems at providing complementary information to a GMM based system.\n",
+    ""
+   ]
+  },
+  "torrescarrasquillo04_odyssey": {
+   "authors": [
+    [
+     "Pedro A.",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Terry P.",
+     "Gleason"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Dialect identification using Gaussian mixture models",
+   "original": "ody4_297",
+   "page_count": 4,
+   "order": 25,
+   "p1": "297",
+   "pn": "300",
+   "abstract": [
+    "Recent results in the area of language identification have shown a significant improvement over previous systems. In this paper, we evaluate the related problem of dialect identification using one of the techniques recently developed for language identification, the Gaussian mixture models with shifted-delta-cepstral features. The system shown is developed using the same methodology followed for the language identification case. Results show that the use of the GMM techniques yields an average of 30% equal error rate for the dialects in the Miami corpus and about 13% equal error rate for the dialects in the CallFriend corpus.\n",
+    ""
+   ]
+  },
+  "singer04_odyssey": {
+   "authors": [
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Analysis of multitarget detection for speaker and language recognition",
+   "original": "ody4_301",
+   "page_count": 8,
+   "order": 26,
+   "p1": "301",
+   "pn": "308",
+   "abstract": [
+    "The general multitarget detection (open-set identification) task is the intersection of the more familiar tasks of close-set identification and open-set verification/detection. In the multitarget detection task, an input of unknown class is processed by a bank of parallel detectors and a decision is required as to whether the input is from among the target classes and, if so, which one. In this paper, we show analytically how the performance of a multitarget detector can be predicted from the open-set detection performance of the individual detectors of which it is constructed. We use this analytical framework to establish the relationship between the multitarget detectors closed-set identification error rate and its open-set detector miss and false alarm probabilities. Experiments performed using standard speaker and language corpora are described that demonstrate the validity of the analysis.\n",
+    ""
+   ]
+  },
+  "chetouani04_odyssey": {
+   "authors": [
+    [
+     "M.",
+     "Chetouani"
+    ],
+    [
+     "M.",
+     "Faundez-Zanuy"
+    ],
+    [
+     "B.",
+     "Gas"
+    ],
+    [
+     "J. L.",
+     "Zarader"
+    ]
+   ],
+   "title": "A new nonlinear speaker parameterization algorithm for speaker identification",
+   "original": "ody4_309",
+   "page_count": 6,
+   "order": 27,
+   "p1": "309",
+   "pn": "314",
+   "abstract": [
+    "In this paper we propose a new coding algorithm based on nonlinear prediction: the Neural Predictive Coding model which is an extension of the classical LPC one. The features performances are estimated by two different methods: the Arithmetic- Harmonic Sphericity (AHS) and the Auto-Regressive Vectorial Models (ARVM). Two different methods are proposed for the coding method based on the Neural Predictive Coding (NPC): classical neural networks initialization and linear initialization. We applied these two parameters to speaker identification. The fist model obtained smaller rates. We show for the first model how it can be combined with the classical feature extractors (LPCC, MFCC, etc.) in order to improve the results of only one classical coding (MFCC provides 97.55% and MFCC+NPC 98.78%). For the linear initialization, we obtain 100% which is a great improvement. This study opens a new way towards different coding schemes that offer better accuracy on speaker recognition tasks.\n",
+    ""
+   ]
+  },
+  "slyh04_odyssey": {
+   "authors": [
+    [
+     "Raymond E.",
+     "Slyh"
+    ],
+    [
+     "Eric G.",
+     "Hansen"
+    ],
+    [
+     "Timothy R.",
+     "Anderson"
+    ]
+   ],
+   "title": "Glottal modeling and closed-phase analysis for speaker recognition",
+   "original": "ody4_315",
+   "page_count": 8,
+   "order": 28,
+   "p1": "315",
+   "pn": "322",
+   "abstract": [
+    "This paper concerns the application of glottal models and closed-phase analysis to the problem of speaker recognition. A glottal model based on one originally proposed by Fujisaki and Ljungqvist was used in conjunction with closed-phase analysis to yield features for a speaker recognition system used in the NIST 2003 Speaker Recognition Evaluation. Scores from the system based on the glottal model features were combined with scores from a system using formant center frequencies and bandwidths and F0 (FMBWF0), yielding significant improvement over the FMBWF0 system alone. The combination of the glottal model and FMBWF0 scores was in turn combined with the scores from a standard MFCC system to yield improvement beyond that of the MFCC system alone.\n",
+    ""
+   ]
+  },
+  "mary04_odyssey": {
+   "authors": [
+    [
+     "Leena",
+     "Mary"
+    ],
+    [
+     "K. Sri Rama",
+     "Murty"
+    ],
+    [
+     "S.R. Mahadeva",
+     "Prasanna"
+    ],
+    [
+     "Bayya",
+     "Yegnanarayana"
+    ]
+   ],
+   "title": "Features for speaker and language identification",
+   "original": "ody4_323",
+   "page_count": 6,
+   "order": 29,
+   "p1": "323",
+   "pn": "328",
+   "abstract": [
+    "In this paper we examine several features derived from the speech signal for the purpose of identification of speaker or language from the speech signal. Most of the current systems for speaker and language identification use spectral features from short segments of speech. There are additional features which can be derived from the residual of the speech signal, which correspond to the excitation source of speech signal. These features at the subsegmental (less than a pitch period) level correspond to the glottal vibration in each cycle, and at the suprasegmental (several pitch periods) level the features correspond to intonation and duration characteristics of speech. At the subsegmental level features can be extracted from the residual signal and also from the phase of the residual signal. The characteristics of speaker or language can be captured from the spectral or subsegmental features using Autoassociative Neural Network (AANN) models. We demonstrate that these features indeed contain speaker-specific and language-specific information. Since these features are more or less from independent sources, it is likely that they provide complementary information, which when combined suitably will increase the effectiveness of speaker and language identification systems.\n",
+    ""
+   ]
+  },
+  "zigel04_odyssey": {
+   "authors": [
+    [
+     "Yaniv",
+     "Zigel"
+    ],
+    [
+     "Arnon",
+     "Cohen"
+    ]
+   ],
+   "title": "Text-dependent speaker verification using feature selection with recognition related criterion",
+   "original": "ody4_329",
+   "page_count": 8,
+   "order": 30,
+   "p1": "329",
+   "pn": "336",
+   "abstract": [
+    "Speaker verification and identification systems most often employ HMMs and GMMs as recognition engines. This paper describes an algorithm for the optimal selection of the feature space, suitable for these engines. In verification systems, each speaker (target) is assigned an \"individual\" optimal feature space in which he/she is best discriminated against impostors. Several feature selection procedures were tested for the selection process. A Recognition Related Criterion (RRC), correlated with the recognition rate, was developed and evaluated.\n",
+    "The algorithm was evaluated on a text-dependent database. A significant improvement (over the \"standard\" MFCC space) in verification results was demonstrated with the selected individual feature space. An EER of 0.7% was achieved when the feature set was the \"almost standard\" Mel Frequency Cepstrum Coefficients (MFCC) space (12 MFCC + 12 delta MFCC). Under the same conditions, a system based on the selected feature space yielded an EER of only 0.48%.\n",
+    ""
+   ]
+  },
+  "tranter04_odyssey": {
+   "authors": [
+    [
+     "S. E.",
+     "Tranter"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "Speaker diarisation for broadcast news",
+   "original": "ody4_337",
+   "page_count": 8,
+   "order": 31,
+   "p1": "337",
+   "pn": "344",
+   "abstract": [
+    "It is often important to be able to automatically label who spoke when during some audio data. This paper describes two systems for audio segmentation developed at CUED and MIT-LL and evaluates their performance using the speaker diarisation score defined in the 2003 Rich Transcription Evaluation. A new clustering procedure and BIC-based stopping criterion for the CUED system is introduced which improves both performance and robustness to changes in segmentation. Finally a hybrid Plug and Play system is built which combines different parts of the CUED and MIT-LL systems to produce a single system which outperforms both the individual systems.\n",
+    ""
+   ]
+  },
+  "hsieh04_odyssey": {
+   "authors": [
+    [
+     "Jia-Hsin",
+     "Hsieh"
+    ],
+    [
+     "Chung-Hsien",
+     "Wu"
+    ]
+   ],
+   "title": "Unsupervised speaker segmentation of broadcast news using MDL-based Gaussian model",
+   "original": "ody4_345",
+   "page_count": 4,
+   "order": 32,
+   "p1": "345",
+   "pn": "348",
+   "abstract": [
+    "This paper proposes an approach for unsupervised speaker segmentation and gender discrimination of broadcast news. In this paradigm, a speaker segmentation mechanism using MDL-based Gaussian model is firstly adopted to determine the speaker changes using mean and covariance of the Gaussian model. These speaker segments partitioned by speaker changes are smoothed and discriminated into male or female. Experimental results show the proposed method achieved a better performance with 9.2% missed detection rate and 7.5% false alarm rate compared to the Delta-BIC method for speaker segmentation on broadcast news. In addition, the segment-based gender discrimination improves 9% accuracy compared to the clip-based discriminator.\n",
+    ""
+   ]
+  },
+  "roch04_odyssey": {
+   "authors": [
+    [
+     "Marie",
+     "Roch"
+    ],
+    [
+     "Yanliang",
+     "Cheng"
+    ]
+   ],
+   "title": "Speaker segmentation using the MAP-adapted Bayesian information criterion",
+   "original": "ody4_349",
+   "page_count": 6,
+   "order": 33,
+   "p1": "349",
+   "pn": "354",
+   "abstract": [
+    "The Bayesian information criterion (BIC) is a model selection criterion that has previously been applied to speaker segmentation of broadcast news by several researchers. The BIC approach treats speaker segmentation as a model selection problem. As the BIC requires the estimation of the sample covariance matrix, its performance tends to deteriorate as the speaker-turn duration decreases. It is well known that the BIC does not perform well on short segments, making the BIC inappropriate for conversational speech. In this paper, we estimate the hyperparameters of a prior distribution from a disjoint set of speakers and use the prior information to adapt the maximum a-posteriori distribution of the BIC. We show that this results in improved performance for a conversational telephone-speech corpus.\n",
+    ""
+   ]
+  },
+  "moraru04b_odyssey": {
+   "authors": [
+    [
+     "Daniel",
+     "Moraru"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ]
+   ],
+   "title": "Using a priori information for speaker diarization",
+   "original": "ody4_355",
+   "page_count": 7,
+   "order": 34,
+   "p1": "355",
+   "pn": "362",
+   "abstract": [
+    "This paper presents an attempt to use supplementary information for audio data diarization. The approach is based on the use of a priori information about the speakers involved in dialogue. Those specific information are the number of speakers involved in conversation, and training data available for one speaker or for all the speakers involved in conversation. The experiments were mainly conducted on the 2003 Rich Transcription Diarization corpus both Dry Run Corpus and Evaluation corpus. The results show that knowing a priori the exact number of speakers seems not to be a very useful information. On the other hand, using a priori speaker models for one or all speakers involved in the conversation, may improve diarization performance when enough data is available to train reliable speaker models.\n",
+    ""
+   ]
+  },
+  "matsui04_odyssey": {
+   "authors": [
+    [
+     "Tomoko",
+     "Matsui"
+    ],
+    [
+     "Kunio",
+     "Tanabe"
+    ]
+   ],
+   "title": "Speaker identification with dual penalized logistic regression machine",
+   "original": "ody4_363",
+   "page_count": 5,
+   "order": 35,
+   "p1": "363",
+   "pn": "368",
+   "abstract": [
+    "This paper proposes a novel speaker identification method based on the dual Penalized Logistic Regression Machine (dPLRM) for general multi-class discrimination. The machine employs kernel functions which implicitly map an acoustic feature space to a higher dimensional space. Each speaker is discriminatively identified in this space implicitly. The penalized logistic regression model used in dPLRM provides a reliable estimate of probability of each identification decision. Text-independent speech data recorded by 10 male speakers in four sessions over nine months was used to evaluate the new approach. The proposed method effectively reduced the error rate of the conventional GMM-based approach.\n",
+    ""
+   ]
+  },
+  "fortuna04_odyssey": {
+   "authors": [
+    [
+     "J.",
+     "Fortuna"
+    ],
+    [
+     "P.",
+     "Sivakumaran"
+    ],
+    [
+     "A. M.",
+     "Ariyaeeinia"
+    ],
+    [
+     "A.",
+     "Malegaonkar"
+    ]
+   ],
+   "title": "Relative effectiveness of score normalisation methods in open-set speaker identification",
+   "original": "ody4_369",
+   "page_count": 8,
+   "order": 36,
+   "p1": "369",
+   "pn": "376",
+   "abstract": [
+    "This paper presents an investigation into the relative effectiveness of various well-known score normalisation methods in the context of open-set, text-independent speaker identification. The scope of the study includes a thorough experimental analysis of the performance of the methods considered. The experimental investigations are based on the use of the dataset proposed for the 1-speaker detection task of the NIST Speaker Recognition Evaluation 2003. The results clearly demonstrate that significant benefits can be achieved by using score normalisation in open-set identification, and that the level of this depends highly on the type of the approach adopted. Based on the experimental results, it is found that amongst the various normalisation methods considered, those which are based on the Bayesian solution provide the best performance. In particular, the unconstrained cohort method with a small cohort size appears to outperform all other approaches. The paper provides a detailed description of the experimental set up, and presents an analysis of the results obtained.\n",
+    ""
+   ]
+  },
+  "gazit04_odyssey": {
+   "authors": [
+    [
+     "Ran",
+     "Gazit"
+    ],
+    [
+     "Yaakov",
+     "Metzger"
+    ]
+   ],
+   "title": "Voice mining with multiple target speakers",
+   "original": "ody4_377",
+   "page_count": 4,
+   "order": 37,
+   "p1": "377",
+   "pn": "380",
+   "abstract": [
+    "In the basic speaker verification task, an unknown voice segment that contains the voice of a single speaker is checked against the acoustic model of a single target speaker. In the multiple-speaker voice mining application, a large set of audio sessions is searched for the sessions of several target speakers. Each of the audio sessions may hold the voice of more than one speaker. This application should determine which of the sessions may come from any of the target speakers.\n",
+    "A multiple-speaker voice mining application, based on a sliding-window speaker detection engine, was designed and tested over speech corpora recorded under real-life conditions in two commercial call-centers. System design, parameters and test results are presented.\n",
+    ""
+   ]
+  },
+  "saeta04_odyssey": {
+   "authors": [
+    [
+     "Javier R.",
+     "Saeta"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ],
+    [
+     "Oscar",
+     "Manso"
+    ],
+    [
+     "Manel",
+     "Medina"
+    ]
+   ],
+   "title": "Applying speaker verification to certificate revocation",
+   "original": "ody4_381",
+   "page_count": 4,
+   "order": 38,
+   "p1": "381",
+   "pn": "384",
+   "abstract": [
+    "The increasing popularity and importance of electronic commerce is evident today. However, global electronic commerce will not fully develop its immense potential unless trust is fully established. Digital certificates and electronic signature contribute to increase confidence and security by providing authenticity. However, authenticity on its own is not enough to provide trust. A credible service needs to provide authenticity and validity at the same time. In this sense, traditional Public Key Infrastructure (PKI) services have revealed a weak point due to inherent delays existing in order to cancel the possible use of a certificate when it has been lost or stolen. The CertiVeR Project intends to solve this problem and to strengthen security in commercial transactions. CertiVeR has adopted speaker verification (SV) to validate the users identities. The performance of the SV system has been evaluated with a Spanish database that gathers fixedline and mobile telephone sessions.\n",
+    ""
+   ]
+  },
+  "suhadi04_odyssey": {
+   "authors": [
+    [
+     "",
+     "Suhadi"
+    ],
+    [
+     "Stephan",
+     "Grashey"
+    ],
+    [
+     "Sorel",
+     "Stan"
+    ],
+    [
+     "Tim",
+     "Fingscheidt"
+    ]
+   ],
+   "title": "Evaluation of a small-footprint text and language independent speaker recognition system on forensic data",
+   "original": "ody4_117",
+   "page_count": 6,
+   "order": 39,
+   "p1": "117",
+   "pn": "122",
+   "abstract": [
+    "In this paper we evaluate on a forensic task our text and language independent speaker recognition system, characterized by modest memory requirements and robustness to environment noise. Noise robustness is achieved by employing a Kalman filter-based sequential interacting multiple models (SIMM) algorithm. The evaluation data was provided by the Netherlands Forensic Institute (NFI) and consisted of telephone conversations in four different languages gathered in real police investigations. The results of NFI evaluation show that our small-footprint system provides competitive equal error rates (EER) for the class of text independent systems operating on telephone speech with strong channel mismatch.\n",
+    ""
+   ]
+  },
+  "zilca04_odyssey": {
+   "authors": [
+    [
+     "Ran D.",
+     "Zilca"
+    ],
+    [
+     "Jason W.",
+     "Pelecanos"
+    ],
+    [
+     "Upendra V.",
+     "Chaudhari"
+    ],
+    [
+     "Ganesh N.",
+     "Ramaswamy"
+    ]
+   ],
+   "title": "Real time robust speech detection for text independent speaker recognition",
+   "original": "ody4_123",
+   "page_count": 6,
+   "order": 40,
+   "p1": "123",
+   "pn": "128",
+   "abstract": [
+    "Speaker recognition systems employ a speech detection algorithm and use only frames detected as speech for further processing. The accuracy obtained by a speaker recognition system depends on the method that is used to detect speech, in particular for real-life deployments where the incoming speech varies significantly in loudness and noise characteristics. Also, actual deployments mandate real time processing, where look-ahead should be minimized and eliminated if possible, and where the speech detector cannot rely on statistics of speech features such as energy levels across the entire utterance. This makes many prevalent speech detection methods that use energy statistics unsuitable for speaker recognition deployments. Also, speech detection in text independent speaker recognition systems is more challenging compared to text dependent systems since there is no inherent validation and/or detection of the spoken. In this paper we describe a robust speech detection method based on voicing score estimation that allows for real time speech detection, and compare it to other real time methods in different conditions. All tested algorithms satisfy the requirements of exhibiting consistent performance across different data sets that have different noise characteristics, and operating in real time. The voicing-based algorithm is shown to perform significantly better than other tested speech detection algorithms.\n",
+    ""
+   ]
+  },
+  "boakye04_odyssey": {
+   "authors": [
+    [
+     "Kofi",
+     "Boakye"
+    ],
+    [
+     "Barbara",
+     "Peskin"
+    ]
+   ],
+   "title": "Text-constrained speaker recognition on a text-independent task",
+   "original": "ody4_129",
+   "page_count": 6,
+   "order": 41,
+   "p1": "129",
+   "pn": "134",
+   "abstract": [
+    "We present an approach to speaker recognition in the textindependent domain of conversational telephone speech using a text-constrained system designed to employ select highfrequency keywords in the speech stream. The system uses speaker word models generated via Hidden Markov Models (HMMs) - a departure from the traditional Gaussian Mixture Model (GMM) approach dominant in text-independent work, but commonly employed in text-dependent systems - with the expectation that HMMs take greater advantage of sequential information and support more detailed modeling which could be used to aid recognition. Even with a keyword inventory that covers a mere 10% of the word tokens and a system that does not yet incorporate many standard speaker recognition normalization schemes, this approach is already achieving equal error rates of 1% on NISTs 2001 Extended Data task.\n",
+    ""
+   ]
+  },
+  "boies04_odyssey": {
+   "authors": [
+    [
+     "Daniel",
+     "Boies"
+    ],
+    [
+     "Matthieu",
+     "Hébert"
+    ],
+    [
+     "Larry P.",
+     "Heck"
+    ]
+   ],
+   "title": "Study on the effect of lexical mismatch in text-dependent speaker verification",
+   "original": "ody4_135",
+   "page_count": 6,
+   "order": 42,
+   "p1": "135",
+   "pn": "140",
+   "abstract": [
+    "Mismatch in speaker verification systems can originate from several sources. A mismatch occurs whenever certain conditions vary between the enrollment and verification sessions. It is well known that certain types of mismatch can lead to degraded performance (e.g., mismatched handsets in telephonebased speaker verification). Many studies conducted on several databases have reported on the impacts of mismatch and on various methods to reduce their effects to increase performance robustness. To our knowledge, this is one of the first comparative studies that tries to establish the relative impact of the different potential sources of mismatch. The experiments described in this paper have been constructed in a way that easily allows to isolate the impact of the different causes of mismatch on a single large database in very controlled conditions. We will compare the impact of lexical Mismatch with other types of mismatch on the true speaker and imposter populations. Our results show that total lexical mismatch induces an increase of the Equal Error Rate (EER) by a factor of 5 while the EER increases by a factor of 1.7 for channel mismatch and 1.4 for SNR mismatch.\n",
+    ""
+   ]
+  },
+  "argonesrua04_odyssey": {
+   "authors": [
+    [
+     "Enrique",
+     "Argones-Rúa"
+    ],
+    [
+     "Elisardo",
+     "González-Agulla"
+    ],
+    [
+     "Carmen",
+     "García-Mateo"
+    ],
+    [
+     "Óscar William",
+     "Márquez-Flórez"
+    ]
+   ],
+   "title": "User verification in a BioVXML framework",
+   "original": "ody4_141",
+   "page_count": 4,
+   "order": 43,
+   "p1": "141",
+   "pn": "144",
+   "abstract": [
+    "We present BioVXML as an extension of the Voice Extensible Markup Language (VoiceXML). BioVXML is designed for creating modules of biometric verification while maintaining all the features and capabilities of the original VoiceXML. The user verification can now be performed by processing different biometric traits, such as speech or face, and these features gives us an assurance of the user identity, whereas traditional methods such as written passwords do not. BioVXML provides facilities to develop any monomodal or multimodal biometric recognition system, and it simplifies the creation of remote access control to information systems. We also show how BioVXML can be used in a practical system like an e-learning platform.\n",
+    ""
+   ]
+  },
+  "blouet04_odyssey": {
+   "authors": [
+    [
+     "Raphael",
+     "Blouet"
+    ],
+    [
+     "Chafic",
+     "Mokbel"
+    ],
+    [
+     "Hoda",
+     "Mokbel"
+    ],
+    [
+     "Eduardo Sánchez",
+     "Soto"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ],
+    [
+     "Hanna",
+     "Greige"
+    ]
+   ],
+   "title": "BECARS: a free software for speaker verification",
+   "original": "ody4_145",
+   "page_count": 4,
+   "order": 44,
+   "p1": "145",
+   "pn": "148",
+   "abstract": [
+    "The aim of Automatic Speaker Verification (ASV) is to detect whether a speech segment has been uttered by the claimed identity or by an impostor. Our contribution includes the distribution of BECARS , a free software based on Gaussian Mixture Models (GMM) for Automatic Speaker Verification (ASV), and the design of a new methodology to estimate the decision score in an ASV system. BECARS in available at http://www.tsi.enst.fr/~blouet/Becars/ . The main characteristic of this software is to allow the use of several adaptation techniques including the most common ones such as Maximum A Posteriori (MAP) and Maximum Likelihood Linear Regression (MLLR). The proposed method for score computation is based on the use of a hierarchical Gaussian clusterization method that we describe in details in this paper.\n",
+    "We introduce this work with a general summary of Automatic Speaker Verification (ASV), followed by a description of the adaptation technique available in BECARS used in this work. We then present and evaluate our score computation scheme before concluding the paper.\n",
+    ""
+   ]
+  },
+  "metzger04_odyssey": {
+   "authors": [
+    [
+     "Yaakov",
+     "Metzger"
+    ],
+    [
+     "Ran",
+     "Gazit"
+    ]
+   ],
+   "title": "text-prompted without text: a language-independent voice-prompted speaker recognition system",
+   "original": "ody4_149",
+   "page_count": 4,
+   "order": 45,
+   "p1": "149",
+   "pn": "152",
+   "abstract": [
+    "A new paradigm of voice prompted speaker recognition is presented. The vocal prompts that the speaker is asked to repeat are used by the speaker recognition system for segmenting the data and for normalizing the verification results. Using the vocal prompts themselves instead of the matching text makes the overall system more flexible and truly language independent. A technology demonstration system was set up and a small-scale experiment measured both speaker verification and text confirmation performance. Testing results show good performance when using human vocal prompts as well as synthesized vocal prompts.\n",
+    ""
+   ]
+  },
+  "kunzel04_odyssey": {
+   "authors": [
+    [
+     "Hermann J.",
+     "Künzel"
+    ],
+    [
+     "Joaquín",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Javier",
+     "Ortega-García"
+    ]
+   ],
+   "title": "Effect of voice disguise on the performance of a forensic automatic speaker recognition system",
+   "original": "ody4_153",
+   "page_count": 4,
+   "order": 46,
+   "p1": "153",
+   "pn": "156",
+   "abstract": [
+    "This paper presents first results of an ongoing study on the effects of common types of voice disguise, including increased voice pitch (even falsetto speech), lowered voice pitch and pinching the nose while speaking, on forensic speaker recognition (FSR) techniques. Natural and disguised speech data from 100 German speakers recorded 5 times over a period of 7 to 9 months were used in a series of speaker recognition experiments, using the LR-based forensic automatic speaker recognition system developed by ATVS at Universidad Politécnica de Madrid. In this paper, experiments are limited to estimate the performance degradation when the suspect is known to be the author of the disguised test speech (no impostor trials are reported). Results indicate that the three types of voice disguise selected affect the performance of the system only marginally if reference populations contain speech data which exhibit the same type of disguise. If, however, the reference population is assembled with normal speech only, effects are generally more severe and also different for the three types of disguise under evaluation.\n",
+    ""
+   ]
+  },
+  "hansen04_odyssey": {
+   "authors": [
+    [
+     "Eric G.",
+     "Hansen"
+    ],
+    [
+     "Raymond E.",
+     "Slyh"
+    ],
+    [
+     "Timothy R.",
+     "Anderson"
+    ]
+   ],
+   "title": "Speaker recognition using phoneme-specific GMMs",
+   "original": "ody4_179",
+   "page_count": 6,
+   "order": 47,
+   "p1": "179",
+   "pn": "184",
+   "abstract": [
+    "This paper compares three approaches to building phoneme-specific Gaussian mixture model (GMM) speaker recognition systems on the NIST 2003 Extended Data Evaluation to a baseline GMM system covering all of the phonemes. The individual performance of any given phoneme-specific GMM system falls below the performance of the baseline GMM, but fusing the top 40 performing scores of the individual phoneme systems at the 8 conversation train condition resulted in an equal error rate of 1.7%, which is a 2.6% absolute reduction in equal error rate from the baseline system. Further investigation showed complementary information across the three model building approaches as error rates dropped on a per phoneme basis when these systems were fused.\n",
+    ""
+   ]
+  },
+  "fink04_odyssey": {
+   "authors": [
+    [
+     "Gernot A.",
+     "Fink"
+    ],
+    [
+     "Thomas",
+     "Plötz"
+    ]
+   ],
+   "title": "Integrating speaker identification and learning with adaptive speech recognition",
+   "original": "ody4_185",
+   "page_count": 8,
+   "order": 48,
+   "p1": "185",
+   "pn": "192",
+   "abstract": [
+    "Presently, speaker adaptive systems are the state-of-theart in automatic speech recognition. A general baseline model is adapted to the current speaker during recognition in order to improve the quality of the results obtained. However, the adaptation procedure needs to be able to distinguish between data from different speakers. Therefore, in a general speaker adaptive recognizer speaker recognition has to be performed implicitly. The resulting information about the identity of the person speaking can be of great importance in many applications of speech recognition, e.g. in man-machine communication. Therefore, we propose an integrated framework for speech and speaker recognition. Our system is able to detect new speakers and to identify already known ones. For a new speaker both an identification and an adapted recognition model are learned from limited data. The latter is then used for the recognition of utterances attributed to this speaker. We will present evaluation results with respect to speaker identification performance on two nontrivial speech recognition tasks that demonstrate the effectiveness of our integrated approach.\n",
+    ""
+   ]
+  },
+  "rentzos04_odyssey": {
+   "authors": [
+    [
+     "Dimitrios",
+     "Rentzos"
+    ],
+    [
+     "Saeed",
+     "Vaseghi"
+    ],
+    [
+     "Qin",
+     "Yan"
+    ]
+   ],
+   "title": "Voice profile: a structured probability model with application to voice morphing",
+   "original": "ody4_193",
+   "page_count": 6,
+   "order": 49,
+   "p1": "193",
+   "pn": "198",
+   "abstract": [
+    "This paper presents the concept of a voice profile as a complete description of the distributions of the acoustic correlates and the speaking characteristics of a speaker. A voice profile can be considered as a unified speaker-dependent probability model of speech with applications in speaker identification, adaptive speech recognition, voice morphing and text to speech synthesis. The spectral and temporal parameters that define a voice profile are obtained from hidden Markov models (HMMs) of speech. The HMMs are trained on extended feature vectors that include features for recognition, synthesis and identification. A method of ranking the acoustic correlates of a speakers voice is proposed based on an analysis of the relative distance of each voice correlate from that of the gender-dependent modal voice. The voice profile is used effectively for voice conversion. Experimental results of speaker profiling and its evaluation in voice morphing are presented.\n",
+    ""
+   ]
+  },
+  "poh04_odyssey": {
+   "authors": [
+    [
+     "Norman",
+     "Poh"
+    ],
+    [
+     "Samy",
+     "Bengio"
+    ]
+   ],
+   "title": "Noise-robust multi-stream fusion for text-independent speaker authentication",
+   "original": "ody4_199",
+   "page_count": 8,
+   "order": 50,
+   "p1": "199",
+   "pn": "206",
+   "abstract": [
+    "The the use of several acoustic feature types, also called the multi-stream approach, has proven to be very successful in speech recognition tasks and to a certain extent in speaker authentication tasks. In this study we propose a noise-robust multi-stream text-independent speaker authentication system. This system is trained in two steps: first train the stream experts under clean conditions and then train the combination mechanism to merge the scores of the stream experts under both clean and noisy conditions. The idea here is to take advantage of the rather predictable reliability and diversity of streams under different conditions. Hence, noise-robustness is mainly due to the combination mechanism. This two-step approach offers several practical advantages: the stream experts can be trained in parallel (e.g., by using several machines); heterogeneous types of features can be used and the resultant system can be robust to different noise types (wide bands or narrow bands) as compared to sub-streams. An important finding is that a trade-off is often necessary between the overall good performance under all conditions (clean and noisy) and good performance under clean conditions. To reconcile this trade-off, we propose to give more emphasis or prior to clean conditions, thus, resulting in a combination mechanism that does not deteriorate under clean conditions (as compared to the best stream) yet is robust to noisy conditions.\n",
+    ""
+   ]
+  },
+  "valente04_odyssey": {
+   "authors": [
+    [
+     "Fabio",
+     "Valente"
+    ],
+    [
+     "Christian",
+     "Wellekens"
+    ]
+   ],
+   "title": "Variational Bayesian speaker clustering",
+   "original": "ody4_207",
+   "page_count": 8,
+   "order": 51,
+   "p1": "207",
+   "pn": "214",
+   "abstract": [
+    "In this paper we explore the use of Variational Bayesian (VB) learning in unsupervised speaker clustering. VB learning is a relatively new learning technique that has the capacity of doing at the same time parameter learning and model selection. We tested this approach on the NIST 1996 HUB-4 evaluation test for speaker clustering when the speaker number is a priori known and when it has to be estimated. VB shows a higher accuracy in terms of average cluster purity and average speaker purity compared to the Maximum Likelihood solution.\n",
+    ""
+   ]
+  },
+  "saeta04b_odyssey": {
+   "authors": [
+    [
+     "Javier R.",
+     "Saeta"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "On the use of score pruning in speaker verification for speaker dependent threshold estimation",
+   "original": "ody4_215",
+   "page_count": 4,
+   "order": 52,
+   "p1": "215",
+   "pn": "218",
+   "abstract": [
+    "The use of a priori speaker-dependent thresholds has been shown convenient for speaker verification. However, their estimation is highly affected by the difficulty of obtaining data from impostors, the mismatched conditions, the scarcity of data in real applications and the need of setting the threshold a priori, during enrollment. In this context, possible outliers, i.e., those client scores which are distant with respect to mean in terms of Log-Likelihood Ratio (LLR), could lead to wrong estimations of client mean and variance. To overcome this problem, we propose here several methods based on pruning LLR scores with different statistical criteria. Before estimating the threshold, score pruning removes outliers and improves subsequent estimations. To solve the problem of impostor data, we also suggest a speaker dependent threshold estimation with only data from clients. Text-dependent and textindependent experiments have been carried out by using a telephonic multisession database in Spanish with 184 speakers, that has been recorded by the authors.\n",
+    ""
+   ]
+  },
+  "kenny04_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "Experiments in speaker verification using factor analysis likelihood ratios",
+   "original": "ody4_219",
+   "page_count": 8,
+   "order": 53,
+   "p1": "219",
+   "pn": "226",
+   "abstract": [
+    "We report the results of some speaker verification experiments on the NIST 1999 and NIST 2000 test sets using factor analysis likelihood ratio statistics. For the experiments on the 1999 test set we had to use a mismatched training set, namely Phases 1 and 2 of the Switchboard II corpus, to train the factor analysis model. Our results on this test set are are comparable to (but not better than) the best results that have been attained with standard methods (GMM likelihood ratios and handset detection). In order to experiment with well matched training and test sets, we used half of the target speakers in the NIST 2000 evaluation for testing and a disjoint set of speakers taken from Switchboard II, Phases 1 and 2 for training. In this situation we obtained an equal error rate of 7.2% and a minimum detection cost of 0.028. These figures represent an improvement of about 25% over standard methods.\n",
+    ""
+   ]
+  },
+  "charlet04_odyssey": {
+   "authors": [
+    [
+     "Delphine",
+     "Charlet"
+    ]
+   ],
+   "title": "Neighborhood-adapted GMM for speaker recognition",
+   "original": "ody4_227",
+   "page_count": 4,
+   "order": 54,
+   "p1": "227",
+   "pn": "230",
+   "abstract": [
+    "In previous work [1], it was investigated how the neighborhood can be used to estimate a better model for a speaker when few training data is avalaible. In this paper, this work is completed by investigating another way to merge models from the neighbors and by introducing a weight on the neighbor models to be merged. Experiments on a telephone speech database show that using the neighborhood-merged model to initialize the training phase provides improvement compared to the UBM approach, when few training data is available.\n",
+    "",
+    "",
+    "Y. Mami and D. Charlet, \"Speaker modeling from selected neighbors applied to speaker recognition,\" in Eurospeech, Geneva, Switzerland, 2003.\n",
+    ""
+   ]
+  },
+  "zhang04_odyssey": {
+   "authors": [
+    [
+     "Yongxin",
+     "Zhang"
+    ],
+    [
+     "Michael S.",
+     "Scordilis"
+    ]
+   ],
+   "title": "Optimization of GMM training for speaker verification",
+   "original": "ody4_231",
+   "page_count": 5,
+   "order": 55,
+   "p1": "231",
+   "pn": "236",
+   "abstract": [
+    "EM training of GMM often suffers from the existence of local maxima and singularities in the likelihood space. In this paper, we present a new Modified Split-and-Merge EM algorithm (MSMEM) for speaker verification tasks, which performs split-and-merge operations to escape from local maxima and reduce the chances of generating singularities. With two modified criteria to select split-and-merge candidates for speaker verification task, the overall likelihoods of both training and testing data are improved. Furthermore, modified adaptive variance flooring is introduced in the new EM procedure. Experiments on synthetic data show the advantages of MSMEM. Global threshold EER results on a speaker verification task using the TIMIT database confirm the improvement of the system performance.\n",
+    ""
+   ]
+  },
+  "bengio04_odyssey": {
+   "authors": [
+    [
+     "Samy",
+     "Bengio"
+    ],
+    [
+     "Johnny",
+     "Mariéthoz"
+    ]
+   ],
+   "title": "A statistical significance test for person authentication",
+   "original": "ody4_237",
+   "page_count": 8,
+   "order": 56,
+   "p1": "237",
+   "pn": "244",
+   "abstract": [
+    "Assessing whether two models are statistically significantly different from each other is a very important step in research, although it has unfortunately not received enough attention in the field of person authentication. Several performance measures are often used to compare models, such as half total error rates (HTERs) and equal error rates (EERs), but most being aggregates of two measures (such as the false acceptance rate and the false rejection rate), simple statistical tests cannot be used as is. We show in this paper how to adapt one of these tests in order to compute a confidence interval around one HTER measure or to assess the statistical significantness of the difference between two HTER measures. We also compare our technique with other solutions that are sometimes used in the literature and show why they yield often too optimistic results (resulting in false statements about statistical significantness).\n",
+    ""
+   ]
+  },
+  "ning04_odyssey": {
+   "authors": [
+    [
+     "Daryl",
+     "Ning"
+    ],
+    [
+     "Vinod",
+     "Chandran"
+    ]
+   ],
+   "title": "The effectiveness of higher order spectral phase features in speaker identification",
+   "original": "ody4_245",
+   "page_count": 6,
+   "order": 57,
+   "p1": "245",
+   "pn": "250",
+   "abstract": [
+    "This paper studies the effectiveness of higher order spectra (HOS) phase features in the task of speaker identification. Within the speech processing community, short time spectral phase information is generally regarded as unimportant for speaker recognition. In fact, the most commonly used features for speaker recognition are the Mel frequency cepstral coeffi- cients (MFCC), which are defined from the magnitude spectrum only. In our experiments, we utilise features that contain both magnitude and phase spectral information. These HOS phase features are derived by integrating points along a straight line in bifrequency space. Clean microphone speech from a 20 male speaker database is used, and Gaussian mixture models (GMM) are constructed from the set of extracted features. The HOS phase features achieve a correct identification rate of 98.5%, which is similar to the rate achieved by the MFCC feature set (99.4%). The usefulness of short time phase spectral information is also verified by performing experiments after removing the magnitude spectral information from the speech data. The HOS phase features are also shown to be more robust to additive white Gaussian noise in mismatched training and testing conditions than MFCCs.\n",
+    ""
+   ]
+  },
+  "nakasone04_odyssey": {
+   "authors": [
+    [
+     "Hirotaka",
+     "Nakasone"
+    ],
+    [
+     "Maria",
+     "Mimikopoulos"
+    ],
+    [
+     "Steven D.",
+     "Beck"
+    ],
+    [
+     "Somit",
+     "Mathur"
+    ]
+   ],
+   "title": "Pitch synchronized speech processing (PSSP) for speaker recognition",
+   "original": "ody4_251",
+   "page_count": 6,
+   "order": 58,
+   "p1": "251",
+   "pn": "256",
+   "abstract": [
+    "A method for speech signal enhancement is developed with application to automatic speaker recognition where the signals have different channel conditions. The basis of this technique is a robust pitch detection algorithm that accurately estimates the instantaneous pitch rate, and extracts single pitch period speech segments. This technique of pitch synchronized speech processing (PSSP) provides the highest time-frequency resolution for short time Fourier analysis of speech signals. It also effectively eliminates all non-voiced signal regions and minimizes the spectral harmonics due to multiple pitch periods in the analysis window. One significant benefit of PSSP is that feature warping can be applied to the pitch-synchronized spectrums for two cross-channel signals. Feature warping in the spectral domain provides linear channel normalization and enhancement for spectrographic analysis. A cross channel transfer function can then be derived from the feature warping process and applied to audio channel normalization and enhancement. The application of the PSSP feature warping transfer function resulted in improved speaker recognition performance when applied to cross-channel speech signals from the CAVIS voice corpus [1]. However, PSSP alone did not improve recognition performance compared to Mel filterbank cepstral coefficients.\n",
+    ""
+   ]
+  },
+  "siafarikas04_odyssey": {
+   "authors": [
+    [
+     "Mihalis",
+     "Siafarikas"
+    ],
+    [
+     "Todor",
+     "Ganchev"
+    ],
+    [
+     "Nikos",
+     "Fakotakis"
+    ]
+   ],
+   "title": "Wavelet packet based speaker verification",
+   "original": "ody4_257",
+   "page_count": 8,
+   "order": 59,
+   "p1": "257",
+   "pn": "264",
+   "abstract": [
+    "In an attempt to find out a more appropriate representation of a speech signal for the task of speaker recognition, we study alternative ways to represent speakers voices individuality. A novel wavelet packet based set of speech features, apposite for speaker recognition, is proposed. We exploit the capabilities offered by the plethora of existing wavelets, along with the powerful set of orthonormal bases provided by wavelet packets that allow an effective manipulation of the frequency subbands. Our scheme differs from previous wavelet-based works, primarily in the wavelet-packet tree design which follows the concept of critical bandwidth, as well as in the particular wavelet basis function that has been used. Our baseline text-independent speaker verification system, which has participated in the 2002 NIST Speaker Recognition Evaluation, was used as a platform to study the practical significance of the proposed speech parameters. Comparative experimental results confirm the assertion that the proposed speech features outperform MFCC, as well as previously used wavelet features, on the task of speaker verification.\n",
+    ""
+   ]
+  },
+  "beck04_odyssey": {
+   "authors": [
+    [
+     "Steven D.",
+     "Beck"
+    ],
+    [
+     "Reva",
+     "Schwartz"
+    ],
+    [
+     "Hirotaka",
+     "Nakasone"
+    ]
+   ],
+   "title": "A bilingual multi-modal voice corpus for language and speaker recognition (LASR) services",
+   "original": "ody4_265",
+   "page_count": 6,
+   "order": 60,
+   "p1": "265",
+   "pn": "270",
+   "abstract": [
+    "Language and channel variations are two important concerns currently affecting practical automatic language and speaker recognition performance. To address these challenges, a corpus of speech was collected from 100 bilingual speakers in each of three foreign languages (Arabic-English, Korean-English, and Spanish-English). The recordings were made in highly controlled conditions using multiple microphones simultaneously, each with different measured response characteristics. The speakers were asked to perform a set of speaking tasks including conversations, text independent readings, and prescribed text readings. These tasks were performed in English and in each speakers native language. The equipment, the recording procedures, and the data formats are presented, along with a preliminary analysis of recorded signal quality.\n",
+    ""
+   ]
+  },
+  "rengifo04_odyssey": {
+   "authors": [
+    [
+     "Carlos Lino",
+     "Rengifo"
+    ],
+    [
+     "Diego Andrés",
+     "Alvarez"
+    ],
+    [
+     "Ricardo",
+     "Henao"
+    ],
+    [
+     "Germán",
+     "Castellanos"
+    ],
+    [
+     "Jorge Eduardo",
+     "Hurtado"
+    ]
+   ],
+   "title": "Active learning on the classification of voice pathologies",
+   "original": "ody4_271",
+   "page_count": 4,
+   "order": 61,
+   "p1": "271",
+   "pn": "274",
+   "abstract": [
+    "In this article, it is studied the usefulness of the support vector machines (SVM) algorithm in the active classification of voice records into the sets normal and pathologic. In practice, each one of the samples employed on the classifier training must be manually labelled by an specialist, increasing in this way the training cost. Thus, it is imperative to obtain a classifier with a low generalization error, such that the number of training samples is as low as possible. A model selection technique, namely the Leave-One-Out criterion, was applied for the tuning of the appropriate parameters of the SVM. Also, a Radial Basis Function kernel was employed. The results obtained in the categorization of the aforementioned voice records showed that the number of tagged training samples can be reduced up to a 70% for the same testing error that the one obtained when the whole training set is labelled.\n",
+    ""
+   ]
+  },
+  "kim04_odyssey": {
+   "authors": [
+    [
+     "Hyoung-Gook",
+     "Kim"
+    ],
+    [
+     "Martin",
+     "Haller"
+    ],
+    [
+     "Thomas",
+     "Sikora"
+    ]
+   ],
+   "title": "Comparison of MPEG-7 basis projection features and MFCC applied to robust speaker recognition",
+   "original": "ody4_275",
+   "page_count": 4,
+   "order": 62,
+   "p1": "275",
+   "pn": "278",
+   "abstract": [
+    "Our purpose is to evaluate the efficiency of MPEG-7 basis projection (BP) features vs. Mel-scale Frequency Cepstrum Coef- ficients (MFCC) for speaker recognition in noisy environments. The MPEG-7 feature extraction mainly consists of a Normalized Audio Spectrum Envelope (NASE), a basis decomposition algorithm and a spectrum basis projection. Prior to the feature extraction the noise reduction algorithm is performed by using a modified log spectral amplitude speech estimator (LSA) and a minima controlled noise estimation (MC). The noise-reduced features can be effectively used in a HMM-based recognition system. The performance is measured by the segmental signalto- noise ratio, and the recognition results of the MPEG-7 standardized features vs. Mel-scale Frequency Cepstrum Coeffi- cients (MFCC) in comparison to other noise reduction methods. Results show that the MFCC features yield better performance compared to MPEG-7 features.\n",
+    ""
+   ]
+  },
+  "bengio04b_odyssey": {
+   "authors": [
+    [
+     "Samy",
+     "Bengio"
+    ],
+    [
+     "Johnny",
+     "Mariéthoz"
+    ]
+   ],
+   "title": "The expected performance curve: a new assessment measure for person authentication",
+   "original": "ody4_279",
+   "page_count": 6,
+   "order": 63,
+   "p1": "279",
+   "pn": "284",
+   "abstract": [
+    "ROC and DET curves are often used in the field of person authentication to assess the quality of a model or even to compare several models. We argue in this paper that this measure can be misleading as it compares performance measures that cannot be reached simultaneously by all systems. We propose instead new curves, called Expected Performance Curves (EPC). These curves enable the comparison between several systems according to a criterion, decided by the application, which is used to set thresholds according to a separate validation set. A free sofware is available to compute these curves. A real case study is used throughout the paper to illustrate it. Finally, note that while this study was done on an authentication problem, it also applies to most 2-class classification tasks.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "rose04_odyssey",
+    "meuwly04_odyssey"
+   ]
+  },
+  {
+   "title": "Assessment and Corpora",
+   "papers": [
+    "przybocki04_odyssey",
+    "moraru04_odyssey",
+    "campbell04_odyssey",
+    "brummer04_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition",
+   "papers": [
+    "campbell04b_odyssey",
+    "liu04_odyssey",
+    "kajarekar04_odyssey",
+    "solomonoff04_odyssey"
+   ]
+  },
+  {
+   "title": "Forensic Speaker Recognition",
+   "papers": [
+    "botti04_odyssey",
+    "alexander04_odyssey",
+    "leeuwen04_odyssey",
+    "gonzalezrodriguez04_odyssey"
+   ]
+  },
+  {
+   "title": "High-Level Speaker Recognition",
+   "papers": [
+    "baker04_odyssey",
+    "klusacek04_odyssey",
+    "garciaromero04_odyssey",
+    "hannani04_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Verification",
+   "papers": [
+    "barras04_odyssey",
+    "pelecanos04_odyssey",
+    "ben04_odyssey",
+    "vogt04_odyssey"
+   ]
+  },
+  {
+   "title": "Language Recognition",
+   "papers": [
+    "campbell04c_odyssey",
+    "martin04_odyssey",
+    "torrescarrasquillo04_odyssey",
+    "singer04_odyssey"
+   ]
+  },
+  {
+   "title": "Features for Speaker and Language Recognition",
+   "papers": [
+    "chetouani04_odyssey",
+    "slyh04_odyssey",
+    "mary04_odyssey",
+    "zigel04_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Segmentation and Clustering",
+   "papers": [
+    "tranter04_odyssey",
+    "hsieh04_odyssey",
+    "roch04_odyssey",
+    "moraru04b_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Identification",
+   "papers": [
+    "matsui04_odyssey",
+    "fortuna04_odyssey",
+    "gazit04_odyssey",
+    "saeta04_odyssey"
+   ]
+  },
+  {
+   "title": "Application Issues in Speaker Recognition",
+   "papers": [
+    "suhadi04_odyssey",
+    "zilca04_odyssey",
+    "boakye04_odyssey",
+    "boies04_odyssey",
+    "argonesrua04_odyssey",
+    "blouet04_odyssey",
+    "metzger04_odyssey",
+    "kunzel04_odyssey"
+   ]
+  },
+  {
+   "title": "Models and Systems for Speaker Recognition",
+   "papers": [
+    "hansen04_odyssey",
+    "fink04_odyssey",
+    "rentzos04_odyssey",
+    "poh04_odyssey",
+    "valente04_odyssey",
+    "saeta04b_odyssey",
+    "kenny04_odyssey",
+    "charlet04_odyssey",
+    "zhang04_odyssey",
+    "bengio04_odyssey"
+   ]
+  },
+  {
+   "title": "Features and Assessment in Speaker Recognition",
+   "papers": [
+    "ning04_odyssey",
+    "nakasone04_odyssey",
+    "siafarikas04_odyssey",
+    "beck04_odyssey",
+    "rengifo04_odyssey",
+    "kim04_odyssey",
+    "bengio04b_odyssey"
+   ]
+  }
+ ]
+}

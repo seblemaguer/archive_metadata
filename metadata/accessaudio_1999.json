@@ -1,0 +1,629 @@
+{
+ "title": "Workshop on Accessing Information in Spoken Audio",
+ "location": "Cambridge, UK",
+ "startDate": "19/4/1999",
+ "endDate": "20/4/1999",
+ "conf": "AccessAudio",
+ "year": "1999",
+ "name": "accessaudio_1999",
+ "series": "",
+ "SIG": "",
+ "title1": "Workshop on Accessing Information in Spoken Audio",
+ "date": "19-20 April 1999",
+ "papers": {
+  "garofolo99_accessaudio": {
+   "authors": [
+    [
+     "John S.",
+     "Garofolo"
+    ],
+    [
+     "Ellen M.",
+     "Voorhees"
+    ],
+    [
+     "Cedric G. P.",
+     "Auzanne"
+    ],
+    [
+     "Vincent M.",
+     "Stanford"
+    ]
+   ],
+   "title": "Spoken Document Retrieval:1998 evaluation and investigation of new metrics",
+   "original": "acau_001",
+   "page_count": 7,
+   "order": 1,
+   "p1": "1",
+   "pn": "7",
+   "abstract": [
+    "This paper describes the 1998 TREC-7 Spoken Document Retrieval (SDR) Track which implemented an evaluation of retrieval of broadcast news excerpts using a combination of automatic speech recognition and information retrieval technologies. The motivations behind the SDR Track and background regarding its development and implementation are discussed. The SDR evaluation collection and topics are described and summaries and analyses of the results of the track are presented. Alternative metrics for automatic speech recognition as applicable to retrieval applications are also explored. Finally, plans for future SDR tracks are described.\n",
+    ""
+   ]
+  },
+  "jourlin99_accessaudio": {
+   "authors": [
+    [
+     "Pierre",
+     "Jourlin"
+    ],
+    [
+     "Sue E.",
+     "Johnson"
+    ],
+    [
+     "Karen",
+     "Sparck Jones"
+    ],
+    [
+     "Philip C.",
+     "Woodland"
+    ]
+   ],
+   "title": "General query expansion techniques for spoken document retrieval",
+   "original": "acau_008",
+   "page_count": 6,
+   "order": 2,
+   "p1": "8",
+   "pn": "13",
+   "abstract": [
+    "This paper presents some developments in query expansion and document representation of our Spoken Document Retrieval (SDR) system since the 1998 Text REtrieval Conference (TREC-7).\n",
+    "We have shown that a modification of the document representation combining several techniques for query expansion can improve Average Precision by 17% relative to a system similar to that which we presented at TREC-7. These new experiments have also confirmed that the degradation of Average Precision due to a Word Error Rate (WER) of 25% is relatively small (around 2% relative). We hope to repeat these experiments when larger document collections become available to evaluate the scalability of these techniques.\n",
+    ""
+   ]
+  },
+  "abberley99_accessaudio": {
+   "authors": [
+    [
+     "Dave",
+     "Abberley"
+    ],
+    [
+     "David",
+     "Kirby"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ],
+    [
+     "Tony",
+     "Robinson"
+    ]
+   ],
+   "title": "The THISL broadcast news retrieval system",
+   "original": "acau_014",
+   "page_count": 6,
+   "order": 3,
+   "p1": "14",
+   "pn": "19",
+   "abstract": [
+    "This paper described the THISL spoken document retrieval system for British and North American Broadcast News. The system is based on the Abbot large vocabulary speech recognizer, using a recurrent network acoustic model, and a probabilistic text retrieval system. We discuss the development of a realtime British English Broadcast News system, and its integration into a spoken document retrieval system. Detailed evaluation is performed using a similar North American Broadcast News system, to take advantage of the TREC SDR evaluation methodology. We report results on this evaluation, with particular reference to the effect of query expansion and of automatic segmentation algorithms.\n",
+    ""
+   ]
+  },
+  "rouillard99_accessaudio": {
+   "authors": [
+    [
+     "José",
+     "Rouillard"
+    ],
+    [
+     "Jean",
+     "Caelen"
+    ]
+   ],
+   "title": "HALPIN: A multimodal and conversational system for information seeking on the World WideWeb",
+   "original": "acau_020",
+   "page_count": 5,
+   "order": 4,
+   "p1": "20",
+   "pn": "24",
+   "abstract": [
+    "Giving to computers the ability to talk and understand a natural language conversation is a major field of research. We have developed the HALPIN (Hyperdialogue avec un Agent en Langage Proche de lInteraction Naturelle) system to implement our multimodal conversational model for information retrieval. This dialogue-oriented interface allows the access to the INRIA's database (Institut National de Recherche en Informatique et Automatique, 83297 documents available), on the internet, in a natural language (NL) way, and gives its oral responses via usual browsers. The results of the first experiments show that the Halpin system provides some interesting dialogues (in particular with the beginners), according to the users goals and skills, that leads to information retrieval success, while searches with the original user interface (traditional web form) failed.\n",
+    ""
+   ]
+  },
+  "kurimo99_accessaudio": {
+   "authors": [
+    [
+     "Mikko",
+     "Kurimo"
+    ],
+    [
+     "Chafic",
+     "Mokbel"
+    ]
+   ],
+   "title": "Latent semantic indexing by self-organizing map",
+   "original": "acau_025",
+   "page_count": 6,
+   "order": 5,
+   "p1": "25",
+   "pn": "30",
+   "abstract": [
+    "An important problem for the information retrieval from spoken documents is how to extract those relevant documents which are poorly decoded by the speech recognizer. In this paper we propose a stochastic index for the documents based on the Latent Semantic Analysis (LSA) of the decoded document contents. The original LSA approach uses Singular Value Decomposition to reduce the dimensionality of the documents. As an alternative, we propose a computationally more feasible solution using Random Mapping (RM) and Self-Organizing Maps (SOM). The motivation for clustering the documents by SOM is to reduce the effect of recognition errors and to extract new characteristic index terms. Experimental indexing results are presented using relevance judgments for the retrieval results of test queries and using a document perplexity defined in this paper to measure the power of the index models.\n",
+    ""
+   ]
+  },
+  "colineau99_accessaudio": {
+   "authors": [
+    [
+     "Nathalie",
+     "Colineau"
+    ],
+    [
+     "Ariane",
+     "Halber"
+    ]
+   ],
+   "title": "A hybrid approach to spoken query processing in document retrieval system",
+   "original": "acau_031",
+   "page_count": 6,
+   "order": 6,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "In the context of the THISL spoken document retrieval system, we present a hybrid approach to spoken query processing, which enables to increase recognition rates and to extract relevant information for the application. The query processing is distributed between grammar and language model, based on the assumption that a query can be decomposed in two relatively independent parts; the addressing form, which is parsed with a grammar, and the queried content, which is scored with trieve the content sequence, which allows us to consult the database, but also, to keep information about the query formulations in order to develop an interaction between the user and the retrieval engine. This leads us to work closely with the speech recogniser and to carry out together the recognition and the query analysis.\n",
+    ""
+   ]
+  },
+  "lewin99_accessaudio": {
+   "authors": [
+    [
+     "Ian",
+     "Lewin"
+    ],
+    [
+     "Ralph",
+     "Becket"
+    ],
+    [
+     "Johan",
+     "Boye"
+    ],
+    [
+     "David",
+     "Carter"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Mats",
+     "Wiren"
+    ]
+   ],
+   "title": "Language processing for spoken dialogue systems: Is shallow parsing enough?",
+   "original": "acau_037",
+   "page_count": 6,
+   "order": 7,
+   "p1": "37",
+   "pn": "42",
+   "abstract": [
+    "With maturing speech technology, spoken dialogue systems are increasingly moving from research prototypes to fielded systems. The fielded systems however generally employ much simpler linguistic and dialogue processing strategies than the research prototypes. We describe an implemented spoken-language dialogue system for a travel planning domain which supports a mixed initiative dialogue strategy. The system accesses a commercially available travel information webserver. The system architecture combines both shallow and deep linguistic processors, partly so that a robust if shallow analysis is always available to the dialogue manager, and partly so that we can begin to examine where significant gains can be made by employing more advanced linguistic processing. We present the results of a preliminary investigation using data from a Wizard of Oz experiment. The results lend limited support to our original hypothesis that deep linguistic processing will prove useful at points where the user takes the initiative in driving the dialogue forward.\n",
+    ""
+   ]
+  },
+  "gotoh99_accessaudio": {
+   "authors": [
+    [
+     "Yoshihiko",
+     "Gotoh"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Statistical annotation of named entities in spoken audio",
+   "original": "acau_043",
+   "page_count": 6,
+   "order": 8,
+   "p1": "43",
+   "pn": "48",
+   "abstract": [
+    "In this paper we describe stochastic finite state model for named entity (NE) identification, based on explicit word-level n-gram relations. NE categories are incorporated in the model as word attributes. We present an overview of the approach, describing how the extensible vocabulary model may be used for NE identification. We report development and evaluation results on a North American Broadcast News task. This approach resulted in average precision and recall scores of around 83% on hand transcribed data, and 73% on the SPRACH recogniser output. We also present an error analysis and a comparison of our approach with an alternative statistical approach.\n",
+    ""
+   ]
+  },
+  "goel99_accessaudio": {
+   "authors": [
+    [
+     "Vaibhava",
+     "Goel"
+    ],
+    [
+     "William",
+     "Byrne"
+    ]
+   ],
+   "title": "Task dependent loss functions in speech recognition:Application to named entity extraction",
+   "original": "acau_049",
+   "page_count": 5,
+   "order": 9,
+   "p1": "49",
+   "pn": "53",
+   "abstract": [
+    "We present a risk-based decoding strategy for the task of Named Entity identification from speech. This approach does not select the most likely utterance produced by an ASR system, which would be the maximum a-posteriori (MAP) strategy, but instead chooses an utterance from an N-best list in an attempt to minimize the Bayes Risk under loss functions derived specifically for the Named Entity task. We describe our experimentation with three risk-based decoders corresponding to the following three performance evaluation criteria: the F-measure, the slot error rate, and the fraction of correctly identified reference slots. An unsupervised optimization is also applied to these decoders. The MAP decoder is used as the baseline for comparison. Our preliminary experiments with these task dependent decoders, using N-best lists of depth 200, show small but encouraging improvements in performance with respect to both manually tagged and machine tagged reference.\n",
+    ""
+   ]
+  },
+  "hirschman99_accessaudio": {
+   "authors": [
+    [
+     "Lynette",
+     "Hirschman"
+    ],
+    [
+     "John",
+     "Burger"
+    ],
+    [
+     "David",
+     "Palmer"
+    ],
+    [
+     "Patricia",
+     "Robinson"
+    ]
+   ],
+   "title": "Evaluating content extraction from audio source",
+   "original": "acau_054",
+   "page_count": 6,
+   "order": 10,
+   "p1": "54",
+   "pn": "59",
+   "abstract": [
+    "This paper discusses evaluation of content extraction from audio sources. The most straightforward approach is to adapt existing methods for written sources to handle audio input. A transcription then becomes the representation of the audio source in written form; it must capture the word stream, but also other information that aids in decoding the overall structure and content of the audio source, e.g., music, speaker changes, and speech repairs. The transcription must also support content annotation superimposed on the underlyin speech transcription. When automated speech recognition is used to generate the transcription, there is the additional problem of evaluating content extraction from a noisy transcription. In addition, audio sources differ from their written counterparts in genre and therefore in structure, vocabulary, and even in how names are used. If the audio includes spontaneous conversational speech, as opposed to planned speech, these differences become still more pronounced. We discuss how these differences affect the adaptation of text­based extraction evaluation to audio input. In addition, we describe two new content extraction evaluations that have been designed for use with both audio and written materials.\n",
+    ""
+   ]
+  },
+  "ferrieux99_accessaudio": {
+   "authors": [
+    [
+     "Alexandre",
+     "Ferrieux"
+    ],
+    [
+     "Stephane",
+     "Peillon"
+    ]
+   ],
+   "title": "Phoneme-level indexing for fast and vocabulary-independent voice/voice retrieval",
+   "original": "acau_060",
+   "page_count": 4,
+   "order": 11,
+   "p1": "60",
+   "pn": "63",
+   "abstract": [
+    "This paper reports explorations on a novel approach for speech information retrieval with spoken queries. The method uses a two-layer decoding scheme, where the intermediary representation of speech is based on phonemes, which makes the system vocabulary-independent. Moreover, the use of synchronized lattices at this intermediary level is shown to improve the discriminative performance while decreasing the size of the parameter space, and with a very reasonable additional computational cost.\n",
+    ""
+   ]
+  },
+  "ordelman99_accessaudio": {
+   "authors": [
+    [
+     "Roeland J. F.",
+     "Ordelman"
+    ],
+    [
+     "Arjan J. van",
+     "Hessen"
+    ],
+    [
+     "David A. van",
+     "Leeuwen"
+    ]
+   ],
+   "title": "Phonetic Transcriptions on Phrase-Level",
+   "original": "acau_064",
+   "page_count": 5,
+   "order": 12,
+   "p1": "64",
+   "pn": "68",
+   "abstract": [
+    "Whereas nowadays within-word co-articulation effects are usually sufficiently dealt with in automatic speech recognition, this is not always the case with phrase level co-articulation effects (PLC). This paper describes a first approach in dealing with phrase level co-articulation by applying these rules on the reference transcripts used for training our recogniser and by adding a set of temporary PLC phones that later on will be mapped on the original phones. In fact we temporarily break down acoustic context into a general and a PLC context. With this method, more robust models could be trained because phones that are confused due to PLC effects like for example /v/-/f/ and /z/-/s/, receive their own models. A first attempt to apply this method is described.\n",
+    ""
+   ]
+  },
+  "tucker99_accessaudio": {
+   "authors": [
+    [
+     "Roger",
+     "Tucker"
+    ],
+    [
+     "Tony",
+     "Robinson"
+    ],
+    [
+     "James",
+     "Christie"
+    ],
+    [
+     "Carl",
+     "Seymour"
+    ]
+   ],
+   "title": "Recognition-compatible speech compression for stored speech",
+   "original": "acau_069",
+   "page_count": 4,
+   "order": 13,
+   "p1": "69",
+   "pn": "72",
+   "abstract": [
+    "Two important components of a speech archiving system are the compression scheme and the search facility. We investigate two ways of providing these components. The first is to run the recogniser directly from the compressed speech - we show how even with a 2.4kbit/sec codec it is possible to produce good recognition results; but the search is slow. The second is to preprocess the speech and store the extra data in a compressed form along with the speech. In the case of an RNN-HMM hybrid system, the posterior probabilties provide a suitable intermediate data format. Vector quantizing these at just 625 bits/sec enables the search to run many times real-time and still maintain good recognition accuracy.\n",
+    ""
+   ]
+  },
+  "leeuwen99_accessaudio": {
+   "authors": [
+    [
+     "David A. van",
+     "Leeuwen"
+    ],
+    [
+     "Wessel",
+     "Kraaij"
+    ],
+    [
+     "Rudie",
+     "Ekkelenkamp"
+    ]
+   ],
+   "title": "Prediction of keyword spotting performance based on phonemic contents",
+   "original": "acau_073",
+   "page_count": 5,
+   "order": 14,
+   "p1": "73",
+   "pn": "77",
+   "abstract": [
+    "In word spotting, one of the main difficulties is the false alarms, especially for small words. A model is presented for predicting the false alarm rate on the basis of the phonemic content of a word. This model is tested for a word spotter that has been used in the TREC Spoken Document Retrieval (SDR) track. Finally, results are presented for the retrieval task.\n",
+    ""
+   ]
+  },
+  "delacourt99_accessaudio": {
+   "authors": [
+    [
+     "Perrine",
+     "Delacourt"
+    ],
+    [
+     "David",
+     "Kryze"
+    ],
+    [
+     "Christian J.",
+     "Wellekens"
+    ]
+   ],
+   "title": "Speaker-based segmentation for audio data indexing",
+   "original": "acau_078",
+   "page_count": 6,
+   "order": 15,
+   "p1": "78",
+   "pn": "83",
+   "abstract": [
+    "In this paper, we address the problem of the speaker-based segmentation, which is the first necessary step for several indexing tasks. It consists in recognizing from their voice the sequence of people engaged in a conversation. In our context, we make no assumptions about prior knowledge of the speaker characteristics (no speaker model, no speech model, no training phase). However, we assume that people do not speak simultaneously. Our segmentation technique takes advantages of two different types of segmentation algorithms. It is organized in two passes: first, the most likely speaker changing points are detected and then, they are validated or discarded. Our algorithm is efficient to detect speaker changing points even close to one another and is thus suited for segmenting conversations containing segments of any length.\n",
+    ""
+   ]
+  },
+  "couvreur99_accessaudio": {
+   "authors": [
+    [
+     "Laurent",
+     "Couvreur"
+    ],
+    [
+     "Jean-Marc",
+     "Boite"
+    ]
+   ],
+   "title": "Speaker tracking in broadcast audio material in the framework of the THISL project",
+   "original": "acau_084",
+   "page_count": 6,
+   "order": 16,
+   "p1": "84",
+   "pn": "89",
+   "abstract": [
+    "In this paper, we present a first approach to build an automatic system for broadcast news speaker-based segmentation. Based on a \"Chop-and-Recluster\" method, this system is developed in the framework of the THISL project. A metric-based segmentation is used for the \"Chop\" procedure and different distances have been investigated. The \"Recluster\" procedure relies on a \"bottom-up\" clustering of segments obtained beforehand and represented by non-parametric models. Various hierarchical clustering schemes have been tested. Some experiments on BBC broadcast news recordings show that the system can detect real speaker changes with high accuracy (mean error = 0.7s) and fair false alarm rate (mean false alarm rate = 5.5% ). The \"Recluster\" procedure can produce homogeneous clusters but it is not already robust enough to tackle too complex classification tasks.\n",
+    ""
+   ]
+  },
+  "mulbregt99_accessaudio": {
+   "authors": [
+    [
+     "P. van",
+     "Mulbregt"
+    ],
+    [
+     "I.",
+     "Carp"
+    ],
+    [
+     "L.",
+     "Gillick"
+    ],
+    [
+     "S.",
+     "Lowe"
+    ],
+    [
+     "J.",
+     "Yamron"
+    ]
+   ],
+   "title": "Text segmentation and event tracking on broadcast news via a Hidden Markov Modelapproach",
+   "original": "acau_090",
+   "page_count": 6,
+   "order": 17,
+   "p1": "90",
+   "pn": "95",
+   "abstract": [
+    "Continuing progress in the automatic transcription of broadcast speech via speech recognition has raised the possibility of applying information retrieval techniques to the resulting (errorful) text. In this paper we describe a general methodology based on Hidden Markov Models and classical language modeling techniques for automatically inferring story boundaries (segmentation}) and for retrieving stories relating to a specific topic (tracking). We will present in detail the features and performance of the Segmentation and Tracking systems submitted by Dragon Systems for the 1998 Topic Detection and Tracking evaluation.\n",
+    ""
+   ]
+  },
+  "quinn99_accessaudio": {
+   "authors": [
+    [
+     "Gerard",
+     "Quinn"
+    ],
+    [
+     "Alan",
+     "Smeaton"
+    ]
+   ],
+   "title": "Optimal Parameters for Segmenting a Stream of Audio into Speech Documents",
+   "original": "acau_096",
+   "page_count": 6,
+   "order": 18,
+   "p1": "96",
+   "pn": "101",
+   "abstract": [
+    "Indexing and retrieval of spoken documents is a desirable feature in a digital library as there is a wealth of contemporary information available to us uniquely in this medium. In this paper we describe experiments carried out on the TREC 6 SDR collection to determine the optimal parameters for our speech IR system. In the TREC task the data corresponded to complete news broadcasts and the boundaries between news stories were marked up manually. In an operational news speech retrieval system such as our own, news story boundaries are not always part of the speech data, making it difficult to automatically detect shifts in stories being broadcast. We describe our approach of splitting the stream of audio into speech documents of fixed length and analyse the results from each method culminating in an optimal solution.\n",
+    ""
+   ]
+  },
+  "hauptmann99_accessaudio": {
+   "authors": [
+    [
+     "Alexander G.",
+     "Hauptmann"
+    ],
+    [
+     "Andreas M.",
+     "Olligschlaeger"
+    ]
+   ],
+   "title": "Using location information from speech recognition of television news broadcasts",
+   "original": "acau_102",
+   "page_count": 5,
+   "order": 19,
+   "p1": "102",
+   "pn": "106",
+   "abstract": [
+    "The Informedia Digital Video Library system extracts information from digitized video sources and allows full content search and retrieval over all extracted data. This extracted 'metadata' enables users to rapidly find interesting news stories and to quickly identify whether a retrieved TV news story is indeed relevant to their query. Through the extraction of named entity information from broadcast news we can determine what people, organizations, dates, times and monetary amounts are mentioned in the broadcast. With respect to location data, we have been able to use location analysis derived from the speech transcripts to allow the user to visually follow the action in the news story on a map and also allow queries for news stories by graphically selecting a region on the map.\n",
+    ""
+   ]
+  },
+  "roy99_accessaudio": {
+   "authors": [
+    [
+     "David M.",
+     "Roy"
+    ],
+    [
+     "Saturnino",
+     "Luz"
+    ]
+   ],
+   "title": "Audio Meeting History Tool: Interactive graphical user-support forvirtual audio meetings",
+   "original": "acau_107",
+   "page_count": 4,
+   "order": 20,
+   "p1": "107",
+   "pn": "110",
+   "abstract": [
+    "Interactive graphical user support within an internet based virtual meeting place is provided by an Audio Meeting History Tool. The tool addresses the representation, storage, navigation and processing of meeting memory where speech is assumed to be the primary modality of interpersonal communication. Communicative turns are integrated with non-acoustic data to form the meeting history through a GUI component based on a \"musical score\" metaphor.\n",
+    ""
+   ]
+  },
+  "valenza99_accessaudio": {
+   "authors": [
+    [
+     "Robin",
+     "Valenza"
+    ],
+    [
+     "Tony",
+     "Robinson"
+    ],
+    [
+     "Marianne",
+     "Hickey"
+    ],
+    [
+     "Roger",
+     "Tucker"
+    ]
+   ],
+   "title": "Summarisation of spoken audio through information extraction",
+   "original": "acau_111",
+   "page_count": 6,
+   "order": 21,
+   "p1": "111",
+   "pn": "116",
+   "abstract": [
+    "Automatic summarisation of spoken audio is a fairly new research pursuit, in large part due to the relative novelty of technology for accurately decoding audio into text. Techniques that account for the peculiarities and potential ambiguities of decoded audio (high error rates, lack of syntactic boundaries) appear promising for culling summary information from audio for content-based browsing and skimming. This paper combines acoustic confidence measures with simple information retrieval and extraction techniques in order to obtain accurate, readable summaries of broadcast news programs. It also demonstrates how extracted summaries, full-text speech recogniser output and audio files can be usefully linked together through an audio-visual interface. The results suggest that information extraction based on statistical information can produce viable summaries of decoded audio.\n",
+    ""
+   ]
+  },
+  "hirschberg99_accessaudio": {
+   "authors": [
+    [
+     "Julia",
+     "Hirschberg"
+    ],
+    [
+     "Steve",
+     "Whittaker"
+    ],
+    [
+     "Don",
+     "Hindle"
+    ],
+    [
+     "Fernando",
+     "Pereira"
+    ],
+    [
+     "Amit",
+     "Singhal"
+    ]
+   ],
+   "title": "Finding Information in Audio: A New Paradigm for Audio Browsing/Retrival",
+   "original": "acau_117",
+   "page_count": 6,
+   "order": 22,
+   "p1": "117",
+   "pn": "122",
+   "abstract": [
+    "Information retrieval from audio data is sharply different from information retrieval from text, not simply because speech recognition errors affect retrieval effectiveness, but more fundamentally because of the linear nature of speech, and of the differences in human capabilities for processing speech versus text. We describe SCAN, a prototype speech retrieval and browsing system that addresses these challenges of speech retrieval in an integrated way. On the retrieval side, we use novel document expansion techniques to improve retrieval from automatic transcription to a level competitive with retrieval from human transcription. Given these retrieval results, our graphical user interface, based on the novel WYSIAWYH (``What you see is almost what you hear'') paradigm, infers text formatting such as paragraph boundaries and highlighted words from acoustic information and information retrieval term scores to help users navigate the errorful automatic transcription. This interface supports information extraction and relevance ranking demonstrably better than simple speech-alone interfaces, according to results of empirical studies.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Papers",
+   "papers": [
+    "garofolo99_accessaudio",
+    "jourlin99_accessaudio",
+    "abberley99_accessaudio",
+    "rouillard99_accessaudio",
+    "kurimo99_accessaudio",
+    "colineau99_accessaudio",
+    "lewin99_accessaudio",
+    "gotoh99_accessaudio",
+    "goel99_accessaudio",
+    "hirschman99_accessaudio",
+    "ferrieux99_accessaudio",
+    "ordelman99_accessaudio",
+    "tucker99_accessaudio",
+    "leeuwen99_accessaudio",
+    "delacourt99_accessaudio",
+    "couvreur99_accessaudio",
+    "mulbregt99_accessaudio",
+    "quinn99_accessaudio",
+    "hauptmann99_accessaudio",
+    "roy99_accessaudio",
+    "valenza99_accessaudio",
+    "hirschberg99_accessaudio"
+   ]
+  }
+ ]
+}

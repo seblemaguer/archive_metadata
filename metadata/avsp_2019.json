@@ -1,0 +1,522 @@
+{
+ "title": "The 15th International Conference on Auditory-Visual Speech Processing",
+ "location": "Melbourne, Australia",
+ "startDate": "10/8/2019",
+ "endDate": "11/8/2019",
+ "URL": "https://avsp2019.loria.fr",
+ "chair": "Chair: Chris Davis",
+ "ISSN": "2308-975X",
+ "conf": "AVSP",
+ "year": "2019",
+ "name": "avsp_2019",
+ "series": "AVSP",
+ "SIG": "AVISA",
+ "title1": "The 15th International Conference on Auditory-Visual Speech Processing",
+ "date": "10-11 August 2019",
+ "papers": {
+  "debladis19_avsp": {
+   "authors": [
+    [
+     "Jimmy",
+     "Debladis"
+    ],
+    [
+     "Kuzma",
+     "Strelnikov"
+    ],
+    [
+     "Shally",
+     "Marc"
+    ],
+    [
+     "Maïthé",
+     "Tauber"
+    ],
+    [
+     "Pascal",
+     "Barone"
+    ]
+   ],
+   "title": "Unbalanced visuo-auditory interactions for gender and emotions processing",
+   "original": "8",
+   "page_count": 5,
+   "order": 8,
+   "p1": 38,
+   "pn": 42,
+   "abstract": [
+    "During everyday communication, voice and facial cues are combined. A preference for the auditory or visual channel is chosen automatically whereas, in most of the previous studies, guided attention was used. In our study, we performed a comparison of the visual influence on vocal non-verbal emotions and gender using the same paradigm in the same subjects without instructions on attention direction. The voice for emotions and gender was modeled as a continuum with 11 steps. The validated non-ambiguous images of gender and emotions were presented in the congruent and incongruent with the voice way. Audiovisual performance was assessed with respect to the auditory performance. We observed a small improvement of performance in the congruent audiovisual stimulation both for gender and emotions with a smaller effect for emotions. In the incongruent conditions, face cues strongly dominated the performance with a significantly larger effect for gender. The proportion of the subjects who made their decision on the visual basis was significant only for the gender voice continuum. The strength of facial dominance is significantly different between the identity voice information and emotional prosody. We suggest that face-voice interaction in human may not be the same for linguistic, para-linguistic and identity properties. "
+   ],
+   "doi": "10.21437/AVSP.2019-8"
+  },
+  "n19_avsp": {
+   "authors": [
+    [
+     "Krishna D",
+     "N"
+    ],
+    [
+     "Sai Sumith",
+     "Reddy"
+    ]
+   ],
+   "title": "Multi-Modal Speech Emotion Recognition Using Speech Embeddings and Audio Features",
+   "original": "4",
+   "page_count": 5,
+   "order": 4,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "In this work, we propose a multi-modal emotion recognition model to improve the speech emotion recognition system performance. We use two parallel Bidirectional LSTM networks called acoustic encoder(ENC1) and speech embedding encoder (ENC2). The acoustic encoder is a Bi-LSTM which takes sequence of speech features as inputs and speech embedding encoder is also a Bi-LSTM which takes sequence of speech embeddings as input and the output hidden representation at the last time step of both the Bi-LSTM are concatenated and passed into a classiﬁcation which predicts emotion label for that particular utterance. The speech embeddings are learned using the encoder-decoder framework as described in [1] using skipgram [2] training. These embeddings are shown to outperform word embeddings(word2vec) in many word similarity benchmarks. Speech embeddings are shown to capture semantic information present in speech and speech embeddings have the capabilities to handle speech variabilities which is not possible by plain text. We compare our model with the word embedding based model where we feed Word2Vec to ENC2 and speech features to ENC1 and we observe that the speech embedding based model gives better results compared to word embedding based model. We compare our system to previous multi-modal emotion recognition models which use text and speech features and we get absolute 2.59% improvement over the previous systems[8] on IEMOCAP dataset. We also compare our system performance with different speech embedding dimensions of [50,100,200,300] and we observe the speech embedding of 50 dimensions is achieving 68.59% accuracy."
+   ],
+   "doi": "10.21437/AVSP.2019-4"
+  },
+  "mizuochiendo19_avsp": {
+   "authors": [
+    [
+     "Tomomi",
+     "Mizuochi-Endo"
+    ],
+    [
+     "Michiru",
+     "Makuuchi"
+    ]
+   ],
+   "title": "Neural processing of degraded speech using speaker’s mouth movement",
+   "original": "12",
+   "page_count": 6,
+   "order": 12,
+   "p1": 57,
+   "pn": 62,
+   "abstract": [
+    "Previous studies reported that visual speech cues enhance speech perception ability, but the critical contribution of the brain areas to successful AV integration for degraded speech is still unclear. To clarify this, we performed an fMRI study on word perception, using noise vocoded speech with clips showing a speaker’s face.  We recruited 17 right-handed healthy adults, who were presented short video clips in which a Japanese male read aloud Japanese 3-mora nouns. The sounds were noise vocoded at 16 and 32 bands. The experimental conditions were designed as a 2x2 factorial design, crossing Modality (audioonly, A / audio-visual, AV) and Intelligibility (16 / 32 -bands). In both AV and A conditions, the sound and the clip were presented, but in the A conditions the speaker’s mouth was blurred. During fMRI scanning, the participants were instructed to choose one word from a forced-choice probe with four alternatives after they listened/watched the sound and clip. Trial time courses in each model were estimated in the posterior STS, the lip motor area, and the inferior frontal gyrus in the left hemisphere.  Behavioral data revealed that successful AV integration improved participants’ performance, in line with previous studies. Imaging data showed that the brain network associated with speech processing activated differently in time-course depending on both the modality and intelligibility of speech perception."
+   ],
+   "doi": "10.21437/AVSP.2019-12"
+  },
+  "priyasad19_avsp": {
+   "authors": [
+    [
+     "Darshana",
+     "Priyasad"
+    ],
+    [
+     "Tharindu",
+     "Fernando"
+    ],
+    [
+     "Simon",
+     "Denman"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ],
+    [
+     "Clinton",
+     "Fookes"
+    ]
+   ],
+   "title": "Learning Salient Features for Multimodal Emotion Recognition with Recurrent Neural Networks and Attention Based Fusion",
+   "original": "5",
+   "page_count": 6,
+   "order": 5,
+   "p1": 21,
+   "pn": 26,
+   "abstract": [
+    "Automatic emotion recognition is a challenging task since emotion\nis communicated through different modalities. Deep Convolution\nNeural Networks (DCNN) and transfer learning have\nshown success in automatic emotion recognition using different\nmodalities. However significant improvement in accuracy\nis still required for practical applications. Existing methods are\nstill not effective in modelling the temporal relationships within\nemotional expressions or in identifying the salient features from\ndifferent modes and fusing them to improve accuracies. In this\npaper, we present an automatic emotion recognition system using\naudio and visual modalities. VGG19 models are used to\ncapture frame level facial features followed by a Long Short\nTerm Memory (LSTM) to capture their temporal distribution at\na segment level. A separate VGG19 model captures auditory\nfeatures from Mel Frequency Cepstral Coefficients (MFCC).\nThe extracted auditory and visual features are fused together\nand a Deep Neural Network (DNN) with attention is used in\nclassification using majority voting. Voice Activity Detection\n(VAD) on the audio stream improves performance by reducing\nthe outliers in learning. The system is evaluated using Leave\nOne Subject Out (LOSO) and K-fold cross-validation and our\nsystem outperforms state of the art methods on two challenging\ndatabases."
+   ],
+   "doi": "10.21437/AVSP.2019-5"
+  },
+  "honemann19_avsp": {
+   "authors": [
+    [
+     "Angelika",
+     "Hönemann"
+    ],
+    [
+     "Casey",
+     "Bennett"
+    ],
+    [
+     "Petra",
+     "Wagner"
+    ],
+    [
+     "Selma",
+     "Sabanovic"
+    ]
+   ],
+   "title": "Audio-visual synthesized attitudes presented by the German speaking robot SMiRAE",
+   "original": "16",
+   "page_count": 6,
+   "order": 16,
+   "p1": 78,
+   "pn": 83,
+   "abstract": [
+    "This paper presents the acoustic and visual modeling of nine attitudinal expressions that were realized by the German speaking robot SMiRAE which is a speech-enabled version of the non-speaking robotic face MiRAE previously developed at Indiana University. The parameter-oriented acoustic model is based on the German Mary TTS which is part of the speech processing system InproTK. Visual realization of expressions is based on five defined basic emotions of the Facial Action Coding System (FACS) developed by Ekman. Both models were additionally modified with respect to results of an audiovisual analysis and evaluation of human portrayals of attitudes recorded in our previous work.  The plausibility of synthesized attitudinal expressions is shown by an association study in which 18 participants described 54 attitudes in a free association. Basis for a 5cluster classification was the first four dimensions of a correspondence analysis which accounted 78% of variance in participant perception. Significant correlations were seen between 66 normalized participant descriptions and the robot’s displayed attitudes. For instance, the attitudes admiration and politeness were associated with the terms freundlich and gluecklich, the interrogative attitudes surprise and doubt with the terms fragend, verwundert and skeptisch, the expression uncertatinty was perceived with traurig and besorgt."
+   ],
+   "doi": "10.21437/AVSP.2019-16"
+  },
+  "holt19_avsp": {
+   "authors": [
+    [
+     "Rebecca",
+     "Holt"
+    ],
+    [
+     "Laurence",
+     "Bruggeman"
+    ],
+    [
+     "Katherine",
+     "Demuth"
+    ]
+   ],
+   "title": "Audiovisual benefits for speech processing speed among children with hearing loss",
+   "original": "10",
+   "page_count": 6,
+   "order": 10,
+   "p1": 47,
+   "pn": 52,
+   "abstract": [
+    "Children with hearing loss face a range of challenges when listening to and processing speech; in particular, they may process spoken language slowly in comparison to normalhearing peers [1]. How then can speech processing speed be improved for children with hearing loss? In this study, a phoneme monitoring task was used to assess whether 7-11year-old children with hearing loss showed faster speech processing when visual speech cues were available compared to auditory-only presentation. Children with hearing loss did receive an audiovisual benefit for processing speed, however this was primarily driven by cases in which the target phoneme in the monitoring task was visually salient. No difference was found between the performance of the children with hearing loss and a control group of children with normal hearing, however the results suggest that children with hearing loss who use hearing aids may receive a greater audiovisual benefit for processing speed than those who use cochlear implants. These findings have implications for practical interventions for children with hearing loss."
+   ],
+   "doi": "10.21437/AVSP.2019-10"
+  },
+  "saitoh19_avsp": {
+   "authors": [
+    [
+     "Takeshi",
+     "Saitoh"
+    ],
+    [
+     "Michiko",
+     "Kubokawa"
+    ]
+   ],
+   "title": "LiP25w: Word-level Lip Reading Web Application for Smart Device",
+   "original": "17",
+   "page_count": 5,
+   "order": 17,
+   "p1": 84,
+   "pn": 88,
+   "abstract": [
+    "Lip reading technology is expected for the next-generation interface. However, there is no practical system or interface by lip reading that can be easily used by anyone. This paper develops a highly practical web application named LiP25w that canbeusedanytimeandanywherebyusingsmartdevices. The fundamental method of LiP25w is based on our previous researches. Our application is open to the public. We introduced our application at some events and performed about 1200 trials in 200 days. We analyzed all trial results and obtained an average recognition accuracy of 73.4%. We conﬁrmed that our application is highly practical."
+   ],
+   "doi": "10.21437/AVSP.2019-17"
+  },
+  "yamamoto19_avsp": {
+   "authors": [
+    [
+     "Hisako W.",
+     "Yamamoto"
+    ],
+    [
+     "Misako",
+     "Kawahara"
+    ],
+    [
+     "Akihiro",
+     "Tanaka"
+    ]
+   ],
+   "title": "The Development of Eye Gaze Patterns during Audiovisual Perception of Affective and Phonetic Information",
+   "original": "6",
+   "page_count": 6,
+   "order": 6,
+   "p1": 27,
+   "pn": 32,
+   "abstract": [
+    "In face-to-face communication, emotions, as well as phonemes, are perceived through the integration of visual information on the face and auditory information on the voice. Previous studies suggested that children integrate audiovisual information differently from adults. To uncover the mechanism behind this developmental process, we investigated the gaze patterns of Japanese children aged 5 to 12 and adults when looking at speakers’ faces after being asked to judge their emotions (emotion perception task) or pronounced syllables (phoneme perception task). The results showed that the participants fixated longer on the speaker’s eyes in the emotion perception task than they did in the phoneme perception task. Moreover, the participants’ fixation on the speaker’s eyes increased with age in emotion perception, while it decreased with age in phoneme perception. This finding suggests that children can shift their attention to a face depending on what they are required to judge, and that this attentional shift becomes more sophisticated with age. We discuss the development of audiovisual integration in terms of the relationship between the participants’ gaze and perception."
+   ],
+   "doi": "10.21437/AVSP.2019-6"
+  },
+  "chetty19_avsp": {
+   "authors": [
+    [
+     "Girija",
+     "Chetty"
+    ],
+    [
+     "Matthew",
+     "White"
+    ]
+   ],
+   "title": "Embodied Conversational Agents and Interactive Virtual Humans for Training Simulators",
+   "original": "15",
+   "page_count": 5,
+   "order": 15,
+   "p1": 73,
+   "pn": 77,
+   "abstract": [
+    "Embodied Conversational Agents (ECA) and Interactive Virtual Humans (IVH) based on 3D Virtual and Augmented reality technologies can be immensely beneficial for human to human communications and interpersonal skills training for a range of skills including sales pitching, negotiation, leadership, interviewing, and communicating with empathy and cultural sensitivities. They provide an opportunity to practice the skills needed for communicating with humans in difficult environments, with virtual simulated scenarios. And these complex environments can include health care contexts, sales, retail and customer service contexts, or communication with people with different cultural and ethnic backgrounds. At HCT research Centre at University of Canberra, we have been investigating several new technology frameworks and algorithmic techniques for building ECAs and IVHs based on integrating Artificial Intelligence (AI), deep machine learning, cloud computing, 3D virtual and augmented reality technologies, as training simulators for different application contexts. In this paper, we present the details in terms of the research, technology and implementation for modelling different persona for ECAs and IVHs. A multilevel architecture with adaptable functional modules based on the customized persona for different virtual environments, their implementation using an integrated cloud based software platform and its evaluation is discussed."
+   ],
+   "doi": "10.21437/AVSP.2019-15"
+  },
+  "tan19_avsp": {
+   "authors": [
+    [
+     "S. H. Jessica",
+     "Tan"
+    ],
+    [
+     "Denis",
+     "Burnham"
+    ]
+   ],
+   "title": "Auditory-Visual Speech Segmentation in Infants",
+   "original": "9",
+   "page_count": 4,
+   "order": 9,
+   "p1": 43,
+   "pn": 46,
+   "abstract": [
+    "Speech segmentation, breaking the heard speech stream into words, is necessary for language acquisition. Visual prosody, like acoustic prosody, aids speech segmentation in adults [1], [2]. By contrast, surprisingly little is known about how visual speech information influences speech segmentation in infants despite the important role that speech segmentation plays in language development and past research demonstrating that young infants can segment auditory-only speech. Further, studies on infants’ gaze behavior to the eye and mouth regions of the speaker’s face have found that infants perceive the mouth region as an important conveyor of articulatory information [3]. Such evidence suggests two hypotheses: (i) that infants should benefit from visual speech information in word segmentation, and (ii) any visual speech benefit should be related to greater gaze directed to the speaker’s mouth than the eyes.  This study investigated whether (1) 7.5-month-old infants’ speech segmentation differed between auditory-only and auditoryvisual conditions, and (2) gaze behavior modulated segmentation performance. Preliminary analyses reveal better segmentation performance in the auditory-visual condition that may be accounted for by greater attention on the speaker’s mouth."
+   ],
+   "doi": "10.21437/AVSP.2019-9"
+  },
+  "cruz19_avsp": {
+   "authors": [
+    [
+     "Marisa",
+     "Cruz"
+    ],
+    [
+     "Marc",
+     "Swerts"
+    ],
+    [
+     "Sónia",
+     "Frota"
+    ]
+   ],
+   "title": "Do visual cues to interrogativity vary between language modalities? Evidence from spoken Portuguese and Portuguese Sign Language",
+   "original": "1",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "In spoken European Portuguese (EP), eyebrow raising has been considered to be a question marker, as it is the dominant visual cue for questions across regional variants. In Portuguese Sign Language (LGP), it is known that questions are conveyed by a specific facial (and bodily) expression, and that nonverbal correlates for intonation are conveyed by the face, head and upper body, but no detailed information on the prosodic role of non-manuals is available. The present study explores the role of non-manuals in conveying interrogativity in LGP, focusing on eyebrow and head movements, time-aligned with manuals. Native signers were videotaped while performing an adapted version of the Discourse Completion Task for LGP. Results show that eyebrow lowering is the dominant nonmanual conveying interrogativity, but head can also play this role together with eyebrows. Besides the interrogative whword manually articulated, wh-questions differ from yes-no questions in the head movement type: up in the former and down in the latter. In contrast with other signed languages, eyebrow movement does not vary across question types in LGP. Finally, interrogativity in LGP is conveyed by the same facial element (eyebrow) as in spoken EP, the opposite eyebrow movement used suggests its grammaticalization in each language modality."
+   ],
+   "doi": "10.21437/AVSP.2019-1"
+  },
+  "erdener19_avsp": {
+   "authors": [
+    [
+     "Doğu",
+     "Erdener"
+    ],
+    [
+     "Şefik Evren",
+     "Erdener"
+    ],
+    [
+     "Arzu",
+     "Yordaml"
+    ]
+   ],
+   "title": "Auditory-visual speech perception in bipolar disorder: behavioural data and physiological predictions",
+   "original": "3",
+   "page_count": 5,
+   "order": 3,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "In this study, we tested two bipolar groups, manic-episode and depressive episode patients and heathy controls over a series of McGurk effect stimuli as well as auditory and visual-only (lipread) speech stimuli. We hypothesized that the bipolar group’s auditory–visual speech integration should be weaker than the control group. We also predicted the manic-period bipolar individuals should integrate visual speech information more robustly than their depressive-episode counterparts. These hypotheses were not supported, and all groups were found to integrate auditory and visual speech information comparably. However, paradoxically, the depressive-episode individuals were unable to lip-read despite that they were able to integrate the two sources of speech information. Here, we discuss and try to make sense of this behavioural data with solid predictions on how corresponding physiological data can decipher our findings. On top of this discussion, physiological predictions and possibilities are presented."
+   ],
+   "doi": "10.21437/AVSP.2019-3"
+  },
+  "maastricht19_avsp": {
+   "authors": [
+    [
+     "Lieke van",
+     "Maastricht"
+    ],
+    [
+     "Marieke",
+     "Hoetjes"
+    ],
+    [
+     "Ellen van",
+     "Drie"
+    ]
+   ],
+   "title": "Do gestures during training facilitate L2 lexical stress acquisition by Dutch learners of Spanish?",
+   "original": "2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "The close relationship between speech and gesture has led to a range of studies focusing on the role of gesture in L1 and L2 language acquisition. However, few studies focused specifically on the acquisition of prosodic aspects of speech, and those that did, did not compare the possible effect of different types of gestures. Thus, this paper aims to determine whether seeing beat or metaphoric gestures during training facilitates L2 lexical stress acquisition as compared to seeing no gestures during training. Dutch participants received Spanish lexical stress training in one of three multimodal conditions and produced sentences containing cognates with diverging stress distribution in Dutch and Spanish before and afterwards. The results appear in line with our predictions in that learning proportions are higher after gestural training than after training without gestures and again higher after training with metaphoric gestures compared to training with beat gestures. However, a multinomial regression analysis reveals that only the presence vs. absence of a written accent in the cognate significantly affects L2 lexical stress acquisition. Hence, several factors are proposed that might explain our results and serve as a basis for future research."
+   ],
+   "doi": "10.21437/AVSP.2019-2"
+  },
+  "ching19_avsp": {
+   "authors": [
+    [
+     "April Shi Min",
+     "Ching"
+    ],
+    [
+     "Jeesun",
+     "Kim"
+    ],
+    [
+     "Chris",
+     "Davis"
+    ]
+   ],
+   "title": "Auditory-Visual Integration During the Attentional Blink",
+   "original": "13",
+   "page_count": 6,
+   "order": 13,
+   "p1": 63,
+   "pn": 68,
+   "abstract": [
+    "Prominent theories of consciousness such as Global Workspace Theory propose that consciousness is required for multimodal integration. We tested this proposal with a processing bottleneck known as the unmasked attention blink, which we used with synchronized auditory-visual stimulus streams to delay awareness of the onset of a stimulus in one modality but not the other. Event-related potentials (ERPs) were then used to examine auditory and visual integration processes in the context of the unmasked attentional blink. To index auditory-visual (AV) integration, we recorded ERPs following the presentation of auditory-visual (AV) and unimodal second targets (T2) in AV presentation streams, which were presented during or after the attentional blink period, 200-300 ms or 600-700ms after the onset of first targets (T1) respectively. The results showed that AV and unimodal ERP responses were more similar during the attentional blink than outside of it. This result suggests that AV integration was suppressed and visual and auditory information were processed independently during the attentional blink. AV integration occurred both before and during the time window of the P3 ERP component (300-500 ms), which is well-established as the earliest time window for attentional blink ERP effects. The attentional blink suppressed AV integration only at later stages of processing while that at earlier, pre-P3 latencies was relatively intact. We discuss the implications of this finding for theories linking consciousness and integration."
+   ],
+   "doi": "10.21437/AVSP.2019-13"
+  },
+  "burnham19_avsp": {
+   "authors": [
+    [
+     "Denis",
+     "Burnham"
+    ],
+    [
+     "Weicong",
+     "Li"
+    ],
+    [
+     "Chris",
+     "Carignan"
+    ],
+    [
+     "Virginie",
+     "Attina"
+    ],
+    [
+     "Benjawan",
+     "Kasisopa"
+    ],
+    [
+     "Eric",
+     "Vatikiotis-Bateson"
+    ]
+   ],
+   "title": "Visual Correlates of Thai Lexical Tone Production:Motion of the Head, Eyebrows and Larynx?",
+   "original": "14",
+   "page_count": 4,
+   "order": 14,
+   "p1": 69,
+   "pn": 72,
+   "abstract": [
+    "There is well-established evidence that visual articulatory information in the face and head aids identification and discrimination of lexical tone. However, the nature and locus of this information is only beginning to be specified. In previous work we identified a predominant role of head motion over face motion in both the perception and production of Cantonese lexical tone, the latter using OPTOTRAK motion tracking. We have now extended the set of OPTOTRAK markers to include the eyebrows and the larynx, and collected data from a corpus of Cantonese, Thai and Mandarin speakers. Here we report on a Thai speaker producing the five Thai tones on four Thai syllables in isolated words and sentences and in normal, whispered, and Lombard speech. Principal components (PCs) for the face (eyebrows, lips, jaw), the larynx and for independent head movement were extracted and linear mixed model analyses of range of PC1 scores revealed good differentiation on the basis of syllable identity and context and speech style. Of particular importance, the five Thai tones were best differentiated by head and larynx motion. So, these results add larynx motion as a possible visible cue for tone perception. Studies across speakers and the three languages will follow."
+   ],
+   "doi": "10.21437/AVSP.2019-14"
+  },
+  "tan19b_avsp": {
+   "authors": [
+    [
+     "S. H. Jessica",
+     "Tan"
+    ],
+    [
+     "Michael J.",
+     "Crosse"
+    ],
+    [
+     "Giovanni M.",
+     "Di Liberto"
+    ],
+    [
+     "Denis",
+     "Burnham"
+    ]
+   ],
+   "title": "Four-Year-Olds’ Cortical Tracking to Continuous Auditory-Visual Speech",
+   "original": "11",
+   "page_count": 4,
+   "order": 11,
+   "p1": 53,
+   "pn": 56,
+   "abstract": [
+    "Visual speech information, such as a speaker’s mouth and eyebrow movements, enhances speech perception. Evidence for this perceptual benefit has mainly been from behavioural or neurophysiological studies that made use of event-related potentials (ERPs). ERP studies, however, are limited by repetitive and short stimuli that are not representative of natural speech. An approach that examines cortical tracking of the speech envelope allows for the use of continuous speech stimuli. This approach has recently been employed to demonstrate that adults’ cortical tracking of the speech envelope is augmented when synchronous visual speech information is provided [1]. To date, no study has investigated whether children, like adults, show stronger envelope tracking when congruent visual speech information is available. This study investigates this question by measuring four-year-olds’ cortical tracking of continuous auditory-visual speech through electroencephalography (EEG). Cortical tracking was quantified by means of ridge regression models that estimate the linear mapping from the speech to the EEG signal and vice versa. Stimulus reconstruction for auditory-only and auditoryvisual speech was found to be stronger compared to visual-only speech."
+   ],
+   "doi": "10.21437/AVSP.2019-11"
+  },
+  "davis19_avsp": {
+   "authors": [
+    [
+     "Chris",
+     "Davis"
+    ],
+    [
+     "Jeesun",
+     "Kim"
+    ]
+   ],
+   "title": "Auditory and Visual Emotion Recognition: Investigating why some portrayals are better recognized than others",
+   "original": "7",
+   "page_count": 5,
+   "order": 7,
+   "p1": 33,
+   "pn": 37,
+   "abstract": [
+    "To understand the factors that influence auditory and visual emotion recognition performance we examined a perception set of stimuli produced by three talkers that differed in how well people could recognise their emotions. Our proposal was that productions based on a model of prototypical emotion attributes will be more consistent and better recognized. To test this, we trained a classification model on a parallel holdout set of stimuli by the same talkers and examined the consistency of the emotion portrayals. We found that the emotion stimuli from a talker who produced more consistent emotion portrayals were better recognized than those stimuli that were less consistently produced. "
+   ],
+   "doi": "10.21437/AVSP.2019-7"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Modality, stress and atypical processing",
+   "papers": [
+    "cruz19_avsp",
+    "maastricht19_avsp",
+    "erdener19_avsp"
+   ]
+  },
+  {
+   "title": "Emotion 1",
+   "papers": [
+    "n19_avsp",
+    "priyasad19_avsp",
+    "yamamoto19_avsp"
+   ]
+  },
+  {
+   "title": "Emotion 2",
+   "papers": [
+    "davis19_avsp",
+    "debladis19_avsp"
+   ]
+  },
+  {
+   "title": "Children/infants",
+   "papers": [
+    "tan19_avsp",
+    "holt19_avsp",
+    "tan19b_avsp"
+   ]
+  },
+  {
+   "title": "Visual speech processing",
+   "papers": [
+    "mizuochiendo19_avsp",
+    "ching19_avsp",
+    "burnham19_avsp"
+   ]
+  },
+  {
+   "title": "Artificial agents/smart devices",
+   "papers": [
+    "chetty19_avsp",
+    "honemann19_avsp",
+    "saitoh19_avsp"
+   ]
+  }
+ ],
+ "doi": "10.21437/AVSP.2019"
+}

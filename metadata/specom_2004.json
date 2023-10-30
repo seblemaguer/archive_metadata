@@ -1,0 +1,3380 @@
+{
+ "title": "9th Conference on Speech and Computer (SPECOM 2004)",
+ "location": "St. Petersburg, Russia",
+ "startDate": "20/9/2004",
+ "endDate": "22/9/2004",
+ "conf": "SPECOM",
+ "year": "2004",
+ "name": "specom_2004",
+ "series": "",
+ "SIG": "",
+ "title1": "9th Conference on Speech and Computer",
+ "title2": "(SPECOM 2004)",
+ "date": "20-22 September 2004",
+ "papers": {
+  "haton04_specom": {
+   "authors": [
+    [
+     "Jean-Paul",
+     "Haton"
+    ]
+   ],
+   "title": "Automatic speech recognition: past, present, and future",
+   "original": "spc4_003",
+   "page_count": 5,
+   "order": 1,
+   "p1": "3",
+   "pn": "7",
+   "abstract": [
+    "Automatic speech recognition (ASR) has been extensively studied during the past few decades, and some systems are already daily used in several domains. Most of present systems are based on statistical modeling, both at the acoustic and linguistic levels, not only. Speech recognition in adverse conditions has recently received increased attention since noise resistance has become one of the major bottlenecks for practical use of speech recognizers. After briefly recalling the basic principles of statistical approaches to ASR, we present the models that are presently investigated for increasing recognition performance.\n",
+    ""
+   ]
+  },
+  "rubin04_specom": {
+   "authors": [
+    [
+     "J. S.",
+     "Rubin"
+    ],
+    [
+     "M.",
+     "Greenberg"
+    ]
+   ],
+   "title": "Psychogenic voice disorders in performers: a psychodynamic model",
+   "original": "spc4_008",
+   "page_count": 3,
+   "order": 2,
+   "p1": "8",
+   "pn": "10",
+   "abstract": [
+    "Psychogenic voice disorders are not infrequently noted in a busy voice clinic and most certainly can occur in singers. In the literature the term psychogenic appears to be interchangeably used with functional or non-organic. The authors prefer the phrase psychogenic voice disorder (PVD) and shall use it herein. We feel that the phrase functional voice disorders, is both ambiguous in meaning and subject to diverse interpretations.\n",
+    ""
+   ]
+  },
+  "skrelin04_specom": {
+   "authors": [
+    [
+     "Pavel A.",
+     "Skrelin"
+    ]
+   ],
+   "title": "Segment features in different speech styles",
+   "original": "spc4_011",
+   "page_count": 6,
+   "order": 3,
+   "p1": "11",
+   "pn": "16",
+   "abstract": [
+    "The paper deals with the results of the study of the differences of Russian spontaneous speech and reading on segmental and prosodic levels. The data obtained for the moment shows that the difference in phoneme realization between spontaneous speech and text reading is not regular and in some cases it is absent. This difference is very significant between these speaking styles and reading of isolated words. This fact explains difficulties in transition from automatic recognition of isolated words to the continuous speech recognition.\n",
+    ""
+   ]
+  },
+  "lobanov04_specom": {
+   "authors": [
+    [
+     "Boris M.",
+     "Lobanov"
+    ],
+    [
+     "Lilia I.",
+     "Tsirulnik"
+    ]
+   ],
+   "title": "Phonetic-acoustical problems of personal voice cloning by TTS",
+   "original": "spc4_017",
+   "page_count": 5,
+   "order": 4,
+   "p1": "17",
+   "pn": "21",
+   "abstract": [
+    "The report describes a recent development of a TTSsystem for Russian based on allophonic natural speech signal elements (about 1500 in all) with the maximal possible imitation of individual male and female voices. In distinction to the biological task of cloning, the target is not a copy of the human being as a whole but of only one of its functions, particularly, that of reading aloud an orthographically unrestricted text preserving thereby the individual acoustic characteristics of a speakers voice, as well as his/her phonetic (segmental and prosodic) peculiarities. A successful solution of the task outlined above presupposes that the following two requirements should be unequivocally satisfied: (1) The fullest possible use of a complex of acoustic characteristics carrying information about the individual voice and pronunciation properties of the speaker being imitated; (2) The minimal possible distortions of the elements of concatenation at all stages of their 'production'; (3) The maximal possible accuracy of prosodic modifications in the process of speech synthesis.\n",
+    ""
+   ]
+  },
+  "bartkova04_specom": {
+   "authors": [
+    [
+     "Katarina",
+     "Bartkova"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ]
+   ],
+   "title": "Foreign accent processing in automatic speech recognition",
+   "original": "spc4_022",
+   "page_count": 7,
+   "order": 5,
+   "p1": "22",
+   "pn": "28",
+   "abstract": [
+    "Speech recognition of foreign accented speech is one of the most difficult tasks in ASR. The problem of foreign accent is addressed in this study using acoustic models of the target language phonemes (French phonemes in our case) adapted with speech data from 3 other languages: English (US and UK), German and Spanish. Recognition results obtained for 11 language groups of speakers show that error rate can be significantly reduced when standard acoustic models of phonemes are adapted using speech data from other languages. Phonological rules are also introduced into the standard phonetic description of the lexical units to account for some foreign accent pronunciation variants. It appears that using phonological rules together with foreign language adapted acoustic units provides the best recognition performance. The highest error rate reduction (40%) is obtained on English speakers.\n",
+    ""
+   ]
+  },
+  "correa04_specom": {
+   "authors": [
+    [
+     "Pedro",
+     "Correa"
+    ],
+    [
+     "Ferran",
+     "Marques"
+    ],
+    [
+     "Xavier",
+     "Marichal"
+    ],
+    [
+     "Benoit",
+     "Macq"
+    ]
+   ],
+   "title": "3d human posture estimation using geodesic distance maps",
+   "original": "spc4_031",
+   "page_count": 4,
+   "order": 6,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "A new technique for 3D human posture estimation is proposed. The technique relies on the use of two orthogonal cameras in a controlled scenario. The actor region is segmented in both views and the 3D posture is estimated from the detection of the five crucial points (head, hands and feet) in both images. Crucial points candidates are defined as the local maxima of the geodesic distance with respect to the center of gravity of the actor region analyzed in the boundary of the actor region (silhouette). Selected crucial points are classified as head, hands or feet using a set of geodesic distances computed on a robust morphological skeleton of the actor region. Results in both views are fused to obtain the 3D posture estimation, while allowing for solving some possible inconsistencies of the classification process. Further robustness is introduced in the system by tracking the crucial point positions in time.\n",
+    ""
+   ]
+  },
+  "caplier04_specom": {
+   "authors": [
+    [
+     "Alice",
+     "Caplier"
+    ],
+    [
+     "Laurent",
+     "Bonnaud"
+    ],
+    [
+     "Sotiris",
+     "Malassiotis"
+    ],
+    [
+     "Michael G.",
+     "Strintzis"
+    ]
+   ],
+   "title": "Comparison of 2d and 3d analysis for automated cued speech gesture recognition",
+   "original": "spc4_035",
+   "page_count": 7,
+   "order": 7,
+   "p1": "35",
+   "pn": "41",
+   "abstract": [
+    "This paper deals with the problem of the automated classification of cued speech gestures. Cued speech is a specific gesture language (different from the sign language) used for communication between deaf people and other people. It uses only 8 different hand configurations. The aim of this work is to apply a simple classifier on 3 images data sets, in order to answer two main questions: is 3D data needed, and how important is the hand segmentation quality ? The first data set consists of images acquired with a single camera in a controlled light environment and a segmentation (called 2D segmentation) based on luminance information. The second data set is acquired with a 3D camera which can produce a depth map; a segmentation (called 3D segmentation) of the hand configurations based on the video and the depth map is performed. The third data set consists in 3D-segmented masks where the resulting hand mask is warped to compensate for hand pose variations. For the classification purposes, hand configurations are characterized by the computation of the seven Hu moment invariants. Then a supervised classification using a multi-layer perceptron is done. The performance of classification based on 2D and 3D information are compared.\n",
+    ""
+   ]
+  },
+  "schimke04_specom": {
+   "authors": [
+    [
+     "Sascha",
+     "Schimke"
+    ],
+    [
+     "Thomas",
+     "Vogel"
+    ],
+    [
+     "Claus",
+     "Vielhauer"
+    ],
+    [
+     "Jana",
+     "Dittmann"
+    ]
+   ],
+   "title": "Integration and fusion aspects of speech and handwriting media",
+   "original": "spc4_042",
+   "page_count": 5,
+   "order": 8,
+   "p1": "42",
+   "pn": "46",
+   "abstract": [
+    "In this paper we discuss synchronization approaches for fusion of speech and handwriting data on a signal representation level. There are many advantages in utilizing additional modalities to speech, for example bimodal signals have the potential of increasing accuracy of recognition systems. Further we intend to provide users more flexibility for human to computer communication by allowing them to choose their preferred modality. After discussion of goals, we analyze different ways for synchronization of media streams. Besides approaches based on synchronized time stamp protocols as additional metadata, we dwell on a concept for synchronization based on embedding the data stream of one modality into the other by using digital watermarking techniques. Here we introduce the general concept of direct embedding and analyze the necessary watermarking capacity (payload) for synchronization. Finally we have a look at aspects of information retrieval in multimodal documents.\n",
+    ""
+   ]
+  },
+  "krnoul04_specom": {
+   "authors": [
+    [
+     "Zdenek",
+     "Krnoul"
+    ],
+    [
+     "Milos",
+     "Zelezný"
+    ],
+    [
+     "Petr",
+     "Cisar"
+    ]
+   ],
+   "title": "Face model reconstruction for Czech audio-visual speech synthesis",
+   "original": "spc4_047",
+   "page_count": 5,
+   "order": 9,
+   "p1": "47",
+   "pn": "51",
+   "abstract": [
+    "We present an automatic technique for 3D surface reconstruction of a human face and a suitable semiautomatic adaptation method for a real time animation of the audiovisual speech synthesis. The face capture employs photogram-metric methods on the basis of calibrate stereoscopy and a projected structured light. The method generates successive range data. A generic face model is used and it is modified to fit to a 3D measurement data of the specific face. The teeth, tongue and eyes are automatically added to the model and all textures are mapped. This individual model is used in a real time animation system. The animation is applied in a visual part of a speech dialog.\n",
+    ""
+   ]
+  },
+  "cisar04_specom": {
+   "authors": [
+    [
+     "Petr",
+     "Cisar"
+    ],
+    [
+     "Milos",
+     "Zelezny"
+    ]
+   ],
+   "title": "Detection of face position and 3d orientation in 2d image",
+   "original": "spc4_052",
+   "page_count": 5,
+   "order": 10,
+   "p1": "52",
+   "pn": "56",
+   "abstract": [
+    "This paper is focused on using headtracking for determination of the 3D orientation of head from 2D frame as a supplement lip-reading method. The task is proposed for determination of position and rotation of the drivers (speakers) head during the speech. We divided the article to three parts. First we describe a module of automatic determination of the head shape in the image. The second part contains the localization of important points in the area of head. Finally we present the determination of the 3D orientation and scale and compare the results of our algorithm and a real measurement.\n",
+    ""
+   ]
+  },
+  "savran04_specom": {
+   "authors": [
+    [
+     "Arman",
+     "Savran"
+    ],
+    [
+     "Levent M.",
+     "Arslan"
+    ],
+    [
+     "Lale",
+     "Akarun"
+    ]
+   ],
+   "title": "Speech driven MPEG-4 facial animation for Turkish",
+   "original": "spc4_057",
+   "page_count": 8,
+   "order": 11,
+   "p1": "57",
+   "pn": "64",
+   "abstract": [
+    "In this study, a system, that generates visual speech by synthesizing 3D face points, has been implemented. The synthesized face points drive MPEG-4 facial animation. To produce realistic and natural speech animation, a codebook based technique, which is trained with audio-visual data from a speaker, was employed. An audio-visual speech database was created using a 3D facial motion capture system that was developed for this study. To improve the performance of the system when used by different speakers, a further training was performed with audio-only data from a small number of speakers. The resulting system is capable of animating faces from an input speech of any Turkish speaker.\n",
+    ""
+   ]
+  },
+  "rodriguezsuarez04_specom": {
+   "authors": [
+    [
+     "Dario Alonso",
+     "Rodriguez-Suarez"
+    ],
+    [
+     "Maria José",
+     "Sanchez-Martinez"
+    ]
+   ],
+   "title": "An approach to a multimodal man-machine communication system",
+   "original": "spc4_065",
+   "page_count": 8,
+   "order": 12,
+   "p1": "65",
+   "pn": "72",
+   "abstract": [
+    "This paper presents an approach to an intelligent man-machine-communication system. The idea is to implement a so-called Virtual Personal Assistant (VPA) in the form of an animated speaking 3D human head model, which interacts with a human user by means of natural communication channels: speech, lips movements, mimics and gaze. The integration of these channels eases the communication and makes it more robust. As a first step towards such a system, we present an audio-visual speech recognition architecture: the video signal from the users mouth region is used along with the audio signal to recognize speech. Driven by the recognized sentences, a virtual 3D head with gazecontrol and lip-synchronous speech output reacts accordingly. For this virtual assistant, a behavior generating mechanism is implemented, which is based on a dynamical systems approach: the overall behavior of the humanoid is generated by means of nonlinear differential equations. As environment for the dialog, an e-commerce scenario was chosen, in which the virtual assistant describes items selected by the user.\n",
+    ""
+   ]
+  },
+  "pera04_specom": {
+   "authors": [
+    [
+     "Vitor",
+     "Pera"
+    ],
+    [
+     "Antonio",
+     "Moura"
+    ],
+    [
+     "Diamantino",
+     "Freitas"
+    ]
+   ],
+   "title": "LPFAV2: a new multi-modal database for developing speech recognition systems for an assistive technology application",
+   "original": "spc4_073",
+   "page_count": 4,
+   "order": 13,
+   "p1": "73",
+   "pn": "76",
+   "abstract": [
+    "In this paper we report on the acquisition and content of a new database intended for developing audio-visual speech recognition systems. This database supports a speaker dependent continuous speech recognition task, based on a small vocabulary, and was captured in the European Portuguese language. Along with the collected multi-modal speech materials, the respective orthographic transcription and time-alignment files are supplied. The package also includes data on stochastic language models and the generative grammar associated to the collected spoken sentences. The application addressed by this database, which consists of voice control of a basic scientific calculator, has the particularity of being designed for a person with a specific motor impairment, namely muscular dystrophy. This specificity is a remarkable characteristic, given the lack of such kind of data resources for developing assistive systems based on audio-visual speech recognition technology.\n",
+    ""
+   ]
+  },
+  "jovicic04_specom": {
+   "authors": [
+    [
+     "Slobodan T.",
+     "Jovicic"
+    ],
+    [
+     "Zorka",
+     "Kasic"
+    ],
+    [
+     "Miodrag",
+     "Dordevic"
+    ],
+    [
+     "Mirjana",
+     "Rajkovic"
+    ]
+   ],
+   "title": "Serbian emotional speech database: design, processing and evaluation",
+   "original": "spc4_077",
+   "page_count": 5,
+   "order": 14,
+   "p1": "77",
+   "pn": "81",
+   "abstract": [
+    "This paper presents the results in designing, processing and evaluation of Serbian emotional speech database. The database has been collected in order to evaluate how well the emotional state in emotional speech is identified by humans and how well the emotional information contained in speech can be used in human-computer communication. The database contains recordings from six actors, three of each gender. Actors were used for the recordings the following emotions: neutral, anger, happiness, sadness and fear. The database consists of: 32 isolated words, 30 short semantically neutral sentences, 30 long semantically neutral sentences and one passage with 79 words in size. A listening test showed the correctly identification of emotions in 95%, and that most confusion occurred between anger and happiness, and between neutral and fear. Finally, the preliminary results in acoustic feature measurements on passage were presented.\n",
+    ""
+   ]
+  },
+  "kuwabara04_specom": {
+   "authors": [
+    [
+     "Hisao",
+     "Kuwabara"
+    ]
+   ],
+   "title": "Perception of voice-individuality for distortions of acoustic parameters",
+   "original": "spc4_085",
+   "page_count": 4,
+   "order": 15,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "A perceptual study has been performed to investigate relationship between acoustic parameters and the voice-individuality making use of a pitch synchronous analysis-synthesis system. Voice-individuality is involved in many acoustic parameters and the aim of this experiment is to examine how individual parameters affect the voice-individuality by separately giving them some distortions. Formant-frequency shift and bandwidth manipulations are given for spectral distortion, F0-shift for source manipulation. As the waveform distortion, zero-crossing and center-clipping techniques are used. It has been found that formant-shift is very sensitive to voice-individuality change and F0-shift and bandwidth manipulations are rather tolerant to the voice-individuality. The results of waveform manipulation reveal that the voice-individuality is kept more than the phonetic information for zero-crossing distortion and the results for center-clipping distortion are reverse.\n",
+    ""
+   ]
+  },
+  "goddard04_specom": {
+   "authors": [
+    [
+     "J.",
+     "Goddard"
+    ],
+    [
+     "A. E.",
+     "Martinez"
+    ],
+    [
+     "F. M.",
+     "Martinez"
+    ],
+    [
+     "H. L.",
+     "Rufiner"
+    ]
+   ],
+   "title": "Noisy speech recognition using string kernels",
+   "original": "spc4_089",
+   "page_count": 6,
+   "order": 16,
+   "p1": "89",
+   "pn": "94",
+   "abstract": [
+    "In the last few years, Support Vector Machine classifiers have been shown to give results comparable, or better, than Hidden Markov Models for a variety of tasks involving variable length sequential data. This type of data arises naturally in the fields of bioinformatics, text categorization and automatic speech recognition. In particular, in a previous work it was shown that certain string kernels gave a classification performance comparable to discrete Hidden Markov Models on an isolated Spanish digit recognition task. It is known that speech recognition degrades, often quite severely, when noise is present, and it is interesting to ask whether Support Vector Machines with string kernels continue to give a similar proficiency to discrete Hidden Markov Models in this context. In the present paper, this question is explored by considering the performance of Support Vector Machines with string kernels on the same isolated Spanish digit recognition task in which the speech data has been corrupted with different types of noise. Specifically, white noise and speech babble from the NOISEX-92 database. Results of these experiments are given.\n",
+    ""
+   ]
+  },
+  "katz04_specom": {
+   "authors": [
+    [
+     "M.",
+     "Katz"
+    ],
+    [
+     "S. E.",
+     "Krüger"
+    ],
+    [
+     "M.",
+     "Schafföner"
+    ],
+    [
+     "E.",
+     "Andelic"
+    ],
+    [
+     "Andreas",
+     "Wendemuth"
+    ]
+   ],
+   "title": "Kernel methods for discriminant analysis in speech recognition",
+   "original": "spc4_095",
+   "page_count": 4,
+   "order": 17,
+   "p1": "95",
+   "pn": "98",
+   "abstract": [
+    "This paper describes how kernel methods for discriminant analysis can be applied to speech recognition. The standard Linear Discriminant Analysis (LDA) is used for reduction of feature vector components in the feature extraction. The Kernel Discriminant Analysis (KDA) is non-linear expansion of this technique to project the feature vectors onto the best discriminantive feature, while the non-linear projection is implicity performed by the so called kernel trick. This is a way to represent the scalar-product of non linearly transformed feature vectors without performing the transformation itself. The resulting formulation is expressed as an eigenvalue problem, similar to the linear one. The main difficulty is that the size of the eigenvalue problem is equal to the number of input training vectors, which can be very large in speech recognition. To get the largest eigenvalue and the corresponding eigenvectors we use the efficient Lanczos Algorithm. Preliminary results using the Kernel Discriminant Analysis are presented on a small subset of the resource management RM1 dataset.\n",
+    ""
+   ]
+  },
+  "andelic04_specom": {
+   "authors": [
+    [
+     "E.",
+     "Andelic"
+    ],
+    [
+     "M.",
+     "Schafföner"
+    ],
+    [
+     "S. E.",
+     "Krüger"
+    ],
+    [
+     "M.",
+     "Katz"
+    ],
+    [
+     "Andreas",
+     "Wendemuth"
+    ]
+   ],
+   "title": "Iterative implementation of the kernel Fisher discriminant for speech recognition",
+   "original": "spc4_099",
+   "page_count": 5,
+   "order": 18,
+   "p1": "99",
+   "pn": "103",
+   "abstract": [
+    "While the temporal dynamic of speech can be represented very efficiently by Hidden Markov Models (HMMs) the classification of the single speech units (phonemes) is usually done non-optimally with gaussian probability distribution functions, which are not discriminative. In this paper we use the Kernel Fisher Discriminant (KFD) for classification by integrating this method in a HMM-based speech recognition system. In this hybrid structure we translate the outputs of the KFD-classifier into conditional probabilities and use them as production probabilities of a HMM-based decoder for speech recognition. The KFD has already shown good classification results in other fields (e.g. pattern recognition). To obtain a good performance also in terms of computational complexity the KFD is implemented iteratively with a sparse greedy approach, i.e. the sparseness of the vector we are looking for in the feature space is reduced in each iteration step until a stopping criterion is reached. We train and test the described hybrid structure on a subset of the Wall Street Journal (WSJ). A HMM-based decoder with Gaussian mixture models (GMMs) as production probabilities is used for baseline results. Modest improvements have been achieved so far.\n",
+    ""
+   ]
+  },
+  "kruger04_specom": {
+   "authors": [
+    [
+     "S. E.",
+     "Krüger"
+    ],
+    [
+     "S.",
+     "Barth"
+    ],
+    [
+     "M.",
+     "Katz"
+    ],
+    [
+     "M.",
+     "Schafföner"
+    ],
+    [
+     "E.",
+     "Andelic"
+    ],
+    [
+     "Andreas",
+     "Wendemuth"
+    ]
+   ],
+   "title": "Free energy classification at various temperatures for speech recognition",
+   "original": "spc4_104",
+   "page_count": 4,
+   "order": 19,
+   "p1": "104",
+   "pn": "107",
+   "abstract": [
+    "We use a generalized classification method which is based on the thermodynamic measure of free energy, i.e. the method does not use conventional probabilities as discriminant function. This method is used for decoding in a speech recognition system based on Hidden Markov Models (HMM). The free energy classification method has the temperature T as an adjustable parameter. In this generalized scheme the values T _ 0 and T _ 1 result as special cases in the widely used Viterbi decoding and the maximum a posteriori (MAP) classification, respectively. We present an approximation of the free energy method which is easy to implement in standard speech recognition systems and allows to study this method. The HMMs are trained with a conventional speech recognition system on subsets of the Wall Street Journal corpus. As test set we use another subset with additional noise. We find that temperatures T _ 1 may yield to better recognition results of these mismatched test data than the conventional methods, showing a potential for improved recognition of noisy speech.\n",
+    ""
+   ]
+  },
+  "koval04_specom": {
+   "authors": [
+    [
+     "S. L.",
+     "Koval"
+    ],
+    [
+     "M. B.",
+     "Stolbov"
+    ],
+    [
+     "M. Y.",
+     "Tatarnikova"
+    ]
+   ],
+   "title": "Integration of adaptive noise cancellation for isolated word recognition in smart-home control systems",
+   "original": "spc4_108",
+   "page_count": 4,
+   "order": 20,
+   "p1": "108",
+   "pn": "111",
+   "abstract": [
+    "Distant talker speech commands recognition accuracy degrades significantly when the speech is corrupted by background sound (music, radio, TV sound, etc). The purpose of this paper is to compare the effect of different noise reduction algorithms on the performance of the recognition system. To achieve high recognition performance for a wide variety of noise types and various signal to- noise ratios, this paper presents two echo reduction stereo algorithms: Time Domain Adaptive Filter (TDAF) and Frequency Domain Adaptive Filter (FDAF). New modification of FDAF is proposed. We have evaluated this approach first on computer generated anechoic mixtures and then on real echoic mixtures recorded in a room. FDAF shows much more positive effect. By processing noise-corrupted commands in this manner we achieve significant improvements in spoken commands recognition accuracy. The resulting level of errors (WER) is about 10 % when signal-to-interference ratio is about 0 dB.\n",
+    ""
+   ]
+  },
+  "cranen04_specom": {
+   "authors": [
+    [
+     "Bert",
+     "Cranen"
+    ],
+    [
+     "Johan de",
+     "Veth"
+    ]
+   ],
+   "title": "State dependent feature component selection for noise robust ASR",
+   "original": "spc4_112",
+   "page_count": 8,
+   "order": 21,
+   "p1": "112",
+   "pn": "119",
+   "abstract": [
+    "The acoustic environment in which speech is recorded has a strong influence on the statistical distributions of observed acoustic features. In order to make ASR insensitive to noise it is crucial that these distributions are similar in the training and testing condition. Mostly, it is attempted to compensate for the impact of noise by estimating the noise characteristics from the signal. In this paper we explore the feasibility of a new method to increase noise robustness: We try to exploit a priori knowledge stored in clean speech models. Using Mel bank log-energy features, recognition is done by ignoring the model components for features that contained little energy during training. This strategy aims at recognition results that are determined more strongly by the match in the high-energy rather than by the mismatch in the low-energy model components. Application of the new method to clean speech data confirms that discarding components below a certain energy threshold does not deteriorate recognition performance. Experiments with noisy data, however, show that performance gains are relatively small. This paper explains why that is the case and why, despite the limited success, the outcomes suggest that the method still could prove to be a valuable addition to data-driven methods like (bounded) marginalisation.\n",
+    ""
+   ]
+  },
+  "lima04_specom": {
+   "authors": [
+    [
+     "Carlos S.",
+     "Lima"
+    ],
+    [
+     "Adriano C.",
+     "Tavares"
+    ],
+    [
+     "Carlos A.",
+     "Silva"
+    ],
+    [
+     "Jorge F.",
+     "Oliveira"
+    ]
+   ],
+   "title": "Spectral normalisation MFCC derived features for robust speech recognition",
+   "original": "spc4_120",
+   "page_count": 8,
+   "order": 22,
+   "p1": "120",
+   "pn": "127",
+   "abstract": [
+    "This paper presents a method for extracting MFCC parameters from a normalised power spectrum density. The underlined spectral normalisation method is based on the fact that the speech regions with less energy need more robustness, since in these regions the noise is more dominant, thus the speech is more corrupted. Less energy speech regions contain usually sounds of unvoiced nature where are included nearly half of the consonants, and are by nature the least reliable ones due to the effective noise presence even when the speech is acquired under controlled conditions. This spectral normalisation was tested under additive artificial white noise in an Isolated Speech Recogniser and showed very promising results. It is well known that concerned to speech representation, MFCC parameters appear to be more effective than power spectrum based features. This paper shows how the cepstral speech representation can take advantage of the abovereferred spectral normalisation and shows some results in the continuous speech recognition paradigm in clean and artificial noise conditions.\n",
+    ""
+   ]
+  },
+  "sirumng04_specom": {
+   "authors": [
+    [
+     "Paulo",
+     "Sirum Ng"
+    ],
+    [
+     "Ivandro",
+     "Sanches"
+    ]
+   ],
+   "title": "The influence of audio compression on speech recognition systems",
+   "original": "spc4_128",
+   "page_count": 4,
+   "order": 23,
+   "p1": "128",
+   "pn": "131",
+   "abstract": [
+    "Large amount of disk space is needed to store the increasing volume of speech data that is becoming available for most languages either by data logging in the application side or by speech data acquisition for large databases. One way to minimize the need for disk space is to compress the speech data by using modern perceptual audio coding techniques such as MPEG Layer-3 (as known as MP3) or Dolby AC-3. In this article the performance of a speech recognizer for Brazilian Portuguese using acoustic models trained with audio data coded with an MP3 codec at 4 different bitrates: 16 kbps, 24 kbps, 32 kbps and 64 kbps is evaluated, in order to assess the influence of this audio compression technique applied to speech data. The word accuracy rates are compared with those obtained when training acoustic models with the original PCM recordings at 16 kHz and 16 bits per sample. Our experiments indicate that for 32 kbps or higher audio bit rate the word accuracy rates show very little degradation in performance in certain contexts, which means up to 8 times less disk space needed.\n",
+    ""
+   ]
+  },
+  "saric04_specom": {
+   "authors": [
+    [
+     "Zoran M.",
+     "Saric"
+    ],
+    [
+     "Slobodan T.",
+     "Jovicic"
+    ]
+   ],
+   "title": "Subband pause in speech signal detection using microphone array in room with reverberation",
+   "original": "spc4_132",
+   "page_count": 6,
+   "order": 24,
+   "p1": "132",
+   "pn": "137",
+   "abstract": [
+    "Speech recording for the man-computer communication in room with reverberation and cocktail party interference is serious problem. To improve the speech quality, microphone arrays are often used. Adaptive algorithms that exploits minimum variance (MV) criterion, are inefficient in interference suppression when there is any correlation between interference and desired signal. This correlation causes cancellation of the desired signal and signal-tointerference ratio reduction. The desired signal cancellation can be prevented if adaptive weightings are estimated in pause of speech. In this paper the subbands pause detection is proposed and applied to GSC weightings estimation. Pause detection is based on signal-to-interference ratio estimation. Unknown probability density functions of testing random variable are estimated from the histogram of mixture of hypothesis H0 (pause) and H1 (speech). The optimal pause detection threshold determined from estimated density functions guarantees low level of desired signal cancellation. The proposed pause detection algorithm is tested on simulation of the room with reverberation.\n",
+    ""
+   ]
+  },
+  "kornilov04_specom": {
+   "authors": [
+    [
+     "Alexander U.",
+     "Kornilov"
+    ]
+   ],
+   "title": "The investigation of gullet speech spectrum by means of the recursive filters system",
+   "original": "spc4_138",
+   "page_count": 3,
+   "order": 25,
+   "p1": "138",
+   "pn": "140",
+   "abstract": [
+    "The using of recursive filters system for speech spectrum investigation in oncological patient speech rehabilitation process, advantages and disadvantages of such system are described in this paper. Gullet speech is formed in the process of oncological patient rehabilitation, when larynx is cut out as the result of operation. Such patients have broken connection between the lungs and vocal tract. As the result the usual mechanism of voiced speech generation by means of the system consisting the lungs, larynx, vocal tract is lost. Usually such patients are taught to speak using gullet bubble as a pressure source and gullet contraction as a source of voiced speech. Patients are taught to collect air in gullet to form the pressure source similar to the lungs. Speech therapeutists are to give the quantitative and qualitative assessment to that speech. One of methods is described in this paper.\n",
+    ""
+   ]
+  },
+  "ge04_specom": {
+   "authors": [
+    [
+     "Lingnan",
+     "Ge"
+    ],
+    [
+     "Katsuhiko",
+     "Shirai"
+    ],
+    [
+     "Yubo",
+     "Ge"
+    ]
+   ],
+   "title": "Nonlinear random features of non-stationary signals and applications to speech recognition",
+   "original": "spc4_141",
+   "page_count": 5,
+   "order": 26,
+   "p1": "141",
+   "pn": "145",
+   "abstract": [
+    "To describe and portray non-stationary signals characteristic more accurately, this paper suggests a dynamic technique to test the non-stability of real-time multimedia signal based on statistical theory and doubly random time series model. Applied this technique to acoustic speech processes stationary process repeatedly takes turn with non-stationary process, to select characteristic parameters and recognition models automatically. This technique can cut down the dimension of parameters, lighten the computation burden, release more store stacks, and reduce more candidates so that it can raise the real-time processing capability and recognition ratio.\n",
+    ""
+   ]
+  },
+  "petrushin04_specom": {
+   "authors": [
+    [
+     "Valery A.",
+     "Petrushin"
+    ]
+   ],
+   "title": "Adaptive algorithms for pitch-synchronous speech signal segmentation",
+   "original": "spc4_146",
+   "page_count": 8,
+   "order": 27,
+   "p1": "146",
+   "pn": "153",
+   "abstract": [
+    "The paper describes and compares two time domain algorithms for segmenting voiced speech into quasiperiodical units that correspond to pitch periods. The first algorithm uses the similarity of adjacent segments to build a graph that represents distances between them and finds the minimal path in it using a \"greedy\" algorithm. The second algorithm implements a set of heuristics that imitate actions of a human, who manually solves the problem. It starts from the middle of the voiced segment, finds the highest waveform peak, and then using an estimate of fundamental frequency period searches for peaks on the both sides. Some rules are applied to decide on the direction of processing, to prune errors at the beginning and at the end of the signal and to cope with jitter. The experimental results of the algorithms performance are presented. The algorithms application to precise pitch estimation is discussed.\n",
+    ""
+   ]
+  },
+  "suh04_specom": {
+   "authors": [
+    [
+     "Youngjoo",
+     "Suh"
+    ],
+    [
+     "Hoi-Rin",
+     "Kim"
+    ]
+   ],
+   "title": "Data-driven filter-bank-based feature extraction for speech recognition",
+   "original": "spc4_154",
+   "page_count": 4,
+   "order": 28,
+   "p1": "154",
+   "pn": "157",
+   "abstract": [
+    "Selecting good feature is especially important to achieve high speech recognition accuracy. Although the mel-cepstrum is a popular and effective feature for speech recognition, it is still unclear that the filter-bank in the mel-cepstrum is always optimal regardless of speech recognition environments or the characteristics of specific speech data. In this paper, we focus on the data-driven filter-bank optimization for a new feature extraction where we use the Kullback-Leibler (KL) distance as the measure in the filter-bank design. Experimental results showed that the proposed feature provides an error rate reduction of about 20% for clean speech as well as noisy speech compared to the conventional mel-cepstral feature.\n",
+    ""
+   ]
+  },
+  "toutios04_specom": {
+   "authors": [
+    [
+     "Asterios",
+     "Toutios"
+    ],
+    [
+     "Konstantinos G.",
+     "Margaritis"
+    ]
+   ],
+   "title": "Estimating tongue-palate contact patterns from the speech signal",
+   "original": "spc4_158",
+   "page_count": 8,
+   "order": 29,
+   "p1": "158",
+   "pn": "165",
+   "abstract": [
+    "Electropalatography (EPG) is a technique that determines the contact patterns between the tongue and the hard palate during speech. In one of its most common forms, it utilizes an artificial palate with 62 silver electrodes embedded in its tongue-facing surface. At small regular time intervals it is recorded whether a specific electrode is contacted or not by the tongue, leading to tongue-palate contact patterns. EPG is nowadays a relatively well-estabilshed tool in phonetic research, in the clinical treatment of people with articulation difficulties or cleft palate, and also in the teaching of second languages. Still, the derivation of EPG data is a rather expensive and difficult process. What is suggested herein is that a means of estimating EPG patterns directly from the acoustic speech signal - with no need of any special equipment - would be of great value to speech pathologists and phoneticians alike. This paper presents work towards finding a mapping between acoustic parameters, namely the Mel Frequency Cepstral Coefficients, derived directly from the speech signal, and the corresponding EPG patterns. It may be regarded as a special case of a more general problem called acoustic-toarticulatory inversion, or speech inversion, which refers to finding mappings between the speech signal and some kind of articulatory parameters. One of the main motives for this research field is that the additional articulatory information could be used to improve the performance of current speech recognition systems. EPG patterns could also be used in such a context. For a solution of the problem described, we investigate the utilization of Support Vector Machines, a relatively new and very promising supervised learning technique, of which not many applications have yet appeared in the speech processing field. The source of the data we use is the MOCHA database, which is well documented and publicly available via the Web, thus allowing for comparisons of other researchers results to ours.\n",
+    ""
+   ]
+  },
+  "ivanov04_specom": {
+   "authors": [
+    [
+     "Alexei V.",
+     "Ivanov"
+    ],
+    [
+     "Alexander A.",
+     "Petrovsky"
+    ]
+   ],
+   "title": "Anthropomorphic feature extraction algorithm for speech recognition in adverse environments",
+   "original": "spc4_166",
+   "page_count": 8,
+   "order": 30,
+   "p1": "166",
+   "pn": "173",
+   "abstract": [
+    "Speech recognition engines should remain reasonably accurate in adverse environments in order to find their ways from laboratories towards applications. However the human auditory system has been proven to be a versatile tool, which is capable of outperforming the known artificial algorithms in their target environments. Recent advances in psychoacoustics and auditory physiology pointed to the essentially non-linear behaviour of the auditory apparatus. On the basis of the interpretation of the biological information processing it is possible to construct a parametric human-like nonlinear algorithm, which exhibit properties similar to those of the live system. Besides the description of the anthropomorphic feature extraction algorithm in this paper we test its performance in accordance with the formulated requirements to the efficient and robust feature extraction and also provide a comparative benchmark of compact ASR system in combination with the proposed algorithm in adverse conditions.\n",
+    ""
+   ]
+  },
+  "buera04_specom": {
+   "authors": [
+    [
+     "Luis",
+     "Buera"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ]
+   ],
+   "title": "Multi-environment models based linear normalization for robust speech recognition",
+   "original": "spc4_174",
+   "page_count": 7,
+   "order": 31,
+   "p1": "174",
+   "pn": "180",
+   "abstract": [
+    "This paper presents a feature normalization technique based on minimum mean square error, histogram normalization and multi-environment models. Using stereo training data, accurate estimates of the bias between clean and distorted speech cepstral vectors can be provided. With the stereo training data, a non-linear transformation of the distorted cepstral vectors is performed based on minimum mean square error estimation and histogram equalization. Results with SpeechDat Car database show an improvement in the word error rate with regard to linear transformation techniques as SPLICE and MEMLIN. An improvement in word error rate of 67.28% in digits task, and 40.79% in spelling task are obtained.\n",
+    ""
+   ]
+  },
+  "bondarenko04_specom": {
+   "authors": [
+    [
+     "Vladimir",
+     "Bondarenko"
+    ],
+    [
+     "Vladislav",
+     "Kotsubinski"
+    ],
+    [
+     "Andrew",
+     "Ponomarev"
+    ],
+    [
+     "Dmitriy",
+     "Velikotski"
+    ]
+   ],
+   "title": "Speech signal analysis wavelet-transformation and signal processing at the periphery of acoustical system",
+   "original": "spc4_181",
+   "page_count": 5,
+   "order": 32,
+   "p1": "181",
+   "pn": "185",
+   "abstract": [
+    "The report deals with problems of speech signal processing in speech recognition systems being analogue of aural perception system. Its known from psychoacoustics and neurophysiology of perception that latter possesses high resolution on frequency and time. Its rather difficult to meet theses conflicting objectives with the help of Fourier analysis. Nowadays various species of Wavelet transformation are widely applied to analysis of signals of different classes. Such transformations are aimed at compromise achievement between frequency and time resolutions during research of signal structure. Moreover Wavelet-transformation intended for computer-based signal processing from the very outset. One could suppose that at the periphery of acoustical system input signal processing similar to Wavelet-transformation is realized ensuring required frequency and time resolution. Such data as transfer constants of internal ear basic membrane; data on logarithmic frequency scale; data on consecutive and synchronous masking can be considered as arguments of the aforesaid assumption. The report contain analysis of all these data demonstrating that sufficiently specific transformation of input signals is implemented at the periphery of acoustical system. This transformation can be placed among classes of Wavelet-transformation. However the named transformation possesses /distinctive features allowing discovering of perceived signal structure peculiarities.\n",
+    ""
+   ]
+  },
+  "fedorov04_specom": {
+   "authors": [
+    [
+     "Ujin U.",
+     "Fedorov"
+    ]
+   ],
+   "title": "Creation of a method of feature extraction of vowel",
+   "original": "spc4_186",
+   "page_count": 4,
+   "order": 33,
+   "p1": "186",
+   "pn": "189",
+   "abstract": [
+    "For creation of a hardware-software part of a natural language interface of recognition of specialized commands of an intelligent management system the technique of feature extraction of vowels of speech, founded on processing of digital signals is designed, numerical research and identification of parameters is conducted.\n",
+    ""
+   ]
+  },
+  "shadevsky04_specom": {
+   "authors": [
+    [
+     "A.",
+     "Shadevsky"
+    ],
+    [
+     "Alexander A.",
+     "Petrovsky"
+    ]
+   ],
+   "title": "Implementation of time-varying modulation filter in speech enhancement system",
+   "original": "spc4_190",
+   "page_count": 5,
+   "order": 34,
+   "p1": "190",
+   "pn": "194",
+   "abstract": [
+    "Modern telecommunication technology is present in many areas of everyday life. However for systems carrying out such problems as sound coding, automatic speech recognition, voice identification, etc. is required a high quality signal on an input. This paper describes one-channel neuromorphic motivated speech enhancement system, which explores properties of modulation spectrum of human. It can be used as input signal preprocessor of such systems, with the purpose to increase of its quality. The new adaptive technique of filtering of spectral envelopes is suggested in this paper. This approach allows more accuracy tune modulation filter, and appropriate to speech enhancement systems. Criteria of a choice of controlled modulation filter parameters are submitted. Also work performances of speech enhancement system are resulted.\n",
+    ""
+   ]
+  },
+  "likhachov04_specom": {
+   "authors": [
+    [
+     "Denis S.",
+     "Likhachov"
+    ],
+    [
+     "Alexander A.",
+     "Petrovsky"
+    ]
+   ],
+   "title": "Parameters quantization in sinusoidal speech coder on basis of human auditory model",
+   "original": "spc4_195",
+   "page_count": 8,
+   "order": 35,
+   "p1": "195",
+   "pn": "202",
+   "abstract": [
+    "In the given paper a method of the parameter quantization in speech coder on basis of human auditory model is presented. Output speech parameters of the coder are three sinusoidal parameters: amplitude, frequency and phase. For amplitude and frequency quantization we propose to use a vector quantization, and for phases  scalar quantization. This parameter quantization method allows to achieve bit rate from 3 to 8 kbps depending on the reconstructed speech quality.\n",
+    ""
+   ]
+  },
+  "mischie04_specom": {
+   "authors": [
+    [
+     "Septimiu",
+     "Mischie"
+    ]
+   ],
+   "title": "Using linear prediction in spectral domain to decomposition speech into modulated components",
+   "original": "spc4_203",
+   "page_count": 7,
+   "order": 36,
+   "p1": "203",
+   "pn": "209",
+   "abstract": [
+    "The paper presents the decomposition of the speech signal into two modulated components, namely the envelope and the instantaneous frequency (IF). For this purpose, a bandpass signal is first represented as a sum of sinusoidal signals and then, by using the roots of the polynomial with complex coefficients of the signal, it is transformed in a product of elementary signals. This representation allows an easier computation of the envelope and of the IF. In order to eliminate the computation of the roots, a LPSD (linear prediction in spectral domain) algorithm is used. Thus, the two components of the signal can be computed. First, the method is applied to a synthesized signal, and then to a speech signal.\n",
+    ""
+   ]
+  },
+  "kornilov04b_specom": {
+   "authors": [
+    [
+     "Alexander U.",
+     "Kornilov"
+    ]
+   ],
+   "title": "The simple algorithm of building nonrecursive digital filter for decimation purpose",
+   "original": "spc4_210",
+   "page_count": 2,
+   "order": 37,
+   "p1": "210",
+   "pn": "211",
+   "abstract": [
+    "The simple algorithm of building nonrecursive digital filter for decimation purpose is described in this paper. The problem of decimation is rather often. The multichannel tunable filterring system is required to be built in our work. One of the simplest ways is a method, when a grid of filters uniformly set on interval from 0 to half sampling rate Fd, is created, and sample frequency itself changes by means of decimation of the source sequence, recorded with samle rate of F0. source sequence is to be passed throw low-frequancy shelf filter before undertaking decimation in order to avoid the imaging of the upper frequencies in lower area. The problem of decimation is simply to solve in case the nonrecursive filters are used. Though such filters are highly expensive on machine resource, the source sequence needs to be filtered only once per multichannel system building phase. So we may ignore the time of filter calculation and filtering of source sequence.\n",
+    ""
+   ]
+  },
+  "wood04_specom": {
+   "authors": [
+    [
+     "Chip",
+     "Wood"
+    ],
+    [
+     "Kari",
+     "Torkkola"
+    ],
+    [
+     "Snehal",
+     "Kundalkar"
+    ]
+   ],
+   "title": "Using driver's speech to detect cognitive workload",
+   "original": "spc4_215",
+   "page_count": 8,
+   "order": 38,
+   "p1": "215",
+   "pn": "222",
+   "abstract": [
+    "In a recent driving simulator study, drivers were asked to engage in spontaneous conversations with the remote experimenter. While driving a rather complicated world, they used a hands-free cell phone. Each driver engaged in four .Neutral. and four .Intense. conversations of approximately three minutes each. The objective driving performance and the subjective .workload. showed significant differences between topic types. In the current study, an analysis of the speech during the spontaneous conversations was undertaken to see if there was any correlation between speech patterns and the conversation topic type. This paper discusses the successful results and their implications.\n",
+    ""
+   ]
+  },
+  "kanevsky04_specom": {
+   "authors": [
+    [
+     "Dimitri",
+     "Kanevsky"
+    ],
+    [
+     "Barbara",
+     "Churchill"
+    ],
+    [
+     "Alex",
+     "Faisman"
+    ],
+    [
+     "David",
+     "Nahamoo"
+    ],
+    [
+     "Roberto",
+     "Sicconi"
+    ]
+   ],
+   "title": "Safety driver manager",
+   "original": "spc4_223",
+   "page_count": 8,
+   "order": 39,
+   "p1": "223",
+   "pn": "230",
+   "abstract": [
+    "Telematics services in cars (like navigation, cellular telephone, internet access) are becoming increasingly popular, but they may distract drivers from their main driving tasks and negatively affect driving safety. This paper addresses some aspects of voice user interface in cars, as a mechanism to increase driver safety. Voice control becomes more efficient in reducing driver distraction if drivers can speak commands in a natural manner rather than having to remember one or two variants supported by the system. In this paper we discuss some ways to increase naturalness. Computers in cars are usually not very powerful due to cost considerations. Low CPU resources are a limiting factor for embedded speech solutions. Another aspect of this paper is a recently introduced novel solution for using a speech interface to reduce driver drowsiness and prevent a driver from falling asleep. All driver activities in cars (driving, talking over telephone, controlling Telematics devices, etc.) contribute to driver workload. Designing workload management in a user interface is a difficult task. In our paper we analyze some aspects of this problem. Finally, we introduce the idea of a distributed user interface between cars. It is well known that the safety of a driver depends not only on the driver himself but on the behavior of other drivers nearby. Therefore sharing some information about other cars and driver conditions could lead to increased driving safety. For example, if a driver in a nearby car is listening to an e-mail message or has had a high number of traffic accidents in the past, this \"heightened risk\" information could be sent anonymously to the workload manager in another car. The workload manager would then adjust risk factors in its safety assessment of the environment. In response to the heightened risk caused by the offending car, this workload manager may prevent the telephone from ringing or interrupt a dialog between the driver and a car system in other, nearby cars who are at higher risk because of the nearby \"offending\" car.\n",
+    ""
+   ]
+  },
+  "naito04_specom": {
+   "authors": [
+    [
+     "Masaki",
+     "Naito"
+    ],
+    [
+     "Kengo",
+     "Fujita"
+    ],
+    [
+     "Tohru",
+     "Shimizu"
+    ]
+   ],
+   "title": "A noise robust voice input system for internet services over cellular phones",
+   "original": "spc4_231",
+   "page_count": 5,
+   "order": 40,
+   "p1": "231",
+   "pn": "235",
+   "abstract": [
+    "Internet access services over wireless networks have already been widely used by cellular phone users in Japan. However users have difficulty using keypads to browse web contents. To reduce this difficulty and offer smooth Internet access via mobile web browser, we have developed a voice input system that works on existing Internet services over cellular phones. This system works based on a combination of speech recognition by circuit switching and Internet access by packet switching. Through the field trial of this system, it was found that the speech input to the system contains various kinds of non-stationary noises. These type of noises often cause serious recognition errors especially in background speech noises. To reduce these errors, we propose a keyword spotting method using a garbage model for background speech to improve discrimination between speech and background speech noises that suffer from the characteristic distortion caused by low bit rate speech CODEC. Experiments in recognition of noisy speech show that our proposed method reduces word errors by 40% compared with results from speech recognition without a garbage model.\n",
+    ""
+   ]
+  },
+  "ris04_specom": {
+   "authors": [
+    [
+     "Christophe",
+     "Ris"
+    ],
+    [
+     "Laurent",
+     "Couvreur"
+    ]
+   ],
+   "title": "Improving ASR performance on PDA by contamination of training data",
+   "original": "spc4_236",
+   "page_count": 8,
+   "order": 41,
+   "p1": "236",
+   "pn": "243",
+   "abstract": [
+    "Automatic Speech Recognition (ASR) on Personal Digital Assistant (PDA) suffers from the intrinsic hardware characteristics of the audio interface, for example, low quality microphones and device internal noises. In this paper, we propose to compensate for these weaknesses by contaminating clean training data with the distortion sources that are specific to the target device. We present a method to estimate both the frequency response of the audio acquisition channel and the internal additive noise from a few tens of minutes of recordings on PDA. The channel characteristics are estimated from the long term power spectra of clean speech and PDA recordings, while the noise power spectrum is estimated during silence segments in these recordings. All the recordings are performed in a controlled way, i.e. quiet environment and no reverberation, in order to ensure that we measure only the internal device characteristics. The PDA-specific training data are then obtained by filtering the clean training data with the audio channel frequency response and contaminating them with internal noise, and a specific acoustic model is eventually trained for the target device. Recognition tests have been performed on digit sequences on three different PDAs. Our approach has been compared to other channel and noise robust methods and presents very competitive performance.\n",
+    ""
+   ]
+  },
+  "suk04_specom": {
+   "authors": [
+    [
+     "Soo-Young",
+     "Suk"
+    ],
+    [
+     "Ho-Youl",
+     "Jung"
+    ],
+    [
+     "Shozo",
+     "Makino"
+    ],
+    [
+     "Hyun-Yeol",
+     "Chung"
+    ]
+   ],
+   "title": "Distributed speech recognition system for PDA in wireless network environment",
+   "original": "spc4_244",
+   "page_count": 4,
+   "order": 42,
+   "p1": "244",
+   "pn": "247",
+   "abstract": [
+    "In this paper, we proposed a distributed speech recognition system using PDA (Personal Digital Assistant) as a client and personal computer as a server through wireless network. General mobile clients such as PDAs are primarily motivated by the needs for providing more convenient user-interface. Speech or character recognition is provided for this purpose. However, the conventional mobile client is hard to employ such user friendly interfaces because of its limited processing power and its limited memory space. To solve the problem it is considered that a client transmits the extracted features from the inputs (voice, character, etc.) to the server, the server return the recognized results to the client, and the client display them to the user. By doing this way, a larger size of recognition engine can be used for better recognition accuracy. HMnet (Hidden Markov network) models are widely used as the basic units for recognition of continuous speech, isolated words, on-line characters, and so on. We will discuss the architecture of proposed distributed system and several constraints that must be considered in the server of the system. Then we discuss multiple connection processing, sequential processing using data queue, and adapted model in each clients environments to solve these constraints\n",
+    ""
+   ]
+  },
+  "markov04_specom": {
+   "authors": [
+    [
+     "Konstantin",
+     "Markov"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Advanced acoustic modeling with the hybrid HMM/BN framework",
+   "original": "spc4_248",
+   "page_count": 8,
+   "order": 43,
+   "p1": "248",
+   "pn": "255",
+   "abstract": [
+    "Most of the current state-of-the-art speech recognition systems are based on HMMs which usually use mixture of Gaussian functions as state probability distribution model. It is a common practice to use EM algorithm for Gaussian mixture parameter learning. In this case, the learning is done in a blind, data-driven way without taking into account how the speech signal has been produced and which factors it depends on. In this paper, we describe the hybrid HMM/BN acoustic modeling framework, where, in contract to the conventional mixture of Gaussians,HMMstate probability distribution is modeled by a Bayesian Network, hence the name is HMM/BN. Temporal speech characteristics are still governed by the HMM state transitions, but the state output likelihood is inferred from the BN. This allows for very flexible and consistent models of the state probability distributions which can easily integrate different speech parameterizations. BN can represent various speech features and environment conditions and their underlying dependencies. We show that the conventional HMM is a special case of HMM/BN model which we regard as a generalization of the HMM. The HMM/BN parameter learning is based on the Viterbi training paradigm and consists of two alternating steps - BN training and HMM transition probabilities update. For recognition, in some cases, BN inference is computationally equivalent to mixture of Gaussians which allows HMM/BN model to be used in existing HMM decoders. We present several examples of HMM/BN model application in speech recognition systems. Evaluations under various conditions and for different tasks showed that the HMM/BN model gives consistently better performance that the standard mixture of Gaussians HMM.\n",
+    ""
+   ]
+  },
+  "kim04_specom": {
+   "authors": [
+    [
+     "Joo-Gon",
+     "Kim"
+    ],
+    [
+     "Ho-Youl",
+     "Jung"
+    ],
+    [
+     "Hyun-Yeol",
+     "Chung"
+    ]
+   ],
+   "title": "A keyword spotting approach based on pseudo N-gram language model",
+   "original": "spc4_256",
+   "page_count": 4,
+   "order": 44,
+   "p1": "256",
+   "pn": "259",
+   "abstract": [
+    "In General, keyword spotting systems employ the connected word recognition network, which consists of both keyword models and filler models as the recognition strategy. That is why those systems cannot construct the language models of word appearance effectively for detecting keywords in large vocabulary continuous speech system that has large text data. In this paper, we propose a keyword spotting system using pseudo N-gram language model for detecting keywords. We then investigated the performance of the proposed system according to the changes of the frequencies of appearances (uni-gram) of both keyword and filler models. As the results, when the uni-gram probability of keyword and filler models set to 0.2 and 0.8 respectively, the experimental results showed 8.6% of equal error rate. This means that the proposed has 14% of higher performance than conventional methods in terms of error reduction rate.\n",
+    ""
+   ]
+  },
+  "conn04_specom": {
+   "authors": [
+    [
+     "Cheryl",
+     "Conn"
+    ],
+    [
+     "Ji",
+     "Ming"
+    ],
+    [
+     "Philip",
+     "Hanna"
+    ]
+   ],
+   "title": "Robust keyword spotting using a multi-stream approach",
+   "original": "spc4_260",
+   "page_count": 8,
+   "order": 45,
+   "p1": "260",
+   "pn": "267",
+   "abstract": [
+    "Speech recognition systems are prone to severe degradation in noisy environments due to mismatch between training and testing conditions. A multi-stream approach for keyword spotting is proposed to improve robustness in mismatched conditions. The assumption is that most real world noises are colored and do not affect the full spectrum equally, meaning certain parts of the spectrum can still provide reliable information characterizing the utterance. In the proposed method for keyword spotting, the full frequency band is split into several sub-bands, each of which contain both static and delta parameters. Robustness is achieved using only features from sub-bands with highest signal-tonoise ratio (SNR) during recognition, while ignoring sub-bands that are strongly affected by noise. The problem is how to correctly select and combine the useful bands for accurate recognition, without prior knowledge of the noise characteristics. In this paper we propose a new likelihood ratio, used both to select usable bands and provide a confidence measure for robust keyword spotting. Tests carried out using the TiDigits database show a significant improvement in keyword spotting performance compared to a product based approach. In addition, including a non-keyword test set from Resource Management results in a reduction of Equal Error Rate.\n",
+    ""
+   ]
+  },
+  "gomez04_specom": {
+   "authors": [
+    [
+     "Jon Ander",
+     "Gomez"
+    ],
+    [
+     "Maria Jose",
+     "Castro"
+    ],
+    [
+     "Emilio",
+     "Sanchis"
+    ]
+   ],
+   "title": "An approach to obtain weighted graphs of words based on phoneme detection",
+   "original": "spc4_268",
+   "page_count": 8,
+   "order": 46,
+   "p1": "268",
+   "pn": "275",
+   "abstract": [
+    "In this paper, we present an approach for phoneme detection and phonetic classification that can be used as a basis for different speech processes, such as phoneme boundary detection, acoustic-phonetic decoding or word-graph construction with acoustic con- fidence scores. The phonetic classifier that has been developed is based on a phase of acoustic vector clustering in the space of acoustic characteristics, and on a second phase for the association of the acoustic classes with the phonetic units by means of conditional probabilities. We also present methods to build graphs of linguistic units (phonemes, words or semantic units). Phoneme graphs can be applied to acoustic-phonetic decoding tasks or as a preceding step to obtain word graphs. Word graphs can be used in recognition tasks, or they can be converted into graphs of semantic units to be used for understanding tasks. Some recognition experiments and understanding experiments are also presented for a restricted-semantic task about geographical queries.\n",
+    ""
+   ]
+  },
+  "amrouche04_specom": {
+   "authors": [
+    [
+     "Abderrahmane",
+     "Amrouche"
+    ],
+    [
+     "Jean Michel",
+     "Rouvaen"
+    ]
+   ],
+   "title": "On the use of the nonparametric regression in neural network based approach applied to Arabic speech",
+   "original": "spc4_276",
+   "page_count": 6,
+   "order": 47,
+   "p1": "276",
+   "pn": "281",
+   "abstract": [
+    "The aim of this study is to perform an Arabic word recognition system, focused to a small vocabulary. Various models using neural network approach have been used in ASR. In order to increase the efficiency of the classification task we propose the use of a nonparametric density estimator. Thus, in this paper we present an adaptation scheme for independent speaker Arabic speech recognition based on the General Regression Neural Network (GRNN). In another hand we have also implemented a left-right Hidden Markov Model (DHMM) with five states and relative performances of the two proposed applications are compared to the popular known MLP. Experimental results obtained with large corpora have shown that the use of a nonparametric density estimator with an appropriate smooth factor improves the generalization power of neural network.\n",
+    ""
+   ]
+  },
+  "srinonchat04_specom": {
+   "authors": [
+    [
+     "J.",
+     "Srinonchat"
+    ],
+    [
+     "S.",
+     "Danaher"
+    ],
+    [
+     "J. I. H.",
+     "Allen"
+    ],
+    [
+     "A.",
+     "Murray"
+    ]
+   ],
+   "title": "An efficient of neural address predictor applies to address vector quantisation codebook in speech processing",
+   "original": "spc4_282",
+   "page_count": 7,
+   "order": 48,
+   "p1": "282",
+   "pn": "288",
+   "abstract": [
+    "Generally characteristic of speech waveform is the continuous signal, which contains of voiced and unvoiced signal. Historically, speech waveform is coded by dividing it into frames; it is typically divided into 30 ms frame length, where each frame is coded separately. Speech is however created by a physical system and is substantially shaped by the vocal tract. As it is physically impossible for the vocal tract to move instantaneously from any state to any given state, trends should exist between successive vocal tract positions. In the coding techniques used in this paper, the vocal tract positions manifest themselves as Vector Quantised LSP coefficients. Although speech coding is an entity in its own right, strong links exist between image compression and speech compression. In this work, the Address-VQ technique which used in the image compression arena, have been applied to the compression of speech coded parameters. Furthermore the technique, called Neural Address Prediction, which is a lossy technique, also applied to encourage further reduce the bit rate. This work exploits the repetitiveness of the attribute of a single speaker to further reduce the bit rate. Preliminary results indicate that approximately more than 33% additional compression is achievable using Neural Address Prediction with Address Vector Quantisation codebook. As Neural Address Prediction is a lossy compression scheme, the error of prediction directly affects to the quality of synthesis speech especially in the voice frames.\n",
+    ""
+   ]
+  },
+  "kouznetsov04_specom": {
+   "authors": [
+    [
+     "V.",
+     "Kouznetsov"
+    ],
+    [
+     "V.",
+     "Chuchupal"
+    ]
+   ],
+   "title": "Increasing trainability of ASR system by means of top-down clustering procedure based on decision trees (vowel data for Russian)",
+   "original": "spc4_289",
+   "page_count": 2,
+   "order": 49,
+   "p1": "289",
+   "pn": "290",
+   "abstract": [
+    "A top-down sharing scheme based on decision trees is used to capture enormous variability of Russian vowel data. The bootstrap part of the Russian database for telephone applications (TeCoRus) is used as the speech material for the experiments. It comprises approximately 6 hours of manually segmented readings by 6 speakers (3 male and 3 female) of a phonetically representative text of 510 sentences. Russian vowels were initially represented by a hierarchical structure of 53 classes based on phonetic quality of the vowel, its stress characteristics and nasalized realization. The designed set of questions comprised 57 questions addressed to the middle element of the triphone, while 98 questions (58 among them checking identity of a particular phone) were applied symmetrically to the left right contexts. Results of some pilot experiments concerned with establishing optimal set of broad phonetic classes, questions to the tree nodes and resultant inventory of context-sensitive phones are presented.\n",
+    ""
+   ]
+  },
+  "ronzhin04_specom": {
+   "authors": [
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ],
+    [
+     "Alexey A.",
+     "Karpov"
+    ]
+   ],
+   "title": "Implementation of morphemic analysis for Russian speech recognition",
+   "original": "spc4_291",
+   "page_count": 6,
+   "order": 50,
+   "p1": "291",
+   "pn": "296",
+   "abstract": [
+    "In the paper the model of voice interface, which provides automatic input of Russian speech is proposed. The morphemes level of speech representation is introduced and as a result the size of vocabulary is significantly decreased. The developed morphemes databases are used for collecting the statistics of morphemes co-ordination by text corpuses. At that during recognition the degree of co-ordination between root morphemes has main significance. As a result of such processing the invariance to grammatical deviations is provided and also the speed of recognition of Russian speech and other languages with complex mechanism of word formation is improved.\n",
+    ""
+   ]
+  },
+  "stuker04_specom": {
+   "authors": [
+    [
+     "Sebastian",
+     "Stüker"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "A grapheme based speech recognition system for Russian",
+   "original": "spc4_297",
+   "page_count": 7,
+   "order": 51,
+   "p1": "297",
+   "pn": "303",
+   "abstract": [
+    "With the increasing availability and deployment of speech recognition technology in real world environments fast and affordable adaptation of speech recognition systems to new languages and/or domains becomes more and more important. One of the most expensive components of a recognition system is the pronunciation dictionary that maps the orthography of the words in the search vocabulary onto a sequence of sub-units. Often phonemes act as such sub-units. Human expert knowledge is usually required for crafting the pronunciation dictionary, thus making it an expensive and time consuming task. Even automatic tools for creating such dictionaries often require hand labeled amounts of training material and rely on manual revision. In order to address the problem of creating a dictionary in a time and cost efficient way we have examined recognition systems at our lab that rely soly on graphemes rather than phonemes as subunits. The mapping in the dictionary thus becomes trivial, since now every word is simply segmented into its letters. Therefore no expert knowledge is needed anymore. Our experiments on different languages have shown that the quality of the resulting recognizer significantly depends on the grapheme-to-phoneme relation of the underlying language. Since Russian is a language with an alphabetic script with a fairly close graphemeto- phoneme relation it is very well suited to be a candidate for this approach. In this paper we present our results on creating a grapheme based Russian recognizer trained on the GlobalPhone corpus that covers fifteen different languages. We compare the performance of the resulting system to a phoneme based recognition system that was trained in the course of the GlobalPhone project, and compare the performance of two grapheme based systems whose context-dependent models were clustered with two different procedures.\n",
+    ""
+   ]
+  },
+  "zhozhikashvili04_specom": {
+   "authors": [
+    [
+     "V. A.",
+     "Zhozhikashvili"
+    ],
+    [
+     "M. P.",
+     "Farkhadov"
+    ],
+    [
+     "N. V.",
+     "Petukhova"
+    ],
+    [
+     "A. V.",
+     "Zhozhikashvili"
+    ]
+   ],
+   "title": "The first voice recognition applications in Russian language for use in the interactive information systems",
+   "original": "spc4_304",
+   "page_count": 4,
+   "order": 52,
+   "p1": "304",
+   "pn": "307",
+   "abstract": [
+    "In the article is discussed the problem of the access of broad masses of the population to information. The use of speech recognition in the interactive information systems is the most suitable way to make these systems more open and easily available for people. The purpose of our work was to create the functioning speech interfaces in Russian language to information and service systems and to analyze the results. Our efforts resulted in creation of the first voice servers for interactive information and services systems in Russia: computer reservation system Sirena, a system for dispatching of orders for taxi delivery, and a banking system. We developed several analytical models that allow dialogue optimization and control. One of our models, which enable the calculation of the mean number of retries and appropriate time losses in different conditions, is presented in this paper.\n",
+    ""
+   ]
+  },
+  "kocharov04_specom": {
+   "authors": [
+    [
+     "Daniil A.",
+     "Kocharov"
+    ]
+   ],
+   "title": "Automatic vowel recognition in fluent speech (on the material of the Russian language)",
+   "original": "spc4_308",
+   "page_count": 2,
+   "order": 53,
+   "p1": "308",
+   "pn": "309",
+   "abstract": [
+    "A vowel recognition based on a pitch-synchronous signal processing is introduced in this paper. The investigation has been made within the development of a speaker independent system of automatic speech sounds identification. The length of a signal-processing window is equal to the pitch period. This makes the signal analysis more independent of a pitch value than in the case of using a fixed-window analysis. It is known that the most effective analysis could be made if a length of the analyzing window is divisible by the pitch period. Thus the smallest window, which provides the perfect effectiveness of the signal analysis, is used here. The patterns for vowels were generated with a help of the knowledge about the phonological system and phonetic rules of the Russian language. Conducted experiments have shown that phonetically-based patterns dictionary is not less effective for speaker-independent speech recognition than the one generated with a help of clustering analysis. The proposed vowels recognition method was tested on the following material: a set of isolated vowels manually extracted from phonetically representative text, read by a standard male speaker of Russian, and a set of isolated words, read by 10 male and 10 female speakers of Russian. Vowels were automatically extracted and then identified within a processing of the second part of the material. An average recognition accuracy of 85.0% was obtained. The achieved results seem to be quite successful.\n",
+    ""
+   ]
+  },
+  "arisoy04_specom": {
+   "authors": [
+    [
+     "Ebru",
+     "Arisoy"
+    ],
+    [
+     "Levent M.",
+     "Arslan"
+    ]
+   ],
+   "title": "Turkish radiology dictation system",
+   "original": "spc4_310",
+   "page_count": 5,
+   "order": 54,
+   "p1": "310",
+   "pn": "314",
+   "abstract": [
+    "We have designed a Turkish dictation system for Radiology applications. Turkish is an agglutinative language with free word order. These characteristics of the language result in the vocabulary explosion and the complexity of the N-gram language models in speech recognition. In order to alleviate this problem, we propose a task-specific, radiology, dictation system. Using words as recognition units, we achieve 87.06 % recognition performance with a small vocabulary size in a speaker independent system. The most common reason of errors during the recognition is due to the pronunciation variations across speakers, and also due to the inaccurate modeling. In this paper, to overcome these problems, we proposed a pronunciation modeling technique in which variation is modeled at the lexicon level. The pronunciation variants are selected by learning the common mistakes of our speech recognition system. As a proof of the concept, firstly we apply this method to the isolated recognition of small vocabulary radiological words. Our preliminary results show that, 24.74 % error rate reduction can be achieved for isolated word recognition. This idea can also be generalized to continuous speech recognition problem with a moderate vocabulary size.\n",
+    ""
+   ]
+  },
+  "ansarin04_specom": {
+   "authors": [
+    [
+     "Ali Akbar",
+     "Ansarin"
+    ]
+   ],
+   "title": "An acoustic analysis of modern Persian vowels",
+   "original": "spc4_315",
+   "page_count": 4,
+   "order": 55,
+   "p1": "315",
+   "pn": "318",
+   "abstract": [
+    "Determining the acoustic properties of the sounds of any language is assumed to be the initial step in pedagogical or linguistic studies. No attempt to study Persian vowels' acoustic properties has been reported yet according to our knowledge. With the help of spectrographic and F1 and F2 comparison of Persian vowels this paper attempts to do a computer-based acoustic analysis of Persian vowels, and provides a digitized and authentic chart of Persian vowels. As a result, based on the formant values, a vowel space plot of Persian vowels was developed. Also, the theory of efficiency of these three vowels / i, a, u / as the major means of communication in the majority of languages of the world is supported by the results. Furthermore, the analysis of distributional occurrence of these vowels in the vowels space and their relative distance from one another suggest that the pressure to form pattern has made Persian language to develop a vowel system which could be described in a triangular auditory space. In addition to these cornering vowels, Persian language has developed three other intermediate vowels / e,?,o / to create a symmetrically distributed vowel system to cater the communicative needs of the language users. In general, in a descriptive method the acoustic properties of Persian vowels / i, e, ?, a, o, u / are examined and illustrated in this paper.\n",
+    ""
+   ]
+  },
+  "kolar04_specom": {
+   "authors": [
+    [
+     "Jachym",
+     "Kolar"
+    ],
+    [
+     "Jan",
+     "Svec"
+    ],
+    [
+     "Josef",
+     "Psutka"
+    ]
+   ],
+   "title": "Automatic punctuation annotation in Czech broadcast news speech",
+   "original": "spc4_319",
+   "page_count": 7,
+   "order": 56,
+   "p1": "319",
+   "pn": "325",
+   "abstract": [
+    "This paper reports our initial experiments with automatic punctuation annotation from speech. We have focused on Czech broadcast news speech. The task can be defined as a classification of each inter-word boundary into one of target classes. We considered comma, sentence boundary and no punctuation as the target classes. We employed two statistical models  prosodic model and language model. The prosodic model expresses relationships between prosodic quantities (such as pitch, speaking rate or loudness) and punctuation marks. We tested two implementations of this model  decision tree and multi-layer perceptron. Hidden-event N-gram models were employed for language modeling. Instead of using an ordinary word-based model, we replaced infrequent word forms by their morphological tags and trained a mixed model. Scores from both models can be combined. The model combining language model with the decision tree yielded superior results. Testing on true words we achieved classification accuracy 95.2% and F-measure 78.2%.\n",
+    ""
+   ]
+  },
+  "silingas04_specom": {
+   "authors": [
+    [
+     "Darius",
+     "Silingas"
+    ],
+    [
+     "Sigita",
+     "Laurinciukaite"
+    ],
+    [
+     "Laimutis",
+     "Telksnys"
+    ]
+   ],
+   "title": "Towards acoustic modeling of Lithuanian speech",
+   "original": "spc4_326",
+   "page_count": 7,
+   "order": 57,
+   "p1": "326",
+   "pn": "332",
+   "abstract": [
+    "In this paper we present experimental investigation of using various phone sets for acoustic modeling of Lithuanian speech applied to large vocabulary continuous speech recognition. Paper presents specifics of Lithuanian speech acoustics including accentuation, diphthongs, softening and assimilation of consonants. The speech recognition experiments use only acoustic model since effective language modeling for highly inflected Lithuanian language is still under research. Several Lithuanian phone sets are proposed for evaluation in speech recognition experiments. A new Lithuania broadcast news corpus LRNO is presented. Phone occurrence frequencies in 9 hours speech training data for multiple Lithuanian phone sets are given. Recognition performance for Hidden Markov Models based on multiple proposed simple and contextual phone sets is evaluated using ÍÒÊ toolkit. Experiment results are presented using figures comparing word error rates for phone sets. Conclusions indicate influence of modeling various linguistic features such as accent, softness, mixed-diphthongs, affricates, and context to recognition performance, recommend a phone set to use for Lithuanian speech recognition, and point the future research directions.\n",
+    ""
+   ]
+  },
+  "savage04_specom": {
+   "authors": [
+    [
+     "Jesus",
+     "Savage"
+    ],
+    [
+     "Emmanuel",
+     "Hernandez"
+    ],
+    [
+     "Gabriel",
+     "Vazquez"
+    ],
+    [
+     "Adalberto",
+     "Hernandez"
+    ],
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ]
+   ],
+   "title": "Control of a mobile robot using spoken commands",
+   "original": "spc4_333",
+   "page_count": 6,
+   "order": 58,
+   "p1": "333",
+   "pn": "338",
+   "abstract": [
+    "There are several architectures that control mobile robots, the architecture that it is proposed in this paper it is formed by several layers, see Figure 1, each one having a specific function that in whole control the behavior of the robot. The Virtual and Real Robot (ViRBot) System is used to control the movements of virtual and real mobile robots, and one of the features of this system is that an user can use spoken commands to communicate with the robots. In this paper it is described the Human/Robot Interface module that contains a speech recognition and natural language understanding system used to control the operation of a mobile robot.\n",
+    ""
+   ]
+  },
+  "udhyakumar04_specom": {
+   "authors": [
+    [
+     "N.",
+     "Udhyakumar"
+    ],
+    [
+     "C. S.",
+     "Kumar"
+    ],
+    [
+     "R.",
+     "Srinivasan"
+    ],
+    [
+     "R.",
+     "Swaminathan"
+    ]
+   ],
+   "title": "Decision tree learning for automatic grapheme-to-phoneme conversion for Tamil",
+   "original": "spc4_339",
+   "page_count": 4,
+   "order": 59,
+   "p1": "339",
+   "pn": "342",
+   "abstract": [
+    "This paper describes a novel approach for grapheme to phoneme conversion using decision tree learning technique. The proposed approach, unlike the rule based approach, can generate rules spanning wider context and thus give better accuracy for the conversion\n",
+    ""
+   ]
+  },
+  "kumar04_specom": {
+   "authors": [
+    [
+     "C. S.",
+     "Kumar"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Language identification for multilingual speech recognition systems",
+   "original": "spc4_343",
+   "page_count": 5,
+   "order": 60,
+   "p1": "343",
+   "pn": "347",
+   "abstract": [
+    "This paper describes the details of a language identification technique suitable for multilingual speech recognition systems. The present system is trained for two of the most widely spoken Indian languages, Tamil and Hindi. The technique could be extended for any number of languages without any substantial increase in the size of the multilingual speech recognition system.\n",
+    ""
+   ]
+  },
+  "zulkarneev04_specom": {
+   "authors": [
+    [
+     "Mikhail Yu.",
+     "Zulkarneev"
+    ]
+   ],
+   "title": "An approach to compensation for language modeling errors in the key-spotting systems",
+   "original": "spc4_348",
+   "page_count": 3,
+   "order": 61,
+   "p1": "348",
+   "pn": "350",
+   "abstract": [
+    "The present paper describes a new approach to the problem of compensation for language modeling errors adapted for key-spotting systems using infill units. A regular approach to compensation for language modeling errors doesn't take into account the difference in phonetic length of key-words and infill units. The suggested approach is free of this disadvantage and we believe that it will make possible to decrease rather a high level of false alarms, which is quite typical for key-spotting systems with infill units.\n",
+    ""
+   ]
+  },
+  "deemagarn04_specom": {
+   "authors": [
+    [
+     "Amarin",
+     "Deemagarn"
+    ],
+    [
+     "Asanee",
+     "Kawtrakul"
+    ]
+   ],
+   "title": "Thai connected digit speech recognition using hidden Markov models",
+   "original": "spc4_731",
+   "page_count": 5,
+   "order": 62,
+   "p1": "731",
+   "pn": "735",
+   "abstract": [
+    "A connected digit speech recognition is important in many applications such as voice-dialing telephone, automated banking system, automatic data entry, PIN entry, etc. This research presents speech recognition system of speaker-independent Thai connected digit. The system employs mel frequency cepstrum coefficient (MFCC), delta MFCC, delta-delta MFCC, delta energy and delta-delta energy as features, and applies continuous density hidden Markov model (CDHMM) in the recognition process. The Viterbi beam search algorithm is used in decoding process. In training set, we use 100 speakers (50 females, 50 males) for 2000 utterances within the range of 20-28 years old. For the experiment, we used 50 speakers (25 females, 25 males) as testing set. The average recognition rate is 75.25 % for known length strings and 70.33 % for unknown length strings.\n",
+    ""
+   ]
+  },
+  "saastamoinen04_specom": {
+   "authors": [
+    [
+     "Juhani",
+     "Saastamoinen"
+    ],
+    [
+     "Evgeny",
+     "Karpov"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ],
+    [
+     "Pasi",
+     "Fränti"
+    ]
+   ],
+   "title": "Automatic speaker recognition for series 60 mobile devices",
+   "original": "spc4_353",
+   "page_count": 8,
+   "order": 63,
+   "p1": "353",
+   "pn": "360",
+   "abstract": [
+    "Mobile phone environment and other devices that require low power consumption, restrict the computations of DSP processors to fixed point arithmetic only. This is a common practice based on cost and battery power savings. In this paper, we first discuss the specific software architecture requirements set up by the Symbian operating system and the Series 60 platform. We analyze mel frequency cepstral coefficient based classification. and show techniques to avoid information loss, when a floating-point algorithm is replaced by a corresponding algorithm that uses fixed-point arithmetic. We analyze the preservation of discrimination information, which is the key motivation in all classification applications. We also give insight to the relation between information preserving and operator presentation accuracy. The results are exemplified with tests made on algorithms that are identical except for the different arithmetics used.\n",
+    ""
+   ]
+  },
+  "kinnunen04_specom": {
+   "authors": [
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ],
+    [
+     "Pasi",
+     "Fränti"
+    ]
+   ],
+   "title": "Fusion of spectral feature sets for accurate speaker identification",
+   "original": "spc4_361",
+   "page_count": 5,
+   "order": 64,
+   "p1": "361",
+   "pn": "365",
+   "abstract": [
+    "Several features have been proposed for automatic speaker recognition. Despite their noise sensitivity, lowlevel spectral features are the most popular ones because of their easy computation. Although in principle different spectral representations carry similar information (spectral shape), in practice the different features differ in their performance. For instance, LPC-cepstrum picks more details of the short-term spectrum than the FFTcepstrum with the same number of coefficients. In this work, we consider using multiple spectral presentations simultaneously for improving the accuracy of speaker recognition. We use the following feature sets: melfrequency cepstral coefficients (MFCC), LPC-cepstrum (LPCC), arcus sine reflection coefficients (ARCSIN), formant frequencies (FMT), and the corresponding deltaparameters of all feature sets. We study the two ways of combining the feature sets: feature-level fusion (feature vector concatenation), score-level fusion (soft combination of classifier outputs), and decision-level fusion (combination of classifier decision).\n",
+    ""
+   ]
+  },
+  "karpov04_specom": {
+   "authors": [
+    [
+     "Evgeny",
+     "Karpov"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Pasi",
+     "Fränti"
+    ]
+   ],
+   "title": "Symmetric distortion measure for speaker recognition",
+   "original": "spc4_366",
+   "page_count": 5,
+   "order": 65,
+   "p1": "366",
+   "pn": "370",
+   "abstract": [
+    "We consider matching functions in vector quantization (VQ) based speaker recognition systems. In VQ-based systems, a speaker model consists of a small collection of representative vectors, and matching is performed by computing a dissimilarity value between the unknown speakers feature vectors and the speaker models. Typically, the average/total quantization error is used as the dissimilarity measure. However, this measure lack the symmetricity requirement of a proper distance measure. This is counterintuitive because match score between speakers X and Y is different from the match score between Y and X. Furthermore, the distortion measure can yield a zero value (perfect match) for non-identical vector sets, which is undesirable. In this study, we study ways of making the quantization distortion functions proper distance measures. The study includes discussion of the theoretical properties of different measures, as well as an evaluation on a subset of the NIST99 speaker recognition evaluation corpus.\n",
+    ""
+   ]
+  },
+  "srinonchat04b_specom": {
+   "authors": [
+    [
+     "J.",
+     "Srinonchat"
+    ],
+    [
+     "S.",
+     "Danaher"
+    ],
+    [
+     "J. I. H.",
+     "Allen"
+    ],
+    [
+     "A.",
+     "Murray"
+    ]
+   ],
+   "title": "Double clustering algorithm applied to speaker dependent information",
+   "original": "spc4_371",
+   "page_count": 6,
+   "order": 66,
+   "p1": "371",
+   "pn": "376",
+   "abstract": [
+    "The clustering algorithms are used to group or cluster similar input vectors together. This technique has been widely applied to linear and non-linear system for propose of classifying signal. In this paper, clustering algorithm has been work for speech signal. K-means and Self Organising Maps (SOM) methods are very useful and popular as performance as clustering techniques. Due to SOM has a property of self-organising that all nodes in the network are connected and updated all nodes with a particular neighbourhood function. In this reason, SOM is selected to perform under the condition of clustering on information of speech data within Speaker Dependent system. Speech information in Speaker dependent system exists both in the spectral envelope and in the voice source characteristics of speech. The spectral envelope is the characteristics of the vocal tract and the voice source characteristics acquires from the different in manner of speaking such as dialect and accent. This individual information can be feature classifies and exploits in many of speech research works. However to accomplishment in coding, synthesis or recognition speech signal of a particular single speaker, it is necessary to understand the characteristic of that speech. This paper is introduced a novel model of clustering technique, namely Double Clustering Self-Organising Maps which based on Self-Organising Maps, to classify and cluster the information of speaker dependent and also encourage this technique to further compression speech signal. This techniques is difference from the traditional SOM, in this work, the network structure in DCSOM is adaptively adjusted itself during the learning phase, so that the similar characteristic neural will have similar weight vectors and also move nearer to each other. Then the group of neuron which has similar property is clustered using the specific distance property function. The result shows that by this technique, it can generate and determine the optimum number of clustering in an efficient and effective way for speech signal especially on speaker dependent system. The main result of the new model that uses this technique shows the effective performance of the accuracy classify in each speaker dependent and also can reduce bit rate of speech signal about 33 % in the environment of speaker dependent coding system which can be applied to Computer Base Learning (CBL).\n",
+    ""
+   ]
+  },
+  "rylov04_specom": {
+   "authors": [
+    [
+     "A. S.",
+     "Rylov"
+    ],
+    [
+     "V. A.",
+     "Chyzhdzenka"
+    ],
+    [
+     "T. V.",
+     "Leukouskaya"
+    ]
+   ],
+   "title": "The discriminant-stochastic approach of the speaker verification for entry control by the biometrical technologies",
+   "original": "spc4_377",
+   "page_count": 5,
+   "order": 67,
+   "p1": "377",
+   "pn": "381",
+   "abstract": [
+    "On the basis of the analytical review of the basic modern biometric technologies of the entry control, as well as methods and concrete systems of speaker verification, the discriminant-stochastic approach to construction of speech verifiers (identifiers) possessing high reliability characteristics of speaker recognition. The concrete structure of the discriminant-stochastic speaker verifier (DSSV) in which three types of models (integrated, VQ, and GMM) are applied as template of the client. They allow to use more widely a range of modular spectrum (from 0,125 up to 10 Hz) practical to verification and identification. The final decision on recognition in DSSV is adopted under three individual decisions independent from each other by voting. On the DSSV base the high-level systems of the authorized access to the information or physical access on objects with high danger can be created.\n",
+    ""
+   ]
+  },
+  "ronzhin04b_specom": {
+   "authors": [
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ],
+    [
+     "I. V.",
+     "Lee"
+    ],
+    [
+     "Alexey A.",
+     "Karpov"
+    ],
+    [
+     "V. A.",
+     "Skormin"
+    ]
+   ],
+   "title": "Automatic estimation of human²s psychophysiological state by speech",
+   "original": "spc4_382",
+   "page_count": 6,
+   "order": 68,
+   "p1": "382",
+   "pn": "387",
+   "abstract": [
+    "The survey of biometric methods and existing systems of identification and verification of individual is outlined in this paper. There are two types of analyzed data in biometric systems: static and dynamic. At that the accuracy of last ones strongly depends on psychophysiological state of a man. Therefore it is proposed to use the methods of speech processing for estimation of the current state of a speaker. As the instruments for speech processing were used the modules of parameterization of speech signal and semantic syntactic analysis developed in Speech Informatics Group of SPIIRAS. Besides the proposed model has a capability for combining with other types of biometric information.\n",
+    ""
+   ]
+  },
+  "solewicz04_specom": {
+   "authors": [
+    [
+     "Yosef A.",
+     "Solewicz"
+    ],
+    [
+     "Moshe",
+     "Koppel"
+    ]
+   ],
+   "title": "Enhanced fusion methods for speaker verification",
+   "original": "spc4_388",
+   "page_count": 5,
+   "order": 69,
+   "p1": "388",
+   "pn": "392",
+   "abstract": [
+    "This paper presents meta-learning schemes aimed at improving fusion of low and high level information for speaker verification in clean and noisy environments. While traditional systems fuse several classifier outputs in a uniform fashion independently of test quality, the proposed schemes use selective fusion weights according to test quality. A decrease of more than 20% under noisy conditions and 10% under clean conditions could be obtained with little calibration.\n",
+    ""
+   ]
+  },
+  "solewicz04b_specom": {
+   "authors": [
+    [
+     "Yosef A.",
+     "Solewicz"
+    ],
+    [
+     "Moshe",
+     "Koppel"
+    ],
+    [
+     "Saad",
+     "Sofer"
+    ]
+   ],
+   "title": "A robust framework for forensic speaker verification",
+   "original": "spc4_393",
+   "page_count": 5,
+   "order": 70,
+   "p1": "393",
+   "pn": "397",
+   "abstract": [
+    "This paper discusses the application of automatic speaker verification systems in forensic casework. A framework for reporting the system outcome is proposed. Specific system requirements to properly cope with forensic idiosyncrasies are analyzed through a series of simulations. Results suggest that the design of a forensic speaker verification system not necessarily match the settings of current state-of-the-art systems.\n",
+    ""
+   ]
+  },
+  "lupu04_specom": {
+   "authors": [
+    [
+     "Eugen",
+     "Lupu"
+    ],
+    [
+     "Petre G.",
+     "Pop"
+    ],
+    [
+     "Mircea",
+     "Patras"
+    ]
+   ],
+   "title": "Low complexity speaker recognition system developed on the DSP TMS320C541 board",
+   "original": "spc4_398",
+   "page_count": 5,
+   "order": 71,
+   "p1": "398",
+   "pn": "402",
+   "abstract": [
+    "The paper presents a speaker identification application developed on the EVM C541 board using the CCS® (Code Composer Studio). The application represents the implementation of the TESPAR (Time Encoding Signal Processing and Recognition proposed by R.A. King) coding method on a DSP support. The TESPAR alphabet for the coding process was obtained formerly. The speaker information contained in the utterances is extracted by TESPAR coder and provides the TESPAR-A matrices. For the identification decision the distances among the TESPAR-A test matrix and the TESPAR-A reference matrices are computed. The results of the experiments prove the high capabilities of the TESPAR method in the classification tasks noticed also in [1][2].\n",
+    ""
+   ]
+  },
+  "galunov04_specom": {
+   "authors": [
+    [
+     "Valery I.",
+     "Galunov"
+    ],
+    [
+     "N. G.",
+     "Kouznetsov"
+    ],
+    [
+     "A. N.",
+     "Soloviev"
+    ]
+   ],
+   "title": "From artificial intelligence to smart environment: on the problem of speech recognition",
+   "original": "spc4_405",
+   "page_count": 5,
+   "order": 72,
+   "p1": "405",
+   "pn": "409",
+   "abstract": [
+    "The recent developments in the Speech Recognition problem domain have been primarily driven by the needs of the market. Speech recognition engines have been mainly based on mathematics-centered DTW and HMM. The architectures of the existing speech recognition engines have little in common with the architecture of human audition. The speech recognition technology has not fully utilized the knowledge amassed in the psychology of speech perception. The needs of the Speech Recognition technology have not been adequately addressed by the psychology of speech perception.\n",
+    ""
+   ]
+  },
+  "popovic04_specom": {
+   "authors": [
+    [
+     "Maja",
+     "Popovic"
+    ],
+    [
+     "Slobodan T.",
+     "Jovicic"
+    ],
+    [
+     "Zoran M.",
+     "Saric"
+    ]
+   ],
+   "title": "Statistical machine translation of Serbian-English",
+   "original": "spc4_410",
+   "page_count": 5,
+   "order": 73,
+   "p1": "410",
+   "pn": "414",
+   "abstract": [
+    "In this work we present the first results of statistical approach to the machine translation of Serbian language into English and vice versa. The experiments are performed on the Assimil language course, bilingual parallel corpus which consists of about 3k sentences and 20k running words from unrestricted domain. The error rates for the translation of Serbian into English are about 35-45% and for the other direction about 45-55%. The results are comparable with those for the other language pairs having been translated using statistical approach. Reducing Serbian words into stems has decreased error rates for the translation into English for about 8% relative.\n",
+    ""
+   ]
+  },
+  "lendvai04_specom": {
+   "authors": [
+    [
+     "Piroska",
+     "Lendvai"
+    ],
+    [
+     "Antal van den",
+     "Bosch"
+    ],
+    [
+     "Emiel",
+     "Krahmer"
+    ],
+    [
+     "Sander",
+     "Canisius"
+    ]
+   ],
+   "title": "Memory-based robust interpretation of recognised speech",
+   "original": "spc4_415",
+   "page_count": 8,
+   "order": 74,
+   "p1": "415",
+   "pn": "422",
+   "abstract": [
+    "We describe a series of experiments in which memory based machine learning techniques are used for the interpretation of spoken user input in human-machine interactions. In these experiments, the task is to determine the dialogue act of the user input and the type of information slots the user fills, on the basis of a variety of features representing the spoken input (speech measurements and word recognition information) as well as its context (the interaction history). In the first experiment, we perform this task using the complete word graph output of the automatic speech recognizer. This yields an overall accuracy of 76.2%, with an F-score of 91.3 on dialogue act classification and an F-score of 87.7 on filled slot types. In the second experiment, we investigate the usefulness of two approaches to filtering out possibly non-contributing word recognition information from the speech recognizer output: (i) filtering out disfluencies, and (ii) keeping only syntactic chunk heads.\n",
+    ""
+   ]
+  },
+  "marusenko04_specom": {
+   "authors": [
+    [
+     "Michail A.",
+     "Marusenko"
+    ],
+    [
+     "Rajmund H.",
+     "Piotrowski"
+    ],
+    [
+     "Yuri V.",
+     "Romanov"
+    ]
+   ],
+   "title": "NLP and attribution of pseudonymic texts: who is really the author of the \"quiet flows the don\"",
+   "original": "spc4_423",
+   "page_count": 5,
+   "order": 75,
+   "p1": "423",
+   "pn": "427",
+   "abstract": [
+    "The article is devoted to description of a newly developed linguistic automaton module for text attribution. Different methods for combining lexical, morphological and syntactical parameters are presented in their comparison. An evaluation of logical design and functional techniques of the new module using the pattern recognition technology is presented in its application to the provocative checking of the challengeable authorship of the novel \"Quiet Flows the Don\" ascribed traditionally to the Nobel Prize winner Mikhail Sholokhov.\n",
+    ""
+   ]
+  },
+  "gumenjuk04_specom": {
+   "authors": [
+    [
+     "Alexander S.",
+     "Gumenjuk"
+    ]
+   ],
+   "title": "The calculation of the positional relationship of elements in data arrays (formal analysis of the structured data composition)",
+   "original": "spc4_428",
+   "page_count": 5,
+   "order": 76,
+   "p1": "428",
+   "pn": "432",
+   "abstract": [
+    "Reading and writing texts is based on the apparent meaning of words, hieroglyphs, characters and symbols, which present corresponding objects or concepts. However, until recently almost no attention was paid to the patterns of specific sequences of characters or words, which constitute a separate sequence of symbols, during the study of texts. Therefore, it was impossible to conduct the formal analysis of text element orders. At the same time musical texts, at first glance, do not have any content. However, the priority of the specific arrangement of musical characters is obvious for musicians. The arrangement of events in historical chronicles is essential. During the instrumental measurement of values it is important to record the natural order of data, usually it is easily represented by character sequence. In the present work the approach intended for the formal analysis of an order of elements in a separate text, any character sequence or string of messages, is considered. The methods applied to the study of the local structure of symbol sequences are not considered in the present paper.\n",
+    ""
+   ]
+  },
+  "ivanova04_specom": {
+   "authors": [
+    [
+     "Elena G.",
+     "Ivanova"
+    ]
+   ],
+   "title": "Representation of formal logical knowledge by the means of natural language",
+   "original": "spc4_433",
+   "page_count": 5,
+   "order": 77,
+   "p1": "433",
+   "pn": "437",
+   "abstract": [
+    "This article examines one possible approach to the definition of the minimal set of representation means for formal logical knowledge that is required in a natural or an artificial language. The essence of the presented approach is that for the realization of information-control functions any language (natural as well as artificial) must have linguistic means that would enable it to: 1. Describe object's structural characteristics (on objective and subjective levels). 2. Describe current object's state and facts of its changes. 3. Define control signals. In this paper the author tries to show that from the formal logical point of view the set of these functions is absolutely necessary and minimally sufficient for mutual understanding, functioning and cooperation in the group of intelligent agents, who are the speakers of this language. In this article the author takes natural language, examines its grammatical constructions and finds those that form a set, satisfying all the requirements listed above. In other words the author finds the minimal set of formal means of natural language for the formal representation of formal knowledge.\n",
+    ""
+   ]
+  },
+  "lukianova04_specom": {
+   "authors": [
+    [
+     "Ljudmila M.",
+     "Lukianova"
+    ]
+   ],
+   "title": "Systems analysis: a semiotic approach to problem and purpose representation",
+   "original": "spc4_438",
+   "page_count": 5,
+   "order": 78,
+   "p1": "438",
+   "pn": "442",
+   "abstract": [
+    "Compassing of systems analysis (SA) in industry faces to a serious problem which causes incorrect SA results and in which two main aspects may be differed. The first one is connected with a regulative part of SA. The second aspect is caused by partial formalization of systems-analytical process. Our aim is to reduce the problem by developing SA-methodology for industrial systems. It is based on the structure-and-purpose approach to systems analysis and on the semiotic system in which logic-and-linguistic formalization of problems/purposes analysis is realized. The paper presents the language for problem/purpose representation to realize dialog between man and the semiotic system.\n",
+    ""
+   ]
+  },
+  "potapova04_specom": {
+   "authors": [
+    [
+     "Rodmonga K.",
+     "Potapova"
+    ],
+    [
+     "M. V.",
+     "Khitina"
+    ],
+    [
+     "E. B.",
+     "Yakovleva"
+    ]
+   ],
+   "title": "Spoken discourse and perceptual rules of its semantic reconstruction",
+   "original": "spc4_445",
+   "page_count": 3,
+   "order": 79,
+   "p1": "445",
+   "pn": "447",
+   "abstract": [
+    "The paper is about the research on possibilities of modelling prosodic-semantic-pragmatic variability of spoken discourse. The experiments were carried out on the material of German, Russian and English. The main objective of the research is to detect interdependence between prosodic organisation and linguistic structure of the utterance as far as phonetic, phonological, lexical, syntactical, semantic aspects are concerned. Reconstruction of the spoken discourse in English, Russian, German let us develop a range of models of discourse and single out factors which determine variability of phonetic, prosodic, semantic and pragmatic features. This is a key to understanding the procedure of multi-channel processing of human speech in the environment of complicated communication which involves a wide gamut of components which are to be taken into consideration while structuring and restructuring spoken discourse. As a part of the project a phonetic base of Russian, German and English authentic speech was built. The base (corpus of spoken speech samples) includes utterances representing various types of spoken discourse applicable to a certain subject domain. While building the corpus the factor of contact / distant communication were taken into account. All the samples were transcribed and labeled. As a result some features were singled out on prosodic and semantic levels which were used by the listeners involved into experiments on discourse reconstruction. The most frequently employed features were the following: integral semantic content of the utterances, melodic curve of the utterance, stress and accent of certain syllables. Loudness was named as the least frequently employed feature to draw conclusion regarding reconstruction of the semantic content of the utterance. The rest of the features, description of the experiments and the methodology of the experiments and statistical analysis of the obtained data are presented in the full version of the paper.\n",
+    ""
+   ]
+  },
+  "galunov04b_specom": {
+   "authors": [
+    [
+     "Valery I.",
+     "Galunov"
+    ],
+    [
+     "Boris M.",
+     "Lobanov"
+    ],
+    [
+     "Nicolay G.",
+     "Zagoruiko"
+    ]
+   ],
+   "title": "Ontology of the subject domain \"speech signals recognition and synthesis\"",
+   "original": "spc4_448",
+   "page_count": 6,
+   "order": 80,
+   "p1": "448",
+   "pn": "453",
+   "abstract": [
+    "The general structure of ontology of subject domain is described. Definitions of basic elements of ontology are given. Examples of the description a some elements of ontology of the subject domain \"Speech signals recognition and synthesis\" are resulted. The possible variant of the organization of collective development of such ontology is offered.\n",
+    ""
+   ]
+  },
+  "bosch04_specom": {
+   "authors": [
+    [
+     "Louis ten",
+     "Bosch"
+    ],
+    [
+     "Nelleke",
+     "Oostdijk"
+    ],
+    [
+     "Jan Peter de",
+     "Ruiter"
+    ]
+   ],
+   "title": "Turn-taking in social talk dialogues: temporal, formal, and functional aspects",
+   "original": "spc4_454",
+   "page_count": 8,
+   "order": 81,
+   "p1": "454",
+   "pn": "461",
+   "abstract": [
+    "This paper presents a quantitative analysis of the turn-taking mechanism evidenced in 93 telephone dialogues that were taken from the 9-million-word Spoken Dutch Corpus. While the first part of the paper focuses on the temporal phenomena of turn taking, such as durations of pauses and overlaps of turns in the dialogues, the second part explores the discoursefunctional aspects of utterances in a subset of 8 dialogues that were annotated especially for this purpose. The results show that speakers adapt their turntaking behaviour to the interlocutors behaviour. Furthermore, the results indicate that male-male dialogs show a higher proportion of overlapping turns than female-female dialogues.\n",
+    ""
+   ]
+  },
+  "ajafernandez04_specom": {
+   "authors": [
+    [
+     "Santiago",
+     "Aja-Fernandez"
+    ],
+    [
+     "Carlos",
+     "Alberola-Lopez"
+    ]
+   ],
+   "title": "Fuzzy granules as a basic word representation for computing with words",
+   "original": "spc4_462",
+   "page_count": 8,
+   "order": 82,
+   "p1": "462",
+   "pn": "469",
+   "abstract": [
+    "An alternative implementation of the concept of fuzzy granule is proposed. The granules of a universe can be modeled by an array of matrices that contains the different relations between them. The most important relation is the degree of overlap of a granule with other granules. Initially this method requires the granules to take on values in a restricted vocabulary. This requirement is relaxed by dealing with linguistic hedges within the framework. An extension to accommodate a change in granulation resolution is also provided. The formal definition of these constraints over fuzzy granules and their rules of propagation and inference are also presented in the paper.\n",
+    ""
+   ]
+  },
+  "kobozeva04_specom": {
+   "authors": [
+    [
+     "I. M.",
+     "Kobozeva"
+    ],
+    [
+     "L. M.",
+     "Zakharov"
+    ]
+   ],
+   "title": "Types of information for the multimedia dictionary of Russian discourse markers",
+   "original": "spc4_470",
+   "page_count": 4,
+   "order": 83,
+   "p1": "470",
+   "pn": "473",
+   "abstract": [
+    "The thorough study of discourse markers (DM), i. e. words and phrases bearing mainly discourse-pragmatic information (sentence adverbs, particles, interjections and the like) have started in seventies and continues at present. In semantics, pragmatics and discourse analysis detailed descriptions of many of DMs based on different theories have been proposed. Special dictionaries of DMs were published with word-lists ranging from dozens to hundreds. Dictionaries of Russian DMs give information on their phonetic, grammatical, syntactic and pragmatic properties. However this information is insufficient for such purposes as learning/teaching Russian as a foreign language and for automated text or speech processing. Generally there is not enough phonetic (prosodic), syntactic and paralinguistic information needed for correct speech production (synthesis) and speech understanding (analysis). We argue that the most natural way to proceed is to make a computer multimedia dictionary that would supply information concerning every aspect of DM that has to be taken into account. We propose a format for such a dictionary and discuss relevant types of information, concentrating on those that are poorly presented in existing paper dictionaries.\n",
+    ""
+   ]
+  },
+  "diaz04_specom": {
+   "authors": [
+    [
+     "Wladimiro",
+     "Diaz"
+    ],
+    [
+     "Maria Jose",
+     "Castro"
+    ],
+    [
+     "Francesc J.",
+     "Ferri"
+    ]
+   ],
+   "title": "Parameter setting of connectionist classifiers in a dialogue system",
+   "original": "spc4_474",
+   "page_count": 7,
+   "order": 84,
+   "p1": "474",
+   "pn": "480",
+   "abstract": [
+    "Two different approaches to connectionist classifi- cation are studied in this work, in the context of a dialogue system. Classification of the user turns in terms of dialogue acts is accomplished with multilayer perceptrons. As we face a multiclass classification problem (there are 10 classes of dialogue acts), two approaches to classification are compared: binary multilayer perceptrons (one neural network for each class) and a unique neural network for all classes. In both cases, threshold values in order to accept or reject a given uterance as belonging to a particular class are needed for the neural classifiers. We use ROC graphs in order to select the threshold values of the classifiers to obtain the best tradeoff between accuracy and missclassification.\n",
+    ""
+   ]
+  },
+  "chipashvili04_specom": {
+   "authors": [
+    [
+     "Shota Sh.",
+     "Chipashvili"
+    ]
+   ],
+   "title": "Ideas of creation the unitary international digital code of semantics information for intercourse in information interactive systems directly on national or artificial languages (project \"intersemantics\")",
+   "original": "spc4_481",
+   "page_count": 8,
+   "order": 85,
+   "p1": "481",
+   "pn": "487",
+   "abstract": [
+    "Non-adequate understanding of semantics of texts and speeches between different national languages restrains many international processes, and obstructs a world co-operation too. Transition on coding of semantics in technical surroundings will ensure univocal of international understanding in all fields of activity. Some results of the Project \"Intersemantics\".\n",
+    ""
+   ]
+  },
+  "lee04_specom": {
+   "authors": [
+    [
+     "I. V.",
+     "Lee"
+    ],
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ],
+    [
+     "Alexey A.",
+     "Karpov"
+    ]
+   ],
+   "title": "Semantic-pragmatic processing of natural language for automatic speech understanding systems",
+   "original": "spc4_488",
+   "page_count": 7,
+   "order": 86,
+   "p1": "488",
+   "pn": "494",
+   "abstract": [
+    "With development of automatic speech understanding systems and expansion of the frame of decided problems the using pragmatic information became especially actual. The construction of understanding model is started from a purpose of system and in many respects is defined by a subject domain (SD). One of the most important problems in the field of automatic speech understanding is an account of concepts (terms) of a SD, where terms belong to very restricted dictionary and their meaning has already well coordinated beforehand within the limits of the certain community. The system of automatic speech understanding should generalize correctly concepts (terms), for this purpose it is necessary to use knowledge of concept relations within the framework of the certain SD. In this paper the decision of the problem of accounting concepts hierarchy is proposed by of domain ontology. The ontology is presented as a tree of concepts of a SD in a xml-format that provides ease of modification of the ontology and the dictionary of SD as well. The developed verification method of an ontological subset of a hypothesis of the input utterance provides flexibility of automatic understanding system in concerning the natural language phrases, which contain concepts of a various level of generalization within certain SD, without loss of speed and quality of speech processing.\n",
+    ""
+   ]
+  },
+  "grau04_specom": {
+   "authors": [
+    [
+     "Sergio",
+     "Grau"
+    ],
+    [
+     "Emilio",
+     "Sanchis"
+    ],
+    [
+     "Maria Jose",
+     "Castro"
+    ],
+    [
+     "David",
+     "Vilar"
+    ]
+   ],
+   "title": "Dialogue act classification using a Bayesian approach",
+   "original": "spc4_495",
+   "page_count": 5,
+   "order": 87,
+   "p1": "495",
+   "pn": "499",
+   "abstract": [
+    "In this work, we make a contribution to natural speech dialogue act detection. We focus our attention on the dialogue act classification using a Bayesian approach. Our classifier is tested on two corpora, the Switchboard and the Basurde tasks. A combination of a naive Bayes classi- fier and n-grams is used. The impact of different smoothing methods (Laplace and Witten Bell) and n-grams in classification are studied. With respect to the Switchboard corpus, an accuracy of 66% is achieved using a uniform naive Bayes classifier, 3-grams and Laplace smoothing to avoid zero probabilities. For the Basurde corpus, our system achieves performances similar to other methodologies we have previously tested. Through a combination of a naive Bayes classifier with 2-grams and Witten Bell smoothing we achieve the best accuracy of 89%. These results show that a Bayesian approach is well suited for these tasks.\n",
+    ""
+   ]
+  },
+  "sosnina04_specom": {
+   "authors": [
+    [
+     "Ekaterina P.",
+     "Sosnina"
+    ]
+   ],
+   "title": "Modeling of dialogue reasoning and its applications",
+   "original": "spc4_500",
+   "page_count": 4,
+   "order": 88,
+   "p1": "500",
+   "pn": "503",
+   "abstract": [
+    "The paper investigates phenomena of human computer interaction, dialogue reasoning as question answering process, its modeling and effective application in network and collaborative environments. This paper briefly introduces a concept of dialogue reasoning as a practical reasoning used in problem solving and decision-making. A scientific work group Question Answering Technologies, Systems and Means developed the methodology base of applied question answering and currently uses the dialogue reasoning models in a number of practical applications, e.g. in computer-aided design. Modeling of dialogue reasoning is the basis of our approach to human computer interface construction.\n",
+    ""
+   ]
+  },
+  "nikolakis04_specom": {
+   "authors": [
+    [
+     "Georgios",
+     "Nikolakis"
+    ],
+    [
+     "Dimitrios",
+     "Tzovaras"
+    ],
+    [
+     "Serafim",
+     "Moustakidis"
+    ],
+    [
+     "Michael G.",
+     "Strintzis"
+    ]
+   ],
+   "title": "Cybergrasp and PHANTOM integration: enhanced haptic access for visually impaired users",
+   "original": "spc4_507",
+   "page_count": 7,
+   "order": 89,
+   "p1": "507",
+   "pn": "513",
+   "abstract": [
+    "This paper presents a haptic virtual reality tool developed to enhance the accessibility for the visually impaired. The proposed approach focuses on the development of a highly interactive haptic virtual reality system that allows visually impaired, to study and interact with various virtual objects in specially designed virtual environments. The system is based on the use of the CyberGrasp and the PHANToM haptic devices. A number of custom applications have been developed based on object recognition and manipulation, and utilizing the advantages of both haptic devices. The system has been tested and evaluated in three custom training applications for the visually impaired.\n",
+    ""
+   ]
+  },
+  "nikolakis04b_specom": {
+   "authors": [
+    [
+     "Georgios",
+     "Nikolakis"
+    ],
+    [
+     "I.",
+     "Tsampoulatidis"
+    ],
+    [
+     "Dimitrios",
+     "Tzovaras"
+    ],
+    [
+     "Michael G.",
+     "Strintzis"
+    ]
+   ],
+   "title": "Haptic browser: a haptic environment to access HTML pages",
+   "original": "spc4_514",
+   "page_count": 7,
+   "order": 90,
+   "p1": "514",
+   "pn": "520",
+   "abstract": [
+    "The application presented in this paper aims at producing a novel user-friendly haptic environment to allow blind or visually impaired people to access interactive presentations based on HTML web pages. The application is based on haptic and audio feedback. Additionally, an automatic HTML-to-haptics conversion tool is developed in order provide a simple way to create interactive haptic presentations and a text to speech tool is used in order to create audio descriptions for the web pages. The environment has been evaluated using three presentations that were associated to computer access and useage. According to the users feedback the application was characterized as very useful.\n",
+    ""
+   ]
+  },
+  "karpov04b_specom": {
+   "authors": [
+    [
+     "Alexey A.",
+     "Karpov"
+    ],
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ],
+    [
+     "Alexander I.",
+     "Nechaev"
+    ],
+    [
+     "Svetlana E.",
+     "Chernakova"
+    ]
+   ],
+   "title": "Assistive multimodal system based on speech recognition and head tracking",
+   "original": "spc4_521",
+   "page_count": 10,
+   "order": 91,
+   "p1": "521",
+   "pn": "530",
+   "abstract": [
+    "This paper describes the multimodal system, which was developed by two laboratories of SPIIRAS, for assistance to people with disabilities of hands. It combines automatic speech recognition and head tracking in joint multimodal system. The structure of the system, used methods for recognition and tracking, information fusion and synchronization, obtained results and testing conditions are described in the paper. Finally, the developed system was applied for hands-free operation for Graphical User Interface in such common tasks as communication by Internet and text edition by MS Word. The experiments have shown that in spite of some decreasing of operation speed the multimodal system allows to work with computer without using standard mouse and keyboard. Thus the developed assistive multimodal system can be successfully used for hands-free PC control for users with disabilities of their hands or arms.\n",
+    ""
+   ]
+  },
+  "turk04_specom": {
+   "authors": [
+    [
+     "Oytun",
+     "Turk"
+    ],
+    [
+     "Levent M.",
+     "Arslan"
+    ]
+   ],
+   "title": "Pronunciation scoring for the hearing-impaired",
+   "original": "spc4_531",
+   "page_count": 7,
+   "order": 92,
+   "p1": "531",
+   "pn": "537",
+   "abstract": [
+    "Automatic assessment of articulation and prosody is an important aid for speech theraphy and language education. In this paper, we focus on speech theraphy for hearing-impairment and propose methods for automatic articulation and prosody scoring. The pronunciation problems of the hearing-impaired are briefly discussed. Three methods are developed for automatic pronunciation scoring for the hearing impaired. In the first method, Hidden Markov Model (HMM) based phoneme recognition and forced alignment are employed for detecting articulation problems. The second method performs prosody scoring by operating at the syllable level and comparing the pitch and energy contours of a given utterance with a reference utterance. Finally, speech-to-text alignment information is used for duration scoring of a test utterance with a reference utterance. The proposed methods are evaluated on a database collected from native Turkish speakers. The articulation scoring method improves the correct recognition rate of confusable pairs of words by 5.6% yielding a correct recognition rate of 84.8%. The results also show that the prosody and duration scoring algorithms provide useful information to assess the match between the prosodic characteristics of two speakers.\n",
+    ""
+   ]
+  },
+  "gaudissart04_specom": {
+   "authors": [
+    [
+     "Vincent",
+     "Gaudissart"
+    ],
+    [
+     "Silvio",
+     "Ferreira"
+    ],
+    [
+     "Celine",
+     "Thillou"
+    ],
+    [
+     "Bernard",
+     "Gosselin"
+    ]
+   ],
+   "title": "SYPOLE: mobile reading assistant for blind people",
+   "original": "spc4_538",
+   "page_count": 7,
+   "order": 93,
+   "p1": "538",
+   "pn": "544",
+   "abstract": [
+    "This paper describes the SYPOLE project: an embedded device dedicated for blind or visually impaired people. The aim of this project is to build an automatic text reading assistant using existing hardware associated with innovative algorithms. A personal digital assistant (PDA) was chosen because it combines small-size, computational resources and low cost price. Three key technologies are necessary: text detection, optical character recognition and speech synthesis. Moreover, to be as efficient as possible, a specific interface was created to answer blind people requests.\n",
+    ""
+   ]
+  },
+  "pashaloudi04_specom": {
+   "authors": [
+    [
+     "Vassilia N.",
+     "Pashaloudi"
+    ],
+    [
+     "Konstantinos G.",
+     "Margaritis"
+    ]
+   ],
+   "title": "A performance study of a recognition system for Greek sign language alphabet letters",
+   "original": "spc4_545",
+   "page_count": 8,
+   "order": 94,
+   "p1": "545",
+   "pn": "551",
+   "abstract": [
+    "Sign Languages (SLs) are the basic means of communication between deaf people all over the world. Sign Language recognition systems usually focus on recognizing sequences of hand morphs constituting signs. Recognizing hand morphs of Greek Sign Language (GSL) letters is the basis of the recognition system that we have developed. Visual-based systems have been used by many researchers, to increase naturalness in user's movement. In such systems images are captured by a camera, in a time sequential basis and they are used for training and recognition. Most times the acquired image cannot directly be used for recognition purposes. Some preprocessing is required in order to extract useful information from images. It is a crucial step, however, to select good features in any object recognition system. In our approach we obtain hand morph images that we capture with the use of a monochrome video camera. We then process each hand morph image, representing a GSL letter, by applying filtering methods on it, in order to get a much simpler form of the image. We then extract a feature vector from each image, by calculating geometrical properties of the hand morph. The elements of the feature vectors are the lengths of vectors, that originate from the center of mass and end up to the fingertips area. The fingertips area is the one that bares important information for each hand morph. We tried several feature vectors of various lengths, in order to select the optimum vector. Experimental results led us to the selection of a feature vector of 37 elements. The specific vector has the advantage of small size, which improves system's performance. The kind of vector is descriptive for the hand morph, and proved to be effective, too. For all these reasons it has been considered appropriate for the recognition of sequences of letters, too. The system should be able to recognize various instances of hand morph letters, so as to be capable of recognizing hand morphs of different persons. For this reason various instances of hand morphs are used in the training and test phases for each letter. This paper summarizes our analysis and experimental results for the performance evaluation of a single letter recognition system for GSL alphabet. The development of such a recognition system proves the effectiveness of the specific feature vector that we have selected.\n",
+    ""
+   ]
+  },
+  "reyesgalaviz04_specom": {
+   "authors": [
+    [
+     "Orion F.",
+     "Reyes-Galaviz"
+    ],
+    [
+     "Carlos Alberto",
+     "Reyes-Garcia"
+    ]
+   ],
+   "title": "A system for the processing of infant cry to recognize pathologies in recently born babies with neural networks",
+   "original": "spc4_552",
+   "page_count": 6,
+   "order": 95,
+   "p1": "552",
+   "pn": "557",
+   "abstract": [
+    "In this work we present the design of an automatic infant cry recognition system that classifies three different kinds of cries, which come from normal, deaf and asphyxiating infants, of ages from one day up to nine months old. The classification is done through a pattern classifier, where the crying waves are taken as the input patterns. We have experimented with patterns formed by vectors of Mel Frequency Cepstral Coefficients and Linear Prediction Coefficients. The acoustic feature vectors are then processed, to be classified in their corresponding type of cry, through an Input Delay Neural Network, trained by gradient descent with adaptive learning rate back propagation algorithm. To perform the experiments and to test the recognition system, we train the neural network with cries from randomly selected babies, and test it with a separate set of cries from babies selected only for testing. Here, we present the design and implementation of the complete system, as well as the results from some experiments, which in the presented case are up to 86 %\n",
+    ""
+   ]
+  },
+  "losik04_specom": {
+   "authors": [
+    [
+     "George V.",
+     "Losik"
+    ],
+    [
+     "Sergey V.",
+     "Kirpich"
+    ],
+    [
+     "Oleg G.",
+     "Sizonov"
+    ]
+   ],
+   "title": "New approach to supporting communication for blinds: applied learning system",
+   "original": "spc4_558",
+   "page_count": 2,
+   "order": 96,
+   "p1": "558",
+   "pn": "559",
+   "abstract": [
+    "As follows from review of applied approaches for support of communication facilities for blinds there is a need in development of applied systems and techniques for compensation visual impairment. As it well known there are millions people who are visually impaired (for instance, about 10,000 people in Belarus). The paper contains a particular project description that focuses on the navigation of individuals with visual impairment in real human space. Meantime the skills of navigation in the virtual space are similar to the real space. Such approach gives the possibility to consider psychological point of view. This one can be in use to replace the known activities into new ones. The following is short description of the approach that allows to clear and to resolve some problems of supporting communication for blinds.\n",
+    ""
+   ]
+  },
+  "kornilov04c_specom": {
+   "authors": [
+    [
+     "Alexander U.",
+     "Kornilov"
+    ]
+   ],
+   "title": "The biofeedback program for speech rehabilitation of oncological patients after full larynx removal surgical treatment",
+   "original": "spc4_560",
+   "page_count": 3,
+   "order": 97,
+   "p1": "560",
+   "pn": "562",
+   "abstract": [
+    "The biofeedback program for speech rehabilitation of oncological patients after full larynx cut out surgical treatment is described in this paper. The medical programs using biological feedback rapidly develop nowadays. The adaptive biocontrol methods are used in speech therapy when there is a necessity in speech and voice correction and in stutter and speech neurosis treatment. At present we carry out the investigation of using biofeedback in process of the rehabilitations of oncological patients after full larynx removal surgical treatment. The main idea of the biofeedback systems consists in making available to observation the parameters, which needs to be controlled and which are inaccessible for observation without using the special technical facilities.\n",
+    ""
+   ]
+  },
+  "shpilewski04_specom": {
+   "authors": [
+    [
+     "Edward",
+     "Shpilewski"
+    ],
+    [
+     "Bozhena",
+     "Piurkowska"
+    ],
+    [
+     "Janush",
+     "Rafalko"
+    ],
+    [
+     "Boris M.",
+     "Lobanov"
+    ],
+    [
+     "Vitaly",
+     "Kiselov"
+    ],
+    [
+     "Lilia I.",
+     "Tsirulnik"
+    ]
+   ],
+   "title": "Polish TTS in multi-voice Slavonic languages speech synthesis system",
+   "original": "spc4_565",
+   "page_count": 6,
+   "order": 98,
+   "p1": "565",
+   "pn": "570",
+   "abstract": [
+    "The report describes the Polish TTS and a set of Polish language-specific resources utilized by TTS. It presents both vocabulary and grammar, acoustic databases and a set of specific rules for word-stress position marking, letter-to-phoneme conversion and others.\n",
+    ""
+   ]
+  },
+  "doherty04_specom": {
+   "authors": [
+    [
+     "Les",
+     "Doherty"
+    ]
+   ],
+   "title": "The determination of vowel perception limits using speech synthesis",
+   "original": "spc4_571",
+   "page_count": 4,
+   "order": 99,
+   "p1": "571",
+   "pn": "574",
+   "abstract": [
+    "A speech synthesizer was developed to explore the perception limits of voiced phonemes. Experimenters were asked to adjust the point where a sound was no longer perceived as a particular phoneme by changing the formant frequencies using keyboard frequency controls. The results obtained were consistent and provide a set of limits that may be used for English language phoneme detection.\n",
+    ""
+   ]
+  },
+  "bondarenko04b_specom": {
+   "authors": [
+    [
+     "Vladimir",
+     "Bondarenko"
+    ],
+    [
+     "Vladislav",
+     "Kotsubinski"
+    ],
+    [
+     "Roman",
+     "Mescheriakov"
+    ]
+   ],
+   "title": "Peculiarities of vocal sounds generation at speech synthesis by rules",
+   "original": "spc4_575",
+   "page_count": 3,
+   "order": 100,
+   "p1": "575",
+   "pn": "577",
+   "abstract": [
+    "The speech synthesis systems that exist today oriented on work with concrete speaker. It means that they require preliminary adjustment (i.e. education) for each user (speech base). Speech synthesis by rules need calculate speech formation tract.\n",
+    ""
+   ]
+  },
+  "nesterenko04_specom": {
+   "authors": [
+    [
+     "Irina",
+     "Nesterenko"
+    ]
+   ],
+   "title": "Towards the integrations of stochastic information in speech technologies: the case of suprasegmentals",
+   "original": "spc4_578",
+   "page_count": 1,
+   "order": 101,
+   "p1": "578",
+   "pn": "",
+   "abstract": [
+    "In the present study, we defend the thesis that numerous studies of extensive spontaneous speech corpora are needed to improve the performance of Natural Language Processing systems (NLP). We consider that at the present stage of research, more attention should be paid to the variability of human discourse and the probabilistic approach, which will contribute significantly to the better intelligibility and naturalness of synthesized speech. In our contribution, we will address the question of automatic prosodic annotation of speech corpora; consider the problem of choosing appropriate units of description and of the automatic extraction and coding of these units.\n",
+    ""
+   ]
+  },
+  "kotov04_specom": {
+   "authors": [
+    [
+     "Artemy A.",
+     "Kotov"
+    ]
+   ],
+   "title": "D-script model for synthesis and analysis of emotional speech",
+   "original": "spc4_579",
+   "page_count": 7,
+   "order": 102,
+   "p1": "579",
+   "pn": "585",
+   "abstract": [
+    "In the present issue we discuss a theoretical model for processing of emotional speech during text analysis and synthesis. The model is developed for description of speech influence in affective mass media texts and also applies to several other types of emotional communication, including conflict, complaint and speech aggression. The model follows H-CogAff architecture of cognitive models and distinguishes units for rational inference (r-scripts) and units for emotional processing of meaning (d-scripts). We claim that certain semantic components can stimulate emotional processing, activating d-scripts and suppressing possible rational inference (r-scripts)  the same semantic components appear in emotional text during text synthesis. Such affective semantic components are described as starting models of d-scripts. The model allows to describe semantic properties of emotional texts and (to certain extent) to model types of speech behaviour in emotional situations.\n",
+    ""
+   ]
+  },
+  "rybolovlev04_specom": {
+   "authors": [
+    [
+     "Alexander",
+     "Rybolovlev"
+    ],
+    [
+     "Sergej",
+     "Zabirnik"
+    ],
+    [
+     "Michail",
+     "Galkin"
+    ]
+   ],
+   "title": "The tendencies and features of an excitation signal modeling in digital devices of the speech analysis and synthesis",
+   "original": "spc4_586",
+   "page_count": 8,
+   "order": 103,
+   "p1": "586",
+   "pn": "593",
+   "abstract": [
+    "The modern level of development of digital devices of the analysis and synthesis of speech based on a method of a linear prediction, is characterized by the large variety of ways of allocation, approximation and digital representation of coded parameters. The practice of speech coding shows, that more than 70 % of information resources selected on coding of the current speech frame, is used for the description of an excitation signal of the synthesizing digital filter. The definition of laws and tendencies of development of the specified procedures will facilitate to the developers of perspective speech codecs the search of the algorithms ensuring increase of an optimality of analog-digital transformation of a speech signal in relation to elected criterion functions. In offered paper are considered the tendencies and features of an excitation signal modeling in digital devices of the speech analysis and synthesis.\n",
+    ""
+   ]
+  },
+  "lyudovyk04_specom": {
+   "authors": [
+    [
+     "Tetyana",
+     "Lyudovyk"
+    ],
+    [
+     "Mykola",
+     "Sazhok"
+    ]
+   ],
+   "title": "Unit selection speech synthesis using phonetic-prosodic description of speech databases",
+   "original": "spc4_594",
+   "page_count": 6,
+   "order": 104,
+   "p1": "594",
+   "pn": "599",
+   "abstract": [
+    "This paper describes an approach to speech synthesis based on using speech databases at different stages of TTS process. Speech database units are phones in different segmental and prosodic contexts. Pitch synchronous segmentation and labeling of databases allows storing both segmental and prosodic information. Phonetic-prosodic annotations of speech databases are involved in off-line training of the linguistic processor. The automatic transcriptor, duration and intonation modules are trained to model the speech characteristics of different persons and thus to generate different target specifications of one and the same input text during the synthesis stage. A target specification is a detailed phonetic-prosodic transcription used by the unit selection module. The unit selection algorithm is based on criteria derived from categories of phonetic-prosodic annotations of speech databases and works without spectral matching. The output of the unit selection module is an acoustic phonetic-prosodic transcription which is used by the acoustic processor to generate a speech wave. Two non-professional speaker databases with different speaking styles have been created and tested.\n",
+    ""
+   ]
+  },
+  "asirelli04_specom": {
+   "authors": [
+    [
+     "P.",
+     "Asirelli"
+    ]
+   ],
+   "title": "INTAS: your partner for present and future NIS cooperation in information technology",
+   "original": "spc4_727",
+   "page_count": 4,
+   "order": 105,
+   "p1": "727",
+   "pn": "730",
+   "abstract": [
+    "INTAS is an Independent International Association supporting scientific collaboration with the New Independent States of the former Soviet Union. Its main funding programmes are presented together with some results from the past, closed calls and with particular reference to Information Technology.\n",
+    ""
+   ]
+  },
+  "arefieva04_specom": {
+   "authors": [
+    [
+     "Irina V.",
+     "Arefieva"
+    ],
+    [
+     "Alexander S.",
+     "Bikkulov"
+    ],
+    [
+     "Andrey V.",
+     "Chugunov"
+    ]
+   ],
+   "title": "Development of partnership networks in the North-west europe in the framework of international cooperation in ICT sphere",
+   "original": "spc4_603",
+   "page_count": 4,
+   "order": 106,
+   "p1": "603",
+   "pn": "606",
+   "abstract": [
+    "In the paper we showed tendencies to form partnerships in professional sphere along with describing their benefits on the example of e-Development Partnership in the North-West of Russia, which unites organizations on the issue of ICT (information and communication technologies) and information society.\n",
+    ""
+   ]
+  },
+  "vintsiuk04_specom": {
+   "authors": [
+    [
+     "Taras K.",
+     "Vintsiuk"
+    ]
+   ],
+   "title": "Ukrainian activity in speech and language information technology relating to INTAS co-operation",
+   "original": "spc4_607",
+   "page_count": 8,
+   "order": 107,
+   "p1": "607",
+   "pn": "614",
+   "abstract": [
+    "Research and development projects in speech and language technologies, which carried out since 1986 at the NAS Institute of Cybernetics (IC) and then from 1997 continued at IRTC, are analyzed. It is considered the efforts coordinated and/or promoted with UNESCO, ELSNET and INTAS. Then INTAS project titled Language Independent Model for ASR Advanced Research is pushed. Examples of created portable devices for IST are given.\n",
+    ""
+   ]
+  },
+  "stankevich04_specom": {
+   "authors": [
+    [
+     "Lev A.",
+     "Stankevich"
+    ]
+   ],
+   "title": "Intellectual robots in Russia: experience of development and robocup participation",
+   "original": "spc4_615",
+   "page_count": 6,
+   "order": 108,
+   "p1": "615",
+   "pn": "620",
+   "abstract": [
+    "Development of intellectual anthropomorphic robots is discussed. The Russian project ARNE (Anthropomorphic Robot of New ERA) is described. Architecture of intelligent robot control system is proposed. Control of stable robot biped walking is proposed using dynamic model, solution of the inverse kinematics problem, and dynamic mass center concept. The robot behavior control system is constructed using information fusion and multiagent technology with the cognitive agents. The skill and behavior implementations in the agents playing soccer are considered by examples of STEP (Soccer Team of Electro Pult) team soccer agents.\n",
+    ""
+   ]
+  },
+  "narinyani04_specom": {
+   "authors": [
+    [
+     "A. S.",
+     "Narin'yani"
+    ]
+   ],
+   "title": "To interact means to understand each other",
+   "original": "spc4_621",
+   "page_count": 3,
+   "order": 109,
+   "p1": "621",
+   "pn": "623",
+   "abstract": [
+    "More than forty years three close directions of R&D in AI: (a) the speech recognition, (b) the NL text analysis and (c) machine understanding developed as parallel and practically non overlapping lines. Their current level of these domains made it obvious that the second is necessary part of the first and the both will never be successful without the third one. And even more than that: the machine understanding is only one possible natural basis for solution of the human-computer interaction problem.\n",
+    ""
+   ]
+  },
+  "macq04_specom": {
+   "authors": [
+    [
+     "Benoit",
+     "Macq"
+    ],
+    [
+     "Benoit",
+     "Michel"
+    ]
+   ],
+   "title": "Presentation of the SIMILAR network of excellence",
+   "original": "spc4_627",
+   "page_count": 3,
+   "order": 110,
+   "p1": "627",
+   "pn": "629",
+   "abstract": [
+    "SIMILAR is a network of excellence integrating a research task force on multimodal interfaces. Funded by the 6th framework of the European Community since December 2003, SIMILAR was created for a duration of 4 years with to give a large momentum that will ultimately be able to sustain itself in the long term. Merging 32 excellent European laboratories in Human-Computer Interaction (HCI) and in Signal Processing in a single research network, SIMILAR sorted the vast multimodal interfaces research area in 8 principal sub-domains. SIMILAR members active in these sub-domains are working together in special interest groups (called SIGs) focusing of these specific aspects.\n",
+    ""
+   ]
+  },
+  "kotenko04_specom": {
+   "authors": [
+    [
+     "Igor",
+     "Kotenko"
+    ],
+    [
+     "Artem",
+     "Tishkov"
+    ],
+    [
+     "Maria",
+     "Tishkova"
+    ]
+   ],
+   "title": "The event calculus implementation using ILOG JRules for security Policy verification",
+   "original": "spc4_630",
+   "page_count": 4,
+   "order": 111,
+   "p1": "630",
+   "pn": "633",
+   "abstract": [
+    "In this paper an overview of the project Policy-based Security Tools and Framework (POSITIF) is presented. The project funded by Sixth Framework Programme, and SPIIRAS participates in most of stages. In the scientific part of this document an approach for secured system modelling and security policy verification is proposed. Using ILOG JRules we implemented a domainindependent axiomatics of Event Calculus that can be used in POSITIF framework for security policy and system architecture consistency checking.\n",
+    ""
+   ]
+  },
+  "makhrovskiy04_specom": {
+   "authors": [
+    [
+     "Oleg V.",
+     "Makhrovskiy"
+    ],
+    [
+     "Vitaly S.",
+     "Shibanov"
+    ]
+   ],
+   "title": "Delivering video-based IST services into European homes - networked home project in the IST programme",
+   "original": "spc4_634",
+   "page_count": 7,
+   "order": 112,
+   "p1": "634",
+   "pn": "640",
+   "abstract": [
+    "The IST@Home project covers the field of Networked Audio-Visual Systems and Home Platforms for Rich Media Communication in the Information Society Technologies (IST) Programme. The main objectives of this project are: to elicit requirements for Tele-Care, Tele-Assistance & Tenant services; to create low cost interoperable & relocatable devices for video service access from home with open coding schemes, service interfaces and integrated audio, video and security functions; to provide gateways to service centres via broadband IP access networks, to common household appliances via standard bus and to video service access devices, TV sets, multi-modal sensors & control devices in the home using broadband wireless IP; to create a generic service centre to handle home applications and video-based services; to implement services over heterogeneous networks with security and Quality of Service (QoS) management; to validate designs by operating new services on real networks including UMTS at multiple sites with real users in social services, health and housing. Key results are the new applications and components including Residential Gateway (RG) with wireless IP base station, access network and domotics interface, the service access devices Service Pad and Set-top Box (STB)  supporting Safety Device, vital signs capture and full quality video communication, Service Centre with adapted database, security and application provisioning, and UMTS mobile service provision interface.\n",
+    ""
+   ]
+  },
+  "volskaya04_specom": {
+   "authors": [
+    [
+     "N.",
+     "Volskaya"
+    ],
+    [
+     "S.",
+     "Stepanova"
+    ]
+   ],
+   "title": "On the temporal component of intonational phrasing",
+   "original": "spc4_641",
+   "page_count": 4,
+   "order": 113,
+   "p1": "641",
+   "pn": "644",
+   "abstract": [
+    "In this paper we describe an experiment which was set up to investigate the phenomenon of final lengthening in Russian, to measure the degree of preboundary lengthening and find out factors which influence its degree in Russian. The fact that word duration depends on its position within the phrase has been known for a long time. The tendency for words to lengthen in the vicinity of phrase boundaries has been reported by many researchers. It has been found that the syllable duration before a pause may increase by 60-200 msec. This effect, known as prepausal (also: pre-boundary, final) lengthening, has been well studied for a number of languages. comparable data were found for English, French and Swedish. According to Klatt, final lengthening in English takes place in the end of the phrase or intonation unit even if there is no physical pause in the acoustic signal. In such a case, it is the lengthening of the final syllable that helps the listener perceive the phrase or intonation unit boundary. \"The syllable or syllables are longer in the end of the sentence than in any other place within the sentence. A word in isolation is as long as a word in the end of the sentence and two times longer than in the beginning of the sentence\". Although the issue has been studied by many researchers, mainly for the purposes of the development of a temporal model for speech synthesis, it is not yet clear which segment is being lengthened, whether it is just the last vowel or the last stressed vowel, the stressed syllable only or the post-stress part of the word as well. The data reported by the researchers vary.\n",
+    ""
+   ]
+  },
+  "pavlov04_specom": {
+   "authors": [
+    [
+     "Alexander V.",
+     "Pavlov"
+    ]
+   ],
+   "title": "Holographic technique for linguistic modelling",
+   "original": "spc4_645",
+   "page_count": 5,
+   "order": 114,
+   "p1": "645",
+   "pn": "649",
+   "abstract": [
+    "An approach to implement the idea of linguistic modelling by Fourier-holography technique is proposed. The approach is based on deep analogies between Optics as a physical reality and Fuzzy Sets Theory as an abstract construction. We use the concept of linguistic variable, proposed by L. Zadeh and restrict our consideration to the semantics only. We develop a model of 4-f Fourier-holography set-up and demonstrate Fourier-duality of conjunction and disjunction leads to fuzzy-valued logic. We propose biologically inspired approach to implement multi-input reasoning in the setup and demonstrate experimental illustration by using classical example of General Modus Ponens rule.\n",
+    ""
+   ]
+  },
+  "arlazarov04_specom": {
+   "authors": [
+    [
+     "Vladimir L.",
+     "Arlazarov"
+    ],
+    [
+     "Dimitri S.",
+     "Bogdanov"
+    ],
+    [
+     "Olga F.",
+     "Krivnova"
+    ],
+    [
+     "Aleksandr Ya.",
+     "Podrabinovitch"
+    ]
+   ],
+   "title": "Creation of Russian speech databases: design, processing, development tools",
+   "original": "spc4_650",
+   "page_count": 7,
+   "order": 115,
+   "p1": "650",
+   "pn": "656",
+   "abstract": [
+    "This paper is dedicated to several aspects of creation process of Russian speech databases. The problems of phonetic notation are discussed. The process of selection of text material with expected phonetic characteristics is described. The description of two Russian speech corpuses is given. While doing speech research and/or development of components in Speech Technologies such as text-to-speech or Speech Recognition systems, the researcher needs access to large sets of annotated and labeled speech data. The quality of speech recognition systems based on modern statistical algorithms depends directly on capacity and phonetic portliness of such sets. If the researcher develops so-called engineering approach in speech research he/she needs to study fine structure of speech signal using large amount of labeled speech that contains various speech state-events. Modern approach to building text-to-speech systems based on concatenating of speech fragments demands availability of large speech corpus.\n",
+    ""
+   ]
+  },
+  "hoffmann04_specom": {
+   "authors": [
+    [
+     "Rüdiger",
+     "Hoffmann"
+    ],
+    [
+     "Edward",
+     "Shpilewsky"
+    ],
+    [
+     "Boris M.",
+     "Lobanov"
+    ],
+    [
+     "Andrey L.",
+     "Ronzhin"
+    ]
+   ],
+   "title": "Development of multi-voice and multi-language text-to-speech (TTS) and speech-to-text (STT) conversion system (languages: Belorussian, Polish, Russian)",
+   "original": "spc4_657",
+   "page_count": 5,
+   "order": 116,
+   "p1": "657",
+   "pn": "661",
+   "abstract": [
+    "This proposal was submitted to INTAS Thematic Call on Information Technology 2004. The participants from 4 countries (Belarus, Poland, Russia and Germany) give efforts to the activity. The overall coordination, monitoring and control of the project will be implemented by Project Coordinator: Prof. Dr. Ruediger Hoffman (Team 1, IAS TUD, Germany) and Decision Board: Prof. Dr. Ruediger Hoffmann (Team 1, IAS TUD, Germany); Prof. Dr. Edward Shpilewsky (Team 2, ICS UB, Poland); Prof. Dr. Boris Lobanov (Team 3, UIIP NASB, Belarus); Dr. Andrey Ronzhin (Team 4, SPIIRAS, Russia). Duration of the research is two years.\n",
+    ""
+   ]
+  },
+  "smirnov04_specom": {
+   "authors": [
+    [
+     "Alexander V.",
+     "Smirnov"
+    ],
+    [
+     "Mikhail P.",
+     "Pashkin"
+    ],
+    [
+     "Nikolai G.",
+     "Chilov"
+    ],
+    [
+     "Tatiana V.",
+     "Levashova"
+    ],
+    [
+     "Andrew A.",
+     "Krizhanovsky"
+    ]
+   ],
+   "title": "Free text user request processing in the system \"KSNet\"",
+   "original": "spc4_662",
+   "page_count": 4,
+   "order": 117,
+   "p1": "662",
+   "pn": "665",
+   "abstract": [
+    "This paper considers implementation issues of multiagent systems dealt with knowledge management; it describes the implementation of problem-oriented agents designed as a part of the being developed KSNetapproach. This approach addresses the problem of knowledge logistics and considers it as a problem of knowledge source network configuring. Utilizing intelligent agents was motivated by a distributed and scalable nature of the problem. This paper describes an implementation of translation agent (user request parsing).\n",
+    ""
+   ]
+  },
+  "voskressenski04_specom": {
+   "authors": [
+    [
+     "Alexander",
+     "Voskressenski"
+    ]
+   ],
+   "title": "Signs and speech: two forms of human communication",
+   "original": "spc4_666",
+   "page_count": 4,
+   "order": 118,
+   "p1": "666",
+   "pn": "669",
+   "abstract": [
+    "Available computer sign language training aids use for signs demonstration film-loops. It is not possible now to create user defined sign messages and, accordingly, available sign language training aids are not equipped with education control means. The discussed project is proposing an avatar for signs fixing. This method open the way to collect signs via Internet, to demonstrate it, to choose most popular sign form for some sentences. It is proposed to create special server and Internet site to make available the sign languages bank for common access to view and enrich it. The linguistic studies of sign languages are forming essential part of this project. To translate text to signs is supposed to use text descriptions of sign usage to eliminate the ambiguity. Using this mechanism it is possible to systematize the signs, study the grammars and conduct other studies of various sign languages. There is demonstrated that solution of sign language translation problem needs same means that classical computing linguistics  natural language queries to full-text databases for different data domain, verbal input and output, the coherent text generation using keywords and expressions. Projected sign speech bank data will be used in creation of multimedia teaching aids and in the system for deaf distant education. This project is supported by Lions Clubs International and World Human Dimension Foundation.\n",
+    ""
+   ]
+  },
+  "timofeev04_specom": {
+   "authors": [
+    [
+     "A. V.",
+     "Timofeev"
+    ],
+    [
+     "V.",
+     "Andreev"
+    ],
+    [
+     "I. E.",
+     "Gulenko"
+    ],
+    [
+     "O. A.",
+     "Derin"
+    ],
+    [
+     "M. V.",
+     "Litvinov"
+    ]
+   ],
+   "title": "Design and implementation of multi-agent man-machine interface on the base of virtual reality models",
+   "original": "spc4_670",
+   "page_count": 6,
+   "order": 119,
+   "p1": "670",
+   "pn": "675",
+   "abstract": [
+    "Multi-agent models for virtual reality and methods of construction for intelligent man-machine interface on their base are discussed. The main results are the development of human-machine interface on the base of virtual reality models for multi-agent robotic systems, assisting to neurosurgeon, computer animated agencies and for remote monitoring and multi-agent control of large territories and air zones.\n",
+    ""
+   ]
+  },
+  "vernjaev04_specom": {
+   "authors": [
+    [
+     "Igor I.",
+     "Vernjaev"
+    ],
+    [
+     "Olga M.",
+     "Fishman"
+    ],
+    [
+     "Andrey V.",
+     "Chugunov"
+    ],
+    [
+     "Natalja I.",
+     "Ivanovskaja"
+    ],
+    [
+     "Vladimir B.",
+     "Pankratov"
+    ],
+    [
+     "Pavel P.",
+     "Tsherbakov"
+    ]
+   ],
+   "title": "Information system \"nationalities of Russia ethnography\": problems of textual, visual, and audio data",
+   "original": "spc4_676",
+   "page_count": 3,
+   "order": 120,
+   "p1": "676",
+   "pn": "678",
+   "abstract": [
+    "In the paper we analyze some results of development of information system \"Nationalities of Russia Ethnography\" and discuss problems of integration of textual, visual and sound data in polymodal electronic collections in ethnography.\n",
+    ""
+   ]
+  },
+  "sokolov04_specom": {
+   "authors": [
+    [
+     "Boris V.",
+     "Sokolov"
+    ]
+   ],
+   "title": "Models and methods for flexible reassignment of control functions in man-machine systems",
+   "original": "spc4_681",
+   "page_count": 5,
+   "order": 121,
+   "p1": "681",
+   "pn": "685",
+   "abstract": [
+    "The problem of flexible reassignment of control functions in man-machine systems at different phases of their life cycle is considered. The problem is stated and investigated within the theory of structure-dynamics control in complex technical systems. Advantages of this theory that is being elaborated by the author and of its application for the reassignment of functions are shown. The general procedure for a solution of the considered problem is proposed\n",
+    ""
+   ]
+  },
+  "antciperov04_specom": {
+   "authors": [
+    [
+     "W. A.",
+     "Antciperov"
+    ],
+    [
+     "W. A.",
+     "Morozov"
+    ],
+    [
+     "S. A.",
+     "Nikitov"
+    ]
+   ],
+   "title": "A new approach to the problem of word segmentation",
+   "original": "spc4_686",
+   "page_count": 4,
+   "order": 122,
+   "p1": "686",
+   "pn": "689",
+   "abstract": [
+    "The paper presents the authors latest theoretical and experimental results related to speech short autocorrelation function dynamics. In particular, the dynamics of location and absolute value of short correlation function peak, allocated near the base tone (fundamental frequency), are considered. The analysis of presence of deep minima in peak dynamics and their relations with pitch structure reorganization is presented. The correlation of the results obtained and the problem of isolated word segmentation is been discussed. The paper also contains discussion of available algorithms for the isolated word segmentation problem.\n",
+    ""
+   ]
+  },
+  "potapova04b_specom": {
+   "authors": [
+    [
+     "Rodmonga K.",
+     "Potapova"
+    ],
+    [
+     "Michael Yu.",
+     "Ordin"
+    ]
+   ],
+   "title": "Algorithm for developing speech components for educational software with acoustic feedback",
+   "original": "spc4_690",
+   "page_count": 4,
+   "order": 123,
+   "p1": "690",
+   "pn": "693",
+   "abstract": [
+    "The paper presents the algorithm of developing speech components aimed to be implemented into educational systems with elements of acoustic feedback. Such systems are demanded in the domain of distant education as far as foreign language teaching and pronunciation training is concerned. The need of such systems is evident because human teacher is not always at hand when the student needs phonetic training. Besides, natural pronunciation is not always achieved by imitation exercises, which could be done by imitation authentic speech recorded on the tapes, CDs and video. But nowadays teachers feedback is required to correct students pronunciation in case there are errors. The aim of the project conducted in Moscow State Linguistic university is to substitute human teacher by a computer software to some extent in distant education environment. Thus the algorithms of speech recognition detecting pronunciation deviation are analyzed. Moreover, the presented paper contains an overview of the most frequent problems which occur while recognizing interfered speech (in case of Russian- English interference). While working on the project a database of the most frequent recognition errors in recognizing English speech of native Russian is being built. The data will definitely turn out handy in further work on the project. Some preliminary results and methodology are also presented in the paper.\n",
+    ""
+   ]
+  },
+  "timofeev04b_specom": {
+   "authors": [
+    [
+     "A. V.",
+     "Timofeev"
+    ]
+   ],
+   "title": "Intellectualization for man-machine interface and network control in multi-agent infotelecommunication systems of new generation",
+   "original": "spc4_694",
+   "page_count": 7,
+   "order": 124,
+   "p1": "694",
+   "pn": "700",
+   "abstract": [
+    "Problems for intellectualisation for man-machine interface and methods of self-organization for network control in multi-agent infotelecommunication systems have been discussed. Architecture and principles for construction of network and neural agents for telecommunication systems of new generation have been suggested. Methods for adaptive and multi-agent routing for information flows by requests of external agents-users of global telecommunication systems and computer networks have been described.\n",
+    ""
+   ]
+  },
+  "degtyarev04_specom": {
+   "authors": [
+    [
+     "M. A.",
+     "Degtyarev"
+    ],
+    [
+     "S. M.",
+     "Krinov"
+    ],
+    [
+     "Yu. N.",
+     "Marchuk"
+    ]
+   ],
+   "title": "Feedback design philosophy in the computer assisted language learning systems",
+   "original": "spc4_701",
+   "page_count": 4,
+   "order": 125,
+   "p1": "701",
+   "pn": "704",
+   "abstract": [
+    "Most of commercially available Computer Assisted Language Learning (CALL) systems teaching phonetics require a student to judge on his own whether or not his pronunciation is correct. However he is not always capable of evaluating his own speech in an adequate way without help from the other party. In this article we suggest an approach to teaching foreign language pronunciation with the help of CALL system in which the process of evaluation of pronunciation and generation of suggestions for its correction is fully carried out by a computer program. We will present a general model of the effective Computer Assisted Pronunciation Training (CAPT) system as we see it. We also will consider the matter of feedback in CAPT systems, e.g. the response of the computer program on the students attempts to reproduce presented language material. We will outline some basic requirements to the effective feedback and discuss pros and cons of the feedback used in modern CAPT systems. At the end we will present a form of feedback that we consider to be effective.\n",
+    ""
+   ]
+  },
+  "vardanyan04_specom": {
+   "authors": [
+    [
+     "Ivan H.",
+     "Vardanyan"
+    ]
+   ],
+   "title": "Language and mechanism of speech as controlling interface with environment",
+   "original": "spc4_705",
+   "page_count": 7,
+   "order": 126,
+   "p1": "705",
+   "pn": "711",
+   "abstract": [
+    "In recent years the interest has been growing in human computer interaction (HCI). This interest reflects great activity in searching approaches for creation a new interface more fitting to human feature. This present paper discuses the problem of building a system of speech interaction in computer interface with control of interaction, suggested by the author. This is possible due to new opportunities to consider the development of language and the work of the mechanism of speech as a process of building a controlling interface with the physical and human environment.\n",
+    ""
+   ]
+  },
+  "belaya04_specom": {
+   "authors": [
+    [
+     "Olga A.",
+     "Belaya"
+    ]
+   ],
+   "title": "The metrics for quantitative evaluation of user interface usability construction methodology",
+   "original": "spc4_712",
+   "page_count": 4,
+   "order": 127,
+   "p1": "712",
+   "pn": "715",
+   "abstract": [
+    "In this work quantitative metrics for user interface evaluation by complexity of work with the interface and speed of work with the interface are considered. These metrics construction methodology is described. Some peculiarities of metrics construction for voice interface evaluation are discussed.\n",
+    ""
+   ]
+  },
+  "efimenko04_specom": {
+   "authors": [
+    [
+     "Irina V.",
+     "Efimenko"
+    ],
+    [
+     "Vladimir F.",
+     "Khoroshevsky"
+    ],
+    [
+     "Victor P.",
+     "Klintsov"
+    ]
+   ],
+   "title": "Ontosminer family: multilingual IE systems",
+   "original": "spc4_716",
+   "page_count": 5,
+   "order": 128,
+   "p1": "716",
+   "pn": "720",
+   "abstract": [
+    "This article deals with the problem of Multilingual Information Extraction (MIE), which is one of the topics of the day since it is within the scope of interest for many international projects. Presented in the article, OntosMiner Family Systems of IE are developed by Russian IT-company AviComp AG together with Ontos AG (Switzerland). AviComp AG is interested in various projects involving Natural Language Processing tasks such as Information Extraction, Semantic Documents Clustering, etc.\n",
+    ""
+   ]
+  },
+  "zaytseva04_specom": {
+   "authors": [
+    [
+     "Natalia Yu.",
+     "Zaytseva"
+    ]
+   ],
+   "title": "Some synergetic mechanisms of system of speech",
+   "original": "spc4_721",
+   "page_count": 3,
+   "order": 129,
+   "p1": "721",
+   "pn": "723",
+   "abstract": [
+    "Some of synergetic mechanisms of frames, the modeling representation of system of speech are described. The technology of construction of typical translation frames of polyglot word-combinations is presented. NLP systems, including especially those of machine translation are one of the areas where the lingvo-synergetic mechanism is explored. The Thesaurus-and-Frame technology, one of the latest and most reliable technologies, is realized here. It represents an attempt to model the known conceptual triad «system of language - system of speech - speech». Synergetic nature of each link of the triad varies. For construction of machine translation systems, systematic research of synergetic mechanisms in the system of speech and its modeling representation - the frames - is necessary. The frames allow organizing a normative translation of polyglot terminological word-combinations. Realization of semantic and pragmatic rubrics of fragments of a special text by means of word-combinations and word forms is a flexible means for machine translation.\n",
+    ""
+   ]
+  },
+  "titova04_specom": {
+   "authors": [
+    [
+     "L.",
+     "Titova"
+    ],
+    [
+     "A.",
+     "Mirgalina"
+    ]
+   ],
+   "title": "Using of systems of artificial speech in training the students of the philological department",
+   "original": "spc4_724",
+   "page_count": 3,
+   "order": 130,
+   "p1": "724",
+   "pn": "726",
+   "abstract": [
+    "The central concept of computer science is the information. The information processes in many respects are defined by representation of the information. They can be natural (characteristic for objects of an alive nature) and artificial (connected with technical systems), proceeding on the basis of realization of concrete algorithms, i.e. on the basis of computer technologies. The formations of coherent and correct speech skills play the large role in training the students of the philological department. In the application the statement of correct speech can be made by a natural and an artificial way. On educational process of the students of the philological department the greatest preference gives back systems of artificial speech, such as synthesis, analysis of oral speech and its recognition. The systems of synthesis of speech are systems, which give the information by speech and it basis on the samples from the dictionary with ready sound sequences. The simplest variant is the sample of ready sound, but in view of the large size of \"sound files\", the giving of the large number of words in this case practically is impossible. In such simple systems frequently are used the menu, on which the user can choose those statements, which he would like to hear. At presence of the necessary records in a database their text is sounded.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Speeches",
+   "papers": [
+    "haton04_specom",
+    "rubin04_specom",
+    "skrelin04_specom",
+    "lobanov04_specom",
+    "bartkova04_specom"
+   ]
+  },
+  {
+   "title": "Multimodal Interfaces",
+   "papers": [
+    "correa04_specom",
+    "caplier04_specom",
+    "schimke04_specom",
+    "krnoul04_specom",
+    "cisar04_specom",
+    "savran04_specom",
+    "rodriguezsuarez04_specom",
+    "pera04_specom",
+    "jovicic04_specom"
+   ]
+  },
+  {
+   "title": "Speech Signal Processing",
+   "papers": [
+    "kuwabara04_specom",
+    "goddard04_specom",
+    "katz04_specom",
+    "andelic04_specom",
+    "kruger04_specom",
+    "koval04_specom",
+    "cranen04_specom",
+    "lima04_specom",
+    "sirumng04_specom",
+    "saric04_specom",
+    "kornilov04_specom",
+    "ge04_specom",
+    "petrushin04_specom",
+    "suh04_specom",
+    "toutios04_specom",
+    "ivanov04_specom",
+    "buera04_specom",
+    "bondarenko04_specom",
+    "fedorov04_specom",
+    "shadevsky04_specom",
+    "likhachov04_specom",
+    "mischie04_specom",
+    "kornilov04b_specom"
+   ]
+  },
+  {
+   "title": "Speech Recognition",
+   "papers": [
+    "wood04_specom",
+    "kanevsky04_specom",
+    "naito04_specom",
+    "ris04_specom",
+    "suk04_specom",
+    "markov04_specom",
+    "kim04_specom",
+    "conn04_specom",
+    "gomez04_specom",
+    "amrouche04_specom",
+    "srinonchat04_specom",
+    "kouznetsov04_specom",
+    "ronzhin04_specom",
+    "stuker04_specom",
+    "zhozhikashvili04_specom",
+    "kocharov04_specom",
+    "arisoy04_specom",
+    "ansarin04_specom",
+    "kolar04_specom",
+    "silingas04_specom",
+    "savage04_specom",
+    "udhyakumar04_specom",
+    "kumar04_specom",
+    "zulkarneev04_specom",
+    "deemagarn04_specom"
+   ]
+  },
+  {
+   "title": "Speaker Recognition",
+   "papers": [
+    "saastamoinen04_specom",
+    "kinnunen04_specom",
+    "karpov04_specom",
+    "srinonchat04b_specom",
+    "rylov04_specom",
+    "ronzhin04b_specom",
+    "solewicz04_specom",
+    "solewicz04b_specom",
+    "lupu04_specom"
+   ]
+  },
+  {
+   "title": "Speech Understanding and Natural Language Processing",
+   "papers": [
+    "galunov04_specom",
+    "popovic04_specom",
+    "lendvai04_specom",
+    "marusenko04_specom",
+    "gumenjuk04_specom",
+    "ivanova04_specom",
+    "lukianova04_specom"
+   ]
+  },
+  {
+   "title": "Dialogue, Ontologies and Knowledge Representation",
+   "papers": [
+    "potapova04_specom",
+    "galunov04b_specom",
+    "bosch04_specom",
+    "ajafernandez04_specom",
+    "kobozeva04_specom",
+    "diaz04_specom",
+    "chipashvili04_specom",
+    "lee04_specom",
+    "grau04_specom",
+    "sosnina04_specom"
+   ]
+  },
+  {
+   "title": "Multimodal Services and Applications for Disabled People",
+   "papers": [
+    "nikolakis04_specom",
+    "nikolakis04b_specom",
+    "karpov04b_specom",
+    "turk04_specom",
+    "gaudissart04_specom",
+    "pashaloudi04_specom",
+    "reyesgalaviz04_specom",
+    "losik04_specom",
+    "kornilov04c_specom"
+   ]
+  },
+  {
+   "title": "Speech Synthesis",
+   "papers": [
+    "shpilewski04_specom",
+    "doherty04_specom",
+    "bondarenko04b_specom",
+    "nesterenko04_specom",
+    "kotov04_specom",
+    "rybolovlev04_specom",
+    "lyudovyk04_specom"
+   ]
+  },
+  {
+   "title": "INTAS Workshop: Strategic Scientific Session",
+   "papers": [
+    "asirelli04_specom",
+    "arefieva04_specom",
+    "vintsiuk04_specom",
+    "stankevich04_specom",
+    "narinyani04_specom"
+   ]
+  },
+  {
+   "title": "INTAS Workshop: Presentations of European Research Projects",
+   "papers": [
+    "macq04_specom",
+    "kotenko04_specom",
+    "makhrovskiy04_specom",
+    "volskaya04_specom",
+    "pavlov04_specom",
+    "arlazarov04_specom",
+    "hoffmann04_specom",
+    "smirnov04_specom",
+    "voskressenski04_specom",
+    "timofeev04_specom",
+    "vernjaev04_specom"
+   ]
+  },
+  {
+   "title": "INTAS Workshop: Fundamentals of Human-Computer Interaction",
+   "papers": [
+    "sokolov04_specom",
+    "antciperov04_specom",
+    "potapova04b_specom",
+    "timofeev04b_specom",
+    "degtyarev04_specom",
+    "vardanyan04_specom",
+    "belaya04_specom",
+    "efimenko04_specom",
+    "zaytseva04_specom",
+    "titova04_specom"
+   ]
+  }
+ ]
+}

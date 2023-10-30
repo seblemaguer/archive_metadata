@@ -1,0 +1,162 @@
+{
+ "title": "The 2022 Far-field Speaker Verification Challenge (FFSVC2022)",
+ "location": "Online",
+ "startDate": "17/9/2022",
+ "endDate": "17/9/2022",
+ "URL": "https://ffsvc.github.io/",
+ "chair": "Chair: Ming Li",
+ "conf": "FFSVC",
+ "year": "2022",
+ "name": "ffsvc_2022",
+ "series": "",
+ "SIG": "",
+ "title1": "The 2022 Far-field Speaker Verification Challenge",
+ "title2": "(FFSVC2022)",
+ "date": "17 September 2022",
+ "papers": {
+  "lei22_ffsvc": {
+   "authors": [
+    [
+     "Yuan",
+     "Lei"
+    ],
+    [
+     "Zhou",
+     "Cao"
+    ],
+    [
+     "Dehui",
+     "Kong"
+    ],
+    [
+     "Ke",
+     "Xu"
+    ]
+   ],
+   "title": "ZXIC Speaker Verification System for FFSVC 2022 Challenge",
+   "original": "FFSVC2022_01",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "This paper presents the development of ZXIC speaker verification system submitted to the task 1 of Interspeech 2022 Far-Field Speaker Verification Challenge (FFSVC2022). Deep neural network based discriminative embeddings, such as x-vectors, have been shown to perform well in speaker verification tasks. In far-field speaker verification system, mismatch between training and testing data and mismatch between enrollment and authentication utterances impact the system performance a lot. To alleviate this mismatch and improve the system performance, in this paper we propose a novel multi-reader domain adaption learning framework based on asymmetric metric learning. In this challenge, we also explore advanced neural network based embedding extractor structures including ECAPA-TDNN and ResNet-SE. A number of experiments on these architectures show that our proposed method is effective and improves the systems performance a lot. The final submitted systems are the fusion of several models. In FFSVC2022, our best system achieves a minimum of the detection cost function (minDCF) of 0.511and an equal error rate (EER) of 4.409% on the evaluation set."
+   ],
+   "doi": "10.21437/FFSVC.2022-1"
+  },
+  "lin22_ffsvc": {
+   "authors": [
+    [
+     "Yuke",
+     "Lin"
+    ],
+    [
+     "Xiaoyi",
+     "Qin"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Cross-Domain ArcFace:Learnging Robust Speaker Representation Under the Far-Field Speaker Verification",
+   "original": "FFSVC2022_02",
+   "page_count": 4,
+   "order": 2,
+   "p1": 6,
+   "pn": 9,
+   "abstract": [
+    "The system of speaker verification system shows outstanding performance with the assistance of different types of loss functions with angular margin penalty, which can enforce the intra-class compactness and inter-class discrepancy. However, the power of classification may degrade largely when encountering the cross-domain problems, especially in far-field scenes. Thus, we propose a novel Cross-Domain ArcFace(CD-ArcFace) loss function. By adopting distinct margin penalty in different do-main when conducting mix-data fine-tuning, the performance of various speaker verification system can be further improved. This experiment is carried on FFSVC2022. The final score level of our fusion system for the task1 achieves 4.028% and 4.368% EER on the development set and evaluation set."
+   ],
+   "doi": "10.21437/FFSVC.2022-2"
+  },
+  "qin22_ffsvc": {
+   "authors": [
+    [
+     "Xiaoyi",
+     "Qin"
+    ],
+    [
+     "Ming",
+     "Li"
+    ],
+    [
+     "Hui",
+     "Bu"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "The 2022 Far-field Speaker Verification Challenge: Exploring domain mismatch and semi-supervised learning under the far-field scenario",
+   "original": "FFSVC2022_03",
+   "page_count": 5,
+   "order": 3,
+   "p1": 10,
+   "pn": 14,
+   "abstract": [
+    "FFSVC2022 is the second challenge of far-field speaker verification. To further explore the far-field scenario, FFSVC2022 provides the fully-supervised far-field speaker verification task and proposes the semi-supervised far-field speaker verification task. In contrast to FFSVC2020, FFSVC2022 focus on the single-channel scenario. In addition, a supplementary set for the FFSVC2020 dataset is released this year. The supplementary set consists of more recording devices and has the same data distribution as the FFSVC2022 evaluation set. This paper summarizes the FFSVC 2022, including tasks description, trial designing details, a baseline system and a summary of challenge results. The challenge results indicate substantial progress made in the field but also present that there are still difficulties with the far-field scenario."
+   ],
+   "doi": "10.21437/FFSVC.2022-3"
+  },
+  "zheng22_ffsvc": {
+   "authors": [
+    [
+     "Yu",
+     "Zheng"
+    ],
+    [
+     "Jinghan",
+     "Peng"
+    ],
+    [
+     "Yihao",
+     "Chen"
+    ],
+    [
+     "Yajun",
+     "Zhang"
+    ],
+    [
+     "Jialong",
+     "Wang"
+    ],
+    [
+     "Min",
+     "Liu"
+    ],
+    [
+     "Minqiang",
+     "Xu"
+    ]
+   ],
+   "title": "The SpeakIn Speaker Verification System for Far-Field Speaker Verification Challenge 2022",
+   "original": "FFSVC2022_04",
+   "page_count": 5,
+   "order": 4,
+   "p1": 15,
+   "pn": 19,
+   "abstract": [
+    "This paper describes speaker verification (SV) systems submitted by the SpeakIn team to the Task 1 and Task 2 of the Far- Field Speaker Verification Challenge 2022 (FFSVC2022)[1]. SV tasks of the challenge focus on the problem of fully supervised far-field speaker verification (Task 1) and semi-supervised far-field speaker verification (Task 2). In Task 1, we used the VoxCeleb and FFSVC2020 datasets as train datasets. And for Task 2, we only used the VoxCeleb dataset as train set. The ResNet-based and RepVGG-based architectures were developed for this challenge. Global statistic pooling structure and MQMHA pooling structure were used to aggregate the frame-level features across time to obtain utterance-level representation. We adopted AM-Softmax and AAM-Softmax to classify the resulting embeddings. We innovatively propose a staged transfer learning method. In the pre-training stage we reserve the speaker weights, and there are no positive samples to train them in this stage. Then we fine-tune these weights with both positive and negative samples in the second stage. Compared with the traditional transfer learning strategy, this strategy can better improve the model performance. Sub-Mean and AS-Norm backend methods were used to solve the problem of do-main mismatch. In the fusion stage, three models were fused in Task1 and two models were fused in Task2. On the FFSVC2022 leaderboard, the EER of our submission is 3.0049% and the corresponding minDCF is 0.2938 in Task1. In Task2, EER and minDCF are 6.2060% and 0.5232 respectively."
+   ],
+   "doi": "10.21437/FFSVC.2022-4"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Far-field Speaker Verification",
+   "papers": [
+    "lei22_ffsvc",
+    "lin22_ffsvc",
+    "qin22_ffsvc",
+    "zheng22_ffsvc"
+   ]
+  }
+ ],
+ "doi": "10.21437/FFSVC.2022"
+}

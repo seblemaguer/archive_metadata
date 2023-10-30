@@ -1,0 +1,1018 @@
+{
+ "title": "ITRW on Nonlinear Speech Processing (NOLISP 2005)",
+ "location": "Barcelona, Spain",
+ "startDate": "19/4/2005",
+ "endDate": "22/4/2005",
+ "conf": "NOLISP",
+ "year": "2005",
+ "name": "nolisp_2005",
+ "series": "NOLISP",
+ "SIG": "",
+ "title1": "ITRW on Nonlinear Speech Processing",
+ "title2": "(NOLISP 2005)",
+ "date": "19-22 April 2005",
+ "papers": {
+  "faundezzanuy05_nolisp": {
+   "authors": [
+    [
+     "Marcos",
+     "Faúndez-Zanuy"
+    ]
+   ],
+   "title": "History note and presentation",
+   "original": "nol5_009",
+   "page_count": 2,
+   "order": 1,
+   "p1": "9",
+   "pn": "10",
+   "abstract": [
+    "After the success of NOLISP03 held in Le Croisic (France), and NOLISP04 summer school held in Vietri sul Mare (Italy), we are pleased to present NOLISP05. The third event in a series of events related to Non-linear speech processing, in the framework of the European COST action 277 \"Nonlinear speech processing\". Many specifics of the speech signal are not well addressed by conventional models currently used in the field of speech processing. The purpose of NOLISP is to present and discuss novel ideas, work and results related to alternative techniques for speech processing, which depart from mainstream approaches. With this intention in mind, we provide an open forum for discussion. Alternate approaches are appreciated, although the results achieved at present may not clearly surpass results based on state-of-the-art methods.\n",
+    ""
+   ]
+  },
+  "faundezzanuy05b_nolisp": {
+   "authors": [
+    [
+     "Marcos",
+     "Faundez-Zanuy"
+    ],
+    [
+     "Unto",
+     "Laine"
+    ],
+    [
+     "Gernot",
+     "Kubin"
+    ],
+    [
+     "Stephen",
+     "McLaughlin"
+    ],
+    [
+     "W. Bastiaan",
+     "Kleijn"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ],
+    [
+     "Bojan",
+     "Petek"
+    ],
+    [
+     "Amir",
+     "Hussain"
+    ]
+   ],
+   "title": "The COST-277 European action: an overview",
+   "original": "nol5_298",
+   "page_count": 9,
+   "order": 2,
+   "p1": "298",
+   "pn": "306",
+   "abstract": [
+    "Abstract. This paper summarizes the rationale for proposing the COST-277 \"nonlinear speech processing\" action, and the work done during these last four years. In addition, future perspectives are described.\n",
+    ""
+   ]
+  },
+  "yegnanarayana05_nolisp": {
+   "authors": [
+    [
+     "B.",
+     "Yegnanarayana"
+    ],
+    [
+     "R.",
+     "KumaraSwamy"
+    ],
+    [
+     "S. R. Mahadeva",
+     "Prasanna"
+    ]
+   ],
+   "title": "Separation of multispeaker speech using excitation information",
+   "original": "nol5_011",
+   "page_count": 8,
+   "order": 3,
+   "p1": "11",
+   "pn": "18",
+   "abstract": [
+    "In this paper, we propose an approach for separating speech of individual speakers from a multispeaker speech signal using excitation source information. The proposed approach is demonstrated in a two-microphone case. The main issue in the two-microphone case is the estimation of delay of each speaker. We propose a method for delay estimation in multispeaker case using the knowledge of excitation source information. The estimated delays are used for deriving weight functions for each speaker. The weight functions are used for extracting the excitation sequences for each of the speakers. The separated speech for each speaker is synthesized using the extracted excitation sequence. The proposed approach is illustrated for three speaker speech data collected over two spatially distributed microphones.\n",
+    ""
+   ]
+  },
+  "elhannani05_nolisp": {
+   "authors": [
+    [
+     "Asmaa",
+     "El Hannani"
+    ],
+    [
+     "Dijana",
+     "Petrovska-Delacrétaz"
+    ]
+   ],
+   "title": "Exploiting high-level information provided by ALISP in speaker recognition",
+   "original": "nol5_019",
+   "page_count": 6,
+   "order": 4,
+   "p1": "19",
+   "pn": "24",
+   "abstract": [
+    "The best performing systems in the area of automatic speaker recognition have focused on using short-term, low-level acoustic information, such as sepstral features. Recently, various works have demonstrated that high-level features convey more speaker information and can be added to the low-level features in order to increase the robustness of the system. This paper describes a text-independent speaker recognition system exploiting high-level information provided by ALISP (Automatic Language Independent Speech Processing), a data-driven segmentation. This system, denoted here as ALISP n-gram system, captures the speaker specific information only by analyzing sequences of ALISP units. The ALISP n-gram system was fused with an acoustic ALISP-based Gaussian Mixture Models (GMM) system exploiting the speaker discriminating properties of individual speech classes. The resulting fused system reduced the error rate over the individual systems on the NIST 2004 Speaker Recognition Evaluation data.\n",
+    ""
+   ]
+  },
+  "wu05_nolisp": {
+   "authors": [
+    [
+     "Dalei",
+     "Wu"
+    ],
+    [
+     "Andrew C.",
+     "Morris"
+    ],
+    [
+     "Jacques",
+     "Koreman"
+    ]
+   ],
+   "title": "MLP internal representation as discriminative features for improved speaker recognition",
+   "original": "nol5_025",
+   "page_count": 9,
+   "order": 5,
+   "p1": "25",
+   "pn": "34",
+   "abstract": [
+    "Feature projection by non-linear discriminant analysis (NLDA) can substantially increase classification performance. In automatic speech recognition (ASR) the projection provided by the pre-squashed outputs from a one hidden layer multi-layer perceptron (MLP) trained to recognise speech subunits (phonemes) has previously been shown to significantly increase ASR performance. An analogous approach cannot be applied directly to speaker recognition because there is no recognised set of \"speaker sub-units\" to provide a finite set of MLP target classes, and it for many applications it is not practical to train an MLP with one output for each target speaker. In this paper we show that the output from the second hidden layer of an MLP with three hidden layers, trained to identify a subset of 100 speakers selected at random from the full set of 630 speakers in Timit, can provide a 77% relative error reduction for common Gaussian mixture model (GMM) based speaker identification.\n",
+    ""
+   ]
+  },
+  "saeta05_nolisp": {
+   "authors": [
+    [
+     "Javier R.",
+     "Saeta"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "New speaker-dependent threshold estimation method in speaker verification based on weighting scores",
+   "original": "nol5_034",
+   "page_count": 8,
+   "order": 6,
+   "p1": "34",
+   "pn": "41",
+   "abstract": [
+    "Threshold estimation methods mainly deal with the scarcity of data and the difficulty of obtaining data from impostors in real applications. In this context, potential outliers, i.e., those client scores which are distant with respect to mean, could lead to wrong mean and variance client estimations, which are commonly used by somel threshold estimation methods. To alleviate this problem, some efficient threshold estimation methods based on weighting scores are proposed here. Before estimating the threshold, the set of client scores is totally or partially weighted, improving subsequent estimations. The weighting factor is obtained from a non-linear function that distributes scores according to their distance to the estimated mean. Text-dependent experiments have been carried out by using a telephonic multi-session database in Spanish. The database has been recorded by the authors and has 184 speakers.\n",
+    ""
+   ]
+  },
+  "garciaperera05_nolisp": {
+   "authors": [
+    [
+     "L. Paola",
+     "García-Perera"
+    ],
+    [
+     "Juan A.",
+     "Nolazco-Flores"
+    ],
+    [
+     "Carlos",
+     "Mex-Perera"
+    ]
+   ],
+   "title": "A phoneme-space-representation heuristic to improve the performance in a cryptographic-speech-key generation task",
+   "original": "nol5_114",
+   "page_count": 8,
+   "order": 7,
+   "p1": "114",
+   "pn": "121",
+   "abstract": [
+    "In this paper we propose an improvement in the genera- tion of the cryptographic-speech-key by using an heuristic consisting on the selection of the dimensions with the best performance for each of the phonemes. This selection can be made thanks that we know the phonemes of the spoken user passphrase. First, the mel frequency cepstral coefficients, (first and second derivatives) of the speech signal are calcu- lated. Then, an Automatic Speech Recogniser, which models are previ- ously trained, is used to detect the phoneme limits in the speech utter- ance. Afterwards, the feature vectors are built using both the phoneme- speech models and the information obtained from the phoneme segmen- tation. Next, the Support Vector Machines classifier, relying on an RBF kernel, computes the cryptographic key. By applying the phoneme-space- representation heuristic our results show an improvement of 24.26%, 18.85%, 16.56% for 10, 20 and 30 speakers, from the YOHO database, respectively, compared with our previous results.\n",
+    ""
+   ]
+  },
+  "faundezzanuy05c_nolisp": {
+   "authors": [
+    [
+     "Marcos",
+     "Faundez-Zanuy"
+    ],
+    [
+     "Martin",
+     "Hagmüller"
+    ],
+    [
+     "Gernot",
+     "Kubin"
+    ],
+    [
+     "W. Bastiaan",
+     "Kleijn"
+    ]
+   ],
+   "title": "The COST-277 speech database",
+   "original": "nol5_122",
+   "page_count": 8,
+   "order": 8,
+   "p1": "122",
+   "pn": "129",
+   "abstract": [
+    "Databases are fundamental for research investigations. This paper presents the speech database generated in the framework of COST-277 \"Nonlinear speech processing\" European project, as a result of European collaboration. This database lets to address two main problems: the relevance of bandwidth extension, and the usefulness of a watermarking with perceptual shaping at different Watermark to Signal ratios. It will be public available after the end of the COST-277 action, in January 2006.\n",
+    ""
+   ]
+  },
+  "kartik05_nolisp": {
+   "authors": [
+    [
+     "V.",
+     "Kartik"
+    ],
+    [
+     "D.",
+     "Srikrishna Satish"
+    ],
+    [
+     "C.",
+     "Chandra Sekhar"
+    ]
+   ],
+   "title": "Speaker change detection using support vector machines",
+   "original": "nol5_130",
+   "page_count": 7,
+   "order": 9,
+   "p1": "130",
+   "pn": "136",
+   "abstract": [
+    "Speaker change detection is important for automatic segmentation of multispeaker speech data into homogeneous segments with each segment containing the data of one speaker only. Existing approaches for speaker change detection are based on the dissimilarity of the distributions of the data before and after a speaker change point. In this paper, we propose a classification based technique for speaker change detection. Patterns extracted from the data around the speaker change points are used as positive examples. Patterns extracted from the data between the speaker change points are used as negative examples. The positive and negative examples are used in training a support vector machine for speaker change detection. The trained SVM is used to scan the continuous speech signal of multispeaker data and hypothesize the points of speaker change. We consider two methods for extraction of fixed length patterns that are given as input to the support vector machine. In the first method, the spectral feature vectors of a fixed number of frames are concatenated to derive a pattern vector. In the second method, the sequence of feature vector frames is considered as a trajectory, and the outerproduct matrix of the trajectory matrix is vectorized to derive a pattern vector. The performance of the proposed approach for speaker change detection and the two methods for pattern extraction is studied on the extended data of the NIST 2003 speaker recognition evaluation database.\n",
+    ""
+   ]
+  },
+  "esposito05_nolisp": {
+   "authors": [
+    [
+     "Anna",
+     "Esposito"
+    ]
+   ],
+   "title": "Pausing strategies in children",
+   "original": "nol5_042",
+   "page_count": 7,
+   "order": 10,
+   "p1": "42",
+   "pn": "48",
+   "abstract": [
+    "This study reports on the cross-modal analysis (video and audio) of spontaneous narratives produced by children (9 plus-minus 3 months years old) and is aimed to test the role of speech pauses (filled and empty) in children discourse organization. Video analysis was necessary to assess the association between utterances meaning and pauses. Empty speech pauses were divided into three categories according to their duration: a) short - from 0.150 up to 0.500 s long; b) medium - from 0.501 up to 0.900 s long; c) long - more than 0.900 s long. Results show that each category plays a different role in the discourse organization, with short pauses and medium pauses preceding utterances containing new added information and long pauses identifying changes in scene, time and event structures, and the functional role of delimitating paragraphs. Moreover, different pause durations also depend on the amount of information contained in the utterances and signal the cognitive effort required to convey new, or given information. The present data may be relevant in assessing the system of rules that underlie pausing means, and identify predictive schemes of the speech temporal structure useful to improve text-to-speech synthesis systems.\n",
+    ""
+   ]
+  },
+  "zellnerkeller05_nolisp": {
+   "authors": [
+    [
+     "Brigitte",
+     "Zellner Keller"
+    ]
+   ],
+   "title": "F0 and intensity distributions of Marsec speakers: types of speaker prosody",
+   "original": "nol5_049",
+   "page_count": 9,
+   "order": 11,
+   "p1": "49",
+   "pn": "57",
+   "abstract": [
+    "Most research on F0 has attempted to model the behaviour of an entire linguistic community (e.g of speakers of US or UK English, French, Japanese etc). In this research, we attempt in two analyses to characterize some prosodic aspects of individual differences within the speaker community. For this, the statistical distributions of F0 and intensity parameters were examined. It was found in the first analysis (34 male speakers, nine speech styles) that F0 distributions showed a number of characteristic patterns while intensity distributions did not pattern in any particular fashion. F0 distributions fell into fours patterns, suggesting four styles of F0 whatever the speech style is. This classification was confirmed in our second analysis (11 male speakers, one speech task). These various patterns of F0 distributions are discussed with regard to the speech task and to the speakers style.\n",
+    ""
+   ]
+  },
+  "drepper05_nolisp": {
+   "authors": [
+    [
+     "Friedhelm R.",
+     "Drepper"
+    ]
+   ],
+   "title": "A two-level drive-response model of instationary speech signals",
+   "original": "nol5_058",
+   "page_count": 10,
+   "order": 12,
+   "p1": "58",
+   "pn": "69",
+   "abstract": [
+    "The transmission protocol of voiced speech is hypothesized to be based on a fundamental excitation or drive process, which synchronizes the vocal tract excitation on the transmitter side and evokes the loudness and pitch perception on the receiver side. The fundamental drive can be extracted from the speech signal by using a voice-specific subband decomposition. When used as fundamental drive of a two-level drive - response model with stationary coupling on both levels, the instationary drive is able to describe instationary speech as secondary response. For simplicity each subband specific primary response is assumed to be restricted to a nonlinear synchronisation manifold. Whereas the extraction of a physiologically interpretable fundamental phase is limited to voiced sections of speech, the fundamental amplitude can as well be used for the time scale separation of unvoiced sections.\n",
+    ""
+   ]
+  },
+  "kim05_nolisp": {
+   "authors": [
+    [
+     "Kihong",
+     "Kim"
+    ],
+    [
+     "Jinkeun",
+     "Hong"
+    ],
+    [
+     "Jongin",
+     "Lim"
+    ]
+   ],
+   "title": "Multiresolution sinusoidal speech model using elliptic band pass filter",
+   "original": "nol5_070",
+   "page_count": 6,
+   "order": 13,
+   "p1": "70",
+   "pn": "75",
+   "abstract": [
+    "The sinusoidal speech model represents a speech signal as a linear combination of sinusoids with time-varying parameters {amplitudes, frequencies, and phases}. However, one drawback of this model is that the analysis window width is generally fixed in analyzing the signal. Since each sinusoidal parameter has different frequencies, an analysis window with fixed width cant guarantee an optimum spectral resolution to each sinusoidal parameter. In this paper, we propose and implement a multiresolution sinusoidal speech model using elliptic band pass filter to overcome this drawback and to estimate the sinusoidal parameters more precisely. Experimental results have shown that the proposed model can achieve better performance than that of the classical sinusoidal model.\n",
+    ""
+   ]
+  },
+  "murphy05_nolisp": {
+   "authors": [
+    [
+     "Peter J.",
+     "Murphy"
+    ],
+    [
+     "Olatunji O.",
+     "Akande"
+    ]
+   ],
+   "title": "Quantification of glottal and voiced speech harmonics-to-noise ratios using cepstral-based estimation",
+   "original": "nol5_224",
+   "page_count": 9,
+   "order": 14,
+   "p1": "224",
+   "pn": "232",
+   "abstract": [
+    "Cepstral analysis is used to estimate the harmonics-to-noise ratio (HNR) in speech signals. The inverse Fourier transformed liftered cepstrum approximates a noise baseline from which the harmonics-to-noise ratio is estimated. The present study highlights the manner in which the cepstrum-based noise baseline estimate is obtained, essentially behaving like a moving average filter applied to the power spectrum for voiced speech. As such, the noise baseline, which is taken to approximate the noise excited vocal tract, is also shown to be influenced by the window length and the shape of the glottal source spectrum. Two existing estimation techniques are tested systematically for the first time using synthetically generated glottal flow and voiced speech signals, with a priori knowledge of the HNR. The source influence is removed using preemphasis to obtain an improved noise baseline fit. The results indicate accurate HNR estimation using the new approach.\n",
+    ""
+   ]
+  },
+  "vich05_nolisp": {
+   "authors": [
+    [
+     "Robert",
+     "Vích"
+    ]
+   ],
+   "title": "Pseudo cepstral analysis of Czech vowels",
+   "original": "nol5_233",
+   "page_count": 7,
+   "order": 15,
+   "p1": "233",
+   "pn": "239",
+   "abstract": [
+    "Real generalized cepstral analysis is introduced and applied to speech deconvolution. Real pseudo cepstrum of the vocal tract model impulse response is defined and applied to the analysis of Czech vowels. The energy concentration measure of the real pseudo cepstrum of the vocal tract model impulse response is introduced and evaluated for Czech vowels pronounced by male and female speakers. The goal of this investigation is to find a robust and more reliable method of vocal tract modeling also for voices with high fundamental frequency, i.e. for female and child voices. From the investigation follows that vowel and speaker dependent generalized cepstral analysis can be found which is more robust in speech modeling than cepstral and LPC analysis.\n",
+    ""
+   ]
+  },
+  "gorriz05_nolisp": {
+   "authors": [
+    [
+     "J. M.",
+     "Górriz"
+    ],
+    [
+     "C. G.",
+     "Puntonet"
+    ],
+    [
+     "J.",
+     "Ramírez"
+    ],
+    [
+     "J. C.",
+     "Segura"
+    ]
+   ],
+   "title": "Statistical tests for voice activity detection",
+   "original": "nol5_240",
+   "page_count": 10,
+   "order": 16,
+   "p1": "240",
+   "pn": "249",
+   "abstract": [
+    "A robust and effective voice activity detection (VAD) algorithm is proposed for improving speech recognition performance in noisy environments. The approach is based on filtering the input channel to avoid high energy noisy components and then the determination of the speech/non-speech bispectra by means of third order autocumulants. This algorithm differs from many others in the way the decision rule is formulated (detection tests) and the domain used in this approach. Clear improvements in speech/non-speech discrimination accuracy demonstrate the effectiveness of the proposed VAD. It is shown that application of statistical detection test leads to a better separation of the speech and noise distributions, thus allowing a more effective discrimination and a tradeoff between complexity and performance. The algorithm also incorporates a previous noise reduction block improving the accuracy in detecting speech and non-speech. The experimental analysis carried out on the AURORA databases and tasks provides an extensive performance evaluation together with an exhaustive comparison to the standard VADs such as ITU G.729, GSM AMR and ETSI AFE for distributed speech recognition (DSR), and other recently reported VADs.\n",
+    ""
+   ]
+  },
+  "toutios05_nolisp": {
+   "authors": [
+    [
+     "Asterios",
+     "Toutios"
+    ],
+    [
+     "Konstantinos",
+     "Margaritis"
+    ]
+   ],
+   "title": "On the acoustic-to-electropalatographic mapping",
+   "original": "nol5_076",
+   "page_count": 8,
+   "order": 17,
+   "p1": "76",
+   "pn": "83",
+   "abstract": [
+    "Electropalatography is a well established technique for record- ing information on the patterns of contact between the tongue and the hard palate during speech. It leads to a stream of binary vectors, called electropalatograms. We are interested in the mapping from the acoustic signal to electropalatographic information. We present results on experi- ments using Support Vector Classification and a combination of Principal Component Analysis and Support Vector Regression.\n",
+    ""
+   ]
+  },
+  "schoentgen05_nolisp": {
+   "authors": [
+    [
+     "Jean",
+     "Schoentgen"
+    ],
+    [
+     "E.",
+     "Dessalle"
+    ],
+    [
+     "A.",
+     "Kacha"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ]
+   ],
+   "title": "Issues in clinical applications of bidirectional multi-step predictive analysis of speech",
+   "original": "nol5_084",
+   "page_count": 10,
+   "order": 18,
+   "p1": "84",
+   "pn": "93",
+   "abstract": [
+    "The topic of the presentation is an examination of several methodological problems posed by multi-step predictive analysis of speech when applied with a view to estimating vocal dysperiodicities. Problems that are discussed are the following. First, the stability of the multistep predictive synthesis filter; second, the decrease of the quantization noise by means of multiple prediction coefficients; third, the implementation of the multi-step predictive analysis via a lattice filter; fourth, the adequacy per se of the predictive analysis paradigm for estimating vocal dysperiodicities. Results suggest that implementations of linear predictive analyses that are considered to be optimal for speech coding are sub-optimal for clinical applications and vice versa. Also, linear predictive analysis per se does not appear to be under all circumstances a paradigm adequate for analysing vocal dysperiodicities clinically. An alternative is discussed which is based on a generalized variogram of the speech signal.\n",
+    ""
+   ]
+  },
+  "alonso05_nolisp": {
+   "authors": [
+    [
+     "Jesús B.",
+     "Alonso"
+    ],
+    [
+     "Fernando",
+     "Díaz-de-María"
+    ],
+    [
+     "Carlos M.",
+     "Travieso"
+    ],
+    [
+     "Miguel Angel",
+     "Ferrer"
+    ]
+   ],
+   "title": "Using nonlinear features for voice disorder detection",
+   "original": "nol5_094",
+   "page_count": 13,
+   "order": 19,
+   "p1": "94",
+   "pn": "106",
+   "abstract": [
+    "In this paper we propose the use of nonlinear speech features to improve the voice quality measurement. We have tested a couple of features from the Dynamical System Theory, namely: the Correlation Dimension and the largest Lyapunov Exponent. In particular, we have studied the optimal size of time window for this type of analysis in the field of the characterization of the voice quality. Two systems of automatic detection of laryngeal pathologies, one of them including these features, have been implemented with the purpose of validating the usefulness of the suggested nonlinear features. We obtain slight improvements with respect to a classical system.\n",
+    ""
+   ]
+  },
+  "hagmuller05_nolisp": {
+   "authors": [
+    [
+     "Martin",
+     "Hagmüller"
+    ],
+    [
+     "Gernot",
+     "Kubin"
+    ]
+   ],
+   "title": "Poincar\t sections for pitch mark determination",
+   "original": "nol5_107",
+   "page_count": 7,
+   "order": 20,
+   "p1": "107",
+   "pn": "113",
+   "abstract": [
+    "An approach to pitch mark determination using Poincaré sections is presented. While speech has been interpreted in terms of nonlinear systems theory for quite some time, not much effort has been made to exploit this knowledge in the problem of pitch mark detection. This algorithm uses nonlinear state space embedding and calculates the Poincaré section at a chosen point in state space. Pitch marks are then found at the crossing of the trajectories with the Poincaré plane in a certain neighborhood of the initial point. The procedure is performed frame-wise to account for the changing dynamics of the speech production system. First results show promising performance, comparable to the pitch marking algorithm used in Praat.\n",
+    ""
+   ]
+  },
+  "bernalchaves05_nolisp": {
+   "authors": [
+    [
+     "Jorge",
+     "Bernal-Chaves"
+    ],
+    [
+     "Carmen",
+     "Peláez-Moreno"
+    ],
+    [
+     "Ascensión",
+     "Gallardo-Antolín"
+    ],
+    [
+     "Fernando",
+     "Díaz-de-María"
+    ]
+   ],
+   "title": "Multiclass SVM-based isolated-digit recognition using a HMM-guided segmentation",
+   "original": "nol5_137",
+   "page_count": 8,
+   "order": 21,
+   "p1": "137",
+   "pn": "144",
+   "abstract": [
+    "Automatic Speech Recognition (ASR) is essentially a problem of pattern classification, however, the time dimension of the speech signal has prevented to pose ASR as a simple static classification problem. Support Vector Machine (SVM) classifiers could provide an appropriate solution, since they are very well adapted to high-dimensional classification problems. Nevertheless, the use of SVMs for ASR is by no means straightforward, because SVM classifiers are well developed for binary problems but not so for the multiclass case. In this paper we compare two approaches to implement the multiclass SVM from binary SVMs (1-vs-all and 1-vs-1) for a specific ASR task. We show that the 1-vs-all multiclass SVM clearly outperforms the conventional HMM-based ASR system (the largest improvement, 18.23 %, is achieved for speech corrupted with white noise).\n",
+    ""
+   ]
+  },
+  "salvi05_nolisp": {
+   "authors": [
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Segment boundaries in low latency phonetic recognition",
+   "original": "nol5_145",
+   "page_count": 6,
+   "order": 22,
+   "p1": "145",
+   "pn": "150",
+   "abstract": [
+    "This study analyses how the reduction of the look-ahead length of a two pass phonetic decoder in uences the alignment of the segment boundaries. It is shown how the optimization of some tuning parameters, such as the insertion penalty, is dependent on the look-ahead length. It is also suggested that the insertion penalty be dynamically adjusted to some measure of similarity of the phonetic segments following each other.\n",
+    ""
+   ]
+  },
+  "indrebo05_nolisp": {
+   "authors": [
+    [
+     "Kevin M.",
+     "Indrebo"
+    ],
+    [
+     "Richard J.",
+     "Povinelli"
+    ],
+    [
+     "Michael T.",
+     "Johnson"
+    ]
+   ],
+   "title": "Third-order moments of filtered speech signals for robust speech recognition",
+   "original": "nol5_151",
+   "page_count": 7,
+   "order": 23,
+   "p1": "151",
+   "pn": "157",
+   "abstract": [
+    "Novel speech features calculated from third-order statistics of subband-filtered speech signals are introduced and studied for robust speech recognition. These features have the potential to capture nonlinear information not represented by cepstral coefficients. Also, because the features presented in this paper are based on the third-order moments, they may be more immune to Gaussian noise than cepstrals, as Gaussian distributions have zero third-order moments. Preliminary experiments on the AURORA2 database studying these features in combination with Mel-frequency cepstral coefficients (MFCCs) are presented, and improvement over the MFCC-only baseline is shown with the combined feature set for several noise conditions.\n",
+    ""
+   ]
+  },
+  "chetouani05_nolisp": {
+   "authors": [
+    [
+     "Mohamed",
+     "Chetouani"
+    ],
+    [
+     "Amir",
+     "Hussain"
+    ],
+    [
+     "Bruno",
+     "Gas"
+    ],
+    [
+     "Jean-Luc",
+     "Zarader"
+    ]
+   ],
+   "title": "ew sub-band processing framework using non-linear predictive models for speech feature extraction",
+   "original": "nol5_269",
+   "page_count": 6,
+   "order": 24,
+   "p1": "269",
+   "pn": "274",
+   "abstract": [
+    "Speech feature extraction methods are commonly based on time and frequency processing approaches. In this paper, we propose a new framework based on sub-band processing and non-linear prediction. The key idea is to pre-process the speech signal by a filter bank. From the resulting signals, non-linear predictors are computed. The feature extraction method consists in the association of different Neural Predictive Coding (NPC) models. We apply this new framework to phoneme classification. The experiments carried out with the NTIMIT database show an improvement of the classification rates in comparison to the full-band approach. The new method gives also better performances than the traditional ones (LPC, MFCC and PLP).\n",
+    ""
+   ]
+  },
+  "bonde05_nolisp": {
+   "authors": [
+    [
+     "Casper Stork",
+     "Bonde"
+    ],
+    [
+     "Carina",
+     "Graversen"
+    ],
+    [
+     "Andreas Gregers",
+     "Gregersen"
+    ],
+    [
+     "Kim Hoang",
+     "Ngo"
+    ],
+    [
+     "Kim",
+     "Nørmark"
+    ],
+    [
+     "Mikkel",
+     "Purup"
+    ],
+    [
+     "Thomas",
+     "Thorsen"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ]
+   ],
+   "title": "Noise robust automatic speech recognition with adaptive quantile based noise estimation and speech band emphasizing filter bank",
+   "original": "nol5_275",
+   "page_count": 12,
+   "order": 25,
+   "p1": "275",
+   "pn": "286",
+   "abstract": [
+    "An important topic in Automatic Speech Recognition (ASR) is to reduce the effect of noise, in particular when mismatch exists between the training and application conditions.\n",
+    "Many noise robutness schemes within the feature processing domain use as a prerequisite a noise estimate prior to the appearance of the speech signal which require noise robust voice activity detection and assumptions of stationary noise. However, both of these requirements are often not met and it is therefore of particular interest to investigate methods like the Quantile Based Noise Estimation (QBNE) mehtod which estimates the noise during speech and non-speech sections without the use of a voice activity detector. While the standard QBNE-method uses a fixed pre-defined quantile accross all frequency bands, this paper suggests adaptive QBNE (AQBNE) which adapts the quantile individually to each frequency band.\n",
+    "Furthermore the paper investigates an alternative to the standard mel frequency cepstral coefficient filter bank (MFCC), an empirically chosen Speech Band Emphasizing filter bank (SBE), which improves the resolution in the speech band.\n",
+    "The combinations of AQBNE and SBE are tested on the Danish Speech-Dat-Car database and compared to the performance achieved by the standards presented by the Aurora consortium (Aurora Baseline and Aurora Advanced Fronted). For the High Mismatch (HM) condition, the AQBNE achieves significantly better performance compared to the Aurora Baseline, both when combined with SBE and standard MFCC. AQBNE also outperforms the Aurora Baseline for the Medium Mismatch (MM) and Well Matched (WM) conditions. Though for all three conditions, the Aurora Advanced Frontend achieves superior performance, the AQBNE is still a relevant method to consider for small foot print applications.\n",
+    ""
+   ]
+  },
+  "gangashetty05_nolisp": {
+   "authors": [
+    [
+     "Suryakanth V.",
+     "Gangashetty"
+    ],
+    [
+     "C.",
+     "Chandra Sekhar"
+    ],
+    [
+     "B.",
+     "Yegnanarayana"
+    ]
+   ],
+   "title": "Spotting multilingual consonant-vowel units of speech using neural network models",
+   "original": "nol5_287",
+   "page_count": 11,
+   "order": 26,
+   "p1": "287",
+   "pn": "297",
+   "abstract": [
+    "In this paper, we consider an approach for multilingual speech recognition by spotting consonant-vowel (CV) units. The main issues in spotting multilingual CV units are the location of anchor points and la- belling the regions around these anchor points using suitable classifiers. The vowel onset points (VOPs) have been used as anchor points. The distribution capturing ability of autoassociative neural network (AANN) models is explored for detection of VOPs in continuous speech. We con- sider support vector machine (SVM) based classifiers due to their ability of generalisation from limited training data and also due to their inherent discriminative learning. We study the spotting approach for recognition of a large number of CV units in the broadcast news corpus of three Indian languages.\n",
+    ""
+   ]
+  },
+  "godinollorente05_nolisp": {
+   "authors": [
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ],
+    [
+     "Pedro",
+     "Gómez-Vilda"
+    ],
+    [
+     "Nicolás",
+     "Sáenz-Lechón"
+    ],
+    [
+     "Manuel",
+     "Blanco-Velasco"
+    ],
+    [
+     "Fernando",
+     "Cruz-Roldán"
+    ],
+    [
+     "Miguel Angel",
+     "Ferrer"
+    ]
+   ],
+   "title": "Discriminative methods for the detection of voice disorders",
+   "original": "nol5_158",
+   "page_count": 10,
+   "order": 27,
+   "p1": "158",
+   "pn": "167",
+   "abstract": [
+    "Support Vector Machines (SVMs) have become a popular tool for discriminative classification. An exciting area of recent application of SVMs is in speech processing. In this paper discriminatively trained SVMs have been in-troduced as a novel approach for the automatic detection of voice impairments. SVMs have a distinctly different modelling strategy in the detection of voice impairments problem, compared to other methods found in the literature (such a Gaussian Mixture or Hidden Markov Models): the SVM models the boundary between the classes instead of modelling the probability density of each class. In this paper it is shown that the scheme proposed fed with short-term cepstral and noise parameters can be applied for the detection of voice impairments with a good performance.\n",
+    ""
+   ]
+  },
+  "hanquinet05_nolisp": {
+   "authors": [
+    [
+     "Julien",
+     "Hanquinet"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ],
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "Synthesis of disordered voices",
+   "original": "nol5_168",
+   "page_count": 6,
+   "order": 28,
+   "p1": "168",
+   "pn": "173",
+   "abstract": [
+    "This presentation concerns the simulation of disordered voices. The synthesis is based on shaping functions, which are nonlinear memoryless inputoutput characteristics that transform a trigonometric driving function into a synthetic phonatory excitation signal. One advantage of the shaping fuction model is that the instantaneous frequency and the spectral balance of the phonatory excitation signal are controlled by two separate parameters. It is shown how to synthesize different types of dysperiodicities by modulating both the amplitude and instantaneous frequency of the driving function. The voice disorders that are simulated are short- and long-term perturbations of the vocal frequency, biphonation, diplophonia and raucity. Turbulence noise is modeled by additive white noise.\n",
+    ""
+   ]
+  },
+  "gomezvilda05_nolisp": {
+   "authors": [
+    [
+     "Pedro",
+     "Gómez-Vilda"
+    ],
+    [
+     "Rafael",
+     "Martínez"
+    ],
+    [
+     "Francisco",
+     "Díaz"
+    ],
+    [
+     "Carlos",
+     "Lázaro"
+    ],
+    [
+     "Agustín",
+     "Álvarez"
+    ],
+    [
+     "Victoria",
+     "Rodellar"
+    ],
+    [
+     "Víctor",
+     "Nieto"
+    ]
+   ],
+   "title": "Estimation of vocal cord biomechanical parameters by non-linear inverse filtering of voice",
+   "original": "nol5_174",
+   "page_count": 10,
+   "order": 29,
+   "p1": "174",
+   "pn": "183",
+   "abstract": [
+    "Voice pathologies are a growing social concern, due to the role that voice and speech play in the performance of certain professions, and in the general population quality of life. In these last years emphasis has been placed in the early detection of these pathologies, for which computer tools performing voice processing are used to evaluate certain time and spectrum domain parameters to infer the presence of pathology. Going one step ahead the present work is aimed to estimate the values of the biomechanical parameters of the vocal fold system, as mass, stiffness and losses by the inversion of the vocal fold structure, which could help in classifying the specific patients pathology. The model structure of the vocal cord will be presented, and a method to estimate the biomechanical parameters of the cord body structure will be described. Results for normal and pathological cases will be presented and discussed.\n",
+    ""
+   ]
+  },
+  "schnell05_nolisp": {
+   "authors": [
+    [
+     "Karl",
+     "Schnell"
+    ],
+    [
+     "Arild",
+     "Lacroix"
+    ]
+   ],
+   "title": "Voiced excitation models for speech production based on time variable Volterra systems",
+   "original": "nol5_184",
+   "page_count": 4,
+   "order": 30,
+   "p1": "184",
+   "pn": "187",
+   "abstract": [
+    "The speech production can be modeled by linear and nonlinear systems. In this contribution a time variable nonlinear Volterra system is used to model the fluctuations of the voiced excitation while a linear system models the resonances of the speech production system. The estimation of the Volterra system is performed by a prediction algorithm. This is enabled by a description of the prediction problem as an approximation by a series expansion. Speech examples show that the use of a time variable Volterra system improves the naturalness of the synthetic speech.\n",
+    ""
+   ]
+  },
+  "little05_nolisp": {
+   "authors": [
+    [
+     "Max",
+     "Little"
+    ],
+    [
+     "Patrick",
+     "McSharry"
+    ],
+    [
+     "Irene",
+     "Moroz"
+    ],
+    [
+     "Stephen",
+     "Roberts"
+    ]
+   ],
+   "title": "A simple nonlinearmodel of vocal fold dynamics for synthesis and analysis",
+   "original": "nol5_188",
+   "page_count": 16,
+   "order": 31,
+   "p1": "188",
+   "pn": "203",
+   "abstract": [
+    "In current speech technology, linear prediction dominates. The linear vocal tract model is well justified biomechanically, and linear prediction is a simple and well understood signal processing task. However, it has been established that, in voiced sounds, the vocal folds exhibit a high degree of nonlinearity. Hence there exists the need for an approach to modelling the behaviour of the vocal folds. This paper presents a simple, nonlinear, biophysical vocal fold model. A complementary discrete model is derived that reflects accurately the energy dynamics in the continuous model. Thismodel can be implemented easily on standard digital signal processing hardware, and it is formulated in such a way that a simple form of nonlinear prediction can be carried out on vocal fold signals. This model could be of utility in many speech technological applications where low computational complexity synthesis and analysis of vocal fold dynamics is required.\n",
+    ""
+   ]
+  },
+  "solecasals05_nolisp": {
+   "authors": [
+    [
+     "Jordi",
+     "Solé-Casals"
+    ],
+    [
+     "Enric",
+     "Monte-Moreno"
+    ]
+   ],
+   "title": "Source separation techniques applied to blind deconvolution of real world signals",
+   "original": "nol5_204",
+   "page_count": 10,
+   "order": 32,
+   "p1": "204",
+   "pn": "213",
+   "abstract": [
+    "In this paper we present a method for blind deconvolution of linear channels based on source separation techniques, for real word signals. This technique applied to blind deconvolution problems is based in exploiting not the spatial independence between signals but the temporal independence between samples of the signal. Our objective will be to minimize the mutual information of the output in order to retrieve the original signal. To make use of this idea we need that input signal be a non-Gaussian i.i.d. signal. Because most real world signals do not have this i.i.d. nature, we will need to preprocess the original signal before the transmission into the channel. Likewise we should assure that the transmitted signal has non-Gaussian statistics in order to achieve the correct function of the algorithm. The strategy used for this preprocessing will be presented in this paper.\n",
+    ""
+   ]
+  },
+  "rajmic05_nolisp": {
+   "authors": [
+    [
+     "Pavel",
+     "Rajmic"
+    ]
+   ],
+   "title": "Method for real-time signal processing via wavelet transform",
+   "original": "nol5_214",
+   "page_count": 10,
+   "order": 33,
+   "p1": "214",
+   "pn": "223",
+   "abstract": [
+    "The new method of segmented wavelet transform (SegWT) makes it possible to compute the discrete-time wavelet transform of a signal segment-by-segment. This means that the method could be utilized for wavelet-type processing of a signal in \"real time\", or in case we need to process a long signal (not necessarily in real time), but there is insufficient computational memory capacity for it (for example in the signal processors). Then it is possible to process the signal part-by-part with low memory costs by the new method. The method is suitable also for the speech processing, e.g. denoising the speech signal via thresholding the wavelet coefficients or speech coding. In the paper, the principle of the segmented forward wavelet transform is described.\n",
+    ""
+   ]
+  },
+  "hussain05_nolisp": {
+   "authors": [
+    [
+     "Amir",
+     "Hussain"
+    ],
+    [
+     "Stefano",
+     "Squartini"
+    ],
+    [
+     "Francesco",
+     "Piazza"
+    ]
+   ],
+   "title": "Novel subband adaptive systems incorporating Wiener filtering for binaural speech enhancement",
+   "original": "nol5_250",
+   "page_count": 9,
+   "order": 34,
+   "p1": "250",
+   "pn": "258",
+   "abstract": [
+    "In this paper, new Wiener filtering based binaural sub-band schemes are proposed for adaptive speech-enhancement. The proposed architectures combine a Multi-Microphone Sub-band Adaptive (MMSBA) system with Wiener filtering in order to further reduce the in-coherent noise components resulting from application of conventional MMSBA noise cancellers. A human cochlear model resulting in a non-linear distribution of the sub-band filters is also employed in the developed schemes. Preliminary comparative results achieved in simulation experiments using anechoic speech corrupted with real automobile noise show that the proposed structures are capable of significantly outperforming the conventional MMSBA scheme without Wiener filtering.\n",
+    ""
+   ]
+  },
+  "dat05_nolisp": {
+   "authors": [
+    [
+     "Tran Huy",
+     "Dat"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "The MAP and cumulative distribution function equalization methods for the speech spectral estimation with application in noise suppression filtering",
+   "original": "nol5_259",
+   "page_count": 10,
+   "order": 35,
+   "p1": "259",
+   "pn": "268",
+   "abstract": [
+    "In this work we develop two statistical estimation methods of maximum a posterior probability (MAP) and cumulative distribution function equalization (CDFE) for the speech spectral component estimation approaches with the application in the noise suppression filters. In contrast to the histogram equalization approach, the CDFE is developed here based on speech and noise spectral modeling, which is also used in the MAP approach. Both of the conventional Gaussian and general gamma modeling of speech and noise spectral are investigated in this work. For the CDF estimation, we develop a flexible method for the non-Gaussian distribution by using the characteristic function. The advantage of proposed methods is that yields a flexible solution of the speech spectral estimation problem in general case of speech and noise modeling, which should be determined for each particular condition. Finally the systems of noise suppressed filters based on CDFE, MAP and MMSE are investigated via an experimental evaluation on the SNR improvement measurements. The performances of MAP and CDFE based systems are shown to be at least comparable or exceeded the conventional MMSE based in both the cases of Gaussian and gamma modeling. In the hearing test, the CDFE based system products a less musical noise level compared to the MAP and MMSE methods.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Special Sessions",
+   "papers": [
+    "faundezzanuy05_nolisp",
+    "faundezzanuy05b_nolisp"
+   ]
+  },
+  {
+   "title": "Speaker Recognition",
+   "papers": [
+    "yegnanarayana05_nolisp",
+    "elhannani05_nolisp",
+    "wu05_nolisp",
+    "saeta05_nolisp",
+    "garciaperera05_nolisp",
+    "faundezzanuy05c_nolisp",
+    "kartik05_nolisp"
+   ]
+  },
+  {
+   "title": "Speech Analysis",
+   "papers": [
+    "esposito05_nolisp",
+    "zellnerkeller05_nolisp",
+    "drepper05_nolisp",
+    "kim05_nolisp",
+    "murphy05_nolisp",
+    "vich05_nolisp",
+    "gorriz05_nolisp"
+   ]
+  },
+  {
+   "title": "Voice Pathologies and Analysis",
+   "papers": [
+    "toutios05_nolisp",
+    "schoentgen05_nolisp",
+    "alonso05_nolisp",
+    "hagmuller05_nolisp"
+   ]
+  },
+  {
+   "title": "Speech Recognition",
+   "papers": [
+    "bernalchaves05_nolisp",
+    "salvi05_nolisp",
+    "indrebo05_nolisp",
+    "chetouani05_nolisp",
+    "bonde05_nolisp",
+    "gangashetty05_nolisp"
+   ]
+  },
+  {
+   "title": "Voice Pathologies",
+   "papers": [
+    "godinollorente05_nolisp",
+    "hanquinet05_nolisp",
+    "gomezvilda05_nolisp"
+   ]
+  },
+  {
+   "title": "Applications",
+   "papers": [
+    "schnell05_nolisp",
+    "little05_nolisp",
+    "solecasals05_nolisp",
+    "rajmic05_nolisp"
+   ]
+  },
+  {
+   "title": "Speech Enhancement",
+   "papers": [
+    "hussain05_nolisp",
+    "dat05_nolisp"
+   ]
+  }
+ ]
+}

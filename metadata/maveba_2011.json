@@ -1,0 +1,1509 @@
+{
+ "title": "Models and Analysis of Vocal Emissions for Biomedical Applications (MAVEBA 2011)",
+ "location": "Florence, Italy",
+ "startDate": "25/8/2011",
+ "endDate": "27/8/2011",
+ "conf": "MAVEBA",
+ "year": "2011",
+ "name": "maveba_2011",
+ "series": "MAVEBA",
+ "SIG": "",
+ "title1": "Models and Analysis of Vocal Emissions for Biomedical Applications",
+ "title2": "(MAVEBA 2011)",
+ "date": "25-27 August 2011",
+ "booklet": "maveba_2011.pdf",
+ "papers": {
+  "canoortiz11_maveba": {
+   "authors": [
+    [
+     "Sergio Daniel",
+     "Cano Ortiz"
+    ]
+   ],
+   "title": "Cry-based newborn diagnosis of CNS diseases and speech developmental aspects: software and hardware tools, cry databases, methodologies",
+   "original": "mv11_003",
+   "page_count": 4,
+   "order": 1,
+   "p1": "3",
+   "pn": "6",
+   "abstract": [
+    "The analysis of infant cry (also known simply as cry analysis) whose use has become more prevalent due to advances in areas such as digital signal processing, pattern recognition and soft computing, has changed the diagnostic ability of physicians to correctly diagnose new-borns using cry analysis. The present paper examines the results and conclusions reached by the speech processing Group (GPV) at the Universidad de Oriente in Cuba, in the area of acoustic characterization and the multilateral and multidisciplinary processing of the cry signal, as well as the design and implementation of a cry-based methodology for the diverse diagnosis in newborns with CNS diseases. The endemic development of tools for the acquisition and processing of the cry signal, the coordination of multidisciplinary research teamwork (with areas like logopedics, phoniatrics, linguistics, neuro-physiology, etc.) to carry out a rigorous research schedule, the implementation and testing of hybrid cry classifiers, the development of unprecedented cry-based methodology for diagnosis in newborns affected by cns diseases (with hypoxia background) as well as the induction of web-based technology in order to create skills for people involved in the introduction and application of the cry-based methodology in hospital settings, are properly commented.\n",
+    "Index Terms. cry analysis, signal processing, diagnosis tool\n",
+    ""
+   ]
+  },
+  "orlandi11_maveba": {
+   "authors": [
+    [
+     "S.",
+     "Orlandi"
+    ],
+    [
+     "L.",
+     "Bocchi"
+    ],
+    [
+     "Claudia",
+     "Manfredi"
+    ],
+    [
+     "M.",
+     "Puopolo"
+    ],
+    [
+     "A.",
+     "Guzzetta"
+    ],
+    [
+     "S.",
+     "Vicari"
+    ],
+    [
+     "M. L.",
+     "Scattoni"
+    ]
+   ],
+   "title": "Study of cry patterns in infants at high risk for autism",
+   "original": "mv11_007",
+   "page_count": 4,
+   "order": 2,
+   "p1": "7",
+   "pn": "10",
+   "abstract": [
+    "Autism Spectrum Disorders (ASD) show an increasing prevalence in children, and are often undiagnosed up to the third year of life. Analysis of cry patterns appears a promising approach for allowing an early ASD detection and diagnosis. In this work we compare the main acoustic parameters collected by recording infant crying in control subjects with the parameters obtained in high risk subjects, namely infant siblings of children with ASDs. Results confirm previous finding obtained using home video recordings, and indicate a weaker coupling between fundamental frequency and first resonance frequencies in high risk subjects.\n",
+    "Index Terms. Autism Spectrum Disorders, cry analysis, fundamental frequency, resonance frequencies.\n",
+    ""
+   ]
+  },
+  "elisha11_maveba": {
+   "authors": [
+    [
+     "Oren",
+     "Elisha"
+    ],
+    [
+     "A.",
+     "Tarasiuk"
+    ],
+    [
+     "Yaniv",
+     "Zigel"
+    ]
+   ],
+   "title": "Detection of obstructive sleep apnea using speech signal analysis",
+   "original": "mv11_013",
+   "page_count": 4,
+   "order": 3,
+   "p1": "13",
+   "pn": "16",
+   "abstract": [
+    "Obstructive sleep apnea (OSA) is a prevalent sleep related breathing disorder associated with several anatomical abnormalities of the upper airway. Acoustic parameters of human speech are influenced by properties of the vocal tract, which includes the upper airway. We hypothesize that it is possible to differentiate OSA patients from non-OSA (healthy) subjects by analyzing potential patients' speech signals. using speaker recognition and signal processing techniques, we designed a system for classifying a given speech signal into one of the two groups. the database for this research was constructed from 92 subjects who were recorded reading a one-minute speech protocol immediately prior to a full polysomnography study; one hundred and three acoustic features were extracted from each signal; seven independent Gaussian mixture models (GMM)-based classifiers were implemented; a fusion process was designed to combine the scores of these classifiers and a validation procedure took place in order to examine the system's performance. specificity and sensitivity of 91.66% and 91.66% were achieved for the male population; and 88.89% and 85.71% were achieved for female population, respectively. such a system can be used as a tool for initial screening of potential osa patients.\n",
+    "Index Terms. obstructive sleep apnea, speech signal processing, speaker recognition.\n",
+    ""
+   ]
+  },
+  "dafna11_maveba": {
+   "authors": [
+    [
+     "E.",
+     "Dafna"
+    ],
+    [
+     "A.",
+     "Tarasiuk"
+    ],
+    [
+     "Yaniv",
+     "Zigel"
+    ]
+   ],
+   "title": "Automatic detection of snoring events using Gaussian mixture models",
+   "original": "mv11_017",
+   "page_count": 4,
+   "order": 4,
+   "p1": "17",
+   "pn": "20",
+   "abstract": [
+    "In this work, an automatic snore detection system of acoustic snoring signals has been designed. its purpose is to assist an alternative non-invasive method for diagnosing obstructive sleep apnea (osa) based on acoustic signal processing. the detector is based on Gaussian mixture models that were trained and validated on full night acoustic signals that were recorded from a sleep laboratory, along with polysomnographic tests taken from patients with widely distributed severity of osa. the snore detection system includes steps from noise reduction through event detection and all the way to snore identification.   In order to analyze the performance of our proposed detector, a total of more than 80,000 acoustic episodes from 33 different osa patients were manually segmented into snore and non-snore episodes; among the non-snore episodes we can find a variety of sleep related noises such as blanket and pillow murmurs, moaning, groaning, coughing, and talking. the validation dataset was recorded using two different audio recorders to ensure the robustness of the detector.   The events' total identification rate was 97.12% with 96.02% positive detection of snore as snore (sensitivity) and 97.90% detection of noise as noise (specificity).\n",
+    "Index Terms. obstructive sleep apnea, snore detection, GMM\n",
+    ""
+   ]
+  },
+  "gritti11_maveba": {
+   "authors": [
+    [
+     "F.",
+     "Gritti"
+    ],
+    [
+     "L.",
+     "Bocchi"
+    ],
+    [
+     "I.",
+     "Romagnoli"
+    ],
+    [
+     "F.",
+     "Gigliotti"
+    ],
+    [
+     "Claudia",
+     "Manfredi"
+    ]
+   ],
+   "title": "An automatic and efficient method of snore events detection from sleep audio recordings",
+   "original": "mv11_021",
+   "page_count": 4,
+   "order": 5,
+   "p1": "21",
+   "pn": "24",
+   "abstract": [
+    "Snores are respiratory sounds produced during sleep. they are reported to be a risk factor for various sleep disorders, such as obstructive sleep apnea syndrome (OSA). Diagnosis of OSA relies on the expertise of the clinician that inspects whole night polysomnographic recording. this inspection is time consuming and uncomfortable for the patients. thus, there is a strong need for a tool to analyze snore sounds automatically. nocturnal respiratory sounds are composed of two kind of events: \"silence\" episodes and \"sound\" episodes that include breathing, snoring and \"other\" sounds.   In this paper a new method to detect snoring episodes from full night audio recordings is proposed. Signal analysis is performed in three steps: pre-processing, automatic segmentation, extraction of features and classification. With the segmentation step, only the \"sound\" parts of the audio signal are extracted using a short-term energy and the otsu thresholding method. The aim of classification step is the detection of snore episodes only, using two neural artificial network applied to four features (length, maximum amplitude, standard deviation and energy).   Data from 24 subject are analyzed using the proposed method; on the dataset, a sensitivity of 86,2% and specificity of 86,3% are obtained. Keyword: snore, obstructive sleep apnea, neural network, automatic segmentation\n",
+    ""
+   ]
+  },
+  "seppanen11_maveba": {
+   "authors": [
+    [
+     "A.",
+     "Seppänen"
+    ],
+    [
+     "A.",
+     "Nissinen"
+    ],
+    [
+     "V.",
+     "Kolehmainen"
+    ],
+    [
+     "S.",
+     "Siltanen"
+    ],
+    [
+     "A.-M.",
+     "Laukkanen"
+    ]
+   ],
+   "title": "Electrical impedance tomography imaging of larynx",
+   "original": "mv11_027",
+   "page_count": 3,
+   "order": 6,
+   "p1": "27",
+   "pn": "29",
+   "abstract": [
+    "In this paper we discuss electrical impedance tomography (EIT) imaging of human larynx. Especially, we focus on monitoring of vocal folds. EIT is a non-invasive three-dimensional (3D) imaging modality based electrical measurements conducted from the skin of a person. We hypothesize that EIT reconstructions can provide information on vocal folds' movement as well as physiological changes in vocal fold tissue caused by the vocal loading. This information could be used for quantifying vocal loading and measuring the consequences of vocal loading. Tn this paper, the feasibility of EIT for imaging of larynx is tested with numerical simulation studies. The preliminary results suggest that EIT is sensitive to movement of vocal folds.\n",
+    "Index Terms. electrical impedance tomography (EIT), imaging, larynx, vocal loading\n",
+    ""
+   ]
+  },
+  "unger11_maveba": {
+   "authors": [
+    [
+     "Jakob",
+     "Unger"
+    ],
+    [
+     "Tobias",
+     "Meyer"
+    ],
+    [
+     "C. T.",
+     "Herbst"
+    ],
+    [
+     "Michael",
+     "Döllinger"
+    ],
+    [
+     "Jörg",
+     "Lohscheller"
+    ]
+   ],
+   "title": "PVG-wavegrams: three-dimensional visualization of vocal fold dynamics",
+   "original": "mv11_031",
+   "page_count": 4,
+   "order": 7,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "Recently, endoscopic high-speed laryngoscopy has been established for commercial use and constitutes a state-of-the-art technique to examine vocal fold dynamics.   Due to the need of high sampling rates, a high amount of frames has to be considered for subjective assessment. Especially long phonation recordings produce several hundred megabytes of digital data.   We present a technique for visualizing these highspeed videos in a compact and intuitive form. The high-speed videos are therefore mapped to threedimensional cycle-based graphs representing a detailed visualization of vocal fold dynamics.\n",
+    "Index Terms. High-speed-laryngoscopy, visualization, vocal fold dynamics, voice assessment\n",
+    ""
+   ]
+  },
+  "cerrolaza11_maveba": {
+   "authors": [
+    [
+     "J. J.",
+     "Cerrolaza"
+    ],
+    [
+     "Víctor",
+     "Osma-Ruiz"
+    ],
+    [
+     "Nicolás",
+     "Sáenz-Lechón"
+    ],
+    [
+     "A.",
+     "Villanueva"
+    ],
+    [
+     "Juana M.",
+     "Gutiérrez-Arriola"
+    ],
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ],
+    [
+     "R.",
+     "Cabeza"
+    ]
+   ],
+   "title": "Fully-automatic glottis segmentation with active shape models",
+   "original": "mv11_035",
+   "page_count": 4,
+   "order": 8,
+   "p1": "35",
+   "pn": "38",
+   "abstract": [
+    "in this paper we present a new fully automatic glottis segmentation scheme that combines traditional bottom-up image processing techniques with high-level shape constraints provided by the active shape Models. unlike previous statistical segmentation approaches, which try to accurately detect the location of the glottis as initialization for the algorithm, we incorporate a new reliability score selector at the final stage of the scheme. the result is a robust and flexible algorithm able to deal with most acquisition techniques, even with stroboscopic videos. the good behavior of the algorithm has been successfully tested in a set of 170 frames extracted from 30 stroboscopic recordings.\n",
+    "Index Terms. Glottis segmentation; active shape Models; region Growing; stroboscopic videos.\n",
+    ""
+   ]
+  },
+  "sakakibara11_maveba": {
+   "authors": [
+    [
+     "Ken-Ichi",
+     "Sakakibara"
+    ],
+    [
+     "Hiroshi",
+     "Imagawa"
+    ],
+    [
+     "Isao T.",
+     "Tokuda"
+    ],
+    [
+     "Hisayuki",
+     "Yokonishi"
+    ],
+    [
+     "Miwako",
+     "Kimura"
+    ],
+    [
+     "Mamiko",
+     "Otsuka"
+    ],
+    [
+     "Niro",
+     "Tayama"
+    ]
+   ],
+   "title": "Estimation of glottal functions using stereo-endoscopic high-speed digital imaging",
+   "original": "mv11_039",
+   "page_count": 4,
+   "order": 9,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "In this paper, a new stereoendoscopic high-speed digital imaging system and a method to estimate the glottal functions are proposed. Glottal length, width, and area of one male and one female participants were estimated in different fundamental frequencies.\n",
+    ""
+   ]
+  },
+  "thomson11_maveba": {
+   "authors": [
+    [
+     "Scott L.",
+     "Thomson"
+    ],
+    [
+     "Christoph",
+     "Brücker"
+    ]
+   ],
+   "title": "Special session (introduction): computational and experimental vocal fold modeling",
+   "original": "mv11_044",
+   "page_count": 1,
+   "order": 10,
+   "p1": "44",
+   "pn": "",
+   "abstract": [
+    "The focus of this session is on recent activities in the areas of computational and synthetic vocal fold modeling. The papers cover a range of topics including material property measurement techniques, reduced-order computational models of esophageal speech, high-fidelity computational models of glottal air flow, and self-oscillating vocal fold models with epithelial layers that yield improved mucosal wave simulation.\n",
+    ""
+   ]
+  },
+  "weiss11_maveba": {
+   "authors": [
+    [
+     "S.",
+     "Weiss"
+    ],
+    [
+     "Alexander",
+     "Sutor"
+    ],
+    [
+     "J.",
+     "Ilg"
+    ],
+    [
+     "R.",
+     "Lerch"
+    ]
+   ],
+   "title": "Measurement of the elasticity modulus of artificial and real vocal folds using pipette aspiration",
+   "original": "mv11_045",
+   "page_count": 4,
+   "order": 11,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "Pipette aspiration technique is applied to take locally resolved measurements of artificial and real vocal folds. The measured data of one-layer and multi-layer samples as well as a pig vocal fold are compared to a finite element simulation in order to estimate the mechanical properties of the investigated samples. For the simulation, we used the results obtained by a previous study. In that study, the mechanical properties of simple one-layer silicone samples have been determined from measurements with a so-called vibration transmission analyzer. With the aid of a mathematical Inverse Method, the numerical results were adjusted to the measured data and thus equations for the material parameters were calculated. These relations serve as the material input parameters for the simulation in our study. Our measurement results are in good agreement with the simulation. Hence, this study verifies the application of an inverse scheme. Moreover, it presents a method for material characterization of multi-layer vocal fold models as well as real tissue that could assist in analyzing voice disorders.\n",
+    "Index Terms. Elasticity modulus, pipette aspiration, Inverse Method, vocal fold\n",
+    ""
+   ]
+  },
+  "huttner11_maveba": {
+   "authors": [
+    [
+     "B.",
+     "Hüttner"
+    ],
+    [
+     "Michael",
+     "Döllinger"
+    ],
+    [
+     "Georg",
+     "Luegmair"
+    ],
+    [
+     "Ulrich",
+     "Eysholdt"
+    ],
+    [
+     "A.",
+     "Ziethe"
+    ],
+    [
+     "E.",
+     "Gürlek"
+    ]
+   ],
+   "title": "Parameter optimization for a time-dependent multi-mass model for the pharyngo-esophageal segment",
+   "original": "mv11_049",
+   "page_count": 4,
+   "order": 12,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "Laryngeal cancer may necessitate a complete removal of the larynx. Consequently, the required sound source for voiced communication is lost. Alternatively, a substitute sound signal can be generated by tissue vibrations in the pharyngoesophageal (PE) segment. The quality of the substitute voice significantly depends on the vibration characteristics of the PE segment. For investigation purpose, the tissue vibrations are detected by endoscopic interventions with a high-speed camera and are quantified by a biomechanical multi-mass model. As pseudoglottal vibrations present variations in frequency and amplitude we suggest an expansion of the biomechanical PE model for a time-dependent multi-mass model. Additionally, we propose a block based optimization procedure to fit the model dynamics to real PE vibrations. First results demonstrate the performance of the time-dependent model and the optimization procedure being comparable to those of the non-stationary PE model and the timedependent vocal fold model.\n",
+    "Index Terms. PE segment, model optimization\n",
+    ""
+   ]
+  },
+  "brucker11_maveba": {
+   "authors": [
+    [
+     "Christoph",
+     "Brücker"
+    ],
+    [
+     "M.",
+     "Triep"
+    ],
+    [
+     "C.",
+     "Kirmse"
+    ],
+    [
+     "W.",
+     "Mattheus"
+    ],
+    [
+     "R.",
+     "Schwarze"
+    ]
+   ],
+   "title": "Spectral analysis of the flow in a glottal model",
+   "original": "mv11_053",
+   "page_count": 4,
+   "order": 13,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "The details in the formation of the primary acoustic sources in voice production during phonation are not yet fully understood. Some acoustic sources are due to the unsteady flow evolving between the vocal folds, where a jet develops. The glottal jet flow downstream the vocal folds features characteristics which depend on the physiological conditions, e.g. the parameters in geometry, kinematics, material and fluid. A driven mechanical model of the vocal folds is used with the aim to study the flow details and the acoustic sources in the glottal jet. Numerical simulations and experimental measurements of the flow are carried out. The results show topological characteristics of the glottal jet flow. When prominent ventricular folds are included in the vocal folds model the jet evolves differently due to the interaction with these supraglottal structures. They lead to a changed distribution and abundance of the flow acoustic sources and changed spectral properties of the flow close to the glottis.\n",
+    "Index Terms. mechanical vocal folds model, ventricular folds, flow simulation, higher harmonics, spectral analysis\n",
+    ""
+   ]
+  },
+  "thomson11b_maveba": {
+   "authors": [
+    [
+     "Scott L.",
+     "Thomson"
+    ],
+    [
+     "P. R.",
+     "Murray"
+    ]
+   ],
+   "title": "Self-oscillating, multi-layer numerical and artificial vocal fold models with thin epithelial and loose cover layers",
+   "original": "mv11_057",
+   "page_count": 4,
+   "order": 14,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "Synthetic models are used to study vocal fold flow-induced vibration. Advantages include reproducibility and vibration frequencies typical of human phonation. Limitations of recent models include lack of a mucosal wave, excessive inferiorsuperior motion, and limited convergent-divergent motion. To overcome these limitations, a synthetic vocal fold model was developed that included separate epithelial and lamina propria layers. A corresponding finite element model was developed. High-speed imaging was used to quantify synthetic model motion, including videokymography and determination of three-dimensional marker trajectories. Both models exhibited similar characteristics in terms of vibration frequency (around 115 Hz) and maximum glottal width (just under 2 mm). The synthetic model onset pressure was 0.4 kPa, which is significantly lower than many previous synthetic models. These values are consistent with human phonation. Importantly, in both models mucosal wave-like motion was evident and alternating convergent-divergent intraglottal profiles were seen. These advantages will be useful in future experiments and simulations by providing models that exhibit more life-like response and motion. The two models are described, data are presented, significance of the models is discussed, and suggestions for future work are provided.\n",
+    "Index Terms. Vocal fold models, artificial models, finite element models\n",
+    ""
+   ]
+  },
+  "boyce11_maveba": {
+   "authors": [
+    [
+     "Suzanne",
+     "Boyce"
+    ],
+    [
+     "Harriet",
+     "Fell"
+    ],
+    [
+     "Lorin",
+     "Wilde"
+    ],
+    [
+     "Joel",
+     "MacAuslan"
+    ]
+   ],
+   "title": "Automated tools for identifying syllabic landmark clusters that reflect changes in articulation",
+   "original": "mv11_063",
+   "page_count": 14,
+   "order": 15,
+   "p1": "63",
+   "pn": "66",
+   "abstract": [
+    "We have developed a set of software tools to detect articulatory changes in the production of syllabic units based on acoustic landmark detection and classification. results from the application of this automatic analysis system to studies of parkinson's disease and sleep deprivation show the ability to detect subtle change. We are making these tools available as add-ons to systems such as Wavesurfer and R.\n",
+    "Index Terms. speech-acoustic landmarks, syllabic landmark cluster, automatic vocalization processing\n",
+    ""
+   ]
+  },
+  "fraile11_maveba": {
+   "authors": [
+    [
+     "Rubén",
+     "Fraile"
+    ],
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ],
+    [
+     "Nicolás",
+     "Sáenz-Lechón"
+    ],
+    [
+     "Juana M.",
+     "Gutiérrez-Arriola"
+    ],
+    [
+     "Víctor",
+     "Osma-Ruiz"
+    ]
+   ],
+   "title": "Spectral analysis of pathological voices: sustained vowels vs running speech",
+   "original": "mv11_067",
+   "page_count": 4,
+   "order": 16,
+   "p1": "67",
+   "pn": "70",
+   "abstract": [
+    "A short-time spectral analysis of normophonic and dysphonic voices is presented. This analysis has been performed on recordings of both sustained vowels and running speech for comparison purposes. The reported results indicate that pathological voices tend to have a higher concentration of energy in the lowest frequencies (20 to 300 Hz) and less energy in frequencies from 630 to 1,270 Hz. Additionally, pathological voices tend to experience quicker variations in spectral energy from 770 to 1,720 Hz.\n",
+    "Index Terms. Speech analysis, spectral analysis, correlation\n",
+    ""
+   ]
+  },
+  "torres11_maveba": {
+   "authors": [
+    [
+     "D.",
+     "Torres"
+    ],
+    [
+     "T.",
+     "Dekens"
+    ],
+    [
+     "H.",
+     "Martens"
+    ],
+    [
+     "G. van",
+     "Nuffelen"
+    ],
+    [
+     "M. S. de",
+     "Bodt"
+    ],
+    [
+     "Werner",
+     "Verhelst"
+    ],
+    [
+     "C. A.",
+     "Ferrer"
+    ]
+   ],
+   "title": "Sentence modality recognition in dysarthric speech",
+   "original": "mv11_071",
+   "page_count": 4,
+   "order": 17,
+   "p1": "71",
+   "pn": "74",
+   "abstract": [
+    "The ultimate goal of this research is to develop a tool for the automatic assessment and treatment of intonation and stress in dysarthric speech. In this paper, we deal with automatic sentence modality recognition in dysarthric speech. Two classes of sentence modalities were used: declarative statements and declarative questions. Statistics of prosodic features were used for the classification. Three well-known classification algorithms were tested with two different sets of features. The database used consisted of healthy and dysarthric speakers pronouncing three different sentences in both modalities. The healthy speakers were used as the training set and the dysathric speakers as the test set. A global classification accuracy of 84% has been achieved.\n",
+    "Index Terms. dysarthric speech, intonation, pitch, energy\n",
+    ""
+   ]
+  },
+  "mengistu11_maveba": {
+   "authors": [
+    [
+     "Kinfe T.",
+     "Mengistu"
+    ],
+    [
+     "Frank",
+     "Rudzicz"
+    ],
+    [
+     "Tiago H.",
+     "Falk"
+    ]
+   ],
+   "title": "Using acoustic measures to predict automatic speech recognition performance for dysarthric speakers",
+   "original": "mv11_075",
+   "page_count": 4,
+   "order": 18,
+   "p1": "75",
+   "pn": "78",
+   "abstract": [
+    "There is growing evidence that clinicians are becoming more receptive to automated computerized tools that assist in treatment decisions and outcomes. Automatic speech recognition (ASR), for example, has had some degree of success as an assistive technology (AT) tool for individuals with mild or moderate dysarthria. Notwithstanding, for a large percentage of individuals with more severe levels of the disorder, ASR has yet to achieve acceptable levels. In this paper, we explore the use of several acoustic measures as correlates of ASR performance for dysarthric speakers. By automatically predicting the potential efficacy of ASR for a particular dysarthric speaker, health care costs and waiting lists may be reduced as may device abandonment rates. Experiments with the \"Universal Access\" database of dysarthric speech suggest that some of the proposed measures achieve correlations as high as 0.86 with ASR accuracy.\n",
+    ""
+   ]
+  },
+  "gomezvilda11_maveba": {
+   "authors": [
+    [
+     "Pedro",
+     "Gómez-Vilda"
+    ],
+    [
+     "V.",
+     "Rodellar-Biarge"
+    ],
+    [
+     "V.",
+     "Nieto"
+    ],
+    [
+     "L. M.",
+     "Mazaira"
+    ],
+    [
+     "C.",
+     "Muñoz"
+    ],
+    [
+     "M.",
+     "Fernández"
+    ],
+    [
+     "E.",
+     "Toribio"
+    ]
+   ],
+   "title": "Voice quality analysis to detect neurological diseases",
+   "original": "mv11_079",
+   "page_count": 4,
+   "order": 19,
+   "p1": "79",
+   "pn": "82",
+   "abstract": [
+    "Neurological degenerative diseases are becoming a growing concern in modern society. The successful treatment of these diseases depend greatly in early detection. Speech has been routinely used by specialists as a valuable correlate in the assessment of pathological disease. Specifically voicing can serve as a very introspective correlate for this practice. The present paper uses a methodology previously employed in organic pathology voice quality assessment to explore to what extent specific low-level correlates of neurological diseases may be established. The methodology uses voiced recordings of sustained vowels to estimate vocal fold visco-elastic parameters from inverse filtering. These parameters show to be clearly influenced by unstable neuronal spiking resulting in tremor which affects many phonation cycles. The possible modeling of tremor could be used as an index to neuro-motor problems in phonation and help in differential diagnose of the pathology at an early stage. The paper presents examples on parameter estimations from study cases of spasmodic dysphonia and Parkinson Disease. Further development of research lines on this estimation methodology is also addressed.\n",
+    "Index Terms. Inverse Filtering, Vocal Fold Biomechanics, Parkinson Disease, Voice Quality Assessment, Tremor\n",
+    ""
+   ]
+  },
+  "jo11_maveba": {
+   "authors": [
+    [
+     "Cheolwoo",
+     "Jo"
+    ],
+    [
+     "Jaehee",
+     "Kim"
+    ]
+   ],
+   "title": "Estimation of multiple source component using genetic algorithm",
+   "original": "mv11_103",
+   "page_count": 4,
+   "order": 20,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "Source of speech signal consist of voiced part and unvoiced part. In conventional source-filter model, those two sources are considered to be independent. But in real situation it is difficult to segregate the source into voiced and unvoiced part. Actual source consist of mixture of two sources and the ratio varies according to the contents or intention of the speaker. In this paper we tried to segregate the components of voiced and unvoiced while considering source models. Source signals are modeled based on residual signal measured from inverse filtering. Two kinds of source models are assumed. Each model parameters are optimized to the original speech signal using genetic algorithm. The resulting parameters were compared in terms of the mel-cepstral distance to the original signal, spectrogram and spectral envelope from the synthesized signal.\n",
+    "Index Terms. Voice, source, model, synthesis, optimization\n",
+    ""
+   ]
+  },
+  "meyer11_maveba": {
+   "authors": [
+    [
+     "Tobias",
+     "Meyer"
+    ],
+    [
+     "Jakob",
+     "Unger"
+    ],
+    [
+     "F. Peter",
+     "Schwerdtfeger"
+    ],
+    [
+     "Michael",
+     "Döllinger"
+    ],
+    [
+     "Jörg",
+     "Lohscheller"
+    ]
+   ],
+   "title": "Impact of rigid endoscopic laryngoscopy on electroglottographic and acoustic parameters",
+   "original": "mv11_107",
+   "page_count": 3,
+   "order": 21,
+   "p1": "107",
+   "pn": "109",
+   "abstract": [
+    "Rigid high-speed laryngoscopy is the state-of-the-art examination technique for the visualization of vocal fold dynamics. However, due to the insertion of the rigid endoscope in the oral cavity the voice production process including the dynamics of vocal fold vibrations becomes impaired. Therefore, the currently available computerized analysis procedures, which have been designed to enable a highly precise determination of vocal fold vibrations, measure vocal fold dynamics within an non-physiological condition. In this study the influence of rigid laryngoscopy on vocal fold dynamics and on the objectively derived voice measures are quantitatively investigated.\n",
+    "Index Terms. rigid laryngoscopy, vocal fold, laryngeal imaging\n",
+    ""
+   ]
+  },
+  "ariaslondono11_maveba": {
+   "authors": [
+    [
+     "Julian D.",
+     "Arias-Londoño"
+    ],
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ],
+    [
+     "Nicolás",
+     "Sáenz-Lechón"
+    ],
+    [
+     "Víctor",
+     "Osma-Ruiz"
+    ],
+    [
+     "Juana M.",
+     "Gutiérrez-Arriola"
+    ]
+   ],
+   "title": "Automatic GRBAS assessment using complexity measures and a multiclass GMM-based detector",
+   "original": "mv11_111",
+   "page_count": 4,
+   "order": 22,
+   "p1": "111",
+   "pn": "114",
+   "abstract": [
+    "This paper presents a system for the automatic assessment of pathological voice quality according to the GRBAS protocol, which uses a short time scheme and a characterization based on 9 complexity measures, including conventional nonlinear statistics and 7 entropy based features. The classification is carried out using three different multiclass classification strategies all of them based on Gaussian Mixture Models. The performance of the system is measured in terms of efficiency and a statistical agreement index. The results show that the complexity analysis provides relevant information for the automatic assessment of voice quality according to the GRBAS protocol.\n",
+    "Index Terms. automatic Grbas assessment, complexity measures, multiclass classification\n",
+    ""
+   ]
+  },
+  "sousa11_maveba": {
+   "authors": [
+    [
+     "R.",
+     "Sousa"
+    ],
+    [
+     "A.",
+     "Ferreira"
+    ],
+    [
+     "Paavo",
+     "Alku"
+    ]
+   ],
+   "title": "Estimation of harmonic and noise components of the glottal excitation",
+   "original": "mv11_115",
+   "page_count": 4,
+   "order": 23,
+   "p1": "115",
+   "pn": "118",
+   "abstract": [
+    "This paper describes an algorithm which enables harmonic and noise splitting of the glottal excitation of voiced speech. The algorithm utilizes a straightforward harmonic and noise splitter which is utilized prior to glottal inverse filtering. The results show improved estimates of the glottal excitation in comparison to a known inverse filtering method.\n",
+    "Index Terms. Voice quality, voice diagnosis, glottal inverse filtering\n",
+    ""
+   ]
+  },
+  "saidi11_maveba": {
+   "authors": [
+    [
+     "Wafa",
+     "Saidi"
+    ],
+    [
+     "Aicha",
+     "Bouzid"
+    ],
+    [
+     "Noureddine",
+     "Ellouze"
+    ]
+   ],
+   "title": "Multiscale product correlation for the open quotient estimation from the noisy speech signal",
+   "original": "mv11_119",
+   "page_count": 4,
+   "order": 24,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "In this paper, an improved Multiscale Product-based Method is evaluated for the open quotient (OQ) estimation from the noisy speech signal. The method consists of making the multiscale wavelet transforms coefficients product at three scales. Our proposed approach is based upon correlation functions computed on the negative and the positive parts of the speech Multiscale Product (MP). It operates without determining the glottal opening and closing instants. Over each frame, the pitch period is given by the first maximum of the MP negative part autocorrelation and the open phase is given by the first maximum of the inter-correlation between the negative and positive parts. OQ is the ratio of the open phase and the pitch period. Tested on the Keele University database, our new approach proves to be robust to noise degradation. Key words: open quotient, speech, multi-scale product, correlation, noise.\n",
+    ""
+   ]
+  },
+  "fussi11_maveba": {
+   "authors": [
+    [
+     "Franco",
+     "Fussi"
+    ],
+    [
+     "Nico Paolo",
+     "Paolillo"
+    ]
+   ],
+   "title": "The vocal score profile/voice range profile ratio (p/p ratio) in artistic voice evaluation: application tested on opera and musical singers",
+   "original": "mv11_085",
+   "page_count": 4,
+   "order": 25,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "Performances of unsuited repertories to singer's vocal and technical features can cause increasing risks of vocal effort (VE) and fatigue or glottis injury (GI), then it's important to find the right repertory for artist's vocal and technical features. We made manual voice range profiles (VRP) and interviews regarding performed, studied or not studied roles in professional singers. The dynamic agility (DA) curve, that is the differentials' curve (note by note) between loud and soft phonation curves of phonetogram, was obtained from VRP. This type of curve allows us to assess the phonation system capacity all range long. We realised for each operatic and musical role a vocal score profile (VSP), that is a statistic method for vocal score semeiotic and accurately highlights the vocal role various musical features through histograms and numeric parameters (1). Then we superimposed the da graphs on vsp graphs creating a new graph (P/P ratio) that gives a synoptic summary of suitableness of examined singers' vocal and technical features in regard to considered role, revealing hard and critical moments eventually causing higher VE and GI risks (2). At last we compared data from P/P ratio with those from interviews, valuating correspondence between subjective and objective data (3).   This study describes explicative examples of graphs analysis; in all cases analyzed through P/P ratio we found easiness in data interpretation, reliability in suitableness evaluation and expectation, good correspondence between subjective and objective data.\n",
+    "Index Terms. vocal score profile, voice range profile, partiturogram, phonetogram, vocal effort.\n",
+    ""
+   ]
+  },
+  "paolillo11_maveba": {
+   "authors": [
+    [
+     "Nico Paolo",
+     "Paolillo"
+    ],
+    [
+     "Franco",
+     "Fussi"
+    ]
+   ],
+   "title": "Vocal dosimetry (APM) in opera and musical soloist singers during live performances in theatres: a pilot study",
+   "original": "mv11_089",
+   "page_count": 4,
+   "order": 26,
+   "p1": "89",
+   "pn": "92",
+   "abstract": [
+    "In clinical management of singers it's important to identify risk components of vocal fatigue and glottic damage, predicting and assessing the vocal cost of the various vocal performances to avoid any risk. Despite many difficulties, we made dosimetries on singers (9 opera and 9 musical) during live theatre performances.   Our aim was to evaluate phonatory behaviours before, during and after performances to determine the actual amount of vocal load and the possibility of assessing vocal fatigue and performative potential risks through the identification of a vocal recovery index (VRI). Since the analysis of numerical data from APM (F0; SPL, vocal doses) doesn't immediately highlight the extent of vocal load, we decided to elaborate data in order to propose a new index: VRI. We found that a lower VRI corresponds to difficult or fatiguing moments, while the opposite happens in moments of vocal rest or recovery. We suppose that there are different threshold ranges between males and females and between different vocal classes, therefore it would be desirable to establish VRI thresholds for references in evaluation of data from dosimetries.   In this study we also show differences between opera and musical soloist singers and describe F0 histogram like a real vocal score profile, SPL histogram like an on stage relative dynamic agility and phonation density graph like an on stage phonetogram to point out many vocal features. Finally, through this method, it could be possible to adapt technical and behavioural measures to avoid and reduce the risk of vocal fatigue or damage.\n",
+    "Index Terms. vocal dosimetry, vocal recovery index, vocal effort, vocal doses.\n",
+    ""
+   ]
+  },
+  "mendeslaureano11_maveba": {
+   "authors": [
+    [
+     "Janaina",
+     "Mendes-Laureano"
+    ],
+    [
+     "Marcos Felipe",
+     "Silva de Sá"
+    ],
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ],
+    [
+     "Nicolás",
+     "Sáenz-Lechón"
+    ],
+    [
+     "Víctor",
+     "Osma-Ruiz"
+    ],
+    [
+     "Juana M.",
+     "Gutiérrez-Arriola"
+    ]
+   ],
+   "title": "Influence of hormone replacement therapy on the singing voice tessitura of menopausal women",
+   "original": "mv11_093",
+   "page_count": 3,
+   "order": 27,
+   "p1": "93",
+   "pn": "95",
+   "abstract": [
+    "The differences in the functioning of phonatory organs define the divergent aspects between the speaking voice and the singing voice. The human voice represents the most natural and oldest sound source with which music can be reproduced. Physiologically, singing involves the ability to coordinate and control the musculature and structure of the vocal organ. Along life, the human body goes through anatomo-physiological changes, several of them due to the action of sex steroid hormones. The fluctuations of these hormones starting in puberty affect the vocal folds and the larynx. The literature suggests that hormone replacement therapy (HRT) has a beneficial effect on the larynx preveting the voice changes associated with menopause and increasing vocal longevity. The objective of the present study was to compare the vocal tessitura of menopausal female choir singers using HRT or not in order to determine whether hormone replacement interferes with this vocal parameter. The sample consisted of 38 menopausal women divided into four groups in accordance with the hormonal status. No significant difference in singing voice tessitura were detected between female choir singers taking or not HT with estradiol, tibolone and phytohormone.\n",
+    "Index Terms. Menopause, Voice, Choral, Singers, Sexual hormones.\n",
+    ""
+   ]
+  },
+  "quoidbach11_maveba": {
+   "authors": [
+    [
+     "Joseph",
+     "Quoidbach"
+    ]
+   ],
+   "title": "How can posturo-acoustic system help the singer in voice quality research?",
+   "original": "mv11_097",
+   "page_count": 3,
+   "order": 28,
+   "p1": "97",
+   "pn": "99",
+   "abstract": [
+    "Since september 2010, a postural-acoustic lab has been taking shape at the IMEP School of Music and Music education in Namur, Belgium.   Thanks to recent developments about the postural system in the field of neurophysiology, as well as to progress in information technology and robotics, it is now possible to provide Music students with a modern set of tools leading to the optimizing of an ergonomic position in performing, regardless of the instrument.   It's about moving away from the sole system of \"retro-control\" to a system of anticipation, in oTher words, from a system of feedback to a system of \"feedforward\".\n",
+    ""
+   ]
+  },
+  "dejonckere11_maveba": {
+   "authors": [
+    [
+     "Philippe H.",
+     "Dejonckere"
+    ]
+   ],
+   "title": "Special session: innovative ways for acoustic analysis of non-quasiperiodic voices",
+   "original": "mv11_124",
+   "page_count": 2,
+   "order": 29,
+   "p1": "124",
+   "pn": "125",
+   "abstract": [
+    "Objective measurement of the severity of dysphonia typically requires signal processing algorithms applied to acoustic recordings. Since Lieberman (1963) introduced the concept of perturbation analysis in the area of voice, the most dominant acoustic parameter in clinical practice is the classical jitter. However jitter measurements have some critical limitations. According to a widely accepted guideline, in sustained vowels of dysphonic voices, only perturbation measures less than about 5% (quasi-periodic voices) are reliable: this is related to period extraction methods.   This means that traditional acoustic analysis programs available for clinical use are not suited for quality assessment of strongly irregular voices, as substitution voices (voices not generated by two vocal folds, particularly after total/partial laryngectomy) or spasmodic dysphonias. The basic protocol for multidimensional voice assessment as recommended by the European Laryngological Society (Dejonckere et al., 2001) specifically mentions that it is not suitable for a few very special categories of voices, as substitution voices and spasmodic dysphonia. Nevertheless a valid quality evaluation is essential for substitution voices, as in laryngeal oncology there may be different therapeutical options comparable in survival rate for the same nature and stage of cancer. In such cases, functional outcomes (voice, respiration, swallowing) gain major significance.   The strong irregularity that characterizes the substitution voices is the major problem for usual acoustic analysis.   This special session deals for a part with successful improvements of the traditional approach of the cycle-tocycle variability. A breakthrough was made possible by the development of a synthesizer of \"realistic\" pathologic voices, that cannot be recognized by expert listeners from true patient's voices, and where the jitter \"put in\" is exactly known. This allows to check as well the ability of pattern recognition of the human visual system as the validity of new algorithms for period detection, in different conditions of noise. The practical result is that the traditional threshold limit value of 5 % for jitter measures may be transgressed under some conditions that will be discussed.   Furthermore, the question remains about the clinical value of perturbation measurements when analyzing running speech of patients with either substitution voices or spasmodic dysphonia. The same question is relevant for noise measurements. It still becomes clearer that the acoustic parameters that are in some way related to the selection of voiced/unvoiced parts of the signal are the most successful ones in discriminating either different types of substitution voices or therapeutical effect in spasmodic dysphonia.   Another problem is the presence of tremor in some pathological voices: this mainly concerns neurological voices, and particularly spasmodic dysphonia, a focal laryngeal dystonia.   The estimation of tremor attributes in a speech signal involves the accurate extraction of the signal that modulates the time-varying fundamental frequency. A new significant attribute of tremor is introduced. It derives from the time-varying characteristic of the modulation level, namely the deviation of the modulation level. The mean modulation level and its deviation are combined in a quality indicator trying to classify speakers according to the prevalence of tremor in their voice. This innovative approach can be tested on sustained vowels uttered by patients who suffer from spasmodic dysphonia before and after medical treatment.\n",
+    ""
+   ]
+  },
+  "mertens11_maveba": {
+   "authors": [
+    [
+     "C.",
+     "Mertens"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ],
+    [
+     "V.",
+     "Boucher"
+    ],
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "Analysis of glottal cycle tremor and jitter by empirical mode decomposition",
+   "original": "mv11_127",
+   "page_count": 4,
+   "order": 30,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "The presentation concerns a method for tracking cycle lengths in voiced speech and analysing vocal cycle lengh fluctuations. The tracking of cycle lengths is based on a dynamic programming algorithm, which does not request that the signal is locally periodic and the average period length is known a priori. The obtained cycle length time series is then decomposed into a sum of intrinsic mode functions by means of empirical mode decomposition. These mode functions are then assigned to three categories, which are cycle length jitter, cycle length tremor and trend owing to intonation and physiological tremor. The characteristics of slow and fast perturbations are reported.\n",
+    "Index Terms. vocal frequency, vocal tremor, vocal jitter, speech salience analysis, empirical mode decomposition\n",
+    ""
+   ]
+  },
+  "alpan11_maveba": {
+   "authors": [
+    [
+     "A.",
+     "Alpan"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ],
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "Cepstral analysis of perceptually rated synthetic disordered speech stimuli",
+   "original": "mv11_131",
+   "page_count": 4,
+   "order": 31,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "A number of studies have shown that the amplitude of the first rahmonic peak (R1) in the cepstrum may indicate hoarse voice quality. The cepstrum is obtained by taking the inverse Fourier transform of the log-magnitude spectrum. The goal of the article is to apply cepstral analysis to a perceptually evaluated corpus of synthetic stimuli to learn about the link between the signal properties (fixed by the synthesizer parameters) and the first rahmonic peak. The synthetic stimuli have been generated by a synthesizer of disordered voices that has been shown to generate natural-sounding speech fragments comprising different vocal perturbations. A second objective is to examine the link between first rahmonic peak and perceived breathiness and roughness, link which has not been studied previously. The speech stimuli have been perceptually assessed by nine listeners according to grade, breathiness and roughness. A number of cepstral analysis alternatives have been implemented, including period-synchronous temporal frames and harmonic-synchronous band-limited analyses.\n",
+    "Index Terms. cepstral analysis, synthetic disordered speech, first rahmonic amplitude\n",
+    ""
+   ]
+  },
+  "fraj11_maveba": {
+   "authors": [
+    [
+     "S. Ben Elhadj",
+     "Fraj"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ],
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "Synthesis of breathy and rough voices with a view to validating perceptual and automatic glottal cycle pattern recognition",
+   "original": "mv11_135",
+   "page_count": 4,
+   "order": 32,
+   "p1": "135",
+   "pn": "138",
+   "abstract": [
+    "The framework of the presentation is the assessment of the ability of human raters or speech-processing software to detect glottal cycles in speech sounds and measure their lengths in synthetic breathy and rough voices. The synthesis of hoarse voices designates the generation of speech sounds the timbre of which simulates the voice quality of dysphonic speakers. The added value of synthetically generated test stimuli is that the user may fix and know their properties exactly. The corpus comprises synthetic vowels [a] combining seven levels of frequency jitter and three levels of additive noise. The presentation is focused on the simulation of rough and breathy voices via frequency modulation of the glottal excitation model and addition of pulsatile noise at the glottis. Furthermore, the genuine glottal cycle lengths and glottal source to noise ratios are obtained to which lengths and ratios inferred via signal processing may be compared. The glottal cycle lengths are acquired by tracking the phase of the harmonic driving functions of the speech sound synthesizer. Actual glottal signal-to-noise ratios are measured by summing separately over the sound stimuli the squared clean volume velocity and pulsatile noise samples.\n",
+    "Index Terms. speech synthesis, breathiness, roughness, frequency jitter, amplitude shimmy, and additive glottal noise\n",
+    ""
+   ]
+  },
+  "koutsogiannaki11_maveba": {
+   "authors": [
+    [
+     "Maria",
+     "Koutsogiannaki"
+    ],
+    [
+     "Yannis",
+     "Pantazis"
+    ],
+    [
+     "Yannis",
+     "Stylianou"
+    ],
+    [
+     "Philippe H.",
+     "Dejonckere"
+    ]
+   ],
+   "title": "Tremor in speakers with spasmodic dysphonia",
+   "original": "mv11_139",
+   "page_count": 4,
+   "order": 33,
+   "p1": "139",
+   "pn": "142",
+   "abstract": [
+    "The objective of this work is the estimation of vocal tremor in patients with spasmodic dysphonia before and after treatment, and the comparison of their tremor characteristics with those estimated from healthy speakers. As an outcome, a new tremor attribute is introduced, the deviation of the modulation level and a novel method is proposed for classifying speakers according to the prevalence of tremor in their voice. Results are consistent with subjective evaluations on patients who suffer from spasmodic dysphonia and confirm that the proposed method can be used for accurate estimation and objective ranking of the severity of tremor.\n",
+    "Index Terms. voice quality, vocal tremor, dysphonia, deviation of modulation level\n",
+    ""
+   ]
+  },
+  "kacha11_maveba": {
+   "authors": [
+    [
+     "A.",
+     "Kacha"
+    ],
+    [
+     "Francis",
+     "Grenez"
+    ],
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "Assessment of vocal dysperiodicities in disordered speech based on empirical mode decomposition",
+   "original": "mv11_143",
+   "page_count": 4,
+   "order": 34,
+   "p1": "143",
+   "pn": "146",
+   "abstract": [
+    "in this paper, empirical mode decomposition (eMd) is proposed as an alternative method in the framework of acoustic analysis of disordered speech for the purpose of clinical evaluation of voice. the empirical mode decomposition algorithm decomposes adaptively a given signal into oscillation modes extracted from the signal itself. the proposed approach for objective assessment of vocal dysperiodicity consists of two steps. in the first step, the dysperiodicity is estimated by using the generalized variogram. in the second step, the estimated dysperiodicity is decomposed into several narrow-band oscillating components via the eMd algorithm followed by a computation of the segmental signal-to-iMf ratio (sirseG) which is used as an acoustic marker for vocal dysperiodicity assessment. the proposed method is evaluated on a corpus comprising 251 normophonic and dysphonic speakers. results show that the acoustic marker involving some selected iMfs outperforms that obtained from a fullband analysis in terms of correlation with perceptual scores.\n",
+    "Index Terms. vocal dysperiodicities, empirical mode decomposition, disordered speech.\n",
+    ""
+   ]
+  },
+  "giordano11_maveba": {
+   "authors": [
+    [
+     "A.",
+     "Giordano"
+    ],
+    [
+     "Philippe H.",
+     "Dejonckere"
+    ],
+    [
+     "Claudia",
+     "Manfredi"
+    ]
+   ],
+   "title": "Acoustic assessment of spasmodic dysphonia using a new multipurpose voice analysis tool",
+   "original": "mv11_147",
+   "page_count": 4,
+   "order": 35,
+   "p1": "147",
+   "pn": "150",
+   "abstract": [
+    "A new multipurpose voice analysis tool named BioVoice2, suited for the analysis of strongly irregular signals and long sentences, is applied on voices of patients diagnosed with adductor spasmodic dysphonia before and after treatment with botulinum toxin injection. The speech material consists of 40 short German sentences phonetically selected to be constantly voiced. nine acoustic parameters were taken into account from all those estimated with BioVoice2. Significant improvement of voice quality was estimated by a subset of these parameters related to increased voicing, improved regularity of vocal fold vibration, reduction of spasms and faster speech rate. BioVoice2 proves to be a useful tool for objectifying voice quality also in case of strong signal irregularity.\n",
+    "Index Terms. spasmodic dysphonia, voice analysis, acoustic parameters, botulinum\n",
+    ""
+   ]
+  },
+  "evgrafova11_maveba": {
+   "authors": [
+    [
+     "K. V.",
+     "Evgrafova"
+    ],
+    [
+     "V. V.",
+     "Evdokimova"
+    ]
+   ],
+   "title": "Acoustic analysis of vocal fatigue in professional voice users",
+   "original": "mv11_153",
+   "page_count": 4,
+   "order": 36,
+   "p1": "153",
+   "pn": "156",
+   "abstract": [
+    "Vocal fatigue is a voice symptom which is frequently reported by professional voice users. Teachers, singers, actors and other professions that require prolonged voice use are especially at-risk group. The vocal fatigue results in auditory perceptual and acoustic changes in the voice signal and can lead to serious pathological conditions. The present study has examined acoustic manifestations of the vocal fatigue in pronunciation teachers who seem to be particularly susceptible vocal and articulatory fatigue. In the paper detailed acoustic analysis of the data obtained is presented. The results of the acoustic analysis showed a consistent dependency between acoustic parameters and vocal fatigue.\n",
+    "Index Terms. vocal fatigue, acoustic analysis, professional voice users\n",
+    ""
+   ]
+  },
+  "verduyckt11_maveba": {
+   "authors": [
+    [
+     "I.",
+     "Verduyckt"
+    ],
+    [
+     "C.",
+     "Rungassamy"
+    ],
+    [
+     "M.",
+     "Remacle"
+    ],
+    [
+     "T.",
+     "Dubuisson"
+    ]
+   ],
+   "title": "Real-time embedded tracking of patient reported vocal discomfort in professional settings",
+   "original": "mv11_157",
+   "page_count": 4,
+   "order": 37,
+   "p1": "157",
+   "pn": "160",
+   "abstract": [
+    "The aim of the present study was to evaluate patient-report of vocal discomfort by means of a portable device, designed for the continuous assessment of voice disorders with real-time coupling of acoustic and patient self-evaluation measures.   10 teachers were equipped with the portable device embedding our vocal discomfort software during 3 days in their professional settings. They had to note their vocal discomfort during the day on a visual analogue scale (vas) ranging from 0-100 units, either spontaneously, or following an auditory prompt.   The adequacy of the device and of the software was evaluated by a questionnaire addressing the wearability of the device, the easiness of the software, the adequacy of the scale and the subjects' annotation behavior. The adequacy of the scale was further examined by the analysis of the vocal discomfort ratings and their change in value across time. the results show good wearability, easiness, and annotation behavior scores, subjects made regular annotations even without auditory prompting. The discomfort scores generally increased during a working day.   The real-time embedded tracking of patient reported vocal discomfort in professional settings can thus be advantageously performed by a portable device, embedding our auto-evaluation software.\n",
+    "Index Terms. vocal discomfort, real time embedded tracking.\n",
+    ""
+   ]
+  },
+  "dejonckere11b_maveba": {
+   "authors": [
+    [
+     "Philippe H.",
+     "Dejonckere"
+    ]
+   ],
+   "title": "Determinants of voice-related symptoms and complaints in different categories of teachers: the importance of the psycho-emotional component",
+   "original": "mv11_161",
+   "page_count": 4,
+   "order": 38,
+   "p1": "161",
+   "pn": "164",
+   "abstract": [
+    "Voice problems have become a major occupational health issue within the teaching community, as they frequently result in work absenteeism and need for professional re-orientation. Four main risk factors have been identified: voice loading, general health condition, environmental factors and psycho-emotional factors (occupational stress and frustration).   In order to specifically consider the 'stress' aspect, we investigated voice complaints and voice-related quality of life in the teachers of a special education setting: the national military academy for future noncommissioned officers, actually adolescents in the age 12 to 18. The outcomes were compared with those from recent reports about similar studies in common secondary schools in different european countries and in the usa. our results demonstrate that the specific military teachers' population considered in this study clearly shows significantly lower prevalence of voice problems than comparable teachers' populations in 'common' secondary schools.   On the other hand, we investigated two specific groups of teachers supposed to have a heavier physical voice load than classical teachers: teachers of physical education and swimming teachers (in secondary schools). Concerning these two classes of teachers, the clear overall similitude with classical teachers provides a strong argument to consider that vocal load and environment is not the sole – or by far the most important – cause of voice complaints.\n",
+    "Index Terms. teachers, voice load, psycho-emotional complaints, stress.\n",
+    ""
+   ]
+  },
+  "sapir11_maveba": {
+   "authors": [
+    [
+     "Shimon",
+     "Sapir"
+    ],
+    [
+     "Sabine",
+     "Skodda"
+    ],
+    [
+     "Athanasios",
+     "Tsanas"
+    ],
+    [
+     "Jan",
+     "Rusz"
+    ]
+   ],
+   "title": "Special session: acoustic analysis of Parkinsonian speech: issues, methods, and applications",
+   "original": "mv11_166",
+   "page_count": 2,
+   "order": 39,
+   "p1": "166",
+   "pn": "167",
+   "abstract": [
+    "Parkinson's disease (PD) is a slowly progressive and highly debilitating disease of the central nervous system, affecting 8,000,000 or more people the world over. By the time the disease is diagnosed, 60% of nerve cells in the substantia nigra are degenerated and 80% of dopamine is depleted in the striatum. There is an urgent need for cost-effective methods to detect the disease in its early phases, to differentiate it from other diseases, and to monitor its progression and its response to treatment. Parkinsonian speech is characterized by abnormally low voice intensity, with vocal decay, poor voice quality, reduced prosodic pitch and loudness inflection, imprecise vowels and consonants, dysrhythmia and short rushes of speech, mumbling, and reduced speech intelligibility   Acoustic analysis of Parkinsonian speech is noninvasive, precise, valid, reliable and cost effective. Recently, there have been new acoustic analysis methods to capture different aspects of these speech abnormalities. The purpose of this seminar is to describe these methods, present empirical findings, and discuss the advantages, disadvantages, and potential solutions of these methods. Ultimately, a combination of these and other new methods is likely to yield a powerful way to detect early signs of PD, and to characterize and monitor the disease as it progresses or in response to treatment.\n",
+    ""
+   ]
+  },
+  "tsanas11_maveba": {
+   "authors": [
+    [
+     "Athanasios",
+     "Tsanas"
+    ],
+    [
+     "Max A.",
+     "Little"
+    ],
+    [
+     "Patrick E.",
+     "McSharry"
+    ],
+    [
+     "Lorraine O.",
+     "Ramig"
+    ]
+   ],
+   "title": "Robust parsimonious selection of dysphonia measures for telemonitoring of Parkinson's disease symptom severity",
+   "original": "mv11_169",
+   "page_count": 4,
+   "order": 40,
+   "p1": "169",
+   "pn": "172",
+   "abstract": [
+    "Parkinson's disease (pd) symptom severity is typically quantified using the standard clinical metric Unified Parkinson's Disease Rating Scale (UPDRS) which spans the range 0-176 (0 denotes healthy). This assessment requires the patient's physical presence in the clinic, is time consuming, and relies on the clinical rater's subjective evaluation and experience; practice has shown that expert clinicians might differ by as much as 4-5 UPDRS points in their evaluations. We had previously developed a statistical machine learning framework which enables accurate and objective quantification of average PD symptom severity using exclusively speech signals. for this purpose, we evaluated 132 speech signal processing algorithms (dysphonia measures), which attempt to capture distinctive characteristics in PD subjects' voice. on a very large database of about 6,000 phonations, we could replicate the clinical experts' assessments within less than two UPDRS points' error. in this paper, we focus on identifying the most successful of the original 132 dysphonia measures in estimating UPDRS using five robust feature selection techniques. We demonstrate that we can improve on our previous findings using only 15 dysphonia measures, where the selected measures also tentatively indicate the most representative pathophysiological characteristics in male and female PD voices.\n",
+    "Index Terms. Parkinson's disease, telemedicine, Unified Parkinson's Disease Rating Scale, feature selection\n",
+    ""
+   ]
+  },
+  "sapir11b_maveba": {
+   "authors": [
+    [
+     "Shimon",
+     "Sapir"
+    ],
+    [
+     "Lorraine O.",
+     "Ramig"
+    ],
+    [
+     "J.",
+     "Spielman"
+    ],
+    [
+     "C.",
+     "Fox"
+    ]
+   ],
+   "title": "Acoustic metrics of vowel articulation in Parkinson's disease: vowel space area (VSA) vs. vowel articulation index (VAI)",
+   "original": "mv11_173",
+   "page_count": 3,
+   "order": 41,
+   "p1": "173",
+   "pn": "175",
+   "abstract": [
+    "Acoustic analysis of speech is a powerful, noninvasive, and cost effective tool to study different aspects of motor speech disorders such as the dysarthria associated with PD. In this presentation we will discuss the rationale for using acoustic analysis, its advantages and disadvantages, and methods to overcome these disadvantages. As an example, we will address the use of vowel space area (VSA) in the study of dysarthric vowel articulation in PD. Although the VSA is theoretically driven, it is highly sensitive to inter-speaker variability, which, statistically speaking, introduces noise. This noise can mask important differences that do exist between speakers with and without PD. Some of this noise can e reduced by logarithmic transformation of the formant frequencies. However, even with this transformation, some statistical noise might be still present. recently sapir and colleagues introduced two acoustic metrics - the vowel articulation index (VAI) and its inverse, the formant centralization ratio (fcr) - that are theoretically driven and empirically tested. These metrics show promise as they effectively reduce inter-speaker variability noise while maintaining high sensitivity to vowel centralization (the latter reflecting abnormally reduced (hypokinetic) articulatory movements in PD). Data will be presented of 38 individuals with parkinson's disease and 14 healthy controls whose speech was effectively differentiated by the VAI, but not the VSA, yet the logarithmically scaled VSA (lnvsa) did significantly differentiate between dysarthric and normal speech, although not as strongly as the VAI.\n",
+    "Index Terms. Parkinson disease, acoustic analysis, speech\n",
+    ""
+   ]
+  },
+  "skodda11_maveba": {
+   "authors": [
+    [
+     "Sabine",
+     "Skodda"
+    ]
+   ],
+   "title": "Acoustic analysis of speech as a promising instrument for monitoring and differential diagnosis of Parkinsons's disease",
+   "original": "mv11_177",
+   "page_count": 4,
+   "order": 42,
+   "p1": "177",
+   "pn": "180",
+   "abstract": [
+    "Parkinsonian speech is characterized by abnormally low voice intensity, with vocal decay, poor voice quality, reduced prosodic pitch and loudness inflection, imprecise vowels and consonants, dysrhythmia and short rushes of speech, mumbling, and reduced speech intelligibility. Recently, there have been new acoustic analysis methods to capture different aspects of these speech abnormalities. In this review, selected studies are summarized in order to illustrate the application of acoustic analysis of speech for the objective measurement and quantification of different aspects of parkinsonian dysarthria.\n",
+    "Index Terms. parkinson´s disease, acoustic analysis of speech, hypokinetic dysarthria, dysprosody, vowel articulation, syllable repetition, motor speech performance\n",
+    ""
+   ]
+  },
+  "rusz11_maveba": {
+   "authors": [
+    [
+     "Jan",
+     "Rusz"
+    ],
+    [
+     "R.",
+     "Cmejla"
+    ],
+    [
+     "H.",
+     "Ruzickova"
+    ],
+    [
+     "J.",
+     "Klempir"
+    ],
+    [
+     "V.",
+     "Majerova"
+    ],
+    [
+     "J.",
+     "Picmausova"
+    ],
+    [
+     "J.",
+     "Roth"
+    ],
+    [
+     "E.",
+     "Ruzicka"
+    ]
+   ],
+   "title": "Acoustic analysis of voice and speech characteristics in early untreated Parkinson's disease",
+   "original": "mv11_181",
+   "page_count": 4,
+   "order": 43,
+   "p1": "181",
+   "pn": "184",
+   "abstract": [
+    "Parkinson's disease (PD) is a neurological illness characterized by progressive loss of dopaminergic neurons, primarily in the substantia nigra pars compacta. changes in speech associated with hypokinetic dysarthria are a common manifestation in patients with idiopathic PD. the aim of this study is to investigate the feasibility of automated acoustic measures for the identification of voice and speech disorders in PD. the speech data were collected from 46 czech native speakers, 24 with early PD before receiving pharmacotherapy treatment. We have applied several traditional and non-standard measurements in combination with statistical decision-making strategy to assess the extent of vocal impairment of recruited speakers. subsequently, we have applied support vector machine to find the best combination of measurements to differentiate PD from healthy subjects. this method leads to overall classification performance of 85%. admittedly, we have found relationships between measures of phonation and articulation and bradykinesia and rigidity in PD. in conclusion, the acoustic analysis can ease the clinical assessment of voice and speech disorders, and serve as measures of clinical progression as well as in the monitoring of treatment effects.\n",
+    "Index Terms. parkinson's disease, speech disorders, hypokinetic dysarthria, acoustic analysis, biomedical application\n",
+    ""
+   ]
+  },
+  "palumbo11_maveba": {
+   "authors": [
+    [
+     "A.",
+     "Palumbo"
+    ],
+    [
+     "Pierangelo",
+     "Veltri"
+    ],
+    [
+     "Barbara",
+     "Calabrese"
+    ],
+    [
+     "P.",
+     "Vizza"
+    ],
+    [
+     "Mario",
+     "Cannataro"
+    ],
+    [
+     "A.",
+     "Garozzo"
+    ],
+    [
+     "N.",
+     "Lombardo"
+    ],
+    [
+     "F.",
+     "Amato"
+    ]
+   ],
+   "title": "Experiences of using a DSP based device for vocal signal analysis",
+   "original": "mv11_187",
+   "page_count": 3,
+   "order": 44,
+   "p1": "187",
+   "pn": "189",
+   "abstract": [
+    "This paper presents the implementation of a dsp based acquisition and elaboration system for voice pathologies early identification. The proposed system performs real-time spectro-acoustic analysis of acquired voice samples and gives a visual feedback to alert about \"potential\" presence of anomalies in vocal robes. The prototype can also be used for rehabilitation purpose after medical treatment or surgery.\n",
+    "Index Terms. vocal tract pathologies, DSP technology, portable device, screening\n",
+    ""
+   ]
+  },
+  "wokurek11_maveba": {
+   "authors": [
+    [
+     "Wolfgang",
+     "Wokurek"
+    ],
+    [
+     "Manfred",
+     "Pützer"
+    ]
+   ],
+   "title": "Acceleration sensor measurements of vibrations of the larynx in patients with vocal fold adduction deficiencies",
+   "original": "mv11_191",
+   "page_count": 4,
+   "order": 45,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "In this study we investigate voice productions of normal speakers and patients with varying vocal fold adduction deficiencies using a noninvasive method to measure spatial vibrations of the larynx. The current version accv4 of our acceleration sensor device was used. The study's primary goal is to find out whether lesions of vocal folds lead to additional spatial vibration modes compared to a non-disordered voice. Our results allow to assume that the composition of spatial vibration modes at the skin over the cricothyroid ligament may depend on the symmetry of vocal fold movements.\n",
+    "Index Terms. acceleration sensor, vocal fold adduction deficiencies\n",
+    ""
+   ]
+  },
+  "manfredi11_maveba": {
+   "authors": [
+    [
+     "Claudia",
+     "Manfredi"
+    ],
+    [
+     "Philippe H.",
+     "Dejonckere"
+    ]
+   ],
+   "title": "Voice monitoring: technical and clinical aspects",
+   "original": "mv11_195",
+   "page_count": 4,
+   "order": 46,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "Occupational voice disorders are observed with increasing frequency in otolaryngological consultations. Devices have been developed that provide objective data on the way individuals use their voices throughout the day outside the clinic. However they do not provide information about the acoustic indexes of voice quality. A critical point is also the choice of the sensor.   The device here proposed could be defined as a \"portable laboratory\" for voice analysis, its main advantage being the reliability of estimated parameters from both sustained vowels and running speech. A prototype has been set up on a DSP board and tested on short sustained vowels. Foreseen applications include: basic research, medico-legal, quantification of voice plasticity, vocal function exercises during rehabilitation, voice disorders, short term feedback in singing voice, etc..\n",
+    "Index Terms. voice analysis, dosimeter, portable device, occupational voice disorders\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Infant Cry",
+   "papers": [
+    "canoortiz11_maveba",
+    "orlandi11_maveba"
+   ]
+  },
+  {
+   "title": "Obstructive Sleep Apnoea",
+   "papers": [
+    "elisha11_maveba",
+    "dafna11_maveba",
+    "gritti11_maveba"
+   ]
+  },
+  {
+   "title": "Imaging",
+   "papers": [
+    "seppanen11_maveba",
+    "unger11_maveba",
+    "cerrolaza11_maveba",
+    "sakakibara11_maveba"
+   ]
+  },
+  {
+   "title": "Computational and Experimental Vocal Fold Modelling (Special Session)",
+   "papers": [
+    "thomson11_maveba",
+    "weiss11_maveba",
+    "huttner11_maveba",
+    "brucker11_maveba",
+    "thomson11b_maveba"
+   ]
+  },
+  {
+   "title": "Signal Analysis 1, 2",
+   "papers": [
+    "boyce11_maveba",
+    "fraile11_maveba",
+    "torres11_maveba",
+    "mengistu11_maveba",
+    "gomezvilda11_maveba",
+    "jo11_maveba",
+    "meyer11_maveba",
+    "ariaslondono11_maveba",
+    "sousa11_maveba",
+    "saidi11_maveba"
+   ]
+  },
+  {
+   "title": "Singing Voice",
+   "papers": [
+    "fussi11_maveba",
+    "paolillo11_maveba",
+    "mendeslaureano11_maveba",
+    "quoidbach11_maveba"
+   ]
+  },
+  {
+   "title": "Innovative Ways for Acoustic Analysis of Non-Quasiperiodic Voices (Special Session)",
+   "papers": [
+    "dejonckere11_maveba",
+    "mertens11_maveba",
+    "alpan11_maveba",
+    "fraj11_maveba",
+    "koutsogiannaki11_maveba",
+    "kacha11_maveba",
+    "giordano11_maveba"
+   ]
+  },
+  {
+   "title": "Professional Voice",
+   "papers": [
+    "evgrafova11_maveba",
+    "verduyckt11_maveba",
+    "dejonckere11b_maveba"
+   ]
+  },
+  {
+   "title": "Acoustic Analysis of Parkinsonian Speech: Issues, Methods, and Applications (Special Session)",
+   "papers": [
+    "sapir11_maveba",
+    "tsanas11_maveba",
+    "sapir11b_maveba",
+    "skodda11_maveba",
+    "rusz11_maveba"
+   ]
+  },
+  {
+   "title": "Devices",
+   "papers": [
+    "palumbo11_maveba",
+    "wokurek11_maveba",
+    "manfredi11_maveba"
+   ]
+  }
+ ]
+}

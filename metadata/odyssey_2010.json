@@ -1,0 +1,1392 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2010)",
+ "location": "Brno, Czech Republic",
+ "startDate": "28/6/2010",
+ "endDate": "1/7/2010",
+ "conf": "Odyssey",
+ "year": "2010",
+ "name": "odyssey_2010",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2010)",
+ "date": "28 June - 1 July 2010",
+ "papers": {
+  "jessen10_odyssey": {
+   "authors": [
+    [
+     "Michael",
+     "Jessen"
+    ]
+   ],
+   "title": "Current developments in forensic speaker identification",
+   "original": "od10_001",
+   "page_count": 0,
+   "order": 1,
+   "p1": "paper 01",
+   "pn": "",
+   "abstract": [
+    "The presentation will provide an overview of current tasks, methods and problems in forensic speaker identification. After giving brief introductions to speaker profiling and voice line-ups, special attention will be given to the forensic task of voice comparison. Most forensic labs and practitioners have approached this task using methods derived from phonetics and linguistics. Some of the corresponding speaker parameters that are commonly used in forensic speaker comparison, as well as the relevant research will be discussed. More recently, some labs have added automatic speaker recognition to their set of methods. Experience with this method as well as challenges deriving from limited duration and technical quality along with stylistic and technical mismatch will be illustrated.\n",
+    ""
+   ]
+  },
+  "kenny10_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ]
+   ],
+   "title": "Bayesian Speaker Verification with Heavy-Tailed Priors",
+   "original": "od10_014",
+   "page_count": 0,
+   "order": 2,
+   "p1": "paper 14",
+   "pn": "",
+   "abstract": [
+    "We describe a new approach to speaker verification which, like Joint Factor Analysis, is based on a generative model of speaker and channel effects but differs from Joint Factor Analysis in several respects. Firstly, each utterance is represented by a low dimensional feature vector, rather than by a high dimensional set of Baum-Welch statistics. Secondly, heavy-tailed distributions are used in place of Gaussian distributions in formulating the model, so that the effect of outlying data is diminished, both in training the model and at recognition time. Thirdly, the likelihood ratio used for making verification decisions is calculated (using variational Bayes) in a way which is fully consistent with the modeling assumptions and the rules of probability. Finally, experimental results show that, in the case of telephone speech, these likelihood ratios do not need to be normalized in order to set a trial-independent threshold for verification decisions. We report results on female speakers for several conditions in the NIST 2008 speaker recognition evaluation data, including microphone as well as telephone speech. As measured both by equal error rates and the minimum values of the NIST detection cost function, the results on telephone speech are about 30% better than we have achieved using Joint Factor Analysis.\n",
+    ""
+   ]
+  },
+  "balding10_odyssey": {
+   "authors": [
+    [
+     "David",
+     "Balding"
+    ]
+   ],
+   "title": "Interpretation of DNA evidence as a paradigm for speaker recognition",
+   "original": "od10_027",
+   "page_count": 0,
+   "order": 3,
+   "p1": "paper 27",
+   "pn": "",
+   "abstract": [
+    "The speaker is an expert in the interpretation of forensic DNA profile evidence, with little experience of speaker recognition problems. In this talk, he will review many issues that have confronted DNA profile experts when presenting evidence in court: problems such as population structure and (possibly remote) relatedness of suspects, sources of uncertainty in the use databases for allele frequency estimation, and the stochastic nature of DNA profiles in the presence of low amounts of DNA. Although the calculation of likelihood ratios in many of these settings is problematic, the use of likelihood ratios to evaluate evidence has substantial support from academic researchers. It still meets resistance in practice, despite the serious flaws of alternative approaches. Even the academic supporters agree on the difficulty of trying to explain to judges and jurors how to correctly use likelihood ratios as a guide to rational thought, but on the basis of substantial courtroom experience the present speaker will argue that this is possible. Looking across to the speaker recognition problem, similarities and differences will be explored, and suggestions for research directions will be proposed.\n",
+    ""
+   ]
+  },
+  "baum10_odyssey": {
+   "authors": [
+    [
+     "Doris",
+     "Baum"
+    ],
+    [
+     "Daniel",
+     "Schneider"
+    ],
+    [
+     "Timo",
+     "Mertens"
+    ],
+    [
+     "Joachim",
+     "Kohler"
+    ]
+   ],
+   "title": "Constrained Subword Units for Speaker Recognition",
+   "original": "od10_002",
+   "page_count": 6,
+   "order": 4,
+   "p1": "paper 02",
+   "pn": "",
+   "abstract": [
+    "Phonetic features have been proposed to overcome performance degradation in spectral speaker recognition in dif?cult acoustic conditions. The harmful effect of those conditions, however, is not restricted to spectral systems but also affects the performance of the open-loop phone recognisers on which phonetic systems are based. In automatic speech recognition, larger subword units and the use of additional constraints from language models have been employed to improve robustness against adverse acoustic conditions. This paper evaluates the performance of more constrained phone recognition and different subword units for speaker recognition on heterogeneous broadcast data from German parliamentary speeches. Using phone clusters and a strong language model instead of phones obtained from unconstrained recognition improves the equal error rate from 14.3% to 8.6% on the given data.\n",
+    ""
+   ]
+  },
+  "sarkar10_odyssey": {
+   "authors": [
+    [
+     "Achintya Kumar",
+     "Sarkar"
+    ],
+    [
+     "S",
+     "Umesh"
+    ],
+    [
+     "Shakti Prasad",
+     "Rath"
+    ]
+   ],
+   "title": "Computationally Efficient Speaker Identification for Large Population Tasks using MLLR and Sufficient Statistics",
+   "original": "od10_003",
+   "page_count": 5,
+   "order": 5,
+   "p1": "paper 03",
+   "pn": "",
+   "abstract": [
+    "In conventional Speaker-Identification using GMM-UBM framework, the likelihood of the given test utterance is computed with respect to all speaker-models before identifying the speaker, based on the maximum likelihood criterion. The calculation of likelihood score of the test utterance is computationally intensive, especially when there are tens of thousands of speakers in database. In this paper, we propose a computationally efficient (Fast) method to calculate the likelihood of the test utterance using speaker-specific Maximum Likelihood Linear Regression (MLLR) matrices (which are precomputed) and sufficient statistics estimated from the test utterance only once. We show that while this method is an order of magnitude faster, there is some degradation in performance. Therefore, we propose a cascaded system with the Fast MLLR system identifying the top-N most probable speakers, followed by a conventional GMM-UBM to identify the most probable speaker from the top-N speakers. Experiments performed on the NIST 2004 database indicate that the cascaded system provides a speed up of 3.16 and 6.08 times for 1-side test (core condition) and 10 sec. test condition respectively, with a marginal degradation in accuracy over the conventional GMM-UBM system.\n",
+    ""
+   ]
+  },
+  "laskowski10_odyssey": {
+   "authors": [
+    [
+     "Kornel",
+     "Laskowski"
+    ],
+    [
+     "Qin",
+     "Jin"
+    ]
+   ],
+   "title": "Modeling Prosody for Speaker Recognition: Why Estimating Pitch May Be a Red Herring",
+   "original": "od10_004",
+   "page_count": 8,
+   "order": 6,
+   "p1": "paper 04",
+   "pn": "",
+   "abstract": [
+    "It has long been claimed that spectral envelope features outperform prosodic features on speaker recognition tasks. However, the reasons for such an arrangement are not entirely compelling. In the current work we present some evidence to challenge these claims. We propose that energy found at harmonically related frequencies encodes the acoustic correlates of variables which are typically referred to as prosodic, making harmonic energy summation highly relevant. Its frequent implementation for estimating pitch appears to have gone unnoticed by the speaker recognition community, because pitch estimators quite deliberately discard what they compute, retaining only the abscissa of a maximum. We argue that this latter step renders pitch estimation somewhat ill-suited to speaker recognition tasks. We present the detailed construction of a discrete transform, and a normalization, which are amenable to relatively laconic modeling. With this framework we achieve or exceed the performance of spectral envelope features in nearfield, matched-channel and matched multisession conditions; performance improves following envelope destruction. We believe these results may have far-reaching consequences. For speech processing in a multitude of applications, they suggest that modeling the harmonic structure in the way we propose is at least as relevant as is modeling other aspects of the signal.\n",
+    ""
+   ]
+  },
+  "abad10_odyssey": {
+   "authors": [
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "Jordi",
+     "Luque"
+    ]
+   ],
+   "title": "Connectionist Transformation Network Features for Speaker Recognition",
+   "original": "od10_005",
+   "page_count": 8,
+   "order": 7,
+   "p1": "paper 05",
+   "pn": "",
+   "abstract": [
+    "Alternative approaches to conventional short-term cepstral modelling of speaker characteristics have been proposed and successfully incorporated to current state-of-the art systems for speaker recognition. Particularly, the use of adaptation transforms employed in speech recognition systems as features for speaker recognition is one of the most appealing recent proposals. In this paper, we also explore the use of adaptation transform based features for speaker recognition. However, we consider transformation weights derived from adaptation techniques applied to the Multi Layer Perceptrons that form a connectionist speech recognizer, instead of using transforms of Gaussian models. Modelling of the high-dimensionality vectors extracted from the transforms is done with support vector machines (SVM). The proposed method -named Transformation Network features with SVM modelling (TN-SVM)- is assessed and compared to GMM-UBM and Gaussian Super vector systems on a sub-set of NIST SRE 2008. The proposed technique shows promising results and permits further improvements when it is combined with baseline systems.\n",
+    ""
+   ]
+  },
+  "senoussaoui10_odyssey": {
+   "authors": [
+    [
+     "Mohammed",
+     "Senoussaoui"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "An i-vector Extractor Suitable for Speaker Recognition with both Microphone and Telephone Speech",
+   "original": "od10_006",
+   "page_count": 6,
+   "order": 8,
+   "p1": "paper 06",
+   "pn": "",
+   "abstract": [
+    "It is widely believed that speaker verification systems perform better when there is sufficient background training data to deal with nuisance effects of transmission channels. It is also known that these systems perform at their best when the sound environment of the training data is similar to that of the context of use (test context). For some applications however, training data from the same type of sound environment is scarce, whereas a considerable amount of data from a different type of environment is available. In this paper, we propose a new architecture for text-independent speaker verification systems that are satisfactorily trained by virtue of a limited amount of application-specific data, supplemented with a sufficient amount of training data from some other context. This architecture is based on the extraction of parameters (i-vectors) from a low-dimensional space (total variability space) proposed by Dehak [1]. Our aim is to extend Dehak's work to speaker recognition on sparse data, namely microphone speech. The main challenge is to overcome the fact that insufficient application-specific data is available to accurately estimate the total variability covariance matrix. We propose a method based on Joint Factor Analysis (JFA) to estimate microphone eigenchannels (sparse data) with telephone eigenchannels (sufficient data). For classification, we experimented with the following two approaches: Support Vector Machines (SVM) and Cosine Distance Scoring (CDS) classifier, based on cosine distances. We present recognition results for the part of female voices in the interview data of the NIST 2008 SRE. The best performance is obtained when our system is fused with the state-of-the-art JFA. We achieve 13% relative improvement on equal error rate and the minimum value of detection cost function decreases from 0.0219 to 0.0164.\n",
+    ""
+   ]
+  },
+  "kua10_odyssey": {
+   "authors": [
+    [
+     "Jia Min Karen",
+     "Kua"
+    ],
+    [
+     "Tharmarajah",
+     "Thiruvaran"
+    ],
+    [
+     "Mohaddeseh",
+     "Nosratighods"
+    ],
+    [
+     "Eliathamby",
+     "Ambikairajah"
+    ],
+    [
+     "Julien",
+     "Epps"
+    ]
+   ],
+   "title": "Investigation of Spectral Centroid Magnitude and Frequency for Speaker Recognition",
+   "original": "od10_007",
+   "page_count": 6,
+   "order": 9,
+   "p1": "paper 07",
+   "pn": "",
+   "abstract": [
+    "Most conventional features used in speaker recognition are based on spectral envelope characterizations such as Mel-scale filterbank cepstrum coefficients (MFCC), Linear Prediction Cepstrum Coefficient (LPCC) and Perceptual Linear Prediction (PLP). The MFCC's success has seen it become a de facto standard feature for speaker recognition. Alternative features, that convey information other than the average subband energy, have been proposed, such as frequency modulation (FM) and subband spectral centroid features. In this study, we investigate the characterization of subband energy as a two dimensional feature, comprising Spectral Centroid Magnitude (SCM) and Spectral Centroid Frequency (SCF). Empirical experiments carried out on the NIST 2001 and NIST 2006 databases using SCF, SCM and their fusion suggests that the combination of SCM and SCF are somewhat more accurate compared with conventional MFCC, and that both fuse effectively with MFCCs. We also show that frame-averaged FM features are essentially centroid features, and provide an SCF implementation that improves on the speaker recognition performance of both subband spectral centroid and FM features.\n",
+    ""
+   ]
+  },
+  "saeidi10_odyssey": {
+   "authors": [
+    [
+     "Rahim",
+     "Saeidi"
+    ],
+    [
+     "Jouni",
+     "Pohjalainen"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Paavo",
+     "Alku"
+    ]
+   ],
+   "title": "Temporally Weighted Linear Prediction Features for Speaker Verification in Additive Noise",
+   "original": "od10_008",
+   "page_count": 7,
+   "order": 10,
+   "p1": "paper 08",
+   "pn": "",
+   "abstract": [
+    "We consider text-independent speaker verification under additive noise corruption. In the popular mel-frequency cepstral coefficient (MFCC) front-end, we substitute the conventional Fourier-based spectrum estimation with weighted linear predictive methods, which have earlier shown success in noise-robust speech recognition. We introduce two temporally weighted variants of linear predictive (LP) modeling to speaker verification and compare them to FFT, which is normally used in computing MFCCs, and to conventional LP. We also investigate the effect of speech enhancement (spectral subtraction) on the system performance with each of the four feature representations. Our experiments on the NIST 2002 SRE corpus indicate that the accuracy of the conventional and proposed features are close to each other on clean data. On 0 dB SNR level, baseline FFT and the better of the proposed features give EERs of 17.4 % and 15.6 %, respectively. These accuracies improve to 11.6 % and 11.2 %, respectively, when spectral subtraction is included as a pre-processing method. The new features hold a promise for noise-robust speaker verification.\n",
+    ""
+   ]
+  },
+  "zhang10_odyssey": {
+   "authors": [
+    [
+     "Wei-Qiang",
+     "Zhang"
+    ],
+    [
+     "Yuxiang",
+     "Shan"
+    ],
+    [
+     "Jia",
+     "Liu"
+    ]
+   ],
+   "title": "Multiple Background Models for Speaker Verification",
+   "original": "od10_009",
+   "page_count": 5,
+   "order": 11,
+   "p1": "paper 09",
+   "pn": "",
+   "abstract": [
+    "In Gaussian mixture model - universal background model (GMM-UBM) speaker verification system, UBM training is the first and the most important stage. However, few investigations have been carried out on how to select suitable training data. In this paper, a VTL-based criterion for UBM training data selection is investigated and a multiple background model (MBM) system is proposed. Experimental results on NIST SRE06 evaluation show that the presented method decreases the equal error rate (EER) of about 8% relatively when compared with the baseline.\n",
+    ""
+   ]
+  },
+  "omar10_odyssey": {
+   "authors": [
+    [
+     "Mohamed",
+     "Omar"
+    ],
+    [
+     "Jason",
+     "Pelecanos"
+    ]
+   ],
+   "title": "Training Universal Background Models for Speaker Recognition",
+   "original": "od10_010",
+   "page_count": 6,
+   "order": 12,
+   "p1": "paper 10",
+   "pn": "",
+   "abstract": [
+    "Universal background models (UBM) in speaker recognition systems are typically Gaussian mixture models (GMM) trained from a large amount of data using the maximum likelihood criterion. This paper investigates three alternative criteria for training the UBM. In the first, we cluster an existing automatic speech recognition (ASR) acoustic model to generate the UBM. In each of the other two, we use statistics based on the speaker labels of the development data to regularize the maximum likelihood objective function in training the UBM. We present an iterative algorithm similar to the expectation maximization (EM) algorithm to train the UBM for each of these regularized maximum likelihood criteria. We present several experiments that show how combining only two systems outperforms the best published results on the English telephone tasks of the NIST 2008 speaker recognition evaluation.\n",
+    ""
+   ]
+  },
+  "becker10_odyssey": {
+   "authors": [
+    [
+     "Timo",
+     "Becker"
+    ],
+    [
+     "Michael",
+     "Jessen"
+    ],
+    [
+     "Sebastian",
+     "Alsbach"
+    ],
+    [
+     "Franz",
+     "Broß"
+    ],
+    [
+     "Torsten",
+     "Meier"
+    ]
+   ],
+   "title": "SPES: The BKA Forensic Automatic Voice Comparison System",
+   "original": "od10_011",
+   "page_count": 5,
+   "order": 13,
+   "p1": "paper 11",
+   "pn": "",
+   "abstract": [
+    "The BKA voice comparison system SPES is designed for forensic examination of speech recordings. The classical GMM-UBM framework based on MAP adaptation as described by Reynolds et al. is extended by the generation of recording adapted background models (RABMs). We present results from experiments using real case data. These results show how the most critical properties of real case recordings such as duration, channel, and samples per speaker influence system performance.\n",
+    ""
+   ]
+  },
+  "morrison10_odyssey": {
+   "authors": [
+    [
+     "Geoffrey Stewart",
+     "Morrison"
+    ],
+    [
+     "Tharmarajah",
+     "Thiruvaran"
+    ],
+    [
+     "Julien",
+     "Epps"
+    ]
+   ],
+   "title": "Estimating the Precision of the Likelihood-Ratio Output of a Forensic-Voice-Comparison System",
+   "original": "od10_012",
+   "page_count": 8,
+   "order": 14,
+   "p1": "paper 12",
+   "pn": "",
+   "abstract": [
+    "The issues of validity and reliability are important in forensic science. Within the likelihood-ratio framework for the evaluation of forensic evidence, the log-likelihood-ratio cost (Cllr) has been applied as an appropriate metric for evaluating the accuracy of the output of a forensic-voice-comparison system, but there has been little research on developing a quantitative metric of precision. The present paper describes two procedures for estimating the precision of the output of a forensic-comparison system, a non-parametric estimate and a parametric estimate of its 95% credible interval. The procedures are applied to estimate the precision of a basic automatic forensic-voice-comparison system presented with different amounts of questioned-speaker data. The importance of considering precision is discussed.\n",
+    ""
+   ]
+  },
+  "sarkar10b_odyssey": {
+   "authors": [
+    [
+     "Achintya Kumar",
+     "Sarkar"
+    ],
+    [
+     "S",
+     "Umesh"
+    ]
+   ],
+   "title": "Investigation of Speaker-Clustered UBMs based on Vocal Tract Lengths and MLLR matrices for Speaker Verification",
+   "original": "od10_013",
+   "page_count": 8,
+   "order": 15,
+   "p1": "paper 13",
+   "pn": "",
+   "abstract": [
+    "It is common to use a single speaker independent large Gaussian Mixture Model based Universal Background Model (GMM-UBM) as the alternative hypothesis for speaker verification tasks. The speaker models are themselves derived from the UBM using Maximum a Posteriori (MAP) adaptation technique. During verification, log likelihood ratio is calculated between the target model and the GMM-UBM to accept or reject the claimant. The use of a single UBM for different groups of population may not be appropriate especially when the impostors are close to the target speaker. In this paper, we investigate the use of Speaker Cluster-wise UBM (SC-UBM) for a group of target speakers based on two different similarity measures. In the first approach, speakers are grouped into different clusters depending on their Vocal Tract Lengths (VTLs). The group of speakers having same VTL parameter indicates similarity in vocal-tract geometry and constitutes a speaker-dependent characteristic. In the second approach, we use Maximum Likelihood Linear Regression (MLLR) matrices of target speakers to create MLLR super-vectors and use them to cluster speakers into different groups. The SC-UBMs are derived from GMM-UBM using MLLR adaptation using data from the corresponding group of target speakers. Finally, speaker dependent models are adapted from their respective SC-UBM using MAP. In the proposed method, log likelihood ratio is calculated between target model and its corresponding SC-UBM. We compare performance of the above method with the single UBM method for varying number of clusters. The experiments are performed on the NIST 2004 SRE core condition and we show that the proposed method with a slight increase in the number of UBMs always outperforms the conventional single GMM-UBM system.\n",
+    ""
+   ]
+  },
+  "dehak10_odyssey": {
+   "authors": [
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ],
+    [
+     "James",
+     "Glass"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ]
+   ],
+   "title": "Cosine Similarity Scoring without Score Normalization Techniques",
+   "original": "od10_015",
+   "page_count": 5,
+   "order": 16,
+   "p1": "paper 15",
+   "pn": "",
+   "abstract": [
+    "In recent work [1], a simplified and highly effective approach to speaker recognition based on the cosine similarity between low-dimensional vectors, termed ivectors, defined in a total variability space was introduced. The total variability space representation is motivated by the popular Joint Factor Analysis (JFA) approach, but does not require the complication of estimating separate speaker and channel spaces and has been shown to be less dependent on score normalization procedures, such as z-norm and t-norm. In this paper, we introduce a modification to the cosine similarity that does not require explicit score normalization, relying instead on simple mean and covariance statistics from a collection of impostor speaker ivectors. By avoiding the complication of z- and t-norm, the new approach further allows for application of a new unsupervised speaker adaptation technique to models defined in the ivector space. Experiments are conducted on the core condition of the NIST 2008 corpora, where, with adaptation, the new approach produces an equal error rate (EER) of 4.8% and min decision cost function (MinDCF) of 2.3% on all female speaker trials.\n",
+    ""
+   ]
+  },
+  "shum10_odyssey": {
+   "authors": [
+    [
+     "Stephen",
+     "Shum"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ],
+    [
+     "James",
+     "Glass"
+    ]
+   ],
+   "title": "Unsupervised Speaker Adaptation based on the Cosine Similarity for Text-Independent Speaker Verification",
+   "original": "od10_016",
+   "page_count": 7,
+   "order": 17,
+   "p1": "paper 16",
+   "pn": "",
+   "abstract": [
+    "This paper proposes a new approach to unsupervised speaker adaptation inspired by the recent success of the factor analysis-based Total Variability Approach to text-independent speaker verification [1]. This approach effectively represents speaker variability in terms of low-dimensional total factor vectors and, when paired alongside the simplicity of cosine similarity scoring, allows for easy manipulation and efficient computation [2]. The development of our adaptation algorithm is motivated by the desire to have a robust method of setting an adaptation threshold, to minimize the amount of required computation for each adaptation update, and to simplify the associated score normalization procedures where possible. To address the final issue, we propose the Symmetric Normalization (S-norm) method, which takes advantage of the symmetry in cosine similarity scoring and achieves competitive performance to that of the ZT-norm while requiring fewer parameter calculations. In subsequent experiments, we also assess an attempt to replace the use of score normalization procedures altogether with a Normalized Cosine Similarity scoring function [3]. We evaluated the performance of our unsupervised speaker adaptation algorithm under various score normalization procedures on the 10sec-10sec and core conditions of the 2008 NIST SRE dataset. Using results without adaptation as our baseline, it was found that the proposed methods are consistent in successfully improving speaker verification performance to achieve state-of-the-art results.\n",
+    ""
+   ]
+  },
+  "mclaren10_odyssey": {
+   "authors": [
+    [
+     "Mitchell",
+     "McLaren"
+    ],
+    [
+     "Robbie",
+     "Vogt"
+    ],
+    [
+     "Brendan",
+     "Baker"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Experiments in SVM-based Speaker Verification Using Short Utterances",
+   "original": "od10_017",
+   "page_count": 8,
+   "order": 18,
+   "p1": "paper 17",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the effects of limited speech data in the context of speaker verification using the Gaussian mixture model (GMM) mean supervector support vector machine (SVM) classifier. This classifier provides state-of-the-art performance when sufficient speech is available, however, its robustness to the effects of limited speech resources has not yet been ascertained. Verification performance is analysed with regards to the duration of impostor utterances used for background, score normalisation and session compensation training cohorts. Results highlight the importance of matching the speech duration of utterances in these cohorts to the expected evaluation conditions. Performance was shown to be particularly sensitive to the utterance duration of examples in the background dataset. It was also found that the nuisance attribute projection (NAP) approach to session compensation often degrades performance when both training and testing data are limited. An analysis of the session and speaker variability in the mean supervector space provides some insight into the cause of this phenomenon.\n",
+    ""
+   ]
+  },
+  "ng10_odyssey": {
+   "authors": [
+    [
+     "Raymond W. M",
+     "Ng"
+    ],
+    [
+     "Cheung-Chi",
+     "Leung"
+    ],
+    [
+     "Tan",
+     "Lee"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Detection target dependent score calibration for language recognition",
+   "original": "od10_018",
+   "page_count": 6,
+   "order": 19,
+   "p1": "paper 18",
+   "pn": "",
+   "abstract": [
+    "Based on the conventional score calibration techniques with gaussian backend and logistic regression of the relative likelihood scores, this paper proposes a method of score calibration specific to a subset of related languages. Detection scores to two related languages are considered as two sources with similar and complementary information. In the proposed score calibration, an optimal linear combination of these two sources is derived. Experiments to NIST LRE 2009 with the proposed method give an equal error rate of 3.33%, which is a 25.2% relative reduction compared with the results from globally calibrated scores. Errors in differentiating two related languages can also be reduced by some modifications in parameter optimization.\n",
+    ""
+   ]
+  },
+  "campbell10_odyssey": {
+   "authors": [
+    [
+     "William",
+     "Campbell"
+    ]
+   ],
+   "title": "Weighted Nuisance Attribute Projection",
+   "original": "od10_019",
+   "page_count": 6,
+   "order": 20,
+   "p1": "paper 19",
+   "pn": "",
+   "abstract": [
+    "Nuisance attribute projection (NAP) has become a common method for compensation of channel effects, session variation, speaker variation, and general mismatch in speaker recognition. NAP uses an orthogonal projection to remove a nuisance subspace from a larger expansion space that contains the speaker information. Training the NAP subspace is based on optimizing pairwise distances to reduce intraspeaker variability and retain interspeaker variability. In this paper, we introduce a novel form of NAP called weighted NAP (WNAP) which significantly extends the current methodology. For WNAP, we propose a training criterion that incorporates two critical extensions to NAP-variable metrics and instance-weighted training. Both an eigenvector and iterative method are proposed for solving the resulting optimization problem. The effectiveness of WNAP is shown on a NIST speaker recognition evaluation task where error rates are reduced by over 20%.\n",
+    ""
+   ]
+  },
+  "gonzalezdominguez10_odyssey": {
+   "authors": [
+    [
+     "Javier",
+     "Gonzalez-Dominguez"
+    ],
+    [
+     "Brendan",
+     "Baker"
+    ],
+    [
+     "Robbie",
+     "Vogt"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "On the Use of Factor Analysis with Restricted Target Data in Speaker Verification",
+   "original": "od10_020",
+   "page_count": 6,
+   "order": 21,
+   "p1": "paper 20",
+   "pn": "",
+   "abstract": [
+    "Factor Analysis (FA) based techniques have become the state of the art in automatic speaker verification thanks to their great ability to model session variability. This ability, in turn, relies on accurately estimating a session variability subspace for the operating conditions of interest. In cases such as forensic speaker recognition, however, this requirement cannot always be satisfied due to the very limited quantity of appropriate development data. As a first step toward understanding the application of FA in these restricted data scenarios, this work analyzes the performance of FA with very limited development data and then explores several FA estimation methods that augment the target domain data with examples from a data-rich domain. Experiments on NIST SRE 2006 microphone data conditions demonstrate that telephone data can be effectively exploited to improve performance over a baseline system.\n",
+    ""
+   ]
+  },
+  "kahn10_odyssey": {
+   "authors": [
+    [
+     "Juliette",
+     "Kahn"
+    ],
+    [
+     "Nicolas",
+     "Audibert"
+    ],
+    [
+     "Solange",
+     "Rossato"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Intra-speaker variability effects on Speaker Verification performance",
+   "original": "od10_021",
+   "page_count": 8,
+   "order": 22,
+   "p1": "paper 21",
+   "pn": "",
+   "abstract": [
+    "Speaker verification systems have shown significant progress and have reached a level of performance that make their use in practical applications possible. Nevertheless, large differences in terms of performance are observed, depending on the speaker or the speech excerpt used. This context emphasizes the importance of a deeper analysis of the system's performance over average error rate. In this paper, the effect of the training excerpt is investigated using ALIZE/SpkDet on two different corpora: NIST-SRE 08 (conversational speech) and BREF 120 (controlled read speech). The results show that the SVS performance are highly dependent on the voice samples used to train the speaker model: the overall Equal Error Rate (EER) ranges from 4.1% to 29.1% on NIST-SRE 08 and from 1.0% to 33.0% on BREF 120. The hypothesis that such performance differences are explained by phonetic contents of voice samples is studied on BREF 120.\n",
+    ""
+   ]
+  },
+  "garciaromero10_odyssey": {
+   "authors": [
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Carol Y",
+     "Espy-Wilson"
+    ]
+   ],
+   "title": "Joint Factor Analysis for Speaker Recognition Reinterpreted as Signal Coding Using Overcomplete Dictionaries",
+   "original": "od10_022",
+   "page_count": 8,
+   "order": 23,
+   "p1": "paper 22",
+   "pn": "",
+   "abstract": [
+    "This paper presents a reinterpretation of Joint Factor Analysis as a signal approximation methodology?based on ridge regression?using an overcomplete dictionary learned from data. A non-probabilistic perspective of the three fundamental steps in the JFA paradigm based on point estimates is provided. That is, model training, hyperparameter estimation and scoring stages are equated to signal coding, dictionary learning and similarity computation respectively. Establishing a connection between these two well-researched areas opens the doors for cross-pollination between both fields. As an example of this, we propose two novel ideas that arise naturally form the non-probabilistic perspective and result in faster hyperparameter estimation and improved scoring. Specifically, the proposed technique for hyperparameter estimation avoids the need to use explicit matrix inversions in the M-step of the ML estimation. This allows the use of faster techniques such as Gauss-Seidel or Cholesky factorizations for the computation of the posterior means of the factors x,y and z during the E-step. Regarding the scoring, a similarity measure based on a normalized inner product is proposed and shown to outperform the state-of-the-art linear scoring approach commonly used in JFA. Experimental validation of these two novel techniques is presented using closed-set identification and speaker verification experiments over the Switchboard database.\n",
+    ""
+   ]
+  },
+  "benharush10_odyssey": {
+   "authors": [
+    [
+     "Oshry",
+     "Ben-Harush"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ],
+    [
+     "Hugo",
+     "Guterman"
+    ]
+   ],
+   "title": "Online Diarization of Telephone Conversations",
+   "original": "od10_023",
+   "page_count": 6,
+   "order": 24,
+   "p1": "paper 23",
+   "pn": "",
+   "abstract": [
+    "Speaker diarization systems attempts to perform segmentation and labeling of a conversation between R speakers, while no prior information is given regarding the conversation. Diarization systems basically tries to answer the question \"Who spoke when?\". In order to perform speaker diarization, most state of the art diarization systems operate in an off-line mode, that is, all of the samples of the audio stream are required prior to the application of the diarization algorithm. Off-line diarization algorithms generally relies on a dendogram or hierarchical clustering approach. Several on-line diarization systems has been previously suggested, however, most require some prior information or offline trained speaker and background models in order to conduct all or part of the diarization process. A new two-stage on-line diarization of telephone conversations algorithm is suggested in this study. On the first stage, a fully unsupervised diarization algorithm is applied over an initial training set of the conversation, this stage generates the speakers and non-speech models and tunes a hyper-state Hidden Markov Model (HMM) to be used on the second, on-line stage of diarization. On-line diarization is then applied by means of time-series clustering using the Viterbi dynamic programming algorithm. Employing this approach provides diarization results a few miliseconds following either a user request or once the conversation has concluded. In order to evaluate diarization performance, the diarization system was applied over 2048, 5Min length, two-speaker conversations extracted from the NIST 2005 Speaker Recognition Evaluation. On-line Diarization Error Rate (DER) is shown to approaches the \"optimal\" DER (achieved by applying unsupervised diarization over the entire conversation) as the length of the initial training set increases. Using an initial training set of 2Min and applying on-line diarization to the entire conversation incurred approximately 4% increase in DER compared to the \"optimal\" DER.\n",
+    ""
+   ]
+  },
+  "tomasek10_odyssey": {
+   "authors": [
+    [
+     "Pavel",
+     "Tomasek"
+    ],
+    [
+     "Corinne",
+     "Fredouille"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ]
+   ],
+   "title": "Factor analysis-based approaches applied to the speaker diarization task of meetings : a preliminary study",
+   "original": "od10_024",
+   "page_count": 7,
+   "order": 25,
+   "p1": "paper 24",
+   "pn": "",
+   "abstract": [
+    "This paper presents a preliminary study on the use of the Factor Analysis (FA) methods in an automatic speaker diarization process, dedicated to the meeting rooms. Indeed, the speaker diarization process, based on the top-down E-HMM approach, integrates a FA-based speaker modeling in an additional resegmentation step, which aims at helping the refinement of the output segmentation. Classically applied in speaker recognition to deal with channel variability issues, two main schemes of the FA application are proposed here: to deal with the (1) inter-speaker variability and with (2) the inter-segment variability. Different kinds of experiments have been conducted on the dataset of the last NIST/RT'09 evaluation campaign, leading to very interesting and promising results. For instance, they show that the couple of schemes proposed in this paper obtained competitive performance, compared to the baseline process, despite the small amount of development data used in this paper for the FA parameter estimation. Unexpectedly, they tend to show that the inter-segment variability component can be helpful for speaker diarization.\n",
+    ""
+   ]
+  },
+  "aronowitz10_odyssey": {
+   "authors": [
+    [
+     "Hagai",
+     "Aronowitz"
+    ]
+   ],
+   "title": "Unsupervised Compensation of Intra-Session Intra-Speaker Variability for Speaker Diarization",
+   "original": "od10_025",
+   "page_count": 8,
+   "order": 26,
+   "p1": "paper 25",
+   "pn": "",
+   "abstract": [
+    "This paper presents a novel framework for unsupervised compensation of intra-session intra-speaker variability in the context of speaker diarization. Audio files are parameterized by sequences of GMM-supervectors representing overlapping short segments of speech. Session-dependent intra-session intra-speaker variability is estimated in an unsupervised manner, and is compensated using the nuisance attribute projection (NAP) method. The proposed compensation method is evaluated in the context of speaker diarization in two-speaker conversations. A simple and effective two-speaker diarization algorithm is introduced in which speaker diarization is performed in the compensated supervector-space. The proposed diarization algorithm was evaluated on summed telephone conversations and achieved a speaker error rate of 2.8% which is a 54% relative error reduction compared to a baseline BIC-based system. Finally, we evaluate the proposed system on a speaker recognition task in the summed-speech condition where improvement in speaker recognition accuracy is observed using the proposed diarization system.\n",
+    ""
+   ]
+  },
+  "le10_odyssey": {
+   "authors": [
+    [
+     "Viet Bac",
+     "Le"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ],
+    [
+     "Marc",
+     "Ferras"
+    ]
+   ],
+   "title": "On the use of GSV-SVM for Speaker Diarization and Tracking",
+   "original": "od10_026",
+   "page_count": 5,
+   "order": 27,
+   "p1": "paper 26",
+   "pn": "",
+   "abstract": [
+    "In this paper, we present the use of Gaussian Supervectors with Support Vector Machines classifiers (GSV-SVM) in an acoustic speaker diarization and a speaker tracking system, compared with a standard Gaussian Mixture Model system based on adapted Universal Background Models (GMM-UBM). GSV-SVM systems (which share the adaptation step with the GMM-UBM systems) are observed to have comparable performances: for acoustic speaker diarization, the GMM-UBM system outperforms the GSV-SVM system on ESTER2 data but the latter system works better in the speaker tracking system. In particular, the linear combination of two systems at the score level outperforms each individual system.\n",
+    ""
+   ]
+  },
+  "deleon10_odyssey": {
+   "authors": [
+    [
+     "Phillip",
+     "DeLeon"
+    ],
+    [
+     "Michael",
+     "Pucher"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Evaluation of the Vulnerability of Speaker Verification to Synthetic Speech",
+   "original": "od10_028",
+   "page_count": 8,
+   "order": 28,
+   "p1": "paper 28",
+   "pn": "",
+   "abstract": [
+    "In this paper, we evaluate the vulnerability of a speaker verification (SV) system to synthetic speech. Although this problem was first examined over a decade ago, dramatic improvements in both SV and speech synthesis have renewed interest in this problem. We use a HMM-based speech synthesizer which creates synthetic speech for a targeted speaker through adaptation of a background model and a GMM-UBM-based SV system. Using 283 speakers from the Wall-Street Journal (WSJ) corpus, our SV system has a 0.4% EER. When the system is tested with synthetic speech generated from speaker models derived from the WSJ journal corpus, 90% of the matched claims are accepted. This result suggests a possible vulnerability in SV systems to synthetic speech. In order to detect synthetic speech prior to recognition, we investigate the use of an automatic speech recognizer (ASR), dynamic-time-warping (DTW) distance of mel-frequency cepstral coefficients (MFCC), and previously-proposed average inter-frame difference of log-likelihood (IFDLL). Overall, while SV systems have impressive accuracy, even with the proposed detector, high-quality synthetic speech can lead to an unacceptably high acceptance rate of synthetic speakers.\n",
+    ""
+   ]
+  },
+  "stoll10_odyssey": {
+   "authors": [
+    [
+     "Lara",
+     "Stoll"
+    ],
+    [
+     "George",
+     "Doddington"
+    ]
+   ],
+   "title": "Hunting for Wolves in Speaker Recognition",
+   "original": "od10_029",
+   "page_count": 6,
+   "order": 29,
+   "p1": "paper 29",
+   "pn": "",
+   "abstract": [
+    "Identification and selection of speaker pairs that are difficult to distinguish offers the possibility of better focusing speaker recognition research, while also reducing the amount of data needed to estimate system performance with confidence. This work aims to predict which speaker pairs will be difficult for automatic speaker recognition systems to distinguish, by using features that characterize speakers, and thus provide a measure of speaker similarity. Features tested include pitch, jitter, shimmer, formant frequencies, energy, long term average spectrum energy, histograms of frequencies from roots of LPC coefficients, and spectral slope. Absolute and percent differences, Euclidean distance, and correlation coefficients are utilized to measure the closeness of these speaker features. Using data from NIST's 2008 Speaker Recognition Evaluation, the largest changes in detection cost and false alarm rate for similar speaker pairs (relative to all speaker pairs) occurs when speaker pairs are selected using the Euclidean distance between vectors of the mean first, second, and third formant frequencies. Even bigger differences in performance occur when speaker pairs are selected using the KL divergence between speaker-specific GMMs as a measure of similarity. In general, the feature-measures considered here are more successful at finding easy-to-distinguish speaker pairs than difficult-to-distinguish ones, and can provide potentially useful information about a speaker's tendency to be similar or dissimilar to other speakers.\n",
+    ""
+   ]
+  },
+  "martin10_odyssey": {
+   "authors": [
+    [
+     "Alvin",
+     "Martin"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ]
+   ],
+   "title": "The 2009 NIST Language Recognition Evaluation",
+   "original": "od10_030",
+   "page_count": 7,
+   "order": 30,
+   "p1": "paper 30",
+   "pn": "",
+   "abstract": [
+    "This paper reviews the 2009 NIST Language Recognition Evaluation (LRE09), the most recent in a series held since 1996, which have evaluated automatic systems for language recognition. The 2009 evaluation was notable for including a larger number of target and non-target languages, for primarily utilizing \"found\" narrowband conversational broadcast data from the Voice of America, and for including a language pairs test condition that included examination of performance at distinguishing several particularly interesting and confusable pairs of languages. Overall, the broadcast data proved roughly comparable in difficulty with the type of collected conversational telephone date utilized previously. Improvement was seen in best system performance levels for some test conditions.\n",
+    ""
+   ]
+  },
+  "rodriguezfuentes10_odyssey": {
+   "authors": [
+    [
+     "Luis Javier",
+     "Rodriguez-Fuentes"
+    ],
+    [
+     "Mikel",
+     "Penagarikano"
+    ],
+    [
+     "German",
+     "Bordel"
+    ],
+    [
+     "Amparo",
+     "Varona"
+    ]
+   ],
+   "title": "The Albayzin 2008 Language Recognition Evaluation",
+   "original": "od10_031",
+   "page_count": 8,
+   "order": 31,
+   "p1": "paper 31",
+   "pn": "",
+   "abstract": [
+    "The Albayzin 2008 Language Recognition Evaluation was held from May to October 2008, and their results presented and discussed among the participating teams at the 5th Biennial Workshop on Speech Technology, organized by the Spanish Network on Speech Technologies in November 2008. In this paper, we present (for the first time) a full description of the Albayzin 2008 LRE and analyze and discuss recognition results. The evaluation was designed according to the test procedures, protocols and performance measures used in the NIST 2007 LRE. The KALAKA database, consisting of 16 kHz audio signals recorded from TV broadcasts, was created ad-hoc and used for the evaluation. The four official languages spoken in Spain (Basque, Catalan, Galician and Spanish) were taken as target languages, other (unknown) languages being also recorded to allow open-set verification tests. The best system, employing state-of-the-art technology, yielded Cavg=0,0552 (around 5% EER) in closed-set verification tests on a set of 30-second segments. This reveals the difficulty of the task, despite using 16 kHz speech signals and having only four target languages. We plan to include also Portuguese and English as target languages for the next Albayzin 2010 LRE.\n",
+    ""
+   ]
+  },
+  "greenberg10_odyssey": {
+   "authors": [
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Alvin",
+     "Martin"
+    ],
+    [
+     "Linda",
+     "Brandschain"
+    ],
+    [
+     "Joseph",
+     "Campbell"
+    ],
+    [
+     "Christopher",
+     "Cieri"
+    ],
+    [
+     "George",
+     "Doddington"
+    ],
+    [
+     "John",
+     "Godfrey"
+    ]
+   ],
+   "title": "Human Assisted Speaker Recognition In NIST SRE10",
+   "original": "od10_032",
+   "page_count": 6,
+   "order": 32,
+   "p1": "paper 32",
+   "pn": "",
+   "abstract": [
+    "The NIST series of Speaker Recognition Evaluations (SRE's) have, since 1996, evaluated automatic systems for speaker recognition. The 2010 evaluation (SRE10) also included a test of Human Assisted Speaker Recognition (HASR), in which systems based, in whole or in part, on human expertise were evaluated. Participants were invited to complete the trials in one of two small subsets of the full set of trials included in the core test of the main automatic system evaluation. The performance of these human dependent systems is currently being scored and analyzed. Their performance will be compared with the best automatic system results on the same trial subsets.\n",
+    ""
+   ]
+  },
+  "stafylakis10_odyssey": {
+   "authors": [
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Vassilis",
+     "Katsouros"
+    ],
+    [
+     "George",
+     "Carayannis"
+    ]
+   ],
+   "title": "Speaker clustering via the mean shift algorithm",
+   "original": "od10_033",
+   "page_count": 8,
+   "order": 33,
+   "p1": "paper 33",
+   "pn": "",
+   "abstract": [
+    "In this paper, we investigate the use of the mean shift algorithm with respect to speaker clustering. The algorithm is an elegant nonparametric technique that has become very popular in image segmentation, video tracking and other image processing and computer vision tasks. Its primary aim is to detect the modes of the underlying density and consequently merge those observations being attracted by each mode. Since the number of modes is not needed to be known beforehand, the algorithm seems to fit well to the problem of speaker clustering. However, the algorithm needs to be adapted; the original algorithm acts on the space of observations, while speaker clustering algorithms act on the space of probabilistic parametric models. We attempt to adapt the algorithm, based on some basic concepts of information geometry, that are related to the exponential family of distributions.\n",
+    ""
+   ]
+  },
+  "brummer10_odyssey": {
+   "authors": [
+    [
+     "Niko",
+     "Brümmer"
+    ],
+    [
+     "Edward",
+     "de Villiers"
+    ]
+   ],
+   "title": "The speaker partitioning problem",
+   "original": "od10_034",
+   "page_count": 8,
+   "order": 34,
+   "p1": "paper 34",
+   "pn": "",
+   "abstract": [
+    "We give a unification of several different speaker recognition problems in terms of the general speaker partitioning problem, where a set of N inputs has to be partitioned into subsets according to speaker. We show how to solve this problem in terms of a simple generative model and demonstrate performance on NIST SRE 2006 and 2008 data. Our solution yields probabilistic outputs, which we show how to evaluate with a cross-entropy criterion. Finally, we show improved accuracy of the generative model via a discriminatively trained re-calibration transformation of log-likelihoods.\n",
+    ""
+   ]
+  },
+  "leeuwen10_odyssey": {
+   "authors": [
+    [
+     "David van",
+     "Leeuwen"
+    ]
+   ],
+   "title": "Speaker linking in large data sets",
+   "original": "od10_035",
+   "page_count": 7,
+   "order": 35,
+   "p1": "paper 35",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the task of linking speakers across multiple recordings, which can be accomplished by speaker clustering. Various aspects are considered, such as computational complexity, on/offline approaches, and evaluation measures but also speaker recognition approaches. It has not been the aim of this study to optimize clustering performance, but as an experimental exercise, we perform speaker linking on all '1conv-4w' conversation sides of the NIST-2006 evaluation data set. This set contains 704 speakers in 3835 conversation sides. Using both on-line and off-line algorithms, equal-purity figures of about 86% are obtained.\n",
+    ""
+   ]
+  },
+  "mccree10_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "McCree"
+    ]
+   ],
+   "title": "Estimating and Exploiting Language Distributions of Unlabeled Data",
+   "original": "od10_036",
+   "page_count": 6,
+   "order": 36,
+   "p1": "paper 36",
+   "pn": "",
+   "abstract": [
+    "This paper addresses the problem of language distribution estimation from unlabeled data. We present a new algorithm that treats automated classifier identification outputs as likelihoods and iteratively applies Bayes' rule to reclassify the data using successively improving distribution estimates as \"priors\". Experimental results using the MIT LL submission to the NIST LRE07 evaluation show significant improvements in estimation of non-uniform distributions as compared to a baseline counting approach. In addition, we show how to incorporate these estimated distributions into the classification task. Further experiments on the LRE07 corpus show large gains for both the detection/verification and identification tasks when only a small set of languages are actually present in the test set.\n",
+    ""
+   ]
+  },
+  "jancik10_odyssey": {
+   "authors": [
+    [
+     "Zdenek",
+     "Jancik"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Niko",
+     "Brümmer"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Valiantsina",
+     "Hubeika"
+    ],
+    [
+     "Martin",
+     "Karafiat"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Tomas",
+     "Mikolov"
+    ],
+    [
+     "Albert",
+     "Strasheim"
+    ],
+    [
+     "Jan \"Honza\"",
+     "Cernocky"
+    ]
+   ],
+   "title": "Data selection and calibration issues in automatic language recognition - investigation with BUT-AGNITIO NIST LRE 2009 system",
+   "original": "od10_037",
+   "page_count": 7,
+   "order": 37,
+   "p1": "paper 37",
+   "pn": "",
+   "abstract": [
+    "This paper summarizes the BUT-AGNITIO system for NIST Language recognition evaluation 2009. The post-evaluation analysis aimed mainly at improving the quality of the data (fixing language label problems and detecting overlapping speakers in the training and development sets) and investigation of different compositions of the development set. The paper further investigates into JFA-based acoustic system and reports results for new SVM-PCA systems going beyond BUT-Agnitio original NIST LRE 2009 submission. All results are presented on evaluation data from NIST LRE 2009 task.\n",
+    ""
+   ]
+  },
+  "cumani10_odyssey": {
+   "authors": [
+    [
+     "Sandro",
+     "Cumani"
+    ],
+    [
+     "Fabio",
+     "Castaldo"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ],
+    [
+     "Daniele",
+     "Colibro"
+    ],
+    [
+     "Claudio",
+     "Vair"
+    ]
+   ],
+   "title": "Comparison of Large-scale SVM Training Algorithms for Language Recognition",
+   "original": "od10_038",
+   "page_count": 8,
+   "order": 38,
+   "p1": "paper 38",
+   "pn": "",
+   "abstract": [
+    "This paper compares the performance of large scale Support Vector Machine training algorithms tested on a language recognition task. We analyze the behavior of five SVM approaches for training phonetic and acoustic models, and we compare their performance in terms of number of iterations to reach convergence, training time and scalability towards large databases. Our results show that the accuracy of these algorithms is asymptotically equivalent, but they have different behavior with respect to the time required to converge. Some of these algorithms not only scale linearly with the training set size, but are also able to give their best results after just a few iterations on the database.\n",
+    ""
+   ]
+  },
+  "verdet10_odyssey": {
+   "authors": [
+    [
+     "Florian",
+     "Verdet"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Jean",
+     "Hennebert"
+    ]
+   ],
+   "title": "Coping with Two Different Transmission Channels in Language Recognition",
+   "original": "od10_039",
+   "page_count": 8,
+   "order": 39,
+   "p1": "paper 39",
+   "pn": "",
+   "abstract": [
+    "This paper confirms the huge benefits of Factor Analysis over Maximum A-Posteriori adaptation for language recognition (up to 87% relative gain). We investigate ways to cope with the particularity of NIST's LRE 2009, containing Conversational Telephone Speech (CTS) and phone bandwidth segments of radio broadcasts (Voice Of America, VOA). We analyze GMM systems using all data pooled together, eigensession matrices estimated on a per condition basis and systems using a concatenation of these matrices. Results are presented on all LRE 2009 test segments, as well as only on the CTS or only on the VOA test utterances. Since performances on all 23 languages are not trivial to compare, due to lacking language-channel combinations in the training and also in the testing data, all systems are also evaluated in the context of the subset of 8 common languages. Addressing the question if a fusion of two channel specific systems may be more beneficial than putting all data together, we study an oracle based system selector. On the 8 language subset, a pure CTS system performs at a minimal average cost of 2.7% and pure VOA at 1.9% min-C_avg on their respective test conditions. The fusion of these two systems runs at 2.0% min-C_avg. As main observation, we see that the way we estimate the session compensation matrix has not a big influence, as long as the language-channel combinations cover those used for training the language models. Far more crucial is the kind of data used for model estimation.\n",
+    ""
+   ]
+  },
+  "penagarikano10_odyssey": {
+   "authors": [
+    [
+     "Mikel",
+     "Penagarikano"
+    ],
+    [
+     "Amparo",
+     "Varona"
+    ],
+    [
+     "Luis Javier",
+     "Rodriguez-Fuentes"
+    ],
+    [
+     "German",
+     "Bordel"
+    ]
+   ],
+   "title": "Improved Modeling of Cross-Decoder Phone Co-occurrences in SVM-based Phonotactic Language Recognition",
+   "original": "od10_040",
+   "page_count": 8,
+   "order": 40,
+   "p1": "paper 40",
+   "pn": "",
+   "abstract": [
+    "Most common approaches to phonotactic language recognition deal with several independent phone decodings. These decodings are processed and scored in a fully uncoupled way, their time alignment (and the information that may be extracted from it) being completely lost. Recently, a new approach to phonotactic language recognition has been presented (Penagarikano, ICASSP2010), which takes into account time alignment information, by considering cross-decoder phone co-occurrences at the frame level, under two language modeling paradigms: smoothed n-grams and Support Vector Machines (SVM). Experiments on the NIST LRE2007 database demonstrated that using phone co-occurrence statistics could improve the performance of baseline phonotactic recognizers. In this paper, two variants of the cross-decoder phone co-occurrence SVM-based approach are proposed, by considering: (1) n-grams (up to 3-grams) of phone co-occurrences; and (2) co-occurrences of phone n-grams (up to 3-grams). To evaluate these approaches, a choice of open software (Brno University of Technology phone decoders, LIBLINEAR and FoCal) was used, and experiments were carried out on the NIST LRE2007 database. Unlike those presented in (Penagarikano, ICASSP2010), the two approaches presented in this paper outperformed the baseline phonotactic system, yielding around 16% relative improvement in terms of EER. The best fused system attained a 1,88% EER (a 30% improvement with regard to the baseline system), which supports the use of cross-decoder dependencies for language modeling.\n",
+    ""
+   ]
+  },
+  "leung10_odyssey": {
+   "authors": [
+    [
+     "Cheung Chi",
+     "Leung"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Parallel Acoustic Model Adaptation for Improving Phonotactic Language Recognition",
+   "original": "od10_041",
+   "page_count": 5,
+   "order": 41,
+   "p1": "paper 41",
+   "pn": "",
+   "abstract": [
+    "In phonotactic language recognition systems, the use of acoustic model adaptation prior to phone lattice decoding has been proposed to deal with the mismatch between training and test conditions. In this paper, a novel approach using diversified phonotactic features from parallel acoustic model adaptation is proposed. Specifically, the parallel model adaptation involves independent mean-only and variance-only MLLR adaptation. A quantitative method to measure the diversity between two sets of high-dimensional phonotactic features is introduced. Our experiment shows that this novel approach achieves an EER of 3.07% in the 30-second condition of the 2007 NIST Language Recognition Evaluation (LRE) tasks. It brings a 17.3% relative improvement in EER over the baseline system using a SAT phone model and CMLLR for model adaptation.\n",
+    ""
+   ]
+  },
+  "mikolov10_odyssey": {
+   "authors": [
+    [
+     "Tomás",
+     "Mikolov"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Lukás",
+     "Burget"
+    ],
+    [
+     "Jan",
+     "Cernocký"
+    ]
+   ],
+   "title": "PCA-based Feature Extraction for Phonotactic Language Recognition",
+   "original": "od10_042",
+   "page_count": 5,
+   "order": 42,
+   "p1": "paper 42",
+   "pn": "",
+   "abstract": [
+    "Phonotactic language recognition is one of major techniques used for automatic recognition of spoken languages. We propose a feature extraction technique based on PCA to be used with SVM-based systems. This technique improves speed of the training, in some cases more than 1000 times, allowing systems to be effectively trained on much larger data sets. Speed-up of the test phase can be even greater, which makes the resulting systems much more useful for processing large amounts of data. We report our results on NIST LRE 2009 task.\n",
+    ""
+   ]
+  },
+  "stolcke10_odyssey": {
+   "authors": [
+    [
+     "Andreas",
+     "Stolcke"
+    ],
+    [
+     "Murat",
+     "Akbacak"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Sachin",
+     "Kajarekar"
+    ],
+    [
+     "Colleen",
+     "Richey"
+    ],
+    [
+     "Nicolas",
+     "Scheffer"
+    ],
+    [
+     "Elizabeth",
+     "Shriberg"
+    ]
+   ],
+   "title": "Improving Language Recognition with Multilingual Phone Recognition and Speaker Adaptation Transforms",
+   "original": "od10_043",
+   "page_count": 7,
+   "order": 43,
+   "p1": "paper 43",
+   "pn": "",
+   "abstract": [
+    "We investigate a variety of methods for improving language recognition accuracy based on techniques in speech recognition, and in some cases borrowed from speaker recognition. First, we look at the question of language-dependent versus language-independent phone recognition for phonotactic (PRLM) language recognizers, and find that language-independent recognizers give superior performance in both PRLM and PPRLM systems. We then investigate ways to use speaker adaptation (MLLR) transforms as a complementary feature for language characterization. Borrowing from speech recognition, we find that both PRLM and MLLR systems can be improved with the inclusion of discriminatively trained multilayer perceptrons as front ends. Finally, we compare language models to support vector machines as a modeling approach for phonotactic language recognition, and find them to be potentially superior, and surprisingly complementary.\n",
+    ""
+   ]
+  },
+  "biadsy10_odyssey": {
+   "authors": [
+    [
+     "Fadi",
+     "Biadsy"
+    ],
+    [
+     "Hagen",
+     "Soltau"
+    ],
+    [
+     "Lidia",
+     "Mangu"
+    ],
+    [
+     "Jiri",
+     "Navratil"
+    ],
+    [
+     "Julia",
+     "Hirschberg"
+    ]
+   ],
+   "title": "Discriminative Phonotactics for Dialect Recognition Using Context-Dependent Phone Classifiers",
+   "original": "od10_044",
+   "page_count": 8,
+   "order": 44,
+   "p1": "paper 44",
+   "pn": "",
+   "abstract": [
+    "In this paper, we introduce a new approach to dialect recognition that relies on context-dependent (CD) phonetic differences between dialects as well as phonotactics. Given a speech utterance, we obtain the phone sequence using a CD-phone recognizer. We then identify the most likely dialect of these CD-phones using SVM classifiers. Augmenting these phones with the output of these classifiers, we extract augmented phonotactic features which are subsequently given to a logistic regression classifier to obtain a dialect detection score. We test our approach on the task of detecting four Arabic dialects from 30s utterances. We compare our performance to two baselines, PRLM and GMM-UBM, as well as to our own improved version of GMM-UBM which employs fMLLR adaptation. Our approach performs significantly better than all three baselines at 5% absolute Equal Error Rate (EER). The overall EER of our system is 6%.\n",
+    ""
+   ]
+  },
+  "volin10_odyssey": {
+   "authors": [
+    [
+     "Jan",
+     "Volín"
+    ],
+    [
+     "Radek",
+     "Skarnitzl"
+    ]
+   ],
+   "title": "Suprasegmental Acoustic Cues of Foreignness in Czech English",
+   "original": "od10_045",
+   "page_count": 8,
+   "order": 45,
+   "p1": "paper 45",
+   "pn": "",
+   "abstract": [
+    "English as the lingua franca of the modern world is spoken by increasing numbers of individuals from various nations and of different linguistic backgrounds. Detection of foreign accents can potentially lead to improvement in the development of ASR systems which have to cope with vast, but, at a certain level of generalization, finite variation of English accents. Samples of Czech English have been parameterized in terms of linguistically explicable suprasegmental variables and subjected to multiple regression analyses with foreignness scores as the dependent variable. The results are remarkably consistent and confirm that the chosen parameters contain cues of accentedness strength and might be used in detection and possibly explanation of the Czech accent in English.\n",
+    ""
+   ]
+  },
+  "koller10_odyssey": {
+   "authors": [
+    [
+     "Oscar",
+     "Koller"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ]
+   ],
+   "title": "Exploiting variety-dependent Phones in Portuguese Variety Identification",
+   "original": "od10_046",
+   "page_count": 7,
+   "order": 46,
+   "p1": "paper 46",
+   "pn": "",
+   "abstract": [
+    "This paper presents a new approach of building a language identification system using a specialized Phone Recognition system followed by Language Modeling (PRLM) to differentiate Portuguese varieties spoken in African Countries from European Portuguese. The system is designed to focus on exploiting the phonotactic information of a single discriminatively trained tokenizer for the specific pair of target varieties. In contrast to other PRLM-based methods, the single tokenizer already combines distinctive knowledge about the differences between both target varieties. This knowledge is introduced into a dedicated multiple-stream Multi-Layer Perceptron (MLP) phone recognizer by training mono-phoneme models for two varieties as contrasting phoneme-like classes within a single tokenizer. Significant improvements in terms of identification rate and computational cost were achieved compared to a conventional single tokenizer PRLM-based systems and to the combination of up to five parallel PRLM identifiers. The method is also applied to other varieties of Portuguese yielding similar results.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "jessen10_odyssey",
+    "kenny10_odyssey",
+    "balding10_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker recognition - LVCSR and high level features",
+   "papers": [
+    "baum10_odyssey",
+    "sarkar10_odyssey",
+    "laskowski10_odyssey"
+   ]
+  },
+  {
+   "title": "Features for Speaker recognition",
+   "papers": [
+    "abad10_odyssey",
+    "senoussaoui10_odyssey",
+    "kua10_odyssey",
+    "saeidi10_odyssey"
+   ]
+  },
+  {
+   "title": " Background modeling in Speaker recognition, Forensics",
+   "papers": [
+    "zhang10_odyssey",
+    "omar10_odyssey",
+    "becker10_odyssey",
+    "morrison10_odyssey",
+    "sarkar10b_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and language recognition - scoring, confidences and calibration",
+   "papers": [
+    "dehak10_odyssey",
+    "shum10_odyssey",
+    "mclaren10_odyssey",
+    "ng10_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker recognition - Inter-session variability",
+   "papers": [
+    "campbell10_odyssey",
+    "gonzalezdominguez10_odyssey",
+    "kahn10_odyssey",
+    "garciaromero10_odyssey"
+   ]
+  },
+  {
+   "title": "Diarization",
+   "papers": [
+    "benharush10_odyssey",
+    "tomasek10_odyssey",
+    "aronowitz10_odyssey",
+    "le10_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language recognition - Evaluations and performance testing",
+   "papers": [
+    "deleon10_odyssey",
+    "stoll10_odyssey",
+    "martin10_odyssey",
+    "rodriguezfuentes10_odyssey"
+   ]
+  },
+  {
+   "title": "Human performances in Speaker recognition, Speaker clustering and partitioning",
+   "papers": [
+    "greenberg10_odyssey",
+    "stafylakis10_odyssey",
+    "brummer10_odyssey",
+    "leeuwen10_odyssey"
+   ]
+  },
+  {
+   "title": "Language recognition - general and data",
+   "papers": [
+    "mccree10_odyssey",
+    "jancik10_odyssey",
+    "cumani10_odyssey",
+    "verdet10_odyssey"
+   ]
+  },
+  {
+   "title": "Language recognition - phonotactics",
+   "papers": [
+    "penagarikano10_odyssey",
+    "leung10_odyssey",
+    "mikolov10_odyssey",
+    "stolcke10_odyssey"
+   ]
+  },
+  {
+   "title": "Dialect recognition",
+   "papers": [
+    "biadsy10_odyssey",
+    "volin10_odyssey",
+    "koller10_odyssey"
+   ]
+  }
+ ]
+}

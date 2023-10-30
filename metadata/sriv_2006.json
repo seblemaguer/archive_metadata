@@ -1,0 +1,751 @@
+{
+ "title": "ITRW on Speech Recognition and Intrinsic Variation",
+ "location": "Toulouse, France",
+ "startDate": "20/5/2006",
+ "endDate": "20/5/2006",
+ "conf": "SRIV",
+ "year": "2006",
+ "name": "sriv_2006",
+ "series": "",
+ "SIG": "",
+ "title1": "ITRW on Speech Recognition and Intrinsic Variation",
+ "date": "20 May 2006",
+ "papers": {
+  "foslerlussier06_sriv": {
+   "authors": [
+    [
+     "Eric",
+     "Fosler-Lussier"
+    ]
+   ],
+   "title": "Underspecified feature models for pronunciation variation in ASR",
+   "original": "sriv_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "In the 1990s, several studies showed that if we could just predict correctly when to include alternate pronunciations of words in ASR lexica, we could greatly reduce error rates for conversational speech tasks (i.e., Switchboard).  But it is clear that the field has thus far failed to reach that potential.  Many scholars model pronunciation variation via a substitution of one phonetic sequence for another (either by replacing entries in a pronunciation lexicon, or dynamically modifying phonetic sequences in response to contextual factors such as speaking rate). In 1999, Ostendorf called for the community to move beyond the ``beads-on-a-string'' model of pronunciation, and outlined some promising directions for research. In this paper, I continue the argument that we should move away from phonetic representations, and examine how we might model phonetic variation through phonological features.  By expressing pronunciation variation in terms of partially underspecified phonological feature bundles, we might be able to better model lexical access. I also review some recent approaches that integrate some of these concepts.\n",
+    ""
+   ]
+  },
+  "nakamura06_sriv": {
+   "authors": [
+    [
+     "Masanobu",
+     "Nakamura"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ]
+   ],
+   "title": "Acoustic and linguistic characterization of spontaneous speech",
+   "original": "sriv_003",
+   "page_count": 6,
+   "order": 2,
+   "p1": "3",
+   "pn": "8",
+   "abstract": [
+    "Although speech derived from reading texts, and similar types of speech, e.g. that from reading newspapers or that from news broadcast, can be recognized with high accuracy, recognition accuracy drastically decreases for spontaneous speech. This is due to the fact that spontaneous speech and read speech are significantly different acoustically as well as linguistically. This paper reports analysis and recognition of spontaneous speech using a large-scale spontaneous speech database \"Corpus of Spontaneous Japanese (CSJ)\". Spectral analysis using various styles of utterances in the CSJ shows that the spectral distribution/difference of phonemes is significantly reduced in spontaneous speech compared to read speech. Experimental results also show that there is a strong correlation between mean spectral distance between phonemes and phoneme recognition accuracy. This indicates that spectral reduction is one major reason for the decrease of recognition accuracy of spontaneous speech. Comparative analysis of statistical language models for written language, including newspaper articles, and spontaneous speech shows that there is a significant difference between written language and spontaneous speech in terms of observation frequency of each part-of-speech and perplexity.\n",
+    ""
+   ]
+  },
+  "jouvet06_sriv": {
+   "authors": [
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Katarina",
+     "Bartkova"
+    ]
+   ],
+   "title": "Analysis of model adaptation on non-native speech for multiple accent speech recognition",
+   "original": "sriv_009",
+   "page_count": 6,
+   "order": 3,
+   "p1": "9",
+   "pn": "14",
+   "abstract": [
+    "Foreign accented speech recognition systems have to deal with the acoustic realization of sounds by non-native speakers that does not always match with native models. Thus the standard native speech modelling alone is generally not adequate, and it is usually extended with models of phonemes estimated from speech data of foreign languages, and often complemented with extra pronunciation variants. Previous studies showed that such modelling techniques are effective. In this paper, several modelling approaches are briefly recalled and their performances in the recognition of non-native speech comprising multiple foreign accents, are analyzed. Afterwards, the adaptation of the acoustic models on various sets of non-native speech is studied. Results show that an adaptation on a limited set of foreign accents provides speech recognition performance improvements even on foreign accents absent from the adaptation data.\n",
+    ""
+   ]
+  },
+  "stemmer06_sriv": {
+   "authors": [
+    [
+     "Georg",
+     "Stemmer"
+    ]
+   ],
+   "title": "Improved context integration for robust speech recognition in conversational systems",
+   "original": "sriv_015",
+   "page_count": 6,
+   "order": 4,
+   "p1": "15",
+   "pn": "20",
+   "abstract": [
+    "Inter- and intraspeaker variability is a major source of speech recognition errors in conversational systems. Most sources of variability are not sufficiently represented in the data to train a specific set of models. In order to increase robustness of a speech recognizer we propose a combination of different approaches. All methods have in common that they provide additional acoustic or linguistic context information to the recognizer. The approaches are evaluated on a corpus of spontaneous speech data that has been recorded with a conversational system in a realistic application scenario. Performance of the speech recognizer is measured for the dialogue-states and speaker groups that are marked in this data set. Word error rates for the different speaker groups can be reduced by 11-25% at an overall reduction of 13%. It is concluded that integration of context is a promising direction of research to improve the robustness of a conversational system.\n",
+    ""
+   ]
+  },
+  "hamalainen06_sriv": {
+   "authors": [
+    [
+     "Annika",
+     "Hämäläinen"
+    ],
+    [
+     "Yan",
+     "Han"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ],
+    [
+     "Louis ten",
+     "Bosch"
+    ]
+   ],
+   "title": "Whither linguistic interpretation of acoustic pronunciation variation",
+   "original": "sriv_021",
+   "page_count": 6,
+   "order": 5,
+   "p1": "21",
+   "pn": "26",
+   "abstract": [
+    "Recent research suggests that modelling pronunciation variation is more appropriate at the syllable level than at the level of context-dependent phones. Due to the large number of factors affecting syllable pronunciation, the creation of multi-path topologies is necessary. Previous research on multi-path models in connected digit recognition has proved trajectory clustering to be an attractive approach to deriving multi-path models. In this paper, we extend our research to large-vocabulary continuous speech recognition (LVCSR) by deriving trajectory clusters for 94 frequent syllables in a 20-hour corpus of Dutch read speech. With multi-path models based on these trajectory clusters, speech recognition performance improves significantly. We believe that recognition performance can be improved further by adapting the topologies of the parallel paths. However, the physical properties of the clusters do not provide clues to the most appropriate topology, or the best way of initialising the state observation densities. Therefore, we attempt to interpret the clusters in terms of linguistic and phonetic criteria. The results obtained so far suggest that there is no straightforward relation between physically defined trajectory clusters and linguistic and phonetic criteria.\n",
+    ""
+   ]
+  },
+  "bosch06_sriv": {
+   "authors": [
+    [
+     "Louis ten",
+     "Bosch"
+    ]
+   ],
+   "title": "Speech variation and the use of distance metrics on the articulatory feature space",
+   "original": "sriv_027",
+   "page_count": 6,
+   "order": 6,
+   "p1": "27",
+   "pn": "32",
+   "abstract": [
+    "This paper describes ongoing research on the relation between variation in speech in the articulatory-acoustic domain and the variation as represented in the symbolic domain. More specifically, we address variation in speech as represented by articulatory features, and the description of variation in phone annotation and segmentation. Variation in speech is quantified by using distance metrics defined on the space spanned by articulatory features. We will show a very good correspondence between locations of events in the articulatory feature trajectories on the one hand, and the phone boundary locations as defined by manual segmentation on the other. This indicates that the asynchronous articulatory representation at least captures the information in the segmentation on phone level.\n",
+    "The proposed technique can be used for designing alternative representations of the speech signal to describe phonetic-linguistic phenomena, including intrinsic variation, and for automatic annotation and segmentation procedures.\n",
+    ""
+   ]
+  },
+  "strik06_sriv": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "How to handle pronunciation variation in ASR: by storing episodes in memory?",
+   "original": "sriv_033",
+   "page_count": 6,
+   "order": 7,
+   "p1": "33",
+   "pn": "38",
+   "abstract": [
+    "Almost all current automatic speech recognition (ASR) systems use a similar paradigm, which will be referred to here briefly as the invariant approach. Despite intensive research, ASR performance is still at least an order of magnitude lower than that of human speech recognition (HSR). The difficulties encountered in improving ASR performance, in combination with the awareness that current ASR systems have some shortcomings, have led many to believe that a new paradigm for ASR is needed. In this paper a novel paradigm for ASR is presented.\n",
+    "The invariant approach has also dominated (psycho-) linguistics. However, recent findings that indexical and detailed (sub-phonemic) information influence lexical access, have started a debate in (psycho-)linguistics on how these findings could be incorporated in HSR theories and models. On the basis of these findings episodic theories have been proposed. Although the episodic speech recognition (ESR) model is mainly inspired by HSR research, it is also very interesting and promising for ASR, since it has the potential to resolve some shortcomings of the mainstream ASR approach.\n",
+    ""
+   ]
+  },
+  "wright06_sriv": {
+   "authors": [
+    [
+     "Richard",
+     "Wright"
+    ]
+   ],
+   "title": "Intra-speaker variation and units in human speech perception and ASR",
+   "original": "sriv_039",
+   "page_count": 4,
+   "order": 8,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "Recent research on human speech perception and word recognition on one hand, and automatic speech recognition on the other, has resulted in significant advances in our understanding of variation in the speech signal. One advance is the recognition that speaker dependent variation in the speech signal is largely systematic, and therefore can be treated as information rather than noise. Another is the recognition that inter-speaker and intra-speaker variation diverge significantly both in their base causes and in their acoustic characteristics. Therefore success in approaches to one type of variation may not always transfer to the other. Inter-talker variation, frequently referred to as indexical information, results from talker-dependent physiologic and anatomic influences on production. It is also the result of a myriad of talker-dependent experiences with language exposure and use such as demographic factors, regional accents, and sociolinguistic factors. Although inter-talker variability represents a significant challenge to models of speech perception and ASR, it can be addressed with corpora that are representative of the population that is being modeled (range of talker sizes, gender, ages) and appropriate language descriptions (ex: different phone representations for words that vary in pronunciation across regional accents). The reason for this is that most inter-speaker variation remains constant across speaking contexts and is shared by significant sectors of the population (ex: regional accent, speaker size, gender). Intra-talker variation results from a variety of factors including linguistic-structural (ie allophonic) effects, such as the influence of phonetic and prosodic contexts, discourse factors, lexical factors, emotion, and the talkers estimation of the listeners need for clarity and intensity in the signal (due to noise, confusion, or recognition errors). Clearly using task appropriate corpora will improve automatic recognition in the face of intra-speaker variation. However, unlike indexical information, speaker internal variation does not remain static across an utterance. It therefore requires the listener, and the ASR device, to adapt dynamically to the to the changes or to be able to predict them. Moreover, many of the changes are sub-phone in nature (addition of a feature from partial assimilation to context, partial deletions) and are therefore best modeled in terms of features rather than through the proliferation of novel phones to accommodate the new sounds that are created through the addition of a single feature. Traditional models of speech perception are based on abstract and invariant categories, such as phonemes or context sensitive allophones (equivalent to phones in ASR) and therefore are very poor at handling variation. Recent research on speech perception and word recognition suggests that retrieval of information is affected by systematic variation such as rate, speech style, reduction and hyperarticulation in response to changing informational load, or indexical information. Moreover, there is evidence that human listeners adapt dynamically to listening conditions using partial information. That is, listeners can use underspecified information in making lexical decisions, modifying the weighting of extracted features as the listening conditions change. For example listeners use a sort of coarse coding of features that group speech sounds into meta-phone groupings based on similarity distances. Feature-based representations are necessary for modeling underspecification in perceptual responses. Moreover, feature-based pronunciation models for ASR are more efficient than phone based models, are better suited for incorporation of new factors such as prosody, are better for modeling sparse data, and are better suited for dynamic adaptation to changes in the speech signal.\n",
+    ""
+   ]
+  },
+  "vali06_sriv": {
+   "authors": [
+    [
+     "Mansoor",
+     "Vali"
+    ],
+    [
+     "Seyyed Ali Seyyed",
+     "Salehi"
+    ],
+    [
+     "Kazem",
+     "Karimi"
+    ]
+   ],
+   "title": "Improvement of feature vectors in clean and telephone speech recognition using bidirectional neural network",
+   "original": "sriv_041",
+   "page_count": 5,
+   "order": 9,
+   "p1": "41",
+   "pn": "46",
+   "abstract": [
+    "In this paper we present a new method for nonlinear compensation of distortions, e.g. channel effects and additive noise, in clean and telephone speech recognition. A Bidirectional Neural Network (Bidi-NN) was developed and implemented in order to modify distorted input feature vectors and improve the overall recognition accuracy. Distorted components in feature vectors were estimated in accordance with the latent knowledge in the hidden layer of the neural network. This knowledge is obtained by training with clean and telephone speech, simultaneously and is mostly induced by phonemic content and less influenced by the irrelevant variations in speech signal. An MLP neural network was trained with these modified feature vectors. Comparing the achieved results with a reference model that was trained with unmodified feature vectors, demonstrate significant improvement in clean and telephone speech recognition accuracy.\n",
+    ""
+   ]
+  },
+  "minematsu06_sriv": {
+   "authors": [
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Tazuko",
+     "Nishimura"
+    ],
+    [
+     "Katsuhiro",
+     "Nishinari"
+    ],
+    [
+     "Kyoko",
+     "Sakuraba"
+    ]
+   ],
+   "title": "Theorem of the invariant structure and its derivation of speech gestalt",
+   "original": "sriv_047",
+   "page_count": 6,
+   "order": 10,
+   "p1": "47",
+   "pn": "52",
+   "abstract": [
+    "Speech communication has several steps of production, encoding, transmission, decoding, and hearing. In every step, acoustic distortions are involved inevitably as differences of vocal tract length, gender, age, microphone, room, line, hearing characteristics, etc. These are static non-linguistic factors and completely irrelevant to speech recognition. Although the spectrogram always carries these factors, almost all the speech applications have been built on this noisy representation. Recently, the first author proposed a novel representation of speech, called the acoustic universal structure. What is represented here is only the interrelations among speech events and their absolute properties are discarded completely. It is very interesting that the non-linguistic factors can be removed effectively from speech as cepstrum smoothing of the spectrogram can remove pitch information from speech. The first author already used this representation in some speech applications and, in this paper, its theoretical background is described in detail from the viewpoints of linguistics, psychology, acoustics, and mathematics with some results of recognition experiments and perceptual experiments. It is shown that the new representation can be viewed as speech Gestalt.\n",
+    ""
+   ]
+  },
+  "dusan06_sriv": {
+   "authors": [
+    [
+     "Sorin",
+     "Dusan"
+    ]
+   ],
+   "title": "On the distribution of information and intrinsic variability for classification of coarticulated vowels",
+   "original": "sriv_053",
+   "page_count": 6,
+   "order": 11,
+   "p1": "53",
+   "pn": "58",
+   "abstract": [
+    "It is known that the information necessary for the identification of coarticulated vowels is distributed throughout the duration of the vowels and the adjacent phonemes. This information is embedded in the speech signal in various acoustic patterns: static, dynamic, and temporal. A recent study identified seven types of acoustic patterns that might be exploited by listeners in the identification of coarticulated vowels. This paper extends the previous study and focuses on two problems. First, it presents a quantitative analysis of the underlying distribution of the acoustic information throughout vowels and adjacent consonants by employing vowel classification experiments. Second, it presents a quantitative analysis of the within-groups and between-groups sources of variability that make the total intrinsic variability of speech, and shows that the results of such analysis correlate with and predict the results obtained in the vowel classification experiments that reflect the distribution of information. The findings of this paper may be important for automatic speech recognition and suggest some basic improvements to such techniques.\n",
+    ""
+   ]
+  },
+  "duchateau06_sriv": {
+   "authors": [
+    [
+     "Jacques",
+     "Duchateau"
+    ],
+    [
+     "Mari",
+     "Wigham"
+    ],
+    [
+     "Kris",
+     "Demuynck"
+    ],
+    [
+     "Hugo van",
+     "Hamme"
+    ]
+   ],
+   "title": "A flexible recogniser architecture in a reading tutor for children",
+   "original": "sriv_059",
+   "page_count": 6,
+   "order": 12,
+   "p1": "59",
+   "pn": "64",
+   "abstract": [
+    "In this paper, a novel architecture is proposed for the speech recognition component in a reading tutor. Decoding starts with an unconstrained phoneme recogniser that produces a phoneme lattice. Next, the best path in the lattice is looked for based on a phoneme level finite state transducer that models the words in the sentence to be read and that includes solutions for expected reading miscues and for unexpected events and disfluencies. An advantage of the architecture is its modularity as the first module is a generic phoneme recogniser while the second contains all task specific information. Moreover, the intermediate phoneme lattice adds flexibility to the system as lattice re-scoring allows, at an early stage of recognition, the incorporation of elaborate acoustic features that don't fit in a typical HMM-based recogniser, for instance segment based features. Experiments with the proposed system show favorable reading miscue detection and false alarm rates compared to the state-of-the-art systems described in the literature. In addition we introduce an efficient VTLN system that avoids delays in the recognition which would be incompatible with the immediate feedback often needed in a reading tutor. Using the VTLN, the acoustic modelling for children between 5 and 11 years old could be improved considerably.\n",
+    ""
+   ]
+  },
+  "cloarec06_sriv": {
+   "authors": [
+    [
+     "Gwenael",
+     "Cloarec"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Jean",
+     "Monné"
+    ]
+   ],
+   "title": "Analysis of the modeling of pitch and voicing parameters for speaker-independent speech recognition systems",
+   "original": "sriv_065",
+   "page_count": 6,
+   "order": 13,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper analyzes different ways of introducing the pitch frequency and a voicing parameter into speaker-independent speech recognition systems in order to check if their usefulness depends on the way they are modeled. Speech recognition performance evaluations were carried out on three speaker-independent speech recognition tasks. Modeling pitch and voicing features independently of the MFCC-based acoustic features through discrete or Gaussian densities slightly improves results on the three studied tasks. On the contrary directly introducing pitch and/or voicing features into the acoustic vector leads to significant recognition improvements on the isolated word recognition tasks, but does not bring any improvement on the continuous speech recognition task. Those results could be explained by the fact that the improvement brought when introducing pitch directly into the acoustic vector is related to certain dependency between the pitch frequency and the acoustic parameters. This dependency is much more important in the case of the isolated word recognition tasks than in the case of the continuous speech recognition task, in which prosody can lead to pitch changes depending on the prosodic context.\n",
+    ""
+   ]
+  },
+  "cincarek06_sriv": {
+   "authors": [
+    [
+     "Tobias",
+     "Cincarek"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Utterance-based selective training for cost-effective task-adaptation of acoustic models",
+   "original": "sriv_071",
+   "page_count": 6,
+   "order": 14,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "The construction of acoustic models for speech recognition systems is a very costly and time-consuming process, since their robust training requires large amounts of transcribed speech data. This paper describes an approach for costeffective construction of task-adapted acoustic models. Existing speech data(bases) are employed to set up a large training data pool. Apart from that, only a small amount of taskspecific speech data is required. Based on an algorithm for utterance-based selective training of acoustic models, training utterances are selected from the training data pool so that the likelihood of the acoustic model given the task-specific speech data is maximized. The proposed method is evaluated for acoustic models with context-independent and contextdependent phonetic units. Results are reported for building an infant (preschool children) acoustic model with speech from elementary school children and an elderly acoustic model with adult speech. The proposed approach is already effective if there are only 20 task-specific utterances available. A relative improvement in word accuracy of up to 10% is achieved over conventional acoustic model construction and up to 2.8% over MAP and MLLR adaptation with task-specific data. The gap in performance to a high-cost acoustic model can be reduced up to 76%.\n",
+    ""
+   ]
+  },
+  "scharenborg06_sriv": {
+   "authors": [
+    [
+     "Odette",
+     "Scharenborg"
+    ],
+    [
+     "Vincent",
+     "Wan"
+    ],
+    [
+     "Roger K.",
+     "Moore"
+    ]
+   ],
+   "title": "Capturing fine-phonetic variation in speech through automatic classification of articulatory features",
+   "original": "sriv_077",
+   "page_count": 6,
+   "order": 15,
+   "p1": "77",
+   "pn": "82",
+   "abstract": [
+    "The ultimate goal of our research is to develop a computational model of human speech recognition that is able to capture the effects of fine-grained acoustic variation on speech recognition behaviour. As part of this work we are investigating automatic feature classifiers that are able to create reliable and accurate transcriptions of the articulatory behaviour encoded in the acoustic speech signal. In the experiments reported here, we compared support vector machines (SVMs) with multilayer perceptrons (MLPs). MLPs have been widely (and rather successfully) used for the task of multi-value articulatory feature classification, while (to the best of our knowledge) SVMs have not. This paper compares the performances of the two classifiers and analyses the results in order to better understand the articulatory representa-tions. It was found that the MLPs outperformed the SVMs, but it is concluded that both classifiers exhibit similar behaviour in terms of patterns of errors.\n",
+    ""
+   ]
+  },
+  "tyagi06_sriv": {
+   "authors": [
+    [
+     "Vivek",
+     "Tyagi"
+    ],
+    [
+     "Mohammed",
+     "Benzheghiba"
+    ],
+    [
+     "Milos",
+     "Cernak"
+    ],
+    [
+     "Christian",
+     "Wellekens"
+    ]
+   ],
+   "title": "Comparative study of different features on OLLO logatome recognition task",
+   "original": "sriv_083",
+   "page_count": 6,
+   "order": 16,
+   "p1": "83",
+   "pn": "88",
+   "abstract": [
+    "We compare the ASR performances of different features sets (MFCC, PLP, constant JRASTA PLP and variable scale piece-wise quasi-stationary analyzed MFCC features), on the OLdenburg LOgatome speech corpus (OLLO). OLLO database is rich in various speech variabilities such as different speaking styles(slow, fast, statement, questioning, loud and soft) and with almost equal sampling of the male and female speakers. A HMM-GMM system has been trained on the no-accent part of the OLLO database that consists of roughly 13,500 utterances and then tested on the no- accent part of the test set that roughly consists of 13,800 logatome utterances. We compare state-of the art fixed time scale (20ms long windows) features with the recently proposed variable scale quasi-stationary analyzed MFCC features. This technique results in a variable scale time spectral analysis, adaptively estimating the largest possible analysis window size such that the signal remains quasi-stationary, thus the best temporal/frequency resolution tradeoff.\n",
+    "The speech recognition experiments on the OLLO database, show that the proposed variable-scale piecewise stationary spectral analysis based features indeed yield improved recognition accuracy in clean conditions, compared to MFCC, PLP and constant-JRASTA PLP features.\n",
+    ""
+   ]
+  },
+  "matrouf06_sriv": {
+   "authors": [
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Loic",
+     "Barrault"
+    ],
+    [
+     "Renato De",
+     "Mori"
+    ]
+   ],
+   "title": "A general method for combining acoustic features in an automatic speech recognition system",
+   "original": "sriv_089",
+   "page_count": 6,
+   "order": 17,
+   "p1": "89",
+   "pn": "94",
+   "abstract": [
+    "A general method for the use of different types of features in Automatic Speech Recognition (ASR) systems is presented. A gaussian mixture model (GMM) is obtained in a reference acoustic space. A specific feature combination or selection is associated to each gaussian of the mixture and used for computing symbol posterior probabilities. Symbols can refer to phonemes, phonemes in context or states of a Hidden Markov Model (HMM). Experimental results are presented of applications to phoneme and word rescoring after verification. Two corpora were used, one with small vocabularies in Italian and Spanish and one with very large vocabulary in French.\n",
+    ""
+   ]
+  },
+  "meyer06_sriv": {
+   "authors": [
+    [
+     "Bernd",
+     "Meyer"
+    ],
+    [
+     "Thorsten",
+     "Wesker"
+    ],
+    [
+     "Thomas",
+     "Brand"
+    ],
+    [
+     "Alfred",
+     "Mertins"
+    ],
+    [
+     "Birger",
+     "Kollmeier"
+    ]
+   ],
+   "title": "A human-machine comparison in speech recognition based on a logatome corpus",
+   "original": "sriv_095",
+   "page_count": 6,
+   "order": 18,
+   "p1": "95",
+   "pn": "100",
+   "abstract": [
+    "In this study, a fair comparison of human and machine speech recognition is established by using the same paradigms for human speech recognition (HSR) and automatic speech recognition (ASR). In order to ensure equal conditions, a speech database specifically designed for this task is used. The results for HSR and ASR are broken down into several intrinsic variabilities like speaking rate, speaking effort and dialect. Across all conditions, ASR error rates are at least 300 % higher than those of humans, even though no contextual knowledge can be exploited. A more detailed analysis of errors in HSR and ASR is carried out by decomposing speech into its phonetic features like voicing or manner and place of articulation. Confusion matrices for these features show that voicing information is crucial to distinguish between certain consonants. The most prominent features for ASR often neglect voicing information, which might contribute to the large gap in performance between HSR and ASR.\n",
+    ""
+   ]
+  },
+  "strik06b_sriv": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "A.",
+     "Elffers"
+    ],
+    [
+     "D.",
+     "Bavcar"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ]
+   ],
+   "title": "Half a word is enough for listeners, but problematic for ASR",
+   "original": "sriv_101",
+   "page_count": 6,
+   "order": 19,
+   "p1": "101",
+   "pn": "106",
+   "abstract": [
+    "The present study investigates whether there are word sequences that exhibit considerable deviation in pronunciation, such that they might require special treatment in speech technology, so called multiword expressions (MWEs). The results show that these sequences exist, that they are frequent and that they are often extremely reduced. In order to be studied, MWEs have to be identified in the first place. We investigate how such sequences can be automatically detected in a corpus of spontaneous speech. Measures that are known to be related to predictability and phonetic reduction are employed for this purpose. Our findings indicate that these measures yield different results and that a combination of criteria would probably be most effective.\n",
+    ""
+   ]
+  },
+  "dupont06_sriv": {
+   "authors": [
+    [
+     "Stéphane",
+     "Dupont"
+    ],
+    [
+     "Christophe",
+     "Ris"
+    ]
+   ],
+   "title": "Multiple acoustic and variability estimation models for ASR",
+   "original": "sriv_107",
+   "page_count": 5,
+   "order": 20,
+   "p1": "107",
+   "pn": "112",
+   "abstract": [
+    "In the paper, we expose a formalism that allows to make use of features representing both short-term and long-term speech behavior. This amounts to using multiple (specific, compensated or adapted) acoustic models which are defined according to additional hidden variables not pertaining to the phonetic sequence, but rather to long-term stable structures in the speech signal, like the speaker identity or the speaking rate.\n",
+    "This formalism has been evaluated for recognition using vocal tract length (VTL) normalization. Features based on long-term pitch and formant measures, as well as PCA reductions of these, have been investigated nd show significant correlation with the VTL. Speech recognition experiments performed on the children portion of the TI-DIGITS database show the improved accuracy obtained using this technique compared to VTL selection based on the traditional Maximum Likelihood criterion.\n",
+    ""
+   ]
+  },
+  "markov06_sriv": {
+   "authors": [
+    [
+     "Konstantin",
+     "Markov"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Acoustic modeling of accented English speech for large-vocabulary speech recognition",
+   "original": "sriv_113",
+   "page_count": 5,
+   "order": 21,
+   "p1": "113",
+   "pn": "118",
+   "abstract": [
+    "In this paper, we present a study on robust speech recognition with respect to accent variations. Differences that characterize accents in speech can be divided into two parts: phonetic and acoustic. We focus on the acoustic differences and the ways of acoustic model design and training that can be used to minimize the effect of accent variations on the speech recognition system's performance. When accented training data is available, a typical approach is to train an acoustic model for each accent and use them in parallel. Another way is to pool all data together and train one model with more parameters assuming that accent variations can be learned by the training algorithm. We compared both of these approaches with a method based on the hybrid HMM/Bayesian Network (HMM/BN) framework using a database consisting of speech from the three major accents of English: American, British and Australian. The results of our experiments show that in the matched accent case, the accent dependent acoustic models perform the best. However, if the accent is unknown, for models with a small number of parameters, the pooled data training approach is preferable. In contrast, when the amount of data allows for training models with a relatively large parameter number, the HMM/BN model is the best choice.\n",
+    ""
+   ]
+  },
+  "ghorshi06_sriv": {
+   "authors": [
+    [
+     "Seyed Alireza",
+     "Ghorshi"
+    ],
+    [
+     "Saeed",
+     "Vaseghi"
+    ],
+    [
+     "Qin",
+     "Yan"
+    ]
+   ],
+   "title": "Cross entropy information metric for quantification and cluster analysis of accents",
+   "original": "sriv_119",
+   "page_count": 4,
+   "order": 22,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "This paper proposes a method for the measurement and quantification of the impact of accents on speech models. An accent metric is introduced based on the cross entropy (CE) of the probability models of speech from different accents. The CE metric has potentials for use in analysis, identification, quantification and ranking of the salient features of accents. The accent metric is used for phonetic-tree cluster analysis of phonemes, for cross-accent phonetic clustering and for quantification of the distances of phonetic sounds in different English accents. Experimental evaluation presented quantifies the effect of American, British and Australian accents on acoustic realisation of phonemes.\n",
+    ""
+   ]
+  },
+  "rademacher06_sriv": {
+   "authors": [
+    [
+     "Jan",
+     "Rademacher"
+    ],
+    [
+     "Alfred",
+     "Mertins"
+    ]
+   ],
+   "title": "A study of auditory-filterbank based preprocessing for the generation of warping-invariant features",
+   "original": "sriv_123",
+   "page_count": 5,
+   "order": 23,
+   "p1": "123",
+   "pn": "128",
+   "abstract": [
+    "Auditory filterbanks have a long history in the preprocessing stage of automatic speech recognition systems, with the most prominent examples being the mel frequency cepstral coefficients (MFCCs). In this paper, we study the usefulness of auditory-filterbank analyses as a preprocessor for the generation of frequency-warping invariant features. The results indicate, that gammatone- filterbank analyses following the equivalent rectangular bandwidth (ERB) scale yield the most robust feature sets. The performance improvements are most significant when the vocal tract lengths in the training and test sets differ, which is important when, for example, children speech is to be recognized with a system that was mainly trained on adult data.\n",
+    ""
+   ]
+  },
+  "rispoli06_sriv": {
+   "authors": [
+    [
+     "Renato",
+     "Rispoli"
+    ],
+    [
+     "Richard C.",
+     "Rose"
+    ],
+    [
+     "Jon",
+     "Arrowood"
+    ]
+   ],
+   "title": "The influence of word detection variability on IR performance in automatic audio indexing of course lectures",
+   "original": "sriv_129",
+   "page_count": 6,
+   "order": 24,
+   "p1": "129",
+   "pn": "134",
+   "abstract": [
+    "This paper presents a study of the influence of acoustic variability on topic spotting performance in an application involving automatic indexing of course lectures. The application involves users formulating keyword queries to an indexing system which includes phone lattice based acoustic representations of audio material, a mechanism for keyword searching of a phone lattice, and a measure for evaluating the relevance of short segments of the audio files with respect to the query. The paper describes the results of a study where keyword detection performance for query terms provided by domain experts is related to the information retrieval (IR) performance obtained using a novel information retrieval measure.  IR performance obtained from text transcriptions of the audio recordings and from the audio recordings themselves are presented.\n",
+    ""
+   ]
+  },
+  "potamianos06_sriv": {
+   "authors": [
+    [
+     "A.",
+     "Potamianos"
+    ],
+    [
+     "G.",
+     "Bouselmi"
+    ],
+    [
+     "D.",
+     "Dimitriadis"
+    ],
+    [
+     "Dominique",
+     "Fohr"
+    ],
+    [
+     "Roberto",
+     "Gemello"
+    ],
+    [
+     "I.",
+     "Illina"
+    ],
+    [
+     "Franco",
+     "Mana"
+    ],
+    [
+     "P.",
+     "Maragos"
+    ],
+    [
+     "M.",
+     "Matassoni"
+    ],
+    [
+     "V.",
+     "Pitsikalis"
+    ],
+    [
+     "J.",
+     "Ramirez"
+    ],
+    [
+     "E.",
+     "Sanchez-Soto"
+    ],
+    [
+     "J.",
+     "Segura"
+    ],
+    [
+     "P.",
+     "Svaizer"
+    ]
+   ],
+   "title": "Towards speaker and enviromental robustness in ASR: the HIWIRE project",
+   "original": "sriv_135",
+   "page_count": 8,
+   "order": 25,
+   "p1": "135",
+   "pn": "142",
+   "abstract": [
+    "In this paper, we present algorithms for dealing with variability and mismatch in speech recognition due to environmental conditions and non-native speaker populations. The proposed algorithms cover a broad spectrum of ideas including robust feature extraction, feature compensation and speech enhancement. Specifically the following algorithms are presented and evaluated: beamforming for multi-microphone speech recognition, robust modulation and fractal features, Teager energy cepstrum coefficients, parametric feature equalization, speech enhancement, and acoustic modeling for non-native speech recognition. Also the problem of feature fusion and voice activity detection are discussed. Evaluation results on the AURORA databasesunder the auspices of the HIWIRE project show that significant gains can be achieved under adverse or mismatched conditions using these algorithms. Relative error rate reduction of up to 50% was shown for multi-microphone speech recognition, robust feature combination and speech enhancement. 30-40% reduction was shown for parametric feature equalization and non-native acoustic models.\n",
+    ""
+   ]
+  },
+  "scanzio06_sriv": {
+   "authors": [
+    [
+     "Stefano",
+     "Scanzio"
+    ],
+    [
+     "Dario",
+     "Albesano"
+    ],
+    [
+     "Roberto",
+     "Gemello"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ],
+    [
+     "Franco",
+     "Mana"
+    ]
+   ],
+   "title": "Adapting hybrid ANN/HMM to speech variations",
+   "original": "sriv_143",
+   "page_count": 5,
+   "order": 26,
+   "p1": "143",
+   "pn": "147",
+   "abstract": [
+    "A technique is proposed for the adaptation of automatic speech recognition systems using Hybrid models combining Artificial Neural Networks with Hidden Markov Models.\n",
+    "We investigated in this paper the extension of the classical approach consisting in applying linear transformations not only to the input features, but also to the outputs of the internal layers. The motivation is that the outputs of an internal layer represent a projection of the input pattern into a space where it should be easier to learn the classification or transformation expected at the output of the network. To reduce the risk that the network focuses on new data only, losing its generalization capability (catastrophic forgetting), an original solution, Conservative Training, is proposed.\n",
+    "We illustrate the problem of catastrophic forgetting using an artificial test-bed, and apply our techniques to a set of adaptation tasks in the domain of Automatic Speech Recognition (ASR) based on Artificial Neural Networks.\n",
+    "We report on the adaptation potential of different techniques, and on the generalization capability of the adapted networks. The results show that the combination of the proposed approaches mitigates the catastrophic forgetting effects, and always outperforms the use of the classical linear transformation in the feature space.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Table of Contents and Access to Abstracts",
+   "papers": [
+    "foslerlussier06_sriv",
+    "nakamura06_sriv",
+    "jouvet06_sriv",
+    "stemmer06_sriv",
+    "hamalainen06_sriv",
+    "bosch06_sriv",
+    "strik06_sriv",
+    "wright06_sriv",
+    "vali06_sriv",
+    "minematsu06_sriv",
+    "dusan06_sriv",
+    "duchateau06_sriv",
+    "cloarec06_sriv",
+    "cincarek06_sriv",
+    "scharenborg06_sriv",
+    "tyagi06_sriv",
+    "matrouf06_sriv",
+    "meyer06_sriv",
+    "strik06b_sriv",
+    "dupont06_sriv",
+    "markov06_sriv",
+    "ghorshi06_sriv",
+    "rademacher06_sriv",
+    "rispoli06_sriv",
+    "potamianos06_sriv",
+    "scanzio06_sriv"
+   ]
+  }
+ ]
+}

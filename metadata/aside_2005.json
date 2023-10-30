@@ -1,0 +1,664 @@
+{
+ "title": "Applied Spoken Language Interaction in Distributed Environments (ASIDE 2005)",
+ "location": "Aalborg, Denmark",
+ "startDate": "10/11/2005",
+ "endDate": "11/11/2005",
+ "conf": "ASIDE",
+ "year": "2005",
+ "name": "aside_2005",
+ "series": "",
+ "SIG": "",
+ "title1": "Applied Spoken Language Interaction in Distributed Environments",
+ "title2": "(ASIDE 2005)",
+ "date": "10-11 November 2005",
+ "papers": {
+  "larson05_aside": {
+   "authors": [
+    [
+     "James A.",
+     "Larson"
+    ]
+   ],
+   "title": "VoiceXML: industry perspectives and business opportunities",
+   "original": "aside_43",
+   "page_count": 4,
+   "order": 1,
+   "p1": "paper 43 (keynote paper)",
+   "pn": "",
+   "abstract": [
+    "Speech synthesis, speech recognition, improved hardware, and improved dialog system combine into a disruptive technology that will forever change how people interact with embedded computers. Network convergence, device convergence, and standard modular components are changing the computing environment. While call centers are todays major market for speech applications, multimodal applications on portable handheld devices will soon dominate the market for speech technology.\n",
+    ""
+   ]
+  },
+  "terken05_aside": {
+   "authors": [
+    [
+     "Jacques",
+     "Terken"
+    ]
+   ],
+   "title": "Guidelines and tools for the design of multimodal interfaces",
+   "original": "aside_41",
+   "page_count": 8,
+   "order": 2,
+   "p1": "paper 41",
+   "pn": "",
+   "abstract": [
+    "This paper reports on activities that have been conducted in the context of COST278, WG2, Multimodal Processing. We present an overview of guidelines and tools that have been proposed to support the design of multimodal interfaces, both guidelines that have emerged as heuristics from design projects and ones that have been rooted in theory. We present a brief case study in which tools were applied to concrete interfaces, and conclude with recommendations.\n",
+    ""
+   ]
+  },
+  "hutter05_aside": {
+   "authors": [
+    [
+     "Hans-Peter",
+     "Hutter"
+    ],
+    [
+     "Roger",
+     "Tönz"
+    ]
+   ],
+   "title": "New concept for designing multimodal user interfaces",
+   "original": "aside_25",
+   "page_count": 4,
+   "order": 3,
+   "p1": "paper 25",
+   "pn": "",
+   "abstract": [
+    "This paper proposes a new concept for the design of multimodal user interfaces (MMUIs) based on so-called Multimodal Objects (MMOs). MMOs are a new kind of multimodal components we propose in order to simplify the construction of consistant MMUIs. An MMO is in the simplest case a basic interaction element like a single multimodal button or textfield. These MMOs are built according to the model-view-controller pattern. The model of the MMO is responsible for the logic of the MMO. The view of the MMO has different aspects, one for each modality. The controller of the MMO is responsible for the event fusion, i.e. to coordinate the different events coming from the different aspects of the view and compiling them into a semantic event of the MMO. This semantic event is then transmitted to the model of the MMO which normally results in a state change of the model.\n",
+    ""
+   ]
+  },
+  "lopezcozar05_aside": {
+   "authors": [
+    [
+     "Ramón",
+     "López-Cózar"
+    ],
+    [
+     "Zoraida",
+     "Callejas"
+    ],
+    [
+     "Miguel",
+     "Gea"
+    ],
+    [
+     "Germán",
+     "Montoro"
+    ]
+   ],
+   "title": "Multimodal, multilingual and adaptive dialogue system for ubiquitous interaction in an educational space",
+   "original": "aside_12",
+   "page_count": 4,
+   "order": 4,
+   "p1": "paper 12",
+   "pn": "",
+   "abstract": [
+    "This paper presents our current work in the UCAT project (Ubiquitous Collaborative Adaptive Training) concerned with setting up a multimodal, multilingual and adaptive dialogue system. The system goal is toassist teachers and students in some of their usual activities within an educational space (e.g. a University Faculty). The user-system interaction is carried out by means of speech, text, graphics and direct manipulation, either in English or Spanish. The system is adaptive as the interaction is carriedout considering the user preferences previously stored in a user- profile database. The interaction is ubiquitous as the system takes intoaccount the environment in which the user is interacting. Also, we plan the system can operate automatically some environment devices (e.g. professor officeslights). The paper describes the architecture, current setting up and usage of the system, and sets out possibilities for future work.\n",
+    ""
+   ]
+  },
+  "huuskonen05_aside": {
+   "authors": [
+    [
+     "Pertti",
+     "Huuskonen"
+    ]
+   ],
+   "title": "Interaction through non-interaction: context awareness and distributed applications",
+   "original": "aside_36",
+   "page_count": 4,
+   "order": 5,
+   "p1": "paper 36 (keynote paper)",
+   "pn": "",
+   "abstract": [
+    "Spoken interaction with machines is not yet common place, despite extensive research and some commercial successes. Systems that allow unlimited conversation with arbitrary speakers are still to be seen. In addition to computational difficulties, environmental noise, social issues, multiple languages, and the general ambiguity of human dialogue, one fundamental aspect behind the problem is the generic difficulty of determining the space of discourse. To limit this semantic search space, we hope to get a little help from the contextual info available in ubiquitous computing environments. We discuss some developments in the areas of user profiling, context awareness, sensor networks, social clues, and semantic networks, together with some expectations of how the gained additional information can enhance spoken interaction. We then look at some applications made possible by these developments and suggest topics for further research.\n",
+    ""
+   ]
+  },
+  "turunen05_aside": {
+   "authors": [
+    [
+     "Markku",
+     "Turunen"
+    ],
+    [
+     "Esa-Pekka",
+     "Salonen"
+    ],
+    [
+     "Jaakko",
+     "Hakulinen"
+    ],
+    [
+     "Juuso",
+     "Kanner"
+    ],
+    [
+     "Anssi",
+     "Kainulainen"
+    ]
+   ],
+   "title": "Mobile architecture for distributed multimodal dialogues",
+   "original": "aside_22",
+   "page_count": 4,
+   "order": 6,
+   "p1": "paper 22",
+   "pn": "",
+   "abstract": [
+    "There is an increasing need for mobile spoken dialogue systems. Mobile devices, such as smartphonesand personal digital assistants, can be used to implement efficient speech-based and multimodal interfaces. Currently, the development of such applications lacks suitable tools. We introduce general system architecture for mobile spoken dialogue systems. The architecture is a mobile version of the existing Jaspis architecture. The architecture makes it possible to implement distributed dialoguesystems using compact software agents in flexible ways both on the server and mobile devices. We present how an existing server-based timetable application is turned into a multimodal mobile application. The server handles the overall coordination of the dialogue by generating dialogue task descriptions using VoiceXML, and the mobile device realizes the dialogue descriptions with available resources.\n",
+    ""
+   ]
+  },
+  "brndsted05_aside": {
+   "authors": [
+    [
+     "Tom",
+     "Brøndsted"
+    ],
+    [
+     "Henrik Legind",
+     "Larsen"
+    ],
+    [
+     "Lars Bo",
+     "Larsen"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ],
+    [
+     "Daniel",
+     "Ortiz-Arroyo"
+    ],
+    [
+     "Zheng-Hua",
+     "Tan"
+    ],
+    [
+     "Haitian",
+     "Xu"
+    ]
+   ],
+   "title": "Mobile information access with spoken query answering",
+   "original": "aside_31",
+   "page_count": 4,
+   "order": 7,
+   "p1": "paper 31",
+   "pn": "",
+   "abstract": [
+    "This paper addresses the problem of information and service accessibility in mobile devices with limited resources. A solution is developed and tested through a prototype that applies state-of-the-art Distributed Speech Recognition (DSR) and knowledge-based Information Retrieval (IR) processing for spoken query answering. For the DSR part, a configurable DSR system is implemented on the basis of the ETSI-DSR advanced front-end and the SPHINX IV recognizer. For the knowledge-based IR part, a distributed system solution is developed for fast retrieval of the most relevant documents, with a text window focused over the part which most likely contains an answer to the query. The two systems are integrated into a full spoken query answering system. The prototype can answer queries and questions within the chosen football (soccer) test domain, but the system has the flexibility for being ported to other domains.\n",
+    ""
+   ]
+  },
+  "edlund05_aside": {
+   "authors": [
+    [
+     "Jens",
+     "Edlund"
+    ],
+    [
+     "Anna",
+     "Hjalmarsson"
+    ]
+   ],
+   "title": "Applications of distributed dialogue systems: the KTH connector",
+   "original": "aside_20",
+   "page_count": 4,
+   "order": 8,
+   "p1": "paper 20",
+   "pn": "",
+   "abstract": [
+    "We describe a spoken dialogue system domain: that of the personal secretary. This domain allows us to capitaliseon the characteristics that make speech a unique interface; characteristics that humansuse regularly, implicitly, and with remarkable ease. We present a prototype system - the KTH Connector - and highlight several dialogue research issues arising in the domain.\n",
+    ""
+   ]
+  },
+  "moller05_aside": {
+   "authors": [
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Evaluating telephone-based interactive systems",
+   "original": "aside_42",
+   "page_count": 5,
+   "order": 9,
+   "p1": "paper 42 (keynote paper)",
+   "pn": "",
+   "abstract": [
+    "In order to evaluate the quality of telephone-based interactive systems, two approaches are commonly followed. Firstly, system and user behavior are logged, transcribed and annotated, in order to quantify the performance of the system components and the flow of the interaction between user and system in a parametric way. Secondly, the entire system is evaluated from a users point of view, with the help of questionnaires and quantitative rating scales. For both approaches, recommendations have been issued, defining interaction parameters and the practical set-up of experiments with human test subjects. In addition, prediction algorithms have been proposed to map interaction parameters to subjective user judgments, thus providing quality estimations without relying on user judgments. The present contribution describes what has been reached for each of the approaches, but also the limitations of each methodology. On the basis of experimental data collected with two exemplary systems, shortcomings are identified and future research directions are outlined.\n",
+    ""
+   ]
+  },
+  "dybkjr05_aside": {
+   "authors": [
+    [
+     "Laila",
+     "Dybkjær"
+    ],
+    [
+     "Niels Ole",
+     "Bernsen"
+    ],
+    [
+     "Hans",
+     "Dybkjær"
+    ]
+   ],
+   "title": "Usability evaluation issues in commercial and research systems",
+   "original": "aside_29",
+   "page_count": 4,
+   "order": 10,
+   "p1": "paper 29",
+   "pn": "",
+   "abstract": [
+    "This paper briefly reviews current-practice usability evaluation methods and criteria for spoken dialogue systems. We then describe how two commercial and one research system were evaluated with respect to usability and discuss similarities and differences. Finally, we discuss the industrial need for cheaper ways of evaluating usability and the need to pursue research on usability in a field in which the technological capabilities of systems continue to improve and diversify at a rapid pace.\n",
+    ""
+   ]
+  },
+  "hajdinjak05_aside": {
+   "authors": [
+    [
+     "Melita",
+     "Hajdinjak"
+    ],
+    [
+     "France",
+     "Mihelic"
+    ]
+   ],
+   "title": "Results from an evaluation of a dialogue manager",
+   "original": "aside_16",
+   "page_count": 4,
+   "order": 11,
+   "p1": "paper 16",
+   "pn": "",
+   "abstract": [
+    "We give the results from an evaluation of the dialogue manager of a developing, Slovenian and Croatian spoken dialogue system for weather-information retrieval. The results are based on two Wizard-of-Oz experiments and the application of the PARADISE evaluation framework. The only difference between both experiment settings is in the dialogue-management manner, i.e., while in the first experiment dialogue management was performed by a human, the wizard, in the second experiment it was performed by the newly-implemented dialogue-manager component.\n",
+    ""
+   ]
+  },
+  "stier05_aside": {
+   "authors": [
+    [
+     "Michael",
+     "Stier"
+    ],
+    [
+     "Stefan",
+     "Feldes"
+    ]
+   ],
+   "title": "Domain adaptation of a distributed speech-to-speech translation system",
+   "original": "aside_10",
+   "page_count": 4,
+   "order": 12,
+   "p1": "paper 10",
+   "pn": "",
+   "abstract": [
+    "This paper is on the experiment to design, implement, and optimize a speech-to-speech translation system that is solely based on an appropriate combination of currently available commercial components for speech recognition, machine translation, and speech synthesis. Principal feasibility and performance improvement by domain adaptation have been investigated. We have chosen a distributed architecture to implement an experimental system supporting full-duplex communication. In parallel, it was analysed which kind of application domains are useful and suitable for the respective system infrastructure. For optimization we then investigated how the accuracy of speech recognition can be improved by adaptation to the chosen limited domain (e.g. hotel reservation). This was done by speaker adaptation of the acoustic model, and (more importantly) domain specific adaptation of the language model. Two approaches for LM adaptation were compared: statistical n-grams and context-free grammars. Evaluation by conversation tests shows significant improvements in both approaches. Word accuracy could be raised, e.g. from 75% to 92% using optimised n-grams and to 91% using CFG. Pros and cons with respect to overall system performance and applicability are discussed in detail.\n",
+    ""
+   ]
+  },
+  "moore05_aside": {
+   "authors": [
+    [
+     "Roger K.",
+     "Moore"
+    ]
+   ],
+   "title": "Research challenges in the automation of spoken language interaction",
+   "original": "aside_45",
+   "page_count": 7,
+   "order": 13,
+   "p1": "paper 45 (keynote paper)",
+   "pn": "",
+   "abstract": [
+    "Spoken language interaction plays a fundamental role in almost all human activities, and this has given rise to a burgeoning market for spoken language technology. However, despite strong aspirations for future automated interactive systems, attempts to develop such atechnology raises significant research challenges at the forefront of human knowledge. This paper surveys the main issues that emerge,and it is concluded that the long-term prospects for the area are critically dependent on the successful deployment of technicallyviable and economically valuable applications in the short-term, coupled with a fundamental re-appraisal of the underpinning strategy for tackling the necessary research.\n",
+    ""
+   ]
+  },
+  "diehl05_aside": {
+   "authors": [
+    [
+     "Frank",
+     "Diehl"
+    ],
+    [
+     "Asunción",
+     "Moreno"
+    ],
+    [
+     "Enric",
+     "Monte"
+    ]
+   ],
+   "title": "Crosslingual adaptation of semi-continuous HMMS using acoustic regression classes and sub-simplex projection",
+   "original": "aside_18",
+   "page_count": 4,
+   "order": 14,
+   "p1": "paper 18",
+   "pn": "",
+   "abstract": [
+    "With the demand on providing automatic speech recognition (ASR) systems for many markets, the question of porting an ASR system to a new language is of practical interest. To cope with this task the adaptation of hidden Markov models (HMM) is seen as a key step to transfer the models from a source to a target language. In this work we introduce a novel adaptation scheme for semi-continuous HMMs(SCHMM) and apply it to a crosslingual model adaptation task. The task consists in transferring multilingual Spanish-English-German HMMs to Slovenian. Test results show that substantial improvements over not adapted models can be achieved, confirming the efficiency of the method.\n",
+    ""
+   ]
+  },
+  "james05_aside": {
+   "authors": [
+    [
+     "Alastair",
+     "James"
+    ],
+    [
+     "Ben",
+     "Milner"
+    ]
+   ],
+   "title": "A comparison of efficient interleaver designs for real time distributed speech recognition",
+   "original": "aside_27",
+   "page_count": 4,
+   "order": 15,
+   "p1": "paper 27",
+   "pn": "",
+   "abstract": [
+    "Packet loss presents a significant problem for distributed speech recognition systems particularly when burst lengths of loss are long. This work first proposes an extension to convolutional interleavers such that bursts of packet loss are maximally dispersed to minimise the duration of bursts of loss in the received feature vector stream. This is achieved by interleaving each dimension of the feature vector stream separately. This is shown to give significant gains in recognition accuracy on a large vocabulary task, although at theexpense of increased delay. The second part of this work shows how the interleaving delay can be absorbed into the hang-over delay used to determine when a speaker has finished talking in speech recognition applications.\n",
+    ""
+   ]
+  },
+  "xu05_aside": {
+   "authors": [
+    [
+     "Haitian",
+     "Xu"
+    ],
+    [
+     "Zheng-Hua",
+     "Tan"
+    ],
+    [
+     "Paul",
+     "Dalsgaard"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ]
+   ],
+   "title": "Combined spectral subtraction and cepstral normalisation for robust speech recognition",
+   "original": "aside_30",
+   "page_count": 4,
+   "order": 16,
+   "p1": "paper 30",
+   "pn": "",
+   "abstract": [
+    "This paper presents an effective feature processing algorithm for robust speech recognition, based on combined spectral and cepstral processing. The spectral processing consists of Full-Wave Rectification Spectral Subtraction (FWR-SS) and Likelihood Controlled Instantaneous Noise Estimation (LCINE) while the cepstral processing is based on mean-and variance normalisation.\n",
+    "The combination is motivated by the fact that the (usually) one frame based spectral subtraction introduces large statistical mismatches between clean and enhanced noisy speech in the cepstral domain, resulting in a degradation of the recognition performance. The introduced cepstralprocessing is able, to some extent, to mitigate these mismatches and in this sense the two methods are not just combined but shown to be complementary. Statistical analyses as well as recognition experiments are conducted on the Aurora 2 database and a performance comparable to the much more complex ETSI advanced front-end is achieved.\n",
+    ""
+   ]
+  },
+  "tyagi05_aside": {
+   "authors": [
+    [
+     "Vivek",
+     "Tyagi"
+    ],
+    [
+     "Christian",
+     "Wellekens"
+    ]
+   ],
+   "title": "Adaptive enhancement of speech signals for robust ASR",
+   "original": "aside_23",
+   "page_count": 4,
+   "order": 17,
+   "p1": "paper 23",
+   "pn": "",
+   "abstract": [
+    "Behavior of the least squares filter (LeSF) is analyzed for a class of non-stationary signals that are composed of multiple sinusoids whose frequencies and the amplitudes may vary from block to block and which are embedded in white noise. Analytic expressions for the weights and the output of the LeSF are derived as a function of the block length and the signal SNR computed over the corresponding block. Recognizing that such a sinusoidal model is a valid approximation to the speech signals, we have used LeSF filter estimated on each block to enhance the speech signals embedded in white noise.\n",
+    "ASR experiments on a connected digits task, OGI Numbers 95 show that the proposed LeSF based features yield an increase in speech recognition performance in various non-stationary noise conditions when compared directly to the un-enhanced speech and noise-robust RASTA filtering technique. Besides achieving noise robustness, this filtering technique yields an enhanced speech signal as a by-product. This is particularly suitable for ASR in mobile telephony networks where the noise robust feature extraction module also performs the speech signal enhancement task without incurring additional computational load.\n",
+    ""
+   ]
+  },
+  "pettersen05_aside": {
+   "authors": [
+    [
+     "Svein G.",
+     "Pettersen"
+    ],
+    [
+     "Magne H.",
+     "Johnsen"
+    ],
+    [
+     "Tor A.",
+     "Myrvoll"
+    ]
+   ],
+   "title": "A comparative study of model compensation methods for robust speech recognition in noisy conditions",
+   "original": "aside_14",
+   "page_count": 4,
+   "order": 18,
+   "p1": "paper 14",
+   "pn": "",
+   "abstract": [
+    "Background noise can cause severe degradation of performance for speech recognition systems. Robustness towards background noise can be achieved by applying model-based compensation approaches. For systems that use MFCC features, the relationship between noise, speech, and resulting noise-corrupted speech is non-linear, and an important aspect of model-based approaches is how to approximate this relationship. To investigate how accurate s uch approximations need to be, in order to achieve good recognition performance, we apply three different techniques. These are evaluated on a spoken digit recognition task with artificially added noise.\n",
+    ""
+   ]
+  },
+  "callejas05_aside": {
+   "authors": [
+    [
+     "Zoraida",
+     "Callejas"
+    ],
+    [
+     "Ramón",
+     "López-Cózar"
+    ]
+   ],
+   "title": "Implementing modular dialogue systems: a case of study",
+   "original": "aside_13",
+   "page_count": 4,
+   "order": 19,
+   "p1": "paper 13",
+   "pn": "",
+   "abstract": [
+    "This paper presents a study of the main modules of the UAH spoken dialogue system, designed to provide information in an academic environment. The novel feature in the implementation of this system is the use of a new module to automatically create speech recognition grammars with vocabulary extracted from a database.\n",
+    ""
+   ]
+  },
+  "dociofernandez05_aside": {
+   "authors": [
+    [
+     "Laura",
+     "Docio-Fernandez"
+    ],
+    [
+     "Carmen",
+     "Garcia-Mateo"
+    ]
+   ],
+   "title": "Effect of poor spontaneous speech modeling on broadcast news transcription performance",
+   "original": "aside_19",
+   "page_count": 4,
+   "order": 20,
+   "p1": "paper 19",
+   "pn": "",
+   "abstract": [
+    "Recognition of spontaneous speech is an important area in the field of automatic speech recognition. Although most recognition systems deliver high accuracy on planned speech, they still perform poorly on spontaneous speech. Generally, a news broadcast includes data concerning different speakers with different speech styles (planned, spontaneous and conversational), which is why we chose a Broadcast News (BN) transcription application as our experimental framework. Specifically, we usedTranscrigal, our Broadcast News transcription system, which contains a testset of approximately 19% spontaneous speech. Our recognition results show that even though the BN system delivers high accuracy on planned speech, its performance on spontaneous speech is rather poor. In this paper, we analyze some of the most important features of spontaneous speech, and conclude that recognition performance can be improved both by using as much spontaneous speech training data as possible, and by explicitly modeling spontaneous events, such as filled pauses and breaths, in the decoder.\n",
+    ""
+   ]
+  },
+  "zgank05_aside": {
+   "authors": [
+    [
+     "Andrej",
+     "Zgank"
+    ],
+    [
+     "Zdravko",
+     "Kacic"
+    ],
+    [
+     "Frank",
+     "Diehl"
+    ],
+    [
+     "Jozef",
+     "Juhar"
+    ],
+    [
+     "Slavomir",
+     "Lihan"
+    ],
+    [
+     "Klara",
+     "Vicsi"
+    ],
+    [
+     "Gyorgy",
+     "Szaszak"
+    ]
+   ],
+   "title": "Graphemes as basic units for crosslingualspeech recognition",
+   "original": "aside_24",
+   "page_count": 4,
+   "order": 21,
+   "p1": "paper 24",
+   "pn": "",
+   "abstract": [
+    "This paper presents our work on grapheme based crosslingual speech recognition carried out within the MASPER initiative. The performance of monolingual grapheme based acoustic models is compared to the performance of monolingual acoustic models based on phonemes. The transfer between source and target language was done using an expert knowledge approach. For the experiments, German, Spanish, Hungarian and Slovak served as source languages, wheras Slovenian was the target language. All experiments are based on SpeechDat databases. The results achieved by the use of grapheme based acoustic models are comparable to the ones achieved by phoneme based acoustic models.\n",
+    ""
+   ]
+  },
+  "holada05_aside": {
+   "authors": [
+    [
+     "Miroslav",
+     "Holada"
+    ],
+    [
+     "Jan",
+     "Nouza"
+    ],
+    [
+     "Petr",
+     "Cerva"
+    ],
+    [
+     "Tomás",
+     "Nouza"
+    ],
+    [
+     "Martin",
+     "Pelc"
+    ]
+   ],
+   "title": "Distributed recognition used as platform for public testing of speech technology applications",
+   "original": "aside_17",
+   "page_count": 4,
+   "order": 22,
+   "p1": "paper 17",
+   "pn": "",
+   "abstract": [
+    "In the paper we present a platform that was developed in our lab for public testing of voice technology tools. The platform utilizes advantages of distributed speech recognition. Its client side provides just basic signal processing operations resulting in a series of static features. These are transmitted to the server for recognition. We describe the techniques used for the data transfer and client-server communication. Recently, the platform has been utilised for developing a network-based demo version of the MyVoice program, which is a tool for voice control of a PC. A short description of MyVoice features and functions is also given in this paper.\n",
+    ""
+   ]
+  },
+  "stemberk05_aside": {
+   "authors": [
+    [
+     "Pavel",
+     "Stemberk"
+    ],
+    [
+     "Václav",
+     "Hanzl"
+    ]
+   ],
+   "title": "Finite-state transducer toolkit for faster ASR",
+   "original": "aside_21",
+   "page_count": 4,
+   "order": 23,
+   "p1": "paper 21",
+   "pn": "",
+   "abstract": [
+    "The Automatic Speech Recognition (ASR) - the process of converting spoken words to computer-intelligible information, also known as speech-to-text, or speech recognition - is used for control of various devices (i.e. car, computer, mobile phone, etc.). The most popular algorithms implemented in these architectures are based on statistical methods - Hidden Markov Models (HMM). There is a hierarchy, which sorts elementary stages of speech recognition. Elementary levels can be represented by weighted finite state transducers. Thus by using some FSM toolkit (i.e. AT&T FSMtoolkit), we are able to obtain a common method how to optimize this automata and compose into the recognition network. Main usage of the FSM toolkit for the Czech language has not been used by now. This work explores feasibility of AT&T FSM toolkit used together with HTK for the Czech language and compares results in the speed of recognizers based on the FSM and results obtained using just HTK toolkit.\n",
+    ""
+   ]
+  },
+  "boril05_aside": {
+   "authors": [
+    [
+     "Hynek",
+     "Boril"
+    ],
+    [
+     "Petr",
+     "Pollák"
+    ]
+   ],
+   "title": "Comparison of three Czech speech databases from the standpoint of Lombard effect appearance",
+   "original": "aside_28",
+   "page_count": 4,
+   "order": 24,
+   "p1": "paper 28",
+   "pn": "",
+   "abstract": [
+    "This paper focuses on three Czech speech databases recorded in actual and simulated noisy conditions and explores their suitability for LE analysis and modeling. Parameters of Czech SPEECON, CZKCC car database and newly established Czech Lombard Speech Database (CLSD) are compared. All three databases comprise speech recorded in neutral conditions and speech uttered in noise of the moving car. SNR distribution of the recorded channels, speech fundamental frequency, formant positions and bandwidths, phoneme and word length variations and their overall impact on small vocabulary recognizers performance are analyzed. It is shown that all three databases display speech feature changes across the recording conditions. In SPEECON database these variations do not affect simple recognition task performance much, in CZKCC and CLSD significant recognition degradation has been observed. Due to results of the feature analyses, CZKCC recognition seems to be corrupted rather by background noise than by LE, while in CLSD only LE affects the recognition as the overall SNR is high.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Interactive Systems: Design and Standards",
+   "papers": [
+    "larson05_aside",
+    "terken05_aside",
+    "hutter05_aside",
+    "lopezcozar05_aside"
+   ]
+  },
+  {
+   "title": "Distributed Interactive Systems",
+   "papers": [
+    "huuskonen05_aside",
+    "turunen05_aside",
+    "brndsted05_aside",
+    "edlund05_aside"
+   ]
+  },
+  {
+   "title": "Evaluation of Interactive Systems",
+   "papers": [
+    "moller05_aside",
+    "dybkjr05_aside",
+    "hajdinjak05_aside",
+    "stier05_aside"
+   ]
+  },
+  {
+   "title": "Selected Research Challenges of Interactive Systems",
+   "papers": [
+    "moore05_aside",
+    "diehl05_aside",
+    "james05_aside",
+    "xu05_aside",
+    "tyagi05_aside",
+    "pettersen05_aside",
+    "callejas05_aside",
+    "dociofernandez05_aside",
+    "zgank05_aside",
+    "holada05_aside",
+    "stemberk05_aside",
+    "boril05_aside"
+   ]
+  }
+ ]
+}

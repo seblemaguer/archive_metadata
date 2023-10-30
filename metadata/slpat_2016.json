@@ -1,0 +1,500 @@
+{
+ "title": "7th Workshop on Speech and Language Processing for Assistive Technologies (SLPAT 2016)",
+ "location": "San Francisco, USA",
+ "startDate": "13/9/2016",
+ "endDate": "13/9/2016",
+ "URL": "http://www.slpat.org/slpat2016/",
+ "chair": "Chairs: Heidi Christensen, François Portet, Thomas Quatieri, Frank Rudzicz and Keith Vertanen",
+ "conf": "SLPAT",
+ "year": "2016",
+ "name": "slpat_2016",
+ "series": "",
+ "SIG": "",
+ "title1": "7th Workshop on Speech and Language Processing for Assistive Technologies",
+ "title2": "(SLPAT 2016)",
+ "date": "13 September 2016",
+ "booklet": "slpat_2016.pdf",
+ "papers": {
+  "lecarpentier16_slpat": {
+   "authors": [
+    [
+     "Jean-Marc",
+     "Lecarpentier"
+    ],
+    [
+     "Elena",
+     "Manishina"
+    ],
+    [
+     "Fabrice Maurel Stéphane",
+     "Ferrari"
+    ],
+    [
+     "Emmanuel",
+     "Giguet"
+    ],
+    [
+     "Gael",
+     "Dias"
+    ],
+    [
+     "Maxence",
+     "Busson"
+    ]
+   ],
+   "title": "Tag Thunder: Web Page Skimming in Non Visual Environment Using Concurrent Speech",
+   "original": "slpat16_1",
+   "page_count": 8,
+   "order": 1,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "Skimming and scanning are two strategies generally used for speed reading. Skimming allows a reader to get a first glance of a document; scanning is the process of searching for a specific piece of information in a document. While both techniques are available in visual reading mode, it is rather difficult to use them in non visual environments. In this paper, we introduce the concept of tag thunder, which provides speed reading non-visual techniques similar to skimming and scanning. A tag thunder is the oral transposition of the tag cloud concept. Tag cloud key terms are presented using typographic effects which reflect their relevance and number of occurrences. Within a tag thunder, the relevance of a given key term is translated into specific speech effects and its position on the page is reflected in the position of the corresponding sound on a 2D stereo space. All key terms of a tag thunder are output according to a concurrent speech strategy, which exploits the cocktail party effect.\nIn this paper, we present our implementation of the tag thunder concept. The results of the evaluation campaign show that tag thunders present a viable non-visual alternative to visual speed reading strategies.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-1"
+  },
+  "rohde16_slpat": {
+   "authors": [
+    [
+     "Marcel",
+     "Rohde"
+    ],
+    [
+     "Timo",
+     "Baumann"
+    ]
+   ],
+   "title": "Navigating the Spoken Wikipedia",
+   "original": "slpat16_2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 9,
+   "pn": 13,
+   "abstract": [
+    "The Spoken Wikipedia project unites volunteer readers of encyclopedic entries. Their recordings make encyclopedic knowledge accessible to persons who are unable to read (out of alexia, visual impairment, or because their sight is currently occupied, e. g. while driving). However, on Wikipedia, recordings are available as raw audio files that can only be consumed linearly, without the possibility for targeted navigation or search. We present a reading application which uses an alignment between the recording, text and article structure and which allows to navigate spoken articles, through a graphical or voice-based user interface (or a combination thereof). We present the results of a usability study in which we compare the two interaction modalities. We find that both types of interaction enable users to navigate articles and to find specific information much more quickly compared to a sequential presentation of the full article. In particular when the VUI is not restricted by speech recognition and understanding issues, this interface is on par with the graphical interface and thus a real option for browsing the Wikipedia without the need for vision or reading.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-2"
+  },
+  "kacorri16_slpat": {
+   "authors": [
+    [
+     "Hernisa",
+     "Kacorri"
+    ],
+    [
+     "Matt",
+     "Huenerfauth"
+    ]
+   ],
+   "title": "Selecting Exemplar Recordings of American Sign Language Non-Manual Expressions for Animation Synthesis Based on Manual Sign Timing",
+   "original": "slpat16_3",
+   "page_count": 6,
+   "order": 3,
+   "p1": 14,
+   "pn": 19,
+   "abstract": [
+    "Animations of sign language can increase the accessibility of information for people who are deaf or hard of hearing (DHH), but prior work has demonstrated that accurate non-manual expressions (NMEs), consisting of face and head movements, are necessary to produce linguistically accurate animations that are easy to understand. When synthesizing animation, given a sequence of signs performed on the hands (and their timing), we must select an NME performance. Given a corpus of facial motion-capture recordings of ASL sentences with annotation of the timing of signs in the recording, we investigate methods (based on word count and on delexicalized sign timing) for selecting the best NME recoding to use as a basis for synthesizing a novel animation. By comparing recordings selected using these methods to a gold-standard recording, we identify the top-performing exemplar selection method for several NME categories.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-3"
+  },
+  "kafle16_slpat": {
+   "authors": [
+    [
+     "Sushant",
+     "Kafle"
+    ],
+    [
+     "Matt",
+     "Huenerfauth"
+    ]
+   ],
+   "title": "Effect of Speech Recognition Errors on Text Understandability for People who are Deaf or Hard of Hearing",
+   "original": "slpat16_4",
+   "page_count": 6,
+   "order": 4,
+   "p1": 20,
+   "pn": 25,
+   "abstract": [
+    "Recent advancements in the accuracy of Automated Speech Recognition (ASR) technologies have made them a potential candidate for the task of captioning. However, the presence of errors in the output may present challenges in their use in a fully automatic system. In this research, we are looking more closely into the impact of different inaccurate transcriptions from the ASR system on the understandability of captions for Deaf or Hard-of-Hearing (DHH) individuals. Through a user study with 30 DHH users, we studied the effect of the presence of an error in a text on its understandability for DHH users. We also investigated different prediction models to capture this relation accurately. Among other models, our random forest based model provided the best mean accuracy of 62.04% on the task. Further, we plan to improve this model with more data and use it to advance our investigation on ASR technologies to improve ASR based captioning for DHH users.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-4"
+  },
+  "yaghoubzadeh16_slpat": {
+   "authors": [
+    [
+     "Ramin",
+     "Yaghoubzadeh"
+    ],
+    [
+     "Stefan",
+     "Kopp"
+    ]
+   ],
+   "title": "Towards graceful turn management in human-agent interaction for people with cognitive impairments",
+   "original": "slpat16_5",
+   "page_count": 6,
+   "order": 5,
+   "p1": 26,
+   "pn": 31,
+   "abstract": [
+    "A conversational approach to spoken human-machine interaction, the primary and most stable mode of interaction for many people with cognitive impairments, can require proactive control of the interactive flow from the system side. While spoken technology has primarily focused on unimodal spoken interruptions to this end, we propose a multimodal embodied approach with a virtual agent, incorporating an increasingly salient superposition of gestural, facial and paraverbal cues, in order to more gracefully signal turn taking. We implemented and evaluated this in a pilot study with five people with cognitive impairments. We present initial statistical results and promising insights from qualitative analysis which indicate that the basic approach works.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-5"
+  },
+  "alhameed16_slpat": {
+   "authors": [
+    [
+     "Sabah",
+     "Al-Hameed"
+    ],
+    [
+     "Mohammed",
+     "Benaissa"
+    ],
+    [
+     "Heidi",
+     "Christensen"
+    ]
+   ],
+   "title": "Simple and robust audio-based detection of biomarkers for Alzheimer's disease",
+   "original": "slpat16_6",
+   "page_count": 5,
+   "order": 6,
+   "p1": 32,
+   "pn": 36,
+   "abstract": [
+    "This paper demonstrates the feasibility of using a simple and robust automatic method based solely on acoustic features to identify Alzheimer’s disease (AD) with the objective of ultimately developing a low-cost home monitoring system for detecting early signs of AD. Different acoustic features, automatically extracted from speech recordings, are explored. Four different machine learning algorithms are used to calculate the classification accuracy between people with AD and a healthy control (HC) group. Feature selection and ranking is investigated resulting in increased accuracy and a decrease in the complexity of the method. Further improvements have been obtained by mitigating the effect of the background noise via pre-processing. Using DementiaBank data, we achieve a classification accuracy of 94.7% with sensitivity and specificity levels at 97% and 91% respectively. This is an improvement on previous published results whilst being solely audio-based and not requiring speech recognition for automatic transcription.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-6"
+  },
+  "mittal16_slpat": {
+   "authors": [
+    [
+     "Vinay Kumar",
+     "Mittal"
+    ]
+   ],
+   "title": "Discriminating the Infant Cry Sounds Due to Pain vs. Discomfort Towards Assisted Clinical Diagnosis",
+   "original": "slpat16_7",
+   "page_count": 6,
+   "order": 7,
+   "p1": 37,
+   "pn": 42,
+   "abstract": [
+    "Cry is a means of communication for an infant. Infant cry signal is usually perceived as a high-pitched sound. Intuitively, significant changes seem to occur in the production source characteristics of cry sounds. Since the instantaneous fundamental frequency (F0) of infant cry is much higher than for adults and changes rapidly, the signal processing methods that work well for adults may fail in analyzing these signals. Hence, in this paper, we derive the excitation source features F0 and strength of excitation (SoE) using a recently proposed modified zero-frequency filtering method. Changes in the production characteristics of acoustic signals of infant cries due to pain and discomfort are examined using the features F0, SoE and signal energy. These changes are validated by visually comparing their spectrograms with the spectrograms of the acoustic signals. Effectiveness of these discriminating features is examined for different pain/discomfort cry sounds pairs in an ‘Infant Cry Signals Database (IIIT-S ICSD)’, especially collected for this study. Fluctuations in the features F0, SoE and energy are observed to be larger in the case of infant cry due to pain, than for discomfort. These features can help in developing further the clinical assistive technologies for discriminating different infant cry types and initiating the remedial measures automatically.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-7"
+  },
+  "prakash16_slpat": {
+   "authors": [
+    [
+     "Anusha",
+     "Prakash"
+    ],
+    [
+     "M. Ramasubba",
+     "Reddy"
+    ],
+    [
+     "Hema A",
+     "Murthy"
+    ]
+   ],
+   "title": "Improvement of Continuous Dysarthric Speech Quality",
+   "original": "slpat16_8",
+   "page_count": 7,
+   "order": 8,
+   "p1": 43,
+   "pn": 49,
+   "abstract": [
+    "Dysarthria refers to a group of motor speech disorders as the result of any neurological injury to the speech production system. Dysarthric speech is characterised by poor speech articulation, resulting in degradation in speech quality. Hence, it is important to correct or improve dysarthric speech so as to enable people having dysarthria to communicate better.\nThe aim of this paper is to improve the quality of continuous speech of several people suffering from dysarthria. Experiments in the current work use two databases- Nemours database and speech data collected from a dysarthric speaker of Indian origin. Durational analysis of dysarthric speech versus normal speech is performed. Based on the analysis, manual modifications are made directly to the speech waveforms and an automatic technique is developed for the same. Evaluation tests indicate an average preference of 78.44% and 67.04% for the manually and automatically altered speech over the original dysarthric speech, thus emphasising the effect of durational modifications on the perception of speech quality. Intelligibility of speech generated by three techniques, namely, proposed automatic modification technique, a formant re-synthesis technique, and an HMM-based adaptive system, is compared.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-8"
+  },
+  "asaei16_slpat": {
+   "authors": [
+    [
+     "Afsaneh",
+     "Asaei"
+    ],
+    [
+     "Milos",
+     "Cernak"
+    ],
+    [
+     "Marina",
+     "Laganaro"
+    ]
+   ],
+   "title": "PAoS Markers: Trajectory Analysis of Selective Phonological Posteriors for Assessment of Progressive Apraxia of Speech",
+   "original": "slpat16_9",
+   "page_count": 6,
+   "order": 9,
+   "p1": 50,
+   "pn": 55,
+   "abstract": [
+    "Progressive apraxia of Speech (PAoS) is a progressive motor speech disorder associated with neurodegenerative disease causing impairment of phonetic encoding and motor speech planning. Clinical observation and acoustic studies show that duration analysis provides reliable cues for diagnosis of the disease progression and severity of articulatory disruption. The goal of this paper is to develop computational methods for objective evaluation of duration and trajectory of speech articulation. We use phonological posteriors as speech features. Phonological posteriors consist of probabilities of phonological classes estimated for every short segment of the speech signal.\nPAoS encompasses lengthening of duration which is more pronounced in vowels [1, 2]; we thus hypothesize that a small subset of phonological classes provide stronger evidence for duration and trajectory analysis. These classes are determined through analysis of linear prediction coefficients (LPC). To enable trajectory analysis without phonetic alignment, we exploit phonological structures defined through quantization of phonological posteriors. Duration and trajectory analysis are conducted on blocks of multiple consecutive segments possessing similar phonological structures. Moreover, unique phonological structures are identified for every severity condition.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-9"
+  },
+  "anderson16_slpat": {
+   "authors": [
+    [
+     "Sven",
+     "Anderson"
+    ],
+    [
+     "S. Rebecca",
+     "Thomas"
+    ],
+    [
+     "Ki Won",
+     "Kwon"
+    ],
+    [
+     "Wayne",
+     "Zhang"
+    ]
+   ],
+   "title": "The Effect of Semantic Difference on Non-expert Judgments of Simplified Sentences",
+   "original": "slpat16_10",
+   "page_count": 7,
+   "order": 10,
+   "p1": 56,
+   "pn": 62,
+   "abstract": [
+    "Advances in text simplification depend on reliable judgments of sentence difficulty. The ability of untrained native English speakers to judge sentence difficulty in the presence of variation in semantic similarity is examined using cloze tests and a forced-choice comparison task. Judgments from participants in web-based experiments demonstrate ability to assess sentence difficulty of professionally leveled sentence pairs with 84% accuracy. The comparison task results suggest that participants’ ability to judge comparative sentence difficulty is inversely related to semantic similarity; that is, contrary to our intuition, speakers appear more accurate at judging sentence difficulty for sentences that are dissimilar than for those that are similar.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-10"
+  },
+  "ganzeboom16_slpat": {
+   "authors": [
+    [
+     "Mario",
+     "Ganzeboom"
+    ],
+    [
+     "Emre",
+     "Yilmaz"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "An ASR-Based Interactive Game for Speech Therapy",
+   "original": "slpat16_11",
+   "page_count": 6,
+   "order": 11,
+   "p1": 63,
+   "pn": 68,
+   "abstract": [
+    "The demand for intensive and costly speech therapy to patients impaired by communicative disorders can potentially be alleviated by developing computer-based systems that provide automatized speech therapy in the patient’s home environment. In this paper we report on research aimed at developing such a system that combines serious gaming with automatic speech recognition (ASR) technology to provide computer-based therapy to dysarthric patients. The aim of the serious gaming environment is to increase the patients’ motivation to practice, which tends to decrease over time with conventional speech therapy, as progress in dysarthric patients is often slow. Additionally, some speech exercises (e.g. drills) are not particularly motivating due to their repetitive nature. The ASR technology is aimed at providing feedback on speech quality during training to improve speech intelligibility. Different types of acoustic models were trained on normal speech of adults and elderly people, and tested on dysarthric speech. The results show that speaker-adaptive training and Deep Neural Networks (DNN)-based acoustic models substantially improve the performance of ASR in comparison to traditional GMM-HMM-based methods. In this specific case, the ASR-based game is developed to provide speech therapy to dysarthric patients, but this approach can be adapted for use in other types of communicative disorders.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-11"
+  },
+  "mittal16b_slpat": {
+   "authors": [
+    [
+     "Vinay Kumar",
+     "Mittal"
+    ],
+    [
+     "B.",
+     "Yegnanarayana"
+    ]
+   ],
+   "title": "An Impulse Sequence Representation of the Excitation Source Characteristics of Nonverbal Speech Sounds",
+   "original": "slpat16_12",
+   "page_count": 6,
+   "order": 12,
+   "p1": 69,
+   "pn": 74,
+   "abstract": [
+    "Impulse-sequence representation of the excitation source component of normal speech signal has been of considerable interest in speech coding research. If a similar representation can be made for nonverbal (i.e., nonnormal or nonneutral) speech sounds, that would immensely help in their acoustic analyses and diverse applications. This paper proposes a representation of the excitation source characteristics of nonverbal speech sounds signal, in terms of a time-domain sequence of impulses or impulse-like pulses. The nonverbal speech sounds are examined in three categories, namely, emotional speech, paralinguistic sounds and expressive voices. This categorisation is proposed, based upon the degree of rapid changes in pitch of these sounds. A modified zero-frequency filtering (modZFF) method is proposed for obtaining an impulse sequence representation of the excitation source component in the acoustic signal of non-verbal speech sounds. Effectiveness of the proposed representation is validated by analysis-by-synthesis approach and perceptual evaluation for Noh singing voice signals. This representation may also be helpful in significant savings in the terms of signal storage and processing requirement, apart from analysis and speech coding of the nonverbal sounds.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-12"
+  },
+  "aihara16_slpat": {
+   "authors": [
+    [
+     "Ryo",
+     "Aihara"
+    ],
+    [
+     "Tetsuya",
+     "Takiguchi"
+    ],
+    [
+     "Yasuo",
+     "Ariki"
+    ]
+   ],
+   "title": "Dysarthric Speech Modification Using Parallel Utterance Based on Non-negative Temporal Decomposition",
+   "original": "slpat16_13",
+   "page_count": 5,
+   "order": 13,
+   "p1": 75,
+   "pn": 79,
+   "abstract": [
+    "We present in this paper a speech modification method for a person with dysarthria resulting from athetoid cerebral palsy. The movements of such speakers are limited by their athetoid symptoms, and their consonants are often unstable or unclear, which makes it difficult for them to communicate. In this paper, duration and spectral modification using Non-negative Temporal Decomposition (NTD) is applied to a dysarthric voice. F0 is also modified by using linear-transformation. In order to confirm the effectiveness of our method, objective and subjective tests were conducted, and we also investigated the relationship between the intelligibility and individuality of dysarthric speech.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-13"
+  },
+  "cao16_slpat": {
+   "authors": [
+    [
+     "Beiming",
+     "Cao"
+    ],
+    [
+     "Myungjong",
+     "Kim"
+    ],
+    [
+     "Ted",
+     "Mau"
+    ],
+    [
+     "Jun",
+     "Wang"
+    ]
+   ],
+   "title": "Recognizing Whispered Speech Produced by an Individual with Surgically Reconstructed Larynx Using Articulatory Movement Data",
+   "original": "slpat16_14",
+   "page_count": 7,
+   "order": 14,
+   "p1": 80,
+   "pn": 86,
+   "abstract": [
+    "Individuals with larynx (vocal folds) impaired have problems in controlling their glottal vibration, producing whispered speech with extreme hoarseness. Standard automatic speech recognition using only acoustic cues is typically ineffective for whispered speech because the corresponding spectral characteristics are distorted. Articulatory cues such as the tongue and lip motion may help in recognizing whispered speech since articulatory motion patterns are generally not affected. In this paper, we investigated whispered speech recognition for patients with reconstructed larynx using articulatory movement data. A data set with both acoustic and articulatory motion data was collected from a patient with surgically reconstructed larynx using an electromagnetic articulograph. Two speech recognition systems, Gaussian mixture model-hidden Markov model (GMM-HMM) and deep neural network-HMM (DNN-HMM), were used in the experiments. Experimental results showed adding either tongue or lip motion data to acoustic features such as mel-frequency cepstral coefficient (MFCC) significantly reduced the phone error rates on both speech recognition systems. Adding both tongue and lip data achieved the best performance.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-14"
+  },
+  "yaghoubzadeh16b_slpat": {
+   "authors": [
+    [
+     "Ramin",
+     "Yaghoubzadeh"
+    ],
+    [
+     "Stefan",
+     "Kopp"
+    ]
+   ],
+   "title": "flexdiam - flexible dialogue management for problem-aware, incremental spoken interaction for all user groups (Demo paper)",
+   "original": "slpat16_15",
+   "page_count": 4,
+   "order": 15,
+   "p1": 87,
+   "pn": 90,
+   "abstract": [
+    "The dialogue management framework flexdiam was designed to afford people across a wide spectrum of cognitive capabilities access to a spoken-dialogue controlled assistive system, aiming for a conversational speech style combined with incremental feedback and information update. The architecture is able to incorporate uncertainty and natural repair mechanisms in order to fix problems quickly in an interactive process – with flexibility with respect to individual users’ capabilities. It was designed and evaluated in a user-centered approach in cooperation with a large health care provider. We present the architecture and showcase the resulting autonomous prototype for schedule management and accessible communication.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-15"
+  },
+  "wang16_slpat": {
+   "authors": [
+    [
+     "Jun",
+     "Wang"
+    ],
+    [
+     "Prasanna V.",
+     "Kothalkar"
+    ],
+    [
+     "Myungjong",
+     "Kim"
+    ],
+    [
+     "Yana",
+     "Yunusova"
+    ],
+    [
+     "Thomas F.",
+     "Campbell"
+    ],
+    [
+     "Daragh",
+     "Heitzman"
+    ],
+    [
+     "Jordan R.",
+     "Green"
+    ]
+   ],
+   "title": "Predicting Intelligible Speaking Rate in Individuals with Amyotrophic Lateral Sclerosis from a Small Number of Speech Acoustic and Articulatory Samples",
+   "original": "slpat16_16",
+   "page_count": 7,
+   "order": 16,
+   "p1": 91,
+   "pn": 97,
+   "abstract": [
+    "Amyotrophic lateral sclerosis (ALS) is a rapidly progressive neurological disease that affects the speech motor functions, resulting in dysarthria, a motor speech disorder. Speech and articulation deterioration is an indicator of the disease progression of ALS; timely monitoring of the disease progression is critical for clinical management of these patients. This paper investigated machine prediction of intelligible speaking rate of nine individuals with ALS based on a small number of speech acoustic and articulatory samples. Two feature selection techniques - decision tree and gradient boosting - were used with support vector regression for predicting the intelligible speaking rate. Experimental results demonstrated the feasibility of predicting intelligible speaking rate from only a small number of speech samples. Furthermore, adding articulatory features to acoustic features improved prediction performance, when decision tree was used as the feature selection technique.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-16"
+  },
+  "kim16_slpat": {
+   "authors": [
+    [
+     "Seung Wook",
+     "Kim"
+    ],
+    [
+     "Frank",
+     "Rudzicz"
+    ]
+   ],
+   "title": "Combining word prediction and r-ary Huffman coding for text entry",
+   "original": "slpat16_17",
+   "page_count": 6,
+   "order": 17,
+   "p1": 98,
+   "pn": 103,
+   "abstract": [
+    "Two approaches to reducing effort in switch-based text entry for augmentative and alternative communication devices are word prediction and efficient coding schemes, such as Huffman. However, character distributions that inform the latter have never accounted for the use of the former. In this paper, we provide the first combination of Huffman codes and word prediction, using both trigram and long short term memory (LSTM) language models. Results show a significant effect of the length of word prediction lists, and up to 41.46% switch-stroke savings using a trigram model.\n"
+   ],
+   "doi": "10.21437/SLPAT.2016-17"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Paper session 1",
+   "papers": [
+    "lecarpentier16_slpat",
+    "rohde16_slpat",
+    "kacorri16_slpat",
+    "kafle16_slpat"
+   ]
+  },
+  {
+   "title": "Paper session 2",
+   "papers": [
+    "yaghoubzadeh16_slpat",
+    "alhameed16_slpat",
+    "mittal16_slpat",
+    "prakash16_slpat"
+   ]
+  },
+  {
+   "title": "Poster session",
+   "papers": [
+    "asaei16_slpat",
+    "anderson16_slpat",
+    "ganzeboom16_slpat",
+    "mittal16b_slpat",
+    "aihara16_slpat",
+    "cao16_slpat",
+    "yaghoubzadeh16b_slpat",
+    "wang16_slpat",
+    "kim16_slpat"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLPAT.2016"
+}

@@ -1,0 +1,1978 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2016)",
+ "location": "Bilbao, Spain",
+ "startDate": "21/6/2016",
+ "endDate": "24/6/2016",
+ "URL": "http://www.odyssey2016.org/",
+ "chair": "Chairs: Luis Javier Rodriguez-Fuentes and Eduardo Lleida",
+ "conf": "Odyssey",
+ "year": "2016",
+ "name": "odyssey_2016",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2016)",
+ "date": "21-24 June 2016",
+ "booklet": "odyssey_2016.pdf",
+ "papers": {
+  "li16_odyssey": {
+   "authors": [
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Voice conversion and spoofing countermeasures for speaker verification",
+   "original": "haizou",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "As automatic speaker verification (ASV) technology becomes more and more reliable, banks and e-commerce use voice biometrics to enhance security and deliver a more convenient customer authentication. Just like any other biometrics, ASV is vulnerable to spoofing, also referred to as presentation attacks. Spoofing refers to an attack whereby a fraudster attempts to masquerade as another enrolled person. Modern technologies, such as speech synthesis and voice conversion, also present a genuine threat to ASV systems. Therefore, spoofing countermeasures, which aim to detect such attacks, are as important as speaker verification systems themselves in commercial deployments. In this talk, we will discuss speech liveness detection in the context of speaker verification. We will also discuss the vulnerability of speaker verification to speech synthesis and voice conversion, and the findings from ASVspoof 2015: the First Automatic Speaker Verification Spoofing and Countermeasures Challenge."
+   ]
+  },
+  "narayanan16_odyssey": {
+   "authors": [
+    [
+     "Shrikanth S.",
+     "Narayanan"
+    ]
+   ],
+   "title": "Understanding individual-level speech variability: From novel speech production data to robust speaker recognition",
+   "original": "narayanan",
+   "page_count": 0,
+   "order": 25,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The vocal tract is the universal human instrument played with great dexterity and skill in the production of speech to convey rich linguistic and paralinguistic information. The understanding of how individuals differ in their speech articulation due to differences in shape and size of their physical vocal instrument, and its acoustic consequences are not well understood. Knowledge of how people differ in their speech production can help create improved automatic speaker recognition technologies as well as inform design of technologies for robust speech-based access to people and information.\nThe talk focuses on steps toward advancing scientific understanding of how vocal tract morphology and speech articulation interact and explain the variant and invariant aspects of speech signal properties across talkers. Of particular scientific interest is the nature of articulatory strategies adopted by individuals in the presence of structural differences across them to achieve phonetic equivalence. Equally of interest are what aspects of, and how, vocal tract morphological differences are reflected in the acoustic speech signal, and if those differences can be estimated from speech acoustics. A crucial part of this goal is to create forward and inverse computational models that relate vocal tract details to speech acoustics toward shedding light on individual speaker differences and informing design of robust speaker recognition technologies.\nSpeech research has mainly focused on surface speech acoustic properties; there remain open questions on how speech properties co-vary across talker, linguistic and paralinguistic conditions. However, there are limitations to uncovering the underlying details from the acoustic signal alone. This talk will describe efforts on direct investigation of the dynamic human vocal tract using novel magnetic resonance imaging techniques and computational modeling to illuminate inter-speaker variability in vocal tract structure, as well as the strategies by which linguistic articulation is implemented. Applications to speaker modeling and recognition will be presented."
+   ]
+  },
+  "dehak16_odyssey": {
+   "authors": [
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "I-Vector Representation Based on GMM and DNN for Audio Classification",
+   "original": "najim",
+   "page_count": 0,
+   "order": 49,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The I-vector approach became the state of the art approach in several audio classification tasks such as speaker and language recognition. This approach consists of modeling and capturing all the different variability in the Gaussian Mixture Model (GMM) mean components between several audio recordings. More recently several subspace approaches had been extended on modeling the variability between the GMM weights rather than the GMM means. These last techniques such as Non-negative Factor Analysis (NFA) and Subspace Multinomial Model (SMM) needed to deal with the fact that the GMM weights are always positive and they should sum to one. In this talk, we will show how the NFA and SMM approaches or similar other subspaces approaches can be also used to model the hidden layer neuron activations on the deep neural network model for sequential data recognition task such as language and dialect recognition."
+   ]
+  },
+  "bousquet16_odyssey": {
+   "authors": [
+    [
+     "Pierre-Michel",
+     "Bousquet"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Constrained discriminative speaker verification specific to normalized i-vectors",
+   "original": "3",
+   "page_count": 7,
+   "order": 9,
+   "p1": 53,
+   "pn": 59,
+   "abstract": [
+    "This paper focuses on discriminative trainings (DT) applied to i-vectors after Gaussian probabilistic linear discriminant analysis (PLDA). If DT has been successfully used with non-normalized vectors, this technique struggles to improve speaker detection when i-vectors have been first normalized, whereas the latter option has proven to achieve best performance in speaker verification. We propose an additional normalization procedure which limits the amount of coefficient to discriminatively train, with a minimal loss of accuracy. Adaptations of logistic regression based-DT to this new configuration are proposed, then we introduce a discriminative classifier for speaker verification which is a novelty in the field."
+   ],
+   "doi": "10.21437/Odyssey.2016-8"
+  },
+  "solewicz16_odyssey": {
+   "authors": [
+    [
+     "Yosef",
+     "Solewicz"
+    ],
+    [
+     "Hagai",
+     "Aronowitz"
+    ],
+    [
+     "Timo",
+     "Becker"
+    ]
+   ],
+   "title": "Reducing Noise Bias in the i-Vector Space for Speaker Recognition",
+   "original": "6",
+   "page_count": 5,
+   "order": 57,
+   "p1": 372,
+   "pn": 376,
+   "abstract": [
+    "In this paper we develop a simple mathematical model for reducing speaker recognition noise bias in the i-vector space. The method was successfully tested on two different databases covering distinct microphones and background noise scenarios. Substantial reduction in score variability was attained across distinct evaluation conditions which is particularly important in forensic applications. Although originally designed for addressing additive noise, we show that under certain circumstances the proposed method incidentally alleviates convolutive nuisance as well."
+   ],
+   "doi": "10.21437/Odyssey.2016-54"
+  },
+  "rose16_odyssey": {
+   "authors": [
+    [
+     "Phil",
+     "Rose"
+    ],
+    [
+     "Bruce Xiao",
+     "Wang"
+    ]
+   ],
+   "title": "Cantonese forensic voice comparison with higher-level features: likelihood ratio-based validation using F-pattern and tonal F0 trajectories over a disyllabic hexaphone",
+   "original": "9",
+   "page_count": 8,
+   "order": 50,
+   "p1": 326,
+   "pn": 333,
+   "abstract": [
+    "A pilot experiment relating to estimation of strength of evidence in forensic voice comparison is described which explores the use of higher-level features extracted over a disyllabic word as a whole, rather than over individual monosyllables as conventionally practiced. The trajectories of the first three formants and tonal F0 of the hexaphone disyllabic Cantonese word daihyat ‘first’ from controlled but natural non-contemporaneous recordings of 23 male speakers are modeled with polynomials, and multivariate likelihood ratios estimated from their coefficients. Evaluation with the log likelihood ratio cost validity metric Cllr shows an optimum performance is obtained, surprisingly, with lower order polynomials, with F2 requiring a cubic fit, and F1 and F3 quadratic. Fusion of F-pattern and tonal F0 results in considerable improvement over the individual features, reducing the Cllr to ca. 0.1. The forensic potential of the daihyat data is demonstrated by fusion with two other higher-level features: the F-pattern of Cantonese /i/ and short-term F0, which reduces the Cllr still further to 0.03. Important pros and cons of higher level features and likelihood ratios are discussed, the latter illustrated with data from Japanese, and two varieties of English in real forensic casework."
+   ],
+   "doi": "10.21437/Odyssey.2016-47"
+  },
+  "song16_odyssey": {
+   "authors": [
+    [
+     "Yan",
+     "Song"
+    ],
+    [
+     "Ruilian",
+     "Cui"
+    ],
+    [
+     "Mcloughlin",
+     "Ian"
+    ],
+    [
+     "Lirong",
+     "Dai"
+    ]
+   ],
+   "title": "Improvements on Deep Bottleneck Network based I-Vector Representation for Spoken Language Identification",
+   "original": "11",
+   "page_count": 6,
+   "order": 21,
+   "p1": 140,
+   "pn": 145,
+   "abstract": [
+    "Recently, the i-vector representation based on deep bottleneck network(DBN) pre-trained for automatic speech recognition has received significant interest for both speaker verification(SV) and language identification(LID). In a previous work, we presented a unified DBN based i-vector framework, referred to as DBN-pGMM i-vector [1]. In this paper, we replace the pGMM with a phonetic mixture of factor analyzers (pMFA), and propose a new DBN-pMFA i-vector. The DBN-pMFA ivector includes the following improvements on previous one. 1) a pMFA model is derived from the DBN, which can jointly perform feature dimension reduction and de-correlation in a single linear transformation. 2) a shifted DBF, termed SDBF, is proposed to exploit the temporal contextual information, and 3) a senone selection scheme is proposed to make the i-vector extraction more efficient. We evaluate the proposed DBNpMFA i-vector on the most confused six languages selected from NIST LRE 2009. The experimental results demonstrate that DBN-pMFA can consistently outperform the previous DBN based framework [1]. The computational complexity can be significantly reduced by applying a simple senone selection scheme."
+   ],
+   "doi": "10.21437/Odyssey.2016-20"
+  },
+  "salmun16_odyssey": {
+   "authors": [
+    [
+     "Itay",
+     "Salmun"
+    ],
+    [
+     "Irit",
+     "Opher"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ]
+   ],
+   "title": "On the Use of PLDA i-vector Scoring for Clustering Short Segments",
+   "original": "12",
+   "page_count": 8,
+   "order": 62,
+   "p1": 407,
+   "pn": 414,
+   "abstract": [
+    "This paper extends upon a previous work using Mean Shift algorithm to perform speaker clustering on i-vectors generated from short speech segments. In this paper we examine the effectiveness of probabilistic linear discriminant analysis (PLDA) scoring as the metric of the mean shift clustering algorithm in the presence of different number of speakers. Our proposed method, combined with k-nearest neighbors (kNN) for bandwidth estimation, yields better and more robust results in comparison to the cosine similarity with fixed neighborhood bandwidth for clustering segments of large number of speakers. In the case of 30 speakers, we achieved evaluation parameter   of 72.1 with the PLDA-based mean shift algorithm compared to 65.9 with the cosine-based baseline system."
+   ],
+   "doi": "10.21437/Odyssey.2016-59"
+  },
+  "jin16_odyssey": {
+   "authors": [
+    [
+     "Ma",
+     "Jin"
+    ],
+    [
+     "Yan",
+     "Song"
+    ],
+    [
+     "Ian",
+     "Mcloughlin"
+    ],
+    [
+     "Lirong",
+     "Dai"
+    ],
+    [
+     "Zhongfu",
+     "Ye"
+    ]
+   ],
+   "title": "LID-senone Extraction via Deep Neural Networks for End-to-End Language Identification",
+   "original": "13",
+   "page_count": 7,
+   "order": 32,
+   "p1": 210,
+   "pn": 216,
+   "abstract": [
+    "A key problem in spoken language identification (LID) is how to effectively model features from a given speech utterance. Recent techniques such as end-to-end schemes and deep neural networks (DNNs) utilising transfer learning such as bottleneck (BN) features, have demonstrated good overall performance, but have not addressed the extraction of LID-specific features. We thus propose a novel end-to-end neural network which aims to obtain effective LID-senone representations, which we define as being analogous to senones in speech recognition. We show that LID-senones combine a compact representation of the original acoustic feature space with a powerful descriptive and discriminative capability. Furthermore, a novel incremental training method is adopted to excavate the weak language information buried in the acoustic feature from insufficient language resources. Results on the six most confused languages in NIST LRE 2009 show good performance compared to state-of-the-art BN-GMM/i-vector and BN-DNN/i-vector systems. The proposed end-to-end network, coupled with an incremental training method which mitigates against over-fitting, has potential not just for LID, but also for other resource constrained tasks."
+   ],
+   "doi": "10.21437/Odyssey.2016-30"
+  },
+  "safari16_odyssey": {
+   "authors": [
+    [
+     "Pooyan",
+     "Safari"
+    ],
+    [
+     "Omid",
+     "Ghahabi"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "From Features to Speaker Vectors by means of Restricted Boltzmann Machine Adaptation",
+   "original": "15",
+   "page_count": 6,
+   "order": 56,
+   "p1": 366,
+   "pn": 371,
+   "abstract": [
+    "Restricted Boltzmann Machines (RBMs) have shown success in  different stages of speaker recognition systems. In this paper, we propose a novel framework to produce a vector-based representation for each speaker, which is referred to as RBM-vector. This new approach maps the speaker spectral features to a single fixed-dimensional vector carrying speaker-specific information. In this work, a global model, which is referred to as Universal RBM (URBM), is trained taking advantage of RBM unsupervised learning capabilities. Then, this URBM is adapted to the data of each speaker in the development, enrolment and evaluation datasets. The network connection weights of the adapted RBMs are further concatenated and subject to a whitening with dimension reduction stage to build the speaker vectors. The evaluation is performed on the core test condition of the NIST SRE 2006 database, and it is shown that RBM-vectors achieve 15% relative improvement in terms of EER comparing to the i-vectors using cosine scoring. The score fusion with the i-vector attains more than 24% relative improvement. The interest of this result for score fusion yields on the fact that both vectors are produced in an unsupervised fashion and can be used instead of i-vector/PLDA approach, when no data label is available. Results obtained for RBM-vector/PLDA framework is comparable with the ones from i-vector/PLDA. Their score fusion achieves 14%  relative improvement compared to i-vector/PLDA."
+   ],
+   "doi": "10.21437/Odyssey.2016-53"
+  },
+  "xu16_odyssey": {
+   "authors": [
+    [
+     "Longting",
+     "Xu"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ],
+    [
+     "Zhen",
+     "Yang"
+    ]
+   ],
+   "title": "Rapid Computation of I-vector",
+   "original": "17",
+   "page_count": 6,
+   "order": 8,
+   "p1": 47,
+   "pn": 52,
+   "abstract": [
+    "I-vector has been one of the state-of-the-art techniques in speaker recognition. The main computational load of the standard i-vector extraction is to evaluate the posterior covariance matrix, which is required in estimating the i-vector. This limits the potential use of i-vector on handheld devices and for large-scale cloud-based applications. Previous fast approaches focus on simplifying the posterior covariance computation. In this paper, we propose a method for rapid computation of ivector which bypasses the need to evaluate a full posterior covariance thereby speeds up the extraction process with minor impact on the recognition accuracy. This is achieved by the use of subspace-orthonormalizing prior and the uniform-occupancy assumption that we introduce in this paper. From the experiments conducted on the extended core task of NIST SRE’10, we obtained significant speed-up with modest degradation in performance over the standard i-vector."
+   ],
+   "doi": "10.21437/Odyssey.2016-7"
+  },
+  "zewoudie16_odyssey": {
+   "authors": [
+    [
+     "Abraham Woubie",
+     "Zewoudie"
+    ],
+    [
+     "Jordi",
+     "Luque"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "Short- and Long-Term Speech Features for Hybrid HMM-i-Vector based Speaker Diarization System",
+   "original": "18",
+   "page_count": 7,
+   "order": 61,
+   "p1": 400,
+   "pn": 406,
+   "abstract": [
+    "i-vectors have been successfully applied over the last years in  speaker recognition tasks. This work aims at assessing the suitability of i-vector modeling within the frame of speaker diarization task. In such context, a weighted cosine-distance between  two different sets of i-vectors is proposed for speaker clustering. Speech clusters generated by Viterbi segmentation are first  modeled by two different i-vectors. Whilst the first i-vector represents the distribution of the commonly used short-term Mel  Frequency Cepstral Coefficients, the second one depicts a selection of voice quality and prosodic features. In order to combine  both short- and long-term speech statistics, the cosine-distance  scores of those two i-vectors are linearly weighted to obtain a unique similarity score. The final fused score is then used as  speaker clustering distance. Our experimental results on two  different evaluation sets of the Augmented Multi-party Interaction corpus show the suitability of combining both sources  of information within the i-vector space. Our experimental results show that the use of i-vector based clustering technique provide a significant improvement, in terms of diarization error rate, than those based on Gaussian Mixture Modeling technique. Furthermore, this work also reports a significant speaker  error reduction by augmenting short-term based i-vector clustering with a second i-vector estimated from voice quality and prosody related speech features."
+   ],
+   "doi": "10.21437/Odyssey.2016-58"
+  },
+  "paulini16_odyssey": {
+   "authors": [
+    [
+     "Marco",
+     "Paulini"
+    ],
+    [
+     "Christian",
+     "Rathgeb"
+    ],
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Hermine",
+     "Reichau"
+    ],
+    [
+     "Herbert",
+     "Reininger"
+    ],
+    [
+     "Christoph",
+     "Busch"
+    ]
+   ],
+   "title": "Multi-Bit Allocation: Preparing Voice Biometrics for Template Protection",
+   "original": "19",
+   "page_count": 6,
+   "order": 44,
+   "p1": 291,
+   "pn": 296,
+   "abstract": [
+    "Technologies of biometric template protection grant a significant improvement in data privacy and increase the likelihood that the general public will effectively consent in the biometric system usage.  Focusing on speaker recognition this area of research is still in its infancy. Previously proposed voice biometric template protection schemes fail in guaranteeing required properties of irreversibility and unlinkability without significantly  degrading  the recognition accuracy. A crucial step for accurate and secure template protection schemes is the feature type transformation which might be required to binarize extracted feature vectors.  In this paper we introduce a binarization technique for voice biometric features called multi-bit allocation. The proposed scheme, which builds upon a GMM-UBM-based speaker recogniton system, is designed to extract discriminative compact binary feature vectors to be applied in a voice biometric template protection scheme. In a preliminary experimental study we show that the resulting binary representation causes only a marginal decrease in biometric performance compared to the baseline system, confirming the soundness and aplicability of the proposed scheme."
+   ],
+   "doi": "10.21437/Odyssey.2016-42"
+  },
+  "benreuven16_odyssey": {
+   "authors": [
+    [
+     "Ehud",
+     "Ben-Reuven"
+    ],
+    [
+     "Jacob",
+     "Goldberger"
+    ]
+   ],
+   "title": "A Semisupervised Approach for Language Identification based on Ladder Networks",
+   "original": "20",
+   "page_count": 7,
+   "order": 48,
+   "p1": 319,
+   "pn": 325,
+   "abstract": [
+    "In this study we address the problem of training a neural-network for language identification using both labeled and unlabeled speech samples in the form of i-vectors. We propose a neural network architecture that can also handle out-of-set languages. We utilize a modified version of the recently proposed Ladder Network semi-supervised training procedure that optimizes the reconstruction costs of a stack of denoising autoencoders. We show that this approach can be successfully applied to the case where the training dataset is composed of both labeled and unlabeled acoustic data. The results show enhanced language identification on the NIST 2015 language identification dataset."
+   ],
+   "doi": "10.21437/Odyssey.2016-46"
+  },
+  "richardson16_odyssey": {
+   "authors": [
+    [
+     "Fred",
+     "Richardson"
+    ],
+    [
+     "Brian",
+     "Nemsick"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ]
+   ],
+   "title": "Channel Compensation for Speaker Recognition using MAP Adapted PLDA and Denoising DNNs",
+   "original": "21",
+   "page_count": 6,
+   "order": 34,
+   "p1": 225,
+   "pn": 230,
+   "abstract": [
+    "Over several decades, speaker recognition performance has steadily improved for applications using telephone speech. A big part of this improvement has been the availability of large quantities of speaker-labeled data from telephone recordings. For new data applications, such as audio from room microphones, we would like to effectively use existing telephone data to build systems with high accuracy while maintaining good performance on existing telephone tasks. In this paper we compare and combine approaches to compensate models parameters and features for this purpose. For model adaptation we explore MAP adaptation of hyper-parameters and for feature compensation we examine the use of denoising DNNs. On a multi-room, multi-microphone speaker recognition experiment we show a reduction of 61% in EER with a combination of these approaches while slightly improving performance on telephone data."
+   ],
+   "doi": "10.21437/Odyssey.2016-32"
+  },
+  "cumani16_odyssey": {
+   "authors": [
+    [
+     "Sandro",
+     "Cumani"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ]
+   ],
+   "title": "I–vector transformation and scaling for PLDA based speaker recognition",
+   "original": "22",
+   "page_count": 8,
+   "order": 7,
+   "p1": 39,
+   "pn": 46,
+   "abstract": [
+    "This paper proposes a density model transformation for speaker recognition systems based on i-vectors and Probabilistic Linear Discriminant Analysis (PLDA) classification. The PLDA model assumes that the i-vectors are distributed according to the standard normal distribution, whereas it is well known that this is not the case. Experiments have shown that the i-vector are better modeled, for example, by an Heavy-Tailed distribution, and that significant improvement of the classification performance can be obtained by whitening and length normalizing the i-vectors. In this work we propose to transform the i-vectors, extracted ignoring the classifier that will be used, so that their distribution becomes more suitable to discriminate speakers using PLDA. This is performed by means of a sequence of affine and non-linear transformations, the parameters of which are obtained by Maximum Likelihood (ML) estimation on the development set. The second contribution of this work is the reduction of the mismatch between the development and test i-vector distributions by means of a scaling factor tuned for the estimated i-vector distribution, rather than by means of a blind length normalization. Our tests performed on the NIST SRE-2010 and SRE-2012 evaluation sets show that improvement of their Cost Functions of the order of 10% can be obtained for both evaluation data."
+   ],
+   "doi": "10.21437/Odyssey.2016-6"
+  },
+  "leeuwen16_odyssey": {
+   "authors": [
+    [
+     "David van",
+     "Leeuwen"
+    ],
+    [
+     "Rosemary",
+     "Orr"
+    ]
+   ],
+   "title": "The “Sprekend Nederland” project and its application to accent location",
+   "original": "23",
+   "page_count": 8,
+   "order": 16,
+   "p1": 101,
+   "pn": 108,
+   "abstract": [
+    "This paper describes the data collection effort that is part of the project Sprekend Nederland (The Netherlands Talking), and discusses its potential use in Automatic Accent Location.  We define Automatic Accent Location as the task to describe the accent of a speaker in terms of the location of the speaker and its history.  We discuss possible ways of describing accent location, the consequence these have for the task of automatic accent location, and potential evaluation metrics."
+   ],
+   "doi": "10.21437/Odyssey.2016-15"
+  },
+  "kenny16_odyssey": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Vishwa",
+     "Gupta"
+    ],
+    [
+     "Marcel",
+     "Kockmann"
+    ]
+   ],
+   "title": "Uncertainty Modeling Without Subspace Methods For Text-Dependent Speaker Recognition",
+   "original": "24",
+   "page_count": 8,
+   "order": 4,
+   "p1": 16,
+   "pn": 23,
+   "abstract": [
+    "We present an effective, practical solution to the problem of uncertainty modeling in  text-dependent speaker recognition  where ``uncertainty'' refers to the fact that feature vectors used for speaker recognition are necessarily  noisy in the statistical sense if they are extracted from utterances of short duration. The idea is to apply the I-Vector Backend probability model at the level of individual Gaussian mixture components rather than at the supervector level.  We show that (unlike the I-Vector Backend), this approach can be implemented in a way which makes reasonable computational demands at verification time.  Uncertainty modeling enables us to achieve  error rate reductions of up to 25% on the RSR Part III speaker verification task (compared to an implementation of the Joint Density Backend [8] which treats point estimates of supervector features as being reliable)."
+   ],
+   "doi": "10.21437/Odyssey.2016-3"
+  },
+  "torrescarrasquillo16_odyssey": {
+   "authors": [
+    [
+     "Pedro",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Elizabeth",
+     "Godoy"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Fred",
+     "Richardson"
+    ],
+    [
+     "Stephen",
+     "Shum"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Douglas",
+     "Sturim"
+    ]
+   ],
+   "title": "The MITLL NIST LRE 2015 Language Recognition System",
+   "original": "25",
+   "page_count": 8,
+   "order": 30,
+   "p1": 196,
+   "pn": 203,
+   "abstract": [
+    "In this paper we describe the most recent MIT Lincoln Laboratory language recognition system developed for the NIST 2015 Language Recognition Evaluation (LRE). The submission features a fusion of five core classifiers, with most systems developed in the context of an i-vector framework. The 2015 evaluation presented new paradigms. First, the evaluation included fixed training and open training tracks for the first time; second, language classification performance was measured across 6 language clusters using 20 language classes instead of an N-way language task; and third, performance was measured across a nominal 3-30 second range. Results are presented for the average performance across the 6 language clusters for both the fixed and open training tasks. On the 6-cluster metric the Lincoln system achieved average costs of 0.173 and 0.168 for the fixed and open tasks respectively."
+   ],
+   "doi": "10.21437/Odyssey.2016-28"
+  },
+  "brown16_odyssey": {
+   "authors": [
+    [
+     "Georgina",
+     "Brown"
+    ]
+   ],
+   "title": "Automatic Accent Recognition Systems and the Effects of Data on Performance",
+   "original": "29",
+   "page_count": 7,
+   "order": 15,
+   "p1": 94,
+   "pn": 100,
+   "abstract": [
+    "This paper considers automatic accent recognition system performance in relation to the specific nature of the accent data. This is of relevance to the forensic application, where an accent recogniser may have a place in casework involving various accent classification tasks with different challenges attached. The study presented here is composed of two main parts. Firstly, it examines the performance of five different automatic accent recognition systems when distinguishing between geographically-proximate accents. Using geographically-proximate accents is expected to challenge the systems by increasing the degree of similarity between the varieties we are trying to distinguish between. The second part of the study is concerned with identifying the specific phonemes which are important in a given accent recognition task, and eliminating those which are not. Depending on the varieties we are classifying, the phonemes which are most useful to the task will vary. This study therefore integrates feature selection methods into the accent recognition system shown to be the highest performer, the Y-ACCDIST-SVM system, to help to identify the most valuable speech segments and to increase accent recognition rates."
+   ],
+   "doi": "10.21437/Odyssey.2016-14"
+  },
+  "lin16_odyssey": {
+   "authors": [
+    [
+     "Weiwei",
+     "Lin"
+    ],
+    [
+     "Man-Wai",
+     "Mak"
+    ]
+   ],
+   "title": "Fast Scoring for PLDA with Uncertainty Propagation",
+   "original": "30",
+   "page_count": 8,
+   "order": 6,
+   "p1": 31,
+   "pn": 38,
+   "abstract": [
+    "By treating utterances as points in the i-vector space, i-vector/PLDA can achieve fast verification. However, this approach lacks the ability to cope with utterance-length variability. A method called uncertainty propagation (UP) that takes the uncertainty of i-vectors into account has been recently proposed to deal with this problem. However, the loading matrix for modeling utterance-length variability is session-dependent, making UP computationally expensive. In this paper, we demonstrate that utterance-length variability mainly affects the scale of the posterior covariance matrices. Based on this observation, we propose to substitute the session-dependent loading matrices by the ones trained from development data, where the selection of pre-computed loading matrices is based on a fast scalar comparison. This approach can reduce the computation cost of standard UP to the one comparable with the conventional PLDA. Experiments on the NIST 2012 Speaker Recognition Evaluation show that the proposed method can perform as good as the standard UP, but requires only 3.7\\% of the scoring time. The method also requires substantially less memory as compared with the standard UP, especially when the number of target speakers is large."
+   ],
+   "doi": "10.21437/Odyssey.2016-5"
+  },
+  "prieto16_odyssey": {
+   "authors": [
+    [
+     "Jesús Jorrín",
+     "Prieto"
+    ],
+    [
+     "Carlos",
+     "Vaquero"
+    ],
+    [
+     "Paola",
+     "García"
+    ]
+   ],
+   "title": "Analysis of the Impact of the Audio Database Characteristics in the Accuracy of a Speaker Clustering System",
+   "original": "31",
+   "page_count": 7,
+   "order": 60,
+   "p1": 393,
+   "pn": 399,
+   "abstract": [
+    "In this paper, a traditional clustering algorithm based on speaker identification is presented. Several audio data sets were tested to conclude how accurate the clustering algorithm is depending on the characteristics of the analyzed database. We show that, issues such as the size of the database, the number speakers, or how the audios are balanced over the speakers in the database significantly affect the accuracy of the clustering task. These conclusions can be used to propose strategies to solve a clustering task or to predict in which situations a higher performance of the clustering algorithm is expected. We also focus on the stopping criterion to avoid the worsening of the results due to mismatch between training and testing data while using traditional stopping criteria based on maximum distance thresholds."
+   ],
+   "doi": "10.21437/Odyssey.2016-57"
+  },
+  "pekhovsky16_odyssey": {
+   "authors": [
+    [
+     "Timur",
+     "Pekhovsky"
+    ],
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Aleksei",
+     "Sholohov"
+    ],
+    [
+     "Oleg",
+     "Kudashev"
+    ]
+   ],
+   "title": "On autoencoders in the i-vector space for speaker recognition",
+   "original": "34",
+   "page_count": 8,
+   "order": 33,
+   "p1": 217,
+   "pn": 224,
+   "abstract": [
+    "We present the detailed empirical investigation of the speaker verification system based on denoising autoencoder (DAE) in the i-vector space firstly proposed in [1]. This paper includes description of this system and discusses practical issues of the system training. The aim of this investigation is to study the properties of DAE in the i-vector space and analyze different strategies of initialization and training of the the back-end parameters. Also in this paper we propose several improvements to our system to increase the accuracy. Finally, we demonstrate potential of the proposed system in the case of domain mismatch. It achieves considerable gain in performance compared to the baseline system for the unsupervised domain adaptation scenario on the NIST 2010 SRE task."
+   ],
+   "doi": "10.21437/Odyssey.2016-31"
+  },
+  "tian16_odyssey": {
+   "authors": [
+    [
+     "Yao",
+     "Tian"
+    ],
+    [
+     "Liang",
+     "He"
+    ],
+    [
+     "Yi",
+     "Liu"
+    ],
+    [
+     "Jia",
+     "Liu"
+    ]
+   ],
+   "title": "Investigation of Senone-based Long-Short Term Memory RNNs for Spoken Language Recognition",
+   "original": "35",
+   "page_count": 5,
+   "order": 14,
+   "p1": 89,
+   "pn": 93,
+   "abstract": [
+    "Recently, the integration of deep neural networks (DNNs) trained to predict senone posteriors with conventional language modeling methods has been proved effective for spoken language recognition. This work extends some of the senone-based DNN frameworks by replacing the DNN with the LSTM RNN. Two of these approaches use the LSTM RNN to generate features. The features are extracted from the recurrent projection layer in the LSTM RNN either as frame-level acoustic features or utterance-level features and are then processed in different ways to produce scores for each target language. In the third approach, the conventional i-vector model is modified to use the LSTM RNN to produce frame alignments for sufficient statistics extraction. Experiments on the NIST LRE 2015 demonstrate the effectiveness of the proposed methods."
+   ],
+   "doi": "10.21437/Odyssey.2016-13"
+  },
+  "nautsch16_odyssey": {
+   "authors": [
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Rahim",
+     "Saeidi"
+    ],
+    [
+     "Christian",
+     "Rathgeb"
+    ],
+    [
+     "Christoph",
+     "Busch"
+    ]
+   ],
+   "title": "Robustness of Quality-based Score Calibration of Speaker Recognition Systems with respect to low-SNR and short-duration conditions",
+   "original": "38",
+   "page_count": 8,
+   "order": 55,
+   "p1": 358,
+   "pn": 365,
+   "abstract": [
+    "Degraded signal quality and incomplete voice probes have severe effects on the performance of a speaker recognition system. Unified audio characteristics (UACs) have been proposed to quantify multi-condition signal degradation effects into posterior probabilities of quality classes. Lately, we showed that UAC-based quality vectors (q-vectors) are efficient at the score-normalization stage. Hence, we motivate q-vector based calibration by using functions of quality estimates (FQEs). In this work, we examine the robustness of calibration approaches to low-SNR and short-duration conditions utilizing measured and estimated quality indicators. Thereby, camparisons are drawn to quality measure functions (QMFs) employing oracle SNRs and sample duration.  In the robustness study, low-SNR and short-duration conditions are excluded from calibration training.  The present analysis provides insights on the behaviour of calibration schemes in combined conditions of high signal degradation and short segment duration regarding accurate approximation of idealized calibration. We seek calibration methods in order to parsimonious preserve robustness against unseen data.  Separate analysis is provided on duration- and noise-only scenarios as well as on combined duration and noise scenarios. QMFs and FQE significantly outperform the conventional condition-mismatched calibration scheme. A hybrid concept for unknown-quality calibration is concluded."
+   ],
+   "doi": "10.21437/Odyssey.2016-52"
+  },
+  "brutti16_odyssey": {
+   "authors": [
+    [
+     "Alessio",
+     "Brutti"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ]
+   ],
+   "title": "Multi-channel i-vector combination for robust speaker verification in multi-room domestic environments",
+   "original": "40",
+   "page_count": 7,
+   "order": 38,
+   "p1": 252,
+   "pn": 258,
+   "abstract": [
+    "In this work we address the speaker verification task in domestic environments where multiple rooms are monitored by a set of distributed microphones. In particular, we focus on the mismatch between the training of the total variability feature extraction hyper-parameters, the enrolment stage, which occurs at a fixed position in the home, and the test phase which could happen in any location of the apartment. Building upon a previous work, where a position independent multi-channel verification system was introduced, we investigate different i-vector combination strategies to attenuate the effects of the above mentioned mismatch sources. The proposed methods implicitly select the microphones in the room where the speaker is, without any knowledge about the speaker position. An experimental analysis on a simulated multi-channel multi-room reverberant data-set shows that the proposed solutions are robust against changes in the speaker position and orientation, achieving performance close to an upper-bound based on knowledge about the speaker location."
+   ],
+   "doi": "10.21437/Odyssey.2016-36"
+  },
+  "desplanques16_odyssey": {
+   "authors": [
+    [
+     "Brecht",
+     "Desplanques"
+    ],
+    [
+     "Kris",
+     "Demuynck"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ]
+   ],
+   "title": "Soft VAD in Factor Analysis Based Speaker Segmentation of Broadcast News",
+   "original": "41",
+   "page_count": 8,
+   "order": 24,
+   "p1": 158,
+   "pn": 165,
+   "abstract": [
+    "In this work we propose to integrate a soft voice activity detection (VAD) module in an iVector-based speaker segmentation system. As speaker change detection should be based on speaker information only, we want it to disregard the non-speech frames by applying speech posteriors during the estimation of the Baum-Welch statistics. The speaker segmentation relies on speaker factors which are extracted on a frame-by-frame basis using an eigenvoice matrix. Speaker boundaries are inserted at positions where the distance between the speaker factors at both sides is large. A Mahalanobis distance seems capable of suppressing the effects of differences in the phonetic content at both sides, and therefore, to generate more accurate speaker boundaries. This iVector-based segmentation significantly outperforms Bayesian Information Criterion (BIC) segmentation methods and can be made adaptive on a file-by-file basis in a two-pass approach. Experiments on the COST278 multilingual broadcast news database show significant reductions of the boundary detection error rate by integrating the soft VAD. Furthermore, the more accurate boundaries induce a slight improvement of the iVector Probabilistic Linear Discriminant Analysis system that is employed for speaker clustering."
+   ],
+   "doi": "10.21437/Odyssey.2016-23"
+  },
+  "sadjadi16_odyssey": {
+   "authors": [
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Sriram",
+     "Ganapathy"
+    ],
+    [
+     "Jason",
+     "Pelecanos"
+    ]
+   ],
+   "title": "The IBM 2016 Speaker Recognition System",
+   "original": "42",
+   "page_count": 7,
+   "order": 27,
+   "p1": 174,
+   "pn": 180,
+   "abstract": [
+    "In this paper we describe the recent advancements made in the IBM i-vector speaker recognition system for conversational speech. In particular, we identify key techniques that contribute to significant improvements in performance of our system, and quantify their contributions. The techniques include: 1) a nearest-neighbor discriminant analysis (NDA) approach that is formulated to alleviate some of the limitations associated with the conventional linear discriminant analysis (LDA) that assumes Gaussian class-conditional distributions, 2) the application of speaker- and channel-adapted features, which are derived from an automatic speech recognition (ASR) system, for speaker recognition, and 3) the use of a deep neural network (DNN) acoustic model with a large number of output units (~10k senones) to compute the frame-level soft alignments required in the i-vector estimation process. We evaluate these techniques on the NIST 2010 speaker recognition evaluation (SRE) extended core conditions involving telephone and microphone trials. Experimental results indicate that: 1) the NDA is more effective (up to 35% relative improvement in terms of EER) than the traditional parametric LDA for speaker recognition, 2) when compared to raw acoustic features (e.g., MFCCs), the ASR speaker-adapted features provide gains in speaker recognition performance, and 3) increasing the number of output units in the DNN acoustic model (i.e., increasing the senone set size from 2k to 10k) provides consistent improvements in performance (for example from 39% to 57% relative EER gains over our baseline GMM i-vector system). To our knowledge, results reported in this paper represent the best performances published to date on the NIST SRE 2010 extended core tasks."
+   ],
+   "doi": "10.21437/Odyssey.2016-25"
+  },
+  "mclaren16_odyssey": {
+   "authors": [
+    [
+     "Mitchell",
+     "Mclaren"
+    ],
+    [
+     "Diego",
+     "Castán"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ]
+   ],
+   "title": "Analyzing the Effect of Channel Mismatch on the SRI Language Recognition Evaluation 2015 System",
+   "original": "43",
+   "page_count": 8,
+   "order": 29,
+   "p1": 188,
+   "pn": 195,
+   "abstract": [
+    "We present the work done by our group for the 2015 language recognition evaluation (LRE) organized by the National Institute of Standards and Technology (NIST), along with an extended post-evaluation analysis. The focus of this evaluation was the development of language recognition systems for clusters of closely related languages using training data released by NIST. This training data contained a highly imbalanced sample from the languages of interest. The SRI team submitted several systems to LRE’15. Major components included (1) bottleneck features extracted from Deep Neural Networks (DNNs) trained to predict English senones, with multiple DNNs trained using a variety of acoustic features; (2) data-driven Discrete Cosine Transform (DCT) contextualization of features for traditional Universal Background Model (UBM) i-vector extraction and for input to a DNN for bottleneck feature extraction; (3) adaptive Gaussian backend scoring; (4) a newly developed multi-resolution neural network backend; and (5) cluster-specific N-way fusion of scores. We compare results on our development dataset with those on the evaluation data and find significantly different conclusions about which techniques were useful for each dataset. This difference was due mostly to a large unexpected mismatch in acoustic and channel conditions between the two datasets. We provide post-evaluation analysis revealing that the successful approaches for this evaluation included the use of bottleneck features, and a well-defined development dataset appropriate for mismatched conditions."
+   ],
+   "doi": "10.21437/Odyssey.2016-27"
+  },
+  "najafian16_odyssey": {
+   "authors": [
+    [
+     "Maryam",
+     "Najafian"
+    ],
+    [
+     "Saeid",
+     "Safavi"
+    ],
+    [
+     "Phil",
+     "Weber"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ]
+   ],
+   "title": "Identification of British English regional accents using fusion of i-vector and multi-accent phonotactic systems",
+   "original": "44",
+   "page_count": 8,
+   "order": 20,
+   "p1": 132,
+   "pn": 139,
+   "abstract": [
+    "The para-linguistic information in a speech signal includes clues to the geographical and social background of the speaker. This paper is concerned with recognition of the 14 regional accents of British English. For Accent Identification (AID), acoustic methods exploit differences between the distributions of sounds, while phonotactic approaches exploit the sequences in which these sounds occur. We demonstrate these methods are good complements for each other and use their confusion matrices for further analysis. Our relatively simple i-vector and phonotactic fused system with recognition accuracy of 84.87% outperforms the i-vector fused results reported in literature, by 4.7%. Further analysis on distribution of British English accents has been carried out by analyzing the low dimensional representation of i-vector AID feature space."
+   ],
+   "doi": "10.21437/Odyssey.2016-19"
+  },
+  "zazo16_odyssey": {
+   "authors": [
+    [
+     "Ruben",
+     "Zazo"
+    ],
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ]
+   ],
+   "title": "Evaluation of an LSTM-RNN System in Different NIST Language Recognition Frameworks",
+   "original": "45",
+   "page_count": 6,
+   "order": 35,
+   "p1": 231,
+   "pn": 236,
+   "abstract": [
+    "Long Short-Term Memory recurrent neural networks (LSTM RNNs) provide an outstanding performance in language identification (LID) due to its ability to model speech sequences. So far, previously published LSTM RNNs solutions for LID deal with highly controlled scenarios, balanced datasets and limited channel variability. In this paper we evaluate an end-to-end LSTM LID system, comparing it against a classical i-vector system, on different environments based on data from Language Recognition Evaluations (LRE) organized by NIST. In order to analyze the behavior we train and test our system on a balanced and controlled subset of LRE09, on the develompent data of LRE15 and, finally, on the evaluation set of LRE15. Our results show that an end-to-end recurrent system clearly outperforms the reference i-vector system in a controlled environment, specially when dealing with short utterances. Nevertheless, our deep learning approach is more sensitive to unbalanced datasets, channel variability and, specially, to the mismatch between development and test datasets."
+   ],
+   "doi": "10.21437/Odyssey.2016-33"
+  },
+  "sizov16_odyssey": {
+   "authors": [
+    [
+     "Aleksandr",
+     "Sizov"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Discriminating Languages in a Probabilistic Latent Subspace",
+   "original": "48",
+   "page_count": 8,
+   "order": 13,
+   "p1": 81,
+   "pn": 88,
+   "abstract": [
+    "We explore a method to boost discriminative capabilities of Probabilistic Linear Discriminant Analysis (PLDA) model without losing its generative advantages. To this end, our focus is in a low-dimensional PLDA latent subspace. We optimize the model with respect to MMI (Maximum Mutual Information) and our own objective functions, which is an approximation to the detection cost function. We evaluate the performance on NIST Language Recognition Evaluation 2015. Our model trains faster and performs more accurately in comparison to both generative PLDA and discriminative LDA baselines with 12% and 4% relative improvement in the average detection cost, respectively. The proposed method is applicable for a broad range of closed-set tasks."
+   ],
+   "doi": "10.21437/Odyssey.2016-12"
+  },
+  "george16_odyssey": {
+   "authors": [
+    [
+     "Kuruvachan K",
+     "George"
+    ],
+    [
+     "C Santhosh",
+     "Kumar"
+    ],
+    [
+     "K I",
+     "Ramachandran"
+    ],
+    [
+     "Ashish",
+     "Panda"
+    ]
+   ],
+   "title": "Improving Robustness of Speaker Verification Against Mimicked Speech",
+   "original": "49",
+   "page_count": 7,
+   "order": 37,
+   "p1": 245,
+   "pn": 251,
+   "abstract": [
+    "Making speaker verification (SV) systems robust to spoofed/mimicked speech attacks is very important to make its use effective in security applications. In this work, we show that using a proximal support vector machine backend classifier with i-vectors as inputs (i-PSVM) can help improve the performance of SV systems for mimicked speech as non-target trials. We compared our results with the state-of-the-art baseline i-vector with cosine distance scoring (i-CDS), i-vector with a backend SVM classifier (i-SVM) and cosine distance features with an SVM backend classifier (CDF-SVM) systems. In all experiments with SVM backend classifier, we over sampled the target utterance feature vectors before i-vector extraction using utterance partition followed by acoustic vector resampling (UP-AVR). UP-AVR helps solve the data imbalance problem, with a large number of non-target examples from the development data for training the models.  In i-PSVM, proximity of the test utterance to the target and non-target class is the criteria for decision making while in i-SVM, the distance from the separating hyperplane is the criteria for the decision. It was seen that the i-PSVM approach is advantageous when tested with mimicked speech as non-target trials. This highlights that proximity to the target speakers is a better criteria for speaker verification for mimicked speech. Further, we note that weighting the target and non-target class examples helps us further fine tune the performance  of i-PSVM. We then devised a strategy for estimating the weights for every example based on its cosine distance similarity with respect to the centroid of target class examples. The final i-PSVM with example based weighting scheme achieved an improvement of 3.39% absolute in EER when compared to the best baseline system, i-SVM. Subsequently, we fused the i-PSVM and i-SVM systems and results show that the performance of the combined system is better than the individual systems."
+   ],
+   "doi": "10.21437/Odyssey.2016-35"
+  },
+  "lan16_odyssey": {
+   "authors": [
+    [
+     "Gaël Le",
+     "Lan"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ],
+    [
+     "Delphine",
+     "Charlet"
+    ],
+    [
+     "Anthony",
+     "Larcher"
+    ]
+   ],
+   "title": "First investigations on self trained speaker diarization",
+   "original": "50",
+   "page_count": 6,
+   "order": 23,
+   "p1": 152,
+   "pn": 157,
+   "abstract": [
+    "This paper investigates self trained cross-show speaker diarization applied to collections of French TV archives, based on an i-vector/PLDA framework. The parameters used for i-vectors extraction and PLDA scoring are trained in a unsupervised way, using the data of the collection itself. Performances are compared, using combinations of target data and external data for training. The experimental results on two distinct target corpora show that using data from the corpora themselves to perform unsupervised iterative training and domain adaptation of PLDA parameters can improve an existing system, trained on external annotated data. Such results indicate that performing speaker indexation on small collections of unlabeled audio archives should only rely on the availability of a sufficient external corpus, which can be specifically adapted to every target collection. We show that a minimum collection size is required to exclude the use of such an external bootstrap."
+   ],
+   "doi": "10.21437/Odyssey.2016-22"
+  },
+  "sun16_odyssey": {
+   "authors": [
+    [
+     "Hanwu",
+     "Sun"
+    ],
+    [
+     "Trung Hieu",
+     "Nguyen"
+    ],
+    [
+     "Guangsen",
+     "Wang"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "I2R Submission to the 2015 NIST Language Recognition I-vector Challenge",
+   "original": "51",
+   "page_count": 8,
+   "order": 47,
+   "p1": 311,
+   "pn": 318,
+   "abstract": [
+    "This paper presents a detailed description and analysis of I2R submission, which is among the top performing systems, to the 2015 NIST language recognition i-vector machine learning challenge. Our submission is a fusion of several sub-systems based on linear discriminant analysis (LDA), support vector machine (SVM), multi-layer perceptron (MLP), deep neural network (DNN), and multi-class logistic regression. Central to our work presented in this paper is a novel out-of-set (OOS) detection scheme for selecting i-vectors from an unlabeled development set. It consists of a best fit out-of-set selection followed by cluster purification. We also propose a novel empirical kernel map to be used with SVM. Experimental results show that the proposed approach achieves significant improvement on both the progress and evaluation sets defined for the i-vector challenge. Our final submission achieves 55.0% and 54.5% relative improvement over the baseline system on the progress and evaluation sets, respectively."
+   ],
+   "doi": "10.21437/Odyssey.2016-45"
+  },
+  "gelly16_odyssey": {
+   "authors": [
+    [
+     "Gregory",
+     "Gelly"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Antoine",
+     "Laurent"
+    ],
+    [
+     "Viet Bac",
+     "Le"
+    ],
+    [
+     "Abdel",
+     "Messaoudi"
+    ]
+   ],
+   "title": "Language Recognition for Dialects and Closely Related Languages",
+   "original": "52",
+   "page_count": 8,
+   "order": 19,
+   "p1": 124,
+   "pn": 131,
+   "abstract": [
+    "This paper describes a language recognition system designed to discriminate closely related languages and dialects of the same language. The system was jointly developed by LIMSI and Vocapia Research for the NIST 2015 Language Recognition Evaluation (LRE). The language recognition system results from a fusion of four core classifiers: a phonotactic component using DNN acoustic models, two purely acoustic components using a RNN model and and I-vector model, and a lexical component. Each component generates language posterior probabilities optimized to maximize the LID NCE, thereby making their combination trivial and robust. The motivation for using multiple components representing different speech knowledge is that some dialect distinctions may not be manifest at the acoustic level. We report experiments on the NIST LRE15 data and provide an analysis of the results and some post-evaluation contrasts. The 2015 LRE task focused on the identification of 20 languages clustered in 6 groups (Arabic, Chinese, English, French, Slavic and Iberic) of similar languages. Results are reported using the reference Cavg metric which served as the primary evaluation metric by NIST as well as the EER and LER."
+   ],
+   "doi": "10.21437/Odyssey.2016-18"
+  },
+  "salamea16_odyssey": {
+   "authors": [
+    [
+     "Christian",
+     "Salamea"
+    ],
+    [
+     "Luis Fernando",
+     "D'Haro"
+    ],
+    [
+     "Ricardo",
+     "Cordoba"
+    ],
+    [
+     "Rubén",
+     "San-Segundo"
+    ]
+   ],
+   "title": "On the use of phone-gram units in recurrent neural networks  for language identification",
+   "original": "53",
+   "page_count": 7,
+   "order": 18,
+   "p1": 117,
+   "pn": 123,
+   "abstract": [
+    "In this paper we present our results on using RNN-based LM scores trained on different phone-gram orders and using different phonetic ASR recognizers. In order to avoid data sparseness problems and to reduce the vocabulary of all possible n-gram combinations, a K-means clustering procedure was performed using phone-vector embeddings as a pre-processing step. Additional experiments to optimize the amount of classes, batch-size, hidden neurons, state-unfolding, are also presented. We have worked with the KALAKA-3 database for the plenty-closed condition [1]. Thanks to our clustering technique and the combination of high level phone-grams, our phonotactic system performs ~13% better than the unigram-based RNNLM system. Also, the obtained RNNLM scores are calibrated and fused with other scores from an acoustic-based i-vector system and a traditional PPRLM system. This fusion provides additional improvements showing that they provide complementary information to the LID system."
+   ],
+   "doi": "10.21437/Odyssey.2016-17"
+  },
+  "lozanodiez16_odyssey": {
+   "authors": [
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Jan",
+     "Pesan"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ]
+   ],
+   "title": "Analysis and Optimization of Bottleneck Features for Speaker Recognition",
+   "original": "54",
+   "page_count": 6,
+   "order": 54,
+   "p1": 352,
+   "pn": 357,
+   "abstract": [
+    "Recently, Deep Neural Network (DNN) based bottleneck features proved to be very effective in i-vector based speaker recognition. However, the bottleneck feature extraction is usually fully optimized for speech rather than speaker recognition task. In this paper, we explore whether DNNs suboptimal for speech recognition can provide better bottleneck features for speaker recognition. We experiment with different features optimized for speech or speaker recognition as input to the DNN. We also experiment with under-trained DNN, where the training was interrupted before the full convergence of the speech recognition objective. Moreover, we analyze the effect of normalizing the features at the input and/or at the output of bottleneck features extraction to see how it affects the final speaker recognition system performance. We evaluated the systems in the SRE’10, condition 5, female task. Results show that the best configuration of the DNN in terms of phone accuracy does not necessary imply better performance of the final speaker recognition system. Finally, we compare the performance of bottleneck features and the standard MFCC features in i-vector/PLDA speaker recognition system. The best bottleneck features yield up to 37% of relative improvement in terms of EER."
+   ],
+   "doi": "10.21437/Odyssey.2016-51"
+  },
+  "ng16_odyssey": {
+   "authors": [
+    [
+     "Raymond W. M.",
+     "Ng"
+    ],
+    [
+     "Mauro",
+     "Nicolao"
+    ],
+    [
+     "Oscar",
+     "Saz"
+    ],
+    [
+     "Madina",
+     "Hasan"
+    ],
+    [
+     "Bhusan",
+     "Chettri"
+    ],
+    [
+     "Mortaza",
+     "Doulaty"
+    ],
+    [
+     "Tan",
+     "Lee"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "The Sheffield language recognition system in NIST LRE 2015",
+   "original": "56",
+   "page_count": 7,
+   "order": 28,
+   "p1": 181,
+   "pn": 187,
+   "abstract": [
+    "The Speech and Hearing Research Group of the University of Sheffield submitted a fusion language recognition system to NIST LRE 2015. It combines three language classifiers. Two are acoustic-based, which use i–vectors and a tandem DNN language recogniser respectively. The third classifier is a phonotactic language recogniser. Two sets of training data with duration of approximately 170 and 300 hours were composed for LR training. Using the larger set of training data, the primary Sheffield LR system gives 32.44 min DCF on the official LR 2015 eval data. A post-evaluation system enhancement was carried out where i–vectors were extracted from the bottleneck features of an English DNN. The min DCF was reduced to 29.20."
+   ],
+   "doi": "10.21437/Odyssey.2016-26"
+  },
+  "budnik16_odyssey": {
+   "authors": [
+    [
+     "Mateusz",
+     "Budnik"
+    ],
+    [
+     "Ali",
+     "Khodabakhsh"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Cenk",
+     "Demiroglu"
+    ]
+   ],
+   "title": "Deep complementary features for speaker identification in TV broadcast data",
+   "original": "57",
+   "page_count": 6,
+   "order": 22,
+   "p1": 146,
+   "pn": 151,
+   "abstract": [
+    "This work tries to investigate the use of a Convolutional Neural Network approach and its fusion with more traditional systems such as Total Variability Space for speaker identification in TV broadcast data. The former uses spectrograms for training, while the latter is based on MFCC features. The dataset poses several challenges such as significant class imbalance or background noise and music. Even though the performance of the Convolutional Neural Network is lower than the state-of-the-art, it is able to complement it and give better results through fusion. Different fusion techniques are evaluated using both early and late fusion."
+   ],
+   "doi": "10.21437/Odyssey.2016-21"
+  },
+  "martinezgonzalez16_odyssey": {
+   "authors": [
+    [
+     "Beatriz",
+     "Martínez-González"
+    ],
+    [
+     "José M.",
+     "Pardo"
+    ],
+    [
+     "Rubén",
+     "San-Segundo"
+    ],
+    [
+     "J.M.",
+     "Montero"
+    ]
+   ],
+   "title": "Influence of transition cost in the segmentation stage of speaker diarization",
+   "original": "58",
+   "page_count": 8,
+   "order": 59,
+   "p1": 385,
+   "pn": 392,
+   "abstract": [
+    "In any speaker diarization system there is a segmentation phase and a clustering phase. Our system uses them in a single step in which segmentation and clustering are used iteratively until certain condition is met. In this paper we propose an improvement of the segmentation method that cancels a penalization that had been applied in previous works to any transition between speakers. We also study the performance when transitions between speakers are favoured instead of penalized. This last option achieves better results both for the development set (21.65 % relative speaker error improvement- SER) and for the test set (4.60% relative speaker error improvement"
+   ],
+   "doi": "10.21437/Odyssey.2016-56"
+  },
+  "todisco16_odyssey": {
+   "authors": [
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "A New Feature for Automatic Speaker Verification Anti-Spoofing: Constant Q Cepstral Coefficients",
+   "original": "59",
+   "page_count": 8,
+   "order": 43,
+   "p1": 283,
+   "pn": 290,
+   "abstract": [
+    "Efforts to develop new countermeasures in order to protect automatic speaker verification from spoofing have intensified over recent years.  The ASVspoof 2015 initiative showed that there is great potential to detect spoofing attacks, but also that the detection of previously unforeseen spoofing attacks remains challenging.  This paper argues that there is more to be gained from the study of features rather than classifiers and introduces a new feature for spoofing detection based on the constant Q transform, a perceptually-inspired time-frequency analysis tool popular in the study of music.  Experimental results obtained using the standard ASVspoof 2015 database show that, when coupled with a standard Gaussian mixture model-based classifier, the proposed constant Q cepstral coefficients (CQCCs) outperform all previously reported results by a significant margin.  In particular, those for a subset of unknown spoofing attacks (for which no matched training data was used) is 0.46%, a relative improvement of 72% over the best, previously reported results."
+   ],
+   "doi": "10.21437/Odyssey.2016-41"
+  },
+  "kheder16_odyssey": {
+   "authors": [
+    [
+     "Waad Ben",
+     "Kheder"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Moez",
+     "Ajili"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Iterative Bayesian and MMSE-based noise compensation techniques for speaker recognition in the i-vector space",
+   "original": "60",
+   "page_count": 8,
+   "order": 10,
+   "p1": 60,
+   "pn": 67,
+   "abstract": [
+    "Dealing with additive noise in the i-vector space can be challenging due to the complexity of its effect in that space. Several compensation techniques have been proposed in the last years to either remove the noise effect by setting a noise model in the i-vector space or build better scoring techniques that take environment perturbations into account. We recently presented a new efficient Bayesian cleaning technique operating in the i-vector domain named I-MAP that improves the baseline system performance by up to 60%. This technique is based on Gaussian models for the clean and noise i-vectors distributions. After I-MAP transformation, these hypothesis are probably less correct. For this reason, we propose to apply another MMSE-based approach that uses the Kabsch algorithm. For a certain noise, it estimates the best translation vector and rotation matrix between a set of train noisy i-vectors and their clean counterparts based on RMSD criterion. This transformation is then applied on noisy test i-vectors in order to remove the noise effect. We show that applying the Kabsch algorithm allows to reach a 40% relative improvement in EER(%) compared to a baseline system performance and that, when combined with I-MAP and repeated iteratively, it allows to reach 85% of relative improvement."
+   ],
+   "doi": "10.21437/Odyssey.2016-9"
+  },
+  "kheder16b_odyssey": {
+   "authors": [
+    [
+     "Waad Ben",
+     "Kheder"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Moez",
+     "Ajili"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Local binary patterns as features for speaker recognition",
+   "original": "61",
+   "page_count": 6,
+   "order": 53,
+   "p1": 346,
+   "pn": 351,
+   "abstract": [
+    "The i-vector framework witnessed great success in the past years in speaker recognition (SR).  The feature extraction process is central in SR systems and many features have been developed over the years to improve the recognition performance. In this paper, we present a new feature representation which borrows a concept initially developed in computer vision to characterize textures called Local Binary Patterns (LBP). We explore the use of LBP  as features for speaker recognition and show that using them as descriptors for cepstral coefficients dynamics (replacing Delta and Delta-Delta in the regular MFCC representation) results in more efficient features and yield up to 15% of relative improvement compared to the baseline system performance in both clean and noisy conditions."
+   ],
+   "doi": "10.21437/Odyssey.2016-50"
+  },
+  "zeinali16_odyssey": {
+   "authors": [
+    [
+     "Hossein",
+     "Zeinali"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Hossein",
+     "Sameti"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ]
+   ],
+   "title": "Deep Neural Networks and Hidden Markov Models in i-vector-based Text-Dependent Speaker Verification",
+   "original": "63",
+   "page_count": 7,
+   "order": 5,
+   "p1": 24,
+   "pn": 30,
+   "abstract": [
+    "Techniques making use of Deep Neural Networks (DNN) have recently been seen to bring large improvements in text-independent speaker recognition. In this paper, we verify that the DNN based methods result in excellent performances in the context of text-dependent speaker verification as well. We build our system on the previously introduced HMM based i-vector approach, where phone models are used to obtain frame level alignment in order to collect sufficient statistics for i-vector extraction. For comparison, we experiment with an alternative alignment obtained directly from the output of DNN trained for phone classification. We also experiment with DNN based bottleneck features and their combinations with standard cepstral features. Although the i-vector approach is generally considered not suitable for text-dependent speaker verification, we show that our HMM based approach combined with bottleneck features provides truly state-of-the-art performance on RSR2015 data."
+   ],
+   "doi": "10.21437/Odyssey.2016-4"
+  },
+  "stafylakis16_odyssey": {
+   "authors": [
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Vishwa",
+     "Gupta"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Marcel",
+     "Kockmann"
+    ]
+   ],
+   "title": "Compensation for phonetic nuisance variability in speaker recognition using DNNs",
+   "original": "64",
+   "page_count": 6,
+   "order": 52,
+   "p1": 340,
+   "pn": 345,
+   "abstract": [
+    "In this paper, a new way of using phonetic DNN in text-independent speaker recognition is examined. Inspired by the Subspace GMM approach to speech recognition, we try to extract i-vectors that are invariant to the phonetic content for the utterance. We overcome the assumption of gaussian distributed senones by combining DNN with UBM posteriors and we form a complete EM algorithm for training and extracting phonetic content compensated i-vectors. A simplified version of the model is also presented, where the phonetic content and speaker subspaces are learned in a decoupled way. Covariance adaptation is also examined, where the covariance matrices are reestimated rather than copied from the UBM. A set of primary experimental results is reported on NIST-SRE 2010, with modest improvement when fused with the standard i-vectors."
+   ],
+   "doi": "10.21437/Odyssey.2016-49"
+  },
+  "soldi16_odyssey": {
+   "authors": [
+    [
+     "Giovanni",
+     "Soldi"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Christophe",
+     "Beaugeant"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Semi-supervised On-line Speaker Diarization for Meeting Data with Incremental Maximum A-posteriori Adaptation",
+   "original": "65",
+   "page_count": 8,
+   "order": 58,
+   "p1": 377,
+   "pn": 384,
+   "abstract": [
+    "Almost all current diarization systems are off-line and ill-suited to the growing need for on-line or real-time diarization. Our previous work reported the first on-line diarization system for the most challenging speaker diarization domain involving meeting data. Even if results were not dissimilar to those reported for on-line diarization in less challenging domains, error rates were high and unlikely to support any practical applications. The first novel contribution in this paper relates to the investigation of a semi-supervised approach to on-line diarization whereby speaker models are seeded with a modest amount of manually labelled data. In practical applications involving meetings, such data can be obtained readily from brief roundtable introductions. The second novel contribution relates to a incremental MAP adaptation procedure for efficient, on-line speaker modelling. When combined, these two developments provide an on-line diarization system which outperforms a baseline, off-line system by a significant margin. When configured appropriately, error rates may be low enough to support practical applications."
+   ],
+   "doi": "10.21437/Odyssey.2016-55"
+  },
+  "bhattacharya16_odyssey": {
+   "authors": [
+    [
+     "Gautam",
+     "Bhattacharya"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ]
+   ],
+   "title": "Deep Neural Network based Text-Dependent Speaker Verification : Preliminary Results",
+   "original": "67",
+   "page_count": 7,
+   "order": 3,
+   "p1": 9,
+   "pn": 15,
+   "abstract": [
+    "Recently there has significant research interest in using neural networks as feature extractors for text-dependent speaker verification. These types of systems have been shown to perform very well when a large amount of speaker data is available for training. In this work we are interested in testing the efficacy of these methods when only a small amount of training data is available. Google recently introduced an approach that makes use of Recurrent Neural Networks (RNNs) to generate utterance-level or global features for text-dependent speaker verification. This is in contrast to the more established approach of training a Deep Neural Network (DNN) to discriminate between speakers at the frame-level. In this work we explore the DNN (feed forward) and RNN speaker verification paradigms. In the RNN case we propose improvements to the basic model with respect to the small training set available to us. Our experiments show that while both DNNs and RNNs are able to learn the training data, the set used in this study is not large or diverse enough to allow the them to generalize to new speakers. While the DNN models outperform the RNN, both models perform poorly compared to a GMM-UBM system. Nonetheless, we believe this work serves as motivation for the further development of neural network based speaker verification approaches using global features."
+   ],
+   "doi": "10.21437/Odyssey.2016-2"
+  },
+  "he16_odyssey": {
+   "authors": [
+    [
+     "Qing",
+     "He"
+    ],
+    [
+     "Gregory",
+     "Wornell"
+    ],
+    [
+     "Wei",
+     "Ma"
+    ]
+   ],
+   "title": "A Low-Power Text-Dependent Speaker Verification System with Narrow-Band Feature Pre-Selection and Weighted Dynamic Time Warping",
+   "original": "68",
+   "page_count": 8,
+   "order": 2,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "To fully enable voice interaction in wearable devices, a system requires low-power, customizable voice-authenticated wake-up. Existing speaker-verification (SV) methods have shortcomings relating to power consumption and noise susceptibility. To meet the application requirements, we propose a low-power, text-dependent SV system comprising a sparse spectral feature extraction front-end showing improved noise robustness and accuracy at low power, and a back-end running an improved dynamic time warping (DTW) algorithm that preserves signal envelope while reducing misalignments. Without background noise, the proposed system achieves an equal-error-rate (EER) of 1.1%, compared to 1.4% with a conventional Mel-frequency cepstral coefficients (MFCC)+DTW system and 2.6% with a Gaussian mixture universal background (GMM-UBM) based system. At 3dB signal-to-noise ratio (SNR), the proposed system achieves an EER of 5.7%, compared to 13% with a conventional MFCC+DTW system and 6.8% with a GMM-UBM based system. The proposed system enables simple, low-power implementation such that the power consumption of the end-to-end system, which includes a voice activity detector, feature extraction front-end, and back-end decision unit, is under 380 uW."
+   ],
+   "doi": "10.21437/Odyssey.2016-1"
+  },
+  "behravan16_odyssey": {
+   "authors": [
+    [
+     "Hamid",
+     "Behravan"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ]
+   ],
+   "title": "Out-of-Set i-Vector Selection for Open-set Language Identification",
+   "original": "69",
+   "page_count": 8,
+   "order": 46,
+   "p1": 303,
+   "pn": 310,
+   "abstract": [
+    "Current language identification (LID) systems are based on an i-vector classifier followed by a multi-class recognition back-end. Identification accuracy degrades considerably when LID systems face open-set data. In this study, we propose an approach to the problem of out of set (OOS) data detection in the context of open-set language identification. In our approach, each unlabeled i-vector in the development set is given a per-class outlier score computed with the help of non-parametric Kolmogorov-Smirnov (KS) test. Detected OOS data from unlabeled development set is then used to train an additional model to represent OOS languages in the back-end. The proposed approach achieves a relative decrease of 16% in equal error rate (EER) over classical OOS detection methods, in discriminating in-set and OOS languages. Using support vector machine (SVM) as language back-end classifier, integrating the proposed method to the LID back-end yields 15% relative decrease in identification cost in comparison to using all the development set as OOS candidates."
+   ],
+   "doi": "10.21437/Odyssey.2016-44"
+  },
+  "mccree16_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "Mccree"
+    ],
+    [
+     "Greg",
+     "Sell"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ]
+   ],
+   "title": "Augmented Data Training of Joint Acoustic/Phonotactic DNN i-vectors for NIST LRE15",
+   "original": "70",
+   "page_count": 6,
+   "order": 31,
+   "p1": 204,
+   "pn": 209,
+   "abstract": [
+    "This paper presents the JHU HLTCOE submission to the NIST 2015 Language Recognition Evaluation, including critical and novel algorithmic components, use of limited and augmented training data, and additional post-evaluation analysis and improvements. All of our systems used i-vectors based on Deep Neural Networks (DNNs) with discriminatively-trained Gaussian classifiers, and linear fusion was performed with duration-dependent scaling. A key innovation was the use of three different kinds of i-vectors: acoustic, phonotactic, and joint. In addition, data augmentation was used to overcome the limited training data of this evaluation. Post-evaluation analysis shows the benefits of these design decisions, as well as further potential improvements."
+   ],
+   "doi": "10.21437/Odyssey.2016-29"
+  },
+  "hautamaki16_odyssey": {
+   "authors": [
+    [
+     "Rosa González",
+     "Hautamäki"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ]
+   ],
+   "title": "Age-Related Voice Disguise and its Impact on Speaker Verification Accuracy",
+   "original": "71",
+   "page_count": 6,
+   "order": 42,
+   "p1": 277,
+   "pn": 282,
+   "abstract": [
+    "This study focuses in the impact of age-related intentional voice modification, or age disguise, on the performance of automatic speaker verification (ASV) systems. The data collected for this study includes 60 native Finnish speakers (29 males, 31 females) with age range between 18 and 73 years. The corpus consist of two sessions of read speech per speaker. Our experiments demonstrate vulnerability of modern ASV systems when a person attempts to conceal his or her identity, by modifying the voice to sound like an old or young person. For our i-vector PLDA system, the increase in equal error rate (EER), in the case of male speakers, was 7-fold for the attempt of old voice and 11-fold for young voice. Similar degradation in performance is observed for female speakers with a 5-fold increase in EER for old voice disguise and a 6-fold increase for young voice disguise. We further analyze the factors affecting the performance of ASV systems for the studied speech data. In our experiments, male speakers were found more successful in disguising their voices. The effect on fundamental frequency (F0) was also studied. The mean F0 distributions showed a shift towards higher frequencies when speakers attempted a young voice, which relates to the perception that younger speakers’ F0 values tend to be higher than for older speakers."
+   ],
+   "doi": "10.21437/Odyssey.2016-40"
+  },
+  "plchot16_odyssey": {
+   "authors": [
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Radek",
+     "Fer"
+    ],
+    [
+     "Ondrej",
+     "Novotny"
+    ],
+    [
+     "Jan",
+     "Pesan"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Sandro",
+     "Cumani"
+    ]
+   ],
+   "title": "BAT System Description for NIST LRE 2015",
+   "original": "73",
+   "page_count": 8,
+   "order": 26,
+   "p1": 166,
+   "pn": 173,
+   "abstract": [
+    "In this paper we summarize our efforts in the NIST Language Recognition (LRE) 2015 Evaluations which resulted in systems providing very competitive performance. We provide both the descriptions and the analysis of the systems that we included in our submission. We start by detailed description of the datasets that we used for training and development, and we follow by describing the models and methods that were used to produce the final scores. These include the front-end (i.e., the voice activity detection and feature extraction), the back-end (i.e. the final classifier), and the calibration and fusion stages. Apart from the techniques commonly used in the field (such as i-vectors, DNN Bottle-Neck features, NN classifiers, Gaussian Backends, etc.), we present less-common methods, such as Sequence Summarizing Neural Networks (SSNN), and Automatic Unit Discovery. We present the performance of the systems both on the Fixed condition (where participants are required to use predefined data sets only), and the Open condition (where participants are allowed to use any publicly available resource) of the LRE2015 evaluation data."
+   ],
+   "doi": "10.21437/Odyssey.2016-24"
+  },
+  "tong16_odyssey": {
+   "authors": [
+    [
+     "Audrey",
+     "Tong"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Alvin",
+     "Martin"
+    ],
+    [
+     "Desire",
+     "Banse"
+    ],
+    [
+     "John",
+     "Howard"
+    ],
+    [
+     "Hui",
+     "Zhao"
+    ],
+    [
+     "George",
+     "Doddington"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Alan",
+     "McCree"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Jaime",
+     "Hernandez-Cordero"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ]
+   ],
+   "title": "Summary of the 2015 NIST Language Recognition i-Vector Machine Learning Challenge",
+   "original": "74",
+   "page_count": 6,
+   "order": 45,
+   "p1": 297,
+   "pn": 302,
+   "abstract": [
+    "In 2015 NIST coordinated the first language recognition evaluation (LRE) that used i-vectors as input, with the goals of attracting researchers outside of the speech processing community to tackle the language recognition problem, exploring new ideas in machine learning for use in language recognition, and improving recognition accuracy. The Language Recognition i-Vector Machine Learning Challenge, taking place over a period of four months, was well-received with 56 participants from 44 unique sites and over 3700 submissions, surpassing the participation levels of all previous traditional track LREs. The results of 46 of the 56 participants were better than the provided baseline system, with the best system achieving approximately 55% relative improvement over the baseline."
+   ],
+   "doi": "10.21437/Odyssey.2016-43"
+  },
+  "francopedroso16_odyssey": {
+   "authors": [
+    [
+     "Javier",
+     "Franco-Pedroso"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ]
+   ],
+   "title": "Feature-based likelihood ratios for speaker recognition from linguistically-constrained formant-based i-vectors",
+   "original": "75",
+   "page_count": 8,
+   "order": 36,
+   "p1": 237,
+   "pn": 244,
+   "abstract": [
+    "In this paper, a probabilistic model is introduced to obtain feature-based likelihood ratios from linguistically-constrained formant-based i-vectors in a NIST SRE task. Linguistically-constrained formant-based i-vectors summarize both the static and dynamic information of formant frequencies in the occurrences of a given linguistic unit in a speech recording. In this work, a two-covariance model is applied to these “higher-level” features in order to obtain likelihood ratios through a probabilistic framework. While the performance of the individual linguistically-constrained systems are not comparable to that of a state-of-the-art cepstral-based system, calibration loss is low enough, providing informative likelihood ratios that can be directly used, for instance, in forensic applications. Furthermore, this procedure avoids the need for further calibration steps, which usually require additional datasets. Finally, the fusion of several linguistically-constrained systems greatly improves the overall performance, achieving very remarkable results for a system solely based on formant features. Testing on the English-only trials of the core condition of the NIST 2006 SRE (and using only NIST SRE 2004 and 2005 data for background and development, respectively), we report equal error rates of 8.47% and 9.88% for male and female speakers respectively, using only formant frequencies as speaker discriminative information."
+   ],
+   "doi": "10.21437/Odyssey.2016-34"
+  },
+  "poorjam16_odyssey": {
+   "authors": [
+    [
+     "Amir Hossein",
+     "Poorjam"
+    ],
+    [
+     "Rahim",
+     "Saeidi"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Ville",
+     "Hautamaki"
+    ]
+   ],
+   "title": "Incorporating uncertainty as a Quality Measure in I-Vector Based Language Recognition",
+   "original": "76",
+   "page_count": 7,
+   "order": 12,
+   "p1": 74,
+   "pn": 80,
+   "abstract": [
+    "State-of-the-art language recognition systems involve modeling utterances with the i-vectors. However, the uncertainty of the i-vector extraction process represented by the i-vector posterior covariance is affected by various factors such as channel mismatch, background noise, incomplete transformations and duration variability.  In this paper, we propose a new quality factor based on the i-vector posterior covariance and incorporate it into the recognition process to improve the recognition accuracy. The experimental results with LRE15 database and various duration conditions show a 2.81% relative improvement in terms of average performance cost as a result of incorporating the proposed quality measure in language recognition systems."
+   ],
+   "doi": "10.21437/Odyssey.2016-11"
+  },
+  "alam16_odyssey": {
+   "authors": [
+    [
+     "Md Jahangir",
+     "Alam"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Vishwa",
+     "Gupta"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ]
+   ],
+   "title": "Spoofing Detection on the ASVspoof2015 Challenge Corpus Employing Deep Neural Networks",
+   "original": "77",
+   "page_count": 7,
+   "order": 41,
+   "p1": 270,
+   "pn": 276,
+   "abstract": [
+    "This paper describes the application of deep neural networks (DNN), trained to discriminate between human and spoofed speech signals, to improve the performance of spoofing detection. In this work we use amplitude, phase, linear prediction residual, and combined amplitude - phase-based acoustic level features. First we train a DNN on the spoofing challenge training data to discriminate between human and spoofed speech signals. Delta filterbank spectra (DFB), delta plus double delta linear prediction cepstral coefficients (DLPCC) and product spectrum-based cepstral coefficients (DPSCC) features are used as inputs to the DNN. For each feature, posteriors and bottleneck features (BNF) are then generated for all the spoofing challenge data using the trained DNN. The DNN posteriors are directly used to decide if a test recording is spoofed or human. For spoofing detection with the acoustic level features and the bottleneck features we build a standard Gaussian Mixture Model (GMM) classifier. When tested on the spoofing attacks (S1-S10) of ASVspoof2015 challenge evaluation corpus, DFB-BNF, DLPCC-BNF, DPSCC-BNF and DPSCC-DNN systems provided equal error rates (EERs) of 0.013%,  0.0%, 0.022%, and 1.00% respectively, on the S1-S9 spoofing attacks. On the all ten spoofing attacks (S1-S10) the EERs obtained by these four systems are 3.23%, 3.3%, 3.28 and 2.18%, respectively."
+   ],
+   "doi": "10.21437/Odyssey.2016-39"
+  },
+  "misra16_odyssey": {
+   "authors": [
+    [
+     "Abhinav",
+     "Misra"
+    ],
+    [
+     "Qian",
+     "Zhang"
+    ],
+    [
+     "Finnian",
+     "Kelly"
+    ],
+    [
+     "John H.L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Between-Class Covariance Correction For Linear Discriminant Analysis in Language Recognition",
+   "original": "78",
+   "page_count": 6,
+   "order": 11,
+   "p1": 68,
+   "pn": 73,
+   "abstract": [
+    "Linear Discriminant Analysis (LDA) is one of the most widely-used channel compensation techniques in current speaker and language recognition systems. In this study, we propose a technique of Between-Class Covariance Correction (BCC) to improve language recognition performance. This approach builds on the idea of Within-Class Covariance Correction (WCC), which was introduced as a means to compensate for mismatch between development and test data in speaker recognition. In BCC, we compute eigendirections representing the multi-modal distributions of language i-vectors, and show that incorporating these directions in LDA leads to an improvement in recognition performance. Considering each cluster in the multi-modal i-vector distribution as a separate class, the between- and within-cluster covariance matrices are used to update the global between-language covariance. This is in contrast to WCC, for which the within-class covariance is updated. Using the proposed method, a relative overall improvement of +8.4% Equal Error Rate (EER) is obtained on the 2015 NIST Language Recognition Evaluation (LRE) data. Our approach offers insights toward addressing the challenging problem of mismatch compensation, which has much wider applications in both speaker and language recognition."
+   ],
+   "doi": "10.21437/Odyssey.2016-10"
+  },
+  "khoury16_odyssey": {
+   "authors": [
+    [
+     "Elie",
+     "Khoury"
+    ],
+    [
+     "Matt",
+     "Garland"
+    ]
+   ],
+   "title": "I-Vectors for speech activity detection",
+   "original": "79",
+   "page_count": 6,
+   "order": 51,
+   "p1": 334,
+   "pn": 339,
+   "abstract": [
+    "I-Vectors are low dimensional front-end features known to effectively preserve the total variability of the signal. Motivated by their successful use for several classification problems such as speaker, language and face recognition, this paper introduces i-vectors for the task of speech activity detection (SAD). In contrast to most state-of-the-art SAD methods that operate at the frame or segment level, this paper proposes a cluster-based SAD, for which two algorithms were investigated: the first is based on generalized likelihood ratio (GLR) and Bayesian information criterion (BIC) for segmentation and clustering, whereas the second uses K-means and GMM clustering. Furthermore, we explore the use of i-vectors based on different low-level features including MFCC, PLP and RASTA-PLP, as well as fusion of such systems at the decision level. We show the feasibility and the effectiveness of the proposed system in comparison with a frame-based GMM baseline using the challenging RATS dataset in the context of the 2015 NIST OpenSAD evaluation."
+   ],
+   "doi": "10.21437/Odyssey.2016-48"
+  },
+  "shiota16_odyssey": {
+   "authors": [
+    [
+     "Sayaka",
+     "Shiota"
+    ],
+    [
+     "Fernando",
+     "Villavicencio"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Nobutaka",
+     "Ono"
+    ],
+    [
+     "Isao",
+     "Echizen"
+    ],
+    [
+     "Tomoko",
+     "Matsui"
+    ]
+   ],
+   "title": "Voice Liveness Detection for Speaker Verification based on a Tandem Single/Double-channel Pop Noise Detector",
+   "original": "80",
+   "page_count": 5,
+   "order": 39,
+   "p1": 259,
+   "pn": 263,
+   "abstract": [
+    "This paper presents an algorithm for detecting spoofing attacks against automatic speaker verification (ASV) systems. While such systems now have performances comparable to those of other biometric modalities, spoofing techniques used against them have progressed drastically. Several techniques can be used to generate spoofing materials (e.g., speech synthesis and voice conversion techniques), and detecting them only on the basis of differences at an acoustic speaker modeling level is a challenging task. Moreover, differences between “live” and artificially generated material are expected to gradually decrease in the near future due to advances in synthesis technologies. A previously proposed “voice liveness” detection framework aimed at validating whether speech signals were generated by a person or artificially created uses elementary algorithms to detect pop noise. Detection is taken as evidence of liveness. A more advanced detection algorithm has now been developed that combines single- and double-channel pop noise detection. Experiments demonstrated that this tandem algorithm detects pop noise more effectively: the detection error rate was up to 80% less that those achieved with the elementary algorithms."
+   ],
+   "doi": "10.21437/Odyssey.2016-37"
+  },
+  "khosravani16_odyssey": {
+   "authors": [
+    [
+     "Abbas",
+     "Khosravani"
+    ],
+    [
+     "Mohammad Mehdi",
+     "Homayounpour"
+    ],
+    [
+     "Dijana",
+     "Petrovska-Delacrétaz"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "A PLDA Approach for Language and Text Independent Speaker Recognition",
+   "original": "81",
+   "page_count": 6,
+   "order": 40,
+   "p1": 264,
+   "pn": 269,
+   "abstract": [
+    "There are many factors affecting the variability of an i-vector extracted from a speech segment such as the acoustic content, segment duration, handset type and background noise. The state-of-the-art Probabilistic Linear Discriminant Analysis (PLDA) tries to model all these sources of undesirable variabilities within a single covariance matrix. Although techniques such as source normalization have been proposed to reduce the effect of different sources of variability as a preprocessing for PLDA, still the performance of speaker recognition is affected under cross-source evaluation condition. This study aims at proposing a language-independent PLDA training algorithm in order to reduce the effect of language on the performance of speaker recognition. An accurate estimation of speaker and channel subspaces from a multilingual training dataset which are void of language variability can assist PLDA to work independent of the language. When evaluated on the NIST 2008 speaker recognition multilingual trials, our proposed solution demonstrates relative improvement of up to 10% in equal error rate (EER) and 6.4% in minimum DCF."
+   ],
+   "doi": "10.21437/Odyssey.2016-38"
+  },
+  "trong16_odyssey": {
+   "authors": [
+    [
+     "Trung Ngo",
+     "Trong"
+    ],
+    [
+     "Ville",
+     "Hautamäki"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ]
+   ],
+   "title": "Deep Language: a comprehensive deep learning approach to end-to-end language recognition",
+   "original": "82",
+   "page_count": 8,
+   "order": 17,
+   "p1": 109,
+   "pn": 116,
+   "abstract": [
+    "This work explores the use of various Deep Neural Network (DNN) architectures for an end-to-end language identification (LID) task. The approach has been proven to significantly improve the state-of-art in many domains include speech recognition, computer vision and genomics. As an end-to-end system, deep learning removes the burden of hand crafting the feature extraction as conventional approach to LID. This versatility is achieved by training a very deep network to learn distributed representations of speech features with multiple levels of abstraction. In this paper, we show that an end-to-end deep learning system can be used to recognize language from speech utterances with various lengths. Our results show that a combination of three deep architectures: feed-forward network, convolutional network and recurrent network can achieve the best performance compared to other network designs. Additionally, we compare our network performance to state-of-the-art BNF-based i-vector system on NIST 2015 Language Recognition Evaluation corpus. Key to our approach is that we effectively address computational and regularization issues into the network structure to build deeper architecture compare to any previous DNN approaches to language recognition task."
+   ],
+   "doi": "10.21437/Odyssey.2016-16"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Haizhou Li ",
+   "papers": [
+    "li16_odyssey"
+   ]
+  },
+  {
+   "title": "Text-Dependent Speaker Verification",
+   "papers": [
+    "he16_odyssey",
+    "bhattacharya16_odyssey",
+    "kenny16_odyssey",
+    "zeinali16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition: i-vector approaches",
+   "papers": [
+    "lin16_odyssey",
+    "cumani16_odyssey",
+    "xu16_odyssey",
+    "bousquet16_odyssey",
+    "kheder16_odyssey"
+   ]
+  },
+  {
+   "title": "Language Recognition",
+   "papers": [
+    "misra16_odyssey",
+    "poorjam16_odyssey",
+    "sizov16_odyssey",
+    "tian16_odyssey",
+    "brown16_odyssey",
+    "leeuwen16_odyssey",
+    "trong16_odyssey",
+    "salamea16_odyssey",
+    "gelly16_odyssey",
+    "najafian16_odyssey",
+    "song16_odyssey"
+   ]
+  },
+  {
+   "title": "Special Session 1: Speaker Recognition in Multimedia Content",
+   "papers": [
+    "budnik16_odyssey",
+    "lan16_odyssey",
+    "desplanques16_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Shrikanth Narayanan ",
+   "papers": [
+    "narayanan16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language Recognition Systems",
+   "papers": [
+    "plchot16_odyssey",
+    "sadjadi16_odyssey",
+    "ng16_odyssey",
+    "mclaren16_odyssey",
+    "torrescarrasquillo16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language Recognition: deep learning approaches",
+   "papers": [
+    "mccree16_odyssey",
+    "jin16_odyssey",
+    "pekhovsky16_odyssey",
+    "richardson16_odyssey",
+    "zazo16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition I",
+   "papers": [
+    "francopedroso16_odyssey",
+    "george16_odyssey",
+    "brutti16_odyssey",
+    "shiota16_odyssey",
+    "khosravani16_odyssey",
+    "alam16_odyssey",
+    "hautamaki16_odyssey",
+    "todisco16_odyssey",
+    "paulini16_odyssey"
+   ]
+  },
+  {
+   "title": "Special Session 2: NIST 2015 Language Recognition i-Vector Machine Learning Challenge",
+   "papers": [
+    "tong16_odyssey",
+    "behravan16_odyssey",
+    "sun16_odyssey",
+    "benreuven16_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Najim Dehak",
+   "papers": [
+    "dehak16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition II ",
+   "papers": [
+    "rose16_odyssey",
+    "khoury16_odyssey",
+    "stafylakis16_odyssey",
+    "kheder16b_odyssey",
+    "lozanodiez16_odyssey",
+    "nautsch16_odyssey",
+    "safari16_odyssey",
+    "solewicz16_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Clustering and Diarization",
+   "papers": [
+    "soldi16_odyssey",
+    "martinezgonzalez16_odyssey",
+    "prieto16_odyssey",
+    "zewoudie16_odyssey",
+    "salmun16_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/Odyssey.2016"
+}

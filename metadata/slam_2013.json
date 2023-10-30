@@ -1,0 +1,799 @@
+{
+ "title": "First Workshop on Speech, Language and Audio in Multimedia (SLAM 2013)",
+ "location": "Marseille, France",
+ "startDate": "22/8/2013",
+ "endDate": "23/8/2013",
+ "conf": "SLAM",
+ "year": "2013",
+ "name": "slam_2013",
+ "series": "SLAM",
+ "SIG": "SLIM",
+ "title1": "First Workshop on Speech, Language and Audio in Multimedia",
+ "title2": "(SLAM 2013)",
+ "date": "22-23 August 2013",
+ "booklet": "slam_2013.pdf",
+ "papers": {
+  "davies13_slam": {
+   "authors": [
+    [
+     "Sam",
+     "Davies"
+    ]
+   ],
+   "title": "Automatic speech recognition in the BBC",
+   "original": "slm3_111",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "In this talk we will present an overview of our work on the BBC’s World Service Archive. This project uses automatic speech recognition and a novel technique for topic identification & disambiguation from noisy transcripts to enable automatic semantic tagging of programmes. Of course such processing across large archives is hard to scale so we’ll present some of our work towards tackling this issue. We will also present our research on attempts to classify the entire BBC’s archive of radio and television programmes broadcast since 1922. This project looks to classify programmes by creating new metadata from an analysis of programme content. This will primarily focus on the work we have done in identifying semantic content from audio (including music), along with a brief overview of our work on affective indexing. Here we will briefly introduce our multimodal work on identifying the mood or emotional component of a programme, focussing on mood identification from music, speech and non-speech sounds.\n",
+    "Biography Sam Davies joined BBC R&D in 2007 working on a variety of projects including high frame rate television, object tracking in sporting events and image recognition. Since 2009 he has been working on the Multimedia Classification project, which has been identifying new techniques for metadata generation from audio and video content in the BBC archive. This work has resulted in prototypes which offer unique ways to analyse the semantic and affective, or emotional, content of audio, visual and text documents.\n",
+    ""
+   ]
+  },
+  "bourlard13_slam": {
+   "authors": [
+    [
+     "Hervé",
+     "Bourlard"
+    ],
+    [
+     "Marc",
+     "Ferràs"
+    ],
+    [
+     "Nikolaos",
+     "Pappas"
+    ],
+    [
+     "Andrei",
+     "Popescu-Belis"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ],
+    [
+     "Fergus",
+     "McInnes"
+    ],
+    [
+     "Peter J.",
+     "Bell"
+    ],
+    [
+     "Sandy",
+     "Ingram"
+    ],
+    [
+     "Mael",
+     "Guillemot"
+    ]
+   ],
+   "title": "Processing and linking audio events in large multimedia archives: the EU inevent project",
+   "original": "slm3_003",
+   "page_count": 6,
+   "order": 2,
+   "p1": "3",
+   "pn": "8",
+   "abstract": [
+    "In the inEvent EU project [1], we aim at structuring, retrieving, and sharing large archives of networked, and dynamically changing, multimedia recordings, mainly consisting of meetings, videoconferences, and lectures. More specifically, we are developing an integrated system that performs audiovisual processing of multimedia recordings, and labels them in terms of interconnected “hyper-events” (a notion inspired from hyper-texts). Each hyper-event is composed of simpler facets, including audio-video recordings and metadata, which are then easier to search, retrieve and share. In the present paper, we mainly cover the audio processing aspects of the system, including speech recognition, speaker diarization and linking (across recordings), the use of these features for hyper-event indexing and recommendation, and the search portal. We present initial results for feature extraction from lecture recordings using the TED talks.\n",
+    "",
+    "",
+    "\"Accessing dynamic networked multimedia events,\" in EU Project No. 287872, Network Media. [Online]. Available: https://www.inevent-project.eu/\n",
+    "",
+    "",
+    "Index Terms: Networked multimedia events; audio processing: speech recognition; speaker diarization and linking; multimedia indexing and searching; hyper-events.\n",
+    ""
+   ]
+  },
+  "elizalde13_slam": {
+   "authors": [
+    [
+     "Benjamin",
+     "Elizalde"
+    ],
+    [
+     "Mirco",
+     "Ravanelli"
+    ],
+    [
+     "Gerald",
+     "Friedland"
+    ]
+   ],
+   "title": "Audio concept ranking for video event detection on user-generated content",
+   "original": "slm3_009",
+   "page_count": 6,
+   "order": 3,
+   "p1": "9",
+   "pn": "14",
+   "abstract": [
+    "Video event detection on user-generated content (UGC) aims to find videos that show an observable event such as a wedding ceremony or birthday party rather than an object, such as a wedding dress, or an audio concept, such as music, speech or clapping. Different events are better described by different concepts. Therefore, proper audio concept classification enhances the search for acoustic cues in this challenge. However, audio concepts for training are typically chosen and annotated by humans and are not necessarily relevant to a specific event or the distinguishing factor for a particular event. A typical ad-hoc annotation process ignores the complex characteristics of UGC audio, such as concept ambiguities, overlap, and duration. This paper presents a methodology to rank audio concepts based on relevance to the events and contribution to the ability to discriminate. A ranking measure guides an automatic selection of concepts in order to improve audio concept classification with the goal to improve video event detection. The ranking aids to determine and select the most relevant concepts for each event, to discard meaningless concepts, and to combine ambiguous sounds to enhance a concept, thereby suggesting a focus for annotation and a better understanding of the UGC audio. Experiments show an improvement of the audio concepts mean classification accuracy per frame as well as a better-defined diagonal in the confusion matrix and a higher relevance score. In terms of accuracy, the selection of top 40 audio concepts using our methodology outperforms the highest-accuracy-based selection by a relative 17.56% and a frame-frequency-based selection by 5.74%. In terms of relevance to the events, the ranking-based selection provided the highest score.\n",
+    "Index Terms: event detection, audio concept, user generated content, acoustic video processing.\n",
+    ""
+   ]
+  },
+  "castan13_slam": {
+   "authors": [
+    [
+     "Diego",
+     "Castán"
+    ],
+    [
+     "Murat",
+     "Akbacak"
+    ]
+   ],
+   "title": "Segmental-GMM approach based on acoustic concept segmentation",
+   "original": "slm3_015",
+   "page_count": 5,
+   "order": 4,
+   "p1": "15",
+   "pn": "19",
+   "abstract": [
+    "The amount of multimedia content is increasing day by day, and there is a need to have automatic retrieval systems with high accuracy. In addition, there is a demand for event detectors that go beyond the simple finding of objects but rather detect more abstract concepts, such as “woodworking” or a “board trick.” This article presents a novelty approach for event classification that enables searching by audio concepts from the analysis of the audio track. This approach deals with the acoustic concepts recognition (ACR) creating a trained segmentation instead a fixed segmentation as segmental-GMM approach with broad concepts. Proposed approach has been evaluated on NIST 2011 TRECVID MED development set, which consists of usergenerated videos from the Internet, and has shown a EER of 40%.\n",
+    "Index Terms: Multimedia event detection(MED), acoustic concept recognition, segmental-GMM\n",
+    ""
+   ]
+  },
+  "castan13b_slam": {
+   "authors": [
+    [
+     "Diego",
+     "Castán"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ]
+   ],
+   "title": "Broadcast news segmentation with factor analysis system",
+   "original": "slm3_020",
+   "page_count": 6,
+   "order": 5,
+   "p1": "20",
+   "pn": "25",
+   "abstract": [
+    "This paper studies a novel audio segmentation-by-classification approach based on Factor Analysis (FA) with a channel compensation matrix for each class and scoring the fixed-length segments as the log-likelihood ratio between class/no-class. The system described here is designed to segment and classify the audio files coming from broadcast programs into five different classes: speech (SP), speech with noise (SN), speech with music (SM), music (MU) or others (OT). This task was proposed in the Albayzin 2010 evaluation campaign. The article presents a final system with no special features and no hierarchical structure. Finally, the system is compared with the winning system of the evaluation (the system use specific features with hierarchical structure) achieving a significant error reduction in SP and SN. These classes represent 3/4 of the total amount of the data. Therefore, the FA segmentation system gets a reduction in the average segmentation error rate that is able to be used in a generic task.1\n",
+    "Index Terms: Audio Segmentation, Factor Analysis, Broadcast News (BN), Albayzin-2010 Evaluation\n",
+    ""
+   ]
+  },
+  "lanchantin13_slam": {
+   "authors": [
+    [
+     "Pierre",
+     "Lanchantin"
+    ],
+    [
+     "Peter J.",
+     "Bell"
+    ],
+    [
+     "Mark J. F.",
+     "Gales"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ],
+    [
+     "Xunying",
+     "Liu"
+    ],
+    [
+     "Yanhua",
+     "Long"
+    ],
+    [
+     "Jennifer",
+     "Quinnell"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ],
+    [
+     "Oscar",
+     "Saz"
+    ],
+    [
+     "Matt S.",
+     "Seigel"
+    ],
+    [
+     "Pawel",
+     "Swietojanski"
+    ],
+    [
+     "Phil C.",
+     "Woodland"
+    ]
+   ],
+   "title": "Automatic transcription of multi-genre media archives",
+   "original": "slm3_026",
+   "page_count": 6,
+   "order": 6,
+   "p1": "26",
+   "pn": "31",
+   "abstract": [
+    "This paper describes some recent results of our collaborative work on developing a speech recognition system for the automatic transcription or media archives from the British Broadcasting Corporation (BBC). The material includes a wide diversity of shows with their associated metadata. The latter are highly diverse in terms of completeness, reliability and accuracy. First, we investigate how to improve lightly supervised acoustic training, when timestamp information is inaccurate and when speech deviates significantly from the transcription, and how to perform evaluations when no reference transcripts are available. An automatic timestamp correction method as well as a word and segment level combination approaches between the lightly supervised transcripts and the original programme scripts are presented which yield improved metadata. Experimental results show that systems trained using the improved metadata consistently outperform those trained with only the original lightly supervised decoding hypotheses. Secondly, we show that the recognition task may benefit from systems trained on a combination of in-domain and out-of-domain data. Working with tandem HMMs, we describe Multi-level Adaptive Networks, a novel technique for incorporating information from out-of domain posterior features using deep neural network. We show that it provides a substantial reduction in WER over other systems including a PLP-based baseline, in-domain tandem features, and the best out-of-domain tandem features.\n",
+    "Index Terms: lightly supervised training, cross-domain adaptation, tandem, speech recognition, confidence scores, media archives\n",
+    ""
+   ]
+  },
+  "mohr13_slam": {
+   "authors": [
+    [
+     "Christian",
+     "Mohr"
+    ],
+    [
+     "Christian",
+     "Saam"
+    ],
+    [
+     "Kevin",
+     "Kilgour"
+    ],
+    [
+     "Jonas",
+     "Gehring"
+    ],
+    [
+     "Sebastian",
+     "Stüker"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "Slightly supervised adaptation of acoustic models on captioned BBC weather forecasts",
+   "original": "slm3_032",
+   "page_count": 5,
+   "order": 7,
+   "p1": "32",
+   "pn": "36",
+   "abstract": [
+    "In this paper we investigate the exploitation of loosely transcribed audio data, in the form of captions for weather forecast recordings, in order to adapt acoustic models for automatically transcribing these kinds of forecasts. We focus on dealing with inaccurate time stamps in the captions and the fact that they often deviate from the exact spoken word sequence in the forecasts. Furthermore, different adaptation algorithms are compared when incrementally increasing the amount of adaptation material, for example, by recording new forecasts on a daily basis.\n",
+    "Index Terms: speech recognition, acoustic model adaptation, slightly supervised training, loose transcripts, adaptation methods\n",
+    ""
+   ]
+  },
+  "ziegler13_slam": {
+   "authors": [
+    [
+     "Stefan",
+     "Ziegler"
+    ],
+    [
+     "Guillaume",
+     "Gravier"
+    ]
+   ],
+   "title": "A framework for integrating heterogeneous sporadic knowledge sources into automatic speech recognition",
+   "original": "slm3_037",
+   "page_count": 6,
+   "order": 8,
+   "p1": "37",
+   "pn": "42",
+   "abstract": [
+    "Heterogeneous knowledge sources that model speech only at certain time frames are difficult to incorporate into speech recognition, given standard multimodal fusion techniques. In this work, we present a new framework for the integration of this sporadic knowledge into standard HMM-based ASR. In a first step, each knowledge source is mapped onto a logarithmic score by using a sigmoid transfer function. Theses scores are then combined with the standard acoustic models by weighted linear combination. Speech recognition experiments with broad phonetic knowledge sources on a broadcast news transcription task show improved recognition results, given knowledge that provides complementary information for the ASR system.\n",
+    "Index Terms: multimodal fusion, landmark-driven ASR, eventbased speech recognition\n",
+    ""
+   ]
+  },
+  "galibert13_slam": {
+   "authors": [
+    [
+     "Olivier",
+     "Galibert"
+    ],
+    [
+     "Juliette",
+     "Kahn"
+    ]
+   ],
+   "title": "The first official REPERE evaluation",
+   "original": "slm3_043",
+   "page_count": 6,
+   "order": 9,
+   "p1": "43",
+   "pn": "48",
+   "abstract": [
+    "The REPERE Challenge aims to support research on people recognition in multimodal conditions. Following a 2012 dryrun [1], the first official evaluation of systems has been conducted at the beginning of 2013. To both help system development and assess the technology progress a specific corpus is developed. It current totals at 30 hours of video with multimodal annotations. The systems have to answer the following questions: Who is speaking? Who is present in the video? What names are cited? What names are displayed? The challenge is to combine the various informations coming from the speech and the images.\n",
+    "",
+    "",
+    "J. Kahn, O. Galibert, L. Quintard, M. Carré, A. Giraudel, and P. Joly, “A presentation of the repere challenge,” in CBMI, P. Lambert, Ed. IEEE, 2012, pp. 1–6.\n",
+    "",
+    "",
+    "Index Terms: REPERE, multimodality, evaluation, fusion, person recognition\n",
+    ""
+   ]
+  },
+  "bredin13_slam": {
+   "authors": [
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Johann",
+     "Poignant"
+    ],
+    [
+     "Guillaume",
+     "Fortier"
+    ],
+    [
+     "Makarand",
+     "Tapaswi"
+    ],
+    [
+     "Viet-Bac",
+     "Le"
+    ],
+    [
+     "Anindya",
+     "Roy"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ],
+    [
+     "Sophie",
+     "Rosset"
+    ],
+    [
+     "Achintya",
+     "Sarkar"
+    ],
+    [
+     "Qian",
+     "Yang"
+    ],
+    [
+     "Hua",
+     "Gao"
+    ],
+    [
+     "Alexis",
+     "Mignon"
+    ],
+    [
+     "Jakob",
+     "Verbeek"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Georges",
+     "Quénot"
+    ],
+    [
+     "Hazim Kemal",
+     "Ekenel"
+    ],
+    [
+     "Rainer",
+     "Stiefelhagen"
+    ]
+   ],
+   "title": "QCompere @ REPERE 2013",
+   "original": "slm3_049",
+   "page_count": 6,
+   "order": 10,
+   "p1": "49",
+   "pn": "54",
+   "abstract": [
+    "We describe QCompere consortium submissions to the REPERE 2013 evaluation campaign. The REPERE challenge aims at gathering four communities (face recognition, speaker identification, optical character recognition and named entity detection) towards the same goal: multimodal person recognition in TV broadcast. First, four mono-modal components are introduced (one for each foregoing community) constituting the elementary building blocks of our various submissions. Then, depending on the target modality (speaker or face recognition) and on the task (supervised or unsupervised recognition), four different fusion techniques are introduced: they can be summarized as propagation-, classifier-, rule- or graph-based approaches. Finally, their performance is evaluated on REPERE 2013 test set and their advantages and limitations are discussed.\n",
+    "Index Terms: speaker identification, face recognition, named entity detection, video optical character recognition, multimodal fusion\n",
+    ""
+   ]
+  },
+  "favre13_slam": {
+   "authors": [
+    [
+     "Benoit",
+     "Favre"
+    ],
+    [
+     "Géraldine",
+     "Damnati"
+    ],
+    [
+     "Frederic",
+     "Bechet"
+    ],
+    [
+     "Meriem",
+     "Bendris"
+    ],
+    [
+     "Delphine",
+     "Charlet"
+    ],
+    [
+     "Rémi",
+     "Auguste"
+    ],
+    [
+     "Stéphane",
+     "Ayache"
+    ],
+    [
+     "Benjamin",
+     "Bigot"
+    ],
+    [
+     "Alexandre",
+     "Deltei"
+    ],
+    [
+     "Richard",
+     "Dufour"
+    ],
+    [
+     "Corinne",
+     "Fredouille"
+    ],
+    [
+     "Georges",
+     "Linarès"
+    ],
+    [
+     "Jean",
+     "Martinet"
+    ],
+    [
+     "Gregory",
+     "Senay"
+    ],
+    [
+     "Pierre",
+     "Tirilly"
+    ]
+   ],
+   "title": "PERCOLI: a person identification system for the 2013 REPERE challenge",
+   "original": "slm3_055",
+   "page_count": 6,
+   "order": 11,
+   "p1": "55",
+   "pn": "60",
+   "abstract": [
+    "The goal of the PERCOL project is to participate to the REPERE multimodal challenge by building a consortium combining different scientific fields (audio, text and video) in order to perform person recognition in video documents. The two main scientific issues addressed by the challenge are firstly multimodal fusion algorithms for automatic person recognition in video broadcast ; and secondly the improvement of information extraction from speech and images thanks to a combine decoding using both modalities to reduce decoding ambiguities. This paper describes the system PERCOLI that participated to the REPERE 2013 challenge and presents the results obtained on the main person recognition tasks.\n",
+    "Index Terms : multimodal fusion, person identification, video processing.\n",
+    ""
+   ]
+  },
+  "hatmi13_slam": {
+   "authors": [
+    [
+     "Mohamed",
+     "Hatmi"
+    ],
+    [
+     "Christine",
+     "Jacquin"
+    ],
+    [
+     "Emmanuel",
+     "Morin"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ]
+   ],
+   "title": "Named entity recognition in speech transcripts following an extended taxonomy",
+   "original": "slm3_061",
+   "page_count": 5,
+   "order": 12,
+   "p1": "61",
+   "pn": "65",
+   "abstract": [
+    "In this paper, we present a French named entity recognition (NER) system that was first developed as part of our participation in the ETAPE 2012 evaluation campaign and then extended to cover more entity types. The ETAPE 2012 evaluation campaign considers an hierarchical and compositional taxonomy that makes the NER task more complex. We present a multi-level methodology based on conditional random fields (CRFs). With respect to existing systems, our methodology allows a fine-grained annotation. Experiments were conducted using the manually annotated training and evaluation corpora provided by the organizers of the campaign. The obtained results are presented and discussed.\n",
+    "Index Terms: Named Entity Recognition, Structured Named Entities, CRF model.\n",
+    ""
+   ]
+  },
+  "bigot13_slam": {
+   "authors": [
+    [
+     "Benjamin",
+     "Bigot"
+    ],
+    [
+     "Corinne",
+     "Fredouille"
+    ],
+    [
+     "Delphine",
+     "Charlet"
+    ]
+   ],
+   "title": "Speaker role recognition on TV broadcast documents",
+   "original": "slm3_066",
+   "page_count": 6,
+   "order": 13,
+   "p1": "66",
+   "pn": "71",
+   "abstract": [
+    "In this paper, we present the results obtained by a state-ofthe- art system for Speaker Role Recognition (SRR) on the TV broadcast documents issued from the REPERE Multimedia Challenge. This SRR system is based on the assumption that cues about speaker roles may be extracted from a set of 36 low level features issued from the outputs of a Speaker Diarization process. Starting from manually annotated speaker segments, we first evaluate the performance of the SRR system, formerly evaluated on Broadcast radio recordings, on this heterogeneous set of TV shows. Consequently, we propose a new classification strategy, by observing how building show-dependent models improves SRR. The system is then applied on some speaker segmentation outputs issued from an automatic system, enabling us to investigate the influence of the errors introduced by this front-end process on Role Recognition. In these different contexts, the system is able to correctly classify 86.9% of speaker roles while being applied on manual speaker segmentations and 74.5% on automatic Speaker Diarization outputs.\n",
+    "Index Terms: speaker role recognition, speech processing, content-based indexing of audiovisual documents.\n",
+    ""
+   ]
+  },
+  "ghaemmaghami13_slam": {
+   "authors": [
+    [
+     "Houman",
+     "Ghaemmaghami"
+    ],
+    [
+     "David",
+     "Dean"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Speaker attribution of australian broadcast news data",
+   "original": "slm3_072",
+   "page_count": 6,
+   "order": 14,
+   "p1": "72",
+   "pn": "77",
+   "abstract": [
+    "Speaker attribution is the task of annotating a spoken audio archive based on speaker identities. This can be achieved using speaker diarization and speaker linking. In our previous work, we proposed an efficient attribution system, using complete-linkage clustering, for conducting attribution of large sets of two-speaker telephone data. In this paper, we build on our proposed approach to achieve a robust system, applicable to multiple recording domains. To do this, we first extend the diarization module of our system to accommodate multispeaker (>2) recordings. We achieve this through using a robust cross-likelihood ratio (CLR) threshold stopping criterion for clustering, as opposed to the original stopping criterion of two speakers used for telephone data. We evaluate this baseline diarization module across a dataset of Australian broadcast news recordings, showing a significant lack of diarization accuracy without previous knowledge of the true number of speakers within a recording. We thus propose applying an additional pass of complete-linkage clustering to the diarization module, demonstrating an absolute improvement of 20% in diarization error rate (DER). We then evaluate our proposed multi-domain attribution system across the broadcast news data, demonstrating achievable attribution error rates (AER) as low as 17%.\n",
+    "Index Terms: speaker attribution, diarization, linking, complete linkage, broadcast news.\n",
+    ""
+   ]
+  },
+  "lailler13_slam": {
+   "authors": [
+    [
+     "Carole",
+     "Lailler"
+    ],
+    [
+     "Grégor",
+     "Dupuy"
+    ],
+    [
+     "Mickael",
+     "Rouvier"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ]
+   ],
+   "title": "Semi-supervised and unsupervised data extraction targeting speakers: from speaker roles to fame?",
+   "original": "slm3_078",
+   "page_count": 6,
+   "order": 15,
+   "p1": "78",
+   "pn": "83",
+   "abstract": [
+    "Speaker identification is based on classification methods and acoustic models. Acoustic models are learned from audio data related to the speakers to be modeled. However, recording and annotating such data is time-consuming and laborintensive. In this paper we propose to use data available on video-sharing websites like YouTube and Dailymotion to learn speaker-specific acoustic models. This process raises two questions: on the one hand, which are the speakers that can be identified through this kind of knowledge and, in the other hand, how to extract these data from such a noisy corpus that is the Web. Two approaches are considered in order to extract and to annotate the data: the first is semi-supervised and requires a human annotator to control the process, the second is totally unsupervised. Speakers models created from the proposed approaches were experimented on the REPERE 2012 TV shows test corpus. The identification results have been analyzed in terms of speaker roles and fame, which is a subjective concept introduced to estimate the ease to model speakers.\n",
+    "Index Terms: speaker identification, JFA, semi- and unsupervised speaker modeling, speaker roles, fame\n",
+    ""
+   ]
+  },
+  "poignant13_slam": {
+   "authors": [
+    [
+     "Johann",
+     "Poignant"
+    ],
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Georges",
+     "Quénot"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ]
+   ],
+   "title": "Towards a better integration of written names for unsupervised speakers identification in videos",
+   "original": "slm3_084",
+   "page_count": 6,
+   "order": 16,
+   "p1": "84",
+   "pn": "89",
+   "abstract": [
+    "Existing methods for unsupervised identification of speakers in TV broadcast usually rely on the output of a speaker diarization module and try to name each cluster using names provided by another source of information: we call it “late naming”. Hence, written names extracted from title blocks tend to lead to high precision identification, although they cannot correct errors made during the clustering step.   In this paper, we extend our previous “late naming” approach in two ways: “integrated naming” and “early naming”. While “late naming” relies on a speaker diarization module optimized for speaker diarization, “integrated naming” jointly optimize speaker diarization and name propagation in terms of identification errors. “Early naming” modifies the speaker diarization module by adding constraints preventing two clusters with different written names to be merged together.   While “integrated naming” yields similar identification performance as “late naming” (with better precision), “early naming” improves over this baseline both in terms of identification error rate and stability of the clustering stopping criterion.\n",
+    "Index Terms: speaker identification, speaker diarization, written names, multimodal fusion, TV broadcast.\n",
+    ""
+   ]
+  },
+  "singh13_slam": {
+   "authors": [
+    [
+     "Abhigyan",
+     "Singh"
+    ],
+    [
+     "Martha",
+     "Larson"
+    ]
+   ],
+   "title": "Narrative-driven multimedia tagging and retrieval: investigating design and practice for speech-based mobile applications",
+   "original": "slm3_090",
+   "page_count": 6,
+   "order": 17,
+   "p1": "90",
+   "pn": "95",
+   "abstract": [
+    "This paper presents a design concept for speech-based mobile applications that is based on the use of a narrative storyline. Its main contribution is to introduce the idea of conceptualizing speech-based mobile multimedia tagging and retrieval applications as a story that develops via interaction of the user with characters representing elements of the system. The aim of this paper is to encourage and support the research community to further explore and develop this concept into mature systems that allow for the accumulation and access of large quantities of speech-annotated images. We provide two resources intended to facilitate such work: First, we describe two applications, together referred as the ‘Verbals Mobile System’, that we have developed on the basis of this design concept, and implemented on Android platform 2.2 (API level 8) using Google's Speech Recognition service, Text-to-Speech Engine and Flickr API. The code for these applications has been made publically available to encourage further extension. Second, we distill our practical findings into a discussion of technology limitations and guidelines for the design of speechbased mobile applications, in an effort to support researchers to build on our work, while avoiding known pitfalls.\n",
+    "Index Terms: Mobile Speech Application, Multimedia Service, Narrative-driven design, Image Retrieval, Image Tagging, Android, Flickr\n",
+    ""
+   ]
+  },
+  "heck13_slam": {
+   "authors": [
+    [
+     "Larry",
+     "Heck"
+    ],
+    [
+     "Dilek",
+     "Hakkani-Tür"
+    ],
+    [
+     "Madhu",
+     "Chinthakunta"
+    ],
+    [
+     "Gokhan",
+     "Tur"
+    ],
+    [
+     "Rukmini",
+     "Iyer"
+    ],
+    [
+     "Partha",
+     "Parthasarathy"
+    ],
+    [
+     "Lisa",
+     "Stifelman"
+    ],
+    [
+     "Elizabeth",
+     "Shriberg"
+    ],
+    [
+     "Ashley",
+     "Fidler"
+    ]
+   ],
+   "title": "Multi-modal conversational search and browse",
+   "original": "slm3_096",
+   "page_count": 6,
+   "order": 18,
+   "p1": "96",
+   "pn": "101",
+   "abstract": [
+    "In this paper, we create an open-domain conversational system by combining the power of internet browser interfaces with multi-modal inputs and data mined from web search and browser logs. The work focuses on two novel components: (1) dynamic contextual adaptation of speech recognition and understanding models using visual context, and (2) fusion of users’ speech and gesture inputs to understand their intents and associated arguments. The system was evaluated in a living room setup with live test subjects on a real-time implementation of the multimodal dialog system. Users interacted with a television browser using gestures and speech. Gestures were captured by Microsoft Kinect skeleton tracking and speech was recorded by a Kinect microphone array. Results show a 16% error rate reduction (ERR) for contextual ASR adaptation to clickable web page content, and 7-10% ERR when using gestures with speech. Analysis of the results suggest a strategy for selection of multimodal intent when users clearly and persistently indicate pointing intent (e.g., eye gaze), giving a 54.7% ERR over lexical features.\n",
+    "Index Terms: spoken dialog systems, spoken language understanding, multi-modal fusion, conversational search, conversational browsing.\n",
+    ""
+   ]
+  },
+  "riedhammer13_slam": {
+   "authors": [
+    [
+     "Korbinian",
+     "Riedhammer"
+    ],
+    [
+     "Martin",
+     "Gropp"
+    ],
+    [
+     "Tobias",
+     "Bocklet"
+    ],
+    [
+     "Florian",
+     "Hönig"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ],
+    [
+     "Stefan",
+     "Steidl"
+    ]
+   ],
+   "title": "LMELECTURES: a multimedia corpus of academic spoken English",
+   "original": "slm3_102",
+   "page_count": 6,
+   "order": 19,
+   "p1": "102",
+   "pn": "107",
+   "abstract": [
+    "This paper describes the acquisition, transcription and annotation of a multi-media corpus of academic spoken English, the LMELectures. It consists of two lecture series that were read in the summer term 2009 at the computer science department of the University of Erlangen- Nuremberg, covering topics in pattern analysis, machine learning and interventional medical image processing. In total, about 40 hours of high-definition audio and video of a single speaker was acquired in a constant recording environment. In addition to the recordings, the presentation slides are available in machine readable (PDF) format. The manual annotations include a suggested segmentation into speech turns and a complete manual transcription that was done using BLITZSCRIBE2, a new tool for the rapid transcription. For one lecture series, the lecturer assigned key words to each recordings; one recording of that series was further annotated with a list of ranked key phrases by five human annotators each. The corpus is available for non-commercial purpose upon request.\n",
+    "Index Terms: corpus description, academic spoken English, e-learning\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Paper",
+   "papers": [
+    "davies13_slam"
+   ]
+  },
+  {
+   "title": "Audio &amp; Video Event Detection and Segmentation",
+   "papers": [
+    "bourlard13_slam",
+    "elizalde13_slam",
+    "castan13_slam",
+    "castan13b_slam"
+   ]
+  },
+  {
+   "title": "ASR in Multimedia Documents",
+   "papers": [
+    "lanchantin13_slam",
+    "mohr13_slam",
+    "ziegler13_slam"
+   ]
+  },
+  {
+   "title": "Multimedia Person Recognition",
+   "papers": [
+    "galibert13_slam",
+    "bredin13_slam",
+    "favre13_slam",
+    "hatmi13_slam"
+   ]
+  },
+  {
+   "title": "Speaker &amp; Speaker Roles Recognition",
+   "papers": [
+    "bigot13_slam",
+    "ghaemmaghami13_slam",
+    "lailler13_slam",
+    "poignant13_slam"
+   ]
+  },
+  {
+   "title": "Multimedia Applications and Corpus",
+   "papers": [
+    "singh13_slam",
+    "heck13_slam",
+    "riedhammer13_slam"
+   ]
+  }
+ ]
+}

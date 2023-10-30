@@ -1,0 +1,1088 @@
+{
+ "title": "ASR2000 - Automatic Speech Recognition: Challenges for the New Millenium",
+ "location": "Paris, France",
+ "startDate": "18/9/2000",
+ "endDate": "20/9/2000",
+ "conf": "ASR",
+ "year": "2000",
+ "name": "asr_2000",
+ "series": "",
+ "SIG": "",
+ "title1": "ASR2000 - Automatic Speech Recognition: Challenges for the New Millenium",
+ "date": "18-20 September 2000",
+ "papers": {
+  "woodland00_asr": {
+   "authors": [
+    [
+     "P. C.",
+     "Woodland"
+    ],
+    [
+     "D.",
+     "Povey"
+    ]
+   ],
+   "title": "Large scale discriminative training for speech recognition",
+   "original": "asr0_007",
+   "page_count": 10,
+   "order": 1,
+   "p1": "7",
+   "pn": "16",
+   "abstract": [
+    "This paper describes, and evaluates on a large scale, the lattice based framework for discriminative training of large vocabulary speech recognition systems based on Gaussian mixture hidden Markov models (HMMs). The paper concentrates on the maximum mutual information estimation (MMIE) criterion which has been used to train HMM systems for conversational telephone speech transcription using up to 265 hours of training data. These experiments represent the largest-scale application of discriminative training techniques for speech recognition of which the authors are aware, and have led to significant reductions in word error rate for both triphone and quinphone HMMs compared to our best models trained using maximum likelihood estimation. The MMIE latticebased implementation used; techniques for ensuring improved generalisation; and interactions with maximum likelihood based adaptation are all discussed. Furthermore several variations to the MMIE training scheme are introduced with the aim of reducing over-training.\n",
+    ""
+   ]
+  },
+  "aubert00_asr": {
+   "authors": [
+    [
+     "Xavier L.",
+     "Aubert"
+    ]
+   ],
+   "title": "A brief overview of decoding techniques for large vocabulary continuous speech recognition",
+   "original": "asr0_091",
+   "page_count": 6,
+   "order": 2,
+   "p1": "91",
+   "pn": "96",
+   "abstract": [
+    "A number of decoding strategies for large vocabulary speech recognition are examined from the viewpoint of their search space representation. Different design solutions are compared with respect to the integration of linguistic and acoustic constraints, as implied by M-gram LMs and cross-word phonetic contexts. This study is articulated along two main axes, namely, the network expansion and the search algorithm itself. Three broad classes of decoding methods are reviewed: the use of weighted finite state transducers for static network expansion, the time-synchronous dynamic-expansion search and the asynchronous stack decoding.\n",
+    ""
+   ]
+  },
+  "mohri00_asr": {
+   "authors": [
+    [
+     "Mehryar",
+     "Mohri"
+    ],
+    [
+     "Fernando",
+     "Pereira"
+    ],
+    [
+     "Michael",
+     "Riley"
+    ]
+   ],
+   "title": "Weighted finite-state transducers in speech recognition",
+   "original": "asr0_097",
+   "page_count": 10,
+   "order": 3,
+   "p1": "97",
+   "pn": "106",
+   "abstract": [
+    "We survey the weighted finite-state transducer (WFST) approach to speech recognition developed at AT&T over the last several years. We show that WFSTs provide a common and natural representation for HMM models, context-dependency, pronunciation dictionaries, grammars, and alternative recognition outputs. Furthermore, general finite-state operations combine these representations flexibly and efficiently. Weighted determinization and minimization algorithms optimize their time and space requirements, and a weight pushing algorithm distributes the weights along the paths of a weighted transducer optimally for speech recognition. As an example, we describe a North American Business News (NAB) recognition system built using these techniques that combines the HMMs, full cross-word triphones, a lexicon of forty thousand words, and a large trigram grammar into a single weighted transducer that is only somewhat larger than the trigram word grammar and that runs NAB in real-time on a very simple decoder. In another example, we show that the same techniques can be used to optimize lattices for second-pass recognition. In a third example, we show how finite-state operations can be used to assemble lattices from different recognizers to improve recognition performance.\n",
+    ""
+   ]
+  },
+  "padmanabhan00_asr": {
+   "authors": [
+    [
+     "Mukund",
+     "Padmanabhan"
+    ],
+    [
+     "Michael",
+     "Picheny"
+    ]
+   ],
+   "title": "Towards super-human speech recognition",
+   "original": "asr0_189",
+   "page_count": 6,
+   "order": 4,
+   "p1": "189",
+   "pn": "194",
+   "abstract": [
+    "Research in speech recognition has been underway for decades, and a great deal of progress has been made in reducing the word error rate. However, recent studies still demonstrate that machine performance is still quite far from human performance across a wide variety of tasks, ranging from high-bandwidth digit recognition to large vocabulary telephony speech. In addition, for most speech recognition tasks, obtaining good performance relies on tuning to a particular domain or environment. For instance, a system trained on the Switchboard corpus is unlikely to provide close to optimal performance on a small vocabulary task such as telephone digits. As we begin to strive towards developing recognition systems that equal, or even surpass, human performance, it does not make sense to construct a system for each specific domain and environment. Consequently, our initial goal is to develop a generic speech recognition system that can deal with linguistically different, as well as acoustically different domains. In order to achieve this goal, we must combine advances in signal processing, language modeling, and acoustic modeling, with substantially enhanced training and testing data. In this paper, we outline new techniques to develop a generic system that can work on a multitude of domains and environments. We propose to train and benchmark this system using speech data from a variety of sources, representing a variety of linguistic domains, channels, and environments.\n",
+    ""
+   ]
+  },
+  "cohen00_asr": {
+   "authors": [
+    [
+     "Michael H.",
+     "Cohen"
+    ]
+   ],
+   "title": "Surfing the voice web: issues in the design of a voice browser",
+   "original": "asr0_236",
+   "page_count": 3,
+   "order": 5,
+   "p1": "236",
+   "pn": "238",
+   "abstract": [
+    "Wireless access to the internet has emerged as a potential \"killer application\" which will demand sophisticated spoken language technology in order to realize its full potential. There are many challenges that must be met to make the \"Voice Web\" a reality - recognition technology, network infrastructure, new devices, and the development of new user interface paradigms. The Voice Web offers an opportunity to create a unified user interface to the entire world of services and communications. This talk will present the challenges presented by the Voice Web from the user interface perspective, and describe Voyager, a voice browser developed by Nuance Communications.\n",
+    ""
+   ]
+  },
+  "kirchhoff00_asr": {
+   "authors": [
+    [
+     "Katrin",
+     "Kirchhoff"
+    ],
+    [
+     "Jeff A.",
+     "Bilmes"
+    ]
+   ],
+   "title": "Combination and joint training of acoustic classifiers for speech recognition",
+   "original": "asr0_017",
+   "page_count": 7,
+   "order": 6,
+   "p1": "17",
+   "pn": "23",
+   "abstract": [
+    "Classifier combination is a technique that often provides signifi- cant improvements in accuracy, and also furnishes a useful mechanism to support multi-modal information sources. In this paper we discuss the problem of acoustic classifier combination in speech recognition systems. We present new techniques that generalize previously used combination rules, such as the mean, product, min, and max functions. These new rules have continuous and differentiable forms and can thus not only be used for combination of independently trained classifiers but also as objective functions in new joint classifier training schemes.We demonstrate the application of these rules to both combination and joint training using different input features, and we analyze their effects on word recognition accuracy. We find a significant word-error improvement over the product rule when jointly training and combining multiple systems using a generalization of the product rule.\n",
+    ""
+   ]
+  },
+  "stadermann00_asr": {
+   "authors": [
+    [
+     "Jan",
+     "Stadermann"
+    ],
+    [
+     "Jörg",
+     "Rottland"
+    ],
+    [
+     "Gerhard",
+     "Rigoll"
+    ]
+   ],
+   "title": "Tied-Posteriors: A new hybrid speech recognition technology with generic capabilities and high portability",
+   "original": "asr0_024",
+   "page_count": 5,
+   "order": 7,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "This paper presents a new method for estimating the emission probabilities of general hybrid connectionist/HMM recognition systems. Contrary to the traditional hybrid approach, where a neural network is used for providing posterior probabilities in order to model the emission probabilities of one-state HMMs, our new tied-posterior approach uses the posterior probabilities resulting from the neural net output in order to replace the Gaussian components of a standard tied-mixture system. This approach allows to use an arbitrary HMM topology with all context-dependency and all clustering techniques used in tied-mixture systems. As will be demonstrated in more detail in the paper, this speech recognition architecture can be ideally used as generic technology, because it enables the usage of simple straightforward techniques, mainly consisting of training standard neural nets with error-backpropagation and using standard ML techniques for estimating the tied-posterior mixture weights. These simple to deploy components lead to a system yielding very good results even for context-independent models and is superior to the traditional (also easily portable) hybrid posterior approach. Experiments evaluated on theWall Street Journal (WSJ) database have shown a significant improvement of the recognition rate compared to standard hybrid connectionist/HMM speech recognition systems on this task.\n",
+    ""
+   ]
+  },
+  "stubley00_asr": {
+   "authors": [
+    [
+     "Peter",
+     "Stubley"
+    ]
+   ],
+   "title": "The block-synchronous search algorithm",
+   "original": "asr0_029",
+   "page_count": 6,
+   "order": 8,
+   "p1": "29",
+   "pn": "34",
+   "abstract": [
+    "Multiple-pass searches have many advantages, including the combination of the speed of small models with the accuracy of large models. In their simplest implementations, the later passes cannot begin until the first pass completes at the end of the utterance. This work describes a block-synchronous approach to multiple-pass searches, where the utterance is partitioned into fixed-length blocks. All search passes run on the current block before the next block is processed. The algorithm uses bounded memory and bounded delay after the utterance completes, since the blocks are of fixed length. There is no requirement to estimate phrase or word boundaries to limit the processing.\n",
+    ""
+   ]
+  },
+  "caseiro00_asr": {
+   "authors": [
+    [
+     "Diamantino",
+     "Caseiro"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ]
+   ],
+   "title": "A decoder for finite-state structured search spaces",
+   "original": "asr0_035",
+   "page_count": 5,
+   "order": 9,
+   "p1": "35",
+   "pn": "39",
+   "abstract": [
+    "The theory of weighted finite state transducers (WFST) allows great flexibility in the early use of multiple sources of information in speech decoders. In this paper, we describe a decoder that relies on the algebra of WFSTs to integrate multiple sources of information in a one-pass search. The system has two modes of operation: time-synchronously for use with finite state problem specific grammars or with a word loop grammar for large vocabulary tasks; or time-asynchronously as a stack decoder also for large vocabulary recognition. Both modes of operation are decoupled from the language model. Experiments done with lattice rescoring tasks showed that the error rate is the same as with established state of the art decoders. Furthermore, experiments with explicit cross word pronunciation rules showed the feasibility of the inclusion of new knowledge sources early in the decoding process. We also found that the use of a time-synchronous search with a word loop grammar outperforms the stack decoder mode of operation by a factor of 10.\n",
+    ""
+   ]
+  },
+  "kanthak00_asr": {
+   "authors": [
+    [
+     "Stephan",
+     "Kanthak"
+    ],
+    [
+     "Achim",
+     "Sixtus"
+    ],
+    [
+     "Sirko",
+     "Molau"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Within-word vs. across-word decoding for online speech recognition",
+   "original": "asr0_040",
+   "page_count": 7,
+   "order": 10,
+   "p1": "40",
+   "pn": "46",
+   "abstract": [
+    "In this paper we describe methods for improving the RWTH German speech recognizer used within the VERBMOBIL project. In particular, we present acceleration methods for the search based on both within-word and across-word phoneme models. The recognizer in the VERBMOBIL project is used in an online environment. We will discuss some incremental methods to reduce the response time of an on-line speech recognizer. We present experimental off-line results for the VERBMOBIL task, a German spontaneous speech corpus, and report on word error rates and real time performance of the search for both within-word and across-word phoneme models.\n",
+    ""
+   ]
+  },
+  "schwenk00_asr": {
+   "authors": [
+    [
+     "Holger",
+     "Schwenk"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Improved ROVER using language model information",
+   "original": "asr0_047",
+   "page_count": 6,
+   "order": 11,
+   "p1": "47",
+   "pn": "52",
+   "abstract": [
+    "In the standard approach to speech recognition, the goal is to find the sentence hypothesis that maximizes the posterior probability of the word sequence given the acoustic observation. Usually speech recognizers are evaluated by measuring the word error so that there is a mismatch between the training and the evaluation criterion. Recently, algorithms for minimizing directly the word error and other task specific error criterions have been proposed. This paper presents an extension of the ROVERalgorithm for combining outputs of multiple speech recognizers using both a word error criterion and a sentence error criterion. The algorithm has been evaluated on the 1998 and 1999 broadcast news evaluation test sets, as well as the SDR 1999 speech recognition 10 hour subset and consistently outperformed the standard ROVER algorithm. The approach seems to be of particular interest for improving the recognition performance by combining only two or three speech recognizers achieving relative performance improvements of up to 20% compared to the best single recognizer.\n",
+    ""
+   ]
+  },
+  "potamitis00_asr": {
+   "authors": [
+    [
+     "I.",
+     "Potamitis"
+    ],
+    [
+     "Nikos",
+     "Fakotakis"
+    ],
+    [
+     "George",
+     "Kokkinakis"
+    ]
+   ],
+   "title": "Reliable ASR based on unreliable features",
+   "original": "asr0_053",
+   "page_count": 5,
+   "order": 12,
+   "p1": "53",
+   "pn": "57",
+   "abstract": [
+    "The present paper reports on a novel technique that links the basic concepts of multi-band based Automatic Speech Recognition (ASR) and Missing Feature Theory (MFT). In the multi-band paradigm the frequency spectrum is partitioned in narrow bands and processed independently. In the context of MFT, the stochastic framework of continuous density Hidden Markov Models (HMMs) is adapted to handle time frequency regions corrupted by noise.\n",
+    "The present study alters the Mel Frequency Cepstrum Coefflcients (MFCC) front-end, by interposing an evaluation and enhancement stage of the spectrum's reliability between the filter-bank output and the Discrete Cosine Transform. Each filterbank output ís considered to be a time series and non-linear series prediction techniques are used to examine separately its reliabilityr. The key idea is to discern which feature in which bank is impaired in the current time frame and to use a properly selected Time Delay Neural Network (TDNN) from a pool of available networks, to predict and substitute the unreliable features based on the reliable ones and their history.\n",
+    ""
+   ]
+  },
+  "korkmazskiy00_asr": {
+   "authors": [
+    [
+     "Filipp",
+     "Korkmazskiy"
+    ],
+    [
+     "Frank K.",
+     "Soong"
+    ],
+    [
+     "Olivier",
+     "Siohan"
+    ]
+   ],
+   "title": "Constrained spectrum normalization for robust speech recognition in noise",
+   "original": "asr0_058",
+   "page_count": 6,
+   "order": 13,
+   "p1": "58",
+   "pn": "63",
+   "abstract": [
+    "This paper presents a new approach to robust speech recognition in noise based on spectral subtraction. A conventional spectral subtraction technique leads to nonlinear distortions of the normalized speech signals and resulting degradation of speech recognition accuracy. A new method is proposed to constrain spectral subtraction by imposing upper bounds on the estimates of the noise spectra. Two speech databases collected in moving cars were used in speech recognition experiments. A set of cross-database recognition experiments revealed that this technique is capable of improving robustness of a speech recognition system. When HMMs trained on the data from one database were used to recognize the data from another database, relative string error rate reduction of 20% to 45% was obtained by using the proposed method.\n",
+    ""
+   ]
+  },
+  "hilger00_asr": {
+   "authors": [
+    [
+     "Florian",
+     "Hilger"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Noise level normalization and reference adaptation for robust speech recognition",
+   "original": "asr0_064",
+   "page_count": 5,
+   "order": 14,
+   "p1": "64",
+   "pn": "68",
+   "abstract": [
+    "This paper describes an approach to normalize the noise level of a speech signal at the outputs of the Mel scaled filter-bank used in MFCC-feature extraction. An adaptive normalizing function that distinguishes between speech and silence parts of the signal is used to normalize the noise level, without altering the speech parts of the signal. This technique is combined with an adaptation of the reference vectors, depending on the average norm of the incoming feature vectors. On a database with training data recorded in office environment and testing data recorded in driving cars, the word error rate could be reduced from 35.5% to 14.7% for the city traffic testing set and from 78.0% to 24.1% for the highway testing set.\n",
+    ""
+   ]
+  },
+  "furui00_asr": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ],
+    [
+     "Daisuke",
+     "Itoh"
+    ]
+   ],
+   "title": "Noise adaptation of HMMs using neural networks",
+   "original": "asr0_160",
+   "page_count": 8,
+   "order": 15,
+   "p1": "160",
+   "pn": "167",
+   "abstract": [
+    "This paper proposes a new method, using neural networks, of adapting phone HMMs to noise added speech. The network is designed to map clean speech HMMs to noise-adapted HMMs using inputs of clean speech phone HMMs, noise HMMs and signal-to-noise ratios (S/N). The network is trained to minimize the mean squared error between the output HMMs and the target noise-adapted HMMs. Noisy broadcast-news speech was recognized in speaker-dependent and speaker-independent network training conditions, and the trained networks were confirmed to be effective in the recognition of new speakers and under new noise and S/N conditions.\n",
+    ""
+   ]
+  },
+  "meyer00_asr": {
+   "authors": [
+    [
+     "G. F.",
+     "Meyer"
+    ],
+    [
+     "B. A.",
+     "Edmonds"
+    ],
+    [
+     "D.",
+     "Yang"
+    ],
+    [
+     "William A.",
+     "Ainsworth"
+    ]
+   ],
+   "title": "Amplitude modulation maps for robust speech recognition",
+   "original": "asr0_168",
+   "page_count": 7,
+   "order": 16,
+   "p1": "168",
+   "pn": "174",
+   "abstract": [
+    "Two recognition tasks are discussed in which pre-processing based on amplitude modulation (AM) maps is compared with other feature extraction strategies. In the first task we show how the AM map representation can be used to segregate voiced speech signals from one another. The second shows how the AM representation can be used for robust digit recognition in additive noise.\n",
+    "Natural vowels from the TIMIT database are presented concurrently with a second vowel and recognised using a multilayer perceptron. AM map based pre-processing is compared with that of Parsons harmonic selection algorithm and a strategy using no noise reduction. The proposed feature extraction algorithm leads to an improvement in recognition equivalent to a 6 dB increase in signal-to-noise ratio (SNR) over the other algorithms.\n",
+    "Digits (from OGI Alphadigits) were presented in clean, in white noise and in rapidly varying high-pass/low-pass noise conditions. Recognition performance, based on an 8 state left-to-right hidden Markov model (HMM), is compared for conventional mel-scale cepstral coefficients (MFCCs), auditory filterbank output, and the spectra recovered from AM maps. For clean speech we obtain error rates of 6-8% for all three strategies but as the noise level increases recognition scores consistently show AM maps to be the more robust strategy.\n",
+    ""
+   ]
+  },
+  "hagen00_asr": {
+   "authors": [
+    [
+     "Astrid",
+     "Hagen"
+    ],
+    [
+     "Andrew",
+     "Morris"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ]
+   ],
+   "title": "From multi-band full combination to multi-stream full combination processing in robust ASR",
+   "original": "asr0_175",
+   "page_count": 6,
+   "order": 17,
+   "p1": "175",
+   "pn": "180",
+   "abstract": [
+    "The multi-band processing paradigm for noise robust ASR was originally motivated by the observation that human recognition appears to be based on independent processing of separate frequency sub-bands, and also by \"missing data\" results which have shown that ASR can be made significantly more robust to band-limited noise if noisy sub-bands can be detected and then ignored. Of the different multi-band models which have been proposed, only the \"Full Combination or \"all-wise\" multi-band HMM/ANN hybrid approach allows us to consistently overcome the difficult problem of deciding which sub-bands are noisy, by integrating over all possible positions of noisy sub-bands. While this system has performed better than any other multi-band system which we have tested, we have also found that it only shows significantly improved robustness to noise when the noise is strongly band-limited. In real noise environments this is rarely the case. An alternative paradigm for noise robust ASR is multi-stream, as opposed to multi-band, ASR. In multi-stream processing the aim is to combine evidence from a number of different representations of the full speech signal, rather than from a number of frequency sub-bands. Several models for multi-stream ASR have recently reported significant performance improvements for speech with real noise. In this article we first present evidence to show how multi-band ASR has a strong advantage over the baseline system with band-limited noise, but no clear advantage with wide-band noise. We then show how the principled theoretical basis for Full Combination multi-band ASR can be directly transfered to multi-stream combination, and we show how this model can be used to combine data streams comprising three commonly used types of acoustic features. Preliminary results show significantly improved recognition with clean speech.\n",
+    ""
+   ]
+  },
+  "hirsch00_asr": {
+   "authors": [
+    [
+     "Hans-Günter",
+     "Hirsch"
+    ],
+    [
+     "David",
+     "Pearce"
+    ]
+   ],
+   "title": "The AURORA experimental framework for the performance evaluation of speech recognition systems under noisy conditions",
+   "original": "asr0_181",
+   "page_count": 8,
+   "order": 18,
+   "p1": "181",
+   "pn": "188",
+   "abstract": [
+    "This paper describes a database designed to evaluate the performance of speech recognition algorithms in noisy conditions. The database may either be used for the evaluation of front-end feature extraction algorithms using a defined HMM recognition back-end or complete recognition systems. The source speech for this database is the TIdigits, consisting of connected digits task spoken by American English talkers (downsampled to 8 kHz). A selection of 8 different real-world noises have been added to the speech over a range of signal to noise ratios and special care has been taken to control the filtering of both the speech and noise.\n",
+    "The framework was prepared as a contribution to the ETSI STQ-AURORA DSR Working Group [1]. Aurora is developing standards for Distributed Speech Recognition (DSR) where the speech analysis is done in the telecommunication terminal and the recognition at a central location in the telecom network. The framework is currently being used to evaluate alternative proposals for front-end feature extraction. The database has been made publicly available through ELRA so that other speech researchers can evaluate and compare the performance of noise robust algorithms.\n",
+    "Recognition results are presented for the first standard DSR feature extraction scheme that is based on a cepstral analysis.\n",
+    ""
+   ]
+  },
+  "varona00_asr": {
+   "authors": [
+    [
+     "A.",
+     "Varona"
+    ],
+    [
+     "I.",
+     "Torres"
+    ]
+   ],
+   "title": "Delimited smoothing technique over pruned and not pruned syntactic language models: perplexity and WER",
+   "original": "asr0_069",
+   "page_count": 8,
+   "order": 19,
+   "p1": "69",
+   "pn": "76",
+   "abstract": [
+    "Continuous Speech Recognition (CSR) systems require a Language Model (LM) to represent the syntactic constraints of the language. A sub-class of the regular languages, the k Testable in the Strict Sense (k-TSS) languages, has been used to generate LMs. Then, a smoothing technique needs to be applied to also consider events not represented in the training corpus. In this work, a new syntactic backing off smoothing approach, the Delimited discounting, was applied to several pruned and no pruned k-TSS LMs. Delimited discounting deals with the Turing discounting problems while keeping the Katz smoothing schema. The experimental evaluation was carried out over a Spanish speech application task, showing that an increase of the test set perplexity of a LM does not always mean a degradation in the model performance when integrated in a CSR system. Besides, there is a strong dependence between the amount of probability reserved by the smoothing technique to be assigned to unseen events and the value of the balance parameter applied to the LM probabilities in the Bayes´s rule needed to get the best system performance.\n",
+    ""
+   ]
+  },
+  "printz00_asr": {
+   "authors": [
+    [
+     "Harry",
+     "Printz"
+    ],
+    [
+     "Peder",
+     "Olsen"
+    ]
+   ],
+   "title": "Theory and practice of acoustic confusability",
+   "original": "asr0_077",
+   "page_count": 8,
+   "order": 20,
+   "p1": "77",
+   "pn": "84",
+   "abstract": [
+    "In this paper we define two alternatives to the familiar perplexity statistic (hereafter lexical perplexity), which is widely applied both as a measure-of-goodness and as an objective function for training language models. These alternatives, respectively acoustic perplexity and the synthetic acoustic word error rate, fuse information from both the language model and the acoustic model. We show how to compute these statistics by effectively synthesizing a large acoustic corpus, demonstrate their superiority to lexical perplexity as predictors of language model performance, and investigate their use as objective functions for training language models. We present results from a simple speech recognition experiment that demonstrate a small reduction in word error rate.\n",
+    ""
+   ]
+  },
+  "amdal00_asr": {
+   "authors": [
+    [
+     "Ingunn",
+     "Amdal"
+    ],
+    [
+     "Filipp",
+     "Korkmazskiy"
+    ],
+    [
+     "Arun C.",
+     "Surendran"
+    ]
+   ],
+   "title": "Data-driven pronunciation modelling for non-native speakers using association strength between phones",
+   "original": "asr0_085",
+   "page_count": 6,
+   "order": 21,
+   "p1": "85",
+   "pn": "90",
+   "abstract": [
+    "In this paper we present an approach to modelling pronunciation variation, particularly for non-native speakers, by modifying the lexicon. In this way we can model several speakers simultaneously, i.e. use the same lexicon and the same acoustic models for all speakers. We use a data-driven approach, i.e. methods based solely on the reference lexicon, the recognizers acoustic models, and the acoustic data.\n",
+    "We propose a new alignment procedure using an estimated relation measure between the phones in the reference transcription and in the alternative transcription of the new speaker data. This measure discovers statistically significant correspondence between the phones in the two transcriptions. We present this measure as association strength. Rules are extracted from the alignment and used to derive pronunciation variants. Following rule pruning based on estimated probability of rules, the most beneficial rules are used to make a common lexicon.\n",
+    "Experiments using the new alignment algorithm on the Wall Street Journal non-native speaker database gave pronunciation rules that performed favourably in comparison to other alignment methods.\n",
+    ""
+   ]
+  },
+  "gao00_asr": {
+   "authors": [
+    [
+     "Yuqing",
+     "Gao"
+    ],
+    [
+     "Bhuvana",
+     "Ramabhadran"
+    ],
+    [
+     "Michael",
+     "Picheny"
+    ]
+   ],
+   "title": "New adaptation techniques for large vocabulary continuous speech recognition",
+   "original": "asr0_107",
+   "page_count": 5,
+   "order": 22,
+   "p1": "107",
+   "pn": "111",
+   "abstract": [
+    "This paper proposes several new speaker adaptation techniques to improve the large vocabulary continuous speech recognition accuracy. These include, discriminative adaptation, state-quality measure based adaptation, and N-best hypothesis based adaptation schemes. We propose to incorporate the MMIE criterion in the computation of the posterior counts from the adaptation data. We present a new measure, the state quality measure, to evaluate the quality of a HMM state and subsequently use it for selecting good segments of speech during unsupervised adaptation and as a confi- dence measure during decoding/rescoring. The state quality measure is the confidence associated with the acoustic models ability to predict the HMM state correctly. It is estimated from the correct and decoded set of transcriptions and is used in conjunction with N-best hypotheses for weighting the state occupancy counts during adaptation. In conjunction with the adaptation schemes, we also present the Viterbi algorithm to estimate the HMM state occupancy counts instead of the Forward-Backward algorithm in order to obtain speed ups without degradation in accuracy. Our results on an in-house spontaneous speech task show improvements in the range of 4% to 14% relative for each of the presented techniques.\n",
+    ""
+   ]
+  },
+  "kenny00_asr": {
+   "authors": [
+    [
+     "Patrick",
+     "Kenny"
+    ],
+    [
+     "Gilles",
+     "Boulianne"
+    ],
+    [
+     "Pierre",
+     "Dumouchel"
+    ]
+   ],
+   "title": "Bayesian adaptation revisited",
+   "original": "asr0_112",
+   "page_count": 8,
+   "order": 23,
+   "p1": "112",
+   "pn": "119",
+   "abstract": [
+    "We report the results of some preliminary experiments with a new method of acoustic-phonetic modeling for large vocabulary applications that can be viewed as a far-reaching extension of Bayesian speaker adaptation. This method adapts all of the Gaussian mean vectors in a speaker-independent HMM for a given speaker (and not just the mean vectors present in the speakers adaptation data as in classical Bayesian adaptation). It is based on an explicit model of the correlations between all of the speakers in the training set, the idea being that if there is not enough data to estimate a Gaussian mean vector for a given speaker then data from other speakers can be used provided that we know how the speakers are correlated with each other. Our new approach has resulted in 10-15% reductions in error rate on a French language dictation task.\n",
+    ""
+   ]
+  },
+  "siohan00_asr": {
+   "authors": [
+    [
+     "Olivier",
+     "Siohan"
+    ],
+    [
+     "Tor André",
+     "Myrvoll"
+    ],
+    [
+     "Chin-Hui",
+     "Lee"
+    ]
+   ],
+   "title": "Structural maximum a posteriori linear regression for fast HMM adaptation",
+   "original": "asr0_120",
+   "page_count": 8,
+   "order": 24,
+   "p1": "120",
+   "pn": "127",
+   "abstract": [
+    "Transformation-based model adaptation techniques like maximum likelihood linear regression (MLLR) rely on an accurate selection of the number of transformations for a given amount of adaptation data. If too many transformations are used, the transformation parameters may be poorly estimated, can overfit the adaptation data, and offer poor generalization. On the other hand, if the number of transformations is too small, the adapted models can only provide a moderate improvement over the baseline models. An adaptation approach should therefore be flexible in order to estimate reliably a large number of transformations when the amount of adaptation data is large, and a small number of transformations when only a few adaptation utterances are available. In this work, we show that a significant improvement can be obtained over MLLR with dynamic regression classes, first by replacing the maximum likelihood estimation criterion by a maximum a posteriori criterion, then by introducing a tree-structure for the prior densities of the transformations. The effectiveness of the proposed approach is illustrated on the Spoke3 1993 test set of the WSJ task. Using the same regression classes as MLLR, it is shown that the proposed approach reduces the risk of overfitting and exploit the adaptation data much more efficiently than MLLR, leading to a significant reduction of the word error rate with as little as one adaptation utterance.\n",
+    ""
+   ]
+  },
+  "padmanabhan00b_asr": {
+   "authors": [
+    [
+     "Mukund",
+     "Padmanabhan"
+    ],
+    [
+     "George",
+     "Saon"
+    ],
+    [
+     "Geoffrey",
+     "Zweig"
+    ]
+   ],
+   "title": "Lattice-based unsupervised MLLR for speaker adaptation",
+   "original": "asr0_128",
+   "page_count": 5,
+   "order": 25,
+   "p1": "128",
+   "pn": "132",
+   "abstract": [
+    "In this paper we explore the use of lattice-based information for unsupervised speaker adaptation. As initially formulated, maximum likelihood linear regression (MLLR) aims to linearly transform the means of the gaussian models in order to maximize the likelihood of the adaptation data given the correct hypothesis (supervised MLLR) or the decoded hypothesis (unsupervised MLLR). For the latter, if the first-pass decoded hypothesis is extremely erroneous (as it is the case for large vocabulary telephony applications) MLLR will often find a transform that increases the likelihood for the incorrect models, and may even lower the likelihood of the correct hypothesis. Since the oracle word error rate of a lattice is much lower than that of the 1-best or N-best hypotheses, by performing adaptation against a word lattice, the correct models are more likely to be used in estimating the transform. Furthermore, the particular MAP lattice that we propose enables the use of a natural confidence  measure given by the posterior occupancy probability of a state, that is, the statistics of a particular state will be updated with the current frame only if the a posteriori probability of the state at that particular time is greater than a predefined threshold.\n",
+    "Experiments performed on a voicemail speech recognition task indicate a relative 2% improvement in the word error rate of lattice MLLR over 1-best MLLR.\n",
+    ""
+   ]
+  },
+  "richardson00_asr": {
+   "authors": [
+    [
+     "Matt",
+     "Richardson"
+    ],
+    [
+     "Jeff",
+     "Bilmes"
+    ],
+    [
+     "Chris",
+     "Diorio"
+    ]
+   ],
+   "title": "Hidden-articulator Markov models for speech recognition",
+   "original": "asr0_133",
+   "page_count": 7,
+   "order": 26,
+   "p1": "133",
+   "pn": "139",
+   "abstract": [
+    "In traditional speech recognition using Hidden Markov Models (HMMs), each state represents an acoustic portion of a phoneme. We explore the concept of an articulator based HMM, where each state represents a particular articulatory configuration [Erler 1996]. In this paper, we present a novel articulatory feature mapping and a new technique for model initialization. In addition, we use diphone modeling which allows context dependent training of transition probabilities. Our goal is to confirm that articulatory knowledge can assist speech recognition. We demonstrate this by showing that our mapping of articulatory configurations to phonemes performs better than random mappings. Furthermore, we demonstrate the practicality of the model by showing that, in combination with a standard model, a 12-22% relative word error rate decrease occurs relative to the standard model alone.\n",
+    "",
+    "",
+    "",
+    "",
+    "K. Erler and G.H. Freeman (1996). \"An HMM-based speech recognizer using overlapping articulatory features,\" J. Acoust. Soc. Am. 100, pp. 2500-2513\n",
+    ""
+   ]
+  },
+  "peng00_asr": {
+   "authors": [
+    [
+     "Gang",
+     "Peng"
+    ],
+    [
+     "Bo",
+     "Zhang"
+    ],
+    [
+     "William S-Y.",
+     "Wang"
+    ]
+   ],
+   "title": "Performance of Mandarin connected digit recognizer with word duration modeling",
+   "original": "asr0_140",
+   "page_count": 5,
+   "order": 27,
+   "p1": "140",
+   "pn": "144",
+   "abstract": [
+    "Digit string recognition is required in many applications such as automatic banking system, database information retrieving system, etc. In order to design a high performance recognizer, duration information is explored in this study. In a Mandarin connected digit recognizer, insertion and deletion errors amount to more than two thirds of the total recognition errors because there exist two monophonemic digits and a heavily rhotacized vowel. A major weakness of conventional Hidden Markov Models (HMMs) is that they implicitly model state durations by a geometric distribution. In order to use duration information more efficiently, we propose a method to model context dependent word duration information and then incorporate it directly in the decoding algorithm. Experimental results show that this method reduces word error rate by as much as 32.1%.\n",
+    ""
+   ]
+  },
+  "zheng00_asr": {
+   "authors": [
+    [
+     "Jing",
+     "Zheng"
+    ],
+    [
+     "Horacio",
+     "Franco"
+    ],
+    [
+     "Andreas",
+     "Stolcke"
+    ]
+   ],
+   "title": "Rate-of-speech modeling for large vocabulary conversational speech recognition",
+   "original": "asr0_145",
+   "page_count": 5,
+   "order": 28,
+   "p1": "145",
+   "pn": "149",
+   "abstract": [
+    "Variations in rate of speech (ROS) produce changes in both spectral features and word pronunciations that affect automatic speech recognition (ASR) systems. To deal with these ROS effects, we propose to use parallel, rate-specific, acoustic models: one for fast speech, the other for slow speech. Rate switching is permitted at word boundaries, to allow modeling within-sentence speech rate variation, which is common in conversational speech. Due to the parallel structure of ratespecific models and the maximum likelihood decoding method, we do not need high-quality ROS estimation before recognition, which is usually hard to achieve. In this paper, we evaluate our approach on a large-vocabulary conversational speech recognition (LVCSR) task over the telephone, with several minimal pair comparisons based on different baseline systems. Experiments show that on a development set for the 2000 Hub-5 evaluation, introducing word-level ROS-dependent models results in a 1.9% absolute win over a baseline system without multiword pronunciation modeling, and a 0.7% absolute win over a baseline system that incorporates a 4.0% absolute win from multiword pronunciation modeling. The combination of rate-dependent acoustic models with rate-dependent pronunciations obtained by using a data-driven approach is also explored and shown to produce an additional win.\n",
+    ""
+   ]
+  },
+  "lamel00_asr": {
+   "authors": [
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "Gilles",
+     "Adda"
+    ]
+   ],
+   "title": "Lightly supervised acoustic model training",
+   "original": "asr0_150",
+   "page_count": 5,
+   "order": 29,
+   "p1": "150",
+   "pn": "154",
+   "abstract": [
+    "Although tremendous progress has been made in speech recognition technology, with the capability of todays state-of-the-art systems to transcribe unrestricted continuous speech from broadcast data, these systems rely on the availability of large amounts of manually transcribed acoustic training data. Obtaining such data is both time-consuming and expensive, requiring trained human annotators with substantial amounts of supervision. In this paper we describe some recent experiments using lightly supervised techniques for acoustic model training in order to reduce the system development cost. The strategy we investigate uses a speech recognizer to transcribe unannotated broadcast news data, and optionally combines the hypothesized transcription with associated, but unaligned closed captions or transcripts to create labeled training. We show that this approach can dramatically reduces the cost of building acoustic models.\n",
+    ""
+   ]
+  },
+  "kienappel00_asr": {
+   "authors": [
+    [
+     "Anne-Katrin",
+     "Kienappel"
+    ],
+    [
+     "Dieter",
+     "Geller"
+    ],
+    [
+     "Rolf",
+     "Bippus"
+    ]
+   ],
+   "title": "Cross-language transfer of multilingual phoneme models",
+   "original": "asr0_155",
+   "page_count": 5,
+   "order": 30,
+   "p1": "155",
+   "pn": "159",
+   "abstract": [
+    "We present a method to use speech data from multiple languages to enhance the performance of a flexible vocabulary command word recognizer which is trained using a small amount of speech data of the target language. We develop data-driven approaches for identification of multilingual phoneme units and mapping of these units to the target language phonemes, and evaluate them against the knowledge based approach of mapping identical SAMPA phoneme symbols. The usefulness of multilingual context dependent phoneme modeling for cross-language transfer is shown. Our method achieves significant improvement of recognition performance in the target languages Danish and English by cross-language transfer of multilingual models trained on French, German, Italian, Portuguese and Spanish speech if phonetically rich target language speech data by less than 100 speakers of roughly 1/2 minute duration per speaker is available.\n",
+    ""
+   ]
+  },
+  "greenberg00_asr": {
+   "authors": [
+    [
+     "Steven",
+     "Greenberg"
+    ],
+    [
+     "Shuangyu",
+     "Chang"
+    ]
+   ],
+   "title": "Linguistic dissection of switchboard-corpus automatic speech recognition systems",
+   "original": "asr0_195",
+   "page_count": 8,
+   "order": 31,
+   "p1": "195",
+   "pn": "202",
+   "abstract": [
+    "A diagnostic evaluation of eight Switchboard-corpus recognition systems was conducted in order to ascertain whether word-error patterns are attributable to a specific set of linguistic factors. Each recognition systems output was converted to a common format and scored relative to a reference transcript derived from phonetically hand-labeled data. This reference material was analyzed with respect to ca. forty acoustic, linguistic and speaker characteristics, which in turn, were correlated with recognition-error patterns via decision-trees and other forms of statistical analysis. The most consistent factors associated with superior recognition performance pertain to accurate classification of phonetic segments and articulatory-acoustic features. Other factors correlated with word recognition are syllable structure, prosodic stress and speaking rate (in terms of syllables per second).\n",
+    ""
+   ]
+  },
+  "charlet00_asr": {
+   "authors": [
+    [
+     "Delphine",
+     "Charlet"
+    ]
+   ],
+   "title": "Optimizing confidence measure based on HMM acoustical rescoring",
+   "original": "asr0_203",
+   "page_count": 4,
+   "order": 32,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "This paper deals with the optimization of a confidence measure based on HMM rescoring of the hypothesized word. This  confidence measure is expected to be very cheap. It is only based on the recognized hypothesis and the HMM responses. Neither anti-models nor N-Best hypothesis are used. This study investigates 2 issues: one is the dispersion of the HMM score among the phonemes, the other is a discriminant weighting of the acoustical features. This confidence measure is evaluated in the framework of a large vocabulary directory attendant application. Evaluation shows that exploiting the dispersion of the response scores is a promising approach, whereas the weighting does not give major improvement. These findings confirm that the acoustical parameterization used is suitable for this task.\n",
+    ""
+   ]
+  },
+  "goronzy00_asr": {
+   "authors": [
+    [
+     "Silke",
+     "Goronzy"
+    ],
+    [
+     "Krzysztof",
+     "Marasek"
+    ],
+    [
+     "Andreas",
+     "Haag"
+    ],
+    [
+     "Ralf",
+     "Kompe"
+    ]
+   ],
+   "title": "Prosodically motivated features for confidence measures",
+   "original": "asr0_207",
+   "page_count": 6,
+   "order": 33,
+   "p1": "207",
+   "pn": "212",
+   "abstract": [
+    "In this paper new, phone-duration-based features for confidence measures (CMs) using a classifier are proposed. In misrecognized utterances, the segmentation and thus the phoneme durations often deviate severely from what can be observed in the training data. Also the found segmentation for one recognized phoneme often covers several real phonemes, that have different spectral properties. So such phoneme durations often indicate that a misrecognition took place and we derived some new features based on these durations. In addition to these new features we used some related to the acoustic score of the N-best hypotheses. Using the full set of 46 features we achieve a correct classification rate of 90% at a false rejection rate of 5.1% on an isolated word, command&control task using a rather simple neural network (NN) classifier. Simultaneously, we try to detect out of vocabulary (OOV) words with the same approach and succeed in 91% of the cases. We then combine this CM with unsupervised MAP and MLLR speaker adaptation. The adaptation is guided by the CM and the acoustic models are only modified if the utterance was recognized with high confidence.\n",
+    ""
+   ]
+  },
+  "hazen00_asr": {
+   "authors": [
+    [
+     "Timothy J.",
+     "Hazen"
+    ],
+    [
+     "Theresa",
+     "Burianek"
+    ],
+    [
+     "Joseph",
+     "Polifroni"
+    ],
+    [
+     "Stephanie",
+     "Seneff"
+    ]
+   ],
+   "title": "Recognition confidence scoring for use in speech understanding systems",
+   "original": "asr0_213",
+   "page_count": 8,
+   "order": 34,
+   "p1": "213",
+   "pn": "220",
+   "abstract": [
+    "In this paper we present an approach to recognition confidence scoring and a method for integrating confidence scores into the understanding and dialogue components of a speech understanding system. The system uses a multi-tiered approach where con- fidence scores are computed at the phonetic, word, and utterance levels. The scores are produced by extracting confidence features from the computation of the recognition hypotheses and processing these features using an accept/reject classifier for word and utterance hypotheses. The output of the confidence classifiers can then be incorporated into the parsing mechanism of the language understanding component. To evaluate the system, experiments were conducted using the JUPITER weather information system. Evaluation was performed at the understanding level using key-value pair concept error rate as the evaluation metric. When confidence scores were integrated into the understanding component of the system, the concept error rate was reduced by over 35%.\n",
+    ""
+   ]
+  },
+  "cettolo00_asr": {
+   "authors": [
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Model Selection Criteria for Acoustic Segmentation",
+   "original": "asr0_221",
+   "page_count": 7,
+   "order": 35,
+   "p1": "221",
+   "pn": "227",
+   "abstract": [
+    "Robust acoustic segmentation has become a critical issue in order to apply speech recognition to audio streams with variable acoustic content, e.g. radio programs. Many techniques in the literature base segmentation on statistical model selection, by applying the Bayesian Information Criterion. This work reviews alternative model selection criteria and presents comparative experiments both under controlled conditions and on a broadcast news corpus.\n",
+    ""
+   ]
+  },
+  "gotoh00_asr": {
+   "authors": [
+    [
+     "Yoshihiko",
+     "Gotoh"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Sentence boundary detection in broadcast speech transcripts",
+   "original": "asr0_228",
+   "page_count": 8,
+   "order": 36,
+   "p1": "228",
+   "pn": "235",
+   "abstract": [
+    "This paper presents an approach to identifying sentence boundaries in broadcast speech transcripts. We describe finite state models that extract sentence boundary information statistically from text and audio sources. An n-gram language model is constructed from a collection of British English news broadcasts and scripts. An alternative model is estimated from pause duration information in speech recogniser outputs aligned with their programme script counterparts. Experimental results show that the pause duration model alone outperforms the language modelling approach and that, by combining these two models, it can be improved further and precision and recall scores of over 70% were attained for the task.\n",
+    ""
+   ]
+  },
+  "ljungqvist00_asr": {
+   "authors": [
+    [
+     "Mats",
+     "Ljungqvist"
+    ]
+   ],
+   "title": "Human language technologies in European Community Research Programmes, current state and future perspectives",
+   "original": "asr0_239",
+   "page_count": 2,
+   "order": 37,
+   "p1": "239",
+   "pn": "240",
+   "abstract": [
+    "Human Language Technologies RTD is part of the Information Society Technologies programme under the fifth framework programme. More than 30 HLT projects have already started or are about to start. They cover the areas Multilingual Communication, Natural Interactivity and Cross-Lingual Information Management and are implemented as research, technology development and/or demonstration projects.\n",
+    ""
+   ]
+  },
+  "bass00_asr": {
+   "authors": [
+    [
+     "James D.",
+     "Bass"
+    ]
+   ],
+   "title": "Breaking the local optima paradigm: DARPA speech research initiatives in multi-modal and other technologies",
+   "original": "asr0_241",
+   "page_count": 3,
+   "order": 38,
+   "p1": "241",
+   "pn": "243",
+   "abstract": [
+    "Direct government funding for ASR research has been on a steady decline since 1994. DARPA, The National Science Foundation (NSF), and other agencies have reduced funding in anticipation of product development critical mass from the private sector. While private industry has conducted research and delivered several speech related products to the marketplace, specific military requirements for robust speech recognition in adverse environments are not being actively addressed by private industry. After presenting these views to the directors of various government research organizations, new projects are in the works to enhance the reliability and adaptive nature of ASR systems. The purpose of this paper is to inform the international community of these new initiatives in hopes of expanding the research base.\n",
+    ""
+   ]
+  },
+  "furui00b_asr": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ],
+    [
+     "Kikuo",
+     "Maekawa"
+    ],
+    [
+     "Hitoshi",
+     "Isahara"
+    ]
+   ],
+   "title": "A Japanese national project on spontaneous speech corpus and processing technology",
+   "original": "asr0_244",
+   "page_count": 5,
+   "order": 39,
+   "p1": "244",
+   "pn": "248",
+   "abstract": [
+    "A new national project for raising the technological level of speech recognition and understanding has recently commenced in Japan. This project aims at a) building a large-scale spontaneous speech corpus consisting of roughly 7M words and 800 hours of speech, b) acoustic and linguistic modeling for spontaneous speech understanding and summarization using linguistic as well as para-linguistic information in speech, and c) building a prototype of a spontaneous speech summarization system. The corpus under compilation will contain spontaneously uttered Common Japanese speech and the morphologically annotated transcriptions. Also, segmental and intonation labeling will be provided for a subset of the corpus. The primary application domain of the corpus is speech recognition of spontaneous speech, but it is also planned to become a useful research corpus both for natural language processing and phonetic/linguistic studies.\n",
+    ""
+   ]
+  },
+  "boves00_asr": {
+   "authors": [
+    [
+     "Lou",
+     "Boves"
+    ],
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Juergen",
+     "Sienel"
+    ],
+    [
+     "Renato de",
+     "Mori"
+    ],
+    [
+     "Fréderic",
+     "Béchet"
+    ],
+    [
+     "Luciano",
+     "Fissore"
+    ],
+    [
+     "Pietro",
+     "Laface"
+    ]
+   ],
+   "title": "ASR for automatic directory assistance: The SMADA project",
+   "original": "asr0_249",
+   "page_count": 6,
+   "order": 40,
+   "p1": "249",
+   "pn": "254",
+   "abstract": [
+    "In this paper we summarise the state-of-the-art for automatic speech recognition in automated Directory Assistance at the start of the 5th Framework project SMADA. Details are given about robust acoustic features for use in Distributed Speech Recognition, especially with respect to noise suppression. Then an overview is given of the confidence measures which are in use today, and their similarities and differences. Finally, work aimed at automatic update of acoustic models and automatic inference of language models is sketched that is becoming possible thanks to the very large amounts of data that can be recorded in operational services.\n",
+    "In addition to summarising the state-of-the-art the paper also indicates the lines along which the research in SMADA will develop.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Papers",
+   "papers": [
+    "woodland00_asr",
+    "aubert00_asr",
+    "mohri00_asr",
+    "padmanabhan00_asr",
+    "cohen00_asr"
+   ]
+  },
+  {
+   "title": "Acoustic Model Training",
+   "papers": [
+    "kirchhoff00_asr",
+    "stadermann00_asr"
+   ]
+  },
+  {
+   "title": "Decoding",
+   "papers": [
+    "stubley00_asr",
+    "caseiro00_asr",
+    "kanthak00_asr",
+    "schwenk00_asr"
+   ]
+  },
+  {
+   "title": "Noise Robustness",
+   "papers": [
+    "potamitis00_asr",
+    "korkmazskiy00_asr",
+    "hilger00_asr",
+    "furui00_asr",
+    "meyer00_asr",
+    "hagen00_asr",
+    "hirsch00_asr"
+   ]
+  },
+  {
+   "title": "Language and Pronunciation Modeling",
+   "papers": [
+    "varona00_asr",
+    "printz00_asr",
+    "amdal00_asr"
+   ]
+  },
+  {
+   "title": "Acoustic Model Adaptation",
+   "papers": [
+    "gao00_asr",
+    "kenny00_asr",
+    "siohan00_asr",
+    "padmanabhan00b_asr"
+   ]
+  },
+  {
+   "title": "Acoustic Modeling",
+   "papers": [
+    "richardson00_asr",
+    "peng00_asr",
+    "zheng00_asr",
+    "lamel00_asr",
+    "kienappel00_asr"
+   ]
+  },
+  {
+   "title": "Error Analysis, Confidence Measures and Metadata",
+   "papers": [
+    "greenberg00_asr",
+    "charlet00_asr",
+    "goronzy00_asr",
+    "hazen00_asr",
+    "cettolo00_asr",
+    "gotoh00_asr"
+   ]
+  },
+  {
+   "title": "New National and International Speech Projects and Future Prospects",
+   "papers": [
+    "ljungqvist00_asr",
+    "bass00_asr",
+    "furui00b_asr",
+    "boves00_asr"
+   ]
+  }
+ ]
+}

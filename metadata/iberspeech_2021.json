@@ -1,0 +1,2003 @@
+{
+ "title": "IberSPEECH 2021",
+ "location": "Valladolid, Spain",
+ "startDate": "24/3/2021",
+ "endDate": "25/3/2021",
+ "URL": "https://iberspeech2020.eca-simm.uva.es",
+ "chair": "Chairs: Valentín Cardeñoso-Payo, David Escudero-Mancebo and César González-Ferreras",
+ "conf": "IberSPEECH",
+ "year": "2021",
+ "name": "iberspeech_2021",
+ "series": "IberSPEECH",
+ "SIG": "",
+ "title1": "IberSPEECH 2021",
+ "date": "24-25 March 2021",
+ "papers": {
+  "santiso21_iberspeech": {
+   "authors": [
+    [
+     "Sara",
+     "Santiso"
+    ]
+   ],
+   "title": "Adverse Drug Reaction extraction on Electronic Health Records written in Spanish: A PhD Thesis overview",
+   "original": "2",
+   "page_count": 5,
+   "order": 35,
+   "p1": 155,
+   "pn": 159,
+   "abstract": [
+    "The aim of this work is the automatic extraction of Adverse Drug Reactions (ADRs) in Electronic Health Records (EHRs) written in Spanish. From Natural Language Processing (NLP) perspective, this is approached as a relation extraction task in which the drug is the causative agent of a disease, the adverse reaction. This would help to increase the reporting of ADRs and their earliest possible detection, helping to improve the health of the patients.\nADR extraction from EHRs involves major challenges. First, drugs and diseases found in an EHR are often unrelated or sometimes related as treatment, but seldom as ADRs. This implies the inference of a predictive model from samples with skewed class distribution. Second, EHRs contain both standard and nonstandard abbreviations and misspellings. All this leads to a high lexical variability. Third, the Spanish count with few resources and tools to apply NLP. To cope with these challenges, we explored several ADR detection algorithms (Random Forest and Joint AB-LSTM) and representations (symbolic and dense) to characterize the ADR candidates. In addition, we assessed the tolerance of the ADR detection model to external noise such as the incorrect detection of the medical entities involved in the ADR extraction.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-34"
+  },
+  "gimenogomez21_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Gimeno-Gómez"
+    ],
+    [
+     "Carlos-D.",
+     "Martínez-Hinarejos"
+    ]
+   ],
+   "title": "Analysis of Visual Features for Continuous Lipreading in Spanish",
+   "original": "3",
+   "page_count": 5,
+   "order": 49,
+   "p1": 220,
+   "pn": 224,
+   "abstract": [
+    "During a conversation, our brain is responsible for combining information obtained from multiple senses in order to improve our ability to understand the message we are perceiving. Different studies have shown the importance of presenting visual information in these situations. Nevertheless, lipreading is a complex task whose objective is to interpret speech when audio is not available. By dispensing with a sense as crucial as hearing, it will be necessary to be aware of the challenge that this lack presents. In this paper, we propose an analysis of different speech visual features with the intention of identifying which of them is the best approach to capture the nature of lip movements for natural Spanish and, in this way, dealing with the automatic visual speech recognition task. In order to estimate our system, we present an audiovisual corpus compiled from a subset of the RTVE database, which has been used in the Albayzı́n evaluations. We employ a traditional system based on Hidden Markov Models with Gaussian Mixture Models. Results show that, although the task is difficult, in restricted conditions we obtain recognition results which determine that using eigenlips in combination with deep features is the best visual approach.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-47"
+  },
+  "gimeno21_iberspeech": {
+   "authors": [
+    [
+     "Pablo",
+     "Gimeno"
+    ],
+    [
+     "Dayana",
+     "Ribas"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ]
+   ],
+   "title": "Convolutional Recurrent Neural Networks for Speech Activity Detection in Naturalistic Audio from Apollo Missions",
+   "original": "4",
+   "page_count": 5,
+   "order": 7,
+   "p1": 26,
+   "pn": 30,
+   "abstract": [
+    "Speech Activity Detection (SAD) aims to correctly distinguish audio segments containing human speech. Several solutions have been successfully applied to the SAD task, with deep learning approaches being specially relevant nowadays. This paper describes a SAD solution based on Convolutional Recurrent Neural Networks (CRNN) presented as the ViVoLab submission to the 2020 Fearless steps challenge. The dataset used comes from the audio of Apollo space missions, presenting a challenging domain with strong degradation and several transmission noises. First, we explore the performance of 1D and 2D convolutional processing stages. Then we propose a novel architecture that executes the fusion of two convolutional feature maps by combining the information captured with 1D and 2D filters. Obtained results largely outperform the baseline provided by the organization. They were able to achieve a detection cost function below 2% on the development set for all configurations. Best results were reported on the presented fusion architecture, with a DCF metric of 1.78% on the evaluation set and ranking fourth among all the participant teams in the challenge SAD task.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-6"
+  },
+  "escudero21_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Escudero"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso-Payo"
+    ],
+    [
+     "Mario",
+     "Corrales Astorgano"
+    ],
+    [
+     "César",
+     "González-Ferreras"
+    ],
+    [
+     "Valle",
+     "Flores Lucas"
+    ],
+    [
+     "Lourdes",
+     "Aguilar"
+    ],
+    [
+     "Yolanda",
+     "Martín-de-San-Pablo"
+    ],
+    [
+     "Alfonso",
+     "Rodríguez-de-Rojas"
+    ]
+   ],
+   "title": "Incorporation of an automatic module for the prediction of the quality of oral communication of people with Down syndrome in an educational video game",
+   "original": "5",
+   "page_count": 4,
+   "order": 27,
+   "p1": 123,
+   "pn": 126,
+   "abstract": [
+    "This paper presents an abstract of the project PRAUTOCAL , financed by the Spanish Ministry of Science with code TIN2017-88858-C2-1-R. A software component for the automatic prediction of speech quality has been included in a video game for the training of prosody related oral competences of Down syndrome (DS) speakers. The automatic component was trained with samples collected during training sessions driven by therapists who rated the quality of DS utterances. The usability tests performed with the new version of the video game show that the goal of autonomous and semi-autonomous training has been accomplished.  Secondary results of the project are the compilation of a valuable annotated corpus of DS speakers and different studies about peculiarities the difficulties of DS speakers for producing prosodic functions.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-26"
+  },
+  "escudero21b_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Escudero"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso-Payo"
+    ],
+    [
+     "Mario",
+     "Corrales Astorgano"
+    ],
+    [
+     "César",
+     "González-Ferreras"
+    ]
+   ],
+   "title": "Prosodic feature selection for automatic quality assessment of oral productions in people with Down syndrome",
+   "original": "6",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "Evaluation of prosodic quality is always a challenging task dueto the nature of prosody with multiple form-function valid pro-files.  When voice of people with Down syndrome (DS) is ana-lyzed, diversity increases making the problem even more chal-lenging.  This work is framed in our activities for developinglearning games for training oral communications of people withintellectual  disabilities.   In  this  context  automatic  evaluationof prosodic quality is a must for deciding whether game usersshould repeat activities or continue playing and to inform ther-apists about the particular difficulties of users. In this paper wepresent  a  procedure  for  the  selection  of  informative  prosodicfeatures based on both the distance between human rated rightand wrong productions and the distance with respect to produc-tions of typical users.  It is new with respect to previous worksthe use of mixed models to rate the importance of taking into ac-count the type of activity and speaker for estimating the qualityof the prosodic productions.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-1"
+  },
+  "gomezalanis21_iberspeech": {
+   "authors": [
+    [
+     "Alejandro",
+     "Gomez-Alanis"
+    ],
+    [
+     "Jose A.",
+     "Gonzalez"
+    ],
+    [
+     "Antonio M.",
+     "Peinado"
+    ]
+   ],
+   "title": "Adversarial Transformation of Spoofing Attacks for Voice Biometrics",
+   "original": "7",
+   "page_count": 5,
+   "order": 56,
+   "p1": 255,
+   "pn": 259,
+   "abstract": [
+    "Voice biometric systems based on automatic speaker verification (ASV) are exposed to spoofing attacks which may compromise their security. To increase the robustness against such attacks, anti-spoofing or presentation attack detection (PAD) systems have been proposed for the detection of replay, synthesis and voice conversion based attacks. Recently, the scientific community has shown that PAD systems are also vulnerable to adversarial attacks. However, to the best of our knowledge, no previous work have studied the robustness of full voice biometrics systems (ASV + PAD) to these new types of adversarial spoofing attacks. In this work, we develop a new adversarial biometrics transformation network (ABTN) which jointly processes the loss of the PAD and ASV systems in order to generate white-box and black-box adversarial spoofing attacks. The core idea of this system is to generate adversarial spoofing attacks which are able to fool the PAD system without being detected by the ASV system. The experiments were carried out on the ASVspoof 2019 corpus, including both logical access (LA) and physical access (PA) scenarios. The experimental results show that the proposed ABTN clearly outperforms some well-known adversarial techniques in both white-box and black-box attack scenarios.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-54"
+  },
+  "tejedorgarcia21_iberspeech": {
+   "authors": [
+    [
+     "Cristian",
+     "Tejedor-García"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso-Payo"
+    ],
+    [
+     "David",
+     "Escudero-Mancebo"
+    ]
+   ],
+   "title": "Design and Evaluation of Mobile Computer-Assisted Pronunciation Training Tools for Second Language Learning: a Ph.D. Thesis Overview",
+   "original": "8",
+   "page_count": 5,
+   "order": 36,
+   "p1": 160,
+   "pn": 164,
+   "abstract": [
+    "Recent advances on speech technologies (automatic speech recognition, ASR, and text-to-speech, TTS, synthesis) have led to their integration in computer-assisted pronunciation training (CAPT) tools. However, pronunciation is an area of teaching that has not been developed enough since there is scarce empirical evidence assessing the effectiveness of CAPT tools and games that include ASR/TTS. In this manuscript, we summarize the findings presented in Cristian Tejedor-García's Ph.D. Thesis (University of Valladolid, 2020). In particular, this dissertation addresses the design and validation of an innovative CAPT system for smart devices for training second language (L2) pronunciation at the segmental level with a specific set of methodological choices, such as the inclusion of ASR/TTS technologies with minimal pairs, learner's native–foreign language connection, a training cycle of exposure–perception– production, and individual/social approaches. The experimental research conducted applying these methodological choices with real users validates the efficiency of the CAPT prototypes developed for the four main experiments of this dissertation about English and Spanish as L2. We were able to accurately measure the relative pronunciation improvement of the individuals who trained with them. Expert raters on phonetics' subjective scores and CAPT's objective scores showed a strong correlation, being useful in the future to be able to assess a large amount of data and reducing human costs.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-35"
+  },
+  "tejedorgarcia21b_iberspeech": {
+   "authors": [
+    [
+     "Cristian",
+     "Tejedor-García"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso-Payo"
+    ],
+    [
+     "David",
+     "Escudero-Mancebo"
+    ]
+   ],
+   "title": "Performance Comparison of Specific and General-Purpose ASR Systems for Pronunciation Assessment of Japanese Learners of Spanish",
+   "original": "9",
+   "page_count": 5,
+   "order": 2,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "General–purpose state-of-the-art automatic speech recognition (ASR) systems have notably improved their quality in the last decade opening the possibility to be used in different practical applications, such as pronunciation assessment. However, the assessment of short words as minimal pairs in segmental approaches remains an important challenge for ASR, even more for non-native speakers. In this work, we use both our own tailored specific–purpose Kaldi–based ASR system and Google ASR to assess Spanish minimal pair words produced by 33 native Japanese speakers and to discuss their performance for computer-assisted pronunciation training (CAPT). Participants were split into three groups: experimental, in-classroom, and placebo. First two groups followed a pre/post-test training protocol spanning four weeks. Both the experimental and in-classroom groups achieved statistically significant differences at the end of the experiment, assessed by both ASR systems. We also found moderate correlation values between Google and Kaldi ASR systems in the pre/post-test values, and strong correlations between the post-test scores of both ASR systems and the CAPT application scores at the end of the experiment. Tailored ASR systems can bring clear benefits for a detailed study of pronunciation errors and results showed that they can be as useful as general–purpose ASR for assessing minimal pairs in CAPT tools.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-2"
+  },
+  "gonzalezatienza21_iberspeech": {
+   "authors": [
+    [
+     "Miriam",
+     "Gonzalez-Atienza"
+    ],
+    [
+     "Antonio M.",
+     "Peinado"
+    ],
+    [
+     "Jose A.",
+     "Gonzalez-Lopez"
+    ]
+   ],
+   "title": "An Automatic System for Dementia Detection using Acoustic and Linguistic Features",
+   "original": "10",
+   "page_count": 5,
+   "order": 58,
+   "p1": 265,
+   "pn": 269,
+   "abstract": [
+    "Early diagnosis of dementia is crucial for mitigating the consequences of this disease in patients. Previous studies have demonstrated that it is possible to detect the symptoms of dementia, in some cases even years before the onset of the disease, by detecting neurodegeneration-associated characteristics in a person’s speech. This paper presents an automatic method for detecting dementia caused by Alzheimer's disease (AD) through a wide range of acoustic and linguistic features extracted from the person's speech. Two well-known databases containing speech for patients with AD and healthy controls are used to this end: DementiaBank and ADReSS. The experimental results show that our system is able to achieve state-of-the-art performance on both databases. Furthermore, our results also show that the linguistic features extracted from the speech transcription are significantly better for detecting dementia.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-56"
+  },
+  "font21_iberspeech": {
+   "authors": [
+    [
+     "Roberto",
+     "Font"
+    ],
+    [
+     "Teresa",
+     "Grau"
+    ]
+   ],
+   "title": "The Biometric Vox System for the Albayzin-RTVE 2020 Speech-to-Text Challenge",
+   "original": "11",
+   "page_count": 5,
+   "order": 22,
+   "p1": 99,
+   "pn": 103,
+   "abstract": [
+    "This paper describes the system developed by Biometric Vox for the Albayzin Speech-To-Text Challenge organized as part of the Iberspeech 2020 conference. The system uses speaker diarization to segment the audio into speaker-homogeneous segments and uses this information to compute speaker-dependent fMLLR transformed features. These speaker-adapted features are the input to a DNN acoustic model which is trained for the domain at hand using a semi-supervised self-training procedure. Finally, a RNN language model is used for lattice rescoring and producing the final transcription. Our system achieves 22% WER on the test portion of the RTVE2018 database and 30,26% on the 2020 evaluation set.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-21"
+  },
+  "font21b_iberspeech": {
+   "authors": [
+    [
+     "Roberto",
+     "Font"
+    ],
+    [
+     "Teresa",
+     "Grau"
+    ]
+   ],
+   "title": "The Biometric Vox System for the Albayzin-RTVE 2020 Speaker Diarization and Identity Assignment Challenge",
+   "original": "12",
+   "page_count": 4,
+   "order": 19,
+   "p1": 86,
+   "pn": 89,
+   "abstract": [
+    "This paper describes the systems developed by Biometric Vox for the Albayzin Speaker Diarization Challenge organized as part of the Iberspeech 2020 conference. The two systems (primary and contrastive) we developed for the challenge are based on Deep Neural Network x–vector embeddings and a PLDA backend. The resulting x-vectors are grouped using Agglomerative Hierarchical Clustering (AHC) in order to obtain the diarization labels. Systems differ in the resegmentation stage. Our primary system achieves 14.96% DER on the test set of the RTVE2018 database and 21.35% on the 2020 evaluation set.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-18"
+  },
+  "vinals21_iberspeech": {
+   "authors": [
+    [
+     "Ignacio",
+     "Viñals"
+    ],
+    [
+     "Pablo",
+     "Gimeno"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ]
+   ],
+   "title": "Diarization and Identity Attribution Compatibility in the Albayzin 2020 Challenge",
+   "original": "13",
+   "page_count": 5,
+   "order": 21,
+   "p1": 94,
+   "pn": 98,
+   "abstract": [
+    "The current need to identify the speakers in a certain recording has evolved along time, requesting more and more information. While speaker recognition originally focused on determining whether a speaker talks in a certain audio with a single speaker, later diarization focused on differentiating speakers along the recording. The latest step is Identity Assignment (IA), which combines both of them, i.e., deciding whether a certain speaker is present in a given audio, as well as determining the periods of time when the speaker is active.\n",
+    "Our work presents and analyzes the ViVoLAB results for the Albayzin 2020 evaluation, focused on diarization and identity assignment. These challenges will be faced in the broadcast domain, with data coming from national Spanish TV Corporation RTVE.\nFor this purpose we have developed a Bottom-Up diarization architecture based on the embedding-PLDA paradigm. On top of the diarization solution we have added an identity assignment block, based on the speaker verification approach.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-20"
+  },
+  "alvarez21_iberspeech": {
+   "authors": [
+    [
+     "Aitor",
+     "Álvarez"
+    ],
+    [
+     "Haritz",
+     "Arzelus"
+    ],
+    [
+     "Iván G.",
+     "Torre"
+    ],
+    [
+     "Ander",
+     "González-Docasal"
+    ]
+   ],
+   "title": "The Vicomtech Speech Transcription Systems for the Albayzín-RTVE 2020 Speech to Text Transcription Challenge",
+   "original": "14",
+   "page_count": 4,
+   "order": 23,
+   "p1": 104,
+   "pn": 107,
+   "abstract": [
+    "This paper describes the Vicomtech’s submission to the Albayzín-RTVE 2020 Speech to Text Transcription Challenge, which calls for automatic speech transcription systems to be evaluated in realistic TV shows.\nA total of 4 systems were built and presented to the evaluation challenge, considering the primary system along to three constrastive systems. These recognition engines are different versions, evolution and configurations of two main architectures. The first architecture includes an hybrid DNN-HMM acoustic model, where factorized TDNN layers with and without initial CNN layers were trained to provide posterior probabilities to the HMM states. The language model for decoding\ncorrespond to modified Kneser-Ney smoothed 3-gram model, whilst a RNNLM model was used in some systems for rescoring the initial lattices. The second architecture was based on the Quartznet architecture proposed by Nvidia with the aim of building smaller and ligther ASR models with SOTA-level accuracy. A modified Kneser-Ney smoothed 5-gram model was employed to re-score the initial hypothesis of this E2E model. The results obtained for each TV program in the final test set are\nalso presented in addition to the hardware resources and computation time needed by each system to process the released evaluation data.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-22"
+  },
+  "campbell21_iberspeech": {
+   "authors": [
+    [
+     "Edward L.",
+     "Campbell"
+    ],
+    [
+     "Laura",
+     "Docio-Fernandez"
+    ],
+    [
+     "Javier",
+     "Jiménez-Raboso"
+    ],
+    [
+     "Carmen",
+     "Gacia-Mateo"
+    ]
+   ],
+   "title": "Alzheimer's Dementia Detection from Audio and Language Modalities in Spontaneous Speech",
+   "original": "15",
+   "page_count": 5,
+   "order": 59,
+   "p1": 270,
+   "pn": 274,
+   "abstract": [
+    "Automatic detection of Alzheimer's dementia (AD) by speech processing is enhanced when features of both the acoustic waveform and the content are extracted. Audio and text transcription have been widely used in health-related tasks, as spectral and prosodic speech features, as well as semantic and linguistic content, convey information about various diseases. Hence, this paper describes and compares the performance of different Alzheimer's disease detection approaches based on both the patient’s voice and message transcription. To this effect, five different individual systems are analysed: three of them are speech-based and the other two systems are text-based. Specifically, as speech-based systems the x-vector and i-vector paradigm to characterise speech, and a set of rhythmic-based hand-crafted features are proposed. And, for transcription analysis, two systems are proposed, one which uses pre-trainded BERT models and the other which uses knowledge-based linguistic and language modelling features. Also, to examine if acoustic and content features are complementary intra-modality and inter-modality score fusion strategies are studied. Experiments in the framework of Interspeech 2020 ADReSS challenge show that the BERT-based system outperforms other individual systems for the AD detection task. Furthermore, the fusion of acoustic- and transcription-based systems provides the best result, suggesting that the two modalities are complementary to some extent.\n",
+    ""
+   ],
+   "doi": "10.21437/IberSPEECH.2021-57"
+  },
+  "etchegoyhen21_iberspeech": {
+   "authors": [
+    [
+     "Thierry",
+     "Etchegoyhen"
+    ],
+    [
+     "Haritz",
+     "Arzelus"
+    ],
+    [
+     "Harritxu",
+     "Gete Ugarte"
+    ],
+    [
+     "Aitor",
+     "Alvarez"
+    ],
+    [
+     "Ander",
+     "González-Docasal"
+    ],
+    [
+     "Edson",
+     "Benites Fernandez"
+    ]
+   ],
+   "title": "mintzai-ST: Corpus and Baselines for Basque-Spanish Speech Translation",
+   "original": "16",
+   "page_count": 5,
+   "order": 42,
+   "p1": 190,
+   "pn": 194,
+   "abstract": [
+    "The lack of resources to train end-to-end Speech Translation models hinders research and development in the field. Although recent efforts have been made to prepare additional corpora suitable for the task, few resources are currently available. In this work, we describe mintzai-ST, a parallel speech-text corpus for Basque-Spanish in both translation directions, prepared from the sessions of the Basque Parliament and shared for research purposes. This language pair features challenging phenomena for automated speech translation, such as marked differences in morphology and word order, and the mintzai-ST corpus may thus serve as a valuable resource to measure progress in the field. We also describe and evaluate several ST model variants, including cascaded neural components, for speech recognition, machine translation, and end-to-end speech-to-text translation. The evaluation results demonstrate the usefulness of the shared corpus as an additional ST resource and contribute to determining the respective benefits and limitations of current alternative approaches to Speech Translation.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-41"
+  },
+  "jorge21_iberspeech": {
+   "authors": [
+    [
+     "Javier",
+     "Jorge"
+    ],
+    [
+     "Adrià",
+     "Giménez"
+    ],
+    [
+     "Pau",
+     "Baquero-Arnal"
+    ],
+    [
+     "Javier",
+     "Iranzo-Sánchez"
+    ],
+    [
+     "Alejandro",
+     "Pérez"
+    ],
+    [
+     "Gonçal V.",
+     "Garcés Díaz-Munío"
+    ],
+    [
+     "Joan Albert",
+     "Silvestre-Cerdà"
+    ],
+    [
+     "Jorge",
+     "Civera"
+    ],
+    [
+     "Albert",
+     "Sanchis"
+    ],
+    [
+     "Alfons",
+     "Juan"
+    ]
+   ],
+   "title": "MLLP-VRAIN Spanish ASR Systems for the Albayzin-RTVE 2020 Speech-To-Text Challenge",
+   "original": "17",
+   "page_count": 5,
+   "order": 26,
+   "p1": 118,
+   "pn": 122,
+   "abstract": [
+    "This paper describes the automatic speech recognition (ASR) systems built by the MLLP-VRAIN research group of Universitat Politecnica de València for the Albayzin-RTVE 2020 Speech-to-Text Challenge.\n",
+    "The primary system (p-streaming_1500ms_nlt) was a hybrid BLSTM-HMM ASR system using streaming one-pass decoding with a context window of 1.5 seconds and a linear combination of an n-gram, a LSTM, and a Transformer language model (LM). The acoustic model was trained on nearly 4,000 hours of speech data from different sources, using the MLLP's transLectures-UPV toolkit (TLK) and TensorFlow; whilst LMs were trained using SRILM (n-gram), CUED-RNNLM (LSTM) and Fairseq (Transformer), with up to 102G tokens. This system achieved 11.6% and 16.0% WER on the test-2018 and test-2020 sets, respectively. As it is streaming-enabled, it could be put into production environments for automatic captioning of live media streams, with a theoretical delay of 1.5 seconds.\n",
+    "Along with the primary system, we also submitted three contrastive systems. From these, we highlight the system c2-streaming_600ms_t that, following the same configuration of the primary one, but using a smaller context window of 0.6 seconds and a Transformer LM, scored 12.3% and 16.9% WER points respectively on the same test sets, with a measured empirical latency of 0.81+-0.09 seconds (mean+-stdev). This is, we obtained state-of-the-art latencies for high-quality automatic live captioning with a small WER degradation of 6% relative.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-25"
+  },
+  "prokopalo21_iberspeech": {
+   "authors": [
+    [
+     "Yevhenii",
+     "Prokopalo"
+    ],
+    [
+     "Meysam",
+     "Shamsi"
+    ],
+    [
+     "Loic",
+     "Barrault"
+    ],
+    [
+     "Sylvain",
+     "Meignier"
+    ],
+    [
+     "Anthony",
+     "Larcher"
+    ]
+   ],
+   "title": "Active correction for speaker diarization with human in the loop",
+   "original": "18",
+   "page_count": 5,
+   "order": 57,
+   "p1": 260,
+   "pn": 264,
+   "abstract": [
+    "State of the art diarization systems now achieve decent perfor-mance but those performances are often not good enough to deploy them without any human supervision. In this paper wepropose a framework that solicits a human in the loop to correct the clustering by answering simple questions. After defining the nature of the questions, we propose an algorithm to listthose questions and two stopping criteria that are necessary to limit the work load on the human in the loop. Experiments performed on the ALLIES dataset show that a limited interaction with a human expert can lead to considerable improvement of up to 36.5% relative DER compared to a strong baseline.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-55"
+  },
+  "figueras21_iberspeech": {
+   "authors": [
+    [
+     "Sergio",
+     "Figueras"
+    ],
+    [
+     "Alejandro",
+     "García-Caballero"
+    ],
+    [
+     "Carmen",
+     "Garcia Mateo"
+    ],
+    [
+     "Laura",
+     "Docio-Fernandez"
+    ],
+    [
+     "Edward L.",
+     "Campbell"
+    ],
+    [
+     "Baltasar G.",
+     "Perez-Schofield"
+    ],
+    [
+     "Leandro",
+     "Rodríguez-Liñares"
+    ],
+    [
+     "Arturo J.",
+     "Méndez"
+    ]
+   ],
+   "title": "CIRUSS Platform: Surgery Patient Empowerment by Stress and Anxiety Monitoring",
+   "original": "19",
+   "page_count": 3,
+   "order": 28,
+   "p1": 127,
+   "pn": 129,
+   "abstract": [
+    "In this paper, we present the CIRUSS software platform that has been developed within the framework of the Phase 2 of the STARS pre-commercial procurement (PCP). STARS-PCP aims at developing novel personalised solutions for reducing stress related to surgical procedures.  CIRUSS is an integrated, scalable, sustainable and technologically adapted solution that aims to response to present and future needs of the European healthcare systems in relation to stress and anxiety management for surgery patients. Among the different functionalities included in CIRUSS, the solution integrates a tool for detecting the stress and anxiety by joint processing of voice, face and heart-rate of the patient. As a side product, a dataset of patient video interviews has been designed and acquired. This dataset has been used to assess the performance of monomodal stress detection systems as well the multimodal approach.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-27"
+  },
+  "gonzalezlopez21_iberspeech": {
+   "authors": [
+    [
+     "Jose Andres",
+     "Gonzalez Lopez"
+    ],
+    [
+     "Miriam",
+     "González Atienza"
+    ],
+    [
+     "Alejandro",
+     "Gómez Alanis"
+    ],
+    [
+     "José Luis",
+     "Pérez Córdoba"
+    ],
+    [
+     "Phil D.",
+     "Green"
+    ]
+   ],
+   "title": "Multi-view Temporal Alignment for Non-parallel Articulatory-to-Acoustic Speech Synthesis",
+   "original": "20",
+   "page_count": 5,
+   "order": 51,
+   "p1": 230,
+   "pn": 234,
+   "abstract": [
+    "Articulatory-to-acoustic (A2A) synthesis refers to the generation of audible speech from captured movement of the speech articulators. This technique has numerous applications, such as restoring oral communication to people who cannot longer speak due to illness or injury. Most successful techniques so far adopt a supervised learning framework, in which time-synchronous articulatory-and-speech recordings are used to train a supervised machine learning algorithm that can be used later to map articulator movements to speech. This, however, prevents the application of A2A techniques in cases where parallel data is unavailable, e.g., a person has already lost her/his voice and only articulatory data can be captured. In this work, we propose a solution to this problem based on the theory of multi-view learning. The proposed algorithm attempts to find an optimal temporal alignment between pairs of non-aligned articulatory-and-acoustic sequences with the same phonetic content by projecting them into a common latent space where both views are maximally correlated and then applying dynamic time warping. Several variants of this idea are discussed and explored. We show that the quality of speech generated in the non-aligned scenario is comparable to that obtained in the parallel scenario.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-49"
+  },
+  "portalorenzo21_iberspeech": {
+   "authors": [
+    [
+     "Manuel",
+     "Porta-Lorenzo"
+    ],
+    [
+     "José Luis",
+     "Alba-Castro"
+    ],
+    [
+     "Laura",
+     "Docío-Fernández"
+    ]
+   ],
+   "title": "The GTM-UVIGO System for Audiovisual Diarization 2020",
+   "original": "21",
+   "page_count": 5,
+   "order": 18,
+   "p1": 81,
+   "pn": 85,
+   "abstract": [
+    "This paper explains in detail the Audiovisual system deployed by the Multimedia Technologies Group (GTM) of the atlanTTic research center at the University of Vigo, for the Albayzin Multimodal Diarization Challenge (MDC) organized in the Iberspeech 2020 conference. This system is characterized by the use of state of the art face and speaker verification embeddings trained with publicly available Deep Neural Networks and fine-tuned for the persons of interest. Video and audio tracks are processed separately and are finally fused to make joint decisions on the speaker diarization result.Few modifications have been made over the GTM-UVIGO system presented in the very same conference in 2018, mainly regarding the video processing part.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-17"
+  },
+  "mingote21_iberspeech": {
+   "authors": [
+    [
+     "Victoria",
+     "Mingote"
+    ],
+    [
+     "Ignacio",
+     "Viñals"
+    ],
+    [
+     "Pablo",
+     "Gimeno"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Eduardo",
+     "Lleida"
+    ]
+   ],
+   "title": "ViVoLAB Multimodal Diarization System for RTVE 2020 Challenge",
+   "original": "22",
+   "page_count": 5,
+   "order": 17,
+   "p1": 76,
+   "pn": 80,
+   "abstract": [
+    "This paper describes a post-evaluation analysis of the system developed by ViVoLAB research group for the IberSPEECH-RTVE 2020 Multimodal Diarization (MD) Challenge. This challenge is focused on the study of multimodal systems for the diarization of audiovisual files and the assignment of an identity to each segment. In this work, we have implemented two different subsystems to address this task using the images and the audio from files separately. To develop our subsystems, we have employed the state of the art speaker and face verification embeddings extracted from publicly available Deep Neural Networks (DNN). Different clustering approaches are also used in combination with the tracking and identity assignment process. Furthermore, in the face verification system, we have included a novel approach to train an enrollment model for each identity which we have shown previously to improve the results compared to the average of the enrollment data. Using this approach, we train a learnable vector to represent each enrollment character.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-16"
+  },
+  "pererocodosero21_iberspeech": {
+   "authors": [
+    [
+     "Juan M.",
+     "Perero-Codosero"
+    ],
+    [
+     "Fernando M.",
+     "Espinoza-Cuadros"
+    ],
+    [
+     "Luis A.",
+     "Hernández-Gómez"
+    ]
+   ],
+   "title": "Sigma-UPM ASR Systems for the IberSpeech-RTVE 2020 Speech-to-Text Transcription Challenge",
+   "original": "23",
+   "page_count": 5,
+   "order": 24,
+   "p1": 108,
+   "pn": 112,
+   "abstract": [
+    "This paper describes the Sigma-UPM Automatic Speech Recognition (ASR) systems submitted to IberSpeech-RTVE 2020 Speech-to-Text Transcription Challenge. Deep Neural Networks (DNN) are becoming the most promising technology for ASR at present. Since last few years, traditional hybrid models are being evaluated and compared to other end-to-end ASR systems in terms of accuracy and efficiency. \nIn this Challenge, we contribute with two different approaches: a primary hybrid ASR system based on DNN-HMM and two contrastive state-of-the-art end-to-end ASR systems, based on lattice-free maximum mutual information (LF-MMI). Our analysis of the results from the last edition led us to conclude that some adaptation should be accomplished to improve the systems’ performance. In particular, data augmentation techniques and Domain Adversarial Training (DAT) have been applied to the aforementioned approaches.\nExperiments were carried out using 6 hours of dev1 and dev2 partitions from the RTVE2018 Database. Multi-condition data augmentation applied to our hybrid DNN-HMM models has demonstrated WER improvements in noisy scenarios (about 10% relative). In contrast, results obtained using an end-to-end Pychain-based ASR system are far from our expectations. Nevertheless, we found that when including DAT techniques  a relative improvement, in terms of WER, of 2.87% was obtained when compared to the Pychain-based baseline system.\n",
+    ""
+   ],
+   "doi": "10.21437/IberSPEECH.2021-23"
+  },
+  "villaplana21_iberspeech": {
+   "authors": [
+    [
+     "Aitana",
+     "Villaplana"
+    ],
+    [
+     "Carlos David",
+     "Martinez Hinarejos"
+    ]
+   ],
+   "title": "Generation of Synthetic Sign Language Sentences",
+   "original": "24",
+   "page_count": 5,
+   "order": 52,
+   "p1": 235,
+   "pn": 239,
+   "abstract": [
+    "Sign language is one of the most usual ways of communication for deaf people. Their inclusion in the society would be greatly improved if sign language can be easily used to communicate with other people that do not understand properly that language. Automatic recognition systems, based on machine learning techniques, could be very useful for this task, providing signers with tools that could be used to transcribe sign language into written language automatically. Many previous works have centered mainly in the recognition of single words, and different datasets of single words signs are available for estimating recognition models for this task. However, the recognition of whole sentences is difficult, since the acquisition of datasets of sentences is in general harder than the acquisition of single words. Thus, the possibility of generating sentences in sign language from single word datasets is very attractive to obtain automatic systems for decoding sign language sentences. In this work, we present an approximation for generating sign sentences from sign single words acquired by using the LeapMotion sensor. We study the different difficulties that present this generation process. Results for real sign language sentences show that training with these synthetic sentences improves the decoding performance with respect to using only single words for training.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-50"
+  },
+  "hernaez21_iberspeech": {
+   "authors": [
+    [
+     "Inma",
+     "Hernaez"
+    ],
+    [
+     "Jose Andrés",
+     "González-López"
+    ],
+    [
+     "Eva",
+     "Navas"
+    ],
+    [
+     "Jose Luis",
+     "Pérez Córdoba"
+    ],
+    [
+     "Ibon",
+     "Saratxaga"
+    ],
+    [
+     "Gonzalo",
+     "Olivares"
+    ],
+    [
+     "Jon",
+     "Sánchez de la Fuente"
+    ],
+    [
+     "Alberto",
+     "Galdón"
+    ],
+    [
+     "Víctor",
+     "García Romillo"
+    ],
+    [
+     "Míriam",
+     "González-Atienza"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ],
+    [
+     "Phil",
+     "Green"
+    ],
+    [
+     "Michael",
+     "Wand"
+    ],
+    [
+     "Ricard",
+     "Marxer"
+    ],
+    [
+     "Lorenz",
+     "Diener"
+    ]
+   ],
+   "title": "Voice Restoration with Silent Speech Interfaces (ReSSInt)",
+   "original": "25",
+   "page_count": 5,
+   "order": 29,
+   "p1": 130,
+   "pn": 134,
+   "abstract": [
+    "ReSSInt aims at investigating the use of silent speech interfaces (SSIs) for restoring communication to individuals who have been deprived of the ability to speak. SSIs are devices which capture non-acoustic biosignals generated during the speech production process and use them to predict the intended message. Two are the biosignals that will be investigated in this project: electromyography (EMG) signals representing electrical activity driving the facial muscles and invasive electroencephalography (iEEG) neural signals captured by means of invasive electrodes implanted on the brain. From the whole spectrum of speech disorders which may affect a person’s voice, ReSSInt will address two particular conditions: (i) voice loss after total laryngectomy and (ii) neurodegenerative diseases and other traumatic injuries which may leave an individual paralyzed and, eventually, unable to speak. To make this technology truly beneficial for these persons, this project aims at generating intelligible speech of reasonable quality. This will be tackled by recording large databases and the use of state-of-the-art generative deep learning techniques. Finally, different voice rehabilitation scenarios are foreseen within the project, which will lead to innovative research solutions for SSIs and a real impact on society by improving the life of people with speech impediments.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-28"
+  },
+  "fernandezgallego21_iberspeech": {
+   "authors": [
+    [
+     "María Pilar",
+     "Fernández-Gallego"
+    ],
+    [
+     "Doroteo T.",
+     "Toledano"
+    ]
+   ],
+   "title": "A study of data augmentation for increased ASR robustness against packet losses",
+   "original": "27",
+   "page_count": 5,
+   "order": 40,
+   "p1": 180,
+   "pn": 184,
+   "abstract": [
+    "Nowadays a large amount of companies record conversations, calls, sales or even meetings, in many cases to comply with the current legislation. Apart from the legal need, these recordings constitute an invaluable source of information about clients, call center operators, marketing campaigns, markets trends, etc. The current state of the art in Automatic Speech Recognition (ASR) allows to exploit this information in a very efficient way. However, the recordings at these repositories tend to present very low quality because the audio is typically recorded in a highly compressed way to save storing space.  Besides, since it is very common to use Voice over IP (VoIP) in these systems, it is usual to have short interruptions in the speech signal due to packet losses. Both effects, and particularly the last one, have an impact in ASR performance.\n",
+    "This paper presents an extensive study of the influence of these effects and the effectiveness of different data augmentation strategies to increase the robustness of ASR systems in these circumstances, and in particular when packet losses degrade the speech signal.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-39"
+  },
+  "freixes21_iberspeech": {
+   "authors": [
+    [
+     "Marc",
+     "Freixes"
+    ],
+    [
+     "Francesc",
+     "Alías"
+    ],
+    [
+     "Joan Claudi",
+     "Socoró"
+    ]
+   ],
+   "title": "Contribution of vocal tract and glottal source spectral cues in the generation of happy and aggressive [a] vowels",
+   "original": "28",
+   "page_count": 5,
+   "order": 53,
+   "p1": 240,
+   "pn": 244,
+   "abstract": [
+    "At present, three-dimensional (3D) acoustic models allow for the numerical simulation of vowels, diphthongs and some vowel-consonant-vowel sequences using realistic vocal tract geometries. While research is being done to generate more phonemes and short utterances, some attempts have been made to incorporate expressiveness into the 3D numerical simulation of isolated vowels. However they are very preliminary and still far from the generation of expressive utterances. To move towards this goal, this work analyses the contribution of vocal tract (VT) and glottal source spectral (GSS) cues to the production of happy and aggressive vowels with respect to neutral vowels. After parameterising with the GlottDNN vocoder the paired neutral-expressive utterances from a Spanish database, neutral utterances are transplanted with the target expressive prosody as baseline, and subsequently resynthesised considering also the GSS and/or VT from their expressive pairs. Objective and subjective evaluations show that, both GSS and VT have a statistically significant contribution to convey the tense voice target emotions. VT prevails over GSS specially for aggressive. Best results are achieved when considering both GSS and VT, which compared to the baseline permits an increase in the perceived emotional intensity of 55.3% for happy and 62.8% for aggressive utterances.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-51"
+  },
+  "bai21_iberspeech": {
+   "authors": [
+    [
+     "Yu",
+     "Bai"
+    ],
+    [
+     "Ferdy",
+     "Hubers"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "An ASR-based Reading Tutor for Practicing Reading Skills in the First Grade: Improving Performance through Threshold Adjustment",
+   "original": "29",
+   "page_count": 5,
+   "order": 3,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "Automatic Speech Recognition (ASR) technology can\npotentially be employed to provide intensive practice and\nfeedback to young children learning to read. So far there has\nbeen limited research on the use of ASR in the early stages of\nlearning to read when children are still developing decoding\nskills. For this purpose we developed an ASR-based system\nequipped with logging capabilities that can evaluate decoding\nskills in Dutch first graders reading aloud and provide them\nwith detailed, individualized feedback. In a previous study we\nfound that ASR-based feedback led to improved reading\naccuracy and speed and that useful information could be\nobtained from the log-files, which in turn could be employed\nto improve practice and feedback.In the present paper we\nconducted thorough analyses of the performance of this ASR-\nbased system by comparing it to human annotations of the\nsame read aloud 11849 words from 38 pupils so as to gain\nmore detailed information on the nature of the ASR errors. We\npresent the results of these experiments and discuss how they\ncan be employed to improve the system and to contribute to\nbetter and more personalized ASR-based reading instruction.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-3"
+  },
+  "morovelazquez21_iberspeech": {
+   "authors": [
+    [
+     "Laureano",
+     "Moro-Velazquez"
+    ],
+    [
+     "Jorge",
+     "Gomez-Garcia"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Juan Ignacio",
+     "Godino-Llorente"
+    ]
+   ],
+   "title": "New tools for the differential evaluation of Parkinson's disease using voice and speech processing",
+   "original": "30",
+   "page_count": 5,
+   "order": 37,
+   "p1": 165,
+   "pn": 169,
+   "abstract": [
+    "Parkinson's Disease (PD) is a neurodegenerative condition that affects the motor capabilities of individuals. Early detection can potentially contribute to slow its progression in a near future. Therefore, new objective and reliable tools are needed to support its diagnosis. Literature suggests that the patients' speech can provide relevant information about the presence of the disease. \nIn this study, five sets of experiments were carried out, each containing new approaches to detect the presence of the disease in the speech of idiopathic PD patients and control speakers from three different corpora, two of them in the Spanish language.\nDifferent speech frame selection techniques are proposed, such as phonemic and acoustic landmark distillation, providing certain specific speech segments of interest to this work's purposes. Multiple cepstral and spectral features were employed, along with several classification techniques based on Gaussian models and speaker embeddings.\nThe best accuracy results in detecting PD with the proposed methodologies reached values ranging from 85% to 94% with Area Under the Curve between 0.91 and 0.99, depending on the corpus. \nResults suggest that PD affects the movements related to all of the studied articulatory segmental groups but has a more evident influence in the consonants with a greater narrowing of the vocal tract, mainly plosives, and fricatives. \nThe new proposed methodologies demonstrate their ability to support PD's diagnosis during a patient's clinical assessment and are a step forward in PD's speech-based diagnosis systems.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-36"
+  },
+  "garcia21_iberspeech": {
+   "authors": [
+    [
+     "Victor",
+     "Garcia"
+    ],
+    [
+     "Inma",
+     "Hernaez"
+    ],
+    [
+     "Eva",
+     "Navas"
+    ]
+   ],
+   "title": "Implementation of neural network based synthesizers for Spanish and Basque",
+   "original": "31",
+   "page_count": 5,
+   "order": 50,
+   "p1": 225,
+   "pn": 229,
+   "abstract": [
+    "This paper describes the implementation of neural-network based Text-to-Speech (TTS) synthesizers for Spanish and Basque. In order to develop this research, the voices of one male and one female speakers, both bilinguals, are used in a data set of around 4 and a half hours for each voice and language. The system uses Tacotron to compute mel-spectrograms from the input text sequence and Waveglow to obtain the resulting audios. \nTraining the mentioned models with a limited amount of data leads to synthesis errors in some utterances, affecting the naturalness of the audios and even producing unintelligible speech. In this paper, we describe the method followed to automatically detect erroneously synthesized audios and the strategy followed to address the causes of the errors. The designed method has been validated by testing the TTSs using a large set of out-of-domain sentences. \nIn the end a fully operational system is developed, with capacity to generate good quality and natural audios, as showcased by the evaluation conducted.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-48"
+  },
+  "castillosanchez21_iberspeech": {
+   "authors": [
+    [
+     "Carlos Rodrigo",
+     "Castillo-Sanchez"
+    ],
+    [
+     "Leibny Paola",
+     "Garcia-Perera"
+    ]
+   ],
+   "title": "The CLIR-CLSP System for the IberSPEECH-RTVE 2020 Speaker Diarization and Identity Assignment Challenge",
+   "original": "32",
+   "page_count": 4,
+   "order": 20,
+   "p1": 90,
+   "pn": 93,
+   "abstract": [
+    "This paper describes the Speaker Diarization system jointly developed by the Computational Learning and Imaging Research (CLIR) laboratory of the Universidad Autónoma de Yucatán and the Center for Language and Speech Processing (CLSP) of the Johns Hopkins University for the Albayzin Speaker Diarization and Identity Assignment Challenge organized in the IberSPEECH 2020 conference. The Speaker Diarization system follows an x-vector-PLDA-VBx pipeline built with the Kaldi toolkit. It uses a Time Delay Neural Network (TDNN)-based Speech Activity Detector (SAD), with x-vectors as acoustic features, clustered with Agglomerative Hierarchical Clustering (AHC) as initialization for variational Bayes clustering. The system was only evaluated in the Speaker Diarization condition.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-19"
+  },
+  "martindonas21_iberspeech": {
+   "authors": [
+    [
+     "Juan Manuel",
+     "Martín-Doñas"
+    ],
+    [
+     "Antonio M.",
+     "Peinado"
+    ],
+    [
+     "Iván",
+     "López-Espejo"
+    ],
+    [
+     "Angel",
+     "Gomez"
+    ]
+   ],
+   "title": "Dual-channel eKF-RTF framework for speech enhancement with DNN-based speech presence estimation",
+   "original": "33",
+   "page_count": 5,
+   "order": 8,
+   "p1": 31,
+   "pn": 35,
+   "abstract": [
+    "This paper presents a dual-channel speech enhancement framework that effectively integrates deep neural network (DNN) mask estimators. Our framework follows a beamforming-plus-postfiltering approach intended for noise reduction on dual-microphone smartphones. An extended Kalman filter is used for the estimation of the relative acoustic channel between microphones, while the noise estimation is performed using a speech presence probability estimator. We propose the use of a DNN estimator to improve the prediction of the speech presence probabilities without making any assumption about the statistics of the signals. We evaluate and compare different dual-channel features to improve the accuracy of this estimator, including the power and phase difference between the speech signals at the two microphones. The proposed integrated scheme is evaluated in different reverberant and noisy environments when the smartphone is used in both close- and far-talk positions. The experimental results show that our approach achieves significant improvements in terms of speech quality, intelligibility, and distortion when compared to other approaches based only on statistical signal processing.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-7"
+  },
+  "navarro21_iberspeech": {
+   "authors": [
+    [
+     "Angel",
+     "Navarro"
+    ],
+    [
+     "Francisco",
+     "Casacuberta"
+    ]
+   ],
+   "title": "Confidence Measures for Interactive Neural Machine Translation",
+   "original": "34",
+   "page_count": 5,
+   "order": 43,
+   "p1": 195,
+   "pn": 199,
+   "abstract": [
+    "Confidence Measures (CMs) can be used to estimate the reliability of the words of a hypothesis generated by a machine translation system. In the Interactive-Predictive Machine Translation (IPMT) paradigm, they are used to determine which words of the generated predictions need to be corrected, reducing the total number of words typed by the user. The CMs used must be fast enough to do not affect the interaction between the user and the machine negatively. In this paper, we present several fast CMs for Interactive Neural Machine Translation: IBM Model 1 and 2, Fast Align and Hidden Markov Model. These estimators let the system to achieve a reduction in the number of words typed by getting less-quality translations. The experiments done proved that these CMs are fast enough to use them in an IPMT system, and obtained a high relative reduction on the number of words corrected while getting good-quality translations.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-42"
+  },
+  "debenitogorron21_iberspeech": {
+   "authors": [
+    [
+     "Diego",
+     "de Benito-Gorrón"
+    ],
+    [
+     "Daniel",
+     "Ramos"
+    ],
+    [
+     "Doroteo T.",
+     "Toledano"
+    ]
+   ],
+   "title": "An analysis of Sound Event Detection under acoustic degradation using multi-resolution systems",
+   "original": "35",
+   "page_count": 5,
+   "order": 9,
+   "p1": 36,
+   "pn": 40,
+   "abstract": [
+    "The Sound Event Detection task aims to determine the temporal locations of acoustic events in audio clips. Over the recent years, this field is holding a rising relevance due to the introduction of datasets such as Google AudioSet or DESED (Domestic Environment Sound Event Detection) and competitive evaluations like the DCASE Challenge (Detection and Classification of Acoustic Scenes and Events). In this paper, we analyse the performance of Sound Event Detection systems under diverse acoustic conditions such as high-pass or low-pass filtering, clipping or dynamic range compression. For this purpose, the audio has been obtained from the Evaluation subset of the DESED dataset, whereas the systems were trained in the context of the DCASE Challenge 2020 Task 4. Our systems are based upon the challenge baseline, which consists on a Convolutional-Recurrent Neural Network trained using the Mean Teacher method, and they employ a multi-resolution approach which is able to improve the Sound Event Detection performance through the use of several resolutions during the extraction of Mel-spectrogram features. We provide insights on the benefits of the multi-resolution approach in different acoustic settings. Furthermore, we compare the performance of the single-resolution systems in the aforementioned scenarios when using different resolutions.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-8"
+  },
+  "alonso21_iberspeech": {
+   "authors": [
+    [
+     "Agustin",
+     "Alonso"
+    ],
+    [
+     "Victor",
+     "García"
+    ],
+    [
+     "Inma",
+     "Hernaez"
+    ],
+    [
+     "Eva",
+     "Navas"
+    ],
+    [
+     "Jon",
+     "Sanchez"
+    ]
+   ],
+   "title": "Automatic Speaker Adaptation Assessment Based on Objective Measures for Voice Banking Donors",
+   "original": "36",
+   "page_count": 5,
+   "order": 47,
+   "p1": 210,
+   "pn": 214,
+   "abstract": [
+    "Speech is the most common way of communication. People who have lost total or partially their ability to speak might benefit from the use of Alternative and Augmentative Communication (AAC) devices and the use of Text-to-Speech (TTS) technology. One problem that arouses is that the synthetic voices included in these devices might be impersonal and not accurate to the user terms of age, accent or even gender. Therefore, voice banking has become a good alternative to standard commercial voices. In our voice banking strategy, people with healthy voice (donors), or the user itself before losing his or her own voice, provide the recordings to obtain a new synthetic voice using adaptation techniques. In this way, a wide catalog of synthetic voices is provided to the potential user. However, because there is no control over the recording process, the final quality of the synthetic voice is very variable. In this paper, we propose a method to assess the result of the adaptation using objective measures. The results show that this strategy can be an alternative to subjective evaluation to select the best donated voices for the voice bank.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-45"
+  },
+  "khan21_iberspeech": {
+   "authors": [
+    [
+     "Umair",
+     "Khan"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "Self-supervised Deep Learning Approaches to Speaker Recognition: A Ph.D. Thesis Overview",
+   "original": "37",
+   "page_count": 5,
+   "order": 39,
+   "p1": 175,
+   "pn": 179,
+   "abstract": [
+    "Recent advances in Deep Learning (DL) for speaker recognition have improved the performance but are constrained to the need of labels for the background data, which is difficult in practice. In i-vector based speaker recognition, cosine (unsupervised) and PLDA (supervised) are the basic scoring techniques, with a big performance gap between the two. In this thesis we tried to fill this gap without using speaker labels in several ways. We applied Restricted Boltzmann Machine (RBM) vectors for the tasks of speaker clustering and tracking in TV broadcast shows. The experiments on AGORA database show that using this approach we gain a relative improvement of 12% and 11% for speaker clustering and tracking tasks, respectively. We also applied DL techniques in order to increase the discriminative power of i-vectors in speaker verification task, for which we have proposed the use of autoencoder in several ways, i.e., (1) as a pre-training for a Deep Neural Network (DNN), (2) as a nearest neighbor autoencoder for i-vectors, (3) as an average pooled nearest neighbor autoencoder. The experiments on VoxCeleb database show that we gain a relative improvement of 21%, 42% and 53%, using the three system respectively. Finally we also proposed a self-supervised end-to-end speaker verification system. The architecture is based on a Convolutional Neural Network (CNN), trained as a siamese network with multiple branches. From the results we can see that our system shows comparable performance to a supervised baseline. \n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-38"
+  },
+  "guasch21_iberspeech": {
+   "authors": [
+    [
+     "Oriol",
+     "Guasch"
+    ],
+    [
+     "Francesc",
+     "Alías"
+    ],
+    [
+     "Marc",
+     "Arnela"
+    ],
+    [
+     "Joan Claudi",
+     "Socoró"
+    ],
+    [
+     "Marc",
+     "Freixes"
+    ],
+    [
+     "Arnau",
+     "Pont"
+    ]
+   ],
+   "title": "GENIOVOX Project: Computational generation of expressive voice",
+   "original": "38",
+   "page_count": 4,
+   "order": 34,
+   "p1": 151,
+   "pn": 154,
+   "abstract": [
+    "The GENIOVOX project: “Computational synthesis of expressive voice”, with ref. TEC2016-81107-P and funded by the Ministerio de Economía, Industria y Competitividad (Plan Nacional de I+D Excelencia) was carried out in the period 2016-2019. Its two main objectives were the following ones. On the one hand, diphthongs and hiatuses were simulated in three-dimensional (3D) geometries using the finite element method (FEM), based on the resolution of the underlying wave equations. Likewise, techniques were developed to simulate syllables with fricative consonants that did not require the use of high-performance computing. The trick was to approximate the interdental flow acoustic source terms using quadrupole, dipole and monopole distributions instead of getting them from a computational fluid dynamics simulation. In addition to generating diphthongs and syllables with fricatives, the project proposed a first attempt to incorporate some expressive effects through modifications of the vocal tract geometry and the glottal source model. Vowel sounds were computationally generated by convoluting the impulse response of 3D FEM vocal tracts with glottal pulses that incorporated tense, neutral and lax phonations from expressive speech corpora.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-33"
+  },
+  "albuquerque21_iberspeech": {
+   "authors": [
+    [
+     "Luciana",
+     "Albuquerque"
+    ],
+    [
+     "Ana Rita",
+     "Valente"
+    ],
+    [
+     "Fábio",
+     "Barros"
+    ],
+    [
+     "António",
+     "Teixeira"
+    ],
+    [
+     "Samuel",
+     "Silva"
+    ],
+    [
+     "Paula",
+     "Martins"
+    ],
+    [
+     "Catarina",
+     "Oliveira"
+    ]
+   ],
+   "title": "The age effects on EP vowel production: an ultrasound pilot study",
+   "original": "39",
+   "page_count": 5,
+   "order": 54,
+   "p1": 245,
+   "pn": 249,
+   "abstract": [
+    "For aging speech, there is a limited knowledge regarding the articulatory adjustments  underlying  the  acoustic  findings  observed  in  previous  studies.   In  this  context,  ultrasound  (US) imaging is a technology that can be safely used to study static and dynamic features of the articulators allowing comparisons of  physiological  differences  between  old  and  young  adults during speech production. In order to investigate the age-related articulatory  differences  in  European  Portuguese  (EP)  vowels, the present study analyzes the tongue contours of the 9 EP oral vowels in isolated context and in a disyllabic sequence.  From the tongue contours segmented from the US images, several parameters were extracted (e.g., tongue height, tongue advancement) to allow comparisons between speakers of different age groups.   For this  study,  while  the  analysis  of  data  for  more speakers is ongoing, we considered a set of four EP native female speakers of two different age groups ([19-31] and [63-66]) and addressed the study of the articulatory space of the EP oral vowels.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-52"
+  },
+  "kocour21_iberspeech": {
+   "authors": [
+    [
+     "Martin",
+     "Kocour"
+    ],
+    [
+     "Guillermo",
+     "Cámbara"
+    ],
+    [
+     "Jordi",
+     "Luque"
+    ],
+    [
+     "David",
+     "Bonet"
+    ],
+    [
+     "Mireia",
+     "Farrús"
+    ],
+    [
+     "Martin",
+     "Karafiát"
+    ],
+    [
+     "Karel",
+     "Veselý"
+    ],
+    [
+     "Jan",
+     "Černocký"
+    ]
+   ],
+   "title": "BCN2BRNO: ASR System Fusion for Albayzin 2020 Speech to Text Challenge",
+   "original": "40",
+   "page_count": 5,
+   "order": 25,
+   "p1": 113,
+   "pn": 117,
+   "abstract": [
+    "This paper describes joint effort of BUT and Telefónica Research on development of Automatic Speech Recognition systems for Albayzin 2020 Challenge. We compare approaches based on either hybrid or end-to-end models. In hybrid modelling, we explore the impact of SpecAugment layer on performance. For end-to-end modelling, we used a convolutional neural network with gated linear units (GLUs). The performance of such model is also evaluated with an additional n-gram language model to improve word error rates. We further inspect source separation methods to extract speech from noisy environment (i.e. TV shows). More precisely, we assess the effect of using a neural-based music separator named Demucs. A fusion of our best systems achieved 23.33% WER in official Albayzin 2020 evaluations and 13.3% WER on Albayzin 2018 evaluation set. Aside from techniques used in our final submitted systems, we also describe our efforts in retrieving high-quality transcripts for training.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-24"
+  },
+  "carrico21_iberspeech": {
+   "authors": [
+    [
+     "Nuno",
+     "Carriço"
+    ],
+    [
+     "Paulo",
+     "Quaresma"
+    ]
+   ],
+   "title": "Sentence Embeddings and Sentence Similarity for Portuguese FAQs",
+   "original": "41",
+   "page_count": 5,
+   "order": 44,
+   "p1": 200,
+   "pn": 204,
+   "abstract": [
+    "Virtual Assistant Bots are becoming essential in business models. This aims to provide customer service without the need of a human operator. Thus, the first step is to understand what a customer needs. To achieve this, we compute the sentence distance between a set of predefined FAQs and the user sentence, and extract the closest FAQ. While the problem has satisfactory results for english, it is not the case for portuguese. Therefore, we propose the use of portuguese BERT models to obtain the sentence embeddings of both the FAQs and user sentence, in order to compute their distances scores. The BERT models are fine tuned with the ASSIN 2 dataset for sentence similarity tasks to achieve better performance. The fine tuned models were evaluated against ASSIN 2 test set. The FAQs embeddings are inserted in a FAISS index, which is used to extract the n closest FAQs embeddings to a user sentence. The index provides an efficient way to maintain the embeddings and search for the closest neighbors given a query data point. Given the set of FAQs, we built sample user questions, labelled with their corresponding FAQ, to test the setup.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-43"
+  },
+  "alvareztrejos21_iberspeech": {
+   "authors": [
+    [
+     "Juan Ignacio",
+     "Álvarez-Trejos"
+    ],
+    [
+     "Doroteo T.",
+     "Toledano"
+    ]
+   ],
+   "title": "Query-by-Example Spoken Term Detection using Attentive Pooling Networks at ALBAYZIN 2020 Evaluation: The AUDIAS-UAM System",
+   "original": "42",
+   "page_count": 5,
+   "order": 15,
+   "p1": 66,
+   "pn": 70,
+   "abstract": [
+    "Query-by-example Spoken Term Detection (QbE-STD) is a key technology to harness the large amount of audiovisual content that is being stored and generated nowadays. Using audio example queries for STD has several advantages such as requiring less resources (both computational and linguistic) and resulting in less language-dependent systems. A further advantage is the possibility of developing neural end-to-end models. In this paper, we explore one of these models for QbE-STD. The model starts projecting the input pair formed by a query and a segment into fixed-length vector representations. Then, a distance between these vectors is calculated to generate a detection score. To learn similarities over the projected input pair, a two-way attention model, called attentive pooling networks, has been used. Both elements in the input pair can influence the vector representation of the other, paying more attention to the frames that contain key information of both the query and the occurrence. Our main objective is to explore if this model can find similarities regardless of the language used for training. We start showing the effectiveness of the proposed model on the Librispeech corpus, and then we evaluate it on the ALBAYZIN 2020 Search-on-Speech evaluation data.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-14"
+  },
+  "cunha21_iberspeech": {
+   "authors": [
+    [
+     "Conceição",
+     "Cunha"
+    ],
+    [
+     "Nuno",
+     "Almeida"
+    ],
+    [
+     "Jens",
+     "Frahm"
+    ],
+    [
+     "Samuel",
+     "Silva"
+    ],
+    [
+     "António",
+     "Teixeira"
+    ]
+   ],
+   "title": "Data-driven analysis of nasal vowels dynamics and coordination: Results for bilabial contexts",
+   "original": "43",
+   "page_count": 5,
+   "order": 48,
+   "p1": 215,
+   "pn": 219,
+   "abstract": [
+    "One of Portuguese distinctive marks is the large inventory of nasals, including 5 nasal vowels and many diphthongs. Acoustic and articulatory studies showed nasal vowels having an initial oral part and a short nasal tail, probably related to synchronization between oral and nasal gestures.  Previous studies have considered discrete descriptions with EMA-flesh points, limiting our grasp of the whole vocal tract,  and preliminary work using real-time MRI (RT-MRI), considered a small framerate (14fps) and a reduced number of speakers, influencing both the time resolution to study an intrinsically dynamic process and the  generalization  of  the  outcomes.   The  recent  advances  of RT-MRI, with framerates of 50fps, have opened new possibilities  for  studies  that  can  grasp  a  finer  detail  of  the  dynamics of nasals.  However, new challenges need to be tackled to deal with the resulting large amount of data and to foster analyses that go beyond qualitative approaches to tackle a larger number of speakers.  Grounded on a new RT-MRI corpus for European Portuguese, this paper explores the capabilities of recent data-driven methods, proposed for this type of RT-MRI data, to analyze dynamic aspects of nasal vowels and coordination. To this end, we consider data for 11 EP speakers and investigate vocal tract configurations, over time, and the coordination of velum and lip aperture in bilabial (oral and nasal) contexts.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-46"
+  },
+  "oliveira21_iberspeech": {
+   "authors": [
+    [
+     "Catarina",
+     "Oliveira"
+    ],
+    [
+     "Ana Rita",
+     "Valente"
+    ],
+    [
+     "Luciana",
+     "Albuquerque"
+    ],
+    [
+     "Fábio",
+     "Barros"
+    ],
+    [
+     "Paula",
+     "Martins"
+    ],
+    [
+     "Samuel",
+     "Silva"
+    ],
+    [
+     "António",
+     "Teixeira"
+    ]
+   ],
+   "title": "The Vox Senes project: a study of segmental changes and rhythm variations on European Portuguese aging voice",
+   "original": "44",
+   "page_count": 4,
+   "order": 30,
+   "p1": 135,
+   "pn": 138,
+   "abstract": [
+    "The process of aging is generally associated with a number of changes in physiological,  cognitive,  psychological  and  social domains, including modifications on vocal quality of individuals. This paper presents a recent project - VoxSenes - that intends to bridge knowledge gaps in the speech changes due to aging. A deeper knowledge on how speech changes with age is essential for the development of automatic speech recognition systems suitable for older’s voices and to clinical assessment of speech disorders.  The VoxSenes project aims to study aging voice at segmental and suprasegmental level, by analyzing the variation of acoustic and articulatory parameters. The most relevant age-related results include: an increase in vowel duration, an approximation of F0 between genders, a centralization of the vowel space for males and an increase in speech pauses. The unsupervised method already developed to extract tongue contours from ultrasound tongue images provides the required data for an automatic analysis of relevant parameters to assess speech changes on vowel production. An analysis of articulatory space of EP vowels is ongoing for speakers of different age groups, as well as a longitudinal study of age-related changes in speech rhythm.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-29"
+  },
+  "bonet21_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Bonet"
+    ],
+    [
+     "Guillermo",
+     "Cámbara"
+    ],
+    [
+     "Fernando",
+     "López"
+    ],
+    [
+     "Pablo",
+     "Gómez"
+    ],
+    [
+     "Carlos",
+     "Segura"
+    ],
+    [
+     "Jordi",
+     "Luque"
+    ],
+    [
+     "Mireia",
+     "Farrús"
+    ]
+   ],
+   "title": "Speech Enhancement for Wake-Up-Word detection in Voice Assistants",
+   "original": "45",
+   "page_count": 5,
+   "order": 10,
+   "p1": 41,
+   "pn": 45,
+   "abstract": [
+    "Keyword spotting and in particular Wake-Up-Word (WUW) detection is a very important task for voice assistants.\nA very common issue of voice assistants is that they get easily activated by background noise like music, TV or background speech that accidentally triggers the device.\nIn this paper, we propose a Speech Enhancement (SE) model adapted to the task of WUW detection that aims at increasing the recognition rate and reducing the false alarms in the presence of these types of noises. The SE model is a fully-convolutional denoising autoencoder at waveform level and is trained using a log-Mel spectrogram and waveform reconstruction losses together with the BCE loss of a simple WUW classification network. A new database has been purposely prepared for the task of recognizing the WUW in challenging conditions containing negative samples that are very phonetically similar to the keyword.\nThe database is extended with public databases and an exhaustive data augmentation to simulate different noises and environments.\nThe results obtained by concatenating the SE with a simple and state-of-the-art WUW detectors show that the SE does not have a negative impact on the recognition rate in quiet environments while increasing the performance in the presence of noise, especially when the SE and WUW detector are trained jointly end-to-end.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-9"
+  },
+  "rituertogonzalez21_iberspeech": {
+   "authors": [
+    [
+     "Esther",
+     "Rituerto-González"
+    ],
+    [
+     "Clara",
+     "Luis-Mingueza"
+    ],
+    [
+     "Carmen",
+     "Pelález-Moreno"
+    ]
+   ],
+   "title": "Using Audio Events to Extend a Multi-modal Public Speaking Database with Reinterpreted Emotional Annotations",
+   "original": "46",
+   "page_count": 5,
+   "order": 14,
+   "p1": 61,
+   "pn": 65,
+   "abstract": [
+    "Emotions present in speech provide a lot of information about the emotional state of a speaker. Affective Computing is an emerging field that analyses these states and tries to improve human-computer interaction tasks. \n",
+    "In this paper we aim to present a preliminary study on the analysis of stress in speech and acoustic events that may possibly cause it. We merge four speech \\& audio technologies: speaker and emotion recognition and acoustic event detection and classification, and explore how they influence each other. \n",
+    "We perform initial experiments on BioSpeech, a multi-modal emotions database we have extended with acoustic events and discuss a novel labelling process targeted to improve the classification performance.\n",
+    "The current study is intended as a classification and detection baseline for the mono-modal speech tasks described, and presents a discussion on the future work and multi-modal architectures to be implemented in a cyberphysical system for gender-based violence automatic detection.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-13"
+  },
+  "fernandezmartinez21_iberspeech": {
+   "authors": [
+    [
+     "Fernando",
+     "Fernández-Martínez"
+    ],
+    [
+     "David",
+     "Griol"
+    ],
+    [
+     "Zoraida",
+     "Callejas"
+    ],
+    [
+     "Cristina",
+     "Luna-Jiménez"
+    ]
+   ],
+   "title": "An approach to intent detection and classification based on attentive recurrent neural networks",
+   "original": "47",
+   "page_count": 5,
+   "order": 11,
+   "p1": 46,
+   "pn": 50,
+   "abstract": [
+    "Intent Detection is a key component of any task-oriented conversational system. To understand the user's current goal and provide the most adequate response, the system must leverage its intent detector to classify the user's utterance into one of several predefined classes (intents). This objective can also simplify the set of processes that a conversational system must complete by performing the natural language understanding and dialog management tasks into a single process conducted by the intent detector. This is particularly useful for systems oriented to FAQ services. In this paper we present a novel approach for intent detection and classification based on word-embeddings and recurrent neural networks. We have validated our approach with a selection of the corpus acquired with the Hispabot-Covid19 system obtaining satisfactory results.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-10"
+  },
+  "romero21_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Romero"
+    ],
+    [
+     "Luis Fernando",
+     "D'Haro"
+    ],
+    [
+     "Christian",
+     "Salamea"
+    ]
+   ],
+   "title": "Exploring Transformer-based Language Recognition using Phonotactic Information",
+   "original": "49",
+   "page_count": 5,
+   "order": 55,
+   "p1": 250,
+   "pn": 254,
+   "abstract": [
+    "This paper describes an encoder-only approach based on the “Transformer architecture” applied to the language recognition (LRE) task using phonotactic information. Due to the use of one global set of phonemes to recognize all languages, the proposed system needs to overcome difficulties due to the overlapping and high co-occurrences of similar phone sequences across languages. To mitigate this issue, we propose a single transformer-based encoder trained for classification, where the attention mechanism and its capability of handling large sequences of phonemes help to find discriminative sequences of phonotactic units that contribute to correctly identify the language for short, mid and long audio segments. The proposed approach provides significant improvements, outperforming phonotactic-based RNNs and Glove-based i-Vectors architectures, getting a relative improvement of 5.5% and 38,5% respectively. Our experiments were carried out using phoneme sequences obtained by the “Allosaurus phoneme recognizer” applied to the Kalaka-3 Database. This dataset is challenging since the languages to identify are mostly similar (i.e. Iberian languages, e.g. Spanish, Galician, Catalan). We provide results using the Cavg metric proposed for Nist evaluations.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-53"
+  },
+  "griol21_iberspeech": {
+   "authors": [
+    [
+     "David",
+     "Griol"
+    ],
+    [
+     "David",
+     "Pérez Fernández"
+    ],
+    [
+     "Zoraida",
+     "Callejas"
+    ]
+   ],
+   "title": "Hispabot-Covid19: the official Spanish conversational system about Covid-19",
+   "original": "52",
+   "page_count": 4,
+   "order": 31,
+   "p1": 139,
+   "pn": 142,
+   "abstract": [
+    "Hispabot-Covid19 is a conversational system developed for the Spanish Government to provide responses to frequently asked questions related to the pandemic originated by Covid-19 and its implications in Spain. The system received more than 350,000 queries between April and June 2020, being a clear example of how conversational systems can be applied to reduce the pressure on the health emergency phone lines and to provide 24/7 access to information and services using natural language. In this paper, we describe the main features of the Hispabot-Covid19 system.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-30"
+  },
+  "realinho21_iberspeech": {
+   "authors": [
+    [
+     "Catarina",
+     "Realinho"
+    ],
+    [
+     "Rita",
+     "Gonçalves"
+    ],
+    [
+     "Helena",
+     "Moniz"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ]
+   ],
+   "title": "Impact of vowel reduction in L2 Chinese learners of Portuguese within and  across word boundaries",
+   "original": "55",
+   "page_count": 5,
+   "order": 4,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "Connected speech processes have a great impact on word recognition. This is particularly true for L2 learners. Vowel reduction is a very productive process in European Portuguese and plays an important role within and across word boundaries. Our goal is to understand the influence of these phonetic-phonological phenomena in L2 learners of European Portuguese in word identification tasks in continuous speech. We designed a perception experiment involving these phenomena in increasing degrees of difficulty: isolated word identification without (i) and with vowel reduction (ii); word identification with simple (iii) and complex connected speech processes. This study took place in a classroom setting and it was applied to a group of B1 students of European Portuguese and a group of native speakers (control group). Data from L2 oral productions were also collected to compare it with perception data. The rate of correct answers for each task (in percentage) matched our expectations: (i) 94%; (ii) 65%; (iii) 31%; (iv) 16%. The results reveal word recognition is a challenge for L2 learners due to the connected speech processes. Besides vowel reduction brings difficulties for learners, even when the word is isolated. Production analysis reveals that learners do not produce vowel reduction nor any other phonetic-phonological phenomena across word boundaries.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-4"
+  },
+  "lunajimenez21_iberspeech": {
+   "authors": [
+    [
+     "Cristina",
+     "Luna-Jiménez"
+    ],
+    [
+     "Ricardo",
+     "Kleinlein"
+    ],
+    [
+     "Fernando",
+     "Fernández-Martínez"
+    ],
+    [
+     "José Manuel",
+     "Pardo-Muñoz"
+    ],
+    [
+     "José Manuel",
+     "Moya-Fernández"
+    ]
+   ],
+   "title": "GTH-UPM System for Albayzin Multimodal Diarization Challenge 2020",
+   "original": "56",
+   "page_count": 5,
+   "order": 16,
+   "p1": 71,
+   "pn": 75,
+   "abstract": [
+    "This paper describes the multimodal diarization system proposed by the GTH-UPM team to Albayzin Multimodal Diarization Challenge 2020. \nThe submitted solution consists of 2 separate diarization systems that work on visual and aural components. \n",
+    "The visual diarization solution exploits web resources, as well as provided enrollment images. First, these images feed a facial detector. Next, all the discovered faces are introduced into FaceNet to generate embeddings. \nAfter this, we apply a clustering algorithm on extracted embeddings, obtaining a representative cluster for each participant. Each centroid of the representative clusters acts as a participant model. When a new embedding extracted from a facial image of the program arrives at the system, it receives the label that corresponds to the closer centroid identity among all the given participants, as long as it overpasses a fixed quality threshold.\n",
+    "The aural speaker diarization problem is tackled as a classification task, in which a deep learning model learns the mapping between automatically-extracted sequences of aural x-vectors and speaker identities. These sequences aid in overcoming the scarcity of training samples per speaker.\n",
+    "The best results sent reached a DER of 66.94% for visual diarization and a DER of 125.24% for aural diarization on the test set.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-15"
+  },
+  "develasco21_iberspeech": {
+   "authors": [
+    [
+     "Midel",
+     "de Velasco"
+    ],
+    [
+     "Raquel",
+     "Justo"
+    ],
+    [
+     "Leila Ben",
+     "Letaifa"
+    ],
+    [
+     "M. Inés",
+     "Torres"
+    ]
+   ],
+   "title": "Contrasting the Emotions identified in Spanish TV debates and in Human-Machine Interactions",
+   "original": "57",
+   "page_count": 5,
+   "order": 12,
+   "p1": 51,
+   "pn": 55,
+   "abstract": [
+    "This work is aimed to contrast the similarities and differences for the emotions identified in two very different scenarios: human-to-human interaction on Spanish TV debates and human-machine interaction with a virtual agent in Spanish. To this end we developed a crowd annotation procedure to label the speech signal in terms of both, emotional categories and Valence-Arousal-Dominance models. The analysis of these data showed interesting findings that allowed to profile both the speakers and the task. Then, Convolutional Neural Networks were used for the automatic classification of the emotional sam- ples in both tasks. Experimental results drew up a different human behavior in both tasks and outlined different speaker profiles.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-11"
+  },
+  "ribeiro21_iberspeech": {
+   "authors": [
+    [
+     "Rui",
+     "Ribeiro"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "José",
+     "Lopes"
+    ]
+   ],
+   "title": "Domain Adaptation in Dialogue Systems using Transfer and Meta-Learning",
+   "original": "58",
+   "page_count": 5,
+   "order": 45,
+   "p1": 205,
+   "pn": 209,
+   "abstract": [
+    "Current generative-based dialogue systems are data-hungry and fail to adapt to new unseen domains when only a small amount of target data is available.  Additionally, in real-world applications,  most domains are underrepresented,  so there is a  need to create a system capable of generalizing to these domains using minimal data. In this paper,  we propose a method that adapts to unseen domains by combining both transfer and meta-learning  (DATML).  DATML improves the previous state-of-the-art dialogue model,  DiKTNet, by introducing a different learning technique: meta-learning. We use Reptile, a first-order optimization-based meta-learning algorithm as our improved training method. We evaluated our model on the MultiWOZ dataset and outperformed DiKTNet in both BLEU and EntityF1 scores when the same amount of data is available.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-44"
+  },
+  "botelheiro21_iberspeech": {
+   "authors": [
+    [
+     "Diogo",
+     "Botelheiro"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ],
+    [
+     "João",
+     "Freitas"
+    ],
+    [
+     "Rui",
+     "Correia"
+    ]
+   ],
+   "title": "Nativeness Assessment for Crowdsourced Speech Collections",
+   "original": "59",
+   "page_count": 5,
+   "order": 5,
+   "p1": 21,
+   "pn": 25,
+   "abstract": [
+    "Access to large amounts of annotated data is a challenge for companies that develop high-quality AI-based services. Crowdsourcing platforms allow for a collaborative way of solving the data collection problem using many people, communities, groups, and resources. However, with the growing need for data, it becomes increasingly harder to source the right crowd and maintain quality. In the particular case of speech data, a critical aspect of data quality is related to the verification of crowd participants as native speakers of a specific language, dialect, or variety. \n",
+    "In this work, we propose to use automatic nativeness classification (NC) to tackle this problem. NC can be regarded as a particular case of spoken language recognition, a field that has benefited from recent breakthroughs based on deep neural network methods allowing for performances that have begun to exceed human-level capabilities. In our case, we aim at developing a variant-sensitive nativeness classifier to be used as quality control of crowdsourced data (replacing the more traditional human validation step). This work focuses on Portuguese (European and Brazilian variants) and English (American, British, and Indian). In particular, we explore how NC can be integrated into a crowdsourcing speech data collection pipeline, where nativeness is computed as data is collected (potentially blocking non-native speakers from continuing contributing). We test three different speaker-embedding-based frameworks: i-vectors, x-vectors, and h-vectors. Experimental results have shown that the proposed system based on the x-vector outperforms the baseline system with a 9% relative improvement.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-5"
+  },
+  "silva21_iberspeech": {
+   "authors": [
+    [
+     "Samuel",
+     "Silva"
+    ],
+    [
+     "António",
+     "Teixeira"
+    ],
+    [
+     "Nuno",
+     "Almeida"
+    ],
+    [
+     "Diogo",
+     "Cunha"
+    ],
+    [
+     "David",
+     "Ferreira"
+    ],
+    [
+     "Conceição",
+     "Cunha"
+    ]
+   ],
+   "title": "Project MEMNON: Extending Speech Production Studies to Silent Speech, Dynamic Sounds and Audiovisual Speech Synthesis",
+   "original": "61",
+   "page_count": 5,
+   "order": 32,
+   "p1": 143,
+   "pn": 147,
+   "abstract": [
+    "This paper presents ongoing research project MEMNON. To move beyond the current state-of-the-art for speech production (SP) studies, and profiting from the team's strong background in this field, this project advances the body of knowledge regarding SP of European Portuguese, based on multimodal (e.g., rtMRI, US) acquisition, processing, and analysis of speech production data, and applies novel and existing knowledge to propose innovative contributions to articulatory-based audiovisual speech synthesis and silent speech interfaces, serving both research and interaction.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-31"
+  },
+  "carvalho21_iberspeech": {
+   "authors": [
+    [
+     "Carlos",
+     "Carvalho"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ]
+   ],
+   "title": "TRIBUS: An end-to-end automatic speech recognition system for European Portuguese",
+   "original": "63",
+   "page_count": 5,
+   "order": 41,
+   "p1": 185,
+   "pn": 189,
+   "abstract": [
+    "End-to-end automatic speech recognition (ASR) approaches have emerged as a competitive alternative to traditional HMM-based ASR systems. Unfortunately, most end-to-end ASR systems are not easily reproduced since they require vast amounts of data and computational resources that are only available for a reduced set of companies and labs worldwide. Consequently, the performance of these systems is not very well known for low resource languages to the best of our knowledge. European Portuguese is one of those languages. In this work, we present a set of experiments to train and assess some of the most current successful end-to-end ASR approaches for European Portuguese. The proposed system, named TRIBUS, is a hybrid CTC-attention end-to-end ASR combining data from three different domains: read speech, broadcast news and telephone speech. For comparison purposes, we also train a state-of-the-art HMM-based baseline on the same data. Experimental results show that TRIBUS achieves 8.40% character error rate (CER) on the broadcast news test set without the need of a language model, which is comparable to the strong baseline result, 4.33% CER, on the same set using an in-domain language model. We consider this result quite promising, especially for highly unpredictable vocabulary ASR applications.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-40"
+  },
+  "corralesastorgano21_iberspeech": {
+   "authors": [
+    [
+     "Mario",
+     "Corrales-Astorgano"
+    ]
+   ],
+   "title": "Prosody training of people with Down syndrome using an educational video game",
+   "original": "65",
+   "page_count": 5,
+   "order": 38,
+   "p1": 170,
+   "pn": 174,
+   "abstract": [
+    "The speech of people with Down syndrome presents multiple disorders affecting the different components of language (syntax, semantics, phonology and pragmatics). In particular, prosody is also affected, conditioning their personal development and their social integration. Due to these difficulties, prosody training is fundamental in their speech therapy. One aim of this work is the definition of a video game focused on training some language skills, specifically those ones related with prosody. Other aim is the creation of an analysis system to evaluate the prosodic quality of users’ utterances. The results show that the video game is useful to keep the attention of the players with Down syndrome during all game session. In addition, some statistically significant differences are found between people with Down syndrome and people without intellectual disabilities in the frequency, energy, temporal and spectral domain. The accuracy of identifying a recording as produced by a person with Down syndrome or by a person without intellectual disabilities is up to 95%. Finally, an accuracy of 79.3% is achieved in the task of predicting the prosodic expert evaluation using an automatic classifier trained with the acoustic features extracted from the recordings of people with Down syndrome.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-37"
+  },
+  "mostoles21_iberspeech": {
+   "authors": [
+    [
+     "Roberto",
+     "Móstoles"
+    ],
+    [
+     "David",
+     "Griol"
+    ],
+    [
+     "Zoraida",
+     "Callejas"
+    ],
+    [
+     "Fernando",
+     "Fernández-Martínez"
+    ]
+   ],
+   "title": "A proposal for emotion recognition using speech features, transfer learning and convolutional neural networks",
+   "original": "66",
+   "page_count": 5,
+   "order": 13,
+   "p1": 56,
+   "pn": 60,
+   "abstract": [
+    "In this paper, we present a proposal for emotion recognition using audio speech signal features consisting of two functionally independent systems. First, a voice activity detection module (VAD) acts as a filter prior to the emotion classification task. It extracts features from the input audio and uses a SVM classifier to predict the presence of voice activity. Secondly, the speech emotion classifier (EMO) transforms the power spectrum of the signal to a Mel scale and obtains a vector of its characteristics using a convolutional neural network. Emotion labels are assigned\nusing this vector and a KNN classifier. The RAVDESS dataset has been used for training the models obtaining a maximum accuracy of 93.57% classifying 8 emotions.\n",
+    ""
+   ],
+   "doi": "10.21437/IberSPEECH.2021-12"
+  },
+  "callejas21_iberspeech": {
+   "authors": [
+    [
+     "Zoraida",
+     "Callejas"
+    ],
+    [
+     "David",
+     "Griol"
+    ],
+    [
+     "Kawtar",
+     "Benghazi"
+    ],
+    [
+     "Manuel",
+     "Noguera"
+    ],
+    [
+     "María Inés",
+     "Torres"
+    ],
+    [
+     "Raquel",
+     "Justo"
+    ],
+    [
+     "Anna",
+     "Esposito"
+    ],
+    [
+     "Gennaro",
+     "Cordasco"
+    ],
+    [
+     "Raymond",
+     "Bond"
+    ],
+    [
+     "Maurice",
+     "Mulvenna"
+    ],
+    [
+     "Edel",
+     "Ennis"
+    ],
+    [
+     "Siobhan",
+     "O'Neill"
+    ],
+    [
+     "Huiru",
+     "Zheng"
+    ],
+    [
+     "Matthias",
+     "Kraus"
+    ],
+    [
+     "Nicolas",
+     "Wagner"
+    ],
+    [
+     "Wolfgang",
+     "Minker"
+    ],
+    [
+     "Gavin",
+     "McConvey"
+    ],
+    [
+     "Matthias",
+     "Hemmje"
+    ],
+    [
+     "Michael",
+     "Fuchs"
+    ],
+    [
+     "Neil",
+     "Glackin"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "Towards conversational technology to promote, monitor and protect mental health",
+   "original": "67",
+   "page_count": 3,
+   "order": 33,
+   "p1": 148,
+   "pn": 150,
+   "abstract": [
+    "This paper presents a general overview of the H2020-MSCA-RISE project MENHIR (Mental health monitoring through interactive conversations), which aim is to explore the possibilities of conversational technologies (chatbots) to understand, promote and protect mental health and assist people with anxiety and mild depression manage their conditions. MENHIR started on February 2019 and will have a duration of 4 years. Its consortium brings together 8 partners including universities, anon-profit organization and companies.\n"
+   ],
+   "doi": "10.21437/IberSPEECH.2021-32"
+  },
+  "bailly21_iberspeech": {
+   "authors": [
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "Characterizing and Assessing the Oral Reading Fluency of Young Readers",
+   "original": "101",
+   "page_count": 0,
+   "order": 6,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "According to the ministry of education, one young adult (16-25) over 10 has reading difficulties, 50% of them being illiterate. France was ranked 34/50 in the PIRLS 2016, last in Europe. Compared to 2011, degradation of the reading performance of these 4th grade children was also noticed. Mastering comprehensive reading is yet a perquisite for accessing other educational disciplines. But reading requires the maturation and coordination of a complex cognitive network, involving vision, phonological, semantic and pragmatic processing together with the sensorimotor activation of phonetic representations... and breathing! We will present the framework we developed so far in order to characterize, assess and improve the reading fluency of young readers. This work is performed in the context of the e-FRAN Fluence project, where hundreds of primary schoolers are trained via computer-assisted technologies and monitored in a longitudinal study.\n"
+   ]
+  },
+  "bonafonte21_iberspeech": {
+   "authors": [
+    [
+     "Antonio",
+     "Bonafonte"
+    ]
+   ],
+   "title": "Diverse Conversational Spoken Language Generation",
+   "original": "102",
+   "page_count": 0,
+   "order": 46,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "In human speech, speaking style and prosody are often a matter of context, and for Alexa's interactions with customers to be as natural as possible, the same should be true for her. This talk presents recent work at Amazon to generate diverse and appropriated spoken responses. One of the models generates alternative phrasings in a context-aware way, so that Alexa does not keep asking the same question repeatedly. Then, the speech generator adapts the speaking style depending on the dialogue state. \n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Applications of Speech Technologies for Learning and Education",
+   "papers": [
+    "escudero21b_iberspeech",
+    "tejedorgarcia21b_iberspeech",
+    "bai21_iberspeech",
+    "realinho21_iberspeech",
+    "botelheiro21_iberspeech"
+   ]
+  },
+  {
+   "title": "Keynote 1",
+   "papers": [
+    "bailly21_iberspeech"
+   ]
+  },
+  {
+   "title": "Speech Processing and Acoustic Event Detection",
+   "papers": [
+    "gimeno21_iberspeech",
+    "martindonas21_iberspeech",
+    "debenitogorron21_iberspeech",
+    "bonet21_iberspeech",
+    "fernandezmartinez21_iberspeech",
+    "develasco21_iberspeech",
+    "mostoles21_iberspeech",
+    "rituertogonzalez21_iberspeech"
+   ]
+  },
+  {
+   "title": "Albayzín Evaluation Challenges",
+   "papers": [
+    "alvareztrejos21_iberspeech",
+    "lunajimenez21_iberspeech",
+    "mingote21_iberspeech",
+    "portalorenzo21_iberspeech",
+    "font21b_iberspeech",
+    "castillosanchez21_iberspeech",
+    "vinals21_iberspeech",
+    "font21_iberspeech",
+    "alvarez21_iberspeech",
+    "pererocodosero21_iberspeech",
+    "kocour21_iberspeech",
+    "jorge21_iberspeech"
+   ]
+  },
+  {
+   "title": "Research and Development Projects",
+   "papers": [
+    "escudero21_iberspeech",
+    "figueras21_iberspeech",
+    "hernaez21_iberspeech",
+    "oliveira21_iberspeech",
+    "griol21_iberspeech",
+    "silva21_iberspeech",
+    "callejas21_iberspeech",
+    "guasch21_iberspeech"
+   ]
+  },
+  {
+   "title": "Ph.D. Thesis",
+   "papers": [
+    "santiso21_iberspeech",
+    "tejedorgarcia21_iberspeech",
+    "morovelazquez21_iberspeech",
+    "corralesastorgano21_iberspeech",
+    "khan21_iberspeech"
+   ]
+  },
+  {
+   "title": "ASR and NLP Techniques",
+   "papers": [
+    "fernandezgallego21_iberspeech",
+    "carvalho21_iberspeech",
+    "etchegoyhen21_iberspeech",
+    "navarro21_iberspeech",
+    "carrico21_iberspeech",
+    "ribeiro21_iberspeech"
+   ]
+  },
+  {
+   "title": "Keynote 2",
+   "papers": [
+    "bonafonte21_iberspeech"
+   ]
+  },
+  {
+   "title": "Speech Synthesis and Multimodal Processing",
+   "papers": [
+    "alonso21_iberspeech",
+    "cunha21_iberspeech",
+    "gimenogomez21_iberspeech",
+    "garcia21_iberspeech",
+    "gonzalezlopez21_iberspeech",
+    "villaplana21_iberspeech",
+    "freixes21_iberspeech",
+    "albuquerque21_iberspeech"
+   ]
+  },
+  {
+   "title": "Speaker Characterization and Diarization",
+   "papers": [
+    "romero21_iberspeech",
+    "gomezalanis21_iberspeech",
+    "prokopalo21_iberspeech",
+    "gonzalezatienza21_iberspeech",
+    "campbell21_iberspeech"
+   ]
+  }
+ ],
+ "doi": "10.21437/IberSPEECH.2021"
+}

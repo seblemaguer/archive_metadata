@@ -1,0 +1,892 @@
+{
+ "title": "3rd Workshop on Spoken Language Technologies for Under-Resourced Languages (SLTU 2012)",
+ "location": "Cape Town, South Africa",
+ "startDate": "7/5/2012",
+ "endDate": "9/5/2012",
+ "conf": "SLTU",
+ "year": "2012",
+ "name": "sltu_2012",
+ "series": "SLTU",
+ "SIG": "SIGUL",
+ "title1": "3rd Workshop on Spoken Language Technologies for Under-Resourced Languages",
+ "title2": "(SLTU 2012)",
+ "date": "7-9 May 2012",
+ "booklet": "sltu_2012.pdf",
+ "papers": {
+  "zhang12_sltu": {
+   "authors": [
+    [
+     "Xueru",
+     "Zhang"
+    ],
+    [
+     "Kris",
+     "Demuynck"
+    ],
+    [
+     "Dirk Van",
+     "Compernolle"
+    ],
+    [
+     "Hugo",
+     "Van hamme"
+    ]
+   ],
+   "title": "Subspace-GMM acoustic models for under-resourced languages: feasibility study",
+   "original": "su12_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "Acoustic model parameter estimation is hampered by a lack of data. To reduce the number of parameters to be estimated, we propose sub-GMM modelling, which constrains the acoustic models to a lowdimensional manifold embedded in the space of Gaussian mixture weights. The manifold model is obtained through non-negative matrix factorization with sparsity constraints. Our preliminary monolingual experiments show that the proposed model is as efficient as clustering the distributions to a smaller set, while it opens perspectives for a new parameter tying technique. In the example, the number of parameters to be estimated per distribution is reduced more than an order of magnitude.\n",
+    "Index Terms: under-resourced languages, manifold, sparsity, non-negative matrix factorization, substructure\n",
+    ""
+   ]
+  },
+  "tachbelie12_sltu": {
+   "authors": [
+    [
+     "Martha Yifiru",
+     "Tachbelie"
+    ],
+    [
+     "Solomon Teferra",
+     "Abate"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Solange",
+     "Rossato"
+    ]
+   ],
+   "title": "Syllable-based and hybrid acoustic models for Amharic speech recognition",
+   "original": "su12_005",
+   "page_count": 6,
+   "order": 2,
+   "p1": "5",
+   "pn": "10",
+   "abstract": [
+    "This paper presents the results of our experiments on the use of hybrid acoustic units in speech recognition and the use of syllable and hybrid acoustic models (AM) in morphemebased speech recognition. Although hybrid AMs did not bring improvement in speech recognition performance when words are used as dictionary entries and units in a language model (LM), we observed a significant word error rate (WER) reduction (compared to triphone-based systems) in morpheme-based speech recognition. Syllable AMs also led to a significant WER reduction over the triphone-based systems. It was possible to obtain a 3% absolute WER reduction as a result of using syllable acoustic units. Generally, our result shows that syllable and hybrid AMs are best fitted in morpheme-based speech recognition.\n",
+    "Index Terms: syllable-based acoustic models, hybrid acoustic models, morpheme-based speech recognition, Amharic\n",
+    ""
+   ]
+  },
+  "schlippe12_sltu": {
+   "authors": [
+    [
+     "Tim",
+     "Schlippe"
+    ],
+    [
+     "Edy Guevara Komgang",
+     "Djomgang"
+    ],
+    [
+     "Ngoc Thang",
+     "Vu"
+    ],
+    [
+     "Sebastian",
+     "Ochs"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Hausa large vocabulary continuous speech recognition",
+   "original": "su12_011",
+   "page_count": 4,
+   "order": 3,
+   "p1": "11",
+   "pn": "14",
+   "abstract": [
+    "We report on our efforts toward an LVCSR system for the African language Hausa. We describe the Hausa text and speech database recently collected as a part of our Global- Phone corpus [1]. The data was complemented by a large collection of text data crawled from various Hausa websites. We achieve significant improvement by automatically substituting inconsistent or flawed pronunciation dictionary entries, including tone and vowel length information, applying stateof- the art techniques for acoustic modeling, and crawling large quantities of text material from the Internet for language modeling. A system combination of the best grapheme- and phoneme-based 2-pass systems achieves a word error rate of 13.16% on the development set and 16.26% on the test set on read newspaper speech.\n",
+    "Index Terms: speech recognition, rapid language adaptation, Hausa, African language\n",
+    "",
+    "",
+    "T. Schultz, “GlobalPhone: A Multilingual Speech and Text Database Developed at Karlsruhe University,” in ICSLP, 2002\n",
+    ""
+   ]
+  },
+  "alumae12_sltu": {
+   "authors": [
+    [
+     "Tanel",
+     "Alumäe"
+    ],
+    [
+     "Kaarel",
+     "Kaljurand"
+    ]
+   ],
+   "title": "Open and extendable speech recognition application architecture for mobile environments",
+   "original": "su12_015",
+   "page_count": 4,
+   "order": 4,
+   "p1": "15",
+   "pn": "18",
+   "abstract": [
+    "This paper describes a cloud-based speech recognition architecture primarily intended for mobile environments. The system consists of a speech recognition server and a client for the Android mobile operating system. The system enables to implement Android’s Voice Input functionality for languages that are not supported by the default Google implementation. The architecture supports both large vocabulary speech recognition as well as grammar-based recognition, where grammars can be implemented in JSGF or Grammatical Framework. The system is open source and easily extendable. We used the architecture to implement Estonian speech recognition for Android.\n",
+    "Index Terms: Speech recognition, CMU Sphinx, mobile devices, Android, open source, Estonian, Grammatical Framework\n",
+    ""
+   ]
+  },
+  "nakagawa12_sltu": {
+   "authors": [
+    [
+     "Seiichi",
+     "Nakagawa"
+    ],
+    [
+     "Erdenebat",
+     "Turmunkh"
+    ],
+    [
+     "Hiroshi",
+     "Kibishi"
+    ],
+    [
+     "Kengo",
+     "Ohta"
+    ],
+    [
+     "Yasuhisa",
+     "Fujii"
+    ],
+    [
+     "Masatoshi",
+     "Tsuchiya"
+    ],
+    [
+     "Kazumasa",
+     "Yamamoto"
+    ]
+   ],
+   "title": "Development of large vocabulary continuous speech recognition system for Mongolian language",
+   "original": "su12_019",
+   "page_count": 5,
+   "order": 5,
+   "p1": "19",
+   "pn": "23",
+   "abstract": [
+    "We developed a large vocabulary continuous speech recognition system(LVCSR) for Mongolian language. It is the first LVCSR system of Khalkha dialect in Mongolia. Firstly, we created Mongolian speech corpus for acoustic model and it contains over 6000 utterances in total recorded from 700 different sentences spoken by 40 male speakers, and then we created monophone and triphone based HMMs. Secondary, phoneme, morphone and word based n-gram language models were prepared by using 6 million words in a text corpus. Finally, we conducted continuous speech recognition experiments and obtained the phoneme correct rates of 56% and 67% by using monophone HMMs and triphone HMMs, respectively. We also obtained the word correct rates of 63% and 68% by using monophone HMMs & word based trigram and triphone HMMs & word based trigram, respectively.\n",
+    "Index Terms: Large vocabulary continuous speech recognition (LVCSR), Mongolian, Khalkha, Morpheme\n",
+    ""
+   ]
+  },
+  "fragasilva12_sltu": {
+   "authors": [
+    [
+     "Thiago",
+     "Fraga-Silva"
+    ],
+    [
+     "Viet-Bac",
+     "Le"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Incorporating MLP features in the unsupervised training process",
+   "original": "su12_024",
+   "page_count": 5,
+   "order": 6,
+   "p1": "24",
+   "pn": "28",
+   "abstract": [
+    "The combined use of multi layer perceptron (MLP) and perceptual linear prediction (PLP) features has been reported to improve the performance of automatic speech recognition systems for many different languages and domains. However, MLP features have not yet been used on unsupervised acoustic model training. This approach is introduced in this paper with encouraging results. In addition, unsupervised language model training was also investigated for a Portuguese broadcast speech recognition task, leading to a slight improvement of performance. The joint use of the unsupervised techniques presented here leads to an absolute WER reduction up to 3.2% over a baseline unsupervised system.\n",
+    "Index Terms: Unsupervised Training, MLP features, Acoustic Modeling, Language Modeling\n",
+    ""
+   ]
+  },
+  "calteaux12_sltu": {
+   "authors": [
+    [
+     "Karen",
+     "Calteaux"
+    ],
+    [
+     "Aditi Sharma",
+     "Grover"
+    ],
+    [
+     "Gerhard B. van",
+     "Huyssteen"
+    ]
+   ],
+   "title": "Business drivers and design choices for multilingual IVRs: a government service delivery case study",
+   "original": "su12_029",
+   "page_count": 7,
+   "order": 7,
+   "p1": "29",
+   "pn": "35",
+   "abstract": [
+    "Multilingual emerging markets hold many opportunities for the application of spoken language technologies, such as interactive voice response (IVR) systems. Designing such systems requires an in-depth understanding of the business drivers and salient design decisions pertaining to these markets. In this paper we analyze the business drivers and design issues for a voice service (the School Meals Line) piloted in the public sector. We find that cost saving, increased customer satisfaction and improved access to services and information are the primary business drivers for this use case. The main design issues we identify for this use case, and discuss, are language offering, persona design and input modality.\n",
+    "Index Terms — Business drivers, VUI design, spoken language technologies, voice services, ICT for development, multilingual emerging markets\n",
+    ""
+   ]
+  },
+  "teshome12_sltu": {
+   "authors": [
+    [
+     "Mulu Gebreegziabher",
+     "Teshome"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ]
+   ],
+   "title": "Preliminary experiments on English-Amharic statistical machine translation",
+   "original": "su12_036",
+   "page_count": 6,
+   "order": 8,
+   "p1": "36",
+   "pn": "41",
+   "abstract": [
+    "This paper discusses the preliminary experiment conducted to translate from English to Amharic using the Statistical Machine Translation (EASMT) approach. The experiment on the EASMT system is being conducted on training corpus of both languages based on expressions that are found in parallel documents. The experiment involves collecting of a total of 632 Parliamentary corpora of which 115 have been used in the experiment. The corpus coverage is 15 years from Aug 21, 1995 to July 16, 2010. Each document contains data, which are translations of each other. The experiment has been conducted using 18,432 English-Amharic sentence pairs extracted from these corpora in order to measure the accuracy of the translation system. Accordingly, the baseline phrase-based BLEU score result is 35.32%. A 0.34% increase in BLEU has been achieved by applying morpheme segmentation to the tokens of the Amharic output result and the reference of the baseline system. The increase is 0.92% when compared with the same segmented reference between the baseline and the segmented system.\n",
+    "Index Terms: Statistical Machine Translation, Parallel Corpus, Word Segmentation\n",
+    ""
+   ]
+  },
+  "kivaisi12_sltu": {
+   "authors": [
+    [
+     "Alexander",
+     "Kivaisi"
+    ],
+    [
+     "Audrey",
+     "Mbogho"
+    ]
+   ],
+   "title": "Web-based corpus acquisition for Swahili language modelling",
+   "original": "su12_042",
+   "page_count": 6,
+   "order": 9,
+   "p1": "42",
+   "pn": "47",
+   "abstract": [
+    "Finding large amounts of text data for use in natural language technology is difficult for under-resourced languages such as Swahili. The corpora that are readily accessible for these languages are not sufficient to be used in language technologies, whose requirements can run into the hundreds of millions of words. This paper describes how we can take advantage of search engines such as Google together with crawling tools to collect Swahili text from the Web. We also share the experience of cleaning up and normalising the resulting text data. Finally, we show some preliminary results of the evaluation of the language models built from our corpus as well as results of how they compare to those built from the Helsinki Corpus.\n",
+    "Index Terms: Under-resourced languages, corpus acquisition, Swahili, language model\n",
+    ""
+   ]
+  },
+  "adegbola12_sltu": {
+   "authors": [
+    [
+     "Tunde",
+     "Adegbola"
+    ],
+    [
+     "Lydia Uchechukwu",
+     "Odilinye"
+    ]
+   ],
+   "title": "Quantifying the effect of corpus size on the quality of automatic diacritization of Yorùbá texts",
+   "original": "su12_048",
+   "page_count": 6,
+   "order": 10,
+   "p1": "48",
+   "pn": "53",
+   "abstract": [
+    "Yorùbá being a tone language requires tone in-formation for the correct pronunciation of words in Text-to-Speech synthesis. Based on standard Yorùbá orthography, such infor-mation is held in tone marks, which applied to vowels and syllabic nasals as diacritical mark-ings. However, the tone marks are not always correctly applied in many Yorùbá documents because appropriate input devices for the accu-rate application of the diacritic marks are not always available. Hence, the absence of tone marks in most written Yorùbá texts presents a major challenge in speech synthesis as the in-formation required for applying the right tone sequences to synthesized Yorùbá speech may not always be available. This study proposes the use of Machine Learning techniques as a basis for the automatic application of tone marks as part of the pre-processing in high level synthesis. Being a resource-scarce language however, there is a lack of sufficiently large Yorùbá corpora for the training of an au-tomatic diacritizer. The study therefore investigated the relationship between corpus size and the quality of automatic diacritization to-wards estimating the size of corpus required for an ideal level of accuracy.\n",
+    ""
+   ]
+  },
+  "niekerk12_sltu": {
+   "authors": [
+    [
+     "Daniel R. van",
+     "Niekerk"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ]
+   ],
+   "title": "Tone realisation in a yorùbá speech recognition corpus",
+   "original": "su12_054",
+   "page_count": 6,
+   "order": 11,
+   "p1": "54",
+   "pn": "59",
+   "abstract": [
+    "We investigate the acoustic realisation of tone in short continuous utterances in Yorùbá. Fundamental frequency (F0) contours are extracted for automatically aligned syllables from a speech corpus of 33 speakers collected for speech recognition development. Extracted contours are processed and analysed statistically to describe acoustic properties in different tonal contexts. We demonstrate how features useful for tone recognition or synthesis can be successfully extracted from a corpus of this nature and confirm some previously described phenomena in this context.\n",
+    "Index Terms: Yorùbá, tone language, fundamental frequency\n",
+    ""
+   ]
+  },
+  "imseng12_sltu": {
+   "authors": [
+    [
+     "David",
+     "Imseng"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Boosting under-resourced speech recognizers by exploiting out-of-language data - case study on Afrikaans",
+   "original": "su12_060",
+   "page_count": 8,
+   "order": 12,
+   "p1": "60",
+   "pn": "67",
+   "abstract": [
+    "Under-resourced speech recognizers may benefit from data in languages other than the target language. In this paper, we boost the performance of an Afrikaans speech recognizer by using already available data from other languages. To successfully exploit available multilingual resources, we use posterior features, estimated by multilayer perceptrons that are trained on similar languages. For two different acoustic modeling techniques, Tandem and Kullback-Leibler divergence based HMMs, the proposed multilingual system yields more than 10% relative improvement compared to the corresponding monolingual systems only trained on Afrikaans.\n",
+    "Index Terms: Multilingual speech recognition, posterior features, under-resourced languages, Afrikaans\n",
+    ""
+   ]
+  },
+  "davel12_sltu": {
+   "authors": [
+    [
+     "Marelie H.",
+     "Davel"
+    ],
+    [
+     "Charl J. van",
+     "Heerden"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ]
+   ],
+   "title": "Validating smartphone-collected speech corpora",
+   "original": "su12_068",
+   "page_count": 8,
+   "order": 13,
+   "p1": "68",
+   "pn": "75",
+   "abstract": [
+    "We investigate the effectiveness with which the accuracy of a prompted speech corpus can be validated when minimal additional speech resources are available, and specifically when a language model in the target language is not available. We compare a word-based variant of Goodness of Pronunciation (GOP) with a phone-based dynamic programming (PDP) scoring technique. The first technique uses the acoustic likelihood ratio and the second the optimal alignment between an observed phone string (generated by a speech recogniser) and a reference phone string (obtained from a dictionary) to generate validation scores. We define a new technique to obtain a PDP scoring matrix in a data-driven fashion, examine different ways of using GOP for word scoring, and find that variants of both techniques provide results that are effective for corpus validation.\n",
+    "Index Terms: speech corpora, corpus validation, goodness of pronunciation, phone-based dynamic programming scores\n",
+    ""
+   ]
+  },
+  "weiner12_sltu": {
+   "authors": [
+    [
+     "Jochen",
+     "Weiner"
+    ],
+    [
+     "Ngoc Thang",
+     "Vu"
+    ],
+    [
+     "Dominic",
+     "Telaar"
+    ],
+    [
+     "Florian",
+     "Metze"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ],
+    [
+     "Dau-Cheng",
+     "Lyu"
+    ],
+    [
+     "Eng-Siong",
+     "Chng"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Integration of language identification into a recognition system for spoken conversations containing code-Switches",
+   "original": "su12_076",
+   "page_count": 4,
+   "order": 14,
+   "p1": "76",
+   "pn": "79",
+   "abstract": [
+    "This paper describes the integration of language identification (LID) into a multilingual automatic speech recognition (ASR) system for spoken conversations containing code-switches between Mandarin and English. We apply a multistream approach to combine at frame level the acoustic model score and the language information, where the latter is provided by an LID component. Furthermore, we advance this multistream approach by a new method called “Language Lookahead”, in which the language information of subsequent frames is used to improve accuracy. Both methods are evaluated using a set of controlled LID results with varying frame accuracies. Our results show that both approaches improve the ASR performance by at least 4% relative if the LID achieves a minimum frame accuracy of 85%.\n",
+    "Index Terms: code-switching, multi-stream combination, language lookahead\n",
+    ""
+   ]
+  },
+  "gunason12_sltu": {
+   "authors": [
+    [
+     "Jón",
+     "Guðnason"
+    ],
+    [
+     "Oddur",
+     "Kjartansson"
+    ],
+    [
+     "Jökull",
+     "Jóhannsson"
+    ],
+    [
+     "Elín",
+     "Carstensdóttir"
+    ],
+    [
+     "Hannes Högni",
+     "Vilhjálmsson"
+    ],
+    [
+     "Hrafn",
+     "Loftsson"
+    ],
+    [
+     "Sigrún",
+     "Helgadóttir"
+    ],
+    [
+     "Kristín M.",
+     "Jóhannsdóttir"
+    ],
+    [
+     "Eiríkur",
+     "Rögnvaldsson"
+    ]
+   ],
+   "title": "Almannarómur: an open icelandic speech corpus",
+   "original": "su12_080",
+   "page_count": 4,
+   "order": 15,
+   "p1": "80",
+   "pn": "83",
+   "abstract": [
+    "The purpose of the Almannarómur project is collecting data for a speech corpus (database) for Icelandic. Its main aim is creating an open source speech project to enable research and development for Icelandic language technology. The database is particularly suitable for acoustic modelling for speech recognition but it could also be used for other purposes, such as to develop a speaker recognition system or to analyze prosody. The project is run by Reykjavik University and the Icelandic Centre for Language Technology in cooperation with Google who provided technical support. The number of participants achieved in this effort was 563, providing, on average, around 219 read sentences each. This paper gives a short introduction to Icelandic language technology, describes how the text corpus was constructed for the database, and presents how the recording effort was organized as well as its main results.\n",
+    "Index Terms: Icelandic, Speech Recording, Corpus Creation, Automatic Speech Recognition\n",
+    ""
+   ]
+  },
+  "karpov12_sltu": {
+   "authors": [
+    [
+     "Alexey",
+     "Karpov"
+    ],
+    [
+     "Irina",
+     "Kipyatkova"
+    ],
+    [
+     "Andrey",
+     "Ronzhin"
+    ]
+   ],
+   "title": "Speech recognition for east Slavic languages: the case of Russian",
+   "original": "su12_084",
+   "page_count": 6,
+   "order": 16,
+   "p1": "84",
+   "pn": "89",
+   "abstract": [
+    "In this paper, we present a survey of state-of-the-art systems for automatic processing of recognition of under-resourced languages of the Eastern Europe, in particular, East Slavic languages (Ukrainian, Belarusian and Russian), which share some common prominent features including Cyrillic alphabet, phonetic classes, morphological structure of wordforms and relatively free grammar. A large vocabulary Russian speech recognizer, developed by SPIIRAS, is described in the paper and especial attention is paid to grapheme-to-phoneme conversion for automatic creation of a pronunciation vocabulary and acoustic modeling at the system training stage. Speech recognition results for a very large vocabulary above 200K word-forms are reported.\n",
+    "Index Terms: Slavic languages, automatic speech recognition (ASR), Russian language, pronunciation vocabulary, grapheme-to-phoneme conversion\n",
+    ""
+   ]
+  },
+  "vu12_sltu": {
+   "authors": [
+    [
+     "Ngoc Thang",
+     "Vu"
+    ],
+    [
+     "Florian",
+     "Metze"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Multilingual bottle-neck features and its application for under-resourced languages",
+   "original": "su12_090",
+   "page_count": 4,
+   "order": 17,
+   "p1": "90",
+   "pn": "93",
+   "abstract": [
+    "In this paper we present our latest investigation on multilingual bottle-neck (BN) features and its application to rapid language adaptation to new languages. We show that the overall performance of a Multilayer Perceptron (MLP) network improves significantly by initializing it with a multilingualMLP. Furthermore, ASR performance increases on both, on those languages which were used for multilingual MLP training, and on a new language. We propose a new strategy called “open target language” MLP to train more flexible models for language adaptation, which is particularly suited for small amounts of training data. The final results on the Vietnamese GlobalPhone database gave 15.8% relative improvement in terms of Syllable Error Rate (SyllER) for the ASR system trained with 22.5h data and 16.9% relative gains for the system trained with only 2h data.\n",
+    "Index Terms: multilingual bottle-neck feature, language adaptation\n",
+    ""
+   ]
+  },
+  "gelas12_sltu": {
+   "authors": [
+    [
+     "Hadrien",
+     "Gelas"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "François",
+     "Pellegrino"
+    ]
+   ],
+   "title": "Developments of Swahili resources for an automatic speech recognition system",
+   "original": "su12_094",
+   "page_count": 8,
+   "order": 18,
+   "p1": "94",
+   "pn": "101",
+   "abstract": [
+    "This article describes our efforts to provide ASR resources for Swahili, a Bantu language spoken in a wide area of East Africa. We start with an introduction on the language situation, both at linguistic and digital level. Then, we report the selected strategies to develop a text corpus, a pronunciation dictionary and a speech corpus for this under-resourced language. We explore methodologies as crowdsourcing or collaborative transcription process. Besides, we take advantage of some linguistic characteristics of the language such as rich morphology or shared vocabulary with English to improve performance of our baseline Swahili ASR system in a broadcast speech transcription task.\n",
+    "Index Terms: Swahili, under-resourced languages, automatic speech recognition, speech resources\n",
+    ""
+   ]
+  },
+  "kamper12_sltu": {
+   "authors": [
+    [
+     "Herman",
+     "Kamper"
+    ],
+    [
+     "Febe de",
+     "Wet"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ],
+    [
+     "Thomas",
+     "Niesler"
+    ]
+   ],
+   "title": "Resource development and experiments in automatic south african broadcast news transcription",
+   "original": "su12_102",
+   "page_count": 5,
+   "order": 19,
+   "p1": "102",
+   "pn": "106",
+   "abstract": [
+    "We present a description of the development and evaluation of a first South African broadcast news transcription system. We describe a number of speech resources which have been collected in the resource-scarce South African environment for system development purposes: a 20 hour corpus of South African English (SAE) broadcast news; a 109M word corpus of South African newspaper text collected for language modelling purposes; and a 60k word SAE pronunciation dictionary. The development of our system is based on similar state-of-the-art broadcast news transcription systems and uses cross-word triphone HMMs, MF-PLP features and per-segment cepstral mean and per-bulletin cepstral variance normalisation. Our final system achieves a word error rate of 24.6%. We find that reasonable performance is achieved on newsreader speech while poor performance is achieved on spontaneous and telephone speech in our test data. Finally, we consider the recognition of MP3-compressed audio and show that performance deteriorates only at low bit-rates.\n",
+    "Index Terms: Broadcast news transcription, South African English, under-resourced languages, English accents\n",
+    ""
+   ]
+  },
+  "naranjo12_sltu": {
+   "authors": [
+    [
+     "Roberto",
+     "Naranjo"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Tulio",
+     "Rojas"
+    ],
+    [
+     "Egidio",
+     "Marsico"
+    ]
+   ],
+   "title": "Pronunciation learning system for the 32 vowel system of Nasa Yuwe language",
+   "original": "su12_107",
+   "page_count": 7,
+   "order": 20,
+   "p1": "107",
+   "pn": "113",
+   "abstract": [
+    "Nasa Yuwe is an indigenous language from Colombia (South America), it is, to some extent, an endangered language. Different efforts have been done to revitalize it, the most important of which being the unification of the Nasa Yuwe alphabet. The Nasa Yuwe vowel system has 32 vowels contrasting in nasalization, length, aspiration and glottalization, causing great confusion for the learner. In order to support the correct learning of this language, three classifier models (K-nearest neighbor, multilayer neural networks and Hidden Markov Model) have been developed to detect confusion in the pronunciation of the 32 vowels. They were developed in three different experiments in order to reach the best accuracy rates. The selected strategy developed binary classifiers using bagging with adding a number of negatives samples for each vowel, with an accuracy rate of about 85%. With these trained classifiers, a Computer Assisted Language Learning system prototype (CALL) was designed to support the correct pronunciation of the language’s vowels. Additionally using this system, the native and non-native speakers score distribution of acceptance was calculated and the confusion of vowels for non-native speaker corpus was evaluated. Index terms- Vowel classification, Nasa yuwe, pronunciation learning, pattern recognition, computer assisted language learning.\n",
+    ""
+   ]
+  },
+  "mac12_sltu": {
+   "authors": [
+    [
+     "Dang-Khoa",
+     "Mac"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Véronique",
+     "Aubergé"
+    ]
+   ],
+   "title": "Modeling the prosody of Vietnamese attitudes for expressive speech synthesis",
+   "original": "su12_114",
+   "page_count": 5,
+   "order": 21,
+   "p1": "114",
+   "pn": "118",
+   "abstract": [
+    "Attitudes or social affects are strongly implied in interaction processing, and specifically to socio-cultural aspects of language. This paper presents the modeling of attitude to apply in expressive speech synthesis in Vietnamese, an under-resourced tonal language. A prosodic model for Vietnamese attitude is proposed based on the concept of “rendez-vous” between linguistic levels and prosodic functions of utterance. This model is applied to generate the prosody of attitudes in Vietnamese. The perceptual experiment on the synthetic utterances with this model shows that the attitudes are well evaluated.\n",
+    "Index Terms: attitude, tone, prosodic modeling, expressive speech synthesis, Vietnamese\n",
+    ""
+   ]
+  },
+  "weber12_sltu": {
+   "authors": [
+    [
+     "Benoît",
+     "Weber"
+    ],
+    [
+     "Geneviève",
+     "Caelen-Haumont"
+    ],
+    [
+     "Do-Dat",
+     "Tran"
+    ],
+    [
+     "Binh Hai",
+     "Pham"
+    ]
+   ],
+   "title": "MISTRAL+: dedicated tool for under-resourced languages analysis",
+   "original": "su12_119",
+   "page_count": 6,
+   "order": 22,
+   "p1": "119",
+   "pn": "124",
+   "abstract": [
+    "This paper presents MISTRAL+, a dedicated tool for the study of under-resourced languages. MISTRAL+ is the upgrated version of an automatic tool created in 2004 called MELISM. The entire process has been modified in order to simplify and enhance the study of under-resourced languages. MISTRAL+ is composed of two separated modules: MISTRAL_Praat a plugin integrated to the tool PRAAT, and MISTRAL_xls a VBA module.   MISTRAL_Praat enables the creation of an approximation of the signal that is studied, it performs an automatic tonal annotation and exports all data in a xls standard file. Using MISTRAL_xls, the user is able to easily and quickly extract from the data generated by MISTRAL_praat the information he needs for his study.   In the first part, MISTRAL+ and its main functionalities will be presented. In the second part, a closer look will be put on MISTRAL_praat. The third part will describe the second module MISTRAL_xls. The last part will present the study done using MISTRAL+ on the study of the Mio Pu, a vietnamese under-resourced language.\n",
+    "Index Terms: F0 range, Phonetic IPA labeling, automatic annotation and segmentation, tonal languages, expressive speech.\n",
+    ""
+   ]
+  },
+  "meftouh12_sltu": {
+   "authors": [
+    [
+     "K.",
+     "Meftouh"
+    ],
+    [
+     "N.",
+     "Bouchemal"
+    ],
+    [
+     "K.",
+     "Smaïli"
+    ]
+   ],
+   "title": "A study of a non-resourced language: an Algerian dialect",
+   "original": "su12_125",
+   "page_count": 8,
+   "order": 23,
+   "p1": "125",
+   "pn": "132",
+   "abstract": [
+    "The objective of this paper is to present an under-resourced language related to Arabic. In fact, in several countries through the Arabic world, no one speaks the modern standard Arabic language. People speak something which is inspired from Arabic but could be very different from the modern standard Arabic. This one is reserved for the official broadcast news, official discourses and so on. The study of dialect is more difficult than any other natural language because it should be noted that this language is not written. This paper presents a linguistic study of an Algerian Arabic dialect, namely the dialect of Annaba (AD). In our knowledge, this is the first study made on Algerian dialect. It also presents the methodology used for building a parallel corpus: modern standard Arabic versus Arabic Dialect in order to achieve a machine translation for this pair of languages. This preliminary work is presented to try to attract the attention of the scientific community to this difficult and challenging problem. A realistic machine translation on Arabic should be done principally on dialect. This is our objective at a medium term.\n",
+    "Index Terms: Standard Arabic, Algerian Arabic dialect, parallel corpus, dialect of Annaba, distance of Levenshtein, Machine translation system.\n",
+    ""
+   ]
+  },
+  "raborife12_sltu": {
+   "authors": [
+    [
+     "Mpho",
+     "Raborife"
+    ],
+    [
+     "Sabine",
+     "Zerbian"
+    ],
+    [
+     "Sigrid",
+     "Ewert"
+    ]
+   ],
+   "title": "Empirical measurements on a Sesotho tone labeling algorithm",
+   "original": "su12_133",
+   "page_count": 6,
+   "order": 24,
+   "p1": "133",
+   "pn": "138",
+   "abstract": [
+    "This article discusses the empirical assessments employed on two versions of a Sesotho tone labeling algorithm. This algorithm uses linguistically-defined Sesotho tonal rules to predict the tone labels on the syllables of Sesotho words. The two versions differed in the number of tonal rules that they employ as well the lexical categories that the tone rules apply to. Both versions were tested on the same input text and we employed t-tests to prove that one version is an improvement on the other.\n",
+    "Index Terms: Sesotho, Tone, Algorithm\n",
+    ""
+   ]
+  },
+  "badenhorst12_sltu": {
+   "authors": [
+    [
+     "Jaco",
+     "Badenhorst"
+    ],
+    [
+     "Alta de",
+     "Waal"
+    ],
+    [
+     "Febe de",
+     "Wet"
+    ]
+   ],
+   "title": "Quality measurements for mobile data collection in the developing world",
+   "original": "su12_139",
+   "page_count": 7,
+   "order": 25,
+   "p1": "139",
+   "pn": "145",
+   "abstract": [
+    "The collection of speech data suitable for speech technology development is a challenge for under-resourced languages. Factors such as cost, availability of mother-tongue speakers and vast geographic distances call for techniques to optimise the data collection process in order to reduce re-collection of data. The use of mobile devices facilitate remote speech data collection. Although mobile (and remote) data collection addresses the challenging factors mentioned above, the environment is still less controlled than in the case of laboratory or studio-based recordings. In this paper we firstly revisit semi-realtime, basic quality control checks as implemented on available mobile-based speech data collection software (Woefzela). In addition, we introduce a quality control technique that uses speech duration estimation to validate the acoustic quality of the speech samples. We compare both techniques with manual verifications.\n",
+    "Index Terms: speech data collection, resource-scarce environment, under-resourced languages, automatic speech recognition, mobile data collection, android, Woefzela\n",
+    ""
+   ]
+  },
+  "heerden12_sltu": {
+   "authors": [
+    [
+     "Charl J. van",
+     "Heerden"
+    ],
+    [
+     "Marelie H.",
+     "Davel"
+    ],
+    [
+     "Etienne",
+     "Barnard"
+    ]
+   ],
+   "title": "Medium-vocabulary speech recognition for under-resourced languages",
+   "original": "su12_146",
+   "page_count": 6,
+   "order": 26,
+   "p1": "146",
+   "pn": "151",
+   "abstract": [
+    "We report on the development of speech-recognition systems that are able to perform accurate recognition on mediumvocabulary tasks (i.e. tasks that require distinctions between approximately 200 different terms). We are able to achieve error rates of less than 5% (our design goal) on four underresourced languages as well as English, by using training corpora that contain 70–100 hours of speech per language. The majority of the errors stem from words such as abbreviations, foreign words or names, which do not adhere to the standard orthography of the target language. We also find that recognition accuracy does not depend strongly on the number of occurrences of a term in the training set or the length of the term to be recognized, and that a few problematic speakers are responsible for a disproportionate number of errors.\n",
+    "Index Terms: Speech recognition, under-resourced languages, multilingual speech processing\n",
+    ""
+   ]
+  },
+  "benkhellat12_sltu": {
+   "authors": [
+    [
+     "Z.",
+     "Benkhellat"
+    ],
+    [
+     "E.",
+     "Ferreira"
+    ],
+    [
+     "Pascal",
+     "Nocera"
+    ],
+    [
+     "M.",
+     "Guerti"
+    ]
+   ],
+   "title": "Automatic speech recognition system for under-resourced languages based on Speeral: application to berber language",
+   "original": "su12_152",
+   "page_count": 4,
+   "order": 27,
+   "p1": "152",
+   "pn": "155",
+   "abstract": [
+    "The ability to collect and process a large amount of resources (vocabularies, text corpora, transcribed speech corpora, phonetic dictionaries) constitutes a critical prerequisite of systems based on statistical methods. This problem becomes crucial for languages presenting a lack of computer resources, also known as under-resourced languages, such as African ones. Our work consists in finding an efficient methodology which can improve Speech recognition systems for this kind of languages. This article presents a possible solution proposed for the Berber Language and describe the set of tools used in our study. Namely, we dealt with the problem of insufficient amount of resources by taking into account linguistic specificities of the Berber language and using innovative methods in the building process of ASR resources (acoustic model, lexicon and language model).\n",
+    "Index Terms: Speech recognition, berber language, speeral, under-resourced language\n",
+    ""
+   ]
+  },
+  "lamel12_sltu": {
+   "authors": [
+    [
+     "Lori",
+     "Lamel"
+    ],
+    [
+     "Sandrine",
+     "Courcinous"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ],
+    [
+     "Yvan",
+     "Josse"
+    ],
+    [
+     "Viet Bac",
+     "Le"
+    ]
+   ],
+   "title": "Transcription of Russian conversational speech",
+   "original": "su12_156",
+   "page_count": 6,
+   "order": 28,
+   "p1": "156",
+   "pn": "161",
+   "abstract": [
+    "This paper presents initial work in transcribing conversational telephone speech in Russian. Acoustic seed models were derived from other languages. The initial studies are carried out with 9 hours of transcribed data, and explore the choice of the phone set and use of other data types to improve transcription performance. Discriminant features produced by a Multi Layer Perceptron trained on a few hours of Russian conversational data are contrasted with those derived from well-trained networks for English telephone speech and from Russian broadcast data. Acoustic models trained on broadcast data filtered to match the telephone band achieve results comparable to those obtained with models trained on the small conversation telephone speech corpus.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Table of Contents and Access to Abstracts",
+   "papers": [
+    "zhang12_sltu",
+    "tachbelie12_sltu",
+    "schlippe12_sltu",
+    "alumae12_sltu",
+    "nakagawa12_sltu",
+    "fragasilva12_sltu",
+    "calteaux12_sltu",
+    "teshome12_sltu",
+    "kivaisi12_sltu",
+    "adegbola12_sltu",
+    "niekerk12_sltu",
+    "imseng12_sltu",
+    "davel12_sltu",
+    "weiner12_sltu",
+    "gunason12_sltu",
+    "karpov12_sltu",
+    "vu12_sltu",
+    "gelas12_sltu",
+    "kamper12_sltu",
+    "naranjo12_sltu",
+    "mac12_sltu",
+    "weber12_sltu",
+    "meftouh12_sltu",
+    "raborife12_sltu",
+    "badenhorst12_sltu",
+    "heerden12_sltu",
+    "benkhellat12_sltu",
+    "lamel12_sltu"
+   ]
+  }
+ ]
+}

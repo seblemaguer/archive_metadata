@@ -1,0 +1,1350 @@
+{
+ "title": "11th ISCA Speech Synthesis Workshop (SSW 11)",
+ "location": "Budapest, Hungary",
+ "startDate": "26/08/2021",
+ "endDate": "28/08/2021",
+ "URL": "https://ssw11.hte.hu/",
+ "chair": "Chair: Géza Németh",
+ "conf": "SSW",
+ "year": "2021",
+ "name": "ssw_2021",
+ "series": "SSW",
+ "SIG": "SynSIG",
+ "title1": "11th ISCA Speech Synthesis Workshop",
+ "title2": "(SSW 11)",
+ "date": "26-28 August 2021",
+ "booklet": "ssw_2021.pdf",
+ "papers": {
+  "csapo21_ssw": {
+   "authors": [
+    [
+     "Tamás Gábor",
+     "Csapó"
+    ]
+   ],
+   "title": "Extending Text-to-Speech Synthesis with Articulatory Movement Prediction using Ultrasound Tongue Imaging",
+   "original": "SSW11_paper_1",
+   "page_count": 6,
+   "order": 2,
+   "p1": 7,
+   "pn": 12,
+   "abstract": [
+    "In this paper, we present our first experiments in text-toarticulation prediction, using ultrasound tongue image targets. We extend a traditional (vocoder-based) DNN-TTS framework with predicting PCA-compressed ultrasound images, of which the continuous tongue motion can be reconstructed in synchrony with synthesized speech. We use the data of eight speakers, train fully connected and recurrent neural networks, and show that FC-DNNs are more suitable for the prediction of sequential data than LSTMs, in case of limited training data. Objective experiments and visualized predictions show that the proposed solution is feasible and the generated ultrasound videos are close to natural tongue movement. Articulatory movement prediction from text input can be useful for audiovisual speech synthesis or computer-assisted pronunciation training."
+   ],
+   "doi": "10.21437/SSW.2021-2"
+  },
+  "csapo21b_ssw": {
+   "authors": [
+    [
+     "Tamás Gábor",
+     "Csapó"
+    ],
+    [
+     "László",
+     "Tóth"
+    ],
+    [
+     "Gábor",
+     "Gosztolya"
+    ],
+    [
+     "Alexandra",
+     "Markó"
+    ]
+   ],
+   "title": "Speech Synthesis from Text and Ultrasound Tongue Image-based Articulatory Input",
+   "original": "SSW11_paper_2",
+   "page_count": 6,
+   "order": 6,
+   "p1": 31,
+   "pn": 36,
+   "abstract": [
+    "Articulatory information has been shown to be effective in improving the performance of HMM-based and DNN-based textto- speech synthesis. Speech synthesis research focuses traditionally on text-to-speech conversion, when the input is text or an estimated linguistic representation, and the target is synthesized speech. However, a research field that has risen in the last decade is articulation-to-speech synthesis (with a target application of a Silent Speech Interface, SSI), when the goal is to synthesize speech from some representation of the movement of the articulatory organs. In this paper, we extend traditional (vocoder-based) DNN-TTS with articulatory input, estimated from ultrasound tongue images. We compare text-only, ultrasound-only, and combined inputs. Using data from eight speakers, we show that that the combined text and articulatory input can have advantages in limited-data scenarios, namely, it may increase the naturalness of synthesized speech compared to single text input. Besides, we analyze the ultrasound tongue recordings of several speakers, and show that misalignments in the ultrasound transducer positioning can have a negative effect on the final synthesis performance."
+   ],
+   "doi": "10.21437/SSW.2021-6"
+  },
+  "williams21_ssw": {
+   "authors": [
+    [
+     "Jennifer",
+     "Williams"
+    ],
+    [
+     "Jason",
+     "Fong"
+    ],
+    [
+     "Erica",
+     "Cooper"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Exploring Disentanglement with Multilingual and Monolingual VQ-VAE",
+   "original": "SSW11_paper_6",
+   "page_count": 6,
+   "order": 22,
+   "p1": 124,
+   "pn": 129,
+   "abstract": [
+    "This work examines the content and usefulness of disentangled phone and speaker representations from two separately trained VQ-VAE systems: one trained on multilingual data and another trained on monolingual data. We explore the multi- and monolingual models using four small proof-of-concept tasks: copysynthesis, voice transformation, linguistic code-switching, and content-based privacy masking. From these tasks, we reflect on how disentangled phone and speaker representations can be used to manipulate speech in a meaningful way. Our experiments demonstrate that the VQ representations are suitable for these tasks, including creating new voices by mixing speaker representations together. We also present our novel technique to conceal the content of targeted words within an utterance by manipulating phone VQ codes, while retaining speaker identity and intelligibility of surrounding words. Finally, we discuss recommendations for further increasing the viability of disentangled representations."
+   ],
+   "doi": "10.21437/SSW.2021-22"
+  },
+  "schnell21_ssw": {
+   "authors": [
+    [
+     "Bastian",
+     "Schnell"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Improving Emotional TTS with an Emotion Intensity Input from Unsupervised Extraction",
+   "original": "SSW11_paper_7",
+   "page_count": 6,
+   "order": 11,
+   "p1": 60,
+   "pn": 65,
+   "abstract": [
+    "We aim to provide controls for emotion in synthetic speech. Many emotions are not displayed continuously in an otherwise emotional utterance; rather, the intensity varies with time. We show that an emotion recogniser is capable of producing a measure of emotion intensity via attention or saliency; this measure is appropriate to label utterances subsequently used to train a speech synthesiser. We evaluate novel and published means to do this showing that, whilst it is no longer state of the art for emotion recognition, attention is a good way to indicate emotion intensity for speech synthesis."
+   ],
+   "doi": "10.21437/SSW.2021-11"
+  },
+  "schnell21b_ssw": {
+   "authors": [
+    [
+     "Bastian",
+     "Schnell"
+    ],
+    [
+     "Goeric",
+     "Huybrechts"
+    ],
+    [
+     "Bartek",
+     "Perz"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ],
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ]
+   ],
+   "title": "EmoCat: Language-agnostic Emotional Voice Conversion",
+   "original": "SSW11_paper_8",
+   "page_count": 6,
+   "order": 13,
+   "p1": 72,
+   "pn": 77,
+   "abstract": [
+    "Emotional voice conversion models adapt the emotion in speech without changing the speaker identity or linguistic content. They are less data hungry than text-to-speech models and allow to generate large amounts of emotional data for downstream tasks. In this work we propose EmoCat, a language-agnostic emotional voice conversion model. It achieves high-quality emotion conversion in German with less than 45 minutes of German emotional recordings by exploiting large amounts of emotional data in US English. EmoCat is an encoder-decoder model based on CopyCat, a voice conversion system which transfers prosody. We use adversarial training to remove emotion leakage from the encoder to the decoder. The adversarial training is improved by a novel contribution to gradient reversal to truly reverse gradients. This allows to remove only the leaking information and to converge to better optima with higher conversion performance. Evaluations show that Emocat can convert to different emotions but misses on emotion intensity compared to the recordings, especially for very expressive emotions. EmoCat is able to achieve audio quality on par with the recordings for five out of six tested emotion intensities."
+   ],
+   "doi": "10.21437/SSW.2021-13"
+  },
+  "shechtman21_ssw": {
+   "authors": [
+    [
+     "Slava",
+     "Shechtman"
+    ],
+    [
+     "Avrech",
+     "Ben-David"
+    ]
+   ],
+   "title": "Acquiring conversational speaking style from multi-speaker spontaneous dialog corpus for prosody-controllable sequence-to-sequence speech synthesis",
+   "original": "SSW11_paper_10",
+   "page_count": 6,
+   "order": 12,
+   "p1": 66,
+   "pn": 71,
+   "abstract": [
+    "Sequence-to-Sequence Text-to-Speech (S2S TTS) architectures that directly generate low level acoustic features from phonetic sequence are known to produce natural and expressive speech, when provided with moderate-to-large amounts of high quality training data. When exposed to a sequence of coarse speakeragnostic prosodic descriptors, such systems become prosodycontrollable and can learn and transfer desired prosodic patterns (e.g. word-emphasis or speaking style) from one seen speaker to another (in multi-speaker settings).\nBut what if a high quality speech corpus for a desired speaking style is not available? In this work we explore the feasibility of teaching a neutral pre-trained prosody-controllable S2S TTS voice to speak with a conversational speaking style, as learnt from a low-quality multi-speaker spontaneous dialog corpus (originally intended for Automatic Speech Recognition). We have found that it is absolutely necessary to incorporate word semantics for that task. We fine-tune BERT network to predict the prosodic descriptors from the input text, based on that corpus, and apply them to the prosody-controllable S2S TTS at inference time. The subjective listening tests revealed that the learnt conversational style rated higher than baseline for 68% of the stimuli under test. The overall quality and naturalness rated higher than baseline in 64% of the stimuli under test. The improvement came mostly as a result of improving common conversational speech patterns, such as filler words and phrases. However, the overall MOS did not significantly improve due to less convincing realization of the rising intonation on declarative statements (uptalk)."
+   ],
+   "doi": "10.21437/SSW.2021-12"
+  },
+  "oplustilgallegos21_ssw": {
+   "authors": [
+    [
+     "Pilar",
+     "Oplustil-Gallegos"
+    ],
+    [
+     "Johannah",
+     "O'Mahony"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Comparing acoustic and textual representations of previous linguistic context for improving Text-to-Speech",
+   "original": "SSW11_paper_12",
+   "page_count": 6,
+   "order": 36,
+   "p1": 205,
+   "pn": 210,
+   "abstract": [
+    "Text alone does not contain sufficient information to predict the spoken form. Using additional information, such as the linguistic context, should improve Text-to-Speech naturalness in general, and prosody in particular. Most recent research on using context is limited to using textual features of adjacent utterances, extracted with large pre-trained language models such as BERT.\nIn this paper, we compare multiple representations of linguistic context by conditioning a Text-to-Speech model on features of the preceding utterance. We experiment with three design choices: (1) acoustic vs. textual representations; (2) features extracted with large pre-trained models vs. features learnt jointly during training; and (3) representing context at the utterance level vs. word level.\nOur results show that appropriate representations of either text or acoustic context alone yield significantly better naturalness than a baseline that does not use context. Combining an utterance-level acoustic representation with a word-level textual representation gave the best results overall."
+   ],
+   "doi": "10.21437/SSW.2021-36"
+  },
+  "abbas21_ssw": {
+   "authors": [
+    [
+     "Ammar",
+     "Abbas"
+    ],
+    [
+     "Bajibabu",
+     "Bollepalli"
+    ],
+    [
+     "Alexis",
+     "Moinet"
+    ],
+    [
+     "Arnaud",
+     "Joly"
+    ],
+    [
+     "Penny",
+     "Karanasou"
+    ],
+    [
+     "Peter",
+     "Makarov"
+    ],
+    [
+     "Simon",
+     "Slangens"
+    ],
+    [
+     "Sri",
+     "Karlapati"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ]
+   ],
+   "title": "Multi-Scale Spectrogram Modelling for Neural Text-to-Speech",
+   "original": "SSW11_paper_13",
+   "page_count": 6,
+   "order": 31,
+   "p1": 177,
+   "pn": 182,
+   "abstract": [
+    "We propose a novel Multi-Scale Spectrogram (MSS) modelling approach to synthesise speech with an improved coarse and fine-grained prosody. We present a generic multi-scale spectrogram prediction mechanism where the system first predicts coarser scale mel-spectrograms that capture the suprasegmental information in speech, and later uses these coarser scale melspectrograms to predict finer scale mel-spectrograms capturing fine-grained prosody. We present details for two specific versions of MSS called Word-level MSS and Sentence-level MSS where the scales in our system are motivated by the linguistic units. TheWord-level MSS models word, phoneme, and framelevel spectrograms while Sentence-level MSS models sentencelevel spectrogram in addition. Subjective evaluations show that Word-level MSS performs statistically significantly better compared to the baseline on two voices."
+   ],
+   "doi": "10.21437/SSW.2021-31"
+  },
+  "shah21_ssw": {
+   "authors": [
+    [
+     "Raahil",
+     "Shah"
+    ],
+    [
+     "Kamil",
+     "Pokora"
+    ],
+    [
+     "Abdelhamid",
+     "Ezzerg"
+    ],
+    [
+     "Viacheslav",
+     "Klimkov"
+    ],
+    [
+     "Goeric",
+     "Huybrechts"
+    ],
+    [
+     "Bartosz",
+     "Putrycz"
+    ],
+    [
+     "Daniel",
+     "Korzekwa"
+    ],
+    [
+     "Thomas",
+     "Merritt"
+    ]
+   ],
+   "title": "Non-Autoregressive TTS with Explicit Duration Modelling for Low-Resource Highly Expressive Speech",
+   "original": "SSW11_paper_14",
+   "page_count": 6,
+   "order": 17,
+   "p1": 96,
+   "pn": 101,
+   "abstract": [
+    "Whilst recent neural text-to-speech (TTS) approaches produce high-quality speech, they typically require a large amount of recordings from the target speaker. In previous work [1], a 3- step method was proposed to generate high-quality TTS while greatly reducing the amount of data required for training. However, we have observed a ceiling effect in the level of naturalness achievable for highly expressive voices when using this approach. In this paper, we present a method for building highly expressive TTS voices with as little as 15 minutes of speech data from the target speaker. Compared to the current state-of-the-art approach, our proposed improvements close the gap to recordings by 23.3% for naturalness of speech and by 16.3% for speaker similarity. Further, we match the naturalness and speaker similarity of a Tacotron2-based full-data (≈ 10 hours) model using only 15 minutes of target speaker data, whereas with 30 minutes or more, we significantly outperform it. The following improvements are proposed: 1) changing from an autoregressive, attention-based TTS model to a nonautoregressive model replacing attention with an external duration model and 2) an additional Conditional Generative Adversarial Network (cGAN) based fine-tuning step."
+   ],
+   "doi": "10.21437/SSW.2021-17"
+  },
+  "ezzerg21_ssw": {
+   "authors": [
+    [
+     "Abdelhamid",
+     "Ezzerg"
+    ],
+    [
+     "Adam",
+     "Gabrys"
+    ],
+    [
+     "Bartosz",
+     "Putrycz"
+    ],
+    [
+     "Daniel",
+     "Korzekwa"
+    ],
+    [
+     "Daniel",
+     "Saez-Trigueros"
+    ],
+    [
+     "David",
+     "McHardy"
+    ],
+    [
+     "Kamil",
+     "Pokora"
+    ],
+    [
+     "Jakub",
+     "Lachowicz"
+    ],
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Viacheslav",
+     "Klimkov"
+    ]
+   ],
+   "title": "Enhancing audio quality for expressive Neural Text-to-Speech",
+   "original": "SSW11_paper_15",
+   "page_count": 6,
+   "order": 14,
+   "p1": 78,
+   "pn": 83,
+   "abstract": [
+    "Artificial speech synthesis has made a great leap in terms of naturalness as recent Text-to-Speech (TTS) systems are capable of producing speech with similar quality to human recordings. However, not all speaking styles are easy to model: highly expressive voices are still challenging even to recent TTS architectures since there seems to be a trade-off between expressiveness in a generated audio and its signal quality. In this paper, we present a set of techniques that can be leveraged to enhance the signal quality of a highly-expressive voice without the use of additional data. The proposed techniques include: tuning the autoregressive loop’s granularity during training; using Generative Adversarial Networks in acoustic modeling; and the use of Variational Auto-Encoders in both the acoustic model and the neural vocoder. We show that, when combined, these techniques greatly closed the gap in perceived naturalness between the baseline system and recordings by 39% in terms of MUSHRA scores for an expressive celebrity voice."
+   ],
+   "doi": "10.21437/SSW.2021-14"
+  },
+  "latorre21_ssw": {
+   "authors": [
+    [
+     "Javier",
+     "Latorre"
+    ],
+    [
+     "Charlotte",
+     "Bailleul"
+    ],
+    [
+     "Tuuli",
+     "Morrill"
+    ],
+    [
+     "Alistair",
+     "Conkie"
+    ],
+    [
+     "Yannis",
+     "Stylianou"
+    ]
+   ],
+   "title": "Combining speakers of multiple languages to improve quality of neural voices",
+   "original": "SSW11_paper_16",
+   "page_count": 6,
+   "order": 7,
+   "p1": 37,
+   "pn": 42,
+   "abstract": [
+    "In this work, we explore multiple architectures and training procedures for developing a multi-speaker and multi-lingual neural TTS system with the goals of a) improving the quality when the available data in the target language is limited and b) enabling cross-lingual synthesis. We report results from a large experiment using 30 speakers in 8 different languages across 15 different locales. The system is trained on the same amount of data per speaker. Compared to a single-speaker model, when the suggested system is fine tuned to a speaker, it produces significantly better quality in most of the cases while it only uses less than 40% of the speaker’s data used to build the singlespeaker model. In cross-lingual synthesis, on average, the generated quality is within 80% of native single-speaker models, in terms of Mean Opinion Score."
+   ],
+   "doi": "10.21437/SSW.2021-7"
+  },
+  "krug21_ssw": {
+   "authors": [
+    [
+     "Paul Konstantin",
+     "Krug"
+    ],
+    [
+     "Simon",
+     "Stone"
+    ],
+    [
+     "Peter",
+     "Birkholz"
+    ]
+   ],
+   "title": "Intelligibility and naturalness of articulatory synthesis with VocalTractLab compared to established speech synthesis technologies",
+   "original": "SSW11_paper_17",
+   "page_count": 6,
+   "order": 18,
+   "p1": 102,
+   "pn": 107,
+   "abstract": [
+    "In this work, the current state-of-the-art of articulatory speech synthesis (VOCALTRACTLAB) is compared to a wide range of different text-to-speech systems that once represented or still represent the continuously evolving state-of-the-art of speech synthesis technology. The comparison systems include neural and concatenative synthesis by Google and Microsoft, as well as Hidden Markov Model-based, unit-selection and diphone synthesis developed at universities (using MARYTTS, MBROLA and DRESS). A small corpus of 15 German sentences was synthesized using the text-to-speech (and, if available, re-synthesis) functionalities of each system. The intelligibility of the synthesized utterances was evaluated in an ASR experiment. The naturalness of the utterances was evaluated in a multi-stimulus Likert test by 50 German native speakers. As an additional reference, recordings of natural speech were used in the experiments. It was found that the articulatory synthesis can achieve a performance on par with the non-commercial synthesis systems in terms of intelligibility and naturalness, while being significantly outperformed by the commercial synthesis systems."
+   ],
+   "doi": "10.21437/SSW.2021-18"
+  },
+  "nakata21_ssw": {
+   "authors": [
+    [
+     "Wataru",
+     "Nakata"
+    ],
+    [
+     "Tomoki",
+     "Koriyama"
+    ],
+    [
+     "Shinnosuke",
+     "Takamichi"
+    ],
+    [
+     "Naoko",
+     "Tanji"
+    ],
+    [
+     "Yusuke",
+     "Ijima"
+    ],
+    [
+     "Ryo",
+     "Masumura"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ]
+   ],
+   "title": "Audiobook Speech Synthesis Conditioned by Cross-Sentence Context-Aware Word Embeddings",
+   "original": "SSW11_paper_19",
+   "page_count": 5,
+   "order": 37,
+   "p1": 211,
+   "pn": 215,
+   "abstract": [
+    "This paper proposes an audiobook speech synthesis method that considers a wider range of contexts than a sentence level. The style of the audiobook speech depends not only on the current sentence to be synthesized but also on its neighboring sentences. Therefore, unlike conventional text-to-speech synthesis for isolated sentences, it is necessary to consider the context of the neighboring sentences. Our method utilizes cross-sentence context-aware word embedding, which is obtained by inputting the neighboring and current sentences into BERT. The speech synthesis model, Tacotron2, is conditioned by this word embedding in addition to the current sentence. Experimental results show that taking neighboring sentences into account significantly improves synthetic speech quality."
+   ],
+   "doi": "10.21437/SSW.2021-37"
+  },
+  "m21_ssw": {
+   "authors": [
+    [
+     "Mano Ranjith Kumar",
+     "M"
+    ],
+    [
+     "Jom",
+     "Kuriakose"
+    ],
+    [
+     "Karthik Pandia D",
+     "S"
+    ],
+    [
+     "Hema A",
+     "Murthy"
+    ]
+   ],
+   "title": "Lipsyncing efforts for transcreating lecture videos in Indian languages",
+   "original": "SSW11_paper_20",
+   "page_count": 6,
+   "order": 38,
+   "p1": 216,
+   "pn": 221,
+   "abstract": [
+    "This paper proposes a novel lip-syncing module for the transcreation of lecture videos from English to Indian languages. The audio from the lecture is transcribed using automatic speech recognition. The text is translated and manually curated before and after translation to avoid mistakes. The curated text is synthesized using the Indian language end-to-endbased text-to-speech synthesis systems. The synthesized audio and video are out-of-sync. This paper attempts to automate this process of producing video lectures lip-synced into Indian languages using different techniques.\nLip-syncing an educational video with the Indian language audio is challenging owing to (a) the duration of Indian language audio being considerably longer or shorter than that of the original audio, (b) the extempore speech causes the audio in the source videos to have long silences. Any modification to the speed of audio can be unpleasant to listeners. The proposed system non-uniformly re-samples the video to ensure better lip-syncing. The novelty of this paper is in the use of HMMGMM alignments in tandem with syllable segmentation using group delay, as visemes are closer to syllables. The proposed lip-syncing techniques are evaluated using subjective evaluation methods. Results indicate that accurate alignment at the syllable level is crucial for lip-syncing."
+   ],
+   "doi": "10.21437/SSW.2021-38"
+  },
+  "rallabandi21_ssw": {
+   "authors": [
+    [
+     "Sai Sirisha",
+     "Rallabandi"
+    ],
+    [
+     "Babak",
+     "Naderi"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Identifying the vocal cues of likeability, friendliness and skilfulness in synthetic speech",
+   "original": "SSW11_paper_21",
+   "page_count": 6,
+   "order": 1,
+   "p1": 1,
+   "pn": 6,
+   "abstract": [
+    "The advent of neural Text-to-Speech (TTS) synthesizers has enhanced the expressivity of synthetic speech in the recent past. However, there is very little work on understanding the acoustic correlates of paralinguistic traits, emotions, speaker attributes and characteristics from synthetic speech. This paper investigates the acoustic correlates of the speaker attributes: likeability, friendliness, and skillfulness. Our study was carried out on the voices derived from the two commercial TTS systems, Amazon Polly (9 voices) and Google TTS engine (10 voices). In our previous study, we performed a crowd-sourcing-based evaluation to collect the subjective ratings for the desired speaker attributes. In this work, we perform the acoustic feature prediction using the backward elimination algorithm. We show that the level of loudness, spectral flux, fundamental frequency, its formant frequencies, and their combinations contribute to the desired speaker attributes. We further combine the ratings of friendliness and likeability to investigate the characteristic, warmth in synthetic speech and correspondingly, skilfullness represents the characteristic, competence."
+   ],
+   "doi": "10.21437/SSW.2021-1"
+  },
+  "cooper21_ssw": {
+   "authors": [
+    [
+     "Erica",
+     "Cooper"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "How do Voices from Past Speech Synthesis Challenges Compare Today?",
+   "original": "SSW11_paper_22",
+   "page_count": 6,
+   "order": 32,
+   "p1": 183,
+   "pn": 188,
+   "abstract": [
+    "Shared challenges provide a venue for comparing systems trained on common data using a standardized evaluation, and they also provide an invaluable resource for researchers when the data and evaluation results are publicly released. The Blizzard Challenge and Voice Conversion Challenge are two such challenges for text-to-speech synthesis and for speaker conversion, respectively, and their publicly-available system samples and listening test results comprise a historical record of stateof- the-art synthesis methods over the years. In this paper, we revisit these past challenges and conduct a large-scale listening test with samples from many challenges combined. Our aims are to analyze and compare opinions of a large number of systems together, to determine whether and how opinions change over time, and to collect a large-scale dataset of a diverse variety of synthetic samples and their ratings for further research. We found strong correlations challenge by challenge at the system level between the original results and our new listening test. We also observed the importance of the choice of speaker on synthesis quality."
+   ],
+   "doi": "10.21437/SSW.2021-32"
+  },
+  "cooper21b_ssw": {
+   "authors": [
+    [
+     "Erica",
+     "Cooper"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Text-to-Speech Synthesis Techniques for MIDI-to-Audio Synthesis",
+   "original": "SSW11_paper_23",
+   "page_count": 6,
+   "order": 23,
+   "p1": 130,
+   "pn": 135,
+   "abstract": [
+    "Speech synthesis and music audio generation from symbolic input differ in many aspects but share some similarities. In this study, we investigate how text-to-speech synthesis techniques can be used for piano MIDI-to-audio synthesis tasks. Our investigation includes Tacotron and neural sourcefilter waveform models as the basic components, with which we build MIDI-to-audio synthesis systems in similar ways to TTS frameworks. We also include reference systems using conventional sound modeling techniques such as samplebased and physical-modeling-based methods. The subjective experimental results demonstrate that the investigated TTS components can be applied to piano MIDI-to-audio synthesis with minor modifications. The results also reveal the performance bottleneck – while the waveform model can synthesize high quality piano sound given natural acoustic features, the conversion from MIDI to acoustic features is challenging. The full MIDI-to-audio synthesis system is still inferior to the sample-based or physical-modeling-based approaches, but we encourage TTS researchers to test their TTS models for this new task and improve the performance."
+   ],
+   "doi": "10.21437/SSW.2021-23"
+  },
+  "yufune21_ssw": {
+   "authors": [
+    [
+     "Kazuya",
+     "Yufune"
+    ],
+    [
+     "Tomoki",
+     "Koriyama"
+    ],
+    [
+     "Shinnosuke",
+     "Takamichi"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ]
+   ],
+   "title": "Accent Modeling of Low-Resourced Dialect in Pitch Accent Language Using Variational Autoencoder",
+   "original": "SSW11_paper_25",
+   "page_count": 6,
+   "order": 33,
+   "p1": 189,
+   "pn": 194,
+   "abstract": [
+    "In this paper, we propose an emotion-controllable text-tospeech (TTS) model that allows both emotional-level (i.e., coarse-grained) control and prosodic-feature-level (i.e., finegrained) control of speech using both emotional soft-labels and prosodic features. Conventional methods control speech only by using emotional labels or prosodic features (e.g., mean and standard deviation of pitch), which cannot express diverse emotions. Our model is based on a prosodic feature generator that decodes emotion soft-labels into prosodic features. It allows controlling the emotion of synthetic speech by both emotion labels and prosodic features. The experiment results show 1) the emotion-perceptual accuracy of synthetic speech reaches 66 % 2) the mean opinion score for the naturalness of emotionally controlled synthetic speech was 3.5, which is comparable to the conventional method using prosodic features."
+   ],
+   "doi": "10.21437/SSW.2021-33"
+  },
+  "omahony21_ssw": {
+   "authors": [
+    [
+     "Johannah",
+     "O'Mahony"
+    ],
+    [
+     "Pilar",
+     "Oplustil-Gallegos"
+    ],
+    [
+     "Catherine",
+     "Lai"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Factors Affecting the Evaluation of Synthetic Speech in Context",
+   "original": "SSW11_paper_26",
+   "page_count": 6,
+   "order": 26,
+   "p1": 148,
+   "pn": 153,
+   "abstract": [
+    "Realizing text-to-speech (TTS) system of dialects is useful for personalizing TTS systems. However, TTS for many dialects of pitch accent languages is not realized because of lowresourced problem. Among many dialects of pitch accent languages, this paper focuses on Osaka dialect of Japanese, one of the most challenging pitch accent languages. For Japanese TTS system, accent labels are known to be necessary as input to synthesize natural speech. In rich-resourced dialect, humanresourced approaches and dictionary-based approaches are often used to annotate accent labels for training and inference, but such approaches are unfeasible and time-consuming for lowresourced dialects. In this paper, we propose accent extraction model that utilizes vector quantized variational autoencoder (VQ-VAE) to prepare accent information from speech, and accent prediction models that utilize decision tree and deep learning techniques to predict accent information from the input text. The models were examined with corpus of Osaka dialect, whose accent labels do not exist. The results showed that accent extraction model succeeded in extracting accent information of Osaka dialect from speech utterances as latent variable. It also showed that the accent of synthesized speech by accent prediction models were not better than baseline, but it had advantages such as interpretability."
+   ],
+   "doi": "10.21437/SSW.2021-26"
+  },
+  "baby21_ssw": {
+   "authors": [
+    [
+     "Arun",
+     "Baby"
+    ],
+    [
+     "Pranav",
+     "Jawale"
+    ],
+    [
+     "Saranya",
+     "Vinnaitherthan"
+    ],
+    [
+     "Sumukh",
+     "Badam"
+    ],
+    [
+     "Nagaraj",
+     "Adiga"
+    ],
+    [
+     "Sharath",
+     "Adavane"
+    ]
+   ],
+   "title": "Non-native English lexicon creation for bilingual speech synthesis",
+   "original": "SSW11_paper_27",
+   "page_count": 6,
+   "order": 27,
+   "p1": 154,
+   "pn": 159,
+   "abstract": [
+    "Bilingual English speakers speak English as one of their languages. Their English is of a non-native kind, and their conversations are of a code-mixed fashion. The intelligibility of a bilingual text-to-speech (TTS) system for such non-native English speakers depends on a lexicon that captures the phoneme sequence used by non-native speakers. However, due to the lack of non-native English lexicon, existing bilingual TTS systems employ native English lexicons that are widely available, in addition to their native language lexicon. Due to the inconsistency between the non-native English pronunciation in the audio and native English lexicon in the text, the intelligibility of synthesized speech in such TTS systems is significantly reduced.\nThis paper is motivated by the knowledge that the native language of the speaker highly influences non-native English pronunciation. We propose a generic approach to obtain rules based on letter to phoneme alignment to map native English lexicon to their non-native version. The effectiveness of such mapping is studied by comparing bilingual (Indian English and Hindi) TTS systems trained with and without the proposed rules. The subjective evaluation shows that the bilingual TTS system trained with the proposed non-native English lexicon rules obtains a 6% absolute improvement in preference."
+   ],
+   "doi": "10.21437/SSW.2021-27"
+  },
+  "mottini21_ssw": {
+   "authors": [
+    [
+     "Alejandro",
+     "Mottini"
+    ],
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Sri Vishnu Kumar",
+     "Karlapati"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ]
+   ],
+   "title": "Voicy: Zero-Shot Non-Parallel Voice Conversion in Noisy Reverberant Environments",
+   "original": "SSW11_paper_28",
+   "page_count": 5,
+   "order": 20,
+   "p1": 113,
+   "pn": 117,
+   "abstract": [
+    "Voice Conversion (VC) is a technique that aims to transform the non-linguistic information of a source utterance to change the perceived identity of the speaker. While there is a rich literature on VC, most proposed methods are trained and evaluated on clean speech recordings. However, many acoustic environments are noisy and reverberant, severely restricting the applicability of popular VC methods to such scenarios. To address this limitation, we propose Voicy, a new VC framework particularly tailored for noisy speech. Our method, which is inspired by the de-noising auto-encoders framework, is comprised of four encoders (speaker, content, phonetic and acoustic-ASR) and one decoder. Importantly, Voicy is capable of performing non-parallel zero-shot VC, an important requirement for any VC system that needs to work on speakers not seen during training. We have validated our approach using a noisy reverberant version of the LibriSpeech dataset. Experimental results show that Voicy outperforms other tested VC techniques in terms of naturalness and target speaker similarity in noisy reverberant environments."
+   ],
+   "doi": "10.21437/SSW.2021-20"
+  },
+  "wells21_ssw": {
+   "authors": [
+    [
+     "Dan",
+     "Wells"
+    ],
+    [
+     "Korin",
+     "Richmond"
+    ]
+   ],
+   "title": "Cross-lingual Transfer of Phonological Features for Low-resource Speech Synthesis",
+   "original": "SSW11_paper_30",
+   "page_count": 6,
+   "order": 28,
+   "p1": 160,
+   "pn": 165,
+   "abstract": [
+    "Previous work on cross-lingual transfer learning in text-tospeech has shown the effectiveness of fine-tuning phonemic representations on small amounts of target language data. In other contexts, phonological features (PFs) have been suggested as a more suitable input representation than phonemes for sharing acoustic information between languages, for example in multilingual model training or for code-switching synthesis where an utterance may contain words from multiple languages. Starting from a model trained on 14 hours of English, we find that cross-lingual fine-tuning with 15 minutes of German data can produce speech with subjective naturalness ratings comparable to a model trained from scratch on 4 hours of German, using either phonemes or PFs. We also find a modest but statistically significant improvement in naturalness ratings using PFs over phonemes when training from scratch on 4 hours of German."
+   ],
+   "doi": "10.21437/SSW.2021-28"
+  },
+  "taylor21_ssw": {
+   "authors": [
+    [
+     "Jason",
+     "Taylor"
+    ],
+    [
+     "Sébastien Le",
+     "Maguer"
+    ],
+    [
+     "Korin",
+     "Richmond"
+    ]
+   ],
+   "title": "Liaison and Pronunciation Learning in End-to-End Text-to-Speech in French",
+   "original": "SSW11_paper_31",
+   "page_count": 5,
+   "order": 34,
+   "p1": 195,
+   "pn": 199,
+   "abstract": [
+    "Sequence-to-sequence (S2S) TTS models like Tacotron have grapheme-only inputs when trained fully end-to-end. Grapheme inputs map to phone sounds depending on context, which traditionally is handled by extensive preprocessing in the TTS front-end. However, French orthography does not provide a clear one-to-one mapping between graphemes and sounds, and in English, which similarly has rather non-phonetic orthography, pronunciations are a significant cause of error in S2STTS with grapheme-inputs. In this paper, we test implicit pronunciation knowledge where graphemes do not map directly to phones. Implicit pronunciation knowledge learnt in S2S-TTS is similar to a standalone grapheme-to-phoneme (G2P) model, which makes explicit phone predictions at the sequential level. We find grapheme-input S2S-TTS makes implicit pronunciation errors similar to explicit G2P models - notably for foreign names. In a traditional front-end pipeline, there are also postlexical rules which modify G2P output at the sequential level. In French, post-lexical rules require a deep knowledge of linguistic structure in a process called Liaison. Without explicit rules, we find S2S-TTS with grapheme-inputs over-inserts Liaison sounds, leading to a significant preference for a phonebased equivalent. By testing with linguistically-motivated stimuli, we observe differences that would otherwise go undetected."
+   ],
+   "doi": "10.21437/SSW.2021-34"
+  },
+  "luong21_ssw": {
+   "authors": [
+    [
+     "Hieu-Thi",
+     "Luong"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Preliminary study on using vector quantization latent spaces for TTS/VC systems with consistent performance",
+   "original": "SSW11_paper_32",
+   "page_count": 6,
+   "order": 24,
+   "p1": 136,
+   "pn": 141,
+   "abstract": [
+    "Generally speaking, the main objective when training a neural speech synthesis system is to synthesize natural and expressive speech from the output layer of the neural network without much attention given to the hidden layers. However, by learning useful latent representation, the system can be used for many more practical scenarios. In this paper, we investigate the use of quantized vectors to model the latent linguistic embedding and compare it with the continuous counterpart. By enforcing different policies over the latent spaces in the training, we are able to obtain a latent linguistic embedding that takes on different properties while having a similar performance in terms of quality and speaker similarity. Our experiments show that the voice cloning system built with vector quantization has only a small degradation in terms of perceptive evaluations, but has a discrete latent space that is useful for reducing the representation bit-rate, which is desirable for data transferring, or limiting the information leaking, which is important for speaker anonymization and other tasks of that nature."
+   ],
+   "doi": "10.21437/SSW.2021-24"
+  },
+  "tobing21_ssw": {
+   "authors": [
+    [
+     "Patrick Lumban",
+     "Tobing"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "Low-latency real-time non-parallel voice conversion based on cyclic variational autoencoder and multiband WaveRNN with data-driven linear prediction",
+   "original": "SSW11_paper_34",
+   "page_count": 6,
+   "order": 25,
+   "p1": 142,
+   "pn": 147,
+   "abstract": [
+    "This paper presents a low-latency real-time (LLRT) non-parallel voice conversion (VC) framework based on cyclic variational autoencoder (CycleVAE) and multiband WaveRNN with datadriven linear prediction (MWDLP). CycleVAE is a robust nonparallel multispeaker spectral model, which utilizes a speakerindependent latent space and a speaker-dependent code to generate reconstructed/converted spectral features given the spectral features of an input speaker. On the other hand, MWDLP is an efficient and a high-quality neural vocoder that can handle multispeaker data and generate speech waveform for LLRT applications with CPU. To accommodate LLRT constraint with CPU, we propose a novel CycleVAE framework that utilizes mel-spectrogram as spectral features and is built with a sparse network architecture. Further, to improve the modeling performance, we also propose a novel fine-tuning procedure that refines the frame-rate CycleVAE network by utilizing the waveform loss from the MWDLP network. The experimental results demonstrate that the proposed framework achieves highperformance VC, while allowing for LLRT usage with a singlecore of 2.1–2.7 GHz CPU on a real-time factor of 0.87–0.95, including input/output, feature extraction, on a frame shift of 10 ms, a window length of 27.5 ms, and 2 lookup frames."
+   ],
+   "doi": "10.21437/SSW.2021-25"
+  },
+  "markopoulos21_ssw": {
+   "authors": [
+    [
+     "Konstantinos",
+     "Markopoulos"
+    ],
+    [
+     "Nikolaos",
+     "Ellinas"
+    ],
+    [
+     "Alexandra",
+     "Vioni"
+    ],
+    [
+     "Myrsini",
+     "Christidou"
+    ],
+    [
+     "Panos",
+     "Kakoulidis"
+    ],
+    [
+     "Georgios",
+     "Vamvoukakis"
+    ],
+    [
+     "June Sig",
+     "Sung"
+    ],
+    [
+     "Hyoungmin",
+     "Park"
+    ],
+    [
+     "Pirros",
+     "Tsiakoulis"
+    ],
+    [
+     "Aimilios",
+     "Chalamandaris"
+    ],
+    [
+     "Georgia",
+     "Maniati"
+    ]
+   ],
+   "title": "Rapping-Singing Voice Synthesis based on Phoneme-level Prosody Control",
+   "original": "SSW11_paper_35",
+   "page_count": 6,
+   "order": 21,
+   "p1": 118,
+   "pn": 123,
+   "abstract": [
+    "In this paper, a text-to-rapping/singing system is introduced, which can be adapted to any speaker’s voice. It utilizes a Tacotron-based multi-speaker acoustic model trained on readonly speech data and which provides prosody control at the phoneme level. Dataset augmentation and additional prosody manipulation based on traditional DSP algorithms are also investigated. The neural TTS model is fine-tuned to an unseen speaker’s limited recordings, allowing rapping/singing synthesis with the target’s speaker voice. The detailed pipeline of the system is described, which includes the extraction of the target pitch and duration values from an a capella song and their conversion into target speaker’s valid range of notes before synthesis. An additional stage of prosodic manipulation of the output via WSOLA is also investigated for better matching the target duration values. The synthesized utterances can be mixed with an instrumental accompaniment track to produce a complete song. The proposed system is evaluated via subjective listening tests as well as in comparison to an available alternate system which also aims to produce synthetic singing voice from read-only training data. Results show that the proposed approach can produce high quality rapping/singing voice with increased naturalness."
+   ],
+   "doi": "10.21437/SSW.2021-21"
+  },
+  "lenglet21_ssw": {
+   "authors": [
+    [
+     "Martin",
+     "Lenglet"
+    ],
+    [
+     "Olivier",
+     "Perrotin"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "Impact of Segmentation and Annotation in French end-to-end Synthesis",
+   "original": "SSW11_paper_36",
+   "page_count": 6,
+   "order": 3,
+   "p1": 13,
+   "pn": 18,
+   "abstract": [
+    "Audio books are commonly used to train text-to-speech models (TTS), as they offer large phonetic content with rather expressive pronunciation, but number and sizes of publicly available audio books corpora differ between languages. Moreover, the quality and accuracy of the available utterance segmentations are debatable. Yet, the impact of segmentation on the output synthesis is not well established. Additionally, utterances are generally used individually, without taking advantage of text level structuring information, even though they influence speaker reading. In this paper, we conduct a multidimensional evaluation of Tacotron2 trained on different segmentations and text level annotations of the same French corpus. We show that both spectrum accuracy and expressiveness depend on the segmentation used. In particular, a shorter segmentation, in addition with the annotation of paragraphs, benefits to spectrum reconstruction at the detriment of phrasing. Multidimensional analysis of mean opinion scores obtained with a MUSHRAexperiment revealed that phrasing was relatively more important than spectrum accuracy in perceptual judgement. This work serves as evidence that particular attention must be given to models evaluation, as well as how to use the training corpus to maximize synthesis characteristics of interest."
+   ],
+   "doi": "10.21437/SSW.2021-3"
+  },
+  "tannander21_ssw": {
+   "authors": [
+    [
+     "Christina",
+     "Tånnander"
+    ],
+    [
+     "Jens",
+     "Edlund"
+    ]
+   ],
+   "title": "Methods of slowing down speech",
+   "original": "SSW11_paper_37",
+   "page_count": 5,
+   "order": 8,
+   "p1": 43,
+   "pn": 47,
+   "abstract": [
+    "A slower speaking rate of human or synthetic speech is often requested by for example language learners or people with aphasia or dementia. Slow speech produced by human speakers typically contain a larger number of pauses, and both pauses and speech have longer segment durations than speech produced at a standard or fast speaking rate.\nThis paper presents several methods of prolonging speech. Two speech chunks of about 30 seconds each, read by a professional voice talent at a very slow speaking rate, were used as reference. Seven pairs of stimuli containing the same word sequences were produced, one by the same professional, reading at her standard speaking rate and six by a moderately slow synthetic voice trained on the same human voice. Different combinations of pause insertions and stretching were used to match the total length of the corresponding reference stimulus. Stretching was applied in different proportions to speech and non-speech, and pauses were inserted at punctuations, at certain phrase boundaries, between each word, or by copying the pause locations of the reference reading.\n128 crowdsourced listeners evaluated the 16 stimuli. The results show that all manipulated readings are less consistent with expectations of slow speech than the reference, but that the synthesised readings are comparable to stretched human speech. Key factors are the relation between speech and silence and the duration of talkspurts."
+   ],
+   "doi": "10.21437/SSW.2021-8"
+  },
+  "nicolis21_ssw": {
+   "authors": [
+    [
+     "Marco",
+     "Nicolis"
+    ],
+    [
+     "Viacheslav",
+     "Klimkov"
+    ]
+   ],
+   "title": "Homograph disambiguation with contextual word embeddings for TTS systems",
+   "original": "SSW11_paper_38",
+   "page_count": 5,
+   "order": 39,
+   "p1": 222,
+   "pn": 226,
+   "abstract": [
+    "We describe a heterophone homograph (simply ’homograph’ henceforth) disambiguation system based on per-case classifiers, trained on a small amount of labelled data. These classifiers use contextual word embeddings as input features and achieve state-of-the-art accuracy of 0.991 on the English homographs on a publicly available dataset, without any additional rule system being necessary. We show that as little as 100 sentences are sufficient to train a light-weight dedicated classifier, provided the dataset is sufficiently balanced, i.e. all versions of the homograph are adequately represented. We further add data in cases where the original dataset is deeply unbalanced (i.e. one homograph version overwhelmingly represented). This is effectively a special case of active learning, by which we select additional cases of the under-represented homograph versions and show an 11% relative improvement for such cases. We finally provide a solution to drastically reduce the size of our models, via sparsification."
+   ],
+   "doi": "10.21437/SSW.2021-39"
+  },
+  "gustafson21_ssw": {
+   "authors": [
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ]
+   ],
+   "title": "Personality in the mix - investigating the contribution of fillers and speaking style to the perception of spontaneous speech synthesis",
+   "original": "SSW11_paper_39",
+   "page_count": 6,
+   "order": 9,
+   "p1": 48,
+   "pn": 53,
+   "abstract": [
+    "Studies on human-human interactions have shown that that the fluency of a speaker influences the perception of personality. Adding fillers and discourse markers can make the speaker seem uncertain, more casual and spontaneous. With recent TTS developments it is now possible to investigate if the same holds for artificial speakers. In a previous experiment, it was shown that local insertion of fillers in a regular TTS voice influenced the perceived personality. In the current study we extend that work in two ways: Firstly, we recreate the English experiment adding a voice trained on spontaneous speech, where adding fillers also has a global effect on the synthesized speech. We also add Swedish read and spontaneous voices. Secondly, for the Swedish voices, we investigate the effect of using a multispeaker model mixing a read speech voice and a spontaneous speech voice when generating disfluent synthetic speech."
+   ],
+   "doi": "10.21437/SSW.2021-9"
+  },
+  "pandey21_ssw": {
+   "authors": [
+    [
+     "Ayushi",
+     "Pandey"
+    ],
+    [
+     "Sébastien Le",
+     "Maguer"
+    ],
+    [
+     "Julie",
+     "Berndsen"
+    ],
+    [
+     "Naomi",
+     "Harte"
+    ]
+   ],
+   "title": "Mind your p’s and k’s -- Comparing obstruents across TTS voices of the Blizzard Challenge 2013",
+   "original": "SSW11_paper_40",
+   "page_count": 6,
+   "order": 29,
+   "p1": 166,
+   "pn": 171,
+   "abstract": [
+    "Obstruent consonants have been investigated in speech quality assessment studies of natural speech, where enhancing their perception has improved overall speech quality. This paper presents a comparative analysis of acoustic-phonetic features of obstruent consonants in synthetic speech. Features for obstruent consonants are identified where TTS systems differ significantly from a natural human voice, as a function of quality.\nThe synthetic speech voices from the Blizzard Challenge of 2013 are used for this investigation. TTS systems were first assigned groups based on their MOS rating (quality) and shared TTS technique (family). Then, acoustic-phonetic features characteristic of contrastive properties in obstruents, were extracted from all systems. While quality differences between low-rated systems and high-rated systems were observed in a large number of features, we report those where statistically significant differences (p-val < 0.001) were observed between the systems. Where quality effects were not found, we investigated whether systems of the same family exhibit similar behaviour. Finally, individual systems within a group were examined for their differing influence on the acoustic-phonetic feature set of obstruents. Here, we found that HMM systems with similar MOS ratings do not differ in their acoustic realization of obstruents, while Unit Selection systems showed stronger individual system variability.\nA comparative analysis of obstruent consonants across TTS systems applies techniques from the domain of corpusphonetics to the task of speech synthesis evaluation. Identifying phonologically relevant acoustic features, may indicate the underlying articulatory process compromised in those systems, that correlates with the distorted acoustics."
+   ],
+   "doi": "10.21437/SSW.2021-29"
+  },
+  "illa21_ssw": {
+   "authors": [
+    [
+     "Marc",
+     "Illa"
+    ],
+    [
+     "Bence Mark",
+     "Halpern"
+    ],
+    [
+     "Rob van",
+     "Son"
+    ],
+    [
+     "Laureano",
+     "Moro-Velazquez"
+    ],
+    [
+     "Odette",
+     "Scharenborg"
+    ]
+   ],
+   "title": "Pathological voice adaptation with autoencoder-based voice conversion",
+   "original": "SSW11_paper_41",
+   "page_count": 6,
+   "order": 4,
+   "p1": 19,
+   "pn": 24,
+   "abstract": [
+    "In this paper, we propose a new approach to pathological speech synthesis. Instead of using healthy speech as a source, we customise an existing pathological speech sample to a new speaker’s voice characteristics. This approach alleviates the evaluation problem one normally has when converting typical speech to pathological speech, as in our approach, the voice conversion (VC) model does not need to be optimised for speech degradation but only for the speaker change. This change in the optimisation ensures that any degradation found in naturalness is due to the conversion process and not due to the model exaggerating characteristics of a speech pathology. To show a proof of concept of this method, we convert dysarthric speech using the UASpeech database and an autoencoder-based VC technique. Subjective evaluation results show reasonable naturalness for high intelligibility dysarthric speakers, though lower intelligibility seems to introduce a marginal degradation in naturalness scores for mid and low intelligibility speakers compared to ground truth. Conversion of speaker characteristics for low and high intelligibility speakers is successful, but not for mid. Whether the differences in the results for the different intelligibility levels is due to the intelligibility levels or due to the speakers needs to be further investigated."
+   ],
+   "doi": "10.21437/SSW.2021-4"
+  },
+  "ueda21_ssw": {
+   "authors": [
+    [
+     "Lucas H.",
+     "Ueda"
+    ],
+    [
+     "Paula D. P.",
+     "Costa"
+    ],
+    [
+     "Flavio O.",
+     "Simoes"
+    ],
+    [
+     "Mário U.",
+     "Neto"
+    ]
+   ],
+   "title": "Are we truly modeling expressiveness? A study on expressive TTS in Brazilian Portuguese for real-life application styles",
+   "original": "SSW11_paper_44",
+   "page_count": 6,
+   "order": 15,
+   "p1": 84,
+   "pn": 89,
+   "abstract": [
+    "This paper presents a study of expressive speech synthesis applied to real-life application styles in Brazilian Portuguese. We explore the use of data with different recording conditions in state-of-the-art architectures in expressive TTS. Our results suggest that the variability of recording conditions of the same style, combined with a guided training of the latent representation space of the Reference Encoder, assists in the modeling of non-archetypal expressivities. Additionally, we propose an alternative to evaluating the model’s ability to generate expressive speech during preliminary results, based on a classifier using GeMAPS features."
+   ],
+   "doi": "10.21437/SSW.2021-15"
+  },
+  "mohapatra21_ssw": {
+   "authors": [
+    [
+     "Debasish Ray",
+     "Mohapatra"
+    ],
+    [
+     "Pramit",
+     "Saha"
+    ],
+    [
+     "Yadong",
+     "Liu"
+    ],
+    [
+     "Bryan",
+     "Gick"
+    ],
+    [
+     "Sidney",
+     "Fels"
+    ]
+   ],
+   "title": "Vocal tract area function extraction using ultrasound for articulatory speech synthesis",
+   "original": "SSW11_paper_46",
+   "page_count": 6,
+   "order": 16,
+   "p1": 90,
+   "pn": 95,
+   "abstract": [
+    "This paper studies the feasibility of an articulatory speech synthesizer by extracting the mid-sagittal tongue and palate contours using the ultrasound (US) imaging modality. The extracted contours are then used to compute the vocal tract crosssectional areas (i.e., area function) during phonation, which then drives an articulary speech synthesizer. Using this approach, we synthesized four phonetic vowel sounds (/a/, /i/, /e/ and /o/). The derived vocal tract (VT) transfer functions are shown to match over multiple utterances for a single vowel, thereby confirming reliable and accurate area function derivation using the US. The acoustic formants of simulated vowels using the proposed method show a modest deviation from the speaker’s recorded speech signal since the current articulatory model does not include the mouth radiation mechanism. Furthermore, the higher formants’ positions (F5-F8) are approximately equivalent to the high-quality standard MRI-based acoustic results and have an average error of 3.90%, 4.14%, 1.26% and 2.99% for vowel sounds /a/, /i/, /e/ and /o/, respectively. Our approach provides a step towards developing a USbased speech synthesizer for precise extraction of the upper VT geometry and enabling speakers to drive an articulatory model directly by their tongue movements without the necessity of vocalization."
+   ],
+   "doi": "10.21437/SSW.2021-16"
+  },
+  "kirkland21_ssw": {
+   "authors": [
+    [
+     "Ambika",
+     "Kirkland"
+    ],
+    [
+     "Marcin",
+     "Włodarczak"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Eva",
+     "Szekely"
+    ]
+   ],
+   "title": "Perception of smiling voice in spontaneous speech synthesis",
+   "original": "SSW11_paper_47",
+   "page_count": 5,
+   "order": 19,
+   "p1": 108,
+   "pn": 112,
+   "abstract": [
+    "Smiling during speech production has been shown to result in perceptible acoustic differences compared to non-smiling speech. However, there is a scarcity of research on the perception of “smiling voice” in synthesized spontaneous speech. In this study, we used a sequence-to-sequence neural text-tospeech system built on conversational data to produce utterances with the characteristics of spontaneous speech. Segments of speech following laughter, and the same utterances not preceded by laughter, were compared in a perceptual experiment after removing laughter and/or breaths from the beginning of the utterance to determine whether participants perceive the utterances preceded by laughter as sounding as if they were produced while smiling. The results showed that participants identified the post-laughter speech as smiling at a rate significantly greater than chance. Furthermore, the effect of content (positive/neutral/negative) was investigated. These results show that laughter, a spontaneous, non-elicited phenomenon in our model’s training data, can be used to synthesize expressive speech with the perceptual characteristics of smiling."
+   ],
+   "doi": "10.21437/SSW.2021-19"
+  },
+  "gutierrez21_ssw": {
+   "authors": [
+    [
+     "Elijah",
+     "Gutierrez"
+    ],
+    [
+     "Pilar",
+     "Oplustil-Gallegos"
+    ],
+    [
+     "Catherine",
+     "Lai"
+    ]
+   ],
+   "title": "Location, Location: Enhancing the Evaluation of Text-to-Speech synthesis using the Rapid Prosody Transcription Paradigm",
+   "original": "SSW11_paper_48",
+   "page_count": 6,
+   "order": 5,
+   "p1": 25,
+   "pn": 30,
+   "abstract": [
+    "Text-to-Speech synthesis systems are generally evaluated using Mean Opinion Score (MOS) tests, where listeners score samples of synthetic speech on a Likert scale. A major drawback of MOS tests is that they only offer a general measure of overall quality—i.e., the naturalness of an utterance—and so cannot tell us where exactly synthesis errors occur. This can make evaluation of the appropriateness of prosodic variation within utterances inconclusive. To address this, we propose a novel evaluation method based on the Rapid Prosody Transcription paradigm. This allows listeners to mark the locations of errors in an utterance in real-time, providing a probabilistic representation of the perceptual errors that occur in the synthetic signal. We conduct experiments that confirm that the fine-grained evaluation can be mapped to system rankings of standard MOS tests, but the error marking gives a much more comprehensive assessment of synthesized prosody. In particular, for standard audiobook test set samples, we see that error marks consistently cluster around words at major prosodic boundaries indicated by punctuation. However, for question-answer based stimuli, where we control information structure, we see differences emerge in the ability of neural TTS systems to generate context-appropriate prosodic prominence."
+   ],
+   "doi": "10.21437/SSW.2021-5"
+  },
+  "fong21_ssw": {
+   "authors": [
+    [
+     "Jason",
+     "Fong"
+    ],
+    [
+     "Jilong",
+     "Wu"
+    ],
+    [
+     "Prabhav",
+     "Agrawal"
+    ],
+    [
+     "Andrew",
+     "Gibiansky"
+    ],
+    [
+     "Thilo",
+     "Koehler"
+    ],
+    [
+     "Qing",
+     "He"
+    ]
+   ],
+   "title": "Improving Polyglot Speech Synthesis through Multi-task and Adversarial Learning",
+   "original": "SSW11_paper_49",
+   "page_count": 5,
+   "order": 30,
+   "p1": 172,
+   "pn": 176,
+   "abstract": [
+    "It is still quite challenging for polyglot speech synthesis systems to synthesise speech with the same pronunciations and accent as a native speaker, especially when there are fewer speakers per language. In this work, we target an extreme version of the polyglot synthesis problem, where we have only one speaker per language, and the system has to learn to disentangle speaker from language features from just one speakerlanguage pair. To tackle this problem, we propose a novel approach based on a combination of multi-task learning and adversarial learning to help the model produce more realistic acoustic features for speaker-language combinations for which we have no data. Our proposed system improves the overall naturalness of synthesised speech achieving upto 4.2% higher naturalness over a multispeaker baseline. Our qualitative listening tests also demonstrate that system produces speech which sounds less accented and more natural to a native speaker."
+   ],
+   "doi": "10.21437/SSW.2021-30"
+  },
+  "fong21b_ssw": {
+   "authors": [
+    [
+     "Jason",
+     "Fong"
+    ],
+    [
+     "Jennifer",
+     "Williams"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Analysing Temporal Sensitivity of VQ-VAE Sub-Phone Codebooks",
+   "original": "SSW11_paper_50",
+   "page_count": 5,
+   "order": 40,
+   "p1": 227,
+   "pn": 231,
+   "abstract": [
+    "In this work we present an analysis of temporal sensitivity of VQ-VAE sub-phone token sequences. Previous work has demonstrated that VQ-VAE systems learn a type of sub-phone representation. However, a detailed examination of the representations themselves is currently lacking. We address this gap by exploring linguistic unit reorganisation. Our experiments show that sub-phone codebook sequences are temporally correlated enough to identify VQ codes that correspond to distinct linguistic units. We found that it is possible to extract VQ codes and re-arrange these linguistic units in a meaningful way (i.e. changing the word-order of a sentence). This work puts us one step closer to understanding how to modify pronunciations at a fine granularity, such as below the phone-level unit."
+   ],
+   "doi": "10.21437/SSW.2021-40"
+  },
+  "tian21_ssw": {
+   "authors": [
+    [
+     "Qiao",
+     "Tian"
+    ],
+    [
+     "Chao",
+     "Liu"
+    ],
+    [
+     "Zewang",
+     "Zhang"
+    ],
+    [
+     "Heng",
+     "Lu"
+    ],
+    [
+     "Linghui",
+     "Chen"
+    ],
+    [
+     "Bin",
+     "Wei"
+    ],
+    [
+     "Pujiang",
+     "He"
+    ],
+    [
+     "Shan",
+     "Liu"
+    ]
+   ],
+   "title": "FeatherTTS: Robust and Efficient attention based Neural TTS",
+   "original": "SSW11_paper_53",
+   "page_count": 5,
+   "order": 35,
+   "p1": 200,
+   "pn": 204,
+   "abstract": [
+    "Attention based neural TTS is elegant speech synthesis pipeline and has shown a powerful ability to generate natural speech. However, it is still not robust enough to meet the stability requirements for industrial products. Besides, it suffers from slow inference speed owning to the autoregressive generation process. In this work, we propose FeatherTTS, a robust and efficient attention-based neural TTS system. Firstly, we propose a novel Gaussian attention which utilizes interpretability of Gaussian attention and the strict monotonic property in TTS. By this method, we replace the commonly used stop token prediction architecture with attentive stop prediction. Secondly, we apply block sparsity on the autoregressive decoder to speed up speech synthesis. The experimental results show that our proposed FeatherTTS not only nearly eliminates the problem of word skipping, repeating in particularly hard texts and keep the naturalness of generated speech, but also speeds up acoustic feature generation by 3.5 times over Tacotron. Overall, the proposed FeatherTTS can be 35x faster than real-time on a single CPU."
+   ],
+   "doi": "10.21437/SSW.2021-35"
+  },
+  "zainko21_ssw": {
+   "authors": [
+    [
+     "Csaba",
+     "Zainkó"
+    ],
+    [
+     "László",
+     "Tóth"
+    ],
+    [
+     "Amin Honarmandi",
+     "Shandiz"
+    ],
+    [
+     "Gábor",
+     "Gosztolya"
+    ],
+    [
+     "Alexandra",
+     "Markó"
+    ],
+    [
+     "Géza",
+     "Németh"
+    ],
+    [
+     "Tamás Gábor",
+     "Csapó"
+    ]
+   ],
+   "title": "Adaptation of Tacotron2-based Text-To-Speech for Articulatory-to-Acoustic Mapping using Ultrasound Tongue Imaging",
+   "original": "SSW11_paper_54",
+   "page_count": 6,
+   "order": 10,
+   "p1": 54,
+   "pn": 59,
+   "abstract": [
+    "For articulatory-to-acoustic mapping, typically only limited parallel training data is available, making it impossible to apply fully end-to-end solutions like Tacotron2. In this paper, we experimented with transfer learning and adaptation of a Tacotron2 text-to-speech model to improve the final synthesis quality of ultrasound-based articulatory-to-acoustic mapping with a limited database. We use a multi-speaker pre-trained Tacotron2 TTS model and a pre-trained WaveGlow neural vocoder. The articulatory-to-acoustic conversion contains three steps: 1) from a sequence of ultrasound tongue image recordings, a 3D convolutional neural network predicts the inputs of the pre-trained Tacotron2 model, 2) the Tacotron2 model converts this intermediate representation to an 80-dimensional mel-spectrogram, and 3) the WaveGlow model is applied for final inference. This generated speech contains the timing of the original articulatory data from the ultrasound recording, but the F0 contour and the spectral information is predicted by the Tacotron2 model. The F0 values are independent of the original ultrasound images, but represent the target speaker, as they are inferred from the pretrained Tacotron2 model. In our experiments, we demonstrated that the synthesized speech quality is more natural with the proposed solutions than with our earlier model."
+   ],
+   "doi": "10.21437/SSW.2021-10"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Session 1: Special synthesis problems",
+   "papers": [
+    "rallabandi21_ssw",
+    "csapo21_ssw",
+    "lenglet21_ssw",
+    "illa21_ssw",
+    "gutierrez21_ssw"
+   ]
+  },
+  {
+   "title": "Session 2: Articulation and speech styles",
+   "papers": [
+    "csapo21b_ssw",
+    "latorre21_ssw",
+    "tannander21_ssw",
+    "gustafson21_ssw",
+    "zainko21_ssw"
+   ]
+  },
+  {
+   "title": "Session 3: Expressive synthesis",
+   "papers": [
+    "schnell21_ssw",
+    "shechtman21_ssw",
+    "schnell21b_ssw",
+    "ezzerg21_ssw",
+    "ueda21_ssw"
+   ]
+  },
+  {
+   "title": "Session 4: Articulation and Naturalness",
+   "papers": [
+    "mohapatra21_ssw",
+    "shah21_ssw",
+    "krug21_ssw",
+    "kirkland21_ssw",
+    "mottini21_ssw"
+   ]
+  },
+  {
+   "title": "Session 5: Emotion, singing and voice conversion",
+   "papers": [
+    "markopoulos21_ssw",
+    "williams21_ssw",
+    "cooper21b_ssw",
+    "luong21_ssw",
+    "tobing21_ssw"
+   ]
+  },
+  {
+   "title": "Session 6: Multilingual and evaluation",
+   "papers": [
+    "omahony21_ssw",
+    "baby21_ssw",
+    "wells21_ssw",
+    "pandey21_ssw",
+    "fong21_ssw"
+   ]
+  },
+  {
+   "title": "Session 7: Modeling and evaluation",
+   "papers": [
+    "abbas21_ssw",
+    "cooper21_ssw",
+    "yufune21_ssw",
+    "taylor21_ssw",
+    "tian21_ssw"
+   ]
+  },
+  {
+   "title": "Session 8: Synthesis and Context",
+   "papers": [
+    "oplustilgallegos21_ssw",
+    "nakata21_ssw",
+    "m21_ssw",
+    "nicolis21_ssw",
+    "fong21b_ssw"
+   ]
+  }
+ ],
+ "doi": "10.21437/SSW.2021"
+}

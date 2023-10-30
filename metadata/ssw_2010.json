@@ -1,0 +1,1987 @@
+{
+ "title": "7th ISCA Workshop on Speech Synthesis (SSW 7)",
+ "location": "Kyoto, Japan",
+ "startDate": "22/9/2010",
+ "endDate": "24/9/2010",
+ "conf": "SSW",
+ "year": "2010",
+ "name": "ssw_2010",
+ "series": "SSW",
+ "SIG": "SynSIG",
+ "title1": "7th ISCA Workshop on Speech Synthesis",
+ "title2": "(SSW 7)",
+ "date": "22-24 September 2010",
+ "papers": {
+  "kawahara10_ssw": {
+   "authors": [
+    [
+     "Hideki",
+     "Kawahara"
+    ]
+   ],
+   "title": "Exploration of the other aspect of vocoder revisited: A-Z STRAIGHT, TANDEM-STRAIGHT and morphing",
+   "original": "ssw7_032",
+   "page_count": 6,
+   "order": 1,
+   "p1": "32",
+   "pn": "37",
+   "abstract": [
+    "This article presents a tutorial information about STRAIGHT and TANDEM-STRAIGHT, a widely used speech modification tool and its successor as well as their application for speech morphing. They share the same concept that periodic excitation found in voiced sounds is an efficient mechanism for transmitting underlying smooth time-frequency representation. They also based on perceptual equivalence of two sets of independent Gaussian random signals. These made it possible to discard input phase information intentionally and enabled flexible manipulation of parameters.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, spectral analysis, vocoder, morphing, periodicity\n",
+    ""
+   ]
+  },
+  "king10_ssw": {
+   "authors": [
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Speech synthesis without the right data",
+   "original": "ssw7_038",
+   "page_count": 1,
+   "order": 2,
+   "p1": "38",
+   "pn": "",
+   "abstract": [
+    "Constructing a speech synthesiser using a large, carefully recorded, single-speaker database of read text is straightforward and good results can be obtained every time, using conventional concatenative or statistical parametric methods. But this scenario is very restrictive and those good results are only actually obtained if: the voice is built offline and carefully checked for errors; the speech is recorded in clean conditions; the word transcriptions are correct; accurate phonetic labels are available or can be obtained; the speech is in the required language and speaking style, from a suitable speaker; etc. A large number of applications become possible if we can escape these restrictions - applications where one or more of the above conditions is not satisfied. Examples include: prosthetic voices, where the speech available from the patient may already be disordered, is very limited in quantity and recorded under unfavourable conditions; cross-lingual voices, where the aim is to produce a synthetic voice in a target language that sounds like a particular speaker, yet we only have sample speech from that speaker in some other source language; voices for accents or languages where we do not have detailed knowledge of the phonology or where other resources, such as pronunciation dictionaries or prosodic models, are unavailable; and situations where we only have untranscribed speech from which to build a voice. In this tutorial, I will look at a few examples of such applications and describe some of the techniques that can be used to construct synthetic voices in scenarios where the conventional approach is not possible.\n",
+    ""
+   ]
+  },
+  "bunnell10_ssw": {
+   "authors": [
+    [
+     "H. Timothy",
+     "Bunnell"
+    ]
+   ],
+   "title": "Crafting small databases for unit selection TTS: effects on intelligibility",
+   "original": "ssw7_040",
+   "page_count": 5,
+   "order": 3,
+   "p1": "40",
+   "pn": "44",
+   "abstract": [
+    "When creating unit selection voices for personal use, e.g., for use in communication aids, it is often desirable to keep the speech database as small as possible. The present study examines the effects of database size and database content on the intelligibility of synthetic speech produced by the latest version of the ModelTalker TTS system. Intelligibility here is measured objectively with an open response SU sentence task. While previous work has examined similar questions, that work has typically been with an eye toward completeness of the database coverage and using tasks that assess perceptual quality, but not explicitly intelligibility.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, unit selection, database size, database content, intelligibility, personal synthetic voices\n",
+    ""
+   ]
+  },
+  "conkie10_ssw": {
+   "authors": [
+    [
+     "Alistair",
+     "Conkie"
+    ],
+    [
+     "Ann K.",
+     "Syrdal"
+    ]
+   ],
+   "title": "Composite TTS voices",
+   "original": "ssw7_045",
+   "page_count": 4,
+   "order": 4,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "A new approach to synthetic voice generation and modification is described. One aspect of the approach is that no attempt is made to parametrize voices, unlike the commonly used Gaussian Mixture Model (GMM) paradigm and the newer eigenvoice techniques. Instead, a straightforward unit selection approach is adopted. A second aspect is that we systematically examine mixing units from different voices in a unit selection context. We present experimental results to show the effect of different voice mixing strategies. The modified voices we produce are high quality but do not have the full range of possibilities achievable using voice conversion.\n",
+    "Perceptual evaluations of voice similarity and paired comparison preference judgments of the synthetic voices were used to examine the importance of several features or classes of phones to perceived speaker identity.\n",
+    "",
+    "",
+    "Index Terms: voice conversion, speech synthesis, unit selection, voice similarity, speaker identity\n",
+    ""
+   ]
+  },
+  "kain10_ssw": {
+   "authors": [
+    [
+     "Alexander",
+     "Kain"
+    ],
+    [
+     "Todd",
+     "Leen"
+    ]
+   ],
+   "title": "Compression of line spectral frequency parameters using the asynchronous interpolation model",
+   "original": "ssw7_049",
+   "page_count": 6,
+   "order": 5,
+   "p1": "49",
+   "pn": "54",
+   "abstract": [
+    "We apply an asynchronous interpolation model (AIM) to line spectral frequency trajectories. AIM represents speech transition features as crossfading between basis vector features, governed by individual interpolation weights per feature component. Basis vectors are initialized from demiphone labels, and then optimized using a local reconstruction error. Using a small diphone acoustic inventory, we reduce the number of parameters by using dimensionreduced latent space weights and a vector quantized pool of basis vectors. The highest compression rate of 1:11 resulted in a log spectral distortion of 4.83 dB.\n",
+    ""
+   ]
+  },
+  "villavicencio10_ssw": {
+   "authors": [
+    [
+     "Fernando",
+     "Villavicencio"
+    ],
+    [
+     "Esteban",
+     "Maestre"
+    ]
+   ],
+   "title": "GMM-PCA based speaker-timbre conversion on full-quality speech",
+   "original": "ssw7_056",
+   "page_count": 6,
+   "order": 6,
+   "p1": "56",
+   "pn": "61",
+   "abstract": [
+    "This work addresses a study of the GMM-based approach to achieve full-quality speaker timbre conversion. In general, high-quality voice conversion requires accurate spectral envelope estimates, resulting in high-dimensional feature vectors and relatively high computational. Aiming to achieve lowdimensional processing, accurate envelope estimates of the speakers are mel-frequency scaled and projected onto the space defined by a subset of the principal components. The GMMbased features conversion is then performed in the reduced space. Our experimental findings confirm that this strategy provides benefits, especially observed on the resulting converted speech quality, with a significant computational cost reduction.\n",
+    "",
+    "",
+    "Index Terms: Speech synthesis, speech analysis, linear prediction, pattern recognition\n",
+    ""
+   ]
+  },
+  "huang10_ssw": {
+   "authors": [
+    [
+     "Yi-Chin",
+     "Huang"
+    ],
+    [
+     "Chung-Hsien",
+     "Wu"
+    ],
+    [
+     "Chung-Han",
+     "Lee"
+    ],
+    [
+     "Yu-Ting",
+     "Chao"
+    ]
+   ],
+   "title": "Voice conversion using precise speech alignment based on spectral property and eigen-codeword distribution",
+   "original": "ssw7_062",
+   "page_count": 6,
+   "order": 7,
+   "p1": "62",
+   "pn": "67",
+   "abstract": [
+    "While voice conversion methods have been popularly applied to convert the speech signals uttered by a source speaker to a target speaker, frame-based voice conversion generally suffers from incorrect alignment using only spectral distance and therefore generate improper conversion results. In a parallel phone sequence, the alignment using minimum spectral distance between frame-based feature vectors of the source and target phone sequences is theoretical impractical, since the spectral properties of the source and target phones are inherently different. Nevertheless, if the feature vectors of the phone sequence are transformed into codewords in an eigen space, the eigen-codeword occurrence distribution curves of the source and target phone sequences are likely to be similar. By integrating the codeword occurrence distribution into distance estimation, a more precise frame alignment based on dynamic time warping can be obtained. With the precise alignment, voice conversion functions can be properly constructed. Objective and subjective evaluations were conducted and the comparison results to spectral distancebased alignment confirm the improved performance of the proposed method.\n",
+    "",
+    "",
+    "Index Terms: Voice conversion, eigen vector, phone alignment\n",
+    ""
+   ]
+  },
+  "godoy10_ssw": {
+   "authors": [
+    [
+     "Elizabeth",
+     "Godoy"
+    ],
+    [
+     "Olivier",
+     "Rosec"
+    ],
+    [
+     "Thierry",
+     "Chonavel"
+    ]
+   ],
+   "title": "On transforming spectral peaks in voice conversion",
+   "original": "ssw7_068",
+   "page_count": 6,
+   "order": 8,
+   "p1": "68",
+   "pn": "73",
+   "abstract": [
+    "This paper explores the benefits of transforming spectral peaks in voice conversion. First, in examining classic GMM-based transformation with cepstral coefficients, we show that the lack of transformed data variance (\"over-smoothing\") can be related to the choice of spectral parameterization. Consequently, we propose an alternative parameterization using spectral peaks. The peaks are transformed using HMMs with Gaussian state distributions. Two learning variants and post-processing treating peak evolution in time are also examined. In comparing the different transformation approaches, spectral peaks are shown to offer higher interspeaker feature correlation and yield higher transformed data variance than their cepstral coefficient counterparts.\n",
+    "",
+    "",
+    "Index Terms: voice conversion, spectral transformation, spectral peaks\n",
+    ""
+   ]
+  },
+  "hayashida10_ssw": {
+   "authors": [
+    [
+     "Chie",
+     "Hayashida"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Yamato",
+     "Ohtani"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Linear transformation approaches to many-to-one voice conversion",
+   "original": "ssw7_074",
+   "page_count": 6,
+   "order": 9,
+   "p1": "74",
+   "pn": "79",
+   "abstract": [
+    "In this paper, we present linear transformation algorithms for many-to-one voice conversion (VC). Many-to-one VC is a technique for converting an arbitrary source speaker’s voice into the target speaker’s voice. A conversion model previously developed between many prestored source speakers and the target speaker is adapted into a new source speaker in an unsupervised manner. In this study, we implement several well-known model adaptation techniques based on linear transformation for many-to-one VC and evaluate their effectiveness.\n",
+    "",
+    "",
+    "Index Terms: many-to-one voice conversion, Gaussian mixture model, unsupervised adaptation, linear transformation\n",
+    ""
+   ]
+  },
+  "nose10_ssw": {
+   "authors": [
+    [
+     "Takashi",
+     "Nose"
+    ],
+    [
+     "Takao",
+     "Kobayashi"
+    ]
+   ],
+   "title": "HMM-based robust voice conversion using adaptive F0 quantization",
+   "original": "ssw7_080",
+   "page_count": 6,
+   "order": 10,
+   "p1": "80",
+   "pn": "85",
+   "abstract": [
+    "This paper proposes an HMM-based voice conversion (VC) technique with quantized F0 symbol context using adaptive F0 quantization. In the HMM-based VC, an input utterance of a source speaker is decoded into phonetic and prosodic symbol sequences, and the converted speech is generated using the decoded information from the pre-trained target speaker’s phonetically and prosodically context-dependent HMM. In our previous work, we generated the F0 symbol by quantizing the average log F0 value of each phone using global mean and variance parameters calculated from the training data. In this study, these statistical parameters are obtained sentence-by-sentence, and this adaptive approach enables the more robust F0 conversion than the conventional our technique. Objective and subjective experimental results for English and Japanese speech show that the proposed adaptive quantization technique gives better F0 conversion performance than the conventional one. Moreover, the HMM-based VC is significantly robust for the variation of the source speaker’s individuality compared to the GMM-based one.\n",
+    ""
+   ]
+  },
+  "maia10_ssw": {
+   "authors": [
+    [
+     "Ranniery",
+     "Maia"
+    ],
+    [
+     "Heiga",
+     "Zen"
+    ],
+    [
+     "M. J. F.",
+     "Gales"
+    ]
+   ],
+   "title": "Statistical parametric speech synthesis with joint estimation of acoustic and excitation model parameters",
+   "original": "ssw7_088",
+   "page_count": 6,
+   "order": 11,
+   "p1": "88",
+   "pn": "93",
+   "abstract": [
+    "This paper describes a novel framework for statistical parametric speech synthesis in which statistical modeling of the speech waveform is performed through the joint estimation of acoustic and excitation model parameters. The proposed method combines extraction of spectral parameters, considered as hidden variables, and excitation signal modeling in a fashion similar to factor analyzed trajectory hidden Markov model. The resulting joint model can be interpreted as a waveform level closed-loop training, where the distance between natural and synthesized speech is minimized. An algorithm based on the maximum likelihood criterion is introduced to train the proposed joint model and some experiments are presented to show its effectiveness.\n",
+    "Index terms: statistical parametric speech synthesis, trajectory hidden Markov model, excitation modeling, factor analysis.\n",
+    ""
+   ]
+  },
+  "yu10_ssw": {
+   "authors": [
+    [
+     "Kai",
+     "Yu"
+    ],
+    [
+     "Blaise",
+     "Thomson"
+    ],
+    [
+     "Steve",
+     "Young"
+    ]
+   ],
+   "title": "From discontinuous to continuous F0 modelling in HMM-based speech synthesis",
+   "original": "ssw7_094",
+   "page_count": 6,
+   "order": 12,
+   "p1": "94",
+   "pn": "99",
+   "abstract": [
+    "The accurate modelling of fundamental frequency, or F0, in HMM-based speech synthesis is a critical factor in achieving high quality speech. However, it is also difficult because F0 values are normally considered to depend on a binary voicing decision such that they are continuous in voiced regions and undefined in unvoiced regions. A widely used solution is to use a multi-space probability distribution HMM (MSDHMM), which directly models discontinuous F0 observations. An alternative solution, continuous F0 modelling, has been recently proposed and shown to be more effective in achieving natural synthesised speech. Here, continuous F0 observations are assumed to always exist and hence they can be modelled by standard HMMs.\n",
+    "This paper describes a general mathematical framework for discontinuous F0 modelling, of which MSDHMM is a special case, and compares it to continuous F0 modelling. Various aspects associated with continuous F0 modelling, the use of a single F0 stream, globally tied distributions (GTD) and the assumption of a continuous unvoiced F0, are discussed in theory and examined in experiments. Both objective measures and subjective listening tests demonstrate that the introduction of continuous unvoiced F0 is vital for achieving speech quality improvement.\n",
+    "",
+    "",
+    "Index Terms: F0 modelling, MSDHMM, globally tied distribution, HMM based speech synthesis\n",
+    ""
+   ]
+  },
+  "takaki10_ssw": {
+   "authors": [
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "Yoshihiko",
+     "Nankaku"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "Spectral modeling with contextual additive structure for HMM-based speech synthesis",
+   "original": "ssw7_100",
+   "page_count": 6,
+   "order": 13,
+   "p1": "100",
+   "pn": "105",
+   "abstract": [
+    "This paper proposes a spectral modeling technique based on additive structure of context dependencies for HMM-based speech synthesis. Contextual additive structure models can represent complicated dependencies between acoustic features and context labels using multiple decision trees. However, its computational complexity of the context clustering is too high for full context labels of speech synthesis. To overcome this problem, this paper proposes two approaches; covariance parameter tying and a likelihood calculation algorithm using matrix inversion lemma. Experimental results show that the proposed method outperforms the conventional one in subjective listening tests.\n",
+    "",
+    "",
+    "Index Terms: Hidden Markov models, Spectral modeing, Decision trees, Context clustering, Additive structure, Distribution convolution\n",
+    ""
+   ]
+  },
+  "hashimoto10_ssw": {
+   "authors": [
+    [
+     "Kei",
+     "Hashimoto"
+    ],
+    [
+     "Yoshihiko",
+     "Nankaku"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "Bayesian speech synthesis framework integrating training and synthesis processes",
+   "original": "ssw7_106",
+   "page_count": 6,
+   "order": 14,
+   "p1": "106",
+   "pn": "111",
+   "abstract": [
+    "This paper proposes a speech synthesis technique integrating training and synthesis processes based on the Bayesian framework. In the Bayesian speech synthesis, all processes are derived from one single predictive distribution which represents the problem of speech synthesis directly. However, it typically assumes that the posterior distribution of model parameters is independent of synthesis data, and this separates the system into training and synthesis parts. This paper removes the approximation and derives an algorithm that the posterior distributions, decision trees and synthesis data are iteratively updated. Experimental results show that the proposed method improves the quality of synthesized speech.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, HMM, Bayesian approach\n",
+    ""
+   ]
+  },
+  "steiner10_ssw": {
+   "authors": [
+    [
+     "Ingmar",
+     "Steiner"
+    ],
+    [
+     "Marc",
+     "Schröder"
+    ],
+    [
+     "Marcela",
+     "Charfuelan"
+    ],
+    [
+     "Annette",
+     "Klepp"
+    ]
+   ],
+   "title": "Symbolic vs. acoustics-based style control for expressive unit selection",
+   "original": "ssw7_114",
+   "page_count": 6,
+   "order": 15,
+   "p1": "114",
+   "pn": "119",
+   "abstract": [
+    "The present paper addresses the issue of flexibility in expressive unit selection speech synthesis by using different style selection techniques. We select units from a mixed-style unit selection database, using either forced style switching, no control, symbolic target cost, or acoustic target cost as a style selection criterion. We assess the effect of selection technique, feature weight and relative weight of target vs. join costs on a set of objective measures for style specificity and smoothness.\n",
+    "",
+    "",
+    "Index Terms: expressive speech synthesis, unit selection, style control, voice quality, acoustic target cost\n",
+    ""
+   ]
+  },
+  "romportl10_ssw": {
+   "authors": [
+    [
+     "Jan",
+     "Romportl"
+    ],
+    [
+     "Enrico",
+     "Zovato"
+    ],
+    [
+     "Raúl",
+     "Santos"
+    ],
+    [
+     "Pavel",
+     "Ircing"
+    ],
+    [
+     "José Relaño",
+     "Gil"
+    ],
+    [
+     "Morena",
+     "Danieli"
+    ]
+   ],
+   "title": "Application of expressive TTS synthesis in an advanced ECA system",
+   "original": "ssw7_120",
+   "page_count": 6,
+   "order": 16,
+   "p1": "120",
+   "pn": "125",
+   "abstract": [
+    "The research project COMPANIONS aims at developing an advanced embodied conversational agent (ECA). This ECA is used in two scenarios and two languages (English and Czech), and it requires a TTS system being able to generate very natural expressive and emotional speech output. This paper describes application issues of two such systems within the ECA, introduces approaches to expressive speech handling in unit selection methods, and discusses similarities and differences between these systems and approaches.\n",
+    "",
+    "",
+    "Index Terms: expressive speech synthesis, TTS, unit selection, embodied conversational agent, dialogue system\n",
+    ""
+   ]
+  },
+  "yang10_ssw": {
+   "authors": [
+    [
+     "Chih-Yung",
+     "Yang"
+    ],
+    [
+     "Chia-Ping",
+     "Chen"
+    ]
+   ],
+   "title": "A hidden Markov model-based approach for emotional speech synthesis",
+   "original": "ssw7_126",
+   "page_count": 4,
+   "order": 17,
+   "p1": "126",
+   "pn": "129",
+   "abstract": [
+    "In this paper, we describe an approach to automatically synthesize the emotional speech of a target speaker based on the hidden Markov model for his/her neutral speech. The basic idea is the model interpolation between the neutral model of the target speaker and an emotional model selected from a candidate pool. Both the interpolation model selection and the interpolation weight computation are determined based on a modeldistance measure. In this paper, we propose a monophonebased Mahalanobis distance (MBMD). We evaluate our approach on the synthesized emotional speech of angriness, happiness, and sadness with several subjective tests. Experimental results show that the implemented system is able to synthesize speech with emotional expressiveness of the target speaker.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, HMM, emotional expressiveness, Mahalanobis distance, model interpolation\n",
+    ""
+   ]
+  },
+  "tesser10_ssw": {
+   "authors": [
+    [
+     "Fabio",
+     "Tesser"
+    ],
+    [
+     "Enrico",
+     "Zovato"
+    ],
+    [
+     "Mauro",
+     "Nicolao"
+    ],
+    [
+     "Piero",
+     "Cosi"
+    ]
+   ],
+   "title": "Two vocoder techniques for neutral to emotional timbre conversion",
+   "original": "ssw7_130",
+   "page_count": 6,
+   "order": 18,
+   "p1": "130",
+   "pn": "135",
+   "abstract": [
+    "In this paper, we describe the application of two vocoder techniques for an experiment of spectral envelope transformation. We processed speech data in a neutral standard reading style in order to reproduce the spectral shapes of two emotional speaking styles: happy and sad. This was achieved by means of conversion functions which operate in the frequency domain and are trained with aligned source-target pairs of spectral features. The first vocoder is based on the source-filter model of speech production and exploits the Mel Log Spectral Approximation filter, while the second is the Phase vocoder. Objective distance measures were calculated in order to evaluate the effectiveness of the conversion framework in predicting the target spectral envelopes. Subjective listening tests also provided interesting elements for the evaluation.\n",
+    "",
+    "",
+    "Index Terms: emotional speech, spectral transformation, GMM, mel-cepstral analysis, phase vocoder, MLSA filter\n",
+    ""
+   ]
+  },
+  "wolters10_ssw": {
+   "authors": [
+    [
+     "Maria K.",
+     "Wolters"
+    ],
+    [
+     "Karl B.",
+     "Isaac"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Evaluating speech synthesis intelligibility using Amazon Mechanical Turk",
+   "original": "ssw7_136",
+   "page_count": 6,
+   "order": 19,
+   "p1": "136",
+   "pn": "141",
+   "abstract": [
+    "Microtask platforms such as Amazon Mechanical Turk (AMT) are increasingly used to create speech and language resources. AMT in particular allows researchers to quickly recruit a large number of fairly demographically diverse participants. In this study, we investigated whether AMT can be used for comparing the intelligibility of speech synthesis systems. We conducted two experiments in the lab and via AMT, one comparing US English diphone to US English speaker-adaptive HTS synthesis and one comparing UK English unit selection to UK English speaker-dependent HTS synthesis. While AMT word error rates were worse than lab error rates, AMT results were more sensitive to relative differences between systems. This is mainly due to the larger number of listeners. Boxplots and multilevel modelling allowed us to identify listeners who performed particularly badly, while thresholding was sufficient to eliminate rogue workers. We conclude that AMT is a viable platform for synthetic speech intelligibility comparisons.\n",
+    "",
+    "",
+    "Index Terms: intelligibility, evaluation, semantically unpredictable sentences, diphone, unit selection, crowdsourcing, Mechanical Turk, HMM-based synthesis\n",
+    ""
+   ]
+  },
+  "janska10_ssw": {
+   "authors": [
+    [
+     "Anna C.",
+     "Janska"
+    ],
+    [
+     "Robert A. J.",
+     "Clark"
+    ]
+   ],
+   "title": "Further exploration of the possibilities and pitfalls of multidimensional scaling as a tool for the evaluation of the quality of synthesized speech",
+   "original": "ssw7_142",
+   "page_count": 6,
+   "order": 20,
+   "p1": "142",
+   "pn": "147",
+   "abstract": [
+    "Multidimensional scaling (MDS) has been suggested as a useful tool for the evaluation of the quality of synthesized speech. However, it has not yet been extensively tested for its application in this specific area of evaluation. In a series of experiments based on data from the Blizzard Challenge 2008 the relations betweenWeighted Euclidean Distance Scaling and Simple Euclidean Distance Scaling is investigated to understand how aggregating data affects the MDS configuration. These results are compared to those collected as mean opinion scores (MOS). The ranks correspond, and MOS can be predicted from an object’s space in the MDS generated stimulus space. The big advantage of MDS over MOS is its diagnostic value; dimensions along which stimuli vary are not correlated, as is the case in modular evaluation using MOS. Finally, it will be attempted to generalize from the MDS representations of the thoroughly tested subset to the aggregated data of the larger-scale Blizzard Challenge.\n",
+    ""
+   ]
+  },
+  "prahallad10_ssw": {
+   "authors": [
+    [
+     "Kishore",
+     "Prahallad"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Handling large audio files in audio books for building synthetic voices",
+   "original": "ssw7_148",
+   "page_count": 6,
+   "order": 21,
+   "p1": "148",
+   "pn": "153",
+   "abstract": [
+    "One of the issues in using audio books for building a synthetic voice is the segmentation of large audio files. The use of standard forced-alignment to obtain phone boundaries on large audio files fails primarily because of huge memory requirements. Earlier works have attempted to resolve this problem by using large vocabulary speech recognition system employing restricted dictionary and language model. In this work, we propose suitable modifications to the standard forced-alignment algorithm and demonstrate its usefulness for segmentation of large audio files. Experimental results are provided on audio files including an artificially created large audio file and on EMMA speech corpus of 17.5 hours. Synthetic voices are also built using these large audio files.\n",
+    "",
+    "",
+    "Index Terms: Large audio file, audio books, forced-alignment, text-to-speech\n",
+    ""
+   ]
+  },
+  "anumanchipalli10_ssw": {
+   "authors": [
+    [
+     "Gopala Krishna",
+     "Anumanchipalli"
+    ],
+    [
+     "Prasanna Kumar",
+     "Muthukumar"
+    ],
+    [
+     "Udhyakumar",
+     "Nallasamy"
+    ],
+    [
+     "Alok",
+     "Parlikar"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ],
+    [
+     "Brian",
+     "Langner"
+    ]
+   ],
+   "title": "Improving speech synthesis for noisy environments",
+   "original": "ssw7_154",
+   "page_count": 6,
+   "order": 22,
+   "p1": "154",
+   "pn": "159",
+   "abstract": [
+    "Speech Synthesizers have traditionally been built on carefully read speech that is recorded in studio environment. Such voices are suboptimal for use in noisy conditions, which is inevitable in a majority of deployed speech systems. In this work, we attempt to modify the output of the speech synthesizers to make it more appropriate for noisy environments. Comparison of spectral and prosodic features of speech in noise and results of some conversion techniques are presented.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, speech in noise, companding\n",
+    ""
+   ]
+  },
+  "prahallad10b_ssw": {
+   "authors": [
+    [
+     "Kishore",
+     "Prahallad"
+    ],
+    [
+     "E. Veera",
+     "Raghavendra"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Learning speaker-specific phrase breaks for text-to-speech systems",
+   "original": "ssw7_162",
+   "page_count": 5,
+   "order": 23,
+   "p1": "162",
+   "pn": "166",
+   "abstract": [
+    "The objective of this paper is to investigate whether prosodic phrase breaks are specific to a speaker, and if so, propose a mechanism of learning speaker-specific phrase breaks from the speech database. Another equally important aspect dealt in this work is to demonstrate the usefulness of these speaker-specific phrase breaks for a text-to-speech system. Experiments are carried out on two different English voices as well as on a Telugu voice, and it is shown that speaker-specific phrase breaks improves duration as well as spectral quality of synthetic speech.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, speaker-specific phrase breaks, semi-supervised learning\n",
+    ""
+   ]
+  },
+  "nishizawa10_ssw": {
+   "authors": [
+    [
+     "Nobuyuki",
+     "Nishizawa"
+    ],
+    [
+     "Tsuneo",
+     "Kato"
+    ]
+   ],
+   "title": "Substitution of state distributions to reproduce natural prosody on HMM-based speech synthesizers",
+   "original": "ssw7_167",
+   "page_count": 6,
+   "order": 24,
+   "p1": "167",
+   "pn": "172",
+   "abstract": [
+    "An extension of HMM-based speech synthesis is proposed to reproduce natural speech sounds. For compression of large amounts of speech, the use of speech synthesizers has an advantage in terms of the size of compressed data. However, the quality of synthetic speech is often inferior to that of speech compressed by general-purpose speech codecs such as CELP, where prosodic features are reproduced more accurately. Therefore, we propose adding complementary information to reproduce natural prosody. In the proposed method, inappropriate state feature vectors of HMMs determined by the conventional speech synthesis method are substituted by other vectors bound to the decision trees. The experimental results indicated that substitution of 20% of state feature vectors reduces root mean squared error (RMSE) in log F0 to 0.3 semitones, which is approximately 15% of RMSE without substitution.\n",
+    "",
+    "",
+    "Index Terms: HMM-based speech synthesis, vector substitution, speech data compression\n",
+    ""
+   ]
+  },
+  "andersson10_ssw": {
+   "authors": [
+    [
+     "Sebastian",
+     "Andersson"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Robert A. J.",
+     "Clark"
+    ]
+   ],
+   "title": "Utilising spontaneous conversational speech in HMM-based speech synthesis",
+   "original": "ssw7_173",
+   "page_count": 6,
+   "order": 25,
+   "p1": "173",
+   "pn": "178",
+   "abstract": [
+    "Spontaneous conversational speech has many characteristics that are currently not well modelled in unit selection and HMM-based speech synthesis. But in order to build synthetic voices more suitable for interaction we need data that exhibits more conversational characteristics than the generally used read aloud sentences. In this paper we will show how carefully selected utterances from a spontaneous conversation was instrumental for building an HMM-based synthetic voices with more natural sounding conversational characteristics than a voice based on carefully read aloud sentences. We also investigated a style blending technique as a solution to the inherent problem of phonetic coverage in spontaneous speech data. But the lack of an appropriate representation of spontaneous speech phenomena probably contributed to results showing that we could not yet compete with the speech quality achieved for grammatical sentences.\n",
+    "",
+    "",
+    "Index Terms: HMM, speech synthesis, spontaneous, conversation, lexical fillers, filled pauses\n",
+    ""
+   ]
+  },
+  "syrdal10_ssw": {
+   "authors": [
+    [
+     "Ann K.",
+     "Syrdal"
+    ],
+    [
+     "Alistair",
+     "Conkie"
+    ],
+    [
+     "Yeon-Jun",
+     "Kim"
+    ],
+    [
+     "Mark C.",
+     "Beutnagel"
+    ]
+   ],
+   "title": "Speech acts and dialog TTS",
+   "original": "ssw7_179",
+   "page_count": 5,
+   "order": 26,
+   "p1": "179",
+   "pn": "183",
+   "abstract": [
+    "The approach outlined in this paper aims to provide better expressivity of unit selection TTS for dialog intended applications while retaining the natural sounding voice quality typical of unit selection synthesis. A small set of speech acts were used to annotate a corpus from one female US English speaker. The corpus was composed of speech read primarily from interactive dialogs of various kinds. Global acoustic variables related to prosody were calculated for each speech act in the corpus. A hierarchical cluster analysis performed on the acoustic variables showed clustering that corresponded to general classes of dialog speech acts. The acoustic prosodic variables were used to specify pitch range parameters of a unit selection Speech Act TTS voice. Listening tests indicated large and significant improvement in rated speech quality for the Speech Act system compared to the Standard TTS system built from the same speaker.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, dialog, speech acts, prosody\n",
+    ""
+   ]
+  },
+  "zen10_ssw": {
+   "authors": [
+    [
+     "Heiga",
+     "Zen"
+    ],
+    [
+     "Norbert",
+     "Braunschweiler"
+    ],
+    [
+     "Sabine",
+     "Buchholz"
+    ],
+    [
+     "Kate",
+     "Knill"
+    ],
+    [
+     "Sacha",
+     "Krstulovic"
+    ],
+    [
+     "Javier",
+     "Latorre"
+    ]
+   ],
+   "title": "HMM-based polyglot speech synthesis by speaker and language adaptive training",
+   "original": "ssw7_186",
+   "page_count": 6,
+   "order": 27,
+   "p1": "186",
+   "pn": "191",
+   "abstract": [
+    "This paper describes a technique for speaker and language adaptive training (SLAT) for HMM-based polyglot speech synthesis and its evaluations on a multi-lingual speech corpus. The SLAT technique allows multi-speaker/multi-language adaptive training and synthesis to be performed. Experimental results show that the SLAT technique achieves better naturalness than both speaker-adaptively trained language-dependent (LD-SAT) and language-independent (LI-SAT) models. In cross-lingual adaptation speaker similarity tests SLAT and LI-SAT outperform LD-SAT but there are still significant differences between polyglot adaptation and intra-language adaptation.\n",
+    ""
+   ]
+  },
+  "wester10_ssw": {
+   "authors": [
+    [
+     "Mirjam",
+     "Wester"
+    ],
+    [
+     "John",
+     "Dines"
+    ],
+    [
+     "Matthew",
+     "Gibson"
+    ],
+    [
+     "Hui",
+     "Liang"
+    ],
+    [
+     "Yi-Jian",
+     "Wu"
+    ],
+    [
+     "Lakshmi",
+     "Saheer"
+    ],
+    [
+     "Simon",
+     "King"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ],
+    [
+     "William",
+     "Byrne"
+    ],
+    [
+     "Yong",
+     "Guan"
+    ],
+    [
+     "Teemu",
+     "Hirsimäki"
+    ],
+    [
+     "Reima",
+     "Karhila"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ],
+    [
+     "Matt",
+     "Shannon"
+    ],
+    [
+     "Sayaka",
+     "Shiota"
+    ],
+    [
+     "Jilei",
+     "Tian"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Speaker adaptation and the evaluation of speaker similarity in the EMIME speech-to-speech translation project",
+   "original": "ssw7_192",
+   "page_count": 6,
+   "order": 28,
+   "p1": "192",
+   "pn": "197",
+   "abstract": [
+    "This paper provides an overview of speaker adaptation research carried out in the EMIME speech-to-speech translation (S2ST) project. We focus on how speaker adaptation transforms can be learned from speech in one language and applied to the acoustic models of another language. The adaptation is transferred across languages and/or from recognition models to synthesis models. The various approaches investigated can all be viewed as a process in which a mapping is defined in terms of either acoustic model states or linguistic units. The mapping is used to transfer either speech data or adaptation transforms between the two models. Because the success of speaker adaptation in text-to-speech synthesis is measured by judging speaker similarity, we also discuss issues concerning evaluation of speaker similarity in an S2ST scenario.\n",
+    "",
+    "",
+    "Index Terms: speech-to-speech translation\n",
+    ""
+   ]
+  },
+  "bellegarda10_ssw": {
+   "authors": [
+    [
+     "Jerome R.",
+     "Bellegarda"
+    ]
+   ],
+   "title": "Toward naturally expressive speech synthesis: data–driven emotion detection using latent affective analysis",
+   "original": "ssw7_200",
+   "page_count": 6,
+   "order": 29,
+   "p1": "200",
+   "pn": "205",
+   "abstract": [
+    "A necessary step in the generation of expressive speech synthesis is the automatic detection and classification of emotions most likely to be present in textual input. Though increasingly data-driven, emotion analysis still relies on critical expert knowledge to isolate the emotional keywords or keysets necessary to the construction of affective categories. This makes it vulnerable to any discrepancy between affective states and domain of discourse. This paper proposes a more general strategy, which leverages two separate semantic levels: one encapsulates the foundations of the domain considered, while the other specifically accounts for the overall affective fabric of the language. Exposing the emergent relationship between these two levels advantageously informs the emotion classification process. Empirical evidence suggests that this approach is effective for automatic emotion analysis in text. This bodes well for its deployability toward naturally expressive speech synthesis.\n",
+    "",
+    "",
+    "Index Terms: expressive speech synthesis, affective congruence, detection and classification of emotional states, latent semantic analysis.\n",
+    ""
+   ]
+  },
+  "anumanchipalli10b_ssw": {
+   "authors": [
+    [
+     "Gopala Krishna",
+     "Anumanchipalli"
+    ],
+    [
+     "Ying-Chang",
+     "Cheng"
+    ],
+    [
+     "oseph",
+     "Fernandez"
+    ],
+    [
+     "Xiaohan",
+     "Huang"
+    ],
+    [
+     "Qi",
+     "Mao"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "KLATTSTAT: knowledge-based parametric speech synthesis",
+   "original": "ssw7_206",
+   "page_count": 5,
+   "order": 30,
+   "p1": "206",
+   "pn": "210",
+   "abstract": [
+    "This paper is an initial investigation into using knowledge-based parameters in the field of statistical parametric speech synthesis (SPSS). Utilizing the types of speech parameters used in the Klatt Formant Synthesizer we present automatic techniques for deriving such parameters from a speech database and building a statistical parametric speech synthesizer from these derived parameters. Although the work is exploratory, it shows promise in using more speech production inspired parameterizations for statistical speech synthesis.\n",
+    "",
+    "",
+    "Index Terms: statistical speech synthesis, Klatt formant synthesizer.\n",
+    ""
+   ]
+  },
+  "oura10_ssw": {
+   "authors": [
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Ayami",
+     "Mase"
+    ],
+    [
+     "Tomohiko",
+     "Yamada"
+    ],
+    [
+     "Satoru",
+     "Muto"
+    ],
+    [
+     "Yoshihiko",
+     "Nankaku"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "Recent development of the HMM-based singing voice synthesis system — Sinsy",
+   "original": "ssw7_211",
+   "page_count": 6,
+   "order": 31,
+   "p1": "211",
+   "pn": "216",
+   "abstract": [
+    "A statistical parametric approach to singing voice synthesis based on hidden Markov Models (HMMs) has been grown over the last few years. The spectrum, excitation, and duration of singing voices in this approach are simultaneously modeled with context-dependent HMMs and waveforms are generated from the HMMs themselves. In December 2009, we started a free on-line singing voice synthesis service called “Sinsy.” Users can obtain synthesized singing voices by uploading musical scores represented in MusicXML to the Sinsy website. The present paper describes recent developments of Sinsy in detail.\n",
+    "",
+    "",
+    "Index Terms: HMM-based speech synthesis, singing voice synthesis\n",
+    ""
+   ]
+  },
+  "wang10_ssw": {
+   "authors": [
+    [
+     "Lijuan",
+     "Wang"
+    ],
+    [
+     "Xiaojun",
+     "Qian"
+    ],
+    [
+     "Wei",
+     "Han"
+    ],
+    [
+     "Frank K.",
+     "Soong"
+    ]
+   ],
+   "title": "Photo-real lips synthesis with trajectory-guided sample selection",
+   "original": "ssw7_217",
+   "page_count": 6,
+   "order": 32,
+   "p1": "217",
+   "pn": "222",
+   "abstract": [
+    "In this paper, we propose an HMM trajectory-guided, real image sample concatenation approach to photo-real talking head synthesis. It renders a smooth and natural video of articulators in sync with given speech signals. An audio-visual database is used to train a statistical Hidden Markov Model (HMM) of lips movement first and the trained model is then used to generate a visual parameter trajectory of lips movement for given speech signals, all in the maximum likelihood sense. The HMM generated trajectory is then used as a guide to select, in the original training database, an optimal sequence of mouth images which are then stitched back to a background head video. The whole procedure is fully automatic and data driven. With an audio/video footage as short as 20 minutes from a speaker, the proposed system can synthesize a highly photo-real video in sync with the given speech signals. This system won the FIRST place in the Audio-Visual match contest in LIPS2009 Challenge, which was perceptually evaluated by recruited human subjects. http://www.lips2008.org/\n",
+    "",
+    "",
+    "Index Terms: visual speech synthesis, photo-real, talking head, trajectory-guided\n",
+    ""
+   ]
+  },
+  "saheer10_ssw": {
+   "authors": [
+    [
+     "Lakshmi",
+     "Saheer"
+    ],
+    [
+     "John",
+     "Dines"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ],
+    [
+     "Hui",
+     "Liang"
+    ]
+   ],
+   "title": "Implementation of VTLN for statistical speech synthesis",
+   "original": "ssw7_224",
+   "page_count": 6,
+   "order": 33,
+   "p1": "224",
+   "pn": "229",
+   "abstract": [
+    "Vocal tract length normalization is an important feature normalization technique that can be used to perform speaker adaptation when very little adaptation data is available. It was shown earlier that VTLN can be applied to statistical speech synthesis and was shown to give additive improvements to CMLLR. This paper presents an EM optimization for estimating more accurate warping factors. The EM formulation helps to embed the feature normalization in the HMM training. This helps in estimating the warping factors more efficiently and enables the use of multiple (appropriate) warping factors for different state clusters of the same speaker.\n",
+    "",
+    "",
+    "Index Terms: Vocal tract length normalization, Expectation Maximization Optimization, HMM Synthesis, Adaptation\n",
+    ""
+   ]
+  },
+  "lasarcyk10_ssw": {
+   "authors": [
+    [
+     "Eva",
+     "Lasarcyk"
+    ],
+    [
+     "Charlotte",
+     "Wollermann"
+    ]
+   ],
+   "title": "Do prosodic cues influence uncertainty perception in articulatory speech synthesis?",
+   "original": "ssw7_230",
+   "page_count": 6,
+   "order": 34,
+   "p1": "230",
+   "pn": "235",
+   "abstract": [
+    "This study investigates the individual influences of the three prosodic cues response delay, the filler \"hmm\", and rising intonation on the perception of uncertainty of fictitious human-computer dialogue. Response delay is the time that the computer waits until it starts to answer a given question. the filler, i.e. the hesitation particls \"hmm\", can be insertes before the content of the answer starts. the final part of the answer's intonation contour can rise or fall. We hypothesize a hierarchy of influence: Rising intonation has a stronger influence on uncertainty perception than filler; response delay has the weakest effect. In a perception study the uncertainty of utterances generated with articulatory speech synthesis was tested. Results indicate that all cues have an effect on the perception of uncertainty, but the relative impact differs: Delay has a rather weak effect, whereas risinbg intonation and filler seem to be uncertainty-enhancing acoustic cues, each having strong effects which seem to override the weaker cue of delay. The results can serve as guideline for automatic detection of uncertainty in spoken dialogue systems.\n",
+    "",
+    "",
+    "Index Terms: uncertainty, prosody, paralinguistic expression, articulatory speech synthesis\n",
+    ""
+   ]
+  },
+  "guan10_ssw": {
+   "authors": [
+    [
+     "Yong",
+     "Guan"
+    ],
+    [
+     "Jilei",
+     "Tian"
+    ],
+    [
+     "Yi-Jian",
+     "Wu"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Jani",
+     "Nurminen"
+    ]
+   ],
+   "title": "An unified and automatic approach of Mandarin HTS system",
+   "original": "ssw7_236",
+   "page_count": 4,
+   "order": 35,
+   "p1": "236",
+   "pn": "239",
+   "abstract": [
+    "Most studies on Mandarin HTS (HMM-based text-to-speech system) have taken the initial/final as the basic acoustic units. It is, however, challenging to develop a multilingual HTS in a uniformed and consistent way since most of other languages use the phoneme as the basic phonetic unit. It becomes hard to apply cross-lingual adaptation which need map phonemes from each other, particularly in the case of unified ASR and HTS system due to the phoneme nature of most of the ASR systems. In this paper, we propose a phoneme based Mandarin HTS system, which has been systematically evaluated by comparing it with the initial/final system. The experimental results show that the use of phoneme as the acoustic unit for Mandarin HTS is a promising unified approach, thus enabling better and more uniform development with other languages while significantly reducing the number of acoustic units. The flat-start training scheme is also evaluated to show that the phoneme segmentation problem is solved without any performance degradation for phoneme based Mandarin HTS system. This performs an automatic approach without dependency with particular ASR system.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, Mandarin HTS, flat-start training, speaker adaptation\n",
+    ""
+   ]
+  },
+  "pammi10_ssw": {
+   "authors": [
+    [
+     "Sathish",
+     "Pammi"
+    ],
+    [
+     "Marc",
+     "Schröder"
+    ],
+    [
+     "Marcela",
+     "Charfuelan"
+    ],
+    [
+     "Oytun",
+     "Türk"
+    ],
+    [
+     "Ingmar",
+     "Steiner"
+    ]
+   ],
+   "title": "Synthesis of listener vocalisations with imposed intonation contours",
+   "original": "ssw7_240",
+   "page_count": 6,
+   "order": 36,
+   "p1": "240",
+   "pn": "245",
+   "abstract": [
+    "Synthesis of listener vocalisations is one of the focused research areas to improve emotionally coloured conversational speech synthesis. To communicate different intentions, a synthesiser should be capable of generating a broad range of vocalisations with different kinds of acoustic properties. However, the data collection for corpus based methods is necessarily limited in acoustic variability. This paper describes our approach to increase the acoustic variability of vocalisations in terms of intonation. After selecting the best candidate for a given target from among the available vocalisations, we use prosody modification techniques to impose a target intonation contour. In an experiment, we combine markedly distinct intonation contours with vocalisations differing in segmental form, using the prosody modification techniques MLSA vocoding, FD-PSOLA, and HNM. In a listening test, we evaluate the perceived naturalness of the resulting synthesised vocalisations, and assess the effect of segmental form, intonation contour and modification technique on perceived meaning.\n",
+    "",
+    "",
+    "Index Terms: listener vocalisations, pitch modification, FDPSOLA, HNM, MLSA Vocoding\n",
+    ""
+   ]
+  },
+  "ni10_ssw": {
+   "authors": [
+    [
+     "Jinfu",
+     "Ni"
+    ],
+    [
+     "Hisashi",
+     "Kawai"
+    ]
+   ],
+   "title": "An investigation of the impact of speech transcript errors on HMM voices",
+   "original": "ssw7_246",
+   "page_count": 6,
+   "order": 37,
+   "p1": "246",
+   "pn": "251",
+   "abstract": [
+    "Toward automatic creation of web-based voice fonts at low cost, automatic speech transcription technology is used to obtain the linguistic features for building HMM-based voices from audio web contents. This paper presents an investigation of the influences of erroneous transcripts on such voices. We simulate varied speech transcript errors by using a large vocabulary automatic speech recognizer (LVASR) to dictate thousands of Japanese utterances from two speakers (a male and a female). A set of experiments is conducted on dozens of HMM voices built upon both dictated and correct transcripts. The results indicate a significant impact of speech transcript errors on the voices. One direct impact is increasing the number of leaf nodes of the decision trees associated with both state duration and F0 but decreasing that with cepstrum in comparison with the reference voices by correct transcripts. The HMM voice quality in mean opinion scores (MOS) is closely related to the word and phone accuracy of speech transcriptions. To achieve fair voice quality with limited training samples, for example, the word and phone accuracy must be higher than 50% and 80%, respectively.\n",
+    "",
+    "",
+    "Index Terms: HMM-based speech synthesis, web-based voicefonts, unsupervised approach, HTS\n",
+    ""
+   ]
+  },
+  "saino10_ssw": {
+   "authors": [
+    [
+     "Keijiro",
+     "Saino"
+    ],
+    [
+     "Makoto",
+     "Tachibana"
+    ],
+    [
+     "Hideki",
+     "Kenmochi"
+    ]
+   ],
+   "title": "An HMM-based singing style modeling system for singing voice synthesizers",
+   "original": "ssw7_252",
+   "page_count": 6,
+   "order": 38,
+   "p1": "252",
+   "pn": "257",
+   "abstract": [
+    "This paper describes a method of modeling singing styles by a statistical method. In this system, singing expression parameters consisting of melody and dynamics which are derived from fundamental frequency (F0) and power are modeled by context-dependent Hidden Markov Models (HMMs.) A modeling method of the parameters is optimized for dealing with them. Since parameters we focus on are general ones for singing synthesizers, generated parameters from the trained models may be applicable to many of them. As a result, parameters which can produce an “expressive” synthesis sound are automatically generated from trained models using score data of arbitrary songs. We trained singing style models in the experiment by using recorded singing voice with a much expressive style. Parameters generated for songs not included in training data were applied to our singing synthesizer VOCALOID. As a result, the style was well perceived in the synthesized sound with enough naturalness.\n",
+    "",
+    "",
+    "Index Terms: singing voice synthesis, singing style, HMM\n",
+    ""
+   ]
+  },
+  "huang10b_ssw": {
+   "authors": [
+    [
+     "Dong-Yan",
+     "Huang"
+    ],
+    [
+     "Susanto",
+     "Rahardja"
+    ],
+    [
+     "Ee Ping",
+     "Ong"
+    ]
+   ],
+   "title": "Lombard effect mimicking",
+   "original": "ssw7_258",
+   "page_count": 6,
+   "order": 39,
+   "p1": "258",
+   "pn": "263",
+   "abstract": [
+    "Seeing that speakers increase the intensity of their voice when speaking in loud noise (Lombard effect), this paper proposes a speech transformation approach to mimic this Lombard effect for improving the intelligibility of speech in noisy environments. The approach attempts to simulate the variations of duration, formant frequencies, formant bandwidth, fundamental frequency (F0), and energy in each frequency band due to Lombard effect by using a speech manipulation system STRAIGHT and three models of controlling three acoustic features: fundamental frequency (F0) contour, phoneme duration and spectrum. Different from other manipulation methods, this approach simultaneously modified these acoustic features in time-frequency representation of speech. This approach was evaluated by comparing the synthesized Lombard speech and noise-free Lombard speech in terms of similarity, naturalness and voice quality. The experimental results show that the proposed system is able to convert the neutral speech into Lombard speech in the quality very close to the natural Lombard speech.\n",
+    "",
+    "",
+    "Index Terms: speech transformation, Lombard effect, duration, fundamental frequency, spectrum.\n",
+    ""
+   ]
+  },
+  "chiang10_ssw": {
+   "authors": [
+    [
+     "Chen Yu",
+     "Chiang"
+    ],
+    [
+     "Sin-Horng",
+     "Chen"
+    ],
+    [
+     "Yih-Ru",
+     "Wang"
+    ]
+   ],
+   "title": "Unsupervised prosody labeling for constructing Mandarin TTS",
+   "original": "ssw7_264",
+   "page_count": 6,
+   "order": 40,
+   "p1": "264",
+   "pn": "269",
+   "abstract": [
+    "This paper introduces an unsupervised prosody labeling method for preparing a large speech corpus used in developing a Mandarin Text-to-Speech system. Adopting a four-layer prosody hierarchy, the proposed method performs an unsupervised segmental clustering that iteratively segments spoken utterances into strings of prosodic constituents and models the patterns of the segmented prosodic constituents using both prosodic and linguistic features. The experimental results showed that the proposed unsupervised prosody labeling method could effectively label important prosodic cues so as to improve prosody prediction in a HMM-based text-to-speech system. Therefore, the proposed unsupervised prosody labeling method is promising and could be widely applied for labeling other large speech corpora.\n",
+    "",
+    "",
+    "Index Terms: prosody labeling, speech synthesis\n",
+    ""
+   ]
+  },
+  "picart10_ssw": {
+   "authors": [
+    [
+     "Benjamin",
+     "Picart"
+    ],
+    [
+     "Thomas",
+     "Drugman"
+    ],
+    [
+     "Thierry",
+     "Dutoit"
+    ]
+   ],
+   "title": "Analysis and synthesis of hypo- and hyperarticulated speech",
+   "original": "ssw7_270",
+   "page_count": 6,
+   "order": 41,
+   "p1": "270",
+   "pn": "275",
+   "abstract": [
+    "This paper focuses on the analysis and synthesis of hypo and hyperarticulated speech in the framework of HMM-based speech synthesis. First of all, a new French database matching our needs was created, which contains three identical sets, pronounced with three different degrees of articulation: neutral, hypo and hyperarticulated speech. On that basis, acoustic and phonetic analyses were performed. It is shown that the degrees of articulation significantly influence, on one hand, both vocal tract and glottal characteristics, and on the other hand, speech rate, phone durations, phone variations and the presence of glottal stops. Finally, neutral, hypo and hyperarticulated speech are synthesized using HMM-based speech synthesis and both objective and subjective tests aiming at assessing the generated speech quality are performed. These tests show that synthesized hypoarticulated speech seems to be less naturally rendered than neutral and hyperarticulated speech.\n",
+    "",
+    "",
+    "Index Terms: Speech Synthesis, HTS, Speech Analysis, Expressive Speech, Voice Quality\n",
+    ""
+   ]
+  },
+  "rajkumar10_ssw": {
+   "authors": [
+    [
+     "Rajakrishnan",
+     "Rajkumar"
+    ],
+    [
+     "Michael",
+     "White"
+    ],
+    [
+     "Shari R.",
+     "Speer"
+    ],
+    [
+     "Kiwako",
+     "Ito"
+    ]
+   ],
+   "title": "Evaluating prosody in synthetic speech with online (eye-tracking) and offline (rating) methods",
+   "original": "ssw7_276",
+   "page_count": 6,
+   "order": 42,
+   "p1": "276",
+   "pn": "281",
+   "abstract": [
+    "This study examines the relationship between online processing effects observed in earlier eye-tracking experiments [1, 2] and offline quality ratings gathered for the synthetic and natural speech stimuli used in these experiments, along with their acoustic-prosodic properties. White et al. [2] reported that even high-quality synthetic speech failed to replicate the facilitative effect of contextually appropriate accent patterns found with human speech, while it produced a more robust intonational garden-path effect with contextually inappropriate patterns. They conjectured that both of these effects could be due to processing delays observed with the synthetic speech. In this paper, we present an acoustic analysis of the stimuli used in the eye-tracking experiments and an offline stimuli rating task, which was designed to investigate whether a context-independent measure of utterance quality could predict processing-based effects. The analysis reveals that for synthetic speech, longer adjectives—which provide more processing time—do facilitate anticipatory looks to the target. Larger values of F0 drop (difference between the F0 values of the adjective and following noun) also negatively influenced looks to the target and were negatively correlated with offline ratings, suggesting that this may be a specific acoustic factor that merits attention in future work on improving synthesis quality. Finally, the study shows that online measures of unconscious processing and offline measures of conscious judgments, taken together, can provide a more comprehensive evaluation of synthetic speech than either method alone.\n",
+    "s K. Ito and S. R. Speer, “Semantically-independent but contextually-dependent interpretation of contrastive accent,” in Prosodic categories: production, perception and comprehension, P. Prieto, S. Frota, and G. Elordieta, Eds. Springer, to appear M. White, R. Rajkumar, K. Ito, and S. R. Speer, “Eye tracking for the online evaluation of prosody in speech synthesis: Not so fast!” in Proc. of the 10th Annual Conference of the International Speech Communication Association (INTERSPEECH-09), 2009\n",
+    "",
+    "",
+    "",
+    "",
+    "Index Terms: speech synthesis, evaluation, prosody, eye tracking, unit selection\n",
+    ""
+   ]
+  },
+  "shao10_ssw": {
+   "authors": [
+    [
+     "Xu",
+     "Shao"
+    ],
+    [
+     "Vincent",
+     "Pollet"
+    ],
+    [
+     "Andrew",
+     "Breen"
+    ]
+   ],
+   "title": "Refined statistical model tuning for speech synthesis",
+   "original": "ssw7_284",
+   "page_count": 4,
+   "order": 43,
+   "p1": "284",
+   "pn": "287",
+   "abstract": [
+    "This paper describes a number of approaches to refine and tune statistical models for speech synthesis. The first approach is to tune the sizes of the decision trees for central phonemes in a context. The second approach is a refinement technique for HMM models; a variable number of states for hidden semi- Markov models is emulated. A so-called “hard state-skip” training technique is introduced into the standard forwardbackward training. The results show that both the tune and refinement techniques lead to increased flexibility for speech synthesis modeling.\n",
+    "",
+    "",
+    "Index Terms: TTS, HSMM, decision tree, hard skip-state\n",
+    ""
+   ]
+  },
+  "cadic10_ssw": {
+   "authors": [
+    [
+     "Didier",
+     "Cadic"
+    ],
+    [
+     "Christophe",
+     "d'Alessandro"
+    ]
+   ],
+   "title": "High quality TTS voices within one day",
+   "original": "ssw7_288",
+   "page_count": 6,
+   "order": 44,
+   "p1": "288",
+   "pn": "293",
+   "abstract": [
+    "State-of-the-art unit-selection text-to-speech systems currently produce very natural synthetic speech, at the price however of a costly and time-consuming voice creation process. We report here an extensive perceptual evaluation of several voice creation strategies, and conclude with a novel 1- day process giving access to high quality TTS voices.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, unit selection, vocalic sandwich, script design, rushes, segmentation, evaluation\n",
+    ""
+   ]
+  },
+  "polyakova10_ssw": {
+   "authors": [
+    [
+     "Tatyana",
+     "Polyákova"
+    ],
+    [
+     "Antonio",
+     "Bonafonte"
+    ]
+   ],
+   "title": "Nativization of English words in Spanish using analogy",
+   "original": "ssw7_294",
+   "page_count": 6,
+   "order": 45,
+   "p1": "294",
+   "pn": "299",
+   "abstract": [
+    "Nowadays modern speech technologies need to be flexible and adaptable to any framework. Mass media globalization introduces the challenge of multilingualism into most popular speech applications such as text-to-speech synthesis and automatic speech recognition. Mixed-language texts vary in their nature and when processed, some essential characteristics ought to be considered. In Spain, the usage of English and other foreign origin words is growing as well as in other countries. The particularity of the peninsular Spanish is that there is a tendency to nativized foreign words pronunciation so that they fit in properly into Spanish phonetics. In this work our goal was to approach the nativization challenge by data-driven methods, since they are transferable to other languages and do not yield in performance. Training and test corpora for nativization were manually crafted and the experiments were carried out using pronunciation by analogy. The results obtained were encouraging and proved that even a small training corpus of 1000 words allows obtaining a higher level of intelligibility for English inclusions in Spanish utterances.\n",
+    "",
+    "",
+    "Index Terms: nativization, grapheme-to-phoneme conversion, phoneme-to-phoneme conversion, Spanish TTS, pronunciation by analogy\n",
+    ""
+   ]
+  },
+  "yamamoto10_ssw": {
+   "authors": [
+    [
+     "Asami",
+     "Yamamoto"
+    ],
+    [
+     "Kazuhiro",
+     "Suzuki"
+    ],
+    [
+     "Kook",
+     "Cho"
+    ],
+    [
+     "Yoichi",
+     "Yamashita"
+    ]
+   ],
+   "title": "Automatic prosodic labeling of accent information for Japanese spoken sentences",
+   "original": "ssw7_300",
+   "page_count": 6,
+   "order": 46,
+   "p1": "300",
+   "pn": "305",
+   "abstract": [
+    "This paper describes a method of automatic labeling of prosodic information focusing on accent types and accent phrase boundaries for Japanese spoken sentences. They are predicted by CRF (Conditional Random Fields) using linguistic information and F0 contour information. In the prediction of the accent type, we propose a method that uses a provisional accent type predicted by linguistic information and accentuation rules. The actual accent type is predicted by F0 information and linguistic information which includes the provisional accent type as one of features, under the condition that contents of speech and accent phrase boundaries are given. Evaluation experiments show that the introduction of accentuation rules improves accuracy of the accent type prediction by 6.1% and the prediction rate is 59.6% for spontaneous Japanese speech data. In the prediction of the accent phrase boundary, we propose a method that uses linguistic and prosodic probability models under the condition that the contents of speech and word labels are given. The prediction accuracy of accent phrase boundary is 76.5%.\n",
+    "",
+    "",
+    "Index Terms: Prosodic labeling, Accent type, Accent Phrase Boundary, F0 pattern, Conditional Random Fields, Accentuation rule\n",
+    ""
+   ]
+  },
+  "abouzleikha10_ssw": {
+   "authors": [
+    [
+     "Mohamed",
+     "Abou-Zleikha"
+    ],
+    [
+     "Peter",
+     "Cahill"
+    ],
+    [
+     "Julie",
+     "Carson-Berndsen"
+    ]
+   ],
+   "title": "An automatic pitch model with distance function",
+   "original": "ssw7_306",
+   "page_count": 6,
+   "order": 47,
+   "p1": "306",
+   "pn": "311",
+   "abstract": [
+    "Pitch modelling is considered to be an important factor in speech synthesis where the pitch contour plays a demonstrable role in the intelligibility and naturalness of synthesised speech. While quantitative models for pitch contours have been proposed previously, each of these have a fixed level of details and as such not all of them provide the basis either for automatic extraction of pitch model parameters or for measuring the distance between two instances of a model. In this paper, a novel and compact quantitativemodel for pitch contour is presented which covers the possible variations in pitch and can be automatically extracted. The minimum F0 value, the level global slope of a pitch segment and the semi-periodic jitter properties are used as pitch components and are modelled with a linear function, a sine function and a set of sine functions respectively. A distance measure is defined for the model which takes the shape of the contours into consideration. Experiments show a low mean square error (MSE) for the estimated contours for different languages across different corpora, and investigate the accuracy of the distance function on the model.\n",
+    "",
+    "",
+    "Index Terms: pitch modelling, prosody modelling\n",
+    ""
+   ]
+  },
+  "dong10_ssw": {
+   "authors": [
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Ling",
+     "Cen"
+    ],
+    [
+     "Paul",
+     "Chan"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Considering readability in text-to-speech recording script design",
+   "original": "ssw7_312",
+   "page_count": 5,
+   "order": 48,
+   "p1": "312",
+   "pn": "316",
+   "abstract": [
+    "Designing text scripts that cover enough phonetic units and prosodic phenomena is very important when recording speech database for corpus based speech synthesis. When designing recording scripts for speech synthesis databases, a lot of effort is often placed on how to achieve maximal coverage of phonetic units in minimal speech recording. With such methods, sentences with difficult words or incorrect grammar are often selected. It is difficult for speakers to read these sentences correctly and naturally. Also, the selected sentences may not be suitable for child speakers or non-native speakers. In order to address these problems, we propose to consider readability in text selection. The experiment shows that the selected scripts with the proposed method have good unit coverage of the language and good readability.\n",
+    "",
+    "",
+    "Index Terms: Text-to-speech, recording scripts, text selection, text readability\n",
+    ""
+   ]
+  },
+  "watts10_ssw": {
+   "authors": [
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Letter-based speech synthesis",
+   "original": "ssw7_317",
+   "page_count": 6,
+   "order": 49,
+   "p1": "317",
+   "pn": "322",
+   "abstract": [
+    "Initial attempts at performing text-to-speech conversion based on standard orthographic units are presented, forming part of a larger scheme of training TTS systems on features that can be trivially extracted from text. We evaluate the possibility of using the technique of decision-tree-based context clustering conventionally used in HMM-based systems for parametertying to handle letter-to-sound conversion. We present the application of a method of compound-feature discovery to corpusbased speech synthesis. Finally, an evaluation of intelligibility of letter-based systems and more conventional phoneme-based systems is presented.\n",
+    "",
+    "",
+    "Index Terms: Statistical parametric speech synthesis, HMMbased speech synthesis, letter-to-sound conversion, graphemes\n",
+    ""
+   ]
+  },
+  "veaux10_ssw": {
+   "authors": [
+    [
+     "Christophe",
+     "Veaux"
+    ],
+    [
+     "Pierre",
+     "Lanchantin"
+    ],
+    [
+     "Xavier",
+     "Rodet"
+    ]
+   ],
+   "title": "Joint prosodic and segmental unit selection for expressive speech synthesis",
+   "original": "ssw7_323",
+   "page_count": 5,
+   "order": 50,
+   "p1": "323",
+   "pn": "327",
+   "abstract": [
+    "One problem in concatenative speech synthesis is how to incorporate prosodic factors in the unit selection. Imposing a predicted prosodic contour as target specification is errorprone and does not benefit from the natural variability contained in the database. This paper introduces a method that searches for the optimal unit sequence by maximizing a joint likelihood at both segmental and prosodic level. At the segmental level, the concatenation cost and target cost are reformulated in terms of conditional and a priori probabilities which are combined with probabilistic models of fundamental frequency and duration at the syllable level and the phrase level. A generalized version of the Viterbi algorithm is used to take into account the long-term dependencies introduced by the prosodic models during the search of the optimal unit sequence. This method has been implemented in a unit selection synthesizer using an expressive speech database and a subjective evaluation shows an improvement in the prosodic quality, although the overall quality is only slightly enhanced.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, unit selection, prosody\n",
+    ""
+   ]
+  },
+  "scholtz10_ssw": {
+   "authors": [
+    [
+     "Pieter E.",
+     "Scholtz"
+    ],
+    [
+     "Justus C.",
+     "Roux"
+    ],
+    [
+     "Jacques P. du",
+     "Toit"
+    ]
+   ],
+   "title": "Speech synthesis in the mobile user interface",
+   "original": "ssw7_328",
+   "page_count": 4,
+   "order": 51,
+   "p1": "328",
+   "pn": "331",
+   "abstract": [
+    "This paper describes the development of a mobile application platform featuring an integrated text-to-speech synthesis engine as one of the core components. The work reported herein formed part of an international consortium project entitled Mobile E-learning for Africa (MELFA), which aimed to develop an application featuring reading and literacy training components, in English and one African language, isiXhosa. Particular attention is paid to the design and development of the mobile application platform, the embedding of the speech generation component and the multimodal user interface. The primary aims of the proposed platform are to support the widest range of applications that could benefit from speech output and for the applications to reach the widest possible audience.\n",
+    "Index Terms: speech synthesis, embedded, mobile, user interface, e-learning\n",
+    ""
+   ]
+  },
+  "raitio10_ssw": {
+   "authors": [
+    [
+     "Tuomo",
+     "Raitio"
+    ],
+    [
+     "Antti",
+     "Suni"
+    ],
+    [
+     "Hannu",
+     "Pulakka"
+    ],
+    [
+     "Martti",
+     "Vainio"
+    ],
+    [
+     "Paavo",
+     "Alku"
+    ]
+   ],
+   "title": "Comparison of formant enhancement methods for HMM-based speech synthesis",
+   "original": "ssw7_334",
+   "page_count": 6,
+   "order": 52,
+   "p1": "334",
+   "pn": "339",
+   "abstract": [
+    "Hidden Markov model (HMM) based speech synthesis has a tendency to over-smooth the spectral envelope of speech, which makes the speech sound muffled. One means to compensate for the over-smoothing is to enhance the formants of the spectral model. This paper compares the performance of different formant enhancement methods, and studies the enhancement of the formants prior to HMM training in order to preemptively compensate for the over-smoothing. A new method for enhancing the formants of an all-pole model is also introduced. Experiments indicate that the formant enhancement prior to HMM training improves the quality of synthetic speech by providing sharper formants, and the performance of the new formant enhancement method is similar to the existing method.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, hidden Markov model, oversmoothing, formant enhancement\n",
+    ""
+   ]
+  },
+  "mustafa10_ssw": {
+   "authors": [
+    [
+     "Mumtaz B.",
+     "Mustafa"
+    ],
+    [
+     "Raja N.",
+     "Ainon"
+    ],
+    [
+     "Roziati",
+     "Zainuddin"
+    ]
+   ],
+   "title": "EM-HTS: real-time HMM-based Malay emotional speech synthesis",
+   "original": "ssw7_340",
+   "page_count": 5,
+   "order": 53,
+   "p1": "340",
+   "pn": "344",
+   "abstract": [
+    "This research aims at developing a real-time HMM-based Malay emotional speech synthesis (EM-HTS) that has the ability to synthesize any form of text input in four different expressions which are neutral, anger, sadness and happiness. The quality of the emotional speech synthesis was improved by using Neutral to Angry, Sad, and Happy (NASH) duration generator; which uses context-dependent duration generation method to improve the duration information to the label files of target emotions for training purposes. We conducted three forms of evaluationb to determine the a ccuracy, intelligibility and naturalness of the speech generated by EM-HTS. All the three test show that the adopted method (NASH) gives a better reproduction of prosody compared to conventionsl method using the same training speech data.\n",
+    "",
+    "",
+    "Index Terms: HMM-based emotional speech synthesis, context-dependent duration conversion\n",
+    ""
+   ]
+  },
+  "huang10c_ssw": {
+   "authors": [
+    [
+     "Dong-Yan",
+     "Huang"
+    ],
+    [
+     "Susanto",
+     "Rahardja"
+    ],
+    [
+     "Ee Ping",
+     "Ong"
+    ]
+   ],
+   "title": "High level emotional speech morphing using STRAIGHT",
+   "original": "ssw7_345",
+   "page_count": 6,
+   "order": 54,
+   "p1": "345",
+   "pn": "350",
+   "abstract": [
+    "This paper presents high-level strategies for controlling emotional speech morphing algorithms. Emotion morphing is realized by representing the acoustic features in their timefrequency plan that is warped and modified to generate natural morphed emotional speech. These acoustic features are desirable to be decomposed into multidimensional space and to be orthogonal. After matching these acoustic features of speech, a morph smoothly interpolates their variations not only in time domain but also their amplitudes in frequency domain to describe a new emotional speech in the same perceptual space. Finally, these descriptors are synthesized to produce morphed speech waveform. This paper describes representations of acoustic features, techniques for matching, and algorithms for interpolating and morphing acoustic features such as duration, spectral envelope and pitch contour using STRAIGHT [1] as an example. The subjective listen test will be showed for emotional speech morphing of which the quality and naturalness were comparable to natural speech samples.\n",
+    "",
+    "",
+    "Index Terms: emotional speech morphing, acoustic features, warping, matching, interpolation\n",
+    ""
+   ]
+  },
+  "goldman10_ssw": {
+   "authors": [
+    [
+     "Jean-Philippe",
+     "Goldman"
+    ],
+    [
+     "Sophie",
+     "Roekhaut"
+    ],
+    [
+     "Anne Catherine",
+     "Simon"
+    ]
+   ],
+   "title": "Adding speaking style to a TTS system",
+   "original": "ssw7_351",
+   "page_count": 4,
+   "order": 55,
+   "p1": "351",
+   "pn": "354",
+   "abstract": [
+    "This paper aims to enhance the performance of a TTS system by generating various speaking styles. First we describe three speaking styles (Radio News, Political Address and Conversation) and compare the prosodic features found in these authentic styles with the prosody in “neutral” speech uttered by the eLite TTS system ([1]). Differences concern about 20 prosodic characteristics (F0 span, speech rate, pauses and hesitation, primary and secondary accentuation, schwa deletion, etc.). In order to make the neutral speech similar to a typical speaking style, prosodic characteristics are implemented within the TTS system itself or during a postprocessing step. The quality of the “stylized” synthesis is evaluated by comparing it to the original style.\n",
+    "",
+    "",
+    "Index Terms: speaking styles, speech synthesis, French prosody, accentuation, pauses, hesitations.\n",
+    ""
+   ]
+  },
+  "moers10_ssw": {
+   "authors": [
+    [
+     "Donata",
+     "Moers"
+    ],
+    [
+     "Igor",
+     "Jauk"
+    ],
+    [
+     "Bernd",
+     "Möbius"
+    ],
+    [
+     "Petra",
+     "Wagner"
+    ]
+   ],
+   "title": "Synthesizing fast speech by implementing multi-phone units in unit selection speech synthesis",
+   "original": "ssw7_355",
+   "page_count": 4,
+   "order": 56,
+   "p1": "355",
+   "pn": "358",
+   "abstract": [
+    "This paper presents a new approach to synthesizing fast speech in unit selection synthesis. After recording two inventories - one at normal and one at fast speech rate articulated as accurately as possible - speech was synthesized from both corpora independently. Since fast speech differs from normal rate speech in terms of acoustic characteristics, the concept of multi-phone (phoxsy) units [1] was implemented and used to synthesize speech at both speaking rates again. A perceptual evaluation showed that phoxsy units enhanced#the iontelligibility for fast speech synthesis significantly.\n",
+    "index Terms: fast speech, unit selection, phoxsy units\n",
+    "",
+    "",
+    "Breuer, S., Abresch, J. \"Phoxsy: Multi-phone segments for unit selection speech synthesis. In Interspeech-2004 (ICSLP)\n",
+    ""
+   ]
+  },
+  "wang10b_ssw": {
+   "authors": [
+    [
+     "Miaomiao",
+     "Wang"
+    ],
+    [
+     "Miaomiao",
+     "Wen"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Improved generation of prosodic features in HMM-based Mandarin speech synthesis",
+   "original": "ssw7_359",
+   "page_count": 6,
+   "order": 57,
+   "p1": "359",
+   "pn": "364",
+   "abstract": [
+    "The HMM-based Text-to-Speech System can produce high quality synthetic speech with flexible modeling of spectral and prosodic parameters. However, the prosodic features, like F0 and duration trajectories, generated by HMM-based speech synthesis are often excessively smoothed and lack prosodic variance. In HMM-based TTS durations are typically modeled statistically using state duration probability distributions and duration prediction for unseen contexts without high-level linguistic knowledge. And F0 trajectory is generated by the MSD-HMMs as a weighted bias term. In this approach, discrete distributions are used for modeling the VU decision and continuous Gaussian distributions are used for F0 modeling within the voiced regions. Due to this assumption of undefined F0 values in unvoiced regions and the special structure of MSD-HMM, the generated F0 values are limited in accuracy. In this paper, in order to improve the prosodic features generation against the standard HMM framework, an F0 generation process model is used to re-estimate F0 values in the regions of pitch tracking errors, as well as in unvoiced regions. A prior knowledge of VU is imposed in each Mandarin phoneme and they are used for VU decision. Also we design a set of syntax features to improve Mandarin phoneme duration prediction.\n",
+    "",
+    "",
+    "Index Terms: Mandarin speech synthesis, F0 generation, Duration modeling, generation process model, HMM-based TTS\n",
+    ""
+   ]
+  },
+  "cabral10_ssw": {
+   "authors": [
+    [
+     "João P.",
+     "Cabral"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ],
+    [
+     "Korin",
+     "Richmond"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "An HMM-based speech synthesiser using glottal post-filtering",
+   "original": "ssw7_365",
+   "page_count": 6,
+   "order": 58,
+   "p1": "365",
+   "pn": "370",
+   "abstract": [
+    "Control over voice quality, e.g. breathy and tense voice, is important for speech synthesis applications. For example, transformations can be used to modify aspects of the voice related to speaker’s identity and to improve expressiveness. However, it is hard to modify voice characteristics of the synthetic speech, without degrading speech quality. State-of-the-art statistical speech synthesisers, in particular, do not typically allow control over parameters of the glottal source, which are strongly correlated with voice quality. Consequently, the control of voice characteristics in these systems is limited. In contrast, the HMM-based speech synthesiser proposed in this paper uses an acoustic glottal source model. The system passes the glottal signal through a whitening filter to obtain the excitation of voiced sounds. This technique, called glottal post-filtering, allows to transform voice characteristics of the synthetic speech by modifying the source model parameters.\n",
+    "We evaluated the proposed synthesiser in a perceptual experiment, in terms of speech naturalness, intelligibility, and similarity to the original speaker’s voice. The results show that it performed as well as a HMM-based synthesiser, which generates the speech signal with a commonly used high-quality speech vocoder.\n",
+    "",
+    "",
+    "Index Terms: HMM-based speech synthesis, voice quality, glottal post-filter\n",
+    ""
+   ]
+  },
+  "kim10_ssw": {
+   "authors": [
+    [
+     "Yeon-Jun",
+     "Kim"
+    ],
+    [
+     "Mark C.",
+     "Beutnagel"
+    ]
+   ],
+   "title": "A study of lexical stress patterns in unit selection synthesis",
+   "original": "ssw7_371",
+   "page_count": 6,
+   "order": 59,
+   "p1": "371",
+   "pn": "376",
+   "abstract": [
+    "In this paper we describe a method that detects and remedies lexical stress errors in unit selection synthesis automatically using machine learning algorithms. If unintended stress patterns can be detected following unit selection, based on features available in the unit database, it may be possible to modify the units during waveform synthesis to correct errors and produce an acceptable stress pattern. Note that the TTS system being studied typically does no prosody modification on selected units, unlike most concatenative TTS systems.\n",
+    "We trained several machine learning algorithms using acoustic measurements from natural utterances and corresponding stress patterns: CART, Adaboost+CART, SVM and Max- Ent. Our experimental results showed that MaxEnt achieves the highest accuracy on natural stress pattern classification (83.3% for 3-syllable words, 88.7% for 4-syllable words correctly classified). Though precision rates are good in the classification of natural stress patterns, a large number of false alarms are produced in the classification of synthesized stress patterns when models trained with natural utterances were applied.\n",
+    "Results from a preference test showed that signal modifications based on false positives do little harm to the speech output, but also that listeners don’t find much difference between the raw TTS outputs and the post-processed ones.\n",
+    "",
+    "",
+    "Index Terms: speech synthesis, unit selection, lexical stress\n",
+    ""
+   ]
+  },
+  "windmann10_ssw": {
+   "authors": [
+    [
+     "Andreas",
+     "Windmann"
+    ],
+    [
+     "Petra",
+     "Wagner"
+    ],
+    [
+     "Fabio",
+     "Tamburini"
+    ],
+    [
+     "Denis",
+     "Arnold"
+    ],
+    [
+     "Catharine",
+     "Oertel"
+    ]
+   ],
+   "title": "Automatic prominence annotation of a German speech synthesis corpus: towards prominence-based prosody generation for unit selection synthesis",
+   "original": "ssw7_377",
+   "page_count": 6,
+   "order": 60,
+   "p1": "377",
+   "pn": "382",
+   "abstract": [
+    "This paper describes work directed towarde the development of a syllable prominence-based prosody generation funcionality for a German unit selection speech synthesis system. A general con cept for syllable prominence-based prosody generation in unit selection synthesis is proposed. As a first step towards its implementation, an automated syllable prominence annotation procedure based on acoustic analyses has been performed on the BODD speech corpus. The prominence labeling has been evaluated against an existing annotation of lexical stress levels and manual prominence labeling on a subset of the corpus. We discuss methods and fresults and give an outlook on further implementation steps.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Tutorials",
+   "papers": [
+    "kawahara10_ssw",
+    "king10_ssw"
+   ]
+  },
+  {
+   "title": "Concatenative Speech Synthesis",
+   "papers": [
+    "bunnell10_ssw",
+    "conkie10_ssw",
+    "kain10_ssw"
+   ]
+  },
+  {
+   "title": "Voice Conversion",
+   "papers": [
+    "villavicencio10_ssw",
+    "huang10_ssw",
+    "godoy10_ssw",
+    "hayashida10_ssw",
+    "nose10_ssw"
+   ]
+  },
+  {
+   "title": "Statistical Parametric Speech Synthesis",
+   "papers": [
+    "maia10_ssw",
+    "yu10_ssw",
+    "takaki10_ssw",
+    "hashimoto10_ssw"
+   ]
+  },
+  {
+   "title": "Expressive Speech Synthesis",
+   "papers": [
+    "steiner10_ssw",
+    "romportl10_ssw",
+    "yang10_ssw",
+    "tesser10_ssw"
+   ]
+  },
+  {
+   "title": "Evaluation and Applications",
+   "papers": [
+    "wolters10_ssw",
+    "janska10_ssw",
+    "prahallad10_ssw",
+    "anumanchipalli10_ssw"
+   ]
+  },
+  {
+   "title": "Prosody and Conversation",
+   "papers": [
+    "prahallad10b_ssw",
+    "nishizawa10_ssw",
+    "andersson10_ssw",
+    "syrdal10_ssw"
+   ]
+  },
+  {
+   "title": "Multi-Lingual Speech Synthesis",
+   "papers": [
+    "zen10_ssw",
+    "wester10_ssw"
+   ]
+  },
+  {
+   "title": "Selected Topics",
+   "papers": [
+    "bellegarda10_ssw",
+    "anumanchipalli10b_ssw",
+    "oura10_ssw",
+    "wang10_ssw"
+   ]
+  },
+  {
+   "title": "Poster Sessions",
+   "papers": [
+    "saheer10_ssw",
+    "lasarcyk10_ssw",
+    "guan10_ssw",
+    "pammi10_ssw",
+    "ni10_ssw",
+    "saino10_ssw",
+    "huang10b_ssw",
+    "chiang10_ssw",
+    "picart10_ssw",
+    "rajkumar10_ssw",
+    "shao10_ssw",
+    "cadic10_ssw",
+    "polyakova10_ssw",
+    "yamamoto10_ssw",
+    "abouzleikha10_ssw",
+    "dong10_ssw",
+    "watts10_ssw",
+    "veaux10_ssw",
+    "scholtz10_ssw",
+    "raitio10_ssw",
+    "mustafa10_ssw",
+    "huang10c_ssw",
+    "goldman10_ssw",
+    "moers10_ssw",
+    "wang10b_ssw",
+    "cabral10_ssw",
+    "kim10_ssw",
+    "windmann10_ssw"
+   ]
+  }
+ ]
+}

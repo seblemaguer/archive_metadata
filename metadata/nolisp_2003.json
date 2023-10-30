@@ -1,0 +1,787 @@
+{
+ "title": "ITRW on Nonlinear Speech Processing (NOLISP 2003)",
+ "location": "Le Croisic, France",
+ "startDate": "20/5/2003",
+ "endDate": "23/5/2003",
+ "conf": "NOLISP",
+ "year": "2003",
+ "name": "nolisp_2003",
+ "series": "NOLISP",
+ "SIG": "",
+ "title1": "ITRW on Nonlinear Speech Processing",
+ "title2": "(NOLISP 2003)",
+ "date": "20-23 May 2003",
+ "papers": {
+  "faundezzanuy03_nolisp": {
+   "authors": [
+    [
+     "Marcos",
+     "Faúndez-Zanuy"
+    ]
+   ],
+   "title": "What can predictive speech coders learn from speaker recognizers?",
+   "original": "nl03_001",
+   "page_count": 7,
+   "order": 1,
+   "p1": "paper 001",
+   "pn": "",
+   "abstract": [
+    "This paper compares the speech coder and speaker recognizer applications, showing some parallelism between them. In this paper, some approaches used for speaker recognition are applied to speech coding in order to improve the prediction accuracy. Experimental results show an improvement in Segmental SNR (SEGSNR).\n",
+    ""
+   ]
+  },
+  "lamy03_nolisp": {
+   "authors": [
+    [
+     "Richard",
+     "Lamy"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ]
+   ],
+   "title": "Nonlinear acoustical preprocessing for multiple sampling rates ASR and ASR in noisy condition",
+   "original": "nl03_002",
+   "page_count": 4,
+   "order": 2,
+   "p1": "paper 002",
+   "pn": "",
+   "abstract": [
+    "This paper presents a non-linear approacb tor acoustical pre-processing based on Veetor Quantization. Tbe idea is to transform feature vectors extracted from signais of one quality to feature vectors of another quality. Our method is applied to two particular cases: speech recognition at multiple sampling rates, and speech recognition in noisy environment. Such a method, which could be applied to other adaptation problems, allows very acceptable correspondence between two considered feature spaces. Tbus, a genene ASR system trained on 16kHz signais is able to recognize lower sampling rate signals without any adaptation of its acoustic modeis. In the same way, our method is applied to ASR in noisy environment and its performance is better than conventional MLLR adaptation when large amount of adaptation data is provided.\n",
+    ""
+   ]
+  },
+  "vandana03_nolisp": {
+   "authors": [
+    [
+     "Mohan",
+     "Vandana"
+    ]
+   ],
+   "title": "M-ary predictive coding: a nonlinear model for speech",
+   "original": "nl03_003",
+   "page_count": 8,
+   "order": 3,
+   "p1": "paper 003",
+   "pn": "",
+   "abstract": [
+    "Speech Coding is pivotal in the ability of networks to support multimedia services. The technique currently used for speech coding is Linear Prediction. It models the throat as an all-pole filter i.e. using a linear difference equation. However, the physical nature of the throat is itself a clue to its nonlinear nature. Developing a nonlinear model is difficult as in the solution of nonlinear equations and the verification of nonlinear schemes.\n",
+    ""
+   ]
+  },
+  "kim03_nolisp": {
+   "authors": [
+    [
+     "Sung-Hee",
+     "Kim"
+    ],
+    [
+     "Robert D.",
+     "Frisina"
+    ],
+    [
+     "D. Robert",
+     "Frisina"
+    ]
+   ],
+   "title": "Effects of age on speech understanding in normal hearing listeners: relationships between the auditory efferent system and speech intelligibility in noise",
+   "original": "nl03_004",
+   "page_count": 24,
+   "order": 4,
+   "p1": "paper 004",
+   "pn": "",
+   "abstract": [
+    "Human listeners are able to concentrate on listening to one voice amidst other conversations and background noise, but not all of the neural mechanisms for this process are understood. There is growing evidence in normal-hearing subjects that the medial olivocochlear (MOC) auditory efferent system is involved in the detection of signals in noise, such as speech sounds, by modulation of cochlear active physiological mechanisms. The present investigation aimed to evaluate the MOC efferent involvement in speech intelligibility in noise and spatial release from masking (RFM) in normalhearing adults of different ages. Contralateral suppression (CS) of distortion product otoacoustic emission was used to measure MOC efferent system function. Using HINT (Hearing in the Noise Test), we measured speech intelligibility in noise at 0 degree azimuth (HINT N0) and the improvement of speech intelligibility in noise, i.e. release from masking (RFM), when speech and noise were spatially separated. Correlation analysis was applied to reveal relations between the MOC efferent system, speech intelligibility in noise and spatial RFM. The findings suggest: (1) age-related difficulty understanding speech in background noise is related to an age-related functional decline of the MOC efferent system, (2) the higher frequency (4-6 kHz) range of the MOC efferent function is correlated with speech processing in background noise, and (3) the 1- 2 kHz frequency range of the MOC efferent system is correlated with a spatial RFM, i.e., \"cocktail party\" processing capability based on binaural hearing. In conclusion, the MOC efferent system can be characterized as a nonlinear adaptive filter activated during speech processing in background noise and also as a cocktail party processor.\n",
+    ""
+   ]
+  },
+  "liu03_nolisp": {
+   "authors": [
+    [
+     "Xiaolin",
+     "Liu"
+    ],
+    [
+     "Richard J.",
+     "Povinelli"
+    ],
+    [
+     "Michael T.",
+     "Johnson"
+    ]
+   ],
+   "title": "Vowel classification by global dynamic modeling",
+   "original": "nl03_005",
+   "page_count": 4,
+   "order": 5,
+   "p1": "paper 005",
+   "pn": "",
+   "abstract": [
+    "An approach is presented in this paper for vowel classification by analyzing the dynamics of speech production in a reconstructed phase space. The proposed approach has the ability of capturing nonlinearities that may exist in speech production. Global flow reconstruction is used to generate a quantitative description of the structure and trajectory of vowel attractors in a reconstructed phase space. A distance measure is defined to quantify the dynamic similarity between phoneme attractors. Templates of the dynamics for each vowel class are selected by cluster analysis. Classifying out-of-sample vowel phonemes is done using a nearest neighbor classifier. Experiments are conducted on both speaker dependent and independent vowel classification tasks using the TIMIT corpus. The preliminary experimental results show that vowel classification by nonlinear dynamics analysis can produce similar result when compared with a classifier using Mel frequency cepstral coefficient (MFCC) features.\n",
+    ""
+   ]
+  },
+  "pichevar03_nolisp": {
+   "authors": [
+    [
+     "Ramin",
+     "Pichevar"
+    ],
+    [
+     "Jean",
+     "Rouat"
+    ]
+   ],
+   "title": "Double-vowel segregation through temporal correlation: a bio-inspired neural network paradigm",
+   "original": "nl03_006",
+   "page_count": 4,
+   "order": 6,
+   "p1": "paper 006",
+   "pn": "",
+   "abstract": [
+    "A two-layer spiking neural network is used to segregate double vowels. The first layer is a partially connected spiking neurons of relaxation oscillatory type, while the second layer consists of fully connected relaxation oscillators. A twodimensional auditory image generated by the enhanced spectrum of cochlear filter bank envelopes is computed. The segregation is based on a channel selection strategy. At each instant of time each channel is assigned to one of the sources present in the auditory scene, i.e. speakers. No prior estimation of pitch for the underlying sources is necessary.\n",
+    ""
+   ]
+  },
+  "ouamoursayoud03_nolisp": {
+   "authors": [
+    [
+     "S.",
+     "Ouamour-Sayoud"
+    ],
+    [
+     "H.",
+     "Sayoud"
+    ],
+    [
+     "M.",
+     "Boudraa"
+    ]
+   ],
+   "title": "Application of the MLVQ1 in speaker identification",
+   "original": "nl03_007",
+   "page_count": 4,
+   "order": 7,
+   "p1": "paper 007",
+   "pn": "",
+   "abstract": [
+    "In this paper we describe a new method, in automatic speaker recognition, based on modified LVQ1 (MLVQ1) and using 3 prosodic features: the mean of the pitch, the original duration and the low-frequency energy. For this purpose, we conceived a new metric, optimized in automatic speaker recognition, which we called ODHEF. The tests of speaker recognition are done in Arabic corpus with 2 different sets: a closed set and an open set. The results show that the prosodic features are relevant and that the modified LVQ1 (MLVQ1) method is interesting in text-dependent speaker identification.\n",
+    ""
+   ]
+  },
+  "nishikawa03_nolisp": {
+   "authors": [
+    [
+     "Tsuyoki",
+     "Nishikawa"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Stable learning algorithm for low-distortion blind separation of real speech mixture combining multistage ICA and linear prediction",
+   "original": "nl03_008",
+   "page_count": 4,
+   "order": 8,
+   "p1": "paper 008",
+   "pn": "",
+   "abstract": [
+    "We propose a stable algorithm for blind source separation (BSS) combining multistage ICA (MSICA) and linear prediction. The MSICA in which frequency-domain ICA (FDICA) for a rough separation is followed by time-domain ICA (TDICA) to remove residual crosstalk. For temporally correlated signals, we must use TDICA with a nonholonomic constraint to avoid the decorrelation effect from the holonomic constraint. However, the stability cannot be guaranteed in the nonholonomic case. To solve the problem, the linear predictors estimated from the roughly separated signals by FDICA are inserted before the holonomic TDICA as a prewhitening processing, and the dewhitening is performed after TDICA. The stability of the proposed algorithm can be guaranteed by the holonomic constraint, and the pre/dewhitening processing prevents the decorrelation.\n",
+    ""
+   ]
+  },
+  "abuamer03_nolisp": {
+   "authors": [
+    [
+     "Tarek",
+     "Abu-Amer"
+    ],
+    [
+     "Julie",
+     "Carson-Berndsen"
+    ]
+   ],
+   "title": "HARTFEX: a multi-dimentional system of HMM based recognisers for articulatory features extraction",
+   "original": "nl03_009",
+   "page_count": 4,
+   "order": 9,
+   "p1": "paper 009",
+   "pn": "",
+   "abstract": [
+    "HARTFEX is a novel system that employs several tiers of HMMs recognisers that work in parallel to extract multidimentions of articulatory features. The features segments on the different tiers overlap to account for the coarticulation phenomena. The overlap and precedence relation among features are applied to a phonological parser for further processing. HARTFEX system is built on a modified version of HTK toolkit that allows it to perform multi-thread multi-feature recognition. The system testing results are highly promising. The recognition accuracy for vowel is 98% and for rhotic is 93%. Current work investigates inherited interdependencies of extracting different feature sets.\n",
+    ""
+   ]
+  },
+  "paliwal03_nolisp": {
+   "authors": [
+    [
+     "Kuldip K.",
+     "Paliwal"
+    ],
+    [
+     "Bishnu S.",
+     "Atal"
+    ]
+   ],
+   "title": "Representing frequencies in speech",
+   "original": "nl03_010",
+   "page_count": 4,
+   "order": 10,
+   "p1": "paper 010",
+   "pn": "",
+   "abstract": [
+    "Cepstral features derived from power spectrum are widely used for automatic speech recognition. Very little work, if any, has been done in speech research to explore phase-based representations. In this paper, an attempt is made to investigate the use of phase function in the analytic signal of critical-band filtered speech for deriving a representation of frequencies present in the speech signal. Results are presented which show the validity of this approach.\n",
+    ""
+   ]
+  },
+  "paliwal03b_nolisp": {
+   "authors": [
+    [
+     "Kuldip K.",
+     "Paliwal"
+    ],
+    [
+     "Leigh",
+     "Alsteris"
+    ]
+   ],
+   "title": "Usefulness of phase in human speech perception",
+   "original": "nl03_011",
+   "page_count": 4,
+   "order": 11,
+   "p1": "paper 011",
+   "pn": "",
+   "abstract": [
+    "Short-time Fourier transform of speech signal has two components: magnitude spectrum and phase spectrum. In this paper, relative importance of short-time magnitude and phase spectra on speech perception is investigated. Human perception experiments are conducted to measure intelligibility of speech tokens synthesized either from magnitude spectrum or phase spectrum. It is traditionally believed that magnitude spectrum plays a dominant role for shorter windows (20-30 ms); while phase spectrum is more important for longer windows (128-256 ms). It is shown in this paper that even for shorter windows, phase spectrum can contribute to speech intelligibility as much as the magnitude spectrum if the shape of the window function is properly selected.\n",
+    ""
+   ]
+  },
+  "chetouani03_nolisp": {
+   "authors": [
+    [
+     "Mohamed",
+     "Chetouani"
+    ],
+    [
+     "B.",
+     "Gas"
+    ],
+    [
+     "J. L.",
+     "Zarader"
+    ]
+   ],
+   "title": "Maximization of the modelisation error ratio for neural predictive coding",
+   "original": "nl03_012",
+   "page_count": 4,
+   "order": 12,
+   "p1": "paper 012",
+   "pn": "",
+   "abstract": [
+    "In this paper, we introduce a model for Discrimant Feature Extraction (DFE): the Neural Predictive Coding (NPC). It is an extension of the Linear Predictive Coding (LPC). The Modelisation Error Ratio (MER), a discriminant criterion adapted for predictive models, is introduced. We propose a theoretical validation of the discriminant properties of the MER. The experimental validation consists on phoneme recognition task. The phonemes are extracted from the Darpa-Timit speech database. The performances are compared with traditional methods: LPC, MFCC, PLP.\n",
+    ""
+   ]
+  },
+  "walker03_nolisp": {
+   "authors": [
+    [
+     "Jacqueline",
+     "Walker"
+    ]
+   ],
+   "title": "Application of the bispectrum to glottal pulse analysis",
+   "original": "nl03_013",
+   "page_count": 6,
+   "order": 13,
+   "p1": "paper 013",
+   "pn": "",
+   "abstract": [
+    "Higher order spectral (HOS) techniques, such as the bispectrum, offer robustness to Gaussian noise and the ability to recover phase information. However, their drawbacks, such as the high variance of estimates and the need for long data records, have limited their use in conventional speech processing applications. As in glottal pulse estimation, all existing inverse filtering approaches use second-order statistics, it is of interest to explore the potential of HOS in this area. Using the theory of HOS factorization and the linear bispectrum, it is shown how voiced speech can be modelled as a nonGaussian coloured noise driven system. The linear bispectrum approach can be used to obtain alternative glottal pulse and vocal tract estimates in hybrid Iterative Adaptive Inverse Filtering (hIAIF) and the results are compared with traditional IAIF. Finally, a new technique which involves joint estimation of the glottal pulse and vocal tract followed by inverse filtering is presented. This new technique shows good preliminary results and is much simpler than previous techniques.\n",
+    ""
+   ]
+  },
+  "salvi03_nolisp": {
+   "authors": [
+    [
+     "Giampiero",
+     "Salvi"
+    ]
+   ],
+   "title": "Truncation error and dynamics in very low latency phonetic recognition",
+   "original": "nl03_014",
+   "page_count": 4,
+   "order": 14,
+   "p1": "paper 014",
+   "pn": "",
+   "abstract": [
+    "The truncation error for a two-pass decoder is analyzed in a problem of phonetic speech recognition for very demanding latency constraints (look-ahead length < 100ms) and for applications where successive refinements of the hypotheses are not allowed. This is done empirically in the framework of hybrid MLP/HMM models. The ability of recurrent MLPs, as a posteriori probability estimators, to model time variations is also considered, and its interaction with the dynamic modeling in the decoding phase is shown in the simulations.\n",
+    ""
+   ]
+  },
+  "martinez03_nolisp": {
+   "authors": [
+    [
+     "F.",
+     "Martinez"
+    ],
+    [
+     "Antonio",
+     "Guillamon"
+    ],
+    [
+     "J. J.",
+     "Martinez"
+    ]
+   ],
+   "title": "Vowel and consonant characterization using fractal dimension in natural speech",
+   "original": "nl03_015",
+   "page_count": 4,
+   "order": 15,
+   "p1": "paper 015",
+   "pn": "",
+   "abstract": [
+    "Speech signals can be considered as being generated by mechanical system with inherently nonlinear dynamics. The purpose of this paper is to describe its complexity using the fractal dimension of a variety of spanish voiced sounds (vowels, nasals) and unvoiced sounds (fricatives) In our research, the fractal dimension was computed over recorder signals from a speech spanish database (AHUMADA), using the method suggested by Katz, [1]. In conclusion the fractals measures expand the distinguishing features in characterizing voiced and unvoiced sounds, that leads to better speech recognition performances.\n",
+    ""
+   ]
+  },
+  "modic03_nolisp": {
+   "authors": [
+    [
+     "Robert",
+     "Modic"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ],
+    [
+     "Bojan",
+     "Petek"
+    ]
+   ],
+   "title": "Comparative wavelet and MFCC speech recognition experiments on the Slovenian and English speechdat2",
+   "original": "nl03_016",
+   "page_count": 3,
+   "order": 16,
+   "p1": "paper 016",
+   "pn": "",
+   "abstract": [
+    "Introduction. The main motivation for this project was to study performance of non-linear speech analysis methods in automatic speech recognition. Specifically, we selected wavelet transform as a promising non-linear tool for signal analysis that has been already successfully applied in many tasks, such as in image recognition and compression leading to standards such as JPEG2000. The plan was to perform a comparative analysis between the standard mel-cepstral and wavelet based set of features and to evaluate the baseline speech recognition rates of two aforementioned parameterization methods.\n",
+    "We start with a brief description of the Fourier and wavelet transforms from the perspective of joint time frequency analysis where we focus on localization issues of the two transforms. Ability of the transformation to properly capture short time events is defined with the localization capabilities of its basic functions and is one of the prerequisites for a successful application in speech processing. The Fourier transform offers constant timefrequency resolution where the wavelet transform enables better frequency resolution at low frequencies and better time localization of the transient phenomena in the time domain. This very much resembles to the first stage of human auditory perception and to basilar membrane excitation where the wavelet transform introduces roughly logarithmic frequency sensitivity. We carried out comparative within and cross-language experiments on the Slovenian and English SpeechDat2 databases using the standard melcepstral and the wavelet based set of features. The tool used in automatic speech recognition was the reference recogniser that is built around the HTK toolkit. This enabled us to conduct controlled experiments on six different subsets of SpeechDat2 vocabularies (yes/no sentences, citinames, phonetically rich word, digits, etc).\n",
+    ""
+   ]
+  },
+  "indrebo03_nolisp": {
+   "authors": [
+    [
+     "Kevin M.",
+     "Indrebo"
+    ],
+    [
+     "Richard J.",
+     "Povinelli"
+    ],
+    [
+     "Michael T.",
+     "Johnson"
+    ]
+   ],
+   "title": "A combined sub-band and reconstructed phase space approach to phoneme classification",
+   "original": "nl03_017",
+   "page_count": 3,
+   "order": 17,
+   "p1": "paper 017",
+   "pn": "",
+   "abstract": [
+    "In this paper a method of classifying phonemes by combining a dynamical systems approach with subband decomposition of speech signals is presented. The ability of reconstructed phase spaces to effectively model sub-bands of phonemes in different phonological classes is demonstrated. Experiments performed over the TIMIT database show how well phonemes from different phonological classes can be recognized in different frequency bands. It is hypothesized that given these results, filtering signals before embedding has the potential to improve classification accuracy.\n",
+    ""
+   ]
+  },
+  "fu03_nolisp": {
+   "authors": [
+    [
+     "Qiang",
+     "Fu"
+    ],
+    [
+     "Peter",
+     "Murphy"
+    ]
+   ],
+   "title": "Adaptive inverse filtering for high accuracy estimation of the glottal source",
+   "original": "nl03_018",
+   "page_count": 8,
+   "order": 18,
+   "p1": "paper 018",
+   "pn": "",
+   "abstract": [
+    "An adaptive, pitch-synchronous analysis method is proposed for the simultaneous estimation of vocal tract and voice source parameters from speech waveforms. A time varying autoregressive model with exogenous input (ARX) is chosen for vocal tract modeling because of the capability of such a model for characterising both the formants and antiformants of the vocal tract. The Liljencrants-Fant model for the voice source is integrated into an iterative adaptive estimation procedure. Furthermore, an adaptive inverse filtering technique is put forward to obtain high accuracy estimation of the glottal source waveform, which is necessary for the intended application of the method to pathological voice analysis. The technique is evaluated and compared with a number of other approaches using synthetic speech containing additive noise at the source. The results illustrate the superior performance of the new method.\n",
+    ""
+   ]
+  },
+  "ye03_nolisp": {
+   "authors": [
+    [
+     "Jinjin",
+     "Ye"
+    ],
+    [
+     "Michael T.",
+     "Johnson"
+    ],
+    [
+     "Richard J.",
+     "Povinelli"
+    ]
+   ],
+   "title": "Phoneme classification over the reconstructed phase space using principal component analysis",
+   "original": "nl03_019",
+   "page_count": 4,
+   "order": 19,
+   "p1": "paper 019",
+   "pn": "",
+   "abstract": [
+    "Although isolated phoneme classification using features from time-domain phase space reconstruction has been investigated recently, the best representation of feature vectors for the discriminability over phoneme classes is still an open question. This paper applies Principal Component Analysis (PCA) to feature vectors from the reconstructed phase space. By using PCA projection, the basis of the feature space is orthogonalized. A Bayes classifier uses the transformed feature vectors to classify phoneme exemplars. The results show that the classification accuracy with the PCA method surpasses the accuracy using only original features in most cases. PCA projection was implemented in three ways over the reconstructed phase space on both speaker-dependent and speaker-independent data. Models are trained and tested using data drawn from the TIMIT database.\n",
+    ""
+   ]
+  },
+  "ye03b_nolisp": {
+   "authors": [
+    [
+     "Jinjin",
+     "Ye"
+    ],
+    [
+     "Michael T.",
+     "Johnson"
+    ],
+    [
+     "Richard J.",
+     "Povinelli"
+    ]
+   ],
+   "title": "Study of attractor variation in the reconstructed phase space of speech signals",
+   "original": "nl03_020",
+   "page_count": 4,
+   "order": 20,
+   "p1": "paper 020",
+   "pn": "",
+   "abstract": [
+    "This paper presents a study of the attractor variation in the reconstructed phase spaces of isolated phonemes. The approach is based on recent work in timedomain signal classification using dynamical signal models, whereby a statistical distribution model is obtained from the phase space and used for maximum likelihood classification. Two sets of experiments are presented in this paper. The first uses a variable time lag phase space to examine the effect of fundamental frequency on attractor patterns. The second focuses on speaker variability through an investigation of speakerdependent phoneme classification across speaker sets of increasing size.\n",
+    ""
+   ]
+  },
+  "barcaroli03_nolisp": {
+   "authors": [
+    [
+     "L.",
+     "Barcaroli"
+    ],
+    [
+     "G.",
+     "Linares"
+    ],
+    [
+     "J.-P.",
+     "Costa"
+    ],
+    [
+     "Jean-Francois",
+     "Bonastre"
+    ]
+   ],
+   "title": "Nonlinear GSM echo cancellation: application to speech recognition",
+   "original": "nl03_021",
+   "page_count": 4,
+   "order": 21,
+   "p1": "paper 021",
+   "pn": "",
+   "abstract": [
+    "The miniaturization of GSM handsets creates nonlinear acoustical echoes between microphones and loudspeakers when the signal level is high (hands-free communication). A comparison of several nonlinear echo cancellation methods have been studied in a recent paper [1]. In these paper, we propose to studdy the effects of echo cancellation on automatic speech recognition performance. We use the speech recognition system (SPEERAL) developed by the LIA laboratory. The quality of the echo cancelers is also evaluated using the standard ERLE (echo return loss enhancement) measure.\n",
+    "",
+    "",
+    "J-P. Costa, A. Lagrange, and A. Arliaud, \"Acoustic echo cancellation using nonlinear cascade filters,\" ICASSP, Hong-Kong, 2003.\n",
+    ""
+   ]
+  },
+  "schoentgen03_nolisp": {
+   "authors": [
+    [
+     "Jean",
+     "Schoentgen"
+    ]
+   ],
+   "title": "On the bandwidth of a shaping function model of the phonatory excitation signal",
+   "original": "nl03_022",
+   "page_count": 4,
+   "order": 22,
+   "p1": "paper 022",
+   "pn": "",
+   "abstract": [
+    "The objective of the article is to present a polynomial waveshaper model of the phonatory excitation signal, as well as investigate its bandwidth when the model is driven by frequency and amplitude-modulated simple harmonic functions. The purpose of the modulation of the driving harmonics is the simulation of a time-variable intonation and accentuation, as well as phonatory regimes that are not simply periodic. The results show that the upper bound of the bandwidth of the synthetic excitation is equal to the upper bound of the bandwidth of the driving functions multiplied by the order of the model plus one. The sampling frequency must be chosen accordingly to avoid aliasing. This result can be generalized to any polynomial shaping function model.\n",
+    ""
+   ]
+  },
+  "fevotte03_nolisp": {
+   "authors": [
+    [
+     "Cédric",
+     "Févotte"
+    ],
+    [
+     "Alexandra",
+     "Debiolles"
+    ],
+    [
+     "Christian",
+     "Doncarli"
+    ]
+   ],
+   "title": "Blind source separation of FIR convolutive mixtures: application to speech signals",
+   "original": "nl03_023",
+   "page_count": 4,
+   "order": 23,
+   "p1": "paper 023",
+   "pn": "",
+   "abstract": [
+    "In this paper we present a simple method to deal with Blind Source Separation (BSS) of Finite Impulse Response (FIR) convolutive mixtures. The global method proceeds in two steps. The first step consists in separating each source contribution in the mixture. This step provides several filtered version of each source. The second step consists in retrieving the original sources from the set of filtered versions of each source using a blind system identification method. We present some results on a mixture of speech and music.\n",
+    ""
+   ]
+  },
+  "pitsikalis03_nolisp": {
+   "authors": [
+    [
+     "Vassilis",
+     "Pitsikalis"
+    ],
+    [
+     "Petros",
+     "Maragos"
+    ]
+   ],
+   "title": "Some advances on speech analysis using generalized dimensions",
+   "original": "nl03_024",
+   "page_count": 4,
+   "order": 24,
+   "p1": "paper 024",
+   "pn": "",
+   "abstract": [
+    "Nonlinear systems based on chaos theory can model various aspects of the nonlinear dynamic phenomena occuring during speech production. In this paper,we explore modern methods and algorithms from chaotic systems theory for modeling speech signals in a multidimensional phase space and extracting characteristic invariant measures such as the generalized fractal dimensions. Such measures can capture valuable information for the characterisation of the multidimensional phase space since they are sensitive on the frequency that the attractor visits different regions. Further, we integrate some of these chaotic-type features with the standard linear ones (based on cepstrum) to develop a generalized hybrid set of shorttime acoustic features for speech signals and demonstrate its efficacy by showing slight improvements in HMMbased phoneme recognition without the use of any language model.\n",
+    ""
+   ]
+  },
+  "dimitriadis03_nolisp": {
+   "authors": [
+    [
+     "Dimitrios",
+     "Dimitriadis"
+    ],
+    [
+     "Petros",
+     "Maragos"
+    ]
+   ],
+   "title": "Continuous-time models for AM-FM signal demodulation and their application to speech recognition",
+   "original": "nl03_025",
+   "page_count": 4,
+   "order": 25,
+   "p1": "paper 025",
+   "pn": "",
+   "abstract": [
+    "Automatic speech recognition (ASR) systems can benefit from including into their acoustic processing part new features that account for various nonlinear and time-varying phenomena during speech production. In this paper, we develop robust continuoustime expansions used to demodulate the instantaneous amplitudes and frequencies of the speech resonances and extract novel acoustic features from speech signals. Further, we concatenate the new non-linear speech features with the standard linear ones (melfrequency cepstrum) to develop an augmented set of acoustic features and demonstrate its efficacy by showing improvements in HMM-based phoneme recognition over speech databases. The continuous-time models retain the excellent time resolution of the ESAs, based on discrete energy operators, but perform better in the presence of noise.\n",
+    ""
+   ]
+  },
+  "aversano03_nolisp": {
+   "authors": [
+    [
+     "Guido",
+     "Aversano"
+    ],
+    [
+     "Anna",
+     "Esposito"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "A JAVA interface for speech analysis and segmentation",
+   "original": "nl03_026",
+   "page_count": 4,
+   "order": 26,
+   "p1": "paper 026",
+   "pn": "",
+   "abstract": [
+    "The paper describes the current state of development of a multi-purpose software tool for speech research. This is composed by a \"visualization front-end\", for displaying and editing the speech signal with associated annotations and acoustic features, and a \"batch-processing interface\" for applying speechprocessing algorithms to a whole database of signals. The software is mostly written in JAVA, but an extension mechanism is provided in order to integrate the interface with processing techniques implemented in different programming languages. The presented tool includes an original phone segmentation algorithm, for which some new experimental results are reported that prove its robustness to telephone bandwidth distortions.\n",
+    ""
+   ]
+  },
+  "rank03_nolisp": {
+   "authors": [
+    [
+     "Erhard",
+     "Rank"
+    ],
+    [
+     "Gernot",
+     "Kubin"
+    ]
+   ],
+   "title": "Towards an oscillator-plus-noise model for speech synthesis",
+   "original": "nl03_027",
+   "page_count": 12,
+   "order": 27,
+   "p1": "paper 027",
+   "pn": "",
+   "abstract": [
+    "The autonomous oscillator model for speech synthesis is augmented by a nonlinear predic- tor to regenerate the modulated noiselike signal component of speech signals. The resulting `oscillator-plus-noise' model in combination with vocal tract modeling by linear prediction is able to regenerate the spectral content of stationary wide-band vowel signals with high fidelity. For adequate modeling of voiced fricatives the model is further extended by a second linear prediction path. With one and the same model not only sustained voiced and mixed excitation phonemes, but also unvoiced sounds can be regenerated faithfully.\n",
+    ""
+   ]
+  },
+  "fernandezlorenzana03_nolisp": {
+   "authors": [
+    [
+     "Ramón",
+     "Fernández-Lorenzana"
+    ],
+    [
+     "Fernando",
+     "Pérez-Cruz"
+    ],
+    [
+     "José Miguel",
+     "García-Cabellos"
+    ],
+    [
+     "Carmen",
+     "Peláez-Moreno"
+    ],
+    [
+     "Ascensión",
+     "Gallardo-Antolín"
+    ],
+    [
+     "Fernando",
+     "Díaz-de-María"
+    ]
+   ],
+   "title": "Some experiments on speaker-independent isolated digit recognition using SVM classifiers",
+   "original": "nl03_028",
+   "page_count": 7,
+   "order": 28,
+   "p1": "paper 028",
+   "pn": "",
+   "abstract": [
+    "Introduction (abridged). Hidden Markov Models (HMMs) are, undoubtedly, the most employed core technique for Automatic Speech Recognition (ASR). During the last decades, the research in HMMs for ASR have brought about significant advances and, consequently, the HMMs are currently accurately tuned for this application. Nevertheless, we are still far from achieving high-performance speech recognition-based interfaces. Some alternative approaches, most of them based on Artificial Neural Networks (ANNs), were proposed during the last decade. Some of them faced the ASR problem using predictive ANNs while others proposed hybrid (HMM-ANN) approaches. Nowadays, however, the preponderance of HMMs is a fact.\n",
+    "Speech recognition is essentially a problem of pattern classification, but the high dimensionality of the sequences of speech feature vectors has prevented researchers to propose a straightforward classification scheme for ASR. Support Vector Machines (SVMs) are state-of-the-art tools for linear and nonlinear knowledge discovery. Being based on the maximum margin classifier, which can be regarded as the common sense solution, the SVM is able to outperform classical classifiers in the presence of high dimensional data even when working with nonlinear machines. The SVM philosophy basically states that the only available information for constructing the classifier are the training samples. Therefore, in those applications in which a priori knowledge or structure is known, the SVM might not be as powerful as other machine learning techniques which can benefit form this information. Some work has been done in this direction, but still there are open issues that need to be addressed. Some researchers have already proposed different approaches to speech recognition aiming at taking advantage of this type of classifiers.\n",
+    "In this paper we propose to use SVMs for speaker-independent isolated digit recognition by plain classification. For this purpose, we use an standard MFCC parameterization that has been time-adapted to the fixed-input dimension required by SVMs.\n",
+    ""
+   ]
+  },
+  "petrovskadelacretaz03_nolisp": {
+   "authors": [
+    [
+     "Dijana",
+     "Petrovska-Delacrétaz"
+    ],
+    [
+     "Marcos",
+     "Abalo"
+    ],
+    [
+     "Asmaa El",
+     "Hannani"
+    ],
+    [
+     "Gérard",
+     "Chollet"
+    ]
+   ],
+   "title": "Data-driven speech segmentation for language identification and speaker verification",
+   "original": "nl03_029",
+   "page_count": 9,
+   "order": 29,
+   "p1": "paper 029",
+   "pn": "",
+   "abstract": [
+    "The common denorninator of many speech processing methods is the set of acoustic units chosen to represent the structure of the data. The majority of current systems use phones (or related units) as an atomic representation of speech. The major problems that arise when phone based systems are being developed is the possible mismatch with the data being used and the lack of transcribed databases. The set of speech units can also be learned from examples, like in data-driven approaches. We have already used data-driven acoustic speech units, denoted as Automatic Language Independent Speech Processing (ALISP) units, for segmental speaker verification experiments, based on Multiple Layer Perceptrons, and on Dynamic Time Warping (DTW). In this paper we give an overview of the DTW based speaker verification and we present further developments of the data-driven ALISP speech segmentation for language identification experiments. The results confirm the applicability of the proposed method for these two tasks.\n",
+    ""
+   ]
+  },
+  "benaroya03_nolisp": {
+   "authors": [
+    [
+     "L.",
+     "Benaroya"
+    ],
+    [
+     "Frédéric",
+     "Bimbot"
+    ],
+    [
+     "G.",
+     "Gravier"
+    ],
+    [
+     "R.",
+     "Gribonval"
+    ]
+   ],
+   "title": "Audio source separation with one sensor for robust speech recognition",
+   "original": "nl03_030",
+   "page_count": 6,
+   "order": 30,
+   "p1": "paper 030",
+   "pn": "",
+   "abstract": [
+    "In this paper, we address the problem of noise compensation in speech signals for robust speech recognition. Several classical denoising methods in the field of speech and signal processing are compared on speech corrupted by music, which correspond to a frequent situation in broadcast news transcription tasks. We also present two new source separation techniques, namely adaptiveWiener filtering and adaptive shrinkage. These techniques rely on the use of a dictionary of spectral shapes to deal with the non stationarity of the signals. The algorithms are first compared on the source separation task and assessed in terms of average distortion. Their effect on the entire transcription system is eventually compared in terms of word error rate. Results show that the proposed adaptive Wiener filter approach yields a significant improvement of the transcription accuracy at signal/noise ratios greater than 15 dB.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Table of Contents and Access to Abstracts",
+   "papers": [
+    "faundezzanuy03_nolisp",
+    "lamy03_nolisp",
+    "vandana03_nolisp",
+    "kim03_nolisp",
+    "liu03_nolisp",
+    "pichevar03_nolisp",
+    "ouamoursayoud03_nolisp",
+    "nishikawa03_nolisp",
+    "abuamer03_nolisp",
+    "paliwal03_nolisp",
+    "paliwal03b_nolisp",
+    "chetouani03_nolisp",
+    "walker03_nolisp",
+    "salvi03_nolisp",
+    "martinez03_nolisp",
+    "modic03_nolisp",
+    "indrebo03_nolisp",
+    "fu03_nolisp",
+    "ye03_nolisp",
+    "ye03b_nolisp",
+    "barcaroli03_nolisp",
+    "schoentgen03_nolisp",
+    "fevotte03_nolisp",
+    "pitsikalis03_nolisp",
+    "dimitriadis03_nolisp",
+    "aversano03_nolisp",
+    "rank03_nolisp",
+    "fernandezlorenzana03_nolisp",
+    "petrovskadelacretaz03_nolisp",
+    "benaroya03_nolisp"
+   ]
+  }
+ ]
+}

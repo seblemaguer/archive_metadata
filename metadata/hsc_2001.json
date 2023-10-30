@@ -1,0 +1,1322 @@
+{
+ "title": "International Workshop on Hands-Free Speech Communication",
+ "location": "Kyoto, Japan",
+ "startDate": "9/4/2001",
+ "endDate": "11/4/2001",
+ "conf": "HSC",
+ "year": "2001",
+ "name": "hsc_2001",
+ "series": "",
+ "SIG": "",
+ "title1": "International Workshop on Hands-Free Speech Communication",
+ "date": "9-11 April 2001",
+ "papers": {
+  "itakura01_hsc": {
+   "authors": [
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "Multi-media data collection for in-car speech communication - ongoing data collection and preliminary results -",
+   "original": "hsc1_001",
+   "page_count": 4,
+   "order": 1,
+   "p1": "1",
+   "pn": "4",
+   "abstract": [
+    "In this paper, we report the details of the collection of the multimedia data such as audio, video and auxiliary information of the vehicle during a spoken dialogue in a moving can The system specially built in a Data Collection Vehicle (DCV) supports synchronous recording of multi-channel audio data from 16 microphones that can be placed in flexible positions, multi-channel video data from 3 cameras and the vehicle related data. Multimedia data has been collected for three sessions of spoken dialogue in about a 60-minute drive by each of 200 subjects. Data has been collected for two dialogue modes: (1) prompted dialogue between the driver and an accompanying operator and (2) natural dialogue between the driver and a telephone operator for information access over a cellular phone while driving a car. The corpus can be used for analysis of multimedia data in a moving car environment and also for modeling spoken dialogue in scenarios such as information access while driving a car. Preliminary results of data analysis for studying the effects on speech segmental duration feature are also presented.\n",
+    ""
+   ]
+  },
+  "juang01_hsc": {
+   "authors": [
+    [
+     "B. H.",
+     "Juang"
+    ],
+    [
+     "F. K.",
+     "Soong"
+    ]
+   ],
+   "title": "Hands-free telecommunications",
+   "original": "hsc1_005",
+   "page_count": 6,
+   "order": 2,
+   "p1": "5",
+   "pn": "10",
+   "abstract": [
+    "Introduction\n",
+    "Hands-free telecommunication (both telephony and teleconferencing) refers to a communication mode, in which the participants speak and interact with each other over a communication network, without baving to wear or hold any special device such as a microphone or a headset. Hands-free telecommunication generally takes place in an enclosed room, such as an office or tbe cabin of a car. The room is equipped with a transducer assembly (a microphone or an array of microphones), which picks up the acoustic signal in the room, and a loudspeaker, which plays out tbe signal from The remote end. In such a communication configuration, the talker in tbe room usually is situated at a certain comfortable distance from either the microphone assembly or the loudspeaker. This communication scenario is quite different from the traditional telephony in which a telephone with a handset is regularly used. A relevant device called Speakerphone that exists today may allow a primitive form of hands-free telecommunication.\n",
+    "There are a number of strong motivations behind bands-free telecommunication. First, people want mobility, even just locally. Communication using a tethered device is both inconvenient and undesirable. The use of a speakerphone is exactly to let the user do away with a locally tetbered device. Second, in mobile communications, the concern over safety is growing; many municipalities and countries in the world are erecting legislation to disallow a driver to use a hand-held cellular phone while driving. A hands-free communication device installed in the car would alleviate tbe distraction of a band-held callular phone. Third, people are constantly looking for improved communication quality and enhanced naturalness in interface to communication services. A speakerphone that uses \"gain switching\" to enable a limited full-duplex conversation cannot deliver high speech quality to allow proper use of a remote speech recognizer or to support multi-point teleconferencing without causing frustration on the participants. Many signal processing problems need to be solved to be able to realize high-quality hands-free telecommunications.\n",
+    "A number of critical technical issues are involved in the hands-free telecommunication paradigm. The acoustic signal picked up by the microphone includes 1) speech and the acoustic background of the far-end played out from the loudspeaker (which we refer to as \"echo\" or \"system echo\" to distinguish it from reverberation below), 2) the near-end talker's speech, and 3) a substantial amount of tbe near-end ambient noise, including speech from unauthorized or unintended talkers. Unlike a handset, which responds primarily to the talker holding the device, the microphone used in hands-free communication receives a multiplicity of sound sources. For most of the current automatic speech recognition Systems designed to respond to a single talker's speecb, this is a major source of degradation in performance. In addition, since the talker and the microphone are not expected to stay at a fixed relative position, the sound quality in the system will certainly vary.\n",
+    "The acoustic signal entering the system is a strong function of the room as well as the type of microphone that the system uses. The room inflicts two essential effects on the acoustic signal, one called colorization and the other reverberation. Colorization refers to the change of short-time spectral shape the room or the microphone causes on the source signal. The effective length of the impulse response of a room is a function of the room configuration (geometric sbape of the room and acoustic reflectivity of the wall). When the impulse response is more than a few tenths of a second long, the reverberation effect becomes noticeably disturbing. Both a human listener and a speech recognizer would react negatively to reverberation.\n",
+    "Another important issue is the support of natural cornrnunication interaction, such as full-duplex, whicb allows both ends to speak at tbe same time without disruption, and barge-in in speech recognition. With bands-free communication, participants expect and are expected to behavc as if a face-to-face conversation is taking place. Thus, interruptions, barge-ins, and even sidebars would occur more frequently than when using a telephone handset. Technical implications due to these behaviors are tbe need for an improved speech activity detector, and a reliable echo canceler to allow full-duplex communication and proper barge-in for natural human-machine interaction. With the recognition accuracy of today's speech recognizers, the integration of an echo canceler into the system for natural interaction is still an interesting challenge. These issues, namely, multiple sound sources, echo and reverberation, and naturalness in interactive behaviors, make hands-free telecommunication one of tbe most intriguing engineering problems in modern days.\n",
+    "Here, we review the progress towards hands-free telecommunication in tbe past two decades, particularly from tbe viewpoint of signal restoration, and to draw new teclinical dimensions, whicb may stimulate addifional advances. We address the issues in terms of tbe noise problem, the duplex problem, tbe colorization problem and tbe reverberation problem. For each problem area, we higblight the significance of key advances and point out new technical directions. We conclude the presentation with a discussion of The natural interaction problem according to our experience in designing a hands-free voice user interface in automobiles.\n",
+    ""
+   ]
+  },
+  "elko01_hsc": {
+   "authors": [
+    [
+     "Gary W.",
+     "Elko"
+    ]
+   ],
+   "title": "Microphone arrays",
+   "original": "hsc1_011",
+   "page_count": 4,
+   "order": 3,
+   "p1": "11",
+   "pn": "14",
+   "abstract": [
+    "The telephone, invented more than 140 years ago, has changed very little with respect to aconstic design in the last 40 years. The most recent technological improvements were the replacement of the carbon microphone with an electret microphone and the development of the speakerphone for hands-free telephony in the early sixties. It might seem quite surprising that in spite of the rapid changes in communication systems: digital switching, digital wireless, packet-based data communications and the like, that very little has changed to the acoustic front-end in telephony systems. For instance, with the general availability of broadband communication networks, why have we not significantly increased the audio commnnication bandwidth? Why don't we see stereo or multichannel in telephony and communication systems? Why don't we see more ubiquitous adoption of voice recognition in consumer products? These are good questions when one ponders the explosion of inexpensive digital signal processing integrated circuits combined with the current bandwidth of communication systems and those that are about to be introduced. Clearly front-end acoustic signal processing will play a large role in addressing these questions.\n",
+    "In our increasingly a mobile society we find that hands-free operation of communication systems is becoming more and more the norm, whether we talk to other humans or to machines. There are significant challenges in enabling high quality speech communication in difficult acoustic environments. Microphone arrays are an enabling technology for hands-free communication since these systems offer directional gain to improve the signal-to-noise ratio. This paper will address some new possibilities as well as outstanding research issues that remain.\n",
+    ""
+   ]
+  },
+  "kellermann01_hsc": {
+   "authors": [
+    [
+     "Walter",
+     "Kellermann"
+    ]
+   ],
+   "title": "Acoustic echo cancellation for natural speech communication at the human-machine interface",
+   "original": "hsc1_015",
+   "page_count": 4,
+   "order": 4,
+   "p1": "15",
+   "pn": "18",
+   "abstract": [
+    "For hands-free, untethered full-duplex speech communication at the human-machine interface, the acoustic feedback from the loudspeaker(s) to the microphone(s) has to be suppressed. Following the analysis of the problem, the basic concept of acoustic echo cancellation is reviewed. Typical adaptation algorithms are discussed and adaptation control as well as computationally efficient filtering schemes are addressed. Moreover, properties and problems of extensions to multi-channel signal acquisition using microphone arrays, and to multi-channel sound reproduction are outlined.\n",
+    ""
+   ]
+  },
+  "zhao01_hsc": {
+   "authors": [
+    [
+     "Yunxin",
+     "Zhao"
+    ]
+   ],
+   "title": "Speech enhancement - issues and recent advances",
+   "original": "hsc1_019",
+   "page_count": 4,
+   "order": 5,
+   "p1": "19",
+   "pn": "22",
+   "abstract": [
+    "In this paper, an overview is first made on speech enhancement, including application scenarios, noise sources, enhancement objectives, evaluation measures, and recent efforts in algorithm development. More detailed discussions are then made on waveform enhancement in additive noise using signal-subspace based methods and speech feature estimation in both additive and convolutive noises. Some of the further needs in this area are also discussed.\n",
+    ""
+   ]
+  },
+  "omologo01_hsc": {
+   "authors": [
+    [
+     "Maurizio",
+     "Omologo"
+    ]
+   ],
+   "title": "Hands-free speech recognition: current activities and future trends",
+   "original": "hsc1_023",
+   "page_count": 4,
+   "order": 6,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "Hands-free interaction represents a key-point for increase of flexibility of present applications and for the development of new speech recognition applications. The purpose of this paper is to report on devices, techniqnes and architectures currently adopted by research laboratories active in this field and to provide some perspectives for what regards the medium and long-term research.\n",
+    ""
+   ]
+  },
+  "lee01_hsc": {
+   "authors": [
+    [
+     "Chin-Hui",
+     "Lee"
+    ]
+   ],
+   "title": "Adaptation and compensation for speech recognition - learning from extra data to improve robustness",
+   "original": "hsc1_027",
+   "page_count": 4,
+   "order": 7,
+   "p1": "27",
+   "pn": "30",
+   "abstract": [
+    "The performance of speech recognition algorithms often degrades drastically when the testing environment is somewhat different from the training conditions. Although many approaches have been proposed to cope with this mismatch problem, learning from extra data collected in operational conditions is always an attractive option if more processing is permitted. Supervised adaptation is the process of learning from an additional set of labeled adaptation data. On the other hand, unsupervised compensation is often referred to as learning from testing data directly. Adaptation and compensation share many similar principles and techniques. We examine some recent advances in this active research area and discuss their applications to improve recognition performance in hands-free communications.\n",
+    ""
+   ]
+  },
+  "junqua01_hsc": {
+   "authors": [
+    [
+     "Jean-Claude",
+     "Junqua"
+    ],
+    [
+     "C.",
+     "Cerisara"
+    ],
+    [
+     "L.",
+     "Rigazio"
+    ],
+    [
+     "D.",
+     "Kryze"
+    ]
+   ],
+   "title": "Environment-adaptive algorithms for robust speech recognition",
+   "original": "hsc1_031",
+   "page_count": 4,
+   "order": 8,
+   "p1": "31",
+   "pn": "34",
+   "abstract": [
+    "After reviewing some desired characteristics of environment-adaptive algorithms, we describe a joint noise and channel adaptation algorithm that has the merit of being computationally efficient. This algorithm, based on a first-order approximation, takes its roots in the Vector Taylor Series (VTS) and Jacobian adaptation methods. Digit recognition experiments for data recorded in a car and simulated channel distortions show that this algorithm is very effective in dealing with both types of mismatch. By applying dimensionality reduction techniques such as Principal Component Analysis (PCA) it is possible to reduce significantly its computational complexity without any decrease in recognition accuracy. When this algorithm is used in combination with a robust front-end based on subband analysis we show tbat, for best performance, the front-end and the environment-adaptive algorithm have to be jointly optimized.\n",
+    ""
+   ]
+  },
+  "mangold01_hsc": {
+   "authors": [
+    [
+     "Helmut A.",
+     "Mangold"
+    ]
+   ],
+   "title": "Realistic hands-free applications - the key for really user-friendly applications",
+   "original": "hsc1_035",
+   "page_count": 4,
+   "order": 9,
+   "p1": "35",
+   "pn": "38",
+   "abstract": [
+    "When speech technology started out from being only a research topic and first trial applications became reality, two buzz-words had been of supreme interest. Speech technology was offered to be the only means for usage in applications in eyes- and hands-busy environments. But reality was quite different. Speech recognition did not work satisfying without usage of special headsets including specific near speaking microphones. So, some first ideas for interesting applications could not be rea1ized. Background noise and room echoes did not allow many interesting applications. Usage of radio microphones became an interesting substitution solution combined with a headset. Especially in professional applications this was acceptable. But for many other applications, especially in the consumer or in the pseudo consumer sector this was not acceptable. Only through new and advantageous methods for cancellation of background noise and room echoes new applications became attractive. Interesting applications will be in the car or in the airplane and in true consumer applications, e.g. in domestic appliances or for aids for handicapped. Besides speech recognition in most applications other technologies are relevant. The dialog aspect will play a growing role and therefore especially in noisy environment speech output will play an important role too. We have to care for high intelligibility in such environment to make really good and efficient applications.\n",
+    ""
+   ]
+  },
+  "gong01_hsc": {
+   "authors": [
+    [
+     "Yifan",
+     "Gong"
+    ]
+   ],
+   "title": "A robust continuous speech recognition system for mobile information devices",
+   "original": "hsc1_039",
+   "page_count": 4,
+   "order": 10,
+   "p1": "39",
+   "pn": "42",
+   "abstract": [
+    "An overview of a robust continnous speech recognition system for mobile information devices is given. To accommodate hardware cost restrictions, personal and mobile usage, and varying acoustic operation conditions, the recognizer requires compact speech modeling, background noise compensation, optional speaker adaptation and reliable speech detection. The presentation gives some experimental results on in-vehicle hands-free speech data.\n",
+    ""
+   ]
+  },
+  "nakamura01_hsc": {
+   "authors": [
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Acoustic sound database collected for hands-free speech recognition and sound scene understanding",
+   "original": "hsc1_043",
+   "page_count": 4,
+   "order": 11,
+   "p1": "43",
+   "pn": "46",
+   "abstract": [
+    "Recently importance of hands-free speech commnnication is increasingly recognized. The sound data for open evaluation is necessary for the studies sllch as sound source localization, sound retrieval, sound recognition and hands-free speech recognition in real acoustic environments. This paper reports on our project aiming the acoustic data collection. There are many kinds of sound scenes in real environments. The sound scene is specified by sound sources and room acoustics. The number of combination of the sound sources, source positions and rooms is huge in real acoustic environments. We assumed that the sound in the environments can be simulated by convolution of the isolated sound sources and impulse responses. As an isolated sound source, a hundred kinds of environment sounds and speech sounds are collected. The impulse responses are collected in various acoustic environments. Additionally we collected sounds from the moving source. In this paper, progress of our sound scene database collection project and application to environment sound recognition and hands-free speech recognition are described.\n",
+    ""
+   ]
+  },
+  "aoki01_hsc": {
+   "authors": [
+    [
+     "Mariko",
+     "Aoki"
+    ],
+    [
+     "Ken'ichi",
+     "Furuya"
+    ],
+    [
+     "Osamu",
+     "Yoshioka"
+    ],
+    [
+     "Yoshikazu",
+     "Yamaguchi"
+    ]
+   ],
+   "title": "Sound source segregation based on estimating incident angle for hands-free speech recognition",
+   "original": "hsc1_047",
+   "page_count": 4,
+   "order": 12,
+   "p1": "47",
+   "pn": "50",
+   "abstract": [
+    "We have developed a method of segregating desired speech from concurrent sounds received by two microphones. This method, called SAFIA, uses two microphones and calculates differences in the amplitude and phase between the channels. These differences are used to select the frequency components of the signal that come from the desired direction and to reconstmct these components as the desired source signal. To clarify the effect of frequency resolution on SAFIA, we analyzed the relationship between the frequency resolution and the power spectrum's cumulative distribution. We found that when the frequency resolution was about 10 to 20 Hz, the speech-signal power was concentrated In specific frequency components. Finally, we demonstrated that SAFIA improves the recognition rate of speech signals interfered with by other speech. By applying SAFIA, the error reduction rates of the male and female voices became 76.1% and 75.0%, respectively.\n",
+    ""
+   ]
+  },
+  "asano01_hsc": {
+   "authors": [
+    [
+     "Futoshi",
+     "Asano"
+    ],
+    [
+     "Shiro",
+     "Ikeda"
+    ],
+    [
+     "Michiaki",
+     "Ogawa"
+    ],
+    [
+     "Hideki",
+     "Asoh"
+    ],
+    [
+     "Nobuhiko",
+     "Kitawaki"
+    ]
+   ],
+   "title": "Blind source separation in reflective sound fields",
+   "original": "hsc1_051",
+   "page_count": 4,
+   "order": 13,
+   "p1": "51",
+   "pn": "54",
+   "abstract": [
+    "In this paper, the effect of room reflection on blind source separation is investigated. The higher order reflection (reverberation) can be reduced in advance of blind separation by using the subspace method. On the other hand, as for the lower order reflection (early reflection), it is shown by experiments that the early reflection has little effect on the separation performance.\n",
+    ""
+   ]
+  },
+  "buchner01_hsc": {
+   "authors": [
+    [
+     "H.",
+     "Buchner"
+    ],
+    [
+     "W.",
+     "Herbordt"
+    ],
+    [
+     "Walter",
+     "Kellermann"
+    ]
+   ],
+   "title": "An efficient combination of multi-channel acoustic echo cancellation with a beamforming microphone array",
+   "original": "hsc1_055",
+   "page_count": 4,
+   "order": 14,
+   "p1": "55",
+   "pn": "58",
+   "abstract": [
+    "For hands-free man-machine audio interfaces with multi-channel sound reproduction and automatic speech recognition (ASR), both a multi-channel acoustic echo canceller (M-C AEC) and a beam-forming microphone array are necessary for sufficient recognition rates. Based on known strategies for combining single-channel AEC and adaptive beamfonning microphone arrays, we discuss special aspects for the extension to multi-channel AEC and propose an efficient system that can be implemented on a regular PC.\n",
+    ""
+   ]
+  },
+  "furuya01_hsc": {
+   "authors": [
+    [
+     "Ken'ichi",
+     "Furuya"
+    ]
+   ],
+   "title": "Noise reduction and dereverberation using correlation matrix based on the multiple-input/output inverse-filteringtheorem (MINT)",
+   "original": "hsc1_059",
+   "page_count": 4,
+   "order": 15,
+   "p1": "59",
+   "pn": "62",
+   "abstract": [
+    "A new MINT-based blind separation and deconvolution technique is developed to provide an alternative means of improving the signal-to-noise ratio and reducing reverberation in speech signals. The multiple-input/output inverse-filtering theorem (MINT) [1] is used to compute the stable and accurate multi-channel inverse filters of room impulse responses that may have non-minimum phases. Because the conventional MINT method uses the room impulse responses to calculate the inverse filters, it cannot recover speech signals in practice, where the room impulse responses are unknown in advance. Our method blindly estimates the inverse by computing the correlation matrix between input signals that can be observed, instead of the room impulse responses. The performance of the proposed method is demonstrated using real impulse responses.\n",
+    ""
+   ]
+  },
+  "kajita01_hsc": {
+   "authors": [
+    [
+     "Shoji",
+     "Kajita"
+    ],
+    [
+     "Yasuhiro",
+     "Shimizu"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "Speech acquisition through space diversity using distributed multi-microphone",
+   "original": "hsc1_063",
+   "page_count": 4,
+   "order": 16,
+   "p1": "63",
+   "pn": "66",
+   "abstract": [
+    "This paper proposes space diversity speech recognition technique using distributed multi-microphone in room, as a new paradigm of speech recognition. The key technology to realize the system is (1) distant-talking speech recognition and (2) the integration method of militiple inputs. In this paper, we propose the use of distant speech model for the distant-talking speech recognition, and feature-based and likelihood-based integration methods for multi-microphone distributed in room. The distant speech model is a set of HMMs learned using speech data convolved with the impulse responses measured at several points in room. The experimental results of simulated distant-talking speech recognition show that the proposed space diversity speech recognition system can attain about 80% in accuracy, while the performances of conventional HMM using close-talking microphone are less than 50%. These results indicate that the space diversity approach is promising for robust speech recognition under the real acoustic environment.\n",
+    ""
+   ]
+  },
+  "kamiyanagida01_hsc": {
+   "authors": [
+    [
+     "Hidekazu",
+     "Kamiyanagida"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Direction of arrival estimation using nonlinear microphone array based on complementary beamforming",
+   "original": "hsc1_067",
+   "page_count": 4,
+   "order": 17,
+   "p1": "67",
+   "pn": "70",
+   "abstract": [
+    "This paper describes a new method for estimating the direction of arrival (DOA) using a nonlinear microphone array based on complementary beamforming. Complementary beamforming is based on two types of beamformers designed to obtain complementary directivity patterns each other. In this system, since the resultant directivity pattern is proportional to the product of these directivity patterns, the proposed method can be used to estimate DOAs even when the number of sound sources is equal to or exceeds that of microphones. First, DOA-estimation experiments are performed using a computer simulation. Results of the experiments show that the proposed method can be used to estimate DOAs with fewer microphones than in the conventional method, especially when the signals are nonstationary, such as speech, and independent of each other. Next, DOA-estimation experiments are performed using actual devices in real acoustic environments. The results clarify that DOA estimation for two speach signals can be accomplished by the proposed method with only two microphones. Also, by comparing the resolutions of DOA estimation by the proposed method and by the conventional minimum variance method, we can show that the performance of the proposed method is superior to that of the conventional method.\n",
+    ""
+   ]
+  },
+  "kawamura01_hsc": {
+   "authors": [
+    [
+     "Toshiya",
+     "Kawamura"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Fast-convergence algorithm for ICA-based blind source separation utilizing array signal processing",
+   "original": "hsc1_071",
+   "page_count": 4,
+   "order": 18,
+   "p1": "71",
+   "pn": "74",
+   "abstract": [
+    "We propose a new algorithm for blind source separation (BSS), in which independent component analysis (ICA) and beamforming are combined to resolve the low-convergence problem through optimization in ICA. The proposed method consists of the following two parts: frequency-domain ICA with direction-of-arrival (DOA) estimation, and null beamforming based on the estimated DOA. The alternation of learning between ICA and beamforning can realize fast- and high-convergence optimization. The results of the signal separation expenments reveal that the signal separation performance of the proposed algorithm is superior to that of the conventional ICA-based BSS method.\n",
+    ""
+   ]
+  },
+  "lee01b_hsc": {
+   "authors": [
+    [
+     "Young Ho",
+     "Lee"
+    ],
+    [
+     "Jang Sik",
+     "Park"
+    ],
+    [
+     "Kyung Sik",
+     "Son"
+    ],
+    [
+     "Chung Ho",
+     "Lee"
+    ]
+   ],
+   "title": "Performance improvement of stereophonic acoustic echo canceller using non-linear pre-processing",
+   "original": "hsc1_075",
+   "page_count": 4,
+   "order": 19,
+   "p1": "79",
+   "pn": "82",
+   "abstract": [
+    "A stereophonic acoustic echo canceller cannot exactly estimate the echo path of the receiving room, because of the cross-correlation betwveen stereo signals. In this paper, the new preprocessing filter is proposed to reduce the cross-correlation between the signals without affecting stereo perception. The procedure is that two signals from the new orthogonal process are linearly decorrelated and the attenuated absolute values of the decorrelated signals are added to each channel input signal. As a result of computer simulation, it is shown that the performance of the proposed stereophonic acoustic echo canceller is better than that of conventional ones.\n",
+    ""
+   ]
+  },
+  "nakazawa01_hsc": {
+   "authors": [
+    [
+     "Tatsuya",
+     "Nakazawa"
+    ],
+    [
+     "Yoshimichi",
+     "Yonezawa"
+    ],
+    [
+     "Kazunori",
+     "Itoh"
+    ],
+    [
+     "Masami",
+     "Hashimoto"
+    ]
+   ],
+   "title": "A high directional sound for hands-free system by focusing parametric array sound",
+   "original": "hsc1_083",
+   "page_count": 4,
+   "order": 20,
+   "p1": "83",
+   "pn": "86",
+   "abstract": [
+    "A high directional virtual speaker using a principle of parametric array and focusing technique was developed. The source seems as if it were in the air and can be virtually set close to a person's ear or in front of a person's face because it does not really exist. These feature can be applied to a hands-free communication tool.\n",
+    ""
+   ]
+  },
+  "park01_hsc": {
+   "authors": [
+    [
+     "Jang Sik",
+     "Park"
+    ],
+    [
+     "Jin Youl",
+     "Lee"
+    ],
+    [
+     "Kyung Sik",
+     "Son"
+    ]
+   ],
+   "title": "Adaptive step-size control using orthogonality principles for acoustic echo cancellation",
+   "original": "hsc1_087",
+   "page_count": 4,
+   "order": 21,
+   "p1": "87",
+   "pn": "90",
+   "abstract": [
+    "This paper presents a new time-varying step-size LMS algorithm for acoustic echo cancellation. The step-size is controlled by the cross-correlation of primary input signals and estimation error signals of adaptive filter. The cross-correlation is estimated by low-pass filtered instantaneous gradient estimate of LMS algorithm. And the step-size is normalized by sum of the input signal and error signal powers. The proposed algorithm has good performance at double-talk situation and faster convergence speed. As results of computer simulations, it is shown that the performance of the proposed algorithm is better than conventional ones.\n",
+    ""
+   ]
+  },
+  "araki01_hsc": {
+   "authors": [
+    [
+     "Shoko",
+     "Araki"
+    ],
+    [
+     "Shoji",
+     "Makino"
+    ],
+    [
+     "Tsuyoki",
+     "Nishikawa"
+    ],
+    [
+     "Hiroshi",
+     "Saruwatari"
+    ]
+   ],
+   "title": "Limitation of frequency domain blind source separation for convolutive mixture of speech",
+   "original": "hsc1_091",
+   "page_count": 4,
+   "order": 22,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "Despite several recent proposals to achieve Blind Source Separation (BSS) for realistic acoustic signal, separation performance is still not enough. In particular, when the length of impulse response is long, performance is highly limited. In this paper, we show it is useless to be constrained by the condition, P « T, where T is the frame size of FFT and P is the length of room impulse response. From our experiments, a frame size of 256 or 512 (32 or 64 ms at a sampling frequency of 8 kHz) is best even for the long room reverberation of TR = 150 and 300 ms. We also clarified the reason for poor performance of BSS in long reverberant environment, finding that separation is achieved chiefly for the sound from the direction of jammer because BSS cannot calculate the inverse of the room transfer function both for the target and jammer signals.\n",
+    ""
+   ]
+  },
+  "cohen01_hsc": {
+   "authors": [
+    [
+     "Israel",
+     "Cohen"
+    ],
+    [
+     "Baruch",
+     "Berdugo"
+    ]
+   ],
+   "title": "Spectral enhancement by tracking speech presence probability in subbands",
+   "original": "hsc1_095",
+   "page_count": 4,
+   "order": 23,
+   "p1": "95",
+   "pn": "98",
+   "abstract": [
+    "n this paper, we introduce a Minima Controlled Recursive Averaging (MCRA) noise estimation approach for robust speech enhancement. The noise spectrum is estimated by recursively averaging past spectral power values, using a smoothing parameter that is adjusted by the signal presence probability in subbands We show that presence of speech in a given frame of a subband can be determined by the ratio between the local energy of the noisy speech and its minimum within a specified time window. The noise estimate is unbiased, computationally efficient, robust with respect to the input signal-to-noise ratio and type of underlying additive noise, and characterized by the ability to quickly follow abrupt changes in the noise spectrum. Incorporated in the Optimally-Modified Log-Spectral Amplitude estimator, excellent noise suppression is achieved, while retaining week speech components and avoiding the musical residual noise phenomena.\n",
+    ""
+   ]
+  },
+  "fischer01_hsc": {
+   "authors": [
+    [
+     "V.",
+     "Fischer"
+    ],
+    [
+     "S. J.",
+     "Kunzmann"
+    ]
+   ],
+   "title": "Bayesian information criterion based multi-style training and likelihood combination for robust hands free speechrecognition in the car",
+   "original": "hsc1_099",
+   "page_count": 4,
+   "order": 24,
+   "p1": "99",
+   "pn": "102",
+   "abstract": [
+    "The paper describes our initial efforts towards noise robust, small resource triphone based acoustic models for speech recognition in the car. For that purpose we employ a multi-style training method and investigate the usefulnes of in-car training data that is affected by noise to different degrees. In doing so, we also investigate the relationship between the acoustic model size and the speaker independent word error rate and demonstrate the benefits of using a Bayesian Information Criterion for the determination of an appropriate number of Gaussian mixture components.\n",
+    "We combine different baseline models and compare traditional recognizer output voting schemes with computationally less expensive feature combination methods. While the former show only small improvements due to the fact that most of the contributing recognizers make the same type of errors, likelihood combination methods achieve a 18 percent relative improvement on real life test data with an average SNR of 5.4 dB.\n",
+    ""
+   ]
+  },
+  "heracleous01_hsc": {
+   "authors": [
+    [
+     "Panikos",
+     "Heracleous"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Multiple sound sources recognition by a microphone array-based 3-D N-best search with likelihood normalization",
+   "original": "hsc1_103",
+   "page_count": 4,
+   "order": 25,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "This paper deals with the hands-free speech recognition and, particularly, with the simultaneous recognition of multiple sound sources. Our method is based on the 3-D Viterbi search, i.e., extended to 3-D N-best search method enabling the recognition of multiple sound sources. The baseline system integrates two existing technologies - 3-D Viterbi search and conventional N-best search - into a complete system. However, the first evaluation of the 3-D N-best search-based system showed, that new ideas are necessary in order to build a system for simultaneous recognition of multiple sound sources. Two factors fonnd to have an important role in the performance of our system, namely the different likelihood ranges of the sound sources and the direction-based separation of the hypotheses. In order to solve these problems we implemented a likelihood normalization and a path distance-based clustering technique into the baseline 3-D N-best search-based system. The performance of our system was evaluated through experiments on simulated data for the case of two talkers. The experiments showed significant improvements by implementing the two techniques described above. The best results were obtained by implementing the two techniques and using a microphone array composed of 32 elements. More specifically, in that case the Word Accuracy for the two talkers was higher than 80 % and the Simultaneous Word Accuracy (both sources are correctly recognized simultaneously) higher than 70 %, which are very promising results.\n",
+    ""
+   ]
+  },
+  "hiyane01_hsc": {
+   "authors": [
+    [
+     "Kazuo",
+     "Hiyane"
+    ],
+    [
+     "Jun",
+     "Iio"
+    ]
+   ],
+   "title": "Non-speech sound recognition with microphone array",
+   "original": "hsc1_107",
+   "page_count": 4,
+   "order": 26,
+   "p1": "107",
+   "pn": "110",
+   "abstract": [
+    "We developed a non-speech sound recognition system with sound source direction estimater. Ten types of single impulsive sounds are recognized at the rate of 80% in a second. A delay-sum beamformer with 16 cbannels microphone array reduces environmental noise by -10 dB and estimates source direction at 10 degree resolution. The system is made on dual pentium PC and the processing is almost realtime. Thousands of non-speech sounds recorded in an anechoic room are gathered into a RWC Database that is open for academic use.\n",
+    ""
+   ]
+  },
+  "jiang01_hsc": {
+   "authors": [
+    [
+     "Hui",
+     "Jiang"
+    ],
+    [
+     "Frank",
+     "Soong"
+    ],
+    [
+     "Chin-Hui",
+     "Lee"
+    ]
+   ],
+   "title": "Hierarchical feature compensation and its application to hands-free ASR",
+   "original": "hsc1_111",
+   "page_count": 4,
+   "order": 27,
+   "p1": "111",
+   "pn": "114",
+   "abstract": [
+    "In this paper, we investigate how to improve the robustness of hands-free speech recognition when only a single or a few test utterances are available for compensation. A new hierarchical tree-based feature transformation is proposed to enhance the conventional stochastic matching in the cepstral feature space. The tree-based hierarchical transformation is estimated from test utterances based on three different criteria: i) maximum likelihood (ML) using the current test utterance; ii) sequential maximum a posterior (MAP) using the current and previous utterances, and iii) structure MAP (SMAP) using current test data. Recognition results obtained using a hands-free database show the proposed feature compensation is robust and significant performance improvement has been observed.\n",
+    ""
+   ]
+  },
+  "matsumoto01_hsc": {
+   "authors": [
+    [
+     "Hiroshi",
+     "Matsumoto"
+    ],
+    [
+     "Yoshihiro",
+     "Ito"
+    ],
+    [
+     "Akihiko",
+     "Shimizu"
+    ],
+    [
+     "Kazumasa",
+     "Yamamoto"
+    ]
+   ],
+   "title": "A generalized dynamic cepstrum for hands-free speech recognition",
+   "original": "hsc1_115",
+   "page_count": 4,
+   "order": 28,
+   "p1": "115",
+   "pn": "118",
+   "abstract": [
+    "This paper examines the effectiveness of a generalized dynamic cepstrum in hands-free speech recognition. The generalized dynamic cepstrum (DyMFGC) is based upon the forward masking on the generalized logarithmic spectrum instead of the log-spectrum, which intends to make robust to additive noise as well as convolutional noise. Digit recognition tests are carried out under a relatively quiet and small size office environment. Under white noise environments, the DyMFGC outperforms the dynamic cepstrum on the logarithmic spectrum and MFCC with cepstral mean normalization, and maintains the word accuracy of 90% to 95% within a 1 m distance from a source. In speech babble noise environments, the performance of the DyMFGC is approximately same as that of the dynamic cepstrum on the logarithmic amplitude scale.\n",
+    ""
+   ]
+  },
+  "nishiura01_hsc": {
+   "authors": [
+    [
+     "Takanobu",
+     "Nishiura"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Robust speech recognition by multiple beamforming with reflection signal equalization",
+   "original": "hsc1_119",
+   "page_count": 4,
+   "order": 29,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "In real environments, room reverberations seriously degrade the quality in sound capture. To solve this problem, J.L. Flanagan et al. proposed multiple beamforning [1], which forms directivity not only in the direction of the desired sound source but also in the direction of the reflection images. However, it is difficult to actually apply this method in real environments, since this application requires that the distortion of reflection sound signals by wall impedances be equalized. To overcome this problem, we propose a new multiple beamforming algorithm that equalizes the amplitude-spectrum and phase-spectrum of reflection signals by a cross-spectrum [2] method. This paper focuses on the ASR (Automatic Speech Recognition) performance of the proposed multiple beamformen Evaluation expenments are conducted in real environments. In an ASR evaluation, we confirm that WRR (Word Recognition Rate) of a multiple beamformer with equalization improves over that of a single beamformer by 4.7% at 2 meters distance and 6.0% at 3 meters distance from the sound source to a microphone array.\n",
+    ""
+   ]
+  },
+  "okuda01_hsc": {
+   "authors": [
+    [
+     "Kozo",
+     "Okuda"
+    ],
+    [
+     "Tomoko",
+     "Matsui"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Acoustic model for robust speech recognition of stressed Japanese speech",
+   "original": "hsc1_123",
+   "page_count": 4,
+   "order": 30,
+   "p1": "123",
+   "pn": "126",
+   "abstract": [
+    "In making an error recovery utterance, the users of a speech recognition system utter more clearly and slowly. In addition, the occurrence of syllable-stressed speech increases in Japanese. This paper investigates a method that is robust in recognizing syllable-stressed speech uttered for error recovery. In syllable-stressed speech, each syllable is uttered slowly and emphasized. The characteristics of each syllable is strongly altered by this modification and thereby the speech recognition performance is reduced. To cope with these problems, we propose a new recognition method. In this paper we propose an acoustic modeling method for recognizing the syllable-stressed speech by combining existing acoustic models. By our method, it is not necessary to collect additional training data. Our results indicate that the proposed method improves performance. Furthermore, the method does not need any expansion of the recognition lexicon or explicit selection of the models.\n",
+    ""
+   ]
+  },
+  "takiguchi01_hsc": {
+   "authors": [
+    [
+     "T.",
+     "Takiguchi"
+    ],
+    [
+     "M.",
+     "Nishimura"
+    ]
+   ],
+   "title": "Integration of HMM composition and a microphone array for overlapping speech recognition",
+   "original": "hsc1_127",
+   "page_count": 4,
+   "order": 31,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "For hands-free speech recognition, it is desirable to acquire a speech signal of the highest quality possible, and to reduce the mismatch between the test utterance and the acoustic model. In this paper, we present a stochastic approach to integrate acoustic model adaptation and signal enhancement using a microphone array. With this method, it is possible to find speaker directions even at low SNRs. The enhanced speech is recognized by using composite HMMs which are able to represent the statistics of the overlapping speech. When the SNR of the target speaker's speech relative to the interfering speech was 0 dB, the composite-speech HMMs improved the recognition rate to 80.4%. Integrating composite HMMs and a microphone array further improved it to 94.2% - a very respectable improvement over the original 23.0% recognition rate for clean HMMs using a single microphone.\n",
+    ""
+   ]
+  },
+  "yamada01_hsc": {
+   "authors": [
+    [
+     "Takeshi",
+     "Yamada"
+    ],
+    [
+     "Narimasa",
+     "Watanabe"
+    ],
+    [
+     "Futoshi",
+     "Asano"
+    ],
+    [
+     "Nobuhiko",
+     "Kitawaki"
+    ]
+   ],
+   "title": "Voice activity detection using non-speech models and HMM composition",
+   "original": "hsc1_131",
+   "page_count": 4,
+   "order": 32,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "To realize a robust voice activity detection (VAD) method in real acoustic environments, this paper proposes a new VAD method using non-speech (environment sound) models and HMM composition. The proposed method predicts the environment sound that overlaps with the speech, then composes the speech model and the model of the predicted environment sound and detects the mixture sound period by using the composed models. In the proposed method, an efficient and reliable search is realized by restricting the number of combinations of the speech model and the environment sound models. To evaluate the performance of the proposed method, experiments were conducted. These results confirmed that the proposed method can effectively detect the mixture sound period.\n",
+    ""
+   ]
+  },
+  "yang01_hsc": {
+   "authors": [
+    [
+     "Chung-Hsien",
+     "Yang"
+    ],
+    [
+     "Jhing-Fa",
+     "Wang"
+    ]
+   ],
+   "title": "A linear estimator based on subspace decomposition using wavelet transform for speech enhancement",
+   "original": "hsc1_135",
+   "page_count": 4,
+   "order": 33,
+   "p1": "135",
+   "pn": "138",
+   "abstract": [
+    "In this paper, we perform the speech enhancement based on approximate Karhunen-Loeve transform. The signal is represented by using wavelet packet based on a basis search algorithm. The eigenvectors is evaluated from these bases. Then a linear estimator based on the eigenvectors is constructed and used to perform noise reduction. We evaluate the performance of this method by using the Aurora-2 database. It consists of connected digit utterances with added various background noises over a range of SNR. The spectrograms of enhanced speech are shown and the SNR improvement is also calculated. The experimental show that this method achieves satisfactory enhancement of speech.\n",
+    ""
+   ]
+  },
+  "yao01_hsc": {
+   "authors": [
+    [
+     "Kaisheng",
+     "Yao"
+    ],
+    [
+     "Kuldip K.",
+     "Paliwal"
+    ],
+    [
+     "Bertram E.",
+     "Shi"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Noise compensation by a sequential Kullback proximal algorithm",
+   "original": "hsc1_139",
+   "page_count": 4,
+   "order": 34,
+   "p1": "139",
+   "pn": "142",
+   "abstract": [
+    "We present sequential parameter estimation in the framework of the Hidden Markov Models. The sequential algorithm is a sequential Kullback proximal algorithm, which chooses the Kullback-Liebler divergence as a penalty function for the maximum likelihood estimation. The scheme is implemented as filters. In contrast to algorithms based on the sequential EM algorithm, the algorithm has faster convergence rate in parameter estimation, and the computational complexity is proportional to the algorithms based on the sequential EM algorithm. In particular, we derive sequential noise parameter estimation for a model-based sequential noise compensation method for nonstationary noise environments. Noise parameter estimation, updating and speech recognition are carried out frame by frame. Simulation results have shown that the derived schemes can have faster convergence rate than the sequential noise compensation based on the sequential EM algorithm.\n",
+    ""
+   ]
+  },
+  "zhao01b_hsc": {
+   "authors": [
+    [
+     "Yunxin",
+     "Zhao"
+    ]
+   ],
+   "title": "Statistical estimation for hands-free speech recognition",
+   "original": "hsc1_143",
+   "page_count": 4,
+   "order": 35,
+   "p1": "143",
+   "pn": "146",
+   "abstract": [
+    "This work reports a cross-condition speech recognition experiment between TIMIT and FFMTIMIT. The TIMIT data were collected by a head-mounted close-talking microphone and was used as training speech for a speaker-independent continuous speech recognition system, and the FFMTIMIT data were collected by a far-field microphone and were used as test speech. The condition mismatch between the two databases consists of both channel distortion and additive noise. A frequency-domain EM algorithm was employed for online identification of channel and noise parameters and for estimation of clean speech features from FFMTIMIT speech. The statistical estimation algorithm have led to a significant performance improvement for the cross-condition recognition task.\n",
+    ""
+   ]
+  },
+  "couvreur01_hsc": {
+   "authors": [
+    [
+     "Laurent",
+     "Couvreur"
+    ],
+    [
+     "Christophe",
+     "Couvreur"
+    ]
+   ],
+   "title": "Robust automatic speech recognition in reverberant environments by model selection",
+   "original": "hsc1_147",
+   "page_count": 4,
+   "order": 36,
+   "p1": "147",
+   "pn": "150",
+   "abstract": [
+    "This paper presents a method for robust automatic speech recognition (ASR) in reverberant environments. Our approach consists in the selection during operation of an acoustic model out of a library of models trained in various reverberaut conditions. The best model is selected by blindly estimating the full-band reverberation time. The estimation procedure is entirely based on the short-term log-energy sequence of the utterance to be recognized. Speech recognition experiments in simulated and real reverberant environments show the efficiency of our approach which outperforms standard channel normalization techniques.\n",
+    ""
+   ]
+  },
+  "hoshino01_hsc": {
+   "authors": [
+    [
+     "H.",
+     "Hoshino"
+    ],
+    [
+     "R.",
+     "Terashima"
+    ],
+    [
+     "T.",
+     "Shimizu"
+    ],
+    [
+     "T.",
+     "Wakita"
+    ]
+   ],
+   "title": "Improvement of noise robustness of speech recognition in car environments using acoustic features of car interior noise",
+   "original": "hsc1_151",
+   "page_count": 4,
+   "order": 37,
+   "p1": "151",
+   "pn": "154",
+   "abstract": [
+    "This paper describes an efficient technique to improve noise robustness of speech recognition in car noisy environments by considering acoustic features of car interior noise. We analyzed the relation between the Articulation Index values and the recognition rates in car environments under\tvarious driving conditions. We clarified that the recognition rate significantly deteriorated when engine noise (periodic sound) components in the frequency range above 200 Hz were large. We developed a preprocessing technique to improve noise robustness under a large amount of engine noise conditions. This is a technique that the cutoff frequency of the front-end high pass filter is adaptively changed from 200 through 400 Hz according to the level of engine noise components. The average recognition rate of eight cars under an accelerating condition was improved by 11.9% by this technique, and the recognition rate of one of these cars was considerably improved by 38.6%.\n",
+    ""
+   ]
+  },
+  "ishizuka01_hsc": {
+   "authors": [
+    [
+     "Kentaro",
+     "Ishizuka"
+    ],
+    [
+     "Kiyoaki",
+     "Aikawa"
+    ]
+   ],
+   "title": "Effect of harmonic structure of noises on noisy vowel perception",
+   "original": "hsc1_155",
+   "page_count": 4,
+   "order": 38,
+   "p1": "155",
+   "pn": "158",
+   "abstract": [
+    "This paper reports new findings on noisy vowel perception experiments designed to obtain a new feature parameter for noise-robust automatic speech recognition. To obtain this new parameter, we analyze the human auditory mechanism. We conducted two experiments to examine the way in which listeners perceive natural vowels under very noisy environmental conditions, namely a signal to noise ratio (SNR) of around -2 dB. First, we used eigbt types of noise; white noise and seven types of harmonic structured noise each with the same flat spectral envelope and energy. Spectral envelopes have been widely used as the feature parameter for automatic speech recognition. However, our experimental results showed that perceptual identification scores differ significantly depending on the detailed spectral shape of the noise. The result suggests that the human auditory system uses sound features that are more detailed than the spectral envelopes to perceive vowels in noisy environments. The difference between noises suggests that the even harmonic components of a vowel contribute less to noisy vowel perception than the odd harmonic components. Furthermore, the result implies that the human auditory system changes dynamically in its use of time/frequency features corresponding to waveform and spectral structure. Second, we used five types of harmonic structured noise each with a fundamental frequency close to that of the vowels. The result suggests that vowel perception is affected depending on each fundamental frequency of the noise and each SNR.\n",
+    ""
+   ]
+  },
+  "kitaoka01_hsc": {
+   "authors": [
+    [
+     "Norihide",
+     "Kitaoka"
+    ],
+    [
+     "Ichiro",
+     "Akahori"
+    ],
+    [
+     "Seiichi",
+     "Nakagawa"
+    ]
+   ],
+   "title": "Speech recognition under noisy environments using spectral subtraction with smoothing of time direction andreal-time cepstral mean normalization",
+   "original": "hsc1_159",
+   "page_count": 4,
+   "order": 39,
+   "p1": "159",
+   "pn": "162",
+   "abstract": [
+    "To reduce the effects of additive noises, spectral subtraction (SS) is often used. SS on the power spectral domain has a problem that the effect of the correlation between speech and noise cannot be removed.\n",
+    "In this paper we propose a spectral subtraction using a smoothing method of time direction to solve this problem. We consider the average of estimated speech power spectra over some frames as the estimated speech power spectrum. We can reduce the effect of correlation between speech and noise with this method. Using shorter frame length makes this method more effective. With these methods, we achieve 14% improvement of recognition rate from the conventional SS in large-vocabulary isolated word recognition test.\n",
+    "We also propose to use the smoothing method in recog- nition with the acoustic models trained using this method in noisy environment. These models improved the recognition rate by over 10% from the original models.\n",
+    "Cepstral mean normalization (CMN) has been used to reduce the convolutional noise caused by the difference of transmission characteristics. The system should wait until the end of utterance to start the recognition when adopting the conventional CMN. We modified the method to estimate compensation parameters from past few utterances for real- time recognition. This method improved the performance of above system under 0dB SNR car noise by approx. 7% recognition rate.\n",
+    ""
+   ]
+  },
+  "nagai01_hsc": {
+   "authors": [
+    [
+     "Takayuki",
+     "Nagai"
+    ],
+    [
+     "Keisuke",
+     "Kondo"
+    ],
+    [
+     "Masahide",
+     "Kaneko"
+    ],
+    [
+     "Akira",
+     "Kurematsu"
+    ]
+   ],
+   "title": "Estimation of speaker's location using 2-D MUSIC and its application to car speech recognition",
+   "original": "hsc1_163",
+   "page_count": 4,
+   "order": 40,
+   "p1": "163",
+   "pn": "166",
+   "abstract": [
+    "This paper proposes a speech recognition and an enhancement system for noisy car environments based on a microphone array. In this system, multiple microphones are arranged in 2-dimentional space, surrounding the interior of a car, and the speaker's location is first estimated by our proposed HE (Harmonic Enhanced) 2-D MUSIC (MUltiple SIgnal Classification). Then, 2-D Delay and Sum (DS) is applied to enhance the target speech. Such pre-processing makes robust speech recognition in noisy car environments possible. In the proposed system, not only a driver, but also a fellow passenger can control car electronics by their voices no matter where they are. This is an advantage of the system as well.\n",
+    "The results of the simulation and the preliminary experiment in a real car condition are presented to confirm the validity of our proposed system.\n",
+    ""
+   ]
+  },
+  "nishiura01b_hsc": {
+   "authors": [
+    [
+     "Takanobu",
+     "Nishiura"
+    ],
+    [
+     "Kazuhiro",
+     "Miki"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Complimentary combination of microphone array and HMM composition for noisy speech recognition",
+   "original": "hsc1_167",
+   "page_count": 4,
+   "order": 41,
+   "p1": "167",
+   "pn": "170",
+   "abstract": [
+    "Distant-talking speech recognition is very important in providing a natural interface for machints like self-moving robots. Distant-talking speech recognition systems must deal with noises and acoustic reverberations in real environments. A microphone array signal processing and model adaptation method are proposed for distant-talking speech recognition in noisy reverberant environments. However, speech sounds captured by a microphone array are distorted by the directional gain patterns of the microphone array and reverberations in the room. Furthermore, model adaptation would give better performance with high SNR. This paper proposes a method to combine microphone array signal processing with model adaptation methods. A speech recognition expenment in a real room showed that the proposed method provides better performance than conventional methods.\n",
+    ""
+   ]
+  },
+  "stahl01_hsc": {
+   "authors": [
+    [
+     "Volker",
+     "Stahl"
+    ],
+    [
+     "Alexander",
+     "Fischer"
+    ],
+    [
+     "Rolf",
+     "Bippus"
+    ]
+   ],
+   "title": "Training a hands-free recognizer with reverberated clean speech and additive noise",
+   "original": "hsc1_171",
+   "page_count": 4,
+   "order": 42,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "Environmental mismatch between training and test conditions is a key problem for robust speech recognition. For hands-free applications acoustic conditions like reverberation and noise are highly dependent of the target domain, therefore the training material should cover a whole range of acoustic environments. Data collections in multiple environments are expensive, hence we investigate methods to synthesize training data by transforming clean speech under certain model assumptions of the target domain. In order to evaluate this approach, time synchronous recordings of 15,000 utterances by 200 speakers with a high quality close talk microphone and an inexpensive distant microphone have been conducted in two living rooms. We compare the performance of a speech recognition system which has been trained under matched conditions on the far microphone signal with one trained on a close talk signal with artificial reverberation and additive noise. The error in the second scenario is 10% relative higher compared to matched training for a natural number string recognition task and 30% higher for a command phrases task. However, if the system would have been trained just on clean speech without transformation, the error rates would be 100% higher for natural numbers and 250% for command phrases.\n",
+    ""
+   ]
+  },
+  "tang01_hsc": {
+   "authors": [
+    [
+     "Jian",
+     "Tang"
+    ],
+    [
+     "Juha",
+     "Häkkinen"
+    ],
+    [
+     "Imre",
+     "Kiss"
+    ]
+   ],
+   "title": "Improved post-processing for noise robust connected digit recognition",
+   "original": "hsc1_175",
+   "page_count": 4,
+   "order": 43,
+   "p1": "175",
+   "pn": "178",
+   "abstract": [
+    "On-line garbage modeling and feature vector normalization have been successfully used to improve the noise robustness of speech recognizers. However, it is known that the balance between insertion and deletion errors is sensitive to changes in the garbage model parameter especially when feature vector normalization is applied. Previously, an SNR-based measure was used in the post-processing stage of a connected digit recognizer to reject additional insertion errors caused by the garbage model parameter change and feature vector normalization. Our objective is to improve the performance of the post-processing stage by incorporating multiple measures, in addition to the SNR, in the decision process. The proposed algorithm uses a linear combination of digit confidence, SNR, and duration. Linear Discriminant Analysis is used to combine the measures in an optimal way. The final rejection decision is made based on a single threshold. An additional advantage of the proposed approach is that new measures can be added incrementally without changing the general framework. Experimental results for German noisy connected digit recognition show that the propbsed approach achieves an average relative string-level error rate reduction of 20% over the previous SNR-based approach.\n",
+    ""
+   ]
+  },
+  "taniguchi01_hsc": {
+   "authors": [
+    [
+     "S.",
+     "Taniguchi"
+    ],
+    [
+     "Y.",
+     "Obuchi"
+    ],
+    [
+     "A.",
+     "Akio"
+    ],
+    [
+     "N.",
+     "Hataoka"
+    ]
+   ],
+   "title": "Novel noise rejection using speechness score based on frame-level confidence measurement",
+   "original": "hsc1_179",
+   "page_count": 4,
+   "order": 44,
+   "p1": "179",
+   "pn": "182",
+   "abstract": [
+    "We define \"speechness\" as the possibility for speech sound in this paper. To separate speech and noise, or non-speech, is one of the important issues for speech recognition applications. We developed a noise rejection algorithm based on novel confidence measurement for speechness. This rejection algorithm is compact enough to implement into embedded systems [1].\n",
+    "We performed the evaluation experiments on 2.5-hour noise data and 3200-isolated-word database. As the evaluation results, a noise rejection ratio was 78%, a recognition rate decreased by only 0.14%. The rejection algorithm needs 2 kbytes memory additionally in our system, and the response time of the speech recognition increased by only 4.4%.\n",
+    ""
+   ]
+  },
+  "yamamoto01_hsc": {
+   "authors": [
+    [
+     "Kazumasa",
+     "Yamamoto"
+    ],
+    [
+     "Seiichi",
+     "Nakagawa"
+    ],
+    [
+     "Hiroshi",
+     "Matsumoto"
+    ]
+   ],
+   "title": "Evaluation of PMC for segmental unit input HMM in various environments",
+   "original": "hsc1_183",
+   "page_count": 4,
+   "order": 45,
+   "p1": "183",
+   "pn": "186",
+   "abstract": [
+    "For robust speech recognition in noisy environments, various methods have been studied. In this paper, we expanded the parallel model combination (PMC) for the segmental unit input HMM to recognize corrupted speech in additive noise and/or reverberant environments. Since Karhunen-Loeve expansion or LDA is used to reduce dimensionality of feature parameters in the segmental unit input HMM, the inverse transformation of segmental statistics to cepstral domain is needed. Then, the technique of original PMC can be used for remaining process. Experimental results showed the PMC for segmental unit input HMM proposed here gives better recognition performance than the original PMC in the additive noise environments. In the reverberant environments, however, the PMC for segment is not so effective.\n",
+    ""
+   ]
+  },
+  "iwano01_hsc": {
+   "authors": [
+    [
+     "Koji",
+     "Iwano"
+    ],
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Bimodal speech recognition using lip movement measured by optical-flow analysis",
+   "original": "hsc1_187",
+   "page_count": 4,
+   "order": 46,
+   "p1": "187",
+   "pn": "190",
+   "abstract": [
+    "This paper proposes bimodal speech recognition using lip movements measured by optical-flow analysis. The optical flow is defined as the distribunon of apparent velocities of bnghtness pattern movements. Since the optical flow can be computed without extracting the speaker's lip contours and location, robust visual features can be obtained on lip movements. Our method calculates two visual features in each frame: variances of horizontal and vertical components of flow velocities. Since these features represent movement of the speaker's mouth, they are especially useful for estimating pause/silence periods in noise-corrupted speech. The visual features are combined with acoustic features in the framework of HMM-based recognition. Phoneme HMMs are trained using the combined features extracted from clean speech data. In recognizing noise-corrupted speech, the observation probability of visual features are weighted. Experiments have been carried out using audio-visual data by 11 male speakers uttering connected digits. The following improvements of word accuracy over the audio-only recognition scheme were achieved by combining visual information only for silence HMM; 5% at SNR=SdB and 12% at SNR=lOdB.\n",
+    ""
+   ]
+  },
+  "janin01_hsc": {
+   "authors": [
+    [
+     "Adam",
+     "Janin"
+    ],
+    [
+     "Nelson",
+     "Morgan"
+    ]
+   ],
+   "title": "SpeechCorder, the portable meeting recorder",
+   "original": "hsc1_191",
+   "page_count": 4,
+   "order": 47,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "SpeechCorder is a project to design, implement, and test a portable speech recognizer. It will be used to retrieve information from roughly transcribed speech recorded during natural meetings. This is an important application domain, but has inherent difficulties far beyond the command-and-control functions that &e beginning to be implemented with speech recognition on portable computers. In addition to the difficnlt acoustic environment presented by natural meetings, the limitations of a portable platform must also be considered. The proposed system uses IRAM, a new chip being developed at the University of California, Berkeley. It is a low-power, vector processor with embedded DRAM. By coding the speech recognition algorithms to take advantage of IRAM, high performance with low power consumption can be achieved. In this paper, we will describe the proposed SpeechCorder system, some of the rese&ch issues and design tradeoffs, and the status of work in progress.\n",
+    ""
+   ]
+  },
+  "kumatani01_hsc": {
+   "authors": [
+    [
+     "Kennichi",
+     "Kumatani"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "An adaptive integration method based on product HMM for bi-modal speech recognition",
+   "original": "hsc1_195",
+   "page_count": 4,
+   "order": 48,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "There have been higher demands recently for Automatic Speech Recognition (ASR) systems able to operate robustly in acoustically noisy environments. This paper proposes a method to effectively integrate audio and visual information in audiovisual (bi-modal) ASR Systems. For such integration, the following issues are important: (1) The synchronization of the audio and visual information, and (2) The optimization of a system in its environment. In (1), the individual feature of the speech and lip movements has the time lag, and has the correlation. Firstly, to address this problem, we introduce an integration method using HMM composition. Secondly, we examine whether the GPD algorithm can adaptively estimate the stream weights. Evaluation experiments show that the proposed ASR system improves the recognition accuracy of Audio only, Visual only and conventional audio-visual ASR systems for noisy speech.\n",
+    ""
+   ]
+  },
+  "murai01_hsc": {
+   "authors": [
+    [
+     "Kazumasa",
+     "Murai"
+    ],
+    [
+     "Kennichi",
+     "Kumatani"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "A robust end point detection by speaker's facial motion",
+   "original": "hsc1_199",
+   "page_count": 4,
+   "order": 49,
+   "p1": "199",
+   "pn": "202",
+   "abstract": [
+    "In this paper, we propose a method to detect the end points of speaking sections (EPD: End Point Detection) by visual information. It is well known that the accuracy of EPD affects speech recognition accuracy. Detecting the speech end points from a noisy audio signal is difficult because the speech is masked by the audio noise. We propose a method for EPD that uses video image of the speaker's facial motion that is not affected by audio noise. Our method locates the skin area by color information and estimates the area that includes the speech organs. Then the end points are detected by the speed and magnitude of image change. The experiment confirms that the proposed method is robust with respect to visual noise. Its detection rate with/without visual noise is 100% while audio (SNR 46 dB) EPD is 99.2%, degrades to 30.1% at SNR 10 dB.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Presentations",
+   "papers": [
+    "itakura01_hsc",
+    "juang01_hsc",
+    "elko01_hsc",
+    "kellermann01_hsc",
+    "zhao01_hsc",
+    "omologo01_hsc",
+    "lee01_hsc",
+    "junqua01_hsc",
+    "mangold01_hsc",
+    "gong01_hsc",
+    "nakamura01_hsc"
+   ]
+  },
+  {
+   "title": "Microphone Array / Echo Canceller",
+   "papers": [
+    "aoki01_hsc",
+    "asano01_hsc",
+    "buchner01_hsc",
+    "furuya01_hsc",
+    "kajita01_hsc",
+    "kamiyanagida01_hsc",
+    "kawamura01_hsc",
+    "lee01b_hsc",
+    "nakazawa01_hsc",
+    "park01_hsc"
+   ]
+  },
+  {
+   "title": "Speech Enhancement / Speech Recognition I",
+   "papers": [
+    "araki01_hsc",
+    "cohen01_hsc",
+    "fischer01_hsc",
+    "heracleous01_hsc",
+    "hiyane01_hsc",
+    "jiang01_hsc",
+    "matsumoto01_hsc",
+    "nishiura01_hsc",
+    "okuda01_hsc",
+    "takiguchi01_hsc",
+    "yamada01_hsc",
+    "yang01_hsc",
+    "yao01_hsc",
+    "zhao01b_hsc"
+   ]
+  },
+  {
+   "title": "Speech Recognition II (Noisy Speech Recognition)",
+   "papers": [
+    "couvreur01_hsc",
+    "hoshino01_hsc",
+    "ishizuka01_hsc",
+    "kitaoka01_hsc",
+    "nagai01_hsc",
+    "nishiura01b_hsc",
+    "stahl01_hsc",
+    "tang01_hsc",
+    "taniguchi01_hsc",
+    "yamamoto01_hsc"
+   ]
+  },
+  {
+   "title": "Multi-Modal Processing / Real Application / Systems and Devices / Corpora and Tools",
+   "papers": [
+    "iwano01_hsc",
+    "janin01_hsc",
+    "kumatani01_hsc",
+    "murai01_hsc"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "series": "",
+ "title": "L3DAS22: Machine Learning for 3D Audio Signal Processing",
+ "location": "Virtual",
+ "startDate": "22/5/2022",
+ "endDate": "27/5/2022",
+ "URL": "https://www.l3das.com/icassp2022",
+ "chair": "Chair: Danilo Comminiello",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "L3DAS",
+ "year": "2022",
+ "name": "l3das_2022",
+ "SIG": "",
+ "title1": "L3DAS22: Machine Learning for 3D Audio Signal Processing",
+ "date": "22-27 May 2022",
+ "booklet": "l3das_2022.pdf",
+ "papers": {
+  "vuong22_l3das": {
+   "authors": [
+    [
+     "Tyler",
+     "Vuong"
+    ],
+    [
+     "Mark",
+     "Lindsey"
+    ],
+    [
+     "Yangyang",
+     "Xia"
+    ],
+    [
+     "Richard",
+     "Stern"
+    ]
+   ],
+   "title": "L3DAS22: Exploring Loss Functions for 3D Speech Enhancement",
+   "original": "01",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "This work explores the effects of different speech enhancement loss functions traditionally used for monophonic signals when applied to the L3DAS22 Challenge 3D Speech Enhancement Task. In addition to baseline time-domain losses, loss functions in the time-frequency and modulation domains are introduced to a common network. These losses are compared by their effect on system performance for the task, and then by their correlation with important speech enhancement metrics, such as word error rate (WER) and short-time objective intelligibility (STOI). Findings show that the Phase-Constrained Magnitude (PCM) loss paired with modulation loss improved performance by 12.1% relative to the L3DAS22 baseline in terms of the challenge's evaluation metric. It was also found that the the modulation distance is consistently more correlated with WER and STOI than other metrics."
+   ],
+   "doi": "10.21437/L3DAS.2022-1"
+  },
+  "bai22_l3das": {
+   "authors": [
+    [
+     "Jisheng",
+     "Bai"
+    ],
+    [
+     "Siwei",
+     "Huang"
+    ],
+    [
+     "Yafei",
+     "Jia"
+    ],
+    [
+     "Mou",
+     "Wang"
+    ],
+    [
+     "Jianfeng",
+     "Chen"
+    ]
+   ],
+   "title": "Cross-Stitch Network Based System for Sound Event Localization and Detection in L3DAS22 Challenge",
+   "original": "02",
+   "page_count": 5,
+   "order": 2,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "Sound event localization and detection (SELD) has great potential importance in daily life. Joint training of SELD can simultaneously share and model the acoustic knowledge of sound event detection and source localization. In this paper, we propose a novel SELD system based on a two-branch cross-stitch neural network. First, the proposed neural network takes 4-channel log-Mel energies and 3-channel intensity vector as two-branch inputs. Then we incorporate the cross-stitch unit and Transformer encoder to share and model the acoustic representations for SELD. Besides, we present a time-domain data augmentation method to effectively improve the performance of SELD. We evaluated the proposed system on the dataset of ICASSP 2022 L3DAS22 Challenge Task 2. Results show that our system outperforms the official baseline system by a large margin. We employ an ensemble of several models and achieve further improvement in the evaluation metrics."
+   ],
+   "doi": "10.21437/L3DAS.2022-2"
+  },
+  "chan22_l3das": {
+   "authors": [
+    [
+     "Teck Kai",
+     "Chan"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ]
+   ],
+   "title": "Cross-Stitch Network with Adaptive Loss Weightage for Sound Event Localization and Detection",
+   "original": "03",
+   "page_count": 5,
+   "order": 3,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "A Sound Event Localization and Detection system is capable of identifying the type and source of an acoustic event in a 3-dimensional space. Typically, such a system is trained using a Multi-Task Learning (MTL) framework, where the loss propagated is a linear combination of individual task losses. However, it has been found that the hard-parameter sharing strategy for an MTL framework can degrade the system performance. In addition, deriving the optimal loss combination can be time-consuming empirically and may not be the best way. This work proposes a cross-stitch network with a novel attention module that improves the feature representations. Further, we propose the use of a loss balancing algorithm to weigh the loss contribution adaptively, thereby eliminating the need to tune the loss weightage empirically. The proposed system is then evaluated on L3DAS22 challenge dataset as a part of our challenge participation and achieves a significant performance improvement of over 20% compared to the state-of-the-art SELDnet. We also note that our system ranked 3rd in the L3DAS22 challenge Task 2 without any data augmentation or external dataset to increase the training samples."
+   ],
+   "doi": "10.21437/L3DAS.2022-3"
+  },
+  "guimaraes22_l3das": {
+   "authors": [
+    [
+     "Heitor R.",
+     "Guimaraes"
+    ],
+    [
+     "Wesley",
+     "Beccaro"
+    ],
+    [
+     "Miguel A.",
+     "Ramirez"
+    ]
+   ],
+   "title": "A Perceptual Loss Based Complex Neural Beamforming for Ambix 3D Speech Enhancement",
+   "original": "04",
+   "page_count": 5,
+   "order": 4,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "This work proposes a novel approach to B-Format AmbiX 3D speech enhancement based on the short-time Fourier transform (STFT) representation. The model is a Fully Complex Convolutional Network (FC2N) that estimates a mask to be applied to the input features. Then, a final layer is responsible for converting the B-format to a monaural representation in which we apply the inverse STFT (ISTFT) operation. For the optimization process, we use a compounded loss function, applied in the time-domain, based on the short-time objective intelligibility (STOI) metric combined with a perceptual loss on top of the wav2vec 2.0 model. The approach is applied on Task 1 of the L3DAS22 challenge, where our model achieves a score of 0.845 in the metric proposed by the challenge, using a subset of the development set as reference."
+   ],
+   "doi": "10.21437/L3DAS.2022-4"
+  }
+ },
+ "sessions": [
+  {
+   "title": "L3DAS22: Machine Learning for 3D Audio Signal Processing",
+   "papers": [
+    "vuong22_l3das",
+    "bai22_l3das",
+    "chan22_l3das",
+    "guimaraes22_l3das"
+   ]
+  }
+ ],
+ "doi": "10.21437/L3DAS.2022"
+}

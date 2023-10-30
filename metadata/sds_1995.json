@@ -1,0 +1,1731 @@
+{
+ "title": "ESCA Workshop on Spoken Dialogue Systems",
+ "location": "Vigsø, Denmark",
+ "startDate": "30/5/1995",
+ "endDate": "2/6/1995",
+ "conf": "SDS",
+ "year": "1995",
+ "name": "sds_1995",
+ "series": "",
+ "SIG": "",
+ "title1": "ESCA Workshop on Spoken Dialogue Systems",
+ "date": "30 May - 2 June 1995",
+ "papers": {
+  "peckham95_sds": {
+   "authors": [
+    [
+     "Jeremy",
+     "Peckham"
+    ]
+   ],
+   "title": "Conversational interaction: breaking the usability barrier",
+   "original": "sds5_001",
+   "page_count": 8,
+   "order": 1,
+   "p1": "1",
+   "pn": "8",
+   "abstract": [
+    "This paper addresses the commercial, technical and user requirements for spoken dialogue technology, particularly in the context of telephony applications, and reviews progress towards the goal of conversational systems. It highlights the key markets which will be served by such technology, and examines how both engineering and human factors problems will need to be overcome before successful public-facing conversational style systems can be deployed. However, the paper offers a positive view of progress to date. Several sophisticated sub-conversational systems have already been deployed, and recent progress is encouraging.\n",
+    ""
+   ]
+  },
+  "furui95_sds": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Prospects for spoken dialogue systems in a multimedia environment",
+   "original": "sds5_009",
+   "page_count": 8,
+   "order": 2,
+   "p1": "9",
+   "pn": "16",
+   "abstract": [
+    "This paper describes prospects of spoken dialogue systems focusing on their integration with a multimedia environment in future application areas and services. It tries to forecast where progress will be achieved in the near future and what applications will become commonplace as a result of the increased capabilities. It also describes the most important research problems to be solved in order to achieve useful systems. The problems for speech synthesis include natural and intelligible voice production, prosody control based on meaning, the control of synthesized voice quality and choice of individual speaking styles, multi-lingual synthesis, choice of application-oriented speaking styles, and synthesis from concepts. The problems for speech recognition include robust recognition against speech variations, adaptation/normalization to variations due to environmental conditions and speakers, automatic knowledge acquisition for acoustic and linguistic modeling, spontaneous speech recognition, and naturalness and ease of human/machine interaction. It is also important to establish evaluation methods for measuring the quality of technology and systems in a multimedia environment.\n",
+    ""
+   ]
+  },
+  "lamel95_sds": {
+   "authors": [
+    [
+     "Lori F.",
+     "Lamel"
+    ],
+    [
+     "S. K.",
+     "Bennacef"
+    ],
+    [
+     "H.",
+     "Bonneau-Maynard"
+    ],
+    [
+     "S.",
+     "Rosset"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Recent developments in spoken language sytems for information retrieval",
+   "original": "sds5_017",
+   "page_count": 4,
+   "order": 3,
+   "p1": "17",
+   "pn": "20",
+   "abstract": [
+    "In this paper we present our recent activities in developing systems for vocal access to a database information retrieval system, for three applications in a travel domain: L'Atis, Mask and RailTel. The aim of this work is to use spoken language to provide a user-friendly interface with the computer. The spoken language system integrates a speech recognizer (based on HMM with statistical language models), a natural language understanding component (based on a caseframe semantic analyzer and including a dialog manager) and an information retrieval and response generation component. We present the development status of prototype spoken language systems for L'Atis and Mask being used for data collection.\n",
+    ""
+   ]
+  },
+  "kawahara95_sds": {
+   "authors": [
+    [
+     "Tatsuya",
+     "Kawahara"
+    ],
+    [
+     "Masahiro",
+     "Araki"
+    ],
+    [
+     "Shuji",
+     "Doshita"
+    ]
+   ],
+   "title": "Comparison of parsing and spotting approaches for spoken dialogue understanding",
+   "original": "sds5_021",
+   "page_count": 4,
+   "order": 4,
+   "p1": "21",
+   "pn": "24",
+   "abstract": [
+    "Several parsing and spotting approaches for spoken dialogue understanding are compared and evaluated. First, we address the optimal strategies for both LR parsing and spotting. Here, a novel phrase spotting approach based on progressive search is proposed for robust understanding. The experimental results show that (1) sentence-level parsing is most powerful but not robust, (2) phrase spotting approach is robust against ill-formed utterances, (3) simple word bigram and word spotting get good word accuracy but do not lead to sentence-level understanding. Furthermore, we explore a hybrid approach where the sentence-level parsing is tried and, if it fails, the phrase spotting is performed.\n",
+    ""
+   ]
+  },
+  "hidano95_sds": {
+   "authors": [
+    [
+     "Masaru",
+     "Hidano"
+    ],
+    [
+     "Toshihiko",
+     "Itoh"
+    ],
+    [
+     "Mikio",
+     "Yamamoto"
+    ],
+    [
+     "Seiichi",
+     "Nakagawa"
+    ]
+   ],
+   "title": "Spontaneous speech understanding for a dialogue system",
+   "original": "sds5_025",
+   "page_count": 4,
+   "order": 5,
+   "p1": "25",
+   "pn": "28",
+   "abstract": [
+    "In this paper, we describe the spoken dialogue system that can understand spontaneous speech. It is difficult to recognize spontaneous speech, that is, misrecognition often occurs, because spontaneous speech has many ambiguous phenomena such as interjections, ellipses, inversions, repairs and so on. Also, a recognizer may output the sentence that human being never speaks. Therefore, the interpretation part that receives recognized sentences must cope not only with spontaneous sentences but also with illegal sentences having recognition errors. We developed the robust interpretation method that used some heuristics for understanding spontaneous or misrecognized sentences.\n",
+    ""
+   ]
+  },
+  "young95_sds": {
+   "authors": [
+    [
+     "Sheryl R.",
+     "Young"
+    ],
+    [
+     "Wayne H.",
+     "Ward"
+    ]
+   ],
+   "title": "The role of higher-level semantic, pragmatic and discourse knowledge in recognizing and understanding new spoken words and phrases",
+   "original": "sds5_029",
+   "page_count": 4,
+   "order": 6,
+   "p1": "29",
+   "pn": "32",
+   "abstract": [
+    "This paper overviews and reports current progress on a research project that develops methods that enable spoken language systems to automatically extend themselves to incorporate new words. The system attempts to detect out-of-vocabulary words in spoken dialogs using multiple stochastic and symbolic knowledge sources. It combines acoustic confidence measures with the semantic, pragmatic and discourse structure knowledge embodied in the MINDS-II system. The results indicate that the conjoined usage of acoustic confidence measures of accuracy and higher-level constraints increased ability to detect misrecognitions by 36% and enabled the larger system to overcomes the weaknesses of the individual techniques. The techniques detect complementary phenomena. Current work focuses upon development of more sophisticated techniques for conjoining these two methods and techniques to use acoustic confidence measures during decoding.\n",
+    ""
+   ]
+  },
+  "reithinger95_sds": {
+   "authors": [
+    [
+     "Norbert",
+     "Reithinger"
+    ],
+    [
+     "Elisabeth",
+     "Maier"
+    ],
+    [
+     "Jan",
+     "Alexandersson"
+    ]
+   ],
+   "title": "Treatment of incomplete dialogues in a speech-to-speech translation system",
+   "original": "sds5_033",
+   "page_count": 4,
+   "order": 7,
+   "p1": "33",
+   "pn": "36",
+   "abstract": [
+    "For the speech-to-speech translation system VERB-MOBIL the dialogue component has the task of providing contextual information for other verbmobil subcomponents and to follow the flow of the dialogue. Since verbmobil operates on demand, only parts of the dialogue are processed using syntactic and semantic knowledge. Therefore, robustness with respect to incomplete structures is a basic requirement. We show the performance of the statistic prediction module and the planning module under such conditions.\n",
+    ""
+   ]
+  },
+  "taleb95_sds": {
+   "authors": [
+    [
+     "Latifa",
+     "Taleb"
+    ],
+    [
+     "Daniel",
+     "Luzzati"
+    ]
+   ],
+   "title": "Finalized spoken dialogue modelling based on communication failure",
+   "original": "sds5_037",
+   "page_count": 4,
+   "order": 8,
+   "p1": "37",
+   "pn": "40",
+   "abstract": [
+    "Finalized Human-Computer Dialogue loses its efficiency when the system cannot give the relevant and expected answer. Then the real dialogue begins. The aim of dialogue is to reach a successful conclusion. But the real problem is to manage the misunderstanding and not the understanding. The aim of this study is to provide the system with means to recover communication failures. So we collected all the linguistic forms of failures and the strategies to avoid communication failures in our corpus. We attempt to propose a formalization of them. The corpus we worked on was gathered for the ESPRIT 3 European project called \"INTUITIVE\" (INTeractive Users Interface and Tools for Information in a Visual Environment) whose objective is the design and implementation of a multimodal query system including speech as input regarding the maritime domain. The INTUITIVE maritime demonstrator is intended to be a system enabling the commanding crew of a ship faced with a critical situation to access relevant information. The corpus analysed below consists of 13 oral dialogues between ship-masters, who will be the future users of the system, and an experimenter who provides the information they need to perform a task (extinguish a fire).\n",
+    ""
+   ]
+  },
+  "iwadera95_sds": {
+   "authors": [
+    [
+     "Toshiaki",
+     "Iwadera"
+    ],
+    [
+     "Masato",
+     "Ishizaki"
+    ],
+    [
+     "Tsuyoshi",
+     "Morimoto"
+    ]
+   ],
+   "title": "Recognizing an interactional structure and topics of task-oriented dialogues",
+   "original": "sds5_041",
+   "page_count": 4,
+   "order": 9,
+   "p1": "41",
+   "pn": "44",
+   "abstract": [
+    "This paper proposes an incremental algorithm to recognize the interactional structure of task-oriented dialogues. The correctness of the algorithm is shown in the results of its application to dialogues in a \"travel\" domain. The algorithm consists of two major steps: (1) labeling a surface speech act to each utterance, and (2) constructing the dialogue's structure similar to that proposed by Discourse Analysis. We have proposed a structure independently from that by Discourse Analysis. We also propose an algorithm to recognize the topics and their transitions in a dialogue by using the proposed structure and a \"topic duration\" hypothesis. Because the labels used for building the structure are domain-independent, the algorithm is robust and efficient.\n",
+    ""
+   ]
+  },
+  "bird95_sds": {
+   "authors": [
+    [
+     "Stuart",
+     "Bird"
+    ],
+    [
+     "Sue",
+     "Browning"
+    ],
+    [
+     "Roger",
+     "Moore"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ]
+   ],
+   "title": "Dialogue move recognition using topic spotting techniques",
+   "original": "sds5_045",
+   "page_count": 4,
+   "order": 10,
+   "p1": "45",
+   "pn": "48",
+   "abstract": [
+    "This paper presents some initial results of a data-driven approach to dialogue modeling based on techniques which have proved successful in speech topic spotting. The basic theory and its relationship with other approaches will be described. Results of experiments in which these methods are compared when applied to the problem of recognizing dialogue moves in the Map Task Corpus[4] will be presented.\n",
+    ""
+   ]
+  },
+  "trancoso95_sds": {
+   "authors": [
+    [
+     "Isabel",
+     "Trancoso"
+    ],
+    [
+     "Carlos",
+     "Ribeiro"
+    ],
+    [
+     "Ricardo",
+     "Rodrigues"
+    ],
+    [
+     "Miguel",
+     "Rosa"
+    ]
+   ],
+   "title": "Issues in speech recognition applied to directory listing retrieval",
+   "original": "sds5_049",
+   "page_count": 4,
+   "order": 11,
+   "p1": "49",
+   "pn": "52",
+   "abstract": [
+    "This paper addresses several issues relevant to the application of speech recognition to directory listing retrieval: the very large dimension of the vocabulary, the confusability between vocabulary words and the powerful syntactic models implicit in full names. These issues will be addressed using as a case study the automation of the directory assistance of the two largest cities in Portugal.\n",
+    ""
+   ]
+  },
+  "lewin95_sds": {
+   "authors": [
+    [
+     "I.",
+     "Lewin"
+    ],
+    [
+     "S. G.",
+     "Pulman"
+    ]
+   ],
+   "title": "Inference in the resolution of ellipsis",
+   "original": "sds5_053",
+   "page_count": 4,
+   "order": 12,
+   "p1": "53",
+   "pn": "56",
+   "abstract": [
+    "We discuss the treatment of ellipsis in a spoken language route planning enquiry service which uses the Core Language Engine (CLE) as its linguistic processor. We show how use of the CLE allows us to separate the interpretation of ellipsis in a dialogue context from the more general issue of dialogue management in a dialogue context and, especially, to factor out the linguistic influences on such interpretation and place them where they belong - in the linguistic processor. The route planning application was developed with a Wizard of Oz corpus to help guide it and we discuss the application of the CLE to some particularly interesting and potentially troublesome data from that corpus.\n",
+    ""
+   ]
+  },
+  "hanrieder95_sds": {
+   "authors": [
+    [
+     "Gerhard",
+     "Hanrieder"
+    ],
+    [
+     "Günther",
+     "Görz"
+    ]
+   ],
+   "title": "Robust parsing of spoken dialogue using contextual knowledge and recognition probabilities",
+   "original": "sds5_057",
+   "page_count": 4,
+   "order": 13,
+   "p1": "57",
+   "pn": "60",
+   "abstract": [
+    "In this paper we describe the linguistic processor of a spoken dialogue system. The parser receives a word graph from the recognition module as its input. Its task is to find the best path through the graph. If no complete solution can be found, a robust mechanism for selecting multiple partial results is applied. We show how the information content rate of the results can be improved if the selection is based on an integrated quality score combining word recognition scores and context-dependent semantic predictions. Results of parsing word graphs with and without predictions are reported.\n",
+    ""
+   ]
+  },
+  "bellalem95_sds": {
+   "authors": [
+    [
+     "Nadia",
+     "Bellalem"
+    ],
+    [
+     "Laurent",
+     "Romary"
+    ],
+    [
+     "Daniel",
+     "Schang"
+    ]
+   ],
+   "title": "Which representation for a proper treatment of referring expressions in a man-machine multimodal dialogue",
+   "original": "sds5_061",
+   "page_count": 4,
+   "order": 14,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "This paper aims at illustrating the notion of reference context which seems to be essential for any general view of reference to a spatial environment wether this is done in a demonstrative (i.e. NL+gesture) or direct way. After a brief description of the task structure and the perceptive representation which may be needed for the interpretation of the corresponding expressions, we validate the computation of spatial and gestural expressions on several examples in the context of a specific application.\n",
+    ""
+   ]
+  },
+  "pepelnjak95_sds": {
+   "authors": [
+    [
+     "K.",
+     "Pepelnjak"
+    ],
+    [
+     "Jerneja",
+     "Gros"
+    ],
+    [
+     "F.",
+     "Mihelic"
+    ],
+    [
+     "N.",
+     "Pavesic"
+    ]
+   ],
+   "title": "Linguistic analysis in a slovenian information retrieval system for flight services",
+   "original": "sds5_065",
+   "page_count": 4,
+   "order": 15,
+   "p1": "65",
+   "pn": "68",
+   "abstract": [
+    "The paper describes the linguistic analysis of a recognised word hypothesis lattice, as implemented in an information dialogue system, capable of recognising and understanding Slovenian speech. The paper focuses on the semantic decomposition of a recognised word sequence. The interface between the speech recognition part and the linguistic analysis part of the system is given by a sentence hypothesisation module, acting as a linguistic pre-processor.\n",
+    ""
+   ]
+  },
+  "fais95_sds": {
+   "authors": [
+    [
+     "Laurel",
+     "Fais"
+    ],
+    [
+     "Kyung-ho",
+     "Loken-Kim"
+    ]
+   ],
+   "title": "Lexical accommodation in human-interpreted and machine-interpreted dual language interactions",
+   "original": "sds5_069",
+   "page_count": 4,
+   "order": 16,
+   "p1": "69",
+   "pn": "72",
+   "abstract": [
+    "This paper examines the lexical accommodation rates in human to human and interpreted cooperative dialogues in unimodal and multimodal communication settings. Lexical accommodation rates increase significantly from human/human to machine-interpreted to human-interpreted conditions. Implications are drawn for standard interpretations of accommodation as well as for the effects of multimedia use and the design of automatic language processing systems.\n",
+    ""
+   ]
+  },
+  "wakita95_sds": {
+   "authors": [
+    [
+     "Yumi",
+     "Wakita"
+    ],
+    [
+     "Harald",
+     "Singer"
+    ],
+    [
+     "Yoshinori",
+     "Sagisaka"
+    ]
+   ],
+   "title": "Phoneme candidate re-entry modeling using recognition error characteristics over multiple HMM states",
+   "original": "sds5_073",
+   "page_count": 4,
+   "order": 17,
+   "p1": "73",
+   "pn": "76",
+   "abstract": [
+    "In this paper, phoneme candidate re-entry modeling is proposed to add the correct phoneme sub sequences which are not included in the list of N-best candidates. In this modeling, new phoneme sequences are added to the N-best candidates using recognition error characteristics over multiple HMM states. As a result of our experiments, we confirmed that the proposed modeling is effective for recovering phoneme recognition errors more efficiently than N-best method alone. In addition, conventional speaker adaptation (SA) method is effective to improve the reliability of the error characteristics, and the combination of speaker adaptation with re-entry modeling further improved performance.\n",
+    ""
+   ]
+  },
+  "cettolo95_sds": {
+   "authors": [
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Anna",
+     "Corazza"
+    ],
+    [
+     "Renato De",
+     "Mori"
+    ]
+   ],
+   "title": "Automatic learning of sentence dependencies in spoken dialogues",
+   "original": "sds5_077",
+   "page_count": 4,
+   "order": 18,
+   "p1": "77",
+   "pn": "80",
+   "abstract": [
+    "This paper describes a strategy followed by the dialogue manager of a database inquiry system to assess the reliability of input utterances. For this purpose, binary classification trees are used, in such a way that the assessment capability can be automatically learnt from samples. As a starting point, training of such trees for classification of ATIS-3 sentences in terms of A, D, and X classes was done; experimental results show that this assessment technique can be effectively exploited and integrated into the dialogue manager under development.\n",
+    ""
+   ]
+  },
+  "bertenstam95_sds": {
+   "authors": [
+    [
+     "Johan",
+     "Bertenstam"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Mats",
+     "Blomberg"
+    ],
+    [
+     "Rolf",
+     "Carlson"
+    ],
+    [
+     "Kjell",
+     "Elenius"
+    ],
+    [
+     "Björn",
+     "Granström"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ],
+    [
+     "Sheri",
+     "Hunnicutt"
+    ],
+    [
+     "Jesper",
+     "Högberg"
+    ],
+    [
+     "Roger",
+     "Lindell"
+    ],
+    [
+     "Lennart",
+     "Neovius"
+    ],
+    [
+     "Lennart",
+     "Nord"
+    ],
+    [
+     "Antonio de",
+     "Serpa-Leitao"
+    ],
+    [
+     "Nikko",
+     "Ström"
+    ]
+   ],
+   "title": "The waxholm system - a progress report",
+   "original": "sds5_081",
+   "page_count": 4,
+   "order": 19,
+   "p1": "81",
+   "pn": "84",
+   "abstract": [
+    "This paper describes ongoing development work on the spoken dialogue system, WAXHOLM, providing information on boat traffic in the Stockholm archipelago. The dialogue control and the natural language parser are implemented in an integrated, knowledge-based probabilistic language model. The recognition process is based on neural nets, A* lexical search, and a candidate reordering module. Speech synthesis for spoken response has been enhanced by the display of a synthetic, animated face. Application-specific data have been collected with the help of Wizard-of-Oz techniques.\n",
+    ""
+   ]
+  },
+  "pieraccini95_sds": {
+   "authors": [
+    [
+     "Roberto",
+     "Pieraccini"
+    ],
+    [
+     "Esther",
+     "Levin"
+    ]
+   ],
+   "title": "A spontaneous-speech understanding system for database query applications",
+   "original": "sds5_085",
+   "page_count": 4,
+   "order": 20,
+   "p1": "85",
+   "pn": "88",
+   "abstract": [
+    "In 1991 we proposed a new approach to the problem of speech understanding. The approach was called CHRONUS (Conceptual Hidden Representation Of Natural Unconstrained Speech) and was based on a stochastic representation of meaning and language. Only at the end of 1994 could we prove that a speech understanding system based on CHRONUS can be developed by a small team in a short time and still outperform traditional systems that required years of tuning. In this paper we will explain how CHRONUS allowed us to achieve two important goals: to score as the best natural language system at the 1994 ARPA ATIS evaluation and to start a new general framework for approaching the problem of language understanding.\n",
+    ""
+   ]
+  },
+  "baekgaard95_sds": {
+   "authors": [
+    [
+     "Anders",
+     "Baekgaard"
+    ],
+    [
+     "Niels Ole",
+     "Bernsen"
+    ],
+    [
+     "T.",
+     "Brøndsted"
+    ],
+    [
+     "Paul",
+     "Dalsgaard"
+    ],
+    [
+     "Hans",
+     "Dybkjær"
+    ],
+    [
+     "Laila",
+     "Dybkjær"
+    ],
+    [
+     "J.",
+     "Kristiansen"
+    ],
+    [
+     "Lars Bo",
+     "Larsen"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ],
+    [
+     "B.",
+     "Maegaard"
+    ],
+    [
+     "B.",
+     "Music"
+    ],
+    [
+     "L.",
+     "Offersgaard"
+    ],
+    [
+     "C.",
+     "Povlsen"
+    ]
+   ],
+   "title": "The danish spoken language dialogue project - a general overview",
+   "original": "sds5_089",
+   "page_count": 4,
+   "order": 21,
+   "p1": "89",
+   "pn": "92",
+   "abstract": [
+    "This paper describes work being performed on a national Danish collaborative project. The project aims at establishing prototype demonstrators which integrate results from interdisciplinary research covering spoken language processing, natural language parsing and human-computer interfacing and dialogue engineering. The prototype demonstrator being established handles the task of booking domestic flight tickets. The prototype is built on the basis of a platform for dialogue design, specification and management during execution. The platform enables easy interfacing to a number of input and output devices and one or more applications. System input is from a continuous speech recogniser connected via a telephone interface, output is created by the concatenation of samples of prerecorded speech, and the applicational information - e.g. availability of the tickets - is stored in a database. To prepare the prototype, the user-application interactions have been analysed in a set of Wizard-of-Oz (WOZ) tests. These have resulted in an initial dialogue model for the given application which is mainly system controlled. A dedicated natural language parser has been established to parse input from the speech recogniser and a domain sublanguage model has been implemented in the format of a set of Augmented Phrase Structure Grammars (APSG's). The present prototype can execute on a PC running the Linux operating system and on a SUN workstation running Solaris. In the next prototype generation focus is given to extended services within the ticket reservation system together with more natural human-computer interaction via mixed initiative dialogues.\n",
+    ""
+   ]
+  },
+  "dybkjr95_sds": {
+   "authors": [
+    [
+     "Laila",
+     "Dybkjær"
+    ],
+    [
+     "Niels Ole",
+     "Bernsen"
+    ],
+    [
+     "Hans",
+     "Dybkjær"
+    ]
+   ],
+   "title": "Scenario design for spoken language dialogue systems development",
+   "original": "sds5_093",
+   "page_count": 4,
+   "order": 22,
+   "p1": "93",
+   "pn": "96",
+   "abstract": [
+    "Adequate data acquired through the Wizard of Oz experimental prototyping method are still crucial to the cost-effective development of advanced spoken language dialogue systems. One important source of data corruption is the unintended priming of subjects through the task scenario representations used in the experiments. The paper presents the three sets of development and test scenario representations which were used in the Danish Dialogue project. Based on the third set of scenarios an experiment was conducted to investigate the effects of a masking strategy which effectively avoids the possibility of priming the WOZ subjects. The experimental results are presented and discussed.\n",
+    ""
+   ]
+  },
+  "mellor95_sds": {
+   "authors": [
+    [
+     "Brian",
+     "Mellor"
+    ],
+    [
+     "Cian",
+     "O'Connor"
+    ]
+   ],
+   "title": "User adaptation to voice input interfaces",
+   "original": "sds5_097",
+   "page_count": 4,
+   "order": 23,
+   "p1": "97",
+   "pn": "100",
+   "abstract": [
+    "The results are reported of an investigation into the degree of automatic speech recogniser performance improvement due to adaptation of the user (rather than the recogniser). The performance improvement was observed while test subjects carried out the task of dictating British car number plates displayed on a personal computer screen using a connected word, real time speech recogniser. A feedback display was provided. The results have shown an average 32% reduction in word error rate as average performance increased from 73% to 86% word accuracy. There is some evidence that the magnitude of this increase depends on the speaker's prior experience of speech input systems; the greater the experience, the less the increase. Prior experience did not, however, affect the final recognition performance. In conjunction with this experiment, an investigation of multi-device input was carried out to compare the voice input system with a keyboard input system for the same task. An additional input mode was added to provide control over the number plate display speed. The function was controllable via the keyboard for speech input of data and by oral commands for keyboard input of data. It was found that the keyboard entry of data was more accurate and slightly quicker than speech input for the practised user, though slower for the naive user. Questioning of the subjects showed that speech input with keyboard control of the display speed was preferred. This preference was independent of the speech recognition and typing performance of the subjects.\n",
+    ""
+   ]
+  },
+  "chapelier95_sds": {
+   "authors": [
+    [
+     "Laurent",
+     "Chapelier"
+    ],
+    [
+     "Christine",
+     "Fay-Varnier"
+    ],
+    [
+     "Azim",
+     "Roussanaly"
+    ]
+   ],
+   "title": "Modelling an intelligent help system from a wizard of oz experiment",
+   "original": "sds5_101",
+   "page_count": 4,
+   "order": 24,
+   "p1": "101",
+   "pn": "104",
+   "abstract": [
+    "The subject of this article is our work on the assistance dialogue system in an intelligent multimodal interface. We present our results on the modelling of the dialogue, and on the definition of the assistance system architecture based on the concept of multiagent. For this, we started from the study of a corpus of multimodal interactions obtained from an experiment based on the paradigm of the Wizard of Oz. This corpus, centred on user assistance, brings to light various types of help allowing that enable the user to complete specified task. This types have been specified and classified. We have modelled this processing using a multiagent architecture of the assistance system that is presented in the last part of this article.\n",
+    ""
+   ]
+  },
+  "baekgaard95b_sds": {
+   "authors": [
+    [
+     "Anders",
+     "Baekgaard"
+    ]
+   ],
+   "title": "A platform for spoken dialogue systems",
+   "original": "sds5_105",
+   "page_count": 4,
+   "order": 25,
+   "p1": "105",
+   "pn": "108",
+   "abstract": [
+    "This paper describes a platform for spoken dialogue systems that during the last few years have been developed mainly at CPK. The aim of the platform is to establish an experimental environment for research in dialogue modelling, dialogue management and speech recognition, and to provide a generic dialogue system on top of which prototype applications can easily be built and assessed. The platform consists of a number of modules that constitute the core functionality of a dialogue system, and it provides a formalism (description language) for describing dialogues. Several prototype dialogue systems have been built using the platform. This demonstrates the usability of the platform.\n",
+    ""
+   ]
+  },
+  "ball95_sds": {
+   "authors": [
+    [
+     "J. Eugene",
+     "Ball"
+    ],
+    [
+     "Daniel T.",
+     "Ling"
+    ]
+   ],
+   "title": "Spoken language processing in the persona conversational assistant",
+   "original": "sds5_109",
+   "page_count": 4,
+   "order": 26,
+   "p1": "109",
+   "pn": "112",
+   "abstract": [
+    "The Persona system integrates speech recognition, natural language understanding, animation and speech synthesis to create a conversational assistant that interacts with the user in a spoken dialogue. A key goal of the system is to allow users maximum flexibility to express their requests in whatever syntax they find most natural. Therefore, we have chosen to base the interface on a broad-coverage natural language processing system, even though the assistant currently understands requests in only a very limited domain. This paper describes the integration of natural language processing into Persona, indicates why we believe our approach can be extended to new application domains, and argues that the use of a general purpose natural language understanding system is a better strategy for conversational interfaces than the creation of specialized application languages.\n",
+    ""
+   ]
+  },
+  "whittaker95_sds": {
+   "authors": [
+    [
+     "Steve",
+     "Whittaker"
+    ],
+    [
+     "David",
+     "Attwater"
+    ]
+   ],
+   "title": "Advanced speech applications - the integration of speech technology into complex services",
+   "original": "sds5_113",
+   "page_count": 4,
+   "order": 27,
+   "p1": "113",
+   "pn": "116",
+   "abstract": [
+    "Developments in advanced speech technology such as large vocabulary speech recognition and high quality Text-To-Speech now enable a new generation of services operating over the telephone network. These range from what have been regarded as Telco applications such as call handling and the automation of operator services, to customer handling and information retrieval applications which can offer commercial opportunities for major companies.\n",
+    "Typically, such applications require the integration of speech technology with existing databases, IT processes and call-centre capabilities. In addition, they can vary in scale from small bespoke systems to large applications which can significantly alter the way in which the customers interact with providers of information, goods and services.\n",
+    "The size, complexity and wide user base of many of these applications provide a challenge to the use of speech technology, both in the integration of pattern matching and information retrieval, and in the design of effective and acceptable user interfaces.\n",
+    "This paper discusses some of the key technical aspects and challenges of this technology and the approaches which may be used to enable this new generation of applications. It describes recent developments in the integration of advanced speech technology into applications such as directory searching and callcentre automation. Two systems and the results of field trials are described.\n",
+    ""
+   ]
+  },
+  "mellor95b_sds": {
+   "authors": [
+    [
+     "Brian",
+     "Mellor"
+    ],
+    [
+     "Mike",
+     "Tomlinson"
+    ],
+    [
+     "Nick",
+     "Coleman"
+    ]
+   ],
+   "title": "The generic user interface design environment (GUIDE) - overview and features",
+   "original": "sds5_117",
+   "page_count": 4,
+   "order": 28,
+   "p1": "117",
+   "pn": "120",
+   "abstract": [
+    "The successful exploitation of speech technology will most likely take place in applications where it is closely integrated with other input and output modalities. To aid the rapid development and assessment of such multi-input and output device systems, the Speech Research Unit (SRU) at the Defence Research Agency has developed a 'Generic User Interface Design Environment' (GUIDE).\n",
+    "GUIDE is intended to be used in a 'breadboard' fashion, in which various input and output devices are associated with given functions via a core dialogue management system using pre-defined software routines. The highly modular routines are intended to allow system development by interface designers rather than hardware experts. GUIDE is coded in the Visual Basic language running on IBM compatible personal computers (PCs) in the Microsoft Windows environment. Communications between the software modules is achieved through use of the Windows API.\n",
+    "This paper provides an overview of the structure of GUIDE and details two examples of its use in a human factors experiment and in developing a natural language understanding interface to a route planning application.\n",
+    ""
+   ]
+  },
+  "aust95_sds": {
+   "authors": [
+    [
+     "Harald",
+     "Aust"
+    ],
+    [
+     "Martin",
+     "Oerder"
+    ]
+   ],
+   "title": "Dialogue control in automatic inquiry systems",
+   "original": "sds5_121",
+   "page_count": 4,
+   "order": 29,
+   "p1": "121",
+   "pn": "124",
+   "abstract": [
+    "In a flexible, natural-language inquiry system, the dialogue between a caller and the machine can be complex and extensive. Therefore, traditional means for modeling the dialogue flow explicitly would result in very complicated and lengthy descriptions that would not be manageable anymore.\n",
+    "To overcome these difficulties, we have developed a description language specifically for the kind of dialogues that are encountered in automatic inquiry systems. Our idea is to identify those constituents of these dialogues that are common to all of them, independent of the particular application. Then, we represent them in highly separated sections and use an interpreter for controlling the dialogue flow based upon these parts.\n",
+    "This approach, which has been successfully tested in thousands of real-world dialogues, has the additional advantage that only the mere dialogue description must be provided for a new application while the interpreter can remain unchanged.\n",
+    ""
+   ]
+  },
+  "nielsen95_sds": {
+   "authors": [
+    [
+     "Jørn Stern",
+     "Nielsen"
+    ]
+   ],
+   "title": "Using automatic speech recognition in supplementary services experiences and results from an extensive test",
+   "original": "sds5_125",
+   "page_count": 4,
+   "order": 30,
+   "p1": "125",
+   "pn": "128",
+   "abstract": [
+    "The growing number of supplementary services in the telephone network has resulted in a proliferation of access codes. At present users operate supplementary services supplied on digital exchanges by entering the access code for the service desired from a touch-tone telephone set. In general, users often have difficulty memorising these codes.\n",
+    "This paper summarises the results and experiences obtained from the \"Custom Calling Service Demonstrator\" project at the R&D Department of Tele Danmark Jydsk Telefon. The goal of the project was to examine the use of speech recognition and speech response as a possible user interface in selected supplementary services. A demonstrator was developed to meet this goal. The objectives of the demonstrator were to create a simple dialogue using well-known speech recognition technology. The examination was carried out by 105 regular users of existing touch-tone operated supplementary services.\n",
+    "In this paper system considerations are discussed. The recognition results and user acceptance of this relatively new concept using speech recognition are presented. The evaluation is based on analyses of dialogue recordings and questionnaires filled out by the users.\n",
+    "The conclusion of the project is that the users preferred the speech recognition operated service to the current touch-tone operated service. Even though the demonstrator used an isolated word recogniser it was possible to create a very robust and user-friendly system.\n",
+    ""
+   ]
+  },
+  "naito95_sds": {
+   "authors": [
+    [
+     "Masaki",
+     "Naito"
+    ],
+    [
+     "Shingo",
+     "Kuroiwa"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Seiichi",
+     "Yamamoto"
+    ],
+    [
+     "Fumihiro",
+     "Yato"
+    ]
+   ],
+   "title": "A real-time speech dialogue system for a voice activated telephone extension service",
+   "original": "sds5_129",
+   "page_count": 4,
+   "order": 31,
+   "p1": "129",
+   "pn": "132",
+   "abstract": [
+    "This paper describes a real-time large-vocabulary telephone dialogue system. The system is designed for providing Voice-Activated Telephone Extension (VATEX) services for a company of about. 5000 employees. The system recognizes a user's request sentences and, if necessary, asks questions to specify one person then connects the line to the called person's branch telephone.\n",
+    "To realize fast and accurate continuous telephone speech recognition for large vocabulary applications, we developed new methods. To reduce errors of speech endpoint detection, we adopt a new speech endpoint detection algorithm which does not use speech energy level but likelihood of partial matching paths for the system. We also adopt- a two-level search algorithm and semantical merging method for the system.\n",
+    "The effectiveness of these algorithms was evaluated by recognition experiments using 300 sentences recorded over the telephone network. Using the speech endpoint detection method, degradation of recognition accuracy due to failure of endpoint detection is very small even at the SNR of 7 dB where speech detection using speech level does not work at all. The two-level search and semantical merging method reduces errors by 30 % and process time increases to about 2.5 % of the length of the user's utterance. Totally, the system can achieve 91 % task accuracy for telephone input.\n",
+    ""
+   ]
+  },
+  "souvay95_sds": {
+   "authors": [
+    [
+     "Gilles",
+     "Souvay"
+    ],
+    [
+     "Jean-Marie",
+     "Pierrel"
+    ]
+   ],
+   "title": "DIAPASON - a development environment for the integration of an oral input in machine control applications",
+   "original": "sds5_133",
+   "page_count": 4,
+   "order": 32,
+   "p1": "133",
+   "pn": "136",
+   "abstract": [
+    "There is a great number of systems which showed that it was possible to manage an oral dialogue. But very often, these systems are dedicated to a specific application and when this one changes, a new system has to be designed. This points out the interest of a real environment in which the application would be seen as the main parameter. We present such an environment dedicated to machine control applications: the Diapason environment. We first specify the dialogue model used for these applications, presenting its different components (development platform and tools) and the way it works, and finally we produce a short overview of an application which has been developed using our environment: an air traffic control console in the framework of the ESPRIT II project ROARS.\n",
+    ""
+   ]
+  },
+  "carlson95_sds": {
+   "authors": [
+    [
+     "Rolf",
+     "Carlson"
+    ],
+    [
+     "Sheri",
+     "Hunnicutt"
+    ],
+    [
+     "Joakim",
+     "Gustafsson"
+    ]
+   ],
+   "title": "Dialog management in the waxholm system",
+   "original": "sds5_137",
+   "page_count": 4,
+   "order": 33,
+   "p1": "137",
+   "pn": "140",
+   "abstract": [
+    "In this paper we will describe the natural language and dialog component in the Waxholm system. Our parser, STINA, is knowledge based and is designed as a probabilistic language model. The dialog management, also implemented in STINA, is based on grammar rules and lexical semantic features. The parser is running with two different time scales corresponding to the words in each utterance and to the turns in the dialog. Topic selection is accomplished based on probabilities calculated from user initiatives.\n",
+    ""
+   ]
+  },
+  "fanty95_sds": {
+   "authors": [
+    [
+     "Mark",
+     "Fanty"
+    ],
+    [
+     "Stephen",
+     "Sutton"
+    ],
+    [
+     "David G.",
+     "Novick"
+    ],
+    [
+     "Ronald",
+     "Cole"
+    ]
+   ],
+   "title": "Automated appointment scheduling",
+   "original": "sds5_141",
+   "page_count": 4,
+   "order": 34,
+   "p1": "141",
+   "pn": "144",
+   "abstract": [
+    "We describe a spoken language system that schedules appointments over the telephone. The system has a calendar of available times for some service that callers want to obtain. The system and the caller engage in a cooperative dialogue until a mutually satisfactory appointment time can be found and scheduled. The system has three parts: a speech recognizer based on neural network phoneme classification and word bigrams, a robust phrase-spotting parser, and a dialogue module. The dialogue module has a calendar of available system and user times, a partial history of system goals, and a preference stack to keep track of the focus of the conversation. The dialogue module uses rules to interpret the user's input, make an appropriate response, and provide a prediction (grammar) of the user's next response for the speech recognizer. Rules also determine when the system grabs the initiative from the user.\n",
+    ""
+   ]
+  },
+  "sadek95_sds": {
+   "authors": [
+    [
+     "M. D.",
+     "Sadek"
+    ],
+    [
+     "P.",
+     "Bretier"
+    ],
+    [
+     "V.",
+     "Cadoret"
+    ],
+    [
+     "A.",
+     "Cozannet"
+    ],
+    [
+     "P.",
+     "Dupont"
+    ],
+    [
+     "A.",
+     "Ferrieux"
+    ],
+    [
+     "F.",
+     "Panaget"
+    ]
+   ],
+   "title": "A cooperative spoken dialogue system based on a rational agent model: a first implementation on the AGS application",
+   "original": "sds5_145",
+   "page_count": 4,
+   "order": 35,
+   "p1": "145",
+   "pn": "148",
+   "abstract": [
+    "We present the first version of a cooperative spoken dialogue system whose kernel is intended to be an artificial agent: the system's ability for cooperative interaction completely derives from its capacity to behave according to basic rationality principles, and thus results from explicit reasoning processes. The current system displays several features of intelligent user-friendly dialogue (with input in continuous speech), and therefore demonstrates the effectiveness of the adopted approach. In this paper we describe the current implementations of its different components and the corresponding next versions under development.\n",
+    ""
+   ]
+  },
+  "mcinnes95_sds": {
+   "authors": [
+    [
+     "F. R.",
+     "McInnes"
+    ],
+    [
+     "L. S.",
+     "White"
+    ],
+    [
+     "J. C.",
+     "Foster"
+    ],
+    [
+     "Mervyn A.",
+     "Jack"
+    ]
+   ],
+   "title": "An automated style checker for human-computer dialogue engineering",
+   "original": "sds5_149",
+   "page_count": 4,
+   "order": 36,
+   "p1": "149",
+   "pn": "152",
+   "abstract": [
+    "A program for automated checking of human-computer dialogue designs is described. The program takes in a dialogue specification, applies various tests based on established criteria of good dialogue style, and reports to the designer any points detected as requiring improvement. This should allow many types of faults and inconsistencies in dialogue designs to be detected without recourse to evaluation by a panel of users, and thus reduce the time and expense involved in testing and optimising automated services before releasing them for public use.\n",
+    ""
+   ]
+  },
+  "guyomard95_sds": {
+   "authors": [
+    [
+     "Marc",
+     "Guyomard"
+    ],
+    [
+     "Didier Le",
+     "Meur"
+    ],
+    [
+     "Sébastien",
+     "Poignonnec"
+    ],
+    [
+     "Jacques",
+     "Siroux"
+    ]
+   ],
+   "title": "Experimental work for the dual usage of voice and touch screen for a cartographic application",
+   "original": "sds5_153",
+   "page_count": 4,
+   "order": 37,
+   "p1": "153",
+   "pn": "156",
+   "abstract": [
+    "This paper deals with an experimentation of the Wizard of Oz type which we have conducted with the aim of developing further an existing dialogue system [7] with the tactile mode. First of all we shall present the touch-insensitive version of the system, and the reasons why we came to the conclusion of introducing a touch screen. We shall then present the experimentation, its objectives, its conditions and the development of a session. We shall explain the main observations that we have been able to make, concerning the usage of combined oral/tactile modes for which the types of application are aimed at. Finally, we shall present the essential elements of modelling, taking into account the obtained results.\n",
+    ""
+   ]
+  },
+  "fraser95_sds": {
+   "authors": [
+    [
+     "Norman M.",
+     "Fraser"
+    ]
+   ],
+   "title": "Quality standards for spoken language dialogue systems: a report on progress in EAGLES",
+   "original": "sds5_157",
+   "page_count": 4,
+   "order": 38,
+   "p1": "157",
+   "pn": "160",
+   "abstract": [
+    "Much of the current activity on speech and language technology standards and assessment in Europe is focused around the Commission of the European Union's EAGLES Project (LRE-61-100). Within the EAGLES working group on Spoken Language, Interactive Dialogue us one of the major areas of activity. The goal of EAGLES is to produce a set of practical handbooks which encode and disseminate de facto standards, best practices, and useful methodologies, and which also provide information concerning freely available resources. This paper outlines progress on spoken dialogue in EAGLES.\n",
+    ""
+   ]
+  },
+  "bellik95_sds": {
+   "authors": [
+    [
+     "Y.",
+     "Bellik"
+    ],
+    [
+     "S.",
+     "Ferrari"
+    ],
+    [
+     "Françoise",
+     "Néel"
+    ],
+    [
+     "D.",
+     "Teil"
+    ]
+   ],
+   "title": "Requirements for multimodal dialogue including vocal interaction",
+   "original": "sds5_161",
+   "page_count": 4,
+   "order": 39,
+   "p1": "161",
+   "pn": "164",
+   "abstract": [
+    "Communication between humans do not only make use of voice but is normally based on several other perception and production capabilities (gesture, vision, touch, etc.). In order to render human interaction with the machine more efficient and close to the human model, the tendency is now to integrate several different means of communication. But if humans skillfully combine gestures, voice production and hearing, when communicating with each other, the machine does not possess the same type of competence. Several problems occur at a low level due to device response times and time management. At a higher level, one major requirement is therefore to accurately model knowledge at all levels. The present study proposes an architecture which attempts to take some of those problems into account, attributing specific roles to the different controllers which have been identified.\n",
+    ""
+   ]
+  },
+  "wyard95_sds": {
+   "authors": [
+    [
+     "Peter",
+     "Wyard"
+    ],
+    [
+     "Steve",
+     "Appleby"
+    ],
+    [
+     "Ed",
+     "Kaneen"
+    ],
+    [
+     "Sandra",
+     "Williams"
+    ],
+    [
+     "Keith",
+     "Preston"
+    ]
+   ],
+   "title": "A combined speech and visual interface to the BT business catalogue",
+   "original": "sds5_165",
+   "page_count": 4,
+   "order": 40,
+   "p1": "165",
+   "pn": "168",
+   "abstract": [
+    "A combined speech and visual interface to the BT Business Catalogue is described. The system allows requests and commands to be input via three routes: continuous speech; typed text; or mouse clicks. The information requested is displayed in the form of text and graphics or played out from a text-to-speech synthesiser. Particular attention has been given to the issues of multimodal dialogue management, the interface between the speech recogniser and the natural language processing component, and the overall system architecture.\n",
+    ""
+   ]
+  },
+  "itou95_sds": {
+   "authors": [
+    [
+     "Katunobu",
+     "Itou"
+    ],
+    [
+     "Osamu",
+     "Hasegawa"
+    ],
+    [
+     "Takio",
+     "Kurita"
+    ],
+    [
+     "Satoru",
+     "Hayamizu"
+    ],
+    [
+     "Kazuyo",
+     "Tanaka"
+    ],
+    [
+     "Kazuhiko",
+     "Yamamoto"
+    ],
+    [
+     "Nobuyuki",
+     "Otsu"
+    ]
+   ],
+   "title": "An active multimodal interaction system",
+   "original": "sds5_169",
+   "page_count": 4,
+   "order": 41,
+   "p1": "169",
+   "pn": "172",
+   "abstract": [
+    "We introduce an active multimodal interaction system with both a synthesized facial display and vision based user identification. This system can realize activeness to find and response to the user only sitting at the front of the system. Current speech dialog systems do not have the initiative of dialogs, and it is impossible to realize the initiative of dialogs only with speech I/O mode. This paper presents the advantages of an active multimodal interaction system in which two or more modes are integrated together and the configuration of the design of the prototype system.\n",
+    ""
+   ]
+  },
+  "gorin95_sds": {
+   "authors": [
+    [
+     "Allen L.",
+     "Gorin"
+    ]
+   ],
+   "title": "Spoken dialog as a feedback control system",
+   "original": "sds5_173",
+   "page_count": 3,
+   "order": 42,
+   "p1": "173",
+   "pn": "176",
+   "abstract": [
+    "We are interested in devices which understand and act upon spoken input from people. Dialog plays an important role in these speech understanding systems, serving to resolve ambiguity and clarify misunderstandings. In this paper, we summarize and review what we have learned about dialog control in several experimental system.\n",
+    ""
+   ]
+  },
+  "araki95_sds": {
+   "authors": [
+    [
+     "Masahiro",
+     "Araki"
+    ],
+    [
+     "Tatsuya",
+     "Kawahara"
+    ],
+    [
+     "Shuji",
+     "Doshita"
+    ]
+   ],
+   "title": "Cooperative spoken dialogue model using Bayesian network and event hierarchy",
+   "original": "sds5_177",
+   "page_count": 4,
+   "order": 43,
+   "p1": "177",
+   "pn": "180",
+   "abstract": [
+    "In this paper, we propose a dialogue model that reflects two important aspects of spoken dialogue system: to be 'robust' and to be 'cooperative'. For this purpose, our dialogue model has two main inference spaces. These are Conversational Space (CS) and Problem Solving Space (PSS). CS is a kind of dynamic Bayesian network that represents a meaning of utterance and general dialogue rule. CS treats a 'robust' aspect. Also, PSS is a network so called Event Hierarchy that represents the structure of task domain problems. PSS treats a 'cooperative' aspect. In constructing CS and making inference on PSS, system's process, from meaning understanding through response generation, is divided into five steps. From our point of view, we regard cooperative problem solving dialogue as a process of constructing CS and achieving goal in PSS through these five steps.\n",
+    ""
+   ]
+  },
+  "luperfoy95_sds": {
+   "authors": [
+    [
+     "Susann",
+     "LuperFoy"
+    ]
+   ],
+   "title": "Implementing file change semantics for spoken-language dialogue managers",
+   "original": "sds5_181",
+   "page_count": 4,
+   "order": 44,
+   "p1": "181",
+   "pn": "184",
+   "abstract": [
+    "This paper describes the use of File Change Semantics, equivalently Discourse Representation Theory, as the theoretical basis for the discourse component of spoken dialogue systems. The approach was first developed in support of a non-speech, mixed-modality interface in which allowable input included mouse gestures for deictic reference to screen objects interspersed with keyboard entry of English and command language atoms. In the spirit of its theoretical foundation, this computational discourse framework defines the semantic value of each utterance to be its context change potential, i.e., its affect on the pre-existing discourse representation. The frame-work introduces modified file cards called Discourse Pegs, to serve as loci for aggregation of all information available to a dialogue agent at run time. Pegs hold linguistic (surface form), discourse, and world knowledge information in three separate tiers, each of which is structured, updated, and accessed via its own set of operations. The discourse tier houses intentional and attentional structures posited by Grosz and Sidner, while the linguistic structure is carried on the surface form tier and follows Clark and Schaefer (1987). A strength of our discourse framework is its ability to represent incomplete or incorrect information which can be updated incrementally and non-monotonically as the discourse progresses. This makes it especially well suited to spoken language systems in which speech recognition, parse, and semantic analyses are often uncertain or ambiguous and in which multiple discourse processing tasks are required of a single system. This paper describes the computational discourse framework and its adaptation to support interpreting telephony.\n",
+    ""
+   ]
+  },
+  "gerbino95_sds": {
+   "authors": [
+    [
+     "Elisabetta",
+     "Gerbino"
+    ],
+    [
+     "Paolo",
+     "Baggia"
+    ],
+    [
+     "Egidio",
+     "Giachin"
+    ],
+    [
+     "Claudio",
+     "Rullent"
+    ]
+   ],
+   "title": "Analysis and evaluation of spontaneous speech utterances in focused dialogue contexts",
+   "original": "sds5_185",
+   "page_count": 4,
+   "order": 45,
+   "p1": "185",
+   "pn": "188",
+   "abstract": [
+    "The sentences uttered by naive users of a spoken dialogue system greatly differ according to the dialogue context in which they are uttered. In this study, we first analyze the factors that differentiate sentences (linguistic complexity, distribution of disfluencies, etc.). Second, we investigate the effect of using a specialized (dialogue-context dependent) language model during recognition. Results suggest that improvements depend on the type of language model employed and on the sentence complexity.\n",
+    ""
+   ]
+  },
+  "hirschberg95_sds": {
+   "authors": [
+    [
+     "Julia",
+     "Hirschberg"
+    ],
+    [
+     "Christine H.",
+     "Nakatani"
+    ],
+    [
+     "Barbara J.",
+     "Grosz"
+    ]
+   ],
+   "title": "Conveying discourse structure through intonation variation",
+   "original": "sds5_189",
+   "page_count": 4,
+   "order": 46,
+   "p1": "189",
+   "pn": "192",
+   "abstract": [
+    "This study represents ongoing research into the relationship between intonational variation and discourse structure. Our goals are to examine correlations between prosodic and acoustic variation in spontaneous elicited speech and read speech and the discourse structure which subjects assign to the textual material of this speech. We will employ our findings in improving the naturalness of intonational variation in text-to-speech.\n",
+    ""
+   ]
+  },
+  "eckert95_sds": {
+   "authors": [
+    [
+     "Wieland",
+     "Eckert"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ],
+    [
+     "Heinrich",
+     "Niemann"
+    ],
+    [
+     "Ernst-Günter",
+     "Schukat-Talamazzini"
+    ]
+   ],
+   "title": "Real users behave weird - experiences made collecting large human-machine-dialog corpora",
+   "original": "sds5_193",
+   "page_count": 4,
+   "order": 47,
+   "p1": "193",
+   "pn": "196",
+   "abstract": [
+    "We have built a demonstrator for spoken human-machine dialogs. The system is capable to answer inquiries about the InterCity train timetable of the Deutsche Bahn. It evolved from the work done in the ESPRIT project Sundial with four participating European countries. First experiments have already been described in (Eckert et al., EUROSPEECH 1993). In this paper we describe our analysis of real user interaction with automated information systems: since performance figures of the automated system are already reported, we concentrate on description of some essential aspects of user behavior.\n",
+    ""
+   ]
+  },
+  "black95_sds": {
+   "authors": [
+    [
+     "Alan W.",
+     "Black"
+    ],
+    [
+     "Nick",
+     "Campbell"
+    ]
+   ],
+   "title": "Predicting the intonation of discourse segments from examples in dialogue speech",
+   "original": "sds5_197",
+   "page_count": 4,
+   "order": 48,
+   "p1": "197",
+   "pn": "200",
+   "abstract": [
+    "In the area of speech synthesis it is already possible to generate understandable speech with citation form prosody for simple written texts. However at ATR we are researching into speech synthesis techniques for use in a speech translation environment. Dialogues in such conversations involve much richer forms of prosodic variation than are required for the reading of texts. In order for our translations to sound natural it is necessary for our synthesis system to offer a wide range of prosodic variability, which can be described at an appropriate level of abstraction.\n",
+    "This paper describes a multi-level intonation system which generates a fundamental frequency (F0) contour based on input labelled with high level discourse information, including speech act type and focusing information, as well as part of speech and syntactic constituent structure. The system is rule driven but the rules and even some elements of the intonation system are derived from naturally spoken dialogues.\n",
+    ""
+   ]
+  },
+  "bruce95_sds": {
+   "authors": [
+    [
+     "Gösta",
+     "Bruce"
+    ],
+    [
+     "Björn",
+     "Granström"
+    ],
+    [
+     "Kjell",
+     "Gustafson"
+    ],
+    [
+     "Merle",
+     "Horne"
+    ],
+    [
+     "David",
+     "House"
+    ],
+    [
+     "Paul",
+     "Touati"
+    ]
+   ],
+   "title": "Towards an enhanced prosodic model adapted to dialogue applications",
+   "original": "sds5_201",
+   "page_count": 4,
+   "order": 49,
+   "p1": "201",
+   "pn": "204",
+   "abstract": [
+    "This paper discusses the need for an enhanced model of Swedish prosody for use in dialogue systems. A description is given of the components of the model which is being developed as part of the project Prosodic Segmentation and Structuring of Dialogue. The model is based on parameters derived from observations of both man-man and man-machine dialogues. The main extension in relation to our previous model lies in the introduction of continuous parameters which affect the phonetic realization of the discrete parameters of our original model. These continuous parameters are related in complex ways to features of the discourse situation.\n",
+    ""
+   ]
+  },
+  "swerts95_sds": {
+   "authors": [
+    [
+     "Marc",
+     "Swerts"
+    ],
+    [
+     "Mari",
+     "Ostendorf"
+    ]
+   ],
+   "title": "Discourse prosody in human-machine interactions",
+   "original": "sds5_205",
+   "page_count": 4,
+   "order": 50,
+   "p1": "205",
+   "pn": "208",
+   "abstract": [
+    "This paper reports on a study of discourse prosody in a particular type of human-machine interactions, viz., information query in a travel-planning domain. More specifically, it deals with two related questions about the role of prosody in highlighting the status of an utterance in a given context. It investigates if speakers signal (i) the start of a new topic by marking the initial utterance of a discourse segment, and (ii) whether an utterance is a normal request for information or part of a correction sub-dialogue. The preliminary study reveals that in human-machine interactions both discourse segmentation and utterance purpose can have particular prosodic correlates, although speakers also mark discourse structure through choice of wording.\n",
+    ""
+   ]
+  },
+  "hone95_sds": {
+   "authors": [
+    [
+     "K. S.",
+     "Hone"
+    ],
+    [
+     "C.",
+     "Baber"
+    ]
+   ],
+   "title": "Using a simulation method to predict the transaction time effects of applying alternative levels of constraint to user utterances within speech interactive dialogues",
+   "original": "sds5_209",
+   "page_count": 4,
+   "order": 51,
+   "p1": "209",
+   "pn": "212",
+   "abstract": [
+    "This paper describes the use of a simulation method to assess speech interactive dialogues. Two alternative telephone banking dialogues were modelled, both of which were assumed to produce the same eventual task output, but which used sets of prompts which would impose differing levels of constraint over user utterances. It was found that although increasing constraint would improve recognition accuracy in the task, this was not enough to counteract the increased length of interaction produced by the more constraining prompts. Thus the less constraining dialogue was found to be faster despite its increased recognition error rate compared to the more constrained dialogue. Level of constraint is put forward in this paper as a central issue in speech dialogue design, both because of its supposed effect on user satisfaction, and because of its implications for system performance.\n",
+    ""
+   ]
+  },
+  "arai95_sds": {
+   "authors": [
+    [
+     "Kazuhiro",
+     "Arai"
+    ],
+    [
+     "Osamu",
+     "Yoshioka"
+    ],
+    [
+     "Shigeki",
+     "Sagayama"
+    ],
+    [
+     "Noboru",
+     "Sugamura"
+    ]
+   ],
+   "title": "A prototype of an address input system with speech recognition",
+   "original": "sds5_213",
+   "page_count": 4,
+   "order": 52,
+   "p1": "213",
+   "pn": "216",
+   "abstract": [
+    "It is still currently very difficult to obtain a high level of performance for spontaneous speech recognition, even though there have been many advances toward the ultimate goal of a speech dialog system which is to achieve natural interaction with the user. Isolated word recognition has presented itself as a prospective candidate for obtaining a higher level of performance in practical use. Therefore, one reasonable way for developing a useful system is to employ isolated word recognition. We have developed a system for address input that integrates isolated word recognition and conventional input methods. The input time was measured for 25 adult novice users, with 22,860 trials in total to test if the speech recognition function is useful. The results revealed that speech recognition reduces the time required for input when the input volume is large.\n",
+    ""
+   ]
+  },
+  "tillmann95_sds": {
+   "authors": [
+    [
+     "Hans G.",
+     "Tillmann"
+    ],
+    [
+     "Bernd",
+     "Tischer"
+    ]
+   ],
+   "title": "Collection and exploitation of spontaneous speech produced in negotiation dialogues",
+   "original": "sds5_217",
+   "page_count": 4,
+   "order": 53,
+   "p1": "217",
+   "pn": "220",
+   "abstract": [
+    "The first part of the paper is devoted to the techniques of data collection within the framework of the German VERBMOBIL project. Speech data are collected in a scheduling task (negotiation of appointments). In order to investigate the effects of sound recordings on spontaneous speech several methods of data collection were realized. For example, in one part of the negotiation dialogues turn-taking behavior was not controlled (overlapping turns were possible). In other dialogues turn-taking behavior was controlled by button pressing when the current speaker finished his turn. The effects of instruction on the vocabulary are presented (elicitation of month names, weekday names, exact date and hour of an appointment).\n",
+    "The second part of the paper presents the results of an investigation conducted by the second author. One problem of spoken language processing and speech recognition is the handling of self-interruptions and self-repairs in spontaneous speech. Within a random sample of the VERBMOBIL dialogues and free conversations 4300 repairs were collected. The repairs were classified by a system of repair categories. The effects of turn-taking (controlled vs. uncontrolled) and of problem solving are presented. Self-repairs show syntactic regularities which can be used for the automatic processing of spontaneous speech (automatic identification of a repair and automatic transformation into the correct utterance).\n",
+    ""
+   ]
+  },
+  "tatham95_sds": {
+   "authors": [
+    [
+     "Mark",
+     "Tatham"
+    ],
+    [
+     "Katherine",
+     "Morton"
+    ]
+   ],
+   "title": "Speech synthesis in dialogue systems",
+   "original": "sds5_221",
+   "page_count": 4,
+   "order": 54,
+   "p1": "221",
+   "pn": "224",
+   "abstract": [
+    "This paper argues that dialogue synthesis has special requirements. Users expect a high level of naturalness. We argue for good segmental rendering with the addition of pragmatic effects, such as emotion and attitude. We discuss the language model used, emphasising the phonological and phonetic levels essential to handle these effects. We draw on the theories of Cognitive Phonetics and Pragmatic Phonetics.\n",
+    ""
+   ]
+  },
+  "bateman95_sds": {
+   "authors": [
+    [
+     "John",
+     "Bateman"
+    ],
+    [
+     "Eli",
+     "Hagen"
+    ],
+    [
+     "Adelheit",
+     "Stein"
+    ]
+   ],
+   "title": "Dialogue modeling for speech generation in multimodal information systems",
+   "original": "sds5_225",
+   "page_count": 4,
+   "order": 55,
+   "p1": "225",
+   "pn": "228",
+   "abstract": [
+    "Conversational approaches to cooperative human-computer interaction have mostly been developed for natural language interfaces. Recently, we observe an increasing number of conversational approaches to multimodal interfaces as well (see, e.g., [Maybury, 1993, Carbonell, 1994]). They claim that linguistic contributions to the dialogue (written or spoken) as well as graphical operations are to be interpreted as communicative acts which express discourse goals. Research, however, has concentrated on the design of multimedia presentation and explanation systems and few approach the design of multimodal information retrieval interfaces on the basis of elaborate discourse models.\n",
+    "As information seeking and retrieval are inherently interactive processes, a flexible and cooperative user interface has to take advantage of the interactional capabilities and preferences of the user. Users' conceptions of their information problem and hence their retrieval strategies typically change as the dialogue evolves; therefore, in order to adapt its behavior to the current situation, a cooperative system should be capable of engaging in supportive (meta-)dialogues to clarify the user's goals, explain the possibilities that the system can offer, and negotiate further information seeking strategies. While advanced user interfaces rely mainly on multimedia presentations and direct manipulation techniques, supportive meta-dialogues are usually carried out linguistically. We believe that a substantial improvement in both functionality and user acceptance of such interfaces can be achieved by the integration of spoken language.\n",
+    ""
+   ]
+  },
+  "damper95_sds": {
+   "authors": [
+    [
+     "Robert I.",
+     "Damper"
+    ],
+    [
+     "M. A.",
+     "Tranchant"
+    ],
+    [
+     "S. D.",
+     "Wood"
+    ]
+   ],
+   "title": "Speech versus keying in the human-computer interface",
+   "original": "sds5_229",
+   "page_count": 4,
+   "order": 56,
+   "p1": "229",
+   "pn": "232",
+   "abstract": [
+    "Speech input is frequently claimed to offer great benefits in human-computer interaction. A study conducted by Poock in the early 1980s, for instance, has purportedly shown a very significant superiority for speech over keying. We have previously argued, however, that this finding was an artifact of a methodological flaw - specifically that the command vocabulary was chosen to suit the requirements of speech input and made little or no concession to the requirements of keying. In earlier experiments designed by us to overcome this putative flaw - by using abbreviated rather than full command strings in the keying condition - the claimed superiority disappeared. There were, however, other differences between our experiments and Poock's, so that other interpretations of these findings are possible. Most obviously, Poock7s subjects carried out a concurrent, secondary task while ours did not. Since speech input is generally considered to be advantageous in such situations, this difference is potentially important. Also, we did not replicate Poock's original experimental condition, so that no direct comparison of results was possible.\n",
+    "In this paper, we describe new experiments - again modelled on those of Poock - in which speech input, full command-string keying and abbreviated command-string keying are compared under conditions of concurrent tasking. We find that speech input is no faster and enormously more error-prone than abbreviated keying, but allows somewhat more of the secondary task to be completed. Full keying has no advantages whatsoever, confirming the methodological flaw in Poock's work. Our subjects perform less well on speech input than did his under equivalent conditions: we attribute this to their generally lower familiarity with speech data entry.\n",
+    ""
+   ]
+  },
+  "hirose95_sds": {
+   "authors": [
+    [
+     "Keikichi",
+     "Hirose"
+    ],
+    [
+     "Toru",
+     "Senoo"
+    ]
+   ],
+   "title": "A method of generating speech reply with elliptical expressions and prosodic emphases",
+   "original": "sds5_233",
+   "page_count": 4,
+   "order": 57,
+   "p1": "233",
+   "pn": "236",
+   "abstract": [
+    "A method has been developed for the generation of speech reply in a dialogue system on weather conditions designed to support patrolmen for electric facilities. Upon a request from the user, the system makes an access to the database on weather information and generates am appropriate answer as the speech reply. It also makes an advice to the user on his jobs, and generates speech outputs for alarms and warnings when they are issued. In the process of generating a semantic representation for the response content, the method assigns a flag to each filler of case element based on the new/old judgment in the dialogue flow. This flag serves as the index for the inclusion of the case element into the surface sentence and also as that for the control of emphasis in speech synthesis. Thus the developed method can generate speech reply with proper elliptical expressions and prosodic emphases so that it is easily understood by the user. Although speech synthesis was conducted using the synthesizer previously developed for the text-to-speech conversion, its prosodic rules were slightly modified so that the synthesized speech sounded natural as the speech reply of the dialogue system. Propriety of the method was shown by a preliminary experiment on the response sentence generation.\n",
+    ""
+   ]
+  },
+  "bennacef95_sds": {
+   "authors": [
+    [
+     "S. K.",
+     "Bennacef"
+    ],
+    [
+     "Françoise",
+     "Néel"
+    ],
+    [
+     "H. B.",
+     "Maynard"
+    ]
+   ],
+   "title": "An oral dialogue model based on speech acts categorization",
+   "original": "sds5_237",
+   "page_count": 4,
+   "order": 58,
+   "p1": "237",
+   "pn": "240",
+   "abstract": [
+    "This paper presents a description of the dialogue model structured into a hierarchy of sub-dialogues, each one having a particular functional value. The dialogue model has been formalized by the use of formal grammars and speech acts theory : the grammar non-terminal terms correspond to sub-dialogues, and terminals correspond to dialogue acts. We have implemented the dialogue model by transforming the chosen grammar into a finite state network, in which exchanges between the user and the machine correspond to transitions in the network. We describe to in this paper the task model and the functional architecture of the dialogue manager which controls all the dialogue components. The dialogue model has been evaluated in the French version of ATIS (Air Travel Information Services) task by integrating the dialogue system with a speaker independent continuous speech recognizer.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Papers",
+   "papers": [
+    "peckham95_sds",
+    "furui95_sds"
+   ]
+  },
+  {
+   "title": "Speech Understanding",
+   "papers": [
+    "lamel95_sds",
+    "kawahara95_sds",
+    "hidano95_sds"
+   ]
+  },
+  {
+   "title": "Discourse Modelling",
+   "papers": [
+    "young95_sds",
+    "reithinger95_sds",
+    "taleb95_sds"
+   ]
+  },
+  {
+   "title": "Language Modelling",
+   "papers": [
+    "iwadera95_sds",
+    "bird95_sds",
+    "trancoso95_sds",
+    "lewin95_sds",
+    "hanrieder95_sds",
+    "bellalem95_sds",
+    "pepelnjak95_sds",
+    "fais95_sds",
+    "wakita95_sds",
+    "cettolo95_sds"
+   ]
+  },
+  {
+   "title": "Systems Overview",
+   "papers": [
+    "bertenstam95_sds",
+    "pieraccini95_sds",
+    "baekgaard95_sds"
+   ]
+  },
+  {
+   "title": "Human Factors",
+   "papers": [
+    "dybkjr95_sds",
+    "mellor95_sds",
+    "chapelier95_sds"
+   ]
+  },
+  {
+   "title": "Systems and Tools",
+   "papers": [
+    "baekgaard95b_sds",
+    "ball95_sds",
+    "whittaker95_sds",
+    "mellor95b_sds",
+    "aust95_sds",
+    "nielsen95_sds",
+    "naito95_sds",
+    "souvay95_sds",
+    "carlson95_sds",
+    "fanty95_sds",
+    "sadek95_sds"
+   ]
+  },
+  {
+   "title": "Standards and Evaluation",
+   "papers": [
+    "mcinnes95_sds",
+    "guyomard95_sds",
+    "fraser95_sds"
+   ]
+  },
+  {
+   "title": "Multi-Modal Systems",
+   "papers": [
+    "bellik95_sds",
+    "wyard95_sds",
+    "itou95_sds"
+   ]
+  },
+  {
+   "title": "Dialogue Modelling",
+   "papers": [
+    "gorin95_sds",
+    "araki95_sds",
+    "luperfoy95_sds"
+   ]
+  },
+  {
+   "title": "Prosody and Discourse",
+   "papers": [
+    "gerbino95_sds",
+    "hirschberg95_sds",
+    "eckert95_sds",
+    "black95_sds",
+    "bruce95_sds",
+    "swerts95_sds"
+   ]
+  },
+  {
+   "title": "Generation and Evaluation",
+   "papers": [
+    "hone95_sds",
+    "arai95_sds",
+    "tillmann95_sds",
+    "tatham95_sds",
+    "bateman95_sds",
+    "damper95_sds",
+    "hirose95_sds",
+    "bennacef95_sds"
+   ]
+  }
+ ]
+}

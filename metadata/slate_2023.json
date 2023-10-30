@@ -1,0 +1,1397 @@
+{
+ "series": "SLaTE",
+ "title": "9th Workshop on Speech and Language Technology in Education (SLaTE)",
+ "location": "Dublin, Ireland",
+ "startDate": "18/8/2023",
+ "endDate": "20/8/2023",
+ "URL": "https://sites.google.com/view/slate2023",
+ "chair": "Chairs: Helmer Strik, Rahul Divekar, Catia Cucchiarini",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "SLaTE",
+ "year": "2023",
+ "name": "slate_2023",
+ "SIG": "SLaTE",
+ "title1": "9th Workshop on Speech and Language Technology in Education",
+ "title2": "(SLaTE)",
+ "booklet": "slate_2023.pdf",
+ "date": "18-20 August 2023",
+ "papers": {
+  "chen23_slate": {
+   "authors": [
+    [
+     "Nancy F.",
+     "Chen"
+    ]
+   ],
+   "title": "Inclusive AI for Language Learning",
+   "original": "keynote",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Abstract: End-to-end modeling and deep learning have significantly advanced human language technology; recent examples include large language models. However, to ensure inclusivity and extend such benefits to more people, there remains substantial work ahead. In this talk, we investigate how to make EdTech more inclusive for language learning applications in four dimensions: (1) Language Diversity, (2) Student Age Groups, (3) Human-Computer Interaction Styles, and (4) Intrinsic Subjectivity in Evaluations. We illustrate how speech science and statistical machine learning can elegantly blend with neural modelling approaches to address technical challenges such as data sparsity, feature bias, and explainability. We will share our experience in developing AI technology to help students learn English, Mandarin Chinese, Malay, and Tamil. These languages span across various linguistic families and possess varying degrees of linguistic resources suitable for computational approaches. Our endeavours have led to government deployment and commercial spin-offs, serving as valuable case studies for AI's role in cultural and linguistic heritage preservation.\n",
+    "Bio: Nancy F. Chen received her PhD from MIT and Harvard. Her group at A*STAR works on generative AI in speech, language, and conversational technology. Her research has been applied to education, defense, healthcare, and media/journalism. Dr. Chen has published 100+ papers and supervised 100+ students/staff. She has won awards from IEEE, Microsoft, NIH, P&amp;G, UNESCO, L’Oréal, SIGDIAL, APSIPA, MICCAI. She is IEEE SPS Distinguished Lecturer (2023-2024), Program Chair of ICLR 2023, A*STAR Fellow (2023), Board Member of ISCA (2021-2025), and Singapore 100 Women in Tech (2021). Technology from her team has led to commercial spin-offs and government deployment. Prior to A*STAR, she worked at MIT Lincoln Lab. For more info: http://alum.mit.edu/www/nancychen."
+   ]
+  },
+  "gupta23_slate": {
+   "authors": [
+    [
+     "Esther",
+     "Gupta"
+    ],
+    [
+     "Douglas",
+     "Jones"
+    ]
+   ],
+   "title": "Analyzing the Trade Space in Multi-lingual Automatic Text Difficulty Estimation",
+   "original": "9",
+   "page_count": 5,
+   "order": 17,
+   "p1": 76,
+   "pn": 80,
+   "abstract": [
+    "Assessing the difficulty of text material for foreign language learners remains a challenging task. Advances in the field of natural language processing shows promise for improving the performance of systems designed to evaluate text difficulty. In this work, we examine the impact of using multiple machine learning algorithms, transformer-based embeddings, and machine translation on 20 languages to determine their effectiveness on the text leveling task in an operational environment. We use accuracy and mean squared error (MSE) as our primary figures of merit. We also consider the computational consumption, ease of implementation, and speed of each approach. We find that while sentence embedding features offer some improvements for many languages, an ensemble method of more traditional algorithms gives larger performance gains with lower computational complexity."
+   ],
+   "doi": "10.21437/SLaTE.2023-16"
+  },
+  "mcknight23_slate": {
+   "authors": [
+    [
+     "Simon W",
+     "McKnight"
+    ],
+    [
+     "Arda",
+     "Civelekoglu"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ],
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Adian",
+     "Liusie"
+    ],
+    [
+     "Katherine M",
+     "Knill"
+    ]
+   ],
+   "title": "Automatic Assessment of Conversational Speaking Tests",
+   "original": "10",
+   "page_count": 5,
+   "order": 24,
+   "p1": 99,
+   "pn": 103,
+   "abstract": [
+    "Many speaking tests are conversational, dialogic, in form with an interlocutor talking to one or more candidates. This paper investigates how to automatically assess such a test. State-of-the-art approaches are used for a multi-stage pipeline: diarization and speaker assignment, to detect who is speaking and when; automatic speech recognition (ASR), to produce a transcript; and finally assessment. Each presents challenges which are investigated in the paper. Advanced foundation model-based auto-markers are examined: an ensemble of Longformer-based models that operates on the ASR output text; and a wav2vec2-based system that works directly on the audio. The two are combined to yield the final score. This fully automated system is evaluated in terms of ASR performance, and related impact of candidate assignment, as well as prediction of the candidate mark on data from the Occupational English Test. This is a conversational speaking test for L2 English healthcare professionals."
+   ],
+   "doi": "10.21437/SLaTE.2023-19"
+  },
+  "karhila23_slate": {
+   "authors": [
+    [
+     "Reima",
+     "Karhila"
+    ],
+    [
+     "Sari",
+     "Ylinen"
+    ],
+    [
+     "Anna-Riikka",
+     "Smolander"
+    ],
+    [
+     "Aku",
+     "Rouhe"
+    ],
+    [
+     "Ragheb",
+     "Al-Ghezi"
+    ],
+    [
+     "Yaroslav",
+     "Getman"
+    ],
+    [
+     "Tamas",
+     "Grosz"
+    ],
+    [
+     "Maria",
+     "Uther"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ]
+   ],
+   "title": "A pronunciation Scoring System Embedded into Children’s Foreign Language Learning Games with Experimental Verification of Learning Benefits",
+   "original": "11",
+   "page_count": 5,
+   "order": 6,
+   "p1": 21,
+   "pn": 25,
+   "abstract": [
+    "Over the years, language technology has become a valuable asset for foreign language learners. In this work, we introduce pronunciation feedback scoring systems for 6-12 year old children. The scoring systems were embedded in second-language (L2) English learning games that were designed to prompt children to repeat words. Speech and phone recognition models were used to validate utterances and extract phoneme-wise statistics, which were used to compute feedback scores of 0-5 stars. The scoring systems were trained to mimic the preferences of a single expert who evaluated all the training data. Our automatic scoring system reached a correlation of\n0.59 to the human annotation. This system was also tested in a learning experiment, where EEG measurements indicated that children who played our learning game with our scoring engine for pronunciation feedback improved their perception of speech\nsounds. We release the game codes and the speech data used to train the scoring system."
+   ],
+   "doi": "10.21437/SLaTE.2023-5"
+  },
+  "elkheir23_slate": {
+   "authors": [
+    [
+     "Yassine",
+     "EL Kheir"
+    ],
+    [
+     "Shammur",
+     "Chowdhury"
+    ],
+    [
+     "Ahmed",
+     "Ali"
+    ],
+    [
+     "Hamdy",
+     "Mubarak"
+    ],
+    [
+     "Shazia",
+     "Afzal"
+    ]
+   ],
+   "title": "SpeechBlender: Speech Augmentation Framework for Mispronunciation Data Generation",
+   "original": "14",
+   "page_count": 5,
+   "order": 7,
+   "p1": 26,
+   "pn": 30,
+   "abstract": [
+    "The lack of labeled second language (L2) speech data is a major challenge in designing mispronunciation detection models. We introduce SpeechBlender - a fine-grained data augmentation pipeline for generating mispronunciation errors to overcome such data scarcity. The SpeechBlender utilizes varieties of masks to target different regions of phonetic units and use the mixing factors to linearly interpolate raw speech signals while augmenting pronunciation. The masks facilitate smooth blending of the signals, generating more effective samples than the `Cut/Paste' method. Our proposed technique showcases significant improvement at the phoneme level in two L2 datasets, we achieved state-of-the-art results on ASR-dependent mispronunciation models with publicly available English Speechocean762 testset, resulting in a notable 5.0% gain in Pearson Correlation Coefficient (PCC). Additionally, we benchmark and demonstrate a substantial 4.6% increase in F1-score with the Arabic AraVoiceL2 testset."
+   ],
+   "doi": "10.21437/SLaTE.2023-6"
+  },
+  "ma23_slate": {
+   "authors": [
+    [
+     "Rao",
+     "Ma"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ],
+    [
+     "Katherine M",
+     "Knill"
+    ]
+   ],
+   "title": "Adapting an ASR Foundation Model for Spoken Language Assessment",
+   "original": "15",
+   "page_count": 5,
+   "order": 25,
+   "p1": 104,
+   "pn": 108,
+   "abstract": [
+    "A crucial part of an accurate and reliable spoken language assessment system is the underlying ASR model. Recently, large-scale pre-trained ASR foundation models such as Whisper have been made available. As the output of these models is designed to be human readable, punctuation is added, numbers are presented in Arabic numeric form and abbreviations are included. Additionally, these models have a tendency to skip disfluencies and hesitations in the output. Though useful for readability, these attributes are not helpful for assessing the ability of a candidate and providing feedback. Here a precise transcription of what a candidate said is needed. In this paper, we give a detailed analysis of Whisper outputs and propose two solutions: fine-tuning and soft prompt tuning. Experiments are conducted on both public speech corpora and an English learner dataset. Results show that we can effectively alter the decoding behaviour of Whisper to generate the exact words spoken in the response."
+   ],
+   "doi": "10.21437/SLaTE.2023-20"
+  },
+  "li23_slate": {
+   "authors": [
+    [
+     "Jiun Ting",
+     "Li"
+    ],
+    [
+     "Tien-Hong",
+     "Lo"
+    ],
+    [
+     "Bi-Cheng",
+     "Yan"
+    ],
+    [
+     "Yung-Chang",
+     "Hsu"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "Graph-Enhanced Transformer Architecture with Novel Use of CEFR Vocabulary Profile and Filled Pauses in Automated Speaking Assessment",
+   "original": "16",
+   "page_count": 5,
+   "order": 26,
+   "p1": 109,
+   "pn": 113,
+   "abstract": [
+    "Deep learning (DL)-based approaches, such as LSTM and Transformer, have shown remarkable advancements in automated speaking assessment (ASA). Nevertheless, two challenges persist: faithful modeling of hierarchical context, such as how to portray word-to-paragraph relationships, and seamless integration of hand-crafted knowledge into DL-based model. In this work, we propose utilizing heterogeneous graph neural networks (HGNNs) as the backbone model to handle hierarchical context effectively. Furthermore, to enhance node embeddings in the HGNN, we integrate external knowledge from spoken content, such as text-based features (vocabulary profile) and speech-based features (filled pauses). Experimental results on the NICT JLE corpus validate the efficacy of our approach, achieving superior performance over the existing Transformer-based language models. Our findings also highlight the utility of our method in accurately evaluating speaking proficiency, showcasing its practical promise."
+   ],
+   "doi": "10.21437/SLaTE.2023-21"
+  },
+  "raina23_slate": {
+   "authors": [
+    [
+     "Vatsal",
+     "Raina"
+    ],
+    [
+     "Adian",
+     "Liusie"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ]
+   ],
+   "title": "Analyzing Multiple-Choice Reading and Listening Comprehension Tests",
+   "original": "17",
+   "page_count": 5,
+   "order": 2,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "Multiple-choice reading and listening comprehension tests are an important part of language assessment. Content creators for standard educational tests need to carefully curate questions that assess the comprehension abilities of candidates taking the tests. However, recent work has shown that a large number of questions in general multiple-choice reading comprehension datasets can be answered without comprehension, by leveraging world knowledge instead. This work investigates how much of a contextual passage needs to be read in multiple-choice reading based on conversation transcriptions and listening comprehension tests to be able to work out the correct answer. We find that automated reading comprehension systems can perform significantly better than random with partial or even no access to the context passage. These findings offer an approach for content creators to automatically capture the trade-off between comprehension and world knowledge required for their proposed questions."
+   ],
+   "doi": "10.21437/SLaTE.2023-1"
+  },
+  "elkheir23b_slate": {
+   "authors": [
+    [
+     "Yassine",
+     "EL Kheir"
+    ],
+    [
+     "Shammur",
+     "Chowdhury"
+    ],
+    [
+     "Ahmed",
+     "Ali"
+    ]
+   ],
+   "title": "Multi-View Multi-Task Representation Learning for Mispronunciation Detection",
+   "original": "18",
+   "page_count": 5,
+   "order": 19,
+   "p1": 86,
+   "pn": 90,
+   "abstract": [
+    "The disparity in phonology between learner's native (L1) and target (L2) language poses a significant challenge for mispronunciation detection and diagnosis (MDD) systems. This challenge is further intensified by lack of annotated L2 data. This paper proposes a novel MDD architecture that exploits multiple `views' of the same input data assisted by auxiliary tasks to learn more distinctive phonetic representation in a low-resource setting. Using the mono- and multilingual encoders, the model learn multiple views of the input, and capture the sound properties across diverse languages and accents. These encoded representations are further enriched by learning articulatory features in a multi-task setup. Our reported results using the L2-ARCTIC data outperformed the SOTA models, with a phoneme error rate reduction of 11.13% and 8.60% and absolute F1 score increase of 5.89%, and 2.49% compared to the single-view mono- and multilingual systems, with a limited L2 dataset."
+   ],
+   "doi": "10.21437/SLaTE.2023-18"
+  },
+  "kurimo23_slate": {
+   "authors": [
+    [
+     "Mikko",
+     "Kurimo"
+    ],
+    [
+     "Yaroslav",
+     "Getman"
+    ],
+    [
+     "Ekaterina",
+     "Voskoboinik"
+    ],
+    [
+     "Ragheb",
+     "Al-Ghezi"
+    ],
+    [
+     "Heini",
+     "Kallio"
+    ],
+    [
+     "Mikko",
+     "Kuronen"
+    ],
+    [
+     "Anna",
+     "von Zansen"
+    ],
+    [
+     "Raili",
+     "Hilden"
+    ],
+    [
+     "Sirkku",
+     "Kronholm"
+    ],
+    [
+     "Ari",
+     "Huhta"
+    ],
+    [
+     "Krister",
+     "Linden"
+    ]
+   ],
+   "title": "New data, benchmark and baseline for L2 speaking assessment for low-resource languages",
+   "original": "19",
+   "page_count": 5,
+   "order": 38,
+   "p1": 166,
+   "pn": 170,
+   "abstract": [
+    "The development of large multilingual speech models provides the possibility to construct high-quality speech technology even for low-resource languages. \nIn this paper, we present the speech data of L2 learners of Finnish and Finland Swedish that we have recently collected for training and evaluation of automatic speech recognition (ASR) and speaking assessment (ASA).\nIt includes over 4000 recordings by over 300 students per language in short read-aloud and free-form tasks. The recordings have been manually transcribed and assessed for pronunciation, fluency, range, accuracy, task achievement, and a holistic proficiency level. \nWe present also an ASR and ASA benchmarking setup we have constructed using this data and include results from our baseline systems built by fine-tuning self-supervised multilingual model for the target language.\nIn addition to benchmarking, our baseline system can be used by L2 students and teachers for online self-training and evaluation of oral proficiency."
+   ],
+   "doi": "10.21437/SLaTE.2023-32"
+  },
+  "sun23_slate": {
+   "authors": [
+    [
+     "Haitong",
+     "Sun"
+    ],
+    [
+     "Yingxiang",
+     "Gao"
+    ],
+    [
+     "Yusuke",
+     "Shozui"
+    ],
+    [
+     "Tong",
+     "Ma"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "Sensitivity to Phonemic Contrasts and Insensitivity to Non-phonemic Contrasts of Various Speech Representations Tested for L2 Speech Assessment",
+   "original": "21",
+   "page_count": 5,
+   "order": 8,
+   "p1": 31,
+   "pn": 35,
+   "abstract": [
+    "To assess the segmental aspect of L2 speech produced by various types of learners, researchers and teachers need speech representations which satisfy two conditions of being able to capture phonemic contrasts accurately and ignore non-phonemic contrasts adequately. Acoustically, both of the contrasts can be equally characterized by spectrum envelopes. Therefore, purely acoustic representations such as MFCC cannot satisfy the two conditions. Recently, phonetic posteriorgrams, which are estimated by DNN-based acoustic models of ASR, are used for L2 assessment. More recently, various kinds of self-supervised representations are proposed such as wav2vec2 and WavLM. In this study, by setting up a simple and adequate metric to examine sensitivity to phonemic contrasts and insensitivity to non-phonemic contrasts, various pretrained models are compared. Experiments show WavLM is superior to other self-supervised representations and even better than supervised representations in some cases."
+   ],
+   "doi": "10.21437/SLaTE.2023-7"
+  },
+  "getman23_slate": {
+   "authors": [
+    [
+     "Yaroslav",
+     "Getman"
+    ],
+    [
+     "Ragheb",
+     "Al-Ghezi"
+    ],
+    [
+     "Tamas",
+     "Grosz"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ]
+   ],
+   "title": "Multi-task wav2vec2 Serving as a Pronunciation Training System for Children",
+   "original": "22",
+   "page_count": 5,
+   "order": 9,
+   "p1": 36,
+   "pn": 40,
+   "abstract": [
+    "Computer-assisted learning tools (CAPT) are increasingly reliant on AI tools. Recent studies demonstrated how neural systems pre-trained in a self-supervised fashion, such as wav2vec2, can overcome the data scarcity problem of most CAPT systems, especially if the target users are young children. In most current works, however, the focus lies on fine-tuning these models on a single task, which often leads to catastrophic forgetting and severely limits the capabilities of the fine-tuned model. In this work, we propose the usage of multi-task learning and demonstrate how a single wav2vec2 model can simultaneously generate transcript and assess pronunciation of Swedish children with speech sound disorder and child second language learners of Finnish. We also investigate which layer is the most informative for the rating task. Our multi-task solutions provide higher pronunciation classification performance and competitive ASR accuracy in comparison to the corresponding single-task systems."
+   ],
+   "doi": "10.21437/SLaTE.2023-8"
+  },
+  "wu23_slate": {
+   "authors": [
+    [
+     "Tzu-I",
+     "Wu"
+    ],
+    [
+     "Tien-Hong",
+     "Lo"
+    ],
+    [
+     "Fu-An",
+     "Chao"
+    ],
+    [
+     "Yao-Ting",
+     "Sung"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "Effective Neural Modeling Leveraging Readability Features for Automated Essay Scoring",
+   "original": "24",
+   "page_count": 5,
+   "order": 18,
+   "p1": 81,
+   "pn": 85,
+   "abstract": [
+    "In this work, we propose a promising neural method for automated essay scoring (AES), wherein BERT is taken as the backbone model optimized with an effective metric-based learning approach. We further seek to investigate the complementary role of handcrafted readability features in neural modeling of AES by infusing them into our neural model, while there still has been little work on comprehensively analyzing the effect and utility of such an endeavor. Our findings reveal the essential role of each model component in achieving better performance, especially for the inclusion of readability-aware features as auxiliary information sources. Extensive experiments on a benchmark dataset underscore the promising potential of leveraging metric-based learning and readability-aware features in the development of AES methods. This also lays the foundation for future work managing to optimize these model components for better performance."
+   ],
+   "doi": "10.21437/SLaTE.2023-17"
+  },
+  "muramoto23_slate": {
+   "authors": [
+    [
+     "Daiki",
+     "Muramoto"
+    ],
+    [
+     "Tsuneo",
+     "Kato"
+    ],
+    [
+     "Akihiro",
+     "Tamura"
+    ],
+    [
+     "Seiichi",
+     "Yamamoto"
+    ]
+   ],
+   "title": "Retention Effects of Form-focused English Speaking Training Based on Question-Answering Task in Comparison with Repeating Task using Robot-assisted Language Learning System",
+   "original": "25",
+   "page_count": 5,
+   "order": 27,
+   "p1": 114,
+   "pn": 118,
+   "abstract": [
+    "To acquire oral skills in a second language (L2), L2 learners need to start with form-focused practice that upgrades their declarative knowledge of syntactic forms to procedural knowledge. Even in form-focused practice, learners should construct a meaningful sentence that is coherent with the conversational context. However, if they cannot construct a meaningful sentence by themselves, they have to start from simply repeating a model answer. In this study, we conducted a comparative evaluation of two training methods: one based on a question-answering (QA) task and the other based on a repetition (RP) task using a robot-assisted language learning system. The experimental results showed that the QA-task-based training led to a higher retention effect than the RP-task-based training 10-30 days after the training period, though the results of a post-test on the fifth day were not significantly different between the two groups.\n"
+   ],
+   "doi": "10.21437/SLaTE.2023-22"
+  },
+  "tits23_slate": {
+   "authors": [
+    [
+     "Noé",
+     "Tits"
+    ],
+    [
+     "Zoé",
+     "Broisson"
+    ]
+   ],
+   "title": "Flowchase: a Mobile Application for Pronunciation Training",
+   "original": "28",
+   "page_count": 2,
+   "order": 21,
+   "p1": 93,
+   "pn": 94,
+   "abstract": [
+    "In this paper, we present a solution for providing personalized and instant feedback to English learners through a mobile application, called Flowchase, that is connected to a speech technology able to segment and analyze speech segmental and supra-segmental features.\nThe speech processing pipeline receives linguistic information corresponding to an utterance to analyze along with a speech sample. After validation of the speech sample, a joint forced-alignment and phonetic recognition is performed thanks to a combination of machine learning models based on speech representation learning that provides necessary information for designing a feedback on a series of segmental and supra-segmental pronunciation aspects."
+   ]
+  },
+  "gelin23_slate": {
+   "authors": [
+    [
+     "Lucile",
+     "Gelin"
+    ],
+    [
+     "Morgane",
+     "Daniel"
+    ],
+    [
+     "Thomas",
+     "Pellegrini"
+    ],
+    [
+     "Julien",
+     "Pinquier"
+    ]
+   ],
+   "title": "Comparing phoneme recognition systems on the detection and diagnosis of reading mistakes for young children's oral reading evaluation",
+   "original": "29",
+   "page_count": 5,
+   "order": 3,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "In the scope of our oral reading exercise for 5-8-year-old children, models need to be able to precisely detect and diagnose reading mistakes, which remains a considerable challenge even for state-of-the-art ASR systems. In this paper, we compare hybrid and end-to-end acoustic models trained for phoneme recognition on young learners' speech. We evaluate them not only with phoneme error rates but through detailed phoneme-level misread detection and diagnostic metrics. We show that a traditional TDNNF-HMM model, despite a high PER, is the best at detecting reading mistakes (F1-score 72.6%), but at the cost of low precision (73.8%) and specificity (74.7%), which is pedagogically critical. A recent Transformer+CTC model, to which we applied our synthetic reading mistakes augmentation method, obtains the highest precision (81.8%) and specificity (86.3%), as well as the highest correct diagnosis rate (70.7%), showing it is the best fit for our application."
+   ],
+   "doi": "10.21437/SLaTE.2023-2"
+  },
+  "venkatathirumalakumar23_slate": {
+   "authors": [
+    [
+     "Chowdam",
+     "Venkata Thirumala Kumar"
+    ],
+    [
+     "Meenakshi",
+     "Sirigiraju"
+    ],
+    [
+     "Rakesh",
+     "Vaideeswaran"
+    ],
+    [
+     "Prasanta Kumar",
+     "Ghosh"
+    ],
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ]
+   ],
+   "title": "Can the decoded text from automatic speech recognition effectively detect spoken grammar errors?",
+   "original": "32",
+   "page_count": 5,
+   "order": 10,
+   "p1": 41,
+   "pn": 45,
+   "abstract": [
+    "Language learning involves the correct acquisition of grammar skills. To facilitate learning with computer-assisted systems, automatic spoken grammatical error detection (SGED) is necessary.  This work explores Automatic Speech Recognition (ASR), which decodes text from speech, for SGED. With current advancements in ASR technology, often it can be believed that these systems could capture spoken grammatical errors in the decoded text. However, these systems have an inherent bias from the language model towards the grammatically correct text. We explore the ASR-decoded text from commercially available current state-of-the-art systems considering a text-based GED algorithm and also its word-level confidence score (CS) for SGED. We perform the experiments on the spoken English data collected in-house from 13 subjects speaking 4110 grammatically erroneous and correct sentences. We found the highest relative improvement in SGED with CS is 15.36% compared to that with decoded text plus GED."
+   ],
+   "doi": "10.21437/SLaTE.2023-9"
+  },
+  "shoda23_slate": {
+   "authors": [
+    [
+     "Chihiro",
+     "Shoda"
+    ],
+    [
+     "Yingxiang",
+     "Gao"
+    ],
+    [
+     "Yurun",
+     "He"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Noriko",
+     "Nakanishi"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ]
+   ],
+   "title": "Learners' Prosodic Control in the Task of Expressive Storytelling and Predicted Native Listeners' Impressions of the Learners' Speech",
+   "original": "34",
+   "page_count": 5,
+   "order": 11,
+   "p1": 46,
+   "pn": 50,
+   "abstract": [
+    "Various kinds of L1 transfer are found in L2 speech, which often influence transmission of both linguistic and para-linguistic information. In this study, we focus on how adequately Japanese learners of English can transmit para-linguistic expressions in the task of storytelling. For this aim, we analyze 1) how learners control the prosodic features to express specified emotions and 2) what kind of impressions native listeners perceive from the learners' expressions. For the first analysis, the learners' prosodic control is compared with the corresponding native control. For the second analysis, with speech emotion recognition technology, L2 speech is converted to its emotion posteriorgram. Then, the intended emotions are compared with the perceived emotions. Experiments show the learners have difficulty in imitating the native intensity control, especially when expressing sadness, and distinction among perceived emotions is remarkably reduced."
+   ],
+   "doi": "10.21437/SLaTE.2023-10"
+  },
+  "dong23_slate": {
+   "authors": [
+    [
+     "Wenwei",
+     "Dong"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "End-to-End Mispronunciation Detection and Diagnosis for Non-native English Speech",
+   "original": "36",
+   "page_count": 5,
+   "order": 14,
+   "p1": 61,
+   "pn": 65,
+   "abstract": [
+    "Researchers normally use native data to help develop Mispronunciation Detection and Diagnosis (MD&D) models. However, the models trained on native data, which contains few mispronunciations, tend to ignore pronunciation errors, which might be problematic for the MD&D task. We propose three methods to reduce the mismatch between native models and the MD&D task. First, we randomly replaced a fixed percentage of phones that were error-prone for non-native speakers to adapt the model. Second, we added another Connectionist Temporal Classification (CTC) module to the baseline model, which has smaller classification units than the original CTC and is used to focus on identifying error-prone phones. Third, we further narrowed down the MD&D decoding paths. The results show that, compared to the baseline, the F1 score of the first method improved by 3.38%. The second and third methods can improve the F1 score by 2.12% and 2.95% respectively. The final F1 was improved by 5.39% by methods fusion."
+   ],
+   "doi": "10.21437/SLaTE.2023-13"
+  },
+  "harmsen23_slate": {
+   "authors": [
+    [
+     "Wieke",
+     "Harmsen"
+    ],
+    [
+     "Ferdy",
+     "Hubers"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Measuring Word Correctness in Young Initial Readers: Comparing Assessments from Teachers, Phoneticians, and ASR Models",
+   "original": "37",
+   "page_count": 5,
+   "order": 4,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "Personalized reading instruction requires continuing, up-to-date assessment through word and text reading tests. Current tests administered by teachers who have to assess for each read word whether it is correct or incorrect are time-consuming, mentally demanding, and error-prone. Automatic assessment through ASR technology would be welcome, but needs to be investigated.\nIn this study, we analysed speech recordings of six different first graders (7-8 years old) reading 144 words which were  assessed by 51 teachers, three phoneticians, a Kaldi-based ASR model and an end-to-end ASR model. We investigated to what extent the teachers agree, how to optimally interpret the ASR output, and how readings with phonetic transcriptions that deviate from the prompt are assessed by the teachers and the ASR models. We discuss the results in relation to previous studies and outline avenues for future research."
+   ],
+   "doi": "10.21437/SLaTE.2023-3"
+  },
+  "veeramani23_slate": {
+   "authors": [
+    [
+     "Hariram",
+     "Veeramani"
+    ],
+    [
+     "Natarajan",
+     "Balaji Shankar"
+    ],
+    [
+     "Alexander",
+     "Johnson"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ]
+   ],
+   "title": "Towards Automatically Assessing Children's Oral Picture Description Tasks",
+   "original": "38",
+   "page_count": 2,
+   "order": 28,
+   "p1": 119,
+   "pn": 120,
+   "abstract": [
+    "This paper presents preliminary findings in automatically scoring children's oral assessments during a spontaneous speech task.  Approximately 200 children aged 9-13 perform a picture description task in which they tell a story about an image presented to them.  We then use a BERT-based system to predict assessment scores from input ASR transcripts of the student responses.  Finally, we propose next design steps to make the system more applicable to a educational needs."
+   ]
+  },
+  "wei23_slate": {
+   "authors": [
+    [
+     "Xing",
+     "Wei"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Measuring Intelligibility in Non-native Speech: The Usability of Automatically Extracted Acoustic-Phonetic Features",
+   "original": "39",
+   "page_count": 5,
+   "order": 29,
+   "p1": 121,
+   "pn": 125,
+   "abstract": [
+    "Speech intelligibility (SI) plays an important role in second language learning. It can be influenced by many factors and various approaches have been explored to measure it. In this study, the intelligibility of Dutch non-native speech was measured by Visual Analogue Scale (VAS) and word accuracy (W_Acc) that was automatically derived from orthographic transcriptions (OTs). A large number of acoustic-phonetic features were automatically extracted from the audio files. To deal with the multicollinearity issue, feature reduction through different regression approaches was investigated. The results revealed that, as a whole, the LASSO regression approach outperformed (highest R^2 at 0.52, lowest RMSE and MAE) the other explored regression methods. The regression models predict the intelligibility measures assigned by human raters well. The obtained findings indicate the usability of automatically extracted acoustic-phonetic features to provide a basis for the assessment of SI. "
+   ],
+   "doi": "10.21437/SLaTE.2023-23"
+  },
+  "wei23b_slate": {
+   "authors": [
+    [
+     "Xing",
+     "Wei"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Distinctive Features for Classifying Spoken Native Versus Non-Native Speech",
+   "original": "40",
+   "page_count": 5,
+   "order": 12,
+   "p1": 51,
+   "pn": 55,
+   "abstract": [
+    "Current applications of Automatic Speech Recognition (ASR) based technology for second language learning often require comparisons of native and non-native speech for evaluation and feedback purposes, which are generally based on limited sets of features that might not be the most optimal ones to characterize native as opposed to non-native speech. In the present study, we conducted a systematic comparison based on a large number of standardized acoustic and temporal features. The main aim was to gain insights into which features are most distinguishing. In turn, this knowledge can be employed to develop classifiers that are more suitable to evaluate non-native speech and to provide a solid basis for delivering feedback aimed at improving speech production. The findings indicate that most of the investigated features are significant and the temporal features are also distinctive. We discuss these results in relation to previous research and outline avenues for future investigations."
+   ],
+   "doi": "10.21437/SLaTE.2023-11"
+  },
+  "banno23_slate": {
+   "authors": [
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Katherine M",
+     "Knill"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Vyas",
+     "Raina"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ]
+   ],
+   "title": "Assessment of L2 Oral Proficiency Using Self-Supervised Speech Representation Learning",
+   "original": "41",
+   "page_count": 5,
+   "order": 30,
+   "p1": 126,
+   "pn": 130,
+   "abstract": [
+    "A standard pipeline for automated spoken language assessment is to start with an automatic speech recognition (ASR) system and derive features that exploit transcriptions and audio. Although efficient, these approaches require ASR systems that can be used for second language (L2) speakers and preferably tuned to the specific form of test being deployed. Recently, a self-supervised speech representation-based scheme requiring no ASR was proposed. This work extends the initial analysis to a large-scale proficiency test, Linguaskill. The performance of a self-supervised, wav2vec 2.0, system is compared to a high-performance hand-crafted assessment system and a BERT-based system, both of which use ASR transcriptions. Though the wav2vec 2.0 based system is found to be sensitive to the nature of the response, it can be configured to yield comparable performance to systems requiring transcriptions and shows significant gains when appropriately combined with standard approaches."
+   ],
+   "doi": "10.21437/SLaTE.2023-24"
+  },
+  "shozui23_slate": {
+   "authors": [
+    [
+     "Yusuke",
+     "Shozui"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Noriko",
+     "Nakanishi"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ]
+   ],
+   "title": "Density and Entropy of Spoken Syllables in American English and Japanese English Estimated with Acoustic Word Embeddings",
+   "original": "42",
+   "page_count": 5,
+   "order": 31,
+   "p1": 131,
+   "pn": 135,
+   "abstract": [
+    "In L2 acquisition studies, segmental errors found in L2 speech are often investigated, which can result in word confusion because the segmental errors sometime make two distinct words phonetically closer. In a previous work, word productions of native and non-native speakers were plotted in a word embedding space, and lexical density was estimated separately for each speaker group. In this work, a similar analysis is conducted for native and non-native syllable productions, where American English (AE) and Japanese English (JE) are compared. In Japanese, the number of vowels and consonants is smaller, and the syllable structure is by far simpler. Taking these facts into account, density and entropy of spoken syllables of AE and those of JE are estimated and compared based on word embedding techniques. Experiments show a good potential of syllable density analysis because the syllable density of a speaker has a reasonable correlation with his/her pronunciation proficiency."
+   ],
+   "doi": "10.21437/SLaTE.2023-25"
+  },
+  "banno23b_slate": {
+   "authors": [
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Michela",
+     "Rais"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ]
+   ],
+   "title": "Grammatical Error Correction for L2 Speech Using Publicly Available Data",
+   "original": "43",
+   "page_count": 5,
+   "order": 32,
+   "p1": 136,
+   "pn": 140,
+   "abstract": [
+    "Over the past decades, the demand for learning English as a second language (L2) has grown consistently, as it has gradually become the lingua franca of business, culture, entertainment, and academia. This aspect has contributed to an increasing demand for systems for automatic feedback for applications in Computer-Assisted Language Learning. In this regard, mastering grammar is a key element of L2 speaking proficiency.\n",
+    "In this paper, we illustrate an approach to spoken grammatical error correction (GEC) in a cascaded fashion using only publicly available training data. Specifically, we start from learners' utterances, investigate disfluency detection, and finally explore GEC. We test this pipeline on NICT-JLE, a publicly available L2 corpus, and TLT-GEC, a private dataset that is under preparation for release. We obtain promising results which outperform previous studies that used large proprietary datasets, and we set a potential baseline for future experiments on spoken GEC."
+   ],
+   "doi": "10.21437/SLaTE.2023-26"
+  },
+  "freisinger23_slate": {
+   "authors": [
+    [
+     "Steffen",
+     "Freisinger"
+    ],
+    [
+     "Fabian",
+     "Schneider"
+    ],
+    [
+     "Aaricia",
+     "Herygers"
+    ],
+    [
+     "Munir",
+     "Georges"
+    ],
+    [
+     "Tobias",
+     "Bocklet"
+    ],
+    [
+     "Korbinian",
+     "Riedhammer"
+    ]
+   ],
+   "title": "Unsupervised Multilingual Topic Segmentation of Video Lectures: What can Hierarchical Labels tell us about the Performance?",
+   "original": "44",
+   "page_count": 5,
+   "order": 33,
+   "p1": 141,
+   "pn": 145,
+   "abstract": [
+    "The current shift from in-person to online education, e.g., through video lectures, requires novel techniques for quickly searching for and navigating through media content. At this point, an automatic segmentation of the videos into thematically coherent units can be beneficial. Like in a book, the topics in an educational video are often structured hierarchically. There are larger topics, which in turn are divided into different subtopics. We thus propose a metric that considers the hierarchical levels in the reference segmentation when evaluating segmentation algorithms. In addition, we propose a multilingual, unsupervised topic segmentation approach and evaluate it on three datasets with English, Portuguese and German lecture videos. We achieve WindowDiff scores of up to 0.373 and show the usefulness of our hierarchical metric."
+   ],
+   "doi": "10.21437/SLaTE.2023-27"
+  },
+  "mcghee23_slate": {
+   "authors": [
+    [
+     "Charles G",
+     "McGhee"
+    ],
+    [
+     "Katherine M",
+     "Knill"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ]
+   ],
+   "title": "Towards Acoustic-to-Articulatory Inversion for Pronunciation Training",
+   "original": "45",
+   "page_count": 5,
+   "order": 15,
+   "p1": 66,
+   "pn": 70,
+   "abstract": [
+    "Visual feedback of articulators using ElectromagneticArticulography (EMA) has been shown to aid acquisition of non-native speech sounds. Using physical EMA sensors is expensive and invasive making it impractical for providing\nreal-world pronunciation feedback. Our work focuses on using neural Acoustic-to-Articulatory Inversion (AAI) models to map speech directly to EMA sensor positions. Self-Supervised Learning (SSL) speech models, such as HuBERT, can produce representations of speech that have been shown to significantly\nimprove performance on AAI tasks. Probing experiments have indicated that certain layers and iterations of SSL models produce representations that may yield better inversion performance than others. In this paper, we build on these probing results to create an AAI model that improves upon a state-of-the-art baseline inversion model and evaluate the model’s suitability for pronunciation training."
+   ],
+   "doi": "10.21437/SLaTE.2023-14"
+  },
+  "knill23_slate": {
+   "authors": [
+    [
+     "Katherine M",
+     "Knill"
+    ],
+    [
+     "Diane",
+     "Nicholls"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ],
+    [
+     "Pawel",
+     "Stroinski"
+    ],
+    [
+     "Alex",
+     "Watkinson"
+    ]
+   ],
+   "title": "Annotation of L2 English Speech for Developing and Evaluating End-to-End Spoken Grammatical Error Correction",
+   "original": "46",
+   "page_count": 5,
+   "order": 34,
+   "p1": 146,
+   "pn": 150,
+   "abstract": [
+    "A challenge for automated spoken language assessment and feedback is the lack of high quality manually annotated L2 learner corpora, even for a common language like English. At the same time the popularity of end-to-end systems, which integrate speech recognition (ASR) with downstream tasks, has increased. This paper describes the annotation of a corpus that supports end-to-end system evaluation for Spoken Grammatical Error Correction (SGEC). There raises a number of challenges. This is further complicated as the annotation is preferably able to handle evaluation and development of individual modules, such as ASR, disfluency detection and GEC, combinations of these modules, as well as the final end-to-end system. A detailed description of the process used to annotate data from the Linguaskill Speaking test, a multi-level test for candidates from CEFR levels below A1 to C1 and above, is given. An example of how the corpus has been used to evaluate an advanced SGEC system is presented."
+   ],
+   "doi": "10.21437/SLaTE.2023-28"
+  },
+  "anguera23_slate": {
+   "authors": [
+    [
+     "Xavier",
+     "Anguera"
+    ],
+    [
+     "Jorge",
+     "Proenca"
+    ],
+    [
+     "Kristina",
+     "Gulordava"
+    ],
+    [
+     "Balazs",
+     "Tarjan"
+    ],
+    [
+     "Nicholas",
+     "Parslow"
+    ],
+    [
+     "Vladimir",
+     "Dobrovolskii"
+    ],
+    [
+     "Francisco",
+     "Valente"
+    ],
+    [
+     "Raphael",
+     "Girard"
+    ]
+   ],
+   "title": "ELSA Speech Analyzer: English Communication Assessment of Spontaneous Speech",
+   "original": "47",
+   "page_count": 2,
+   "order": 22,
+   "p1": 95,
+   "pn": 96,
+   "abstract": [
+    "ELSA's Speech Analyzer is a recently released AI-powered English tool that listens to the learner's spontaneous speech and provides them with immediate feedback on their pronunciation, fluency, grammar, and vocabulary. It also predicts what score they would obtain in major English speaking exams. The tool is available on mobile devices and via web browsers. In this paper, we give an overview of the technology that powers Speech Analyzer and show results from our research comparing Speech Analyzer's predicted IELTS test scores of 50 Youtube mock IELTS speaking tests with manually rated grades."
+   ]
+  },
+  "islam23_slate": {
+   "authors": [
+    [
+     "Elaf",
+     "Islam"
+    ],
+    [
+     "Chanho",
+     "Park"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "Exploring Speech Representations for Proficiency Assessment in Language Learning",
+   "original": "48",
+   "page_count": 5,
+   "order": 35,
+   "p1": 151,
+   "pn": 155,
+   "abstract": [
+    "Automatic proficiency assessment can be a useful tool in language learning, for self-evaluation of language skills and to enable educators to tailor instruction effectively. Often assessment methods use categorisation approaches. In this paper an exemplar based approach is chosen, and comparisons between utterances are made using different speech encodings. Such an approach has advantage to avoid formal categorisation of errors by experts. Aside from a standard spectral representation pretrained model embeddings are investigated for the usefulness for this task. Experiments are conducted using speechocean762 database, which provides 3 levels of proficiency. Data was clustered and performance of different representations is assessed in terms of cluster purity as well as categorisation correctness. Cosine distance with whisper representations yielded better clustering performance."
+   ],
+   "doi": "10.21437/SLaTE.2023-29"
+  },
+  "wills23_slate": {
+   "authors": [
+    [
+     "Simone",
+     "Wills"
+    ],
+    [
+     "Cristian",
+     "Tejedor-Garcia"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Enhancing ASR-Based Educational Applications: Peer Evaluation of Non-Native Child Speech",
+   "original": "51",
+   "page_count": 5,
+   "order": 5,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "With recent advancements in automatic speech recognition (ASR), ASR-based educational applications have become increasingly viable. This paper presents a preliminary investigation into whether peer evaluations of the speech produced during the use of these applications, by primary school-aged children, is reliable and valid. Twenty-one Dutch primary school children assessed non-native read speech in terms of intelligibility, accuracy, and reading performance. The children's judgements were compared to those made by adult Dutch speakers, as well as to the performance of the Whisper ASR system. The children proved to be reliable raters with agreement levels en par with the adult group, with findings indicating that primary school-aged children can provide peer evaluation of speech suitable for enhancing the feedback provided by ASR-based language learning applications."
+   ],
+   "doi": "10.21437/SLaTE.2023-4"
+  },
+  "dong23b_slate": {
+   "authors": [
+    [
+     "Wenwei",
+     "Dong"
+    ],
+    [
+     "Akos",
+     "Steger"
+    ],
+    [
+     "Muzakki",
+     "Bashori"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Using Practice Data to Measure the Progress of CALL System Users",
+   "original": "52",
+   "page_count": 5,
+   "order": 13,
+   "p1": 56,
+   "pn": 60,
+   "abstract": [
+    "The potential benefits of Computer-Assisted Language Learning (CALL) systems are often evaluated using resource-heavy pre- and post-tests. However, if a CALL system has an Automatic Speech Recognition (ASR) based scoring function, analyzing practice data from log files might provide sufficient information about user progress in pronunciation. In the current paper, we proposed measuring progress using practice data produced by users. We compared them with a traditional pre- and post-test method. We demonstrate that our automated approach found very similar trends in user progress to human judgment, suggesting its potential usability to simplify laborious pre- and post-test cycles. We analysed four ASR-based pronunciation metrics and extracted 106 acoustic features for all sentences. We observed significant improvements for learners using our CALL system both in terms of pronunciation and acoustic measures, comparable to the trends observed in our traditional pre- and post-test data."
+   ],
+   "doi": "10.21437/SLaTE.2023-12"
+  },
+  "skidmore23_slate": {
+   "authors": [
+    [
+     "Lucy",
+     "Skidmore"
+    ],
+    [
+     "Roger",
+     "Moore"
+    ]
+   ],
+   "title": "BERT Models for Disfluency Detection of Spoken Learner English",
+   "original": "53",
+   "page_count": 2,
+   "order": 20,
+   "p1": 91,
+   "pn": 92,
+   "abstract": [
+    "The automatic detection of hesitations, repetitions, and false starts commonly found in speech is a widely studied area in spoken language processing. Prior research has shown Transformer models to be highly effective at detecting such structures in native (L1) speech, however, these approaches have not yet been applied to learner (L2) data. This paper evaluates the performance of a BERT model that has been fine-tuned on spoken learner English. Results from model testing not only set a new benchmark for L2 disfluency detection comparable to that of L1 results but also show that the model can perform well on unseen corpora and across speaking activity types."
+   ]
+  },
+  "sloan23_slate": {
+   "authors": [
+    [
+     "John",
+     "Sloan"
+    ],
+    [
+     "Neasa",
+     "Ní Chiaráin"
+    ]
+   ],
+   "title": "An Bat Mírialta: Stateful Development of an Irregular Verb Bot for Irish",
+   "original": "54",
+   "page_count": 5,
+   "order": 39,
+   "p1": 171,
+   "pn": 175,
+   "abstract": [
+    "This paper outlines a system description and small-scale usability study of An Bat Mírialta - ('The Irregular Verb Bot'), a newly developed educational application embedded within the Irish intelligent-Computer Assisted Language Learning (iCALL) platform, An Scéalaí (www.abair.ie/scealai). An Bat Mírialta is being developed to aid learners in their mastery of the 11 irregular verbs of Irish. The work is presented in the context of a novel conceptual framework for CALL artefact design, implementation and evaluation -  LeTAT. Challenges and concerns faced in developing an educational technology for a low-resource, endangered language are also described.\n"
+   ],
+   "doi": "10.21437/SLaTE.2023-33"
+  },
+  "nichiarain23_slate": {
+   "authors": [
+    [
+     "Neasa",
+     "Ní Chiaráin"
+    ],
+    [
+     "Oisín",
+     "Nolan"
+    ],
+    [
+     "Neimhin",
+     "Robinson Gunning"
+    ],
+    [
+     "Madeleine",
+     "Comtois"
+    ]
+   ],
+   "title": "Filling the SLaTE: examining the contribution LLMs can make to Irish iCALL content generation",
+   "original": "55",
+   "page_count": 6,
+   "order": 40,
+   "p1": 176,
+   "pn": 181,
+   "abstract": [
+    "The aim of this paper is to investigate whether a large language\nmodel (ChatGPT with GPT 3.5) can be used to generate learner\nprompts as part of the development of a new application, Cén\nScéal?, within the Irish (Gaeilge) iCALL platform, An Scéalaí.\nIn this work an evaluation of the model’s accuracy in generating lists of words within various POS tags is presented, which\nenables an interrogation of the model’s ontology of the lexicon\nand of morphological rules. It is found that the model hallu-\ncinates lexical items, mistranslates words, and makes mistakes\nwith grammatical gender. The consequences of the model’s error rates in these regards are discussed with respect to its suitability for generating content for the Cén Scéal? application. The model was found to produce pedagogically unsound material, but it may still be useful in assisting the manual curation of\nhigh-quality language learning resources."
+   ],
+   "doi": "10.21437/SLaTE.2023-34"
+  },
+  "nichasaide23_slate": {
+   "authors": [
+    [
+     "Ailbhe",
+     "Ní Chasaide"
+    ],
+    [
+     "Neasa",
+     "Ní Chiaráin"
+    ],
+    [
+     "Rian",
+     "Errity"
+    ],
+    [
+     "Oskar",
+     "Mroz"
+    ],
+    [
+     "Ornait",
+     "Ní hAonghusa"
+    ],
+    [
+     "Sibéal",
+     "Ní Chasaide"
+    ],
+    [
+     "Anna",
+     "Giovannini"
+    ],
+    [
+     "Emily",
+     "Barnes"
+    ]
+   ],
+   "title": "Mol an Óige: a phonological awareness and early literacy platform for Irish",
+   "original": "57",
+   "page_count": 5,
+   "order": 41,
+   "p1": 182,
+   "pn": 186,
+   "abstract": [
+    "The Mol an Óige platform for the young learner of Irish, targets phonological awareness and early literacy development, areas of particular difficulty for learners. Firstly, the phonological distinctions of Irish, very different from English, are trained through an immersive environment, where characters bring minimal pairs to life, with songs and stories to aid consolidation, and with quizzes to establish whether the contrasts are acquired. Secondly, the sound contrasts are related to their orthographic representations, and games provide training on the allowed combinations of orthographic letters. TTS is used initially in games involving encoding and decoding of syllables, words and phrases, and eventually to accompany the composition and reading of longer texts.. For the future, the provision of children’s TTS and ASR systems is a priority. The central importance of linguistic and pedagogical expertise highlights the need for an interdisciplinary approach to development."
+   ],
+   "doi": "10.21437/SLaTE.2023-35"
+  },
+  "park23_slate": {
+   "authors": [
+    [
+     "Seongjin",
+     "Park"
+    ],
+    [
+     "Aaron",
+     "Albin"
+    ],
+    [
+     "Rutuja",
+     "Ubale"
+    ]
+   ],
+   "title": "A Punctuation Restoration System For L2 Speech Using Text And Acoustic Features",
+   "original": "58",
+   "page_count": 5,
+   "order": 36,
+   "p1": 156,
+   "pn": 160,
+   "abstract": [
+    "The topic of punctuation restoration has attracted wide interest since the addition of punctuation in ASR transcripts often enhances readability. Previous studies have used sequence-to-sequence or token classification models and various combinations of character, word, and acoustic features. However, relatively few studies have examined the model performance on L2 data, where the task becomes more complicated. The present study proposes a feature fusion method combining a language model with a set of linguistically-motivated acoustic features. Results suggest that using both text and acoustic features improves model performance compare to text-only models, and this improvement is greater in the L2 dataset. Since the proposed system shows reasonable performance on both L1 and L2 data, it can be beneficial for language learning tools, such as grammatical error correction, by producing transcripts that are not only more human-readable but also better suited for downstream services."
+   ],
+   "doi": "10.21437/SLaTE.2023-30"
+  },
+  "gilmartin23_slate": {
+   "authors": [
+    [
+     "Emer",
+     "Gilmartin"
+    ],
+    [
+     "Anna",
+     "Zajko"
+    ],
+    [
+     "Ciara",
+     "Hamilton"
+    ]
+   ],
+   "title": "ListenHere: a CALL integration resource  for migrants in Ireland using local community sourced material",
+   "original": "59",
+   "page_count": 2,
+   "order": 23,
+   "p1": 97,
+   "pn": 98,
+   "abstract": [
+    "We describe ListenHere, an online resource for migrant language education in Ireland, created during the COVID 19 pandemic. The system uses audio and video sourced from the local community as the basis for a range of CALL activities, employs dialogue technology for practice of practical and social situations encountered in the host country, and maintains a resource bank for tutors. The system is available online and in use by migrants and tutors throughout Ireland."
+   ]
+  },
+  "vidal23_slate": {
+   "authors": [
+    [
+     "Jazmín",
+     "Vidal"
+    ],
+    [
+     "Pablo",
+     "Riera"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ]
+   ],
+   "title": "Mispronunciation detection using self-supervised speech representations",
+   "original": "60",
+   "page_count": 5,
+   "order": 16,
+   "p1": 71,
+   "pn": 75,
+   "abstract": [
+    "In recent years, self-supervised learning (SSL) models have produced promising results in a variety of speech-processing tasks, especially in contexts of data scarcity. In this paper, we study the use of SSL models for the task of mispronunciation detection for second language learners. We compare two downstream approaches: 1) training the model for phone recognition (PR) using native English data, and 2) training a model directly for the target task using non-native English data. We compare the performance of these two approaches for various SSL representations as well as a representation extracted from a traditional DNN-based speech recognition model. We evaluate the models on L2Arctic and EpaDB, two datasets of non-native speech annotated with pronunciation labels at the phone level. Overall, we find that using a downstream model trained for the target task gives the best performance and that most upstream models perform similarly for the task. "
+   ],
+   "doi": "10.21437/SLaTE.2023-15"
+  },
+  "bear23_slate": {
+   "authors": [
+    [
+     "Elizabeth",
+     "Bear"
+    ],
+    [
+     "Stephen",
+     "Bodnar"
+    ],
+    [
+     "Xiaobin",
+     "Chen"
+    ]
+   ],
+   "title": "Learner and Linguistic Factors in Commercial ASR Use for Spoken Language Practice: A Focus on Form",
+   "original": "61",
+   "page_count": 5,
+   "order": 37,
+   "p1": 161,
+   "pn": 165,
+   "abstract": [
+    "While there has been increased interest in the use of commercial automatic speech recognition (ASR) technology for second/foreign language (L2) practice, few studies have targeted morphosyntactic form. This study evaluates the performance of five major commercial ASRs in regard to learner factors---native language (L1), proficiency, and gender---and linguistic factors---grammaticality and morphosyntactic structure. We analyzed the recordings of 167 participants of 26 L1 backgrounds reading aloud a series of grammatical and ungrammatical sentences of seven structure types. Our results revealed an interaction between L1 and the particular ASR and a three-way interaction between ASR, grammaticality, and structure type. The findings suggest that, while the use of commercial ASRs for spoken L2 practice is promising, certain structure and error types remain challenging for ASR recognition, which may have implications for the targeting of those structures in L2 activity design."
+   ],
+   "doi": "10.21437/SLaTE.2023-31"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Nancy F. Chen",
+   "papers": [
+    "chen23_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 1 (Reading)",
+   "papers": [
+    "raina23_slate",
+    "gelin23_slate",
+    "harmsen23_slate",
+    "wills23_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 2 (Pronunciation (segmental))",
+   "papers": [
+    "karhila23_slate",
+    "elkheir23_slate",
+    "sun23_slate",
+    "getman23_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 3 (L2 Speech)",
+   "papers": [
+    "venkatathirumalakumar23_slate",
+    "shoda23_slate",
+    "wei23b_slate",
+    "dong23b_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 1 (Pronunciation)",
+   "papers": [
+    "dong23_slate",
+    "mcghee23_slate",
+    "vidal23_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 1 (Text)",
+   "papers": [
+    "gupta23_slate",
+    "wu23_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 1 (Early Career)",
+   "papers": [
+    "elkheir23b_slate",
+    "skidmore23_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 1 (Demos)",
+   "papers": [
+    "tits23_slate",
+    "anguera23_slate",
+    "gilmartin23_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 2 (Spoken Language Analysis)",
+   "papers": [
+    "mcknight23_slate",
+    "ma23_slate",
+    "li23_slate",
+    "muramoto23_slate",
+    "veeramani23_slate",
+    "wei23_slate",
+    "banno23_slate",
+    "shozui23_slate",
+    "banno23b_slate",
+    "freisinger23_slate",
+    "knill23_slate",
+    "islam23_slate",
+    "park23_slate",
+    "bear23_slate"
+   ]
+  },
+  {
+   "title": "Joint SIGUL-SLaTE Session",
+   "papers": [
+    "kurimo23_slate",
+    "sloan23_slate",
+    "nichiarain23_slate",
+    "nichasaide23_slate"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLaTE.2023"
+}

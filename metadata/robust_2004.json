@@ -1,0 +1,954 @@
+{
+ "title": "COST/ISCA Tutorial and Research Workshop on Robustness Issues in Conversational Interaction",
+ "location": "University of East Anglia, Norwich, UK",
+ "startDate": "30/8/2004",
+ "endDate": "31/8/2004",
+ "conf": "Robust",
+ "year": "2004",
+ "name": "robust_2004",
+ "series": "",
+ "SIG": "",
+ "title1": "COST/ISCA Tutorial and Research Workshop on Robustness Issues in Conversational Interaction",
+ "date": "30-31 August 2004",
+ "papers": {
+  "rose04_robust": {
+   "authors": [
+    [
+     "Richard",
+     "Rose"
+    ]
+   ],
+   "title": "Environmental robustness in automatic speech recognition",
+   "original": "rob4_krr",
+   "page_count": 7,
+   "order": 1,
+   "p1": "paper KRR",
+   "pn": "",
+   "abstract": [
+    "The next generation of telecommunications networks promises to provide users with an array of services for providing automated access to sources of online information to be offered over personalized networks. The added mobility provided by this infrastructure will place users in an infinite variety of noisy acoustic environments. While there are many sources of variability that can impact the performance of automatic speech recognition (ASR) systems, the huge variety of potential background events and distortions that can occur in acoustic environments can have a particularly severe impact on ASR performance. This paper describes work that has been performed to address this problem. It also attempts to identify shortcomings in existing approaches and identify where breakthroughs are necessary to advance the current state of the art.\n",
+    ""
+   ]
+  },
+  "stouten04_robust": {
+   "authors": [
+    [
+     "Veronique",
+     "Stouten"
+    ],
+    [
+     "Hugo Van",
+     "Hamme"
+    ],
+    [
+     "Patrick",
+     "Wambacq"
+    ]
+   ],
+   "title": "Multiple stream model-based feature enhancement for noise robust speech recognition",
+   "original": "rob4_12",
+   "page_count": 4,
+   "order": 2,
+   "p1": "paper 12",
+   "pn": "",
+   "abstract": [
+    "In this paper, we motivate the introduction of multiple feature streams to cover the gap between the noise-free and the estimated features in the context of Model-Based Feature Enhancement (MBFE) for noise robust speech recognition. Especially at low local SNR-levels the global MMSE-estimate might not be optimal and its uncertainty is large. Therefore, it is first shown how a constrained quadratic optimisation problem can improve the linear combination weights in the MMSE-formula. Alternatively, these weights are then approximated by K Kronecker deltas. Both approaches are compared by recognition experiments on the Aurora2 task. Also, Multiple Stream MBFE is validated on the large vocabulary Aurora4 benchmark task. On the latter, a decrease in average Word Error Rate could be obtained from 37.73% (no enhancement) to 26.13% (single stream MBFE) and finally, to 24.89% (multiple stream MBFE).\n",
+    ""
+   ]
+  },
+  "yan04_robust": {
+   "authors": [
+    [
+     "Qin",
+     "Yan"
+    ],
+    [
+     "Esfandiar",
+     "Zavarehei"
+    ],
+    [
+     "Saeed",
+     "Vaseghi"
+    ],
+    [
+     "Dimitrios",
+     "Rentzos"
+    ]
+   ],
+   "title": "A formant tracking LP model for speech processing in car/train noise",
+   "original": "rob4_14",
+   "page_count": 4,
+   "order": 3,
+   "p1": "paper 14",
+   "pn": "",
+   "abstract": [
+    "This paper investigates the modeling and estimation of spectral parameters at formants of noisy speech in the presence of car and train noise. Formant estimation using two-dimensional hidden Markov models (2D-HMM) is reviewed and employed to study the influence of noise on observations of formants. The first set of experimental results presented show the influence of car and train noise on the distribution and the estimates of the formant trajectories. Due to the shapes of the spectra of speech and car/train noise, the 1st formant is most affected by noise and the last formant is least affected. The effects of inclusion of formant features in speech recognition at different SNRs are presented. It is shown that formant features provide better performance at low SNRs compared to MFCC features. Finally, for robust estimation of noisy speech, a formant tracking method based on combination of LP-spectral subtraction and Kalman filter is presented. Average formant tracking errors at different SNRs are computed and the results show that after noise reduction the formant tracking errors of 1st formant are reduced by 60%. The de-noised formant tracking LP models can be used for recognition and/or enhancement of noisy speech.\n",
+    ""
+   ]
+  },
+  "dat04_robust": {
+   "authors": [
+    [
+     "Tran Huy",
+     "Dat"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Fumitada",
+     "Itakura"
+    ]
+   ],
+   "title": "Robust SNR estimation of noisy speech based on Gaussian mixture modeling on log-power domain",
+   "original": "rob4_15",
+   "page_count": 4,
+   "order": 4,
+   "p1": "paper 15",
+   "pn": "",
+   "abstract": [
+    "This work presents a blind SNR estimation based on Gaussian mixture modeling (GMM) of observed noisy speech on the log- power domain. By describing SNR measures as the expectation of a function of two random variables of local noise and noisy speech powers on the log-domain, their distributions can be estimated via the EM algorithm. Once the parameters of distributions are estimated, SNR measures can be derived statistically. Both of segmental and global SNR estimations are derived in this work. The experimental results show the effectiveness and robustness of proposed method for different types of noise.\n",
+    ""
+   ]
+  },
+  "tyagi04_robust": {
+   "authors": [
+    [
+     "Vivek",
+     "Tyagi"
+    ],
+    [
+     "Christian",
+     "Wellekens"
+    ]
+   ],
+   "title": "On de-emphasizing the spurious components in the spectral modulation for robust speech recognition",
+   "original": "rob4_24",
+   "page_count": 4,
+   "order": 5,
+   "p1": "paper 24",
+   "pn": "",
+   "abstract": [
+    "It is well known that the peaks in log Mel-filter bank spectrum essentially represent the \"formants\" of the speech signal and are important cues in characterizing the sound. However, the perturbations in the low energy log Mel-filter bank spectrum create unnecessary sensitivity in the cepstral comparison, especially in the presence of the additive noise. In this paper, we present a technique to suppress this unnecessary sensitivity of the log Mel-filter bank spectrum (logMelFBS) of the speech signals, while preserving the fundamental formant structure. From the practical point of view, our technique is quite similar to the spectral root homomorphic deconvolution systems (SRDS) [2]. However, we work with log homomorphic deconvolution system (LHDS) [1] and use an exponentiation of logMelFBS to emphasize the spectral peaks (formants). In experiments with speech signals, it is shown that the proposed technique based features yield a significant increase in speech recognition performance in non-stationary noise conditions when compared directly to the MFCC features, while achieving slightly better performance in clean conditions. The proposed technique yields almost similar performance as compared to the root Mel-cepstral coefficients (RMFCC) in the noisy as well as clean conditions.\n",
+    "s\n",
+    "A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, pp. 771-772, Prentice-Hall, N.J., USA, 1989.\n",
+    "J. S. Lim, \"Spectral Root Homomorphic Deconvolution system,\" IEEE Trans. on ASSP, Vol. ASSP-27, No. 3, June 1979.\n",
+    ""
+   ]
+  },
+  "erdogan04_robust": {
+   "authors": [
+    [
+     "Hakan",
+     "Erdogan"
+    ]
+   ],
+   "title": "Subspace kernel discriminant analysis for speech recognition",
+   "original": "rob4_26",
+   "page_count": 4,
+   "order": 6,
+   "p1": "paper 26",
+   "pn": "",
+   "abstract": [
+    "Kernel Discriminant Analysis (KDA) has been successfully applied to many pattern recognition problems. KDA transforms the original problem into a space of dimension N where N is the number of training vectors. For speech recognition, N is usually prohibitively high increasing computational requirements beyond current computational capabilities. In this paper, we provide a formulation of a subspace version of KDA that enables its application to speech recognition, thus conveniently enabling nonlinear feature space transformations that result in discriminatory lower dimensional features.\n",
+    ""
+   ]
+  },
+  "kepesi04_robust": {
+   "authors": [
+    [
+     "Marián",
+     "Képesi"
+    ],
+    [
+     "Luis",
+     "Weruaga"
+    ]
+   ],
+   "title": "Harmonic tracking-based short-time chirp analysis of speech signals",
+   "original": "rob4_28",
+   "page_count": 4,
+   "order": 7,
+   "p1": "paper 28",
+   "pn": "",
+   "abstract": [
+    "The Short-Time Fourier Transform is the most popular timefrequency analysis tool applied in speech processing. This transform delivers fair quality analysis for periodic signals, but, since speech is quasi-periodic, the transform suffers from blurry harmonic representation when voiced speech undergoes changes in pitch. This frequency variation could be relative high in comparison with the analysis window length, this leading to inconsistent bins in frequency or time domain. This paper is focused on a method to achieve accurate time-frequency representation of speech signals also with changing pitch, and is based on a new self-adaptive analysis tool, called the Short-time Chirp transform (STChT). The basis of this transform is composed of quadratic chirps whose chirp-rate is updated for each analysis segment according to the pitch evolution. The pitch trajectory is estimated segment-by-segment by a new harmonicity analysis tool introduced in this paper. The Short-Time Chirp Transform offers more detailed time-frequency representation of speech signals especially with changing pitch as occurs in normal intonation.\n",
+    ""
+   ]
+  },
+  "tatarinov04_robust": {
+   "authors": [
+    [
+     "Jirí",
+     "Tatarinov"
+    ],
+    [
+     "Petr",
+     "Pollák"
+    ]
+   ],
+   "title": "Hidden Markov models in voice activity detection",
+   "original": "rob4_37",
+   "page_count": 4,
+   "order": 8,
+   "p1": "paper 37",
+   "pn": "",
+   "abstract": [
+    "This paper describes two algorithms for speech/pause detection based on Hidden Markov Models. There are proposed algorithm based on separate training and testing and algorithm on simultaneous training-testing procedure. Algorithm are compared to the differential cepstral detector. HMM based algorithms are successful especially under low SNR . Under higher SNR they reach comparable results to the cepstral detector.\n",
+    ""
+   ]
+  },
+  "strand04_robust": {
+   "authors": [
+    [
+     "Ole Morten",
+     "Strand"
+    ],
+    [
+     "Andreas",
+     "Egeberg"
+    ]
+   ],
+   "title": "Cepstral mean and variance normalization in the model domain",
+   "original": "rob4_38",
+   "page_count": 4,
+   "order": 9,
+   "p1": "paper 38",
+   "pn": "",
+   "abstract": [
+    "In prior work we have demonstrated the noise robustness of a novel microphone solution, the PARAT earplug communication terminal. Here we extend that work with results for the ETSI Advanced Front-End and segmental cepstral mean and variance normalization (CMVN). We also propose a method for doing CMVN in the model domain. This removes the need to train models on normalized features, which may significantly extend the applicability of CMVN. The recognition results are comparable to those of the traditional approach.\n",
+    ""
+   ]
+  },
+  "darch04_robust": {
+   "authors": [
+    [
+     "Jonathan",
+     "Darch"
+    ],
+    [
+     "Ben",
+     "Milner"
+    ],
+    [
+     "Xu",
+     "Shao"
+    ]
+   ],
+   "title": "Formant prediction from MFCC vectors",
+   "original": "rob4_40",
+   "page_count": 4,
+   "order": 10,
+   "p1": "paper 40",
+   "pn": "",
+   "abstract": [
+    "This work proposes a novel method of predicting formant frequencies from a stream of mel-frequency cepstral coefficients (MFCC) feature vectors. Prediction is based on modelling the joint density of MFCC vectors and formant vectors using a Gaussian mixture model (GMM). Using this GMM and an input MFCC vector, two maximum a posteriori (MAP) prediction methods are developed. The first method predicts formants from the closest, in some sense, cluster to the input MFCC vector, while the second method takes a weighted contribution of formants from all clusters. Experimental results are presented using the ETSI Aurora connected digit database and show that the predicted formant frequency is within 3.25% of the reference formant frequency, as measured from hand-corrected formant tracks.\n",
+    ""
+   ]
+  },
+  "pearce04_robust": {
+   "authors": [
+    [
+     "David",
+     "Pearce"
+    ]
+   ],
+   "title": "Robustness to transmission channel - the DSR approach",
+   "original": "rob4_kdp",
+   "page_count": 9,
+   "order": 11,
+   "p1": "paper KDP",
+   "pn": "",
+   "abstract": [
+    "The desire for improved user interfaces for distributed speech and multimodal services on mobile devices has motivated the need for reliable recognition performance over mobile channels. Performance needs to be robust both to background noise and to any errors introduced by the mobile transmission channel. There has been much work in the telecommunications standards bodies to develop standards to achieve this (ETSI Aurora and 3GPP). The Aurora interest in noise robust frontends is well known but in this paper the emphasis is given to the topic of channel robustness. The general area of channel robustness is very large so this paper takes the perspective of mobile telecommunications standards and the Distributed Speech Recognition (DSR) approach to robustness.\n",
+    "As background, the paper first provides an overview of the work in different standards bodies on DSR: the DSR standards created in ETSI Aurora; the work on Speech Enabled Services in 3GPP; the transport protocols in IETF. The different mobile channel types are reviewed next using the particular example of the GSM network. Drawing results from sources in the literature and in the standards bodies, a comparison is made between performance using a voice codec or DSR. Comparison is first made in error-free conditions to separate out the effects of speech compression. Robustness to channel errors is then examined; both with circuit-switched errors and with packet-switched errors. Finally some more advanced error mitigation techniques are cited. These are compatible with the DSR features and can provide even greater robustness with poor channels.\n",
+    ""
+   ]
+  },
+  "cardenallopez04_robust": {
+   "authors": [
+    [
+     "Antonio",
+     "Cardenal-López"
+    ],
+    [
+     "Carmen",
+     "García-Mateo"
+    ]
+   ],
+   "title": "Correlation based soft-decoding for distributed speech recognition over IP networks",
+   "original": "rob4_27",
+   "page_count": 4,
+   "order": 12,
+   "p1": "paper 27",
+   "pn": "",
+   "abstract": [
+    "In this paper we propose a new method for error protection in speech recognition over IP networks. In such scenario, one of the main problems that should be addressed is the problem of packet losses. Several error concealment techniques that have been proposed, like frame repetition or interpolation, have shown to be very efficient when losses appear in short bursts, but their effectiveness is seriously degraded when longer bursts happen. In this work we propose the use of a new Viterbi weighted scheme for improving recognition in this situation. The basic idea is to use a different weighting factor for each component in the feature vector, which is time-varied using an estimation of the statistic correlation as a guide.\n",
+    ""
+   ]
+  },
+  "gomez04_robust": {
+   "authors": [
+    [
+     "Angel M.",
+     "Gómez"
+    ],
+    [
+     "Antonio M.",
+     "Peinado"
+    ],
+    [
+     "Victoria",
+     "Sánchez"
+    ],
+    [
+     "Ben P.",
+     "Milner"
+    ],
+    [
+     "Antonio J.",
+     "Rubio"
+    ]
+   ],
+   "title": "Statistical-based reconstruction methods for speech recognition in IP networks",
+   "original": "rob4_32",
+   "page_count": 4,
+   "order": 13,
+   "p1": "paper 32",
+   "pn": "",
+   "abstract": [
+    "This work shows the performance of statistical-based reconstruction techniques when a burst-like packet loss network is used to transmit speech feature vectors on a DSR architecture. Two different approaches to exploit prior information about the speech are outlined. The first models the sequence of quantized vectors through transition probabilities to make estimations based on data-source information, while the second uses prior knowledge of the means and covariances of the feature vector stream to make a maximum a-posteriori (MAP) estimate of lost vectors. These methods provide better results than those obtained by the AURORA nearest repetition, especially in the presence of bursts of losses. However, they require either a notable amount of memory or a high time complexity. Therefore, a novel solution based on the previous methods is proposed and evaluated.\n",
+    ""
+   ]
+  },
+  "milner04_robust": {
+   "authors": [
+    [
+     "Ben P.",
+     "Milner"
+    ],
+    [
+     "Alastair",
+     "James"
+    ]
+   ],
+   "title": "Packet loss modelling for distributed speech recognition",
+   "original": "rob4_41",
+   "page_count": 4,
+   "order": 14,
+   "p1": "paper 41",
+   "pn": "",
+   "abstract": [
+    "The evaluation of packet loss compensation techniques for distributed speech recognition requires an effective model of packet loss that is capable of reproducing the burst-like occurrence of loss. Several models have been applied to this task and are based on two or three state Markov chains or Markov models. This work reviews these models in terms of their channel characteristics such as the probability of packet loss and average burst length. Validation of the models is made against both GSM error patterns and a wireless LAN channel which demonstrates effective simulation. A series of speech recognition tests show that similar performance is obtained on the real and simulated channels using the packet loss models. Finally a set of model parameters is presented which allows testing across a range of channel conditions.\n",
+    ""
+   ]
+  },
+  "james04_robust": {
+   "authors": [
+    [
+     "Alastair",
+     "James"
+    ],
+    [
+     "Ben P.",
+     "Milner"
+    ]
+   ],
+   "title": "Towards improving the robustness of distributed speech recognition in packet loss",
+   "original": "rob4_42",
+   "page_count": 4,
+   "order": 15,
+   "p1": "paper 42",
+   "pn": "",
+   "abstract": [
+    "This work begins with an analysis into the effect of packet loss on the temporal components of the feature vector stream and its subsequent effect on recognition accuracy. Two methods of packet loss compensation are then compared. Reconstruction methods begin with interpolation and are extended to include prior statistical knowledge of the feature vector stream in the form of MAP estimation of lost vectors. Application of missing feature theory is also used to compensate for packet loss in the decoding phase of recognition. The feature vector is considered in terms of three temporal components, static, velocity and acceleration, and the reliability of these considered individually. Finally interleaving techniques are applied to reduce the perceived average burst lengths. Experimental results are then presented on the ETSI Aurora connected digit database.\n",
+    ""
+   ]
+  },
+  "tan04_robust": {
+   "authors": [
+    [
+     "Zheng-Hua",
+     "Tan"
+    ],
+    [
+     "Børge",
+     "Lindberg"
+    ],
+    [
+     "Paul",
+     "Dalsgaard"
+    ]
+   ],
+   "title": "A comparative study of feature-domain error concealment techniques for distributed speech recognition",
+   "original": "rob4_44",
+   "page_count": 4,
+   "order": 16,
+   "p1": "paper 44",
+   "pn": "",
+   "abstract": [
+    "This paper presents a comparative study of different error concealment (EC) techniques in the context of distributed speech recognition (DSR) that exploits repetition, interpolation or subvector concealment to counteract transmission errors.\n",
+    "A number of experiments are conducted and the results demonstrate that repetition is as good as, or even better than, linear interpolation whereas the subvector concealment shows the best performance in terms of recognition accuracy. Further experiments and analyses are conducted with the purpose of uncovering the reasons for the different characteristics of the EC techniques: speech features are inspected, time normalised distances as well as hidden Markov model (HMM) state durations are compared for different EC techniques.\n",
+    ""
+   ]
+  },
+  "boves04_robust": {
+   "authors": [
+    [
+     "Lou",
+     "Boves"
+    ]
+   ],
+   "title": "Robust conversational system design",
+   "original": "rob4_klb",
+   "page_count": 5,
+   "order": 17,
+   "p1": "paper KLB",
+   "pn": "",
+   "abstract": [
+    "Robustness of conversational systems is a multifaceted issue that involves factors such as the quality and robustness of the ASR module, but also the capabilities of the dialog manager and the interaction design. The techniques for output rendering also play a major role.\n",
+    "Furthermore, \"design\" per se has at least two different meanings, viz. the resulting system, but also the process that was used to produce that system. For the eventual system to be robust it is essential that the design process be user centered.\n",
+    ""
+   ]
+  },
+  "pettersen04_robust": {
+   "authors": [
+    [
+     "Svein G.",
+     "Pettersen"
+    ],
+    [
+     "Magne H.",
+     "Johnsen"
+    ],
+    [
+     "Tor A.",
+     "Myrvoll"
+    ]
+   ],
+   "title": "Task independent speech verification using SB-MVE trained phone models",
+   "original": "rob4_10",
+   "page_count": 4,
+   "order": 18,
+   "p1": "paper 10",
+   "pn": "",
+   "abstract": [
+    "Robust ASR-systems should benefit from detecting when portions of the decoded hypotheses are incorrect. This can be done by including a separate verification module based on statistical hypothesis testing. String based minimum verification error (SB-MVE) training is a promising alternative for improving the corresponding verification-models.\n",
+    "This paper adresses a variant of SB-MVE at the phone level for design of task independent verification modules. The algorithm updates both H0 and H1 phone models. Experiments are performed on \"time of day\" recordings of the Norwegian part of Speechdat (II). The results show a relative decrease in utterance error rate (compared to no verification) from 8 - 37% for false rejection rates ranging from 0 - 25%. Thus the method shows robustness with respect to choice of treshold.\n",
+    ""
+   ]
+  },
+  "skantze04_robust": {
+   "authors": [
+    [
+     "Gabriel",
+     "Skantze"
+    ],
+    [
+     "Jens",
+     "Edlund"
+    ]
+   ],
+   "title": "Early error detection on word level",
+   "original": "rob4_17",
+   "page_count": 4,
+   "order": 19,
+   "p1": "paper 17",
+   "pn": "",
+   "abstract": [
+    "In this paper two studies are presented in which the detection of speech recognition errors on the word level was examined. In the first study, memory-based and transformation-based machine learning was used for the task, using confidence, lexical, contextual and discourse features. In the second study, we investigated which factors humans benefit from when detecting errors. Information from the speech recogniser (i.e. word confidence scores and 5-best lists) and contextual information were the factors investigated. The results show that word confidence scores are useful and that lexical and contextual (both from the utterance and from the discourse) features further improve performance.\n",
+    ""
+   ]
+  },
+  "skantze04b_robust": {
+   "authors": [
+    [
+     "Gabriel",
+     "Skantze"
+    ],
+    [
+     "Jens",
+     "Edlund"
+    ]
+   ],
+   "title": "Robust interpretation in the HIGGINS spoken dialogue system",
+   "original": "rob4_18",
+   "page_count": 4,
+   "order": 20,
+   "p1": "paper 18",
+   "pn": "",
+   "abstract": [
+    "This paper describes PICKERING, the semantic interpreter developed in the HIGGINS project - a research project on error handling in spoken dialogue systems. In the project, the initial efforts are centred on the input side of the system. The semantic interpreter combines a rich set of robustness techniques with the production of deep semantic structures. It allows insertions and non-agreement inside phrases, and combines partial results to return a limited list of semantically distinct solutions. A preliminary evaluation shows that the interpreter performs well under error conditions, and that the built-in robustness techniques contribute to this performance.\n",
+    ""
+   ]
+  },
+  "hajdinjak04_robust": {
+   "authors": [
+    [
+     "Melita",
+     "Hajdinjak"
+    ],
+    [
+     "France",
+     "Mihelic"
+    ]
+   ],
+   "title": "Flexible knowledge representation for robust dialogue management",
+   "original": "rob4_23",
+   "page_count": 4,
+   "order": 21,
+   "p1": "paper 23",
+   "pn": "",
+   "abstract": [
+    "We give the findings and the results of applying the PARADISE framework to the data from Wizard-of-Oz experiments of a developing, bilingual, spoken natural-language dialogue system for weather-information retrieval. An important conclusion is that directing the user to select relevant, available data makes a significant contribution to user satisfaction when dealing with a sparse and dynamical information source that has a timedependent data structure. Therefore, a flexible knowledge representation that will handle this kind of data is needed. We propose a knowledge representation using two relations between temporarily available pieces of information, i.e., the partial order relation set inclusion and the symmetric and reflexive neighbourhood relation, which enable the data model to relate as many data objects as needed and thus give the dialogue manager a greater robustness in considering and offering relevant data.\n",
+    ""
+   ]
+  },
+  "mceleney04_robust": {
+   "authors": [
+    [
+     "Bryan",
+     "McEleney"
+    ],
+    [
+     "Gregory",
+     "OHare"
+    ]
+   ],
+   "title": "Dynamic choice of robust strategies in dialogue management",
+   "original": "rob4_29",
+   "page_count": 4,
+   "order": 22,
+   "p1": "paper 29",
+   "pn": "",
+   "abstract": [
+    "An important tradeoff in error-prone dialogue is between the cost of using more robust dialogue strategies and the cost of recovering from failed understanding without using them. A strategy has to be quantitatively planned for each dialogue state, since too robust a strategy might not have a worthwhile effect on the failure rate. A dialogue manager is described which chooses between strategies that have differing levels of robustness with a view to maximising the efficiency of the dialogue.\n",
+    ""
+   ]
+  },
+  "black04_robust": {
+   "authors": [
+    [
+     "William",
+     "Black"
+    ],
+    [
+     "Andrew",
+     "Conroy"
+    ],
+    [
+     "Adam",
+     "Funk"
+    ],
+    [
+     "Allan",
+     "Ramsay"
+    ],
+    [
+     "Mark",
+     "Stairmand"
+    ],
+    [
+     "Paul",
+     "Thompson"
+    ]
+   ],
+   "title": "Making an information state-based spoken dialogue system less fragile",
+   "original": "rob4_30",
+   "page_count": 4,
+   "order": 23,
+   "p1": "paper 30",
+   "pn": "",
+   "abstract": [
+    "We describe several architectural features of the Athos agentbased framework for the construction of spoken dialogue systems, and additional features in two application demonstrators, AthosMail and AthosNews, that contribute to the robustness of their operation. These include adaptation of recognition resources to personal and application data, use of a broad-coverage robust parser as an intermediate layer between ASR and logical interpretation building, discourse model preinitialization, sophisticated reasoning-based discourse interpreter capable of resolving complex expressions referring to sets and individuals.\n",
+    ""
+   ]
+  },
+  "neto04_robust": {
+   "authors": [
+    [
+     "João P.",
+     "Neto"
+    ],
+    [
+     "Renato",
+     "Cassaca"
+    ]
+   ],
+   "title": "A robust input interface in the scope of the project interactive home of the future",
+   "original": "rob4_34",
+   "page_count": 4,
+   "order": 24,
+   "p1": "paper 34",
+   "pn": "",
+   "abstract": [
+    "This paper presents the work done in the integration of a spoken dialogue system in a new project on an Interactive Home of the Future. This spoken dialogue system gives access to a virtual butler that is able to control the home environment. In this system we combine automatic speech recognition, natural language understanding, speech synthesis and a visual interface based on a realistic animated face. In order to make the system available to the people using the home was necessary several modifications to the system to create a robust input interface.\n",
+    ""
+   ]
+  },
+  "nguyen04_robust": {
+   "authors": [
+    [
+     "Hoá",
+     "Nguyen"
+    ],
+    [
+     "Jean",
+     "Caelen"
+    ]
+   ],
+   "title": "Multi-session dialogue modeling and management in spoken dialogue system",
+   "original": "rob4_35",
+   "page_count": 4,
+   "order": 25,
+   "p1": "paper 35",
+   "pn": "",
+   "abstract": [
+    "We present in this paper a new problem incorporating the multi-session dialogue of a spoken dialogue system. Instead of engaging a single user in a dialogue, we aim at building a dialogue system that allows engage in a dialogue with multiple successive users. The system can then take an intermediary role to communicate with many users in several discontinuous sessions for reaching a good compromise between them. We describe here a new approach for modeling the multi-session dialogue and then we concentrate on the multi-session dialogue management of such a system dedicated to a complete service having several tasks.\n",
+    ""
+   ]
+  },
+  "cohen04_robust": {
+   "authors": [
+    [
+     "Philip R.",
+     "Cohen"
+    ],
+    [
+     "Sanjeev",
+     "Kumar"
+    ],
+    [
+     "Ed",
+     "Kaiser"
+    ]
+   ],
+   "title": "Robust multimodal interaction in challenging environments",
+   "original": "rob4_kpc",
+   "page_count": 4,
+   "order": 26,
+   "p1": "paper KPC",
+   "pn": "",
+   "abstract": [
+    "This paper briefly summarizes recent research documenting increased robustness that results from using multimodal interaction in environments that would challenge current graphical user interfaces, or even interfaces based on single natural communication modalities, such as speech or gesture. Multimodal interfaces that support the mutual disambiguation of modalities [1,2,3] can use one or more modalities or sources of information to overcome errors in another. The results presented in this paper demonstrate this phenomenon for circumstances in which users are highly exerted, and for 3D augmented and virtual reality environments that offer 4 sources of information.\n",
+    ""
+   ]
+  },
+  "erzin04_robust": {
+   "authors": [
+    [
+     "Engin",
+     "Erzin"
+    ],
+    [
+     "Yücel",
+     "Yemez"
+    ],
+    [
+     "A. Murat",
+     "Tekalp"
+    ]
+   ],
+   "title": "Multimodal speaker identification using adaptive decision fusion with reliability weighted summation",
+   "original": "rob4_16",
+   "page_count": 4,
+   "order": 27,
+   "p1": "paper 16",
+   "pn": "",
+   "abstract": [
+    "We present a multimodal open-set speaker identification system that integrates information coming from audio, face and lip motion modalities. For fusion of multiple modalities, the so called product rule with a novel adaptive reliability based weighting structure is employed. The proposed adaptive product rule is more robust in the presence of unreliable modalities, provided that the employed reliability measure is effective in assessment of classifier decisions. The proposed reliability measure, that genuinely fits to the open-set speaker identification problem, is used to assess more robust accept and reject decisions. Experimental results that support this assertion are provided.\n",
+    ""
+   ]
+  },
+  "zhang04_robust": {
+   "authors": [
+    [
+     "Zhipeng",
+     "Zhang"
+    ],
+    [
+     "Hiroyuki",
+     "Manabe"
+    ],
+    [
+     "Tsutomu",
+     "Horikoshi"
+    ],
+    [
+     "Tomoyuki",
+     "Ohya"
+    ]
+   ],
+   "title": "Robust methods for EMG signal processing for audio-EMG-based multi-modal speech recognition",
+   "original": "rob4_21",
+   "page_count": 4,
+   "order": 28,
+   "p1": "paper 21",
+   "pn": "",
+   "abstract": [
+    "This paper proposes robust methods for processing EMG (electromyography) signals in the framework of audio-EMGbased speech recognition. The EMG signals are captured when uttered and used as auxiliary information for recognizing speech. Two robust methods (Cepstral Mean Normalization and Spectral Subtraction) for EMG signal processing are investigated to improve the recognition performance. We also investigate the importance of stream weighting in audio-EMG-based multimodal speech recognition. Experiments are carried out at various noise conditions and the results show the effectiveness of the proposed methods. A significant improvement in word accuracy over the audio-only recognition scheme is achieved by combining the methods.\n",
+    ""
+   ]
+  },
+  "frohlich04_robust": {
+   "authors": [
+    [
+     "Peter",
+     "Fröhlich"
+    ]
+   ],
+   "title": "Increasing interaction robustness of speech-enabled mobile applications by enhancing speech output with non-speech sound",
+   "original": "rob4_22",
+   "page_count": 4,
+   "order": 29,
+   "p1": "paper 22",
+   "pn": "",
+   "abstract": [
+    "Recent improvements in speech technology are expected to change the way we communicate, facilitating access to web services and applications (voice portals, multimodal email clients or games) in various mobile situations. One threshold for broad adoption of speech enabled services is their limited interaction robustness. In this paper, we focus on possibilities to increase interaction robustness by enhancing speech output with non-speech sound. First, we describe the relationship of speech and non-speech output and their contribution to interaction robustness from a user-centered perspective. Second, we report on a user study, in which the addition of non-speech sound to Text-to-Speech (TTS) in an Email reader was evaluated. The results indicate that in most cases the addition of tailored non-speech sounds increases the users ability to perceive the structure and meaning of the audio content and decreases the subjective workload, without leading to a higher user annoyance. Finally, we provide an outline of further, currently ongoing research work on nonspeech sound enhancement of speech output.\n",
+    ""
+   ]
+  },
+  "dupont04_robust": {
+   "authors": [
+    [
+     "Stéphane",
+     "Dupont"
+    ],
+    [
+     "Christophe",
+     "Ris"
+    ],
+    [
+     "Damien",
+     "Bachelart"
+    ]
+   ],
+   "title": "Combined use of close-talk and throat microphones for improved speech recognition under non-stationary background noise",
+   "original": "rob4_31",
+   "page_count": 4,
+   "order": 30,
+   "p1": "paper 31",
+   "pn": "",
+   "abstract": [
+    "This paper intends to summarize recent developments and experimental results related to Automatic Speech Recognition (ASR) using signals captured with a throat-microphone. Due to the proximity of the sensor to the voice source, the signal is naturally less subject to background noise. This however yields speech sounds that have different frequency contents than with traditional microphones, and requires having specific acoustic models. We propose to use the information from both signals by combining the probability vectors provided by both acoustic models.\n",
+    "The systems are evaluated on a connected digit recognition task in French. A database has been recorded for both training the acoustic models and for testing the whole setup. It contains both throat and .ordinary. close-talk signals. To avoid any possibly unrealistic assumption on the effect of noise on each signal, the test portion has been acquired using a background noise played back through loudspeakers.\n",
+    "The ASR experiments that we achieved demonstrate the benefit of using alternative microphones. Relative recognition improvements as high as 80% were obtained on sequences of digits recorded in loud musical environment.\n",
+    ""
+   ]
+  },
+  "yoshinaga04_robust": {
+   "authors": [
+    [
+     "Tomoaki",
+     "Yoshinaga"
+    ],
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Audio-visual speech recognition using new lip features extracted from side-face images",
+   "original": "rob4_33",
+   "page_count": 4,
+   "order": 31,
+   "p1": "paper 33",
+   "pn": "",
+   "abstract": [
+    "This paper proposes new visual features for audio-visual speech recognition using lip information extracted from side-face images. In order to increase the noise-robustness of speech recognition, we have proposed an audio-visual speech recognition method using speaker lip information extracted from side-face images taken by a small camera installed in a mobile device. Our previous method used only movement information of lips, measured by optical-flow analysis, as a visual feature. However, since shape information of lips is also obviously important, this paper attempts to combine lip-shape information with lip-movement information to improve the audio-visual speech recognition performance. A combination of an angle value between upper and lower lips (lip-angle) and its derivative is extracted as lip-shape features. Effectiveness of the lip-angle features has been evaluated under various SNR conditions. The proposed features improved recognition accuracies in all SNR conditions in comparison with audio-only recognition results. The best improvement of 8.0% in absolute value was obtained at 5dB SNR condition. Combining the lip-angle features with our previous features extracted by the optical-flow analysis yielded further improvement. These visual features were confirmed to be effective even when the audio HMM used in our method was adapted to noise by the MLLR method.\n",
+    ""
+   ]
+  },
+  "duchateau04_robust": {
+   "authors": [
+    [
+     "Jacques",
+     "Duchateau"
+    ],
+    [
+     "Tom",
+     "Laureys"
+    ],
+    [
+     "Patrick",
+     "Wambacq"
+    ]
+   ],
+   "title": "Adding robustness to language models for spontaneous speech recognition",
+   "original": "rob4_11",
+   "page_count": 4,
+   "order": 32,
+   "p1": "paper 11",
+   "pn": "",
+   "abstract": [
+    "Compared to dictation systems, recognition systems for spontaneous speech still perform rather poorly. An important weakness in these systems is the statistical language model, mainly due to the lack of large amounts of stylistically matching training data and to the occurrence of disfluencies in the recognition input. In this paper we investigate a method for improving the robustness of a spontaneous language model by flexible manipulation of the prediction context when disfluencies occur. In the case of repetitions, we obtained significantly better recognition results on a benchmark Switchboard test set.\n",
+    ""
+   ]
+  },
+  "zgank04_robust": {
+   "authors": [
+    [
+     "Andrej",
+     "Zgank"
+    ],
+    [
+     "Zdravko",
+     "Kacic"
+    ],
+    [
+     "Klara",
+     "Vicsi"
+    ],
+    [
+     "Gyorgy",
+     "Szaszak"
+    ],
+    [
+     "Frank",
+     "Diehl"
+    ],
+    [
+     "Jozef",
+     "Juhar"
+    ],
+    [
+     "Slavomir",
+     "Lihan"
+    ]
+   ],
+   "title": "Crosslingual transfer of source acoustic models to two different target languages",
+   "original": "rob4_19",
+   "page_count": 4,
+   "order": 33,
+   "p1": "paper 19",
+   "pn": "",
+   "abstract": [
+    "This paper presents the ongoing work on crosslingual speech recognition in the MASPER initiative. Source acoustic models were transferred to two different target languages - Hungarian and Slovenian. Beside the monolingual source acoustic models, also a semi-multilingual set was defined. An expert-knowledge approach and a data-driven method were applied for transfer. The crosslingual speech recognition results were used to analyse the robustness of different source acoustic models respective the language similarity influence.\n",
+    ""
+   ]
+  },
+  "stouten04b_robust": {
+   "authors": [
+    [
+     "Frederik",
+     "Stouten"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ]
+   ],
+   "title": "Benefits of disfluency detection in spontaneous speech recognition",
+   "original": "rob4_20",
+   "page_count": 4,
+   "order": 34,
+   "p1": "paper 20",
+   "pn": "",
+   "abstract": [
+    "Nowadays, automatic speech recognizers have become quite good in recognizing well prepared fluent speech (e.g. news readings). However, the recognition of spontaneous speech is still problematic. Some reasons for this are that spontaneous speech is usually less articulated and that it can contain a lot of disfluencies such as filled pauses (FPs), abbreviatons, repetitions, etc. In this paper, a new methodology for coping with FPs is presented. The basic idea is to detect FPs, and let this information control/modify the search for word hypotheses. Just counting normal words (excluding FPs), we can presently eliminate about one word error per FP occurring in the speech, and this without introducing a significant augmentation of the computational load.\n",
+    ""
+   ]
+  },
+  "gajic04_robust": {
+   "authors": [
+    [
+     "Bojana",
+     "Gajic"
+    ],
+    [
+     "Vidar",
+     "Markhus"
+    ],
+    [
+     "Svein Gunnar",
+     "Pettersen"
+    ],
+    [
+     "Magne Hallstein",
+     "Johnsen"
+    ]
+   ],
+   "title": "Automatic recognition of spontaneously dictated medical records for norwegian",
+   "original": "rob4_43",
+   "page_count": 4,
+   "order": 35,
+   "p1": "paper 43",
+   "pn": "",
+   "abstract": [
+    "Automatic transcription of spontaneously dictated medical records has a large potential for improving the quality and reducing the cost of patient care in Norwegian hospitals. In this paper, we describe the design of an evaluation database for this task, and study the occurrence of typical disfluencies. Furthermore, we study the improvements of word accuracy obtained by the use of speaker adaptation and different methods of modeling speaker generated noise.\n",
+    "Explicit modeling of speaker generated noise gave 6.5% improvement across all speakers, while the improvements for the individual speakers ranged up to 14%. Speaker adaptation gave additional 20% improvement accross all speakers, while the improvements for the individual speakers ranged up to 34%.\n",
+    "The best overall word accuracy is still of only approximately 50%, which is far below the requirement for a practical system. It is however expected that a considerable improvement could be achieved by training an appropriate language model.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Robustness Against Environmental Noise",
+   "papers": [
+    "rose04_robust",
+    "stouten04_robust",
+    "yan04_robust",
+    "dat04_robust",
+    "tyagi04_robust",
+    "erdogan04_robust",
+    "kepesi04_robust",
+    "tatarinov04_robust",
+    "strand04_robust",
+    "darch04_robust"
+   ]
+  },
+  {
+   "title": "Robustness Against Unreliable Transmission Channels",
+   "papers": [
+    "pearce04_robust",
+    "cardenallopez04_robust",
+    "gomez04_robust",
+    "milner04_robust",
+    "james04_robust",
+    "tan04_robust"
+   ]
+  },
+  {
+   "title": "Robust Conversational System Design",
+   "papers": [
+    "boves04_robust",
+    "pettersen04_robust",
+    "skantze04_robust",
+    "skantze04b_robust",
+    "hajdinjak04_robust",
+    "mceleney04_robust",
+    "black04_robust",
+    "neto04_robust",
+    "nguyen04_robust"
+   ]
+  },
+  {
+   "title": "Inclusion of Non-Speech Modalities to Improve Robustness",
+   "papers": [
+    "cohen04_robust",
+    "erzin04_robust",
+    "zhang04_robust",
+    "frohlich04_robust",
+    "dupont04_robust",
+    "yoshinaga04_robust"
+   ]
+  },
+  {
+   "title": "Robustness to Speaker Variability",
+   "papers": [
+    "duchateau04_robust",
+    "zgank04_robust",
+    "stouten04b_robust",
+    "gajic04_robust"
+   ]
+  }
+ ]
+}

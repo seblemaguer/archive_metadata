@@ -1,0 +1,838 @@
+{
+ "title": "International Workshop on Spoken Language Translation (IWSLT 2004)",
+ "location": "Keihanna Science City, Kyoto, Japan",
+ "startDate": "30/9/2004",
+ "endDate": "1/10/2004",
+ "conf": "IWSLT",
+ "year": "2004",
+ "name": "iwslt_2004",
+ "series": "IWSLT",
+ "SIG": "",
+ "title1": "International Workshop on Spoken Language Translation",
+ "title2": "(IWSLT 2004)",
+ "date": "30 September - 1 October 2004",
+ "booklet": "iwslt_2004.pdf",
+ "papers": {
+  "ney04_iwslt": {
+   "authors": [
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "The statistical approach to spoken language translation",
+   "original": "slt4_201",
+   "page_count": 0,
+   "order": 1,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "During the last few years, the statistical approach has found widespread use in machine translation of both written and spoken language. In many comparative evaluations, the statistical approach was found to be competitive or superior to the existing conventional approaches. Like other natural language processing tasks, machine translation requires four major components: an error measure for the decision rule that is used to generate the target sentence from the source sentence; a set of probability models that replace the true but unknown probability distributions in the decision rule, a training criterion that is used to learn the unknown model parameters from training data; an efficient implementation of the decision rule, which is referred to as generation or, like in speech recognition, as search or decoding.\n",
+    "We will consider each of these four components in more detail and review the attempts that have been made to improve the state of the art. In addition, we will address the problem of recognition-translation integration which is specific of spoken language translation.\n",
+    ""
+   ]
+  },
+  "tsujii04_iwslt": {
+   "authors": [
+    [
+     "Jun'ichi",
+     "Tsujii"
+    ]
+   ],
+   "title": "How long will we be able to ignore linguistic knowledge and their formalisms?",
+   "original": "slt4_202",
+   "page_count": 0,
+   "order": 2,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "The paradigms of MT proposed so far have their own attractions such as SBMT being good for rapid development of MT systems, EBMT for non-compositional translation, etc. However, it is becoming increasingly clear that proper theories of language are also crucial for quality of NLP systems. In this talk, we will argue that grammar in proper linguistic formalisms can improve performances of systems based on ill-conceived grammarCand that it is the time for another paradigm shift in NLP in general and MT in particular.   Our experience in parsing has show a parser that uses linguistically sound formalisms with substantial knowledge of lexical items can not only supersede the performance of parsers based on arbitrary forms of grammar but also improve adaptability towards specific domain and widen the scope of applicability in actual NLP application systems. Good grammar formalisms also provide better bases for statistical language models. Since MT have to deal with diverse aspects of language, we need to avoid the naive distinction of different MT paradigms and start to pursue possible integration of good ideas in different paradigms.\n",
+    ""
+   ]
+  },
+  "akiba04_iwslt": {
+   "authors": [
+    [
+     "Yasuhiro",
+     "Akiba"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ],
+    [
+     "Noriko",
+     "Kando"
+    ],
+    [
+     "Hiromi",
+     "Nakaiwa"
+    ],
+    [
+     "Michael",
+     "Paul"
+    ],
+    [
+     "Jun'ichi",
+     "Tsujii"
+    ]
+   ],
+   "title": "Overview of the IWSLT04 evaluation campaign",
+   "original": "slt4_001",
+   "page_count": 12,
+   "order": 3,
+   "p1": "1",
+   "pn": "12",
+   "abstract": [
+    "This paper gives an overview of the evaluation campaign results of the IWSLT041 workshop, which is organized by the C-STAR2 consortium to investigate novel speech translation technologies and their evaluation. The objectives of this workshop is to provide a framework for the applicability validation of existing machine translation evaluation methodologies to evaluate speech translation technologies. The workshop also strives to find new directions in how to improve current methods.\n",
+    ""
+   ]
+  },
+  "lee04_iwslt": {
+   "authors": [
+    [
+     "Young-Suk",
+     "Lee"
+    ],
+    [
+     "Salim",
+     "Roukos"
+    ]
+   ],
+   "title": "IBM spoken language translation system evaluation",
+   "original": "slt4_039",
+   "page_count": 8,
+   "order": 4,
+   "p1": "39",
+   "pn": "46",
+   "abstract": [
+    "We discuss phrase-based statistical machine translation performance enhancing techniques which have proven effective for Japanese-to-English and Chinese-to- English translation of BTEC corpus. We also address some issues that arise in conversational speech translation quality evaluations.\n",
+    ""
+   ]
+  },
+  "bertoldi04_iwslt": {
+   "authors": [
+    [
+     "Nicola",
+     "Bertoldi"
+    ],
+    [
+     "Roldano",
+     "Cattoni"
+    ],
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "The ITC-irst statistical machine translation system for IWSLT-2004",
+   "original": "slt4_051",
+   "page_count": 8,
+   "order": 5,
+   "p1": "51",
+   "pn": "58",
+   "abstract": [
+    "Focus of this paper is the system for statistical machine translation developed at ITC-irst. It has been employed in the evaluation campaign of the International Workshop on Spoken Language Translation 2004 in all the three data set conditions of the Chinese-English track. Both the statistical model underlying the system and the system architecture are presented. Moreover, details are given on how the submitted runs have been produced.\n",
+    ""
+   ]
+  },
+  "thayer04_iwslt": {
+   "authors": [
+    [
+     "Ignacio",
+     "Thayer"
+    ],
+    [
+     "Emil",
+     "Ettelaie"
+    ],
+    [
+     "Kevin",
+     "Knight"
+    ],
+    [
+     "Daniel",
+     "Marcu"
+    ],
+    [
+     "Dragos Stefan",
+     "Munteanu"
+    ],
+    [
+     "Franz Joseph",
+     "Och"
+    ],
+    [
+     "Quamrul",
+     "Tipu"
+    ]
+   ],
+   "title": "The ISI/USC MT system",
+   "original": "slt4_059",
+   "page_count": 2,
+   "order": 6,
+   "p1": "59",
+   "pn": "60",
+   "abstract": [
+    "The ISI/USC machine translation system is a statistical system based on a phrase translation model that is trained on bilingual parallel data. This translation model is combined with several other knowledge sources in a log-linear manner. The weights of the individual components in the log-linear model are set by an automatic parameter-tuning method. The system described here has been developed for translating news text, and is a simplified version of the one we participated with in the NIST 2004 MT evaluation. We give a brief overview of the components of the system and discuss its performance at IWSLT.\n",
+    ""
+   ]
+  },
+  "vogel04_iwslt": {
+   "authors": [
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Sanjika",
+     "Hewavitharana"
+    ],
+    [
+     "Muntsin",
+     "Kolss"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "The ISL statistical translation system for spoken language translation",
+   "original": "slt4_065",
+   "page_count": 8,
+   "order": 7,
+   "p1": "65",
+   "pn": "72",
+   "abstract": [
+    "In this paper we describe the components of our statistical machine translation system used for the spoken language translation evaluation campaign. This system is based on phrase-to-phrase translations extracted from a bilingual corpus. A new phrase alignment approaches will be introduced, which finds the target phrase by optimizing the overall word-to-word alignment for the sentence pair under the constraint that words within the source phrase are only aligned to words within the target phrase. The system will be used for Chinese-to-English translations under the small, additional and unlimited data conditions, and for the small Japanese-to-English translation track.\n",
+    ""
+   ]
+  },
+  "bender04_iwslt": {
+   "authors": [
+    [
+     "Oliver",
+     "Bender"
+    ],
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Alignment templates: the RWTH SMT system",
+   "original": "slt4_079",
+   "page_count": 6,
+   "order": 8,
+   "p1": "79",
+   "pn": "84",
+   "abstract": [
+    "In this paper, we describe the RWTH statistical machine translation (SMT) system which is based on log-linear model combination. All knowledge sources are treated as feature functions which depend on the source language sentence, the target language sentence and possible hidden variables. The main feature of our approach are the alignment templates which take shallow phrase structures into account: a phrase level alignment between phrases and a word level alignment between single words within the phrases. Thereby, we directly consider word contexts and local reorderings. In order to incorporate additional models (the IBM-1 statistical lexicon model, a word deletion model, and higher order language models), we perform n-best list rescoring. Participating in the International Workshop on Spoken Language Translation (IWSLT 2004), we evaluate our system on the Basic Travel Expression Corpus (BTEC) Chinese-to-English and Japanese-to-English tasks.\n",
+    ""
+   ]
+  },
+  "gispert04_iwslt": {
+   "authors": [
+    [
+     "Adrià de",
+     "Gispert"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ]
+   ],
+   "title": "TALP: Xgram-based spoken language translation system",
+   "original": "slt4_085",
+   "page_count": 6,
+   "order": 9,
+   "p1": "85",
+   "pn": "90",
+   "abstract": [
+    "This paper introduces TALP, a speech-to-speech statistical machine translation system developed at the TALP Research Center (Barcelona, Spain). TALP generates translations by searching for the best scoring path through a Finite-State Transducers (FSTs), which models an Xgram of the bilingual language defined by tuples. A detailed description of the system and the core processes to train it from a parallel corpus are presented. Results on the Chinese-English supplied task of the Int. Workshop on Spoken Language Translation (IWSLT'04) Evaluation Campaign are shown and discussed.\n",
+    ""
+   ]
+  },
+  "blanchon04_iwslt": {
+   "authors": [
+    [
+     "Hervé",
+     "Blanchon"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ],
+    [
+     "Francis",
+     "Brunet-Manquat"
+    ],
+    [
+     "Mutsuko",
+     "Tomokiyo"
+    ],
+    [
+     "Agnès",
+     "Hamon"
+    ],
+    [
+     "Vo Trung",
+     "Hung"
+    ],
+    [
+     "Youcef",
+     "Bey"
+    ]
+   ],
+   "title": "Towards fairer evaluations of commercial MT systems on basic travel expressions corpora",
+   "original": "slt4_021",
+   "page_count": 6,
+   "order": 10,
+   "p1": "21",
+   "pn": "26",
+   "abstract": [
+    "We compare the performance of several SYSTRAN systems on the BTEC corpus. Two language pairs: Chinese to English and Japanese to English are used. Whenever it is possible the system will be used “off the shelf” and then tuned.   The first system we use is freely available on the web. The second system, SYSTRAN Premium, is commercial. It is used in two ways: (1) choosing and ordering available original dictionaries and setting parameters, (2) same + user dictionaries.   As far as the evaluation is concerned, we competed in the unlimited data track.\n",
+    ""
+   ]
+  },
+  "yang04_iwslt": {
+   "authors": [
+    [
+     "Muyun",
+     "Yang"
+    ],
+    [
+     "Tiejun",
+     "Zhao"
+    ],
+    [
+     "Haijie",
+     "Liu"
+    ],
+    [
+     "Xiaosheng",
+     "Shi"
+    ],
+    [
+     "Hongfei",
+     "Jiang"
+    ]
+   ],
+   "title": "Auto word alignment based Chinese-English EBMT",
+   "original": "slt4_027",
+   "page_count": 3,
+   "order": 11,
+   "p1": "27",
+   "pn": "29",
+   "abstract": [
+    "We present a bidirectional Example-Based Machine Translation (EBMT) system for Chinese—English. The prerequisite is a bilingual aligned corpus of Chinese—English sentences, and we describe the example extraction efforts purely based on word alignment. The whole system is designed to be language independent and as automatic as possible for construction. We present initial experiments which show that our algorithm can successfully generate better translations for the domain in question than the baseline rule based system.\n",
+    ""
+   ]
+  },
+  "hou04_iwslt": {
+   "authors": [
+    [
+     "Hongxu",
+     "Hou"
+    ],
+    [
+     "Dan",
+     "Dang"
+    ],
+    [
+     "Gang",
+     "Zou"
+    ],
+    [
+     "Hongkui",
+     "Yu"
+    ],
+    [
+     "Yang",
+     "Liu"
+    ],
+    [
+     "Deyi",
+     "Xiong"
+    ],
+    [
+     "Qun",
+     "Liu"
+    ]
+   ],
+   "title": "An EBMT system based on word alignment",
+   "original": "slt4_047",
+   "page_count": 3,
+   "order": 12,
+   "p1": "47",
+   "pn": "49",
+   "abstract": [
+    "This system is an experiment of examples based approach. It is based on a corpus containing 220 thousand sentence pairs with word alignment. The system contains four parts: matching and search, fragment matching, fragment assembling, evaluation and post processing. We use word alignment information to find and combine fragments.\n",
+    ""
+   ]
+  },
+  "aramaki04_iwslt": {
+   "authors": [
+    [
+     "Eiji",
+     "Aramaki"
+    ],
+    [
+     "Sadao",
+     "Kurohashi"
+    ]
+   ],
+   "title": "Example-based machine translation using structural translation examples",
+   "original": "slt4_091",
+   "page_count": 4,
+   "order": 13,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "This paper proposes an example-based machine translation system which handles structural translation examples. The structural translation examples have the potential advantage of high-usability. However, technologies which build such translation examples are still being developed. In such a situation, the comparison of the proposed system and the other approach systems is meaningful. This paper presents the system algorithm and its performance on the IWSLT04 Japanese-English unrestricted task.\n",
+    ""
+   ]
+  },
+  "sumita04_iwslt": {
+   "authors": [
+    [
+     "Eiichiro",
+     "Sumita"
+    ],
+    [
+     "Yasuhiro",
+     "Akiba"
+    ],
+    [
+     "Takao",
+     "Doi"
+    ],
+    [
+     "Andrew",
+     "Finch"
+    ],
+    [
+     "Kenji",
+     "Imamura"
+    ],
+    [
+     "Hideo",
+     "Okuma"
+    ],
+    [
+     "Michael",
+     "Paul"
+    ],
+    [
+     "Mitsuo",
+     "Shimohata"
+    ],
+    [
+     "Taro",
+     "Watanabe"
+    ]
+   ],
+   "title": "EBMT, SMT, hybrid and more: ATR spoken language translation system",
+   "original": "slt4_013",
+   "page_count": 8,
+   "order": 14,
+   "p1": "13",
+   "pn": "20",
+   "abstract": [
+    "This paper introduces ATR's project named Corpus-Centered Computation (C3), which aims at developing a translation technology suitable for spoken language translation. C3 places corpora at the center of its technology. Translation knowledge is extracted from corpora, translation quality is gauged by referring to corpora, the best translation among multiple-engine outputs is selected based on corpora, and the corpora themselves are paraphrased or filtered by automated processes to improve the data quality on which translation engines are based.   In particular, this paper reports the hybridization architecture of different machine translation systems, our technologies, their performance on the IWSLT04 task, and paraphrasing methods.\n",
+    ""
+   ]
+  },
+  "langlais04_iwslt": {
+   "authors": [
+    [
+     "Philippe",
+     "Langlais"
+    ],
+    [
+     "Michael",
+     "Carl"
+    ],
+    [
+     "Oliver",
+     "Streiter"
+    ]
+   ],
+   "title": "Experimenting with phrase-based statistical translation within the IWSLT 2004 Chinese-to-English shared translation task",
+   "original": "slt4_031",
+   "page_count": 8,
+   "order": 15,
+   "p1": "31",
+   "pn": "38",
+   "abstract": [
+    "This paper describes the system we built for the Chinese to English track of the IWSLT 2004 evaluation campaign. A one month effort was devoted to this exercise, starting from scratch and making use as much as possible of freely available packages. We show that a decent phrase-based translation engine can be built within this short time frame.\n",
+    ""
+   ]
+  },
+  "reichert04_iwslt": {
+   "authors": [
+    [
+     "Jürgen",
+     "Reichert"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "The ISL EDTRL system",
+   "original": "slt4_061",
+   "page_count": 4,
+   "order": 16,
+   "p1": "61",
+   "pn": "64",
+   "abstract": [
+    "For the translation of text and speech, statistical methods on one side and interlingua based methods on the other have been used successfully. However, the former requires programming grammars for each language, plus the design of an interlingua, while the latter requires the collection of a large parallel corpus for every language pair. To alleviate these problems, we propose an approach that combines the advantages from both worlds. The proposed approach makes use of English or enriched English as an interlingua and can cascade data-driven translation systems into and from this interlingua. We show that enriching English with linguistic information that is automatically derived i only on English data performs better than pure cascaded systems.\n",
+    ""
+   ]
+  },
+  "zuo04_iwslt": {
+   "authors": [
+    [
+     "Yuncun",
+     "Zuo"
+    ],
+    [
+     "Yu",
+     "Zhou"
+    ],
+    [
+     "Chengqing",
+     "Zong"
+    ]
+   ],
+   "title": "Multi-engine based Chinese-to-English translation system",
+   "original": "slt4_073",
+   "page_count": 5,
+   "order": 17,
+   "p1": "73",
+   "pn": "77",
+   "abstract": [
+    "This paper describes a Multi-Engine based Chinese-to- English spoken language translation system. The design and implementation of the system is given in detail. Three different translation engines are employed in the system and a very simple way is proposed to select the best translation from all the outputs generated by them. The evaluation results from IWSLT2004 are reported and analyzed in detail. The results prove that the Multi-Engine based system is practical.\n",
+    ""
+   ]
+  },
+  "blanchon04b_iwslt": {
+   "authors": [
+    [
+     "Hervé",
+     "Blanchon"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ]
+   ],
+   "title": "Spoken dialogue translation systems evaluation: results, new trends, problems and proposals",
+   "original": "slt4_095",
+   "page_count": 8,
+   "order": 18,
+   "p1": "95",
+   "pn": "102",
+   "abstract": [
+    "It is important to evaluate Spoken Dialogue Translation Systems, but as we show by analyzing evaluation methods in the Verbmobil, C-STAR II, and the Nespole! projects, the current state of the art is not fully satisfactory. Subjective methods are too costly, and objective methods, although cheaper, don't give good indications about usability. We propose some ideas to improve that situation.\n",
+    ""
+   ]
+  },
+  "cettolo04_iwslt": {
+   "authors": [
+    [
+     "Mauro",
+     "Cettolo"
+    ],
+    [
+     "Marcello",
+     "Federico"
+    ]
+   ],
+   "title": "Minimum error training of log-linear translation models",
+   "original": "slt4_103",
+   "page_count": 4,
+   "order": 19,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "Recent work on training of log-linear interpolation models for statistical machine translation reported performance improvements by optimizing parameters with respect to translation quality, rather than to likelihood oriented criteria. This work presents an alternative and more direct training procedure for log-linear interpolation models. In addition, we point out the subtle interaction between log-linear models and the beam search algorithm. Experimental results are reported on two Chinese-English evaluation sets, C-Star 2003 and Nist 2003, by using a statistical phrase-based model derived from Model 4. By optimizing parameters with respect to the BLUE score, performance relative improvements by 9.6% and 2.8% were achieved, respectively.\n",
+    ""
+   ]
+  },
+  "gispert04b_iwslt": {
+   "authors": [
+    [
+     "Adrià de",
+     "Gispert"
+    ],
+    [
+     "José B.",
+     "Mariño"
+    ],
+    [
+     "Josep M.",
+     "Crego"
+    ]
+   ],
+   "title": "Phrase-based alignment combining corpus cooccurrences and linguistic knowledge",
+   "original": "slt4_107",
+   "page_count": 8,
+   "order": 20,
+   "p1": "107",
+   "pn": "114",
+   "abstract": [
+    "This paper introduces a phrase alignment strategy that seeks phrase and word links in two stages using cooccurrence measures and linguistic information. On a first stage, the algorithm finds high-precision links involving a linguistically-derived set of phrases, leaving word alignment to be performed in a second phase. Experiments have been carried out for an English-Spanish parallel corpus, and we show how phrase cooccurrence measures convey a complementary information to word cooccurrences, and a stronger evidence of a good alignment. Alignment Error Rate (AER) results are presented, being competitive with and even outperforming state-of-the-art alignment algorithms.\n",
+    ""
+   ]
+  },
+  "gu04_iwslt": {
+   "authors": [
+    [
+     "Liang",
+     "Gu"
+    ],
+    [
+     "Yuqing",
+     "Gao"
+    ]
+   ],
+   "title": "On feature selection in maximum entropy approach to statistical concept-based speech-to-speech translation",
+   "original": "slt4_115",
+   "page_count": 7,
+   "order": 21,
+   "p1": "115",
+   "pn": "121",
+   "abstract": [
+    "Feature selection is critical to the performance of maximumentropy- based statistical concept-based spoken language translation. The source language spoken message is first parsed into a structured conceptual tree, and then generated into the target language based on maximum entropy modeling. To improve feature selection in this maximum entropy approach, a new concept- word feature is proposed, which exploits both concept-level and word-level information. It thus enables the design of concise yet informative concept sets and easies both annotation and parsing efforts. The concept generation error rate is reduced by over 90% on training set and 7% on test set in our speech translation corpus within limited domains. To alleviate data sparseness problem, multiple feature sets are proposed and employed, which achieves 10%-14% further error rate reduction. Improvements are also achieved in our experiments on speech-to-speech translation.\n",
+    ""
+   ]
+  },
+  "hajlaoui04_iwslt": {
+   "authors": [
+    [
+     "Najeh",
+     "Hajlaoui"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ]
+   ],
+   "title": "Polyphraz: a tool for the quantitative and subjective evaluation of parallel corpora",
+   "original": "slt4_123",
+   "page_count": 7,
+   "order": 22,
+   "p1": "123",
+   "pn": "129",
+   "abstract": [
+    "The PolyphraZ tool is under construction in the framework of the TraCorpEx project (Translation of Corpora of Examples), for the management of parallel multilingual corpora (coding, format, correspondence). It is a software platform allowing the preparation and handling of parallel corpora (languages, codings...), parallel presentation, and addition of new languages to existing corpora by calling several MT systems, and letting human translators produce the final reference translations by using a web-based editor. It integrates the computation of some objective evaluation metrics (NIST, BLUE), and enables subjective evaluations thanks to parallel presentations, and formating based on distance computations between sentences (at several levels). In the future, PolyphraZ should also support versioning and provide feedbacks to developers of the MT systems used: unknown words, badly translated words, and comparative presentations of the outputs of the various systems.\n",
+    ""
+   ]
+  },
+  "huang04_iwslt": {
+   "authors": [
+    [
+     "Fei",
+     "Huang"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "Towards named entity extraction and translation in spoken language translation",
+   "original": "slt4_131",
+   "page_count": 7,
+   "order": 23,
+   "p1": "131",
+   "pn": "137",
+   "abstract": [
+    "In this paper we propose a new method of detecting and translating named entities (NE) from spoken language, e.g., Chinese broadcast news. This approach detects possible NE regions from less reliably recognized hypotheses using confidence measures. Each possible NE boundary within the region is compared with candidate NEs from retrieved documents based on their acoustic similarities and semantic correlations. These candidate NEs are re-ranked bv additionally incorporating general and topic-specific language models to measure the NE context consistency. This approach, combined with the HMM-based NE extraction on confidently recognized words, improves NE extraction F-score from 66% to 71% and NE translation quality from 69% to 73% over the baseline method. Systematic comparisons on NE translation quality with different speech input quality are also presented.\n",
+    ""
+   ]
+  },
+  "matusov04_iwslt": {
+   "authors": [
+    [
+     "Evgeny",
+     "Matusov"
+    ],
+    [
+     "Maja",
+     "Popović"
+    ],
+    [
+     "Richard",
+     "Zens"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ]
+   ],
+   "title": "Statistical machine translation of spontaneous speech with scarce resources",
+   "original": "slt4_139",
+   "page_count": 8,
+   "order": 24,
+   "p1": "139",
+   "pn": "146",
+   "abstract": [
+    "This paper deals with the task of statistical machine translation of spontaneous speech using a limited amount of training data. We propose a method for selecting relevant additional training data from other sources that may come from other domains. We present two ways to solve the data sparseness problem by including morphological information into the EM training of word alignments. We show that the use of part-of-speech information for harmonizing word order between source and target sentences yields significant improvements in the BLEU score.\n",
+    ""
+   ]
+  },
+  "nakamura04_iwslt": {
+   "authors": [
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Konstantin",
+     "Markov"
+    ],
+    [
+     "Takatoshi",
+     "Jitsuhiro"
+    ],
+    [
+     "Jin-Song",
+     "Zhang"
+    ],
+    [
+     "Hirofumi",
+     "Yamamoto"
+    ],
+    [
+     "Genichiro",
+     "Kikui"
+    ]
+   ],
+   "title": "Multi-lingual speech recognition system for speech-to-speech translation",
+   "original": "slt4_147",
+   "page_count": 8,
+   "order": 25,
+   "p1": "147",
+   "pn": "154",
+   "abstract": [
+    "This paper describes the speech recognition module of the speech-to-speech translation system being currently developed at ATR. It is a multi-lingual large vocabulary continuous speech recognition system supporting Japanese, English and Chinese languages. A corpusbased statistical approach was adopted for the system design. The database we collected consists of more than 600 000 sentences covering broad range of travel related conversations in each of the three languages. The recognition system is based on language-dependent acoustic and language models, and pronunciation dictionaries. The models are built using the latest training methods developed at ATR as the Minimum Description Length Successive State Splitting (MDL-SSS) and Multi-dimensional Composite N-gram techniques. The specifics of each language are taken into account in order to achieve high recognition performance. The speech recognition system is under constant improvement and enhancement, and although the models for the different languages are at different development stages, the recent evaluation experiments showed that the recognition performance is above 92% for every language.\n",
+    ""
+   ]
+  },
+  "federico04_iwslt": {
+   "authors": [
+    [
+     "Marcello",
+     "Federico"
+    ],
+    [
+     "Young-suk",
+     "Lee"
+    ],
+    [
+     "Hermann",
+     "Ney"
+    ],
+    [
+     "Stephan",
+     "Vogel"
+    ]
+   ],
+   "title": "Toward the evaluation of speech translation (panel discussion)",
+   "original": "slt4_203",
+   "page_count": 0,
+   "order": 26,
+   "p1": "0",
+   "pn": "",
+   "abstract": [
+    "The evaluation of conversational-speech translation systems rises many technical issues. For the sake of stimulating the discussion, some general problems and proposals are briefly introduced, which will be integrated with the presentations given by the invited panelists. Speech translation requires carefully considering the goal of the task itself. While, e.g., broadcast news translation can be treated similarly to written text translation, different ideas of translation could be considered for conversational speech. For this task, humans professional translators typically refer to three \"interpreting modalities\": simultaneous, consecutive and liason. Simply speaking, all modalities require the human interpreter to listen to a given amount of speech, to recount what has been said, to listen again, and so on. Probably, the less ambitious scenario for automatic SLT might be the one of simultaneous interpreting, which typically requires the human to translate at very short intervals, e.g. few seconds, or even in real-time. Besides being physically very demanding, simultaneous interpreters, due to the strict time constraints, are less able to exploit their linguistic and domain knowledge. Both reasons make users accept less fluent and almost close to literal translations. Given that speech translation relies on automatic speech recognition (ASR), the task should be tailored to the affordable ASR accuracy. In the past, interlingua-based systems have been applied to resemble the way a liason interpreter works, e.g. at a meeting or appointment. In particular, the interpreter is assumed to be familiar with the subject under discussion and uses psychological skills to facilitate communication. While the mediator metaphor seemed appropriate, especially in the presence of noisy input, interlingua approaches have shown little ability to cope with poor speech recognition performance, and to work significantly worse than purely data-driven translation models. Nevertheless, any plan for speech translation evaluation should take into account progress in the area of speech recognition and scale up difficulty of the considered tasks accordingly.\n",
+    "Human and automatic evaluation should take into account important differences between written and spoken language. Practically, how should input sentences containing disfluencies and syntactic errors be treated? what kind of human translations should be taken as target references? The simultaneous interpreting scenario would suggest to put more emphasis on adequacy rather than fluency. Moreover, appropriate reference translations could be obtained by transcribing human interpreters working in realistic conditions.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Talks",
+   "papers": [
+    "ney04_iwslt",
+    "tsujii04_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign: Overview",
+   "papers": [
+    "akiba04_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign: &quot;Statistical MT&quot;",
+   "papers": [
+    "lee04_iwslt",
+    "bertoldi04_iwslt",
+    "thayer04_iwslt",
+    "vogel04_iwslt",
+    "bender04_iwslt",
+    "gispert04_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign: &quot;Example-based and Rule-based MT&quot;",
+   "papers": [
+    "blanchon04_iwslt",
+    "yang04_iwslt",
+    "hou04_iwslt",
+    "aramaki04_iwslt"
+   ]
+  },
+  {
+   "title": "Evaluation Campaign: &quot;Hybrid MT&quot;",
+   "papers": [
+    "sumita04_iwslt",
+    "langlais04_iwslt",
+    "reichert04_iwslt",
+    "zuo04_iwslt"
+   ]
+  },
+  {
+   "title": "Technical Papers",
+   "papers": [
+    "blanchon04b_iwslt",
+    "cettolo04_iwslt",
+    "gispert04b_iwslt",
+    "gu04_iwslt",
+    "hajlaoui04_iwslt",
+    "huang04_iwslt",
+    "matusov04_iwslt",
+    "nakamura04_iwslt"
+   ]
+  },
+  {
+   "title": "Discussion Panel",
+   "papers": [
+    "federico04_iwslt"
+   ]
+  }
+ ]
+}

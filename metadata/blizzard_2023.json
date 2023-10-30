@@ -1,0 +1,714 @@
+{
+ "series": "Blizzard",
+ "title": "18th Blizzard Challenge Workshop",
+ "location": "Grenoble, France",
+ "startDate": "29/08/2023",
+ "endDate": "29/08/2023",
+ "URL": "https://www.synsig.org/index.php/Blizzard_Challenge_2023_Workshop",
+ "chair": "Organiser: Olivier Perrotin; Chairs: Gérard Bailly, Simon King",
+ "conf": "Blizzard",
+ "year": "2023",
+ "name": "blizzard_2023",
+ "SIG": "SynSIG",
+ "title1": "18th Blizzard Challenge Workshop",
+ "booklet": "blizzard_2023.pdf",
+ "date": "29 August 2023",
+ "papers": {
+  "boros23_blizzard": {
+   "authors": [
+    [
+     "Tiberiu",
+     "Boros"
+    ],
+    [
+     "Stefan Daniel",
+     "Dumitrescu"
+    ],
+    [
+     "Ionut",
+     "Mironica"
+    ],
+    [
+     "Radu",
+     "Chivereanu"
+    ]
+   ],
+   "title": "Generative Adversarial Training for Text-to-Speech Synthesis Based on Raw Phonetic Input and Explicit Prosody Modelling",
+   "original": "boros23_blizzard",
+   "page_count": 6,
+   "order": 9,
+   "p1": 69,
+   "pn": 74,
+   "abstract": [
+    "We describe an end-to-end speech synthesis system that uses generative adversarial training. We train our Vocoder for raw phoneme-to-audio conversion, using explicit phonetic, pitch and duration modeling. We experiment with several pre-trained models for contextualized and decontextualized word embeddings and we introduce a new method for highly expressive character voice matching, based on discreet style tokens. "
+   ],
+   "doi": "10.21437/Blizzard.2023-9"
+  },
+  "bu23_blizzard": {
+   "authors": [
+    [
+     "Yaohua",
+     "Bu"
+    ],
+    [
+     "Yang",
+     "Zhao"
+    ]
+   ],
+   "title": "Xpress: The 10AI Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "bu23_blizzard",
+   "page_count": 5,
+   "order": 18,
+   "p1": 119,
+   "pn": 123,
+   "abstract": [
+    "This paper presents the 10AI text-to-speech (TTS) system ”Xpress” for the Blizzard Challenge 2023. Xpress is an end-to-end TTS system trained on the provided publicly available French speech data for Hub task 2023-FH1. The Xpress system is constructed with a character-level prosody modeling component, a conditional Flow Variational AutoEncoder (FVAE) based acoustic model and a BigVGAN vocoder. Comparing with conventional TTS systems, no conventional front-end analysis component is employed in the proposed Xpress, thus significantly simplifying the overall construction of the TTS system. Moreover, with the simplified FVAE acoustic model design, the Xpress requires less computation resource in training and inference, donates three times faster in inference than transformer-style system. Evaluation results demonstrate the proposed system with competitive effectiveness in both MOS quality and MUSHRA evaluation, and leading quality in both SUS and HOMOS intelligibility assessments."
+   ],
+   "doi": "10.21437/Blizzard.2023-18"
+  },
+  "chen23_blizzard": {
+   "authors": [
+    [
+     "Haolin",
+     "Chen"
+    ],
+    [
+     "Mutian",
+     "He"
+    ],
+    [
+     "Louise Coppieters de",
+     "Gibson"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "The Idiap Speech Synthesis System for the Blizzard Challenge 2023",
+   "original": "chen23_blizzard",
+   "page_count": 5,
+   "order": 13,
+   "p1": 93,
+   "pn": 97,
+   "abstract": [
+    "This paper presents the text-to-speech (TTS) system submitted by Idiap Research Institute to the Blizzard Challenge 2023. Our system follows the conventional pipeline of text analysis, acoustic modeling (AM) and vocoding. For text analysis, open-source pretrained part-of-speech (POS) taggers and lemmatizers are utilized to provide more accurate grapheme-to-phoneme (G2P) conversion on top of the eSpeak backend. The rest of the system incorporates a fully diffusion-based approach which comprises a diffusion transformer-based acoustic model and FastDiff as the vocoder, both of which are trained only on the provided data to ensure high-quality synthesis. Our entry provides a baseline for the cascading diffusion AM-vocoder architecture since no extra design is adopted to enhance the naturalness of speech. Evaluation results have demonstrated high synthesis quality of our system and the effectiveness of the proposed phonemization pipeline."
+   ],
+   "doi": "10.21437/Blizzard.2023-13"
+  },
+  "jiang23_blizzard": {
+   "authors": [
+    [
+     "Yuepeng",
+     "Jiang"
+    ],
+    [
+     "Kun",
+     "Song"
+    ],
+    [
+     "Fengyu",
+     "Yang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Meng",
+     "Meng"
+    ],
+    [
+     "Yu",
+     "Ji"
+    ],
+    [
+     "Yujun",
+     "Wang"
+    ]
+   ],
+   "title": "The Xiaomi-ASLP Text-to-speech System for Blizzard Challenge 2023",
+   "original": "jiang23_blizzard",
+   "page_count": 5,
+   "order": 16,
+   "p1": 109,
+   "pn": 113,
+   "abstract": [
+    "This paper describes the Xiaomi-ASLP text-to-speech (TTS) system for the hub task 2023-FH1 of Blizzard Challenge 2023. The goal of the hub task is to build a single-speaker French TTS system trained on (but not limited to) the single-speaker French audiobook corpus released by the Blizzard Challenge 2023 organization. We present a fully end-to-end TTS system based on VITS. In our implementation of the system, we replace the duration alignment module with a length regulator and duration predictor. Additionally, we introduce a style adaptor to model the style and prosody of the generated speech. The style adaptor consists of a fine-grained prosody module and a global style module based on a language model. To further enhance the audio quality of the synthesized output, we leverage the super-resolution capability of the vocoder to upsample the 16kHz synthesized waveform to 48kHz."
+   ],
+   "doi": "10.21437/Blizzard.2023-16"
+  },
+  "lenglet23_blizzard": {
+   "authors": [
+    [
+     "Martin",
+     "Lenglet"
+    ],
+    [
+     "Olivier",
+     "Perrotin"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "The GIPSA-Lab Text-To-Speech System for the Blizzard Challenge 2023",
+   "original": "lenglet23_blizzard",
+   "page_count": 6,
+   "order": 3,
+   "p1": 34,
+   "pn": 39,
+   "abstract": [
+    "This paper describes the GIPSA-Lab submission to the Blizzard Challenge 2023. The Text-To-Speech system trained for this challenge is a Transformer-based non-autoregressive encoder-decoder architecture based on FastSpeech2. Updates of the FastSpeech2 framework were provided to specifically train the model on orthographic inputs, which is our main focus for this edition of the challenge. This model was trained with both orthographic and phonetic transcriptions of the same dataset. An additional phonetic prediction layer was added to the model. This additional layer enables to train the text encoder on phonetic prediction alone, without the need for audio recordings."
+   ],
+   "doi": "10.21437/Blizzard.2023-3"
+  },
+  "lu23_blizzard": {
+   "authors": [
+    [
+     "Chunhui",
+     "Lu"
+    ],
+    [
+     "Jeasung",
+     "Lee"
+    ],
+    [
+     "Xue",
+     "Wen"
+    ],
+    [
+     "Xiaoyan",
+     "Lou"
+    ],
+    [
+     "Junkwang",
+     "Oh"
+    ]
+   ],
+   "title": "The Samsung Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "lu-c23_blizzard",
+   "page_count": 6,
+   "order": 6,
+   "p1": 52,
+   "pn": 57,
+   "abstract": [
+    "This paper presents the Samsung text-to-speech system that participated in Blizzard Challenge 2023. This year’s challenge asks participants to build the voice from provided French data. It includes two tasks: a hub task with 50 hours audiobook data from a female native speaker and a spoke task with 2 hours speech data recorded by a second female speaker. Our system features a text analysis - acoustic model - vocoder pipeline. The text analyzer converts input text to a phoneme sequence including prosodic boundary and punctuation mark symbols. The acoustic model takes the phoneme sequence alongside contextual word embedding and sentence type to generate mel-spectrogram. It is built around FastSpeech, augmented with sentence-level and phone-level latent features to capture global and local prosodic variation. For vocoder, we use HiFi-GAN to reconstruct the waveform audio. We use the same solution for both tasks, each with its own training plan. Challenge results show that our system (identified as J) works well in similarity and intelligibility, which validates the effectiveness of our method. \n"
+   ],
+   "doi": "10.21437/Blizzard.2023-6"
+  },
+  "lu23b_blizzard": {
+   "authors": [
+    [
+     "Yi",
+     "Lu"
+    ],
+    [
+     "Ruibo",
+     "Fu"
+    ],
+    [
+     "Xin",
+     "Qi"
+    ],
+    [
+     "Zhengqi",
+     "Wen"
+    ],
+    [
+     "Jianhua",
+     "Tao"
+    ],
+    [
+     "Jiangyan",
+     "Yi"
+    ],
+    [
+     "Tao",
+     "Wang"
+    ],
+    [
+     "Yong",
+     "Ren"
+    ],
+    [
+     "Chuyuan",
+     "Zhang"
+    ],
+    [
+     "Chenyu",
+     "Yang"
+    ],
+    [
+     "Wenling",
+     "Shi"
+    ]
+   ],
+   "title": "The VIBVG Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "lu-y23_blizzard",
+   "page_count": 6,
+   "order": 15,
+   "p1": 103,
+   "pn": 108,
+   "abstract": [
+    "The paper describes the VIBVG end-to-end neural text to speech (TTS) synthesis system entry for Blizzard Challenge 2023. One objective of the challenge is to synthesize natural and high-quality audio. Another objective is to generate audio that closely resembles the speech of the target person. Our speech synthesis system is built based on VITS, which is a multi-speaker end-to-end speech synthesis system. Diverging from VITS, we have incorporated BigVGAN as the decoder instead of HiFi-GAN to enhance the quality of synthesized speech. Furthermore, to improve the naturalness of speech synthesis, we conducted a comparative analysis of various French grapheme-to-phoneme (g2p) methods and employed certain modifications to the generated French phonemes. In this paper, the whole system structure, data pruning method will be presented and discussed. In addition, we will introduce the important parts of each task respectively. Finally, the results of listening test are presented and we will conduct some analysis on the results."
+   ],
+   "doi": "10.21437/Blizzard.2023-15"
+  },
+  "lux23_blizzard": {
+   "authors": [
+    [
+     "Florian",
+     "Lux"
+    ],
+    [
+     "Julia",
+     "Koch"
+    ],
+    [
+     "Sarina",
+     "Meyer"
+    ],
+    [
+     "Thomas",
+     "Bott"
+    ],
+    [
+     "Nadja",
+     "Schauffler"
+    ],
+    [
+     "Pavel",
+     "Denisov"
+    ],
+    [
+     "Antje",
+     "Schweitzer"
+    ],
+    [
+     "Ngoc Thang",
+     "Vu"
+    ]
+   ],
+   "title": "The IMS Toucan System for the Blizzard Challenge 2023",
+   "original": "lux23_blizzard",
+   "page_count": 6,
+   "order": 4,
+   "p1": 40,
+   "pn": 45,
+   "abstract": [
+    "For our contribution to the Blizzard Challenge 2023, we improved on the system we submitted to the Blizzard Challenge 2021. Our approach entails a rule-based text-to-phoneme processing system that includes rule-based disambiguation of homographs in the French language. It then transforms the phonemes to spectrograms as intermediate representations using a fast and efficient non-autoregressive synthesis architecture based on Conformer and Glow. A GAN based neural vocoder that combines recent state-of-the-art approaches converts the spectrogram to the final wave. We carefully designed the data processing, training, and inference procedures for the challenge data. Our system identifier is G. Open source code and demo are available."
+   ],
+   "doi": "10.21437/Blizzard.2023-4"
+  },
+  "ma23_blizzard": {
+   "authors": [
+    [
+     "Qiaowei",
+     "Ma"
+    ],
+    [
+     "Weiheng",
+     "Liu"
+    ],
+    [
+     "Yitao",
+     "Yang"
+    ],
+    [
+     "Chao",
+     "Xu"
+    ],
+    [
+     "Hongtao",
+     "Ling"
+    ],
+    [
+     "Jinghui",
+     "Zhong"
+    ]
+   ],
+   "title": "The SCUT Text-To-Speech System for the Blizzard Challenge 2023",
+   "original": "ma23_blizzard",
+   "page_count": 5,
+   "order": 7,
+   "p1": 58,
+   "pn": 62,
+   "abstract": [
+    "In this paper, we present the SCUT Text-To-Speech (TTS) system developed for the Blizzard Challenge 2023. Our system utilizes the FastSpeech2 acoustic model and the HiFiGAN vocoder to generate high-quality speech synthesis. We incorporate a prosody extractor based on VQ-VAE to enhance the expressive prosody of the synthesized speech. Experimental results demonstrate the effectiveness of our system in producing natural and fluent speech synthesis."
+   ],
+   "doi": "10.21437/Blizzard.2023-7"
+  },
+  "perrotin23_blizzard": {
+   "authors": [
+    [
+     "Olivier",
+     "Perrotin"
+    ],
+    [
+     "Brooke",
+     "Stephenson"
+    ],
+    [
+     "Silvain",
+     "Gerber"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2023",
+   "original": "perrotin23_blizzard",
+   "page_count": 27,
+   "order": 1,
+   "p1": 1,
+   "pn": 27,
+   "abstract": [
+    "The Blizzard Challenge 2023 is the eighteenth edition of the text-to-speech synthesis Blizzard Challenge. This year, two French datasets were provided to participants and two tasks were designed. The Hub task was to build a voice from a 51-hour single speaker dataset, restricted to using only publicly-available data. The Spoke task consisted of building a voice from a 2-hour single speaker dataset that sounds as close as possible to that speaker. There were no restrictions on the use of data for the spoke task. 18 teams participated in the hub task and 14 in the spoke task. All teams used neural-based systems. Synthesised samples were evaluated in terms of speech quality, speaker similarity and intelligibility."
+   ],
+   "doi": "10.21437/Blizzard.2023-1"
+  },
+  "qi23_blizzard": {
+   "authors": [
+    [
+     "Xin",
+     "Qi"
+    ],
+    [
+     "Xiaopeng",
+     "Wang"
+    ],
+    [
+     "Zhiyong",
+     "Wang"
+    ],
+    [
+     "Wang",
+     "Liu"
+    ],
+    [
+     "Mingming",
+     "Ding"
+    ],
+    [
+     "",
+     "ShuchenShi"
+    ]
+   ],
+   "title": "The FruitShell French synthesis system at the Blizzard 2023 Challenge",
+   "original": "qi23_blizzard",
+   "page_count": 5,
+   "order": 17,
+   "p1": 114,
+   "pn": 118,
+   "abstract": [
+    "This paper presents a French text-to-speech synthesis system for the Blizzard Challenge 2023. The challenge consists of two tasks: generating high-quality speech from female speakers and generating speech that closely resembles specific individuals. Regarding the competition data, we conducted a screening process to remove missing or erroneous text data. We organized all symbols except for phonemes and eliminated symbols that had no pronunciation or zero duration. Additionally, we added word boundary and start/end symbols to the text, which we have found to improve speech quality based on our previous experience. For the Spoke task, we performed data augmentation according to the competition rules. We used an open-source G2P model to transcribe the French texts into phonemes. As the G2P model uses the International Phonetic Alphabet (IPA), we applied the same transcription process to the provided competition data for standardization. However, due to compiler limitations in recognizing special symbols from the IPA chart, we followed the rules to convert all phonemes into the phonetic scheme used in the competition data. Finally, we resampled all competition audio to a uniform sampling rate of 16 kHz. We employed a VITS-based acoustic model with the hifigan vocoder. For the Spoke task, we trained a multi-speaker model and incorporated speaker information into the duration predictor, vocoder, and flow layers of the model. The evaluation results of our system showed a quality MOS score of 3.6 for the Hub task and 3.4 for the Spoke task, placing our system at an average level among all participating teams. \n"
+   ],
+   "doi": "10.21437/Blizzard.2023-17"
+  },
+  "saget23_blizzard": {
+   "authors": [
+    [
+     "Félix",
+     "Saget"
+    ],
+    [
+     "Thibault",
+     "Gaudier"
+    ],
+    [
+     "Meysam",
+     "Shamsi"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ]
+   ],
+   "title": "LIUM-TTS entry for Blizzard 2023",
+   "original": "saget23_blizzard",
+   "page_count": 6,
+   "order": 2,
+   "p1": 28,
+   "pn": 33,
+   "abstract": [
+    "This paper presents the LIUM-TTS entry for Blizzard 2023. It is the first participation of the LIUM in the Blizzard Challenge. The Blizzard Challenge 2023 focused on French language in two tasks. The Hub task was provided with 50 audio hours (with partially aligned annotation), and the Spoke task only 2 hours. The proposed TTS for the Hub task consists of a Transformer-based grapheme-to-phoneme, a FastSpeech 2-based acoustic model, and a fine-tuned Waveglow vocoder. The output of this system has been fed through a voice conversion module from Hub to Spoke voice. The perceptual evaluation of our system in comparison with other Blizzard participants shows its weaknesses and highlights future working axes to deal with upcoming challenges."
+   ],
+   "doi": "10.21437/Blizzard.2023-2"
+  },
+  "shang23_blizzard": {
+   "authors": [
+    [
+     "Zengqiang",
+     "Shang"
+    ],
+    [
+     "Xuyuan",
+     "Li"
+    ],
+    [
+     "Peiyang",
+     "Shi"
+    ],
+    [
+     "Hua",
+     "Hua"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ]
+   ],
+   "title": "The IOA-ThinkIT system for Blizzard Challenge 2023",
+   "original": "shang23_blizzard",
+   "page_count": 6,
+   "order": 19,
+   "p1": 124,
+   "pn": 129,
+   "abstract": [
+    "In this paper, we present a French Text-to-Speech system submitted to the Blizzard Challenge 2023 by IOA-ThinkIT. The system is developed based on an estimated 50 hours of speech data from native French speakers provided by the organizers. Our main focus is on the prosody modeling of synthesized speech, utilizing HierTTS to model multiple scales including paragraphs, sentences, words, phonemes, and frames, resulting in a fully end-to-end speech synthesis framework. Evaluation by the organizers shows that our proposed system achieves a quality MOS of 4.0, a similarity MOS of 3.4, and a word error rate of 0.15."
+   ],
+   "doi": "10.21437/Blizzard.2023-19"
+  },
+  "veaux23_blizzard": {
+   "authors": [
+    [
+     "Christophe",
+     "Veaux"
+    ],
+    [
+     "Ranniery",
+     "Maia"
+    ],
+    [
+     "Spyridoula",
+     "Papendreou"
+    ]
+   ],
+   "title": "The DeepZen Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "veaux23_blizzard",
+   "page_count": 6,
+   "order": 11,
+   "p1": 81,
+   "pn": 86,
+   "abstract": [
+    "This paper describes the DeepZen text to speech (TTS) system for Blizzard Challenge 2023. The goal of this challenge is to synthesise natural and high-quality speech in French, from a large monospeaker dataset (hub task) and from a smaller dataset by speaker adaptation (spoke task). We participated to both tasks with the same model architecture. Our approach has been to use an auto-regressive model, which retains an advantage for generating natural sounding speech but to improve prosodic control in several ways. Similarly to non-attentive Tacotron, the model uses a duration predictor and gaussian upsampling at inference, but with a simpler unsupervised training. We also model the speaking style at both sentence and word levels by extracting global and local style tokens from the reference speech. At inference, the global and local style tokens are predicted from a BERT model run on text. This BERT model is also used to predict specific pronunciation features like schwa elision and optional liaisons. Finally, a modified version of HifiGAN trained on a large public dataset and fine-tuned on the target voices is used to generate speech waveform. Our team is identified as O in the the Blizzard evaluation and MUSHRA test results show that our system performs second ex aequo in both hub task (median score of 0.75) and spoke task (median score of 0.68), over 18 and 14 participants, respectively."
+   ],
+   "doi": "10.21437/Blizzard.2023-11"
+  },
+  "xie23_blizzard": {
+   "authors": [
+    [
+     "Kun",
+     "Xie"
+    ],
+    [
+     "Yi-Chen",
+     "Wu"
+    ],
+    [
+     "Feng-Long",
+     "Xie"
+    ]
+   ],
+   "title": "FireRedTTS: The Xiaohongshu Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "xie-k23_blizzard",
+   "page_count": 6,
+   "order": 12,
+   "p1": 87,
+   "pn": 92,
+   "abstract": [
+    "This paper presents the FireRed (Team Q) speech synthesis system developed for the FS1 speaker adaptation task of Blizzard Challenge 2023, which aims to develop a French text-to-speech voice that best resembles a specific speaker. To achieve this, we constructed a well-trained model from the provided 51-hour corpus of speaker (NEB), and then fine-tuned it on the 2-hour corpus of the target speaker (AD).\nTo synthesize high-quality and high-fidelity speech, we took a three-pronged approach: 1) We designed and built a French TTS front-end with extensive effort to accurately model the nuances of the French language. 2) We utilized a modified Non-Attentive Tacotron based acoustic model, with implicit variation information (utterance-level and phoneme-level prosody) modeling, to generate mel-spectrograms of high naturalness and speaker similarity. 3) We trained a modified version of HiFi++ vocoder to reconstruct high-quality waveform from mel-spectrograms."
+   ],
+   "doi": "10.21437/Blizzard.2023-12"
+  },
+  "xie23b_blizzard": {
+   "authors": [
+    [
+     "Zhihang",
+     "Xie"
+    ],
+    [
+     "Rui",
+     "Fang"
+    ],
+    [
+     "Mingtian",
+     "Zhao"
+    ]
+   ],
+   "title": "The BIGAI Text-to-Speech Systems for Blizzard Challenge 2023",
+   "original": "xie-z23_blizzard",
+   "page_count": 5,
+   "order": 14,
+   "p1": 98,
+   "pn": 102,
+   "abstract": [
+    "This paper describes the text-to-speech systems submitted from Beijing Institute of General Artificial Intelligence to Blizzard Challenge 2023. Two French speech datasets are released in this year’s challenge, the Hub task (FH1) with a total duration around 51 hours and the Spoke task (FS1) with a total duration around 2 hours. The submitted systems are built upon the VITS model, which is a variational autoencoder for end-to-end speech synthesis. The base model is first trained in a self-supervised learning way to be robust to frontend errors and then finetuned on the target speech dataset for each task. The model inputs are phoneme sequences transcribed from French texts and represented as IPAs. The submitted systems are identified as L in the subjective evaluation and the listening results confirm that the synthetic speech is relatively natural and similar to the original speaker. The system ranks in the 3rd MOS score group in the Hub task, while the system ranks second in the Spoke task."
+   ],
+   "doi": "10.21437/Blizzard.2023-14"
+  },
+  "xu23_blizzard": {
+   "authors": [
+    [
+     "Zhihang",
+     "Xu"
+    ],
+    [
+     "Shaofei",
+     "Zhang"
+    ],
+    [
+     "Xi",
+     "Wang"
+    ],
+    [
+     "Jiajun",
+     "Zhang"
+    ],
+    [
+     "Wenning",
+     "Wei"
+    ],
+    [
+     "Lei",
+     "He"
+    ],
+    [
+     "Sheng",
+     "Zhao"
+    ]
+   ],
+   "title": "MuLanTTS: The Microsoft Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "xu23_blizzard",
+   "page_count": 6,
+   "order": 5,
+   "p1": 46,
+   "pn": 51,
+   "abstract": [
+    "In this paper, we present MuLanTTS, the Microsoft end-to-end neural text-to-speech (TTS) system designed for the Blizzard Challenge 2023. About 50 hours of audiobook corpus for French TTS as hub task and another 2 hours of speaker adaptation as spoke task are released to build synthesized voices for different test purposes including sentences, paragraphs, homographs, lists, etc. Building upon DelightfulTTS, we adopt contextual and emotion encoders to adapt the audiobook data to enrich beyond sentences for long-form prosody and dialogue expressiveness. Regarding the recording quality, we also apply denoise algorithms and long audio processing for both corpora. For the hub task, only the 50-hour single speaker data is used for building the TTS system, while for the spoke task, a multi-speaker source model is used for target speaker fine-tuning. MuLanTTS achieves mean scores of quality assessment 4.3 and 4.5 in the respective tasks, statistically comparable with natural speech while keeping good similarity according to similarity assessment. The excellent quality and similarity in this year’s new and dense statistical evaluation show the effectiveness of our proposed system in both tasks."
+   ],
+   "doi": "10.21437/Blizzard.2023-5"
+  },
+  "zaidi23_blizzard": {
+   "authors": [
+    [
+     "Julian",
+     "Zaïdi"
+    ],
+    [
+     "Corentin",
+     "Duchêne"
+    ],
+    [
+     "Hugo",
+     "Seuté"
+    ],
+    [
+     "Marc-André",
+     "Carbonneau"
+    ]
+   ],
+   "title": "The La Forge Speech Synthesis System for Blizzard Challenge 2023",
+   "original": "zaidi23_blizzard",
+   "page_count": 6,
+   "order": 10,
+   "p1": 75,
+   "pn": 80,
+   "abstract": [
+    "This paper describes the La Forge entry to the Blizzard Challenge of 2023 focusing on text-to-speech in French and homograph disambiguation. Our system is based on VAE-Tacotron and HiFi-GAN. We implement several improvements on the baseline models such as a cycle consistency loss for better style modeling, a style reference selection method to improve overall naturalness and an over-produce and select method that chooses the best synthesized candidate across multiple variations using automatic speech recognition. We also build a linguistic frontend capable of homograph disambiguation using part-of-speech tagging and simple rules. We publicly release our hand annotated data set for French homograph disambiguation. Results from subjective listening tests show the effectiveness of our system in disambiguating homographs and generating high-quality synthetic speech."
+   ],
+   "doi": "10.21437/Blizzard.2023-10"
+  },
+  "zalkow23_blizzard": {
+   "authors": [
+    [
+     "Frank",
+     "Zalkow"
+    ],
+    [
+     "Paolo",
+     "Sani"
+    ],
+    [
+     "Michael",
+     "Fast"
+    ],
+    [
+     "Judith",
+     "Bauer"
+    ],
+    [
+     "Mohammad",
+     "Joshaghani"
+    ],
+    [
+     "Kishor Kayyar",
+     "Lakshminarayana"
+    ],
+    [
+     "Emanuël A. P.",
+     "Habets"
+    ],
+    [
+     "Christian",
+     "Dittmar"
+    ]
+   ],
+   "title": "The AudioLabs System for the Blizzard Challenge 2023",
+   "original": "zalkow23_blizzard",
+   "page_count": 6,
+   "order": 8,
+   "p1": 63,
+   "pn": 68,
+   "abstract": [
+    "In this paper, we describe our contribution to the Blizzard Challenge 2023. This challenge has the goal of understanding and comparing research techniques in building corpus-based speech synthesizers on the same data. The 2023 edition of the challenge focuses on the French language and low-resource settings. Our text-to-speech (TTS) synthesis system consists of three main building blocks. First, a non-autoregressive acoustic model converts symbolic input sequences (phonemes) into mel-scaled speech spectrograms. Second, a post-processing model based on a generative adversarial network (GAN) enhances the predicted mel spectrograms. Third, the GAN-based neural vocoder StyleMelGAN converts the enhanced spectrogram into a time-domain speech waveform."
+   ],
+   "doi": "10.21437/Blizzard.2023-8"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of Blizzard Challenge 2023 (not peer reviewed)",
+   "papers": [
+    "perrotin23_blizzard"
+   ]
+  },
+  {
+   "title": "Session 1: FastSpeech-based models",
+   "papers": [
+    "saget23_blizzard",
+    "lenglet23_blizzard",
+    "lux23_blizzard",
+    "xu23_blizzard",
+    "lu23_blizzard",
+    "ma23_blizzard"
+   ]
+  },
+  {
+   "title": "Session 2: Tacotron-based models",
+   "papers": [
+    "zalkow23_blizzard",
+    "boros23_blizzard",
+    "zaidi23_blizzard",
+    "veaux23_blizzard",
+    "xie23_blizzard"
+   ]
+  },
+  {
+   "title": "Session 3: Stochastic models",
+   "papers": [
+    "chen23_blizzard",
+    "xie23b_blizzard",
+    "lu23b_blizzard",
+    "jiang23_blizzard",
+    "qi23_blizzard",
+    "bu23_blizzard",
+    "shang23_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2023"
+}

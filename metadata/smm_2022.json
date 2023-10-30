@@ -1,0 +1,210 @@
+{
+ "series": "SMM",
+ "location": "Virtual",
+ "startDate": "15/09/2022",
+ "endDate": "15/09/2022",
+ "URL": "http://workshops.ifs.tuwien.ac.at/SMM22/index.html",
+ "chair": "Chairs: Meghna A Pandharipande, Alexander Schindler, Venkata S Viraraghavan and João P Cabral",
+ "intro": "intro.pdf",
+ "conf": "SMM",
+ "year": "2022",
+ "name": "smm_2022",
+ "SIG": "",
+ "title": "Workshop on Speech, Music and Mind",
+ "title1": "Workshop on Speech, Music and Mind",
+ "date": "15 September 2022",
+ "booklet": "smm_2022.pdf",
+ "papers": {
+  "cummins22_smm": {
+   "authors": [
+    [
+     "Dr. Nicholas",
+     "Cummins"
+    ]
+   ],
+   "title": "The Potential of smartphones voice recordings to monitor depression severity",
+   "original": "keynote_Nick",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Speech is a unique and rich health signal: no other signal contains its singular combination of cognitive, neuromuscular and physiological information. However, its highly personal and complex nature also means that there are several significant challenges to overcome to build a reliable, useful and ethical tool suitable for widespread use in health research and clinical practice. With hundreds of participants and over 18 months of speech collection, the Remote Assessment of Disease and Relapse in Major Depressive Disorder (RADAR-MDD) study incorporates one of the largest longitudinal speech studies of its kind. It offers a unique opportunity in speech-health research, the investigation of throughout the entire data pipeline, from recording through to analysis, where gaps in our understanding remain. In this presentation, I will describe how our voice is a tacit communicator of our health, present initial speech analysis finding from RADAR-MDD and discussion future challenges in relation to the translation of speech analysis into clinic practise.\n"
+   ]
+  },
+  "rao22_smm": {
+   "authors": [
+    [
+     "Dr. Preeti",
+     "Rao"
+    ]
+   ],
+   "title": "Exploring the correspondence between singers' gestures and melody with deep learning",
+   "original": "keynote_Preeti",
+   "page_count": 0,
+   "order": 4,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Physical gestures, such as hand movements produced spontaneously by a speaker, are considered an integral part of speech communication. It is believed that, apart from conveying meaning, the visual movement representations help to organize and package the information in the sequential stream of spoken language. Even less is understood about the role of bodily gestures that accompany singing, a phenomenon that is amply demonstrated in Indian classical vocal performances. We discuss the potential of extracting the co-occurring melodic and gesture features from video recordings of raga performances to explore the correspondence using deep learning models.\n"
+   ]
+  },
+  "kwon22_smm": {
+   "authors": [
+    [
+     "Namhee",
+     "Kwon"
+    ],
+    [
+     "Shahruk",
+     "Hossain"
+    ],
+    [
+     "Nate",
+     "Blaylock"
+    ],
+    [
+     "Henry",
+     "O’Connell"
+    ],
+    [
+     "Naomi",
+     "Hachen"
+    ],
+    [
+     "Joseph",
+     "Gwin"
+    ]
+   ],
+   "title": "Detecting Anxiety and Depression from Phone Conversations using x-vectors",
+   "original": "SMM22_paper_1",
+   "page_count": 5,
+   "order": 2,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "A model for detecting anxiety and depression from telephony recordings between a customer and a representative at a call center using vocal features and a deep neural network. Our binary classification model using x-vectors outperformed the use of the other acoustic features such as ivectors and openSMILE features, as well as linguistic or textbased features. Our models were built based on self-reported scores: GAD-7 for anxiety and PHQ-8 for depression. Especially, the anxiety model’s performance is very similar to the GAD-7 score’s screening accuracy. A prior study compared self-reported GAD-7 scores to an actual mental health professional’s diagnosis of anxiety disorder and reported sensitivity and specificity of 0.74 and 0.54 respectively, and our model showed a sensitivity of 0.70 and a specificity of 0.54. This study exhibits the potential of voice analysis on topic-independent speech, particularly from 8 kHz phone conversations, to identify anxiety and depression.\n"
+   ],
+   "doi": "10.21437/SMM.2022-1"
+  },
+  "campbell22_smm": {
+   "authors": [
+    [
+     "Edward L.",
+     "Campbell"
+    ],
+    [
+     "Laura",
+     "Docío-Fernandez"
+    ],
+    [
+     "Carmen",
+     "García-Mateo"
+    ],
+    [
+     "Andre",
+     "Wittenborn"
+    ],
+    [
+     "Jarek",
+     "Krajewski"
+    ],
+    [
+     "Nicholas",
+     "Cummins"
+    ]
+   ],
+   "title": "Automatic detection of short-term sleepiness state. Sequence-to-Sequence modelling with global attention mechanism.",
+   "original": "SMM22_paper_2",
+   "page_count": 5,
+   "order": 3,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "The Continuous Sleepiness detection task was a Sub-Challenge developed in the 2019 INTERSPEECH Computational Paralinguistics Challenge (ComParE). The associated speech corpus has been a reference in last years for the speech-based detection of sleepiness conditions. In this paper, we proposed a Sequenceto-Sequence model with global attention mechanism to accomplish this detection task. To the best of the authors’ knowledge, this is the first such an approach has been proposed for this task. Given the smaller size of this corpus, we utilise a small batch size, and augment our system with a score ensembling strategy to deliver the final decision. Despite the high complexity of our approach, it produces exceptionally competitive performances on the test-set, producing the second best performance to date. This result highlights the benefits of using deep-learning approaches, even with smaller sized speech-corpora.\n"
+   ],
+   "doi": "10.21437/SMM.2022-2"
+  },
+  "zubiaga22_smm": {
+   "authors": [
+    [
+     "Irune",
+     "Zubiaga"
+    ],
+    [
+     "Ignacio",
+     "Menchaca"
+    ],
+    [
+     "Mikel de",
+     "Velasco"
+    ],
+    [
+     "Raquel",
+     "Justo"
+    ]
+   ],
+   "title": "Mental Health Monitoring from Speech and Language",
+   "original": "SMM22_paper_3",
+   "page_count": 5,
+   "order": 5,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "Concern for mental health has increased in the last years due to its impact in people life quality and its consequential effect on healthcare systems. Automatic systems that can help in the diagnosis, symptom monitoring, alarm generation etc. are an emerging technology that has provided several challenges to the scientific community. The goal of this work is to design a system capable of distinguishing between healthy and depressed and/or anxious subjects, in a realistic environment, using their speech. The system is based on efficient representations of acoustic signals and text representations extracted within the self-supervised paradigm. Considering the good results achieved by using acoustic signals, another set of experiments was carried out in order to detect the specific illness. An analysis of the emotional information and its impact in the presented task is also tackled as an additional contribution.\n"
+   ],
+   "doi": "10.21437/SMM.2022-3"
+  },
+  "ali22_smm": {
+   "authors": [
+    [
+     "Hafiz Shehbaz",
+     "Ali"
+    ],
+    [
+     "Siddique",
+     "Latif"
+    ]
+   ],
+   "title": "Multi-task learning from Unlabelled Data to Improve Cross Language Speech Emotion Recognition",
+   "original": "SMM22_paper_4",
+   "page_count": 5,
+   "order": 6,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "Despite the recent progress in deep learning-based speech emotion recognition (SER), the performance of state-of-the-art systems significantly decreases in cross-language settings. The main reason is the lack of generalisation in SER systems due to the unavailability of larger training emotional labelled data in different languages. In this work, we present a novel multi-task learning (MTL) approach to effectively utilise unlabelled data to improve the generalisation as well as the performance of crosslanguage SER systems. In particular, we propose to use language and domain identification as auxiliary tasks, which facilities the proposed framework to learn from abundantly available language identification data. We evaluate the proposed model on publicly available datasets in four languages and achieve state-of-the-art performance.\n"
+   ],
+   "doi": "10.21437/SMM.2022-4"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote speech A",
+   "papers": [
+    "cummins22_smm"
+   ]
+  },
+  {
+   "title": "Session A",
+   "papers": [
+    "kwon22_smm",
+    "campbell22_smm"
+   ]
+  },
+  {
+   "title": "Keynote speech B",
+   "papers": [
+    "rao22_smm"
+   ]
+  },
+  {
+   "title": "Session B",
+   "papers": [
+    "zubiaga22_smm",
+    "ali22_smm"
+   ]
+  }
+ ],
+ "doi": "10.21437/SMM.2022"
+}

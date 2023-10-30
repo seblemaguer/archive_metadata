@@ -1,0 +1,337 @@
+{
+ "series": "",
+ "title": "First Shared Task on Automatic Minuting at Interspeech 2021",
+ "location": "online",
+ "startDate": "04/09/2021",
+ "endDate": "04/09/2021",
+ "URL": "https://elitr.github.io/automatic-minuting",
+ "chair": "Chairs: Tirthankar Ghosal and Ondřej Bojar and Muskaan Singh and Anna Nedoluzhko",
+ "intro": "",
+ "ISSN": "",
+ "conf": "AutoMin",
+ "year": "2021",
+ "name": "automin_2021",
+ "SIG": "",
+ "title1": "First Shared Task on Automatic Minuting at Interspeech 2021",
+ "date": "4 September 2021",
+ "papers": {
+  "ghosal21_automin": {
+   "authors": [
+    [
+     "Tirthankar",
+     "Ghosal"
+    ],
+    [
+     "Ondřej",
+     "Bojar"
+    ],
+    [
+     "Muskaan",
+     "Singh"
+    ],
+    [
+     "Anja",
+     "Nedoluzhko"
+    ]
+   ],
+   "title": "Overview of the First Shared Task on Automatic Minuting (AutoMin) at Interspeech 2021",
+   "original": "AutoMin_Overview",
+   "page_count": 25,
+   "order": 1,
+   "p1": 1,
+   "pn": 25,
+   "abstract": [
+    "In this article, we report the findings of the First Shared Task on Automatic Minuting (AutoMin). The primary objective of the AutoMin shared task was to garner community participation to create minutes from multi-party meetings automatically. The shared task was endorsed by the International Speech Communication Association (ISCA) and was also an Interspeech 2021 satellite event. AutoMin was held virtually on September 4, 2021. The motivation for AutoMin was to bring together the Speech and Natural Language Processing (NLP) community to jointly investigate the challenges and propose innovative solutions for this timely yet important use case. Ten different teams from diverse backgrounds participated in the shared task and presented their systems. More details on the shared task can be found at https://elitr.github.io/automatic-minuting."
+   ],
+   "doi": "10.21437/AutoMin.2021-1"
+  },
+  "shinde21_automin": {
+   "authors": [
+    [
+     "Kartik",
+     "Shinde"
+    ],
+    [
+     "Nidhir",
+     "Bhavsar"
+    ],
+    [
+     "Aakash",
+     "Bhatnagar"
+    ],
+    [
+     "Tirthankar",
+     "Ghosal"
+    ]
+   ],
+   "title": "Team ABC @ AutoMin 2021:  Generating Readable Minutes with a BART-based Automatic Minuting Approach",
+   "original": "ABC",
+   "page_count": 8,
+   "order": 2,
+   "p1": 26,
+   "pn": 33,
+   "abstract": [
+    "This paper documents the approach of our Team ABC for the First Shared Task on Automatic Minuting (AutoMin) at Interspeech 2021. This challenge’s primary task (Task A) was to generate meeting minutes from multi-party meeting proceedings automatically. For this purpose, we develop an automatic minuting pipeline where we leverage a denoising autoencoder for pretraining sequence-to-sequence models and fine-tune it on a large-scale abstractive dialogue summarization dataset to summarize meeting transcripts. Specifically, we use a BART model and train it on the SAMSum dialogue summarization dataset. Our pipeline first splits the given transcript into blocks of smaller conversations, eliminates redundancies with a specially-crafted rule-based algorithm, summarizes the conversation blocks, retrieves the block-wise summaries, cleans, structures, and finally integrates the summaries to produce the meeting minutes. Our proposed system performs the best in several evaluation metrics (automatic, human) in the AutoMin shared task. We use certain text similarity metrics for the subsidiary tasks to determine whether a given transcript-minute pair corresponds to the same meeting (Task B) and if a given pair of meeting minutes belong to the same meeting (Task C). However, our simple machine-learning-based approach did not perform well in addressing the objective of the subsidiary tasks in the challenge. We publicly release our system codes at https://github.com/cruxieu17/automin-2021-submission"
+   ],
+   "doi": "10.21437/AutoMin.2021-2"
+  },
+  "mahajan21_automin": {
+   "authors": [
+    [
+     "Parth",
+     "Mahajan"
+    ],
+    [
+     "Muskaan",
+     "Singh"
+    ],
+    [
+     "Harpreet",
+     "Singh"
+    ]
+   ],
+   "title": "Team AutoMinuters @ AutoMin 2021: Leveraging state-of-the-art Text Summarization model to Generate Minutes using Transfer Learning",
+   "original": "AutoMinuters",
+   "page_count": 7,
+   "order": 3,
+   "p1": 34,
+   "pn": 40,
+   "abstract": [
+    "This paper presents our submission for the first shared task of automatic minuting (AutoMin @ Interspeech 2021). The shared task consists of one main task generate minutes from the given meeting transcript. For this challenge, we leveraged state-of-art text summarization models to generate minutes using the transfer learning approach. We also provide an empirical analysis of our proposed method with other text summarization approaches. We evaluate our system submission quantitatively with 33% BERTscore and 11.6 % ROUGE-L, which is relatively higher than the average submission in the shared task. Along with the qualitative evaluation, we also vouch for quantitative assessment, where we achieve (2.32, 2.64, 2.52) scores out of five for adequacy, grammatical correctness, and fluency. For the other two tasks, we use Jaccard and cosine text similarity metrics for a given transcript-minute pair corresponding to the same meeting (Task B) and if a given pair of meeting minutes belong to the same meeting (Task C). However, our simple approach yielded 94.8 % (task B) and 92.3% (task C), clearly outperforming most submissions in the challenge."
+   ],
+   "doi": "10.21437/AutoMin.2021-3"
+  },
+  "yamaguchi21_automin": {
+   "authors": [
+    [
+     "Atsuki",
+     "Yamaguchi"
+    ],
+    [
+     "Gaku",
+     "Morio"
+    ],
+    [
+     "Hiroaki",
+     "Ozaki"
+    ],
+    [
+     "Ken-ichi",
+     "Yokote"
+    ],
+    [
+     "Kenji",
+     "Nagamatsu"
+    ]
+   ],
+   "title": "Team Hitachi @ AutoMin 2021: Reference-free Automatic Minuting Pipeline with Argument Structure Construction over Topic-based Summarization",
+   "original": "Hitachi",
+   "page_count": 8,
+   "order": 4,
+   "p1": 41,
+   "pn": 48,
+   "abstract": [
+    "This paper introduces the proposed automatic minuting system of the Hitachi team for the First Shared Task on Automatic Minuting (AutoMin-2021). We utilize a reference-free approach (i.e., without using training minutes) for automatic minuting (Task A), which first splits a transcript into blocks on the basis of topics and subsequently summarizes those blocks with a pre-trained BART model fine-tuned on a summarization corpus of chat dialogue. In addition, we apply a technique of argument mining to the generated minutes, reorganizing them in a well-structured and coherent way. We utilize multiple relevance scores to determine whether or not a minute is derived from the same meeting when either a transcript or another minute is given (Task B and C). On top of those scores, we train a conventional machine learning model to bind them and to make final decisions. Consequently, our approach for Task A achieve the best adequacy score among all submissions and close performance to the best system in terms of grammatical correctness and fluency. For Task B and C, the proposed model successfully outperformed a majority vote baseline."
+   ],
+   "doi": "10.21437/AutoMin.2021-4"
+  },
+  "pan21_automin": {
+   "authors": [
+    [
+     "Sarthak",
+     "Pan"
+    ],
+    [
+     "Palash",
+     "Nandi"
+    ],
+    [
+     "Dipankar",
+     "Das"
+    ]
+   ],
+   "title": "Team JU_PAD @ AutoMin 2021: MoM Generation from Multiparty Meeting Transcript",
+   "original": "JU_PAD",
+   "page_count": 4,
+   "order": 5,
+   "p1": 49,
+   "pn": 52,
+   "abstract": [
+    "Use of online meeting platforms for long multi-party discussion is gradually increasing and generation of Minutes of Meeting (MoM) is crucial for subsequent events. MOM records all key issues, possible solutions, decisions and actions taken during the meeting. Hence the importance of minuting cannot be overemphasized in a time when a significant number of meetings take place in the virtual space. Automatic generation of MoM can potentially save up to 80% of time while revisiting. In this paper, we present an abstractive approach for automatic generation of meeting minutes. It aims to deal with problems like the nature of spoken text, length of transcripts and lack of document structure and conversation fillers.\nThe system is evaluated on a test dataset. The evaluation score is calculated by both manual and automatic systems. Text summarization metrics ROUGE-1, ROUGE-2, ROUGE-L are used for automated scoring and metrics Adequacy, Grammatical Correctness, Fluency are used for manual scoring. The proposed model achieved 0.221, 0.046, 0,125 for ROUGE-1, ROUGE-2 , ROUGE-L respectively in automated evaluation and 3.5/5, 3/5, 3/5 for Adequacy, Grammatical Correctness, Fluency respectively in manual evaluation."
+   ],
+   "doi": "10.21437/AutoMin.2021-5"
+  },
+  "zilinec21_automin": {
+   "authors": [
+    [
+     "Matúš",
+     "Žilinec"
+    ],
+    [
+     "Francesco Ignazio",
+     "Re"
+    ]
+   ],
+   "title": "Team Matus and Francesco @ AutoMin 2021: Towards Neural Summarization of Meetings",
+   "original": "Matus_Francesco",
+   "page_count": 6,
+   "order": 6,
+   "p1": 53,
+   "pn": 58,
+   "abstract": [
+    "As online meetings are becoming increasingly ubiquitous, there is an increasing demand to record the main outcomes of these meetings for future reference. Automatic summarization of meetings is a challenging, yet relatively unexplored natural language processing task with a wide range of potential applications. This paper describes our submission to the First Shared Task on Automatic Minuting at Interspeech 2021. In contrast to previous research focused on the summarization of narrated documents, we examine the specifics of bullet-point spoken language summarization on the AutoMin dataset of online meetings in English. Furthermore, we investigate whether existing abstractive summarization systems can be transferred to this new domain. In this regard, we develop a minuting pipeline based on the state-of-the-art PEGASUS summarization model. This includes pre-processing of conversational data, few-shot transfer learning using reference minutes generated by human annotators, filtering and post-processing of the resulting candidate summaries into a suitable bullet-point minutes format. We conclude by evaluating the completeness and shortening aspects of our system, and discuss its limitations and potential future research directions."
+   ],
+   "doi": "10.21437/AutoMin.2021-6"
+  },
+  "iakovenko21_automin": {
+   "authors": [
+    [
+     "Olga",
+     "Iakovenko"
+    ],
+    [
+     "Anna",
+     "Andreeva"
+    ],
+    [
+     "Anna",
+     "Lapidus"
+    ],
+    [
+     "Liana",
+     "Mikaelyan"
+    ]
+   ],
+   "title": "Team MTS @ AutoMin 2021: An Overview of Existing Summarization Approaches and Comparison to Unsupervised Summarization Techniques",
+   "original": "MTS",
+   "page_count": 6,
+   "order": 7,
+   "p1": 59,
+   "pn": 64,
+   "abstract": [
+    "Remote communication through video or audio conferences has become more popular than ever because of the worldwide pandemic. These events, therefore, have provoked the development of systems for automatic minuting of spoken language leading to AutoMin 2021 challenge. The following paper illustrates the results of the research that team MTS has carried out while participating in the Automatic Minutes challenge. In particular, in this paper we analyze existing approaches to text and speech summarization, propose an unsupervised summarization technique based on clustering and provide a pipeline that includes an adapted automatic speech recognition block able to run on real-life recordings. The proposed unsupervised technique outperforms pre-trained summarization models on the automatic minuting task with Rouge 1, Rouge 2 and Rouge L values of 0.21, 0.02 and 0.2 on the dev set, with Rouge 1, Rouge 2, Rouge L, Adequacy, Grammatical correctness and Fluency values of 0.180, 0.035, 0.098, 1.857, 2.304, 1.911 on the test set accordingly."
+   ],
+   "doi": "10.21437/AutoMin.2021-7"
+  },
+  "garg21_automin": {
+   "authors": [
+    [
+     "Amitesh",
+     "Garg"
+    ],
+    [
+     "Muskaan",
+     "Singh"
+    ]
+   ],
+   "title": "Team Symantlytical @ AutoMin 2021: Generating Readable Minutes with GPT-2 and BERT-based Automatic Minuting Approach",
+   "original": "Symantlytical",
+   "page_count": 6,
+   "order": 8,
+   "p1": 65,
+   "pn": 70,
+   "abstract": [
+    "This paper describes our participation system run to Automatic Minuting @ Interspeech 20211. The task was motivated towards generating automatic minutes. We make a initial step towards, namely Main Task A, Task B and Task C. The main task A, was to automatically create minutes from multiparty meeting transcripts, while task B to identify whether the minute belongs to the transcript and task C. The shared task, consisting of three subtasks, required to produce, contrast and scrutinize the meeting minutes. The process of automating minuting is considered to be one of the most challenging tasks in natural language processing and sequence-to-sequence transformation. It involves testing the semantic meaningfulness, readability and reasonable adequacy of the Minutes produced in the system. In the proposed work, we have developed a system using pre-trained language models in order to generate dialogue summaries or minutes. The designed methodology considers coverage, adequacy and readability to produce the best utilizable summary of a meeting transcript with any length. Our evaluation results in subtask A achieve a score of 11% R-L which by far is the most challenging than subtask as it required systems to generate the rational minutes of the given meeting transcripts."
+   ],
+   "doi": "10.21437/AutoMin.2021-8"
+  },
+  "sharma21_automin": {
+   "authors": [
+    [
+     "Umang",
+     "Sharma"
+    ],
+    [
+     "Muskaan",
+     "Singh"
+    ],
+    [
+     "Harpreet",
+     "Singh"
+    ]
+   ],
+   "title": "Team The Turing TESTament @ AutoMin 2021: A Pipeline based Approach to Generate Meeting Minutes Using TOPSIS",
+   "original": "Turing_TESTament",
+   "page_count": 7,
+   "order": 9,
+   "p1": 71,
+   "pn": 77,
+   "abstract": [
+    "In this paper, we present our submission for AutoMin Shared Task @ INTERSPEECH 2021. The objectives in this task were divided into three tasks, with the main task to create a summary based on a transcript from a meeting. The other two tasks were to compare minutes and transcripts to find out if they were from the same meeting or not. We propose a pipeline-based system that extracts the important sentences from the transcript using features and then a topsis algorithm to summarize. It creates a flexible system that can provide a set of sentences from any given transcript that can best describe it based on selected features and heuristic evaluation metrics. The proposed system presents readable, grammatically correct, and fluent minutes for given meeting transcripts. We make our codebase accessible here https://github.com/umangSharmacs/ theTuringTestament."
+   ],
+   "doi": "10.21437/AutoMin.2021-9"
+  },
+  "williams21_automin": {
+   "authors": [
+    [
+     "Philip",
+     "Williams"
+    ],
+    [
+     "Barry",
+     "Haddow"
+    ]
+   ],
+   "title": "Team UEDIN @ AutoMin 2021: Creating Minutes by Learning to Filter an Extracted Summary",
+   "original": "UEDIN",
+   "page_count": 4,
+   "order": 10,
+   "p1": 78,
+   "pn": 81,
+   "abstract": [
+    "We describe the University of Edinburgh’s submission to the First Shared Task on Automatic Minuting. We developed an English-language minuting system for Task A that combines BERT-based extractive summarization with logistic regression-based filtering and rule-based pre- and post-processing steps. In the human evaluation, our system averaged scores of 2.1 on adequacy, 3.9 on grammatical correctness, and 3.3 on fluency."
+   ],
+   "doi": "10.21437/AutoMin.2021-10"
+  },
+  "schneider21_automin": {
+   "authors": [
+    [
+     "Felix",
+     "Schneider"
+    ],
+    [
+     "Sebastian",
+     "Stüker"
+    ],
+    [
+     "Vijay",
+     "Parthasarathy"
+    ]
+   ],
+   "title": "Team Zoom @ AutoMin 2021: Cross-domain Pretraining for Automatic Minuting",
+   "original": "Zoom",
+   "page_count": 3,
+   "order": 11,
+   "p1": 82,
+   "pn": 84,
+   "abstract": [
+    "This Paper describes Zoom’s submission to the First Shared Task on Automatic Minuting at Interspeech 2021. We participated in Task A: generating abstractive summaries of meetings. For this task, we use a transformer-based summarization model which is first trained on data from a similar domain and then finetuned for domain transfer. In this configuration, our model does not yet produce usable summaries. We theorize that in the choice of pretraining corpus, the target side is more important than the source."
+   ],
+   "doi": "10.21437/AutoMin.2021-11"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Overview Paper",
+   "papers": [
+    "ghosal21_automin"
+   ]
+  },
+  {
+   "title": "System Description Papers",
+   "papers": [
+    "shinde21_automin",
+    "mahajan21_automin",
+    "yamaguchi21_automin",
+    "pan21_automin",
+    "zilinec21_automin",
+    "iakovenko21_automin",
+    "garg21_automin",
+    "sharma21_automin",
+    "williams21_automin",
+    "schneider21_automin"
+   ]
+  }
+ ],
+ "doi": "10.21437/AutoMin.2021"
+}

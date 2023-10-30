@@ -1,0 +1,233 @@
+{
+ "title": "ITRW on Statistical and Perceptual Audio Processing (SAPA 2008)",
+ "location": "Brisbane, Australia",
+ "startDate": "21/9/2008",
+ "endDate": "21/9/2008",
+ "conf": "SAPA",
+ "year": "2008",
+ "name": "sapa_2008",
+ "series": "SAPA",
+ "SIG": "",
+ "title1": "ITRW on Statistical and Perceptual Audio Processing",
+ "title2": "(SAPA 2008)",
+ "date": "21 September 2008",
+ "papers": {
+  "roux08_sapa": {
+   "authors": [
+    [
+     "Jonathan Le",
+     "Roux"
+    ],
+    [
+     "Hirokazu",
+     "Kameoka"
+    ],
+    [
+     "Nobutaka",
+     "Ono"
+    ],
+    [
+     "Alain de",
+     "Cheveigné"
+    ],
+    [
+     "Shigeki",
+     "Sagayama"
+    ]
+   ],
+   "title": "Computational auditory induction by missing-data non-negative matrix factorization",
+   "original": "sap8_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "The human auditory system has the ability, known as auditory induction, to estimate the missing parts of a continuous auditory stream briefly covered by noise and perceptually resynthesize them. Humans are thus able to simultaneously analyze an auditory scene and reconstruct the underlying signal. In this article, we formulate this ability as a non-negative matrix factorization (NMF) problem with unobserved data, and show how to solve it using an auxiliary function method. We explain how this method can also be generally related to the EM algorithm, enabling the use of prior distributions on the parameters. We show how sparseness is a key to global feature extraction, and that our method is ideally able to extract patterns which never occur completely. We finally illustrate on an example how our method is able to simultaneously analyze a scene and interpolate the gaps into it.\n",
+    ""
+   ]
+  },
+  "markaki08_sapa": {
+   "authors": [
+    [
+     "Maria",
+     "Markaki"
+    ],
+    [
+     "Andre",
+     "Holzapfel"
+    ],
+    [
+     "Yannis",
+     "Stylianou"
+    ]
+   ],
+   "title": "Singing voice detection using modulation frequency feature",
+   "original": "sap8_007",
+   "page_count": 4,
+   "order": 2,
+   "p1": "7",
+   "pn": "10",
+   "abstract": [
+    "In this paper, a feature set derived from modulation spectra is applied to the task of detecting singing voice in historical and recent recordings of Greek Rembetiko. A generalization of SVD to tensors, Higher Order SVD (HOSVD), is applied to reduce the dimensions of the feature vectors. Projection onto the \"significant\" principal axes of the acoustic and modulation frequency subspaces, results in a compact feature set, which is evaluated using an SVM classifier on a set of hand labeled musical mixtures. Fusion of the proposed features with MFCCs and delta coefficients reduces the optimal detection cost from 11.11% to 9.01%.\n",
+    ""
+   ]
+  },
+  "hu08_sapa": {
+   "authors": [
+    [
+     "Ke",
+     "Hu"
+    ],
+    [
+     "Pierre",
+     "Divenyi"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ],
+    [
+     "Zhaozhang",
+     "Jin"
+    ],
+    [
+     "Barbara G.",
+     "Shinn-Cunningham"
+    ],
+    [
+     "DeLiang",
+     "Wang"
+    ]
+   ],
+   "title": "Preliminary intelligibility tests of a monaural speech segregation system",
+   "original": "sap8_011",
+   "page_count": 6,
+   "order": 3,
+   "p1": "11",
+   "pn": "16",
+   "abstract": [
+    "Human listeners are able to understand speech in the presence of a noisy background. How to simulate this perceptual ability remains a great challenge. This paper describes a preliminary evaluation of intelligibility of the output of a monaural speech segregation system. The system performs speech segregation in two stages. The first stage segregates voiced speech using supervised learning of harmonic features, and the second stage segregates unvoiced speech by subtracting noise energy that is estimated from voiced intervals and onset/offset based segmentation. Objective evaluation in terms of the match to ideal binary time-frequency masks shows substantial improvements. Tests with human subjects indicate that the system improves intelligibility for young listeners when the input SNR is very low, but does not aid elderly listeners. This preliminary evaluation identifies aspects of the system that should be improved in order to produce consistent improvement in intelligibility in noisy environments.\n",
+    ""
+   ]
+  },
+  "virtanen08_sapa": {
+   "authors": [
+    [
+     "Tuomas",
+     "Virtanen"
+    ],
+    [
+     "Annamaria",
+     "Mesaros"
+    ],
+    [
+     "Matti",
+     "Ryynänen"
+    ]
+   ],
+   "title": "Combining pitch-based inference and non-negative spectrogram factorization in separating vocals from polyphonic music",
+   "original": "sap8_017",
+   "page_count": 6,
+   "order": 4,
+   "p1": "17",
+   "pn": "22",
+   "abstract": [
+    "This paper proposes a novel algorithm for separating vocals from polyphonic music accompaniment. Based on pitch estimation, the method first creates a binary mask indicating timefrequency segments in the magnitude spectrogram where harmonic content of the vocal signal is present. Second, nonnegative matrix factorization (NMF) is applied on the non-vocal segments of the spectrogram in order to learn a model for the accompaniment. NMF predicts the amount of noise in the vocal segments, which allows separating vocals and noise even when they overlap in time and frequency. Simulations with commercial and synthesized acoustic material show an average improvement of 1.3 dB and 1.8 dB, respectively, in comparison with a reference algorithm based on sinusoidal modeling, and also the perceptual quality of the separated vocals is clearly improved. The method was also tested in aligning separated vocals and textual lyrics, where it produced better results than the reference method.\n",
+    ""
+   ]
+  },
+  "roux08b_sapa": {
+   "authors": [
+    [
+     "Jonathan Le",
+     "Roux"
+    ],
+    [
+     "Nobutaka",
+     "Ono"
+    ],
+    [
+     "Shigeki",
+     "Sagayama"
+    ]
+   ],
+   "title": "Explicit consistency constraints for STFT spectrograms and their application to phase reconstruction",
+   "original": "sap8_023",
+   "page_count": 6,
+   "order": 5,
+   "p1": "23",
+   "pn": "28",
+   "abstract": [
+    "As many acoustic signal processing methods, for example for source separation or noise canceling, operate in the magnitude spectrogram domain, the problem of reconstructing a perceptually good sounding signal from a modified magnitude spectrogram, and more generally to understand what makes a spectrogram consistent, is very important. In this article, we derive the constraints which a set of complex numbers must verify to be a consistent STFT spectrogram, i.e. to be the STFT spectrogram of a real signal, and describe how they lead to an objective function measuring the consistency of a set of complex numbers as a spectrogram. We then present a flexible phase reconstruction algorithm based on a local approximation of the consistency constraints, explain its relation with phase-coherence conditions devised as necessary for a good perceptual sound quality, and derive a real-time time scale modification algorithm based on sliding-block analysis. Finally, we show how inconsistency can be used to develop a spectrogram-based audio encryption scheme.\n",
+    ""
+   ]
+  },
+  "lammert08_sapa": {
+   "authors": [
+    [
+     "Adam",
+     "Lammert"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ],
+    [
+     "Pierre",
+     "Divenyi"
+    ]
+   ],
+   "title": "Data-driven articulatory inversion incorporating articulator priors",
+   "original": "sap8_029",
+   "page_count": 6,
+   "order": 6,
+   "p1": "29",
+   "pn": "34",
+   "abstract": [
+    "Recovering the motions of speech articulators from the acoustic speech signal has a long history, starting from the observation that a simple concatenated tube model is a reasonable model for the origin of formant resonances. In this work, we take a different approach making minimal assumptions about the interdependence of acoustics and articulators by estimating the full joint distribution of the two spaces based on a corpus of paired data, derived from an articulatory synthesizer. This approach allows us to estimate posterior distributions of articulator state as well as finding the maximum-likelihood trajectories. We present examples comparing this approach to a related, earlier approach that did not incorporate prior distributions over articulator space, and demonstrate the advantages of learning the models from realistic utterances. We also indicate benefits available from jointly estimating particular pairs of articulators that have high mutual dependence.\n",
+    ""
+   ]
+  },
+  "ezzat08_sapa": {
+   "authors": [
+    [
+     "Tony",
+     "Ezzat"
+    ],
+    [
+     "Tomaso",
+     "Poggio"
+    ]
+   ],
+   "title": "Discriminative word-spotting using ordered spectro-temporal patch features",
+   "original": "sap8_035",
+   "page_count": 6,
+   "order": 7,
+   "p1": "35",
+   "pn": "40",
+   "abstract": [
+    "We present a novel architecture for word-spotting which is trained from a small number of examples to classify an utterance as containing a target keyword or not. The word-spotting architecture relies on a novel feature set consisting of a set of ordered spectro-temporal patches which are extracted from the exemplar mel-spectra of target keywords. A local pooling operation across frequency and time is introduced which endows the extracted patch features with the flexibility to match novel unseen keywords. Finally, we describe how to train a support vector machine classifier to separate between keyword and nonkeyword patch feature responses. We present preliminary results indicating that our word-spotting architecture achieves a detection rate of 70-95% with false positive rates of about 0.25-2 false positives per minute.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Perception",
+   "papers": [
+    "roux08_sapa",
+    "markaki08_sapa",
+    "hu08_sapa"
+   ]
+  },
+  {
+   "title": "Statistics",
+   "papers": [
+    "virtanen08_sapa",
+    "roux08b_sapa",
+    "lammert08_sapa",
+    "ezzat08_sapa"
+   ]
+  }
+ ]
+}

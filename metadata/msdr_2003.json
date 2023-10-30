@@ -1,0 +1,499 @@
+{
+ "title": "ISCA Workshop on Multilingual Spoken Document Retrieval (MSDR 2003)",
+ "location": "Hong Kong",
+ "startDate": "4/4/2003",
+ "endDate": "5/4/2003",
+ "conf": "MSDR",
+ "year": "2003",
+ "name": "msdr_2003",
+ "series": "",
+ "SIG": "",
+ "title1": "ISCA Workshop on Multilingual Spoken Document Retrieval",
+ "title2": "(MSDR 2003)",
+ "date": "4-5 April 2003",
+ "papers": {
+  "logan03_msdr": {
+   "authors": [
+    [
+     "Beth",
+     "Logan"
+    ],
+    [
+     "Patrawadee",
+     "Prasangsit"
+    ],
+    [
+     "Pedro",
+     "Moreno"
+    ]
+   ],
+   "title": "Fusion of semantic and acoustic approaches for spoken document retrieval",
+   "original": "msd3_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "Most spoken document retrieval systems use the words derived from a large vocabulary speech recognizer as the internal representation for indexing the document. However, the use of recognition transcripts inherently limits the performance of the system since the size of the dictionary restricts the number of queries for which matches can be found. In this paper we present a new approach to this problem based on combining Probabilistic Latent Semantic Analysis (PLSA) with phonetic indexing. PLSA maps the words in documents and queries into a semantic space in which they can be compared even if they dont share any common words. Combining this semantic distance with acoustic scores gives an improvement of 6-11% relative for OOV queries and 4% relative for all queries on a 75 hour broadcast news indexing task.\n",
+    ""
+   ]
+  },
+  "hui03_msdr": {
+   "authors": [
+    [
+     "Pui Yu",
+     "Hui"
+    ],
+    [
+     "Wai Kit",
+     "Lo"
+    ],
+    [
+     "Helen M.",
+     "Meng"
+    ]
+   ],
+   "title": "Two robust methods for cantonese spoken document retrieval",
+   "original": "msd3_007",
+   "page_count": 6,
+   "order": 2,
+   "p1": "7",
+   "pn": "12",
+   "abstract": [
+    "This paper reports on two methods aimed at achieving robustness for Cantonese spoken document retrieval. Our experimental corpus contains 60 hours of Cantonese television news broadcasts with over 1600 news stories. These spoken documents are indexed by automatic speech recognition of Cantonese base syllables. Recognition performance degrades significantly as we migrate from anchor speech recorded in the studio to reporter/interviewee speech recorded in the field. Recognition errors affect retrieval performance. We devised two robust methods to reduce the adverse effects of speech recognition errors on retrieval: (1) developing techniques to automatically extract studio speech from the audio tracks and using only these in retrieval; and (2) using N-best recognition hypotheses for document expansion prior to retrieval. Results indicate that (i) the best method to automatically extract studio speech segments fuses audio-based segmentation with video-based segmentation; (ii) using only the studio speech segments for our known-item retrieval task may not necessarily bring about better retrieval performance since we are discarding approximately three quarters of the audio in our corpus; (iii) the use of N-best recognition hypothesis for document expansion can bring about further improvements in retrieval performance, attaining an average inverse rank of 0.654.\n",
+    ""
+   ]
+  },
+  "fujii03_msdr": {
+   "authors": [
+    [
+     "Atsushi",
+     "Fujii"
+    ],
+    [
+     "Katunobu",
+     "Itou"
+    ],
+    [
+     "Tetsuya",
+     "Ishikawa"
+    ]
+   ],
+   "title": "LODEM: a multilingual lecture-on-demand system",
+   "original": "msd3_013",
+   "page_count": 6,
+   "order": 3,
+   "p1": "13",
+   "pn": "18",
+   "abstract": [
+    "We propose a multilingual lecture-on-demand system, which searches lecture videos for segments relevant to user information needs across languages. We utilize the benefits of textbooks and audio/video data corresponding to a single lecture. We extract the audio track from a target lecture video, generate a transcription by large vocabulary continuous speech recognition, and produce a textual index. Users can view specific video segments by selecting paragraphs in the textbook for the target lecture, machined translated into the user language. Experimental results showed that by adapting speech recognition to the lecture topic, the recognition accuracy increased and the retrieval accuracy was comparable with that obtained by human transcriptions. Our system is implemented as a client-server system over the Web to facilitate e-education.\n",
+    ""
+   ]
+  },
+  "koumpis03_msdr": {
+   "authors": [
+    [
+     "Konstantinos",
+     "Koumpis"
+    ],
+    [
+     "Steve",
+     "Renals"
+    ]
+   ],
+   "title": "Evaluation of extractive voicemail summarization",
+   "original": "msd3_019",
+   "page_count": 6,
+   "order": 4,
+   "p1": "19",
+   "pn": "24",
+   "abstract": [
+    "This paper is about the evaluation of a system that generates short text summaries of voicemail messages, suitable for transmission as text messages. Our approach to summarization is based on a speech-recognized transcript of the voicemail message, from which a set of summary words is extracted. The system uses a classiÞer to identify the summary words, with each word being identiÞed by a vector of lexical and prosodic features. The features are selected using Parcel, an ROC-based algorithm. Our evaluations of the system, using a slot error rate metric, have compared manual and automatic summarization, and manual and automatic recognition (using two different recognizers). We also report on two subjective evaluations using mean opinion score of summaries, and a set of comprehension tests. The main results from these experiments were that the perceived difference in quality of summarization was affected more by errors resulting from automatic transcription, than by the automatic summarization process.\n",
+    ""
+   ]
+  },
+  "neto03_msdr": {
+   "authors": [
+    [
+     "João P.",
+     "Neto"
+    ],
+    [
+     "Hugo",
+     "Meinedo"
+    ],
+    [
+     "Rui",
+     "Amaral"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ]
+   ],
+   "title": "A system for selective dissemination of multimedia information resulting from the ALERT project",
+   "original": "msd3_025",
+   "page_count": 6,
+   "order": 5,
+   "p1": "25",
+   "pn": "30",
+   "abstract": [
+    "The media monitoring activity is undergoing a large expansion as a consequence of the different emerging media sources. This is pushing the development of automatic systems for selective dissemination of multimedia information. In this paper we present the development of a prototype system able to scan multimedia data, specifically TV broadcasts, and to generate alert messages to users about the relevant information to them. The system makes use of advanced processing technologies for content-based indexing of multimedia information. We use large vocabulary speech recognition system, associated with audio segmentation, and automatic topic indexing and segmentation, to generate category information as semantic markup of multimedia data. The system service is based on a web interface design offering new views of these marked documents and providing useful end-user services based on the content multimedia exploitation.\n",
+    ""
+   ]
+  },
+  "amaral03_msdr": {
+   "authors": [
+    [
+     "Rui",
+     "Amaral"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ]
+   ],
+   "title": "Segmentation and indexation of broadcast news",
+   "original": "msd3_031",
+   "page_count": 6,
+   "order": 6,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "This paper describes a topic segmentation and indexation system for broadcast news that is integrated in an alert system for selective dissemination of multimedia information. The goal of this work is to enhance the retrieval and navigation through specific spoken audio segments that have been automatically transcribed, using speech recognition. Our segmentation algorithm is based on simple heuristics related with anchor detection. The indexation is based on hierarchical concept trees, containing 22 main thematic domains, for which Hidden Markov models were created. Only the three top levels in this thesaurus are currently used for indexation. On-going work on the identification of some cues related to the structure of TV broadcast news programs is also described.\n",
+    ""
+   ]
+  },
+  "franz03_msdr": {
+   "authors": [
+    [
+     "Martin",
+     "Franz"
+    ],
+    [
+     "Bhuvana",
+     "Ramabhadran"
+    ],
+    [
+     "Todd",
+     "Ward"
+    ],
+    [
+     "Michael",
+     "Picheny"
+    ]
+   ],
+   "title": "Information access in large spoken archives",
+   "original": "msd3_037",
+   "page_count": 6,
+   "order": 7,
+   "p1": "37",
+   "pn": "42",
+   "abstract": [
+    "Digital archives have emerged as the pre-eminent method for capturing the human experience. Before such archives can be used efficiently, their contents must be described. The scale of such archives along with the associated content mark up cost make it impractical to provide access via purely manualmeans, but automatic technologies for search in spoken materials still have relatively limited capabilities. The NSF-funded MALACH project will use the worlds largest digital archive of video oral histories, collected by the Survivors of the Shoah VisualHistory Foundation (VHF) to make a quantum leap in the ability to access such archives by advancing the state-of-the-art in Automated Speech Recognition (ASR), Natural Language Processing (NLP) and related technologies. This corpus consists of over 115,000 hours of unconstrained, natural speech from 52,000 speakers in 32 different languages, filled with disfluencies, heavy accents, age-related coarticulations, and uncued speaker and language switching. This paper discusses some of the ASR and NLP tools and technologies that we have been building for the English speech in the MALACH corpus. We also discuss this new test bed while emphasizing the unique characteristics of this corpus.\n",
+    ""
+   ]
+  },
+  "lo03_msdr": {
+   "authors": [
+    [
+     "Yuen-Yee",
+     "Lo"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Tracking topics in broadcast news data",
+   "original": "msd3_043",
+   "page_count": 6,
+   "order": 8,
+   "p1": "43",
+   "pn": "48",
+   "abstract": [
+    "This paper describes a topic tracking system and its ability to cope with sparse training data for broadcast news tracking. The baseline tracker which relies on a unigram topic model. In order to compensate for the very small amount of training data for each topic, document expansion is used in estimating the initial topic model, and unsupervisedmodel adaptation is carried out after processing each test story. A new technique of variable weight unsupervised online adaptation has been developed and was found to outperform traditional fixed weight online adaptation. Combining both document expansion and adaptation resulted in a 37% cost reduction tested on both English and machine translated Mandarin broadcast news data transcribed by an ASR system, with manual story boundaries. Another challenging condition is one in which the story boundaries are not known for the broadcast news data. A window-based automatic story boundary detector has been developed for the tracking system. The tracking results with the window-based tracking system are comparable to those obtained with a state-of-the-art automatic story segmentation on the TDT3 corpus.\n",
+    ""
+   ]
+  },
+  "wang03_msdr": {
+   "authors": [
+    [
+     "Hsin-Min",
+     "Wang"
+    ],
+    [
+     "Shi-Sian",
+     "Cheng"
+    ],
+    [
+     "Yong-Cheng",
+     "Chen"
+    ]
+   ],
+   "title": "The sovideo broadcast news retrieval system for Mandarin Chinese",
+   "original": "msd3_049",
+   "page_count": 6,
+   "order": 9,
+   "p1": "49",
+   "pn": "54",
+   "abstract": [
+    "This paper describes the SoVideo broadcast news retrieval system for Mandarin Chinese. The system is based on technologies such as large-vocabulary continuous speech recognition for Mandarin Chinese, automatic story segmentation, and information retrieval. Until now, the database consisted of 177 hours of broadcast news, which yielded 3264 stories by automatic story segmentation. We discuss the development of the retrieval system, and the evaluation of each component and the retrieval system.\n",
+    ""
+   ]
+  },
+  "hsieh03_msdr": {
+   "authors": [
+    [
+     "Jia-Hsin",
+     "Hsieh"
+    ],
+    [
+     "Chung-Hsien",
+     "Wu"
+    ],
+    [
+     "Kuao-Ann",
+     "Fung"
+    ]
+   ],
+   "title": "Two-stage story segmentation and detection on broadcast news using genetic algorithm",
+   "original": "msd3_055",
+   "page_count": 6,
+   "order": 10,
+   "p1": "55",
+   "pn": "60",
+   "abstract": [
+    "This paper proposes a two-stage story segmentation and detection approach on Mandarin broadcast news. In the two-stage paradigm, a topic classifier is first constructed to find the topic on the broadcast news within a sliding window and determine the potential story boundaries. Then, the problem for story segmentation is transformed to the determination of a chromosome (number sequence) in a search space. The genetic algorithm is then adopted to globally determine the chromosome, which represents the final story boundaries. A topic strength measure is defined as the fitness function used in the genetic algorithm. In order to evaluate our proposed approach, the word-based and syllable-based story segmentation systems were constructed. Experimental results show our proposed method achieves a better performance with 32.94% missing probability and 22.83% false alarm probability compared to the Makhouls method for the segmentation and detection on Mandarin broadcast news.\n",
+    ""
+   ]
+  },
+  "ariki03_msdr": {
+   "authors": [
+    [
+     "Y.",
+     "Ariki"
+    ],
+    [
+     "M.",
+     "Nishida"
+    ]
+   ],
+   "title": "Speaker naming system by associating speech and speaker recognition results",
+   "original": "msd3_061",
+   "page_count": 6,
+   "order": 11,
+   "p1": "61",
+   "pn": "66",
+   "abstract": [
+    "In this paper, we propose a system which can associate person names to individual speaker section. For this purpose, the automatic speaker segmentation is carried out utilizing online speaker modeling and speaker verification techniques. Key phrases and person names are also extracted by speech recognition. After this speaker segmentation and speech recognition, the person name is associated to the corresponding speaker sections based on simple rules. This method can be expanded to video clip retrieval by a query specifying both of a person name and topic contents.\n",
+    ""
+   ]
+  },
+  "nock03_msdr": {
+   "authors": [
+    [
+     "H. J.",
+     "Nock"
+    ],
+    [
+     "G.",
+     "Iyengar"
+    ],
+    [
+     "C.",
+     "Neti"
+    ]
+   ],
+   "title": "Issues in speech-based retrieval of video",
+   "original": "msd3_067",
+   "page_count": 6,
+   "order": 12,
+   "p1": "67",
+   "pn": "72",
+   "abstract": [
+    "This paper discusses issues arising when applying the IBM Audio-Indexing System to retrieval of video. Issues discussed include the relationship between speech transcription accuracy and retrieval performance, query processing schemes and the critical problem of mapping between cues in speech and the relevant video shots. The temporal relationship between the occurrence of cues in speech transcripts and relevant shots is quantified and then simple schemes for performing this mapping are described and evaluated. Experiments demonstrate the promise of more sophisticated schemes involving up-front video ranking and one possible implementation is discussed. Techniques are evaluated using the TREC-2002 Video Track queries and corpus, comprising a total of 68.45 hours of video.\n",
+    ""
+   ]
+  },
+  "levov03_msdr": {
+   "authors": [
+    [
+     "Gina-Anne",
+     "Levov"
+    ]
+   ],
+   "title": "Multi-scale document expansion for Mandarin Chinese",
+   "original": "msd3_073",
+   "page_count": 6,
+   "order": 13,
+   "p1": "73",
+   "pn": "78",
+   "abstract": [
+    "In cross-language spoken document retrieval, potentially errorful translations of a source language query must be matched against potentially errorful automatic speech recognition transcriptions of spoken documents Document expansion, using pseudo-relevance feedback to enrich the original transcript with related selective terms, can help to recover matches lost through mistranscription or absent from translation. In this paper we compare three multi-scale strategies for unit selection in different phases of the document expansion and retrieval process on Mandarin Chinese documents, using character bigrams, words, and a hybrid strategy combining bigrams and words. We find that the hybrid bigram-word strategy that uses bigrams to enhance recall and identifies highly selective words to enhance precision for expansion result in the greatest, highly significant improvement over unexpanded documents, and additionally outperforms retrieval on perfect manual transcriptions.\n",
+    ""
+   ]
+  },
+  "chen03_msdr": {
+   "authors": [
+    [
+     "Kuan-Ting",
+     "Chen"
+    ],
+    [
+     "Shui-Lung",
+     "Chuang"
+    ],
+    [
+     "Frank",
+     "Seide"
+    ],
+    [
+     "Hsin-Min",
+     "Wang"
+    ],
+    [
+     "Lee-Feng",
+     "Chien"
+    ],
+    [
+     "Eric",
+     "Chang"
+    ]
+   ],
+   "title": "New word learning for spoken document processing through discovery of comparable texts from external resources",
+   "original": "msd3_079",
+   "page_count": 6,
+   "order": 14,
+   "p1": "79",
+   "pn": "84",
+   "abstract": [
+    "This paper presents a new out-of-vocabulary (OOV) word learning approach that dynamically extends the pronunciation lexicon and the language model for large vocabulary continuous speech recognition (LVCSR) in spoken document retrieval (SDR) systems. Based on the assumption that the graphemes as well as the n-gram statistics of the OOV words can be effectively learned from other contemporary or in-domain text documents, the proposed approach suggests an iterative procedure of dynamic unsupervised new word learning, which makes uses of the relevant text documents (termed comparable texts) retrieved from the external resource, such as special-domain text databases or the Internet, as the lexicon/language model (LM) adaptation data. The preliminary experiments were conducted on Hub-4 96 English broadcast news development set (F0 condition only), using TREC-2001 WebTrack data (WT10g) as the external resource. The results showed that, when neither any key term selection nor new word extraction/filtering techniques were applied, the proposed framework significantly reduced the OOV rates of various artificially created lexicons, from OOV rates 2.64%, 5.18%, 10.66%, to 1.83%, 2.93%, 4.58%, respectively.\n",
+    ""
+   ]
+  },
+  "li03_msdr": {
+   "authors": [
+    [
+     "Yuk-Chi",
+     "Li"
+    ],
+    [
+     "Helen M.",
+     "Meng"
+    ]
+   ],
+   "title": "Document expansion using a side collection for monolingual and cross-language spoken document retrieval",
+   "original": "msd3_085",
+   "page_count": 6,
+   "order": 15,
+   "p1": "85",
+   "pn": "90",
+   "abstract": [
+    "This paper presents a method of document expansion using a side collection for improving the overall performance in retrieving spoken documents using text queries. This method is applied to Chinese spoken document retrieval (SDR) tasks where a series of experiments have been carried out for both monolingual and cross-language SDR systems. In our monolingual retrieval experiments, Cantonese broadcast news documents are retrieved using a multi-scale syllable-based approach. Experimental results show that application of document expansion can achieve an improvement of 56% in average inverse rank (AIR). For the cross-language spoken document retrieval (CL-SDR) task where Mandarin broadcast news is retrieved using English textual queries, experimental results show that the use of document expansion has brought 14% relative improvement in retrieval performance.\n",
+    ""
+   ]
+  },
+  "zhang03_msdr": {
+   "authors": [
+    [
+     "J.",
+     "Zhang"
+    ],
+    [
+     "J.",
+     "Liu"
+    ],
+    [
+     "M.",
+     "Li"
+    ],
+    [
+     "J.",
+     "Pan"
+    ],
+    [
+     "J.",
+     "Han"
+    ],
+    [
+     "L.",
+     "Tuo"
+    ],
+    [
+     "B.",
+     "Sun"
+    ],
+    [
+     "J.",
+     "Wang"
+    ],
+    [
+     "Y.",
+     "Yan"
+    ]
+   ],
+   "title": "The design and implementation of a concept prototype for Beijing 2008 Olympic Games",
+   "original": "msd3_091",
+   "page_count": 4,
+   "order": 16,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "This paper presents current research activities for developing a Concept Prototype for the Beijing 2008 Olympic Games (CPBOG) at the Institute of Acoustics, Chinese Academy of Sciences. The System is to provide live sports, touring, traveling information for visitors to Beijing, China during 2008 Olympic periods. Our in house up-todate speech recognition, speech understanding, multimedia processing, text to speech and dialog manager techniques are used in the attempt to develop a user-friendly multimodal multi-lingual spoken language system. Certain key technologies are presented and some realization problems are discussed.\n",
+    ""
+   ]
+  },
+  "meinedo03_msdr": {
+   "authors": [
+    [
+     "Hugo",
+     "Meinedo"
+    ],
+    [
+     "João P.",
+     "Neto"
+    ]
+   ],
+   "title": "Automatic speech annotation and transcription in a broadcast news task",
+   "original": "msd3_095",
+   "page_count": 6,
+   "order": 17,
+   "p1": "95",
+   "pn": "100",
+   "abstract": [
+    "This paper describes our work on the development of a system for automatic speech transcription applied to a Broadcast News (BN) task for the European Portuguese language. We developed audio segmentation modules including a scheme for tagging certain speaker clusters (anchors). We developed a speech recognition system for the broadcast news task using appropriate models. The tests were conducted using large quantities of BN data and show good results in terms of word error rate and processing time. This system is currently integrated in a prototype audio indexing and document retrieval system that is daily processing the main news show of the national Portuguese broadcaster.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Oral Session",
+   "papers": [
+    "logan03_msdr",
+    "hui03_msdr",
+    "fujii03_msdr",
+    "koumpis03_msdr",
+    "neto03_msdr",
+    "amaral03_msdr",
+    "franz03_msdr",
+    "lo03_msdr"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "wang03_msdr",
+    "hsieh03_msdr",
+    "ariki03_msdr",
+    "nock03_msdr",
+    "levov03_msdr",
+    "chen03_msdr",
+    "li03_msdr",
+    "zhang03_msdr",
+    "meinedo03_msdr"
+   ]
+  }
+ ]
+}

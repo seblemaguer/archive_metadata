@@ -1,0 +1,1819 @@
+{
+ "title": "6th Workshop on Spoken Language Technologies for Under-Resourced Languages (SLTU 2018)",
+ "location": "Gurugram, India",
+ "startDate": "29/8/2018",
+ "endDate": "31/8/2018",
+ "URL": "www.mica.edu.vn/sltu2018/",
+ "chair": "Chair: Shyam S. Agrawal",
+ "conf": "SLTU",
+ "year": "2018",
+ "name": "sltu_2018",
+ "series": "SLTU",
+ "SIG": "SIGUL",
+ "title1": "6th Workshop on Spoken Language Technologies for Under-Resourced Languages",
+ "title2": "(SLTU 2018)",
+ "date": "29-31 August 2018",
+ "papers": {
+  "bhattacharya18_sltu": {
+   "authors": [
+    [
+     "Pushpak",
+     "Bhattacharya"
+    ]
+   ],
+   "title": "Machine Translation of Low Resource Related Languages",
+   "original": "abs1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "﻿Translation and transliteration amongst related languages are important for administrative, business and social needs, for communication amongst people living in close proximity. However, most of the related languages have limited parallel corpora. In this talk, we discuss how techniques like factoring, pivoting, sub-word level transfer, byte-pair encoding etc. help tackle the challenge of resource scarcity. Multilingual translation also enhances acquisition of bilingual mappings. Transliteration is another task which is particularly helped by closeness of languages. The Orthographic similarity enables sharing of parameter and character representations among multiple languages in a neural encoder-decoder setting. The talk is based on our our multiple publications in the area of MT in ACL, COLING, EMNLP, TALLIP and so on."
+   ]
+  },
+  "dupoux18_sltu": {
+   "authors": [
+    [
+     "Emmanuel",
+     "Dupoux"
+    ]
+   ],
+   "title": "Zero Resource Speech Technology:Past, Present, and Future",
+   "original": "abs2",
+   "page_count": 0,
+   "order": 2,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "﻿Current speech and language processing relies on massive amounts of annotations and textual resources to train acoustic and language models. This is not sustainable for the majority of the word's language, and prevent from addressing the full complexity and mutability of conversational speech. Yet, young children across all linguistic communities autonomously learn how to communicate in their native language(s) before they even know how to read and write. In this talk, I identify three roadblocks along the path of reverse engineering this ability: unsupervised structure discovery, multimodal contextual grounding, and data efficient learning. I review recent work conducted in these three areas and present results and lessons from the \"Zero Resource\" challenge series, and propose a path forward to improving the technology and ultimately build fully autonomous text-free language processing systems."
+   ]
+  },
+  "gutkin18_sltu": {
+   "authors": [
+    [
+     "Alexander",
+     "Gutkin"
+    ],
+    [
+     "Tatiana",
+     "Merkulova"
+    ],
+    [
+     "Martin",
+     "Jansche"
+    ]
+   ],
+   "title": "Predicting the Features of World Atlas of Language Structures from Speech",
+   "original": "52",
+   "page_count": 5,
+   "order": 54,
+   "p1": 248,
+   "pn": 252,
+   "abstract": [
+    "﻿We present a novel task that involves prediction of linguistic typological features from the World Atlas of Language Structures (WALS) from multilingual speech. We frame this task as a multi-label classification involving predicting the set of non-mutually exclusive and extremely sparse multi-valued WALS features. We investigate whether the speech modality has enough signals for an RNN to reliably discriminate between the typological features for languages which are included in the training data as well as languages withheld from the training. We show that the proposed approach can identify typological features with the overall accuracy of 91.6% for the 16 in-domain and 71.1% for 19 held-out languages. In addition, our approach outperforms language identification-based baselines on all the languages. Also, we show that correctly identifying all the typological features for an unseen language is still a distant goal: for 14 languages out of 19 the prediction error is well above 30%.\n",
+    ""
+   ],
+   "doi": "10.21437/SLTU.2018-52"
+  },
+  "khan18_sltu": {
+   "authors": [
+    [
+     "Soma",
+     "Khan"
+    ],
+    [
+     "Madhab",
+     "Pal"
+    ],
+    [
+     "Joyanta",
+     "Basu"
+    ],
+    [
+     "Milton",
+     "Samirakshma Bepari"
+    ],
+    [
+     "Rajib",
+     "Roy"
+    ]
+   ],
+   "title": "Assessing Performance of Bengali Speech Recognizers Under Real World Conditions using GMM-HMM and DNN based Methods",
+   "original": "40",
+   "page_count": 5,
+   "order": 42,
+   "p1": 192,
+   "pn": 196,
+   "abstract": [
+    "﻿Real world Automatic Speech Recognition (ASR) system development requires rigorous performance review under varying real world conditions. This paper reports our effort on ASR resource creation, transcription, system building and performance assessment for connected and continuous word applications in Bengali language (ranked seventh worldwide) using GMM-HMM and DNN framework on available open source toolkits. Baseline models are built from merging Bengali dataset hosted on government sites with application specific 100 hours indigenous audio collected under target deployment scenario. After feedback analysis of live systems by real users, novel Error Handling Techniques like Signal Analysis and Decision, Confidence based ASR output Polling and Runtime LM are implemented which results around 2%- 11% overall gain in WER with encouraging task success rates in final field trials. Results suggest that recent approaches along with application, environment, target user and runtime resource specific appropriate strategies will yield better acceptability of live ASR systems in India."
+   ],
+   "doi": "10.21437/SLTU.2018-40"
+  },
+  "thirumuru18_sltu": {
+   "authors": [
+    [
+     "Ramakrishna",
+     "Thirumuru"
+    ],
+    [
+     "Krishna",
+     "Gurugubelli"
+    ],
+    [
+     "Anil",
+     "Kumar Vuppala"
+    ]
+   ],
+   "title": "Automatic Detection of Palatalized Consonants in Kashmiri",
+   "original": "25",
+   "page_count": 5,
+   "order": 27,
+   "p1": 117,
+   "pn": 121,
+   "abstract": [
+    "﻿In this study, the acoustic-phonetic attributes of palatalization in the Kashmiri speech is investigated. It is a unique phonetic feature of Kashmiri in the Indian context. An automated approach is proposed to detect this unique phonetic feature from the continuous Kashmiri speech. The i-matra vowel has the impact of palatalizing the consonant connected to it. Therefore, these consonants investigated in synchronous with vowel regions, which are spotted using the instantaneous energy computed from the envelope-derivative of the speech signal. The resonating characteristics of the vocal-tract system framework that reflect the formant dynamics are used to differentiate palatalized consonants from the other consonants. In this regard, the Hilbert envelope of the numerator of the group-delay function that provides good time-frequency resolution used to extract formants. The palatalization detection experimentation carried out in various vowel contexts using the acoustic cues, and it produced a promising result with a detection accuracy of 92.46%."
+   ],
+   "doi": "10.21437/SLTU.2018-25"
+  },
+  "kamper18_sltu": {
+   "authors": [
+    [
+     "Herman",
+     "Kamper"
+    ],
+    [
+     "Michael",
+     "Roth"
+    ]
+   ],
+   "title": "Visually Grounded Cross-Lingual Keyword Spotting in Speech",
+   "original": "53",
+   "page_count": 5,
+   "order": 55,
+   "p1": 253,
+   "pn": 257,
+   "abstract": [
+    "﻿Recent work considered how images paired with speech can be used as supervision for building speech systems when transcriptions are not available. We ask whether visual grounding can be used for cross-lingual keyword spotting: given a text keyword in one language, the task is to retrieve spoken utterances containing that keyword in another language. This could enable searching through speech in a low-resource language using text queries in a high-resource language. As a proof-of-concept, we use English speech with German queries: we use a German visual tagger to add keyword labels to each training image, and then train a neural network to map English speech to German keywords. Without seeing parallel speech-transcriptions or translations, the model achieves a precision at ten of 58%. We show that most erroneous retrievals contain equivalent or semantically relevant keywords; excluding these would improve P@10 to 91%."
+   ],
+   "doi": "10.21437/SLTU.2018-53"
+  },
+  "agafonova18_sltu": {
+   "authors": [
+    [
+     "Marina",
+     "Agafonova"
+    ]
+   ],
+   "title": "The Intonation System of Tajik: Is it Identical to Persian?",
+   "original": "54",
+   "page_count": 6,
+   "order": 56,
+   "p1": 258,
+   "pn": 263,
+   "abstract": [
+    "﻿Tajik is an under-resourced language from the point of view of the intonation systems description, so the available descriptions of this system can’t be used in the comparative linguistic studies. Since some researchers consider the intonation systems of Tajik and Persian to be identical, the use of the description of Persian intonation could be the solution for the issue, but the question of whether these systems are really identical remains open. The article deals with the problem if the choice of the Persian intonation description (by Nami Tehrani) for the research of Russian-Tajik intonation interference was acceptable and to what extent."
+   ],
+   "doi": "10.21437/SLTU.2018-54"
+  },
+  "singh18_sltu": {
+   "authors": [
+    [
+     "Anand",
+     "Singh"
+    ],
+    [
+     "Tien-Ping",
+     "Tan"
+    ]
+   ],
+   "title": "Evaluating Code-Switched Malay-English Speech Using Time Delay Neural Networks",
+   "original": "41",
+   "page_count": 4,
+   "order": 43,
+   "p1": 197,
+   "pn": 200,
+   "abstract": [
+    "﻿This paper presents a new baseline for Malay-English code switched speech corpus; which is constructed using a factored form of time delay neural networks (TDNN-F), which reflected a significant relative percentage reduction of 28.07% in the word-error rate (WER), as compared to the Gaussian Mixture Hidden Markov Models (GMM-HMMs). The presented results also confirm the effectiveness of time delay neural networks (TDNNs) for code-switched speech."
+   ],
+   "doi": "10.21437/SLTU.2018-41"
+  },
+  "johny18_sltu": {
+   "authors": [
+    [
+     "Cibu",
+     "Johny"
+    ],
+    [
+     "Martin",
+     "Jansche"
+    ]
+   ],
+   "title": "Brahmic Schwa-Deletion with Neural Classifiers: Experiments with Bengali",
+   "original": "55",
+   "page_count": 5,
+   "order": 57,
+   "p1": 264,
+   "pn": 268,
+   "abstract": [
+    "﻿The Brahmic family of writing systems is an alpha-syllabary, in which a consonant letter without an explicit vowel marker can be ambiguous: it can either represent a consonant phoneme or a CV syllable with an inherent vowel (“schwa”). The schwa- deletion ambiguity must be resolved when converting from text to an accurate phonemic representation, particularly for text-to-speech synthesis. We situate the problem of Bengali schwa- deletion in the larger context of grapheme-to-phoneme conver-sion for Brahmic scripts and solve it using neural network clas-sifiers with graphemic features that are independent of the script and the language. Classifier training is implemented using Ten-sorFlow and related tools. We analyze the impact of both training data size and trained model size, as these represent real-life data collection and system deployment constraints. Our method achieves high accuracy for Bengali and is applicable to other languages written with Brahmic scripts."
+   ],
+   "doi": "10.21437/SLTU.2018-55"
+  },
+  "basu18_sltu": {
+   "authors": [
+    [
+     "Tulika",
+     "Basu"
+    ],
+    [
+     "Arup",
+     "Saha"
+    ],
+    [
+     "Potsangbam",
+     "Madhubala"
+    ]
+   ],
+   "title": "Preliminary Acoustic Analysis of Manipuri Vowels",
+   "original": "56",
+   "page_count": 5,
+   "order": 58,
+   "p1": 269,
+   "pn": 273,
+   "abstract": [
+    "﻿Manipuri language is one of the low resourced languages of north eastern part of the India. The need of development of speech technology in the local language is of urgent demand, so as to improve the livelihood of the people. The pre-requisite of development of such speech technology requires the basic research on the acoustic phonetic of the phoneme together with the development of speech resources. Keeping the main objective in mind the current paper aims at preliminary study on acoustic characteristics of Manipuri vowel. The current study is conducted on the speech corpus of around 500 Phonetically Balanced Words (PBW) embedded in neutral carrier sentences spoken by ten informants (5 male and 5 female) in a reading mode. The dialect chosen for the purpose of experiment is Imphal dialect of Manipuri language. After analyzing the data, vowel phoneme inventory of Manipuri language has been presented in this paper."
+   ],
+   "doi": "10.21437/SLTU.2018-56"
+  },
+  "biswas18_sltu": {
+   "authors": [
+    [
+     "Astik",
+     "Biswas"
+    ],
+    [
+     "Ewald",
+     "van der Westhuizen"
+    ],
+    [
+     "Thomas",
+     "Niesler"
+    ],
+    [
+     "Febe",
+     "de Wet"
+    ]
+   ],
+   "title": "Improving ASR for Code-Switched Speech in Under-Resourced Languages Using Out-of-Domain Data",
+   "original": "26",
+   "page_count": 5,
+   "order": 28,
+   "p1": 122,
+   "pn": 126,
+   "abstract": [
+    "﻿We explore the use of out-of-domain monolingual data for the improvement of automatic speech recognition (ASR) of code switched speech. This is relevant because annotated code switched speech data is both scarce and very hard to produce, especially when the languages concerned are under-resourced, while monolingual corpora are generally better-resourced. We perform experiments using a recently-introduced small five language corpus of code-switched South African soap opera speech. We consider specifically whether ASR of English– isiZulu code-switched speech can be improved by incorporating monolingual data from unrelated but larger corpora. TDNNBLSTM acoustic models are trained using various configurations of training data. The utility of artificially-generated bilingual English–isiZulu text to augment language model training data is also explored. We find that English-isiZulu speech recognition accuracy can be improved by incorporating monolingual out-of-domain data despite the differences between the soap-opera and monolingual speech.\n",
+    ""
+   ],
+   "doi": "10.21437/SLTU.2018-26"
+  },
+  "karaday18_sltu": {
+   "authors": [
+    [
+     "Julien",
+     "Karaday"
+    ],
+    [
+     "Camila",
+     "Scaff"
+    ],
+    [
+     "Alejandrina",
+     "Cristia"
+    ]
+   ],
+   "title": "Diarization in Maximally Ecological Recordings: Data from Tsimane Children",
+   "original": "7",
+   "page_count": 6,
+   "order": 9,
+   "p1": 30,
+   "pn": 35,
+   "abstract": [
+    "﻿Daylong recordings may be the most naturalistic and least invasive way to collect speech data, sampling all potential language use contexts, with a device that is unobtrusive enough to have little effect on people’s behaviours. As a result, this technology is relevant for studying diverse languages, including understudied languages in remote settings – provided we can apply effective unsupervised analyses procedures. In this paper, we analyze in detail results from applying an open source package (DiViMe) and a proprietary alternative (LENATM ), onto clips\nperiodically sampled from day long recorders worn by Tsimane children of the Bolivian Amazon (age range: 6-68 months; recording time/child range: 4-22h). Detailed analyses showed the open source package fared no worse than the proprietary alternative. However, performance was  overall rather dismal. We suggest promising directions for improvements based on analyses of variation in performance within our corpus."
+   ],
+   "doi": "10.21437/SLTU.2018-7"
+  },
+  "yilmaz18_sltu": {
+   "authors": [
+    [
+     "Emre",
+     "Yilmaz"
+    ],
+    [
+     "Henk",
+     "Van Den Heuvel"
+    ],
+    [
+     "David",
+     "Van Leeuwen"
+    ]
+   ],
+   "title": "Code-Switching Detection with Data-Augmented Acoustic and Language Models",
+   "original": "27",
+   "page_count": 5,
+   "order": 29,
+   "p1": 127,
+   "pn": 131,
+   "abstract": [
+    "﻿In this paper, we investigate the code-switching detection performance of a code-switching (CS) automatic speech recognition (ASR) system with data-augmented acoustic and language models. We focus on the recognition of Frisian-Dutch radio broadcasts where one of the mixed languages, namely Frisian, is under-resourced. Recently, we have explored how the acoustic modeling AM) can benefit from monolingual speech data belonging to the high-resourced mixed language. For this purpose, we have trained state-of-the-art AMs on a significantly increased amount of CS speech by applying automatic transcription and monolingual Dutch speech. Moreover, we have improved the language model (LM) by creating CS text in various ways including text enervation using recurrent LMs trained on existing CS text. Motivated by the significantly improved CS ASR performance, we delve into the CS detection performance of the same ASR system in this work by reporting CS detection accuracies together with a detailed detection error analysis."
+   ],
+   "doi": "10.21437/SLTU.2018-27"
+  },
+  "prasad18_sltu": {
+   "authors": [
+    [
+     "Manasa",
+     "Prasad"
+    ],
+    [
+     "Theresa",
+     "Breiner"
+    ],
+    [
+     "Daan",
+     "van Esch"
+    ]
+   ],
+   "title": "Mining Training Data for Language Modeling Across the World's Languages",
+   "original": "13",
+   "page_count": 5,
+   "order": 15,
+   "p1": 61,
+   "pn": 65,
+   "abstract": [
+    "﻿Building smart keyboards and speech recognition systems for new languages requires a large, clean text corpus to train n-gram language models on. We report our findings on how much text data can realistically be found on the web across thousands of languages. In addition, we describe an innovative, scalable approach to normalizing this data: all data sources are noisy to some extent, but this situation is even more severe for low-resource languages. To help clean the data we find across all languages in a scalable way, we built a pipeline to automatically derive the configuration for language-specific text normalization systems, which we describe here as well."
+   ],
+   "doi": "10.21437/SLTU.2018-13"
+  },
+  "sailor18_sltu": {
+   "authors": [
+    [
+     "Hardik",
+     "Sailor"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Neural Networks-based Automatic Speech Recognition for Agricultural Commodity in Gujarati Language",
+   "original": "34",
+   "page_count": 5,
+   "order": 36,
+   "p1": 162,
+   "pn": 166,
+   "abstract": [
+    "﻿Recently, developing Automatic Speech Recognition (ASR) systems for Low Resource (LR) languages is an active research area. The research in ASR is significantly advanced using deep learning approaches producing state-of-the-art results compared to the conventional approaches. However, it is still challenging to use such approaches for LR languages since it requires a huge amount of training data. Recently, data augmentation, multilingual and cross-lingual approaches, transfer learning, etc. enable training deep learning architectures. This paper presents an overview of deep learning-based approaches for building ASR for LR languages. Recent projects and events organized to support the development of ASR and related applications in this direction are also discussed. This paper could be a good motivation for the researchers interested to work towards low resource ASR using deep learning techniques. The approaches described here could be useful in other related applications, such as audio search."
+   ],
+   "doi": "10.21437/SLTU.2018-34"
+  },
+  "bhatt18_sltu": {
+   "authors": [
+    [
+     "Shobha",
+     "Bhatt"
+    ],
+    [
+     "Amita",
+     "Dev"
+    ],
+    [
+     "Anurag",
+     "Jain"
+    ]
+   ],
+   "title": "Hindi Speech Vowel Recognition Using Hidden Markov Model",
+   "original": "42",
+   "page_count": 4,
+   "order": 44,
+   "p1": 201,
+   "pn": 204,
+   "abstract": [
+    "﻿The aim of this paper is to present Vowel recognition for Hindi language. The vowel recognition is an important step for developing speech recognition system. Thus there is a need to explore vowel recognition related issues for obtaining better speech recognition results. Experiments were conducted using Connected word Hindi speech corpus for Speaker dependent mode using widely used Hidden Markov Model(HMM) based HTK Tool kit for both training and testing. Hindi Speech Corpus, made of 600 utterances spoken by 5 speakers, was used in this experiment. Mel Frequency Cepstral Coefficients (MFCCs) were used with 5 states monophone based HMM\nmodel for feature extraction. Different Hindi speech characteristics were explored using formant analysis. Experimental results achieved as average vowel recognition scores of 77.12% for front vowels, 84.4% for middle vowels and 86% back vowels. Average vowel recognition score was achieved was 83.19%. Finally paper concludes future development direction.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-42"
+  },
+  "sodimana18_sltu": {
+   "authors": [
+    [
+     "Keshan",
+     "Sodimana"
+    ],
+    [
+     "Pasindu",
+     "De Silva"
+    ],
+    [
+     "Supheakmungkol",
+     "Sarin"
+    ],
+    [
+     "Oddur",
+     "Kjartansson"
+    ],
+    [
+     "Martin",
+     "Jansche"
+    ],
+    [
+     "Knot",
+     "Pipatsrisawat"
+    ],
+    [
+     "Linne",
+     "Ha"
+    ]
+   ],
+   "title": "A Step-by-Step Process for Building TTS Voices Using Open Source Data and Frameworks for Bangla, Javanese, Khmer, Nepali, Sinhala, and Sundanese",
+   "original": "14",
+   "page_count": 5,
+   "order": 16,
+   "p1": 66,
+   "pn": 70,
+   "abstract": [
+    "﻿The availability of language resources is vital for the development of text-to-speech (TTS) systems. Thus, open source resources are highly beneficial for TTS research communities focused on low-resourced languages. In this paper, we present data sets for 6 low-resourced languages that we open sourced to the public. The data sets consist of audio files, pronunciation lexicons, and phonology definitions for Bangla, Javanese, Khmer, Nepali, Sinhala, and Sundanese. These data sets are sufficient for building voices in these languages. We also describe a recipe for building a new TTS voice using our data together with openly available resources and tools."
+   ],
+   "doi": "10.21437/SLTU.2018-14"
+  },
+  "sodimana18b_sltu": {
+   "authors": [
+    [
+     "Keshan",
+     "Sodimana"
+    ],
+    [
+     "Pasindu De",
+     "Silva"
+    ],
+    [
+     "Richard",
+     "Sproat"
+    ],
+    [
+     "Theeraphol",
+     "Wattanavekin"
+    ],
+    [
+     "Alexander",
+     "Gutkin"
+    ],
+    [
+     "Knot",
+     "Pipatsrisawat"
+    ]
+   ],
+   "title": "Text Normalization for Bangla, Khmer, Nepali, Javanese, Sinhala and Sundanese Text-to-Speech Systems",
+   "original": "31",
+   "page_count": 5,
+   "order": 33,
+   "p1": 147,
+   "pn": 151,
+   "abstract": [
+    "﻿Text normalization is the process of converting non-standard words (NSWs) such as numbers, and abbreviations into standard words so that their pronunciations can be derived by a typical means (usually lexicon lookups). Text normalization is, thus, an important component of any text-to-speech (TTS) system. Without text normalization, the resulting voice may sound unintelligent. In this paper, we describe an approach to develop rule-based text normalization. We also describe our open source repository containing text normalization grammars and tests for Bangla, Javanese, Khmer, Nepali, Sinhala and Sundanese. Finally, we present a recipe for utilizing the grammars in a TTS sytem."
+   ],
+   "doi": "10.21437/SLTU.2018-31"
+  },
+  "srivastava18_sltu": {
+   "authors": [
+    [
+     "Brij Mohan Lal",
+     "Srivastava"
+    ],
+    [
+     "Sunayana",
+     "Sitaram"
+    ],
+    [
+     "Rupesh",
+     "Kumar Mehta"
+    ],
+    [
+     "Krishna",
+     "Doss Mohan"
+    ],
+    [
+     "Pallavi",
+     "Matani"
+    ],
+    [
+     "Sandeepkumar",
+     "Satpal"
+    ],
+    [
+     "Kalika",
+     "Bali"
+    ],
+    [
+     "Radhakrishnan",
+     "Srikanth"
+    ],
+    [
+     "Niranjan",
+     "Nayak"
+    ]
+   ],
+   "title": "Interspeech 2018 Low Resource Automatic Speech Recognition Challenge for Indian Languages",
+   "original": "3",
+   "page_count": 4,
+   "order": 5,
+   "p1": 11,
+   "pn": 14,
+   "abstract": [
+    "﻿India has more than 1500 languages, with 30 of them spoken by more than one million native speakers. Most of them are low-resource and could greatly benefit from speech and language technologies. Building speech recognition support for these low-resource languages requires innovation in handling constraints on data size, while also exploiting the unique properties and similarities among Indian languages. With this goal, we organized a low-resource Automatic Speech Recognition challenge for Indian languages as part of Interspeech 2018. We released 50 hours of speech data with transcriptions for Tamil, Telugu and Gujarati, amounting to a total of 150 hours. Participants were required to only use the data we released for the challenge to preserve the low-resource setting, however, they were not restricted to work on any particular aspect of the speech recognizer. We received 109 submissions from 18 research groups and evaluated the systems in terms of Word Error Rate on a blind test set. In this paper we summarize the data, approaches and results of the challenge.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-3"
+  },
+  "guntur18_sltu": {
+   "authors": [
+    [
+     "Radha Krishna",
+     "Guntur"
+    ],
+    [
+     "R",
+     "Krishnan"
+    ],
+    [
+     "V.K.",
+     "Mittal"
+    ]
+   ],
+   "title": "Prosodic Analysis of Non-Native South Indian English Speech",
+   "original": "15",
+   "page_count": 5,
+   "order": 17,
+   "p1": 71,
+   "pn": 75,
+   "abstract": [
+    "﻿Investigations on linguistic prosody related to non-native English speech by South Indians were carried out using a database specifically meant for this study. Prosodic differences between native and non-native speech samples of regional language groups: Kannada, Tamil, and Telugu were evaluated and compared. This information is useful in applications such as Native language identification. It is observed that the mean value of pitch and the general variation of pitch contour are higher in the case of non-native English speech by all the three groups of speakers, indicating accommodation of speaking manner. This study finds that dynamic variation of pitch is the least for English speech by native Kannada language speakers. The increase in standard deviation of pitch contour for non-native English speech by Kannada speakers is much less at about 3:7% on an average. In the case of Tamil and Telugu native speakers it is 9:5%, and 27% respectively."
+   ],
+   "doi": "10.21437/SLTU.2018-15"
+  },
+  "mundada18_sltu": {
+   "authors": [
+    [
+     "Monica",
+     "Mundada"
+    ],
+    [
+     "Sangramsing",
+     "Kayte"
+    ],
+    [
+     "Pradip",
+     "Das"
+    ]
+   ],
+   "title": "Implementation of Concatenation Technique for Low Resource Text-To-Speech System Based on Marathi Talking Calculator",
+   "original": "16",
+   "page_count": 4,
+   "order": 18,
+   "p1": 76,
+   "pn": 79,
+   "abstract": [
+    "﻿The indulgent acquaintance of mathematical basic concepts creates the pavement for numerous opportunities in life for every individual, including visually impaired people. The use of assertive technology for the disabled section of the society makes them more independent and avoid barriers in the field of education and employment. This research is focused to design an Android based application i.e. Talking Calculator for the low resource based Marathi native language. The novelty of this work is to develop both, application and Marathi number corpus. Marathi is an Indo-Aryan language spoken by approximately 6.99 million speakers in India, which is the third widely spoken language after Bengali and Telugu but as they lack in linguistic resources, e.g. grammars, POS taggers, corpora, it falls into the category of low resource language. The front end part of the application depicts the screen of a basic calculator with numerals displayed in Marathi. During runtime, each number is spoken as the specific key is pressed. It also speaks out the operation which is intended to be performed. The concatenation synthesis technique is applied to speak out the value of decimal places in the output number. The result is spoken out with proper place value of a digit in Marathi. The performance of the system is measured to the accuracy rate of 95.5%. The average run time complexity of the application is also calculated which is noted down to 2.64 sec. The feedback and review of the application is also taken from real end-user i.e. blind people."
+   ],
+   "doi": "10.21437/SLTU.2018-16"
+  },
+  "scharenborg18_sltu": {
+   "authors": [
+    [
+     "Odette",
+     "Scharenborg"
+    ],
+    [
+     "Patrick",
+     "Ebel"
+    ],
+    [
+     "Mark",
+     "Hasegawa-Johnson"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Building an ASR System for Mboshi Using A Cross-Language Definition of Acoustic Units Approach",
+   "original": "35",
+   "page_count": 5,
+   "order": 37,
+   "p1": 167,
+   "pn": 171,
+   "abstract": [
+    "﻿For many languages in the world, not enough (annotated) speech data is available to train an ASR system. Recently, we proposed a cross-language method for training an ASR system using linguistic knowledge and semi-supervised training. Here, we apply this approach to the low-resource language Mboshi. Using an ASR system trained on Dutch, Mboshi acoustic units were first created using cross-language initialization of the phoneme vectors in the output layer. Subsequently, this adapted system was retrained using Mboshi self-labels. Two training methods were investigated: retraining of only the output layer and retraining the full deep neural network (DNN). The resulting Mboshi system was analyzed by investigating per phoneme accuracies, phoneme confusions, and by visualizing the hidden layers of the DNNs prior to and following retraining with the self-labels. Results showed a fairly similar performance for the two training methods but a better phoneme representation for the fully retrained DNN."
+   ],
+   "doi": "10.21437/SLTU.2018-35"
+  },
+  "krishna18_sltu": {
+   "authors": [
+    [
+     "Hari",
+     "Krishna"
+    ],
+    [
+     "Sivanand",
+     "Achanta"
+    ],
+    [
+     "Anil",
+     "Kumar Vuppala"
+    ]
+   ],
+   "title": "Incorporating Speaker Normalizing Capabilities to an End-to-End Speech Recognition System",
+   "original": "36",
+   "page_count": 5,
+   "order": 38,
+   "p1": 172,
+   "pn": 176,
+   "abstract": [
+    "﻿Speaker normalization is one of the crucial aspects of an Automatic speech recognition system (ASR). Speaker normalization is employed to reduce the performance drop in ASR due to speaker variabilities. Traditional speaker normalization methods are mostly linear transforms over the input data estimated per speaker, such transforms would be efficient with sufficient data. In practical scenarios, only a single utterance from the test speaker is accessible. The present study explores speaker normalization methods for end-to-end speech recognition systems that could efficiently be performed even when single utterance from the unseen speaker is available. In this work, it is hypothesized that by suitably providing information about the speaker’s identity while training an end-to-end neural network, the capability to normalize the speaker variability could be incorporated into an ASR system. The efficiency of these normalization methods depends on the representation used for unseen speakers. In this work, the identity of the training speaker is represented in two different ways viz. i) by using a one-hot speaker code, ii) a weighted combination of all the training speakers identities. The unseen speakers from the test set are represented using a weighted combination of training speakers representations. Both the approaches have reduced the word error rate (WER) by 0.6, 1.3% WSJ corpus.\n",
+    ""
+   ],
+   "doi": "10.21437/SLTU.2018-36"
+  },
+  "demirsahin18_sltu": {
+   "authors": [
+    [
+     "Isin",
+     "Demirsahin"
+    ],
+    [
+     "Martin",
+     "Jansche"
+    ],
+    [
+     "Alexander",
+     "Gutkin"
+    ]
+   ],
+   "title": "A Unified Phonological Representation of South Asian Languages for Multilingual Text-to-Speech",
+   "original": "17",
+   "page_count": 5,
+   "order": 19,
+   "p1": 80,
+   "pn": 84,
+   "abstract": [
+    "﻿We present a multilingual phoneme inventory and inclusion mappings from the native inventories of several major South Asian languages for multilingual parametric text-to-speech synthesis (TTS). Our goal is to reduce the need for training data when building new TTS voices by leveraging available data for similar languages within a common feature design. For West Bengali, Gujarati, Kannada, Malayalam, Marathi, Tamil, Telugu, and Urdu we compare TTS voices trained only on monolingual data with voices trained on multilingual data from 12 languages. In subjective evaluations multilingually trained voices outperform (or in a few cases are statistically tied with) the corresponding monolingual voices. The multilingual setup can further be used to synthesize speech for languages not seen in the training data; preliminary evaluations lean towards good. Our results indicate that pooling data from different languages in a single acoustic model can be beneficial, opening up new uses and research questions."
+   ],
+   "doi": "10.21437/SLTU.2018-17"
+  },
+  "zanonboito18_sltu": {
+   "authors": [
+    [
+     "Marcely",
+     "Zanon Boito"
+    ],
+    [
+     "Antonios",
+     "Anastasopoulos"
+    ],
+    [
+     "Aline",
+     "Villavicencio"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Marika",
+     "Lekakou"
+    ]
+   ],
+   "title": "A Small Griko-Italian Speech Translation Corpus",
+   "original": "8",
+   "page_count": 6,
+   "order": 10,
+   "p1": 36,
+   "pn": 41,
+   "abstract": [
+    "﻿This paper presents an extension to a very low-resource parallel corpus collected in an endangered language, Griko, making it useful for computational research. The corpus consists of 330 utterances (about 2 hours of speech) which have been transcribed and translated in Italian, with annotations for word-level speech-to-transcription and speech-to-translation alignments. The corpus also includes morpho syntactic tags and word-level glosses. Applying an automatic unit discovery method, pseudo-phones were also generated. We detail how the corpus was collected, cleaned and processed, and we illustrate its use on zero-resource tasks by presenting some baseline results for the task of speech-to-translation alignment and unsupervised word discovery. The dataset will be available online, aiming to encourage replicability and diversity in computational language documentation experiments."
+   ],
+   "doi": "10.21437/SLTU.2018-8"
+  },
+  "foley18_sltu": {
+   "authors": [
+    [
+     "Ben",
+     "Foley"
+    ],
+    [
+     "Josh",
+     "Arnold"
+    ],
+    [
+     "Rolando",
+     "Coto-Solano"
+    ],
+    [
+     "Gautier",
+     "Durantin"
+    ],
+    [
+     "T. Mark",
+     "Ellison"
+    ],
+    [
+     "Daan",
+     "van Esch"
+    ],
+    [
+     "Scott",
+     "Heath"
+    ],
+    [
+     "František",
+     "Kratochvíl"
+    ],
+    [
+     "Zara",
+     "Maxwell-Smith"
+    ],
+    [
+     "David",
+     "Nash"
+    ],
+    [
+     "Ola",
+     "Olsson"
+    ],
+    [
+     "Mark",
+     "Richards"
+    ],
+    [
+     "Nay",
+     "San"
+    ],
+    [
+     "Hywel",
+     "Stoakes"
+    ],
+    [
+     "Nick",
+     "Thieberger"
+    ],
+    [
+     "Janet",
+     "Wiles"
+    ]
+   ],
+   "title": "Building Speech Recognition Systems for Language Documentation: The CoEDL Endangered Language Pipeline and Inference System (ELPIS)",
+   "original": "43",
+   "page_count": 5,
+   "order": 45,
+   "p1": 205,
+   "pn": 209,
+   "abstract": [
+    "﻿Machine learning has revolutionized speech technologies for major world languages, but these technologies have generally not been available for the roughly 4,000 languages with populations of fewer than 10,000 speakers. This paper describes the development of ELPIS, a pipeline which language documentation workers with minimal computational experience can use to build their own speech recognition models, resulting in models being built for 16 languages from the Asia-Pacific region. ELPIS puts machine learning speech technologies within reach of people working with languages with scarce data, in a scalable way. This is impactful since it enables language communities to cross the digital divide, and speeds up language documentation. Complete automation of the process is not feasible for languages with small quantities of data and potentially large vocabularies. Hence our goal is not full automation, but rather to make a practical and effective workflow that integrates machine learning technologies."
+   ],
+   "doi": "10.21437/SLTU.2018-43"
+  },
+  "kumarvuddagiri18_sltu": {
+   "authors": [
+    [
+     "Ravi",
+     "Kumar Vuddagiri"
+    ],
+    [
+     "Hari Krishna",
+     "Vydana"
+    ],
+    [
+     "Anil",
+     "Kumar Vuppala"
+    ]
+   ],
+   "title": "Improved Language Identification Using Stacked SDC Features and Residual Neural Network",
+   "original": "44",
+   "page_count": 5,
+   "order": 46,
+   "p1": 210,
+   "pn": 214,
+   "abstract": [
+    "﻿Language identification (LID) systems, which can model high level information such as phonotactics have exhibited superior performance. State-of-the-art models use sequential models to capture the high-level information, but these models are sensitive to the length of the utterance and do not equally generalize over variable length utterances. To effectively capture this information, a feature that can model the long-term temporal context is required. This study aims to capture the long-term temporal context by appending successive shifted delta cepstral (SDC) features. Deep neural networks have been explored for developing LID systems. Experiments have been performed using AP17-OLR database. LID systems developed by stacking SDC features have shown significant improvement compared to the system trained with SDC features. The proposed feature with residual connections in the feed-forward networks reduced the equal error rate from 21.04, 18.02, 16.45 to 14.42, 11.14 and 10.11 on the 1-second, 3-seconds and > 3-second test utterances respectively."
+   ],
+   "doi": "10.21437/SLTU.2018-44"
+  },
+  "nuraini18_sltu": {
+   "authors": [
+    [
+     "Khumaisa",
+     "Nur'Aini"
+    ],
+    [
+     "Johanes",
+     "Effendi"
+    ],
+    [
+     "Sakriani",
+     "Sakti"
+    ],
+    [
+     "Mirna",
+     "Adriani"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Corpus Construction and Semantic Analysis of Indonesian Image Description",
+   "original": "9",
+   "page_count": 5,
+   "order": 11,
+   "p1": 42,
+   "pn": 46,
+   "abstract": [
+    "﻿Understanding language grounded in visual content is a challenging problem that has raised interest in both the computer vision and natural language processing communities. Flickr30k, which is one of the corpora that have become a standard benchmark to study sentence-based image description, was initially limited to English descriptions, but it has been extended to German, French, and Czech. This paper describes our construction of an image description dataset in the Indonesian language. We translated English descriptions from the Flickr30K dataset into Indonesian with automatic machine translation and performed human validation for the portion of the result. We then constructed Indonesian image descriptions of 10k images by crowd sourcing without English descriptions or translations, and found semantic differences between translations and descriptions. We conclude that the cultural differences between the native speakers of English and Indonesian create different perceptions for constructing natural language expressions that describe an image."
+   ],
+   "doi": "10.21437/SLTU.2018-9"
+  },
+  "chakraborty18_sltu": {
+   "authors": [
+    [
+     "Joyshree",
+     "Chakraborty"
+    ],
+    [
+     "Shikhamoni",
+     "Nath"
+    ],
+    [
+     "S R",
+     "Nirmala"
+    ],
+    [
+     "Samudravijaya",
+     "K"
+    ]
+   ],
+   "title": "Language Identification of Assamese, Bengali and English Speech",
+   "original": "37",
+   "page_count": 5,
+   "order": 39,
+   "p1": 177,
+   "pn": 181,
+   "abstract": [
+    "﻿Machine identification of the language of input speech is of practical interest in regions where people are either bilingual or multi-lingual. Here, we present the development of automatic language identification system that identifies the language of input speech as one of Assamese or Bengali or English spoken by them. The speech databases comprise of sentences read by multiple speakers using their mobile phones. Kaldi toolkit was used to train acoustic models based on hidden Markov model in conjunction with Gaussian mixture models and deep neural networks. The accuracy of the implemented language identification system for test data is 99.3%."
+   ],
+   "doi": "10.21437/SLTU.2018-37"
+  },
+  "wu18_sltu": {
+   "authors": [
+    [
+     "Bin",
+     "Wu"
+    ],
+    [
+     "Sakriani",
+     "Sakti"
+    ],
+    [
+     "Jinsong",
+     "Zhang"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Optimizing DPGMM Clustering in Zero Resource Setting Based on Functional Load",
+   "original": "1",
+   "page_count": 5,
+   "order": 3,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "﻿Inspired by infant language acquisition, unsupervised subword discovery of zero-resource languages has gained attention recently. The Dirichlet Process Gaussian Mixture Model (DPGMM) achieves top results evaluated by the ABX discrimination test. However, the DPGMM model is too sensitive to acoustic variation and often produces too many types of subword units and a relatively high-dimensional posteriorgram, which implies high computational cost to perform learning and inference, as well as more tendencies to be overfitting.\nThis paper proposes applying functional load to reduce the number of sub-word units from DPGMM. We greedily merge pairs of units with the lowest functional load, causing the least information loss of the language. Results on the Xitsonga corpus with the official setting of Zerospeech 2015 show that we can reduce the number of sub-word units by more than two thirds without hurting the ABX error rate. The number of units is close to that of phonemes in human language.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-1"
+  },
+  "hu18_sltu": {
+   "authors": [
+    [
+     "Pengfei",
+     "Hu"
+    ],
+    [
+     "Shen",
+     "Huang"
+    ],
+    [
+     "Zhiqiang",
+     "Lv"
+    ]
+   ],
+   "title": "Investigating the Use of Mixed-Units Based Modeling for Improving Uyghur Speech Recognition",
+   "original": "45",
+   "page_count": 5,
+   "order": 47,
+   "p1": 215,
+   "pn": 219,
+   "abstract": [
+    "﻿Uyghur is a highly agglutinative language with a large number of words derived from the same root. For such languages the use of subwords in speech recognition becomes a natural choice, which can solve the OOV issues. However, short units in subword modeling will weaken the constraint of linguistic context. Besides, vowel weakening and reduction occur frequently in Uyghur language, which may lead to high deletion errors for short unit sequence recognition. In this paper, we investigate using mixed units in Uyghur speech recognition. Subwords and whole-words are mixed together to build a hybrid lexicon and language models for recognition. We also introduce an interpolated LM to further improve the performance. Experiment results show that the mixed-unit based modelings do outperform word or subword based modeling. About 10% relative reduction in Word Error Rate and 8% reduction in Character Error Rate have been achieved for test datasets compared with baseline system."
+   ],
+   "doi": "10.21437/SLTU.2018-45"
+  },
+  "yan18_sltu": {
+   "authors": [
+    [
+     "Jinghao",
+     "Yan"
+    ],
+    [
+     "Zhiqiang",
+     "Lv"
+    ],
+    [
+     "Shen",
+     "Huang"
+    ],
+    [
+     "Hongzhi",
+     "Yu"
+    ]
+   ],
+   "title": "Low-resource Tibetan Dialect Acoustic Modeling Based on Transfer Learning",
+   "original": "2",
+   "page_count": 5,
+   "order": 4,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "﻿Deep neural network (DNN) based acoustic model has made great breakthroughs in speech recognition. However, lower source Sino-Tibetan languages such as Tibetan still need further studies, especially when dealing with dialects. Based on a TDNN acoustic model trained according to lattice-free MMI criteria, this paper demonstrates baseline systems for two Tibetan dialects: U-Tsang and Amdo. Transfer learning is also employed to improve our systems. Experiment results show that for low resource Tibetan dialect recognition, transfer learning can consistently outperform the baseline."
+   ],
+   "doi": "10.21437/SLTU.2018-2"
+  },
+  "sailor18b_sltu": {
+   "authors": [
+    [
+     "Hardik",
+     "Sailor"
+    ],
+    [
+     "Ankur",
+     "Patil"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Advances in Low Resource ASR: A Deep Learning Perspective",
+   "original": "4",
+   "page_count": 5,
+   "order": 6,
+   "p1": 15,
+   "pn": 19,
+   "abstract": [
+    "﻿In this paper, we present a development of Automatic Speech Recognition (ASR) system as a part of a speech-based access for an agricultural commodity in the low resource Gujarati language. We proposed to use neural networks for language modeling, acoustic modeling, and feature learning from the raw speech signals. The speech database of agricultural commodities was collected from the farmers belonging to various villages of Gujarat state (India). Acoustic modeling is performed using Time Delay Neural Networks (TDNN). The auditory feature representation is learned using Convolution Restricted Boltzmann Machine (ConvRBM) and Teager Energy Operator (TEO). The language model (LM) rescoring is performed using Recurrent Neural Networks (RNN). RNNLM rescoring provides an absolute reduction of 0.69-1.18 in % WER for all the feature sets compared to the bi-gram LM. The system combination further improved the performance compared to the baseline TDNN with Mel filter bank features (5.4 % relative reduction in WER)."
+   ],
+   "doi": "10.21437/SLTU.2018-4"
+  },
+  "lata18_sltu": {
+   "authors": [
+    [
+     "Swaran",
+     "Lata"
+    ],
+    [
+     "Prashant",
+     "Verma"
+    ],
+    [
+     "Simerjeet",
+     "Kaur"
+    ]
+   ],
+   "title": "Acoustic Characretistics of Schwa Vowel in Punjabi.",
+   "original": "18",
+   "page_count": 5,
+   "order": 20,
+   "p1": 85,
+   "pn": 89,
+   "abstract": [
+    "﻿The research area of phonological study of Schwa /ə/ in Punjabi is a need of linguistic survey of Punjabi language. Punjabi is tonal language in which schwa occurs in only word-initial and word-medial. Word-initial schwa is found in frequent use. The word-medial schwa is generally used functionally to break the consonant clusters and is not represented orthographically. It also acts as tone bearing unit (TBU) in many tonal words. It may be nasalized also. Consonantal release vowel Schwa is observed in isolated words with closed-syllable ending. Thus schwa may have different acoustic properties in these contexts. The study of first two formants also helps in measuring the acoustic properties of vowels , thus the spectrographic study of schwa needs to be carried out for which the F1 variations and acoustic space in terms of F1 & F2 will be examined by recording speech data of 10 native Punjabi speakers. The investigation of said work is based on the words containing schwa in different positions and phonetic coverage of various contexts. The co-articulation effects on variability of schwa will be reported."
+   ],
+   "doi": "10.21437/SLTU.2018-18"
+  },
+  "menon18_sltu": {
+   "authors": [
+    [
+     "Raghav",
+     "Menon"
+    ],
+    [
+     "Astik",
+     "Biswas"
+    ],
+    [
+     "Armin",
+     "Saeb"
+    ],
+    [
+     "John",
+     "Quinn"
+    ],
+    [
+     "Thomas",
+     "Niesler"
+    ]
+   ],
+   "title": "Automatic Speech Recognition for Humanitarian Applications in Somali",
+   "original": "5",
+   "page_count": 5,
+   "order": 7,
+   "p1": 20,
+   "pn": 24,
+   "abstract": [
+    "﻿We present our first efforts in building an automatic speech recognition system for Somali, an under-resourced language, using 1.57 hrs of annotated speech for acoustic model training. The system is part of an ongoing effort by the United Nations (UN) to implement keyword spotting systems supporting humanitarian relief programmes in parts of Africa where languages are severely under-resourced. We evaluate several types of acoustic model, including recent neural architectures. Language model data augmentation using a combination of recurrent neural networks (RNN) and long short-term memory neural networks (LSTMs) as well as the perturbation of acoustic data are also considered. We find that both types of data augmentation are beneficial to performance, with our best system using a combination of convolutional neural networks (CNNs), time-delay neural networks (TDNNs) and bi-directional long short term memory (BLSTMs) to achieve a word error rate of 53.75%."
+   ],
+   "doi": "10.21437/SLTU.2018-5"
+  },
+  "bajracharya18_sltu": {
+   "authors": [
+    [
+     "Roop",
+     "Bajracharya"
+    ],
+    [
+     "Santosh",
+     "Regmi"
+    ],
+    [
+     "Bal Krishna",
+     "Bal"
+    ],
+    [
+     "Balaram",
+     "Prasain"
+    ]
+   ],
+   "title": "Building a Natural Sounding Text-to-Speech System for the Nepali Language - Research and Development Challenges and Solutions",
+   "original": "32",
+   "page_count": 5,
+   "order": 34,
+   "p1": 152,
+   "pn": 156,
+   "abstract": [
+    "﻿Text-to-Speech (TTS) synthesis has come far from its primitive synthetic monotone voices to more natural and intelligible sounding voices. One of the direct applications of natural bounding TTS systems is the screen reader applications for the visually impaired and the blind community. The Festival Speech Synthesis System uses a concatenative speech synthesis method together with the unit selection process to generate a natural sounding voice. This work primarily gives an account of the efforts put towards developing a Natural sounding TTS system for Nepali using the Festival system. We also shed light on the issues faced and the solutions derived which can be quite overlapping across other similar under-resourced languages in the region."
+   ],
+   "doi": "10.21437/SLTU.2018-32"
+  },
+  "menon18b_sltu": {
+   "authors": [
+    [
+     "Raghav",
+     "Menon"
+    ],
+    [
+     "Herman",
+     "Kamper"
+    ],
+    [
+     "Emre",
+     "Yilmaz"
+    ],
+    [
+     "John",
+     "Quinn"
+    ],
+    [
+     "Thomas",
+     "Niesler"
+    ]
+   ],
+   "title": "ASR-Free CNN-DTW Keyword Spotting Using Multilingual Bottleneck Features for Almost Zero-Resource Languages",
+   "original": "38",
+   "page_count": 5,
+   "order": 40,
+   "p1": 182,
+   "pn": 186,
+   "abstract": [
+    "﻿We consider multilingual bottleneck features (BNFs) for nearly zero-resource keyword spotting. This forms part of a United Nations effort using keyword spotting to support humanitarian relief programmes in parts of Africa where languages are severely under-resourced. We use 1920 isolated keywords (40 types, 34 minutes) as exemplars for dynamic time warping (DTW) template matching, which is performed on a much larger body of untranscribed speech. These DTW costs are used as targets for a convolutional neural network (CNN) keyword spotter, giving a much faster system than direct DTW. Here we consider how available data from well-resourced languages can improve this CNN-DTW approach. We show that multilingual BNFs trained on ten languages improve the area under the ROC curve of a CNN-DTW system by 10.9% absolute relative to the MFCC baseline. By combining low-resource DTW-based supervision with information from well-resourced languages, CNN-DTW is a competitive option for low-resource keyword spotting.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-38"
+  },
+  "acharya18_sltu": {
+   "authors": [
+    [
+     "Praveen",
+     "Acharya"
+    ],
+    [
+     "Bal Krishna",
+     "Bal"
+    ]
+   ],
+   "title": "A Comparative Study of SMT and NMT: Case Study of English-Nepali Language Pair",
+   "original": "19",
+   "page_count": 4,
+   "order": 21,
+   "p1": 90,
+   "pn": 93,
+   "abstract": [
+    "﻿Machine Translation is one of the major problems in the field of Natural Language Processing. Over the course, many approaches have been applied in order to solve this problem ranging from traditional rule-based approach, statistical methods to the more recent neural network based methods. Neural network based methods have produced comparable results to that of the existing phrase based model and in some language pairs they have even outperformed the latter. A huge amount of parallel corpus is required for both the SMT and NMT models in order to produce a reasonable result. For some language pairs this data is readily available but for others it may not be the case. This research focuses on the comparative study of how SMT and NMT based machine translation model perform and compare to each other in case where the language pair is under resourced in terms of the availability of parallel corpus."
+   ],
+   "doi": "10.21437/SLTU.2018-19"
+  },
+  "kjartansson18_sltu": {
+   "authors": [
+    [
+     "Oddur",
+     "Kjartansson"
+    ],
+    [
+     "Supheakmungkol",
+     "Sarin"
+    ],
+    [
+     "Knot",
+     "Pipatsrisawat"
+    ],
+    [
+     "Martin",
+     "Jansche"
+    ],
+    [
+     "Linne",
+     "Ha"
+    ]
+   ],
+   "title": "Crowd-Sourced Speech Corpora for Javanese, Sundanese, Sinhala, Nepali, and Bangladeshi Bengali",
+   "original": "11",
+   "page_count": 4,
+   "order": 13,
+   "p1": 52,
+   "pn": 55,
+   "abstract": [
+    "﻿We present speech corpora for Javanese, Sundanese, Sinhala, Nepali, and Bangladeshi Bengali. Each corpus consists of an average of approximately 200k recorded utterances that were provided by native-speaker volunteers in the respective region. Recordings were made using portable consumer electronics in reasonably quiet environments. For each recorded utterance the textual prompt and an anonymized hexadecimal identifier of the speaker are available. Biographical information of the speakers is unavailable. In particular, the speakers come from an unspecified mix of genders. The recordings are suitable for research on acoustic modeling for speech recognition, for example. To validate the integrity of the corpora and their suitability for speech recognition research, we provide simple recipes that illustrate how they can be used with the open-source Kaldi speech recognition toolkit. The corpora are being made available under a Creative Commons license in the hope that they will stimulate further research on these languages.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-11"
+  },
+  "deka18_sltu": {
+   "authors": [
+    [
+     "Barsha",
+     "Deka"
+    ],
+    [
+     "S R",
+     "Nirmala"
+    ],
+    [
+     "Samudravijaya",
+     "K."
+    ]
+   ],
+   "title": "Development of Assamese Continuous Speech Recognition System",
+   "original": "46",
+   "page_count": 5,
+   "order": 48,
+   "p1": 220,
+   "pn": 224,
+   "abstract": [
+    "﻿This paper describes the development of a continuous speech recognition system for Assamese, an under-resourced language of North-East India. The Speech corpus used in this work consists of 5658 spoken utterances collected from 27 speakers over telephone channel. The baseline speech recognition system was implemented using conventional hidden Markov model in conjunction with Gaussian mixture model, employing Mel-frequency cepstral coefficients as features. ASR systems using subspace Gaussian mixture model and deep neural networks together with hidden Markov model were implemented. The systems were evaluated with 3-fold\ncross validation method. The average word error rate of the best ASR system is 4.3%.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-46"
+  },
+  "das18_sltu": {
+   "authors": [
+    [
+     "Shubhadeep",
+     "Das"
+    ],
+    [
+     "Pradip K.",
+     "Das"
+    ]
+   ],
+   "title": "Analysis and Comparison of Features for Text-Independent Bengali Speaker Recognition",
+   "original": "57",
+   "page_count": 5,
+   "order": 59,
+   "p1": 274,
+   "pn": 278,
+   "abstract": [
+    "﻿Speaker Recognition is the collective name of problems given to identifying a person or a set of persons using his/her voice. Variation of speaker speaking styles due to different languages can make speaker recognition a difficult task. In this paper, the main aim was to develop a system and compare different efficient text-independent Bengali speaker recognition systems that can give good rates of accuracy (greater than 90%) with not more than 10 minutes of speech data available for each speaker and can easily produce results without long amounts of delay. The experiments were carried out using the SHRUTI Bengali speech database and validated using TED-EX database. We have also analyzed different features of a Bengali speaker using GMM-UBM framework, Joint Factor Analysis, i-vectors, CNN and RNN. Elaborate comparisons and classifications are carried out based on training durations and languages spoken by the speakers."
+   ],
+   "doi": "10.21437/SLTU.2018-57"
+  },
+  "bhowmik18_sltu": {
+   "authors": [
+    [
+     "Tanmay",
+     "Bhowmik"
+    ],
+    [
+     "Shyamal",
+     "Kumar Das Mandal"
+    ]
+   ],
+   "title": "Segmental and Supra Segmental Feature Based Speech Recognition System for Under Resourced Languages",
+   "original": "47",
+   "page_count": 5,
+   "order": 49,
+   "p1": 225,
+   "pn": 229,
+   "abstract": [
+    "﻿In detection-based, bottom-up speech recognition procedures, the segmental features like phonological feature based speech attributes act as one of the key component for the recognition model. In this study, place and manner of articulation based phonological features have been detected and they are integrated with the supra segmental parameters of speech to develop the ASR system for various under-resourced languages. For detection purpose a bank of phonological feature detector has been designed. Deep Neural Network (DNN) based attribute detector performed well to detect the phonological features. This paper also reports a comparative distribution of the (DNN) based attribute detector and the same using multi layer Perceptron (MLP). For continuous spoken speech, the Bengali CDAC speech corpus has been used. The deep neural based attribute detector achieved an average frame level accuracy of 88.56% is achieved whereas the same for MLP based detector is measured as 83.69%.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-47"
+  },
+  "jimerson18_sltu": {
+   "authors": [
+    [
+     "Robbie",
+     "Jimerson"
+    ],
+    [
+     "Kruthika",
+     "Simha"
+    ],
+    [
+     "Raymond",
+     "Ptucha"
+    ],
+    [
+     "Emily",
+     "Prudhommeaux"
+    ]
+   ],
+   "title": "Improving ASR Output for Endangered Language Documentation",
+   "original": "39",
+   "page_count": 5,
+   "order": 41,
+   "p1": 187,
+   "pn": 191,
+   "abstract": [
+    "﻿Documenting endangered languages supports the historical preservation of diverse cultures. Automatic speech recognition (ASR), while potentially very useful for this task, has been underutilized for language documentation due to the challenges inherent in building robust models from extremely limited audio and text training resources. In this paper, we explore the utility of supplementing existing training resources using synthetic data, with a focus on Seneca, a morphologically complex endangered language of North America. We use transfer learning to train acoustic models using both the small amount of available acoustic training data and artificially distorted copies of that data. We then supplement the language model training data with verb forms generated by rule and sentences produced by an LSTM trained on the available text data. The addition of synthetic data yields reductions in word error rate, demonstrating the promise of data augmentation for this task.\n",
+    ""
+   ],
+   "doi": "10.21437/SLTU.2018-39"
+  },
+  "myahlaing18_sltu": {
+   "authors": [
+    [
+     "Aye",
+     "Mya Hlaing"
+    ],
+    [
+     "Win",
+     "Pa Pa"
+    ],
+    [
+     "Ye",
+     "Kyaw Thu"
+    ]
+   ],
+   "title": "DNN Based Myanmar Speech Synthesis",
+   "original": "30",
+   "page_count": 5,
+   "order": 32,
+   "p1": 142,
+   "pn": 146,
+   "abstract": [
+    "﻿Deep Neural Network (DNN) as the generative model for Myanmar speech synthesis is presented in this paper. A question set for Myanmar language is proposed and used in context clustering of HMM-based speech synthesis and extracting input features for DNN-based speech synthesis. We investigated the effectiveness of precise state boundaries and coarse phone boundaries on aligning input linguistic features and output acoustic features for training DNN. The experimental results in objective evaluation show that the state boundary information give better result than phone boundary information in training DNN in terms of acoustic features,MCD, F0 and V/U, and the subjective listening tests confirm that DNN-based speech synthesis get a significant improvement over a conventional HMM-based speech synthesis in naturalness."
+   ],
+   "doi": "10.21437/SLTU.2018-30"
+  },
+  "sahu18_sltu": {
+   "authors": [
+    [
+     "Shreya",
+     "Sahu"
+    ],
+    [
+     "Arpan",
+     "Jain"
+    ],
+    [
+     "Ritu",
+     "Tiwari"
+    ],
+    [
+     "Anupam",
+     "Shukla"
+    ]
+   ],
+   "title": "Application of Egyptian Vulture Optimization in Speech Emotion Recognition",
+   "original": "48",
+   "page_count": 5,
+   "order": 50,
+   "p1": 230,
+   "pn": 234,
+   "abstract": [
+    "﻿Recognition of emotions present in human speech is a task made complicated due to incomplete knowledge of the relevant features, dependency on language, dialect and even individuals and the ambiguous meaning of term emotion itself. This work aims to study the relevant features present in human speech and infer its emotional category, making use of machine learning models. The prime objective of this work is to analyze the presented human speech and classify it into one of the seven emotional categories- happiness, sadness, anger, boredom, anxiety, disgust, and neutral. Proposed method extracts Mel Frequency Cepstral coefficients (MFCC), Chroma and Time Spectral features from Berlin EmoDB speech clips, and compares the results obtained from traditional classifiers to those with added nature inspired optimization technique. Egyptian Vulture Optimization Algorithm (EVOA), Grey Wolf Optimization (GWO) and Moth Flame Optimization (MFO) were applied over the mentioned feature set along with RF, KNN and SVM, and it is inferred that EVOA significantly improves the performance metrics of mentioned algorithms over EMO-DB when applied alongside. Using GWO with SVM produced the highest classification accuracy 90.67%."
+   ],
+   "doi": "10.21437/SLTU.2018-48"
+  },
+  "paulose18_sltu": {
+   "authors": [
+    [
+     "Supriya",
+     "Paulose"
+    ],
+    [
+     "Shikhamoni",
+     "Nath"
+    ],
+    [
+     "Samudravijaya",
+     "K"
+    ]
+   ],
+   "title": "Marathi Speech Recognition",
+   "original": "49",
+   "page_count": 4,
+   "order": 51,
+   "p1": 235,
+   "pn": 238,
+   "abstract": [
+    "﻿The details of the implementation of a Marathi Automatic Speech Recognition (ASR) system as well as the associated speech database is given in this paper. The speech database consists of more than 15000 speech files. Over 1500 speakers read 10 sentences each into their mobile phone. Speech was recorded over telephone channel. The text corpus consists of 3400 sentences consisting of over 10000 unique words. The ASR system was implemented using Kaldi toolkit. Acoustic models of various characteristics were implemented and 3-fold validation tests were conducted. The word error rate of recognising test data is 24%. Experiments were conducted to study the effect, on the performance of the system, of (a) manual annotation of non-speech events such as cough, babble etc., and (b) discarding of those training speech files which could not be recognised well. The results of these experiments and the lessons learnt are presented."
+   ],
+   "doi": "10.21437/SLTU.2018-49"
+  },
+  "v18_sltu": {
+   "authors": [
+    [
+     "Spoorthy",
+     "V"
+    ],
+    [
+     "Veena",
+     "Thenkanidiyoor"
+    ],
+    [
+     "Dileep A.",
+     "D"
+    ]
+   ],
+   "title": "SVM Based Language Diarization for Code-Switched Bilingual Indian Speech Using Bottleneck Features",
+   "original": "28",
+   "page_count": 5,
+   "order": 30,
+   "p1": 132,
+   "pn": 136,
+   "abstract": [
+    "﻿This paper proposes an SVM-based language diarizer for code switched bilingual Indian speech. Code-switching corresponds to usage of more than one language within a single utterance. Language diarization involves identifying code-switch points in an utterance and segmenting it into homogeneous language segments. This is very important for Indian context because every Indian is at least bilingual and code-switching is inevitable. For building an effective language diarizer, it is helpful to consider phonotactic features. In this work, we propose to consider bottleneck features for language diarization. Bottleneck features correspond to output of a narrow hidden layer of a multilayer neural network trained to perform phone state classification. The studies conducted using the standard datasets have shown the effectiveness of the proposed approach."
+   ],
+   "doi": "10.21437/SLTU.2018-28"
+  },
+  "basu18b_sltu": {
+   "authors": [
+    [
+     "Joyanta",
+     "Basu"
+    ],
+    [
+     "Soma",
+     "Khan"
+    ],
+    [
+     "Milton",
+     "Samirakshma Bepari"
+    ],
+    [
+     "Rajib",
+     "Roy"
+    ],
+    [
+     "Madhab",
+     "Pal"
+    ],
+    [
+     "Sushmita",
+     "Nandi"
+    ]
+   ],
+   "title": "Designing an IVR Based Framework for Telephony Speech Data Collection and Transcription in Under-Resourced Languages",
+   "original": "10",
+   "page_count": 5,
+   "order": 12,
+   "p1": 47,
+   "pn": 51,
+   "abstract": [
+    "﻿Scarcity of digitally available language resources restricts development of large scale speech applications in Indian scenario. This paper describes a unique design framework for telephony speech data collection in under-resourced languages using interactive voice response (IVR) technology. IVR systems provide a fast, reliable, automated and relatively low cost medium for simultaneous multilingual audio resource collection from remote users and help in structured storage of resources for further usage. The framework needs IVR hardware & API, related software tools and text resources as its necessary components. Detailed functional design and development process of such a running IVR system are stepwise elaborated. Sample IVR call-flow design templates and offline audio transcription procedure is also presented for ease of understanding. Entire methodology is language independent and is adaptable to similar tasks in other languages and especially beneficial to accelerate resource creation process in under-resourced languages, minimizing manual efforts of data collection and transcription."
+   ],
+   "doi": "10.21437/SLTU.2018-10"
+  },
+  "nanayakkara18_sltu": {
+   "authors": [
+    [
+     "Lakshika",
+     "Nanayakkara"
+    ],
+    [
+     "Chamila",
+     "Liyanage"
+    ],
+    [
+     "Pubudu",
+     "Tharaka Viswakula"
+    ],
+    [
+     "Thilini",
+     "Nagungodage"
+    ],
+    [
+     "Randil",
+     "Pushpananda"
+    ],
+    [
+     "Ruvan",
+     "Weerasinghe"
+    ]
+   ],
+   "title": "A Human Quality Text to Speech System for Sinhala",
+   "original": "33",
+   "page_count": 5,
+   "order": 35,
+   "p1": 157,
+   "pn": 161,
+   "abstract": [
+    "﻿This paper proposes an approach on implementing a Text  to Speech system for Sinhala language using MaryTTS framework. In this project, a set of rules for mapping text to sound were identified and proceeded with Unit selection mechanism. The datasets used for this study were gathered from newspaper articles and the corresponding sentences were recorded by a professional speaker. User level evaluation was conducted with 20 candidates, where the intelligibility and the naturalness of the developed Sinhala TTS system received an approximate score of 70%. And the overall speech quality is an approximately to 60%.\n"
+   ],
+   "doi": "10.21437/SLTU.2018-33"
+  },
+  "kumarvuddagiri18b_sltu": {
+   "authors": [
+    [
+     "Ravi",
+     "Kumar Vuddagiri"
+    ],
+    [
+     "Krishna",
+     "Gurugubelli"
+    ],
+    [
+     "Priyam",
+     "Jain"
+    ],
+    [
+     "Hari Krishna",
+     "Vydana"
+    ],
+    [
+     "Anil",
+     "Kumar Vuppala"
+    ]
+   ],
+   "title": "IIITH-ILSC Speech Database for Indain Language Identification",
+   "original": "12",
+   "page_count": 5,
+   "order": 14,
+   "p1": 56,
+   "pn": 60,
+   "abstract": [
+    "﻿This work focuses on the development of speech data comprising 23 Indian languages for developing language identification (LID) systems. Large data is a pre-requisite for developing state-of-the-art LID systems. With this motivation, the task of developing multilingual speech corpus for Indian languages has been initiated. This paper describes the composition of the data and the performances of various LID systems developed using this data. In this paper, Mel frequency cepstral feature representation is used for language identification. In this work, various state-of-the-art LID systems are developed using i-vectors, deep neural network (DNN) and deep neural network with attention (DNN-WA) models. The performance of the LID system is observed in terms of the equal error rate for i-vector, DNN and DNN-WA is 17.77%, 17.95%, and 15.18% respectively. Deep neural network with attention model shows a better performance over i-vector and DNN models.\n",
+    ""
+   ],
+   "doi": "10.21437/SLTU.2018-12"
+  },
+  "kayte18_sltu": {
+   "authors": [
+    [
+     "Sangramsing",
+     "Kayte"
+    ],
+    [
+     "Monica",
+     "Mundada"
+    ]
+   ],
+   "title": "Post-Processing Using Speech Enhancement Techniques for Unit Selection and Hidden Markov Model Based Low Resource Language Marathi Text-to-Speech System",
+   "original": "20",
+   "page_count": 4,
+   "order": 22,
+   "p1": 94,
+   "pn": 97,
+   "abstract": [
+    "﻿A speech signal captured by a distant microphone is generally contaminated by background noise, which severely degrades the audible quality and intelligibility of the observed signal. To resolve this issue, speech enhancement has been intensively studied. In this paper, we consider a text-informed speech enhancement, where the enhancement process is guided by the corresponding text information, i.e., a correct transcription of the target utterance. The proposed Unit Selection Synthesis (USS) and Hidden Markov Models (HMM)-based framework are motivated by the recent success in the Text-to-Speech (TTS) research. The primary aim of the study is to improve the quality of speech after synthesizing voice employing USS and HMM methods for building low resource Marathi TTS using speech enhancement techniques. Taking advantage of the nature of USS and HMM that allows us to utilize disparate features in an inference stage, the proposed method infers the clean speech features by jointly using the observed signal and widely-used TTS features derived from the corresponding text. In this paper, we first introduce the background and the details of the proposed method for low resource Marathi language. Then, we show how the text information can be naturally integrated into speech enhancement by utilizing USS and HMM and improve the synthesis speech enhancement performance. The spectral subtraction method is used to remove the noise from synthesized speech and improve the quality. The spectral parameters of both the methods show the progress in the enhanced speech."
+   ],
+   "doi": "10.21437/SLTU.2018-20"
+  },
+  "kantheti18_sltu": {
+   "authors": [
+    [
+     "Srinivas",
+     "Kantheti"
+    ],
+    [
+     "Hemant",
+     "Patil"
+    ]
+   ],
+   "title": "Relative Phase Shift Features for Replay Spoof Detection System",
+   "original": "21",
+   "page_count": 5,
+   "order": 23,
+   "p1": 98,
+   "pn": 102,
+   "abstract": [
+    "﻿The replay spoofing tries to fool the Automatic Speaker Verification (ASV) system by the recordings of a genuine utterance. Most of the studies have used magnitude-based features and ignored phase-based features for replay detection. However, the phase-based features also affected due to the environmental characteristics during recording. Hence, the phase-based features, such as parameterized Relative Phase Shift (RPS) and Modified Group Delay are used in this paper along with the baseline feature set, namely, Constant Q Cepstral Coefficients (CQCC) and Mel Frequency Cepstral Coefficients (MFCC).We found out that the score-level fusion of magnitude and phase based features are giving better performance than the individual feature set alone on the ASV Spoof 2017 Challenge version 2. In particular, the Equal Error Rate (EER) is 12.58 % on the evaluation set with the fusion of RPS and the CQCC feature sets using Gaussian Mixture Model (GMM) classifier."
+   ],
+   "doi": "10.21437/SLTU.2018-21"
+  },
+  "kumar18_sltu": {
+   "authors": [
+    [
+     "Atul",
+     "Kumar"
+    ],
+    [
+     "Shyam",
+     "Agrawal"
+    ]
+   ],
+   "title": "Empirical Study of Speech Synthesis Markup Language and Its Implementation for Punjabi Language",
+   "original": "22",
+   "page_count": 4,
+   "order": 24,
+   "p1": 103,
+   "pn": 106,
+   "abstract": [
+    "﻿This paper builds a prioritized list of requirements for speech synthesis markup which any proposed markup language should address. This study presents requirements and essential tags for specification development of Punjabi Language. A speech synthesizer works like written text into correct sounds to be spoken. To do this it uses an SSML document and one or more lexicons and dictionaries. We have presented how the different type of modules in TTS System helps to convert a text input of SSML document to spoken form in Punjabi Language. Since, Punjabi is the morphological rich Language, it is written in \"Gurumukhi\" Script and this is the official Language of Govt. of India. So, hence accordingly in this language Homograph problem will not occur. Tones in Punjabi pose big problems. The words written in similar ways have different tones and there by changes their meanings for which the tags have been designed separately. In Punjabi orthographically the written symbols exactly corresponds to the specific words. Therefore in Punjabi, we do not any word which may be called Homograph."
+   ],
+   "doi": "10.21437/SLTU.2018-22"
+  },
+  "rambabu18_sltu": {
+   "authors": [
+    [
+     "Banothu",
+     "Rambabu"
+    ],
+    [
+     "Suryakanth",
+     "V Gangashetty"
+    ]
+   ],
+   "title": "Development of IIITH Hindi-English Code Mixed Speech Database",
+   "original": "23",
+   "page_count": 5,
+   "order": 25,
+   "p1": 107,
+   "pn": 111,
+   "abstract": [
+    "﻿This paper presents the design and development of IIITH Hindi-English code mixed (IIITH-HE-CM) text and corresponding speech corpus. The corpus is collected from several Hindi native speakers from different geographical parts of India. The IIITH-HE-CM corpus has phonetically balanced code mixed sentences with all the phoneme coverage of Hindi and English languages. We used triphone frequency of word internal triphone sequence, consists the language specific information, which helps in code mixed speech recognition and language modelling. The code mixed sentences are written in Devanagari script. Since computers can recognize Roman symbols, we used Indian Language Speech Sound Label (ILSL) transcription. An acoustic model is built for Hindi-English mixed language instead of language-dependent models. A large vocabulary code mixing speech recognition system is developed based on a deep neural network (DNN) architecture. The proposed code-mixed speech recognition system attains low word error rate (WER) compared to conventional system."
+   ],
+   "doi": "10.21437/SLTU.2018-23"
+  },
+  "nadungodage18_sltu": {
+   "authors": [
+    [
+     "Thilini",
+     "Nadungodage"
+    ],
+    [
+     "Chamila",
+     "Liyanage"
+    ],
+    [
+     "Amathri",
+     "Prerera"
+    ],
+    [
+     "Randil",
+     "Pushpananda"
+    ],
+    [
+     "Ruvan",
+     "Weerasinghe"
+    ]
+   ],
+   "title": "Sinhala G2P Conversion for Speech Processing",
+   "original": "24",
+   "page_count": 5,
+   "order": 26,
+   "p1": 112,
+   "pn": 116,
+   "abstract": [
+    "﻿Grapheme-to-phoneme (G2P) conversion plays an important role in speech processing applications and other fields of computational linguistics. Sinhala must have a grapheme-to-phoneme conversion for speech processing because Sinhala writing system does not always reflect its actual pronunciations. This paper describes a rule based G2P conversion method to convert Sinhala text strings into phonemic representations. We use a previously defined rule set and enhance it to get a more accurate G2P conversion. The performance of our rule-based system shows that the rule based sound patterns are effective on Sinhala G2P conversion."
+   ],
+   "doi": "10.21437/SLTU.2018-24"
+  },
+  "tzudir18_sltu": {
+   "authors": [
+    [
+     "Moakala",
+     "Tzudir"
+    ],
+    [
+     "Priyankoo",
+     "Sarmah"
+    ],
+    [
+     "S R",
+     "Mahadeva Prasanna"
+    ]
+   ],
+   "title": "Dialect Identification Using Tonal and Spectral Features in Two Dialects of Ao",
+   "original": "29",
+   "page_count": 5,
+   "order": 31,
+   "p1": 137,
+   "pn": 141,
+   "abstract": [
+    "﻿Ao is an under-resourced Tibeto-Burman tone language spoken in Nagaland, India, with three lexical tones, namely, high, mid and low. There are three dialects of the language namely, Chungli, Mongsen and Changki, differing in tone assignment in lexical words. This work investigates if the idiosyncratic tone assignment in the Ao dialects can be utilized for dialect identification of two Ao dialects, namely, Changki and Mongsen. A perception test confirmed that Ao speakers identified the two dialects based on their dialect specific tone assignment. To confirm that tone is the primary cue in dialect identification, F0 was neutralized in the speech data before subjecting them to a Gaussian Mixture Model (GMM) based dialect identification system. The low dialect recognition accuracy confirmed the significance of tones in Ao dialect identification. Finally, a GMM based dialect identification system was built with tonal and spectral features, resulting in better dialect recognition accuracy."
+   ],
+   "doi": "10.21437/SLTU.2018-29"
+  },
+  "chakraborty18b_sltu": {
+   "authors": [
+    [
+     "Kishalay",
+     "Chakraborty"
+    ],
+    [
+     "Luke",
+     "Horo"
+    ],
+    [
+     "Priyankoo",
+     "Sarmah"
+    ]
+   ],
+   "title": "Building an Automatic Speech Recognition System in Sora Language Using Data Collected for Acoustic Phonetic Studies",
+   "original": "50",
+   "page_count": 4,
+   "order": 52,
+   "p1": 239,
+   "pn": 242,
+   "abstract": [
+    "﻿This paper reports the building of a limited vocabulary speech recognition system for Sora without a speech database designed specifically for automatic speech recognition (ASR). The system was built using speech data collected in field for acoustic phonetic analysis of the Sora language in Assam, India. As Sora is an under resourced language, the speech database is small and contains recordings of single words. Thus, the system is trained without a language model. There is no available ASR for Sora language and hence, this is the first attempt to build one for the language which may lead to the development of a more robust ASR for the language. The ASR shows better recognition rate with Subspace Gaussian Mixture Model (SGMM) and Deep Neural Network (DNN) frameworks. While the system performs with adequate accuracy, as expected, phonetically similar words are often misrecognized."
+   ],
+   "doi": "10.21437/SLTU.2018-50"
+  },
+  "watson18_sltu": {
+   "authors": [
+    [
+     "Stefan",
+     "Watson"
+    ],
+    [
+     "Andre",
+     "Coy"
+    ]
+   ],
+   "title": "JAMLIT: A Corpus of Jamaican Standard English for Automatic Speech Recognition of Children’s Speech",
+   "original": "51",
+   "page_count": 5,
+   "order": 53,
+   "p1": 243,
+   "pn": 247,
+   "abstract": [
+    "﻿Children’s speech is low resource because few corpora exist. Jamaican English (JE) is even lower resource, as there are no existing children or adult corpora, which hinders the automatic recognition of Jamaican children’s speech; data augmentation can overcome this limitation. Typically, augmentation data comes from speakers of the same dialect; however, this is not an option for JE. This work describes JAMLIT, a collection of JE spoken by children; it explores the use of data from related dialects to augment a resource-poor dialect. Augmentation is performed using British (PF-STAR) and American (CMU Kids Speech) English corpora of children's speech. Models created by adding a fraction of the JAMLIT corpus to the PF-STAR corpus improves the recognition of JE, reducing the WER by 58.1% compared to PF-STAR baseline. With CMU, the improvement was 59.6% over baseline. Both augmented models gave WERs within 2.1% of the models trained with Jamaican only data."
+   ],
+   "doi": "10.21437/SLTU.2018-51"
+  },
+  "baby18_sltu": {
+   "authors": [
+    [
+     "Arun",
+     "Baby"
+    ],
+    [
+     "Karthik",
+     "Pandia D S"
+    ],
+    [
+     "Hema",
+     "A Murthy"
+    ]
+   ],
+   "title": "Signal Processing Cues to Improve Automatic Speech Recognition for Low Resource Indian Languages",
+   "original": "6",
+   "page_count": 5,
+   "order": 8,
+   "p1": 25,
+   "pn": 29,
+   "abstract": [
+    "﻿Building accurate acoustic models for low resource languages is the focus of this paper. Acoustic models are likely to be accurate provided the phone boundaries are determined accurately. Conventional flat-start based Viterbi phone alignment (where only utterance level transcriptions are available) results in poor phone boundaries as the boundaries are not explicitly modeled in any statistical machine learning system. The focus of the effort in this paper is to explicitly model phrase boundaries using acoustic cues obtained using signal processing. A phrase is made up of a sequence of words, where each word is made up of a sequence of syllables. Syllable boundaries are detected using signal processing. The waveform corresponding to an utterance is spliced at phrase boundaries when it matches a syllable boundary. Gaussian mixture model - hidden Markov model (GMM-HMM) training is performed phrase by phrase, rather than utterance by utterance. Training using these short phrases yields better acoustic models. This alignment is then fed to a DNN to enable better discrimination between phones. During the training process, the syllable boundaries (obtained using signal processing) are restored in every iteration. A relative improvement is observed in WER over the baseline Indian languages, namely, Gujarati, Tamil, and Telugu."
+   ],
+   "doi": "10.21437/SLTU.2018-6"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote:Pushpak Bhattacharya",
+   "papers": [
+    "bhattacharya18_sltu"
+   ]
+  },
+  {
+   "title": "Keynote:Emmanuel Dupoux",
+   "papers": [
+    "dupoux18_sltu"
+   ]
+  },
+  {
+   "title": "Zero and Low Resources Scenario",
+   "papers": [
+    "wu18_sltu",
+    "yan18_sltu",
+    "srivastava18_sltu",
+    "sailor18b_sltu",
+    "menon18_sltu",
+    "baby18_sltu"
+   ]
+  },
+  {
+   "title": "Data Collection and Crowd Sourcing",
+   "papers": [
+    "karaday18_sltu",
+    "zanonboito18_sltu",
+    "nuraini18_sltu",
+    "basu18b_sltu",
+    "kjartansson18_sltu",
+    "kumarvuddagiri18b_sltu"
+   ]
+  },
+  {
+   "title": "Poster Session I",
+   "papers": [
+    "prasad18_sltu",
+    "sodimana18_sltu",
+    "guntur18_sltu",
+    "mundada18_sltu",
+    "demirsahin18_sltu",
+    "lata18_sltu",
+    "acharya18_sltu",
+    "kayte18_sltu",
+    "kantheti18_sltu",
+    "kumar18_sltu",
+    "rambabu18_sltu",
+    "nadungodage18_sltu"
+   ]
+  },
+  {
+   "title": "Code Switching and Speech Detection",
+   "papers": [
+    "thirumuru18_sltu",
+    "biswas18_sltu",
+    "yilmaz18_sltu",
+    "v18_sltu",
+    "tzudir18_sltu"
+   ]
+  },
+  {
+   "title": "Speech Synthesis",
+   "papers": [
+    "myahlaing18_sltu",
+    "sodimana18b_sltu",
+    "bajracharya18_sltu",
+    "nanayakkara18_sltu"
+   ]
+  },
+  {
+   "title": "Automatic Speech Recognition and Language Identification",
+   "papers": [
+    "sailor18_sltu",
+    "scharenborg18_sltu",
+    "krishna18_sltu",
+    "chakraborty18_sltu",
+    "menon18b_sltu",
+    "jimerson18_sltu"
+   ]
+  },
+  {
+   "title": "Poster Session II",
+   "papers": [
+    "khan18_sltu",
+    "singh18_sltu",
+    "bhatt18_sltu",
+    "foley18_sltu",
+    "kumarvuddagiri18_sltu",
+    "hu18_sltu",
+    "deka18_sltu",
+    "bhowmik18_sltu",
+    "sahu18_sltu",
+    "paulose18_sltu",
+    "chakraborty18b_sltu",
+    "watson18_sltu"
+   ]
+  },
+  {
+   "title": "Feature Analysis of Speech Signal",
+   "papers": [
+    "gutkin18_sltu",
+    "kamper18_sltu",
+    "agafonova18_sltu",
+    "johny18_sltu",
+    "basu18_sltu",
+    "das18_sltu"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLTU.2018"
+}

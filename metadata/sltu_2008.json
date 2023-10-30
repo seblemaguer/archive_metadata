@@ -1,0 +1,657 @@
+{
+ "series": "SLTU",
+ "title": "Speech Technology for Under-Resourced Languages (SLTU-2008)",
+ "location": "Hanoi, Vietnam",
+ "startDate": "5/5/2008",
+ "endDate": "7/5/2008",
+ "original_url": "http://www.isca-speech.org/archive/SLTU_2008",
+ "original_title": "Speech Technology for Under-Resourced Languages (SLTU-2008)",
+ "logo": "su08.gif",
+ "conf": "SLTU",
+ "year": "2008",
+ "name": "sltu_2008",
+ "SIG": "SIGUL",
+ "title1": "Speech Technology for Under-Resourced Languages",
+ "title2": "(SLTU-2008)",
+ "date": "5-7 May 2008",
+ "papers": {
+  "schultz08_sltu": {
+   "authors": [
+    [
+     "Tanja",
+     "Schultz"
+    ]
+   ],
+   "title": "Rapid language adaptation tools and technologies for multilingual speech processing systems",
+   "original": "su08_001",
+   "page_count": 1,
+   "order": 1,
+   "p1": "1",
+   "pn": "",
+   "abstract": [
+    "The performance of speech and language processing technologies has improved dramatically over the past decade, with an increasing number of systems being deployed in a large variety of applications, such as spoken dialog systems, speech summarization and information retrieval systems, and speech translation systems. Most efforts to date were focused on a very small number of languages with large number of speakers, economic potential, and information technology needs of the population. However, speech technology has a lot to contribute even to those languages that do not fall into this category. Languages with a small number of speakers and few linguistic resources may suddenly become of interest for humanitarian and military reasons. Furthermore, a large number of languages are in danger of becoming extinct, and ongoing projects for preserving them could benefit from speech technology.\n",
+    "With more than 6900 languages in the world and the need to support multiple input and output languages, the most important challenge today is to port speech processing systems to new languages rapidly and at reasonable costs. Major bottlenecks are the lack of data and language conventions, and the gap between technology and language expertise. The lack of data results from the fact that today’s speech technologies heavily rely on statistically based modeling schemes, such as Hidden Markov Models and n-gram language modeling. Although statistical modeling algorithms are mostly language independent and proved to work well for a variety of languages, the parameter estimation requires vast amounts of training data. Large-scale data resources are currently available for less than 50 languages and the costs for these collections are prohibitive to all but the most widely spoken and economically viable languages. In addition, a surprisingly large number of languages or dialects lack a standardized writing system which hinders web harvesting of large text corpora or the construction of dictionaries and lexicons. Last but not least, despite the well-defined process of system building it is very cost- and time consuming to handle language-specific peculiarities, and it requires substantial language expertise. Unfortunately, it is extremely difficult to find system developers who simultaneously have the necessary technical background and significant insight into the language in question. Consequently, one of the central issues in developing systems in many input and output languages is the challenge of bridging the gap between language and technology expertise.\n",
+    "In my talk I will introduce state-of-the-art techniques for rapid language adaptation and present existing solutions to overcome the ever-existing problem of data sparseness and the gap between language and technology expertise. I will describe the building process for speech recognition and speech synthesis components for new unsupported languages and introduce tools to do this rapidly and at lost costs. The talk describes the SPICE Toolkit (Speech Processing - Interactive Creation and Evaluation), a web based toolkit for rapid language adaptation to new languages. The methods and tools implemented in SPICE enables user to develop speech processing components, to collect appropriate data for building these models, and to evaluate the results allowing for iterative improvements. Building on existing projects like GlobalPhone and FestVox, knowledge and data are shared between recognition and synthesis; this includes phone sets, pronunciation dictionaries, acoustic models, and text resources. SPICE is an online service (http://cmuspice.org). By archiving the data gathered on-the-fly from many cooperative users we hope to significantly increases the repository of languages and resources and make the data and components for new languages available at large to the community. By keeping the users in the developmental loop, SPICE tools can learn from their expertise to constantly adapt and improve. This will hopefully revolutionize the system development process for new languages.\n",
+    ""
+   ]
+  },
+  "sagisaka08_sltu": {
+   "authors": [
+    [
+     "Yoshinori",
+     "Sagisaka"
+    ]
+   ],
+   "title": "Corpus-based speech synthesis from reading speech to communicative speech",
+   "original": "su08_053",
+   "page_count": 1,
+   "order": 2,
+   "p1": "53",
+   "pn": "",
+   "abstract": [
+    "Corpus-based approach has been widely employed in speech synthesis. It is regarded as the third generation in speech synthesis following after Formant synthesis and LPC-based diphone synthesis. However, it is not well understood the essence of its importance and the philosophy. In this presentation, by introducing short history of corpus-based speech synthesis, its essence and difference from conventional synthesis schemes are explained. Through this explanation, it is shown that three components consisting of speech corpus, measure and synthesis algorithm are to be harmoniously studies rather than only a synthesis method by itself. Future research efforts towards communicative speech synthesis based on corpus-based approach are also introduced by formualting so-called para-linguistic information systematically.\n",
+    ""
+   ]
+  },
+  "pellegrini08_sltu": {
+   "authors": [
+    [
+     "Thomas",
+     "Pellegrini"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ]
+   ],
+   "title": "Are audio or textual training data more important for ASR in less-represented languages?",
+   "original": "su08_002",
+   "page_count": 5,
+   "order": 3,
+   "p1": "2",
+   "pn": "6",
+   "abstract": [
+    "State-of-the-Art speech recognizers are typically trained on very large amounts of data, both transcribed speech and texts. With the recent growing interest in developing speech technologies for languages for which only small amounts of data are accessible, collecting appropriate data is a key issue in building new speech recognition systems. This article reports on an experimental study assessing the performance of a speech recognizer for a less-represented language, as a function of the quantity of texts and transcribed speech data available for model training. The experimental results show that for supervised training with only 2 hours of manually transcribed data, the acoustic models are the weak point. With 10 hours or more of transcribed audio data, the quantity of texts has a larger affect on the error rate than the quantity of speech.\n",
+    "",
+    "",
+    "Index Terms— Automatic speech recognition, lessrepresented languages, broadcast news transcription\n",
+    ""
+   ]
+  },
+  "nimaan08_sltu": {
+   "authors": [
+    [
+     "Abdiilahi",
+     "Nimaan"
+    ],
+    [
+     "Pascal",
+     "Nocera"
+    ]
+   ],
+   "title": "Preservation of african cultural heritage by automatic transcription of African languages",
+   "original": "su08_007",
+   "page_count": 5,
+   "order": 4,
+   "p1": "7",
+   "pn": "11",
+   "abstract": [
+    "Most African countries follow an oral tradition system to transmit their cultural, scientific and historic heritage through generations. This ancestral knowledge accumulated during centuries is today threatened of disappearing. Automatic transcription and indexing tools seem potential solution to preserve it. This paper presents the first steps of automatic speech recognition (ASR) of Djibouti languages in order to index the Djibouti cultural heritage. This work is dedicated to process Somali language, which represents half of the targeted Djiboutian audio archives. We describe the principal characteristics of audio (10 hours) and textual (3M words) training corpora collected and the first ASR results of this language. Using the specificities of the Somali language, (words are composed of a concatenation of sub-words called ”roots” in this paper), we improve the obtained results. We also discuss future ways of research like roots indexing of audio archives.\n",
+    "",
+    "",
+    "Index Terms— less-equipped languages, corpora, african languages, asr, hybrid language model\n",
+    ""
+   ]
+  },
+  "trinh08_sltu": {
+   "authors": [
+    [
+     "Khoa",
+     "Trinh"
+    ],
+    [
+     "Ha",
+     "Nguyen"
+    ],
+    [
+     "Duc",
+     "Duong"
+    ],
+    [
+     "Quan",
+     "Vu"
+    ]
+   ],
+   "title": "An empirical study of multipass decoding for vietnamese LVCSR",
+   "original": "su08_012",
+   "page_count": 6,
+   "order": 5,
+   "p1": "12",
+   "pn": "17",
+   "abstract": [
+    "In this paper, we represent an empirical study of multipass decoding for Vietnamese LVCSR. We report our experiments with N-best, lattice and consensus decoding on the VNBN data. Results from this study indicate that our acoustic model for Vietnamese was precise. The results could be investigated in further steps to improve the performance of our system.\n",
+    "",
+    "",
+    "Index Terms Vietnamese, Acoustic Model, Language Model, N-best, Word Lattice, Confusion Network.\n",
+    ""
+   ]
+  },
+  "jensson08_sltu": {
+   "authors": [
+    [
+     "Arnar",
+     "Jensson"
+    ],
+    [
+     "Koji",
+     "Iwano"
+    ],
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Development of a speech recognition system for Icelandic using machine translated text",
+   "original": "su08_018",
+   "page_count": 4,
+   "order": 6,
+   "p1": "18",
+   "pn": "21",
+   "abstract": [
+    "Text corpus size is an important issue when building a language model (LM). This is a particularly important issue for languages where little data is available. This paper introduces an LM adaptation technique to improve an LM built using a small amount of task dependent text with the help of a machine-translated text corpus. Icelandic word error rate experiments were performed using data, machine translated (MT) from English to Icelandic on a sentenceby- sentence and word-by-word basis. The baseline word error rate was 49.6%. LM interpolation using the baseline LM and an LM built from sentence-by-sentence translated text reduced the word error rate significantly to 41.9%.\n",
+    "",
+    "",
+    "Index Terms— LanguageModel Adaptation, Automatic Speech Recognition, Machine Translation, Sparse Text Corpus, Resource Deficient Languages.\n",
+    ""
+   ]
+  },
+  "nguyen08_sltu": {
+   "authors": [
+    [
+     "Hong Quang",
+     "Nguyen"
+    ],
+    [
+     "Pascal",
+     "Nocera"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Van Loan",
+     "Trinh"
+    ]
+   ],
+   "title": "Large vocabulary continuous speech recognition for Vietnamese, an under-resourced language",
+   "original": "su08_023",
+   "page_count": 4,
+   "order": 7,
+   "p1": "23",
+   "pn": "26",
+   "abstract": [
+    "This paper proposes a method to build a Vietnamese Large Vocabulary Continuous Speech Recognition system (Vietnamese LVCSR system). The difference between Vietnamese and European languages is analyzed and used to adapt a LVCSR system for European languages to Vietnamese. Experiments are implemented on the VNSPEECHCORPUS. The results show that the accuracy of Vietnamese recognition system is increased by using Vietnamese language characteristics.\n",
+    "",
+    "",
+    "Index Terms— Automatic speech recognition, Vietnamese language, under-resourced language, tone recognition, compound noun.\n",
+    ""
+   ]
+  },
+  "stuker08_sltu": {
+   "authors": [
+    [
+     "Sebastian",
+     "Stüker"
+    ]
+   ],
+   "title": "Integrating Thai grapheme based acoustic models into the ML-MIX framework - for language independent and cross-language ASR",
+   "original": "su08_027",
+   "page_count": 6,
+   "order": 8,
+   "p1": "27",
+   "pn": "32",
+   "abstract": [
+    "Grapheme based speech recognition is a powerful tool for rapidly creating automatic speech recognition (ASR) systems in new languages. For purposes of language independent or cross language speech recognition it is necessary to identify similar models in the different languages involved. For phoneme based multilingual ASR systems this is usually achieved with the help of a language independent phoneme set and the corresponding phoneme identities in the different languages. For grapheme based multilingual ASR systems this is only possible when there is an overlap in graphemes of the different scripts involved. Often this is not the case, as for example for Thai which graphemes does not have any overlap with the graphemes of the languages that we used for multilingual grapheme based ASR in the past. In order to be able to apply our multilingual grapheme model to Thai, and in order to incorporate Thai into our multilingual recognizer, we examined and evaluated a number of data driven distance measures between the multilingual grapheme models. For our purposes distance measures that rely directly on the parameters of the models, such as the Kullback-Leibler and the Bhatthacharya distance yield the best performance.\n",
+    "",
+    "",
+    "Index Terms— Automatic Speech Recognition, Grapheme based acoustic models, Rapid Porting of ASR systems, Multilingual ASR\n",
+    ""
+   ]
+  },
+  "seng08_sltu": {
+   "authors": [
+    [
+     "Sopheap",
+     "Seng"
+    ],
+    [
+     "Sethserey",
+     "Sam"
+    ],
+    [
+     "Viet-Bac",
+     "Le"
+    ],
+    [
+     "Brigitte",
+     "Bigi"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ]
+   ],
+   "title": "Which units for acoustic and language modeling for Khmer automatic speech recognition?",
+   "original": "su08_033",
+   "page_count": 6,
+   "order": 9,
+   "p1": "33",
+   "pn": "38",
+   "abstract": [
+    "In this paper we present an overview on the development of a large vocabulary continuous speech recognition system for Khmer language. Methods and tools used for quick language resources collection for the development of an ASR system for a new under-resourced language are presented. Face with the problem of lack of text data and the word error segmentation in language modeling, we investigate how different views of the text data (word and sub-word units) can be exploited for Khmer language modeling. We propose to work both at the model level (by making hybrid vocabularies with both word and sub-word units) as well as at the ASR output level (by using a simple N-best list voting mechanism). For acoustic modeling, we use basic linguistic rules to automatically generate pronunciation dictionaries based on grapheme and phoneme. An experimental framework is setup to evaluate the performance of each modeling units.\n",
+    "",
+    "",
+    "Index Terms - ASR, Khmer, word and sub-word units, acoustic modeling, language modeling.\n",
+    ""
+   ]
+  },
+  "gizaw08_sltu": {
+   "authors": [
+    [
+     "Solomon",
+     "Gizaw"
+    ]
+   ],
+   "title": "Multiple pronunciation model for Amharic speech recognition system",
+   "original": "su08_039",
+   "page_count": 8,
+   "order": 10,
+   "p1": "39",
+   "pn": "46",
+   "abstract": [
+    "In this paper the research have tried to show the pattern variations of sound units in Amharic language for multiple pronunciation model. This are variation of sound units at lexical level due to dialects. After that an attempt to build a pronunciation dictionary for Automatic Speech Recognition (ASR).At last comments and recommendations are included.\n",
+    ""
+   ]
+  },
+  "le08_sltu": {
+   "authors": [
+    [
+     "Viet-Bac",
+     "Le"
+    ],
+    [
+     "Laurent",
+     "Besacier"
+    ],
+    [
+     "Sopheap",
+     "Seng"
+    ],
+    [
+     "Brigitte",
+     "Bigi"
+    ],
+    [
+     "Thi-Ngoc-Diep",
+     "Do"
+    ]
+   ],
+   "title": "Recent advances in automatic speech recognition for Vietnamese",
+   "original": "su08_047",
+   "page_count": 6,
+   "order": 11,
+   "p1": "47",
+   "pn": "52",
+   "abstract": [
+    "This paper presents our recent activities for automatic speech recognition for Vietnamese. First, our text data collection and processing methods and tools are described. For language modeling, we investigate word, sub-word and also hybrid word/sub-word models. For acoustic modeling, when only limited speech data are available for Vietnamese, we propose some crosslingual acoustic modeling techniques. Furthermore, since the use of sub-word units can reduce the high out-of-vocabulary rate and improve the lack of text resources in statistical language modeling, we propose several methods to decompose, normalize and combine word and sub-word lattices generated from different ASR systems. Experimental results evaluated on the VnSpeechCorpus demonstrate the feasibility of our methods.\n",
+    "",
+    "",
+    "Index Terms – ASR, Vietnamese, word, sub-word unit, acoustic modeling, language modeling.\n",
+    ""
+   ]
+  },
+  "tran08_sltu": {
+   "authors": [
+    [
+     "Do Dat",
+     "Tran"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ]
+   ],
+   "title": "Register of vietnamese tones in continuous speech",
+   "original": "su08_054",
+   "page_count": 4,
+   "order": 12,
+   "p1": "54",
+   "pn": "57",
+   "abstract": [
+    "This paper describes the analysis results about register of Vietnamese tones in continuous speech. The obtained results show that the classification of the registers of Vietnamese tones into two groups (high and low) which is commonly used in isolated words is not appropriate in continuous speech. The register of tone has to be considered in a specific context because of the influence of tonal coarticulation effect.\n",
+    "",
+    "",
+    "Index Terms: Vietnamese tone, register, relative register\n",
+    ""
+   ]
+  },
+  "rooyen08_sltu": {
+   "authors": [
+    [
+     "Marissa van",
+     "Rooyen"
+    ],
+    [
+     "Cecile van",
+     "Zyl"
+    ],
+    [
+     "Nico",
+     "Oosthuizen"
+    ]
+   ],
+   "title": "The systematic collection of speech corpora for all eleven official South African languages",
+   "original": "su08_058",
+   "page_count": 5,
+   "order": 13,
+   "p1": "58",
+   "pn": "62",
+   "abstract": [
+    "In this paper we outline the methods and best practices when collecting speech data for under-resourced languages. The focus of this discussion is on showing ways of improving the quality of the collection and turnaround time. This paper shows how to deal with matters concerning assistants and technical problems, as well as suggesting ways in which data management may be optimised with the use of certain techniques. This article aims at providing the reader with a total overview of improvements made during the course of a real data collection project with tangible problems and results.\n",
+    ""
+   ]
+  },
+  "kominek08_sltu": {
+   "authors": [
+    [
+     "John",
+     "Kominek"
+    ],
+    [
+     "Tanja",
+     "Schultz"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Synthesizer voice quality of new languages calibrated with mean mel cepstral distortion",
+   "original": "su08_063",
+   "page_count": 6,
+   "order": 14,
+   "p1": "63",
+   "pn": "68",
+   "abstract": [
+    "When developing synthesizers for new languages one must select a phoneset, record phonetically balanced sentences, build up a pronunciation lexicon, and evaluate the results. An objective measure of voice quality can be very useful, provided it is calibrated across multiple speakers, languages, and databases. As a substitute for full listening tests, this paper adopts mel-capstral distortion as a measure of spectral accuracy, and proposes systematic variation of a known English corpus as a method of calibration. We find that doubling the database size reduces MCD by o.12, while reverting to a grapheme-based voice increases it by 0.27. This offers a frame of reference for estimationg voice quality, which is applied to a test suite of 8 non-English languages.\n",
+    ""
+   ]
+  },
+  "arora08_sltu": {
+   "authors": [
+    [
+     "Karunesh",
+     "Arora"
+    ],
+    [
+     "Michael",
+     "Pau"
+    ],
+    [
+     "Eiichiro",
+     "Sumita"
+    ]
+   ],
+   "title": "Translation of unknown words in phrase-based statistical machine translation for languages of rich morphology",
+   "original": "su08_070",
+   "page_count": 6,
+   "order": 15,
+   "p1": "70",
+   "pn": "75",
+   "abstract": [
+    "This paper proposes a method for handling out-of-vocabulary (OOV) words that cannot be translated using conventional phrase-based statistical machine translation (SMT) systems. For a given OOV word, lexical approximation techniques are utilized to identify spelling and inflectional word variants that occur in the training data. All OOV words in the source sentence are replaced with appropriate word variants that are found in the training corpus, thus reducing the amount of OOV words in the input. Moreover, in order to increase the coverage of such word translations, the SMT translation model is extended by adding new phrase translations for all source language words that do not have a single-word entry in the original phrase-table, but only appear in the context of larger phrases. The effectiveness of the proposed method is investigated for translations of Hindi-to-Japanese. The methodology can easily be extended for other language pairs of rich morphology.\n",
+    "",
+    "",
+    "Index Terms— statistical MT, out-of-vocabulary words, lexical approximation, phrase-table extension\n",
+    ""
+   ]
+  },
+  "stuker08b_sltu": {
+   "authors": [
+    [
+     "Sebastian",
+     "Stüker"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "Towards human translations guided language discovery for ASR systems",
+   "original": "su08_076",
+   "page_count": 4,
+   "order": 16,
+   "p1": "76",
+   "pn": "79",
+   "abstract": [
+    "Natural language processing systems, e.g for Automatic Speech Recognition (ASR) or Machine Translation (MT), have been studied only for a fraction of the approx. 7000 languages that exist in today’s world, the majority of which have only comparatively few speakers and few resources. The traditional approach of collecting and annotating the necessary training data is due to economic constraints not feasible for most of them. At the same time it is of vital interest to have NLP systems address practically all languages in the world. New, efficient ways of gathering the needed training material have to be found. In this paper we propose a new technique of collecting such data by exploiting the knowledge gained from Human simultaneous translations that happen frequently in the real world. To show the feasibility of our approach we present first experiments towards constructing a pronunciation dictionary from the data gained.\n",
+    "",
+    "",
+    "Index Terms— Automatic Speech Recognition, Language Discovery, Machine Translation, Under-Resourced Languages\n",
+    ""
+   ]
+  },
+  "huynh08_sltu": {
+   "authors": [
+    [
+     "Cong-Phap",
+     "Huynh"
+    ],
+    [
+     "Christian",
+     "Boitet"
+    ],
+    [
+     "Georges",
+     "Fafiotte"
+    ]
+   ],
+   "title": "Extending an on-line parallel corpus management system to handle specific types of structured documents",
+   "original": "su08_080",
+   "page_count": 6,
+   "order": 17,
+   "p1": "80",
+   "pn": "85",
+   "abstract": [
+    "Parallel bilingual or multilingual corpora are often handled as collections of segments without any specific document organization. We describe SECTra_w, a web-oriented system which has been used for online MT evaluations, and has recently been extended to handle multimodal documents such as French-Chinese/Vietnamese/Hindi/Tamil interpreted bilingual spontaneous dialogues, mainly spoken but also using some short texts, and multilingual written articles of an online encyclopedia annotated with UNL graphs.\n",
+    "Keywords: parallel corpora, translation memories, multiple annotations, multimodal dialogues, multilingual documents\n",
+    ""
+   ]
+  },
+  "makasso08_sltu": {
+   "authors": [
+    [
+     "Emmanuel-Moselly",
+     "Makasso"
+    ]
+   ],
+   "title": "Prosody and expressiveness marking in Bàsàa oral discourse: the case of melisms (first results)",
+   "original": "su08_087",
+   "page_count": 5,
+   "order": 18,
+   "p1": "87",
+   "pn": "91",
+   "abstract": [
+    "Though prosody is studied since at least several decades, it is still unclear what kind of information about the speaker’s subjectivity and emotion is conveyed by prosody. This paper tries to focus on the role of prosody in marking speaker’s expressiveness in large Bàsàa spontaneous speech corpora. Following Caelen-Haumont & Bel 2000, this paper considers that prosodic organization is twofold: on one hand, it is related to the overall organization of phrasing at the group and sentence levels, that is namely the intonation structure; and on the other hand, it conveys information about the affective status and expressiveness of the speaker, that Caelen-Haumont et Bel (2000) termed melism. In this work the Bàsàa language is concerned. Bàsàà is a tone Bantu language spoken in Cameroon, which has never benefited from any study using automatic processing. A corpus of conversational speech from radiophonic interviews was collected. Such recordings, coming from spontaneous dialogues, were acoustically analyzed by means of the PRAAT software. Specifically, a script (Caelen–Haumont and Auran, 2004) was employed to automatically extract F0 information from large corpora, especially in high peaks. The term Melism, borrowed from the domain of singing, refers here to large or maximal excursions of F0 on words (lexical or grammatical), spreading at times over an entire word. Semantically and/or pragmatically speaking, melisms constitute clues for discourse interpretation and more precisely, for interpretation of the speaker’s communicative and informative intentions.\n",
+    "",
+    "",
+    "Index Terms: Prosody, oral discourse, expressiveness, melism\n",
+    ""
+   ]
+  },
+  "rossignol08_sltu": {
+   "authors": [
+    [
+     "Mathias",
+     "Rossignol"
+    ],
+    [
+     "Pascale",
+     "Sebillot"
+    ]
+   ],
+   "title": "Automatic acquisition of lexical semantic information using medium to small corpora",
+   "original": "su08_092",
+   "page_count": 6,
+   "order": 19,
+   "p1": "92",
+   "pn": "97",
+   "abstract": [
+    "Since many speech and text processing techniques are portable with a limited amount of work from one language to another, the most daunting task for NLP and SP practitioners becomes to build the resources need- ing for those tools to operate, In particular, the constitu- tion of “high-level” resources, such as advanced corpus annotations or linguistically motivated lexicons, can be extremely work-intensive. We present in this paper a system to assist the creation of semantic lexicons using small to medium-sized corpora, thanks to the combina- tion of semantic class constitution and topic detection, and the development of specific statistical data analy- sis techniques for relatively small datasets. By reduc- ing the amount of data needed for semi-automatic se- mantic lexicon acquisition, traditionally applied to 100 million-word corpus or more, we make this help for lex- ical resource acquisition applicable to the case of under- resourced languages.\n",
+    "Index Terms— Semantic classes, small corpora, statistical data analysis, topic detection\n",
+    ""
+   ]
+  },
+  "cetin08_sltu": {
+   "authors": [
+    [
+     "Özgür",
+     "Cetin"
+    ],
+    [
+     "Madelaine",
+     "Plauché"
+    ],
+    [
+     "Udhaykumar",
+     "Nallasamy"
+    ]
+   ],
+   "title": "Unsupervised adaptive speech technology for limited resource languages: a case study for Tamil",
+   "original": "su08_098",
+   "page_count": 4,
+   "order": 20,
+   "p1": "98",
+   "pn": "101",
+   "abstract": [
+    "This paper evaluates adaptive speech technology for cre- ating low cost, rapidly deployable speech recognizers for new languages with very limited data. A multi-modal (speech and touch) dialog system in Tamil, which delivered agricultural information to rural villagers, is described. Based on the field recordings from this system, a number of automatic speech recognition (ASR) adaptation techniques are compared, in- cluding cross-language transfer (English to Tamil), multilin- gual training, bootstrapping, and model adaptation (super- vised and unsupervised). For this small-vocabulary task, su- pervised model adaptation using a small amount of target speech data yields the best results. In the supervised mode, we find no significant performance difference between adapt- ing models from English, and models from Tamil that used a medium-sized data set at a significant labeling cost. Unsu- pervised adaptation from English yields slightly inferior but comparable recognition results. In summary, we find that model adaptation from a language with existing resources, us- ing a very small amount of target data is a viable option for rapidly building small-vocabulary speech recognizers.\n",
+    "",
+    "",
+    "Index Terms— Speech recognition, unsupervised learning.\n",
+    ""
+   ]
+  },
+  "cai08_sltu": {
+   "authors": [
+    [
+     "Jun",
+     "Cai"
+    ],
+    [
+     "Jacques",
+     "Feldmar"
+    ],
+    [
+     "Yves",
+     "Laprie"
+    ],
+    [
+     "Jean-Paul",
+     "Haton"
+    ]
+   ],
+   "title": "Transcribing southern Min speech corpora with a web-based language learning system",
+   "original": "su08_102",
+   "page_count": 6,
+   "order": 21,
+   "p1": "102",
+   "pn": "107",
+   "abstract": [
+    "The paper proposes a human-computation-based scheme for transcribing speech corpora. The core idea of the scheme is to implement a Web-based language learning system to collect orthographic and phonetic labels from a large amount of language learners and use some criteria to choose the commonly input labels as the transcriptions of the corpora. It is essentially a technology of distributed knowledge acquisition. The benefit of the scheme is that it makes the transcribing task neither tedious nor costly. The design of a system for transcribing Min Nan speech corpora is described in detail.\n",
+    "",
+    "",
+    "Index Terms— Speech transcription, southern Min (Min Nan) language, distributed knowledge acquisition, Web-based language learning\n",
+    ""
+   ]
+  },
+  "alam08_sltu": {
+   "authors": [
+    [
+     "Firoj",
+     "Alam"
+    ],
+    [
+     "S. M. Murtoza",
+     "Habib"
+    ],
+    [
+     "Mumit",
+     "Khan"
+    ]
+   ],
+   "title": "Acoustic analysis of Bangla consonants",
+   "original": "su08_108",
+   "page_count": 6,
+   "order": 22,
+   "p1": "108",
+   "pn": "113",
+   "abstract": [
+    "This paper describes the acoustic characteristics of Bangla consonants, obtained by analyzing the recordings of male and female voices. First, the duration of each phoneme was identified by averaging both the male and female voice data; then, formant were measured and formant comparison was made for controversial phonemes, which also served to resolve the controversies in the existing phoneme inventories; and finally, a consonant phoneme inventory was designed.\n",
+    "",
+    "",
+    "Index Terms — Phoneme inventory, Speech Synthesis, Speech Recognition\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Talks",
+   "papers": [
+    "schultz08_sltu",
+    "sagisaka08_sltu"
+   ]
+  },
+  {
+   "title": "Automatic Speech Recognition",
+   "papers": [
+    "pellegrini08_sltu",
+    "nimaan08_sltu",
+    "trinh08_sltu",
+    "jensson08_sltu",
+    "nguyen08_sltu",
+    "stuker08_sltu",
+    "seng08_sltu",
+    "gizaw08_sltu",
+    "le08_sltu"
+   ]
+  },
+  {
+   "title": "Speech Synthesis And Language Ressources",
+   "papers": [
+    "tran08_sltu",
+    "rooyen08_sltu",
+    "kominek08_sltu"
+   ]
+  },
+  {
+   "title": "Machine Translation Related Topics",
+   "papers": [
+    "arora08_sltu",
+    "stuker08b_sltu",
+    "huynh08_sltu"
+   ]
+  },
+  {
+   "title": "Asr And Miscellaneous Topics",
+   "papers": [
+    "makasso08_sltu",
+    "rossignol08_sltu",
+    "cetin08_sltu",
+    "cai08_sltu",
+    "alam08_sltu"
+   ]
+  }
+ ]
+}

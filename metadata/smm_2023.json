@@ -1,0 +1,324 @@
+{
+ "series": "SMM",
+ "title": "SMM23, Workshop on Speech, Music and Mind 2023",
+ "location": "Trinity College Dublin, Ireland",
+ "startDate": "18/08/2023",
+ "endDate": "18/08/2023",
+ "URL": "https://smm23.adaptcentre.ie/index.html",
+ "chair": "Chairs: Meghna Pandharipande, João P Cabral, Venkata S Viraraghavan and Subhrojyoti Chaudhuri",
+ "intro": "intro.pdf",
+ "conf": "SMM",
+ "year": "2023",
+ "name": "smm_2023",
+ "SIG": "",
+ "title1": "SMM23, Workshop on Speech, Music and Mind 2023",
+ "booklet": "smm_2023.pdf",
+ "date": "18 August 2023",
+ "papers": {
+  "lai23_smm": {
+   "authors": [
+    [
+     "Catherine",
+     "Lai"
+    ]
+   ],
+   "title": "Into the prosodic dimension: Finding meaning in the non-lexical aspects of speech",
+   "original": "keynote_Catherine",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "With recent advances in machine learning, automated dialogue systems have become more able to produce coherent language-based interactions. However, most work on automated spoken language understanding uses still only text transcriptions, i.e., just the lexical content of speech. This ignores the fact that the way we speak can change how our words are interpreted. In particular, speech prosody e.g. pitch, energy, and timing characteristics of speech can be used to signal speaker intent in spoken dialogues. In fact, prosodic features can help automatic detection of both dialogue structure and speaker affect/states. In this talk, I will discuss our recent work on how we can combine non-lexical and lexical aspects to speech to improve speech understanding tasks, such as emotion recognition, and how new approaches to self-supervised learning from speech might be able to help us make the most of the true richness of speech.\n"
+   ]
+  },
+  "liberto23_smm": {
+   "authors": [
+    [
+     "Giovanni Di",
+     "Liberto"
+    ]
+   ],
+   "title": "Investigating auditory cognition with natural speech and music",
+   "original": "keynote_Giovanni",
+   "page_count": 0,
+   "order": 6,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "That cortical activity tracks the dynamics of auditory stimuli is reasonably well established. In speech and music perception, this phenomenon produces reliable coupling between the acoustic envelope of the sound input and the corresponding cortical responses. However, it remains unclear to what extent that neural tracking reflects low-level acoustic properties, as opposed to more abstract linguistic structures. In this talk, I will discuss a series of studies aimed at assessing the impact of higher-order linguistic information on the cortical processing of speech and music sounds. I will demonstrate methodologies for disentangling neural responses to stimulus properties at different abstraction levels, deriving multiple objective indices for probing auditory perception with experiments involving natural speech and music listening. I will then describe recent developments of these measures in the context of developmental research.\n"
+   ]
+  },
+  "meza23_smm": {
+   "authors": [
+    [
+     "Martin",
+     "Meza"
+    ],
+    [
+     "Lara",
+     "Gauder"
+    ],
+    [
+     "Lautaro",
+     "Estienne"
+    ],
+    [
+     "Ricardo",
+     "Barchi"
+    ],
+    [
+     "Agustı́n",
+     "Gravano"
+    ],
+    [
+     "Pablo",
+     "Riera"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ]
+   ],
+   "title": "Teamwork Quality Prediction Using Speech-Based Features",
+   "original": "SMM23_paper_1",
+   "page_count": 5,
+   "order": 2,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "This paper describes a novel protocol for annotating teamwork quality and related variables, based only on the speech signal. Our protocol was designed to annotate a Spanish version of the Objects Games corpus, a publicly available corpus that contains dialogues of people playing a collaborative computer game. The corpus was annotated by 4 raters, who achieved an Intra class Correlation Coefficient of 0.64 for the main teamwork quality metric. Using the resulting annotations, we developed a system for automatic prediction of the average teamwork quality across raters using features extracted from the conversations, reaching a coefficient of determination, R<sup>2</sup> of 0.56. This result suggests that automatic prediction of teamwork quality from the speech signal of the teammates is a feasible task.\n"
+   ],
+   "doi": "10.21437/SMM.2023-1"
+  },
+  "maric23_smm": {
+   "authors": [
+    [
+     "Jasmina",
+     "Maric"
+    ],
+    [
+     "Lekshmi Murali",
+     "Rani"
+    ]
+   ],
+   "title": "Coding Music For No Stress Learning",
+   "original": "SMM23_paper_2",
+   "page_count": 5,
+   "order": 3,
+   "p1": 6,
+   "pn": 10,
+   "abstract": [
+    "This research paper reports on a study conducted over 10-week Creative Coding workshops designed to encourage girls’ involvement in STEAM fields. By using observations and interviews, this study investigates the participants’ experiences, learning progress, collaborative interactions, and perceptions. Additionally, the research examines the potential of creative coding and audio-visual perceptions of music in creating captivating learning experiences and multimedia art. The observations indicate the girls’ initial excitement and curiosity, their ability to comprehend coding concepts, and the positive impact of collaboration in creating an empowering and inclusive environment. Participants’ testimonies highlight the significance of integrating creative elements in attracting girls to STEAM and enhancing their confidence and aspirations. The findings underscore the importance of nurturing curiosity, promoting inclusivity, fostering collaboration, and integrating creativity to inspire and empower girls in coding and STEAM disciplines.\n"
+   ],
+   "doi": "10.21437/SMM.2023-2"
+  },
+  "cabral23_smm": {
+   "authors": [
+    [
+     "João P.",
+     "Cabral"
+    ],
+    [
+     "D.",
+     "Govind"
+    ]
+   ],
+   "title": "Voice source correlates of acted male speech emotions",
+   "original": "SMM23_paper_3",
+   "page_count": 5,
+   "order": 4,
+   "p1": 11,
+   "pn": 15,
+   "abstract": [
+    "The glottal source signal conveys very important information about the speech emotions. For example, source parameters have been successfully used in applications of recognition, transformation and synthesis of speech emotions. Often the source parameters are extracted from the speech signal only, without estimating the glottal source component, mainly because of the difficulty to separate this component from speech. This paper aims to improve the knowledge about the acoustic correlates of emotions by using accurate measurements of shape parameters of the glottal pulse. To achieve this, the most relevant glottal pulse instants are estimated using a semi-automatic method based on the analysis of both the electroglottographic and speech signals. Additional source parameters, the strength of excitation and harmonic-to-noise ratio, are also estimated from the speech signal, for comparison with the glottal parameters in our experiment. The average results of analysis of the source parameters show that they generally have a strong correlation with the set of emotions using neutral as reference: angry, disgusted, happy, sad, scared, and surprised. A possible application of this study is to derive parameter scale factors from the average measurements of the glottal parameters for speech emotion transformation.\n"
+   ],
+   "doi": "10.21437/SMM.2023-3"
+  },
+  "csapo23_smm": {
+   "authors": [
+    [
+     "Tamás Gábor",
+     "Csapó"
+    ],
+    [
+     "Frigyes Viktor",
+     "Arthur"
+    ],
+    [
+     "Péter",
+     "Nagy"
+    ],
+    [
+     "Ádám",
+     "Boncz"
+    ]
+   ],
+   "title": "Comparison of acoustic-to-articulatory and brain-to-articulatory mapping during speech production using ultrasound tongue imaging and EEG",
+   "original": "SMM23_paper_4",
+   "page_count": 5,
+   "order": 5,
+   "p1": 16,
+   "pn": 20,
+   "abstract": [
+    "With the investigation of speech-related biosignals we can enhance traditional speech synthesis which might be useful for future brain-computer interfaces. In a recent previous research, from the brain signal measured with EEG, we predicted directly measured articulation, i.e., ultrasound images of the tongue, with a fully connected deep neural network. The results showed that there is a weak but noticeable relationship between EEG and ultrasound tongue images, i.e., the network can differentiate articulated speech and neutral (resting state) tongue position. In the current study, we extend this with a focus on acoustic-to-articulatory inversion (AAI), and estimate articulatory movement from the speech signal. After that, we analyze the similarities between AAI-estimated articulation and EEG-estimated articulation. We compare the original articulatory data with DNN-predicted ultrasound and show that EEG input is only suitable to distinguish neutral tongue position and articulated speech, whereas melspectrogram-to-ultrasound can also predict articulatory trajectories of the tongue.\n"
+   ],
+   "doi": "10.21437/SMM.2023-4"
+  },
+  "barchi23_smm": {
+   "authors": [
+    [
+     "R.",
+     "Barchi"
+    ],
+    [
+     "L.",
+     "Pepino"
+    ],
+    [
+     "L.",
+     "Gauder"
+    ],
+    [
+     "L.",
+     "Estienne"
+    ],
+    [
+     "M.",
+     "Meza"
+    ],
+    [
+     "P.",
+     "Riera"
+    ],
+    [
+     "L.",
+     "Ferrer"
+    ]
+   ],
+   "title": "Apparent personality prediction from speech using expert features and wav2vec 2.0",
+   "original": "SMM23_paper_5",
+   "page_count": 5,
+   "order": 7,
+   "p1": 21,
+   "pn": 25,
+   "abstract": [
+    " Studies have shown that virtual assistants that adapt to the personality of the speaker are more effective and improve the overall experience of the user. For this reason, automatic detection of a user’s personality has recently become a task of interest. In this work, we explore the task of detecting a person’s personality using their speech. To this end, we use the “First impressions Dataset” consisting of videos annotated with apparent personality labels. We train various systems using different modeling techniques and features extracted from the speech recordings including expert features commonly used for emotion recognition, and self-supervised representations given by wav2vec 2.0. We analyze the importance of each of these feature sets and relevant subsets for predicting the “Big-five” personality traits. Our results show that wav2vec 2.0 features are the most useful ones, and that their combination with expert features can result in additional gains\n"
+   ],
+   "doi": "10.21437/SMM.2023-5"
+  },
+  "bhat23_smm": {
+   "authors": [
+    [
+     "Chitralekha",
+     "Bhat"
+    ],
+    [
+     "Sunil Kumar",
+     "Kopparapu"
+    ]
+   ],
+   "title": "Harnessing Speech Technology for Mental Health Assessment and Detection",
+   "original": "SMM23_paper_6",
+   "page_count": 5,
+   "order": 8,
+   "p1": 26,
+   "pn": 30,
+   "abstract": [
+    "One in eight people world wide live with some kind of mental disorder which results in significant disturbances in their thinking and emotional behaviour. While effective prevention and treatment options exist, early detection and intervention are essential for improving therapy outcomes and reducing the long-term impact of mental health conditions. Speech technology can be employed, effectively, to not only assess and monitor mental health conditions but also can contribute to the early detection of mental health. By analyzing speech patterns, including changes in speech rate, pitch, or other vocal features, algorithms can identify potential markers of conditions like depression, anxiety, or even neurodegenerative disorders such as Alzheimer’s disease, dementia. Additionally, speech technology can provide insights into a person’s emotional state, stress levels, facilitating proactive healthcare measures. In this paper, we present an overview of the speech processing technology- based research from the perspective of application to mental healthcare.\n"
+   ],
+   "doi": "10.21437/SMM.2023-6"
+  },
+  "brueckner23_smm": {
+   "authors": [
+    [
+     "Raymond",
+     "Brueckner"
+    ],
+    [
+     "Misa",
+     "Takegami"
+    ],
+    [
+     "Namhee",
+     "Kwon"
+    ],
+    [
+     "Nate",
+     "Blaylock"
+    ],
+    [
+     "Vinod",
+     "Subramanian"
+    ],
+    [
+     "Eri",
+     "Kiyoshige"
+    ],
+    [
+     "Soshiro",
+     "Ogata"
+    ],
+    [
+     "Yuriko",
+     "Nakaoku"
+    ],
+    [
+     "Henry",
+     "O’Connell"
+    ],
+    [
+     "Kunihiro",
+     "Nishimura"
+    ]
+   ],
+   "title": "Voice Technology to Identify Fatigue from Japanese Speech",
+   "original": "SMM23_paper_7",
+   "page_count": 5,
+   "order": 9,
+   "p1": 31,
+   "pn": 35,
+   "abstract": [
+    "Toward an automatic health monitoring tool, we investigate voice analysis technology to extract related features from speech and to build a machine learning model for identifying fatigue in Japanese. We collect voice data and their fatigue labels through phone calls and then experiment with diverse machine learning methods using various acoustic and prosodic features. The models are trained on spontaneous Japanese speech from participants who are older than 70 years. Each model and feature shows different performance and the logistic regression model using x-vectors trained on English outperforms other models with sensitivity at 0.87 and specificity at 0.65.\n"
+   ],
+   "doi": "10.21437/SMM.2023-7"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote speech 1",
+   "papers": [
+    "lai23_smm"
+   ]
+  },
+  {
+   "title": "Session 1: Influencing and assessing human productivity through audio signals",
+   "papers": [
+    "meza23_smm",
+    "maric23_smm"
+   ]
+  },
+  {
+   "title": "Session 2: Speech Production",
+   "papers": [
+    "cabral23_smm",
+    "csapo23_smm"
+   ]
+  },
+  {
+   "title": "Keynote speech 2",
+   "papers": [
+    "liberto23_smm"
+   ]
+  },
+  {
+   "title": "Session 3: Assessment of personality traits and mental states through speech",
+   "papers": [
+    "barchi23_smm",
+    "bhat23_smm",
+    "brueckner23_smm"
+   ]
+  }
+ ],
+ "doi": "10.21437/SMM.2023"
+}

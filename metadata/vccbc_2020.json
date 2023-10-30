@@ -1,0 +1,1065 @@
+{
+ "SIG": "SynSIG",
+ "title": "Joint Workshop for the Blizzard Challenge and Voice Conversion Challenge 2020",
+ "location": "Shanghai, China",
+ "startDate": "30/10/2020",
+ "endDate": "30/10/2020",
+ "chair": "Chairs: Junichi Yamagishi, Zhenhua Ling, Rohan Kumar Das, Simon King, Tomi Kinnunen, Tomoki Toda, Wen-Chin Huang, Xiao Zhou, Xiaohai Tian and Yi Zhao",
+ "URL": "https://www.synsig.org/index.php/Joint_Workshop_for_the_Blizzard_Challenge_and_Voice_Conversion_Challenge_2020",
+ "conf": "VCCBC",
+ "year": "2020",
+ "name": "vccbc_2020",
+ "series": "",
+ "title1": "Joint Workshop for the Blizzard Challenge and Voice Conversion Challenge 2020",
+ "date": "30 October 2020",
+ "papers": {
+  "zheng20_vccbc": {
+   "authors": [
+    [
+     "Lian",
+     "Zheng"
+    ],
+    [
+     "Jianhua",
+     "Tao"
+    ],
+    [
+     "Zhengqi",
+     "Wen"
+    ],
+    [
+     "Rongxiu",
+     "Zhong"
+    ]
+   ],
+   "title": "CASIA Voice Conversion System for the Voice Conversion Challenge 2020",
+   "original": "19",
+   "page_count": 4,
+   "order": 19,
+   "p1": 136,
+   "pn": 139,
+   "abstract": [
+    "This paper presents our CASIA (Chinese Academy of Sciences, Institute of Automation) voice conversion system for the Voice Conversation Challenge 2020 (VCC 2020). The CASIA voice conversion system can be separated into two modules: the conversion model and the vocoder. We first extract linguistic features from the source speech. Then, the conversion model takes these linguistic features as the inputs, aiming to predict the acoustic features of the target speaker. Finally, the vocoder utilizes these predicted features to generate the speech waveform of the target speaker. In our system, we utilize the CBHG conversion model and the LPCNet vocoder for speech generation. To better control the prosody of the converted speech, we utilize acoustic features of the source speech as additional inputs, including the pitch, voiced/unvoiced flag and band aperiodicity. Since the training data is limited in VCC 2020, we build our system by combining the initialization using a multi-speaker data and the adaptation using limited data of the target speaker. The results of VCC 2020 rank our CASIA system in the second place with an overall mean opinion score of 3.99 for speaker quality and 84\\% accuracy for speaker similarity.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-19"
+  },
+  "su20_vccbc": {
+   "authors": [
+    [
+     "Zhiba",
+     "Su"
+    ],
+    [
+     "Wendi",
+     "He"
+    ],
+    [
+     "Yang",
+     "Sun"
+    ]
+   ],
+   "title": "The Ximalaya TTS System for Blizzard Challenge 2020",
+   "original": "10",
+   "page_count": 5,
+   "order": 10,
+   "p1": 59,
+   "pn": 63,
+   "abstract": [
+    "This paper describes the proposed Himalaya text-to-speech synthesis system built for the Blizzard Challenge 2020. The two tasks are to build expressive speech synthesizers based on the released 9.5-hour Mandarin corpus from a male native speaker and 3-hour Shanghainese corpus from a female native speaker respectively. Our architecture is Tacotron2-based acoustic model with WaveRNN vocoder. Several methods for preprocessing and checking the raw BC transcript are implemented. Firstly, the multi-task TTS front-end module transforms the text sequences into phoneme-level sequences with prosody label after implement the polyphonic disambiguation and prosody prediction module. Then, we train the released corpus on a Seq2seq multi-speaker acoustic model for Mel spectrograms modeling. Besides, the neural vocoder WaveRNN with minor improvements generate high-quality audio for the submitted results. The identifier for our system is M, and the experimental evaluation results in listening tests show that the system we submitted performed well in most of the criterion."
+   ],
+   "doi": "10.21437/VCCBC.2020-10"
+  },
+  "zhou20_vccbc": {
+   "authors": [
+    [
+     "Yi",
+     "Zhou"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Xuehao",
+     "Zhou"
+    ],
+    [
+     "Mingyang",
+     "Zhang"
+    ],
+    [
+     "Grandee",
+     "Lee"
+    ],
+    [
+     "Riu",
+     "Liu"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "NUS-HLT System for Blizzard Challenge 2020",
+   "original": "7",
+   "page_count": 5,
+   "order": 7,
+   "p1": 44,
+   "pn": 48,
+   "abstract": [
+    "The paper presents the NUS-HLT text-to-speech (TTS) system for the Blizzard Challenge 2020. The challenge has two tasks: Hub task 2020-MH1 to synthesize Mandarin Chinese given 9.5 hours of speech data from a male native speaker of Mandarin; Spoke task 2020-SS1 to synthesize Shanghainese given 3 hours of speech data from a female native speaker of Shanghainese. Our submitted system combines the word embedding, which is extracted from a pre-trained language model, with the E2E TTS synthesizer to generate acoustic features from text input. WaveRNN neural vocoder and WaveNet neural vocoder are utilized to generate speech waveforms from acoustic features in MH1 and SS1 tasks, respectively. Evaluation results provided by the challenge organizers demonstrate the effectiveness of our submitted TTS system.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-7"
+  },
+  "lu20_vccbc": {
+   "authors": [
+    [
+     "Jian",
+     "Lu"
+    ],
+    [
+     "Zeru",
+     "Lu"
+    ],
+    [
+     "Ting",
+     "He"
+    ],
+    [
+     "Peng",
+     "Zhang"
+    ],
+    [
+     "Xinhui",
+     "Hu"
+    ],
+    [
+     "Xinkang",
+     "Xu"
+    ]
+   ],
+   "title": "The RoyalFlush Synthesis System for Blizzard Challenge 2020",
+   "original": "9",
+   "page_count": 5,
+   "order": 9,
+   "p1": 54,
+   "pn": 58,
+   "abstract": [
+    "The paper presents the RoyalFlush synthesis system for Blizzard Challenge 2020. Two required voices are built from the released Mandarin and Shanghainese data. Based on end-to-end speech synthesis technology, some improvements are introduced to the system compared with our system of last year. Firstly, a Mandarin front-end transforming input text in to phoneme sequence along with prosody labels is employed. Then, to improve speech stability, a modified Tacotron acoustic model is proposed. Moreover, we apply GMM-based attention mechanism for robust long-form speech synthesis. Finally, a lightweight LPCNet-based neural vocoder is adopted to achieve a nice traceoff between effectiveness and efficiency. Among all the participating teams of the Challenge, the identifier for our system is N. Evaluation results demonstrates that our system performs relatively well in intelligibility. But it still needs to be improved in terms of naturalness and similarity.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-9"
+  },
+  "he20_vccbc": {
+   "authors": [
+    [
+     "Laipeng",
+     "He"
+    ],
+    [
+     "Qiang",
+     "Shi"
+    ],
+    [
+     "Lang",
+     "Wu"
+    ],
+    [
+     "Jianqing",
+     "Sun"
+    ],
+    [
+     "Renke",
+     "He"
+    ],
+    [
+     "Yanhua",
+     "Long"
+    ],
+    [
+     "Jiaen",
+     "Liang"
+    ]
+   ],
+   "title": "The SHNU System for Blizzard Challenge 2020",
+   "original": "2",
+   "page_count": 5,
+   "order": 2,
+   "p1": 19,
+   "pn": 23,
+   "abstract": [
+    "This paper introduces the SHNU (team I) speech synthesis system for Blizzard Challenge 2020. Speech data released this year includes two parts: a 9.5-hour Mandarin corpus from a male native speaker and a 3-hour Shanghainese corpus from a female native speaker. Based on these corpora, we built two neural network-based speech synthesis systems to synthesize speech for both tasks. The same system architecture was used for both the Mandarin and Shanghainese tasks. Specifically, our systems include a front-end module, a Tacotron-based spectrogram pre-diction network and a WaveNet-based neural vocoder. Firstly, a pre-built front-end module was used to generate character sequence and linguistic features from the training text. Then, we applied a Tacotron-based sequence-to-sequence model to generate mel-spectrogram from character sequence. Finally, a WaveNet-based neural vocoder was adopted to reconstruct audio waveform with the mel-spectrogram from Tacotron. Evaluation results demonstrated that our system achieved an extremely good performance on both tasks, which proved the effectiveness of our proposed system.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-2"
+  },
+  "tian20_vccbc": {
+   "authors": [
+    [
+     "Qiao",
+     "Tian"
+    ],
+    [
+     "Zewang",
+     "Zhang"
+    ],
+    [
+     "Ling-Hui",
+     "Chen"
+    ],
+    [
+     "Heng",
+     "Lu"
+    ],
+    [
+     "Chengzhu",
+     "Yu"
+    ],
+    [
+     "Chao",
+     "Weng"
+    ],
+    [
+     "Dong",
+     "Yu"
+    ]
+   ],
+   "title": "The Tencent speech synthesis system for Blizzard Challenge 2020",
+   "original": "4",
+   "page_count": 5,
+   "order": 4,
+   "p1": 28,
+   "pn": 32,
+   "abstract": [
+    "This paper presents the Tencent speech synthesis system for Blizzard Challenge 2020. The corpus released to the participants this year included a TV’s news broadcasting corpus with a length around 8 hours by a Chinese male host (2020-MH1 task), and a Shanghaiese speech corpus with a length around 6 hours (2020-SS1 task). We built a DurIAN-based speech synthesis system for 2020-MH1 task and Tacotron-based system for 2020-SS1 task. For 2020-MH1 task, firstly, a multi-speaker DurIAN-based acoustic model was trained based on linguistic feature to predict mel spectrograms. Then the model was fine-tuned on only the corpus provided. For 2020-SS1 task, instead of training based on hard-aligned phone boundaries, a Tacotron-like end-to-end system is applied to learn the mappings between phonemes and mel spectrograms. Finally, a modified version of WaveRNN model conditioning on the predicted mel spectrograms is trained to generate speech waveform. Our team is identified as L and the evaluation results shows our systems perform very well in various tests. Especially, we took the first place in the overall speech intelligibility test.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-4"
+  },
+  "zhang20_vccbc": {
+   "authors": [
+    [
+     "Jing-Xuan",
+     "Zhang"
+    ],
+    [
+     "Li-Juan",
+     "Liu"
+    ],
+    [
+     "Yan-Nian",
+     "Chen"
+    ],
+    [
+     "Ya-Jun",
+     "Hu"
+    ],
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ]
+   ],
+   "title": "Voice Conversion by Cascading Automatic Speech Recognition and Text-to-Speech Synthesis with Prosody Transfer",
+   "original": "16",
+   "page_count": 5,
+   "order": 16,
+   "p1": 121,
+   "pn": 125,
+   "abstract": [
+    "With the development of automatic speech recognition (ASR) and text-to-speech synthesis (TTS) techniques, it’s intuitive to construct a voice conversion system by cascading an ASR and TTS system. In this paper, we present an ASR-TTS method for voice conversion, which uses iFLYTEK ASR engine to transcribe the source speech into text and a Transformer TTS model with WaveNet vocoder to synthesize the converted speech from the decoded text. For the TTS model, a prosody code is used to describe the prosody information other than text and speaker information contained in speech. A prosody encoder is adopted to extract the prosody code. During conversion, the source prosody is transferred to converted speech by conditioning the Transformer TTS model with its code. Experiments were conducted to demonstrate the effectiveness of our proposed method. Our system also obtained the best naturalness and similarity in the mono-lingual task of Voice Conversion Challenge 2020.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-16"
+  },
+  "huang20_vccbc": {
+   "authors": [
+    [
+     "Wen-Chin",
+     "Huang"
+    ],
+    [
+     "Tomoki",
+     "Hayashi"
+    ],
+    [
+     "Shinji",
+     "Watanabe"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "The Sequence-to-Sequence Baseline for the Voice Conversion Challenge 2020: Cascading ASR and TTS",
+   "original": "24",
+   "page_count": 5,
+   "order": 24,
+   "p1": 160,
+   "pn": 164,
+   "abstract": [
+    "This paper presents the sequence-to-sequence (seq2seq) baseline system for the voice conversion challenge (VCC) 2020. We consider a naive approach to voice conversion (VC), which is to first transcribe the input speech with an automatic speech recognition (ASR) model, followed by the use of transcriptions to generate the voice of the target with a text-to-speech (TTS) model. We revisit this method under a sequence-to-sequence (seq2seq) framework by utilizing ESPnet, an open-source end-to-end speech processing toolkit, and the many well-configured pretrained models provided by the community. Official evaluation results show that our system comes out on top among the participating systems in terms of conversion similarity, demonstrating the promising ability of seq2seq models to convert speaker identity. The implementation is made open source at https://github.com/espnet/espnet/tree/master/egs/vcc20.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-24"
+  },
+  "song20_vccbc": {
+   "authors": [
+    [
+     "Yang",
+     "Song"
+    ],
+    [
+     "Min",
+     "Liang"
+    ],
+    [
+     "Guilin",
+     "Yang"
+    ],
+    [
+     "Kun",
+     "Xie"
+    ],
+    [
+     "Jie",
+     "Hao"
+    ]
+   ],
+   "title": "The OPPO System for the Blizzard Challenge 2020",
+   "original": "3",
+   "page_count": 4,
+   "order": 3,
+   "p1": 24,
+   "pn": 27,
+   "abstract": [
+    "This paper presents the OPPO text-to-speech system for Blizzard Challenge 2020. A statistical parametric speech synthesis based system was built with improvements in both frontend and backend. For the Mandarin task, a BERT model was used for the frontend, a Tacotron acoustic model and a WaveRNN vocoder model were used for the backend. For the Shanghainese task, the frontend was built from scratch, a\nTacotron acoustic model and a MelGAN vocoder model were used for the backend. For the Mandarin task, evaluation results showed that our proposed system performed best in naturalness, and achieved near-best results in similarity. For the Shanghainese task, we got poor results in most indicators.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-3"
+  },
+  "yi20_vccbc": {
+   "authors": [
+    [
+     "Zhao",
+     "Yi"
+    ],
+    [
+     "Wen-Chin",
+     "Huang"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "Voice Conversion Challenge 2020 –- Intra-lingual semi-parallel and cross-lingual voice conversion –-",
+   "original": "14",
+   "page_count": 19,
+   "order": 14,
+   "p1": 80,
+   "pn": 98,
+   "abstract": [
+    "The voice conversion challenge is a bi-annual scientific event held to compare and understand different voice conversion (VC) systems built on a common dataset. In 2020, we organized the third edition of the challenge and constructed and distributed a new database for two tasks, intra-lingual semi-parallel and cross-lingual VC. After a two-month challenge period, we received 33 submissions, including 3 baselines built on the database. From the results of crowd-sourced listening tests, we observed that VC methods have progressed rapidly thanks to advanced deep learning methods. In particular, speaker similarity scores of several systems turned out to be as high as target speakers in the intra-lingual semi-parallel VC task. However, we confirmed that none of them have achieved human-level naturalness yet for the same task. The cross-lingual conversion task is, as expected, a more difficult task, and the overall naturalness and similarity scores were lower than those for the intra-lingual conversion task. However, we observed encouraging results, and the MOS scores of the best systems were higher than 4.0. We also show a few additional analysis results to aid in understanding cross-lingual VC better.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-14"
+  },
+  "fu20_vccbc": {
+   "authors": [
+    [
+     "Huhao",
+     "Fu"
+    ],
+    [
+     "Yiben",
+     "Zhang"
+    ],
+    [
+     "Kailong",
+     "Liu"
+    ],
+    [
+     "Chao",
+     "Liu"
+    ]
+   ],
+   "title": "The HITSZ TTS system for Blizzard challenge 2020",
+   "original": "11",
+   "page_count": 6,
+   "order": 11,
+   "p1": 64,
+   "pn": 69,
+   "abstract": [
+    "In this paper, we present the techniques that were used in HITSZ-TTS entry in Blizzard Challenge 2020. The corpus released to the participants this year is about 10-hours speech recordings from a Chinese male speaker with mixed Mandarin and English speech. Based on the above situation, we build an end to end speech synthesis system for this task. It is divided into the following parts: (1) the front-end module to analyze the pronunciation and prosody of text; (2) The phoneme-converted tool; (3) The forward-attention based sequence-to-sequence acoustic model with jointly learning with prosody\nlabels to predict 80-dimensional Mel-spectrogram; (4) The Parallel WaveGAN based neural vocoder to reconstruct waveforms. This is the first time for us to join the Blizzard Challenge, and the identifier for our system is G. The evaluation results of subjective listening tests show that the proposed system achieves unsatisfactory performance. The problems in the system are also discussed in this paper.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-11"
+  },
+  "cai20_vccbc": {
+   "authors": [
+    [
+     "Zexin",
+     "Cai"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "The Duke Entry for 2020 Blizzard Challenge",
+   "original": "5",
+   "page_count": 5,
+   "order": 5,
+   "p1": 33,
+   "pn": 37,
+   "abstract": [
+    "This paper presents the speech synthesis system built for the 2020 Blizzard Challenge by team ‘H’. The goal of the challenge is to build a synthesizer that is able to generate high-fidelity speech with a voice that is similar to the one from the provided data. Our system mainly draws on end-to-end neural networks. Specifically, we have an encoder-decoder based prosody prediction network to insert prosodic annotations for a given sentence. We use the spectrogram predictor from Tacotron2 as the end-to-end phoneme-to-spectrogram generator, followed by the neural vocoder WaveRNN to convert predicted spectrograms to audio signals. Additionally, we involve finetuning strategics to improve the TTS performance in our work. Subjective evaluation of the synthetic audios is taken regarding naturalness, similarity, and intelligibility. Samples are available online for listening.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-5"
+  },
+  "liu20_vccbc": {
+   "authors": [
+    [
+     "Li-Juan",
+     "Liu"
+    ],
+    [
+     "Yan-Nian",
+     "Chen"
+    ],
+    [
+     "Jing-Xuan",
+     "Zhang"
+    ],
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Ya-Jun",
+     "Hu"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ]
+   ],
+   "title": "Non-Parallel Voice Conversion with Autoregressive Conversion Model and Duration Adjustment",
+   "original": "17",
+   "page_count": 5,
+   "order": 17,
+   "p1": 126,
+   "pn": 130,
+   "abstract": [
+    "Although N10 system in Voice Conversion Challenge 2018 (VCC 18) has achieved excellent voice conversion results in both speech naturalness and speaker similarity, the system’s performance is limited due to some modeling insufficiency. In this paper, we propose to overcome these limitations by introducing three modifications. First, we substitute an autoregressive-based model in order to improve the conversion model capability; second, we use high-fidelity WaveNet to model 24kHz/16bit waveform in order to improve conversion speech naturalness; third, a duration adjustment strategy is proposed to compensate the obvious speech rate difference between source and target speakers. Experimental results show that our proposed method can improve the conversion performance significantly. Furthermore, we validate the performance of this system for cross-lingual voice conversion by applying it directly to the cross-lingual task in Voice Conversion Challenge 2020 (VCC 2020). The released official subjective results show that our system obtains the best performance in conversion speech naturalness and comparable performance to the best system in speaker similarity, which indicate that our proposed method can achieve state-of-the-art cross-lingual voice conversion performance as well.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-17"
+  },
+  "zhou20b_vccbc": {
+   "authors": [
+    [
+     "Xiao",
+     "Zhou"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2020",
+   "original": "1",
+   "page_count": 18,
+   "order": 1,
+   "p1": 1,
+   "pn": 18,
+   "abstract": [
+    "The Blizzard Challenge 2020 is the sixteenth annual Blizzard Challenge. The challenge this year includes a hub task of synthesizing Mandarin speech and a spoke task of synthesizing Shanghainese speech. The speech data of these two Chinese dialects as well as corresponding text transcriptions were provided. Sixteen and eight teams participated in the two tasks respectively. Listening tests were conducted online to evaluate the performance of synthetic speech.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-1"
+  },
+  "yang20_vccbc": {
+   "authors": [
+    [
+     "Yitao",
+     "Yang"
+    ],
+    [
+     "Jinghui",
+     "Zhong"
+    ],
+    [
+     "Shehui",
+     "Bu"
+    ]
+   ],
+   "title": "Submission from SCUT for Blizzard Challenge 2020",
+   "original": "6",
+   "page_count": 6,
+   "order": 6,
+   "p1": 38,
+   "pn": 43,
+   "abstract": [
+    "In this paper, we describe the SCUT text-to-speech synthesis system for the Blizzard Challenge 2020 and the task is to build a voice from the provided Mandarin dataset. We begin with our system architecture composed of an end-to-end structure to convert acoustic features from textual sequences and a WaveRNN vocoder to restore the waveform. Then a BERT-based prosody prediction model to specify the prosodic information of the content is introduced. The text processing module is adjusted to uniformly encode both Mandarin and English texts, then a two-stage training method is utilized to build a bilingual speech synthesis system. Meanwhile, we employ forward attention and guided attention mechanisms to accelerate the model’s convergence. Finally, the reasons for our inefficient performance presented in the evaluation results are discussed.\n"
+   ],
+   "doi": "10.21437/VCCBC.2020-6"
+  },
+  "ho20_vccbc": {
+   "authors": [
+    [
+     "Tuan Vu",
+     "Ho"
+    ],
+    [
+     "Masato",
+     "Akagi"
+    ]
+   ],
+   "title": "Non-parallel Voice Conversion based on Hierarchical Latent Embedding Vector Quantized Variational Autoencoder",
+   "original": "20",
+   "page_count": 5,
+   "order": 20,
+   "p1": 140,
+   "pn": 144,
+   "abstract": [
+    "This paper proposes a hierarchical latent embedding structure for Vector Quantized Variational Autoencoder (VQVAE) to improve the performance of the non-parallel voice conversion (NPVC) model. Previous studies on NPVC based on vanilla VQVAE use a single codebook to encode the linguistic information at a fixed temporal scale. However, the linguistic structure contains different semantic levels (e.g., phoneme, syllable, word) that span at various temporal scales. Therefore, the converted speech may contain unnatural pronunciations which can degrade the naturalness of speech. To tackle this problem, we propose to use the hierarchical latent embedding structure which comprises several vector quantization blocks operating at different temporal scales. When trained with a multi-speaker database, our proposed model can encode the voice characteristics into the speaker embedding vector, which can be used in one-shot learning settings. Results from objective and subjective tests indicate that our proposed model outperforms the conventional VQVAE based model in both intra-lingual and cross-lingual conversion tasks. The official results from Voice Conversion Challenge 2020 reveal that our proposed model achieved the highest naturalness performance among autoencoder based models in both tasks. Our implementation is being made available at https://github.com/tuanvu92/VCC2020."
+   ],
+   "doi": "10.21437/VCCBC.2020-20"
+  },
+  "wang20_vccbc": {
+   "authors": [
+    [
+     "Tao",
+     "Wang"
+    ],
+    [
+     "Jianhua",
+     "Tao"
+    ],
+    [
+     "Ruibo",
+     "Fu"
+    ],
+    [
+     "Zhengqi",
+     "Wen"
+    ],
+    [
+     "Chunyu",
+     "Qiang"
+    ]
+   ],
+   "title": "The NLPR Speech Synthesis entry for Blizzard Challenge 2020",
+   "original": "12",
+   "page_count": 5,
+   "order": 12,
+   "p1": 70,
+   "pn": 74,
+   "abstract": [
+    "The paper describes the NLPR speech synthesis system entry for Blizzard Challenge 2020. More than 9 hours of speech data from an news anchor and 3 hours of speech from one native Shanghainese speaker  are adopted as training data for building system this year. Our speech synthesis system is built based on the multi-speaker end-to-end speech synthesis system. LPCNet based neural vocoder is adapted to improve the quality. Different from our previous system, some improvements about data pruning and speaker adaptation strategies were made to improve the stability of our system. In this paper, the whole system structure, data pruning method, and the duration control will be introduced and discussed. In addition, this competition includes two tasks of Mandarin and Shanghainese, and we will introduce the important parts of each topic respectively. Finally, the results of listening test are presented."
+   ],
+   "doi": "10.21437/VCCBC.2020-12"
+  },
+  "hu20_vccbc": {
+   "authors": [
+    [
+     "Beibei",
+     "Hu"
+    ],
+    [
+     "Zilong",
+     "Bai"
+    ],
+    [
+     "Qiang",
+     "Li"
+    ]
+   ],
+   "title": "The Ajmide Text-To-Speech System for Blizzard Challenge 2020",
+   "original": "13",
+   "page_count": 5,
+   "order": 13,
+   "p1": 75,
+   "pn": 79,
+   "abstract": [
+    "The paper describes the NLPR speech synthesis system entry for Blizzard Challenge 2020. More than 9 hours of speech data from an news anchor and 3 hours of speech from one native Shanghainese speaker are adopted as training data for building system this year. Our speech synthesis system is built based on the multi-speaker end-to-end speech synthesis system. LPCNet based neural vocoder is adapted to improve the quality. Different from our previous system, some improvements about data pruning and speaker adaptation strategies were made to improve the stability of our system. In this paper, the whole system structure, data pruning method, and the duration control will be introduced and discussed. In addition, this competition includes two tasks of Mandarin and Shanghainese, and we will introduce the important parts of each topic respectively. Finally, the results of listening test are presented."
+   ],
+   "doi": "10.21437/VCCBC.2020-13"
+  },
+  "tobing20_vccbc": {
+   "authors": [
+    [
+     "Patrick Lumban",
+     "Tobing"
+    ],
+    [
+     "Yi-Chiao",
+     "Wu"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "Baseline System of Voice Conversion Challenge 2020 with Cyclic Variational Autoencoder and Parallel WaveGAN",
+   "original": "23",
+   "page_count": 5,
+   "order": 23,
+   "p1": 155,
+   "pn": 159,
+   "abstract": [
+    "In this paper, we present a description of the baseline system of Voice Conversion Challenge (VCC) 2020 with a cyclic variational autoencoder (CycleVAE) and ParallelWaveGAN (PWG), i.e., CycleVAEPWG. CycleVAE is a nonparallel VAE-based voice conversion that utilizes converted acoustic features to consider cyclically reconstructed spectra during optimization. On the other hand, PWG is a non-autoregressive neural vocoder that is based on a generative adversarial network for a high-quality and fast waveform generator. In practice, the CycleVAEPWG system can be straightforwardly developed with the VCC 2020 dataset using a unified model for both Task 1 (intralingual) and Task 2 (cross-lingual), where our open-source implementation is available at https://github.com/bigpon/vcc20\\_baseline\\_cyclevae. The results of VCC 2020 have demonstrated that the CycleVAEPWG baseline achieves the following: 1) a mean opinion score (MOS) of 2.87 in naturalness and a speaker similarity percentage (Sim) of 75.37\\% for Task 1, and 2) a MOS of 2.56 and a Sim of 56.46\\% for Task 2, showing an approximately or nearly average score for naturalness and an above average score for speaker similarity."
+   ],
+   "doi": "10.21437/VCCBC.2020-23"
+  },
+  "meng20_vccbc": {
+   "authors": [
+    [
+     "Fanbo",
+     "Meng"
+    ],
+    [
+     "Ruimin",
+     "Wang"
+    ],
+    [
+     "Peng",
+     "Fang"
+    ],
+    [
+     "Shuangyuan",
+     "Zou"
+    ],
+    [
+     "Wenjun",
+     "Duan"
+    ],
+    [
+     "Ming",
+     "Zhou"
+    ],
+    [
+     "Kai",
+     "Liu"
+    ],
+    [
+     "Wei",
+     "Chen"
+    ]
+   ],
+   "title": "The Sogou System for Blizzard Challenge 2020",
+   "original": "8",
+   "page_count": 5,
+   "order": 8,
+   "p1": 49,
+   "pn": 53,
+   "abstract": [
+    "In this paper, we introduce the text-to-speech system from Sogou team submitted to Blizzard Challenge 2020. The goal of this year’s challenge is to build a natural Mandarin Chinese speech synthesis system from the 10-hours corpus by a native Chinese male speaker. We will discuss the major modules of the submitted system: (1) the front-end module to analyze the pronunciation and prosody of text; (2) the FastSpeech-based sequence-to-sequence acoustic model to predict acoustic features; (3) the WaveRNN based neural vocoder to reconstruct waveforms. Evaluation results provided by the challenge organizer are also discussed."
+   ],
+   "doi": "10.21437/VCCBC.2020-8"
+  },
+  "zhang20b_vccbc": {
+   "authors": [
+    [
+     "Haitong",
+     "Zhang"
+    ]
+   ],
+   "title": "The NeteaseGames System for Voice Conversion Challenge 2020 with Vector-quantization Variational Autoencoder and WaveNet",
+   "original": "27",
+   "page_count": 5,
+   "order": 27,
+   "p1": 175,
+   "pn": 179,
+   "abstract": [
+    "﻿This paper presents the description of our submitted system for Voice Conversion Challenge (VCC) 2020 with vectorquantization variational autoencoder (VQ-VAE) with WaveNet as the decoder, i.e., VQ-VAE-WaveNet. VQ-VAE-WaveNet is a nonparallel VAE-based voice conversion that reconstruct the acoustic features along with separating the linguistic information with speaker identity. The model is further improved with the WaveNet cycle as the decoder to generate the high-quality speech waveform, since WaveNet, as an autoregressive neural vocoder, has achieved the STOA result of waveform generation. In practice, our system can be developed with VCC 2020 dataset for both Task 1 (intra-lingual) and Task 2 (cross-lingual). However, we only submitted our system for the intra-lingual voice conversion task. The results of VCC 2020 have demonstrated that our system VQ-VAE-WaveNet achieves: 3.04 mean opinion score (MOS) in naturalness and 3.28 average score in similarity ( speaker similarity percentage (Sim) of 75.99\\%) for Task 1. What’s more, our system performs well in some objective evaluations. Specifically our system achieved an average score of 3.95 in naturalness in automatic naturalness prediction and ranked the 6th and 8th, respectively in ASV-based speaker similarity and spoofing countermeasures."
+   ],
+   "doi": "10.21437/VCCBC.2020-27"
+  },
+  "barbany20_vccbc": {
+   "authors": [
+    [
+     "Oriol",
+     "Barbany"
+    ],
+    [
+     "Milos",
+     "Cernak"
+    ]
+   ],
+   "title": "FastVC: Fast Voice Conversion with non-parallel data",
+   "original": "21",
+   "page_count": 5,
+   "order": 21,
+   "p1": 145,
+   "pn": 149,
+   "abstract": [
+    "This paper introduces FastVC, an end-to-end model for fast Voice Conversion (VC). The proposed model can convert speech of arbitrary length from multiple source speakers to multiple target speakers. FastVC is based on a conditional AutoEncoder (AE) trained on non-parallel data and requires no annotations at all. This model’s latent representation is shown to be speaker-independent and similar to phonemes, which is a desirable feature for VC systems. While the current VC systems primarily focus on achieving the highest overall speech quality, this paper tries to balance the development concerning resources needed to run the systems. Despite the simple structure of the proposed model, it outperforms the VC Challenge 2020 baselines on the cross-lingual task in terms of naturalness."
+   ],
+   "doi": "10.21437/VCCBC.2020-21"
+  },
+  "tian20b_vccbc": {
+   "authors": [
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Zhichao",
+     "Wang"
+    ],
+    [
+     "Shan",
+     "Yang"
+    ],
+    [
+     "Xinyong",
+     "Zhou"
+    ],
+    [
+     "Hongqiang",
+     "Du"
+    ],
+    [
+     "Yi",
+     "Zhou"
+    ],
+    [
+     "Mingyang",
+     "Zhang"
+    ],
+    [
+     "Kun",
+     "Zhou"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "The NUS & NWPU system for Voice Conversion Challenge 2020",
+   "original": "26",
+   "page_count": 5,
+   "order": 26,
+   "p1": 170,
+   "pn": 174,
+   "abstract": [
+    "This paper presents the NUS & NWPU voice conversion system for Voice Conversion Challenge 2020. Our submission is a Phonetic PosteriorGram (PPG) based voice conversion system, which consists of three modules, including PPG extractor, feature conversion and converted speech signal generation modules. Firstly, a PPG extractor is adopted to extract the speaker independent content features from a speech signal. Then, anencoder-decoder based feature conversion model is used to predict the converted features with the PPG inputs. Finally, a multiband WaveRNN is utilized to generate the time-domain speech signal from the converted features. The same implementation is used for both intra-lingual and cross-lingual voice conversion tasks. Evaluation results demonstrated the effectiveness of our proposed system."
+   ],
+   "doi": "10.21437/VCCBC.2020-26"
+  },
+  "das20_vccbc": {
+   "authors": [
+    [
+     "Rohan Kumar",
+     "Das"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Wen-Chin",
+     "Huang"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Zhao",
+     "Yi"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "Predictions of Subjective Ratings and Spoofing Assessments of Voice Conversion Challenge 2020 Submissions",
+   "original": "15",
+   "page_count": 22,
+   "order": 15,
+   "p1": 99,
+   "pn": 120,
+   "abstract": [
+    "The Voice Conversion Challenge 2020 is the third edition under its flagship that promotes intra-lingual semiparallel and crosslingual voice conversion (VC). While the primary evaluation of the challenge submissions was done through crowd-sourced listening tests, we also performed an objective assessment of the submitted systems. The aim of the objective assessment is to provide complementary performance analysis that may be more beneficial than the time-consuming listening tests. In this study, we examined five types of objective assessments using automatic speaker verification (ASV), neural speaker embeddings, spoofing countermeasures, predicted mean opinion scores (MOS), and automatic speech recognition (ASR). Each of these objective measures assesses the VC output along different aspects. We observed that the correlations of these objective assessments with the subjective results were high for ASV, neural speaker embedding, and ASR, which makes them more influential for predicting subjective test results. In addition, we performed spoofing assessments on the submitted systems and identified some of the VC methods showing a potentially high security risk."
+   ],
+   "doi": "10.21437/VCCBC.2020-15"
+  },
+  "huang20b_vccbc": {
+   "authors": [
+    [
+     "Wen-Chin",
+     "Huang"
+    ],
+    [
+     "Patrick Lumban",
+     "Tobing"
+    ],
+    [
+     "Yi-Chiao",
+     "Wu"
+    ],
+    [
+     "Kazuhiro",
+     "Kobayashi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "The NU Voice Conversion System for the Voice Conversion Challenge 2020: On the Effectiveness of Sequence-to-sequence Models and Autoregressive Neural Vocoders",
+   "original": "25",
+   "page_count": 5,
+   "order": 25,
+   "p1": 165,
+   "pn": 169,
+   "abstract": [
+    "In this paper, we present the voice conversion (VC) systems developed at Nagoya University (NU) for the Voice Conversion Challenge 2020 (VCC2020). We aim to determine the effectiveness of two recent significant technologies in VC: sequence-to-sequence (seq2seq) models and autoregressive (AR) neural vocoders. Two respective systems were developed for the two tasks in the challenge: for task 1, we adopted the Voice Transformer Network, a Transformer-based seq2seq VC model, and extended it with synthetic parallel data to tackle nonparallel data; for task 2, we used the frame-based cyclic variational autoencoder (CycleVAE) to model the spectral features of a speech waveform and the ARWaveNet vocoder with additional fine-tuning. By comparing with the baseline systems, we confirmed that the seq2seq modeling can improve the conversion similarity and that the use of AR vocoders can improve the naturalness of the converted speech."
+   ],
+   "doi": "10.21437/VCCBC.2020-25"
+  },
+  "costa20_vccbc": {
+   "authors": [
+    [
+     "Victor P. da",
+     "Costa"
+    ],
+    [
+     "Ranniery",
+     "Maia"
+    ],
+    [
+     "Igor M.",
+     "Quintanilha"
+    ],
+    [
+     "Sergio L.",
+     "Netto"
+    ],
+    [
+     "Luiz W. P.",
+     "Biscainho"
+    ]
+   ],
+   "title": "The UFRJ Entry for the Voice Conversion Challenge 2020",
+   "original": "29",
+   "page_count": 5,
+   "order": 29,
+   "p1": 184,
+   "pn": 188,
+   "abstract": [
+    "This paper presents our system submitted to the Task 1 of the 2020 edition of the voice conversion challenge (VCC), based on CycleGAN to convert mel-spectograms and MelGAN to synthesize converted speech. CycleGAN is a GAN-based morphing network that uses a cyclic reconstruction cost to allow training with non-parallel corpora. MelGAN is a GAN based non-autoregressive neural vocoder that uses a multi-scale discriminator to efficiently capture complexities of speech signals and achieve high quality signals with extremely fast generation. In the VCC 2020 evaluation our system achieved mean opinion scores of 1.92 for English listeners and 1.81 for Japanese listeners, and averaged similarity score of 2.51 for English listeners and 2.59 for Japanese listeners. The results suggest that possibly the use of neural vocoders to represent converted speech is a problem that demand specific training strategies and the use of adaptation techniques."
+   ],
+   "doi": "10.21437/VCCBC.2020-29"
+  },
+  "peng20_vccbc": {
+   "authors": [
+    [
+     "YuHuai",
+     "Peng"
+    ],
+    [
+     "Cheng-Hung",
+     "Hu"
+    ],
+    [
+     "Alexander",
+     "Kang"
+    ],
+    [
+     "Hung-Shin",
+     "Lee"
+    ],
+    [
+     "Pin-Yuan",
+     "Chen"
+    ],
+    [
+     "Yu",
+     "Tsao"
+    ],
+    [
+     "Hsin-Min",
+     "Wang"
+    ]
+   ],
+   "title": "The Academia Sinica Systems of Voice Conversion for VCC2020",
+   "original": "28",
+   "page_count": 4,
+   "order": 28,
+   "p1": 180,
+   "pn": 183,
+   "abstract": [
+    "This paper describes the Academia Sinica systems for the two tasks of Voice Conversion Challenge 2020, namely voice conversion within the same language (Task 1) and cross-lingual voice conversion (Task 2). For both tasks, we followed the cascaded ASR+TTS structure, using phonetic tokens as the TTS input instead of the text or characters. For Task 1, we used the international phonetic alphabet (IPA) as the input of the TTS model. For Task 2, we used unsupervised phonetic symbols extracted by the vector-quantized variational autoencoder (VQVAE). In the evaluation, the listening test showed that our systems performed well in the VCC2020 challenge."
+   ],
+   "doi": "10.21437/VCCBC.2020-28"
+  },
+  "luong20_vccbc": {
+   "authors": [
+    [
+     "Hieu-Thi",
+     "Luong"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Latent linguistic embedding for cross-lingual text-to-speech and voice conversion",
+   "original": "22",
+   "page_count": 5,
+   "order": 22,
+   "p1": 150,
+   "pn": 154,
+   "abstract": [
+    "As the recently proposed voice cloning system, NAUTILUS, is apable of cloning unseen voices using untranscribed speech, we investigate the feasibility of using it to develop a unified cross-lingual TTS/VC system. Cross-lingual speech generation is the scenario in which speech utterances are generated with the voices of target speakers in a language not spoken by them originally. This type of system is not simply cloning the voice of the target speaker, but essentially creating a new voice that can be considered better than the original under a specific framing. By using a well-trained English latent linguistic embedding to create a cross-lingual TTS and VC system for several German, Finnish, and Mandarin speakers included in the Voice Conversion Challenge 2020, we show that our method not only creates cross-lingual VC with high speaker similarity but also can be seamlessly used for cross-lingual TTS without having to perform any extra steps. However, the subjective evaluations of perceived naturalness seemed to vary between target speakers, which is one aspect for future improvement."
+   ],
+   "doi": "10.21437/VCCBC.2020-22"
+  },
+  "ma20_vccbc": {
+   "authors": [
+    [
+     "Qiuyue",
+     "Ma"
+    ],
+    [
+     "Ruolan",
+     "Liu"
+    ],
+    [
+     "Xue",
+     "Wen"
+    ],
+    [
+     "Chunhui",
+     "Lu"
+    ],
+    [
+     "Xiao",
+     "Chen"
+    ]
+   ],
+   "title": "Submission from SRCB for Voice Conversion Challenge 2020",
+   "original": "18",
+   "page_count": 5,
+   "order": 18,
+   "p1": 131,
+   "pn": 135,
+   "abstract": [
+    "This paper presents the intra-lingual and cross-lingual voice conversion system for Voice Conversion Challenge 2020(VCC 2020). Voice conversion (VC) modifies a source speaker’s speech so that the result sounds like a target speaker. This becomes particularly difficult when source and target speakers speak different languages. In this work we focus on building a voice conversion system achieving consistent improvements in accent and intelligibility evaluations. Our voice conversion system is constituted by a bilingual phoneme recognition based speech representation module, a neural network based speech generation module and a neural vocoder. More concretely, we extract general phonation from the source speakers' speeches of different languages, and improve the sound quality by optimizing the speech synthesis module and adding a noise suppression post-process module to the vocoder. This framework ensures high intelligible and high natural speech, which is very close to human quality (MOS=4.17 rank 2 in Task 1, MOS=4.13 rank 2 in Task 2)."
+   ],
+   "doi": "10.21437/VCCBC.2020-18"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Blizzard Challenge 2020 Session 1: Live Oral Presentation",
+   "papers": [
+    "zhou20b_vccbc"
+   ]
+  },
+  {
+   "title": "Blizzard Challenge 2020 Session 2: Live Oral Presentations",
+   "papers": [
+    "he20_vccbc",
+    "song20_vccbc",
+    "tian20_vccbc"
+   ]
+  },
+  {
+   "title": "Blizzard Challenge 2020 Session 3: Pre-Recorded Video Presentations",
+   "papers": [
+    "cai20_vccbc",
+    "yang20_vccbc",
+    "zhou20_vccbc",
+    "meng20_vccbc",
+    "lu20_vccbc",
+    "su20_vccbc",
+    "fu20_vccbc",
+    "wang20_vccbc",
+    "hu20_vccbc"
+   ]
+  },
+  {
+   "title": "VCC 2020 Session 1: Live Oral Presentation",
+   "papers": [
+    "yi20_vccbc",
+    "das20_vccbc"
+   ]
+  },
+  {
+   "title": "VCC 2020 Session 2: Live Oral Presentations",
+   "papers": [
+    "zhang20_vccbc",
+    "liu20_vccbc",
+    "ma20_vccbc",
+    "zheng20_vccbc"
+   ]
+  },
+  {
+   "title": "VCC 2020 Session 3: Pre-Recorded Video Presentations",
+   "papers": [
+    "ho20_vccbc",
+    "barbany20_vccbc",
+    "luong20_vccbc",
+    "tobing20_vccbc",
+    "huang20_vccbc",
+    "huang20b_vccbc",
+    "tian20b_vccbc",
+    "zhang20b_vccbc",
+    "peng20_vccbc",
+    "costa20_vccbc"
+   ]
+  }
+ ],
+ "doi": "10.21437/VCCBC.2020"
+}

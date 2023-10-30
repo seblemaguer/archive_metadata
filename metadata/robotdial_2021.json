@@ -1,0 +1,239 @@
+{
+ "title": "1st RobotDial Workshop on Dialogue Models for Human-Robot Interaction",
+ "location": "IJCAI 2020, Yokohama, Japan",
+ "startDate": "8/1/2021",
+ "endDate": "8/1/2021",
+ "URL": "http://sap.ist.i.kyoto-u.ac.jp/ijcai2020/robotdial/",
+ "chair": "Chairs: Kristiina Jokinen, Martin Heckmann, Divesh Lala and Pierre Lison",
+ "conf": "RobotDial",
+ "year": "2021",
+ "name": "robotdial_2021",
+ "series": "",
+ "SIG": "",
+ "title1": "1st RobotDial Workshop on Dialogue Models for Human-Robot Interaction",
+ "date": "8 January 2021",
+ "booklet": "robotdial_2021.pdf",
+ "papers": {
+  "teranishi21_robotdial": {
+   "authors": [
+    [
+     "Daina",
+     "Teranishi"
+    ],
+    [
+     "Masahiro",
+     "Araki"
+    ]
+   ],
+   "title": "Improving user engagement with dialogue systems through meaningful response generation",
+   "original": "01",
+   "page_count": 7,
+   "order": 2,
+   "p1": 2,
+   "pn": 8,
+   "abstract": [
+    "The sequence-to-sequence (Seq2Seq) model can be used to generate responses to various input sentences. However, these responses are often dull, such as in the form of simple consent, which reduces people’s willingness to continue the dialogue with a dialogue system. To overcome this limitation, this work was aimed to develop meaningful response generation methods, specifically, by (1) combining multiple response generation modules to the Seq2Seq model and (2) generating responses by introducing randomness to the Seq2Seq model. The results indicated that the adding randomness method could generate satisfactorily meaningful responses, thereby improving the user engagement with the dialogue systems.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-1"
+  },
+  "jokinen21_robotdial": {
+   "authors": [
+    [
+     "Kristiina",
+     "Jokinen"
+    ]
+   ],
+   "title": "Cascaded Dialogue Modelling for Situated Human-Robot Interactions",
+   "original": "06",
+   "page_count": 6,
+   "order": 3,
+   "p1": 9,
+   "pn": 14,
+   "abstract": [
+    "The paper discusses new requirements for dialogue modelling that situated human-robot interactions and increasingly demanding smart contexts impose on dialogue systems. Based on Constructive Dialogue Modelling, the paper describes human communication enablements (contact, perception, understanding and reaction) and their modelling as a hierarchy which supports the agent to produce appropriate dialogue behaviour. The hierarchy is compared to the subsumption architecture for mobile robots, and a cascaded model with multiple parallel yet hierarchical dialogue processing tasks is proposed as a model for context-aware dialogue management.\n",
+    ""
+   ],
+   "doi": "10.21437/RobotDial.2021-2"
+  },
+  "ward21_robotdial": {
+   "authors": [
+    [
+     "Nigel G.",
+     "Ward"
+    ],
+    [
+     "Matthew",
+     "Marge"
+    ]
+   ],
+   "title": "Spoken Language Interaction with Robots: Discussion Session",
+   "original": "08",
+   "page_count": 1,
+   "order": 1,
+   "p1": 1,
+   "pn": 1,
+   "abstract": [
+    "This session will be a discussion based on the recent report: Spoken Language Interaction with Robots: Research Issues and Recommendations [Marge et al., 2020], focusing on the 31 recommendations.\n"
+   ]
+  },
+  "lala21_robotdial": {
+   "authors": [
+    [
+     "Divesh",
+     "Lala"
+    ],
+    [
+     "Koji",
+     "Inoue"
+    ],
+    [
+     "Kenta",
+     "Yamamoto"
+    ],
+    [
+     "Tatsuya",
+     "Kawahara"
+    ]
+   ],
+   "title": "Findings from human-android dialogue research with ERICA",
+   "original": "09",
+   "page_count": 6,
+   "order": 4,
+   "p1": 15,
+   "pn": 20,
+   "abstract": [
+    "Human-android interaction is a domain where dialogue management is combined with realistic humanoids. In this work we provide a summary of our dialogue research with the android ERICA. We provide an outline of what we have accomplished until now, with discussions of ERICA’s dialogue management in several scenarios, both linguistic and non-linguistic. From formal experiments and informal commentary from users, we draw upon several findings during the project that should be considered with human-android dialogue research but can also be applied to other robots and agents.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-3"
+  },
+  "kiefer21_robotdial": {
+   "authors": [
+    [
+     "Bernd",
+     "Kiefer"
+    ],
+    [
+     "Christian",
+     "Willms"
+    ]
+   ],
+   "title": "Implementing Diverse Robotic Interactive Systems Using VOnDA",
+   "original": "11",
+   "page_count": 7,
+   "order": 6,
+   "p1": 30,
+   "pn": 36,
+   "abstract": [
+    "This paper describes the implementation of different interactive robotic systems using the dialogue framework VOnDA, an interactive robotic arm, a guidance and a transport robot developed in the INTUITIV project, and the social robotic companion and tutor of the PAL system. The applications differ in terms of complexity in multiple dimensions, e.g., concerning dialogue structure, frequency of sensory input, architecture (embedded vs. cloud), etc. We highlight the different requirements, and aim to demonstrate the flexibility of the framework and its feasibility in multiple contexts and on different levels of control, from mere interaction modelling to being the central agent control component.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-5"
+  },
+  "kruijffkorbayova21_robotdial": {
+   "authors": [
+    [
+     "Ivana",
+     "Kruijff-Korbayová"
+    ],
+    [
+     "Kristiina",
+     "Jokinen"
+    ]
+   ],
+   "title": "Dialogue Processing and System Involvement in Multimodal Task Dialogues",
+   "original": "12",
+   "page_count": 6,
+   "order": 7,
+   "p1": 37,
+   "pn": 42,
+   "abstract": [
+    "We compare dialogue processing needs for several types of applications involving human-human and human-system collaboration and communication in various scenarios for a range of tasks. The tasks in these scenarios include collaboration which requires communication for information exchange and for task management. However, the necessary dialogue processing in the corresponding applications differs depending on the level of system involvement in the task(s) at hand, and in this paper we propose to put them on a continuum corresponding to the depth/coverage of the dialogue processing that is required. We provide a different and complementary perspective on ways of comparing dialogue processing than is common when looking at dialogue as either goal/task-oriented or chit-chat, or when considering different approaches to dialogue management, such as finite-state transducers or template-filling. We explore the possibility of gradually scaling dialogue processing complexity while sharing development resources for different applications along the continuum within one application domain.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-6"
+  },
+  "kawano21_robotdial": {
+   "authors": [
+    [
+     "Seiya",
+     "Kawano"
+    ],
+    [
+     "Koichiro",
+     "Yoshino"
+    ],
+    [
+     "David",
+     "Traum"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "Dialogue Structure Parsing on Multi-Floor Dialogue Based on Multi-Task Learning",
+   "original": "13",
+   "page_count": 9,
+   "order": 5,
+   "p1": 21,
+   "pn": 29,
+   "abstract": [
+    "A multi-floor dialogue consists of multiple sets of dialogue participants, each conversing within their own floor, but also at least one multi-communicating member who is a participant of multiple floors and coordinating each to achieve a shared dialogue goal. The structure of such dialogues can be complex, involving intentional structure and relations that are within or across floors. In this study, we propose a neural dialogue structure parser based on multi-task learning and an attention mechanism on multi-floor dialogues in a collaborative robot navigation domain. Our experimental results show that our proposed model improved the dialogue structure parsing performance more than those of single models, which are trained on each dialogue structure parsing task in multi-floor dialogues.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-4"
+  },
+  "schiffer21_robotdial": {
+   "authors": [
+    [
+     "Stefan",
+     "Schiffer"
+    ],
+    [
+     "Julia",
+     "Arndt"
+    ],
+    [
+     "Laura",
+     "Platte"
+    ],
+    [
+     "Jayadev",
+     "Madyal"
+    ],
+    [
+     "Marlon",
+     "Spangenberg"
+    ]
+   ],
+   "title": "DiaBuLI – Building Dialogues for Human-Robot Interaction by Learning from Object Information",
+   "original": "14",
+   "page_count": 9,
+   "order": 8,
+   "p1": 43,
+   "pn": 51,
+   "abstract": [
+    "We report on preliminary results of our efforts of building a human-robot dialogue by using decision tree learning. The system is particularly designed for dialogues that go along with decision processes. In our application, the self-developed robot MoBi should assist young children in the classroom with waste management. To do so, MoBi asks a couple of yes/no-questions about a waste item to dispose in order to decide on the correct bin. We take a collection of instances of the classification task where we know the right bin decision for and we characterize these examples by a set of attributes that describe features like material and usage properties. Then, we perform decision tree learning to generate a tree which builds the basis for the dialogue with MoBi. While many existing work aim for a more open-ended form of dialogue we focus on a specific setting where the robot assists in a decision process. Existing approaches have investigated the use of learning to optimize the length or number of turns in an interaction dialogue. We are also interested in optimizing our dialogue but we look into finding other interesting qualities as well. We compare trees resulting from different configurations of our decision tree learning both with one another as well as with hand-crafted dialogues used for the robot MoBi so far.\n"
+   ],
+   "doi": "10.21437/RobotDial.2021-7"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Morning Session",
+   "papers": [
+    "ward21_robotdial",
+    "teranishi21_robotdial",
+    "jokinen21_robotdial",
+    "lala21_robotdial",
+    "kawano21_robotdial"
+   ]
+  },
+  {
+   "title": "Afternoon Session",
+   "papers": [
+    "kiefer21_robotdial",
+    "kruijffkorbayova21_robotdial",
+    "schiffer21_robotdial"
+   ]
+  }
+ ],
+ "doi": "10.21437/RobotDial.2021"
+}

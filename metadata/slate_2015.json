@@ -1,0 +1,1160 @@
+{
+ "title": "Speech and Language Technology in Education (SLaTE 2015)",
+ "location": "Leipzig, Germany",
+ "startDate": "4/9/2015",
+ "endDate": "5/9/2015",
+ "conf": "SLaTE",
+ "year": "2015",
+ "name": "slate_2015",
+ "series": "SLaTE",
+ "SIG": "SLaTE",
+ "title1": "Speech and Language Technology in Education",
+ "title2": "(SLaTE 2015)",
+ "date": "4-5 September 2015",
+ "booklet": "slate_2015.pdf",
+ "papers": {
+  "honig15_slate": {
+   "authors": [
+    [
+     "Florian",
+     "Hönig"
+    ],
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ]
+   ],
+   "title": "How many speakers, how many texts – the automatic assessment of non-native prosody",
+   "original": "sl15_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "We present an in-depth analysis of a method for automatically scoring the prosody of non-native speech. For studying its suitability for different application scenarios, we perform a systematic comparison of different evaluation schemes such as text (in-)dependence and/or speaker (in-)dependence. The focus lies on methodological issues, with the aim of promoting the careful evaluation of automatic assessment methods. Further contributions are the analysis of (1) a method that utilizes speaker IDs to improve performance, and (2) the analysis of performance as a function of the number of speakers and texts used for training the system.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-1"
+  },
+  "dalen15_slate": {
+   "authors": [
+    [
+     "Rogier C. van",
+     "Dalen"
+    ],
+    [
+     "Kate M.",
+     "Knill"
+    ],
+    [
+     "Mark J. F.",
+     "Gales"
+    ]
+   ],
+   "title": "Automatically grading learners’ English using a Gaussian process",
+   "original": "sl15_007",
+   "page_count": 6,
+   "order": 2,
+   "p1": "7",
+   "pn": "12",
+   "abstract": [
+    "There is a high demand around the world for the learning of English as a second language. Correspondingly, there is a need to assess the proficiency level of learners both during their studies and for formal qualifications. A number of automatic methods have been proposed to help meet this demand with varying degrees of success. This paper considers the automatic assessment of spoken English proficiency, which is still a challenging problem. In this scenario, the grader should be able to accurately assess the learner’s ability level from spontaneous, prompted, speech, independent of L1 language and the quality of the audio recording. Automatic graders are potentially more consistent than humans. However, the validity of the predicted grade varies. This paper proposes an automatic grader based on a Gaussian process. The advantage of using a Gaussian process is that as well as predicting a grade, it provides a measure of the uncertainty of its prediction. The uncertainty measure is sufficiently accurate to decide which automatic grades should be re-graded by humans. It can also be used to determine which candidates are hard to grade for humans and therefore need expert grading. Performance of the automatic grader is shown to be close to human graders on real candidate entries. Interpolation of human and GP grades further boosts performance.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-2"
+  },
+  "hassanali15_slate": {
+   "authors": [
+    [
+     "Khairun-nisa",
+     "Hassanali"
+    ],
+    [
+     "Su-Youn",
+     "Yoon"
+    ],
+    [
+     "Lei",
+     "Chen"
+    ]
+   ],
+   "title": "Automatic scoring of non-native children’s spoken language proficiency",
+   "original": "sl15_013",
+   "page_count": 6,
+   "order": 3,
+   "p1": "13",
+   "pn": "18",
+   "abstract": [
+    "In this study, we aim to automatically score the spoken responses from an international English assessment targeted to non-native English-speaking children aged 8 years and above. In contrast to most previous studies focusing on scoring of adult nonnative English speech, we explored automated scoring of child language assessment. We developed automated scoring models based on a large set of features covering delivery (pronunciation and fluency), language use (grammar and vocabulary), and topic development (coherence). In particular, in order to assess the level of grammatical development, we used a child language metric that measures syntactic proficiency in emerging language in children. Due to acoustic and linguistic differences between child and adult speech, the automated speech recognition (ASR) of child speech has been a challenging task. This problem may increase difficulty of automated scoring. In order to investigate the impact of ASR errors on automated scores, we compared scoring models based on features from ASR transcriptions with ones based on human transcriptions. Our results show that there is potential for the automatic scoring of spoken non-native child language. The best performing model based on ASR transcriptions achieved a correlation of 0.86 with human-rated scores.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-3"
+  },
+  "pongkittiphan15_slate": {
+   "authors": [
+    [
+     "Teeraphon",
+     "Pongkittiphan"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Takehiko",
+     "Makino"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Keikichi",
+     "Hirose"
+    ]
+   ],
+   "title": "Automatic prediction of intelligibility of English words spoken with Japanese accents – comparative study of features and models used for prediction",
+   "original": "sl15_019",
+   "page_count": 4,
+   "order": 4,
+   "p1": "19",
+   "pn": "22",
+   "abstract": [
+    "This study investigates automatic prediction of the words in given sentences that will be unintelligible to American listeners when they are pronounced with Japanese accents. The ERJ intelligibility database contains results of a large listening test, where 800 English sentences read with Japanese accents were presented to 173 American listeners and correct perception rate was obtained for each spoken word. By using this database, in our previous study, an intelligibility predictor was built for each word of input texts or utterances. For prediction, lexical and linguistic features were extracted from texts and pronunciation distance and word confusability were calculated from utterances. CART was used as prediction model. In this paper, new features that are related to speech prosody and three new prediction models of ensemble methods (Adaboost, Random Forest and Extremely Randomized Trees) are tested and compared to the old features and model. Finally, our new system can predict very unintelligible words and rather unintelligible words with F1-scores of 72.74% and 84.78 %, respectively.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-4"
+  },
+  "wang15_slate": {
+   "authors": [
+    [
+     "Xinhao",
+     "Wang"
+    ],
+    [
+     "Keelan",
+     "Evanini"
+    ],
+    [
+     "Su-Youn",
+     "Yoon"
+    ]
+   ],
+   "title": "Word-level F0 modeling in the automated assessment of non-native read speech",
+   "original": "sl15_023",
+   "page_count": 5,
+   "order": 5,
+   "p1": "23",
+   "pn": "27",
+   "abstract": [
+    "This study investigates methods for automatically evaluating the appropriateness of F0 contours in the task of automated assessment of non-native read aloud speech. The F0 contour of a test taker’s spoken response is represented as a fixed-dimension vector with a word-level F0 value corresponding to each word in the prompt text. This vector is then correlated with gold standard vectors extracted from native speaker responses. Three different measures are used to describe the F0 contour within a word, including the mean of the F0 values, the difference between the mean values for each word and its neighboring words, and polynomial regression parameters. Additionally, features are developed based on a human expert’s annotations, in which different types of words in a reading passage are identified as prosodically more important than others. Experimental results demonstrate the effectiveness of applying the proposed features to the automated prediction of intonation and stress scores for non-native read aloud speech.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-5"
+  },
+  "walther15_slate": {
+   "authors": [
+    [
+     "Mathias",
+     "Walther"
+    ],
+    [
+     "Baldur",
+     "Neuber"
+    ],
+    [
+     "Oliver",
+     "Jokisch"
+    ],
+    [
+     "Taïeb",
+     "Mellouli"
+    ]
+   ],
+   "title": "Towards a conversational expert system for rhetorical and vocal quality assessment in call center talks",
+   "original": "sl15_029",
+   "page_count": 6,
+   "order": 6,
+   "p1": "29",
+   "pn": "34",
+   "abstract": [
+    "This article presents the concept and development steps towards a conversational expert system for rhetorical and vocal quality assessment in call center talks. At first the state of the art in quality assessment is discussed. The influencing rhetorical and vocal factors are introduced. In our novel approach, the recognition of vocal factors is modeled by competing classification systems and combined into a multi-classifier system which is based on decision trees. Finally we propose an expert system which incorporates the generated decision rules. The system accuracy can be improved by user-adapted rule sets. Furthermore solutions to the problem of inconsistent rules are discussed.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-6"
+  },
+  "chen15_slate": {
+   "authors": [
+    [
+     "Wenda",
+     "Chen"
+    ],
+    [
+     "Nancy F.",
+     "Chen"
+    ],
+    [
+     "Boon Pang",
+     "Lim"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ]
+   ],
+   "title": "Corpus-based pronunciation variation rule analysis for singapore English",
+   "original": "sl15_035",
+   "page_count": 6,
+   "order": 7,
+   "p1": "35",
+   "pn": "40",
+   "abstract": [
+    "In this paper, we evaluate a set of linguistic rules for pronunciation variations in Singapore English. We collect and annotate a speech corpus for Singapore English and label it with IPA narrow transcriptions. Data driven pronunciation rules are derived using American English (Buckeye corpus) as a reference. We compare the data driven rules with linguistic rules proposed by phoneticians, and found that some pronunciation variations observed in Singapore English are also observed in American English, but with different frequencies of occurrence. Our analysis verifies the linguistic rules previously proposed for Singapore English and demonstrates an approach to utilizing our findings to improve pronunciation feedback.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-7"
+  },
+  "gu15_slate": {
+   "authors": [
+    [
+     "Wentao",
+     "Gu"
+    ],
+    [
+     "Lei",
+     "Liu"
+    ]
+   ],
+   "title": "Declarative and interrogative Mandarin intonation by native speakers and Cantonese L2 learners",
+   "original": "sl15_041",
+   "page_count": 6,
+   "order": 8,
+   "p1": "41",
+   "pn": "46",
+   "abstract": [
+    "This study compared sentence intonation of L1 Mandarin by native speakers and L2 Mandarin by Cantonese learners, with both acoustic analysis and perceptual experiment. Three types of sentences (i.e., statement, intonation question, and particle question) ending with different tones and in different lengths were investigated. The perceptual experiment showed that declarative intonation in L2 speech was better identified than in L1 speech, which could be explained by the more prominent F0 declination in L2 speech. In contrast, interrogative intonation in L2 speech had a lower rate of identification than in L1 speech, and the differences in rate varied with the sentence-final tone. Acoustic analysis showed that global F0 raising for questions was weaker in L2 speech than in L1 speech, especially in longer sentences, while sentence-final F0 raising was relatively well maintained in L2 speech. Perceptual and acoustic studies showed consistent results on L2 intonation errors, which could be explained by the limited language abilities and language transfer effects.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-8"
+  },
+  "ren15_slate": {
+   "authors": [
+    [
+     "Jia Chen",
+     "Ren"
+    ],
+    [
+     "Mark",
+     "Hasegawa-Johnson"
+    ],
+    [
+     "Lawrence",
+     "Angrave"
+    ]
+   ],
+   "title": "Classtranscribe: a new tool with new educational opportunities for student crowdsourced college lecture transcription",
+   "original": "sl15_179",
+   "page_count": 2,
+   "order": 9,
+   "p1": "179",
+   "pn": "180",
+   "abstract": [
+    "ClassTranscribe is an open-source, web-based platform that leverages crowdsourcing to address the problem of accurate, reliable and fast transcriptions of college lectures. Completed transcriptions provide search functionality that augments existing lecture recordings and enable enhanced educational features including closed captioning.\n",
+    ""
+   ]
+  },
+  "fohr15_slate": {
+   "authors": [
+    [
+     "Dominique",
+     "Fohr"
+    ],
+    [
+     "Odile",
+     "Mella"
+    ]
+   ],
+   "title": "Detection of phone boundaries for non-native speech using French-German models",
+   "original": "sl15_181",
+   "page_count": 2,
+   "order": 10,
+   "p1": "181",
+   "pn": "182",
+   "abstract": [
+    "Within the framework of computer assisted foreign language learning for the French/German pair, we evaluate different HMM phone models for detecting accurate phone boundaries. The optimal parameters are determined by minimizing on the non-native speech corpus the number of phones whose boundaries are shifted by more than 20 ms compared to the manual boundaries. We observe that the best performance was obtained by combining a French native HMM model with an automatically selected German native HMM model.\n",
+    ""
+   ]
+  },
+  "rayner15_slate": {
+   "authors": [
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Claudia",
+     "Baur"
+    ],
+    [
+     "Pierrette",
+     "Bouillon"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Nikos",
+     "Tsourakis"
+    ]
+   ],
+   "title": "An open platform that allows non-expert users to build and deploy speech-enabled online CALL courses",
+   "original": "sl15_183",
+   "page_count": 1,
+   "order": 11,
+   "p1": "183",
+   "pn": "",
+   "abstract": [
+    "We demonstrate Open CALL-SLT, a framework which allows non-experts to design, implement and deploy online speechenabled CALL courses. The demo accompanies two long papers also appearing at the SLaTE 2015 workshop, which describe the platform in detail.\n",
+    ""
+   ]
+  },
+  "vakil15_slate": {
+   "authors": [
+    [
+     "Anjana Sofia",
+     "Vakil"
+    ]
+   ],
+   "title": "A CAPT tool for training and research on lexical stress errors in German",
+   "original": "sl15_185",
+   "page_count": 1,
+   "order": 12,
+   "p1": "185",
+   "pn": "",
+   "abstract": [
+    "This demonstration presents de-stress: the German (de) System for Training and Research on Errors in Second-language Stress. This prototype Computer- Assisted Pronunciation Training (CAPT) tool provides a variety of options for diagnosis of and feedback on lexical stress errors, and could potentially be a useful component of an intelligent CAPT system.\n",
+    ""
+   ]
+  },
+  "honig15b_slate": {
+   "authors": [
+    [
+     "Florian",
+     "Hönig"
+    ],
+    [
+     "Sebastian",
+     "Wankerl"
+    ],
+    [
+     "Anton",
+     "Batliner"
+    ],
+    [
+     "Elmar",
+     "Nöth"
+    ]
+   ],
+   "title": "Pinpointing the difference – visual comparison of non-native speaker groups",
+   "original": "sl15_187",
+   "page_count": 1,
+   "order": 13,
+   "p1": "187",
+   "pn": "",
+   "abstract": [
+    "We apply a tool originally developed for comparing pathological and healthy speakers to non-native speech. The method works on speakers who produce a given word sequence. Using time-alignment, we can display prototypical loudness contours, local tempo variations, and also spectrograms, together with information on variability and group effect size over time. The system, which will be made publicly available, is able to expose typical differences in a group of German and Italian speakers.\n",
+    ""
+   ]
+  },
+  "minematsu15_slate": {
+   "authors": [
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Hiroya",
+     "Hashimoto"
+    ],
+    [
+     "Hiroko",
+     "Hirano"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ]
+   ],
+   "title": "Development of a prosodic reading tutor of Japanese – effective use of TTS and F0 contour modeling techniques for CALL",
+   "original": "sl15_189",
+   "page_count": 1,
+   "order": 14,
+   "p1": "189",
+   "pn": "",
+   "abstract": [
+    "A text typed to a speech synthesizer is generally converted into its corresponding phoneme sequence on which various kinds of prosodic symbols are attached by a prosody prediction module. By using this module effectively, we build a prosodic reading tutor of Japanese, called Suzuki-kun, and it is provided as one function of OJAD (Online Japanese Accent Dictionary). In Suzuki-kun, by using a prosody prediction module, any Japanese text is converted into its reading (Hiragana sequence) on which the pitch pattern that sounds natural is visualized as a smooth curve drawn by the F0 contour generation process model. Further, positions of accent nuclei and unvoiced vowels are illustrated. Suzuki-kun also reads that text out following the prosodic features that are visualized. Since releasing Suzuki-kun, the number of accesses to OJAD has been drastically increased and for the last four months, OJAD received 129,168 accesses, 58.9% of which were from outside Japan.\n",
+    ""
+   ]
+  },
+  "lin15_slate": {
+   "authors": [
+    [
+     "Hui",
+     "Lin"
+    ]
+   ],
+   "title": "Massive pronunciation training via mobile applications",
+   "original": "sl15_191",
+   "page_count": 1,
+   "order": 15,
+   "p1": "191",
+   "pn": "",
+   "abstract": [
+    "In this paper, we introduce a mobile application (app) that helps people practicing their English pronunciation using mobile devices. Equipped with an embedded assessment engine, the app offers accurate pronunciation assessment and feedback to a learner instantly. Moreover, game elements and mechanics are introduced to make the training experience fun, rewarding and engaging. The app turns out be phenomenal and leads to massive pronunciation training at an unprecedented scale. Since its launch, the app has accumulated more than 20 million users. Hundreds of years of speech data are collected from more than 11 million different speakers, which is probably the largest speech corpus for Chinese spoken English in the world.\n",
+    ""
+   ]
+  },
+  "matthes15_slate": {
+   "authors": [
+    [
+     "Karina",
+     "Matthes"
+    ],
+    [
+     "Rico",
+     "Petrick"
+    ],
+    [
+     "Horst-Udo",
+     "Hain"
+    ]
+   ],
+   "title": "Lingunia world of learning",
+   "original": "sl15_193",
+   "page_count": 1,
+   "order": 16,
+   "p1": "193",
+   "pn": "",
+   "abstract": [
+    "In this paper we present a soft toy named Lingufino for preschool children that uses speech input and output for communication. It takes the child onto a journey to an adventure world: Lingunia. Based on a story that is shown in a picture book the toy explains different topics like animals, colours, numbers, seasons etc. and involves the child into the fictional situation with the help of question-and-answer games. By asking for words and facts which previously have been mentioned, the child becomes part of the adventure and – on the fly – improves it’s active vocabulary.\n",
+    ""
+   ]
+  },
+  "vakil15b_slate": {
+   "authors": [
+    [
+     "Anjana Sofia",
+     "Vakil"
+    ],
+    [
+     "Jürgen",
+     "Trouvain"
+    ]
+   ],
+   "title": "Automatic classification of lexical stress errors for German CAPT",
+   "original": "sl15_047",
+   "page_count": 6,
+   "order": 17,
+   "p1": "47",
+   "pn": "52",
+   "abstract": [
+    "Lexical stress plays an important role in the prosody of German, and presents a considerable challenge to native speakers of languages such as French who are learning German as a foreign language. These learners stand to benefit greatly from Computer-Assisted Pronunciation Training (CAPT) systems which can offer individualized corrective feedback on such errors, and reliable automatic detection of these errors is a prerequisite for developing such systems. With this motivation, this paper presents an exploration of the use of machine learning methods to classify non-native German lexical stress errors. In classification experiments using a manually-annotated corpus of German word utterances by native French speakers, the highest observed agreement between the classifier’s output and the gold-standard labels exceeded the inter-annotator agreement between humans asked to classify lexical stress errors in the same data. These results establish the viability of classification-based diagnosis of lexical stress errors for German CAPT.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-9"
+  },
+  "pellegrino15_slate": {
+   "authors": [
+    [
+     "Elisa",
+     "Pellegrino"
+    ],
+    [
+     "Debora",
+     "Vigliano"
+    ]
+   ],
+   "title": "Self-imitation in prosody training: a study on Japanese learners of Italian",
+   "original": "sl15_053",
+   "page_count": 5,
+   "order": 18,
+   "p1": "53",
+   "pn": "57",
+   "abstract": [
+    "The proficiency in a second language is fully attained only if students have learnt to modulate the rhythmic and prosodic parameters equivalent to those of the native speakers. This study is aimed to test the pedagogical effectiveness of the selfimitation technique for the purpose of developing a native-like prosodic competence. Seven intermediate Japanese learners of Italian (NNSs) and 2 native Italian speakers (NSs) were involved in a read speech activity. NSs and NNSs were asked to read and record two Italian sentences conveying three different pragmatic functions (granting, order, request). NNSs performed the task twice, before and after the self-imitation prosodic training. The items used for the training were obtained by transferring the suprasegmental features of the native speakers, used as donors, to the Japanese learners, considered as the receivers. During the training phase, Japanese learners mimic their utterances previously modified to match the prosody of the reference native speaker, and then recorded the new performance. Seventeen native Italian listeners rated pre- and post-training productions for pragmatic function and accentedness. The results indicate that selfimitation promoted an improvement in learners’ performances in terms of communicative effectiveness. Conversely, average rate of accentedness does not change significantly before and after training.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-10"
+  },
+  "gerbier15_slate": {
+   "authors": [
+    [
+     "Emilie",
+     "Gerbier"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ],
+    [
+     "Marie-Line",
+     "Bosse"
+    ]
+   ],
+   "title": "Using Karaoke to enhance reading while listening: impact on word memorization and eye movements",
+   "original": "sl15_059",
+   "page_count": 6,
+   "order": 19,
+   "p1": "59",
+   "pn": "64",
+   "abstract": [
+    "This article reports the use of a karaoke technique to drive the visual attention span (VAS) of subjects reading a text while listening to the text spelled aloud by a reading tutor. We tested the impact of computer-assisted synchronous reading (S+) that emphasizes words when they are uttered, vs. nonsynchronous reading (S-) in a reading while listening (RWL) task. Thirty-five 6th grade pupils read 12 stories, each involving one pseudoword presented four times, and each displayed in either condition. They were then unexpectedly tested on their memory for the orthography and for their acquired semantic knowledge of the pseudowords. Although no benefit was observed in the orthographic task, the synchronous condition significantly boosted the semantic memory by 10 points compared to the nonsynchronous one (28% vs. 17% correct). We also provide some preliminary analysis on the gaze data collected during reading, suggesting differences between both conditions in terms of first fixation duration, fixation position on the word and onset delay relative to the corresponding speech onset.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-11"
+  },
+  "mirzaei15_slate": {
+   "authors": [
+    [
+     "Maryam Sadat",
+     "Mirzaei"
+    ],
+    [
+     "Tatsuya",
+     "Kawahara"
+    ]
+   ],
+   "title": "ASR technology to empower partial and synchronized caption for L2 listening development",
+   "original": "sl15_065",
+   "page_count": 6,
+   "order": 20,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This study introduces a tool, partial and synchronized caption (PSC), for training second language (L2) listening skill. PSC uses an automatic speech recognition (ASR) system to realize word-level alignment between text and speech while it refers to the corpora to effectively select a subset of words for inclusion in the caption. The selection criteria are based on three features contributing to L2 listening difficulties: speech rate, word frequency and specificity. Our findings reveal that PSC in its current state leads to the same level of comprehension as the full caption condition. PSC, however, outperforms the full caption when it comes to preparing learners for listening without using any textual clues as in real-life situations. To enhance this system the incorporation of other features is a necessity. However, the relationship between these factors and their contribution to listening difficulty is complex. This study conducts a root cause analysis on the ASR errors to better understand the underlying features that make recognition difficult for such systems and compares these features with L2 listening influential factors. Our preliminary analysis revealed an interesting similarity between features leading to L2 difficulty and those resulting in ASR errors. Such insightful findings shed light on the future improvements for PSC.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-12"
+  },
+  "hu15_slate": {
+   "authors": [
+    [
+     "Wenping",
+     "Hu"
+    ],
+    [
+     "Yao",
+     "Qian"
+    ],
+    [
+     "Frank K.",
+     "Soong"
+    ]
+   ],
+   "title": "An improved DNN-based approach to mispronunciation detection and diagnosis of L2 learners’ speech",
+   "original": "sl15_071",
+   "page_count": 6,
+   "order": 21,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "We extend the Goodness of Pronunciation (GOP) algorithm from the conventional GMM-HMM to DNNHMM and further optimize the GOP measure toward L2 language learners’ accented speech. We evaluate the performance of the new proposed approach at phone-level mispronunciation detection and diagnosis on an L2 English learners’ corpus. Experimental results show that the Equal Error Rate (EER) is improved from 32.9% to 27.0% by extending GOP from GMM-HMM to DNN-HMM and the EER can be further improved by another 1.5% to 25.5% with our optimized GOP measure. For phone mispronunciation diagnosis, by applying our optimized DNN based GOP measure, the top-1 error rate is reduced from 61.0% to 51.4 %, compared with the original DNN based one, and the top-5 error rate is reduced from 8.4% to 5.2 %. On a continuously read, L2 Mandarin learners’ corpus, our approaches also achieve similar improvements.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-13"
+  },
+  "cucchiarini15_slate": {
+   "authors": [
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Mario",
+     "Ganzeboom"
+    ],
+    [
+     "Joost van",
+     "Doremalen"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Becoming literate while learning a second language – practicing reading aloud",
+   "original": "sl15_077",
+   "page_count": 6,
+   "order": 22,
+   "p1": "77",
+   "pn": "82",
+   "abstract": [
+    "The DigLin project aims at providing concrete solutions for low-literate and illiterate adults who have to learn a second language (L2). Besides learning the L2, they thus also have to acquire literacy in the L2. To allow intensive practice and feedback in reading aloud, appropriate speech technology is developed for the four targeted languages: Dutch, English, German and Finnish. Since relatively limited resources are available for this application for the four studied languages, this had to be taken into account while developing the speech technology. Exercises with suitable content were developed for the four languages, and are tested in four countries: Netherlands, United Kingdom, Germany, and Finland. Preliminary results are presented in the paper, and suggestions for future directions are discussed.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-14"
+  },
+  "rayner15b_slate": {
+   "authors": [
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Claudia",
+     "Baur"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Nikos",
+     "Tsourakis"
+    ]
+   ],
+   "title": "Supervised learning of response grammars in a spoken call system",
+   "original": "sl15_083",
+   "page_count": 6,
+   "order": 23,
+   "p1": "83",
+   "pn": "88",
+   "abstract": [
+    "We summarise experiments carried out using a system-initiative spoken CALL system, in which permitted responses to prompts are defined using a minimal formalism based on templates and regular expressions, and describe a simple structural learning algorithm that uses annotated data to update response definitions. Using 1 927 utterances of training data, we obtained a relative improvement of 20% in the system’s ability to react differentially to correct and incorrect input, measured on a previously unseen test set. The results are significant at p < 0.005.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-15"
+  },
+  "bhat15_slate": {
+   "authors": [
+    [
+     "Suma",
+     "Bhat"
+    ],
+    [
+     "Su-Youn",
+     "Yoon"
+    ],
+    [
+     "Diane",
+     "Napolitano"
+    ]
+   ],
+   "title": "Automatic detection of grammatical structures from non-native speech",
+   "original": "sl15_089",
+   "page_count": 6,
+   "order": 24,
+   "p1": "89",
+   "pn": "94",
+   "abstract": [
+    "This study focuses on the identification of grammatical structures that could serve as indices of the grammatical ability of non-native speakers of English. We obtain parse trees of manually transcribed non-native spoken responses using a statistical constituency parser and evaluate its performance on noisy sentences. We then use the parse trees to identify the grammatical structures of the Index of Productive Syntax (IPSyn), previously found useful in evaluating grammatical development in the context of native language acquisition. Empirical results of this study show: a) parsing ungrammatical sentences using a probabilistic parser suffers some degradation but is still useful for further processing; and b) automatic detection of the majority of the grammatical structures measured by IPSyn can be performed on non-native adult spoken responses with recall values more than 90 %. To the best of our knowledge, this is the first study which explores the relationship between parser performance and the automatic generation of grammatical structures in the context of second language acquisition.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-16"
+  },
+  "yang15_slate": {
+   "authors": [
+    [
+     "Seung Hee",
+     "Yang"
+    ],
+    [
+     "Minsoo",
+     "Na"
+    ],
+    [
+     "Minhwa",
+     "Chung"
+    ]
+   ],
+   "title": "Modeling pronunciation variations for non-native speech recognition of Korean produced by Chinese learners",
+   "original": "sl15_095",
+   "page_count": 5,
+   "order": 25,
+   "p1": "95",
+   "pn": "99",
+   "abstract": [
+    "Recognition accuracy for non-native speech is often too low to make practical use of ASR technology in interfaces such as CAPT systems. This paper describes how we adapted Korean ASR system to Chinese speakers for building a Korean CAPT system for L1 Mandarin Chinese learners by modeling pronunciation variations frequently produced by Chinese learners. Based on pronunciation variation rules describing substitutions, insertions, and deletions together with phonological knowledge rules realized in different phonemic contexts, the probability of occurrence of each rule is calculated. These rules are used to generate extended pronunciation lexicon. For each learner level, ASR experiment is conducted, where 21.2% relative WER reduction is obtained. This verifies that variation analysis is useful for modeling Korean produced by Chinese learners.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-17"
+  },
+  "fringi15_slate": {
+   "authors": [
+    [
+     "Eva",
+     "Fringi"
+    ],
+    [
+     "Jill Fain",
+     "Lehman"
+    ],
+    [
+     "Martin",
+     "Russell"
+    ]
+   ],
+   "title": "Analysis of phone errors in computer recognition of children’s speech",
+   "original": "sl15_101",
+   "page_count": 5,
+   "order": 26,
+   "p1": "101",
+   "pn": "105",
+   "abstract": [
+    "Automatic speech recognition (ASR) for children’s speech is more difficult than for adults’ speech. This paper explores two explanations of this phenomenon, namely (A) that it is due to predictable phonological effects associated with language acquisition in children, or (B) that it is due to the general increase in acoustic variability that has been observed in children’s speech. Phone recognition experiments are conducted on hand labelled data for children aged between 5 and 6. A statistical comparison of the resulting confusion matrix with that for adult speech (TIMIT) shows significant increases in phone substitution rates for children, some of which correspond to established phonological phenomena (type A errors). However these only account for a small proportion of errors, and those associated with general acoustic variability (type B) appear to account for the majority. The study also shows significantly more deletion errors in ASR for children’s speech. Overall, the results suggest that attempts to improve ASR accuracy for children’s speech by accommodating phonological phenomena associated with language acquisition, for example by changing the pronunciation dictionary, are unlikely to deliver significant success in the short term, and that coping with the increased acoustic variability in children’s speech should be the immediate priority.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-18"
+  },
+  "jouvet15_slate": {
+   "authors": [
+    [
+     "Denis",
+     "Jouvet"
+    ],
+    [
+     "Anne",
+     "Bonneau"
+    ],
+    [
+     "Jürgen",
+     "Trouvain"
+    ],
+    [
+     "Frank",
+     "Zimmerer"
+    ],
+    [
+     "Yves",
+     "Laprie"
+    ],
+    [
+     "Bernd",
+     "Möbius"
+    ]
+   ],
+   "title": "Analysis of phone confusion matrices in a manually annotated French-German learner corpus",
+   "original": "sl15_107",
+   "page_count": 6,
+   "order": 27,
+   "p1": "107",
+   "pn": "112",
+   "abstract": [
+    "This paper presents an analysis of the non-native and native pronunciations observed in a phonetically annotated bilingual French-German corpus. After a forced-choice automatic annotation a large part of the corpus was checked and corrected manually on the phone level which allows a detailed comparison of the realized sounds with the expected sounds. The analysis is reported in terms of phone confusion matrices for selected error-prone classes of sounds. It revealed that German learners of French have most problems with obstruents in word-final position whereas French learners of German show complex interferences with the vowel contrasts for length and quality. Finally, the correct pronunciation rate of the sounds, for several phonetic classes, is analyzed with respect to the learner’s level, and compared to native pronunciations. One outcome is that different sound classes show different correct rates over the proficiency levels. For the German data the frequently occurring syllabic [=n] is a prime indicator of the proficiency level.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-19"
+  },
+  "rayner15c_slate": {
+   "authors": [
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Claudia",
+     "Baur"
+    ],
+    [
+     "Pierrette",
+     "Bouillon"
+    ],
+    [
+     "Cathy",
+     "Chua"
+    ],
+    [
+     "Nikos",
+     "Tsourakis"
+    ]
+   ],
+   "title": "Helping non-expert users develop online spoken CALL courses",
+   "original": "sl15_113",
+   "page_count": 6,
+   "order": 28,
+   "p1": "113",
+   "pn": "118",
+   "abstract": [
+    "We introduce Open CALL-SLT, a Web 2.0 framework which allows non-experts to design, implement and deploy online speech-enabled CALL courses. Course functionality is divided into six increasingly sophisticated levels; the lowest levels assume only basic web-literacy, while the higher ones require some acquaintance with simple software concepts like regular expressions and XML. We describe the different levels of functionality and the deployment process, which permits multiple developers to compile and run courses on a set of shared servers. The framework has recently been opened up for alpha testing, and we briefly summarize early experiences.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-20"
+  },
+  "li15_slate": {
+   "authors": [
+    [
+     "Kun",
+     "Li"
+    ],
+    [
+     "Xiaojun",
+     "Qian"
+    ],
+    [
+     "Shiying",
+     "Kang"
+    ],
+    [
+     "Pengfei",
+     "Liu"
+    ],
+    [
+     "Helen",
+     "Meng"
+    ]
+   ],
+   "title": "Integrating acoustic and state-transition models for free phone recognition in L2 English speech using multi-distribution deep neural networks",
+   "original": "sl15_119",
+   "page_count": 6,
+   "order": 29,
+   "p1": "119",
+   "pn": "124",
+   "abstract": [
+    "This paper investigates the use of Multi-Distribution Deep Neural Networks (MD-DNNs) for integrating acoustic and statetransition models in free phone recognition of L2 English speech. In Computer- Aided Pronunciation Training (CAPT) system, free phone recognition for L2 English speech is the key model of Mispronunciation Detection and Diagnosis (MDD) in the cases of allowing freely speaking. A simple Automatic Speech Recognition (ASR) system can be approached with an Acoustic Model (AM) and a State-Transition Model (STM). Generally, these two models are trained independently, hence contextual information maybe lost. Inspired by the AcousticPhonological Model, which achieves greatly improvements by integrating the AM and Phonological Model (PM) in MDD for the cases that L2 learners practice their English by following the prompts, we propose a joint Acoustic-State- Transition Model (ASTM) which uses a MD-DNN to integrate the AM and STM. Preliminary experiments with basic parameter configurations show that the ASTM obtains a phone accuracy of about 68% on the TIMIT data. It is better than the system of using separate AM and STM, whose accuracy is only about 52 %. Further finetuning the ASTM achieves an accuracy of about 72% on the TIMIT data. Similar performance is obtained if we train and test the ASTM on our L2 English speech corpus (CU-CHLOE).\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-21"
+  },
+  "escuderomancebo15_slate": {
+   "authors": [
+    [
+     "David",
+     "Escudero Mancebo"
+    ],
+    [
+     "Enrique",
+     "Cámara Arenas"
+    ],
+    [
+     "Cristian",
+     "Tejedor García"
+    ],
+    [
+     "César",
+     "González Ferreras"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso Payo"
+    ]
+   ],
+   "title": "Implementation and test of a serious game based on minimal pairs for pronunciation training",
+   "original": "sl15_125",
+   "page_count": 6,
+   "order": 30,
+   "p1": "125",
+   "pn": "130",
+   "abstract": [
+    "This paper introduces the architecture and interface of a serious game intended for pronunciation training and assessment for Spanish students of English as second language. Users will confront a challenge consisting in the pronunciation of a minimal-pair word battery. Android ASR and TTS tools will prove useful in discerning three different pronunciation proficiency levels, ranging from basic to native. Results also provide evidence of the weaknesses and limitations of present-day technologies. These must be taken into account when defining game dynamics for pedagogical purposes.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-22"
+  },
+  "wolfe15_slate": {
+   "authors": [
+    [
+     "Nikolas",
+     "Wolfe"
+    ],
+    [
+     "Juneki",
+     "Hong"
+    ],
+    [
+     "Agha Ali",
+     "Raza"
+    ],
+    [
+     "Bhiksha",
+     "Raj"
+    ],
+    [
+     "Roni",
+     "Rosenfeld"
+    ]
+   ],
+   "title": "Rapid development of public health education systems in low-literacy multilingual environments: combating ebola through voice messaging",
+   "original": "sl15_131",
+   "page_count": 6,
+   "order": 31,
+   "p1": "131",
+   "pn": "136",
+   "abstract": [
+    "One of the main challenges in combating the spread of the Ebola outbreak in West Africa is a lack of effective public health education among affected populations in Guinea, Sierra Leone, and Liberia. Difficulties include resistance to official sources of information, mistrust of government, cultural norms, linguistic barriers, and illiteracy. In this paper we describe the development and initial deployment of a voice-based, multilingual mobile phone application to spread reliable public health information about Ebola via peer-to-peer sharing. Our hypothesis is that we can overcome mistrust and disseminate important health information via the power of social learning and suggestion from friends, family, and local communities. In collaboration with partners on the ground in Conakry, Guinea, we have launched two parallel mobile phone services known as Polly Game and Polly Health to enable message sharing in several Guinean languages. We discuss a variety of strategies we have tried to encourage the spread of the application and data on uptake to date.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-23"
+  },
+  "strik15_slate": {
+   "authors": [
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "Luigi",
+     "Palumbo"
+    ],
+    [
+     "Febe de",
+     "Wet"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ]
+   ],
+   "title": "Web-based mini-games for language learning that support spoken interaction",
+   "original": "sl15_137",
+   "page_count": 6,
+   "order": 32,
+   "p1": "137",
+   "pn": "142",
+   "abstract": [
+    "The European ‘Lifelong Learning Programme’ (LLP) project ‘Games Online for Basic Language learning’ (GOBL) aimed to provide youths and adults wishing to improve their basic language skills access to materials for the development of communicative proficiency in Dutch, French, and English through webbased mini-games. These mini-games were tested in four countries: The Netherlands (Dutch), Belgium (French), United Kingdom and South-Africa (English). Four types of mini-games were developed, and in two of them users can use ‘automatic speech recognition’ (ASR) to support spoken interaction. In the current paper we will focus on the English versions of these two games that were tested in the United Kingdom and South-Africa. The analyses that are presented in this paper were conducted to determine what users’ perceptions are about mini-games with and without speech input and ASR and which aspects of the speech-enhanced games are strongly related to each other.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-24"
+  },
+  "mella15_slate": {
+   "authors": [
+    [
+     "Odile",
+     "Mella"
+    ],
+    [
+     "Dominique",
+     "Fohr"
+    ],
+    [
+     "Anne",
+     "Bonneau"
+    ]
+   ],
+   "title": "Inter-annotator agreement for a speech corpus pronounced by French and German language learners",
+   "original": "sl15_143",
+   "page_count": 5,
+   "order": 33,
+   "p1": "143",
+   "pn": "147",
+   "abstract": [
+    "This paper presents the results of an investigation of interannotator agreement for the non-native and native French part of the IFCASL corpus. This large bilingual speech corpus for French and German language learners was manually annotated by several annotators. This manual annotation is the starting point which will be used both to improve the automatic segmentation algorithms and derive diagnosis and feedback. The agreement is evaluated by comparing the manual alignments of seven annotators to the manual alignment of an expert, for 18 sentences. Whereas results for the presence of the devoicing diacritic show a certain degree of disagreement between the annotators and the expert, there is a very good consistency between annotators and the expert for temporal boundaries as well as insertions and deletions. We find a good overall agreement for boundaries between annotators and expert with a mean deviation of 7.6 ms and 93% of boundaries within 20 ms.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-25"
+  },
+  "nichiarain15_slate": {
+   "authors": [
+    [
+     "Neasa",
+     "Ní Chiaráin"
+    ],
+    [
+     "Ailbhe",
+     "Ní Chasaide"
+    ]
+   ],
+   "title": "Evaluating synthetic speech in an Irish CALL application: influences of predisposition and of the holistic environment",
+   "original": "sl15_149",
+   "page_count": 6,
+   "order": 34,
+   "p1": "149",
+   "pn": "154",
+   "abstract": [
+    "This paper reports an evaluation of Irish synthetic voices in the context of a virtual reality CALL application. In addition to eliciting subjects’ ratings of the synthetic voices, the evaluation focusses particularly on (1) the extent to which prior attitudes to synthetic voices affected users’ satisfaction ratings and (2) the extent to which reactions to the synthetic voices were influenced by users’ engagement with the other (non-speech) dimensions of the CALL application. The particular application, Fáilte go TCD, was developed specifically for this purpose and uses virtual reality scenes where the animated characters converse in Irish (synthetic voices). Evaluations were carried out using Likert scale-based questionnaires. Results showed broadly positive ratings of the Irish synthetic voices in terms of intelligibility, quality and naturalness. They further indicate that (1) users’ prior attitudes towards synthetic speech had a major influence on their reaction to the CALL application and (2) satisfaction levels with the synthetic voices are highly correlated with the rating accorded to other, non-speech dimensions of the platform, suggesting that the different aspects are judged in a holistic way.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-26"
+  },
+  "li15b_slate": {
+   "authors": [
+    [
+     "Shang-Wen",
+     "Li"
+    ],
+    [
+     "Victor",
+     "Zue"
+    ]
+   ],
+   "title": "Linking MOOC courseware to accommodate diverse learner backgrounds",
+   "original": "sl15_155",
+   "page_count": 6,
+   "order": 35,
+   "p1": "155",
+   "pn": "160",
+   "abstract": [
+    "Massive Open Online Courses (MOOCs) brings great opportunities to millions of learners. However, the size of the learner population and the heterogeneity of the learners’ backgrounds make conventional one-size-fits-all pedagogy insufficient. For example, learners lacking in prior knowledge may struggle with different concepts. In this paper, we propose a framework - educational content linking, to address the challenges. By linking and organizing scattered educational materials for a given MOOC into an easily accessible structure, this framework can provide guidance and recommendation of these contents, as well as improve navigation. Thus, learners can select appropriate supporting materials to suit their individualized needs and achieve self-exploring remediation. This paper describes an end-to-end case study, which found that learners, especially novices, can search learning materials faster without sacrificing accuracy, and can retain concepts more readily with our proposed approach. We have also obtained encouraging preliminary results that suggest that content linking can be achieved automatically using human language technology and stochastic modeling techniques.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-27"
+  },
+  "alharbi15_slate": {
+   "authors": [
+    [
+     "Ghada",
+     "Alharbi"
+    ],
+    [
+     "Raymond W. M.",
+     "Ng"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "Annotating meta-discourse in academic lectures from different disciplines",
+   "original": "sl15_161",
+   "page_count": 6,
+   "order": 36,
+   "p1": "161",
+   "pn": "166",
+   "abstract": [
+    "The use of discourse structure was shown to be effective in various applications. Meta-discourse is often used as an expression to signal discourse structure. Previous work focused on using the meta-discourse structure in written texts, or spoken material in very clean conditions. This paper presents a metadiscourse annotated corpus in a more challenging educational context. The corpus comprises of academic lectures from two different disciplines: physics and economics. The schema used focuses on five categories: Introduction, Conclusion, Previewing, Reviewing and Enumerating. The annotation task is described in detail, including instructions and strategies used by expert annotators. Annotation results are reported in terms of inter-annotator agreement, self-reported confidence and number of occurrences. Results show that meta-discourse is frequently used in academic lectures and this is observed in the two selected disciplines. Further analysis of the corpus is conducted showing that some of these categories, namely Introduction and Previewing, are correlated with labelled topic boundaries, which is also consistent in both disciplines. This finding shows the potential for using meta-discourse information in topic segmentation task.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-28"
+  },
+  "berkling15_slate": {
+   "authors": [
+    [
+     "Kay",
+     "Berkling"
+    ],
+    [
+     "Nadine",
+     "Pflaumer"
+    ],
+    [
+     "Rémi",
+     "Lavalley"
+    ]
+   ],
+   "title": "German phonics game using speech synthesis – a longitudinal study about the effect on orthography skills",
+   "original": "sl15_167",
+   "page_count": 6,
+   "order": 37,
+   "p1": "167",
+   "pn": "172",
+   "abstract": [
+    "Acquisition of orthography is an important problem in German elementary schools. Today, few, if any, schoolbooks can claim to use knowledge of the deep syllable structure of German and its patterns for explicit orthography instruction. To fill this gap, a game described here allows children to explore the complete complexity of the German syllable patterns in analogy to phonics instruction used for English. The game is deployed on iPad and uses the Apple speech synthesis to allow children to listen to all possible letter combinations for legal German syllable structures. Through the explicit teaching of contextual Grapheme-Sound interaction, children are expected to generalize to new words in their writings that are automatically evaluated using speech technology. In the study presented here, 16 children participated in a weekly after-school session of one hour to play the German phonics game. The difference in achievement between the students and their control group were noticeably reduced by the end of the study.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-29"
+  },
+  "wet15_slate": {
+   "authors": [
+    [
+     "Febe de",
+     "Wet"
+    ],
+    [
+     "Laurette",
+     "Marais"
+    ],
+    [
+     "Daleen",
+     "Klop"
+    ]
+   ],
+   "title": "Text-to-speech enhanced ebooks for emerging literacy development",
+   "original": "sl15_173",
+   "page_count": 5,
+   "order": 38,
+   "p1": "173",
+   "pn": "177",
+   "abstract": [
+    "The purpose of this study was to measure the efficacy of an eBook to improve the vocabulary and word recognition skills in an Afrikaans speaking group of lower socio-economic status of 6- to 7-year old children with poor vocabulary. The main goals were to investigate if exposure to an interactive eBook would result in the acquisition of new vocabulary and sight word reading in the study participants. A randomised pre-test/post-test between-subjects design was used. An experimental group that received an intervention was compared to a control group before the control group received a delayed intervention. Both groups were reassessed, eight weeks after the interventions to assess the retention of their newly acquired skills. Results show a significant improvement in recognition and vocabulary skills in the experimental group compared to their initial assessments, as well as compared to the control group.\n",
+    ""
+   ],
+   "doi": "10.21437/SLaTE.2015-30"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Automatic Assessment",
+   "papers": [
+    "honig15_slate",
+    "dalen15_slate",
+    "hassanali15_slate",
+    "pongkittiphan15_slate",
+    "wang15_slate"
+   ]
+  },
+  {
+   "title": "From Pronunciation to Conversation",
+   "papers": [
+    "walther15_slate",
+    "chen15_slate",
+    "gu15_slate",
+    "ren15_slate",
+    "fohr15_slate"
+   ]
+  },
+  {
+   "title": "Demo Session",
+   "papers": [
+    "rayner15_slate",
+    "vakil15_slate",
+    "honig15b_slate",
+    "minematsu15_slate",
+    "lin15_slate",
+    "matthes15_slate"
+   ]
+  },
+  {
+   "title": "Assessment and Practice",
+   "papers": [
+    "vakil15b_slate",
+    "pellegrino15_slate",
+    "gerbier15_slate",
+    "mirzaei15_slate",
+    "hu15_slate"
+   ]
+  },
+  {
+   "title": "Grammar",
+   "papers": [
+    "cucchiarini15_slate",
+    "rayner15b_slate",
+    "bhat15_slate"
+   ]
+  },
+  {
+   "title": "Pronunciation Analysis",
+   "papers": [
+    "yang15_slate",
+    "fringi15_slate",
+    "jouvet15_slate"
+   ]
+  },
+  {
+   "title": "From Phones to Serious Games",
+   "papers": [
+    "rayner15c_slate",
+    "li15_slate",
+    "escuderomancebo15_slate",
+    "wolfe15_slate",
+    "strik15_slate",
+    "mella15_slate",
+    "nichiarain15_slate",
+    "li15b_slate"
+   ]
+  },
+  {
+   "title": "Text",
+   "papers": [
+    "alharbi15_slate",
+    "berkling15_slate",
+    "wet15_slate"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLaTE.2015"
+}

@@ -1,0 +1,1326 @@
+{
+ "title": "9th ISCA Workshop on Speech Synthesis Workshop (SSW 9)",
+ "location": "Sunnyvale, USA",
+ "startDate": "13/09/2016",
+ "endDate": "15/09/2016",
+ "URL": "http://ssw9.talp.cat",
+ "chair": "Chair: Alan W. Black",
+ "conf": "SSW",
+ "year": "2016",
+ "name": "ssw_2016",
+ "series": "SSW",
+ "SIG": "SynSIG",
+ "title1": "9th ISCA Workshop on Speech Synthesis Workshop",
+ "title2": "(SSW 9)",
+ "date": "13-15 September 2016",
+ "booklet": "ssw_2016.pdf",
+ "papers": {
+  "lazaridis16_ssw": {
+   "authors": [
+    [
+     "Alexandros",
+     "Lazaridis"
+    ],
+    [
+     "Milos",
+     "Cernak"
+    ],
+    [
+     "Pierre-Edouard",
+     "Honnet"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Investigating Spectral Amplitude Modulation Phase Hierarchy Features in Speech Synthesis",
+   "original": "6",
+   "page_count": 6,
+   "order": 7,
+   "p1": 32,
+   "pn": 37,
+   "abstract": [
+    "In our recent work, a novel speech synthesis with enhanced prosody (SSEP) system using probabilistic amplitude demodulation (PAD) features was introduced. These features were used to improve prosody in speech synthesis. The PAD was applied iteratively for generating syllable and stress amplitude modulations in a cascade manner. The PAD features were used as a secondary input scheme along with the standard text-based input features in deep neural network (DNN) speech synthesis. Objective and subjective evaluation validated the improvement of the quality of the synthesized speech. In this paper, a spectral amplitude modulation phase hierarchy (S-AMPH) technique is used in a similar to the PAD speech synthesis scheme, way. Instead of the two modulations used in PAD case, three modulations, i.e., stress-, syllable- and phoneme-level ones (2, 5 and 20 Hz respectively) are implemented with the S-AMPH model. The objective evaluation has shown that the proposed system using the S-AMPH features improved synthetic speech quality in respect to the system using the PAD features; in terms of relative reduction in mel-cepstral distortion (MCD) by approximately 9% and in terms of relative reduction in root mean square error (RMSE) of the fundamental frequency (F0) by approximately 25%. Multi-task training is also investigated in this work, giving no statistically significant improvements.\n"
+   ],
+   "doi": "10.21437/SSW.2016-6"
+  },
+  "shechtman16_ssw": {
+   "authors": [
+    [
+     "Slava",
+     "Shechtman"
+    ],
+    [
+     "Alex",
+     "Sorin"
+    ]
+   ],
+   "title": "Wideband Harmonic Model: Alignment and Noise Modeling for High Quality Speech Synthesis",
+   "original": "37",
+   "page_count": 6,
+   "order": 45,
+   "p1": 229,
+   "pn": 234,
+   "abstract": [
+    "Speech sinusoidal modeling has been successfully applied to a broad range of speech analysis, synthesis and modification tasks. However, developing a high fidelity full band sinusoidal model that preserves its high quality on speech transformation still remains an open research problem. Such a system can be extremely useful for high quality speech synthesis. In this paper we present an enhanced harmonic model representation for voiced/mixed wide band speech that is capable of high quality speech reconstruction and transformation in the parametric domain. Two key elements of the proposed model are a proper phase alignment and a decomposition of a speech frame to \"deterministic\" and dense \"stochastic\" harmonic model representations that can be separately manipulated. The coupling of stochastic harmonic representation with the deterministic one is performed by means of intra-frame periodic energy envelope, estimated at analysis time and preserved during original/transformed speech reconstruction. In addition, we present a compact representation of the stochastic harmonic component, so that the proposed model has less parameters than the regular full band harmonic model, with better Signal to Reconstruction Error performance. On top of that, the improved phase alignment of the proposed model provides better phase coherency in transformed speech, resulting in better quality of speech transformations. We demonstrate the subjective and objective performance of the new model on speech reconstruction and pitch modification tasks. Performance of the proposed model within unit selection TTS is also presented.\n"
+   ],
+   "doi": "10.21437/SSW.2016-37"
+  },
+  "elyasilangarani16_ssw": {
+   "authors": [
+    [
+     "Mahsa Sadat",
+     "Elyasi Langarani"
+    ],
+    [
+     "Jan",
+     "van Santen"
+    ]
+   ],
+   "title": "Automatic, model-based detection of pause-less phrase boundaries from fundamental frequency and duration features",
+   "original": "1",
+   "page_count": 6,
+   "order": 2,
+   "p1": 1,
+   "pn": 6,
+   "abstract": [
+    "Prosodic phrase boundaries (PBs) are a key aspect of spoken communication. In automatic PB detection, it is common to use local acoustic features, textual features, or a combination of both. Most approaches – regardless of features used – succeed in detecting major PBs (break score “4” in ToBI annotation, typically involving a pause) while detection of intermediate PBs (break score “3” in ToBI annotation) is still challenging. In this study we investigate the detection of intermediate, “pauseless” PBs using prosodic models, using a new corpus characterized by strong prosodic dynamics and an existing (CMU) corpus. We show how using duration and fundamental frequency modeling can improve detection of these PBs, as measured by the F1 score, compared to Festival, which only uses textual features to detect PBs. We believe that this study contributes to our understanding of the prosody of phrase breaks.\n"
+   ],
+   "doi": "10.21437/SSW.2016-1"
+  },
+  "zhang16_ssw": {
+   "authors": [
+    [
+     "Zhengchen",
+     "Zhang"
+    ],
+    [
+     "Fuxiang",
+     "Wu"
+    ],
+    [
+     "Chenyu",
+     "Yang"
+    ],
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Fugen",
+     "Zhou"
+    ]
+   ],
+   "title": "Mandarin Prosodic Phrase Prediction based on Syntactic Trees",
+   "original": "26",
+   "page_count": 6,
+   "order": 33,
+   "p1": 160,
+   "pn": 165,
+   "abstract": [
+    "Prosodic phrases (PPs) are important for Mandarin Text-To-Speech systems. Most of the existing PP detection methods need large manually annotated corpora to learn the models. In this paper, we propose a rule based method to predict the PP boundaries employing the syntactic information of a sentence. The method is based on the observation that a prosodic phrase is a meaningful segment of a sentence with length restrictions. A syntactic structure allows to segment a sentence according to grammars. We add some length restrictions to the segmentations to predict the PP boundaries. An F-Score of 0.693 was obtained in the experiments, which is about 0.02 higher than the one got by a Conditional Random Field based method.\n"
+   ],
+   "doi": "10.21437/SSW.2016-26"
+  },
+  "kawahara16_ssw": {
+   "authors": [
+    [
+     "Hideki",
+     "Kawahara"
+    ],
+    [
+     "Yannis",
+     "Agiomyrgiannakis"
+    ],
+    [
+     "Heiga",
+     "Zen"
+    ]
+   ],
+   "title": "Using instantaneous frequency and aperiodicity detection to estimate F0 for high-quality speech synthesis",
+   "original": "36",
+   "page_count": 8,
+   "order": 44,
+   "p1": 221,
+   "pn": 228,
+   "abstract": [
+    "This paper introduces a general and flexible framework for F0 and aperiodicity (additive non periodic component) analysis, specifically intended for high-quality speech synthesis and modification applications. The proposed framework consists of three subsystems: instantaneous frequency estimator and initial aperiodicity detector, F0 trajectory tracker, and F0 refinement and aperiodicity extractor. A preliminary implementation of the proposed framework substantially outperformed (by a factor of 10 in terms of RMS F0 estimation error) existing F0 extractors in tracking ability of temporally varying F0 trajectories. The front end aperiodicity detector consists of a complex-valued wavelet analysis filter with a highly selective temporal and spectral envelope. This front end aperiodicity detector uses a new measure that quantifies the deviation from periodicity. The measure is less sensitive to slow FM and AM and closely correlates with the signal to noise ratio. The front end combines instantaneous frequency information over a set of filter outputs using the measure to yield an observation probability map. The second stage generates the initial F0 trajectory using this map and signal power information. The final stage uses the deviation measure of each harmonic component and F0 adaptive time warping to refine the F0 estimate and aperiodicity estimation. The proposed framework is flexible to integrate other sources of instantaneous frequency when they provide relevant information.\n"
+   ],
+   "doi": "10.21437/SSW.2016-36"
+  },
+  "achanta16_ssw": {
+   "authors": [
+    [
+     "Sivanand",
+     "Achanta"
+    ],
+    [
+     "Rambabu",
+     "Banoth"
+    ],
+    [
+     "Ayushi",
+     "Pandey"
+    ],
+    [
+     "Anandaswarup",
+     "Vadapalli"
+    ],
+    [
+     "Suryakanth V",
+     "Gangashetty"
+    ]
+   ],
+   "title": "Contextual Representation using Recurrent Neural Network Hidden State for Statistical Parametric Speech Synthesis",
+   "original": "28",
+   "page_count": 6,
+   "order": 35,
+   "p1": 172,
+   "pn": 177,
+   "abstract": [
+    "In this paper, we propose to use hidden state vector obtained from recurrent neural network (RNN) as a context vector representation for deep neural network (DNN) based statistical parametric speech synthesis. While in a typical DNN based system, there is a hierarchy of text features from phone level to utterance level, they are usually in 1-hot-k encoded representation. Our hypothesis is that, supplementing the conventional text features with a continuous frame-level acoustically guided representation would improve the acoustic modeling. The hidden state from an RNN trained to predict acoustic features is used as the additional contextual information. A dataset consisting of 2 Indian languages (Telugu and Hindi) from Blizzard challenge 2015 was used in our experiments. Both the subjective listening tests and the objective scores indicate that the proposed approach performs significantly better than the baseline DNN system.\n"
+   ],
+   "doi": "10.21437/SSW.2016-28"
+  },
+  "wester16_ssw": {
+   "authors": [
+    [
+     "Mirjam",
+     "Wester"
+    ],
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Multidimensional scaling of systems in the Voice Conversion Challenge 2016",
+   "original": "7",
+   "page_count": 6,
+   "order": 8,
+   "p1": 38,
+   "pn": 43,
+   "abstract": [
+    "This study investigates how listeners judge the similarity of voice converted voices using a talker discrimination task. The data used is from the Voice Conversion Challenge 2016. 17 participants from around the world took part in building voice converted voices from a shared data set of source and target speakers. This paper describes the evaluation of similarity for four of the source-target pairs (two intra-gender and two cross-gender) in more detail. Multidimensional scaling was performed to illustrate where each system was perceived to be in an acoustic space compared to the source and target speakers and to each other.\n"
+   ],
+   "doi": "10.21437/SSW.2016-7"
+  },
+  "pucher16_ssw": {
+   "authors": [
+    [
+     "Michael",
+     "Pucher"
+    ],
+    [
+     "Fernando",
+     "Villavicencio"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Development of a statistical parametric synthesis system for operatic singing in German",
+   "original": "11",
+   "page_count": 6,
+   "order": 12,
+   "p1": 64,
+   "pn": 69,
+   "abstract": [
+    "In this paper we describe the development of a Hidden Markov Model (HMM) based synthesis system for operatic singing in German, which is an extension of the HMM-based synthesis system for popular songs in Japanese and English called “Sinsy”. The implementation of this system consists of German text analysis, lexicon and Letter-To-Sound (LTS) conversion, and syllable duplication, which enables us to convert a German MusicXML input into context-dependent labels for acoustic modelling. Using the front-end, we develop two operatic singing voices, female mezzo-soprano and male bass voices, based on our new database, which consists of singing data of professional opera singers based in Vienna. We describe the details of the database and the recording procedure that is used to acquire singing data of four opera singers in German. For HMM training, we adopt a singer (speaker)-dependent training procedure. For duration modelling we propose a simple method that hierarchically constrains note durations by the overall utterance duration and then constrains phone durations by the synthesised note duration. We evaluate the performance of the voices with two vibrato modelling methods that have been proposed in the literature and show that HMM-based vibrato modelling can improve the overall quality.\n"
+   ],
+   "doi": "10.21437/SSW.2016-11"
+  },
+  "huang16_ssw": {
+   "authors": [
+    [
+     "Dong-Yan",
+     "Huang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Yvonne Siu Wa",
+     "Lee"
+    ],
+    [
+     "Jie",
+     "Wu"
+    ],
+    [
+     "Huaiping",
+     "Ming"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Shaofei",
+     "Zhang"
+    ],
+    [
+     "Chuang",
+     "Ding"
+    ],
+    [
+     "Mei",
+     "Li"
+    ],
+    [
+     "Quy Hy",
+     "Nguyen"
+    ],
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Haizhou",
+     "LI"
+    ]
+   ],
+   "title": "An Automatic Voice Conversion Evaluation Strategy Based on Perceptual Background Noise Distortion and Speaker Similarity",
+   "original": "8",
+   "page_count": 8,
+   "order": 9,
+   "p1": 44,
+   "pn": 51,
+   "abstract": [
+    "Voice conversion aims to modify the characteristics of one speaker to make it sound like spoken by another speaker without changing the language content. This task has attracted considerable attention and various approaches have been proposed since two decades ago. The evaluation of voice conversion approaches, usually through time-intensive subject listening tests, requires a huge amount of human labor. This paper proposes an automatic voice conversion evaluation strategy based on perceptual background noise distortion and speaker similarity. Experimental results show that our automatic evaluation results match the subjective listening results quite well. We further use our strategy to select best converted samples from multiple voice conversion systems and our submission achieves promising results in the voice conversion challenge (VCC2016).\n"
+   ],
+   "doi": "10.21437/SSW.2016-8"
+  },
+  "sitaram16_ssw": {
+   "authors": [
+    [
+     "Sunayana",
+     "Sitaram"
+    ],
+    [
+     "Sai Krishna",
+     "Rallabandi"
+    ],
+    [
+     "Shruti",
+     "Rijhwani"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Experiments with Cross-lingual Systems for Synthesis of Code-Mixed Text",
+   "original": "13",
+   "page_count": 6,
+   "order": 14,
+   "p1": 76,
+   "pn": 81,
+   "abstract": [
+    "Most Text to Speech (TTS) systems today assume that the input is in a single language written in its native script, which is the language that the TTS database is recorded in. However, due to the rise in conversational data available from social media, phenomena such as code-mixing, in which multiple languages are used together in the same conversation or sentence are now seen in text. TTS systems capable of synthesizing such text need to be able to handle multiple languages at the same time, and may also need to deal with noisy input. Previously, we proposed a framework to synthesize code-mixed text by using a TTS database in a single language, identifying the language that each word was from, normalizing spellings of a language written in a non-standardized script and mapping the phonetic space of mixed language to the language that the TTS database was recorded in. We extend this cross-lingual approach to more language pairs, and improve upon our language identification technique. We conduct listening tests to determine which of the two languages being mixed should be used as the target language. We perform experiments for code-mixed Hindi-English and German-English and conduct listening tests with bilingual speakers of these languages. From our subjective experiments we find that listeners have a strong preference for cross-lingual systems with Hindi as the target language for code-mixed Hindi and English text. We also find that listeners prefer cross-lingual systems in English that can synthesize German text for codemixed German and English text.\n"
+   ],
+   "doi": "10.21437/SSW.2016-13"
+  },
+  "hamada16_ssw": {
+   "authors": [
+    [
+     "Yasuhiro",
+     "Hamada"
+    ],
+    [
+     "Nobutaka",
+     "Ono"
+    ],
+    [
+     "Shigeki",
+     "Sagayama"
+    ]
+   ],
+   "title": "Non-filter waveform generation from cepstrum using spectral phase reconstruction",
+   "original": "5",
+   "page_count": 5,
+   "order": 6,
+   "p1": 27,
+   "pn": 31,
+   "abstract": [
+    "This paper discusses non-filter waveform generation from cepstral features using spectral phase reconstruction as an alternative method to replace the conventional source-filter model in text-to-speech (TTS) systems. As the primary purpose of the use of filters is considered as producing a waveform from the desired spectrum shape, one possible alternative of the sourcefilter framework is to directly convert the designed spectrum into a waveform by utilizing a recently developed “ phase reconstruction ”from the power spectrogram. Given cepstral features and fundamental frequency (F0 ) as desired spectrum from a TTS system, the spectrum to be heard by the listener is calculated by converting the cepstral features into a linear-scale power spectrum and multiplying with the pitch structure of F0 . The signal waveform is generated from the power spectrogram by spectral phase reconstruction. An advantageous property of the proposed method is that it is free from undesired amplitude and long time decay often caused by sharp resonances in recursive filters. In preliminary experiments, we compared temporal and gain characteristics of the synthesized speech using the proposed method and mel-log spectrum approximation (MLSA) filter. Results show the proposed method performed better than the MLSA filter in the both characteristics of the synthesized speech, and imply a desirable properties of the proposed method for speech synthesis.\n"
+   ],
+   "doi": "10.21437/SSW.2016-5"
+  },
+  "wang16_ssw": {
+   "authors": [
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Investigating Very Deep Highway Networks for Parametric Speech Synthesis",
+   "original": "27",
+   "page_count": 6,
+   "order": 34,
+   "p1": 166,
+   "pn": 171,
+   "abstract": [
+    "The depth of the neural network is a vital factor that affects its performance. Recently a new architecture called highway network was proposed. This network facilitates the training process of a very deep neural network by using gate units to control a information highway over the conventional hidden layer. For the speech synthesis task, we investigate the performance of highway networks with up to 40 hidden layers. The results suggest that a highway network with 14 non-linear transformation layers is the best choice on our speech corpus and this highway network achieves better performance than a feed-forward network with 14 hidden layers. On the basis of these results, we further investigate a multi-stream highway network where separate highway networks are used to predict different kinds of acoustic features such as the spectral and F0 features. Results of the experiments suggest that the multi-stream highway network can achieve better objective results than the single network that predicts all the acoustic features. Analysis on the output of highway gate units also supports the assumption for the multi-stream network that different hidden representation may be necessary to predict spectral and F0 features.\n"
+   ],
+   "doi": "10.21437/SSW.2016-27"
+  },
+  "ronanki16_ssw": {
+   "authors": [
+    [
+     "Srikanth",
+     "Ronanki"
+    ],
+    [
+     "Siva",
+     "Reddy"
+    ],
+    [
+     "Bajibabu",
+     "Bollepalli"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "DNN-based Speech Synthesis for Indian Languages from ASCII text",
+   "original": "12",
+   "page_count": 6,
+   "order": 13,
+   "p1": 70,
+   "pn": 75,
+   "abstract": [
+    "Text-to-Speech synthesis in Indian languages has seen a lot of progress over the decade partly due to the annual Blizzard challenges. These systems assume the text to be written in Devanagari or Dravidian scripts which are nearly phonemic orthography scripts. However, the most common form of computer interaction among Indians is ASCII written transliterated text. Such text is generally noisy with many variations in spelling for the same word. In this paper we evaluate three approaches to synthesize speech from such noisy ASCII text: a naive UniGrapheme approach, a Multi-Grapheme approach, and a supervised Grapheme-to-Phoneme (G2P) approach. These methods first convert the ASCII text to a phonetic script, and then learn a Deep Neural Network to synthesize speech from that. We train and test our models on Blizzard Challenge datasets that were transliterated to ASCII using crowdsourcing. Our experiments on Hindi, Tamil and Telugu demonstrate that our models generate speech of competetive quality from ASCII text compared to the speech synthesized from the native scripts. All the accompanying transliterated datasets are released for public access.\n"
+   ],
+   "doi": "10.21437/SSW.2016-12"
+  },
+  "luo16_ssw": {
+   "authors": [
+    [
+     "Zhaojie",
+     "Luo"
+    ],
+    [
+     "Tetsuya",
+     "Takiguchi"
+    ],
+    [
+     "Yasuo",
+     "Ariki"
+    ]
+   ],
+   "title": "Emotional Voice Conversion Using Neural Networks with Different Temporal Scales of F0 based on Wavelet Transform",
+   "original": "23",
+   "page_count": 6,
+   "order": 30,
+   "p1": 140,
+   "pn": 145,
+   "abstract": [
+    "An artificial neural network is one of the most important models for training features of voice conversion (VC) tasks. Typically, neural networks (NNs) are very effective in processing nonlinear features, such as mel cepstral coefficients (MCC) which represent the spectrum features. However, a simple representation for fundamental frequency (F0) is not enough for neural networks to deal with an emotional voice, because the time sequence of F0 for an emotional voice changes drastically. Therefore, in this paper, we propose an effective method that uses the continuous wavelet transform (CWT) to decompose F0 into different temporal scales that can be well trained by NNs for prosody modeling in emotional voice conversion. Meanwhile, the proposed method uses deep belief networks (DBNs) to pretrain the NNs that convert spectral features. By utilizing these approaches, the proposed method can change the spectrum and the prosody for an emotional voice at the same time, and was able to outperform other state-of-the-art methods for emotional voice conversion.\n"
+   ],
+   "doi": "10.21437/SSW.2016-23"
+  },
+  "valentinibotinhao16_ssw": {
+   "authors": [
+    [
+     "Cassia",
+     "Valentini-Botinhao"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Investigating RNN-based speech enhancement methods for noise-robust Text-to-Speech",
+   "original": "24",
+   "page_count": 7,
+   "order": 31,
+   "p1": 146,
+   "pn": 152,
+   "abstract": [
+    "The quality of text-to-speech (TTS) voices built from noisy speech is compromised. Enhancing the speech data before training has been shown to improve quality but voices built with clean speech are still preferred. In this paper we investigate two different approaches for speech enhancement to train TTS systems. In both approaches we train a recursive neural network (RNN) to map acoustic features extracted from noisy speech to features describing clean speech. The enhanced data is then used to train the TTS acoustic model. In one approach we use the features conventionally employed to train TTS acoustic models, i.e Mel cepstral (MCEP) coefficients, aperiodicity values and fundamental frequency (F0). In the other approach, following conventional speech enhancement methods, we train an RNN using only the MCEP coefficients extracted from the magnitude spectrum. The enhanced MCEP features and the phase extracted from noisy speech are combined to reconstruct the waveform which is then used to extract acoustic features to train the TTS system. We show that the second approach results in larger MCEP distortion but smaller F0 errors. Subjective evaluation shows that synthetic voices trained with data enhanced with this method were rated higher and with similar to scores to voices trained with clean speech.\n"
+   ],
+   "doi": "10.21437/SSW.2016-24"
+  },
+  "nishizawa16_ssw": {
+   "authors": [
+    [
+     "Nobuyuki",
+     "Nishizawa"
+    ],
+    [
+     "Tomonori",
+     "Yazaki"
+    ]
+   ],
+   "title": "Wide Passband Design for Cosine-Modulated Filter Banks in Sinusoidal Speech Synthesis",
+   "original": "29",
+   "page_count": 6,
+   "order": 36,
+   "p1": 178,
+   "pn": 183,
+   "abstract": [
+    "A new filter design strategy to shorten the length of the filter is introduced for sinusoidal speech synthesis using cosinemodulated filter banks. Multiple sinusoidal waveforms for speech synthesis can be effectively synthesized by using pseudo-quadrature mirror filter (pseudo-QMF) banks, which are constructed by cosine modulation of the coefficients of a lowpass filter. This is because stable sinusoids are represented as sparse vectors on the subband domain of the pseudo-QMF banks and computation for the filter banks can be effectively performed with fast algorithms for discrete cosine transformation (DCT). However, the pseudo-QMF banks require relatively long filters to reduce noise caused by aliasing. In this study, a wider passband design with a perfect reconstruction (PR) QMF bank is introduced. The properties of experimentally designed filters indicated that the length of the filters can be reduced from 448 taps to 384 taps for 32-subband systems with less than -96dB errors where the computational cost for speech synthesis does not significantly increase.\n"
+   ],
+   "doi": "10.21437/SSW.2016-29"
+  },
+  "rao16_ssw": {
+   "authors": [
+    [
+     "Sushant V.",
+     "Rao"
+    ],
+    [
+     "Nirmesh J",
+     "Shah"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "Novel Pre-processing using Outlier Removal in Voice Conversion",
+   "original": "22",
+   "page_count": 6,
+   "order": 29,
+   "p1": 134,
+   "pn": 139,
+   "abstract": [
+    "Voice conversion (VC) technique modifies the speech utterance spoken by a source speaker to make it sound like a target speaker is speaking. Gaussian Mixture Model (GMM)-based VC is a state-of-the-art method. It finds the mapping function by modeling the joint density of source and target speakers using GMM to convert spectral features framewise. As with any real dataset, the spectral parameters contain a few points that are inconsistent with the rest of the data, called outliers. Until now, there has been very few literature regarding the effect of outliers in voice conversion. In this paper, we have explored the effect of outliers in voice conversion, as a pre-processing step. In order to remove these outliers, we have used the score distance, which uses the scores estimated using Robust Principal Component Analysis (ROBPCA). The outliers are determined by using a cut-off value based on the degrees of freedom in a chi-squared distribution. They are then removed from the training dataset and a GMM is trained based on the least outlying points. This pre-processing step can be applied to various methods. Experimental results indicate that there is a clear improvement in both, the objective (8 %) as well as the subjective (4 % for MOS and 5 % for XAB) results.\n"
+   ],
+   "doi": "10.21437/SSW.2016-22"
+  },
+  "rajpal16_ssw": {
+   "authors": [
+    [
+     "Avni",
+     "Rajpal"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "Jerk Minimization for Acoustic-To-Articulatory Inversion",
+   "original": "14",
+   "page_count": 6,
+   "order": 15,
+   "p1": 82,
+   "pn": 87,
+   "abstract": [
+    "The effortless speech production in humans requires coordinated movements of the articulators such as lips, tongue, jaw, velum, etc. Therefore, measured trajectories obtained are smooth and slowly varying. However, the trajectories estimated from acoustic-to-articulatory inversion (AAI) are found to be jagged. Thus, energy minimization is used as smoothness constraint for improving performance of the AAI. Besides energy minimization, jerk (i.e., rate of change of acceleration) is known for quantification of smoothness in case of human motor movements. Human motors are organized to achieve intended goal with smoothest possible movements, under the constraint of minimum accelerative transients. In this paper, we propose jerk minimization as an alternative smoothness criterion for frame-based acoustic-to-articulatory inversion. The resultant trajectories obtained are smooth in the sense that for articulatorspecific window size, they will have minimum jerk. The results using this criterion were found to be comparable with inversion schemes based on existing energy minimization criteria for achieving smoothness.\n"
+   ],
+   "doi": "10.21437/SSW.2016-14"
+  },
+  "soni16_ssw": {
+   "authors": [
+    [
+     "Meet H.",
+     "Soni"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "Non-intrusive Quality Assessment of Synthesized Speech using Spectral Features and Support Vector Regression",
+   "original": "21",
+   "page_count": 7,
+   "order": 28,
+   "p1": 127,
+   "pn": 133,
+   "abstract": [
+    "In this paper, we propose a new quality assessment method for synthesized speech. Unlike previous approaches which uses Hidden Markov Model (HMM) trained on natural utterances as a reference model to predict the quality of synthesized speech, proposed approach uses knowledge about synthesized speech while training the model. The previous approach has been successfully applied in the quality assessment of synthesized speech for the German language. However, it gave poor results for English language databases such as Blizzard Challenge 2008 and 2009 databases. The problem of quality assessment of synthesized speech is posed as a regression problem. The mapping between statistical properties of spectral features extracted from the speech signal and corresponding speech quality score (MOS) was found using Support Vector Regression (SVR). All the experiments were done on Blizzard Challenge Databases of the year 2008, 2009, 2010 and 2012. The results of experiments show that by including knowledge about synthesized speech while training, the performance of quality assessment system can be improved. Moreover, the accuracy of quality assessment system heavily depends on the kind of synthesis system used for signal generation. On Blizzard 2008 and 2009 database, proposed approach gives correlation of 0.28 and 0.49, respectively, for about 17 % data used in training. Previous approach gives correlation of 0.3 and 0.09, respectively, using spectral features. For Blizzard 2012 database, proposed approach gives correlation of 0.8 by using 12 % of available data in training.\n"
+   ],
+   "doi": "10.21437/SSW.2016-21"
+  },
+  "honnet16_ssw": {
+   "authors": [
+    [
+     "Pierre-Edouard",
+     "Honnet"
+    ],
+    [
+     "Philip N.",
+     "Garner"
+    ]
+   ],
+   "title": "Emphasis recreation for TTS using intonation atoms",
+   "original": "3",
+   "page_count": 7,
+   "order": 4,
+   "p1": 14,
+   "pn": 20,
+   "abstract": [
+    "We are interested in emphasis for text to speech synthesis. In speech to speech translation, emphasising the correct words is important to convey the underlying meaning of a message. In this paper, we propose to use a generalised command-response (CR) model of intonation to generate emphasis in synthetic speech. We first analyse the differences in the model parameters between emphasised words in an acted emphasis scenario and their neutral counterpart. We investigate word level intonation modelling using simple random forest as a basis framework, to predict the parameters of the model in the specific case of emphasised word. Based on the linguistic context of the words we want to emphasise, we attempt at recovering emphasis pattern in the intonation in originally neutral synthetic speech by generating word-level model parameters with similar context. The method is presented and initial results are given, on synthetic speech.\n"
+   ],
+   "doi": "10.21437/SSW.2016-3"
+  },
+  "takaki16_ssw": {
+   "authors": [
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "SangJin",
+     "Kim"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Speaker Adaptation of Various Components in Deep Neural Network based Speech Synthesis",
+   "original": "25",
+   "page_count": 7,
+   "order": 32,
+   "p1": 153,
+   "pn": 159,
+   "abstract": [
+    "In this paper, we investigate the effectiveness of speaker adaptation for various essential components in deep neural network based speech synthesis, including acoustic models, acoustic feature extraction, and post-filters. In general, a speaker adaptation technique, e.g., maximum likelihood linear regression (MLLR) for HMMs or learning hidden unit contributions (LHUC) for DNNs, is applied to an acoustic modeling part to change voice characteristics or speaking styles. However, since we have proposed a multiple DNN-based speech synthesis system, in which several components are represented based on feed-forward DNNs, a speaker adaptation technique can be applied not only to the acoustic modeling part but also to other components represented by DNNs. In experiments using a small amount of adaptation data, we performed adaptation based on LHUC and simple additional fine tuning for DNNbased acoustic models, deep auto-encoder based feature extraction, and DNN-based post-filter models and compared them with HMM-based speech synthesis systems using MLLR.\n"
+   ],
+   "doi": "10.21437/SSW.2016-25"
+  },
+  "dall16_ssw": {
+   "authors": [
+    [
+     "Rasmus",
+     "Dall"
+    ],
+    [
+     "Marcus",
+     "Tomalin"
+    ],
+    [
+     "Mirjam",
+     "Wester"
+    ]
+   ],
+   "title": "Synthesising Filled Pauses: Representation and Datamixing",
+   "original": "2",
+   "page_count": 7,
+   "order": 3,
+   "p1": 7,
+   "pn": 13,
+   "abstract": [
+    "Filled pauses occur frequently in spontaneous human speech, yet modern text-to-speech synthesis systems rarely model these disfluencies overtly, and consequently they do not output convincing synthetic filled pauses. This paper presents a text-to-speech system that is specifically designed to model these particular disfluencies more efffectively. A preparatory investigation shows that a synthetic voice trained exclusively on spontaneous speech is perceived to be inferior in quality to a voice trained entirely on read speech, even though the latter does not handle filled pauses well. This motivates an investigation into the phonetic representation of filled pauses which show that, in a preference test, the use of a distinct phone for filled pauses is preferred over the standard /V/ phone and the alternative /@/ phone. In addition, we present a variety of data-mixing techniques to combine the strengths of standard synthesis systems trained on read speech corpora with the supplementary advantages offered by systems trained on spontaneous speech. In a MUSHRA-style test, it is found that the best overall quality is obtained by combining the two types of corpora using a source marking technique. Specifically, general speech is synthesised with a standard mark, while filled pauses are synthesised with a spontaneous mark, which has the added benefit of also producing filled pauses that are comparatively well synthesised.\n"
+   ],
+   "doi": "10.21437/SSW.2016-2"
+  },
+  "kim16_ssw": {
+   "authors": [
+    [
+     "Sunhee",
+     "Kim"
+    ]
+   ],
+   "title": "How to select a good voice for TTS",
+   "original": "15",
+   "page_count": 5,
+   "order": 16,
+   "p1": 88,
+   "pn": 92,
+   "abstract": [
+    "Even though the quality of synthesized speech is not necessarily guaranteed by the perceived quality of the speaker’s natural voice, it is required to select a certain number of candidates based on their natural voice before moving to the evaluation stage of synthesized sentences. This paper describes a male speaker selection procedure for unit selection synthesis systems in English and Japanese based on perceptive evaluation and acoustic measurements of the speakers’ natural voice. A perceptive evaluation is performed on eight professional voice talents of each language. A total of twenty native-speaker listeners are recruited in both languages and each listener is asked to rate on eight analytical factors by using a five-scale score and rank three best speakers. Acoustic measurement focuses on the voice quality by extracting two measures, Long Term Average Spectrum (LTAS), the so-called Speakers Formant (SPF), which corresponds to the peak intensity between 3 kHz and 4 kHz, and the Alpha ratio, lower level difference between 0 and 1 kHz and 1 and 4 kHz ranges. The perceptive evaluation results show a very strong correlation between the total score and the preference in both languages, 0.9183 in English and 0.8589 in Japanese. The correlations between the perceptive evaluation and acoustic measurements are moderate with respect to SPF and AR, 0.473 and -0.494 in English, and 0.288 and -0.263 in Japanese.\n"
+   ],
+   "doi": "10.21437/SSW.2016-15"
+  },
+  "samribeiro16_ssw": {
+   "authors": [
+    [
+     "Manuel",
+     "Sam Ribeiro"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "Parallel and cascaded deep neural networks for text-to-speech synthesis",
+   "original": "17",
+   "page_count": 6,
+   "order": 19,
+   "p1": 100,
+   "pn": 105,
+   "abstract": [
+    "An investigation of cascaded and parallel deep neural networks for speech synthesis is conducted. In these systems, suprasegmental linguistic features (syllable-level and above) are processed separately from segmental features (phone-level and below). The suprasegmental component of the networks learns compact distributed representations of high-level linguistic units without any segmental influence. These representations are then integrated into a frame-level system using a cascaded or a parallel approach. In the cascaded network, suprasegmental representations are used as input to the framelevel network. In the parallel network, segmental and suprasegmental features are processed separately and concatenated at a later stage. These experiments are conducted with a standard set of high-dimensional linguistic features as well as a hand-pruned one. It is observed that hierarchical systems are consistently preferred over the baseline feedforward systems. Similarly, parallel networks are preferred over cascaded networks.\n"
+   ],
+   "doi": "10.21437/SSW.2016-17"
+  },
+  "wang16b_ssw": {
+   "authors": [
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "A Comparative Study of the Performance of HMM, DNN, and RNN based Speech Synthesis Systems Trained on Very Large Speaker-Dependent Corpora",
+   "original": "20",
+   "page_count": 4,
+   "order": 22,
+   "p1": 118,
+   "pn": 121,
+   "abstract": [
+    "This study investigates the impact of the amount of training data on the performance of parametric speech synthesis systems. A Japanese corpus with 100 hours’ audio recordings of a male voice and another corpus with 50 hours’ recordings of a female voice were utilized to train systems based on hidden Markov model (HMM), feed-forward neural network and recurrent neural network (RNN). The results show that the improvement on the accuracy of the predicted spectral features gradually diminishes as the amount of training data increases. However, different from the “diminishing returns” in the spectral stream, the accuracy of the predicted F0 trajectory by the HMM and RNN systems tends to consistently benefit from the increasing amount of training data.\n"
+   ],
+   "doi": "10.21437/SSW.2016-20"
+  },
+  "degottex16_ssw": {
+   "authors": [
+    [
+     "Gilles",
+     "Degottex"
+    ],
+    [
+     "Pierre",
+     "Lanchantin"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ]
+   ],
+   "title": "A Pulse Model in Log-domain for a Uniform Synthesizer",
+   "original": "35",
+   "page_count": 7,
+   "order": 43,
+   "p1": 214,
+   "pn": 220,
+   "abstract": [
+    "The quality of the vocoder plays a crucial role in the performance of parametric speech synthesis systems. In order to improve the vocoder quality, it is necessary to reconstruct as much of the perceived components of the speech signal as possible. In this paper, we first show that the noise component is currently not accurately modelled in the widely used STRAIGHT vocoder, thus, limiting the voice range that can be covered and also limiting the overall quality. In order to motivate a new, alternative, approach to this issue, we present a new synthesizer, which uses a uniform representation for voiced and unvoiced segments. This synthesizer has also the advantage of using a simple signal model compared to other approaches, thus offering a convenient and controlled alternative for future developments. Experiments analysing the synthesis quality of the noise component shows improved speech reconstruction using the suggested synthesizer compared to STRAIGHT. Additionally an experiment about analysis/resynthesis shows that the suggested synthesizer solves some of the issues of another uniform vocoder, Harmonic Model plus Phase Distortion (HMPD). In text-to-speech synthesis, it outperforms HMPD and exhibits a similar, or only slightly worse, quality to STRAIGHT’s quality, which is encouraging for a new vocoding approach.\n"
+   ],
+   "doi": "10.21437/SSW.2016-35"
+  },
+  "baljekar16_ssw": {
+   "authors": [
+    [
+     "Pallavi",
+     "Baljekar"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ]
+   ],
+   "title": "Utterance Selection Techniques for TTS Systems Using Found Speech",
+   "original": "30",
+   "page_count": 6,
+   "order": 37,
+   "p1": 184,
+   "pn": 189,
+   "abstract": [
+    "The goal in this paper is to investigate data selection techniques for found speech. Found speech unlike clean, phoneticallybalanced datasets recorded specifically for synthesis contain a lot of noise which might not get labeled well and it might contain utterances with varying channel conditions. These channel variations and other noise distortions might sometimes be useful in terms of adding diverse data to our training set, however in other cases it might be detrimental to the system. The approach outlined in this work investigates various metrics to detect noisy data which degrade the performance of the system on a held-out test set. We assume a seed set of 100 utterances to which we then incrementally add in a fixed set of utterances and find which metrics can capture the misaligned and noisy data. We report results on three datasets, an artificially degraded set of clean speech, a single speaker database of found speech and a multi - speaker database of found speech. All of our experiments are carried out on male speakers. We also show comparable results are obtained on a female multi-speaker corpus.\n"
+   ],
+   "doi": "10.21437/SSW.2016-30"
+  },
+  "wilkinson16_ssw": {
+   "authors": [
+    [
+     "Andrew",
+     "Wilkinson"
+    ],
+    [
+     "Alok",
+     "Parlikar"
+    ],
+    [
+     "Sunayana",
+     "Sitaram"
+    ],
+    [
+     "Tim",
+     "White"
+    ],
+    [
+     "Alan W.",
+     "Black"
+    ],
+    [
+     "Suresh",
+     "Bazaj"
+    ]
+   ],
+   "title": "Open-Source Consumer-Grade Indic Text To Speech",
+   "original": "31",
+   "page_count": 6,
+   "order": 38,
+   "p1": 190,
+   "pn": 195,
+   "abstract": [
+    "Open-source text-to-speech (TTS) software has enabled the development of voices in multiple languages, including many high-resource languages, such as English and European languages. However, building voices for low-resource languages is still challenging. We describe the development of TTS systems for 12 Indian languages using the Festvox framework, for which we developed a common frontend for Indian languages. Voices for eight of these 12 languages are available for use with Flite, a lightweight, fast run-time synthesizer, and the Android Flite app available in the Google Play store. Recently, the baseline Punjabi TTS voice was built end-to-end in a month by two undergraduate students (without any prior knowledge of TTS) with help from two of the authors of this paper. The framework can be used to build a baseline Indic TTS voice in two weeks, once a text corpus is selected and a suitable native speaker is identified.\n"
+   ],
+   "doi": "10.21437/SSW.2016-31"
+  },
+  "li16_ssw": {
+   "authors": [
+    [
+     "Mei",
+     "Li"
+    ],
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "On the impact of phoneme alignment in DNN-based speech synthesis",
+   "original": "32",
+   "page_count": 6,
+   "order": 39,
+   "p1": 196,
+   "pn": 201,
+   "abstract": [
+    "Recently, deep neural networks (DNNs) have significantly improved the performance of acoustic modeling in statistical parametric speech synthesis (SPSS). However, in current implementations, when training a DNN-based speech synthesis system, phonetic transcripts are required to be aligned with the corresponding speech frames to obtain the phonetic segmentation, called phoneme alignment. Such an alignment is usually obtained by forced alignment based on hidden Markov models (HMMs) since manual alignment is labor-intensive and timeconsuming. In this work, we study the impact of phoneme alignment on the DNN-based speech synthesis system. Specifically, we compare the performances of different DNN-based speech synthesis systems, which use manual alignment and HMM-based forced alignment from three types of labels: HMM mono-phone, tri-phone and full-context. Objective and subjective evaluations are conducted in term of the naturalness of synthesized speech to compare the performances of different alignments.\n"
+   ],
+   "doi": "10.21437/SSW.2016-32"
+  },
+  "tokuda16_ssw": {
+   "authors": [
+    [
+     "Keiichi",
+     "Tokuda"
+    ],
+    [
+     "Kei",
+     "Hashimoto"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Yoshihiko",
+     "Nankaku"
+    ]
+   ],
+   "title": "Temporal modeling in neural network based statistical parametric speech synthesis",
+   "original": "18",
+   "page_count": 6,
+   "order": 20,
+   "p1": 106,
+   "pn": 111,
+   "abstract": [
+    "This paper proposes a novel neural network structure for speech synthesis, in which spectrum, F0 and duration parameters are simultaneously modeled in a unified framework. In the conventional neural network approaches, spectrum and F0 parameters are predicted by neural networks while phone and/or state durations are given from other external duration predictors. In order to consistently model not only spectrum and F0 parameters but also durations, we adopt a special type of mixture density network (MDN) structure, which models utterance level probability density functions conditioned on the corresponding input feature sequence. This is achieved by modeling the conditional probability distribution of utterance level output features, given input features, with a hidden semi-Markov model, where its parameters are generated using a neural network trained with a log likelihood-based loss function. Variations of the proposed neural network structure are also discussed. Subjective listening test results show that the proposed approach improves the naturalness of synthesized speech.\n"
+   ],
+   "doi": "10.21437/SSW.2016-18"
+  },
+  "wu16_ssw": {
+   "authors": [
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Merlin: An Open Source Neural Network Speech Synthesis System",
+   "original": "33",
+   "page_count": 6,
+   "order": 40,
+   "p1": 202,
+   "pn": 207,
+   "abstract": [
+    "We introduce the Merlin speech synthesis toolkit for neural network-based speech synthesis. The system takes linguistic features as input, and employs neural networks to predict acoustic features, which are then passed to a vocoder to produce the speech waveform. Various neural network architectures are implemented, including a standard feedforward neural network, mixture density neural network, recurrent neural network (RNN), long short-term memory (LSTM) recurrent neural network, amongst others. The toolkit is Open Source, written in Python, and is extensible. This paper briefly describes the system, and provides some benchmarking results on a freely available corpus.\n"
+   ],
+   "doi": "10.21437/SSW.2016-33"
+  },
+  "vanmassenhove16_ssw": {
+   "authors": [
+    [
+     "Eva",
+     "Vanmassenhove"
+    ],
+    [
+     "João P.",
+     "Cabral"
+    ],
+    [
+     "Fasih",
+     "Haider"
+    ]
+   ],
+   "title": "Prediction of Emotions from Text using Sentiment Analysis for Expressive Speech Synthesis",
+   "original": "4",
+   "page_count": 6,
+   "order": 5,
+   "p1": 21,
+   "pn": 26,
+   "abstract": [
+    "The generation of expressive speech is a great challenge for text-to-speech synthesis in audiobooks. One of the most important factors is the variation in speech emotion or voice style. In this work, we developed a method to predict the emotion from a sentence so that we can convey it through the synthetic voice. It consists of combining a standard emotion-lexicon based technique with the polarity-scores (positive/negative polarity) provided by a less fine-grained sentiment analysis tool, in order to get more accurate emotion-labels. The primary goal of this emotion prediction tool was to select the type of voice (one of the emotions or neutral) given the input sentence to a stateof-the-art HMM-based Text-to-Speech (TTS) system. In addition, we also combined the emotion prediction from text with a speech clustering method to select the utterances with emotion during the process of building the emotional corpus for the speech synthesizer. Speech clustering is a popular approach to divide the speech data into subsets associated with different voice styles. The challenge here is to determine the clusters that map out the basic emotions from an audiobook corpus that contains high variety of speaking styles, in a way that minimizes the need for human annotation. The evaluation of emotion classification from text showed that, in general, our system can obtain accuracy results close to that of human annotators. Results also indicate that this technique is useful in the selection of utterances with emotion for building expressive synthetic voices.\n"
+   ],
+   "doi": "10.21437/SSW.2016-4"
+  },
+  "tajiri16_ssw": {
+   "authors": [
+    [
+     "Yusuke",
+     "Tajiri"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "Nonaudible murmur enhancement based on statistical voice conversion and noise suppression with external noise monitoring",
+   "original": "9",
+   "page_count": 7,
+   "order": 10,
+   "p1": 52,
+   "pn": 58,
+   "abstract": [
+    "This paper presents a method for making nonaudible murmur (NAM) enhancement based on statistical voice conversion (VC) robust against external noise. NAM, which is an extremely soft whispered voice, is a promising medium for silent speech communication thanks to its faint volume. Although such a soft voice can still be detected with a special body-conductive microphone, its quality significantly degrades compared to that of air-conductive voices. It has been shown that the statistical VC technique is capable of significantly improving quality of NAM by converting it into the air-conductive voices. However, this technique is not helpful under noisy conditions because a detected NAM signal easily suffers from external noise, and acoustic mismatches are caused between such a noisy NAM signal and a previously trained conversion model. To address this issue, in this paper we apply our proposed noise suppression method based on external noise monitoring to the statistical NAM enhancement. Moreover, a known noise superimposition method is further applied in order to alleviate the effects of residual noise components on the conversion accuracy. The experimental results demonstrate that the proposed method yields significant improvements in the conversion accuracy compared to the conventional method.\n"
+   ],
+   "doi": "10.21437/SSW.2016-9"
+  },
+  "andersson16_ssw": {
+   "authors": [
+    [
+     "John",
+     "Andersson"
+    ],
+    [
+     "Sebastian",
+     "Berlin"
+    ],
+    [
+     "André",
+     "Costa"
+    ],
+    [
+     "Harald",
+     "Berthelsen"
+    ],
+    [
+     "Hanna",
+     "Lindgren"
+    ],
+    [
+     "Nikolaj",
+     "Lindberg"
+    ],
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Jens",
+     "Edlund"
+    ],
+    [
+     "Joakim",
+     "Gustafson"
+    ]
+   ],
+   "title": "WikiSpeech – enabling open source text-to-speech for Wikipedia",
+   "original": "16",
+   "page_count": 7,
+   "order": 17,
+   "p1": 93,
+   "pn": 99,
+   "abstract": [
+    "We present WikiSpeech, an ambitious joint project aiming to (1) make open source text-to-speech available through Wikimedia Foundation’s server architecture; (2) utilize the large and active Wikipedia user base to achieve continuously improving text-to-speech; (3) improve existing and develop new crowdsourcing methods for text-to-speech; and (4) develop new and adapt current evaluation methods so that they are well suited for the particular use case of reading Wikipedia articles out loud while at the same time capable of harnessing the huge user base made available by Wikipedia. At its inauguration, the project is backed by The Swedish Post and Telecom Authority and headed by Wikimedia Sverige, STTS and KTH, but in the long run, the project aims at broad multinational involvement. The vision of the project is freely available text-to-speech for all Wikipedia languages (currently 293). In this paper, we present the project itself and its first steps: requirements, initial architecture, and initial steps to include crowdsourcing and evaluation.\n"
+   ],
+   "doi": "10.21437/SSW.2016-16"
+  },
+  "beskow16_ssw": {
+   "authors": [
+    [
+     "Jonas",
+     "Beskow"
+    ],
+    [
+     "Harald",
+     "Berthelsen"
+    ]
+   ],
+   "title": "A hybrid harmonics-and-bursts modelling approach to speech synthesis",
+   "original": "34",
+   "page_count": 6,
+   "order": 42,
+   "p1": 208,
+   "pn": 213,
+   "abstract": [
+    "Statistical speech synthesis systems rely on a parametric speech generation model, typically some sort of vocoder. Vocoders are great for voiced speech because they offer independent control over voice source (e.g. pitch) and vocal tract filter (e.g. vowel quality) through control parameters that typically vary smoothly in time and lend themselves well to statistical modelling. Voiceless sounds and transients such as plosives and fricatives on the other hand exhibit fundamentally different spectro-temporal behaviour. Here the benefits of the vocoder are not as clear. In this paper, we investigate a hybrid approach to modeling the speech signal, where speech is decomposed into an harmonic part and a noise burst part through spectrogram kernel filtering. The harmonic part is modeled using vocoder and statistical parameter generation, while the burst part is modeled by concatenation. The two channels are then mixed together to form the final synthesized waveform. The proposed method was compared against a state of the art statistical speech synthesis system (HTS 2.3) in a perceptual evaluation, which reveled that the harmonics plus bursts method was perceived as significantly more natural than the purely statistical variant.\n"
+   ],
+   "doi": "10.21437/SSW.2016-34"
+  },
+  "jauk16_ssw": {
+   "authors": [
+    [
+     "Igor",
+     "Jauk"
+    ],
+    [
+     "Antonio",
+     "Bonafonte"
+    ]
+   ],
+   "title": "Prosodic and Spectral iVectors for Expressive Speech Synthesis",
+   "original": "10",
+   "page_count": 5,
+   "order": 11,
+   "p1": 59,
+   "pn": 63,
+   "abstract": [
+    "This work presents a study on the suitability of prosodic and acoustic features, with a special focus on i-vectors, in expressive speech analysis and synthesis. For each utterance of two different databases, a laboratory recorded emotional acted speech, and an audiobook, several prosodic and acoustic features are extracted. Among them, i-vectors are built not only on the MFCC base, but also on F0, power and syllable durations. Then, unsupervised clustering is performed using different feature combinations. The resulting clusters are evaluated calculating cluster entropy for labeled portions of the databases. Additionally, synthetic voices are trained, applying speaker adaptive training, from the clusters built from the audiobook. The voices are evaluated in a perceptual test where the participants have to edit an audiobook paragraph using the synthetic voices. The objective results suggest that i-vectors are very useful for the audiobook, where different speakers (book characters) are imitated. On the other hand, for the laboratory recordings, traditional prosodic features outperform i-vectors. Also, a closer analysis of the created clusters suggest that different speakers use different prosodic and acoustic means to convey emotions. The perceptual results suggest that the proposed ivector based feature combinations can be used for audiobook clustering and voice training.\n"
+   ],
+   "doi": "10.21437/SSW.2016-10"
+  },
+  "pascual16_ssw": {
+   "authors": [
+    [
+     "Santiago",
+     "Pascual"
+    ],
+    [
+     "Antonio",
+     "Bonafonte"
+    ]
+   ],
+   "title": "Multi-output RNN-LSTM for multiple speaker speech synthesis with α-interpolation model",
+   "original": "19",
+   "page_count": 6,
+   "order": 21,
+   "p1": 112,
+   "pn": 117,
+   "abstract": [
+    "Deep Learning has been applied successfully to speech processing. In this paper we propose an architecture for speech synthesis using multiple speakers. Some hidden layers are shared by all the speakers, while there is a specific output layer for each speaker. Objective and perceptual experiments prove that this scheme produces much better results in comparison with single speaker model. Moreover, we also tackle the problem of speaker interpolation by adding a new output layer (α-layer) on top of the multi-output branches. An identifying code is injected into the layer together with acoustic features of many speakers. Experiments show that the α-layer can effectively learn to interpolate the acoustic features between speakers.\n"
+   ],
+   "doi": "10.21437/SSW.2016-19"
+  },
+  "guasch16_ssw": {
+   "authors": [
+    [
+     "Oriol",
+     "Guasch"
+    ]
+   ],
+   "title": "Large-scale finite element simulations of the physics of voice",
+   "original": "abs1",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The physics of voice is very complex and encompasses turbulent airflows interacting with vibrating, colliding and deforming bodies, like the vocal folds or the lips, and with acoustic waves propagating in a dynamic contorted vocal tract. Numerical approaches, and in particular the finite element method (FEM), have revealed as the most suitable option to solve many of those physical phenomena, and why not, attempting at a unified simulation, from muscle articulation and phonation to the emitted sound, in the mid-term. In this talk we will review some of the state of the art and current challenges in numerical voice production; from static and dynamic vowel sounds to sibilants and the self oscillations of the vocal folds. Numerical methods can be very appealing because they allow one not only to listen to a simulated sound but also to visualize the sound sources and the propagation of acoustic waves through the vocal tract. However, care should be taken not to use FEM as a black box. Even if a fully unified simulation of the whole process of voice generation was possible in an ideal supercomputer, would this reveal all the physics beneath voice production\n"
+   ]
+  },
+  "acero16_ssw": {
+   "authors": [
+    [
+     "Alex",
+     "Acero"
+    ]
+   ],
+   "title": "Siri’s voice gets deep learning",
+   "original": "abs2",
+   "page_count": 0,
+   "order": 18,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "In iOS 10, the new Siri voices are built on a hybrid speech synthesizer leveraging deep learning.  The goodness of a concatenation between two units is modeled by a Gaussian distribution on the acoustic vectors (MFCC, F0, and their deltas) with the means and variances being a function of the linguistic features. The goodness of a target is modeled similarly with the addition of duration to the acoustic vector. The means and variances of these Gaussians are obtained through a Mixture Density Network. The new Siri voices are more natural, smoother, and allow Siri’s personality to shine through. \n"
+   ]
+  },
+  "le16_ssw": {
+   "authors": [
+    [
+     "Quoc V.",
+     "Le"
+    ]
+   ],
+   "title": "End-to-end Learning for Text and Speech",
+   "original": "abs8",
+   "page_count": 0,
+   "order": 41,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "In this talk, I will discuss our recent work on using neural networks for NLP and speech recognition tasks. Our work started with the sequence-to-sequence learning framework that can read a variable-length input sequence and produce a variable-length output sequence. The framework allows neural networks to be applied to new tasks in text and speech domains. I will talk about the implementation details and results of our implementation on machine translation, dialogue modeling, and speech recognition. We also find that unsupervised learning in our framework is simple, and improves the performance of our networks significantly. \n"
+   ]
+  },
+  "minematsu16_ssw": {
+   "authors": [
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Nobuyuki",
+     "Nishizawa"
+    ]
+   ],
+   "title": "Prosodic Reading Tutor of Japanese, Suzuki-kun: The first and only educational tool to teach the formal Japanese",
+   "original": "abs3",
+   "page_count": 1,
+   "order": 23,
+   "p1": 122,
+   "pn": 122,
+   "abstract": [
+    "A text typed to a speech synthesizer is generally converted into its corresponding phoneme sequence on which various kinds of prosodic symbols are attached by a prosody prediction module. By using this module effectively, we build a prosodic reading tutor of Japanese, called Suzuki-kun, and it is provided as one feature of OJAD (Online Japanese Accent Dictionary). In Suzuki-kun, any Japanese text is converted into its reading (Hiragana 1 sequence) on which the pitch pattern that sounds natural as Tokyo Japanese (the formal Japanese) is visualized as a smooth curve drawn by the F0 contour generation process model. Further, the positions of accent nuclei and unvoiced vowels are illustrated. Suzuki-kun also reads that text out following the prosodic features that are visualized. Suzuki-kun has become the most popular feature of OJAD and so far, we gave 90 tutorial workshops of OJAD in 27 countries. After INTERSPEECH, we’ll give 6 workshops in the USA this year.\n"
+   ]
+  },
+  "kawahara16b_ssw": {
+   "authors": [
+    [
+     "Hideki",
+     "Kawahara"
+    ]
+   ],
+   "title": "Aliasing-free L-F model and its application to an interactive MATLAB tool and test signal generation for speech analysis procedures",
+   "original": "abs4",
+   "page_count": 1,
+   "order": 24,
+   "p1": 123,
+   "pn": 123,
+   "abstract": [
+    "This demo introduces a closed form representation of the L-F model for excitation source. The representation provides flexible of source parameters in continuous time axis and aliasing-free excitation signal. MATLAB implementation of the model combined with an interactive parameter control and visual and sound feedback is a central component of educational/research tools for speech science. The model also provides flexible and accurate test signals applicable to test speech analysis procedures, such as F0 trackers and spectrum envelope estimator.\n"
+   ]
+  },
+  "ronanki16b_ssw": {
+   "authors": [
+    [
+     "Srikanth",
+     "Ronanki"
+    ],
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "A Demonstration of the Merlin Open Source Neural Network Speech Synthesis System",
+   "original": "abs5",
+   "page_count": 1,
+   "order": 25,
+   "p1": 124,
+   "pn": 124,
+   "abstract": [
+    "This demonstration showcases our new Open Source toolkit for neural network-based speech synthesis, Merlin. We wrote Merlin because we wanted free, simple, maintainable code that we understood. No existing toolkits met all of those requirements. Merlin is designed for speech synthesis, but can be put to other uses. It has already also been used for voice conversion, classification tasks, and for predicting head motion from speech.\n"
+   ]
+  },
+  "vandenoord16_ssw": {
+   "authors": [
+    [
+     "Aäron",
+     "van den Oord"
+    ],
+    [
+     "Sander",
+     "Dieleman"
+    ],
+    [
+     "Heiga",
+     "Zen"
+    ],
+    [
+     "Karen",
+     "Simonyan"
+    ],
+    [
+     "Oriol",
+     "Vinyals"
+    ],
+    [
+     "Alex",
+     "Graves"
+    ],
+    [
+     "Nal",
+     "Kalchbrenner"
+    ],
+    [
+     "Andrew",
+     "Senior"
+    ],
+    [
+     "Koray",
+     "Kavukcuoglu"
+    ]
+   ],
+   "title": "WaveNet: A Generative Model for Raw Audio",
+   "original": "abs6",
+   "page_count": 1,
+   "order": 26,
+   "p1": 125,
+   "pn": 125,
+   "abstract": [
+    "This demo presents WaveNet, a deep generative model of raw audio waveforms. We show that WaveNets are able to generate speech which mimics any human voice and which sounds more natural than the best existing Text-to-Speech (TTS) systems, reducing the gap in subjective quality relative to natural speech by over 50%. We also demonstrate that the same network can be used to synthesize other audio signals such as music, and present some striking samples of automatically generated piano pieces. WaveNets open up a lot of possibilities for text-to-speech, music generation and audio modelling in general.\n"
+   ]
+  },
+  "potard16_ssw": {
+   "authors": [
+    [
+     "Blaise",
+     "Potard"
+    ],
+    [
+     "Matthew P.",
+     "Aylett"
+    ],
+    [
+     "David A.",
+     "Baude"
+    ]
+   ],
+   "title": "Demo of Idlak Tangle, An Open Source DNN-Based Parametric Speech Synthesiser",
+   "original": "abs7",
+   "page_count": 1,
+   "order": 27,
+   "p1": 126,
+   "pn": 126,
+   "abstract": [
+    "We present a live demo of Idlak Tangle, a TTS extension to the ASR toolkit Kaldi [1]. Tangle combines the Idlak front-end and newly released MLSA vocoder, with two DNNs modelling respectively the units duration and acoustic parameters, providing a fully functional end-to-end TTS system. The system has none of the licensing restrictions of currently available HMM style systems, such as the HTS toolkit, and can be used free of charge for any type of applications. Experimental results using the freely available SLT speaker from CMU ARCTIC, reveal that the speech output is rated in a MUSHRA test as significantly more natural than the output of HTS-demo. The tools, audio database and recipe required to reproduce the results presented are fully available online at https://github.com/bpotard/idlak . The live demo will allow participants to measure the quality of TTS output on several ARCTIC voices, and on voices created from commercial-grade recordings.\n"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote Session 1",
+   "papers": [
+    "guasch16_ssw"
+   ]
+  },
+  {
+   "title": "Oral Session 1: Prosody",
+   "papers": [
+    "elyasilangarani16_ssw",
+    "dall16_ssw",
+    "honnet16_ssw",
+    "vanmassenhove16_ssw"
+   ]
+  },
+  {
+   "title": "Poster Session 1",
+   "papers": [
+    "hamada16_ssw",
+    "lazaridis16_ssw",
+    "wester16_ssw",
+    "huang16_ssw",
+    "tajiri16_ssw",
+    "jauk16_ssw",
+    "pucher16_ssw",
+    "ronanki16_ssw",
+    "sitaram16_ssw",
+    "rajpal16_ssw",
+    "kim16_ssw",
+    "andersson16_ssw"
+   ]
+  },
+  {
+   "title": "Keynote Session 1",
+   "papers": [
+    "acero16_ssw"
+   ]
+  },
+  {
+   "title": "Oral Session 2: Deep Learning in Speech Synthesis",
+   "papers": [
+    "samribeiro16_ssw",
+    "tokuda16_ssw",
+    "pascual16_ssw",
+    "wang16b_ssw"
+   ]
+  },
+  {
+   "title": "Demo Session",
+   "papers": [
+    "minematsu16_ssw",
+    "kawahara16b_ssw",
+    "ronanki16b_ssw",
+    "vandenoord16_ssw",
+    "potard16_ssw"
+   ]
+  },
+  {
+   "title": "Poster Session 2",
+   "papers": [
+    "soni16_ssw",
+    "rao16_ssw",
+    "luo16_ssw",
+    "valentinibotinhao16_ssw",
+    "takaki16_ssw",
+    "zhang16_ssw",
+    "wang16_ssw",
+    "achanta16_ssw",
+    "nishizawa16_ssw",
+    "baljekar16_ssw",
+    "wilkinson16_ssw",
+    "li16_ssw",
+    "wu16_ssw"
+   ]
+  },
+  {
+   "title": "Keynote Session 3",
+   "papers": [
+    "le16_ssw"
+   ]
+  },
+  {
+   "title": "Oral Session 3: Analysis and Modeling for Speech Synthesis",
+   "papers": [
+    "beskow16_ssw",
+    "degottex16_ssw",
+    "kawahara16_ssw",
+    "shechtman16_ssw"
+   ]
+  }
+ ],
+ "doi": "10.21437/SSW.2016"
+}

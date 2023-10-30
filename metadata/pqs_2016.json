@@ -1,0 +1,922 @@
+{
+ "title": "5th ISCA/DEGA Workshop on Perceptual Quality of Systems (PQS 2016)",
+ "location": "Berlin, Germany",
+ "startDate": "29/8/2016",
+ "endDate": "31/8/2016",
+ "URL": "http://pqs.qu.tu-berlin.de/",
+ "chair": "Chairs: Sebastian Möller and Sebastian Egger",
+ "conf": "PQS",
+ "year": "2016",
+ "name": "pqs_2016",
+ "series": "PQS",
+ "SIG": "",
+ "title1": "5th ISCA/DEGA Workshop on Perceptual Quality of Systems",
+ "title2": "(PQS 2016)",
+ "date": "29-31 August 2016",
+ "booklet": "pqs_2016.pdf",
+ "papers": {
+  "suznjevic16_pqs": {
+   "authors": [
+    [
+     "Mirko",
+     "Suznjevic"
+    ],
+    [
+     "Jose",
+     "Saldana"
+    ],
+    [
+     "Maja",
+     "Matijasevic"
+    ],
+    [
+     "Matko",
+     "Vuga"
+    ]
+   ],
+   "title": "Impact of Simplemux Traffic Optimisation on MMORPG QoE",
+   "original": "3",
+   "page_count": 5,
+   "order": 3,
+   "p1": 10,
+   "pn": 14,
+   "abstract": [
+    "This paper studies the impact of a traffic optimisation method called Simplemux, on Quality of Experience (QoE) of Massively Multiplayer Online Role Playing Games (MMORPG). Simplemux allows a number of header-compressed packets of different flows to travel together, sharing the overhead of a common end-to-end tunnel. As a result, significant reductions in terms of bandwidth usage and packet rate can be achieved, but with a trade-off of introducing additional delay and delay variation. In the presented subjective studies we combine artificially created network flows of an MMORPG with traffic of real users, and this mix is sent through an implementation of Simplemux. In this way we simulate a case scenario in which a number of flows share a common network path. Two parameters are modified: the number of active game flows, and the multiplexing period. We examine if the players notice any degradation in their game experience, by comparing two situations: when Simplemux is active or not. Our goal is to investigate whether users’ QoE is degraded by using Simplemux.\n"
+   ],
+   "doi": "10.21437/PQS.2016-4"
+  },
+  "metzger16_pqs": {
+   "authors": [
+    [
+     "Florian",
+     "Metzger"
+    ],
+    [
+     "Albert",
+     "Rafetseder"
+    ],
+    [
+     "Christian",
+     "Schwartz"
+    ]
+   ],
+   "title": "A Comprehensive End-to-End Lag Model for Online and Cloud Video Gaming",
+   "original": "4",
+   "page_count": 5,
+   "order": 4,
+   "p1": 15,
+   "pn": 19,
+   "abstract": [
+    "To further the knowledge of basic game mechanics and improve future video game Quality of Experience (QoE) studies we present a model and simulation for End-to-End (E2E) lag in networked and cloud computer games. E2E lag describes the latency between a user's action and the display of the action's results on the screen, thus providing both a basic measure for interactivity and a fundamental parameter to derived QoE metrics. In contrast to E2E lag models that focus on the network Round-Trip Time (RTT), the presented work also factors in the game's tickrate and framerate (and codec latencies in the case of cloud games). This reveals side effects that can entirely mask the network delay's contribution to the total lag, an important notion to consider for future game studies.\n"
+   ],
+   "doi": "10.21437/PQS.2016-5"
+  },
+  "hofeld16_pqs": {
+   "authors": [
+    [
+     "Tobias",
+     "Hoßfeld"
+    ],
+    [
+     "Lea",
+     "Skorin-Kapov"
+    ],
+    [
+     "Poul E.",
+     "Heegaard"
+    ],
+    [
+     "Martı́n",
+     "Varela"
+    ],
+    [
+     "Kuan-Ta",
+     "Chen"
+    ]
+   ],
+   "title": "On Additive and Multiplicative QoS-QoE Models for Multiple QoS Parameters",
+   "original": "10",
+   "page_count": 5,
+   "order": 10,
+   "p1": 44,
+   "pn": 48,
+   "abstract": [
+    "Generic relationships between QoE and QoS have been intensively discussed in literature for single QoS parameters and often found to be logarithmic or exponential. While there are many experimental studies investigating statistically the influence of several parameters on QoE, the generic relationship between them, and how to best model it, have not been discussed so far. For communication networks, however, there is a major interest from different stakeholders to have multi-dimensional QoE models. The contribution of this paper is an analysis of the generic relationship between QoS and QoE for multiple QoS parameters and its implications. We address the question of whether multi-dimensional QoE models for several parameters are additive or multiplicative. In an analytic model and with examples involving HTTP non-adaptive video streaming, we show that a multiplicative model has different properties than the current additive QoE model proposed in ITU-T standards. We want to raise sensitivity in the community on multi-factor QoE models, their properties, and the need for multi-factor studies to confirm the appropriate models.\n"
+   ],
+   "doi": "10.21437/PQS.2016-10"
+  },
+  "ballesteros16_pqs": {
+   "authors": [
+    [
+     "Luis Guillermo Martinez",
+     "Ballesteros"
+    ],
+    [
+     "Markus",
+     "Örblom"
+    ],
+    [
+     "Jan",
+     "Markendahl"
+    ],
+    [
+     "Per",
+     "Skillermark"
+    ],
+    [
+     "Konrad",
+     "Tollmar"
+    ]
+   ],
+   "title": "Effects of Network Performance on Smartphone User Behavior",
+   "original": "17",
+   "page_count": 4,
+   "order": 17,
+   "p1": 79,
+   "pn": 82,
+   "abstract": [
+    "This paper presents a study that explores the relation between how the choice and use of an app depends on the network performance. While the relation between smartphone user behavior and contextual factors has been explored in previous research, the mobile networks’ influence on the smartphone user behavior is largely unknown. Through analysis of a data set collected from ~1500 users using Ericsson Apps, a logging tool for Android phones, the results show indeed that data demanding apps have a strong positive correlation between the relative usage and the network performance. For example, the results demonstrate that users are around 1.4 times more likely to use YouTube on LTE than on EDGE. This information, combined with an understanding of contextual factors, can be used to optimize networks by adapting the network performance to the user’s requirements and real levels of consumption. Furthermore, it can be possible to tune services pro-actively and improve the Quality of Experience (QoE).\n"
+   ],
+   "doi": "10.21437/PQS.2016-17"
+  },
+  "zadtootaghaj16_pqs": {
+   "authors": [
+    [
+     "Saman",
+     "Zadtootaghaj"
+    ],
+    [
+     "Hamed",
+     "Ahmadi"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Comparison of EWPSNR and MOS on an Eye-tracking Labelled Video Dataset",
+   "original": "20",
+   "page_count": 5,
+   "order": 20,
+   "p1": 92,
+   "pn": 96,
+   "abstract": [
+    "Perceptual video compression has been increasingly utilized to obtain higher compression gains by removing perceptual redundancies according to the Human Visual System (HVS). Due to non-linear complex mechanisms of the HVS, conventional quality metrics fail to assess the performance of perceptual video compressors. Therefore, subjective assessment is employed as the most reliable method for this purpose. However, it costs both time and money which consequently impedes perceptual compression development. There have been several attempts to develop perceptual objective metrics as an alternative to subjective assessments. Among them, Eye-tracking Weighted PSNR (EWPSNR) is believed to be the fairest where the gaze points are available. In this paper, we measure the correlation between EWPSNR and Mean Opinion Score (MOS) on an eye-tracking dataset to evaluate the performance of EWPSNR to predict the subjective quality.\n"
+   ],
+   "doi": "10.21437/PQS.2016-20"
+  },
+  "arndt16_pqs": {
+   "authors": [
+    [
+     "Sebastian",
+     "Arndt"
+    ],
+    [
+     "Jan Niklas",
+     "Antons"
+    ]
+   ],
+   "title": "Enhancing Video Streaming Using Real-Time Gaze Tracking",
+   "original": "2",
+   "page_count": 4,
+   "order": 2,
+   "p1": 6,
+   "pn": 9,
+   "abstract": [
+    "While users are watching videos, they can only focus and evaluate one small part of the presented video frame which is within the focal view point. Video coding however often assumes equal distribution of attention or has predefined areas of interest, regardless of where the observer is actually looking at. In this paper, we propose a system that uses real-time information of eye gaze in order to perform video coding more appropriate to the viewers’ attention focus. Using subjective quality evaluation performed after using a prototype, we show that test participants evaluate attention focus based coding better than traditional coding. On the long run this result can stimulate more research in the domain of real-time gaze based video coding.\n"
+   ],
+   "doi": "10.21437/PQS.2016-3"
+  },
+  "bencze16_pqs": {
+   "authors": [
+    [
+     "Dénes Máté",
+     "Bencze"
+    ],
+    [
+     "Axel",
+     "Lüdtke"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Analyzing the Usability and User Experience of an Adaptive Geographic Information System",
+   "original": "6",
+   "page_count": 4,
+   "order": 6,
+   "p1": 25,
+   "pn": 28,
+   "abstract": [
+    "User interfaces which adapt to user tasks, behavior and preferences are expected to be better than non-adaptive interfaces. However, so far few data is available to quantify the effect adaptivity has on usability and user experience. In this paper, we analyze this effect for a professional geographic information system. In a closed-group between-subject experimental design with expert users, we compared an adaptive and a non-adaptive version of the system with respect to effectiveness, efficiency, and attractiveness. The results show that a smart adaptation of the information presentation can increase effectiveness and efficiency as measures of usability, but did not significantly affect user experience.\n"
+   ],
+   "doi": "10.21437/PQS.2016-7"
+  },
+  "moller16_pqs": {
+   "authors": [
+    [
+     "Sebastian",
+     "Möller"
+    ],
+    [
+     "Hantang",
+     "Liu"
+    ],
+    [
+     "Axel",
+     "Spriestersbach"
+    ]
+   ],
+   "title": "Contextual Sidebar: Effect of Context Information Quality on the Usability of a Context-aware Application",
+   "original": "7",
+   "page_count": 5,
+   "order": 7,
+   "p1": 29,
+   "pn": 33,
+   "abstract": [
+    "Context-aware applications promise better usability as they make context information which is relevant to the user accessible and can thus improve interaction flow. However, the quality of the presented information, as well as the way they are presented to the user, can be expected to have an impact on whether an improvement can be achieved. In this paper, we present a quantitative assessment on the improvement for a typical productive application in which context information is presented in an adaptive sidebar. Manipulating the context information quality in terms of accuracy and completeness, our experiment shows that both have a significant effect on usability: Whereas information accuracy significantly impacts execution time, completeness affects task result accuracy and mental effort. Overall, the user experience of the context-aware application was judged to be of high pragmatic and medium-to-high hedonic quality.\n"
+   ],
+   "doi": "10.21437/PQS.2016-8"
+  },
+  "vyvey16_pqs": {
+   "authors": [
+    [
+     "Tine",
+     "Vyvey"
+    ],
+    [
+     "Elena",
+     "Nunez Castellar"
+    ],
+    [
+     "Dirk",
+     "Maes"
+    ],
+    [
+     "Bruno",
+     "Vandevelde"
+    ],
+    [
+     "Jan Van",
+     "Looy"
+    ]
+   ],
+   "title": "Perceived Intra-Frame Dynamic Range In Cinema Environments",
+   "original": "22",
+   "page_count": 5,
+   "order": 22,
+   "p1": 102,
+   "pn": 106,
+   "abstract": [
+    "Due to rapid technological progress in High Dynamic Range (HDR) video capture and display, perceived contrast by users of HDR technology is becoming increasingly important in the visual signal processing chain. More specifically, when considering a higher contrast and brightness range in a cinema context, it is essential to understand the limits of visual perception under specific cinema conditions and brightness levels. An experiment with 36 participants was conducted to test the perceivable dynamic range in a cinema environment. We investigated how the perceivable dynamic range evolves with various background levels and different strengths and shapes of local highlights. Results showed a significant effect of image composition and the average picture level on the perceivable near black dynamic range.\n"
+   ],
+   "doi": "10.21437/PQS.2016-22"
+  },
+  "kraus16_pqs": {
+   "authors": [
+    [
+     "Lydia",
+     "Kraus"
+    ],
+    [
+     "Jan Niklas",
+     "Antons"
+    ],
+    [
+     "Felix",
+     "Kaiser"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "User Experience in Authentication Research: A Survey",
+   "original": "8",
+   "page_count": 5,
+   "order": 8,
+   "p1": 34,
+   "pn": 38,
+   "abstract": [
+    "We present a structured literature survey of User Experience (UX) dimensions and influencing factors in authentication research. The survey is based on authentication papers presented between 2010 and 2015 on the major human-computer interaction (HCI) and usable privacy and security (UPS) venues. 19% of the found papers include UX topics. Those papers show that there is a variety of ways how authentication research can profit from UX. Nevertheless, UX is often rather a by-product and not recognized as a field of study. We further discuss opportunities and challenges of including UX in authentication research. \n"
+   ],
+   "doi": "10.21437/PQS.2016-12"
+  },
+  "robitza16_pqs": {
+   "authors": [
+    [
+     "Werner",
+     "Robitza"
+    ],
+    [
+     "Sabine",
+     "Schönfellner"
+    ],
+    [
+     "Alexander",
+     "Raake"
+    ]
+   ],
+   "title": "A Theoretical Approach to the Formation of Quality of Experience and User Behavior in Multimedia Services",
+   "original": "9",
+   "page_count": 5,
+   "order": 9,
+   "p1": 39,
+   "pn": 43,
+   "abstract": [
+    "This paper presents a conceptual model that relates the quality formation process—as established in literature—to human behavior in multimedia consumption. It gives theoretical definitions of behavioral aspects to allow a common understanding of the terms in the User Experience and Quality of Experience communities. The work creates a basis for the predictive modeling of behavior, identifies challenges for its practical assessment, and poses research questions that will need to be answered.\n"
+   ],
+   "doi": "10.21437/PQS.2016-9"
+  },
+  "koster16_pqs": {
+   "authors": [
+    [
+     "Friedemann",
+     "Köster"
+    ],
+    [
+     "Gabriel",
+     "Mittag"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Non-intrusive Estimation of Noisiness as a Perceptual Quality Dimension of Transmitted Speech",
+   "original": "16",
+   "page_count": 5,
+   "order": 16,
+   "p1": 74,
+   "pn": 78,
+   "abstract": [
+    "This article presents a new approach to the non-intrusive quality estimation of transmitted speech. Traditional estimation methods exhibit limitations to providing diagnostic information and for practical monitoring purposes. The new approach merges solutions to overcome the existing limitations and intends to provide a new user-friendly estimator. We present an overview and the planned structure of the proposed model. In order to provide diagnostic information, the method of assessing perceptual quality-relevant dimensions is applied. One of these quality dimensions is Noisiness, which describes degradations like background noise, circuit noise, or coding noise. As a fundamental component of the proposed model, a non-intrusive parametric Noisiness estimator is presented. The estimator is based on nine different features extracted from the output signal only. Using a linear regression, the features are mapped onto the Noisiness. The Noisiness estimator is trained on two and tested on three individual subjective databases. In addition, the performance of the resulting estimator is compared to the diagnostic intrusive estimator DIAL (Diagnostic Intrusive Assessment of Listening quality). The results prove that the presented estimator provides high reliability and indicate the applicability and value for non-intrusive diagnostic quality estimation.\n"
+   ],
+   "doi": "10.21437/PQS.2016-16"
+  },
+  "kara16_pqs": {
+   "authors": [
+    [
+     "Peter",
+     "Kara"
+    ],
+    [
+     "Peter",
+     "Tamas Kovacs"
+    ],
+    [
+     "Maria G.",
+     "Martini"
+    ],
+    [
+     "Attila",
+     "Barsi"
+    ],
+    [
+     "Kristof",
+     "Lackner"
+    ],
+    [
+     "Tibor",
+     "Balogh"
+    ]
+   ],
+   "title": "Viva la Resolution: The Perceivable Differences between Image Resolutions for Light Field Displays",
+   "original": "23",
+   "page_count": 5,
+   "order": 23,
+   "p1": 107,
+   "pn": 111,
+   "abstract": [
+    "As 3D display technologies are becoming more and more common in commercial, everyday usage, a special type of 3D known as projection-based light field displays is emerging as well. While holding many key characteristics such as field of view or angular resolution, traditional image resolution also plays a major role in the overall determination of user experience, similarly to 2D displays. The paper investigates the perceivable differences between display resolutions, and presents the acceptability of resolution degradation should it be visible. A total of 20 test participants provided subjective assessment in a series of pair comparisons between 5 resolutions for various stimuli. Beyond mean scores, the results are presented in terms of score distribution in this analysis, separately for each and every stimulus.\n"
+   ],
+   "doi": "10.21437/PQS.2016-23"
+  },
+  "felipesantos16_pqs": {
+   "authors": [
+    [
+     "João",
+     "Felipe Santos"
+    ],
+    [
+     "Rachel",
+     "Bouserhal"
+    ],
+    [
+     "Jeremie",
+     "Voix"
+    ],
+    [
+     "Tiago",
+     "Falk"
+    ]
+   ],
+   "title": "Objective Speech Quality Estimation of In-Ear Microphone Speech",
+   "original": "15",
+   "page_count": 5,
+   "order": 15,
+   "p1": 69,
+   "pn": 73,
+   "abstract": [
+    "Speech captured from an in-ear microphone (IEM) under an intra-aural device is beneficial in extremely noisy environments as it maintains a relatively high signal to noise ratio. Due to its limited bandwidth, speech enhancement is required in order to obtain a more natural speech. Consequently, quick and practical measurement of speech quality is important. In this paper, we compare the performance of the quality of intrusive and non-intrusive objective quality metrics on IEM speech, and propose an adaptation of a non-intrusive metric, the speech-to-reverberation modulation energy ratio (SRMR) to IEM speech signals. Changes are implemented to take into account the effect of the occluded ear on the recorded speech signals, which causes an amplification in the bone conduction sounds in the ear canal. We show that the updated SRMR metric, SRMRIEM, significantly reduces the performance gap between nonintrusive and intrusive metrics.\n"
+   ],
+   "doi": "10.21437/PQS.2016-15"
+  },
+  "lungaro16_pqs": {
+   "authors": [
+    [
+     "Pietro",
+     "Lungaro"
+    ],
+    [
+     "Konrad",
+     "Tollmar"
+    ]
+   ],
+   "title": "Eye-gaze Based Service Provision and QoE Optimization",
+   "original": "1",
+   "page_count": 5,
+   "order": 1,
+   "p1": 1,
+   "pn": 5,
+   "abstract": [
+    "This paper presents an innovative approach to the optimization of multimedia content delivery for future data intensive services, featuring an eye-gaze based paradigm for mobile video provision. The proposed solution uses real-time eyegaze information, collected by connected eye-trackers, to provide high resolution in the portion of a video frame corresponding to the central part of a user's field of view and lower quality in the areas corresponding to the user's peripheral vision. This approach brings new optimization opportunities, leading to significant reduction in terms of network and device resources needed to deliver high quality experience to the users. The initial results showed potential bandwidth savings on the order of 60%, while maintaining high levels of user perceived video quality. Relevant areas of application include head mounted displays for mobile virtual and augmented reality, where substantial resource consumption savings are anticipated due to their high screen resolutions. The paper also introduces and discusses few architectural embodiments as well as additional services enabled by this technology. The main focus is on utilizing the vast amount of eye-gaze information, accumulated during content provision, to build representative models for individual users’ attention and content consumption behaviors.\n"
+   ],
+   "doi": "10.21437/PQS.2016-2"
+  },
+  "schultheis16_pqs": {
+   "authors": [
+    [
+     "Ruth",
+     "Schultheis"
+    ],
+    [
+     "Sara",
+     "Kepplinger"
+    ],
+    [
+     "Frank",
+     "Hofmeyer"
+    ],
+    [
+     "Nikolaus",
+     "Hottong"
+    ]
+   ],
+   "title": "Exemplary Test Design and Evaluation of an Autostereoscopic 3DTV considering Display Operating Parameters",
+   "original": "29",
+   "page_count": 5,
+   "order": 29,
+   "p1": 137,
+   "pn": 141,
+   "abstract": [
+    "This paper addresses the influences of standard operating parameters like backlight, contrast, sharpness, etc. of an autostereoscopic display on subjective quality, in the absence of transmission quality impairments (best case reference). Therefore, a useful test environment is specified and applied. Results show that the influences of different display setups are distinguishable from each other but, test sequences have a crucial impact on this. In a further step other configurations and displays should be investigated.\n"
+   ],
+   "doi": "10.21437/PQS.2016-29"
+  },
+  "msaknil16_pqs": {
+   "authors": [
+    [
+     "Hajer Gahbiche",
+     "Msaknil"
+    ],
+    [
+     "Habib",
+     "Youssef"
+    ]
+   ],
+   "title": "Impact of user emotion and video content on video Quality of Experience",
+   "original": "21",
+   "page_count": 5,
+   "order": 21,
+   "p1": 97,
+   "pn": 101,
+   "abstract": [
+    "The measurement of Quality of Experience is largely assessed using the Mean Opinion Score (MOS) that has been defined in telecommunication domain. It is known that MOS measurement focuses on system influencing factors, and strives to filter-out human, contextual and content factors. However, the emerging conceptualization of QoE gives attention to non-functional factors. These factors are known to play a central role in user experience and still largely unexplored in context of Quality of Experience (QoE) and User Experience (User Experience). This paper analyses the impact of human emotion and video content on the measured QoE. The emotional state of subjects is evaluated after and before each visualized video sequence. A statistical analysis is realized in order to identify the importance of emotion state and video content type in shaping QoE.\n"
+   ],
+   "doi": "10.21437/PQS.2016-21"
+  },
+  "mourelatos16_pqs": {
+   "authors": [
+    [
+     "Vaggelis",
+     "Mourelatos"
+    ],
+    [
+     "Manolis",
+     "Tzagarakis"
+    ]
+   ],
+   "title": "Worker's Cognitive Abilities and Personality Traits as Predictors of Effective Task Performance on Crowdsourcing Tasks",
+   "original": "24",
+   "page_count": 5,
+   "order": 24,
+   "p1": 112,
+   "pn": 116,
+   "abstract": [
+    "The increased popularity of crowdsourcing platforms raises today interesting questions with respect to the better definition, initiation, management and quality of work of crowdsourced tasks. Factors that influence the quality of work in crowdsourced tasks is in particular important as low quality has been reported as a major drawback of this new kind of labor. In this paper we investigate the impact of different cognitive and non-cognitive worker skills on the quality of work they provide in such environments. We conducted an experiment on a popular crowdsourcing site and the obtained results providing evidence that the performance of workers in such environments depends on three basic components namely work effort, character skills and cognitive skills as well as on the GDP per capita of the country of origin.\n"
+   ],
+   "doi": "10.21437/PQS.2016-24"
+  },
+  "sackl16_pqs": {
+   "authors": [
+    [
+     "Andreas",
+     "Sackl"
+    ],
+    [
+     "Bruno",
+     "Gardlo"
+    ],
+    [
+     "Raimund",
+     "Schatz"
+    ]
+   ],
+   "title": "Size does matter. Comparing the results of a lab and a crowdsourcing file download QoE study\t",
+   "original": "27",
+   "page_count": 5,
+   "order": 27,
+   "p1": 127,
+   "pn": 131,
+   "abstract": [
+    "Over the last couple of years, crowdsourcing has become a widely used method for conducting subjective QoE experiments over the Internet. However, the scope of crowdsourced QoE experiments so far has been mostly limited to video and image quality testing, despite the existence of many other relevant application categories.\nIn this paper we demonstrate the applicability of crowdsourced QoE testing to the case of file downloads. We conducted several campaigns in which participants had to download large (10-50MB) media files (with defined waiting times) and subsequently rate their QoE. The results are compared with those of a lab-based file download QoE study featuring an equivalent design.\nOur results show that crowdsourced QoE testing can also be applied to file downloads with a size of 10 MB as rating results are very similar to the lab. However, beyond user reliability checks and filtering, we found the study design to be a highly critical element as it exerted strong influence on overall participant behavior. For this reason we also present a discussion of valuable lessons learned in terms of test design and participant behavior.\n"
+   ],
+   "doi": "10.21437/PQS.2016-27"
+  },
+  "seufert16_pqs": {
+   "authors": [
+    [
+     "Michael",
+     "Seufert"
+    ],
+    [
+     "Tobias",
+     "Hoßfeld"
+    ]
+   ],
+   "title": "One Shot Crowdtesting: Approaching the Extremes of Crowdsourced Subjective Quality Testing",
+   "original": "26",
+   "page_count": 5,
+   "order": 26,
+   "p1": 122,
+   "pn": 126,
+   "abstract": [
+    "Crowdsourcing studies for subjective quality testing have become a particularly useful tool for Quality of Experience researchers. Typically, crowdsouring studies are conducted by many unsupervised workers, which rate the perceived quality of several test conditions during one session (mixed within-subject test design). However, those studies often show to be very sensitive, for example, to test instructions, design, and filtering of unreliable participants. Moreover, the exposure of several test conditions to single workers potentially leads to an implicit training and anchoring of ratings. Therefore, this works investigates the extreme case of presenting only a single test condition to each worker (completely between-subjects test design). The results are compared to a typical crowdsourcing study design with multiple test conditions to discuss training effects in crowdsourcing studies. Thus, this work investigates if it is possible to use a simple 'one shot' design with only one rating of a large number of workers instead of sophisticated (mixed or within-subject) test designs in crowdsourcing.\n"
+   ],
+   "doi": "10.21437/PQS.2016-26"
+  },
+  "zhang16_pqs": {
+   "authors": [
+    [
+     "Chenyan",
+     "Zhang"
+    ],
+    [
+     "Aud Sissel",
+     "Hoel"
+    ],
+    [
+     "Andrew",
+     "Perkis"
+    ]
+   ],
+   "title": "Experiential Qualities and Quality of Experience in Storytelling, and Their Measurability\t",
+   "original": "11",
+   "page_count": 5,
+   "order": 11,
+   "p1": 49,
+   "pn": 53,
+   "abstract": [
+    "In this paper, we first argue that \"experiential quality\" and \"Quality of Experience\" are synonymous concepts, bridging the gap of quality assessment between design and storytelling with multimedia systems. We then survey the literature where experiential qualities play a significant role in interaction design and storytelling. Finally, we summarize the available measurements of experiential qualities and categorize them into four dimensions, namely, qualitative vs. quantitative, subjective vs. objective, design-based measures vs. neuropsychological-based measures, and systems approach vs. human factors approach, with a hope of further inferring and improving the measurability and predictability of \"experiential qualities\" and including this in future QoE assessment methodologies for sensor based digital storytelling in future studies.\n"
+   ],
+   "doi": "10.21437/PQS.2016-11"
+  },
+  "vucic16_pqs": {
+   "authors": [
+    [
+     "Dunja",
+     "Vucic"
+    ],
+    [
+     "Lea",
+     "Skorin-Kapov"
+    ],
+    [
+     "Mirko",
+     "Suznjevic"
+    ]
+   ],
+   "title": "The impact of bandwidth limitations and video resolution size on QoE for WebRTC-based mobile multi-party video conferencing",
+   "original": "13",
+   "page_count": 5,
+   "order": 13,
+   "p1": 59,
+   "pn": 63,
+   "abstract": [
+    "Multi-party video conferencing is a highly delay-sensitive and resource-intensive service. A key challenge faced by service providers is meeting end user Quality of Experience (QoE) requirements given bandwidth limitations, especially in mobile networks. Service adaptation mechanisms may thus be employed to adapt the audiovisual quality so as to meet current network conditions and resource availability. In this paper we report on a subjective user study involving threeparty audiovisual conversations established via mobile devices and aimed to investigate the impact of different video resolutions on QoE. We also investigate how different bandwidth limitations impact QoE for different video resolutions. The calls were established using a Web-based Real-Time Communication (WebRTC) application running on the Licode Multipoint Control Unit.\n"
+   ],
+   "doi": "10.21437/PQS.2016-13"
+  },
+  "reimes16_pqs": {
+   "authors": [
+    [
+     "Jan",
+     "Reimes"
+    ]
+   ],
+   "title": "Instrumental Assessment of Near-end Perceived Listening Effort",
+   "original": "14",
+   "page_count": 5,
+   "order": 14,
+   "p1": 64,
+   "pn": 68,
+   "abstract": [
+    "Communication in noisy situations may be extremely stressful for the person located at the near-end side. Since the background noise is originated from the natural environment, it cannot be reduced for the listener. Thus the only possibility to improve this scenario with support of digital signal processing is the insertion of speech enhancement algorithms in the down-link direction of terminals. So far no measurement technique is available to evaluate the impact of signal processing like so-called \"near-end listening enhancements\" (NELE), artificial bandwidth extension or additional noise reduction. For mobile phones, acoustic testing in down-link direction is always carried out in silence condition. However, in several state-of-the-art devices, these enumerated algorithms are already included. This implies that a device may behave differently under noisy conditions than in silence, e.g. since NELE algorithms may be triggered by a certain noise level and/or spectrum. Whenever speech processing is inserted into a conversation, quality aspects must also be regarded. A satisfactory balance between speech quality and listening effort is desirable from the user's point of view. This includes that any down-link signal processing should presume a minimum quality, depending on the environmental noise respectively on the current signal-to-noise ratio (SNR). Auditory experiments addressing these topics can be used to develop a new instrumental method for the evaluation of down-link signal processing. This contribution presents a proposal for the prediction of listening effort as a first step.\n"
+   ],
+   "doi": "10.21437/PQS.2016-1"
+  },
+  "fiebig16_pqs": {
+   "authors": [
+    [
+     "Alexander",
+     "Fiebig"
+    ],
+    [
+     "Marc",
+     "Halbrügge"
+    ],
+    [
+     "Lydia",
+     "Kraus"
+    ]
+   ],
+   "title": "User Experience Measurement of a Static Website Compared to a Responsive Website Using AttrakDiff Mini",
+   "original": "18",
+   "page_count": 4,
+   "order": 18,
+   "p1": 83,
+   "pn": 86,
+   "abstract": [
+    "The increasing use of mobile devices with internet access poses new challenges to website design. Because of the frequent introduction of new devices and the variety of their respective form factors, the website’s quality of experience can hardly be maintained across the range of devices. A promising solution to this problem is responsive web design. Responsive websites adapt to the display resolution of the currently used device. While responsive design has been embraced by the engineering community, its benefits regarding user experience are still lacking empirical evidence. This paper presents a user study that sheds light on the effect of a responsive redesign of a large company’s website on its quality of experience.\n"
+   ],
+   "doi": "10.21437/PQS.2016-18"
+  },
+  "hosu16_pqs": {
+   "authors": [
+    [
+     "Vlad",
+     "Hosu"
+    ],
+    [
+     "Franz",
+     "Hahn"
+    ],
+    [
+     "Igor",
+     "Zingman"
+    ],
+    [
+     "Dietmar",
+     "Saupe"
+    ]
+   ],
+   "title": "Reported Attention as a Promising Alternative to Gaze in IQA Tasks",
+   "original": "25",
+   "page_count": 5,
+   "order": 25,
+   "p1": 117,
+   "pn": 121,
+   "abstract": [
+    "We study the use of crowdsourcing for self-reported attention in image quality assessment (IQA) tasks. We present the results from two crowdsourcing campaigns: one where participants indicated via mouse clicks the image locations that influenced their rating of quality, and another where participants chose locations they looked at in a free-viewing setting. The results are compared to in-lab eye tracking experiments. Our analysis shows a strong connection between the in-lab and self-reported IQA locations. This suggests that crowdsourced studies are an affordable and valid alternative to eye tracking for IQA tasks.\n"
+   ],
+   "doi": "10.21437/PQS.2016-25"
+  },
+  "schmitt16_pqs": {
+   "authors": [
+    [
+     "Marwin",
+     "Schmitt"
+    ],
+    [
+     "Judith",
+     "Redi"
+    ],
+    [
+     "Pablo",
+     "Cesar"
+    ]
+   ],
+   "title": "Towards context-aware interactive Quality of Experience evaluation for audiovisual multiparty conferencing",
+   "original": "12",
+   "page_count": 5,
+   "order": 12,
+   "p1": 54,
+   "pn": 58,
+   "abstract": [
+    "In modern video conferencing services, just as in common video delivery, most of the resource optimization is taken care of in the codec layer. Modern codecs like H.264 use detailed perceptual models to optimize the data reduction in way that it is least noticed by us. Already early evaluations of telecommunication systems could establish that there are different thresholds for a good quality depending on the situation. It is further known that subjective quality perceptions vary from user to user. But the space of user and context factors is still largely unexplored. To gain insight in which parameters are key in differentiating quality perception, we need to explore the interaction in different situations while keeping a tight control over the system parameters. In this paper we explore how clustering participants by their interaction or rating behavior can reveal subgroups that show significantly different perception of the QoE delivered by the same videoconferencing system. While for a cluster of users we find video quality to influence other QoE dimensions such as audio, for another cluster this is not the case. We explore whether this effect is due to conversational dynamics (contextual factor) or individual preferences (user factor) and discuss what this would mean for the design of future video-conferencing systems, that want to dynamically adapt to situation and participants.\n",
+    ""
+   ],
+   "doi": "10.21437/PQS.2016-14"
+  },
+  "cinar16_pqs": {
+   "authors": [
+    [
+     "Yusuf",
+     "Cinar"
+    ],
+    [
+     "Hugh",
+     "Melvin"
+    ],
+    [
+     "Peter",
+     "Pocta"
+    ],
+    [
+     "Mohannad",
+     "Alahmadi"
+    ]
+   ],
+   "title": "Containerisation in Multimedia Research Test Beds",
+   "original": "30",
+   "page_count": 4,
+   "order": 30,
+   "p1": 142,
+   "pn": 145,
+   "abstract": [
+    "This paper proposes an innovative, flexible, and easily reproducible test bed that facilitates large scale multimedia (MM) quality centric experiments. It makes use of Linux container technologies and several other utilities that collectively facilitate ease of deployment, minimal resource utilisation and better reproducibility. We outline the significant advantages of this approach over physical test beds, virtual machines and simulation and showcase it in an experiment dealing with speech quality aspects of WebRTC using the state-of-the-art quality prediction model, i.e. POLQA. However, it can be easily extended for any type of real time communication (RTC) and MM content. The particular test bed involves a single host on which multiple WebRTC based VoIP endpoints run within Linux containers. The test bed also comprises a native network emulator running between the endpoints. Several other tools are additionally incorporated in the test bed so that speech quality of the transmitted signal can be evaluated using objective quality prediction models, such as PESQ, POLQA, etc.\n"
+   ],
+   "doi": "10.21437/PQS.2016-30"
+  },
+  "alahmadi16_pqs": {
+   "authors": [
+    [
+     "Mohannad",
+     "Alahmadi"
+    ],
+    [
+     "Yusuf",
+     "Cinar"
+    ],
+    [
+     "Hugh",
+     "Melvin"
+    ],
+    [
+     "Peter",
+     "Pocta"
+    ]
+   ],
+   "title": "Investigating the Extent and Impact of Time-Scaling in WebRTC Voice Over IP Traffic Under Light, Moderate and Heavily Congested Wi-Fi APs",
+   "original": "19",
+   "page_count": 5,
+   "order": 19,
+   "p1": 87,
+   "pn": 91,
+   "abstract": [
+    "Real-time communication (RTC) applications like VoIP ideally require networks that support the necessary quality of service (QoS) whereas the reality is that network impairments such as latency, jitter and packet loss exist. In order to cope with jitter and delay, some VoIP applications employ time-scale modification or warping in the jitter buffer that adjusts the rate of playout while controlling the pitch to minimize Mouth-to-Ear (M2E) delay whilst preserving speech intelligibility and quality. In this paper, we firstly investigate the extent to which timescaling occurs using WebRTC [1] VoIP clients over Wi-Fi networks with different levels of congestion. We then assess the impact of such time-scaling, both subjectively via expert listening test and objectively using POLQA, on quality experienced by the end user, and review the correlation between scores.\n"
+   ],
+   "doi": "10.21437/PQS.2016-19"
+  },
+  "schaffer16_pqs": {
+   "authors": [
+    [
+     "Stefan",
+     "Schaffer"
+    ],
+    [
+     "Rene",
+     "Kelpin"
+    ],
+    [
+     "Norbert",
+     "Reithinger"
+    ]
+   ],
+   "title": "Longitudinal User Experience of a Mobile Service",
+   "original": "28",
+   "page_count": 5,
+   "order": 28,
+   "p1": 132,
+   "pn": 136,
+   "abstract": [
+    "In this paper we examine influencing factors and changes of perceived longitudinal user experience. An implemented mobility app for Berlin was tested in a three month field trial. The app offers unique features for bicyclists and integrates a gamification concept. The study consisted of three game phases. Each phase was completed by a demographic and a user experience questionnaire. Possible differences resulting from differing gamification incentives between acquired participants and voluntary participants could not be found. Further, general changes in subjective long-term user experience could not be detected. The results reveal several significant effects of age, gender, and specific user groups on pragmatic quality, attractiveness, and hedonic qualities.\n"
+   ],
+   "doi": "10.21437/PQS.2016-28"
+  },
+  "hirth16_pqs": {
+   "authors": [
+    [
+     "Matthias",
+     "Hirth"
+    ],
+    [
+     "Fabian",
+     "Allendorf"
+    ],
+    [
+     "Florian",
+     "Metzger"
+    ],
+    [
+     "Christian",
+     "Schwartz"
+    ]
+   ],
+   "title": "Assessing the Accuracy of Network Estimations in the DOTA 2 Game Client",
+   "original": "5",
+   "page_count": 5,
+   "order": 5,
+   "p1": 20,
+   "pn": 24,
+   "abstract": [
+    "Online video games and the subjective quality of player interactions with them rely on good network conditions. Almost equally important is a good and timely knowledge of such conditions in order to take proper countermeasures to worsening conditions. To this end, many online video games include components for estimating the current network status. In this paper, we examine the accuracy of those estimations for the popular competitive multiplayer game DOTA 2. Our results show that the game client is capable of performing a good estimation of the delay and packet loss, but only after a rather large initial delay.\n"
+   ],
+   "doi": "10.21437/PQS.2016-6"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Eye",
+   "papers": [
+    "lungaro16_pqs",
+    "arndt16_pqs"
+   ]
+  },
+  {
+   "title": "Special Session: Gaming",
+   "papers": [
+    "suznjevic16_pqs",
+    "metzger16_pqs",
+    "hirth16_pqs"
+   ]
+  },
+  {
+   "title": "HCI",
+   "papers": [
+    "bencze16_pqs",
+    "moller16_pqs",
+    "kraus16_pqs"
+   ]
+  },
+  {
+   "title": "Fundamentals",
+   "papers": [
+    "robitza16_pqs",
+    "hofeld16_pqs",
+    "zhang16_pqs",
+    "schmitt16_pqs"
+   ]
+  },
+  {
+   "title": "Audio & Conferencing",
+   "papers": [
+    "vucic16_pqs",
+    "reimes16_pqs",
+    "felipesantos16_pqs",
+    "koster16_pqs"
+   ]
+  },
+  {
+   "title": "Networking",
+   "papers": [
+    "ballesteros16_pqs",
+    "fiebig16_pqs",
+    "alahmadi16_pqs"
+   ]
+  },
+  {
+   "title": "Video",
+   "papers": [
+    "zadtootaghaj16_pqs",
+    "msaknil16_pqs",
+    "vyvey16_pqs",
+    "kara16_pqs"
+   ]
+  },
+  {
+   "title": "Special Session:Crowd",
+   "papers": [
+    "mourelatos16_pqs",
+    "hosu16_pqs",
+    "seufert16_pqs",
+    "sackl16_pqs"
+   ]
+  },
+  {
+   "title": "Methodology",
+   "papers": [
+    "schaffer16_pqs",
+    "schultheis16_pqs",
+    "cinar16_pqs"
+   ]
+  }
+ ],
+ "doi": "10.21437/PQS.2016"
+}

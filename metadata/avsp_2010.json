@@ -1,0 +1,1473 @@
+{
+ "location": "Hakone, Kanagawa, Japan",
+ "startDate": "30/9/2010",
+ "endDate": "3/10/2010",
+ "conf": "AVSP",
+ "year": "2010",
+ "name": "avsp_2010",
+ "series": "AVSP",
+ "SIG": "AVISA",
+ "title": "Auditory-Visual Speech Processing",
+ "title1": "Auditory-Visual Speech Processing",
+ "date": "30 September - 3 October 2010",
+ "papers": {
+  "kobayashi10_avsp": {
+   "authors": [
+    [
+     "Tetsunori",
+     "Kobayashi"
+    ]
+   ],
+   "title": "Robot as a multimodal human interface device",
+   "original": "abs1",
+   "page_count": 1,
+   "order": 1,
+   "p1": "paper K1",
+   "pn": "",
+   "abstract": [
+    "In this talk, we introduce a robot conversation system. Generally speaking, the conversation is not performed only through the exchange of speech information. It needs the exchange of visual information: facial expressions, body poses, and gestures convey rich information to achieve natural conversation. In this context, the body and the vision system of the robot, can be regard as the essential components for the conversational communication system. Here, we first emphasize the importance of visual information processing especially in sending/receiving the nuance of utterances and expressing/recognizing the role structure of participants. Then, we describe the implementation of these visual functions. We also mention about the cooperative use of the visual information along with the audio information. Finally, we show you the conversation robot SCHEMA which achieves natural conversation through the auditory-visual information processing.\n",
+    ""
+   ]
+  },
+  "csibra10_avsp": {
+   "authors": [
+    [
+     "Gergely",
+     "Csibra"
+    ]
+   ],
+   "title": "What do human infants expect when adults communicate to them?",
+   "original": "abs2",
+   "page_count": 1,
+   "order": 2,
+   "p1": "paper K2",
+   "pn": "",
+   "abstract": [
+    "While social learning and communication are both widespread in non-human animals, social learning by communication is probably human specific. Humans can and do transmit generic knowledge to each other about animal and artefact kinds, conventional behaviours to be used in specific situations, arbitrary referential symbols, cognitively opaque skills, and know-how embedded in means-end actions. These kinds of cultural contents can be transmitted by either linguistic communication or nonverbal demonstrations, and such types of knowledge transmission contribute to the stability of cultural forms across generations.\n",
+    "In a series of studies, we have shown that human infants are prepared to be at the receptive side of such communicative knowledge transfer, which, together with adults' inclination to pass on their knowledge to the next generation, constitute a system of 'natural pedagogy' [1] in humans. This talk will provide an overview of recent counterintuitive findings that suggest that human infants process the same information differently when it is presented to them by ostensive communication or outside a communicative context. When toddlers observe an individual expressing emotional attitudes towards objects, they attribute the corresponding preferences to her, but not to others. However, when these attitude expressions are performed for them, they generalize the corresponding preferences to other people [2]. Even younger infants tend to encode kind-relevant properties, like shape and colour, of objects at the expense of ignoring their episodic properties, like their location and numerosity, when the objects deictically referred by a communicator [3]. We have also found that infants represent artefacts in terms of their demonstrated function, but only if this demonstration occurs in a communicative context [4]. Infants also more likely to categorize objects on the basis of communicated, as opposed to simply observed, information.\n",
+    "These results suggest that communicative contexts make infants search for potentially generalizable semantic information, as if they expected to learn something. These perceptual and cognitive biases allow human infants to pay special attention to, and learn from, potential teachers, and assist the acquisition of cultural knowledge in a uniquely human way: by communication.\n",
+    "[1] Csibra, G. and Gergely, G. \"Natural Pedagogy\", Trends in Cognitive Sciences, 13, 148-153, 2009. \n",
+    "[2] Egyed, K., Király, I. and Gergely, G. \"Communicating shared knowledge without language in infancy\", manuscript submitted for publication. \n",
+    "[3] Yoon, J. M. D., Johnson, M. H. and Csibra, G. \"Communication-induced memory biases in preverbal infants\", Proceedings of the National Academy of Sciences of the United States of America, 105, 13690-13695, 2008. \n",
+    "[4] Futó, J., Téglás, E., Csibra, G. and Gergely, G. \"Communicative function demonstration\n",
+    ""
+   ]
+  },
+  "navarathna10_avsp": {
+   "authors": [
+    [
+     "Rajitha",
+     "Navarathna"
+    ],
+    [
+     "David",
+     "Dean"
+    ],
+    [
+     "Patrick",
+     "Lucey"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ],
+    [
+     "Clinton",
+     "Fookes"
+    ]
+   ],
+   "title": "Cascading appearance-based features for visual voice activity detection",
+   "original": "1",
+   "page_count": 5,
+   "order": 3,
+   "p1": "paper S1-1",
+   "pn": "",
+   "abstract": [
+    "The detection of voice activity is a challenging problem, especially when the level of acoustic noise is high. Most current approaches only utilise the audio signal, making them susceptible to acoustic noise. An obvious approach to overcome this is to use the visual modality. The current state-of-the-art visual feature extraction technique is one that uses a cascade of visual features (i.e. 2D-DCT, feature mean normalisation, interstep LDA). In this paper, we investigate the effectiveness of this technique for the task of visual voice activity detection (VAD), and analyse each stage of the cascade and quantify the relative improvement in performance gained by each successive stage. The experiments were conducted on the CUAVE database and our results highlight that the dynamics of the visual modality can be used to good effect to improve visual voice activity detection performance.\n",
+    "",
+    "",
+    "Index Terms: visual speech, voice activity detection, CUAVE database, static features, dynamic features\n",
+    ""
+   ]
+  },
+  "yoshida10_avsp": {
+   "authors": [
+    [
+     "Takami",
+     "Yoshida"
+    ],
+    [
+     "Kazuhiro",
+     "Nakadai"
+    ]
+   ],
+   "title": "Audio-visual speech recognition system for a robot",
+   "original": "2",
+   "page_count": 6,
+   "order": 4,
+   "p1": "paper S1-2",
+   "pn": "",
+   "abstract": [
+    "Automatic Speech Recognition (ASR) for a robot should be robust for noises because a robot works in noisy environments. Audio-Visual (AV) integration is one of the key ideas to improve its robustness in such environments. This paper proposes AV integration for an ASR system for a robot which applies AV integration to Voice Activity Detection (VAD) and speech decoding. In VAD, we apply AV-integration based on a Bayesian network and in speech decoding, we apply AV-integration based on stream weights. We implemented a pro- totype AV-ASR system based on our proposed method and evaluated the system in several conditions. Preliminary results showed that the proposed system improves the robustness of ASR even in auditorily- or visually-contaminated situations.\n",
+    "",
+    "",
+    "Index Terms: audio-visual integration, speech recognition, voice activity detection\n",
+    ""
+   ]
+  },
+  "chaloupka10_avsp": {
+   "authors": [
+    [
+     "Josef",
+     "Chaloupka"
+    ],
+    [
+     "Jan",
+     "Nouza"
+    ]
+   ],
+   "title": "Audio-visual television broadcast programs processing, transcription, indexing and searching",
+   "original": "3",
+   "page_count": 5,
+   "order": 5,
+   "p1": "paper S1-3",
+   "pn": "",
+   "abstract": [
+    "This paper describes the development of a system for automatic television broadcast news processing, transcription and indexing. The main task of our system is automatic transcription of television broadcast programs from audio signal. The transcribed recordings are indexed and saved to the database, therefore as the second task we have created the web-system for searching in the database. It is possible to search information in the database according to key words (sentences) or according to who was a speaker. Time boundaries of single words or audio segments are saved to the database too during the indexing phase of the processing, therefore we can compare found information from the database with the original recording very easily. The visual information from television recordings is processed in our system too. The modules for visual signal segmentation, for face detection and identification, and for visual speech detection have been added to the transcription system. Indexed recognized visual information is saved to the database together with the information from acoustic signal and it is included in the searching web-system.\n",
+    "",
+    "",
+    "Index Terms: audio-visual television broadcast transcription, visual signal segmentation, visual speaker identification\n",
+    ""
+   ]
+  },
+  "takeuchi10_avsp": {
+   "authors": [
+    [
+     "Shin'ichi",
+     "Takeuchi"
+    ],
+    [
+     "Takashi",
+     "Hashiba"
+    ],
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Satoru",
+     "Hayamizu"
+    ]
+   ],
+   "title": "Decision fusion by boosting method for multi-modal voice activity detection",
+   "original": "4",
+   "page_count": 4,
+   "order": 6,
+   "p1": "paper S1-4",
+   "pn": "",
+   "abstract": [
+    "In this paper, we propose a multi-modal voice activity detection system (VAD) that uses audio and visual information. In multi-modal (speech) signal processing, there are two methods for fusing the audio and the visual information: concatenating the audio and visual features, and employing audioonly and visual-only classi&# 2;ers, then fusing the unimodal decisions. We investigate the effectiveness of decision fusion given by the results from AdaBoost. AdaBoost is one of the machine learning method. By using AdaBoost, the effective classi&# 2;er is constructed by combining weak classi&# 2;ers. It classi&# 2;es input data into two classes based on the weighted results from weak classi&# 2;ers. In proposed method, this fusion scheme is applied to decision fusion of multi-modal VAD. Experimental results show proposed method to generally be more effective.\n",
+    "",
+    "",
+    "Index Terms: voice activity detection, VAD, multi-modal\n",
+    ""
+   ]
+  },
+  "saitoh10_avsp": {
+   "authors": [
+    [
+     "Takeshi",
+     "Saitoh"
+    ],
+    [
+     "Ryosuke",
+     "Konishi"
+    ]
+   ],
+   "title": "A study of influence of word lip reading by change of frame rate",
+   "original": "5",
+   "page_count": 6,
+   "order": 7,
+   "p1": "paper S7-1",
+   "pn": "",
+   "abstract": [
+    "This paper discusses the influence of the word lip reading by change of the frame rate. The proposed method applies active appearance model to extract the face and several lip regions. Then, our method calculates trajectory feature and applies DP matching. We set the target words as the Japanese 25 words, and took 250 utterance scenes per a speaker from ten Japanese men. Though many of researchers on the lip reading using the utterance scene of 30fps, we took the utterance scene by 60fps. We changed the utterance scene of 60 fps to the 11 kinds of pseudo utterance scenes. Using 12 kinds of frame rates, we carried out the recognition experiments with various combinations of the difference frame rate of the learning and recognition data, and evaluated the influence of the recognition accuracy. As a result, it was found that the frame rate of the recognition data is more sensitive than that of the learning data.\n",
+    "",
+    "",
+    "Index Terms: Word lip reading, trajectory feature, frame rate\n",
+    ""
+   ]
+  },
+  "picard10_avsp": {
+   "authors": [
+    [
+     "Sébastien",
+     "Picard"
+    ],
+    [
+     "G.",
+     "Ananthakrishnan"
+    ],
+    [
+     "Preben",
+     "Wik"
+    ],
+    [
+     "Olov",
+     "Engwall"
+    ],
+    [
+     "Sherif",
+     "Abdou"
+    ]
+   ],
+   "title": "Detection of specific mispronunciations using audiovisual features",
+   "original": "6",
+   "page_count": 5,
+   "order": 8,
+   "p1": "paper S7-2",
+   "pn": "",
+   "abstract": [
+    "This paper introduces a general approach for binary classification of audiovisual data. The intended application is mispronunciation detection for specific phonemic errors, using very sparse training data. The system uses a Support Vector Machine (SVM) classifier with features obtained from a Time Varying Discrete Cosine Transform (TV-DCT) on the audio log-spectrum as well as on the image sequences. The concatenated feature vectors from both the modalities were reduced to a very small subset using a combination of feature selection methods. We achieved 95-100% correct classification for each pair-wise classifier on a database of Swedish vowels with an average of 58 instances per vowel for training. The performance was largely unaffected when tested on data from a speaker who was not included in the training.\n",
+    "",
+    "",
+    "Index Terms: Time Varying-DCT, Genetic Algorithms, MRMR, CAPT\n",
+    ""
+   ]
+  },
+  "lan10_avsp": {
+   "authors": [
+    [
+     "Yuxuan",
+     "Lan"
+    ],
+    [
+     "Barry-John",
+     "Theobald"
+    ],
+    [
+     "Richard",
+     "Harvey"
+    ],
+    [
+     "Eng-Jon",
+     "Ong"
+    ],
+    [
+     "Richard",
+     "Bowden"
+    ]
+   ],
+   "title": "Improving visual features for lip-reading",
+   "original": "7",
+   "page_count": 6,
+   "order": 9,
+   "p1": "paper S7-3",
+   "pn": "",
+   "abstract": [
+    "Automatic speech recognition systems that utilise the visual modality of speech often are investigated within a speakerdependent or a multi-speaker paradigm. That is, during training the recogniser will have had prior exposure to example speech from each of the possible test speakers. In a previous paper we highlighted the danger of not using different speakers in the training and test sets, and demonstrated that, within a speakerindependent configuration, lip-reading performance degrades dramatically due to the speaker variability encoded in the visual features. In this paper, we examine feature improvement techniques to reduce speaker variability. We demonstrate that, by careful choice of technique, the effects of inter-speaker variability in the visual features can be reduced, which improves significantly the recognition accuracy of an automated lip-reading system. However, the performance of the lip-reading system still is significantly below that of acoustic speech recognition systems, and an analysis of the confusion matrices generated by the recogniser suggests this largely is due to the number of deletions apparent in a visual-only system.\n",
+    "",
+    "",
+    "Index Terms: lip-reading, feature extraction, feature comparison, speaker variability.\n",
+    ""
+   ]
+  },
+  "schwartz10_avsp": {
+   "authors": [
+    [
+     "Jean-Luc",
+     "Schwartz"
+    ],
+    [
+     "Kaisa",
+     "Tiippana"
+    ],
+    [
+     "Tobias S.",
+     "Andersen"
+    ]
+   ],
+   "title": "Disentangling unisensory from fusion effects in the attentional modulation of Mcgurk effects: a Bayesian modeling study suggests that fusion is attention-dependent",
+   "original": "8",
+   "page_count": 5,
+   "order": 10,
+   "p1": "paper S2-1",
+   "pn": "",
+   "abstract": [
+    "The McGurk effect has been shown to be modulated by attention. However, it remains unclear whether attentional effects are due to changes in unisensory processing or in the fusion mechanism. In this paper, we used published experimental data showing that distraction of visual attention weakens the McGurk effect, to fit either the Fuzzy Logical Model of Perception (FLMP) in which the fusion mechanism is fixed, or a variant of it in which the fusion mechanism could be varied depending on attention. The latter model was associated with a larger likelihood when assessed with a Bayesian Model Selection criterion. Our findings suggest that distraction of visual attention affects fusion by decreasing the weight of the visual input.\n",
+    "",
+    "",
+    "Index Terms: McGurk effect, attention, FLMP, modeling\n",
+    ""
+   ]
+  },
+  "engwall10_avsp": {
+   "authors": [
+    [
+     "Olov",
+     "Engwall"
+    ]
+   ],
+   "title": "Is there a mcgurk effect for tongue reading?",
+   "original": "9",
+   "page_count": 6,
+   "order": 11,
+   "p1": "paper S2-2",
+   "pn": "",
+   "abstract": [
+    "Previous studies on tongue reading, i.e., speech perception of degraded audio supported by animations of tongue movements have indicated that the support is weak initially and that subjects need training to learn to interpret the movements. This paper investigates if the learning is of the animation templates as such or if subjects learn to retrieve articulatory knowledge that they already have. Matching and conflicting animations of tongue movements were presented randomly together with the auditory speech signal at three different levels of noise in a consonant identification test. The average recognition rate over the three noise levels was significantly higher for the matched audiovisual condition than for the conflicting and the auditory only. Audiovisual integration effects were also found for conflicting stimuli. However, the visual modality is given much less weight in the perception than for a normal face view, and intersubject differences in the use of visual information are large.\n",
+    "",
+    "",
+    "Index Terms: McGurk, audiovisual speech perception, augmented reality\n",
+    ""
+   ]
+  },
+  "andersen10_avsp": {
+   "authors": [
+    [
+     "Tobias S.",
+     "Andersen"
+    ]
+   ],
+   "title": "The Mcgurk illusion in the oddity task",
+   "original": "10",
+   "page_count": 4,
+   "order": 12,
+   "p1": "paper S2-3",
+   "pn": "",
+   "abstract": [
+    "Despite many studies of audiovisual integration in speech perception very few studies have addressed the issue of cross-modal response bias. Using synthetic acoustic speech, the current study demonstrates the McGurk illusion in the oddity task which is not prone to cross-modal response bias. This new method may be an useful tool for determining under which conditions audiovisual integration of speech occurs.\n",
+    "",
+    "",
+    "Index Terms: McGurk illusion, response bias\n",
+    ""
+   ]
+  },
+  "cvejic10_avsp": {
+   "authors": [
+    [
+     "Erin",
+     "Cvejic"
+    ],
+    [
+     "Jeesun",
+     "Kim"
+    ],
+    [
+     "Chris",
+     "Davis"
+    ]
+   ],
+   "title": "Abstracting visual prosody across speakers and face areas",
+   "original": "11",
+   "page_count": 6,
+   "order": 13,
+   "p1": "paper S3-1",
+   "pn": "",
+   "abstract": [
+    "Visual cues to speech prosody are available from a speaker’s face; however the form and location of such cues are likely to be inconsistent across speakers. Given this, the question arises whether such cues have enough in common to signal the same prosodic information across face areas and different speakers. To investigate this, the present study used visual-visual matching tasks requiring participants to view pairs of silent videos (with one video displaying the upper half, the other video showing the lower half of the face), and select the pair produced with the same prosody (different recorded tokens were used). Participants completed both a same-speaker (both upper and lower videos from the same speaker) and crossspeaker version (upper and lower videos originated from different speakers) of the task. Compared to same-speaker matching, performance was lower for cross-speaker matching but still much greater than chance (i.e., 50%). These results support the idea that visual correlates of prosody are encoded by perceivers as abstract, non-speaker specific cues that are transferable across repetitions, speakers and face areas.\n",
+    "",
+    "",
+    "Index Terms: visual prosody, perception, cross-speaker, same-speaker, face area, prosodic focus, prosodic phrasing.\n",
+    ""
+   ]
+  },
+  "kim10_avsp": {
+   "authors": [
+    [
+     "Jeesun",
+     "Kim"
+    ],
+    [
+     "Chris",
+     "Davis"
+    ]
+   ],
+   "title": "Emotion perception by eye and ear and halves and wholes",
+   "original": "12",
+   "page_count": 5,
+   "order": 14,
+   "p1": "paper S3-2",
+   "pn": "",
+   "abstract": [
+    "How is the perception of emotion affected by the provision of multiple sources of information (both within and across modality)? We examined how the perception of emotion differed depending upon which face regions were visible and which modality (auditory or visual, AV) was used. Auditory and visual speech of five talkers expressing anger, disgust, fear, happy, sad, surprise or neutral emotion were presented in face-only, voice-only and face-voice presentation conditions. The visual speech stimuli presented the upper, lower and whole face. The participant’s task was to judge which emotion was expressed. The results showed that the upper and lower parts of the talker’s face were not equally informative across emotion types. Also the face and voice conveyed different degrees and types of emotion information. Response confusion matrices showed that, depending on the type of emotion, the whole face pattern resembled either the upper or lower face one. For the AV face-voice stimuli, the response pattern changed depending on the relative informativeness of the unimodal signals. Based on the results, we suggest a model for how emotion information from different sources is combined to drive perception.\n",
+    "",
+    "",
+    "Index Terms: Emotion perception, Auditory-Visual perception, Emotion recognition, Visual speech, Face and voice.\n",
+    ""
+   ]
+  },
+  "tanaka10_avsp": {
+   "authors": [
+    [
+     "Akihiro",
+     "Tanaka"
+    ],
+    [
+     "Ai",
+     "Koizumi"
+    ],
+    [
+     "Hisato",
+     "Imai"
+    ],
+    [
+     "Saori",
+     "Hiramatsu"
+    ],
+    [
+     "Eriko",
+     "Hiramoto"
+    ],
+    [
+     "Beatrice de",
+     "Gelder"
+    ]
+   ],
+   "title": "Cross-cultural differences in the multisensory perception of emotion",
+   "original": "13",
+   "page_count": 5,
+   "order": 15,
+   "p1": "paper S3-3",
+   "pn": "",
+   "abstract": [
+    "Our recent study [1] showed that culture modulates the manner of the multisensory integration of affective information. Specifically, Japanese are more tuned to vocal processing than Dutch in the multisensory perception of emotion. The current study aimed to extend the findings by adding an experiment and conducting further analyses on the results of their study. In the experiments, pairs of affective faces and voices, expressing either congruent or incongruent emotion, were presented simultaneously. In Experiment 1, although the performance on the facial judgment was very high, a selective interference that angry voice interfered with judgment of happy face was found for the in-group judgment of Japanese participants. Also, the interference effect of to-be-ignored face on the judgment of vocal expressions was smaller in the Japanese group than in the Dutch group. The results suggest that Japanese are more tuned to vocal processing in the multisensory perception of emotion, regardless of whether the difficulty is matched between judgments of facial and vocal expressions. In Experiment 2, the effect of to-be-ignored voice was larger for the in-group than out-group speakers when judging the facial expression, whereas the opposite result was found in the vocal judgment. The results suggest that the relative weight of facial and vocal expressions can be modulated by the familiarity with the speakers.\n",
+    "",
+    "",
+    "Index Terms: emotion perception, cultural difference\n",
+    "",
+    "",
+    "Tanaka, A., Koizumi, A., Imai, H., Hiramatsu, S., Hiramoto, E., de Gelder, B. \"I feel your voice: Cultural differences in the multisensory perception of emotion,” Psychological Science, in press.\n",
+    ""
+   ]
+  },
+  "kanekama10_avsp": {
+   "authors": [
+    [
+     "Yori",
+     "Kanekama"
+    ],
+    [
+     "Satoko",
+     "Hisanaga"
+    ],
+    [
+     "Kaoru",
+     "Sekiyama"
+    ],
+    [
+     "Narihiro",
+     "Kodama"
+    ],
+    [
+     "Yasuhiro",
+     "Samejima"
+    ],
+    [
+     "Takao",
+     "Yamada"
+    ],
+    [
+     "Eiji",
+     "Yumoto"
+    ]
+   ],
+   "title": "Long-term cochlear implant users have resistance to noise, but short-term users don’t",
+   "original": "14",
+   "page_count": 5,
+   "order": 16,
+   "p1": "paper S4-1",
+   "pn": "",
+   "abstract": [
+    "Hearing impaired people who received cochlear implants (CI) typically need some adaptation period over several years to maximize the benefit of CI. During the adaptation period, visual speech should play an important role. Although such a role of visual speech has been largely investigated for child CI users, it is not clear for adults. Here we investigated audiovisual speech perception in people who received CI as adults. Thirteen Japanese adult CI users were tested with Japanese meaningful word lists presented in auditory-visual (AV), auditory-only (AO), and visual-only (VO) conditions. The AV and AO conditions consisted of both quiet and noisy conditions. Percent correct responses showed that the resistance to noise is developed in 4 years of CI use for AV speech perception, and in about 8 years for AO speech perception. Results also showed that AO and AV performances were generally poor when the length of hearing loss was longer than 5 years. The performance in the VO condition was not related to that in AV condition, indicating that the AV benefit is a combining effect.\n",
+    "",
+    "",
+    "Index Terms: cochlear implant, speech perception in noise, adult\n",
+    ""
+   ]
+  },
+  "attina10_avsp": {
+   "authors": [
+    [
+     "Virginie",
+     "Attina"
+    ],
+    [
+     "Guillaume",
+     "Gibert"
+    ],
+    [
+     "Eric",
+     "Vatikiotis-Bateson"
+    ],
+    [
+     "Denis",
+     "Burnham"
+    ]
+   ],
+   "title": "Production of Mandarin lexical tones: auditory and visual components",
+   "original": "15",
+   "page_count": 6,
+   "order": 17,
+   "p1": "paper S4-2",
+   "pn": "",
+   "abstract": [
+    "This paper presents a study of audio-visual production of the four Mandarin lexical tones on words in citation form and in sentences. OPTOTRAK motion capture data of the head and face of a Mandarin speaker were modelled using both PCA and guided-PCA. For each tone, correlations between F0 values and the different face and head components were calculated. Results show that there are visual parameters related to the different F0 patterns of each tone. Moreover differences were found in both duration and correlational patterns between words produced in citation and in sentential forms. The results show that there are identifiable visual correlates of lexical tone but the difference between citation and sentential forms has implications for materials used in production and perception studies of Mandarin lexical tones, and possibly those in other languages.\n",
+    "",
+    "",
+    "Index Terms: audiovisual speech production, tone languages, Mandarin, OPTOTRAK, motion capture.\n",
+    ""
+   ]
+  },
+  "newman10_avsp": {
+   "authors": [
+    [
+     "Jacob L.",
+     "Newman"
+    ],
+    [
+     "Barry-John",
+     "Theobald"
+    ],
+    [
+     "Stephen J.",
+     "Cox"
+    ]
+   ],
+   "title": "Limitations of visual speech recognition",
+   "original": "16",
+   "page_count": 4,
+   "order": 18,
+   "p1": "paper P1",
+   "pn": "",
+   "abstract": [
+    "In this paper we investigate the limits of automated lip-reading systems and we consider the improvement that could be gained were additional information from other (non-visible) speech articulators available to the recogniser. Hidden Markov model (HMM) speech recognisers are trained using electromagnetic articulography (EMA) data drawn from the MOCHA-TIMIT data set. Articulatory information is systematically withheld from the recogniser and the performance is tested and compared with that of a typical state of the art lip-reading system. We find that, as expected, the performance of the recogniser degrades as articulatory information is lost, and that a typical lip-reading system achieves a level of performance similar to an EMAbased recogniser that uses information from only the front of the tongue forwards. Our results show that there is significant information in the articulator positions towards the back of the mouth that could be exploited were it available, but even this is insufficient to achieve the same level of performance as can be achieved by an acoustic speech recogniser.\n",
+    "",
+    "",
+    "Index Terms: automated lip-reading, visual speech recognition, articulatory analysis\n",
+    ""
+   ]
+  },
+  "heracleous10_avsp": {
+   "authors": [
+    [
+     "Panikos",
+     "Heracleous"
+    ],
+    [
+     "Miki",
+     "Sato"
+    ],
+    [
+     "Carlos T.",
+     "Ishi"
+    ],
+    [
+     "Norihiro",
+     "Hagita"
+    ]
+   ],
+   "title": "Investigating the role of the Lombard reflex in visual and audiovisual speech recognition",
+   "original": "17",
+   "page_count": 4,
+   "order": 19,
+   "p1": "paper P2",
+   "pn": "",
+   "abstract": [
+    "This study focuses on the analysis of the Lombard effect in visual and audiovisual speech recognition. Previous studies have shown that the performance of an audio-only automatic speech recognizer decreases in noisy environments because of the Lombard reflex. A few studies have considered the visual changes due to the Lombard reflex, but the role of the Lombard reflex in automatic visual speech recognition has not been investigated so far. The authors show that the Lombard reflex plays an important role not only in audio, but also in automatic visual speech recognition, and this factor should be considered while designing a robust audiovisual speech recognizer.\n",
+    ""
+   ]
+  },
+  "sasou10_avsp": {
+   "authors": [
+    [
+     "Akira",
+     "Sasou"
+    ],
+    [
+     "Yasuharu",
+     "Hashimoto"
+    ],
+    [
+     "Katsuhiko",
+     "Sakaue"
+    ]
+   ],
+   "title": "Acoustic head gesture recognition and its applications",
+   "original": "18",
+   "page_count": 4,
+   "order": 20,
+   "p1": "paper P3",
+   "pn": "",
+   "abstract": [
+    "When humans communicate with each other, they use not only speech but also several gestures such as facial expression, gaze, head movements, hand movements, and body posture. In this paper, we propose a novel method for recognizing head gestures that accompany speech. The proposed method tracks head movements that accompany speech by localizing the mouth position with a microphone array system. The proposed system is based only on acoustic information and never utilizes visual information. We also propose a recognition method for the mouth-position trajectory, in which Higher- Order Local Cross Correlation is applied to the trajectory. The recognition accuracy of the proposed method was on an average 90.25% for nineteen kinds of head gesture recognition tasks conducted in an open test manner, which outperformed the Hidden Markov Model-based method.\n",
+    "",
+    "",
+    "Index Terms: head gesture recognition, higher-order local cross correlation, microphone array\n",
+    ""
+   ]
+  },
+  "shen10_avsp": {
+   "authors": [
+    [
+     "Peng",
+     "Shen"
+    ],
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Satoru",
+     "Hayamizu"
+    ]
+   ],
+   "title": "Evaluation of real-time audio-visual speech recognition",
+   "original": "19",
+   "page_count": 4,
+   "order": 21,
+   "p1": "paper P4",
+   "pn": "",
+   "abstract": [
+    "In this paper, we propose and develop a real-time audio-visual automatic continuous speech recognition system. The system utilizes live speech signals and facial images that collected from a microphone and a camera. Optical-flow-based features are used as visual feature. VAD technology and lip tracking are utilized to improve recognition accuracy. In this paper, several experiments are conducted using Japanese connected digit speech contaminated with white noise, music, television news and car engine noise. Experimental results show when the user is listening news or in a running car with window open the recognition accuracy of the proposed system are not enough. The accuracy of the proposed system is high at a place with light music or in a running car with window close.\n",
+    "",
+    "",
+    "Index Terms: speech recognition system, multi-modal, real-time, optical-flow\n",
+    ""
+   ]
+  },
+  "ishi10_avsp": {
+   "authors": [
+    [
+     "Carlos T.",
+     "Ishi"
+    ],
+    [
+     "Miki",
+     "Sato"
+    ],
+    [
+     "Norihiro",
+     "Hagita"
+    ],
+    [
+     "Shihong",
+     "Lao"
+    ]
+   ],
+   "title": "Real-time audio-visual voice activity detection for speech recognition in noisy environments",
+   "original": "20",
+   "page_count": 4,
+   "order": 22,
+   "p1": "paper P5",
+   "pn": "",
+   "abstract": [
+    "Voice activity detection (VAD) is one of the most critical issues on performance degradation of speech recognition in noisy environment applications. A real-time VAD was developed by using face parameters (eye and lip contours) as a front-end for the traditional speech and noise (audio) GMMbased method. Speech recognition performance of the audiovisual VAD is shown to be comparable with audio-only VAD, for a shopping mall background noise. Advantages and limitations of introducing the visual information are discussed.\n",
+    "",
+    "",
+    "Index Terms: voice activity detection, audio-visual, speech recognition, noisy environment, real-time.\n",
+    ""
+   ]
+  },
+  "tamura10_avsp": {
+   "authors": [
+    [
+     "Satoshi",
+     "Tamura"
+    ],
+    [
+     "Chiyomi",
+     "Miyajima"
+    ],
+    [
+     "Norihide",
+     "Kitaoka"
+    ],
+    [
+     "Takeshi",
+     "Yamada"
+    ],
+    [
+     "Satoru",
+     "Tsuge"
+    ],
+    [
+     "Tetsuya",
+     "Takiguchi"
+    ],
+    [
+     "Kazumasa",
+     "Yamamoto"
+    ],
+    [
+     "Takanobu",
+     "Nishiura"
+    ],
+    [
+     "Masato",
+     "Nakayama"
+    ],
+    [
+     "Yuki",
+     "Denda"
+    ],
+    [
+     "Masakiyo",
+     "Fujimoto"
+    ],
+    [
+     "Shigeki",
+     "Matsuda"
+    ],
+    [
+     "Tetsuji",
+     "Ogawa"
+    ],
+    [
+     "Shingo",
+     "Kuroiwa"
+    ],
+    [
+     "Kazuya",
+     "Takeda"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "CENSREC-1-AV: an audio-visual corpus for noisy bimodal speech recognition",
+   "original": "21",
+   "page_count": 4,
+   "order": 23,
+   "p1": "paper P6",
+   "pn": "",
+   "abstract": [
+    "In this paper, an audio-visual speech corpus CENSREC-1-AV for noisy speech recognition is introduced. CENSREC-1-AV consists of an audio-visual database and a baseline system of bimodal speech recognition which uses audio and visual information. In the database, there are 3,234 and 1,963 utterances made by 42 and 51 speakers as a training and a test sets respectively. Each utterance consists of a speech signal as well as color and infrared pictures around a speaker’s mouth. A baseline system is built so that a user can evaluate a proposed bimodal speech recognizer. In the baseline system, multi-stream HMMs are obtained using training data. A preliminary experiment was conducted to evaluate the baseline using acoustically noisy testing data. The results show that roughly a 35% relative error reduction was achieved in low SNR conditions compared with an audio-only ASR method.\n",
+    "",
+    "",
+    "Index Terms: audio-visual database, bimodal speech recognition, noise robustness, eigenface, optical flow.\n",
+    ""
+   ]
+  },
+  "chew10_avsp": {
+   "authors": [
+    [
+     "Sien W.",
+     "Chew"
+    ],
+    [
+     "Patrick",
+     "Lucey"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ],
+    [
+     "Clinton",
+     "Fookes"
+    ]
+   ],
+   "title": "Exploring visual features through Gabor representations for facial expression detection",
+   "original": "22",
+   "page_count": 6,
+   "order": 24,
+   "p1": "paper P7",
+   "pn": "",
+   "abstract": [
+    "Gabor representations have been widely used in facial analysis (face recognition, face detection and facial expression detection) due to their biological relevance and computational properties. Two popular Gabor representations used in literature are: 1) Log-Gabor and 2) Gabor energy filters. Even though these representations are somewhat similar, they also have distinct differences as the Log-Gabor filters mimic the simple cells in the visual cortex while the Gabor energy filters emulate the complex cells, which causes subtle differences in the responses. In this paper, we analyze the difference between these two Gabor representations and quantify these differences on the task of facial action unit (AU) detection. In our experiments conducted on the Cohn-Kanade dataset, we report an average area underneath the ROC curve (A`) of 92.60% across 17 AUs for the Gabor energy filters, while the Log-Gabor representation achieved an average A` of 96.11%. This result suggests that small spatial differences that the Log-Gabor filters pick up on are more useful for AU detection than the differences in contours and edges that the Gabor energy filters extract.\n",
+    "",
+    "",
+    "Index Terms: action unit detection, AdaBoost feature selection, Log-Gabor filter, Gabor energy filter\n",
+    ""
+   ]
+  },
+  "toutios10_avsp": {
+   "authors": [
+    [
+     "Asterios",
+     "Toutios"
+    ],
+    [
+     "Utpala",
+     "Musti"
+    ],
+    [
+     "Slim",
+     "Ouni"
+    ],
+    [
+     "Vincent",
+     "Colotte"
+    ],
+    [
+     "Brigitte",
+     "Wrobel-Dautcourt"
+    ],
+    [
+     "Marie-Odile",
+     "Berger"
+    ]
+   ],
+   "title": "Towards a true acoustic-visual speech synthesis",
+   "original": "23",
+   "page_count": 6,
+   "order": 25,
+   "p1": "paper P8",
+   "pn": "",
+   "abstract": [
+    "This paper presents an initial bimodal acoustic-visual synthesis system able to generate concurrently the speech signal and a 3D animation of the speaker’s face. This is done by concatenating bimodal diphone units that consist of both acoustic and visual information. The latter is acquired using a stereovision technique. The proposed method addresses the problems of asynchrony and incoherence inherent in classic approaches to audiovisual synthesis. Unit selection is based on classic target and join costs from acoustic-only synthesis, which are augmented with a visual join cost. Preliminary results indicate the benefits of this approach, since both the synthesized speech signal and the face animation are of good quality.\n",
+    "",
+    "",
+    "Index Terms: audiovisual speech synthesis, talking head, bimodal unit concatenation, diphones\n",
+    ""
+   ]
+  },
+  "kuratate10_avsp": {
+   "authors": [
+    [
+     "Takaaki",
+     "Kuratate"
+    ],
+    [
+     "Marcia",
+     "Riley"
+    ]
+   ],
+   "title": "Building speaker-specific lip models for talking heads from 3d face data",
+   "original": "24",
+   "page_count": 6,
+   "order": 26,
+   "p1": "paper P9",
+   "pn": "",
+   "abstract": [
+    "When creating realistic talking head animations, accurate modeling of speech articulators is important for speech perceptibility. Previous lip modeling methods such as simple numerical lip modeling focus on creating a general lip model without incorporating lip speaker variations. Here we present a method for creating accurate speaker-specific lip representations that retain the individual characteristics of a speaker’s lips via an adaptive numerical approach using 3D scanned surface and MRI data. By adjusting spline parameters automatically to minimize the error between node points of the lip model and the raw 3D surface, new 3D lips are created efficiently and easily. The resulting lip models will be used in our talking head animation system to evaluate auditory-visual speech perception, and to analyze our 3D face database for statistically relevant lip features.\n",
+    ""
+   ]
+  },
+  "callan10_avsp": {
+   "authors": [
+    [
+     "Daniel E.",
+     "Callan"
+    ]
+   ],
+   "title": "Brain regions differentially involved with multisensory and visual only speech gesture information",
+   "original": "25",
+   "page_count": 4,
+   "order": 27,
+   "p1": "paper S5-1",
+   "pn": "",
+   "abstract": [
+    "In this study a vowel identification task, controlling for intelligibility confounds, using audio visual stimuli at different signal to noise levels as well as visual only stimuli, is conducted to investigate neural processes involved with visual gesture information for speech perception. The fMRI results suggest that visual speech gesture information may serve to facilitate speech perception utilizing multiple distinct neural processes involved with multisensory integration (STG/S) and internal simulation of speech production (PMC).\n",
+    "",
+    "",
+    "Index Terms: multisensory integration, internal model, fMRI, superior temporal gyrus/sulcus STG/S, premotor cortex PMC\n",
+    ""
+   ]
+  },
+  "shinozaki10_avsp": {
+   "authors": [
+    [
+     "Jun",
+     "Shinozaki"
+    ],
+    [
+     "Kaoru",
+     "Sekiyama"
+    ],
+    [
+     "obuo",
+     "Hiroe"
+    ],
+    [
+     "Taku",
+     "Yoshioka"
+    ],
+    [
+     "Masa-aki",
+     "Sato"
+    ]
+   ],
+   "title": "Impact of language on audiovisual speech perception examined by fMRI",
+   "original": "26",
+   "page_count": 5,
+   "order": 28,
+   "p1": "paper S5-2",
+   "pn": "",
+   "abstract": [
+    "Both auditory and visual information plays an important role for audiovisual speech perception during face-to-face communication. Several behavioral studies have shown that native English speakers and native Japanese speakers behaved differently in audiovisual speech perception. We hypothesized that there would be differences in neural processing between native English speakers and native Japanese speakers. Twenty-two English language speakers and 22 Japanese speakers watched talker’s face and listened to talker’s speaking during functional magnetic resonance imaging (fMRI) scanning. The lateral occipitotemporal gyrus was associated with visual domain of audiovisual speech perception in native Japanese speakers, but not in native English speakers, suggesting that language environment affects neural processes for audiovisual speech perception.\n",
+    "",
+    "",
+    "Index Terms: speech perception, language, fMRI\n",
+    ""
+   ]
+  },
+  "hisanaga10_avsp": {
+   "authors": [
+    [
+     "Satoko",
+     "Hisanaga"
+    ],
+    [
+     "Kaoru",
+     "Sekiyama"
+    ],
+    [
+     "Tomohiko",
+     "Igasaki"
+    ],
+    [
+     "Nobuki",
+     "Murayama"
+    ]
+   ],
+   "title": "An ERP examination of audiovisual speech perception in Japanese younger and older adults",
+   "original": "27",
+   "page_count": 5,
+   "order": 29,
+   "p1": "paper S5-3",
+   "pn": "",
+   "abstract": [
+    "We studied differences between Japanese younger (YA) and older adults (OA) by recording event-related brain potentials (ERP). Participants were asked to identify audio only (AO) and congruent audiovisual (AV) syllables as /ba/ or /ga/). We found age-related ERP changes (N1, P2, and N2 latencies) in Japanese audiovisual speech perception. Whereas the visual influence was sustained (maintained from P2 to N2) in the OA group, the influence was transient (limited only to N1) in the YA group. It seemed that the OA group’s slower auditory processing is compensated by visual information.\n",
+    "",
+    "",
+    "Index Terms: audiovisual speech perception, aging, ERP\n",
+    ""
+   ]
+  },
+  "kitamura10_avsp": {
+   "authors": [
+    [
+     "Christine",
+     "Kitamura"
+    ],
+    [
+     "Jeesun",
+     "Kim"
+    ]
+   ],
+   "title": "Infants match auditory and visual speech in schematic point-light displays",
+   "original": "28",
+   "page_count": 4,
+   "order": 30,
+   "p1": "paper S6-1",
+   "pn": "",
+   "abstract": [
+    "Infants’ sensitivity to visual prosodic motion in infant-directed speech was examined by testing whether 8-month-olds can match an audio-only sentence with its visual-only schematic point-light display. The visual stimuli were sentence pairs of equal duration but unequal syllable number recorded using Optotrak. Twelve of the fourteen 8-month-olds tested looked longer at visual speech motion that matched the audio version of a sentence. This result suggests that the infants can perceive the underlying speech gestures signalled by schematic pointlight displays, and more importantly that they are sensitive to, and able to extract the syllable structure of speech from the talker’s moving face and head.\n",
+    "",
+    "",
+    "Index Terms: infant perception, head and face motion, A-V matching\n",
+    ""
+   ]
+  },
+  "best10_avsp": {
+   "authors": [
+    [
+     "Catherine T.",
+     "Best"
+    ],
+    [
+     "Christian",
+     "Kroos"
+    ],
+    [
+     "Julia",
+     "Irwin"
+    ]
+   ],
+   "title": "I can see what you said: infant sensitivity to articulator congruency between audio-only and silent-video presentations of native and nonnative consonants",
+   "original": "29",
+   "page_count": 6,
+   "order": 31,
+   "p1": "paper S6-2",
+   "pn": "",
+   "abstract": [
+    "We examined infants’ sensitivity to articulatory organ congruency between audio-only and silent-video consonants (lip vs. tongue tip closure) to evaluate three theoretical accounts of audio-visual perceptual development for speech: 1) learned audio-visual associations; 2) intersensory perceptual narrowing; 3) amodal perception of articulatory gestures. Effects of language experience were investigated in 4- vs. 11- month-olds’ cross-modal perception of native (English stops) and nonnative (Tigrinya ejectives) consonant contrasts. The 4- month-olds showed an articulator-congruency preference for both native and nonnative consonants, but it was constrained by trial order. The 11-month-olds’ more complex cross-modal responses differed for native vs. nonnative speech, suggesting an effect of increased native language experience. Results are at odds with associative learning and perceptual narrowing, but consistent with experiential tuning of amodal perception for two distinct articulators.\n",
+    "",
+    "",
+    "Index Terms: infant speech perception, talking faces, intermodal perception, articulatory phonology, nonnative speech perception\n",
+    ""
+   ]
+  },
+  "mattheyses10_avsp": {
+   "authors": [
+    [
+     "Wesley",
+     "Mattheyses"
+    ],
+    [
+     "Lukas",
+     "Latacz"
+    ],
+    [
+     "Werner",
+     "Verhelst"
+    ]
+   ],
+   "title": "Optimized photorealistic audiovisual speech synthesis using active appearance modeling",
+   "original": "30",
+   "page_count": 6,
+   "order": 32,
+   "p1": "paper S8-1",
+   "pn": "",
+   "abstract": [
+    "Active appearance models can represent image information in terms of shape and texture parameters. This paper explains why this makes them highly suitable for data-based 2D audiovisual text-to-speech synthesis. We elaborate on how the differentiation between shape and texture information can be fully exploited to create appropriate unit-selection costs and to enhance the video concatenations. The latter is very important since for the synthetic visual speech a careful balancing between signal smoothness and articulation strength is required. Several optimization strategies to enhance the quality of the synthetic visual speech are proposed. By measuring the properties of each model parameter, an effective normalization of the visual speech database is feasible. In addition, the visual joins can be optimized by a parameter-specific concatenation smoothing. To further enhance the naturalness of the synthetic speech, a spectrum-based smoothing approach is introduced.\n",
+    "",
+    "",
+    "Index Terms: audiovisual speech synthesis, AAM modeling\n",
+    ""
+   ]
+  },
+  "hilder10_avsp": {
+   "authors": [
+    [
+     "Sarah",
+     "Hilder"
+    ],
+    [
+     "Barry-John",
+     "Theobald"
+    ],
+    [
+     "Richard",
+     "Harvey"
+    ]
+   ],
+   "title": "In pursuit of visemes",
+   "original": "31",
+   "page_count": 6,
+   "order": 33,
+   "p1": "paper S8-2",
+   "pn": "",
+   "abstract": [
+    "We describe preliminary work towards an objective method for identifying visemes. Active appearance model (AAM) features are used to parameterise a speaker’s lips and jaw during speech. The temporal behaviour of AAM features between automatically identified salient points is used to represent visual speech gestures, and visemes are created by clustering these gestures using dynamic time warping (DTW) as a costfunction. This method produces a significantly more structured model of visual speech than if a typical phoneme-to-viseme mapping is assumed.\n",
+    "",
+    "",
+    "Index Terms: Visemes, visual speech encoding\n",
+    ""
+   ]
+  },
+  "youssef10_avsp": {
+   "authors": [
+    [
+     "Atef Ben",
+     "Youssef"
+    ],
+    [
+     "Pierre",
+     "Badin"
+    ],
+    [
+     "Gérard",
+     "Bailly"
+    ]
+   ],
+   "title": "Acoustic-to-articulatory inversion in speech based on statistical models",
+   "original": "32",
+   "page_count": 6,
+   "order": 34,
+   "p1": "paper S8-3",
+   "pn": "",
+   "abstract": [
+    "Two speech inversion methods are implemented and compared. In the first, multistream Hidden Markov Models (HMMs) of phonemes are jointly trained from synchronous streams of articulatory data acquired by EMA and speech spectral parameters; an acoustic recognition system uses the acoustic part of the HMMs to deliver a phoneme chain and the states durations; this information is then used by a trajectory formation procedure based on the articulatory part of the HMMs to resynthesise the articulatory movements. In the second, Gaussian Mixture Models (GMMs) are trained on these streams to directly associate articulatory frames with acoustic frames in context, using Maximum Likelihood Estimation. Over a corpus of 17 minutes uttered by a French speaker, the RMS error was 1.62 mm with the HMMs and 2.25 mm with the GMMs.\n",
+    "",
+    "",
+    "Index Terms: Speech inversion, ElectroMagnetic Articulography (EMA), Hidden Markov Model (HMM), Gaussian Mixture Model (GMM), Maximum Likelihood Estimation (MLE).\n",
+    ""
+   ]
+  },
+  "tiippana10_avsp": {
+   "authors": [
+    [
+     "Kaisa",
+     "Tiippana"
+    ],
+    [
+     "Erin",
+     "Hayes"
+    ],
+    [
+     "Riikka",
+     "Möttönen"
+    ],
+    [
+     "Nina",
+     "Kraus"
+    ],
+    [
+     "Mikko",
+     "Sams"
+    ]
+   ],
+   "title": "The Mcgurk effect at various auditory signal-to-noise ratios in american and Finnish listeners",
+   "original": "33",
+   "page_count": 4,
+   "order": 35,
+   "p1": "paper P10",
+   "pn": "",
+   "abstract": [
+    "In the McGurk effect, incongruent visual information alters the auditory speech percept. We studied the strength of this effect as a function of auditory signal-to-noise ratio (SNR: -12, -6, 0, +6 dB, and noise-free) in Finnish adults, American adults and American children (8–12 years). The McGurk stimuli were A/p/V/k/ (auditory /apa/ presented with visual /aka/), A/p/V/t/, A/k/V/p/ and A/t/V/p/. As SNR decreased, proportion of responses based on the auditory component decreased and visual influence got stronger. All participants showed this pattern, though in some instances Finns showed weaker visual influence. Overall, the McGurk effect was very similar in these language and age groups.\n",
+    "",
+    "",
+    "Index Terms: McGurk effect, noise, language, age\n",
+    ""
+   ]
+  },
+  "nahorna10_avsp": {
+   "authors": [
+    [
+     "Olha",
+     "Nahorna"
+    ],
+    [
+     "Frédéric",
+     "Berthommier"
+    ],
+    [
+     "Jean-Luc",
+     "Schwartz"
+    ]
+   ],
+   "title": "Binding and unbinding in audiovisual speech fusion: removing the Mcgurk effect by an incoherent preceding audiovisual context",
+   "original": "abs3",
+   "page_count": 1,
+   "order": 36,
+   "p1": "paper P11",
+   "pn": "",
+   "abstract": [
+    "The McGurk effect demonstrates the existence of a fusion process in audiovisual speech perception. We consider here the assumption that fusion is controlled by an upstream conditional binding process, which can block fusion in the case of strong audiovisual inconsistencies, as in the case of a dubbed film. To test this hypothesis, we designed two experiments in which a consistent or inconsistent audiovisual context is placed before McGurk stimuli, and we show that inconsistent contexts can remove the McGurk effect.\n",
+    "Keywords: McGurk effect, binding, multisensory fusion, AV speech perception and scene analysis.\n",
+    ""
+   ]
+  },
+  "gibert10_avsp": {
+   "authors": [
+    [
+     "Guillaume",
+     "Gibert"
+    ],
+    [
+     "Andrew",
+     "Fordyce"
+    ],
+    [
+     "Catherine J.",
+     "Stevens"
+    ]
+   ],
+   "title": "Role of form and motion information in auditory-visual speech perception of Mcgurk combinations and fusions",
+   "original": "34",
+   "page_count": 6,
+   "order": 37,
+   "p1": "paper P12",
+   "pn": "",
+   "abstract": [
+    "The perception of biological motion is influenced by motion and form information. Point-light technique has been used to capture the kinematic properties of biological motion. Integration of auditory-visual information in speech perception has been shown to be influenced by such degraded forms of display. The present experiment investigates the role of global shape information and motion in multimodal speech perception. Grayscale stimuli were created from video recordings. Point-lights and point-lights joined by lines formed the stimuli that were created from motion capture data. It was hypothesized that the addition of global shape information would improve the perception of biological motion leading to a higher number of perceptual illusions and that fusion and combination McGurk effects would be identical. Twenty four Australian English subjects were asked to discriminate congruent and incongruent stimuli consisting of non-words and displayed in grayscale Video, Point-light or joined Point-light displays. Results indicate that additional global form information provided by the joint lines compared to the Point-light condition does not influence speech perception for congruent and incongruent stimuli. Nevertheless, reaction times were slower in response to this additional shape information compared with Point-light stimuli. A difference in reaction time was observed for the Video stimuli between combination and fusion responses to McGurk stimuli with subjects responding faster when the stimulus auditory /ga/ and visual /ba/ elicited a combination response /bga/ compared to the reaction time when the incongruent stimulus auditory /ba/ and visual /ga/ elicited a fusion response /da/. Fusion and Combination McGurk effects may be generated by two different perceptual processes.\n",
+    "",
+    "",
+    "Index Terms: multimodal speech perception, McGurk effect, point-light display, motion capture\n",
+    ""
+   ]
+  },
+  "eskelund10_avsp": {
+   "authors": [
+    [
+     "Kasper",
+     "Eskelund"
+    ],
+    [
+     "Jyrki",
+     "Tuomainen"
+    ],
+    [
+     "Tobias S.",
+     "Andersen"
+    ]
+   ],
+   "title": "Speech-specificity of two audiovisual integration effects",
+   "original": "35",
+   "page_count": 4,
+   "order": 38,
+   "p1": "paper P13",
+   "pn": "",
+   "abstract": [
+    "Seeing the talker’s articulatory mouth movements can influence the auditory speech percept both in speech identification and detection tasks. Here we show that these audiovisual integration effects also occur for sine wave speech (SWS), which is an impoverished speech signal that naïve observers often fail to perceive as speech. While audiovisual integration in the identification task only occurred when observers were informed of the speech-like nature of SWS, integration occurred in the detection task both for informed and naïve observers. This shows that both speech-specific and general mechanisms underlie audiovisual integration of speech.\n",
+    "",
+    "",
+    "Index Terms: Audiovisual integration, McGurk illusion, audiovisual speech detection\n",
+    ""
+   ]
+  },
+  "ishikawa10_avsp": {
+   "authors": [
+    [
+     "Shogo",
+     "Ishikawa"
+    ],
+    [
+     "Shinya",
+     "Kiriyama"
+    ],
+    [
+     "Yoichi",
+     "Takebayashi"
+    ],
+    [
+     "Shigeyoshi",
+     "Kitazawa"
+    ]
+   ],
+   "title": "The multimodal analysis for understanding child behavior focused on attention-catching",
+   "original": "36",
+   "page_count": 5,
+   "order": 39,
+   "p1": "paper P14",
+   "pn": "",
+   "abstract": [
+    "We have developed a multimodal speech behavior corpus in order to clarify fundamental features of speech interaction. We focused on child development because children’s thinking tends to be expressed in their behavior. Utilizing the corpus, we analyzed child development of situation understanding skills focused on ”attention-catching” that has a role as a signal when communicating with other people. We formulated a hypothesis of the mental developmental process based on physical expression skills. The results of the multimodal analysis show that our method is an effective way of in-depth analysis of thinking process in ”attention-catching” behavior.\n",
+    "",
+    "",
+    "Index Terms: multimodal analysis, speech behavior corpus, child development, attention-catching\n",
+    ""
+   ]
+  },
+  "shibata10_avsp": {
+   "authors": [
+    [
+     "Kenichi",
+     "Shibata"
+    ],
+    [
+     "Shinya",
+     "Kiriyama"
+    ],
+    [
+     "Tomohiro",
+     "Haraikawa"
+    ],
+    [
+     "Yoichi",
+     "Takebayashi"
+    ],
+    [
+     "Shigeyoshi",
+     "Kitazawa"
+    ]
+   ],
+   "title": "A study of speech interface for living space adapting to user environment by considering scenery situation",
+   "original": "37",
+   "page_count": 4,
+   "order": 40,
+   "p1": "paper P15",
+   "pn": "",
+   "abstract": [
+    "We realized a real-world speech interface to help each user to control consumer electrical devices by considering scenery situation such as positions of humans or devices for each living space. The system sustainably adapts to each user environment by utilizing multimodal living space corpus accumulated through practical use. The evaluation results showed that the constructed system was enough comfortable to allow users intuitive and goal-oriented operations.\n",
+    "",
+    "",
+    "Index Terms: speech interface, scenery situation, user environment adaptation, multimodal living space corpus\n",
+    ""
+   ]
+  },
+  "miyazawa10_avsp": {
+   "authors": [
+    [
+     "Shiho",
+     "Miyazawa"
+    ],
+    [
+     "Akihiro",
+     "Tanaka"
+    ],
+    [
+     "Shuichi",
+     "Sakamoto"
+    ],
+    [
+     "Takehiko",
+     "Nishimoto"
+    ]
+   ],
+   "title": "Effects of speech-rate conversion on asynchrony perception of audio-visual speech",
+   "original": "38",
+   "page_count": 4,
+   "order": 41,
+   "p1": "paper P16",
+   "pn": "",
+   "abstract": [
+    "Previous studies showed that the time-expanded speech signal and the cue of moving image of talker’s face improve speech intelligibility. Sakamoto et al. (2008) investigated the detection thresholds of auditory-visual asynchrony for timeexpanded speech and a moving image of the talker’s face. Their results showed that detection thresholds in longer words were higher than those for shorter words. However, it is not clear whether the results are associated with the difference of number of mora or whole word length of stimuli. In this study, we examined detection thresholds of auditory-visual asynchrony between time-expanded speech and moving image of the talker’s face by using words that have different numbers of mora but the same duration. The results revealed that there is no significant difference in the detection thresholds between words with the smaller number of mora and words with longer number of mora. Thus, our results suggests that word length, not the number of mora, affects the detection thresholds between auditory and visual stimuli.\n",
+    "",
+    "",
+    "Index Terms: audio-visual asynchrony, detection rate, timeexpanded speech\n",
+    ""
+   ]
+  },
+  "koizumi10_avsp": {
+   "authors": [
+    [
+     "Ai",
+     "Koizumi"
+    ],
+    [
+     "Akihiro",
+     "Tanaka"
+    ],
+    [
+     "Hisato",
+     "Imai"
+    ],
+    [
+     "Saori",
+     "Hiramatsu"
+    ],
+    [
+     "Eriko",
+     "Hiramoto"
+    ],
+    [
+     "Takao",
+     "Sato"
+    ],
+    [
+     "Beatrice de",
+     "Gelder"
+    ]
+   ],
+   "title": "The effects of anxiety on the perception of emotion in the face and voice",
+   "original": "39",
+   "page_count": 5,
+   "order": 42,
+   "p1": "paper P17",
+   "pn": "",
+   "abstract": [
+    "Anxious individuals have been shown to be hyper-sensitive to cues for others’ negative emotional states. As most studies used facial expressions as emotional cues, we examined whether the trait anxiety affects the cross-modal perception of emotion in the face and voice that were simultaneously presented. The face and voice cues conveyed either matched (e.g., both positive) or mismatched emotions (e.g., positive face and negative voice). Participants indicated the perceived emotion in one of the cues, while ignoring the other. The results showed that highly anxious individuals, compared with low anxious ones, were less able to disregard the to-beignored negative cues and misinterpret the attended happy cues as negative. These results were found regardless of the cue modality. The trait anxiety may affect the integration of emotion in the face and voice.\n",
+    ""
+   ]
+  },
+  "burnham10_avsp": {
+   "authors": [
+    [
+     "Denis",
+     "Burnham"
+    ],
+    [
+     "Sebastian",
+     "Joeffry"
+    ],
+    [
+     "Lauren",
+     "Rice"
+    ]
+   ],
+   "title": "d-o-e-s-not-c-o-m-p-u-t-e: vowel hyperarticulation in speech to an auditory-visual avatar",
+   "original": "40",
+   "page_count": 5,
+   "order": 43,
+   "p1": "paper P18",
+   "pn": "",
+   "abstract": [
+    "Humans use speech to convey information; attract attention; express affect, etc. Speech register research shows that humans are adept at fine-tuning components of their speech to accommodate the needs of their audience, suggesting that they have a model of others’ communication needs. However, when that audience is a computer rather than another human, such a model may be invalid and speech adaptations, Computer-Directed Speech, may be inappropriate. Here we examine humans’ speech to other humans or an auditoryvisual avatar before and after the computer makes a listening “error”. Vowel durations are found to be longer in Computerthan Human-Directed Speech (especially in speech repairs after computer errors), and there is greater vowel hyperarticulation in Computer- than Human-Directed Speech both before and after error correction. The results are discussed in terms of human-computer interaction (HCI), talking head applications and ASR systems.\n",
+    "",
+    "",
+    "Index Terms: computer-directed speech, speech repairs, vowel hyperarticulation, human-computer interaction.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynotes",
+   "papers": [
+    "kobayashi10_avsp",
+    "csibra10_avsp"
+   ]
+  },
+  {
+   "title": "Recognition",
+   "papers": [
+    "navarathna10_avsp",
+    "yoshida10_avsp",
+    "chaloupka10_avsp",
+    "takeuchi10_avsp",
+    "saitoh10_avsp",
+    "picard10_avsp",
+    "lan10_avsp"
+   ]
+  },
+  {
+   "title": "Perception - McGurk Effect",
+   "papers": [
+    "schwartz10_avsp",
+    "engwall10_avsp",
+    "andersen10_avsp"
+   ]
+  },
+  {
+   "title": "Emotion, Prosody",
+   "papers": [
+    "cvejic10_avsp",
+    "kim10_avsp",
+    "tanaka10_avsp"
+   ]
+  },
+  {
+   "title": "Perception",
+   "papers": [
+    "kanekama10_avsp",
+    "attina10_avsp"
+   ]
+  },
+  {
+   "title": "Recognition, Synthesis (Poster Session)",
+   "papers": [
+    "newman10_avsp",
+    "heracleous10_avsp",
+    "sasou10_avsp",
+    "shen10_avsp",
+    "ishi10_avsp",
+    "tamura10_avsp",
+    "chew10_avsp",
+    "toutios10_avsp",
+    "kuratate10_avsp"
+   ]
+  },
+  {
+   "title": "Perception - Brain",
+   "papers": [
+    "callan10_avsp",
+    "shinozaki10_avsp",
+    "hisanaga10_avsp"
+   ]
+  },
+  {
+   "title": "Session 6: Perception - Infants",
+   "papers": [
+    "kitamura10_avsp",
+    "best10_avsp"
+   ]
+  },
+  {
+   "title": "Synthesis",
+   "papers": [
+    "mattheyses10_avsp",
+    "hilder10_avsp",
+    "youssef10_avsp"
+   ]
+  },
+  {
+   "title": "Perception, Emotion, Interaction (Poster Session)",
+   "papers": [
+    "tiippana10_avsp",
+    "nahorna10_avsp",
+    "gibert10_avsp",
+    "eskelund10_avsp",
+    "ishikawa10_avsp",
+    "shibata10_avsp",
+    "miyazawa10_avsp",
+    "koizumi10_avsp",
+    "burnham10_avsp"
+   ]
+  }
+ ]
+}

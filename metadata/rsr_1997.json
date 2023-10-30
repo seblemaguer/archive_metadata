@@ -1,0 +1,1085 @@
+{
+ "title": "Robust Speech Recognition for Unknown Communication Channels",
+ "location": "Pont-à-Mousson, France",
+ "startDate": "17/4/1997",
+ "endDate": "18/4/1997",
+ "conf": "RSR",
+ "year": "1997",
+ "name": "rsr_1997",
+ "series": "",
+ "SIG": "",
+ "title1": "Robust Speech Recognition for Unknown Communication Channels",
+ "date": "17-18 April 1997",
+ "papers": {
+  "hermansky97_rsr": {
+   "authors": [
+    [
+     "Hynek",
+     "Hermansky"
+    ]
+   ],
+   "title": "Should recognizers have ears?",
+   "original": "rsr7_001",
+   "page_count": 10,
+   "order": 1,
+   "p1": "1",
+   "pn": "10",
+   "abstract": [
+    "The paper discusses author's experience with applying auditory knowledge to automatic recognition of speech. It indirectly argues against blind implementing of scattered accidental knowledge which may he irrelevant to a speech recognition task. It advances the notion that the reason for applying knowledge of human auditory perception in engineering applications should be the ability of perception to suppress some parts of information in the speech message. Three properties of human speech perception: limited spectral resolution, use of information from about syllable-length segments ability to alleviate unreliable cues,\n",
+    "are discussed in some detail. Overall, we are advocating selective use of auditory knowledge, optimized on real speech data.\n",
+    ""
+   ]
+  },
+  "furui97_rsr": {
+   "authors": [
+    [
+     "Sadaoki",
+     "Furui"
+    ]
+   ],
+   "title": "Recent advances in robust speech recognition",
+   "original": "rsr7_011",
+   "page_count": 10,
+   "order": 2,
+   "p1": "11",
+   "pn": "20",
+   "abstract": [
+    "This paper overviews the main technologies that have recently been developed for making speech recognition systems more robust at both the acoustic and linguistic processing levels. These technologies are reviewed from the viewpoint of a stochastic pattern matching paradigm for speech recognition. Improved robustness enables better speech recognition over a wide range of unexpected and adverse conditions by reducing mismatches between training and testing speech utterances. This paper focuses on supervised vs. unsupervised adaptation techniques, the Bayesian adaptive learning approach, the minimum classification error (MCE/GPD) approach, the parallel model combination (PMC, HMM composition) technique, and spontaneous speech recognition techniques.\n",
+    ""
+   ]
+  },
+  "steeneken97_rsr": {
+   "authors": [
+    [
+     "Herman",
+     "Steeneken"
+    ],
+    [
+     "Luc",
+     "Gagnon"
+    ],
+    [
+     "Jerry",
+     "O'Leary"
+    ]
+   ],
+   "title": "Discussion on the introductory session",
+   "original": "rsr7_021",
+   "page_count": 2,
+   "order": 3,
+   "p1": "21",
+   "pn": "22",
+   "abstract": [
+    "The focus of the two tutorials on how to cope with varying input conditions for a speech recognition system is quite complementary between the two papers. FURUI gives examples of both supervised and unsupervised adaptation of the recognizer models by means of stochastic pattern matching to cope with signal variation due to channel or speaker variability. HERMANSKY describes a method (known as RASTA) to include auditory knowledge into the recognition algorithm rather than \"blind implementation of scattered accidental knowledge\".\n",
+    ""
+   ]
+  },
+  "greenberg97_rsr": {
+   "authors": [
+    [
+     "Steven",
+     "Greenberg"
+    ]
+   ],
+   "title": "On the origins of speech intelligibility in the real world",
+   "original": "rsr7_023",
+   "page_count": 10,
+   "order": 4,
+   "p1": "23",
+   "pn": "32",
+   "abstract": [
+    "Current-generation speech recognition systems seek to identify words via analysis of their underlying phonological constituents. Although this stratagem works well for carefully enunciated speech emanating from a pristine acoustic environment, it has fared less well for recognizing speech spoken under more realistic conditions, such as (1) moderate to high levels of background noise (2) moderately reverberant acoustic environments (3) spontaneous, informal conversation Under such \"real-world\" conditions the acoustic properties of speech make it difficult to partition the acoustic stream into readily definable phonological units, thus rendering the process of word recognition highly vulnerable to departures from \"canonical\" patterns. Analysis of informal, spontaneous speech indicates that the stability of linguistic representation is more likely to reside on the syllabic and phrasal levels than on the phonological. In consequence, attempts to represent words merely as sequences of phones, and to derive meaning from simple chains of lexical entities, are unlikely to yield high levels of recognition performance under such real-world conditions.\n",
+    "A multi-tiered representation of speech is proposed, one in which only partial information from each of many levels of linguistic abstraction is required for sufficient identification of lexical and phrasal elements. Such tiers of linguistic abstraction are unified through a hierarchically organized process of temporal binding and are, in principle, highly tolerant of the sorts of \"distortions\" imposed on speech in the real world.\n",
+    ""
+   ]
+  },
+  "stern97_rsr": {
+   "authors": [
+    [
+     "Richard M.",
+     "Stern"
+    ],
+    [
+     "Bhiksha",
+     "Raj"
+    ],
+    [
+     "Pedro J.",
+     "Moreno"
+    ]
+   ],
+   "title": "Compensation for environmental degradation in automatic speech recognition",
+   "original": "rsr7_033",
+   "page_count": 10,
+   "order": 5,
+   "p1": "33",
+   "pn": "42",
+   "abstract": [
+    "The accuracy of speech recognition systems degrades when operated in adverse acoustical environments. This paper reviews various methods by which more detailed mathematical descriptions of the effects of environmental degradation can improve speech recognition accuracy using both \"data-driven\" and \"model-based\" compensation strategies. Data-driven methods learn environmental characteristics through direct comparisons of speech recorded in the noisy environment with the same speech recorded under optimal conditions. Model-based methods use a mathematical model of the environment and attempt to use samples of the degraded speech to estimate model parameters. These general approaches to environmental compensation are discussed in terms of recent research in environmental robustness at CMU, and in terms of similar efforts at other sites. These compensation algorithms are evaluated in a series of experiments measuring recognition accuracy for speech from the ARPA Wall Street Journal database that is corrupted by artificially-added noise at various signal-to-noise ratios (SNRs), and in more natural speech recognition tasks.\n",
+    ""
+   ]
+  },
+  "morgan97_rsr": {
+   "authors": [
+    [
+     "Nelson",
+     "Morgan"
+    ]
+   ],
+   "title": "Robust features and environmental compensation: a few comments",
+   "original": "rsr7_043",
+   "page_count": 2,
+   "order": 6,
+   "p1": "43",
+   "pn": "44",
+   "abstract": [
+    "This is a brief note to comment on a few points related to two excellent keynote papers by Greenberg [3] and by Stern et al [5]. In a sense, Stern's paper describes the current technology; in particular, approaches to adjusting ASR systems based on phone or sub-phone-based HMMs in order to improve performance in the presence of noise and linear channel effects. On the other hand, Greenberg's paper gives a direction for the future, focusing on aspects of spoken language that he does not believe our current systems incorporate. At first glance, the papers might seem almost unrelated. Greenberg's paper focuses on characteristics of conversational speech that indicate limitations of current ASR technology. He suggests a wide-ranging multi-tiered strategy as the fundamental solution to the poor performance that is observed for unexpected testing conditions with machine recognizers. Stern's paper is descriptive of the approaches to noise and channel robustness developed at CMU and elsewhere over the last decade, and as such is a good review of what can be done with the techniques that Greenberg criticizes. The papers are not really contradictory; faced with the requirement of improving recognition performance a good engineer will both consider new directions and also maximally exploit the existing ones. The CMU group has placed considerable emphasis on exploiting a range of solutions to linear disturbances, including both model-based and feature-based compensations. When information about the nature of the disturbance (or about the \"clean\" signal) is available, methods pioneered by the CMU group show the extent to which the problem can be reduced. Other methods show how iterative approaches (EM) can be used to improve the probability estimates despite interfering signals or convolutional error. We do not yet know what engineering techniques will be required in order to implement a system incorporating all the levels that Greenberg suggests, but when we do it is likely that a real implementation will be statistical, and as such will still require mathematical characterizations such as the ones Stern presents (though perhaps not these same ones).\n",
+    ""
+   ]
+  },
+  "lee97_rsr": {
+   "authors": [
+    [
+     "Chin-Hui",
+     "Lee"
+    ]
+   ],
+   "title": "On feature and model compensation approach to robust speech recognition",
+   "original": "rsr7_045",
+   "page_count": 10,
+   "order": 7,
+   "p1": "45",
+   "pn": "54",
+   "abstract": [
+    "By now it should not be surprising that high performance speech recognition systems can be designed for a wide variety of tasks in many different languages. This is mainly attributed to the use of powerful statistical pattern matching paradigms coupled with the availability of a large amount of task-specific language and speech training examples. However, it is also well-known that such a high performance can not be maintained when the testing data do not resemble the training data. The speech distortion usually appears as a combination of various acoustic differences but the exact form of the distortion is often unknown and difficult to model. One way to reduce such acoustic mismatches is to adjust speech features according to some models of the differences. Another method is to modify the parameters of the statistical models, e. g. hidden Markov models, to make the modified models better characterize the distorted speech features. Depending on the knowledge used, this family of feature and model compensation techniques can be roughly categorized into three classes, namely: (1) training-based compensation, (2) blind compensation, and (3) structure-based compensation. This paper provides an overview of the capabilities and limitations of the compensation approaches and illustrates their similarities and differences. The relationship between adaptation and compensation will also be discussed.\n",
+    ""
+   ]
+  },
+  "gales97_rsr": {
+   "authors": [
+    [
+     "M. J. F.",
+     "Gales"
+    ]
+   ],
+   "title": "NICE model-based compensation schemes for robust speech recognition",
+   "original": "rsr7_055",
+   "page_count": 10,
+   "order": 8,
+   "p1": "55",
+   "pn": "64",
+   "abstract": [
+    "As speech technology is applied to real world applications there is a need to build systems that are insensitive to differences in training and test conditions. These differences may result from ambient background noise, channel variations, speaker stress etc. A variety of techniques have been applied to this problem. This paper examines one class of approach, model-based compensation. In particular, where a speech model is combined with an \"additive noise\" model, \"channel\" model and, in the general case, a speaker stress model, to generate a corrupted-speech model. Various schemes for performing this compensation will be described along with the advantages and, of course, the disadvantages of such an approach. In addition, methods for combining the approach with compensation schemes which make use of speech data in the new environment will be detailed. This combined approach overcomes some of the limitations of the standard \"nice\" schemes.\n",
+    ""
+   ]
+  },
+  "hermansky97b_rsr": {
+   "authors": [
+    [
+     "Hynek",
+     "Hermansky"
+    ]
+   ],
+   "title": "Speculations on knowledge versus data in ASR",
+   "original": "rsr7_065",
+   "page_count": 2,
+   "order": 9,
+   "p1": "65",
+   "pn": "66",
+   "abstract": [
+    "For most practical purposes almost unlimited amount of transcribed training data is available in radio and TV broadcast and it appears that there are limits to capabilities of current weakly constrained HMM recognizers. There is a renewed interest in implementing more knowledge into ASR systems. This short communication expands on Chin-Hui Lee's conviction that \"...robust speech recognition cannot be solved simply by collecting more data\" 1 and attempts to argue for more attention to techniques which could extract reliable, reuseable, and relevant knowledge from currently available large amounts of speech data.\n",
+    ""
+   ]
+  },
+  "omologo97_rsr": {
+   "authors": [
+    [
+     "Maurizio",
+     "Omologo"
+    ]
+   ],
+   "title": "On the future trends of hands-free ASR: variabilities in the environmental conditions and in the acoustic transduction",
+   "original": "rsr7_067",
+   "page_count": 7,
+   "order": 10,
+   "p1": "67",
+   "pn": "74",
+   "abstract": [
+    "Hands-free interaction represents a key-point for increase of flexibility of present applications and for the development of new speech recognition applications, where the user can not be encumbered by either hand-held or head-mounted microphones. When the microphone is far from the speaker, the transduced signal is affected by degradation of different nature, that is often unpredictable. Special microphones and multimicrophone acquisition systems represent a way of reducing some environmental noise effects. Robust processing and adaptation techniques can be further used in order to compensate for different kinds of variability that may be present in the recognizer input. The purpose of this paper is to re-visit some of the assumptions about the different sources of this variability and to discuss both on special transducer systems and on compensation/adaptation techniques that can be adopted. In particular, the paper will refer to the use of multimicrophone systems to overcome some undesired effects caused by room acoustics (e.g. reverberation) and by coherent/incoherent noise (e.g. competitive talkers, computer fans).\n",
+    ""
+   ]
+  },
+  "sagayama97_rsr": {
+   "authors": [
+    [
+     "Shigeki",
+     "Sagayama"
+    ],
+    [
+     "Kiyoaki",
+     "Aikawa"
+    ]
+   ],
+   "title": "Issues relating to the future of ASR for telecommunications applications",
+   "original": "rsr7_075",
+   "page_count": 7,
+   "order": 11,
+   "p1": "75",
+   "pn": "82",
+   "abstract": [
+    "Issues relating to automatic speech recognition (ASR) are discussed with respect to applications in the telecommunications area in the near future. As a preliminary, we introduce an interesting discussion from a past conference in Japan about what is hindering the spread of ASR. Then, some relatively new robustness issues in telephone-based ASR applications are discussed. These include accurate voice/noise discrimination, and multiple microphones, utterance verification/rejection for flexible vocabulary systems, breath noise and hand noise, instantaneous adaptation to environmental noise, a spelling method for Japanese Kanji texts, dialog control issues, distransparency of ASR systems, children's voices, HMM training with localized data, adaptive dialog strategy.\n",
+    ""
+   ]
+  },
+  "verhasselt97_rsr": {
+   "authors": [
+    [
+     "Jan",
+     "Verhasselt"
+    ],
+    [
+     "Halewijn",
+     "Vereecken"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ]
+   ],
+   "title": "Noise suppression and acoustic model controlled loudness mean normalization in an auditory model-based acoustic front-end",
+   "original": "rsr7_083",
+   "page_count": 4,
+   "order": 12,
+   "p1": "83",
+   "pn": "86",
+   "abstract": [
+    "In this paper, we describe a combination of normalization techniques for removing the effects of additive noise, convolutional noise and speech level variations on the speech representation that is produced by an auditory model. In [1, 2], we introduced a noise magnitude subtraction technique (NMS) that removes the effects of additive noise. In [2], we presented a loudness mean normalization technique (LMN) that compensates for speech level variations and convolutional noise. In this paper, an improved technique, called acoustic model controlled loudness mean normalization (ALMN) is introduced. It is shown that ALMN, when tested on convolutional noise, consistently outperforms the standard LMN, especially if less than 2 seconds of speech are used to estimate the noise characteristics. In fact, the ALMN performance does not degrade substantially until less than 1 second of speech is used for estimation. It is shown that the ALMN technique, when used in combination with NMS, offers a highly efficient joint compensation for multiple noise-types. Again, the combination ALMN+NMS consistently outperforms the combination LMN+NMS.\n",
+    ""
+   ]
+  },
+  "kingsbury97_rsr": {
+   "authors": [
+    [
+     "Brian E. D.",
+     "Kingsbury"
+    ],
+    [
+     "Nelson",
+     "Morgan"
+    ],
+    [
+     "Steven",
+     "Greenberg"
+    ]
+   ],
+   "title": "Improving ASR performance for reverberant speech",
+   "original": "rsr7_087",
+   "page_count": 4,
+   "order": 13,
+   "p1": "87",
+   "pn": "90",
+   "abstract": [
+    "The performance of current automatic speech recognition (ASR) systems is very sensitive to the presence of room reverberation in the incoming speech signal. We investigate a family of front-end speech representations that focus on slow changes in the the gross spectral structure of speech for their ability to improve the robustness of ASR systems to reverberation. A number of the front ends provide a statistically significant improvement in performance over established front ends such as PLP; however, the performance of ASR systems on highly reverberant speech is still disappointing when compared with the performance of human listeners.\n",
+    ""
+   ]
+  },
+  "shields97_rsr": {
+   "authors": [
+    [
+     "Paul W.",
+     "Shields"
+    ],
+    [
+     "Douglas R.",
+     "Campbell"
+    ]
+   ],
+   "title": "Intelligibility improvements obtained by an enhancement method applied to speech corrupted by noise and reverberation",
+   "original": "rsr7_091",
+   "page_count": 4,
+   "order": 14,
+   "p1": "91",
+   "pn": "94",
+   "abstract": [
+    "A series of psychoacoustic experiments is described which attempts to assess the suitability of the Multi-Microphone Sub-band Adaptive Signal (MMSBA) processing scheme [1] for improving the intelligibility of speech in noise. The process uses the Least Mean Squares (LMS) algorithm [2] in sub-bands to process speech signals from various acoustic environments and signal to noise ratios (SNR). The method aims to take advantage of the multiple inputs to perform noise cancellation. The wide-band signal is split into sub-bands, which are subsequently processed according to their signal characteristics. The results of a series of intelligibility tests are presented from experiments in which acoustic speech and noise data, generated in both simulated and real room conditions was presented to subject volunteers at various SNRs.\n",
+    ""
+   ]
+  },
+  "dupont97_rsr": {
+   "authors": [
+    [
+     "Stephane",
+     "Dupont"
+    ],
+    [
+     "Hervé",
+     "Bourlard"
+    ],
+    [
+     "Christophe",
+     "Ris"
+    ]
+   ],
+   "title": "Robust speech recognition based on multi-stream features",
+   "original": "rsr7_095",
+   "page_count": 4,
+   "order": 15,
+   "p1": "95",
+   "pn": "98",
+   "abstract": [
+    "In this paper, we discuss a new automatic speech recognition (ASR) approach based on the independent processing and recombination of several feature streams. In this framework, it is assumed that the speech signal is represented in terms of multiple input streams, each input stream representing a different characteristic of the signal. If the streams are entirely synchronous, they may be accommodated simply. However, as discussed in the paper, it may be required to permit some degree of asynchrony between streams, which are then forced to recombine at some temporal \"anchor points\" associated with some (pre-defined) speech unit levels. We start by introducing the basic framework of a statistical structure that can accommodate multiple observation streams. This approach was initially applied to the case of subband-based speech recognition and was shown to yield significantly better noise robustness. After having summarized these results, the multi-stream approach will be used to combine multiple time-scale features in ASR systems (in our case, to use syllable level features in a phoneme-based HMM system).\n",
+    ""
+   ]
+  },
+  "kim97_rsr": {
+   "authors": [
+    [
+     "Nam Soo",
+     "Kim"
+    ],
+    [
+     "Do Yeong",
+     "Kim"
+    ],
+    [
+     "Byung Goo",
+     "Kong"
+    ],
+    [
+     "Sang Ryong",
+     "Kim"
+    ]
+   ],
+   "title": "Application of VTS to environment compensation with noise statistics",
+   "original": "rsr7_099",
+   "page_count": 4,
+   "order": 16,
+   "p1": "99",
+   "pn": "102",
+   "abstract": [
+    "Recently, the vector Taylor series (VTS) approach was proposed as an efficient method for robust speech recognition under various environmental conditions. The VTS approach makes an approximation to the speech contamination procedure by a linearized model and estimates the parameter values using the expectation-maximization (EM) algorithm. In this paper, we apply the VTS approach to environment compensation with assumed noise statistics. In addition, we present a Bayesian adaptation technique with which we can incorporate the a priori knowledge about the noise statistics to the parameter estimation procedure.\n",
+    ""
+   ]
+  },
+  "hermansky97c_rsr": {
+   "authors": [
+    [
+     "Hynek",
+     "Hermansky"
+    ],
+    [
+     "Carlos",
+     "Avendano"
+    ],
+    [
+     "Sarel van",
+     "Vuuren"
+    ],
+    [
+     "Sangita",
+     "Tibrewala"
+    ]
+   ],
+   "title": "Recent advances in addressing sources of non-linguistic information",
+   "original": "rsr7_103",
+   "page_count": 4,
+   "order": 17,
+   "p1": "103",
+   "pn": "106",
+   "abstract": [
+    "The paper briefly describes several techniques for handling variability introduced by unknown communication channels which are under development in our laboratory. Four techniques: 1) long-term speech analysis for alleviating harmful effects of reverberation, 2) data-driven design of RASTA-like filters for alleviating harmful effects of linear distortions, 3) multi-band ASR for alleviating harmful effects of frequency-selective noises, and 4) a simple adaptation technique for alleviating harmful effects of steady or slowly changing noise, are discussed.\n",
+    ""
+   ]
+  },
+  "viikki97_rsr": {
+   "authors": [
+    [
+     "Olli",
+     "Viikki"
+    ],
+    [
+     "Kari",
+     "Laurila"
+    ]
+   ],
+   "title": "Noise robust HMM-based speech recognition using segmental cepstral feature vector normalization",
+   "original": "rsr7_107",
+   "page_count": 4,
+   "order": 18,
+   "p1": "107",
+   "pn": "110",
+   "abstract": [
+    "To date, speech recognition systems have been applied in real world applications in which they must be able to provide a satisfactory recognition performance under various noise conditions. However, a mismatch between the training and testing conditions often causes a drastic decrease in the performance of the systems. In this paper, we propose a segmental feature vector normalization technique which makes an automatic speech recognition system more robust to environmental changes by normalizing the output of the signal-processing front-end to have similar segmental statistics in all noise conditions. The viability of the suggested technique was verified in various experiments using different background noises and microphones. In an isolated-word recognition task, the proposed normalization technique reduced the error rates over 70% in noisy conditions with respect to the baseline tests, and in a microphone mismatch case, over 75% error rate reduction was achieved.\n",
+    ""
+   ]
+  },
+  "bernstein97_rsr": {
+   "authors": [
+    [
+     "Erica",
+     "Bernstein"
+    ],
+    [
+     "Ward",
+     "Evans"
+    ]
+   ],
+   "title": "Wavelet based noise reduction for speech recognition",
+   "original": "rsr7_111",
+   "page_count": 4,
+   "order": 19,
+   "p1": "111",
+   "pn": "114",
+   "abstract": [
+    "In this paper we present evidence to suggest that a wavelet based noise reduction technique, having been used predominantly in image proccessing, can be applied successfully to speech signals in order to improve speech recognition accuracy. The algorithm requires no retraining of acoustic models and is directly applied to the time waveform, thus it can be used as a preproccessing step for any recognition system. We test the technique on both additive and convolutional noise using two different speech recognizers.\n",
+    ""
+   ]
+  },
+  "hernando97_rsr": {
+   "authors": [
+    [
+     "Javier",
+     "Hernando"
+    ],
+    [
+     "Climent",
+     "Nadeu"
+    ]
+   ],
+   "title": "A unified parameterization scheme for noisy speech recognition",
+   "original": "rsr7_115",
+   "page_count": 4,
+   "order": 20,
+   "p1": "115",
+   "pn": "118",
+   "abstract": [
+    "LP-based and mel-cepstrum coefficients are by far the most prevalent parameterization techniques in speech recognition. The conventional LP technique is known to be very sensitive to the presence of additive noise and there are few comparative studies about its relative robustness to noise with respect to mel-cepstrum. In this paper, a new unified parameterization scheme is proposed that combines both LP and mel-scaled filter bank analysis and yields new hybrid methods. Also it has been considered the frequency filtering of log filter-bank energies proposed recently by the authors as an alternative to cepstrum representations. From the comparison between conventional and new techniques, excellent results are presented in CDHMM clean and noisy digit recognition.\n",
+    ""
+   ]
+  },
+  "veth97_rsr": {
+   "authors": [
+    [
+     "Johan de",
+     "Veth"
+    ],
+    [
+     "Louis",
+     "Boves"
+    ]
+   ],
+   "title": "Channel normalisation using phase-corrected RASTA",
+   "original": "rsr7_119",
+   "page_count": 4,
+   "order": 21,
+   "p1": "119",
+   "pn": "122",
+   "abstract": [
+    "Recently, we proposed an extension to the classical RASTA technique. The new method consists of classical RASTA filtering followed by a phase correction operation. In this manner, the influence of the communication channel is as effectively removed as with classical RASTA. However, our proposal does not introduce a left-context dependency like classical RASTA. Therefore the new method is better suited for automatic speech recognition based on context-independent modeling with Gaussian mixture hidden Markov models. In this paper we introduce an implementation of phase-corrected RASTA suited for real-time processing. In the context of connected digit recognition over the phone using context-independent phone-based models, we show that word error rate for this implementation is more than 20% lower compared to a real-time implementation of the cepstrum mean subtraction channel normalisation method.\n",
+    ""
+   ]
+  },
+  "hussain97_rsr": {
+   "authors": [
+    [
+     "Amir",
+     "Hussain"
+    ],
+    [
+     "Douglas R.",
+     "Campbell"
+    ],
+    [
+     "Thomas J.",
+     "Moir"
+    ]
+   ],
+   "title": "A multi-microphone sub-band adaptive speech enhancement system employing diverse sub-band processing",
+   "original": "rsr7_123",
+   "page_count": 4,
+   "order": 22,
+   "p1": "123",
+   "pn": "126",
+   "abstract": [
+    "A multi-microphone sub-band adaptive (MMSBA) speech enhancement system employing diverse sub-band processing is proposed. A technique based on the coherence function is developed in order to select the best form of processing within each sub-band. Comparative results achieved in simulation experiments demonstrate that the method is capable of outperforming conventional noise cancellation schemes.\n",
+    ""
+   ]
+  },
+  "vair97_rsr": {
+   "authors": [
+    [
+     "C.",
+     "Vair"
+    ],
+    [
+     "N.",
+     "Chiminelli"
+    ],
+    [
+     "L.",
+     "Fissore"
+    ],
+    [
+     "G.",
+     "Micca"
+    ]
+   ],
+   "title": "Comparison of algorithms for microphone equalization in continuous speech recognition",
+   "original": "rsr7_127",
+   "page_count": 4,
+   "order": 23,
+   "p1": "127",
+   "pn": "130",
+   "abstract": [
+    "This paper presents the evaluation of several techniques for channel compensation in a specific scenario of acoustic mismatch between training and test conditions, for a speaker-dependent speech recognizer in both DDHMM and CDHMM frameworks. Several methods, such as High Pass Filtering [7], Cepstral Mean Normalization, RATZ algorithms [2], Bayesian learning (Maximum a Posteriori estimation) [3, 5, 4] without stereo data were taken in account in order to analyze the problem of robustness to microphone variations in blind conditions. This evaluation has been performed in terms of performance improvement, amount of adaptation data and computational load.\n",
+    "The experiments were run on a speaker-dependent continuous speech recognition task with a test vocabulary size of 247 words. The relative error reduction in adapted cross conditions ranges from 53.4% with about 3 seconds of adaptation data to 71.8% with 5 minutes in a CDHMM framework using the best algorithm for each situation.\n",
+    ""
+   ]
+  },
+  "raj97_rsr": {
+   "authors": [
+    [
+     "Bhiksha",
+     "Raj"
+    ],
+    [
+     "Evandro",
+     "Gouvea"
+    ],
+    [
+     "Richard M.",
+     "Stern"
+    ]
+   ],
+   "title": "Cepstral compensation using statistical linearization",
+   "original": "rsr7_131",
+   "page_count": 4,
+   "order": 24,
+   "p1": "131",
+   "pn": "134",
+   "abstract": [
+    "Speech recognition systems perform poorly on speech degraded by even simple effects such as linear filtering and additive noise. One solution to this problem is to modify the probability density function (PDF) of clean speech to account for the effects of the degradation. However, even for the case of linear filtering and additive noise, it is extremely difficult to do this analytically. Previously-attempted analytical solutions for the problem of noisy speech recognition have either used an overly-simplified mathematical description of the effects of noise on the statistics of speech, or they have relied on the availability of large environment-specific adaptation sets. In this paper we present the Vector Polynomial approximations (VPS) method to compensate for the effects of linear filtering and additive noise on the PDF of clean speech. VPS also estimates the parameters of the environment, namely the noise and the channel, by using statistically linearized approximations of these effects. We evaluate the performance of this method (VPS) using the CMU SPHINX-II system on the alphanumeric CENSUS database corrupted with artificial white Gaussian noise. VPS provides improvements of up to 15 percent in relative recognition accuracy over our previous best algorithm, VTS, while being up to 20 percent more computationally efficient.\n",
+    ""
+   ]
+  },
+  "amraoui97_rsr": {
+   "authors": [
+    [
+     "Abdelkader",
+     "Amraoui"
+    ],
+    [
+     "Pierre",
+     "Dufour"
+    ]
+   ],
+   "title": "Robust vector quantization for noisy channels using a self-organizing pseudo-map",
+   "original": "rsr7_135",
+   "page_count": 4,
+   "order": 25,
+   "p1": "135",
+   "pn": "138",
+   "abstract": [
+    "A vector quantizer (VQ) is a mapping of input vectors to one of a finite collection of predetermined codevectors, where the set of all codevectors is called codebook. The most widely used technique for designing vector quantizers is the Generalized Lloyd algorithm or a tree-structured variant known as LBG algorithm. A VQ can also be designated as a Self-Organizing Map (SOM) using Kohonen learning. Robustness against channel-errors, when using VQ in a communication system, is an important issue which has attracted attention last years. Basically, likely errors induced by the channel should not cause major errors in terms of the reconstructed signal. This is accomplished by arranging the VQ such that codewords having small Hamming distances in terms of the channel codes also have reconstruction points with small signal distances. In this paper, we introduce a new VQ based on a self-organizing pseudo-map (SOPM) which uses Hamming distance as the criterion of neighborhood. Therefore, we have realized a pseudo-Gray coding during the process of VQ design. All the results have indicated that SOPM gives the best results compared to SOM and LBG. In the same time, a relatively small differences were noticed between the resulting distortions of the 3 VQs.\n",
+    ""
+   ]
+  },
+  "rose97_rsr": {
+   "authors": [
+    [
+     "Richard C.",
+     "Rose"
+    ],
+    [
+     "Alexandros",
+     "Potamianos"
+    ]
+   ],
+   "title": "Improving robustness in HMM based speech recognition through simultaneous frequency warping and spectral shaping",
+   "original": "rsr7_139",
+   "page_count": 4,
+   "order": 26,
+   "p1": "139",
+   "pn": "142",
+   "abstract": [
+    "Frequency warping approaches to speaker normalization have been proposed and evaluated on various speech recognition tasks [1, 2, 3]. In all cases, frequency warping was found to significantly improve recognition performance by reducing the mismatch between test utterances presented to the recognizer and the speaker independent HMM model. Maximum likelihood (ML) based model adaptation techniques have also been applied to reducing model mismatch by estimating a linear transformation that is applied to the model parameters in order to increase the likelihood of the input utterance. This paper demonstrates that significant advantage can be gained by performing frequency warping and ML speaker adaptation in a unified framework. A procedure is described which compensates utterances by simultaneously scaling the frequency axis and reshaping the spectral energy contour. This procedure is shown to reduce the error rate for a telephone based connected digit recognition task by as much as 38% in a single utterance based adaptation scenario.\n",
+    ""
+   ]
+  },
+  "aydin97_rsr": {
+   "authors": [
+    [
+     "Gül",
+     "Aydin"
+    ],
+    [
+     "Yasemin",
+     "Yardimci"
+    ],
+    [
+     "A. Enis",
+     "Cetin"
+    ]
+   ],
+   "title": "Robust multi-channel signal separation",
+   "original": "rsr7_143",
+   "page_count": 4,
+   "order": 27,
+   "p1": "143",
+   "pn": "146",
+   "abstract": [
+    "A two step procedure for two-channel signal separation is developed. We are particularly interested in separating signals generated by two sources received by two sensors. In the first step, time delays of the interfering signals are estimated using the usual or Fractional Lower Order Statistic (FLOS) type cross correlation estimates. In the next stage, Least Mean Square (LMS) and Normalized Least Mean-p Norm (NLMP) algorithms are used to cancel interference terms from each channel. The selection of the algorithms are made by referring to the characteristics of the signals. In particular, FLOS type cross correlation estimates and the Normalized Least Mean-p Norm algorithms demonstrate robust performance in the presence of impulsive signals. Simulation results for Gaussian and a-stable signals are presented. The robust algorithms are also effective in separating speech signals.\n",
+    ""
+   ]
+  },
+  "puel97_rsr": {
+   "authors": [
+    [
+     "Jean-Baptiste",
+     "Puel"
+    ]
+   ],
+   "title": "Neural networks contribution to robust HMM systems",
+   "original": "rsr7_147",
+   "page_count": 4,
+   "order": 28,
+   "p1": "147",
+   "pn": "150",
+   "abstract": [
+    "In this paper, we present the problem of speech recognition in adverse environment, especially in the case of specific telephone noise. We show that basic noise cancellation methods are not adequate to adapt a system to various telephonic networks. So, we propose a method aiming to identify the telephonic network on which the call has been done, by the mean of a neural network, to obtain new information about acoustic observations vectors. An HMM speech recognition system takes advantage of this new information and reduce his error rate by 25 % in our application.\n",
+    ""
+   ]
+  },
+  "ringger97_rsr": {
+   "authors": [
+    [
+     "Eric K.",
+     "Ringger"
+    ],
+    [
+     "James R.",
+     "Allen"
+    ]
+   ],
+   "title": "Robust error correction of continuous speech recognition",
+   "original": "rsr7_151",
+   "page_count": 4,
+   "order": 29,
+   "p1": "151",
+   "pn": "154",
+   "abstract": [
+    "We present a post-processing technique for correcting errors committed by an arbitrary continuous speech recognizer. The technique leverages our observation that consistent recognition errors arising from mismatched training and usage conditions can be modeled and corrected. We have implemented a post-processor called SpeechPP to correct word-level errors, and we show that this post-processing technique applies successfully when the training and usage domains differ even slightly; for the purposes of the recognizer, such a difference manifests itself as differences in the vocabulary and in the likelihoods of word collocations. We hypothesize that other differences between the training and usage conditions yield recognition errors with some consistency also. Hence, we propose that our technique be used to compensate for those mismatches as well.\n",
+    ""
+   ]
+  },
+  "takiguchi97_rsr": {
+   "authors": [
+    [
+     "Tetsuya",
+     "Takiguchi"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ],
+    [
+     "Qiang",
+     "Huo"
+    ],
+    [
+     "Kiyohiro",
+     "Shikano"
+    ]
+   ],
+   "title": "Adaptation of model parameters by HMM decomposition in noisy reverberant environments",
+   "original": "rsr7_155",
+   "page_count": 4,
+   "order": 30,
+   "p1": "155",
+   "pn": "158",
+   "abstract": [
+    "This paper presents a new method to estimate HMM parameters of an acoustical transfer function based on HMM decomposition in model domain. The model parameters are estimated by maximizing a likelihood of adaptation data. The proposed method is obtained as the natural result of a reverse process of the HMM composition. In our previous paper[l], we proposed a method which can model an observed signal by the composition of HMMs of clean speech, noise and an acoustical transfer function. The previously proposed method needs measurement of impulse responses. It is inconvenient and unrealistic to measure impulse responses for a new environment. The new method is able to estimate HMM parameters of the acoustical transfer function from a small amount of adaptation data. Its effectiveness is confirmed by a series of speaker dependent and independent word recognition experiments on simulated distant-talking speech.\n",
+    ""
+   ]
+  },
+  "linhard97_rsr": {
+   "authors": [
+    [
+     "Klaus",
+     "Linhard"
+    ],
+    [
+     "Heinz",
+     "Klemm"
+    ]
+   ],
+   "title": "Noise reduction with spectral subtraction and median filtering for suppression of musical tones",
+   "original": "rsr7_159",
+   "page_count": 4,
+   "order": 31,
+   "p1": "159",
+   "pn": "162",
+   "abstract": [
+    "Spectral Subtraction is widely used for enhancing noise-corrupted speech signals. One of the main problems are \"musical tones\" in the filtered speech signal. Many solutions have been suggested to get rid of musical tones but they often lead to a poor speech quality or need cumbersome optimizations. We present a new approach based on nonlinear median filtering, which is easy to implement and especially efficient for suppressing musical tones without degrading the speech signal.\n",
+    ""
+   ]
+  },
+  "agaiby97_rsr": {
+   "authors": [
+    [
+     "H.",
+     "Agaiby"
+    ],
+    [
+     "C.",
+     "Fyfe"
+    ],
+    [
+     "S.",
+     "McGlinchey"
+    ],
+    [
+     "T. J.",
+     "Moir"
+    ]
+   ],
+   "title": "Commercial speech recognisers performance under adverse conditions, a survey",
+   "original": "rsr7_163",
+   "page_count": 4,
+   "order": 32,
+   "p1": "163",
+   "pn": "166",
+   "abstract": [
+    "This paper investigates the performance of some state of the art commercial speech recognisers that support continuous speech, speaker independent recognition. Three speech recognition engines were tested using small size vocabulary, continuous speech, and under a variety of conditions. These tests were originally performed in order to select the most suitable speech recogniser for a specific application that runs on a personal computer. Nevertheless, the requirements and operating conditions of this application are common to many other speech recognition applications. Five parameters were considered critical for the performance of speech recognition in the intended application, namely: dialect, speaker vocal characteristics, microphone type, noise level, and loudness level. The effect of each of these parameters on the recognition accuracy was evaluated by a set of tests in which one parameter was varied and the recognition accuracy of the various speech recognition systems measured.\n",
+    ""
+   ]
+  },
+  "pellom97_rsr": {
+   "authors": [
+    [
+     "Bryan L.",
+     "Pellom"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Automatic segmentation and labeling of speech recorded in unknown noisy channel environments",
+   "original": "rsr7_167",
+   "page_count": 4,
+   "order": 33,
+   "p1": "167",
+   "pn": "170",
+   "abstract": [
+    "This paper investigates the problem of automatic segmentation of speech recorded in noisy channel corrupted environments. Several speech enhancement and channel compensation techniques previously proposed for robust speech recognition are evaluated and compared for improved segmentation in colored noise. Speech enhancement algorithms considered include: Generalized Spectral Subtraction, Nonlinear Spectral Subtraction, Ephraim-Malah MMSE enhancement, and AutoLSP Constrained Iterative Wiener filtering. In addition, the coupling of front-end processing such as cepstral mean subtraction in tandem with speech enhancement methods is considered for noisy channel compensation. Compensation performance is assessed for each method using automatic segmentation of the telephone transmitted NTIMIT and cellular telephone transmitted CTIMIT databases.\n",
+    ""
+   ]
+  },
+  "suh97_rsr": {
+   "authors": [
+    [
+     "Youngjoo",
+     "Suh"
+    ],
+    [
+     "Jun",
+     "Park"
+    ],
+    [
+     "Youngjik",
+     "Lee"
+    ]
+   ],
+   "title": "A user friendly remote speech input unit in spontaneous speech translation system",
+   "original": "rsr7_171",
+   "page_count": 4,
+   "order": 34,
+   "p1": "171",
+   "pn": "174",
+   "abstract": [
+    "In this paper, we propose a remote speech input unit, a new method of user-friendly speech input in speech recognition system. We focused the user friendliness on hands-free and microphone independence in speech recognition applications. Our module adopts two algorithms, the automatic speech detection and speech enhancement based on the microphone array-based beamforming method. In the performance evaluation of speech detection, within-200 msec accuracy with respect to the manually detected positions is about 97 percent under the noise environments of 25 dB of the signal-to-noise ratio(SNR). The microphone array-based speech enhancement using the delay-and-sum beamforming algorithm shows about 6 dB of maximum SNR gain over a single microphone and more than 12 percent of error reduction rate in speech recognition.\n",
+    ""
+   ]
+  },
+  "pouting97_rsr": {
+   "authors": [
+    [
+     "Keith M.",
+     "Pouting"
+    ]
+   ],
+   "title": "Automatic speech recognition for time-varying channels",
+   "original": "rsr7_175",
+   "page_count": 5,
+   "order": 35,
+   "p1": "175",
+   "pn": "180",
+   "abstract": [
+    "Any mismatch between training and test conditions can cause difficulty for current automatic speech recognition systems. This paper presents a simple tracking algorithm to compensate for changing transmission channel characteristics during recognition. The algorithm is designed to work in the context of a continuous single-pass speech recognition system and to be robust to speech recognition errors. Experiments show that it can successfully compensate for mismatched microphones and microphone positions.\n",
+    ""
+   ]
+  },
+  "martinez97_rsr": {
+   "authors": [
+    [
+     "R.",
+     "Martinez"
+    ],
+    [
+     "A.",
+     "Alvarez"
+    ],
+    [
+     "V.",
+     "Nieto"
+    ],
+    [
+     "V.",
+     "Rodellar"
+    ],
+    [
+     "P.",
+     "Gomez"
+    ]
+   ],
+   "title": "ASR in highly non-stationary environments using adaptive noise cancelling techniques",
+   "original": "rsr7_181",
+   "page_count": 4,
+   "order": 36,
+   "p1": "181",
+   "pn": "184",
+   "abstract": [
+    "Through this paper the results of applying three different Adaptive Noise Cancelling Algorithms for Speech Enhancement in Robust Speech Recognition Command-Driven Interfaces are presented and discussed. Time-domain methods related with Recursive Least Squares Lattice-Ladder Filters with a posteriori updating show the best cancelling behaviour, although at a higher computational cost. The influence of microphonic separation is also evaluated. The best results are obtained for cardioid microphones with a separation of around 20 cm. taking advantage of their angular properties to prevent speech crosstalk in the reference microphone, thus reducing the computational cost required to acceptable limits.\n",
+    ""
+   ]
+  },
+  "kabre97_rsr": {
+   "authors": [
+    [
+     "Harouna",
+     "Kabre"
+    ]
+   ],
+   "title": "Audio-visual talker localization for hand-free speech recognition",
+   "original": "rsr7_185",
+   "page_count": 5,
+   "order": 37,
+   "p1": "185",
+   "pn": "190",
+   "abstract": [
+    "A system for tracking a talker by sound and video is presented for the purpose of Hand-Free Speech Recognition. A 4-microphones array is used to locate the talker by sound using the Cross-Power Spectrum method for the estimation of Time Delays between the 4 microphones signals. An histogram model of the skin color is applied to locate the talker on the video path. The two estimations of the talker positions are then combined to improve the precision of talker localization before beamforming an acoustic signal for speech recognition. The system is evaluated on 50-French logatomes in a computer room with 0.7 seconds reverberation time and has shown a decrease of error of 30% compared to the audio only system. A description of the different methods and algorithms is given. Key  Words:  Localization,  Hand-Free  Speech Recognition, Audio-Visual.\n",
+    ""
+   ]
+  },
+  "falavigna97_rsr": {
+   "authors": [
+    [
+     "Daniele",
+     "Falavigna"
+    ],
+    [
+     "Roberto",
+     "Gretter"
+    ]
+   ],
+   "title": "Evaluation of digit recognition over the telephone network",
+   "original": "rsr7_191",
+   "page_count": 4,
+   "order": 38,
+   "p1": "191",
+   "pn": "194",
+   "abstract": [
+    "In this paper we address the problem of continuous digit recognition over the telephone in real-time. We describe a telephone corpus, that has been acquired both to retrain Hidden Markov Models, derived from clean speech, and to test the application. Experimental comparisons, using different acoustic features, are given, showing that linear prediction cepstral coefficients outperform the other types of features. Cepstral mean subtraction is compared with RASTA filtering. This latter one is more attractive because it allows to perform recognition while the user is still speaking. Explicit modeling of some weak spontaneous speech phenomena, that allows to considerably improve word accuracy, is also described. Finally, we discuss the use of a rejection strategy, for the recognition of small vocabularies, that is fundamental in real applications.\n",
+    ""
+   ]
+  },
+  "omologo97b_rsr": {
+   "authors": [
+    [
+     "Maurizio",
+     "Omologo"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Piergiorgio",
+     "Svaizer"
+    ],
+    [
+     "Diego",
+     "Giuliani"
+    ]
+   ],
+   "title": "Hands-free speech recognition in a noisy and reverberant environment",
+   "original": "rsr7_195",
+   "page_count": 4,
+   "order": 39,
+   "p1": "195",
+   "pn": "198",
+   "abstract": [
+    "In this work a challenging scenario concerning hands-free continuous speech recognition is investigated. A set of experiments was carried out using microphone arrays having different numbers of omnidirectional sensors and that were placed at different angles and distances from the talker. Both real and simulated array signals, obtained by means of the image method, were used. An enhanced input to a recognizer based on Hidden Markov Models was obtained by a time delay compensation module providing a beamformed signal. HMM adaptation was used to improve recognition performance in the various acoustic conditions.\n",
+    ""
+   ]
+  },
+  "hussain97b_rsr": {
+   "authors": [
+    [
+     "Amir",
+     "Hussain"
+    ],
+    [
+     "Douglas R.",
+     "Campbell"
+    ]
+   ],
+   "title": "A multi-microphone sub-band adaptive speech enhancement system employing artificial neural network based non-linear filters",
+   "original": "rsr7_199",
+   "page_count": 4,
+   "order": 40,
+   "p1": "199",
+   "pn": "202",
+   "abstract": [
+    "In this paper, a new class of single-hidden layered linear-in-the-parameters, feedforward Artificial Neural Network (ANN) based adaptive non-linear filters is proposed for processing band-limited signals in a multi-microphone sub-band adaptive (MMSBA) speech enhancement system. Comparative results achieved in simulation experiments demonstrate that the proposed MMSBA system employing ANN based sub-band processing is capable of outperforming conventional noise cancellation schemes.\n",
+    ""
+   ]
+  },
+  "raman97_rsr": {
+   "authors": [
+    [
+     "Vijay",
+     "Raman"
+    ],
+    [
+     "Vidhya",
+     "Ramanujam"
+    ]
+   ],
+   "title": "Incorporation of noise pre-processing into an entrenched speech recognition system",
+   "original": "rsr7_203",
+   "page_count": 4,
+   "order": 41,
+   "p1": "203",
+   "pn": "206",
+   "abstract": [
+    "With the increase in the number of cellular customers using the VoiceDialing system deployed by NYNEX and its customers, and the anticipated future cellular applications of speech recognition, the issue of robustness against noise has become a critical issue in our system. NYNEX is therefore incorporating noise-cancellation into the currently deployed system. A number of algorithmic and implementational questions were raised by the strong requirements of compatibility with existing landline and cellular users of speaker-dependent recognition. Mismatch-condition evaluations, post-processing and other algorithm issues are discussed here.\n",
+    ""
+   ]
+  },
+  "matrouf97_rsr": {
+   "authors": [
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Jean-Luc",
+     "Gauvain"
+    ]
+   ],
+   "title": "Model compensation for additive and convolutive noises in training and test data",
+   "original": "rsr7_207",
+   "page_count": 4,
+   "order": 42,
+   "p1": "207",
+   "pn": "210",
+   "abstract": [
+    "The performances of speech recognizers drop substantially when there is a mismatch between training and testing conditions. Approaches based on a channel model generally assume that the training data is noise-free, and the test data is noisy. In practice, this assumption is seldom correct In this paper, we propose an iterative algorithm to compensate for noise in both the training and test data. The adopted approach compensates the speech model parameters using the noise present in the test data, and compensates the test data frames using the noise present in the training data. No assumptions are made about the types of noises present in both the training and test data. They are assumed to not have been recorded under the same conditions, and are likely to come from different and unknown microphones and acoustic environments. The effectiveness of such a compensation scheme has been assessed on the MASK task using a continuous density HMM-based speech recognizer. In this work we outline the compensation technique for treating noises in both the training and test data. We then provide experimental results using this method, as well as using MLLR adaptation to compensate for the residual mismatch.\n",
+    ""
+   ]
+  },
+  "mokbel97_rsr": {
+   "authors": [
+    [
+     "C.",
+     "Mokbel"
+    ]
+   ],
+   "title": "MUSE: MUltipath stochastic equalization - a theoretical framework to combine equalization and stochastic modeling",
+   "original": "rsr7_211",
+   "page_count": 4,
+   "order": 43,
+   "p1": "211",
+   "pn": "214",
+   "abstract": [
+    "MUSE or \"MUltipath Stochastic Equalization\" is a new framework to integrate a stochastic HMM-like model of the clean signal within an equalization scheme where an equalization function is associated to each possible path in the model, and whose parameters are estimated using ML or MAP criteria. The advantages and limitations of this approach are discussed as well as the problems of pruning the paths and choosing the optimal path at a given moment. Three equalization functions are developed, i.e. removing a bias, linear multiple regression and spectral subtraction. Comparison of this approach with the stochastic matching approach is provided. Recognition experiments show that MUSE removing bias outperforms classical cepstral normalization and adaptive filtering for more critical recognition conditions.\n",
+    ""
+   ]
+  },
+  "puel97b_rsr": {
+   "authors": [
+    [
+     "Jean-Baptiste",
+     "Puel"
+    ],
+    [
+     "Bruno",
+     "Jacob"
+    ]
+   ],
+   "title": "Robust HMM architectures for cellular phone speech recognition",
+   "original": "rsr7_215",
+   "page_count": 4,
+   "order": 44,
+   "p1": "215",
+   "pn": "218",
+   "abstract": [
+    "This paper presents a set of solutions aiming to improve the performances of speech recognition systems used in adverse environments, especially in cellular phone noise conditions. Hidden Markov Models achieve very good performances in speaker independant small vocabularies speech recognition, and offer realistic solutions for creating interactive vocal servers, but the lack of robustness to environment changes is their principal weakness. Many authors have proposed either robust recognition methods, or noise cancellation systems, but none of these methods achieves good results for cellular phone specific noise, which is often drastically corrupted by ambient noise, transmission noise and impulsive noise. The novel solution we present here consists in a specific HMM modelling of multi-noise contexts, training the system in various noise environments, each of them supported by a component of the system, either a subsystem, or a subset of transitions and density laws.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Table of Contents and Access to Abstracts",
+   "papers": [
+    "hermansky97_rsr",
+    "furui97_rsr",
+    "steeneken97_rsr",
+    "greenberg97_rsr",
+    "stern97_rsr",
+    "morgan97_rsr",
+    "lee97_rsr",
+    "gales97_rsr",
+    "hermansky97b_rsr",
+    "omologo97_rsr",
+    "sagayama97_rsr",
+    "verhasselt97_rsr",
+    "kingsbury97_rsr",
+    "shields97_rsr",
+    "dupont97_rsr",
+    "kim97_rsr",
+    "hermansky97c_rsr",
+    "viikki97_rsr",
+    "bernstein97_rsr",
+    "hernando97_rsr",
+    "veth97_rsr",
+    "hussain97_rsr",
+    "vair97_rsr",
+    "raj97_rsr",
+    "amraoui97_rsr",
+    "rose97_rsr",
+    "aydin97_rsr",
+    "puel97_rsr",
+    "ringger97_rsr",
+    "takiguchi97_rsr",
+    "linhard97_rsr",
+    "agaiby97_rsr",
+    "pellom97_rsr",
+    "suh97_rsr",
+    "pouting97_rsr",
+    "martinez97_rsr",
+    "kabre97_rsr",
+    "falavigna97_rsr",
+    "omologo97b_rsr",
+    "hussain97b_rsr",
+    "raman97_rsr",
+    "matrouf97_rsr",
+    "mokbel97_rsr",
+    "puel97b_rsr"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,369 @@
+{
+ "title": "ITRW on Statistical and Perceptual Audio Processing (SAPA 2006)",
+ "location": "Pittsburgh, PA, USA",
+ "startDate": "16/9/2006",
+ "endDate": "16/9/2006",
+ "conf": "SAPA",
+ "year": "2006",
+ "name": "sapa_2006",
+ "series": "SAPA",
+ "SIG": "",
+ "title1": "ITRW on Statistical and Perceptual Audio Processing",
+ "title2": "(SAPA 2006)",
+ "date": "16 September 2006",
+ "papers": {
+  "mandel06_sapa": {
+   "authors": [
+    [
+     "Michael I.",
+     "Mandel"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ]
+   ],
+   "title": "A probability model for interaural phase difference",
+   "original": "sap6_001",
+   "page_count": 6,
+   "order": 1,
+   "p1": "1",
+   "pn": "6",
+   "abstract": [
+    "In this paper, we derive a probability model for interaural phase differences at individual spectrogram points. Such a model can combine observations across arbitrary time and frequency regions in a structured way and does not make any assumptions about the characteristics of the sound sources. In experiments with speech from twenty speakers in simulated reverberant environments, this probabilistic method predicted the correct interaural delay of a signal more accurately than generalized cross-correlation methods.\n",
+    ""
+   ]
+  },
+  "li06_sapa": {
+   "authors": [
+    [
+     "Guoping",
+     "Li"
+    ],
+    [
+     "Mark E.",
+     "Lutman"
+    ]
+   ],
+   "title": "Sparseness and speech perception in noise",
+   "original": "sap6_007",
+   "page_count": 5,
+   "order": 2,
+   "p1": "7",
+   "pn": "11",
+   "abstract": [
+    "Can we model speech recognition in noise by exploring higher order statistics of the combined signal? How will changes in these statistics affect speech perception in noise? This study addresses these questions in two experiments. One investigated the relationship between an established \"glimpsing\" model and the fourth order statistic, kurtosis. The glimpsing model [1] proposes that listeners can explore the local speech-to-noise ratio (SNR) in short time segments (glimpses) and focus on areas where SNR is high. Results showed that there is a very high correlation between percentages of glimpsing area and kurtosis (r = 0:99; p < 0:01), suggesting that kurtosis can serve as a simpler index for measuring glimpsing. The experiment also examined the association between kurtosis and recognition of nonsense words (vowel-consonantvowel, VCV) in babble modulated noise, also showing very high correlation (r = 0:97; p < 0:01). Another separate study focused on the relationship of sparseness to speech recognition score for VCV words in natural babble noise made of 100 people talking simultaneously [2]. Results show that there is also high correlation between kurtosis and speech recognition score with this noise. Logistic regression analysis to obtain the kurtosis for 50% correct showed this was achieved at a kurtosis of approximately 1.0.\n",
+    ""
+   ]
+  },
+  "izumitani06_sapa": {
+   "authors": [
+    [
+     "Tomonori",
+     "Izumitani"
+    ],
+    [
+     "Kunio",
+     "Kashino"
+    ]
+   ],
+   "title": "Frequency component restoration for music sounds using local probabilistic models with maximum entropy learning",
+   "original": "sap6_012",
+   "page_count": 6,
+   "order": 3,
+   "p1": "12",
+   "pn": "17",
+   "abstract": [
+    "We propose a method that estimates frequency component structures from musical audio signals and restores missing components due to noise. Restoration has become important in various music information processing systems including music information retrieval. Our method comprises two steps: (1) pattern classification for the initial component-state estimation, and (2) state optimization by a generative model (Markov random fields; MRF). Throughout the method, we use a probabilistic model defined for each local region on a spectrogram. Unlike conventional MRF models, the model parameters are learned using a maximum entropy method. Experiments using artificial noisy sounds show that a combination of the above two steps improves the performance with respect to restoration accuracy and robustness, compared with the sole use of pattern classification or a generative model. The method achieves an F-measure greater than 0.6 even in periods where signals are replaced by noises. In addition, the method is shown to be effective even for audio signals of real instruments\n",
+    ""
+   ]
+  },
+  "terasawa06_sapa": {
+   "authors": [
+    [
+     "Hiroko",
+     "Terasawa"
+    ],
+    [
+     "Malcolm",
+     "Slaney"
+    ],
+    [
+     "Jonathan",
+     "Berger"
+    ]
+   ],
+   "title": "A statistical model of timbre perception",
+   "original": "sap6_018",
+   "page_count": 6,
+   "order": 4,
+   "p1": "18",
+   "pn": "23",
+   "abstract": [
+    "We describe a perceptual space for timbre, define an objective metric that takes into account perceptual orthogonality and measure the quality of timbre interpolation. We discuss two timbre representations and measure perceptual judgments on an equivalent range of timbre variety. We determine that a timbre space based on Mel-frequency cepstral coefficients (MFCC) is a good model for a perceptual timbre space.\n",
+    ""
+   ]
+  },
+  "rennie06_sapa": {
+   "authors": [
+    [
+     "Steven",
+     "Rennie"
+    ],
+    [
+     "Peder",
+     "Olsen"
+    ],
+    [
+     "John",
+     "Hershey"
+    ],
+    [
+     "Trausti",
+     "Kristjansson"
+    ]
+   ],
+   "title": "The Iroquois model: using temporal dynamics to separate speakers",
+   "original": "sap6_024",
+   "page_count": 7,
+   "order": 5,
+   "p1": "24",
+   "pn": "30",
+   "abstract": [
+    "We describe a system that can separate and recognize the simultaneous speech of two speakers from a single channel recording and compare the performance of the system to that of human subjects. The system, which we call Iroquois, uses models of dynamics to achieve performance near that of human listeners. However the system exhibits a pattern of performance across conditions that is different from that of human subjects. In conditions where the amplitude of the speakers is similar, the Iroquois model surpasses human performance by over 50%. We hypothesize that the system accomplishes this remarkable feat by employing a different strategy to that of the human auditory system.\n",
+    ""
+   ]
+  },
+  "weiss06_sapa": {
+   "authors": [
+    [
+     "Ron J.",
+     "Weiss"
+    ],
+    [
+     "Daniel P. W.",
+     "Ellis"
+    ]
+   ],
+   "title": "Estimating single-channel source separation masks: relevance vector machine classifiers vs. pitch-based masking",
+   "original": "sap6_031",
+   "page_count": 6,
+   "order": 6,
+   "p1": "31",
+   "pn": "36",
+   "abstract": [
+    "Audio sources frequently concentrate much of their energy into a relatively small proportion of the available time-frequency cells in a short-time Fourier transform (STFT). This sparsity makes it possible to separate sources, to some degree, simply by selecting STFT cells dominated by the desired source, setting all others to zero (or to an estimate of the obscured target value), and inverting the STFT to a waveform. The problem of source separation then becomes identifying the cells containing good target information. We treat this as a classification problem, and train a Relevance Vector Machine (a probabilistic relative of the Support Vector Machine) to perform this task. We compare the performance of this classifier both against SVMs (it has similar accuracy but is not as efficient as RVMs), and against a traditional Computational Auditory Scene Analysis (CASA) technique based on a noise-robust pitch tracker, which the RVM outperforms significantly. Differences between the RVM- and pitch-tracker-based mask estimation suggest benefits to be obtained by combining both.\n",
+    ""
+   ]
+  },
+  "scholling06_sapa": {
+   "authors": [
+    [
+     "Björn",
+     "Schölling"
+    ],
+    [
+     "Martin",
+     "Heckmann"
+    ],
+    [
+     "Frank",
+     "Joublin"
+    ],
+    [
+     "Christian",
+     "Goerick"
+    ]
+   ],
+   "title": "Structuring time domain blind source separation algorithms for CASA integration",
+   "original": "sap6_037",
+   "page_count": 5,
+   "order": 7,
+   "p1": "37",
+   "pn": "41",
+   "abstract": [
+    "Most algorithms based on Computational Auditory Scene Analysis (CASA) for binaural speech separation do not have the ability to inhibit already localized and for a long time present sources in the auditory scene. This has the major drawback that the auditory cues of weaker and new sources are subject to interference from already localized and perceived signals and the separation performance is worse if the signals overlap in their processing domain. In this paper we outline how one can build intuitively a separation system that has this inhibition feature. The main block and starting point of our derivation is a simple cross correlation based localization system with two microphones. The inhibition is achieved by feeding back localization results to a filter and sum structure that cancels localized sounds. Interestingly, our intuitive approach leads to a special case of a well known time domain blind source separation algorithm which was derived from a statistical signal processing viewpoint and exhibits good convergence even in reverberant environments. Finally, we discuss how the insights gained from building a blind source separation this way can be used to integrate CASA techniques.\n",
+    ""
+   ]
+  },
+  "yamamoto06_sapa": {
+   "authors": [
+    [
+     "Shun'ichi",
+     "Yamamoto"
+    ],
+    [
+     "Ryu",
+     "Takeda"
+    ],
+    [
+     "Kazuhiro",
+     "Nakadai"
+    ],
+    [
+     "Mikio",
+     "Nakano"
+    ],
+    [
+     "Hiroshi",
+     "Tsujino"
+    ],
+    [
+     "Jean-Marc",
+     "Valin"
+    ],
+    [
+     "Kazunori",
+     "Komatani"
+    ],
+    [
+     "Tetsuya",
+     "Ogata"
+    ],
+    [
+     "Hiroshi G.",
+     "Okuno"
+    ]
+   ],
+   "title": "Leak energy based missing feature mask generation for ICA and GSS and its evaluation with simultaneous speech recognition",
+   "original": "sap6_042",
+   "page_count": 6,
+   "order": 8,
+   "p1": "42",
+   "pn": "47",
+   "abstract": [
+    "This paper addresses automatic speech recognition (ASR) for robots integrated with sound source separation (SSS) by using leak noise based missing feature mask generation. The missing feature theory (MFT) is a promising approach to improve noise-robustness of ASR. An issue in MFT-based ASR is automatic generation of the missing feature mask. To improve robot audition, we applied this theory to interface ASR and SSS which extracts a sound source originated from a specific direction by multiple microphones. In a robot audition system, it is a promising approach to use SSS as a pre-processor for ASR to be able to deal with any kind of noises. However, ASR usually assumes clean speech input, while speech extracted by SSS never fails to be distorted. MFT can be applied to cope with distortion in the extracted speech. In this case, we can assume that the noises included in extracted sounds are mainly leakages from other channels. Thus, we introduced leak noise based missing feature mask generation, which can generate a missing feature mask automatically by using information on leak noise obtained from other channels. To assess the effectiveness of the leak noise based missing feature mask generation, we used two methods for SSS: geometric source separation (GSS) and independent component analysis (ICA), and Multiband Julian for MFT based ASR. The two constructed systems, that is, GSS-based and ICA-based robot audition systems, were evaluated through recognition of simultaneous speech uttered by two speakers. As a result, we showed that the proposed leak noise based missing feature mask generation worked well in both systems.\n",
+    ""
+   ]
+  },
+  "ravindran06_sapa": {
+   "authors": [
+    [
+     "Sourabh",
+     "Ravindran"
+    ],
+    [
+     "David V.",
+     "Anderson"
+    ],
+    [
+     "Malcolm",
+     "Slaney"
+    ]
+   ],
+   "title": "Improving the noise-robustness of mel-frequency cepstral coefficients for speech processing",
+   "original": "sap6_048",
+   "page_count": 5,
+   "order": 9,
+   "p1": "48",
+   "pn": "52",
+   "abstract": [
+    "In this paper we study the noise-robustness of mel-frequency cepstral coefficients (MFCCs) and explore ways to improve their performance in noisy conditions. Improvements based on a more accurate model of the early auditory system are suggested to make the MFCC features more robust to noise while preserving their class discrimination ability. Speech versus non-speech classification and speech recognition are chosen to evaluate the performance gains afforded by the modifications.\n",
+    ""
+   ]
+  },
+  "nishimura06_sapa": {
+   "authors": [
+    [
+     "Yoshitaka",
+     "Nishimura"
+    ],
+    [
+     "Mikio",
+     "Nakano"
+    ],
+    [
+     "Kazuhiro",
+     "Nakadai"
+    ],
+    [
+     "Hiroshi",
+     "Tsujino"
+    ],
+    [
+     "Mitsuru",
+     "Ishizuka"
+    ]
+   ],
+   "title": "Speech recognition for a robot under its motor noises by selective application of missing feature theory and MLLR",
+   "original": "sap6_053",
+   "page_count": 6,
+   "order": 10,
+   "p1": "53",
+   "pn": "58",
+   "abstract": [
+    "Automatic speech recognition (ASR) is essential for a robot to communicate with people. One of the main problems with ASR for robots is that robots inevitably generate motor noises. The noise is captured with strong power by the robot's microphones, because the noise sources are closer to the microphones than the target speech source. The signal-to-noise ratio of input speech becomes quite low (less than 0 dB). However, it is possible to estimate the noise by using information on the robot's own motions and postures, because a type of motion/gesture produces almost the same pattern of noise every time it is performed. This paper proposes a method to improve ASR under motor noises by using the information on the robot's motion/gesture. The method selectively uses three techniques . multi-condition training, maximum-likelihood linear regression (MLLR), and missing feature theory (MFT). The former two techniques cope with the motor noises by selecting the noise-type-dependent acoustic model corresponding to a performing motion/gesture. The last technique extracts unreliable acoustic features in an input sound by matching the input with a pre-recorded noise of the current motion/gesture, and masks them in speech recognition to improve ASR performance. Because, in our method, ASR technique selection affects the systems performance, we evaluated the performance of three ASRs for each noise type of a robot's motion/gesture to obtain the best technique selection rule. The preliminary results of isolated word recognition showed the effectiveness of our method using the obtained technique selection rule.\n",
+    ""
+   ]
+  },
+  "bellegarda06_sapa": {
+   "authors": [
+    [
+     "Jerome R.",
+     "Bellegarda"
+    ]
+   ],
+   "title": "LSM-based feature extraction for concatenative speech synthesis",
+   "original": "sap6_059",
+   "page_count": 6,
+   "order": 11,
+   "p1": "59",
+   "pn": "64",
+   "abstract": [
+    "In modern concatenative synthesis, unit selection is normally cast as a multivariate optimization task, yet comprehensively encapsulating the underlying problem of perceptual audition into a rich enough mathematical framework remains a major challenge. Objective functions typically considered to quantify acoustic discontinuities, for example, do not closely reflect users perception of the concatenated waveform. This paper considers an alternative feature extraction paradigm, which eschews general purpose Fourier analysis in favor of a modal decomposition separately optimized for each boundary region. The ensuing transform preserves, by construction, those properties of the signal which are globally relevant to each concatenation considered. This leads to a join cost strategy which jointly, albeit implicitly, accounts for both interframe incoherence and discrepancies in formant frequencies/bandwidths. Systematic listening tests underscore the viability of the proposed approach in accounting for the perception of discontinuity between acoustic units.\n",
+    ""
+   ]
+  },
+  "ishizuka06_sapa": {
+   "authors": [
+    [
+     "Kentaro",
+     "Ishizuka"
+    ],
+    [
+     "Tomohiro",
+     "Nakatani"
+    ]
+   ],
+   "title": "Study of noise robust voice activity detection based on periodic component to aperiodic component ratio",
+   "original": "sap6_065",
+   "page_count": 6,
+   "order": 12,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "This paper describes a study of noise robust voice activity detection (VAD) utilizing the periodic component to aperiodic component ratio (PAR). Although environmental sound changes dynamically in the real world, conventional noise robust features for VAD are sensitive to the non-stationarity of noise, which yields variations in the signal to noise ratio, and sometimes requires apriori noise power estimations. To overcome this problem, we adopt the PAR as an acoustic feature for VAD that is insensitive to the non-stationarity of noise. Hearing research also suggests that the decomposition of the periodic and aperiodic components plays an important role in the human auditory system. The proposed method first estimates the PAR of the observed signals with a harmonic filter in the frequency region. Then it detects the presence of target speech signals based on the voice activity likelihood defined in relation to the PAR. The performance of the proposed VAD algorithm was examined by using simulated and real noisy speech data. Comparisons confirmed that the proposed VAD algorithm outperforms the conventional VAD algorithms particularly in the presence of non-stationary noise.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Perception and Music",
+   "papers": [
+    "mandel06_sapa",
+    "li06_sapa",
+    "izumitani06_sapa",
+    "terasawa06_sapa"
+   ]
+  },
+  {
+   "title": "Source Separation",
+   "papers": [
+    "rennie06_sapa",
+    "weiss06_sapa",
+    "scholling06_sapa",
+    "yamamoto06_sapa"
+   ]
+  },
+  {
+   "title": "Speech Analysis, Recognition, and Synthesis",
+   "papers": [
+    "ravindran06_sapa",
+    "nishimura06_sapa",
+    "bellegarda06_sapa",
+    "ishizuka06_sapa"
+   ]
+  }
+ ]
+}

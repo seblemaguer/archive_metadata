@@ -1,0 +1,1985 @@
+{
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2018)",
+ "location": "Les Sables d'Olonne, France",
+ "startDate": "26/6/2018",
+ "endDate": "29/6/2018",
+ "URL": "http://www.odyssey2018.org",
+ "chair": "Chairs: Anthony Larcher and Jean-François Bonastre",
+ "conf": "Odyssey",
+ "year": "2018",
+ "name": "odyssey_2018",
+ "series": "Odyssey",
+ "SIG": "SpLC",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2018)",
+ "date": "26-29 June 2018",
+ "booklet": "odyssey_2018.pdf",
+ "papers": {
+  "kindt18_odyssey": {
+   "authors": [
+    [
+     "Els",
+     "Kindt"
+    ]
+   ],
+   "title": "Speaker identification and Data protection",
+   "original": "kindt",
+   "page_count": 0,
+   "order": 1,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The new General Data Protection Regulation (EU) 2016/679 encompasses new rules which apply to the use of voice for speaker identification. The speaker will discuss most relevant aspects and assess whether the envisaged protection reaches its goal. Attention will also be paid to the use of biometric data in research. "
+   ]
+  },
+  "king18_odyssey": {
+   "authors": [
+    [
+     "Simoin",
+     "King"
+    ]
+   ],
+   "title": "Speaking naturally? It depends who is listening.",
+   "original": "king",
+   "page_count": 0,
+   "order": 28,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "Putting one technology against another can lead to intriguing developments. Using speech synthesis to ‘spoof’ speaker verification systems was initially found to be very successful, but immediately triggered the development of effective countermeasures. The next step in the arms race is synthetic speech that cannot be detected by those countermeasures. It doesn’t even have to sound natural or like the target speaker to a human listener — only to the machine. Other forms of such an adversarial attack have been demonstrated against image classifiers (with images that look like one thing to a human but something entirely different to the machine) and automatic speech recognition systems (where signals that sound like noise to a human are recognised as words by the machine). This highlights the enormous differences between human and machine perception. Does that matter? Do generative models and adversarial techniques tell us anything about human speech, or is there no connection? I’m not promising any answers though; I’m likely to raise more questions. "
+   ]
+  },
+  "belin18_odyssey": {
+   "authors": [
+    [
+     "Pascal",
+     "Belin"
+    ]
+   ],
+   "title": "A Vocal Brain: Cerebral Processing of Voice Information",
+   "original": "belin",
+   "page_count": 0,
+   "order": 48,
+   "p1": "",
+   "pn": "",
+   "abstract": [
+    "The human voice carries speech but also a wealth of socially-relevant, speaker-related information. Listeners routinely perceive precious information on the speaker’s identity (gender, age), affective state (happy, scared), as well as more subtle cues on perceived personality traits (attractiveness, dominance, etc.), strongly influencing social interactions. Using voice psychoacoustics and neuroimaging techniques, we examine the cerebral processing of person-related information in perceptual and neural voice representations. Results indicate a cerebral architecture of voice cognition sharing many similarities with the cerebral organization of face processing, with the main types of information in voices (identity, affect, speech) processed in interacting, but partly dissociable functional pathways. "
+   ]
+  },
+  "sadjadi18_odyssey": {
+   "authors": [
+    [
+     "Seyed Omid",
+     "Sadjadi"
+    ],
+    [
+     "Timothee",
+     "Kheyrkhah"
+    ],
+    [
+     "Audrey",
+     "Tong"
+    ],
+    [
+     "Craig",
+     "Greenberg"
+    ],
+    [
+     "Douglas",
+     "Reynolds"
+    ],
+    [
+     "Elliot",
+     "Singer"
+    ],
+    [
+     "Lisa",
+     "Mason"
+    ],
+    [
+     "Jaime",
+     "Hernandez-Cordero"
+    ]
+   ],
+   "title": "The 2017 NIST Language Recognition Evaluation\t",
+   "original": "7",
+   "page_count": 8,
+   "order": 13,
+   "p1": 82,
+   "pn": 89,
+   "abstract": [
+    "In 2017, the U.S. National Institute of Standards and Technology (NIST) conducted the most recent in an ongoing series of Language Recognition Evaluations (LRE) meant to foster research in robust text- and speaker-independent language recognition as well as measure performance of current state-of-the-art systems. LRE17 was organized in a similar manner to LRE15, focusing on differentiating closely related languages (14 in total) drawn from 5 language clusters, namely Arabic, Chinese, English, Iberian, and Slavic. Similar to LRE15, LRE17 offered fixed and open training conditions to facilitate cross-system comparisons, and to understand the impact of additional and unconstrained amounts of training data on system performance, respectively. There were, however, several differences between LRE17 and LRE15 most notably including: 1) use of audio extracted from online videos (AfV) as development and test material, 2) release of a small development set which broadly matched the LRE17 test set, 3) system outputs in form of log-likelihood scores, rather than log-likelihood ratios, and 4) an alternative cross-entropy based performance metric. A total of 25 research organizations, forming 18 teams, participated in this 1-month long evaluation and, combined, submitted 79 valid system outputs to be evaluated. This paper presents an overview of the evaluation and an analysis of system performance over all primary evaluation conditions. The evaluation results suggest that 1) language recognition on AfV data was, in general, more challenging than telephony data, 2) top performing systems exhibited similar performance, 3) greatest performance improvements were largely due to data augmentation and use of more complex models for data representation, and 4) effective use of the development set was essential for the top performing systems. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-12"
+  },
+  "shi18_odyssey": {
+   "authors": [
+    [
+     "Ziqiang",
+     "Shi"
+    ],
+    [
+     "Mengjiao",
+     "Wang"
+    ],
+    [
+     "Liu",
+     "Liu"
+    ],
+    [
+     "Huibin",
+     "Lin"
+    ],
+    [
+     "Rujie",
+     "Liu"
+    ]
+   ],
+   "title": "A Double Joint Bayesian Approach for J-Vector Based Text-dependent Speaker Verification\t",
+   "original": "10",
+   "page_count": 7,
+   "order": 54,
+   "p1": 365,
+   "pn": 371,
+   "abstract": [
+    "J-vector has been proved to be very effective in text-dependent speaker verification with short-duration speech. However, the current state-of-the-art back-end classifiers, e.g. joint Bayesian model, cannot make full use of such deep features. In this paper, we generalize the standard joint Bayesian approach to model the multi-faceted information in the j-vector explicitly and jointly. In our generalization, the j-vector was modeled as a result derived by a generative Double Joint Bayesian (DoJoBa) model, which contains several kinds of latent variables.With DoJoBa, we are able to explicitly build a model that can combine multiple heterogeneous information from the j-vectors. In verification step, we calculated the likelihood to describe whether the two j-vectors having consistent labels or not. On the public RSR2015 data corpus, the experimental results showed that our approach can achieve 0.02\\% EER and 0.02\\% EER for impostor wrong and impostor correct cases respectively. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-51"
+  },
+  "tian18_odyssey": {
+   "authors": [
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Junchao",
+     "Wang"
+    ],
+    [
+     "Haihua",
+     "Xu"
+    ],
+    [
+     "Eng-Siong",
+     "Chng"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Average Modeling Approach to Voice Conversion with Non-Parallel Data\t",
+   "original": "11",
+   "page_count": 6,
+   "order": 34,
+   "p1": 227,
+   "pn": 232,
+   "abstract": [
+    "Voice conversion techniques typically require source-target parallel speech data for model training. Such parallel data may not be available always in practice. This paper presents a non-parallel data approach, that we call average modeling approach. The proposed approach makes use of a multi-speaker average model that maps speaker-independent linguistic features to speaker dependent acoustic features. In particular, we present two practical implementations, 1) to adapt the average model towards target speaker with a small amount of target data, 2) to present speaker identity as an additional input to the average model to generate target speech. As the linguistic feature and the acoustic feature can be extracted from the same utterance, the proposed approach doesn't require parallel data in either average model training or adaptation. We report the experiments on the voice conversion challenge 2018 (VCC2018) database that validate the effectiveness of the proposed method. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-32"
+  },
+  "wu18_odyssey": {
+   "authors": [
+    [
+     "Yichiao",
+     "Wu"
+    ],
+    [
+     "Patrick Lumban",
+     "Tobing"
+    ],
+    [
+     "Tomoki",
+     "Hayashi"
+    ],
+    [
+     "Kazuhiro",
+     "Kobayashi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "The NU Non-Parallel Voice Conversion System for the Voice Conversion Challenge 2018",
+   "original": "12",
+   "page_count": 8,
+   "order": 32,
+   "p1": 211,
+   "pn": 218,
+   "abstract": [
+    "This paper presents the NU non-parallel voice conversion (VC) system developed at Nagoya University for SPOKE task of Voice Conversion Challenge 2018 (VCC2018). The goal of the SPOKE task is to develop VC systems without the requirement of parallel training data. The key idea of our system development is to use text-to-speech (TTS) voice as a reference voice, making it possible to create two parallel training datasets between the source and TTS voices and between the TTS and target voices. Using these datasets, a cascade VC system is developed to convert the source voice into the target voice via the TTS voice as the reference. Furthermore, we also propose a system selection framework to avoid generating collapsed speech waveforms, which are often observed by using less accurately converted speech features in WaveNet vocoder. The VCC2018 results demonstrate that our system has achieved the 2nd best in terms of similarity (around 70% of the similarity score) and an above average in terms of naturalness (around 3.0 of the mean opinion score) among all submitted systems. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-30"
+  },
+  "liu18_odyssey": {
+   "authors": [
+    [
+     "Songxiang",
+     "Liu"
+    ],
+    [
+     "Lifa",
+     "Sun"
+    ],
+    [
+     "Xixin",
+     "Wu"
+    ],
+    [
+     "Xunying",
+     "Liu"
+    ],
+    [
+     "Helen",
+     "Meng"
+    ]
+   ],
+   "title": "The HCCL-CUHK System for the Voice Conversion Challenge 2018\t",
+   "original": "14",
+   "page_count": 7,
+   "order": 37,
+   "p1": 248,
+   "pn": 254,
+   "abstract": [
+    "This paper presents our proposed system for the Voice Conversion Challenge 2018 (the VCC 2018), which is mainly characterized by doing Voice Conversion (VC) with non-parallel training data using Phonetic PosteriorGrams (PPGs). While conventional vocoders such as STRAIGHT are often used in many VC systems, the synthesized speech degrades in naturalness and similarity and the synthesize process is slow. We propose to use Short-Time Fourier Transform Magnitudes (STFTMs) to synthesize converted speech waveforms with Griffin-Lim algorithm. To fully exploit the different harmonic structure across different frequencies in the STFTMs, we partition the whole-band STFTMs into multiple overlapped frequency bands. Deep Bidirectional LSTM based RNNs (DBLSTM) have been shown successfully modeling the nonlinear mapping from PPGs to acoustic features in VC systems. However, training and conversion are very slow using such RNN models. To tackle this, the proposed system adopted Convolution Neural Networks (CNNs) with Gated Linear Units (GatedCNNs) to replace DBLSTMs. The VCC 2018 perceptual results shows that the proposed system can achieve higher naturalness and similarity performance than the average performance in the non-parallel VC task. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-35"
+  },
+  "bahmaninezhad18_odyssey": {
+   "authors": [
+    [
+     "Fahimeh",
+     "Bahmaninezhad"
+    ],
+    [
+     "Chunlei",
+     "Zhang"
+    ],
+    [
+     "John",
+     "Hansen"
+    ]
+   ],
+   "title": "Convolutional Neural Network Based Speaker De-Identification",
+   "original": "15",
+   "page_count": 6,
+   "order": 38,
+   "p1": 255,
+   "pn": 260,
+   "abstract": [
+    "Concealing speaker identity in speech signals refers to the task of speaker de-identification, which helps protect the privacy of a speaker. Although, both linguistic and paralinguistic features reveal personal information of a speaker and they both need to be addressed, in this study we only focus on speaker voice characteristics. In other words, our goal is to move away from the source speaker identity while preserving naturalness and quality. The proposed speaker de-identification system maps voice of a given speaker to an average (or gender-dependent average) voice; the mapping is modeled by a new convolutional neural network (CNN) encoder-decoder architecture. Here, the transformation of both spectral and excitation features are studied. The voice conversion challenge 2016 (VCC-2016) database is used to develop and examine performance of the proposed method. We use two different approaches for evaluations: (1) objective evaluation: equal error rates (EERs) calculated by a state-of-the-art i-vector/PLDA speaker recognition system range between 1.265 - 3.46 \\% on average for all developed systems, and (2) subjective evaluation: achieved 2.8 naturalness mean opinion score (MOS). Both objective and subjective experiments confirm the effectiveness of our proposed de-identification method. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-36"
+  },
+  "richardson18_odyssey": {
+   "authors": [
+    [
+     "Fred",
+     "Richardson"
+    ],
+    [
+     "Pedro",
+     "Torres-Carrasquillo"
+    ],
+    [
+     "Jonas",
+     "Borgstrom"
+    ],
+    [
+     "Douglas",
+     "Sturim"
+    ],
+    [
+     "Youngjune",
+     "Gwon"
+    ],
+    [
+     "Jesus",
+     "Villalba"
+    ],
+    [
+     "Jan",
+     "Trmal"
+    ],
+    [
+     "Nanxin",
+     "Chen"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "The MIT Lincoln Laboratory / JHU / EPITA-LSE LRE17 System\t",
+   "original": "16",
+   "page_count": 6,
+   "order": 9,
+   "p1": 54,
+   "pn": 59,
+   "abstract": [
+    "Competitive international language recognition evaluations have been hosted by NIST for over two decades. This paper describes the MIT Lincoln Laboratory (MITLL) and Johns Hopkins University (JHU) submission for the recent 2017 NIST language recognition evaluation (LRE17) [1]. The MITLL/JHU LRE17 submission represents a collaboration between researchers at MITLL and JHU with multiple sub-systems reflecting a range of language recognition technologies including traditional MFCC/SDC i-vector systems, deep neural network (DNN) bottleneck feature based i-vector systems, stateof-the-art DNN x-vector systems and a sparse coding system. Each sub-systems uses the same backend processing for domain adaptation and score calibration. Multiple sub-systems were fused using a simple logistic regression ([2]) to create system combinations. The MITLL/JHU submissions were selected based on the top ranking combinations of up to 5 sub-systems using development data provided by NIST. The MITLL/JHU primary submitted systems attained a Cavg of 0.181 and 0.163 for the fixed and open conditions respectively. Post evaluation analysis revealed the importance of carefully partitioning for the development data, using augmented training data and using a condition dependent backend. Addressing these issues-including retraining the x-vector system with augmented data yielded gains in performance of over 17%: a Cavg of 0.149 for the fixed condition and 0.132 for the open condition. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-8"
+  },
+  "nautsch18_odyssey": {
+   "authors": [
+    [
+     "Andreas",
+     "Nautsch"
+    ],
+    [
+     "Sergey",
+     "Isadskiy"
+    ],
+    [
+     "Jascha",
+     "Kolberg"
+    ],
+    [
+     "Marta",
+     "Gomez-Barrero"
+    ],
+    [
+     "Christoph",
+     "Busch"
+    ]
+   ],
+   "title": "Homomorphic Encryption for Speaker Recognition: Protection of Biometric Templates and Vendor Model Parameters\t",
+   "original": "17",
+   "page_count": 8,
+   "order": 4,
+   "p1": 16,
+   "pn": 23,
+   "abstract": [
+    "Data privacy is crucial when dealing with biometric data. Accounting for the latest European data privacy regulation and payment service directive, biometric template protection is essential for any commercial application. Ensuring unlinkability across biometric service operators, irreversibility of leaked encrypted templates, and renewability of e.g., voice models following the i-vector paradigm, biometric voice-based systems are prepared for the latest EU data privacy legislation. Employing Paillier cryptosystems, Euclidean and cosine comparators are known to ensure data privacy demands, without loss of discrimination nor calibration performance. Bridging gaps from template protection to speaker recognition, two architectures are proposed for the two-covariance comparator, serving as a generative model in this study. The first architecture preserves privacy of biometric data capture subjects. In the second architecture, model parameters of the comparator are encrypted as well, such that biometric service providers can supply the same comparison modules employing different key pairs to multiple biometric service operators. An experimental proof-of-concept and complexity analysis is carried out on the data from the 2013-2014 NIST i-vector machine learning challenge. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-3"
+  },
+  "sone18_odyssey": {
+   "authors": [
+    [
+     "Kentaro",
+     "Sone"
+    ],
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "Toru",
+     "Nakashika"
+    ]
+   ],
+   "title": "Bidirectional Voice Conversion Based on Joint Training Using Gaussian-Gaussian Deep Relational Model\t",
+   "original": "18",
+   "page_count": 6,
+   "order": 39,
+   "p1": 261,
+   "pn": 266,
+   "abstract": [
+    "Statistical approaches to voice conversion based on Gaussian mixture models (GMMs) have been investigated in the last decade. These approaches attempt to model the joint distribution of source and target speakers utterances using GMMs. However, since GMMs do not have enough representation capability, they have been replaced by deep neural networks (DNNs). The DNN-based approaches attempt to represent feedforward dependencies from source utterances into target utterances using DNNs. Owing to the high representation capability of DNNs, these approaches improved qualities of the converted speech. Although the performances are improved by DNNs, DNN-based approaches cannot convert target utterances into source utterances like GMM-based approaches can. Therefore, DNN-based approaches cost twice as much to train as GMM-based approaches. To classify and generate binary-valued images, a deep relational model (DRM) has been proposed. A DRM consists of two visible layers and multiple hidden layers the same as DNNs and can classify and generate images by modeling a bidirectional relationship between images and labels. In this paper, we define a Gaussian-Gaussian DRM (GGDRM), which is the Gaussian-Gaussian form of the traditional DRM, and propose a method to apply a GGDRM to voice conversion. Experimental results show that our GGDRM-based method outperforms GMM- and DNN-based methods. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-37"
+  },
+  "rahman18_odyssey": {
+   "authors": [
+    [
+     "Md Hafizur",
+     "Rahman"
+    ],
+    [
+     "Ivan",
+     "Himawan"
+    ],
+    [
+     "David",
+     "Dean"
+    ],
+    [
+     "Clinton",
+     "Fookes"
+    ],
+    [
+     "Sridha",
+     "Sridharan"
+    ]
+   ],
+   "title": "Domain-invariant I-vector Feature Extraction for PLDA Speaker Verification\t",
+   "original": "19",
+   "page_count": 7,
+   "order": 23,
+   "p1": 155,
+   "pn": 161,
+   "abstract": [
+    "The performance of the current state-of-the-art i-vector based probabilistic linear discriminant analysis (PLDA) speaker verification depends on large volumes of training data, ideally in the target domain. However, in real-world applications, it is often difficult to collect sufficient amount of target domain data for successful PLDA training. Thus, an adequate amount of domain mismatch compensated out-domain data must be used as the basis of PLDA training. In this paper, we introduce a domain-invariant i-vector extraction (DI-IVEC) approach to extract domain mismatch compensated out-domain i-vectors using limited in-domain (target) data for adaptation. In this method, in-domain prior information is utilised to remove the domain mismatch during the i-vector extraction stage. The proposed method provides at least 17.3% improvement in EER over an out-domain-only trained baseline when speaker labels are absent and a 27.2% improvement in EER when speaker labels are known. A further improvement is obtained when DI-IVEC approach is used in combination with a domain-invariant covariance normalization (DICN) approach. This combined approach is found to work well with reduced in-domain adaptation data, where only 1000 unlabelled i-vectors are required to perform better than a baseline in-domain PLDA approach. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-22"
+  },
+  "mochizuki18_odyssey": {
+   "authors": [
+    [
+     "Shihono",
+     "Mochizuki"
+    ],
+    [
+     "Sayaka",
+     "Shiota"
+    ],
+    [
+     "Hitoshi",
+     "Kiya"
+    ]
+   ],
+   "title": "Voice liveness detection using phoneme-based pop-noise detector for speaker verification\t",
+   "original": "21",
+   "page_count": 7,
+   "order": 35,
+   "p1": 233,
+   "pn": 239,
+   "abstract": [
+    "This paper proposes a phoneme-based pop-noise (PN) detection algorithm for voice liveness detection (VLD) and automatic speaker verification systems. Recently, a lot of countermeasures against spoofing attacks (e.g., replay, speech synthesis) have been reported for speaker verification systems. A principle mechanism of almost all spoofing attacks is to replay recorded speeches via a loudspeaker. Therefore, one of the effective solutions against spoofing attacks is to determine whether an input speech is a genuine voice or a replayed one, and this is a framework of VLD. To realize the VLD framework, PN detection methods have been proposed. Since PN is a common distortion that occurs when speaker's breath reaches the inside of a microphone, the conventional PN detection methods simply capture PN periods during the input speech. However, the performances of the PN detection methods depend on microphone types and phrases. It may lead to vulnerability of the conventional PN detection methods. This paper proposes a novel PN detection method, focused on specific characteristics of phonemes related to the PN phenomenon. The experimental results show that the proposed method provides a higher performance than conventional PN detection methods. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-33"
+  },
+  "ajili18_odyssey": {
+   "authors": [
+    [
+     "Moez",
+     "Ajili"
+    ],
+    [
+     "Solange",
+     "Rossato"
+    ],
+    [
+     "Dan",
+     "Zhang"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Impact of rhythm on forensic voice comparison reliability",
+   "original": "24",
+   "page_count": 8,
+   "order": 2,
+   "p1": 1,
+   "pn": 8,
+   "abstract": [
+    "It is common to see voice recordings being presented as a forensic trace in court. Generally, a forensic expert is asked to analyse both suspect and criminals voice samples in order to indicate whether the evidence supports the prosecution (same-speaker) or defence (different-speakers) hypotheses. This process is known as Forensic Voice Comparison (FVC). Since the emergence of the DNA typing model, the likelihood-ratio (LR) framework has become the new golden standard in forensic sciences. The LR not only supports one of the hypotheses but also quantifies the strength of its support. However, the LR accepts some practical limitations due to its estimation process itself. It is particularly true when Automatic Speaker Recognition (ASpR) systems are considered as they are outputting a score in all situations regardless of the case specific conditions. Indeed, several factors are not taken into account by the estimation process like the quality and quantity of information in both voice recordings, their phonological content or also thespeakers intrinsic characteristics, etc. All these factors put into question the validity and reliability of FVC. In our recent study, we showed that intra-speaker variability is responsible of 2/3 the system loss. In this article, we wish to take our analysis a step farther and investigate deeper the intra-speaker variability based on rhythmic parameters. We focus on the impact of rhythmic parameters on FVC performance and variability, as changes in speaker speech rhythm.... \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-1"
+  },
+  "lin18_odyssey": {
+   "authors": [
+    [
+     "Weiwei",
+     "Lin"
+    ],
+    [
+     "Man-Wai",
+     "Mak"
+    ],
+    [
+     "Longxin",
+     "Li"
+    ],
+    [
+     "Jen-Tzung",
+     "Chien"
+    ]
+   ],
+   "title": "Reducing Domain Mismatch by Maximum Mean Discrepancy Based Autoencoders\t",
+   "original": "25",
+   "page_count": 6,
+   "order": 24,
+   "p1": 162,
+   "pn": 167,
+   "abstract": [
+    "Domain mismatch, caused by the discrepancy between training and test data, can severely degrade the performance of speaker verification (SV) systems. What's more, both training and test data themselves could be composed of heterogeneous subsets, with each subset corresponding to one sub-domain. These multi-source mismatches can further degrade SV performance. This paper proposes incorporating maximum mean discrepancy (MMD) into the loss function of autoencoders to reduce theses mismatches. Specifically, we generalize MMD to measure the discrepancies among multiple distributions. We call this generalized MMD as domain-wise MMD. Using domain-wise MMD as an objective function, we derive a domain-invariant autoencoder (DAD) for multi-source i-vector adaptation. The DAD directly encodes the features that minimize the multi-source mismatch. By replacing the original i-vectors with these domain-invariant feature vectors for PLDA training, we reduce the EER by 11.8% in NIST 2016 SRE when compared to PLDA without adaptation. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-23"
+  },
+  "cai18_odyssey": {
+   "authors": [
+    [
+     "Weicheng",
+     "Cai"
+    ],
+    [
+     "Jinkun",
+     "Chen"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System",
+   "original": "26",
+   "page_count": 8,
+   "order": 12,
+   "p1": 74,
+   "pn": 81,
+   "abstract": [
+    "In this paper, we explore the encoding/pooling layer and loss function in the end-to-end speaker and language recognition system. First, a unified and interpretable end-to-end system for both speaker and language recognition is developed. It accepts variable-length input and produces an utterance level result. In the end-to-end system, the encoding layer plays a role in aggregating the variable-length input sequence into an utterance level representation. Besides the basic temporal average pooling, we introduce a self-attentive pooling layer and a learnable dictionary encoding layer to get the utterance level representation. In terms of loss function for open-set speaker verification, to get more discriminative speaker embedding, center loss and angular softmax loss is introduced in the end-to-end system. Experimental results on Voxceleb and NIST LRE 07 datasets show that the performance of end-to-end learning system could be significantly improved by the proposed encoding layer and loss function. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-11"
+  },
+  "sisman18_odyssey": {
+   "authors": [
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Grandee",
+     "Lee"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Phonetically Aware Exemplar-Based Prosody Transformation\t",
+   "original": "27",
+   "page_count": 8,
+   "order": 40,
+   "p1": 267,
+   "pn": 274,
+   "abstract": [
+    "In this paper, we propose a novel prosody transformation framework for voice conversion by making use of phonetic information. The proposed framework is motivated by two observations. Firstly, the phonetic prosody is an important aspect of speech prosody, that is influenced by the phonetic content of utterances. We propose the use of phone-dependent dictionaries, or phonetic dictionary, that allows for effective phonetic prosody conversion. Secondly, in the traditional exemplar-based sparse representation frameworks, the estimated activation matrix highly depends on the source speech that is not the best for generating target speech. We propose to incorporate Phonetic PosteriorGrams (PPGs), that represent frame-level phonetic information, as part of the exemplars of the dictionaries. As the exemplars now consist of PPGs that are expected to be speaker-independent, the resulting activation matrix depends less on the source speaker, thus represents a better transformation function for prosody transformation. The experiments show that the proposed prosody transformation framework outperforms the traditional frameworks in both objective and subjective evaluations. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-38"
+  },
+  "alonilavi18_odyssey": {
+   "authors": [
+    [
+     "Ruth",
+     "Aloni-Lavi"
+    ],
+    [
+     "Irit",
+     "Opher"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ]
+   ],
+   "title": "Incremental On-Line Clustering of Speakers' Short Segments\t",
+   "original": "28",
+   "page_count": 8,
+   "order": 18,
+   "p1": 120,
+   "pn": 127,
+   "abstract": [
+    "This paper deals with clustering of speakers’ short segments, in a scenario where additional segments continue to arrive and should be constantly clustered together with previous segments that were already clustered. In realistic applications, it is not possible to cluster all segments every time a new segment arrives. Hence, incremental clustering is applied in an on-line mode. New segments can either belong to existing speakers, therefore, have to be assigned to one of the existing clusters, or they could belong to new speakers and thus new clusters should be formed. In this work we show that if there are enough segments per speaker in the off-line initial clustering process, it constitutes a good starting point for the incremental on-line clustering. In this case, incremental on-line clustering can be successfully applied based on the previously proposed mean-shift clustering algorithm with PLDA score as a similarity measure and with k-nearest neighbors (kNN) neighborhood selection. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-17"
+  },
+  "tobing18_odyssey": {
+   "authors": [
+    [
+     "Patrick Lumban",
+     "Tobing"
+    ],
+    [
+     "Yichiao",
+     "Wu"
+    ],
+    [
+     "Tomoki",
+     "Hayashi"
+    ],
+    [
+     "Kazuhiro",
+     "Kobayashi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "NU Voice Conversion System for the Voice Conversion Challenge 2018\t",
+   "original": "29",
+   "page_count": 8,
+   "order": 33,
+   "p1": 219,
+   "pn": 226,
+   "abstract": [
+    "This paper presents the NU (Nagoya University) voice conversion (VC) system for the HUB task of the Voice Conversion Challenge 2018 (VCC 2018). The design of the NU VC system can basically be separated into two modules consisting of a speech parameter conversion module and a waveform-processing module. In the speech parameter conversion module, a deep learning framework is deployed to estimate the spectral parameters of a target speaker given those of a source speaker. Specifically, a deep neural network (DNN) and a deep mixture density network (DMDN) are used as the deep model structure. In the waveform-processing module, given the estimated spectral parameters and linearly transformed F0 parameters, the converted waveform is generated using a WaveNet-based vocoder system. To use the WaveNet-based vocoder, there are several generation flows based on an analysis-synthesis framework to obtain the speech parameter set, on the basis of which a system selection process is performed to select the best one in an utterance-wise manner. The results of VCC 2018 ranked the NU VC system in second place with an overall mean opinion score (MOS) of 3.44 for speech quality and 85% accuracy for speaker similarity. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-31"
+  },
+  "valenti18_odyssey": {
+   "authors": [
+    [
+     "Giacomo",
+     "Valenti"
+    ],
+    [
+     "Adrien",
+     "Daniel"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "End-to-end automatic speaker verification with evolving recurrent neural networks\t",
+   "original": "30",
+   "page_count": 7,
+   "order": 50,
+   "p1": 335,
+   "pn": 341,
+   "abstract": [
+    "The state-of-the-art in automatic speaker verification (ASV) is undergoing a shift from a reliance on hand-crafted features and sequentially optimized toolchains towards end-to-end approaches. Many of the latest algorithms still rely on frameblocking and stacked, hand-crafted features and fixed model topologies such as layered, deep neural networks. This paper reports a fundamentally different exploratory approach which operates on raw audio and which evolves both the weights and the topology of a neural network solution. The paper reports what is, to the authors’ best knowledge, the first investigation of evolving recurrent neural networks for truly end-to-end ASV. The algorithm avoids a reliance upon hand-crafted features and fixed topologies and also learns to discard unreliable output samples. Resulting networks are of low complexity and memory footprint. The approach is thus well suited to embedded systems. With computational complexity making experimentation with standard datasets impracticable, the paper reports modest proof-of-concept experiments designed to evaluate potential. Results equivalent to those obtained using a traditional GMM baseline system and suggest that the proposed end-to-end approach merits further investigation; avenues for future research are described and have potential to deliver significant improvements in performance \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-47"
+  },
+  "zhang18_odyssey": {
+   "authors": [
+    [
+     "Chunlei",
+     "Zhang"
+    ],
+    [
+     "Shivesh",
+     "Ranjan"
+    ],
+    [
+     "John",
+     "Hansen"
+    ]
+   ],
+   "title": "An Analysis of Transfer Learning for Domain Mismatched Text-independent Speaker Verification\t",
+   "original": "31",
+   "page_count": 6,
+   "order": 27,
+   "p1": 181,
+   "pn": 186,
+   "abstract": [
+    "In this paper, we present transfer learning for deep neural network based text-independent speaker verification, in the presence of a severe mismatch between the enrollment and the test data. Given a pre-trained speaker embedding network developed with out-of domain data, we explore and analyze how this pre-trained model can benefit for the in-domain speaker verification task. Two alternative strategies are investigated to perform transfer learning, i.e., vanilla transfer learning (V-TL) and curriculum learning based transfer learning (CL-TL). The proposed methods are validated on UT-SCOPE-physical speech corpus, where we create a setup to introduce mismatched evaluation conditions with the neutral and the physical task stressed speech. Experimental results confirm the effectiveness of both V-TL and CL-TL techniques. Employing transfer learning based on the pre-trained model, we are able to achieve a +47.7% relative improvement over a conventional i-vector/PLDA system and a +30.6% relative improvement over a recent proposed end-to-end system, respectively. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-26"
+  },
+  "chien18_odyssey": {
+   "authors": [
+    [
+     "Jen-Tzung",
+     "Chien"
+    ],
+    [
+     "Kang-Ting",
+     "Peng"
+    ]
+   ],
+   "title": "Adversarial Learning and Augmentation for Speaker Recognition\t",
+   "original": "33",
+   "page_count": 7,
+   "order": 51,
+   "p1": 342,
+   "pn": 348,
+   "abstract": [
+    "This paper develops a new generative adversarial network (GAN) to artificially generate i-vectors to deal with the issue of unbalanced or insufficient data in speaker recognition based on the probabilistic linear discriminant analysis (PLDA). Data augmentation is performed to improve system robustness over the variations of i-vectors under different number of training utterances. Our idea is to incorporate the class label into GAN which involves a minimax optimization problem for adversarial learning. We build a generator and a discriminator where the class conditional i-vectors are produced by the generator such that the discriminator can not distinguish them as the fake samples. In particular, multiple learning objectives are optimized to build a specialized deep model for model regularization in speaker recognition. In addition to the minimax optimization of adversarial loss, the posterior probabilities of class labels given real and fake samples are maximized. The cosine similarity between real and fake i-vectors is also minimized to preserve the quality of the generated i-vector. The loss functions for data reconstruction and Gaussian regularization in PLDA model are minimized. The experiments illustrate the merit of multi-objective learning for deep adversarial augmentation for speaker recognition. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-48"
+  },
+  "mclaren18_odyssey": {
+   "authors": [
+    [
+     "Mitchell",
+     "Mclaren"
+    ],
+    [
+     "Diego",
+     "Castán"
+    ],
+    [
+     "Mahesh Kumar",
+     "Nandwana"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ],
+    [
+     "Emre",
+     "Yilmaz"
+    ]
+   ],
+   "title": "How to train your speaker embeddings extractor\t",
+   "original": "34",
+   "page_count": 8,
+   "order": 49,
+   "p1": 327,
+   "pn": 334,
+   "abstract": [
+    "With the recent introduction of speaker embeddings for text-independent speaker recognition, many fundamental questions require addressing in order to fast-track the development of this new era of technology. Of particular interest is the ability of the speaker embeddings network to leverage artificially degraded data at a far greater rate beyond prior technologies, even in the evaluation of naturally degraded data. In this study, we aim to explore some of the fundamental requirements for building a good speaker embeddings extractor. We analyze the impact of voice activity detection, types of degradation, the amount of degraded data, and number of speakers required for a good network. These aspects are analyzed over a large set of 11 conditions from 7 evaluation datasets. We lay out a set of recommendations for training the network based on the observed trends. By applying these recommendations to enhance the default recipe provided in the Kaldi toolkit, a significant gain of 13-21% on the Speakers in the Wild and NIST SRE’16 datasets is achieved. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-46"
+  },
+  "mclaren18b_odyssey": {
+   "authors": [
+    [
+     "Mitchell",
+     "Mclaren"
+    ],
+    [
+     "Mahesh Kumar",
+     "Nandwana"
+    ],
+    [
+     "Diego",
+     "Castán"
+    ],
+    [
+     "Luciana",
+     "Ferrer"
+    ]
+   ],
+   "title": "Approaches to Multi-domain Language Recognition",
+   "original": "35",
+   "page_count": 8,
+   "order": 14,
+   "p1": 90,
+   "pn": 97,
+   "abstract": [
+    "Multi-domain language recognition involves the application of a language identification (LID) system to identify languages in more than one domain. This problem was the focus of the recent NIST LRE 2017, and this article presents the findings from the SRI team during system development for the evaluation. Approaches found to provide robustness in multi-domain LID include a domain-and-language-weighted Gaussian backend classifier, duration-aware calibration, and a source normalized multi-resolution neural network backend. The recently developed speaker embeddings technology is also applied to the task of language recognition, showing great potential for future LID research. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-13"
+  },
+  "brown18_odyssey": {
+   "authors": [
+    [
+     "Georgina",
+     "Brown"
+    ]
+   ],
+   "title": "Segmental Content Effects on Text-dependent Automatic Accent Recognition\t",
+   "original": "36",
+   "page_count": 7,
+   "order": 3,
+   "p1": 9,
+   "pn": 15,
+   "abstract": [
+    "This paper investigates the effects of an unknown speech sample’s segmental content (the specific vowels and consonants it contains) on its chances of being successfully classified by an automatic accent recognition system. While there has been some work to investigate this effect in automatic speaker recognition, it has not been explored in relation to automatic accent recognition. This is a task where we would hypothesise that segmental content has a particularly large effect on the likelihood of a successful classification, especially for shorter speech samples. By focussing on one particular text-dependent automatic accent recognition system, the Y-ACCDIST system, we uncover the phonemes that appear to contribute more or less to successful classifications using a corpus of Northern English accents. We also relate these findings to the sociophonetic literature on these specific spoken varieties to attempt to account for the patterns that we see and to consider other factors that might contribute to a sample’s successful classification. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-2"
+  },
+  "shon18_odyssey": {
+   "authors": [
+    [
+     "Suwon",
+     "Shon"
+    ],
+    [
+     "Ahmed",
+     "Ali"
+    ],
+    [
+     "James",
+     "Glass"
+    ]
+   ],
+   "title": "Convolutional Neural Network and Language Embeddings for End-to-End Dialect Recognition\t",
+   "original": "37",
+   "page_count": 7,
+   "order": 15,
+   "p1": 98,
+   "pn": 104,
+   "abstract": [
+    "Dialect identification (DID) is a special case of general language identification (LID), but a more challenging problem due to the linguistic similarity between dialects. In this paper, we propose an end-to-end DID system and a Siamese neural network to extract language embeddings. We use both acoustic and linguistic features for the DID task on the Arabic dialectal speech dataset: Multi-Genre Broadcast 3 (MGB-3). The end-to-end DID system was trained using three kinds of acoustic features: Mel-Frequency Cepstral Coefficients (MFCCs), log Mel-scale Filter Bank energies (FBANK) and spectrogram energies. We also investigate a dataset augmentation approach to achieve robust performance with limited data resources. Our linguistic feature research focused on learning similarities and dissimilarities between dialects using the Siamese network, so that we can reduce feature dimensionality as well as improve DID performance. The best system using a single feature set achieves 73% accuracy, while a fusion system using multiple features yields 78% on the MGB-3 dialect test set consisting of 5 dialects. The experimental results indicate that FBANK features achieve slightly better results than MFCCs. Dataset augmentation via speed perturbation appears to add significant robustness to the system. Although the Siamese network with language embeddings did not achieve as good a result as the end-to-end DID system, the two approaches had good synergy when combined together in a fused system. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-14"
+  },
+  "snyder18_odyssey": {
+   "authors": [
+    [
+     "David",
+     "Snyder"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ],
+    [
+     "Alan",
+     "McCree"
+    ],
+    [
+     "Gregory",
+     "Sell"
+    ],
+    [
+     "Daniel",
+     "Povey"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ]
+   ],
+   "title": "Spoken Language Recognition using X-vectors",
+   "original": "38",
+   "page_count": 7,
+   "order": 16,
+   "p1": 105,
+   "pn": 111,
+   "abstract": [
+    "In this paper, we apply x-vectors to the task of spoken language recognition. This framework consists of a deep neural network that maps sequences of speech features to fixed-dimensional embeddings, called x-vectors. Long-term language characteristics are captured in the network by a temporal pooling layer that aggregates information across time. Once extracted, x-vectors utilize the same classification technology developed for i-vectors. In the 2017 NIST language recognition evaluation, x-vectors achieved excellent results and outperformed our state-of-the-art i-vector systems. In the post-evaluation analysis presented here, we experiment with several variations of the x-vector framework, and find that the best performing system uses multilingual bottleneck features, data augmentation, and a discriminative Gaussian classifier. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-15"
+  },
+  "padi18_odyssey": {
+   "authors": [
+    [
+     "Bharat",
+     "Padi"
+    ],
+    [
+     "Shreyas",
+     "Ramoji"
+    ],
+    [
+     "Vaishnavi",
+     "Yeruva"
+    ],
+    [
+     "Satish",
+     "Kumar"
+    ],
+    [
+     "Sriram",
+     "Ganapathy"
+    ]
+   ],
+   "title": "The LEAP Language Recognition System for LRE 2017 Challenge - Improvements and Error Analysis\t",
+   "original": "39",
+   "page_count": 8,
+   "order": 6,
+   "p1": 31,
+   "pn": 38,
+   "abstract": [
+    "The language recognition evaluation (LRE) 2017 challenge comprises an open evaluation of the language identification (LID) task on a set of 14 languages/dialects. In this paper, we describe our submission to the LRE 2017 challenge fixed condition which consisted of developing various LID systems using i-vector based modeling. The front end processing is performed using deep neural network (DNN) based bottleneck features for i-vector modeling with a Gaussian mixture model (GMM) universal background model (UBM) approach. Several back-end systems consisting of support vector machines (SVMs) and deep neural network (DNN) models were used for the language/dialect classification. The submission system achieved significant improvements over the evaluation baseline system provided by NIST (relative improvements of more than 50% over the baseline). In the later part of the paper, we detail our post evaluation efforts to improve the language recognition system for short duration speech data using novel approaches of sequence modeling of segment i-vectors. The post evaluation efforts resulted in further improvements over the submitted system (relative improvements of about 22%). An error analysis is also presented which highlights the confusions and errors in the final system. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-5"
+  },
+  "he18_odyssey": {
+   "authors": [
+    [
+     "Liang",
+     "He"
+    ],
+    [
+     "Xianhong",
+     "Chen"
+    ],
+    [
+     "Can",
+     "Xu"
+    ],
+    [
+     "Jia",
+     "Liu"
+    ]
+   ],
+   "title": "Latent Class Model for Single Channel Speaker Diarization\t",
+   "original": "40",
+   "page_count": 6,
+   "order": 19,
+   "p1": 128,
+   "pn": 133,
+   "abstract": [
+    "Inspired by P. Kenny's variational Bayes (VB) method, we derive a latent class model (LCM) for single channel speaker diarization. Similar to the VB method, the LCM uses soft information and avoids premature hard decisions in its iterations. Different from the VB method, the LCM provides an iterative framework for multi-objective optimization and allows a more flexible way to compute the probability that given a speaker, a segment occurs. Based on this model, we propose a latent class model-i-vector-probabilistic linear discriminant analysis (LCM-Ivec-PLDA) system. Besides, as the divided segments are very short, their neighbors are taken into consideration. To overcome the initial sensitivity problem, we use an agglomerative hierarchical cluster (AHC) to do initialization and present hard and soft priors. Experiments on the NIST RT09 speaker diarization database and our collected database show that the proposed systems are superior to the traditional VB system. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-18"
+  },
+  "karu18_odyssey": {
+   "authors": [
+    [
+     "Martin",
+     "Karu"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ]
+   ],
+   "title": "Weakly Supervised Training of Speaker Identification Models\t",
+   "original": "41",
+   "page_count": 7,
+   "order": 5,
+   "p1": 24,
+   "pn": 30,
+   "abstract": [
+    "We propose an approach for training speaker identification models in a weakly supervised manner. We concentrate on the setting where the training data consists of a set of audio recordings and the speaker annotation is provided only at the recording level. The method uses speaker diarization to find unique speakers in each recording, and i-vectors to project the speech of each speaker to a fixed-dimensional vector. A neural network is then trained to map i-vectors to speakers, using a special objective function that allows to optimize the model using recording-level speaker labels. We report experiments on two different real-world datasets. On the VoxCeleb dataset, the method provides 94.6% accuracy on a closed set speaker identification task, surpassing the baseline performance by a large margin. On an Estonian broadcast news dataset, the method provides 66% time-weighted speaker identification recall at 93% precision. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-4"
+  },
+  "lozanodiez18_odyssey": {
+   "authors": [
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Ondrej",
+     "Novotny"
+    ],
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ]
+   ],
+   "title": "Analysis of DNN-based Embeddings for Language Recognition on the NIST LRE 2017\t",
+   "original": "42",
+   "page_count": 8,
+   "order": 7,
+   "p1": 39,
+   "pn": 46,
+   "abstract": [
+    "In this work, we analyze different designs of a language identification (LID) system based on embeddings. In our case, an embedding represents a whole utterance (or a speech segment of variable duration) as a fixed-length vector (similar to the ivector). Moreover, this embedding aims to capture information relevant to the target task (LID), and it is obtained by training a deep neural network (DNN) to classify languages. In particular, we trained a DNN based on bidirectional long short-term memory (BLSTM) recurrent neural network (RNN) layers, whose frame-by-frame outputs are summarized into mean and standard deviation statistics for each utterance. After this pooling layer, we add two fully connected layers whose outputs are used as embeddings, which are afterwards modeled by a Gaussian linear classifier (GLC). For training, we add a softmax output layer and train the whole network with multi-class cross-entropy objective to discriminate between languages. We analyze the effect of using data augmentation in the DNN training, as well as different input features and architecture hyper-parameters, obtaining configurations that gradually improved the performance of the embedding system. We report our results on the NIST LRE 2017 evaluation dataset and compare the performance of embeddings with a reference i-vector system. We show that the best configuration of our embedding system outperforms the strong reference i-vector system by 3% relative, and this is further pushed up to 10% relative improvement via a simple score level fusion. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-6"
+  },
+  "zeinali18_odyssey": {
+   "authors": [
+    [
+     "Hossein",
+     "Zeinali"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Hossein",
+     "Sameti"
+    ],
+    [
+     "Honza",
+     "Cernocky"
+    ]
+   ],
+   "title": "Spoken Pass-Phrase Verification in the i-vector Space\t",
+   "original": "43",
+   "page_count": 6,
+   "order": 55,
+   "p1": 372,
+   "pn": 377,
+   "abstract": [
+    "The task of spoken pass-phrase verification is to decide whether a test utterance contains the same phrase as given enrollment utterances. Beside other applications, pass-phrase verification can complement an independent speaker verification subsystem in text-dependent speaker verification. It can also be used for liveness detection by verifying that the user is able to correctly respond to a randomly prompted phrase. In this paper, we build on our previous work on i-vector based text-dependent speaker verification, where we have shown that i-vectors extracted using phrase specific Hidden Markov Models (HMMs) or using Deep Neural Network (DNN) based bottle-neck (BN) features help to reject utterances with wrong pass-phrases. We apply the same i-vector extraction techniques to the stand-alone task of speaker-independent spoken pass-phrase classification and verification. The experiments on RSR2015 and RedDots databases show that very simple scoring techniques (e.g. cosine distance scoring) applied to such i-vectors can provide results superior to those previously published on the same data. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-52"
+  },
+  "lorenzotrueba18_odyssey": {
+   "authors": [
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Fernando",
+     "Villavicencio"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Zhenhua",
+     "Ling"
+    ]
+   ],
+   "title": "The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods\t",
+   "original": "44",
+   "page_count": 8,
+   "order": 30,
+   "p1": 195,
+   "pn": 202,
+   "abstract": [
+    "We present the Voice Conversion Challenge 2018, designed as a follow up to the 2016 edition with the aim of providing a common framework for evaluating and comparing different state-of-the-art voice conversion (VC) systems. The objective of the challenge was to perform speaker conversion (i.e.\\ transform the vocal identity) of a source speaker to a target speaker while maintaining linguistic information. As an update to the previous challenge, we considered both parallel and non-parallel data to form the Hub and Spoke tasks, respectively. A total of 23 teams from around the world submitted their systems, 11 of them additionally participated in the optional Spoke task. A large-scale crowdsourced perceptual evaluation was then carried out to rate the submitted converted speech in terms of naturalness and similarity to the target speaker identity. In this paper, we present a brief summary of the state-of-the-art techniques for VC, followed by a detailed explanation of the challenge tasks and the results that were obtained. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-28"
+  },
+  "kobayashi18_odyssey": {
+   "authors": [
+    [
+     "Kazuhiro",
+     "Kobayashi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ]
+   ],
+   "title": "sprocket: Open-Source Voice Conversion Software\t",
+   "original": "47",
+   "page_count": 8,
+   "order": 31,
+   "p1": 203,
+   "pn": 210,
+   "abstract": [
+    "Statistical voice conversion (VC) is a technique to convert specific non- or para-linguistic information while keeping linguistic information unchanged, and speaker conversion has been studied as one of the typical VC applications for a few decades. To better understand various VC techniques using a freely available common dataset, the Voice Conversion Challenge (VCC) was launched in 2016, and the 2nd challenge was held in 2018. As one of the baseline systems for the VCC 2018, we have developed an open-source VC software called ``sprocket'', where not only traditional techniques, such as a trajectory-based conversion method using a Gaussian mixture model (GMM) and a vocoder-based conversion framework but also recently developed techniques, such as a vocoder-free VC framework, have been implemented. The use of sprocket makes it possible to 1) easily reproduce the converted voices using the VCC datasets, and 2) develop VC systems using other parallel speech datasets with fundamental VC functions, such as acoustic feature extraction, time-alignment between the source and target features, GMM training, feature conversion, and waveform generation. In this paper, we describe 1) technical details and usage of sprocket, 2) the development of the baseline systems for HUB and SPOKE tasks of the VCC 2018 using sprocket, and 3) performance of sprocket as a VC system by demonstrating results of our developed baseline systems in the VCC 2018. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-29"
+  },
+  "lorenzotrueba18b_odyssey": {
+   "authors": [
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Fuming",
+     "Fang"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Isao",
+     "Echizen"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Can we steal your vocal identity from the Internet?: Initial investigation of cloning Obama’s voice using GAN, WaveNet and low-quality found data",
+   "original": "48",
+   "page_count": 8,
+   "order": 36,
+   "p1": 240,
+   "pn": 247,
+   "abstract": [
+    "Thanks to the growing availability of spoofing databases and rapid advances in using them, systems for detecting voice spoofing attacks are becoming more and more capable, and error rates close to zero are being reached for the ASVspoof2015 database. However, speech synthesis and voice conversion paradigms that are not considered in the ASVspoof2015 database are appearing. Such examples include direct waveform modelling and generative adversarial networks. We also need to investigate the feasibility of training spoofing systems using only low-quality found data. For that purpose, we developed a generative adversarial network-based speech enhancement system that improves the quality of speech data found in publicly available sources. Using the enhanced data, we trained state-of-the-art text-to-speech and voice conversion models and evaluated them in terms of perceptual speech quality and speaker similarity. The results show that the enhancement models significantly improved the SNR of low-quality degraded data found in publicly available sources and that they significantly improved the perceptual cleanliness of the source speech without significantly degrading the naturalness of the voice. However, the results also show limitations when generating speech with the low-quality found data. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-34"
+  },
+  "brummer18_odyssey": {
+   "authors": [
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ]
+   ],
+   "title": "Gaussian meta-embeddings for efficient scoring of a heavy-tailed PLDA model",
+   "original": "51",
+   "page_count": 8,
+   "order": 52,
+   "p1": 349,
+   "pn": 356,
+   "abstract": [
+    "Embeddings in machine learning are low-dimensional representations of complex input patterns, with the property that sim-ple geometric operations like Euclidean distances and dot products can be used for classification and comparison tasks. The proposed meta-embeddings are special embeddings that live in more general inner product spaces. They are designed to propagate uncertainty to the final output in speaker recognition and similar applications. The familiar Gaussian PLDA model (GPLDA) can be re-formulated as an extractor for Gaussian meta-embeddings (GMEs), such that likelihood ratio scores are given by Hilbert space inner products between Gaussian like-lihood functions. GMEs extracted by the GPLDA model have fixed precisions and do not propagate uncertainty. We show that a generalization to heavy-tailed PLDA gives GMEs with vari- able precisions, which do propagate uncertainty. Experiments on NIST SRE 2010 and 2016 show that the proposed method applied to i-vectors without length normalization is up to 20% more accurate than GPLDA applied to length-normalized i- vectors. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-49"
+  },
+  "chen18_odyssey": {
+   "authors": [
+    [
+     "Xianhong",
+     "Chen"
+    ],
+    [
+     "Liang",
+     "He"
+    ],
+    [
+     "Can",
+     "Xu"
+    ],
+    [
+     "Yi",
+     "Liu"
+    ],
+    [
+     "Tianyu",
+     "Liang"
+    ],
+    [
+     "Jia",
+     "Liu"
+    ]
+   ],
+   "title": "VB-HMM Speaker Diarization with Enhanced and Refined Segment Representation\t",
+   "original": "53",
+   "page_count": 6,
+   "order": 20,
+   "p1": 134,
+   "pn": 139,
+   "abstract": [
+    "Variational Bayes hidden Markov model (VB-HMM) is a soft speaker diarization system. It is often combined with fixed length segmentation (FLS) instead of speaker change detection (SCD) to avoid SCD error propagation. However, as each segment is too short to provide enough speaker information, the emission probability (given a speaker, a segment occurs) will be noisy and inaccuracy. Therefore, we propose a VB-HMM speaker diarization system with enhanced and refined segment representation. First, it enhances the segment representation with stream neighbors to extract more information of the same speaker to improve the accuracy of emission probability. And then it further refines the segment representation with speaker change points in the iteration to dislodge the information of other speakers from the neighbors. The experiment results on RT09 demonstrate that, VB-HMM with enhanced and refined segment representation has a relatively improvement of 22.9$\\%$ compared with VB-HMM with only FLS. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-19"
+  },
+  "novotny18_odyssey": {
+   "authors": [
+    [
+     "Ondřej",
+     "Novotný"
+    ],
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Pavel",
+     "Matějka"
+    ],
+    [
+     "Ladislav",
+     "Mošner"
+    ],
+    [
+     "Ondřej",
+     "Glembek"
+    ]
+   ],
+   "title": "On the use of X-vectors for Robust Speaker Recognition",
+   "original": "54",
+   "page_count": 8,
+   "order": 25,
+   "p1": 168,
+   "pn": 175,
+   "abstract": [
+    "Text-independent speaker verification (SV) is currently in the process of embracing DNN modeling in every stage of SV system. Slowly, the DNN-based approaches such as end-to-end modelling and systems based on DNN embeddings start to be competitive even in challenging and diverse channel conditions of recent NIST SREs. Domain adaptation and need for large amount of training data are still a challenge for current discriminative systems and (unlike with generative models), we see significant gains from data augmentation, simulation and other techniques designed to overcome lack of the training data. We present an analysis of an SV system based on DNN embeddings (x-vectors) and focus on robustness across diverse data domains such as standard telephone and microphone conversations, both in clean, noisy and reverberant environments. We also evaluate the system on challenging far-field data created by re-transmitting a subset of NIST SRE 2008 and 2010 microphone interviews. We compare our results with the state-of-the-art i-vector system. In general, we were able to achieve better performance with the DNN-based systems, but most importantly, we have confirmed the robustness of such systems across multiple data domains. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-24"
+  },
+  "gonzalezrodriguez18_odyssey": {
+   "authors": [
+    [
+     "Joaquin",
+     "Gonzalez-Rodriguez"
+    ],
+    [
+     "Alvaro",
+     "Escudero"
+    ],
+    [
+     "Diego de",
+     "Benito-Gorrón"
+    ],
+    [
+     "Beltran",
+     "Labrador"
+    ],
+    [
+     "Javier",
+     "Franco-Pedroso"
+    ]
+   ],
+   "title": "An Audio Fingerprinting Approach to Replay Attack Detection on ASVSPOOF 2017 Challenge Data\t",
+   "original": "55",
+   "page_count": 8,
+   "order": 45,
+   "p1": 304,
+   "pn": 311,
+   "abstract": [
+    "Replay attacks, where an impostor replays a genuine user utterance, are a major vulnerability of speaker verification systems. Two highly likely scenarios for replay attacks are either hidden recording of actual spoken access trials, or reusing previous genuine recordings in case of fraudulent access to transmission channels or storage devices. In both scenarios, an audio fingerprint-based approach comparing any access trial with all previous recordings from the claimed speaker perfectly fits the task of replay attack detection. However, ASVspoof 2017 rules did not allow the use of the original RedDots audio files (spoofed trials are replayed versions of RedDots), which disabled a fingerprint-based regular participation in the evaluation as those original files are necessary to build the bank of previous-access audio fingerprints. Then, we agreed with the organizers to run and submit on time a parallel fingerprint-based evaluation with exactly the same blind test data with an alternative but realistic (deployable) evaluation scenario. While we obtained an Equal Error Rate of 8.91% detecting replayed versus genuine trials, this result is not comparable for ranking purposes with those from actual participants in the Challenge as we used the original RedDots files. However, it provides insight into the potential and complementarity of audio fingerprinting, especially for high audio-quality attacks where state-of-the-art acoustic antispoofing systems show poor performance (the best ASVspoof 2017 system with global EER of 6.73% degraded to about 25% in condition C6 of high-quality replays), while our fingerprint-based antispoofer obtains an EER of 0.0% for the high-quality replays in condition C6, showing the complementarity of acoustic antispoofers for low-mid quality replays and fingerprint-based ones for mid-high quality replays. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-43"
+  },
+  "valenti18b_odyssey": {
+   "authors": [
+    [
+     "Giacomo",
+     "Valenti"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Laurent",
+     "Pilati"
+    ]
+   ],
+   "title": "An end-to-end spoofing countermeasure for automatic speaker verification using evolving recurrent neural networks\t",
+   "original": "57",
+   "page_count": 8,
+   "order": 43,
+   "p1": 288,
+   "pn": 295,
+   "abstract": [
+    "Research in anti-spoofing for automatic speaker verification has advanced considerably in the last three years. Anti-spoofing is a particularly difficult pattern classification problem since the characteristics of spoofed speech vary considerably and can never be predicted with certainty in the wild. The design of features suited to the detection of unpredictable spoofing attacks is thus a staple of current research. End-to-end approaches to spoofing detection with exploit automatic feature learning have shown success and offer obvious appeal. This paper presents our efforts to develop such a system using recurrent neural networks and a particular algorithm known as neuroevolution of augmenting topologies (NEAT). Contributions include a new fitness function for network learning that not only results in better generalisation than the baseline system, but which also improves on raw performance by 22% relative when assessed using the ASVspoof 2017 database of bona fide speech and replay spoofing attacks. Results also show that mini-batch training helps to improve generalisation, a technique which could also be of benefit to other solutions to the spoofing detection problem. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-41"
+  },
+  "vestman18_odyssey": {
+   "authors": [
+    [
+     "Ville",
+     "Vestman"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Supervector Compression Strategies to Speed up I-Vector System Development\t",
+   "original": "59",
+   "page_count": 8,
+   "order": 53,
+   "p1": 357,
+   "pn": 364,
+   "abstract": [
+    "The front-end factor analysis (FEFA), an extension of principal component analysis (PPCA) tailored to be used with Gaussian mixture models (GMMs), is currently the prevalent approach to extract compact utterance-level features (i-vectors) for automatic speaker verification (ASV) systems. Little research has been conducted comparing FEFA to the conventional PPCA applied to maximum a posteriori (MAP) adapted GMM supervectors. We study several alternative methods, including PPCA, factor analysis (FA), and two supervised approaches, supervised PPCA (SPPCA) and the recently proposed probabilistic partial least squares (PPLS), to compress MAP-adapted GMM supervectors. The resulting i-vectors are used in ASV tasks with a probabilistic linear discriminant analysis (PLDA) back-end. We experiment on two different datasets, on the telephone condition of NIST SRE 2010 and on the recent VoxCeleb corpus collected from YouTube videos containing celebrity interviews recorded in various acoustical and technical conditions. The results suggest that, in terms of ASV accuracy, the supervector compression approaches are on a par with FEFA. The supervised approaches did not result in improved performance. In comparison to FEFA, we obtained more than hundred-fold (100x) speedups in the total variability model (TVM) training using the PPCA and FA supervector compression approaches. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-50"
+  },
+  "patino18_odyssey": {
+   "authors": [
+    [
+     "Jose",
+     "Patino"
+    ],
+    [
+     "Ruiqing",
+     "Yin"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Alain",
+     "Komaty"
+    ],
+    [
+     "Guillaume",
+     "Wisniewski"
+    ],
+    [
+     "Claude",
+     "Barras"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Sébastien",
+     "Marcel"
+    ]
+   ],
+   "title": "Low-latency speaker spotting with online diarization and detection",
+   "original": "60",
+   "page_count": 7,
+   "order": 21,
+   "p1": 140,
+   "pn": 146,
+   "abstract": [
+    "This paper introduces a new task termed low-latency speaker spotting (LLSS). Related to security and intelligence applications, the task involves the detection, as soon as possible, of known speakers within multi-speaker audio streams. The paper describes differences to the established fields of speaker diarization and automatic speaker verification and proposes a new protocol and metrics to support exploration of LLSS. These can be used together with an existing, publicly available database to assess the performance of LLSS solutions also proposed in the paper. They combine online diarization and speaker detection systems. Diarization systems include a naive, over-segmentation approach and fully-fledged online diarization using segmental i-vectors. Speaker detection is performed using Gaussian mixture models, i-vectors or neural speaker embeddings. Metrics reflect different approaches to characterise latency in addition to detection performance. The relative performance of each solution is dependent on latency. When higher latency is admissible, i-vector solutions perform well; embeddings excel when latency must be kept to a minimum. With a need to improve the reliability of online diarization and detection, the proposed LLSS framework provides a vehicle to fuel future research in both areas. In this respect, we embrace a reproducible research policy; results can be readily reproduced using publicly available resources and open source codes. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-20"
+  },
+  "silnova18_odyssey": {
+   "authors": [
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ],
+    [
+     "Ondrej",
+     "Glembek"
+    ],
+    [
+     "Oldrich",
+     "Plchot"
+    ],
+    [
+     "Ondrej",
+     "Novotny"
+    ],
+    [
+     "Frantisek",
+     "Grezl"
+    ],
+    [
+     "Petr",
+     "Schwarz"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Jan",
+     "Cernocky"
+    ]
+   ],
+   "title": "BUT/Phonexia Bottleneck Feature Extractor\t",
+   "original": "61",
+   "page_count": 5,
+   "order": 42,
+   "p1": 283,
+   "pn": 287,
+   "abstract": [
+    "This paper complements the public release of the BUT/Phonexia bottleneck (BN) feature extractor. Starting with a brief history of Neural Network (NN)-based and BN-based approaches to speech feature extraction, it describes the structure of the released software. It follows by describing the three provided NNs: the first two trained on the US English Fisher corpus with monophone-state and tied-state targets, and the third network trained in a multi-lingual fashion on 17 Babel languages. The NNs were technically trained to classify acoustic units, however the networks were optimized with respect to the language recognition task, which is the main focus of this paper. Nevertheless, it is worth noting that apart from language recognition, the provided software can be used with any speech-related task. The paper concludes with a comprehensive summary of the results obtained on the NIST 2015 and 2017 Language Recognition Evaluations tasks. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-40"
+  },
+  "trong18_odyssey": {
+   "authors": [
+    [
+     "Trung Ngo",
+     "Trong"
+    ],
+    [
+     "Ville",
+     "Hautamaki"
+    ],
+    [
+     "Kristiina",
+     "Jokinen"
+    ]
+   ],
+   "title": "Staircase Network: structural language identification via hierarchical attentive units",
+   "original": "62",
+   "page_count": 8,
+   "order": 10,
+   "p1": 60,
+   "pn": 67,
+   "abstract": [
+    "Language recognition system is typically trained directly to optimize classification error on the target language labels, without using the external, or meta-information in the estimation of the model parameters. However labels are not independent of each other, there is a dependency enforced by, for example, the language family, which affects negatively on classification. The other external information sources (e.g. audio encoding, telephony or video speech) can also decrease classification accuracy. In this paper, we attempt to solve these issues by constructing a deep hierarchical neural network, where different levels of meta-information are encapsulated by attentive prediction units and also embedded into the training progress. The proposed method learns auxiliary tasks to obtain robust internal representation and to construct a variant of attentive units within the hierarchical model. The final result is the structural prediction of the target language and a closely related language family. The algorithm reflects a staircase way of learning in both its architecture and training, advancing from the fundamental audio encoding to the language family level and finally to the target language level. This process not only improves generalization but also tackles the issues of imbalanced class priors and channel variability in the deep neural network model. Our experimental findings show that the proposed architecture outperforms the state-of-the-art i-vector approaches on both small and big language corpora by a significant margin. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-9"
+  },
+  "diez18_odyssey": {
+   "authors": [
+    [
+     "Mireia",
+     "Diez"
+    ],
+    [
+     "Lukas",
+     "Burget"
+    ],
+    [
+     "Pavel",
+     "Matejka"
+    ]
+   ],
+   "title": "Speaker Diarization based on Bayesian HMM with Eigenvoice Priors\t",
+   "original": "63",
+   "page_count": 8,
+   "order": 22,
+   "p1": 147,
+   "pn": 154,
+   "abstract": [
+    "Nowadays, most speaker diarization methods address the task in two steps: segmentation of the input conversation into (preferably) speaker homogeneous segments, and clustering.\nGenerally, different models and techniques are used for the two steps. In this paper we present a very elegant approach where a straightforward and efficient Variational Bayes (VB) inference in a single probabilistic model addresses the complete SD problem. Our model is a Bayesian Hidden Markov Model, in which states represent speaker specific distributions and transitions between states represent speaker turns. As in the ivector or JFA models, speaker distributions are modeled by GMMs with parameters constrained by eigenvoice priors. This allows to robustly estimate the speaker models from very short speech segments. The model, which was released as open source code and has already been used by several labs, is fully described for the first time in this paper. We present results and the system is compared and combined with other state-of-the-art approaches. The model provides the best results reported so far on the CALLHOME dataset."
+   ],
+   "doi": "10.21437/Odyssey.2018-21"
+  },
+  "novoselov18_odyssey": {
+   "authors": [
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Andrey",
+     "Shulipa"
+    ],
+    [
+     "Ivan",
+     "Kremnev"
+    ],
+    [
+     "Alexandr",
+     "Kozlov"
+    ],
+    [
+     "Vadim",
+     "Shchemelinin"
+    ]
+   ],
+   "title": "On deep speaker embeddings for text-independent speaker recognition\t",
+   "original": "64",
+   "page_count": 8,
+   "order": 56,
+   "p1": 378,
+   "pn": 385,
+   "abstract": [
+    "We investigate deep neural network performance in the text-independent speaker recognition task. We demonstrate that using angular softmax activation at the last classification layer of a classification neural network instead of a simple softmax activation allows to train a more generalized discriminative speaker embedding extractor. Cosine similarity is an effective metric for speaker verification in this embedding space. We also address the problem of choosing an architecture for the extractor. We found that deep networks with residual frame level connections outperform wide but relatively shallow architectures. This paper also proposes several improvements for previous DNN-based extractor systems to increase the speaker recognition accuracy. We show that the discriminatively trained similarity metric learning approach outperforms the standard LDA-PLDA method as an embedding backend. The results obtained on Speakers in the Wild and NIST SRE 2016 evaluation sets demonstrate robustness of the proposed systems when dealing with close to real-life conditions. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-53"
+  },
+  "zeinali18b_odyssey": {
+   "authors": [
+    [
+     "Hossein",
+     "Zeinali"
+    ],
+    [
+     "Hossein",
+     "Sameti"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ]
+   ],
+   "title": "DeepMine Speech Processing Database: Text-Dependent and Independent Speaker Verification and Speech Recognition in Persian and English\t",
+   "original": "65",
+   "page_count": 7,
+   "order": 57,
+   "p1": 386,
+   "pn": 392,
+   "abstract": [
+    "In this paper, we introduce a new database for text-dependent, text-prompted and text-independent speaker recognition, as well as for speech recognition. DeepMine is a large-scale database in Persian and English, with its current version containing more than 1300 speakers and 360 thousand recordings overall. DeepMine has several appealing characteristics which make it unique of its kind. First of all, it is the first large-scale speaker recognition database in Persian, enabling the development of voice biometrics applications in the native language of about 110 million people. Second, it is the largest text-dependent and text-prompted speaker recognition database in English, facilitating research on deep learning and other data demanding approaches. Third, its unique combination of Persian and English makes it suitable for exploring domain adaptation and transfer learning approaches, which constitute some of the emerging tasks in speech and speaker recognition. Finally, the extensive annotation with respect to age, gender, province, and educational level, combined with the inherent variability of the Persian language in terms of different accents are ideal for exploring the use of attribute information in utterance and speaker modeling.The presentation of the database is accompanied with several experiments using state-of-the-art algorithms. More specifically, we conduct experiments using HMM-based i-vectors, and we reaffirm their effectiveness in text-dependent speaker recognition. Furthermore, we conduct speech recognition experiments using the annotated text-independent part of the database for training and testing, and we demonstrate that the database can also serve for training robust speech recognition models in Persian. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-54"
+  },
+  "delgado18_odyssey": {
+   "authors": [
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "ASVspoof 2017 Version 2.0: meta-data analysis and baseline enhancements\t",
+   "original": "66",
+   "page_count": 8,
+   "order": 44,
+   "p1": 296,
+   "pn": 303,
+   "abstract": [
+    "The now-acknowledged vulnerabilities of automatic speaker verification (ASV) technology to spoofing attacks have spawned interests to develop so-called spoofing countermeasures. By providing common databases, protocols and metrics for their assessment, the ASVspoof initiative was born to spearhead research in this area. The first competitive ASVspoof challenge held in 2015 focused on the assessment of countermeasures to protect ASV technology from voice conversion and speech synthesis spoofing attacks. The second challenge switched focus to the consideration of replay spoofing attacks and countermeasures. This paper describes Version 2.0 of the ASVspoof 2017 database which was released to correct data anomalies detected post-evaluation. The paper contains as-yet unpublished meta-data which describes recording and replay devices and acoustic environments. These support the analysis of replay detection performance and limits. Also described are new results for the official ASVspoof baseline system which is based upon a constant Q cesptral coefficient frontend and a Gaussian mixture model backend. Reported are enhancements to the baseline system in the form of log-energy coefficients and cepstral mean and variance normalisation in addition to an alternative iVector backend. The best results correspond to a 48% relative reduction in equal error rate when compared to the original baseline system. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-42"
+  },
+  "kinnunen18_odyssey": {
+   "authors": [
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Jaime",
+     "Lorenzo-Trueba"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Fernando",
+     "Villavicencio"
+    ],
+    [
+     "Zhenhua",
+     "Ling"
+    ]
+   ],
+   "title": "A Spoofing Benchmark for the 2018 Voice Conversion Challenge: Leveraging from Spoofing Countermeasures for Speech Artifact Assessment\t",
+   "original": "67",
+   "page_count": 8,
+   "order": 29,
+   "p1": 187,
+   "pn": 194,
+   "abstract": [
+    "Voice conversion (VC) aims at conversion of speaker characteristic without altering content. Due to training data limitations and modeling imperfections, it is difficult to achieve believable speaker mimicry without introducing processing artifacts; performance assessment of VC, therefore, usually involves both speaker similarity and quality evaluation by a human panel. As a time-consuming, expensive, and non-reproducible process, it hinders rapid prototyping of new VC technology. We address quality assessment using an alternative, objective approach leveraging from prior work on spoofing countermeasures (CMs) for automatic speaker verification. Therein, CMs are used for rejecting `fake' inputs such as replayed, synthetic or converted speech but their potential for speech quality assessment remains unknown. This study serves to fill that gap. As a supplement to subjective results for the 2018 Voice Conversion Challenge (VCC'18) data, we configure a standard constant-Q cepstral coefficient CM to quantify the extent of processing artifacts. Equal error rate (EER) of the CM, a confusability index of VC samples with real human speech, serves as our quality measure. Two clusters of VCC'18 entries are identified: low-quality ones (low EERs), and higher quality ones that are more confusable with real human speech. None of the VCC'18 systems, however, is perfect: all EERs are $<30\\%$ (the `ideal' value would be 50%). Our preliminary findings suggest potential of CMs outside of their original application, as a supplemental optimization and benchmarking tool to enhance VC technology. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-27"
+  },
+  "kinnunen18b_odyssey": {
+   "authors": [
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Hector",
+     "Delgado"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ],
+    [
+     "Douglas A.",
+     "Reynolds"
+    ]
+   ],
+   "title": "t-DCF: a Detection Cost Function for the Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification\t",
+   "original": "68",
+   "page_count": 8,
+   "order": 46,
+   "p1": 312,
+   "pn": 319,
+   "abstract": [
+    "The ASVspoof challenge series was born to spearhead research in anti-spoofing for automatic speaker verification (ASV). The two challenge editions in 2015 and 2017 involved the assessment of spoofing countermeasures (CMs) in isolation from ASV using an equal error rate (EER) metric. While a strategic approach to assessment at the time, it has certain shortcomings. First, the CM EER is not necessarily a reliable predictor of performance when ASV and CMs are combined. Second, the EER operating point is ill-suited to user authentication applications, e.g.\\ telephone banking, characterised by a high target user prior but a low spoofing attack prior. We aim to migrate from CM- to ASV-centric assessment with the aid of a new \\emph{tandem detection cost function} (t-DCF) metric. It extends the conventional DCF used in ASV research to scenarios involving spoofing attacks. The t-DCF metric has 6 parameters: (i)~false alarm and miss costs for both systems, and (ii)~prior probabilities of target and spoof trials (with an implied third, nontarget prior). The study is intended to serve as a self-contained, tutorial-like presentation. We analyse with the t-DCF a selection of top-performing CM submissions to the 2015 and 2017 editions of ASVspoof, with a focus on the spoofing attack prior. Whereas there is little to choose between countermeasure systems for lower priors, system rankings derived with the EER and t-DCF show differences for higher priors. We observe some ranking changes. Findings support the adoption of the DCF-based metric into the roadmap for future ASVspoof challenges, and possibly for other biometric anti-spoofing evaluations. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-44"
+  },
+  "plchot18_odyssey": {
+   "authors": [
+    [
+     "Oldřich",
+     "Plchot"
+    ],
+    [
+     "Pavel",
+     "Matějka"
+    ],
+    [
+     "Ondřej",
+     "Novotný"
+    ],
+    [
+     "Sandro",
+     "Cumani"
+    ],
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ],
+    [
+     "Josef",
+     "Slavíček"
+    ],
+    [
+     "Mireia",
+     "Diez"
+    ],
+    [
+     "František",
+     "Grézl"
+    ],
+    [
+     "Ondřej",
+     "Glembek"
+    ],
+    [
+     "Mounika",
+     "Kamsali"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ],
+    [
+     "Lucas",
+     "Ondel"
+    ],
+    [
+     "Santosh",
+     "Kesiraju"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ]
+   ],
+   "title": "Analysis of BUT-PT Submission for NIST LRE 2017",
+   "original": "69",
+   "page_count": 7,
+   "order": 8,
+   "p1": 47,
+   "pn": 53,
+   "abstract": [
+    "In this paper, we summarize our efforts in the NIST Language Recognition Evaluations (LRE) 2017 which resulted in systems providing very competitive and state-of-the-art performance. We provide both the descriptions and the analysis of the systems that we included in our submission. We explain our partitioning of the datasets that we were provided by NIST for training and development, and we follow by describing the features, DNN models and classifiers that were used to produce the final systems. After covering the architecture of our submission, we concentrate on post-evaluation analysis. We compare different DNN Bottle-Neck features, i-vector systems of different sizes and architectures, different classifiers and we present experimental results with data augmentation and with improved architecture of the system based on DNN embeddings. We present the performance of the systems in the Fixed condition (where participants are required to use only predefined data sets) and in addition to official NIST LRE17 evaluation set, we also provide results on our internal development set which can serve as a baseline for other researchers, since all training data are fixed and provided by NIST. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-7"
+  },
+  "mccree18_odyssey": {
+   "authors": [
+    [
+     "Alan",
+     "Mccree"
+    ],
+    [
+     "David",
+     "Snyder"
+    ],
+    [
+     "Greg",
+     "Sell"
+    ],
+    [
+     "Daniel",
+     "Garcia-Romero"
+    ]
+   ],
+   "title": "Language Recognition for Telephone and Video Speech: The JHU HLTCOE Submission for NIST LRE17\t",
+   "original": "70",
+   "page_count": 6,
+   "order": 11,
+   "p1": 68,
+   "pn": 73,
+   "abstract": [
+    "This paper presents our newest language recognition systems developed for NIST LRE17. For this challenging limited data multidomain task, we were able to get very good performance with our state-of-the-art DNN senone and bottleneck joint i-vector systems by effective utilization of all of the available training and development data. Data augmentation techniques were very valuable for this task, and our discriminative Gaussian classifier combined with naive fusion used all of the development data for system design rather than holding some out for separate back-end training. Finally, our newest research with discriminatively-trained DNN embeddings allowed us to replace i-vectors with more powerful x-vectors to further improve language recognition accuracy, resulting in very good LRE17 performance for this single system, our JHU HLTCOE site fusion primary submission, and the JHU MIT team submission. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-10"
+  },
+  "lopez18_odyssey": {
+   "authors": [
+    [
+     "Jesus Antonio Villalba",
+     "Lopez"
+    ],
+    [
+     "Niko",
+     "Brummer"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "End-to-End versus Embedding Neural Networks for Language Recognition in Mismatched Conditions\t",
+   "original": "71",
+   "page_count": 8,
+   "order": 17,
+   "p1": 112,
+   "pn": 119,
+   "abstract": [
+    "Neural network architectures mapping variable-length speech utterances into fixed dimensional embeddings have started to outperform state-of-the-art i-vector systems in speaker and language recognition tasks. However, neural networks areprone to over-fit to the training domain and may be difficult to adapt to new domains with limited development data. A successful solution, used in recent NIST 2017 language recognition evaluation, consists of training the embedding extractor on out-of-domain data and applying a back-end classifier adapted to the target domain. In this paper, we compare the embedding+back-end approach with the end-to-end evaluation of the neural network to obtain language log-likelihoods. Doing careful adaptation of the networks, we show that end-to-end improves detection cost by 6\\% relative w.r.t. the best embedding system. We compared two embedding architectures. First, we evaluated embeddings using a temporal mean+stddev pooling layer to capture the long-term sequence information (a.k.a. x-vectors). Second, we present a novel probabilistic embedding framework where the embedding is a hidden variable. The network predicts a Gaussian posterior distribution for the embedding given each feature frame. Finally, the frame level posteriors can be combined in a principled way to obtain sequence level posteriors. In this manner, we obtain an uncertainty measure about the embedding value. Language scores are obtained integrating over the embedding posterior distribution. In our experiments, x-vectors outperformed probabilistic embeddings for embedding+back-end systems but both attained comparable results for end-to-end systems. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-16"
+  },
+  "hautamaki18_odyssey": {
+   "authors": [
+    [
+     "Rosa Gonzalez",
+     "Hautamäki"
+    ],
+    [
+     "Anssi",
+     "Kanervisto"
+    ],
+    [
+     "Ville",
+     "Hautamaki"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "Perceptual Evaluation of the Effectiveness of Voice Disguise by Age Modification",
+   "original": "72",
+   "page_count": 7,
+   "order": 47,
+   "p1": 320,
+   "pn": 326,
+   "abstract": [
+    "Voice disguise, purposeful modification of one’s speaker identity with the aim of avoiding being identified as oneself, is a low-effort way to fool speaker recognition, whether performed by a human or an automatic speaker verification (ASV) system. We present an evaluation of the effectiveness of age stereotypes as a voice disguise strategy, as a follow up to our recent work where 60 native Finnish speakers attempted to sound like an elderly and like a child. In that study, we presented evidence that both ASV and human observers could easily miss the target speaker but we did not address how believable the presented vocal age stereotypes were; this study serves to fill that gap. The interesting cases would be speakers who succeed in being missed by the ASV system, and which a typical listener cannot detect as being a disguise. We carry out a perceptual test to study the quality of the disguised speech samples. The listening test was carried out both locally and with the help of Amazon’s Mechanical Turk (MT) crowd-workers. A total of 91 listeners participated in the test and were instructed to estimate both the speaker’s chronological and intended age. The results indicate that age estimations for the intended old and child voices for female speakers were towards the target age groups, while for male speakers, the age estimations corresponded to the direction of the target voice only for elderly voices. In the case of intended child’s voice, listeners estimated the age of male speakers to be older than their chronological age for most of the speakers and not the intended target age. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-45"
+  },
+  "alam18_odyssey": {
+   "authors": [
+    [
+     "Md Jahangir",
+     "Alam"
+    ],
+    [
+     "Gautam",
+     "Bhattacharya"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ]
+   ],
+   "title": "Speaker Verification in Mismatched Conditions with Frustratingly Easy Domain Adaptation\t",
+   "original": "74",
+   "page_count": 5,
+   "order": 26,
+   "p1": 176,
+   "pn": 180,
+   "abstract": [
+    "The 2016 edition of the NIST speaker recognition evaluation tests the ability of speaker verification systems to deal with language mismatch between development and test data. In order to adapt to new languages, a small amount of unlabeled, in-domain data was provided - warranting the need for an unsupervised approach to learn from this data. In this work we adapt a simple domain adaptation strategy to the speaker verification problem. We test our approach using two types of speaker embeddings - i-vectors and neural network based x-vectors. Despite the simplicity of our method, we show that it outperforms a competitive PLDA domain-adaptation approach in the i-vector domain (12.11% vs 12.68% EER), and works as well in the x-vector domain (8.93% vs 8.91% EER). Finally, as our approach adapts the speaker embeddings, we combined our adapted embeddings with the PLDA adaptation approach. We achieved our best result (8.75% EER) using this strategy with x-vectors. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-25"
+  },
+  "kato18_odyssey": {
+   "authors": [
+    [
+     "Akihiro",
+     "Kato"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ]
+   ],
+   "title": "A Regression Model of Recurrent Deep Neural Networks for Noise Robust Estimation of the Fundamental Frequency Contour of Speech",
+   "original": "75",
+   "page_count": 8,
+   "order": 41,
+   "p1": 275,
+   "pn": 282,
+   "abstract": [
+    "The fundamental frequency (F0) contour of speech is a key aspect to represent speech prosody that finds use in speech and spoken language analysis such as voice conversion and speech synthesis as well as speaker and language identification. This work proposes new methods to estimate the F0 contour of speech using deep neural networks (DNNs) and recurrent neural networks (RNNs). They are trained using supervised learning with the ground truth of F0 contours. The latest prior research addresses this problem first as a frame-by-frame-classification problem followed by sequence tracking using deep neural network hidden Markov model (DNN-HMM) hybrid architecture. This study, however, tackles the problem as a regression problem instead, in order to obtain F0 contours with higher frequency resolution from clean an noisy speech. Experiments using PTDB-TUG corpus contaminated with additive noise (NOISEX-92) show the proposed method improves gross pitch error (GPE) by more than 25 % at signal-to-noise ratios (SNRs) between -10 dB and +10 dB as compared with one of the most noise-robust F0 trackers, PEFAC. Furthermore, the performance on fine pitch error (FPE) is improved by approximately 20 % against a state-of-the-art DNN-HMM-based approach. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-39"
+  },
+  "alam18b_odyssey": {
+   "authors": [
+    [
+     "Md Jahangir",
+     "Alam"
+    ],
+    [
+     "Gautam",
+     "Bhattacharya"
+    ],
+    [
+     "Patrick",
+     "Kenny"
+    ]
+   ],
+   "title": "Boosting the Performance of Spoofing Detection Systems on Replay Attacks Using q-Logarithm Domain Feature Normalization",
+   "original": "76",
+   "page_count": 6,
+   "order": 58,
+   "p1": 393,
+   "pn": 398,
+   "abstract": [
+    "Feature normalization strategies help to compensate for the effects of environmental mismatch and are normally incorporated into the feature extraction framework after applying a logarithmic or power function nonlinearity. For spoofing detection systems in the presence of voice conversion and speech synthesis-based spoofing attacks, feature normalization is found to be harmful. However when it comes to spoofing detection for replay attacks, normalization of features aids to reduce equal error rates significantly. In this work, we use discrete Fourier transform (DFT)-based spectral and product spectral features with feature normalization applied in the q-log domain. The q-log function acts as intermediate domain between linear and log domains for normalization of the features. After that, the final features are extracted by applying a principal component analysis technique to the log DFT and product power spectra. Experimental results on the version 2 of second ASVspoof2017 challenge evaluation data show that normalizing features in q-log domain results in relative reduction of equal error rates by approximately 5%. Over all four baseline systems, the DFT spectral features, normalized in the q-log domain, provides an average relative improvement of 28%. \n"
+   ],
+   "doi": "10.21437/Odyssey.2018-55"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Els Kindt",
+   "papers": [
+    "kindt18_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Recognition I",
+   "papers": [
+    "ajili18_odyssey",
+    "brown18_odyssey",
+    "nautsch18_odyssey",
+    "karu18_odyssey"
+   ]
+  },
+  {
+   "title": "Language Recognition",
+   "papers": [
+    "padi18_odyssey",
+    "lozanodiez18_odyssey",
+    "plchot18_odyssey",
+    "richardson18_odyssey",
+    "trong18_odyssey",
+    "mccree18_odyssey",
+    "cai18_odyssey",
+    "sadjadi18_odyssey",
+    "mclaren18b_odyssey",
+    "shon18_odyssey",
+    "snyder18_odyssey",
+    "lopez18_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker diarization",
+   "papers": [
+    "alonilavi18_odyssey",
+    "he18_odyssey",
+    "chen18_odyssey",
+    "patino18_odyssey",
+    "diez18_odyssey"
+   ]
+  },
+  {
+   "title": "Noise Robustness",
+   "papers": [
+    "rahman18_odyssey",
+    "lin18_odyssey",
+    "novotny18_odyssey",
+    "alam18_odyssey",
+    "zhang18_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Simon King",
+   "papers": [
+    "king18_odyssey"
+   ]
+  },
+  {
+   "title": "Voice conversion",
+   "papers": [
+    "kinnunen18_odyssey",
+    "lorenzotrueba18_odyssey",
+    "kobayashi18_odyssey"
+   ]
+  },
+  {
+   "title": "Voice conversion and spoofing",
+   "papers": [
+    "wu18_odyssey",
+    "tobing18_odyssey",
+    "tian18_odyssey",
+    "mochizuki18_odyssey",
+    "lorenzotrueba18b_odyssey",
+    "liu18_odyssey",
+    "bahmaninezhad18_odyssey",
+    "sone18_odyssey",
+    "sisman18_odyssey",
+    "kato18_odyssey",
+    "silnova18_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing",
+   "papers": [
+    "valenti18b_odyssey",
+    "delgado18_odyssey",
+    "gonzalezrodriguez18_odyssey",
+    "kinnunen18b_odyssey",
+    "hautamaki18_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Pascal Belin",
+   "papers": [
+    "belin18_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker recognition II",
+   "papers": [
+    "mclaren18_odyssey",
+    "valenti18_odyssey",
+    "chien18_odyssey",
+    "brummer18_odyssey",
+    "vestman18_odyssey"
+   ]
+  },
+  {
+   "title": "Text-dependent speaker recognition",
+   "papers": [
+    "shi18_odyssey",
+    "zeinali18_odyssey",
+    "novoselov18_odyssey",
+    "zeinali18b_odyssey",
+    "alam18b_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/Odyssey.2018"
+}

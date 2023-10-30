@@ -1,0 +1,698 @@
+{
+ "title": "ITRW on Pronunciation Modeling and Lexicon Adaptation for Spoken Language Technology (PMLA 2002)",
+ "location": "Aspen Lodge, Estes Park, Colorado, USA",
+ "startDate": "14/9/2002",
+ "endDate": "15/9/2002",
+ "conf": "PMLA",
+ "year": "2002",
+ "name": "pmla_2002",
+ "series": "",
+ "SIG": "",
+ "title1": "ITRW on Pronunciation Modeling and Lexicon Adaptation for Spoken Language Technology",
+ "title2": "(PMLA 2002)",
+ "date": "14-15 September 2002",
+ "papers": {
+  "taylor02_pmla": {
+   "authors": [
+    [
+     "Paul",
+     "Taylor"
+    ]
+   ],
+   "title": "Pronunciation issues in text-to-speech synthesis",
+   "original": "pmla_135",
+   "page_count": 0,
+   "order": 1,
+   "p1": "135 (Abstract only)",
+   "pn": "",
+   "abstract": [
+    "This talk will cover a variety of issues in text-to-speech (TTS) synthesis, specifically focusing on current issues in the design of a state of the art unit selection system. The talk will start with an overview of traditional and previous approaches to pronunciation modelling. Next, the issue whether it is best to use phonological or phonetic representations will be discussed. Issues relating to prosodic patterns of sentence stress and lexical stress will be examined. The talk will conclude with an investigation into the phonetics and phonology of regional accents, specifically on the issue of whether to represent the differences in the lexicon or the acoustics. Examples of TTS output will be used to illustrate the talk.\n",
+    ""
+   ]
+  },
+  "flege02_pmla": {
+   "authors": [
+    [
+     "James",
+     "Flege"
+    ]
+   ],
+   "title": "Factors affecting the pronunciation of a second language",
+   "original": "pmla_136",
+   "page_count": 0,
+   "order": 2,
+   "p1": "136 (Abstract only)",
+   "pn": "",
+   "abstract": [
+    "This presentation will focus on foreign-accented speech. In most of the studies reviewed, English was the target second language (L2) under examination. Foreign accent arises from listeners perception of divergences from target language phonetic norms that arise from the influence of the native language (L1), incomplete learning, or both. The first part of the talk will discuss participant (subject) factors that are known to influence overall degree of foreign accent. These include the age of first exposure to the L2, years of L2 use, amount of continued L1 use, gender, education, and bilingual dominance. The second part of the talk will review differences among listeners in the ability to gauge foreign accent. The final part of the talk will review research that has attempted to identify which specific acoustic-phonetic factors trigger the perception of foreign accent. These include inaccurately produced vowels and consonants, rhythm, and intonation. The relation between foreign accent and intelligibility will also be discussed.\n",
+    ""
+   ]
+  },
+  "hain02_pmla": {
+   "authors": [
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "Implicit pronunciation modelling in ASR",
+   "original": "pmla_129",
+   "page_count": 6,
+   "order": 3,
+   "p1": "129",
+   "pn": "134",
+   "abstract": [
+    "Modelling of pronunciation variability is an important part of the acoustic model of a speech recognition system. Good pronunciation models contribute to the robustness and portability of a speech recogniser. Usually pronunciation modelling is associated with the recognition lexicon which allows a direct control of HMM selection. However, in state-of-the-art systems the use of clustering techniques has considerable cross-effects for the dictionary design. Most large vocabulary speech recognition systems make use of a dictionary with multiple possible pronunciation variants per word. In this paper a method for a consistent reduction of the number of pronunciation variants to one pronunciation per word is described. Using the single pronunciation dictionaries similar or better word error rate performance is achieved both onWall Street Journal and Switchboard data.\n",
+    ""
+   ]
+  },
+  "bell02_pmla": {
+   "authors": [
+    [
+     "Alan",
+     "Bell"
+    ],
+    [
+     "Michelle L.",
+     "Gregory"
+    ],
+    [
+     "Jason M.",
+     "Brenier"
+    ],
+    [
+     "Daniel",
+     "Jurafsky"
+    ],
+    [
+     "Ayako",
+     "Ikeno"
+    ],
+    [
+     "Cynthia",
+     "Girand"
+    ]
+   ],
+   "title": "Which predictability measures affect content word durations?",
+   "original": "pmla_001",
+   "page_count": 5,
+   "order": 4,
+   "p1": "1",
+   "pn": "5",
+   "abstract": [
+    "The pronunciation of a word can vary widely, and many factors are known to affect this variation. This paper focuses on the role of predictability on word duration. Previous research has suggested that more frequent words are shorter, as are words which are more predictable from neighboring words. This research has tended to focus only on extremely high frequency function words; previous research on content words has not been able to examine natural speech and control for key confounding factors like accent and rate of speech. We examined 1401 content words from the Switchboard corpus and studied the role of word frequency, conditional and joint probabilities with neighboring words and a measure of word semantic association, Latent Semantic Analysis. Using multiple regression to control for confounding factors, we show that two predictability variables principally affect a words durationword frequency, and the conditional probability of a word given the following word. Other predictability variables do not make an additional significant contribution. We discuss the implications for pronunciation modeling.\n",
+    ""
+   ]
+  },
+  "caseiro02_pmla": {
+   "authors": [
+    [
+     "Diamantino",
+     "Caseiro"
+    ],
+    [
+     "F. M.",
+     "Silva"
+    ],
+    [
+     "Isabel",
+     "Trancoso"
+    ],
+    [
+     "C.",
+     "Viana"
+    ]
+   ],
+   "title": "Automatic alignment of map task dialogs using WFSTs",
+   "original": "pmla_006",
+   "page_count": 6,
+   "order": 5,
+   "p1": "6",
+   "pn": "11",
+   "abstract": [
+    "The goal of this work is the automatic alignment of a map task dialog corpus collected for European Portuguese. The Coral corpus has been orthographically labeled, however off-the-shelf alignment techniques do not work because of the large amount of cross-talk and pronunciation variation. This paper addresses these two issues. The cross-talk problem is dealt with by using a pre-processing stage of channel separation, which proved specially advantageous in the alignment of overlapping speaker turns. The pronunciation variation problem was addressed by including alternative pronunciation rules in the alignment procedure. The alignment is based on WFSTs in the sense that its search space is defined by a distribution-to-word (or distributionto- phone) transducer. Despite many limitations, such as the inadequacy of our current acoustic phone models in terms of voice quality changes (such as laughing), the aligner proved sufficiently robust and demonstrated the feasibility of our alternative pronunciation rules implementation.\n",
+    ""
+   ]
+  },
+  "kam02_pmla": {
+   "authors": [
+    [
+     "Patgi",
+     "Kam"
+    ],
+    [
+     "Tan",
+     "Lee"
+    ]
+   ],
+   "title": "Modeling pronunciation variation for Cantonese speech recognition",
+   "original": "pmla_012",
+   "page_count": 6,
+   "order": 6,
+   "p1": "12",
+   "pn": "17",
+   "abstract": [
+    "Due to the large variability of pronunciation in spontaneous speech, pronunciation modeling becomes a more challenging and essential part in speech recognition. In this paper, we describe two different approaches of pronunciation modeling by using decision tree. At lexical level, a pronunciation variation dictionary is built to obtain alternative pronunciations for each word, in which each entry is associated with a variation probability. At decoding level, decision tree pronunciation models are applied to expand the search space to include alternative pronunciations. Relative error reduction of 7.21% and 4.81% could be achieved at lexical level and decoding level respectively. The results at the two different levels are compared and contrasted.\n",
+    ""
+   ]
+  },
+  "kessens02_pmla": {
+   "authors": [
+    [
+     "J. M.",
+     "Kessens"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ]
+   ],
+   "title": "Modeling pronunciation variation for ASR: Comparing criteria for rule selection",
+   "original": "pmla_018",
+   "page_count": 6,
+   "order": 7,
+   "p1": "18",
+   "pn": "23",
+   "abstract": [
+    "In this paper we use a data-driven (DD) rule-based method for modeling pronunciation variation. Error analysis is performed in order to gain insight into the effect of pronunciation variation modeling. This analysis shows that although modeling pronunciation variation brings about improvements, deteriorations are also introduced. A strong correlation is found between the number of improvements and deteriorations per rule. This result indicates that it is not straightforward to improve the performance of automatic speech recognition (ASR) by excluding the rules that cause deteriorations, because these rules also produce a considerable number of improvements. Finally, we compare three different criteria for rule selection. This comparison indicates that the absolute frequency of rule application (Fabs) is the most suitable criterion for rule selection. For the best testing condition, a statistically significant reduction in Word Error Rate (WER) of 1.4% absolute, or 8.2% relative, is found.\n",
+    ""
+   ]
+  },
+  "lee02_pmla": {
+   "authors": [
+    [
+     "Kyung-Tak",
+     "Lee"
+    ],
+    [
+     "Lynette",
+     "Melnar"
+    ],
+    [
+     "Jim",
+     "Talley"
+    ]
+   ],
+   "title": "Symbolic speaker adaptation for pronunciation modeling",
+   "original": "pmla_024",
+   "page_count": 6,
+   "order": 8,
+   "p1": "24",
+   "pn": "29",
+   "abstract": [
+    "This paper presents a method of modeling a speakers pronunciation of a given language as a blend of \"standard\" speech and other non-standard speech varieties (regional dialects and foreign accented pronunciation styles) by way of speaker-dependent modification of a lexicon. In this system, a lexicon of Standard American English (SAE) forms, the \"canonical\" lexicon, is filtered and transformed via a group of speech variety (SV) dependent rule sets into a speaker specific set of pronunciation variants (and associated probabilities) for use during recognition. The relative importance of these rule sets depends on the speakers pronunciation characteristics and is represented by a Speech Variety Pro- file (SVP) associated with each speaker. A speakers individual SVP is acquired through feedback from an adaptation process. Convergence to a speakers SVP represents adaptation of the lexicon (symbolic adaptation) to those SVspecific forms that speaker is likely to utter.\n",
+    ""
+   ]
+  },
+  "sethy02_pmla": {
+   "authors": [
+    [
+     "Abhinav",
+     "Sethy"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ],
+    [
+     "S.",
+     "Parthasarthy"
+    ]
+   ],
+   "title": "A syllable based approach for improved recognition of spoken names",
+   "original": "pmla_030",
+   "page_count": 6,
+   "order": 9,
+   "p1": "30",
+   "pn": "35",
+   "abstract": [
+    "Recognition of spoken names is a challenging task for speech recognition systems because of the large variations in speaking styles, linguistic origins and pronunciation found in names. The complex linguistic nature of names makes it difficult to automatically generate pronunciation variations. For many applications the list of names tends to be in the order of several hundred thousands, making spoken name recognition a high perplexity task. Use of multiple pronunciations to account for the variations in names further increases the perplexity of the recognition system substantially. In this paper we propose the use of the syllable as the acoustic unit for spoken name recognition and show how pronunciation variation modeling with syllables can help in improving recognition performance and reducing the system perplexity. We present results comparing systems which use context dependent phones with syllable based systems, and demonstrate that a significant increase in recognition accuracy and speed, can be achieved by using the syllable as the acoustic unit for spoken name recognition. With a finite state grammar network for spoken name recognition, the observed recognition error rate for the syllable-based system was 40% less than the phone-based system. For syllable bigram based information retrieval schemes the observed recognition error rate was about 60% less than the corresponding phone system.\n",
+    ""
+   ]
+  },
+  "willett02_pmla": {
+   "authors": [
+    [
+     "Daniel",
+     "Willett"
+    ],
+    [
+     "Erik",
+     "McDermott"
+    ],
+    [
+     "Shigeru",
+     "Katagiri"
+    ]
+   ],
+   "title": "Unsupervised pronunciation adaptation for off-line transcription of Japanese lecture speeches",
+   "original": "pmla_036",
+   "page_count": 6,
+   "order": 10,
+   "p1": "36",
+   "pn": "41",
+   "abstract": [
+    "Observing that most variations in pronunciation are strongly speaker and speaking style dependent, and that the introduction of pronunciation variants in a speaker-independent recognition system is of limited success, we refrain from applying multiple pronunciation variants in the speakerindependent case and instead introduce pronunciation variants without supervision when specializing the recognizer for a specific speaker. Our approach is to take the decoders output after a first recognition pass and to realign it allowing several commonly observed pronunciation variations. In a second decoding pass, the pronunciation variations are integrated into the recognizer, weighted using Maximum Likelihood estimates for the pronunciation variants likelihoods on the realigned output of the first pass. We observe a small but significant improvement in recognition accuracy compared to the first pass output and conclude that the method is helpful in adjusting the pronunciation modeling structure according to speaker, speaking style and speaking rate. A better prior choice of possible pronunciation variations involving deeper phonetic knowledge would be beneficial for further improvements. We also show experimentally that the improvement gained through pronunciation adaptation does not overlap much with the improvement gained by unsupervised adaptation of the acoustic models, but rather that the achieved WER reductions are additive.\n",
+    ""
+   ]
+  },
+  "ostendorf02_pmla": {
+   "authors": [
+    [
+     "Mari",
+     "Ostendorf"
+    ],
+    [
+     "Rebecca",
+     "Bates"
+    ]
+   ],
+   "title": "Modeling pronunciation variation in conversational speech using prosody",
+   "original": "pmla_042",
+   "page_count": 6,
+   "order": 11,
+   "p1": "42",
+   "pn": "47",
+   "abstract": [
+    "A significant source of variation in spontaneous speech is due to intra-speaker pronunciation changes. Previous work in automatic speech recognition has identified several factors that affect pronunciation variability such as phonetic context and speaking rate, as well as syntactic structure. This work examines prosody as a cue to pronunciation variability, as represented by attributes derived from F0, energy and duration values. Analyses of hand-labeled data are used to determine useful instances of prosodic variables for characterizing pronunciation changes, which in turn are used in a decision-tree-based dynamic pronunciation model. Experiments predicting phone changes show an improvement over chance when prosodic attributes are used. Including prosodic variables in a model using phonetic context and word-based information shows a 14% reduction in entropy and a slight improvement in phone error rate over the baseline model.\n",
+    ""
+   ]
+  },
+  "eskenazi02_pmla": {
+   "authors": [
+    [
+     "Maxine",
+     "Eskenazi"
+    ],
+    [
+     "Gary",
+     "Pelton"
+    ]
+   ],
+   "title": "Pinpointing pronunciation errors in children's speech: examining the role of the speech recognizer",
+   "original": "pmla_048",
+   "page_count": 5,
+   "order": 12,
+   "p1": "48",
+   "pn": "52",
+   "abstract": [
+    "In speech recognition, when a system created for one application is used for another or for a different population of users, large amounts of data and engineering effort are needed to \"adapt\" it to its new use. Much work has recently centered on reducing that effort. This paper concerns changing from an adult to a child population of users in a system that pinpoints pronunciation errors in English. It first discusses childrens speech production. Then it describes adaptation that is centered around a combination of relatively small amounts of data with minimal recognizer changes for a system that can pinpoint errors as well for childrens speech as it does for adults.\n",
+    "The precision of the adult system was tested on childrens speech. Then Open Source SPHINX was tested on childrens speech and tests were run, using a variety of parameters, that compared the precision of automatic pinpointing of recognition errors to human tutor pinpointing of errors. The various parameters tested, the test conditions, and results are discussed.\n",
+    ""
+   ]
+  },
+  "foslerlussier02_pmla": {
+   "authors": [
+    [
+     "Eric",
+     "Fosler-Lussier"
+    ],
+    [
+     "Ingunn",
+     "Amdal"
+    ],
+    [
+     "Hong-Kwang Jeff",
+     "Kuo"
+    ]
+   ],
+   "title": "On the road to improved lexical confusability metrics",
+   "original": "pmla_053",
+   "page_count": 6,
+   "order": 13,
+   "p1": "53",
+   "pn": "58",
+   "abstract": [
+    "Pronunciation modeling in automatic speech recognition systems has had mixed results in the past; one likely reason for poor performance is the increased confusability in the lexicon from adding new pronunciation variants. In this work, we propose a new framework for determining lexically confusable words based on inverted finite state transducers (FSTs); we also present experiments designed to test some of the implementation details of this framework. The method is evaluated by looking at how well the algorithm predicts the errors in an ASR system. We see from the confusions learned in a training set that we are able to generalize this information to predict errors in an unseen test set.\n",
+    ""
+   ]
+  },
+  "koval02_pmla": {
+   "authors": [
+    [
+     "Serguei",
+     "Koval"
+    ],
+    [
+     "Natalia",
+     "Smirnova"
+    ],
+    [
+     "Mikhail",
+     "Khitrov"
+    ]
+   ],
+   "title": "Modelling pronunciation variability for ASR tasks",
+   "original": "pmla_059",
+   "page_count": 6,
+   "order": 14,
+   "p1": "59",
+   "pn": "64",
+   "abstract": [
+    "In the paper a new method is suggested to effectively capture pronunciation variability in ASR tasks. Its basic principle consists in structuring word-related phonetic feature space. For each word in the system dictionary, given its \"ideal\" transcription, as a result of application of specially designed modification rules and constraints, a network of its phonetic realisations is generated (the so-called hierarchical word network - HWN). In contrast to \"allophone networks\" HWNs provide adequate covering of all phone modifications (including articulatory laxing, contextual accommodation, accidental substitutions etc.) and allow for various levels of precision in the phonetic representation of word pronunciation variability.\n",
+    "In view of using this representation for ASR tasks adequate sophistication of the word model is proposed with the introduction of the so-called hierarchical matching functions (HMF).\n",
+    ""
+   ]
+  },
+  "scharenborg02_pmla": {
+   "authors": [
+    [
+     "Odette",
+     "Scharenborg"
+    ],
+    [
+     "Lou",
+     "Boves"
+    ]
+   ],
+   "title": "Pronunciation variation modelling in a model of human word recognition",
+   "original": "pmla_065",
+   "page_count": 6,
+   "order": 15,
+   "p1": "65",
+   "pn": "70",
+   "abstract": [
+    "Due to pronunciation variation, many insertions and deletions of phones occur in spontaneous speech. The psycholinguistic model of human speech recognition Shortlist is not well able to deal with phone insertions and deletions and is therefore not well suited for dealing with real-life input. The research presented in this paper explains how Shortlist can benefit from pronunciation variation modelling in dealing with real-life input.\n",
+    "Pronunciation variation was modelled by including variants into the lexicon of Shortlist. A series of experiments was carried out to find the optimal acoustic model set for transcribing the training material that was used as basis for the generation of the variants.\n",
+    "The Shortlist experiments clearly showed that Shortlist benefits from pronunciation variation modelling. However, the performance of Shortlist stays far behind the performance of other, more conventional speech recognisers.\n",
+    ""
+   ]
+  },
+  "seneff02_pmla": {
+   "authors": [
+    [
+     "Stephanie",
+     "Seneff"
+    ],
+    [
+     "Chao",
+     "Wang"
+    ]
+   ],
+   "title": "Modelling phonological rules through linguistic hierarchies",
+   "original": "pmla_071",
+   "page_count": 6,
+   "order": 16,
+   "p1": "71",
+   "pn": "76",
+   "abstract": [
+    "This paper describes our research aimed at acquiring a generalized probability model for alternative phonetic realizations in conversational speech. The approach begins with the application of a set of ordered context-dependent phonological rules, applied to the baseforms in the recognizers lexicon. The probability model is acquired by observing specific realizations expressed in a large training corpus. A set of context-free rules represents words in terms of a substructure that can then generalize context-dependent probabilities to other words that share the same sub-word context. The model is designed to capture phonetic predictions based on local phonemic, morphologic, and syllabic contexts, thus permitting training on corpora whose lexicon is divergent from that of the intended application. The training corpus consisted of a large set of Jupiter weather-domain speech data [9] augmented with a much smaller set of Mercury flight-domain data [20]. The baseline system utilized the same set of phonological rules for lexical expansion, but with no probability modelling for alternate pronunciations. We evaluated on a test set of utterances exclusively from the flight domain. Using this approach, we achieved a 12.6% reduction in speech understanding error rate on the test set.\n",
+    ""
+   ]
+  },
+  "tsai02_pmla": {
+   "authors": [
+    [
+     "Ming-yi",
+     "Tsai"
+    ],
+    [
+     "Fu-chiang",
+     "Chou"
+    ],
+    [
+     "Lin-shan",
+     "Lee"
+    ]
+   ],
+   "title": "Improved pronunciation modeling by properly integrating better approaches for baseform generation, ranking and pruning",
+   "original": "pmla_077",
+   "page_count": 6,
+   "order": 17,
+   "p1": "77",
+   "pn": "82",
+   "abstract": [
+    "In this paper, a complete framework for pronunciation modeling process is discussed and analyzed as the integration of three individual but mutual-interactive stages, i.e., the baseform generation, baseform ranking, and baseform pruning stage. The characteristics of different techniques used in each stage and the interaction among them are then well reflected on the overall performance of pronunciation modeling. Consequently, pronunciation variation could be better handled by integrating the appropriately chosen techniques for each of the three stages.\n",
+    "In baseform generation stage, an improved approach to automatically construct a fine word confusion table with an expanded phone-unit dictionary is proposed. In baseform ranking stage, the conventional pronunciation frequency (pf)- based, our recently proposed pronunciation frequency and inverse word frequency (pf-iwf)-based, and a newly proposed iterative pf-iwf-based ranking strategies were all evaluated and analyzed. And then the nice property of pf-iwf-based strategies was verified and discussed. In baseform pruning stage, both traditional probability-based, count -based and our recently proposed entropy-based pruning criteria were investigated. Integrated with better approaches in the other two stages, say a fine confusion table and pf-iwf-based ranking, the superiority of entropy-based pruning to probability-based and count-based pruning approach was revealed and the best performance was achieved. The experiments also indicate that the evaluation of different approaches used in one stage may be shadowed by the inappropriate approaches used in other stages. For newly proposed iterative pf-iwf-based ranking, on the other hand, only marginal improvements compared to recently proposed pf-iwfbased was observed. Very probably well need a larger corpus to verify more complete behavior of pronunciation modeling for this situation. Further investigation is under progress.\n",
+    "In addition, the interaction between pronunciation modeling and language modeling is discussed on some test results with a cheating language model trained on the test data only. The potential improvement achievable with pronunciation modeling with this cheating language model is even more significant as compared to those with a fair language model. This indicated that there is still much room for improvements if the interaction between better language modeling and better pronunciation modeling can be further investigated.\n",
+    ""
+   ]
+  },
+  "ward02_pmla": {
+   "authors": [
+    [
+     "Wayne",
+     "Ward"
+    ],
+    [
+     "Holly",
+     "Krech"
+    ],
+    [
+     "Xiuyang",
+     "Yu"
+    ],
+    [
+     "Keith",
+     "Herold"
+    ],
+    [
+     "George",
+     "Figgs"
+    ],
+    [
+     "Ayako",
+     "Ikeno"
+    ],
+    [
+     "Dan",
+     "Jurafsky"
+    ],
+    [
+     "William",
+     "Byrne"
+    ]
+   ],
+   "title": "Lexicon adaptation for LVCSR: Speaker idiosyncracies, non-native speakers, and pronunciation choice",
+   "original": "pmla_083",
+   "page_count": 6,
+   "order": 18,
+   "p1": "83",
+   "pn": "88",
+   "abstract": [
+    "We report on our preliminary experiments on building dynamic lexicons for native-speaker conversational speech and for foreign-accented conversational speech. Our goal is to build a lexicon with a set of pronunciations for each word, in which the probability distribution over pronunciation is dynamically computed. The set of pronunciations are derived from hand-written rules (for foreign accent) or clustering (for phonetically-transcribed Switchboard data). The dynamic pronunciation-probability will take into account specific characteristics of the speaker as well as factors such as language-model probability, disfluencies, sentence position, and phonetic context. This work is in a relatively preliminary stage.\n",
+    ""
+   ]
+  },
+  "addadecker02_pmla": {
+   "authors": [
+    [
+     "Martine",
+     "Adda-Decker"
+    ],
+    [
+     "Philippe",
+     "Boula de Mareüil"
+    ],
+    [
+     "Gilles",
+     "Adda"
+    ],
+    [
+     "Lori",
+     "Lamel"
+    ]
+   ],
+   "title": "Investigating syllabic structure and its variation in speech from French radio interviews",
+   "original": "pmla_089",
+   "page_count": 6,
+   "order": 19,
+   "p1": "89",
+   "pn": "94",
+   "abstract": [
+    "In this paper, we investigate syllabic structure and its variation in a corpus of French radio interview speech. The aim of this study is to relate sequential pronunciation variants, i.e. variants with different numbers of phonemes to syllabic restructuring. In French schwa and liaison are two well-known phenomena which allow for a variable number of phonemes. We first aim to quantify syllabic restructuring due to these phenomena. Our second aim is to identify other syllabic restructuring phenomena due to omitted vowels (i.e. syllable nuclei) or even omitted syllables.\n",
+    "The radio speech corpus is comprised of 30 1-hour shows of interviews mostly involving one professional anchor speaker and an artist or a politician. The speech style is fluent, spontaneous and only partially prepared. Syllable distributions computed from a word level representation are compared to those emerging from speech. Results confirm that the optional schwa vowel contributes to a large amount of variation in syllabic structure. Less well-described phenomena have been observed: other vowels than schwa, such as /u/, /e/ and /E/ appear to be optional in unstressed contexts. A substantial percentage of occurrences of word-final syllables may completely disappear.\n",
+    ""
+   ]
+  },
+  "bellegarda02_pmla": {
+   "authors": [
+    [
+     "Jerome R.",
+     "Bellegarda"
+    ]
+   ],
+   "title": "A novel approach to unsupervised grapheme-to-phoneme conversion",
+   "original": "pmla_095",
+   "page_count": 4,
+   "order": 20,
+   "p1": "85",
+   "pn": "98",
+   "abstract": [
+    "Automatic, data-driven grapheme-to-phoneme conversion is a challenging but often necessary task. The top-down strategy implicitly adopted by traditional inductive learning techniques tends to dismiss relevant contexts when they have been seen too infrequently in the training data. This paper proposes instead a bottom-up approach which, by design, exhibits better generalization properties. For each out-ofvocabulary word, a neighborhood of locally relevant pronunciations is constructed through latent semantic analysis of the appropriate graphemic form. Phoneme transcription then proceeds via locally optimal sequence alignment and maximum likelihood position scoring. This method was successfully applied to the speech synthesis of proper names with a large diversity of origin.\n",
+    ""
+   ]
+  },
+  "hazen02_pmla": {
+   "authors": [
+    [
+     "Timothy J.",
+     "Hazen"
+    ],
+    [
+     "I. Lee",
+     "Hetherington"
+    ],
+    [
+     "Han",
+     "Shu"
+    ],
+    [
+     "Karen",
+     "Livescu"
+    ]
+   ],
+   "title": "Pronunciation modeling using a finite-state transducer representation",
+   "original": "pmla_099",
+   "page_count": 6,
+   "order": 21,
+   "p1": "99",
+   "pn": "104",
+   "abstract": [
+    "The MIT SUMMIT speech recognition system models pronunciation using a phonemic baseform dictionary along with rewrite rules for modeling phonological variation and multi-word reductions. Each pronunciation component is encoded within a finitestate transducer (FST) representation whose transition weights can be probabilistically trained using a modified EM algorithm for finite-state networks. This paper explains the modeling approach we use and the details of its realization. We demonstrate the bene- fits and weaknesses of the approach both conceptually and empirically using the recognizer for our JUPITER weather information system. Our experiments demonstrate that the use of phonological rewrite rules within our system reduces word error rates by between 4% and 8% over different test sets when compared against a system using no phonological rewrite rules.\n",
+    ""
+   ]
+  },
+  "schramm02_pmla": {
+   "authors": [
+    [
+     "Hauke",
+     "Schramm"
+    ],
+    [
+     "Peter",
+     "Beyerlein"
+    ]
+   ],
+   "title": "Discriminative optimization of the lexical model",
+   "original": "pmla_105",
+   "page_count": 6,
+   "order": 22,
+   "p1": "105",
+   "pn": "110",
+   "abstract": [
+    "We publish first experiments on a new approach for training unigram prior probabilities of pronunciation variants using the Discriminative Model Combination (DMC) framework. A specific analysis of the approach is provided together with an error analysis before and after the DMC-training of the pronunciation priors.\n",
+    ""
+   ]
+  },
+  "bosch02_pmla": {
+   "authors": [
+    [
+     "Louis ten",
+     "Bosch"
+    ],
+    [
+     "Nick",
+     "Cremelie"
+    ]
+   ],
+   "title": "Pronunciation modeling and lexical adaptation using small training sets",
+   "original": "pmla_111",
+   "page_count": 6,
+   "order": 23,
+   "p1": "111",
+   "pn": "116",
+   "abstract": [
+    "A method for data-driven lexical adaptation on the basis of a limited number of acoustic training tokens is discussed. The method is closely related to pronunciation modeling techniques. A set of pronunciation variants is generated by forced alignment, followed by a step to select promising pronunciation candidates by using a ranking function. The method has been validated on a database consisting of short utterances (proper names) spoken by native and non-native speakers. In the case of 5 training tokens per word, an improvement of 10-30 percent relative could be obtained compared to the baseline. A number of possible improvements of this method are discussed as well.\n",
+    ""
+   ]
+  },
+  "wolff02_pmla": {
+   "authors": [
+    [
+     "Matthias",
+     "Wolff"
+    ],
+    [
+     "Matthias",
+     "Eichner"
+    ],
+    [
+     "Rüdiger",
+     "Hoffmann"
+    ]
+   ],
+   "title": "Measuring the quality of pronunciation dictionaries",
+   "original": "pmla_117",
+   "page_count": 6,
+   "order": 24,
+   "p1": "117",
+   "pn": "122",
+   "abstract": [
+    "In this paper we investigate measures for the evaluation of pronunciation dictionaries that can be used independently of the type of lexicon, the language, a specific recognizer and how the dictionary was generated. We will describe statistical measures, measures based on information theory and performance measures and give examples how these measures can be practically applied in supervision of data-driven dictionary training, selection of pronunciation variants and evaluation of the consistency of different dictionaries. Although the introduced measures are independent of the type of dictionary, we only report results obtained with a datadriven dictionary generation and do not address measures specific to rule-based approaches.\n",
+    ""
+   ]
+  },
+  "yang02_pmla": {
+   "authors": [
+    [
+     "Qian",
+     "Yang"
+    ],
+    [
+     "Jean-Pierre",
+     "Martens"
+    ],
+    [
+     "Pieter-Jan",
+     "Ghesquiere"
+    ],
+    [
+     "Dirk Van",
+     "Compernolle"
+    ]
+   ],
+   "title": "Pronunciation variation modeling for asr: large improvements are possible but small ones are likely",
+   "original": "pmla_123",
+   "page_count": 6,
+   "order": 25,
+   "p1": "123",
+   "pn": "128",
+   "abstract": [
+    "In this paper a previously proposed method for the automatic construction of a lexicon with pronunciation variants for ASR is further developed and evaluated. The basic idea is to transform a lexicon of canonical forms by means of rewrite rules that are learned automatically on a training corpus of orthographically transcribed utterances. The method is evaluated on the TIMIT corpus, using a speech recognizer incorporating context-independent HMMs and a bigram language model. It appears that reductions of the word error rate of up to 35 % are possible to achieve. However, it also appears that it is more likely to obtain much lower gains.\n",
+    ""
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "title": "Invited Papers",
+   "papers": [
+    "taylor02_pmla",
+    "flege02_pmla",
+    "hain02_pmla"
+   ]
+  },
+  {
+   "title": "Regular Papers",
+   "papers": [
+    "bell02_pmla",
+    "caseiro02_pmla",
+    "kam02_pmla",
+    "kessens02_pmla",
+    "lee02_pmla",
+    "sethy02_pmla",
+    "willett02_pmla",
+    "ostendorf02_pmla",
+    "eskenazi02_pmla",
+    "foslerlussier02_pmla",
+    "koval02_pmla",
+    "scharenborg02_pmla",
+    "seneff02_pmla",
+    "tsai02_pmla",
+    "ward02_pmla",
+    "addadecker02_pmla",
+    "bellegarda02_pmla",
+    "hazen02_pmla",
+    "schramm02_pmla",
+    "bosch02_pmla",
+    "wolff02_pmla",
+    "yang02_pmla"
+   ]
+  }
+ ]
+}
