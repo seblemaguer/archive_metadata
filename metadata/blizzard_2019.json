@@ -1,10 +1,824 @@
 {
-  "SIG": "SynSIG",
-  "external": "http://www.festvox.org/blizzard/blizzard2019.html",
-  "conf": "Blizzard",
-  "year": "2019",
-  "name": "blizzard_2019",
-  "series": "Blizzard",
-  "title": "Evaluation of text-to-speech systems",
-  "title1": "Evaluation of text-to-speech systems"
+ "series": "Blizzard",
+ "title": "The Blizzard Challenge 2019",
+ "location": "Vienna, Austria",
+ "startDate": "23/09/2019",
+ "endDate": "23/09/2019",
+ "conf": "Blizzard",
+ "name": "blizzard_2019",
+ "year": "2019",
+ "SIG": "SynSIG",
+ "title1": "The Blizzard Challenge 2019",
+ "booklet": "intro.pdf",
+ "date": "23 September 2019",
+ "month": 9,
+ "day": 23,
+ "now": 1714321611020060,
+ "papers": {
+  "wu19_blizzard": {
+   "authors": [
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Zhihang",
+     "Xie"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2019",
+   "original": "01",
+   "order": 1,
+   "page_count": 24,
+   "abstract": [
+    "The Blizzard Challenge 2019 is the fifteen annual Blizzard Challenge and is the twelfth consecutive one organised by the University of Edinburgh, with support from the other members of the Blizzard Challenge committee. The task this year was to build a text-to-speech system from the anchor’s voice in 8-hour corpus of online talk shows hosted by a single Chinese male celebrity. The recording environment was unconstrained.\n"
+   ],
+   "p1": 1,
+   "pn": 24,
+   "doi": "10.21437/Blizzard.2019-1",
+   "url": "blizzard_2019/wu19_blizzard.html"
+  },
+  "rallabandi19_blizzard": {
+   "authors": [
+    [
+     "SaiKrishna",
+     "Rallabandi"
+    ],
+    [
+     "Peter",
+     "Wu"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "Submission from CMU for Blizzard Challenge 2019",
+   "original": "02",
+   "order": 2,
+   "page_count": 6,
+   "abstract": [
+    "In this paper we present the entry from CMU to Blizzard speech synthesis challenge 2019. We begin with a description of build process for our base voice. We then present the following modifications to base voice: (1) We investigate the effectiveness of sub-sentence training of acoustic models aimed at better utilization of available aligned data (2) We investigate the applicability of strategic gradient backpropagation to accelerate the training (3) We experiment with iterated dilated convolutions in WaveNet to obtain compact models. Although our current performance seems very inefficient, we are actively pursuing approaches to strengthen our voice building framework. We believe we are progressing in the right direction and anticipate a much stronger performance in the coming evaluations.\n"
+   ],
+   "p1": 25,
+   "pn": 30,
+   "doi": "10.21437/Blizzard.2019-2",
+   "url": "blizzard_2019/rallabandi19_blizzard.html"
+  },
+  "xiao19_blizzard": {
+   "authors": [
+    [
+     "Jianjin",
+     "Xiao"
+    ],
+    [
+     "Donghai",
+     "Wu"
+    ],
+    [
+     "Xu",
+     "Wang"
+    ],
+    [
+     "Boxian",
+     "Huang"
+    ]
+   ],
+   "title": "The DeepSound Text-To-Speech System for Blizzard Challenge 2019",
+   "original": "03",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "In the Blizzard Challenge 2019, about 8 hours of speech data from an internet talk show by a well-known Chinese character were provided to build a speech synthesis system. We introduce our proposed DeepSound text-to-speech system for Blizzard Challenge 2019, which employs the VQVAE as the backbone of proposed acoustic model, for its efficiency on style transfer learning. Specifically, we implement both manual and automatic tagging operations on the raw BC data for preparing the datasets. Then, the proposed Mandarin TTS front-end transforms the input text sequences into prosody labels with the form of typical three-layer structure. To increase the pronunciation accuracy and strengthen the emotion, a embedding+prenet operation is introduced in the proposed VQVAE end-to-end speech synthesis back-end, which enriches the non-linear representation ability from texts. Besides, to further improve the quality of synthetic sounds and reduce pronunciation errors and other problems, extra multi-speaker datasets are used for the data augmentation. Finally, the proposed robust multi-speaker neural vocoder generates the high quality waves. Although this is the first time for our team to take part in the challenge, we got the second place in terms of grade in the final evaluation, which achieves a high degree of naturalness and low Pinyin Error Rate.\n"
+   ],
+   "p1": 31,
+   "pn": 35,
+   "doi": "10.21437/Blizzard.2019-3",
+   "url": "blizzard_2019/xiao19_blizzard.html"
+  },
+  "cai19_blizzard": {
+   "authors": [
+    [
+     "Zexin",
+     "Cai"
+    ],
+    [
+     "Chuxiong",
+     "Zhang"
+    ],
+    [
+     "Yaogen",
+     "Yang"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "The DKU Speech Synthesis System for 2019 Blizzard Challenge",
+   "original": "04",
+   "order": 4,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes the DKU text-to-speech synthesis system built for the 2019 Blizzard Challenge. The task of this year’s challenge is to build a synthetic voice that is similar, expressive and clear as the given data collected from an internet talk show. The DKU speech synthesis system adopts the end-to-end speech synthesis architecture named Tacotron2. First, we analyze the data provided by the organizers and preprocess the data to make it appropriate for text-to-speech synthesis model training. The preprocessing phase includes audio-text aligning, segmentation and manually labeling the pinyin sequences. We pre-train a synthesis model trained with clean Mandarin Chinese speech synthesis dataset and finetune the model using the preprocessed data. In the synthesis phase, we preprocess the texts in evaluation set to obtain the appropriate phoneme sequences for synthesis. After feeding the phoneme sequences into the synthesis system, we use the Griflim algorithm to estimate the phase and convert the output spectrogram to audio. We report our result based on the system performance provided by the organizers.\n"
+   ],
+   "p1": 36,
+   "pn": 41,
+   "doi": "10.21437/Blizzard.2019-4",
+   "url": "blizzard_2019/cai19_blizzard.html"
+  },
+  "zhang19_blizzard": {
+   "authors": [
+    [
+     "Yi",
+     "Zhang"
+    ],
+    [
+     "Dameng",
+     "Hu"
+    ],
+    [
+     "Wuwen",
+     "Yuan"
+    ],
+    [
+     "Wei",
+     "Jiang"
+    ]
+   ],
+   "title": "The Horizon TTS System for Blizzard Challenge 2019",
+   "original": "05",
+   "order": 5,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes the text-to-speech (TTS) system that we used for the Blizzard Challenge 2019. Unlike the challenge held before, the corpus of this year is composed of Chinese Mandarin from a male Chinese speaker. We build a cascade system for this task. Given input text, the linguistic features are extracted by an untrainable text analyzing system as a 476-dimensional vector, which is transformed to 80-dimensional mel-spectrum by a DCTTS-based acoustic model. The mel-spectrum is then utilized as local conditions by a WaveRNN-based vocoder to generate µ-law encoded 9-bit audio, and finally decoded to 16-bit. Listening evaluation results shows that our system, with indicator Y, performs well in terms of the naturalness and the similarity with the original speaker, and the intelligibility needs to be improved.\n"
+   ],
+   "p1": 42,
+   "pn": 47,
+   "doi": "10.21437/Blizzard.2019-5",
+   "url": "blizzard_2019/zhang19_blizzard.html"
+  },
+  "shi19_blizzard": {
+   "authors": [
+    [
+     "Husen",
+     "Shi"
+    ],
+    [
+     "Xiao",
+     "Zhou"
+    ],
+    [
+     "Jia",
+     "Li"
+    ],
+    [
+     "Lei",
+     "Xiao"
+    ],
+    [
+     "Zengfu",
+     "Wang"
+    ]
+   ],
+   "title": "The IIM System for Blizzard Challenge 2019",
+   "original": "06",
+   "order": 6,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces the IIM-USTC speech synthesis system for Blizzard Challenge 2019. The task is to build a speech synthesis system on a 8-hour Chinese male talkshow audio corpus. The submitted system followed our previous one proposed in Blizzard Challenge 2018. A hidden Markov model (HMM)- based unit selection system was built with improvements in back-end acoustic modeling. Two models were built for unit selection, an LSTM-RNN based acoustic model was built and the hidden layer was adopted as context embedding feature, a DNN based unit embedding model was built and the unit vector was adopted as phone unit feature. Evaluation results demonstrated that our system performed at the same level as last year.\n"
+   ],
+   "p1": 48,
+   "pn": 52,
+   "doi": "10.21437/Blizzard.2019-6",
+   "url": "blizzard_2019/shi19_blizzard.html"
+  },
+  "liu19_blizzard": {
+   "authors": [
+    [
+     "Rui",
+     "Liu"
+    ],
+    [
+     "Jingdong",
+     "Li"
+    ],
+    [
+     "Feilong",
+     "Bao"
+    ],
+    [
+     "Guanglai",
+     "Gao"
+    ]
+   ],
+   "title": "The IMU speech synthesis entry for Blizzard Challenge 2019",
+   "original": "07",
+   "order": 7,
+   "page_count": 6,
+   "abstract": [
+    "This paper decribes the IMU speech synthesis entry for Blizzard Challenge 2019, where the task was to build a voice from Mandarin audio data. Our system is a typical end-to-end speech synthesis system. The acoustic parameters is modeled by using “Tacotron” model, and the vocoder is using Griffin-Lim algorithm. In the synthesis stage, the task is divided into the following parts: 1) segment long sentence into short sentences by comma; 2) predict interjection labels of each words in short sentences; 3) predict prosodic break labels of each words in short sentences; 4) generate corresponding synthesis speech for each short sentences which enriched by prosodic break labels and interjections; 5) concatenate short sentences into an entire long sentence.\n"
+   ],
+   "p1": 53,
+   "pn": 58,
+   "doi": "10.21437/Blizzard.2019-7",
+   "url": "blizzard_2019/liu19_blizzard.html"
+  },
+  "wang19_blizzard": {
+   "authors": [
+    [
+     "Ruimin",
+     "Wang"
+    ],
+    [
+     "Chunhui",
+     "Lu"
+    ],
+    [
+     "Xiaoyang",
+     "Hao"
+    ],
+    [
+     "Bolin",
+     "Zhou"
+    ],
+    [
+     "Zengqiang",
+     "Shang"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ]
+   ],
+   "title": "The IOA-ThinkIT system for Blizzard Challenge 2019",
+   "original": "08",
+   "order": 8,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the IOA-ThinkIT team’s text-to-speech system for blizzard challenge 2019. A statistical parametric speech synthesis based system was built with improvements in both front-end text analysis and back-end acoustic modeling. In the front-end, a bidirectional encoder representation from Transformer (BERT) based model was proposed for prosodic boundary prediction. In the back-end, a BLSTM duration model and a multi-speaker acoustic model with speaker code as additional input and variational autoencoder (VAE) residual encoder extension was trained. In acoustic model, speaker code was used to distinguish different speakers while hidden vectors learned from VAE encoder were used to model differences in speech other than speakers and content. Besides, a quantized framework was introduced to model fundamental frequency (F0). Evaluation results showed that though our proposed model (system N) performed not well in MOS and speaker similarity, we got best results on both pingyin (without tone) error rate and pingyin (with tone) error rate among 24 teams.\n"
+   ],
+   "p1": 59,
+   "pn": 64,
+   "doi": "10.21437/Blizzard.2019-8",
+   "url": "blizzard_2019/wang19_blizzard.html"
+  },
+  "yu19_blizzard": {
+   "authors": [
+    [
+     "Yansuo",
+     "Yu"
+    ],
+    [
+     "Fengyun",
+     "Zhu"
+    ]
+   ],
+   "title": "The LINGBAN System for Blizzard Challenge 2019",
+   "original": "09",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces a text-to-speech (TTS) system developed at LINGBAN research for the Blizzard Challenge 2019. The task for this year is to build a voice from about eight hours of highly expressive Mandarin speech data. We proposed a neural vocoder based parametric system that modeling speech waveforms for this task. Firstly, A lightly-supervised speech recognition approach was adopted to select the clean speech data with accurate text. Moreover, a hybrid deep neural network (DNN) with long-short term memory (LSTM) built on multi-speaker speech data was applied for acoustic modeling and duration modeling. Finally, a WaveNet-based neural vocoder was used to generate speech waveforms from acoustic feature instead of the conventional vocoder. Subjective evaluation results show that our system performs good in all evaluation criteria.\n"
+   ],
+   "p1": 65,
+   "pn": 69,
+   "doi": "10.21437/Blizzard.2019-9",
+   "url": "blizzard_2019/yu19_blizzard.html"
+  },
+  "liu19b_blizzard": {
+   "authors": [
+    [
+     "Bing",
+     "Liu"
+    ],
+    [
+     "Yunlin",
+     "Chen"
+    ],
+    [
+     "Hao",
+     "Yin"
+    ],
+    [
+     "Yongqiang",
+     "Li"
+    ],
+    [
+     "Xin",
+     "Lei"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "The Mobvoi Text-To-Speech System for Blizzard Challenge 2019",
+   "original": "10",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the Mobvoi team’s text-to-speech system for Blizzard Challenge 2019 (BC2019). The training data provided by this challenge is about 8 hours of speech from one native Mandarin Chinese speaker in talk shows. We built a speech synthesis system based on end-to-end deep learning technology. The system consists of a hybrid front-end that processes both Chinese and English texts, a sequence-to-sequence model that converts the phoneme sequence into a mel spectrogram sequence, and a neural vocoder that generates audio from the mel spectrogram.\n"
+   ],
+   "p1": 70,
+   "pn": 74,
+   "doi": "10.21437/Blizzard.2019-10",
+   "url": "blizzard_2019/liu19b_blizzard.html"
+  },
+  "tao19_blizzard": {
+   "authors": [
+    [
+     "Jianhua",
+     "Tao"
+    ],
+    [
+     "Ruibo",
+     "Fu"
+    ],
+    [
+     "Zhengqi",
+     "Wen"
+    ]
+   ],
+   "title": "The NLPR Speech Synthesis entry for Blizzard Challenge 2019",
+   "original": "11",
+   "order": 11,
+   "page_count": 6,
+   "abstract": [
+    "The paper describes the CASIA speech synthesis system entry for Blizzard Challenge 2019. About 8 hours of speech data from online talkshow is adopted as the training data for the construction this year. Our synthesis system is built based on the multi-speaker end-to-end speech synthesis system. And LPCNet based neural vovoder is adpted to improve the quality. Different from our previous system, some improvements about data pruing and speaker adaptation strategies were made to improve the robustness of our system. In this paper, the whole system structure, data pruing method, and duration control will be introduced and discussed. Finally, the results of the listening test will be presented.\n"
+   ],
+   "p1": 75,
+   "pn": 80,
+   "doi": "10.21437/Blizzard.2019-11",
+   "url": "blizzard_2019/tao19_blizzard.html"
+  },
+  "liao19_blizzard": {
+   "authors": [
+    [
+     "Yuan-Fu",
+     "Liao"
+    ],
+    [
+     "Cheng-Hung",
+     "Tsai"
+    ]
+   ],
+   "title": "The NTUT+III's Chinese Text-to-Speech System for Blizzard Challenge 2019",
+   "original": "12",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "To build a Chinese text-to-speech (TTS) system, this work focused on developing a Chinese natural language processing (NLP) frontend from scratch for linguistic feature extraction. For the backend, an HMM/DNN-based Speech Synthesis System (HTS)-based speech synthesis system developed for last year’s challenge was simply adopted due to resource limitation. Although, the performance of our system is not good enough on naturalness and similarity measurement, however its pinyin error rates (with and without tone, PTER and PER) may be not too bad, i.e. its voice is still intelligible. In any way, we now have a complete Chinese TTS with both frontend and backend for further performance improvement.\n"
+   ],
+   "p1": 81,
+   "pn": 85,
+   "doi": "10.21437/Blizzard.2019-12",
+   "url": "blizzard_2019/liao19_blizzard.html"
+  },
+  "chen19_blizzard": {
+   "authors": [
+    [
+     "Ming",
+     "Chen"
+    ],
+    [
+     "Zeru",
+     "Lu"
+    ],
+    [
+     "Peng",
+     "Zhang"
+    ],
+    [
+     "Jian",
+     "Lu"
+    ],
+    [
+     "Xudong",
+     "Zhao"
+    ],
+    [
+     "Xinkang",
+     "Xu"
+    ],
+    [
+     "Xinhui",
+     "Hu"
+    ]
+   ],
+   "title": "The RoyalFlush Synthesis System for Blizzard Challenge 2019",
+   "original": "13",
+   "order": 13,
+   "page_count": 5,
+   "abstract": [
+    "The task of the Blizzard Challenge 2019 is to build a speech synthesizer based on an 8 hours of speech data from an internet talk show by a well-known Chinese character. We present the RoyalFlush synthesis system to address the above challenge in this paper. Based on the Google’s Tacotron 2 architecture, we firstly trained a basic multi-speaker model using an external 30 hours of speech dataset from 22 speakers. Then we applied transfer learning to fine-tune the basic model with the 8 hours of speech data provided by the Challenge committee and obtained the final model. To capture speaker’s personal characteristics, we added the speaker embedding in the encoder and generated speeches with speaker characteristics in the decoder. The output speech was generated by using Griffin-Lim algorithm in consideration of high speed response.\n",
+    "Among all the participating teams of the Challenge, the identifier for our system is H. Evaluation results demonstrated that our system achieved relatively good results in all aspects.\n"
+   ],
+   "p1": 86,
+   "pn": 90,
+   "doi": "10.21437/Blizzard.2019-13",
+   "url": "blizzard_2019/chen19_blizzard.html"
+  },
+  "chen19b_blizzard": {
+   "authors": [
+    [
+     "Bo",
+     "Chen"
+    ],
+    [
+     "Kuan",
+     "Chen"
+    ],
+    [
+     "Zhijun",
+     "Liu"
+    ],
+    [
+     "Zhihang",
+     "Xu"
+    ],
+    [
+     "Songze",
+     "Wu"
+    ],
+    [
+     "Chenpeng",
+     "Du"
+    ],
+    [
+     "Muyang",
+     "Li"
+    ],
+    [
+     "Sijun",
+     "Li"
+    ],
+    [
+     "Kai",
+     "Yu"
+    ]
+   ],
+   "title": "SJTU Entry in Blizzard Challenge 2019",
+   "original": "14",
+   "order": 14,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the techniques that were used in sjtu-tts entry in Blizzard Challenge 2019. The main architecture is Tacotron with WaveNet vocoder. The corpus in BC2019 is 8 hours audios from a Chinese male speaker with mixed Mandarin and English speech. The audios and transcriptions are found on the Internet with heavily corruption and noise. To deal with the corpus, our system is divided into 4 parts, data preprocessing, spectrogram model, WaveNet vocoder and speech bandwidth extension. The WaveNet vocoder is more relative to the speech quality and the spectrogram model is more relative to the prosody(pitch and duration). We didn’t successfully train a good WaveNet vocoder for the predicted mel-spectrogram. Thus, some useful techniques in other parts have no significant improvement after WaveNet vocoding. These attempts which were not included in the final submission are also analyzed.\n"
+   ],
+   "p1": 91,
+   "pn": 96,
+   "doi": "10.21437/Blizzard.2019-14",
+   "url": "blizzard_2019/chen19b_blizzard.html"
+  },
+  "korostik19_blizzard": {
+   "authors": [
+    [
+     "Roman",
+     "Korostik"
+    ],
+    [
+     "Artem",
+     "Chirkovskiy"
+    ],
+    [
+     "Alexey",
+     "Svischev"
+    ],
+    [
+     "Ilya",
+     "Kalinovskiy"
+    ],
+    [
+     "Andrey",
+     "Talanov"
+    ]
+   ],
+   "title": "The STC text-to-speech system for Blizzard Challenge 2019",
+   "original": "15",
+   "order": 15,
+   "page_count": 6,
+   "abstract": [
+    "The paper presents text-to-speech system developed at STC for the Blizzard Challenge 2019. This year, the task is to build a TTS system for Mandarin Chinese using found data suitable for expressive TTS. Provided corpus contains 8 hours of speech by a native speaker with text annotations.\n",
+    "We describe a neural speech synthesis system for Mandarin Chinese built without any significant prior knowledge about the language. Input text is converted to a sequence of phones using publicly available tools. Then, a sequence of phones is turned into a spectrogram by a Tacotron-based neural network. Finally, the spectrogram is converted into a waveform using a LPCNet-based neural network. Our system is based on learning deep representations and does not explicitly use or predict such features as pitch, duration of every phone, etc.\n",
+    "We also discuss our system’s performance in listening tests conducted by organizers of the challenge.\n"
+   ],
+   "p1": 97,
+   "pn": 102,
+   "doi": "10.21437/Blizzard.2019-15",
+   "url": "blizzard_2019/korostik19_blizzard.html"
+  },
+  "yang19_blizzard": {
+   "authors": [
+    [
+     "Shan",
+     "Yang"
+    ],
+    [
+     "Wenshuo",
+     "Ge"
+    ],
+    [
+     "Fengyu",
+     "Yang"
+    ],
+    [
+     "Xinyong",
+     "Zhou"
+    ],
+    [
+     "Fanbo",
+     "Meng"
+    ],
+    [
+     "Kai",
+     "Liu"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "SZ-NPU Team's Entry to Blizzard Challenge 2019",
+   "original": "16",
+   "order": 16,
+   "page_count": 5,
+   "abstract": [
+    "In this paper, we introduce the entry from the SZ-NPU team submitted to Blizzard Challenge 2019. The goal of this year challenge is to build a natural Mandarin Chinese speech synthesis system from 8-hours single-speaker stylistic speech data in talk shows. We will discuss the major modules of the submitted Tacotron-Wavenet system: (1) The front-end module to analyze the pronunciation and prosody of text; (2) The GMM-attention based sequence-to-sequence acoustic model to predict speech features; (3) The Wavenet based neural vocoder to reconstruct waveforms; (4) A bandwidth extension module to up-sample the generated speech. Evaluation results provided by the challenge organizer are also discussed.\n"
+   ],
+   "p1": 103,
+   "pn": 107,
+   "doi": "10.21437/Blizzard.2019-16",
+   "url": "blizzard_2019/yang19_blizzard.html"
+  },
+  "tian19_blizzard": {
+   "authors": [
+    [
+     "Qiao",
+     "Tian"
+    ],
+    [
+     "Jing",
+     "Chen"
+    ],
+    [
+     "Shan",
+     "Liu"
+    ]
+   ],
+   "title": "The Tencent speech synthesis system for Blizzard Challenge 2019",
+   "original": "17",
+   "order": 17,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the Tencent speech synthesis system for Blizzard Challenge 2019. The corpus released to the participants this year is a about 8 hours of speech data from an internet talk show by a well-known Chinese character. We built a end to end speech synthesis system for this task. Firstly, a multi-speaker Tacotron-like acoustic model fed on nonalignment linguistic feature and sentence embedding by Bert were employed for mel spectrograms modeling. Then the model was re-trained only on the corpus offered. At last, a modified multi-speaker WaveNet model conditioned on the predicted mel features was trained to generate 16-bit speech waveforms at 24 kHz, instead of the conventional vocoder. For achieving higher quality, channel embedding was incorporated in WaveNet. The evaluation results shows that the system we submitted performs good in various criteria which indicated the superiority of our system.\n"
+   ],
+   "p1": 108,
+   "pn": 113,
+   "doi": "10.21437/Blizzard.2019-17",
+   "url": "blizzard_2019/tian19_blizzard.html"
+  },
+  "zhang19b_blizzard": {
+   "authors": [
+    [
+     "Ju",
+     "Zhang"
+    ],
+    [
+     "Shaotong",
+     "Guo"
+    ],
+    [
+     "Cheng",
+     "Gong"
+    ],
+    [
+     "Shuaiting",
+     "Chen"
+    ],
+    [
+     "Yuguang",
+     "Wang"
+    ],
+    [
+     "Longbiao",
+     "Wang"
+    ],
+    [
+     "Wei",
+     "Zou"
+    ],
+    [
+     "Xiangang",
+     "Li"
+    ]
+   ],
+   "title": "The TJU-Didi-Huiyan system for Blizzard Challenge 2019",
+   "original": "18",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "In this paper, we introduce an end-to-end text-to-speech system based on Tacotron 2 for Blizzard Challenge 2019. The main aim of our system is to synthesis voice as similar as possible to the voice provided by the real male speaker. In the front-end, we convert the Chinese character sequences to Pinyin sequences with tone and prosody annotation. In the back-end, the Tacotron 2 model is adapted for predicting spectrogram features. Then, the predicted spectrograms are used to generate 16-bit speech waveforms by Griffin-lim algorithm.\n",
+    "This is the first time for us to join the Blizzard Challenge, and the identifier for our system is X. Experimental results in subjective listening tests show that our system performed well on the naturalness test compared with merlin benchmark.\n"
+   ],
+   "p1": 114,
+   "pn": 118,
+   "doi": "10.21437/Blizzard.2019-18",
+   "url": "blizzard_2019/zhang19b_blizzard.html"
+  },
+  "li19_blizzard": {
+   "authors": [
+    [
+     "Wenjie",
+     "Li"
+    ],
+    [
+     "Haihua",
+     "Xu"
+    ],
+    [
+     "Eng Siong",
+     "Chng"
+    ]
+   ],
+   "title": "The TL@NTU Text-to-speech System for the Blizzard Challenge 2019",
+   "original": "19",
+   "order": 19,
+   "page_count": 5,
+   "abstract": [
+    "We describe the TL@NTU’s text-to-speech system for Blizzard Challenge 2019 in this paper. The target language of this year challenge is Mandarin, and some of the utterances to be synthesized contain English words, which actually belongs to a mixed-language text-to-speech task. Based on the above situation, we employ unit selection based waveform concatenation method in this year challenge, since we think it is easier to handle mixed-language text-to-speech issue, compared with the conventional statistical parametric method, which requires multilingual expertise to build an appropriate front-end text analyzer. We make efforts to build the waveform concatenation system mainly focusing on two aspects. Firstly, we are building flexible phone unit search table, allowing for approximate context-phone vector search. This is crucial for the system built with insufficient data. Secondly, we propose a simplified waveform concatenation method, yielding improved synthesized results.\n"
+   ],
+   "p1": 119,
+   "pn": 123,
+   "doi": "10.21437/Blizzard.2019-19",
+   "url": "blizzard_2019/li19_blizzard.html"
+  },
+  "jiang19_blizzard": {
+   "authors": [
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Ya-Jun",
+     "Hu"
+    ],
+    [
+     "Li-Juan",
+     "Liu"
+    ],
+    [
+     "Hong-Chuan",
+     "Wu"
+    ],
+    [
+     "Zhi-Kun",
+     "Wang"
+    ],
+    [
+     "Yang",
+     "Ai"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ]
+   ],
+   "title": "The USTC System for Blizzard Challenge 2019",
+   "original": "20",
+   "order": 20,
+   "page_count": 6,
+   "abstract": [
+    "This paper introduces the details of the speech synthesis system developed by the USTC-iFlytek team for Blizzard Challenge 2019. An 8-hour Chinese male talkshow audio corpus was released to the participants this year. A statistical parametric speech system (SPSS) that modeling speech waveforms was built for the task. Firstly, Bidirectional Encoders Representations from Transformers (BERT)-based multi-task models were adopted for the front-end task. LSTM-RNN models were used in duration modeling and acoustic modeling for back-end task. Then, we proposed an autoregressive model to improve the duration modeling, and a generative adversarial network (GAN) to relieve the over-smoothing in acoustic modeling. At last, a WaveNet based neural vocoder was utilized to model speech waveforms from acoustic feature instead of melcepstrum vocoder. The evaluation results show the excellent performance of the submitted system.\n"
+   ],
+   "p1": 124,
+   "pn": 129,
+   "doi": "10.21437/Blizzard.2019-20",
+   "url": "blizzard_2019/jiang19_blizzard.html"
+  },
+  "goto19_blizzard": {
+   "authors": [
+    [
+     "Shunsuke",
+     "Goto"
+    ],
+    [
+     "Yuma",
+     "Shirahata"
+    ],
+    [
+     "Gaku",
+     "Kotani"
+    ],
+    [
+     "Hitoshi",
+     "Suda"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "The UTokyo speech synthesis system for Blizzard Challenge 2019",
+   "original": "21",
+   "order": 21,
+   "page_count": 4,
+   "abstract": [
+    "This paper presents a speech synthesis system developed at the University of Tokyo (UTokyo) for the Blizzard Challenge 2019. The task of the challenge in 2019 is to build a voice using 8 hours of Mandarin Chinese speech data from an internet talk show by a well-known Chinese character. In this challenge, we have developed a statistical parametric speech synthesis system based on deep neural networks (DNN) incorporating non-negative matrix factorization (NMF). The developed system has been submitted, and the results of the large-scale subjective evaluation demonstrated the performance of our system.\n"
+   ],
+   "p1": 130,
+   "pn": 133,
+   "doi": "10.21437/Blizzard.2019-21",
+   "url": "blizzard_2019/goto19_blizzard.html"
+  },
+  "wang19b_blizzard": {
+   "authors": [
+    [
+     "Yang",
+     "Wang"
+    ],
+    [
+     "Mingyue",
+     "Wu"
+    ],
+    [
+     "Zhiming",
+     "Xu"
+    ],
+    [
+     "Baoqin",
+     "Luo"
+    ],
+    [
+     "Hao",
+     "Liang"
+    ],
+    [
+     "Binbin",
+     "Chen"
+    ],
+    [
+     "Xiaoxin",
+     "Chen"
+    ]
+   ],
+   "title": "Submission from vivo for Blizzard Challenge 2019",
+   "original": "22",
+   "order": 22,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the vivo speech synthesis system for Blizzard Challenge 2019. The task is to build an expressive speech synthesis system on an 8-hour corpus of a well-known Chinese talk-show character. Our system is based on Tacotron with several minor improvements, which are more clear speech energy normalization, outlier removal of problematic shorter utterances, and special phone modelling for explicit long silences, audible breath sounds, and mouth-click sounds. Evaluation results showed that the proposed system is somewhat successful.\n"
+   ],
+   "p1": 134,
+   "pn": 138,
+   "doi": "10.21437/Blizzard.2019-22",
+   "url": "blizzard_2019/wang19b_blizzard.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of results",
+   "papers": [
+    "wu19_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations",
+   "papers": [
+    "rallabandi19_blizzard",
+    "xiao19_blizzard",
+    "cai19_blizzard",
+    "zhang19_blizzard",
+    "shi19_blizzard",
+    "liu19_blizzard",
+    "wang19_blizzard",
+    "yu19_blizzard",
+    "liu19b_blizzard",
+    "tao19_blizzard",
+    "liao19_blizzard",
+    "chen19_blizzard",
+    "chen19b_blizzard",
+    "korostik19_blizzard",
+    "yang19_blizzard",
+    "tian19_blizzard",
+    "zhang19b_blizzard",
+    "li19_blizzard",
+    "jiang19_blizzard",
+    "goto19_blizzard",
+    "wang19b_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2019"
 }

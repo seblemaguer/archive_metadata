@@ -1,10 +1,365 @@
 {
-  "SIG": "SynSIG",
-  "external": "http://www.festvox.org/blizzard/blizzard2015.html",
-  "conf": "Blizzard",
-  "year": "2015",
-  "name": "blizzard_2015",
-  "series": "Blizzard",
-  "title": "Evaluation of text-to-speech systems",
-  "title1": "Evaluation of text-to-speech systems"
+ "series": "Blizzard",
+ "title": "The Blizzard Challenge 2015",
+ "location": "Berlin, Germany",
+ "startDate": "11/09/2015",
+ "endDate": "11/09/2015",
+ "conf": "Blizzard",
+ "name": "blizzard_2015",
+ "year": "2015",
+ "SIG": "SynSIG",
+ "title1": "The Blizzard Challenge 2015",
+ "booklet": "intro.pdf",
+ "date": "11 September 2015",
+ "month": 9,
+ "day": 11,
+ "now": 1714329585938978,
+ "papers": {
+  "prahallad15_blizzard": {
+   "authors": [
+    [
+     "Kishore",
+     "Prahallad"
+    ],
+    [
+     "Anandaswarup",
+     "Vadapalli"
+    ],
+    [
+     "Sai",
+     "KrishnaRallabandi"
+    ],
+    [
+     "Santosh",
+     "Kesiraju"
+    ],
+    [
+     "Hema A",
+     "Murthy"
+    ],
+    [
+     "T.",
+     "Nagarajan"
+    ],
+    [
+     "Bira",
+     "Singh"
+    ],
+    [
+     "T",
+     "Sajani"
+    ],
+    [
+     "K Sreenivasa",
+     "Rao"
+    ],
+    [
+     "Suryakanth V",
+     "Gangashetty"
+    ],
+    [
+     "Simon",
+     "King"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2015",
+   "original": "01",
+   "order": 1,
+   "page_count": 16,
+   "abstract": [
+    "The Blizzard challenge 2015 was the eleventh annual Blizzard challenge organised by the following group of institutions: IIIT Hyderabad, IIT Madras, SSN College of Engineering, CDAC Mumbai, CDAC Trivandrum and CDAC Kolkata with support and collaboration from DeitY, Government of India. This paper describes the tasks in Blizzard challenge 2015. The tasks consisted of data from six Indian languages : Bengali, Hindi, Malayalam, Marathi, Tamil and Telugu. Eight participants from around the world used the speech data provided as well as the corresponding text transcriptions in UTF-8, to build synthetic voices, which were then evaluated by means of listening tests.\n"
+   ],
+   "p1": 1,
+   "pn": 16,
+   "doi": "10.21437/Blizzard.2015-1",
+   "url": "blizzard_2015/prahallad15_blizzard.html"
+  },
+  "chen15_blizzard": {
+   "authors": [
+    [
+     "Ling-Hui",
+     "Chen"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Xian-Jun",
+     "Xia"
+    ],
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Yi-Qing",
+     "Zu"
+    ],
+    [
+     "Run-Qiang",
+     "Yan"
+    ]
+   ],
+   "title": "The USTC System for Blizzard Challenge 2015",
+   "original": "02",
+   "order": 5,
+   "page_count": 6,
+   "abstract": [
+    "In this paper, the speech synthesis systems developed by USTC for Bilizzard Challenge 2015 are introduced. The constructed systems include Indian languages of Bengali, Hindi, Malayalam, Marathi, Tamil and Telugu. We accomplished two tasks for all these six languages, namely the mono-lingual task (IH1 hub task) and the multi-lingual task (IH2 spoken task). A hidden Markov model (HMM)-based unit selection system was built for Hindi language with the released large corpus. Another five HMM-based parametric speech synthesis systems were built for Bengali, Malayalam, Marathi, Tamil and Telugu repectively because of the limited corpus and lack of front-end knowledge. All these systems were submitted for evaluation. The effectiveness and robustness of the submitted systems are verified according to the results of the formal evaluation.\n"
+   ],
+   "p1": 33,
+   "pn": 38,
+   "doi": "10.21437/Blizzard.2015-5",
+   "url": "blizzard_2015/chen15_blizzard.html"
+  },
+  "prakash15_blizzard": {
+   "authors": [
+    [
+     "Anusha",
+     "Prakash"
+    ],
+    [
+     "Arun",
+     "Baby"
+    ],
+    [
+     "Aswin Shanmugam",
+     "Subramanian"
+    ],
+    [
+     "Jeena J",
+     "Prakash"
+    ],
+    [
+     "N L",
+     "Nishanthi"
+    ],
+    [
+     "Raghava",
+     "Krishanan"
+    ],
+    [
+     "Rupak Vignesh",
+     "Swaminathan"
+    ],
+    [
+     "Hema A",
+     "Murthy"
+    ]
+   ],
+   "title": "Blizzard Challenge 2015 : Submission by DONLab, IIT Madras",
+   "original": "03",
+   "order": 2,
+   "page_count": 6,
+   "abstract": [
+    "As part of Blizzard Challenge 2015, text-to-speech synthesisers have been developed for Indian languages. This paper presents the work done by the DONLab team, IIT Madras for the Challenge. With the provided speech data for six Indian languages, Hidden Markov Model based speech synthesis systems and STRAIGHT voices have been built. Various modules involved in system building have been described. While some modules are language-specific, systems have been built mostly language-independently. Of interest, is the novel hybrid segmentation algorithm to obtain accurate labels at the phone level. Monolingual and multilingual synthesised speech output for the given test sentences have been submitted. In the results of evaluation, “D” is the identifying letter of our systems. Modifications to the training process, post-submission of the synthetic sentences, have also been briefly described.\n"
+   ],
+   "p1": 17,
+   "pn": 22,
+   "doi": "10.21437/Blizzard.2015-2",
+   "url": "blizzard_2015/prakash15_blizzard.html"
+  },
+  "rallabandi15_blizzard": {
+   "authors": [
+    [
+     "Sai Krishna",
+     "Rallabandi"
+    ],
+    [
+     "Anandaswarup",
+     "Vadapalli"
+    ],
+    [
+     "Sivanand",
+     "Achanta"
+    ],
+    [
+     "Suryakanth V",
+     "Gangashetty"
+    ]
+   ],
+   "title": "IIIT Hyderabad's submission to the Blizzard Challenge 2015",
+   "original": "04",
+   "order": 8,
+   "page_count": 7,
+   "abstract": [
+    "This paper introduces the speech synthesis system developed by IIIT Hyderabad for Blizzard Challenge 2015. Six Indian languages were evaluated this year: Bengali, Hindi, Marathi, Malayalam, Tamil and Telugu. Two tasks were announced for these languages: the monolingual task (IH1 hub task) and the multi-lingual task (IH2 spoken task). We submitted unit selection synthesis systems to both tasks in all languages. Sentence level viterbi search is used to select the reliable speech units among a set of candidate units based on continuity metrics followed by signal correlation based overlap addition method for the concatenation of the selected units.\n"
+   ],
+   "p1": 47,
+   "pn": 53,
+   "doi": "10.21437/Blizzard.2015-8",
+   "url": "blizzard_2015/rallabandi15_blizzard.html"
+  },
+  "watts15_blizzard": {
+   "authors": [
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Srikanth",
+     "Ronanki"
+    ],
+    [
+     "Zhizeng",
+     "Wu"
+    ],
+    [
+     "Tuomi",
+     "Raito"
+    ],
+    [
+     "Attni",
+     "Suni"
+    ]
+   ],
+   "title": "The NST-GlottHMM entry to the Blizzard Challenge 2015",
+   "original": "05",
+   "order": 6,
+   "page_count": 4,
+   "abstract": [
+    "We describe the synthetic voices forming the joint entry into the 2015 Blizzard Challenge of the Natural Speech Technology consortium, Helsinki University, and Aalto University. The 2015 Blizzard Challenge presents an opportunity to test and benchmark some of the tools we have developed to address the problem of how to produce systems in arbitrary new languages with minimal annotated data and language-specific expertise on the part of the system builders. We here explain how our tools were used to address these problems on the different tasks of the challenge, and provide some discussion of the evaluation results. Some additions to the system used to build voices for the previous Challenge are described: acoustic modelling using deep neural networks with jointly-trained duration model, and an unsupervised approach for handling the phenomenon of inherent vowel deletion which occurs in 3 of the 6 target languages.\n"
+   ],
+   "p1": 39,
+   "pn": 42,
+   "doi": "10.21437/Blizzard.2015-6",
+   "url": "blizzard_2015/watts15_blizzard.html"
+  },
+  "alain15_blizzard": {
+   "authors": [
+    [
+     "Pierre",
+     "Alain"
+    ],
+    [
+     "Jonathan",
+     "Chevelu"
+    ],
+    [
+     "David",
+     "Guennec"
+    ],
+    [
+     "Gwénolé",
+     "Lecorvé"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ]
+   ],
+   "title": "The IRISA Text-To-Speech System for the Blizzard Challenge 2015",
+   "original": "06",
+   "order": 4,
+   "page_count": 4,
+   "abstract": [
+    "This paper describes the implementation of the IRISA unit selection-based TTS system for our participation in the Blizzard Challenge 2015. For our first participation, we chose to take part in the first task by building one voice for each of the 5 Indian languages out of the 6 requested (Bengali, Hindi, Malayalam, Tamil and Telugu). We describe the process followed to build the voices from given data and the architecture of our system. In particular, we introduce a penalty in the concatenation cost, inherited from the field of corpus covering, in order to block some concatenations based on their phonological class. Moreover, a fuzzy function is proposed to relax the penalty based on the concatenation quality with respect to the cost distribution. Considering that no language specific processing has been done and that we had never worked with Indian languages, results are very satisfying.\n"
+   ],
+   "p1": 29,
+   "pn": 32,
+   "doi": "10.21437/Blizzard.2015-4",
+   "url": "blizzard_2015/alain15_blizzard.html"
+  },
+  "takamichi15_blizzard": {
+   "authors": [
+    [
+     "Shinnosuke",
+     "Takamichi"
+    ],
+    [
+     "Kazuhiro",
+     "Kobayashi"
+    ],
+    [
+     "Kou",
+     "Tanaka"
+    ],
+    [
+     "Tomoki",
+     "Toda"
+    ],
+    [
+     "Satoshi",
+     "Nakamura"
+    ]
+   ],
+   "title": "The NAIST Text-to-Speech System for the Blizzard Challenge 2015",
+   "original": "07",
+   "order": 7,
+   "page_count": 4,
+   "abstract": [
+    "This paper presents a text-to-speech (TTS) system developed at Nara Institute of Science and Technology (NAIST) for the Blizzard Challenge 2015. The tasks of this year’s challenge are the mono-lingual speech synthesis (IH1 hub task) for 6 Indian languages including Bengali, Hindi, Malayalam, Marathi, Tamil, and Telugu, and the multi-lingual speech synthesis (IH2 spoke task) for Indian language and English. We have developed our TTS system based on a statistical parametric speech synthesis technique using a hidden Markov model (HMM). To improve quality of synthetic speech, we have newly implemented two techniques for the traditional HMM-based speech synthesis framework, 1) pre-processing for producing smooth parameter trajectories to be modeled with HMM and 2) speech parameter generation considering the modulation spectrum. The developed system has been submitted to the mono-lingual task and its performance has been demonstrated from the results of large-scaled subjective evaluation.\n"
+   ],
+   "p1": 43,
+   "pn": 46,
+   "doi": "10.21437/Blizzard.2015-7",
+   "url": "blizzard_2015/takamichi15_blizzard.html"
+  },
+  "sawada15_blizzard": {
+   "authors": [
+    [
+     "Kei",
+     "Sawada"
+    ],
+    [
+     "Kei",
+     "Hashimoto"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "The NITECH HMM-based text-to-speech system for the Blizzard Challenge 2015",
+   "original": "08",
+   "order": 3,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes a hidden Markov model (HMM)-based text-to-speech (TTS) system developed at the Nagoya Institute of Technology (NITECH) for the Blizzard Challenge 2015. The tasks of the Blizzard Challenge 2015 are speech synthesis for six Indian languages and multilingual involving one Indian language and English. In this challenge, only Indian language speech data and text are provided as training data. Therefore, pronunciation information, such as phoneset, phoneme sequences, and lexicon, for each language is needed to construct TTS systems. Standard methods for constructing a TTS system of a new language take a huge cost because it requires a special knowledge of the target language. In this paper, we focus on automatic construction of a TTS system without the special knowledge of the target language. The results of a large-scale subjectivity evaluation are discussed.\n"
+   ],
+   "p1": 23,
+   "pn": 28,
+   "doi": "10.21437/Blizzard.2015-3",
+   "url": "blizzard_2015/sawada15_blizzard.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of results",
+   "papers": [
+    "prahallad15_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 1",
+   "papers": [
+    "prakash15_blizzard",
+    "sawada15_blizzard",
+    "alain15_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 2",
+   "papers": [
+    "chen15_blizzard",
+    "watts15_blizzard",
+    "takamichi15_blizzard",
+    "rallabandi15_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2015"
 }

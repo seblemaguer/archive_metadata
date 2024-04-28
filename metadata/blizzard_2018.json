@@ -1,10 +1,437 @@
 {
-  "SIG": "SynSIG",
-  "external": "http://www.festvox.org/blizzard/blizzard2018.html",
-  "conf": "Blizzard",
-  "year": "2018",
-  "name": "blizzard_2018",
-  "series": "Blizzard",
-  "title": "Evaluation of text-to-speech systems",
-  "title1": "Evaluation of text-to-speech systems"
+ "series": "Blizzard",
+ "title": "The Blizzard Challenge 2018",
+ "location": "Hyderabad, India",
+ "startDate": "08/09/2018",
+ "endDate": "08/09/2018",
+ "conf": "Blizzard",
+ "name": "blizzard_2018",
+ "year": "2018",
+ "SIG": "SynSIG",
+ "title1": "The Blizzard Challenge 2018",
+ "booklet": "intro.pdf",
+ "date": "8 September 2018",
+ "month": 9,
+ "day": 8,
+ "now": 1714321286512873,
+ "papers": {
+  "king18_blizzard": {
+   "authors": [
+    [
+     "Simon",
+     "King"
+    ],
+    [
+     "Jane",
+     "Crumlish"
+    ],
+    [
+     "Amy",
+     "Martin"
+    ],
+    [
+     "Lovisa",
+     "Wihlborg"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2018",
+   "original": "01",
+   "order": 1,
+   "page_count": 16,
+   "abstract": [
+    "The Blizzard Challenge 2018 was the fourteenth annual Blizzard Challenge and is the twelfth consecutive one organised at the University of Edinburgh, with support from the other members of the Blizzard Challenge committee. The task this year was the same as in 2016 and 2017, and used identical data to 2017: a single-speaker English corpus, comprising around 6.5 hours of audio from 56 professionally-produced children’s audiobooks.\n"
+   ],
+   "p1": 1,
+   "pn": 16,
+   "doi": "10.21437/Blizzard.2018-1",
+   "url": "blizzard_2018/king18_blizzard.html"
+  },
+  "rallabandi18_blizzard": {
+   "authors": [
+    [
+     "SaiKrishna",
+     "Rallabandi"
+    ],
+    [
+     "Pallavi",
+     "Baljekar"
+    ],
+    [
+     "Peter",
+     "Wu"
+    ],
+    [
+     "Evangelia",
+     "Spiliopoulou"
+    ],
+    [
+     "Alan W",
+     "Black"
+    ]
+   ],
+   "title": "Submission from CMU for Blizzard Challenge 2018",
+   "original": "02",
+   "order": 2,
+   "page_count": 7,
+   "abstract": [
+    "In this paper we present the entry from CMU to Blizzard speech synthesis challenge 2018. We begin with a description of build process for our base voice. We then present the following modifications to base voice: (1) Since the data is chosen from children’s stories, we employ Rhetorical Structure Theory to obtain relationships between sentences. We specifically model the contrastive relationship between the sentences within a paragraph. (2) The original speaker attempts to use different ways of speaking depending on character and the situation in the story. To model this, we condition our acoustic model on the character and quote type information. (3) For improving the voice quality we present ‘segmental wavenet’ - a variant of the popular autoregressive framework Wavenet.\n"
+   ],
+   "p1": 17,
+   "pn": 23,
+   "doi": "10.21437/Blizzard.2018-2",
+   "url": "blizzard_2018/rallabandi18_blizzard.html"
+  },
+  "espic18_blizzard": {
+   "authors": [
+    [
+     "Felipe",
+     "Espic"
+    ],
+    [
+     "Avashna",
+     "Govender"
+    ],
+    [
+     "Manuel Sam",
+     "Ribeiro"
+    ],
+    [
+     "Cassia",
+     "Valentini-Botinhao"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ]
+   ],
+   "title": "The CSTR entry to the 2018 Blizzard Challenge",
+   "original": "03",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "Similar to 2016 and 2017 Blizzard Challenge, the task for this year is to train on expressively-read children’s story-books, and to synthesise speech in the same domain. This give us an opportunity to investigate the effectiveness of several techniques we have developed when applied to expressive and prosodically-varied audiobook data. This paper describes the text-to-speech system entered by The Centre for Speech Technology Research into the 2018 Blizzard Challenge. The system is a hybrid synthesis system where a halfphone unit selection synthesiser is driven by the output of a neural network based acoustic and duration model. We adopt the same neural network based models used in our last year entry with a different unit selection component. We discuss the performance of our system by reporting the results from formal listening tests provided by the challenge.\n"
+   ],
+   "p1": 24,
+   "pn": 28,
+   "doi": "10.21437/Blizzard.2018-3",
+   "url": "blizzard_2018/espic18_blizzard.html"
+  },
+  "xiao18_blizzard": {
+   "authors": [
+    [
+     "Jinba",
+     "Xiao"
+    ],
+    [
+     "Shan",
+     "Yang"
+    ],
+    [
+     "Mingyang",
+     "Zhang"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Dongyan",
+     "Huang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "The I2R-NWPU-NUS Text-to-Speech System for Blizzard Challenge 2018",
+   "original": "04",
+   "order": 4,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents I2R-NWPU-NUS team’s text-to-speech system to Blizzard Challenge 2018. Instead of using unit selection based concatenative speech sysnthesis previous years. we adopt the general deep neural network (DNN) statistical parametric method to synthesize the speech. The frame level acoustic parameters and phone duration are modelled using bidirectional long short-term memory (BLSTM) recurrent neural networks (RNNs). For duration model, 5 states of phone duration are used to predict the duration of each phoneme. Finally, the predicted acoustic parameters (MGC, LF0, V/UV) are taken as inputs to WORLD vocoder to generate the synthetic speech. The listening tests show improvement compared with the results of DNN baseline system.\n"
+   ],
+   "p1": 29,
+   "pn": 33,
+   "doi": "10.21437/Blizzard.2018-4",
+   "url": "blizzard_2018/xiao18_blizzard.html"
+  },
+  "alain18_blizzard": {
+   "authors": [
+    [
+     "Pierre",
+     "Alain"
+    ],
+    [
+     "Gwénole",
+     "Lecorvé"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ],
+    [
+     "Antoine",
+     "Perquin"
+    ]
+   ],
+   "title": "The IRISA Text-To-Speech System for the Blizzard Challenge 2018",
+   "original": "05",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes the implementation of the IRISA unit selection-based TTS system for our participation to the Blizzard Challenge 2018. We describe the process followed to build the voice from given data and the architecture of our system. It uses a selection cost which integrates notably a bottleneck DNN-based embedding prediction. Unit selection is based on a Viterbi-based algorithm with preselection filters used to reduce the search space. The system achieves average results compared to others.\n"
+   ],
+   "p1": 34,
+   "pn": 38,
+   "doi": "10.21437/Blizzard.2018-5",
+   "url": "blizzard_2018/alain18_blizzard.html"
+  },
+  "lemaguer18_blizzard": {
+   "authors": [
+    [
+     "Sébastien",
+     "Le Maguer"
+    ],
+    [
+     "Ingmar",
+     "Steiner"
+    ],
+    [
+     "Francesco",
+     "Tombini"
+    ],
+    [
+     "Pradipta",
+     "Deb"
+    ],
+    [
+     "Moitree",
+     "Basu"
+    ],
+    [
+     "Insa",
+     "Kroeger"
+    ]
+   ],
+   "title": "Agile MaryTTS Architecture for the Blizzard Challenge 2018",
+   "original": "06",
+   "order": 6,
+   "page_count": 6,
+   "abstract": [
+    "In this paper, we present the MaryTTS entry for the Blizzard Challenge 2018. Our participation is motivated by the use of a new system architecture whose development began three years ago. To this end, we designed a fully modular pipeline which incorporates native modules and distributed processes, including a new grapheme to phoneme conversion (G2P) component. The back-end also supports this modularity, as the fundamental frequency (F0 ) is predicted separately, based on a model of its dynamics. A segmental synthesizer using phonetic information and the predicted prosody is then used to produce the final signal. Even though our results are disappointing, the participation has shown that our architecture is functional and that we can now further develop interfaces to several open-source backends. This will hopefully strengthen the role of MaryTTS as a framework for research in speech synthesis.\n"
+   ],
+   "p1": 39,
+   "pn": 44,
+   "doi": "10.21437/Blizzard.2018-6",
+   "url": "blizzard_2018/lemaguer18_blizzard.html"
+  },
+  "sawada18_blizzard": {
+   "authors": [
+    [
+     "Kei",
+     "Sawada"
+    ],
+    [
+     "Takenori",
+     "Yoshimura"
+    ],
+    [
+     "Kei",
+     "Hashimoto"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Yoshihiko",
+     "Nankaku"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "The NITech text-to-speech system for the Blizzard Challenge 2018",
+   "original": "07",
+   "order": 7,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes a text-to-speech (TTS) system developed at the Nagoya Institute of Technology (NITech) for the Blizzard Challenge 2018. In the challenge, about seven hours of highly expressive speech data from English children’s audiobooks were provided as training data. For this challenge, we introduced deep neural network (DNN)-based pause insertion model and WaveNet-based neural vocoder. Large-scale subjective evaluation results show that the NITech TTS system achieved high score in various evaluation criteria.\n"
+   ],
+   "p1": 45,
+   "pn": 50,
+   "doi": "10.21437/Blizzard.2018-7",
+   "url": "blizzard_2018/sawada18_blizzard.html"
+  },
+  "liao18_blizzard": {
+   "authors": [
+    [
+     "Yuan-Fu",
+     "Liao"
+    ],
+    [
+     "Ya-Bo",
+     "Chai"
+    ],
+    [
+     "Cheng-Hung",
+     "Tsai"
+    ]
+   ],
+   "title": "The NTUT's Text-to-Speech System for Blizzard Challenge 2018",
+   "original": "08",
+   "order": 8,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes our first Deep Neural Network (DNN)-based speech synthesis system submitted to Blizzard Challenge 2018. The focus of this work is to explore the capacities of DNNs. Therefore, our system is based on latest HMM/DNN-based Speech Synthesis System (HTS) toolkits (ver. 2.3.2). Although, the performance of our system is not good enough on naturalness and similarity, its speech pause and stress scores of audiobook paragraphs were almost above the average. This should be a good starting point for further performance improvement.\n"
+   ],
+   "p1": 51,
+   "pn": 55,
+   "doi": "10.21437/Blizzard.2018-8",
+   "url": "blizzard_2018/liao18_blizzard.html"
+  },
+  "liu18_blizzard": {
+   "authors": [
+    [
+     "Kai",
+     "Liu"
+    ],
+    [
+     "Fanbo",
+     "Meng"
+    ],
+    [
+     "Yang",
+     "Song"
+    ],
+    [
+     "Bo",
+     "Fan"
+    ],
+    [
+     "Wenjun",
+     "Duan"
+    ],
+    [
+     "Wei",
+     "Chen"
+    ]
+   ],
+   "title": "The Sogou speech synthesis system for Blizzard Challenge 2018",
+   "original": "09",
+   "order": 9,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the Sogou speech synthesis system for Blizzard Challenge 2018. The corpus released to the participants this year is a 6.5-hour children’s audio book in British English, which is the same as for the 2017 data release. We build a parametric system for this task. Firstly, a multi-speaker DNN-BLSTM model is applied for mel spectrograms modeling. Then, a modified WaveNet model conditioned on the predicted mel features is used to generate 16-bit speech waveforms at 32 kHz, instead of the conventional vocoder.\n",
+    "This is the first time for Sogou to join the Blizzard Challenge, we have developed speech synthesis for years. The identifier for our system is J, the results show that our submitted system performed good on all the criterion.\n"
+   ],
+   "p1": 56,
+   "pn": 61,
+   "doi": "10.21437/Blizzard.2018-9",
+   "url": "blizzard_2018/liu18_blizzard.html"
+  },
+  "wang18_blizzard": {
+   "authors": [
+    [
+     "Junchao",
+     "Wang"
+    ],
+    [
+     "Xiaohai",
+     "Tian"
+    ],
+    [
+     "Minghui",
+     "Dong"
+    ],
+    [
+     "Haihua",
+     "Xu"
+    ]
+   ],
+   "title": "The TL-NTU Text-to-speech System for the Blizzard Challenge 2018",
+   "original": "10",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "In this work, we describe the TL-NTU’s text-to-speech (TTS) system for the Blizzard Challenge 2018. Our efforts are mainly focused on two aspects, which are the front-end text analysis and back-end model training. For the front-end text analysis, we include phonetic, syllable, and word-level linguistic features using lexicon and word-level text analysis for fullcontext feature extraction. For back-end model training, a feed-forward Deep Neural Network (DNN) based phone duration model and a bidirectional long short-term memory (BLSTM) based acoustic model are trained. The performance of our system is assessed by reporting the results of listening tests provided by the challenge organizer.\n"
+   ],
+   "p1": 62,
+   "pn": 66,
+   "doi": "10.21437/Blizzard.2018-10",
+   "url": "blizzard_2018/wang18_blizzard.html"
+  },
+  "jiang18_blizzard": {
+   "authors": [
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Xiao",
+     "Zhou"
+    ],
+    [
+     "Chuang",
+     "Ding"
+    ],
+    [
+     "Ya-jun",
+     "Hu"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ]
+   ],
+   "title": "The USTC System for Blizzard Challenge 2018",
+   "original": "11",
+   "order": 11,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces the USTC speech synthesis system for Blizzard Challenge 2018. The task is to build a speech synthesis system on a 6.5-hour children’s audio book corpus. The submitted system followed our previous one proposed in Blizzard Challenge 2017. A hidden Markov model (HMM)-based unit selection system was built with improvements in both the front-end text processing and back-end acoustic modeling. In the front-end, long short term memory(LSTM)-based recurrent neural networks(RNN) were adopted for tone and breaking indices (ToBI) prediction. In the back-end, two models were built for unit selection, a LSTM-RNN based acoustic model was built and the hidden layer was adopted as context embedding feature, a DNN based unit embedding model was built and the unit vector was adopted as phone unit feature. Evaluation results demonstrated that our system performed good on all aspects of paragraph test, which proved the effectiveness of our proposed system.\n"
+   ],
+   "p1": 67,
+   "pn": 71,
+   "doi": "10.21437/Blizzard.2018-11",
+   "url": "blizzard_2018/jiang18_blizzard.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of results",
+   "papers": [
+    "king18_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 1",
+   "papers": [
+    "rallabandi18_blizzard",
+    "espic18_blizzard",
+    "xiao18_blizzard",
+    "alain18_blizzard",
+    "lemaguer18_blizzard",
+    "sawada18_blizzard",
+    "liao18_blizzard",
+    "liu18_blizzard",
+    "wang18_blizzard",
+    "jiang18_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2018"
 }

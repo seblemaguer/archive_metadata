@@ -1,0 +1,538 @@
+{
+ "series": "Blizzard",
+ "title": "The Blizzard Challenge 2021",
+ "location": "Vienna, Austria",
+ "startDate": "23/10/2019",
+ "endDate": "23/10/2019",
+ "conf": "Blizzard",
+ "name": "blizzard_2021",
+ "year": "2021",
+ "SIG": "SynSIG",
+ "title1": "The Blizzard Challenge 2021",
+ "booklet": "intro.pdf",
+ "date": "23 October 2019",
+ "month": 10,
+ "day": 23,
+ "now": 1714322048923707,
+ "papers": {
+  "ling21_blizzard": {
+   "authors": [
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Xiao",
+     "Zhou"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2021",
+   "original": "01",
+   "order": 1,
+   "page_count": 13,
+   "abstract": [
+    "The Blizzard Challenge 2021 is the seventeenth annual Blizzard Challenge. A European Spanish dataset was provided to participants this year and two tasks were designed. The hub task is to synthesize texts containing only Spanish words. The spoke task is to synthesize Spanish texts containing a small number of English words in each sentence. Twelve and ten teams submitted their results for these two tasks, respectively. Listening tests were conducted online to evaluate the naturalness, intelligibility and speaker similarity of the synthetic speech. In addition to these conventional metrics, the subjective acceptability of the English words in Spanish sentences was measured for the spoke task. The top system in the hub task achieved comparable naturalness with, and better speaker similarity than, the natural reference speech.\n"
+   ],
+   "p1": 1,
+   "pn": 13,
+   "doi": "10.21437/Blizzard.2021-1",
+   "url": "blizzard_2021/ling21_blizzard.html"
+  },
+  "saam21_blizzard": {
+   "authors": [
+    [
+     "Christian",
+     "Saam"
+    ],
+    [
+     "João P.",
+     "Cabral"
+    ]
+   ],
+   "title": "Using multi-speaker models for single speaker Spanish synthesis in the Blizzard 2021",
+   "original": "02",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "Our entry to the Blizzard 2021 builds on the training of Spanish and mixed Spanish/English models using a Conformer-based FastSpeech 2 system. The mixed Spanish/English models were used for the task of synthesising Spanish texts containing a small number of English words. We used external public multispeaker Spanish and English datasets to build our models. The main reasons were to avoid problems of data scarcity using the relatively small (around 5 hours long) single speaker Spanish dataset provided by the organisers of the Blizzard, and to be able to build a mixed Spanish/English synthesis model. Our assumption was that we could model well the target Spanish speaker voice in the multi-speaker model and obtain an high-quality Spanish voice. Unfortunately our models produced synthetic speech with quality lower than expected, both in speaker similarity and naturalness. The synthetic voices sounded particularly monotonic, which could have a strong effect on the results. The complexity of consecutively fine-tuning models obtained using multiple datasets to achieve the final voice models could have contributed to inaccurate modelling of the prosody and eventually the speech spectrum characteristics. Another possible reason is that the multi-speaker Spanish dataset we used only included 4 speakers, which may not have been sufficient. We are conducting further analysis to better understand the reasons for the output quality of the system.\n"
+   ],
+   "p1": 42,
+   "pn": 46,
+   "doi": "10.21437/Blizzard.2021-7",
+   "url": "blizzard_2021/saam21_blizzard.html"
+  },
+  "garciaromillo21_blizzard": {
+   "authors": [
+    [
+     "Victor",
+     "García Romillo"
+    ],
+    [
+     "Inma",
+     "Hernaéz Rioja"
+    ],
+    [
+     "Eva",
+     "Navas"
+    ]
+   ],
+   "title": "The AHOLAB Text-to-Speech system for Blizzard Challenge 2021",
+   "original": "03",
+   "order": 11,
+   "page_count": 6,
+   "abstract": [
+    "In this paper we present the Text-to-Speech synthesis system proposed for the 2021 Blizzard Challenge by Aholab Signal Processing Group. The goal of this challenge is to build a synthetic voice from a provided speech corpus recorded in European Spanish. The challenge comprises two tasks: synthesising text containing only Spanish words and synthesising Spanish texts containing a small number of English words. Our system uses Tacotron-2 to compute mel-spectrograms from the input sequence, followed by WaveGlow as neural vocoder to obtain the audio signals from the spectrograms. A Spanish linguistic front-end module was used to transform grapheme sequences into phoneme sequences. In order to improve the robustness of the system and make the learning of the alignments in the acoustic model easier, a prior knowledge based loss was added to it. Evaluation shows that our systems had a good performance on both tasks.\n"
+   ],
+   "p1": 64,
+   "pn": 69,
+   "doi": "10.21437/Blizzard.2021-11",
+   "url": "blizzard_2021/garciaromillo21_blizzard.html"
+  },
+  "neto21_blizzard": {
+   "authors": [
+    [
+     "Mário Uliani",
+     "Neto"
+    ],
+    [
+     "Flávio O.",
+     "Simões"
+    ],
+    [
+     "Fernando O.",
+     "Runstein"
+    ],
+    [
+     "Edson J.",
+     "Nagle"
+    ],
+    [
+     "Bianca Dal",
+     "Bó"
+    ],
+    [
+     "Lucas H.",
+     "Ueda"
+    ],
+    [
+     "Paula D. P.",
+     "Costa"
+    ]
+   ],
+   "title": "The CPQD-Unicamp system for Blizzard Challenge 2021",
+   "original": "04",
+   "order": 6,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the CPQD-UNICAMP text-to-speech system for Blizzard Challenge 2021. The system consists of a bilingual linguistic front-end, an acoustic model based on Tacotron2 and a Parallel Wavegan neural vocoder. A multi-speaker Brazilian Portuguese dataset was added to the Blizzard 2021 dataset in order to train a bilingual acoustic model. The system was later fine-tuned with the target speaker data. Sentences were classified according to the punctuation type and a specialized model was trained for each category to better model the intonation pattern of non-declarative sentences. The Blizzard Challenge evaluation for the hub task shows that the proposed strategy achieved high naturalness, intelligibility and similarity results.\n"
+   ],
+   "p1": 36,
+   "pn": 41,
+   "doi": "10.21437/Blizzard.2021-6",
+   "url": "blizzard_2021/neto21_blizzard.html"
+  },
+  "wells21_blizzard": {
+   "authors": [
+    [
+     "Dan",
+     "Wells"
+    ],
+    [
+     "Pilar",
+     "Oplustil-Gallegos"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "The CSTR entry to the Blizzard Challenge 2021",
+   "original": "05",
+   "order": 9,
+   "page_count": 6,
+   "abstract": [
+    "We describe the text-to-speech (TTS) system submitted from The Centre for Speech Technology Research at the University of Edinburgh to the Blizzard Challenge 2021. We participated in the spoke task to build a voice for Peninsular Spanish, where test utterances contain a small number of English words. Our system is trained from monolingual data in Spanish and English, including some Spanish-accented English and Spanish utterances containing English words, but without explicit supervision for these aspects. Input texts are represented using phonological feature vectors to encourage parameter sharing between the two languages despite different phoneme inventories. When synthesizing test utterances, we perform automatic language identification to provide word-level language embeddings and apply pronunciation nativization rules to any detected English words to bring them closer to native Spanish phonology. In addition to the results of the main Blizzard Challenge evaluation, we present analysis of the impact of nativization strategy on listener preferences, which may be relevant for evaluation of code-switching TTS in general.\n"
+   ],
+   "p1": 53,
+   "pn": 58,
+   "doi": "10.21437/Blizzard.2021-9",
+   "url": "blizzard_2021/wells21_blizzard.html"
+  },
+  "liu21_blizzard": {
+   "authors": [
+    [
+     "Yanqing",
+     "Liu"
+    ],
+    [
+     "Zhihang",
+     "Xu"
+    ],
+    [
+     "Gang",
+     "Wang"
+    ],
+    [
+     "Kuan",
+     "Chen"
+    ],
+    [
+     "Bohan",
+     "Li"
+    ],
+    [
+     "Xu",
+     "Tan"
+    ],
+    [
+     "Jinzhu",
+     "Li"
+    ],
+    [
+     "Lei",
+     "He"
+    ],
+    [
+     "Sheng",
+     "Zhao"
+    ]
+   ],
+   "title": "DelightfulTTS: The Microsoft Speech Synthesis System for Blizzard Challenge 2021",
+   "original": "06",
+   "order": 14,
+   "page_count": 7,
+   "abstract": [
+    "This paper describes the Microsoft end-to-end neural text to speech (TTS) system: DelightfulTTS for Blizzard Challenge 2021. The goal of this challenge is to synthesize natural and high-quality speech from text, and we approach this goal in two perspectives: The first is to directly model and generate waveform in 48 kHz sampling rate, which brings higher perception quality than previous systems with 16 kHz or 24 kHz sampling rate; The second is to model the variation information in speech through a systematic design, which improves the prosody and naturalness. Specifically, for 48 kHz modeling, we predict 16 kHz mel-spectrogram in acoustic model, and propose a vocoder called HiFiNet to directly generate 48 kHz waveform from predicted 16 kHz mel-spectrogram, which can better trade off training efficiency, modelling stability and voice quality. We model variation information systematically from both explicit (speaker ID, language ID, pitch and duration) and implicit (utterance-level and phoneme-level prosody) perspectives [1]: 1) For speaker and language ID, we use lookup em- bedding in training and inference; 2) For pitch and duration, we extract the values from paired text-speech data in training and use two predictors to predict the values in inference; 3) For utterance-level and phoneme-level prosody, we use two reference encoders to extract the values in training, and use two separate predictors to predict the values in inference. Additionally, we introduce an improved Conformer [2] block to better model the local and global dependency in acoustic model [3, 4]. For task SH1, DelightfulTTS achieves 4.17 mean score in MOS test and 4.35 in SMOS test, which indicates the effectiveness of our proposed system.\n"
+   ],
+   "p1": 80,
+   "pn": 86,
+   "doi": "10.21437/Blizzard.2021-14",
+   "url": "blizzard_2021/liu21_blizzard.html"
+  },
+  "lux21_blizzard": {
+   "authors": [
+    [
+     "Florian",
+     "Lux"
+    ],
+    [
+     "Julia",
+     "Koch"
+    ],
+    [
+     "Antje",
+     "Schweitzer"
+    ],
+    [
+     "Ngoc",
+     "Thang Vu"
+    ]
+   ],
+   "title": "The IMS Toucan system for the Blizzard Challenge 2021",
+   "original": "07",
+   "order": 2,
+   "page_count": 6,
+   "abstract": [
+    "For our contribution to the Blizzard Challenge 2021, we built a non-autoregressive speech synthesis system that transforms phoneme inputs from a phonemiser into spectrogram frames. A GAN based vocoder then transforms the spectrogram into a waveform. We handle code-switching by altering the phonemiser based on the output of a language identification system. Non-native phonemes are manually mapped to their closest native representation. An interactive demo is available.\n"
+   ],
+   "p1": 14,
+   "pn": 19,
+   "doi": "10.21437/Blizzard.2021-2",
+   "url": "blizzard_2021/lux21_blizzard.html"
+  },
+  "shang21_blizzard": {
+   "authors": [
+    [
+     "Zengqiang",
+     "Shang"
+    ],
+    [
+     "Ziyi",
+     "Chen"
+    ],
+    [
+     "Haozhe",
+     "Zhang"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ]
+   ],
+   "title": "The IOA-ThinkIT system for Blizzard Challenge 2021",
+   "original": "08",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "In this paper, we introduce the bilingual text-to-speech system from IOA-ThinkIT to Blizzard Challenge 2021. This year’s challenge aims to build a Spanish speech synthesis system, which also supports Spanish-English code-switch synthesis. We model the pronunciation, style and duration separately. For style modeling, Our approach adopts an analysis-synthesis scheme. At the analysis, a phoneme-level style encoder is utilized to extracted speaker-independent style vectors. Then an RNN auto-regressive predictor was built for style prediction at inference. We implement adversarial speaker training to text encoder of backbone and duration predictor to enable cross-language timbre transfer and cross-language duration transfer. Evaluation results provided by the challenge organizers are conducted over intelligibility, naturalness and similarity.\n"
+   ],
+   "p1": 20,
+   "pn": 24,
+   "doi": "10.21437/Blizzard.2021-3",
+   "url": "blizzard_2021/shang21_blizzard.html"
+  },
+  "liu21b_blizzard": {
+   "authors": [
+    [
+     "Weiheng",
+     "Liu"
+    ],
+    [
+     "Yitao",
+     "Yang"
+    ],
+    [
+     "Jiangwei",
+     "Li"
+    ],
+    [
+     "Jinghui",
+     "Zhong"
+    ]
+   ],
+   "title": "The SCUT Text-To-Speech System for the Blizzard Challenge 2021",
+   "original": "09",
+   "order": 8,
+   "page_count": 6,
+   "abstract": [
+    "In this paper, we present our solution for the Blizzard Challenge 2021 Spoke task, which is to build a code-switched speech synthesis system for European Spanish and English with only Spanish dataset. The major challenges of code-switched text are language-independent representation of linguistic information and cross-language speaker transfer. For these difficulties, a set of phonological embedding derived from the International Phonetic Alphabet(IPA) is applied to uniformly identify bilingual texts and facilitate knowledge sharing among multiple languages. Meanwhile, our system uses predefined speaker embedding to control the voice of the generated speech. In addition, we introduced a variational autoencoder to extract hidden features in speech in order to balance the data differences between multiple datasets. The results of the evaluation have demonstrated the effectiveness of our method in code-switched speech synthesis.\n"
+   ],
+   "p1": 47,
+   "pn": 52,
+   "doi": "10.21437/Blizzard.2021-8",
+   "url": "blizzard_2021/liu21b_blizzard.html"
+  },
+  "lu21_blizzard": {
+   "authors": [
+    [
+     "Chunhui",
+     "Lu"
+    ],
+    [
+     "Xue",
+     "Wen"
+    ],
+    [
+     "Ruolan",
+     "Liu"
+    ],
+    [
+     "Xiaoyan",
+     "Lou"
+    ],
+    [
+     "Liming",
+     "Song"
+    ],
+    [
+     "June Sig",
+     "Sung"
+    ],
+    [
+     "Gunu",
+     "Jho"
+    ],
+    [
+     "Hyoungmin",
+     "Park"
+    ]
+   ],
+   "title": "The SRCB-SL system for Blizzard Challenge 2021",
+   "original": "10",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the SRCB-SL text-to-speech system that participated in Blizzard Challenge 2021. This year’s Challenge was in European Spanish and had come with 5 hours of clean speech data from a female native speaker. It included two tasks: a hub task that asked the participant to build a voice from the provided data and synthesize all-Spanish speech, and a spoke task in which the target speech contained a few English words. Our system featured a text analysis - acoustic model - vocoder pipeline. The text analyzer combined several old and new function modules to convert input text to a sequence of Spanish phonemes with prosodic boundary (break) markers. English phonemes were mapped to their Spanish counterparts in spoke task. The acoustic model was built around FastSpeech, and converted the phoneme sequences from text analysis to mel-spectrograms. For vocoder we used HiFi-GAN, which we trained on Challenge data and fine-tuned using predicted mel-spectrogram as input. This same system was used for both tasks. Challenge results showed that our system (identified as K) worked well by most of the criteria, which validated the effectiveness of our method.\n"
+   ],
+   "p1": 59,
+   "pn": 63,
+   "doi": "10.21437/Blizzard.2021-10",
+   "url": "blizzard_2021/lu21_blizzard.html"
+  },
+  "zhang21_blizzard": {
+   "authors": [
+    [
+     "Mingyang",
+     "Zhang"
+    ],
+    [
+     "Xuehao",
+     "Zhou"
+    ],
+    [
+     "Kun",
+     "Zhou"
+    ],
+    [
+     "Rui",
+     "Liu"
+    ],
+    [
+     "Perry",
+     "Lam"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "SUTD-NUS System for Blizzard Challenge 2021",
+   "original": "11",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes our effort to build the SUTD-NUS system for Blizzard Challenge 2021. The challenge has two tasks: 1) Hub task 2021-SH1: to build a Spanish text-to-speech (TTS) system using about 5 hours data from a European Spanish female speaker, and 2) Spoke task 2021-SS1: to build a TTS system that is able to synthesize the Spanish text containing a small amount of English words, using the same training data as Hub task 2021-SH1. Our submitted system is an end-to-end TTS structure that can generate acoustic features from text input. MelGAN neural vocoder are utilized to generate speech waveforms from acoustic features for both SH1 and SS1 tasks. Evaluation results provided by the challenge organizers demonstrate the effectiveness of our submitted TTS system.\n"
+   ],
+   "p1": 70,
+   "pn": 74,
+   "doi": "10.21437/Blizzard.2021-12",
+   "url": "blizzard_2021/zhang21_blizzard.html"
+  },
+  "guo21_blizzard": {
+   "authors": [
+    [
+     "Shaotong",
+     "Guo"
+    ],
+    [
+     "Shuaiting",
+     "Chen"
+    ],
+    [
+     "Dao",
+     "Zhou"
+    ],
+    [
+     "Gang",
+     "He"
+    ],
+    [
+     "Changbin",
+     "Chen"
+    ]
+   ],
+   "title": "The TAL Speech Synthesis System for Blizzard Challenge 2021",
+   "original": "12",
+   "order": 13,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces the TAL speech synthesis system for Blizzard Challenge 2021 which aims to synthesize voice as similar as the provided target speaker. We built a Spanish speech synthesis system based on the pre-trained BERT model, GST and HiFi-GAN for task 2021-SH1. First, we use a modified open source Spanish front-end to generate Spanish phoneme sequences from the input Spanish text. Then, we constructed a modified GST model which condition the encoder on linguistic features. The acoustic model is trained on two speakers, and then fine-tune on the target speaker from provided corpus. To speed up the synthesis process and maintain the speech quality, we use HiFi-GAN, an efficient and high fidelity GAN-based vocoder, to synthesize mel-spectrogram into speech waveform. The evaluation results shows that our system performs well especially in the word error rates evaluation.\n"
+   ],
+   "p1": 75,
+   "pn": 79,
+   "doi": "10.21437/Blizzard.2021-13",
+   "url": "blizzard_2021/guo21_blizzard.html"
+  },
+  "lin21_blizzard": {
+   "authors": [
+    [
+     "Shilun",
+     "Lin"
+    ],
+    [
+     "Wenchao",
+     "Su"
+    ],
+    [
+     "Li",
+     "Meng"
+    ],
+    [
+     "Fenglong",
+     "Xie"
+    ],
+    [
+     "Xinhui",
+     "Li"
+    ],
+    [
+     "Li",
+     "Lu"
+    ]
+   ],
+   "title": "Nana-HDR: A Non-attentive Non-autoregressive Hybrid Model for TTS",
+   "original": "13",
+   "order": 4,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents Nana-HDR, a new non-attentive non-autoregressive model with hybrid Transformer-based Dense-fuse encoder and RNN-based decoder for TTS. It mainly consists of three parts: Firstly, a novel Dense-fuse encoder with dense connections between basic Transformer blocks for coarse feature fusion and a multi-head attention layer for fine feature fusion. Secondly, a single-layer non-autoregressive RNN-based decoder. Thirdly, a duration predictor instead of an attention model that connects the above hybrid encoder and decoder. Experiments indicate that Nana-HDR gives full play to the advantages of each component, such as strong text encoding ability of Transformer-based encoder, stateful decoding without being bothered by exposure bias and local information preference, and stable alignment provided by duration predictor. Due to these advantages, Nana-HDR achieves competitive performance in naturalness and robustness on two Mandarin corpora and shows potential on a small Spanish corpus of Blizzard Challenge 2021.\n"
+   ],
+   "p1": 25,
+   "pn": 30,
+   "doi": "10.21437/Blizzard.2021-4",
+   "url": "blizzard_2021/lin21_blizzard.html"
+  },
+  "perezgonzalezdemartos21_blizzard": {
+   "authors": [
+    [
+     "Alejandro",
+     "Pérez-González-de-Martos"
+    ],
+    [
+     "Albert",
+     "Sanchis"
+    ],
+    [
+     "Alfons",
+     "Juan"
+    ]
+   ],
+   "title": "VRAIN-UPV MLLP’s system for the Blizzard Challenge 2021",
+   "original": "14",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the VRAIN-UPV MLLP’s speech synthesis system for the SH1 task of the Blizzard Challenge 2021. The SH1 task consisted in building a Spanish text-to-speech system trained on (but not limited to) the corpus released by the Blizzard Challenge 2021 organization. It included 5 hours of studio-quality recordings from a native Spanish female speaker. In our case, this dataset was solely used to build a two-stage neural text-to-speech pipeline composed of a non-autoregressive acoustic model with explicit duration modeling and a HiFi-GAN neural vocoder. Our team is identified as J in the evaluation results. Our system obtained very good results in the subjective evaluation tests. Only one system among other 11 participants achieved better naturalness than ours. Concretely, it achieved a naturalness MOS of 3.61 compared to 4.21 for real samples.\n"
+   ],
+   "p1": 31,
+   "pn": 35,
+   "doi": "10.21437/Blizzard.2021-5",
+   "url": "blizzard_2021/perezgonzalezdemartos21_blizzard.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of results",
+   "papers": [
+    "ling21_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations - Session 1",
+   "papers": [
+    "lux21_blizzard",
+    "shang21_blizzard",
+    "lin21_blizzard",
+    "perezgonzalezdemartos21_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations - Session 2",
+   "papers": [
+    "neto21_blizzard",
+    "saam21_blizzard",
+    "liu21b_blizzard",
+    "wells21_blizzard",
+    "lu21_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations - Session 3",
+   "papers": [
+    "garciaromillo21_blizzard",
+    "zhang21_blizzard",
+    "guo21_blizzard",
+    "liu21_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2021"
+}

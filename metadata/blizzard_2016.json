@@ -1,10 +1,524 @@
 {
-  "SIG": "SynSIG",
-  "external": "http://www.festvox.org/blizzard/blizzard2016.html",
-  "conf": "Blizzard",
-  "year": "2016",
-  "name": "blizzard_2016",
-  "series": "Blizzard",
-  "title": "Evaluation of text-to-speech systems",
-  "title1": "Evaluation of text-to-speech systems"
+ "series": "Blizzard",
+ "title": "The Blizzard Challenge 2016",
+ "location": "Cuppertino, US",
+ "startDate": "16/09/2016",
+ "endDate": "16/09/2016",
+ "conf": "Blizzard",
+ "name": "blizzard_2016",
+ "year": "2016",
+ "SIG": "SynSIG",
+ "title1": "The Blizzard Challenge 2016",
+ "booklet": "intro.pdf",
+ "date": "16 September 2016",
+ "month": 9,
+ "day": 16,
+ "now": 1714318208462216,
+ "papers": {
+  "king16_blizzard": {
+   "authors": [
+    [
+     "Simon",
+     "King"
+    ],
+    [
+     "Vasilis",
+     "Karaiskos"
+    ]
+   ],
+   "title": "The Blizzard Challenge 2016",
+   "original": "01",
+   "order": 1,
+   "page_count": 16,
+   "abstract": [
+    "The Blizzard Challenge 2016 was the twelfth annual Blizzard Challenge and was once again organised by Simon King at the University of Edinburgh, with advice from the other members of the Blizzard Challenge committee – Keiichi Tokuda, Alan Black, and Kishore Prahallad. For the task this year, a medium-sized single-speaker English corpus was used, comprising around 5 hours of audio from professionally-produced children’s audiobooks.\n"
+   ],
+   "p1": 1,
+   "pn": 16,
+   "doi": "10.21437/Blizzard.2016-1",
+   "url": "blizzard_2016/king16_blizzard.html"
+  },
+  "cabral16_blizzard": {
+   "authors": [
+    [
+     "Joao P.",
+     "Cabral"
+    ],
+    [
+     "Christian",
+     "Saam"
+    ],
+    [
+     "Eva",
+     "Vanmassenhove"
+    ],
+    [
+     "Stephen",
+     "Bradley"
+    ],
+    [
+     "Fasih",
+     "Haider"
+    ]
+   ],
+   "title": "The ADAPT entry to the Blizzard Challenge 2016",
+   "original": "02",
+   "order": 3,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes the text-to-speech synthesis system developed for the Blizzard Challenge 2016 by members of the ADAPT centre and colleagues from associated projects. The task was to build a synthetic voice for reading audiobooks to children, from a speech database of audiobooks around 5 hours long. Our entry system is an HMM-based parametric synthesizer which was built using a subset of the database (half the total number of the audiobooks of the full dataset). We only used this subset because it was the best quality data we could obtain under the time constraints posed by the Challenges’ deadlines. The main parts of the work undertaken on the development of the system for this challenge were on text chunking, including splitting of sentences and segments of text in quotes, and automatic alignment of speech and text data. We also aimed to synthesize speech with emotions to improve the expressiveness of the synthetic speech. Although we could not concretize this task on time for the submission, we plan to carry on this work and possibly use it in a future entry of our system to the Blizzard Challenge.\n"
+   ],
+   "p1": 23,
+   "pn": 28,
+   "doi": "10.21437/Blizzard.2016-3",
+   "url": "blizzard_2016/cabral16_blizzard.html"
+  },
+  "tao16_blizzard": {
+   "authors": [
+    [
+     "Jianhua",
+     "Tao"
+    ],
+    [
+     "Yibin",
+     "Zheng"
+    ],
+    [
+     "Zhengqi",
+     "Wen"
+    ],
+    [
+     "Ya",
+     "Li"
+    ],
+    [
+     "Biu",
+     "Liu"
+    ]
+   ],
+   "title": "BLSTM Guided Unit Selection Synthesis System for Blizzard Challenge 2016",
+   "original": "03",
+   "order": 4,
+   "page_count": 6,
+   "abstract": [
+    "The paper introduces the speech synthesis system developed by Institute of Automation, Chinese Academy of Sciences (CASIA) for Blizzard Challenge 2016. About 5 hours of speech data from professionally-produced children’s audiobooks is adopted as the training data for the construction this year. Different from our previous systems, the BLSTM guided unit selection and waveform concatenation approaches is selected to develop our speech synthesis using the provided corpus. We will describe our definitions of the acoustic, prosodic and linguistic parameters, procedure of candidate unit selection, components of cost function, etc. Finally, we will also present the results of the listening test conducted.\n"
+   ],
+   "p1": 29,
+   "pn": 34,
+   "doi": "10.21437/Blizzard.2016-4",
+   "url": "blizzard_2016/tao16_blizzard.html"
+  },
+  "merritt16_blizzard": {
+   "authors": [
+    [
+     "Thomas",
+     "Merritt"
+    ],
+    [
+     "Srikanth",
+     "Ronanki"
+    ],
+    [
+     "Zhizheng",
+     "Wu"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ]
+   ],
+   "title": "The CSTR entry to the Blizzard Challenge 2016",
+   "original": "04",
+   "order": 12,
+   "page_count": 4,
+   "abstract": [
+    "This paper describes the text-to-speech system entered by The Centre for Speech Technology Research into the 2016 Blizzard Challenge. This system is a hybrid synthesis system which uses output from a recurrent neural network to drive a unit selection synthesiser. The annual Blizzard Challenge conducts side-by-side testing of a number of speech synthesis systems trained on a common set of speech data. The task of the 2016 Blizzard Challenge is to train on expressively-read children’s storybooks, and to synthesise speech in the same domain. The Challenge therefore presents an opportunity to test the effectiveness of several techniques we have developed when applied to expressive speech data.\n"
+   ],
+   "p1": 74,
+   "pn": 77,
+   "doi": "10.21437/Blizzard.2016-12",
+   "url": "blizzard_2016/merritt16_blizzard.html"
+  },
+  "zhang16_blizzard": {
+   "authors": [
+    [
+     "Zhengchen",
+     "Zhang"
+    ],
+    [
+     "Mei",
+     "Li"
+    ],
+    [
+     "Yuchao",
+     "Zhang"
+    ],
+    [
+     "Weini",
+     "Zhang"
+    ],
+    [
+     "Yang",
+     "Liu"
+    ],
+    [
+     "Shan",
+     "Yang"
+    ],
+    [
+     "Yanfeng",
+     "Lu"
+    ],
+    [
+     "Van Tung",
+     "Pham"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Minghui",
+     "Dong"
+    ]
+   ],
+   "title": "The I2R-NWPU-NTU Text-to-Speech System at Blizzard Challenge 2016",
+   "original": "05",
+   "order": 6,
+   "page_count": 6,
+   "abstract": [
+    "In this paper, we introduce a trajectory tiling method guided by deep neural networks (DNNs) for text-to-speech (TTS), which is the entry to Blizzard Challenge 2016 by I2R-NWPU-NTU team. We build a deep bidirectional LSTM (DBLSTM) based network to predict the phoneme level duration and frame level acoustic parameters. After the acoustic parameters are predicted, the best units are selected from the database using a trajectory tiling method. Experiments demonstrate that, under the DBLSTM framework, the context information of a phoneme extracted in text processing will help the duration prediction, while not help the acoustic modeling. The results of subjective evaluation are also discussed.\n"
+   ],
+   "p1": 40,
+   "pn": 45,
+   "doi": "10.21437/Blizzard.2016-6",
+   "url": "blizzard_2016/zhang16_blizzard.html"
+  },
+  "rallabandi16_blizzard": {
+   "authors": [
+    [
+     "Sai Sirisha",
+     "Rallabandi"
+    ],
+    [
+     "Sai Krishna",
+     "Rallabandi"
+    ],
+    [
+     "Suryakanth V",
+     "Gangashetty"
+    ]
+   ],
+   "title": "IIIT Hyderabad's entry to Blizzard Challenge 2016",
+   "original": "06",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "In this paper, we are presenting IIIT-H’s system, designed for the synthesis of storybooks as a part of the Blizzard Challenge 2016. We have extended unit selection and concatenation based system that was designed for the previous Blizzard Challenge 2015 by employing prosodic prediction module using a continuous representation of text. More specifically, we use a matrix factorization based approach to obtain dense representation at the phoneme, word level followed by a recurrent neural network based method to obtain dense representation at the sentence level. We use them to build a duration model with an intention to capture the variations in prosody due to the nature of children’s story books. We have also investigated the use of sentence level vectors for modeling prosody.\n"
+   ],
+   "p1": 35,
+   "pn": 39,
+   "doi": "10.21437/Blizzard.2016-5",
+   "url": "blizzard_2016/rallabandi16_blizzard.html"
+  },
+  "raptis16_blizzard": {
+   "authors": [
+    [
+     "Spyros",
+     "Raptis"
+    ],
+    [
+     "Pirros",
+     "Tsiakoulis"
+    ],
+    [
+     "Aimilios",
+     "Chalamandaris"
+    ],
+    [
+     "Sotiris",
+     "Karabetsos"
+    ]
+   ],
+   "title": "Expressive Speech Synthesis for Storytelling: The INNOETICS' Entry to the Blizzard Challenge 2016",
+   "original": "07",
+   "order": 13,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes INNOETICS' Speech Synthesis System entry for the Blizzard Challenge 2016, along with the corresponding results and some relevant discussion. We provide a description of the underlying system and techniques used in our TTS platform, as well as some detailed information regarding the voice building process. Based on the obtained results from the listening experiments, we attempt an evaluation of our system and the underlying methods.\n"
+   ],
+   "p1": 78,
+   "pn": 83,
+   "doi": "10.21437/Blizzard.2016-13",
+   "url": "blizzard_2016/raptis16_blizzard.html"
+  },
+  "alain16_blizzard": {
+   "authors": [
+    [
+     "Pierre",
+     "Alain"
+    ],
+    [
+     "Jonathan",
+     "Chevelu"
+    ],
+    [
+     "David",
+     "Guennec"
+    ],
+    [
+     "Gwenolé",
+     "Lecorvé"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ]
+   ],
+   "title": "The IRISA Text-To-Speech System for the Blizzard Challenge 2016",
+   "original": "08",
+   "order": 10,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes the implementation of the IRISA unit selection-based TTS system for our participation in the Blizzard Challenge 2016. We describe the process followed to build the voices from given data and the architecture of our system. The search is based on a A* algorithm with preselection filters used to reduce the search space. A penalty is introduced in the concatenation cost to block some concatenations based on their phonological class. Moreover, a fuzzy function is used to relax this penalty based on the concatenation quality with respect to the cost distribution.\n"
+   ],
+   "p1": 62,
+   "pn": 67,
+   "doi": "10.21437/Blizzard.2016-10",
+   "url": "blizzard_2016/alain16_blizzard.html"
+  },
+  "lemaguer16_blizzard": {
+   "authors": [
+    [
+     "Sébastien",
+     "Le Maguer"
+    ],
+    [
+     "Ingmar",
+     "Steiner"
+    ]
+   ],
+   "title": "The MaryTTS entry for the Blizzard Challenge 2016",
+   "original": "09",
+   "order": 7,
+   "page_count": 6,
+   "abstract": [
+    "The MaryTTS system is a modular architecture text-to-speech (TTS) system whose development started around 15 years ago. This paper presents the MaryTTS entry for the Blizzard Challenge 2016. For this entry, we used the default configuration of MaryTTS based on the unit selection paradigm.\n",
+    "However, the architecture is currently undergoing a massive refactoring process in order to provide a more fully modular system. This will allow researchers to focus only on some part of the synthesis process. The current participation objective includes assessing the current baseline quality in order to evaluate any future improvements. These can be achieved more easily thanks to a more flexible and robust architecture. The results obtained in this challenge prove that our system is not obsolete, but improvements need to be made to maintain it in the state of the art in the future.\n"
+   ],
+   "p1": 46,
+   "pn": 51,
+   "doi": "10.21437/Blizzard.2016-7",
+   "url": "blizzard_2016/lemaguer16_blizzard.html"
+  },
+  "louw16_blizzard": {
+   "authors": [
+    [
+     "Johannes A.",
+     "Louw"
+    ],
+    [
+     "Avashlin",
+     "Moodley"
+    ],
+    [
+     "Avashna",
+     "Govender"
+    ]
+   ],
+   "title": "The Speect text-to-speech entry for the Blizzard Challenge 2016",
+   "original": "10",
+   "order": 9,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes the Speect text-to-speech system entry submitted to the Blizzard Challenge 2016. The focus of this entry was to build a data driven text-to-speech system that generates an expressive voice suitable for children’s audiobooks. The techniques applied for the task of the challenge and the implementation details for the alignment of the audio books and text-to-speech modules are described. The results of the evaluations are given and discussed.\n"
+   ],
+   "p1": 56,
+   "pn": 61,
+   "doi": "10.21437/Blizzard.2016-9",
+   "url": "blizzard_2016/louw16_blizzard.html"
+  },
+  "juvela16_blizzard": {
+   "authors": [
+    [
+     "Lauri",
+     "Juvela"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Shinji",
+     "Takaki"
+    ],
+    [
+     "SangJin",
+     "Kim"
+    ],
+    [
+     "Manu",
+     "Airaksinen"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "The NII speech synthesis entry for Blizzard Challenge 2016",
+   "original": "11",
+   "order": 2,
+   "page_count": 6,
+   "abstract": [
+    "This paper decribes the NII speech synthesis entry for Blizzard Challenge 2016, where the task was to build a voice from audiobook data. The synthesis system is built using the NII parametric speech synthesis framework that utilizes Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) for acoustic modeling. For this entry, we first built a voice using a large data set, and then used the audiobook data to adapt the acoustic model to the target speaker. Additionally, the recent full band glottal vocoder GlottDNN was used in the system with a DNN-based excitation model for generating glottal waveforms. The vocoder estimates the vocal tract in a band-wise manner using Quasi Closed Phase (QCP) inversefiltering at the low-band. At synthesis stage, the excitation model is used to generate voiced excitation from acoustic features, after which a vocal tract filter is applied to generate synthetic speech.\nThe Blizzard Challenge listening test results show that the proposed system achieves comparable quality with the benchmark parametric synthesis systems.\n"
+   ],
+   "p1": 17,
+   "pn": 22,
+   "doi": "10.21437/Blizzard.2016-2",
+   "url": "blizzard_2016/juvela16_blizzard.html"
+  },
+  "sawada16_blizzard": {
+   "authors": [
+    [
+     "Kei",
+     "Sawada"
+    ],
+    [
+     "Chiaki",
+     "Asai"
+    ],
+    [
+     "Kei",
+     "Hashimoto"
+    ],
+    [
+     "Keiichiro",
+     "Oura"
+    ],
+    [
+     "Keiichi",
+     "Tokuda"
+    ]
+   ],
+   "title": "The NITech text-to-speech system for the Blizzard Challenge 2016",
+   "original": "12",
+   "order": 11,
+   "page_count": 6,
+   "abstract": [
+    "This paper describes a text-to-speech (TTS) system developed at the Nagoya Institute of Technology (NITech) for the Blizzard Challenge 2016. In the challenge, English children’s audiobooks were provided as training data. For this challenge, we focused on: 1) automatic construction of a training corpus for TTS systems from audiobooks; 2) design of linguistic features for statistical parametric speech synthesis (SPSS) based on audiobooks; and 3) deep neural network-based SPSS. Large-scale subjective evaluation results show that the NITech system synthesized high natural and highest intelligible speech.\n"
+   ],
+   "p1": 68,
+   "pn": 73,
+   "doi": "10.21437/Blizzard.2016-11",
+   "url": "blizzard_2016/sawada16_blizzard.html"
+  },
+  "chen16_blizzard": {
+   "authors": [
+    [
+     "Ling-Hui",
+     "Chen"
+    ],
+    [
+     "Yuan",
+     "Jiang"
+    ],
+    [
+     "Ming",
+     "Zhou"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ],
+    [
+     "Li-Rong",
+     "Dai"
+    ]
+   ],
+   "title": "The USTC System for Blizzard Challenge 2016",
+   "original": "13",
+   "order": 14,
+   "page_count": 6,
+   "abstract": [
+    "This paper introduces the details of the speech synthesis entry developed by the USTC team for Blizzard Challenge 2016. A 5-hour corpus of highly expressive children’s audiobook was released this year to the participants. An hidden Markov model (HMM)-based unit selection system was built for the task. In addition, we utilized deep neural networks to improve the performance of our system, in both the front-end text processing and back-end acoustic modeling for unit selection. Firstly, an long short term memory (LSTM)-based recurrent neural networks (RNN) were adopted for tone and breaking indices (ToBI) prediction. Secondly, another LSTM-RNN was adopted to extract distributional representation of contextual features. The context embeddings can be used for evaluating contextual similarities between candidate and target units at the unit selection time. The evaluation results show the effectiveness of the submitted system. Our system achieved the highest scores in all metrics.\n"
+   ],
+   "p1": 84,
+   "pn": 89,
+   "doi": "10.21437/Blizzard.2016-14",
+   "url": "blizzard_2016/chen16_blizzard.html"
+  },
+  "zhao16_blizzard": {
+   "authors": [
+    [
+     "Yi",
+     "Zhao"
+    ],
+    [
+     "Xiu",
+     "You"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ]
+   ],
+   "title": "The UTokyo System for Blizzard Challenge 2016",
+   "original": "14",
+   "order": 8,
+   "page_count": 4,
+   "abstract": [
+    "In this paper, we mainly introduce the UTokyo speech synthesis system for Blizzard Challenge 2016. Our system is a typical statistical parametric speech synthesis system. Its duration model is built by using HTS toolkit, and its acoustic model is made using Bidirectional Long Short-Term Memory with Recurrent Neural Network (BLSTM-RNN). In the synthesizing phase, sentence-level waveforms are firstly generated. Then these waveforms are concatenated into a paragraph. Because the evaluations of our system are not satisfactory, the defects and problems in the system are also discussed in this paper.\n"
+   ],
+   "p1": 52,
+   "pn": 55,
+   "doi": "10.21437/Blizzard.2016-8",
+   "url": "blizzard_2016/zhao16_blizzard.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Summary of results",
+   "papers": [
+    "king16_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 1",
+   "papers": [
+    "juvela16_blizzard",
+    "cabral16_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 2",
+   "papers": [
+    "tao16_blizzard",
+    "rallabandi16_blizzard",
+    "zhang16_blizzard",
+    "lemaguer16_blizzard",
+    "zhao16_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 3",
+   "papers": [
+    "louw16_blizzard",
+    "alain16_blizzard",
+    "sawada16_blizzard"
+   ]
+  },
+  {
+   "title": "System Presentations 4",
+   "papers": [
+    "merritt16_blizzard",
+    "raptis16_blizzard",
+    "chen16_blizzard"
+   ]
+  }
+ ],
+ "doi": "10.21437/Blizzard.2016"
 }
