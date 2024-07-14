@@ -1,0 +1,1821 @@
+{
+ "series": "",
+ "title": "The Speaker and Language Recognition Workshop (Odyssey 2024)",
+ "location": "Quebec City, Canada",
+ "startDate": "18/06/2024",
+ "endDate": "21/06/2024",
+ "URL": "http://www.odyssey2020.org/",
+ "chair": "Chairs: Najim Dehak and Patrick Cardinal",
+ "conf": "odyssey",
+ "name": "odyssey_2024",
+ "year": "2024",
+ "title1": "The Speaker and Language Recognition Workshop",
+ "title2": "(Odyssey 2024)",
+ "booklet": "intro.pdf",
+ "date": "18-21 June 2024",
+ "month": 6,
+ "day": 18,
+ "now": 1720948741016467,
+ "papers": {
+  "meuwly24_odyssey": {
+   "authors": [
+    [
+     "Didier",
+     "Meuwly"
+    ]
+   ],
+   "title": "Development and validation of an automatic approach addressing the forensic question of identity of source -- the contribution of the speaker recognition field",
+   "original": "keynote1",
+   "order": 1,
+   "page_count": 0,
+   "abstract": [
+    "This presentation will first introduce the type of biometric data and datasets used in the different forensic applications [identity verification, identification (closed- and open-set), investigation/surveillence, intelligence and interpretation of the evidence], using practical examples. Then it will describe the methodological difference between the biometric identification process developped for access control and the forensic question of identity of inference of identity of source developed to interpret the evidence. Finally it will focus on the development and validation of an automatic approach addressing the forensic question of identity of source and enhance the contribution of the speaker recognition field to this development.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "greenberg24_odyssey": {
+   "authors": [
+    [
+     "Craig S.",
+     "Greenberg"
+    ]
+   ],
+   "title": "A Brief History of the NIST Speaker Recognition Evaluations",
+   "original": "keynote2",
+   "order": 2,
+   "page_count": 0,
+   "abstract": [
+    "NIST conducted its first evaluation of speaker recognition technology in 1996, involving 10 systems completing 4000 trials. In the ensuing nearly 30 years, NIST has conducted approximately 20 Speaker Recognition Evaluations (SREs), with recent SREs typically involving hundreds of systems completing millions of trials.  In this talk, we will discuss the history of the NIST SREs, including how the practice of evaluating speaker recognition technology has evolved, current challenges in speaker recognition evaluation, and some possible future directions.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "villalba24_odyssey": {
+   "authors": [
+    [
+     "Jesús",
+     "Villalba"
+    ]
+   ],
+   "title": "Towards Speech Processing Robust to Adversarial Deceptions",
+   "original": "keynote3",
+   "order": 3,
+   "page_count": 0,
+   "abstract": [
+    "As speech AI systems become increasingly integrated into our daily lives, ensuring their robustness against malicious attacks is paramount. While preventing spoofing attacks remains a primary objective for the speaker recognition community, recent advances in deep learning have facilitated the emergence of novel threat models targeting speech processing systems. This talk delves into the intricate world of adversarial attacks, where subtle perturbations in input data can lead to erroneous outputs, and poisoning attacks, where maliciously crafted training data corrupts the model's learning process. We explore the vulnerabilities present in speech AI systems, examining them alongside strategies for detecting and defending against attacks. By comprehensively understanding these threats, we empower ourselves to fortify speech AI systems against nefarious exploitation, thereby safeguarding the integrity and reliability of this transformative technology.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "busso24_odyssey": {
+   "authors": [
+    [
+     "Carlos",
+     "Busso"
+    ]
+   ],
+   "title": "Toward Robust and Discriminative Emotional Speech Representations",
+   "original": "keynote4",
+   "order": 4,
+   "page_count": 0,
+   "abstract": [
+    "Human speech communication involves a complex orchestration of cognitive, physiological, physical, cultural, and social processes where emotions play an essential role. Emotion is at the core of speech technology, changing the acoustic properties and impacting speech-based interfaces from analysis to synthesis and recognition. For example, understanding the acoustic variability in emotional speech can be instrumental in mitigating the reduced performance often observed with emotional speech for tasks such as automatic speech recognition (ASR) and speaker verification and identification. Emotions can also improve the naturalness of human-computer interactions, especially in speech synthesis and voice conversion, where natural human voices are generated to convey the emotional nuances that make human-machine communication effective. Furthermore, since emotions change the intended meaning of the message, identifying a user's emotion can be crucial for spoken dialogue and conversational systems. It is critical for the advancement in speech technology to computationally characterize emotion in speech and obtain robust and discriminative feature representations. This keynote will describe key observations that need to be considered to create emotional speech representations, including the importance of modeling temporal information, self-supervised learning (SSL) strategies to leverage unlabeled data, efficient techniques to adapt regular SSL speech representation to capture the externalization of emotion in speech, and novel distance-based formulation to build emotional speech representations. The seminar will describe the potential of these feature representations in speech-based technologies.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "chung24_odyssey": {
+   "authors": [
+    [
+     "Joon Son",
+     "Chung"
+    ]
+   ],
+   "title": "Multimodal Learning of Speech and Speaker Representations",
+   "original": "keynote5",
+   "order": 5,
+   "page_count": 0,
+   "abstract": [
+    "Supervised learning with deep neural networks has brought phenomenal advances to speech  recognition systems, but such systems rely heavily on annotated training datasets. On the other hand, humans naturally develop an understanding about the world through multiple senses even without explicit supervision. We attempt to mimic this human ability by leveraging the natural co-occurrence between audio and visual modalities. For example, a video of someone playing a guitar co-occurs with the sound of a guitar. Similarly, a person’s appearance is related to the person’s voice characteristics, and the words that they speak are correlated to their lip motion. We use unlabelled audio and video for self-supervised learning of speech and speaker representations. We will discuss the use of the learnt representations for speech-related downstream tasks such as automatic speech recognition, speaker recognition and lip reading.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "raj24_odyssey": {
+   "authors": [
+    [
+     "Desh",
+     "Raj"
+    ],
+    [
+     "Matthew",
+     "Wiesner"
+    ],
+    [
+     "Matthew",
+     "Maciejewski"
+    ],
+    [
+     "Paola",
+     "Garcia"
+    ],
+    [
+     "Daniel",
+     "Povey"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ]
+   ],
+   "title": "On Speaker Attribution with SURT",
+   "original": "3",
+   "order": 19,
+   "page_count": 8,
+   "abstract": [
+    "The Streaming Unmixing and Recognition Transducer (SURT) has recently become a popular framework for continuous, streaming, multi-talker speech recognition (ASR). With advances in architecture, objectives, and mixture simulation methods, it was demonstrated that SURT can be an efficient streaming method for speaker-agnostic transcription of real meetings. In this work, we push this framework further by proposing methods to perform speaker-attributed transcription with SURT, for both short mixtures and long recordings. We achieve this by adding an auxiliary speaker branch to SURT, and synchronizing its label prediction with ASR token prediction through HAT-style blank factorization. In order to ensure consistency in relative speaker labels across different utterance groups in a recording, we propose “speaker prefixing” — appending each chunk with high-confidence frames of speakers identified in previous chunks, to establish the relative order. We perform extensive ablation experiments on synthetic LibriSpeech mixtures to validate our design choices, and demonstrate the efficacy of our final model on the AMI corpus.\n"
+   ],
+   "p1": 91,
+   "pn": 98,
+   "doi": "10.21437/odyssey.2024-14",
+   "url": "odyssey_2024/raj24_odyssey.html"
+  },
+  "he24_odyssey": {
+   "authors": [
+    [
+     "Mingrui",
+     "He"
+    ],
+    [
+     "Longting",
+     "Xu"
+    ],
+    [
+     "Han",
+     "Wang"
+    ],
+    [
+     "Mingjun",
+     "Zhang"
+    ],
+    [
+     "Rohan Kumar",
+     "Das"
+    ]
+   ],
+   "title": "Device Feature based on Graph Fourier Transformation with Logarithmic Processing For Detection of Replay Speech Attacks",
+   "original": "4",
+   "order": 25,
+   "page_count": 8,
+   "abstract": [
+    "The most common spoofing attacks on automatic speaker verification systems are replay speech attacks. Detection of replay speech heavily relies on replay configuration information. Previous studies have shown that graph Fourier transform-derived features can effectively detect replay speech but ignore device and environmental noise effects. In this work, we propose a new feature, the graph frequency device cepstral coefficient, derived from the graph frequency domain using a device-related linear transformation. We also introduce two novel representations: graph frequency logarithmic coefficient and graph frequency logarithmic device coefficient. We evaluate our methods using traditional Gaussian mixture model and light convolutional neural network systems as classifiers. On the ASVspoof 2017 V2, ASVspoof 2019 physical access, and ASVspoof 2021 physical access datasets, our proposed features outperform known front-ends, demonstrating their effectiveness for replay speech detection."
+   ],
+   "p1": 137,
+   "pn": 144,
+   "doi": "10.21437/odyssey.2024-20",
+   "url": "odyssey_2024/he24_odyssey.html"
+  },
+  "favaro24_odyssey": {
+   "authors": [
+    [
+     "Anna",
+     "Favaro"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Thomas",
+     "Thebaud"
+    ],
+    [
+     "Jesús",
+     "Villalba"
+    ],
+    [
+     "Esther",
+     "Oh"
+    ],
+    [
+     "Laureano",
+     "Moro-Velázquez"
+    ]
+   ],
+   "title": "Discovering Invariant Patterns of Cognitive Decline Via an Automated Analysis of the Cookie Thief Picture Description Task",
+   "original": "5",
+   "order": 34,
+   "page_count": 8,
+   "abstract": [
+    "The Cookie Thief task has been extensively adopted to uncover patterns characterizing Alzheimer's Disease (AD). Yet, how findings reported on this task generalize across different corpora remains unclear. The main objective of this study was to assess the cross-corpora robustness of 145 cognitive, linguistic, and acoustic features, conducting a statistical and correlation analysis with clinical scores. Thus, four corpora were considered. The experimental results indicate that cognitive features reflecting attention focus and linguistic features representing information units and vocabulary richness displayed a robust behavior across corpora and reported a strong correlation with clinical scores. However, paralinguistic features such as pause length and pitch variability reported a lack of homogeneous behavior. This study provides insights into inter-corpora dissimilarities and highlights which features can be used when applying models trained in one domain to an unseen cohort or domain.\n"
+   ],
+   "p1": 201,
+   "pn": 208,
+   "doi": "10.21437/odyssey.2024-29",
+   "url": "odyssey_2024/favaro24_odyssey.html"
+  },
+  "cui24_odyssey": {
+   "authors": [
+    [
+     "Can",
+     "Cui"
+    ],
+    [
+     "Imran",
+     "Sheikh"
+    ],
+    [
+     "Mostafa",
+     "Sadeghi"
+    ],
+    [
+     "Emmanuel",
+     "Vincent"
+    ]
+   ],
+   "title": "Improving Speaker Assignment in Speaker-Attributed ASR for Real Meeting Applications",
+   "original": "6",
+   "order": 20,
+   "page_count": 8,
+   "abstract": [
+    "Past studies on end-to-end meeting transcription have focused on model architecture and have mostly been evaluated on simulated meeting data. We present a novel study aiming to optimize the use of a Speaker-Attributed ASR (SA-ASR) system in real-life scenarios, such as the AMI meeting corpus, for improved speaker assignment of speech segments. First, we propose a pipeline tailored to real-life applications involving Voice Activity Detection (VAD), Speaker Diarization (SD), and SA-ASR. Second, we advocate using VAD output segments to fine-tune the SA-ASR model, considering that it is also applied to VAD segments during test, and show that this results in a relative reduction of Speaker Error Rate (SER) up to 28%. Finally, we explore strategies to enhance the extraction of the reference speaker embeddings used as inputs by the SA-ASR system. We show that extracting them from SD output rather than annotated speaker segments results in a relative SER reduction up to 16%. "
+   ],
+   "p1": 99,
+   "pn": 106,
+   "doi": "10.21437/odyssey.2024-15",
+   "url": "odyssey_2024/cui24_odyssey.html"
+  },
+  "du24_odyssey": {
+   "authors": [
+    [
+     "Zongyang",
+     "Du"
+    ],
+    [
+     "Junchen",
+     "Lu"
+    ],
+    [
+     "Kun",
+     "Zhou"
+    ],
+    [
+     "Lakshmish",
+     "Kaushik"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ]
+   ],
+   "title": "Converting Anyone's Voice: End-to-End Expressive Voice Conversion with A Conditional Diffusion Model",
+   "original": "7",
+   "order": 30,
+   "page_count": 8,
+   "abstract": [
+    "Expressive voice conversion (VC) conducts speaker identity conversion for emotional speakers by jointly converting speaker identity and emotional style. Emotional style modeling for arbitrary speakers in expressive VC has not been extensively explored. Previous approaches have relied on vocoders for speech reconstruction, which makes speech quality heavily dependent on the performance of vocoders. A major challenge of expressive VC lies in emotion prosody modeling. To address these challenges, this paper proposes a fully end-to-end expressive VC framework based on a conditional denoising diffusion probabilistic model (DDPM). We utilize speech units derived from self-supervised speech models as content conditioning, along with deep features extracted from speech emotion recognition and speaker verification systems to model emotional style and speaker identity. Objective and subjective evaluations show the effectiveness of our framework. Codes and samples are publicly available."
+   ],
+   "p1": 172,
+   "pn": 179,
+   "doi": "10.21437/odyssey.2024-25",
+   "url": "odyssey_2024/du24_odyssey.html"
+  },
+  "hughes24_odyssey": {
+   "authors": [
+    [
+     "Vincent",
+     "Hughes"
+    ],
+    [
+     "Chenzi",
+     "Xu"
+    ],
+    [
+     "Paul",
+     "Foulkes"
+    ],
+    [
+     "Philip",
+     "Harrison"
+    ],
+    [
+     "Poppy",
+     "Welch"
+    ],
+    [
+     "Finnian",
+     "Kelly"
+    ],
+    [
+     "David van der",
+     "Vloed"
+    ]
+   ],
+   "title": "Exploring individual speaker behaviour within a forensic automatic speaker recognition system",
+   "original": "8",
+   "order": 6,
+   "page_count": 8,
+   "abstract": [
+    "A key issue for automatic speaker recognition (ASR), particularly for forensics, is our lack of understanding about why certain voices prove more or less of a challenge for systems. In this paper, we focus on variability in individual speaker performance within an x-vector ASR system and examine this variability as a function of the phonetic content within speech samples. The inclusion of vowels generally improved performance, but not for all speakers. Indeed, some speakers produced broadly the same Cllr irrespective of the phonetic content in the speech samples. Poor ASR performance was not well correlated with long-term laryngeal features (f0 and laryngeal voice quality) and these features may provide additional speaker discriminatory information for some speakers. We discuss the implications of these findings in terms of developing a speaker quality metric for flagging potentially problematic speakers prior to ASR comparison."
+   ],
+   "p1": 1,
+   "pn": 8,
+   "doi": "10.21437/odyssey.2024-1",
+   "url": "odyssey_2024/hughes24_odyssey.html"
+  },
+  "zhou24_odyssey": {
+   "authors": [
+    [
+     "Kun",
+     "Zhou"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Carlos",
+     "Busso"
+    ],
+    [
+     "Bin",
+     "Ma"
+    ],
+    [
+     "Haizhou",
+     "Li"
+    ]
+   ],
+   "title": "Mixed-EVC: Mixed Emotion Synthesis and Control in Voice Conversion",
+   "original": "9",
+   "order": 31,
+   "page_count": 7,
+   "abstract": [
+    "Emotional voice conversion (EVC) traditionally targets the transformation of spoken utterances from one emotional state to another, with previous research mainly focusing on discrete emotion categories. We propose a novel EVC framework, Mixed-EVC, which only leverages discrete emotion training labels. We construct an attribute vector that encodes the relationships among these discrete emotions, which is predicted using a ranking-based support vector machine and then integrated into a sequence-to-sequence (seq2seq) EVC framework. Mixed-EVC not only learns to characterize the input emotional style but also quantifies its relevance to other emotions during training. As a result, users have the ability to assign these attributes to achieve their desired rendering of mixed emotions. Objective and subjective evaluations confirm the effectiveness of our approach in terms of mixed emotion synthesis and control while surpassing traditional baselines in the conversion between discrete emotions."
+   ],
+   "p1": 180,
+   "pn": 186,
+   "doi": "10.21437/odyssey.2024-26",
+   "url": "odyssey_2024/zhou24_odyssey.html"
+  },
+  "benamor24_odyssey": {
+   "authors": [
+    [
+     "Imen",
+     "Ben-Amor"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "David van der",
+     "Vloed"
+    ]
+   ],
+   "title": "Forensic speaker recognition with BA-LR: calibration and evaluation on a forensically realistic database",
+   "original": "12",
+   "order": 7,
+   "page_count": 8,
+   "abstract": [
+    "The Likelihood Ratio (LR) is fundamental in presenting forensic speaker recognition (FSR) results. Despite its theoretical benefits, conventional LR estimation lacks transparency, impeding courtroom reliability assessment. In response, the Binary-Attribute-based Likelihood Ratio (BA-LR) framework models speech extracts based on the presence or absence of a set of speaker-specific attributes. It estimates the LR as a function of attribute-based LRs. Previous works demonstrated BA-LR's three levels of interpretability: explicit computation of attribute-based LRs, explicit contribution of these LRs to the final LR and phonetic description of the attributes, promising a fully transparent FSR solution. This work adds an examination of LR calibration using a forensically realistic database. Logistic regression is used for calibration purposes, as well as for a regularized fusion of attribute-Log LRs. Results highlight robustness and generalization ability of BA-LR, particularly in forensics."
+   ],
+   "p1": 9,
+   "pn": 16,
+   "doi": "10.21437/odyssey.2024-2",
+   "url": "odyssey_2024/benamor24_odyssey.html"
+  },
+  "chouchane24_odyssey": {
+   "authors": [
+    [
+     "Oubaïda",
+     "Chouchane"
+    ],
+    [
+     "Christoph",
+     "Busch"
+    ],
+    [
+     "Chiara",
+     "Galdi"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ]
+   ],
+   "title": "A Comparison of Differential Performance Metrics for the Evaluation of Automatic Speaker Verification Fairness",
+   "original": "13",
+   "order": 35,
+   "page_count": 8,
+   "abstract": [
+    "When decisions are made and when personal data is treated by automated processes, there is an expectation of fairness - that members of different demographic groups receive equitable treatment. This expectation applies to biometric systems such as automatic speaker verification (ASV). We present a comparison of three candidate fairness metrics and extend previous work performed for face recognition, by examining differential performance across a range of different ASV operating points. Results show that the Gini Aggregation Rate for Biometric Equitability (GARBE) is the only one which meets three functional fairness measure criteria. Furthermore, a comprehensive evaluation of the fairness and verification performance of five state-of-the-art ASV systems is also presented. Our findings reveal a nuanced trade-off between fairness and verification accuracy underscoring the complex interplay between system design, demographic inclusiveness, and verification reliability. \n"
+   ],
+   "p1": 209,
+   "pn": 216,
+   "doi": "10.21437/odyssey.2024-30",
+   "url": "odyssey_2024/chouchane24_odyssey.html"
+  },
+  "gaudier24_odyssey": {
+   "authors": [
+    [
+     "Thibault",
+     "Gaudier"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ],
+    [
+     "Anthony",
+     "Larcher"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ]
+   ],
+   "title": "Automatic Voice Identification after Speech Resynthesis using PPG",
+   "original": "14",
+   "order": 32,
+   "page_count": 7,
+   "abstract": [
+    "Speech resynthesis is a generic task for which we want to synthesize audio with another audio as input, which finds applications for media monitors and journalists. Among different tasks addressed by speech resynthesis, voice conversion preserves the linguistic information while modifying the identity of the speaker, and speech edition preserves the identity of the speaker but some words are modified. In both cases, we need to disentangle speaker and phonetic contents in intermediate representations. Phonetic PosteriorGrams (PPG) are a frame-level probabilistic representation of phonemes, and are usually considered speaker-independant. This paper presents a PPG-based speech resynthesis system. A perceptive evaluation assesses that it produces correct audio quality. Then, we demonstrate that an speaker verification model is not able to recover the source speaker after re-synthesis with PPG, even when the model is trained on synthetic data.\n"
+   ],
+   "p1": 187,
+   "pn": 193,
+   "doi": "10.21437/odyssey.2024-27",
+   "url": "odyssey_2024/gaudier24_odyssey.html"
+  },
+  "griot24_odyssey": {
+   "authors": [
+    [
+     "Nathan",
+     "Griot"
+    ],
+    [
+     "Mohammad",
+     "Mohammadamini"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ],
+    [
+     "Raphael",
+     "Blouet"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Attention-based Comparison on Aligned Utterances for Text-Dependent Speaker Verification",
+   "original": "16",
+   "order": 10,
+   "page_count": 7,
+   "abstract": [
+    "In recent years, Deep Neural Network (DNN) architectures have successfully been applied to Text-Independent Speaker Verification (TI-SV), bringing impressive performance improvements. Despite its broad field of application and strong commercial interest, Text-Dependent Speaker Verification (TD-SV) has seen limited research effort. This paper presents our attempt to take advantage of DNN architectures to improve TD-SV systems, through linguistic verification (LV) followed by speaker verification (SV). For LV, we introduce an original attention mechanism based on activation sequence alignment. For SV, a standard ResNet trained on speaker classification task is used. Evaluation of the Common Voice and DeepMine datasets demonstrates the effectiveness of the proposed approach.\n"
+   ],
+   "p1": 31,
+   "pn": 37,
+   "doi": "10.21437/odyssey.2024-5",
+   "url": "odyssey_2024/griot24_odyssey.html"
+  },
+  "gougeh24_odyssey": {
+   "authors": [
+    [
+     "Reza Amini",
+     "Gougeh"
+    ],
+    [
+     "Zhang",
+     "Nu"
+    ],
+    [
+     "Zeljko",
+     "Zilic"
+    ]
+   ],
+   "title": "Optimizing Auditory Immersion Safety on Edge Devices: An On-Device Sound Event Detection System",
+   "original": "17",
+   "order": 37,
+   "page_count": 7,
+   "abstract": [
+    "Noise-cancelling technologies provide immersive auditory experiences by eliminating background noise. However, this immersion can reduce user's environmental awareness and raise safety concerns. In this work, we propose an on-device sound event detection system for smartphones, designed to alert users through text and voice notifications upon identifying key sound events such as emergency vehicle siren, vehicles, room and household sounds, human speech, pets, and device alarms. Our system leverages two stage classification, using YAMNet model. Furthermore, a preliminary user experience study showed a notably positive results in system usability and user experience. Moreover, the model was adjusted to run in real-time conditions achieving an overall accuracy of 90% in detecting sound events. These findings, suggest that ImmerseGuard stands as a practical tool in enhancing environmental awareness, ensuring users remain connected to their surroundings while immersed in digital content.\n"
+   ],
+   "p1": 225,
+   "pn": 231,
+   "doi": "10.21437/odyssey.2024-32",
+   "url": "odyssey_2024/gougeh24_odyssey.html"
+  },
+  "chandra24_odyssey": {
+   "authors": [
+    [
+     "Shreeram Suresh",
+     "Chandra"
+    ],
+    [
+     "Zongyang",
+     "Du"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ]
+   ],
+   "title": "Exploring speech style spaces with language models: Emotional TTS without emotion labels",
+   "original": "18",
+   "order": 33,
+   "page_count": 7,
+   "abstract": [
+    "Many frameworks for emotional text-to-speech (E-TTS) rely on human-annotated emotion labels that are often inaccurate and difficult to obtain. Learning emotional prosody implicitly presents a tough challenge due to the subjective nature of emotions. In this study, we propose a novel approach that leverages text awareness to acquire emotional styles without the need for explicit emotion labels or text prompts. We present TEMOTTS, a two-stage framework for E-TTS that is trained without emotion labels and is capable of inference without auxiliary inputs. Our proposed method performs knowledge transfer between the linguistic space learned by BERT and the emotional style space constructed by global style tokens. Our experimental results demonstrate the effectiveness of our proposed framework, showcasing improvements in emotional accuracy and naturalness. This is one of the first studies to leverage the emotional correlation between spoken content and expressive delivery for emotional TTS."
+   ],
+   "p1": 194,
+   "pn": 200,
+   "doi": "10.21437/odyssey.2024-28",
+   "url": "odyssey_2024/chandra24_odyssey.html"
+  },
+  "dao24_odyssey": {
+   "authors": [
+    [
+     "Anh-Tuan",
+     "Dao"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ]
+   ],
+   "title": "Spoofing detection in the wild: an investigation of approaches to improve generalisation",
+   "original": "21",
+   "order": 26,
+   "page_count": 6,
+   "abstract": [
+    "The generalisation of spoofing detection solutions to spoofing attacks or recording conditions not seen in training data has been a focus since the inception of research in this area. \nWe report our investigation of three strategies to improve upon generalisation, namely data augmentation, the fine-tuning of a pre-trained model, and a Siamese model with a cross-attention mechanism. When evaluated under domain-mismatched conditions, we show that these techniques are all effective in reducing model overfitting and in encouraging the learning of more generalisable models by capturing the (di)similarity between bonafide or spoofed test and known-to-be bonafide reference utterances. Evaluations using the in-the-wild dataset show that our model achieves a relative improvement of almost 60% compared to the best results reported in the literature.\n"
+   ],
+   "p1": 145,
+   "pn": 150,
+   "doi": "10.21437/odyssey.2024-21",
+   "url": "odyssey_2024/dao24_odyssey.html"
+  },
+  "alvareztrejos24_odyssey": {
+   "authors": [
+    [
+     "Juan Ignacio",
+     "Alvarez-Trejos"
+    ],
+    [
+     "Beltrán",
+     "Labrador"
+    ],
+    [
+     "Alicia",
+     "Lozano-Diez"
+    ]
+   ],
+   "title": "Leveraging Speaker Embeddings in End-to-End Neural Diarization for Two-Speaker Scenarios",
+   "original": "22",
+   "order": 21,
+   "page_count": 8,
+   "abstract": [
+    "End-to-end neural speaker diarization systems are able to address\nthe speaker diarization task while effectively handling\nspeech overlap. This work explores the incorporation of speaker\ninformation embeddings into the end-to-end systems to enhance\nthe speaker discriminative capabilities, while maintaining their\noverlap handling strengths. To achieve this, we propose several\nmethods for incorporating these embeddings along the acoustic\nfeatures. Furthermore, we delve into an analysis of the correct\nhandling of silence frames, the window length for extracting\nspeaker embeddings and the transformer encoder size. The effectiveness\nof our proposed approach is thoroughly evaluated\non the CallHome dataset for the two-speaker diarization task,\nwith results that demonstrate a significant reduction in diarization\nerror rates achieving a relative improvement of a 10.78%\ncompared to the baseline end-to-end model."
+   ],
+   "p1": 107,
+   "pn": 114,
+   "doi": "10.21437/odyssey.2024-16",
+   "url": "odyssey_2024/alvareztrejos24_odyssey.html"
+  },
+  "lebourdais24_odyssey": {
+   "authors": [
+    [
+     "Martin",
+     "Lebourdais"
+    ],
+    [
+     "Pablo",
+     "Gimeno"
+    ],
+    [
+     "Théo",
+     "Mariotte"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Anthony",
+     "Larcher"
+    ]
+   ],
+   "title": "3MAS: a multitask, multilabel, multidataset semi-supervised audio segmentation model",
+   "original": "23",
+   "order": 38,
+   "page_count": 8,
+   "abstract": [
+    "When processing audio data, multiple challenges arise, one of them being the diversity of information present in the audio signal. Various audio segmentation subtasks appeared including voice activity detection (VAD), overlapped speech detection (OSD), music or noise detection. These tasks are often completed by separate models trained on different datasets, thus increasing computational costs and limiting the usage to specific datasets.\nWe first show that a multiclass VAD and OSD model outperforms state of the art models.\nThen, we propose 3MAS, a novel deep learning-based audio segmentation model capable of handling multiple datasets, and assessing multiple simultaneously as a multilabel segmentation problem.\n3MAS provides similar performances as specialized models with a similar architecture and can be trained using partial and unbalanced annotations on different datasets. \n3MAS is a gain in computational time, and opens new opportunities to include new labels."
+   ],
+   "p1": 232,
+   "pn": 239,
+   "doi": "10.21437/odyssey.2024-33",
+   "url": "odyssey_2024/lebourdais24_odyssey.html"
+  },
+  "lepage24_odyssey": {
+   "authors": [
+    [
+     "Theo",
+     "Lepage"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ]
+   ],
+   "title": "Additive Margin in Contrastive Self-Supervised Frameworks to Learn Discriminative Speaker Representations",
+   "original": "26",
+   "order": 11,
+   "page_count": 5,
+   "abstract": [
+    "Self-Supervised Learning (SSL) frameworks became the standard for learning robust class representations by benefiting from large unlabeled datasets. For Speaker Verification (SV), most SSL systems rely on contrastive-based loss functions. We explore different ways to improve the performance of these techniques by revisiting the NT-Xent contrastive loss. Our main contribution is the definition of the NT-Xent-AM loss and the study of the importance of Additive Margin (AM) in SimCLR and MoCo SSL methods to further separate positive from negative pairs. Despite class collisions, we show that AM enhances the compactness of same-speaker embeddings and reduces the number of false negatives and false positives on SV. Additionally, we demonstrate the effectiveness of the symmetric contrastive loss, which provides more supervision for the SSL task. Implementing these two modifications to SimCLR improves performance and results in 7.85% EER on VoxCeleb1-O, outperforming other equivalent methods."
+   ],
+   "p1": 38,
+   "pn": 42,
+   "doi": "10.21437/odyssey.2024-6",
+   "url": "odyssey_2024/lepage24_odyssey.html"
+  },
+  "karo24_odyssey": {
+   "authors": [
+    [
+     "Matan",
+     "Karo"
+    ],
+    [
+     "Arie",
+     "Yeredor"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ]
+   ],
+   "title": "Meaningful Embeddings for Explainable Countermeasures",
+   "original": "28",
+   "order": 27,
+   "page_count": 7,
+   "abstract": [
+    "In this study, we introduce a novel approach for generating explainable time-domain embeddings with practical applications in anti-spoofing logical-access (LA) tasks. These embeddings are derived from the evaluation of probability mass functions (PMFs) of the output waveforms obtained from diverse channels. Each element within these embeddings is discernible, facilitating comprehensive analyses of distinct attack types and their detection patterns based on specific frequency bands and similarity measures. Our investigation reveals that different filter bands and similarity measures exhibit superior discriminatory abilities between genuine speech and different attack modalities. Unlike most countermeasure systems, our proposed embeddings offer enhanced interpretability and explainability. The efficacy of our approach is demonstrated through various visualized examples, underscoring the significance of diverse channels and similarity measures in combating different attack scenarios."
+   ],
+   "p1": 151,
+   "pn": 157,
+   "doi": "10.21437/odyssey.2024-22",
+   "url": "odyssey_2024/karo24_odyssey.html"
+  },
+  "kalda24_odyssey": {
+   "authors": [
+    [
+     "Joonas",
+     "Kalda"
+    ],
+    [
+     "Clément",
+     "Pagés"
+    ],
+    [
+     "Ricard",
+     "Marxer"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ],
+    [
+     "Hervé",
+     "Bredin"
+    ]
+   ],
+   "title": "PixIT: Joint Training of Speaker Diarization and Speech Separation from Real-world Multi-speaker Recordings",
+   "original": "29",
+   "order": 22,
+   "page_count": 8,
+   "abstract": [
+    "A major drawback of supervised speech separation (SSep) systems is their reliance on synthetic data, leading to poor real-world generalization. Mixture invariant training (MixIT) was proposed as an unsupervised alternative that uses real recordings, yet struggles with over-separation and adapting to long-form audio. We introduce PixIT, a joint approach that combines permutation invariant training (PIT) for speaker diarization (SD) and MixIT for SSep. With a small extra requirement of needing SD labels during training, it solves the problem of over-separation and allows stitching local separated sources leveraging existing work on clustering-based neural SD. We measure the quality of the separated sources via applying automatic speech recognition (ASR) systems to them. PixIT boosts the performance of various ASR systems across two meeting corpora both in terms of the speaker-attributed and utterance-based word error rates while not requiring any fine-tuning.\n"
+   ],
+   "p1": 115,
+   "pn": 122,
+   "doi": "10.21437/odyssey.2024-17",
+   "url": "odyssey_2024/kalda24_odyssey.html"
+  },
+  "bhatt24_odyssey": {
+   "authors": [
+    [
+     "Japan",
+     "Bhatt"
+    ],
+    [
+     "Harsh",
+     "Patel"
+    ],
+    [
+     "Hemant A.",
+     "Patil"
+    ]
+   ],
+   "title": "Noise Robust Whisper Features for Dysarthric Automatic Speech Recognition",
+   "original": "30",
+   "order": 36,
+   "page_count": 8,
+   "abstract": [
+    "Dysarthria, a speech disorder stemming from difficulties in controlling the relevant muscles, presents formidable challenges to effective communication. This study proposes an Automatic Speech Recognition (ASR) system that uses the encoder of  Whisper model to extract features from audio files containing a single utterance of word and passes it to the classifier model for identification. This transfer learning approach builds a speaker-independent dysarthric ASR system by employing features obtained from the Whisper encoder module into three classifier models - LSTM, Bi-LSTM, and Bi-GRU. The whisper feature set achieved high accuracy of 71.55% when used with BiGRU model, surpassing relatively the best average accuracy achieved by speaker-adaptive ASR system of Speech Vision. Robustness of these models was analyzed against AWGN and babble noise at various SNR levels. The performance degradation is significantly less for proposed Whisper features than state-of-the-art wav2vec2.0 model."
+   ],
+   "p1": 217,
+   "pn": 224,
+   "doi": "10.21437/odyssey.2024-31",
+   "url": "odyssey_2024/bhatt24_odyssey.html"
+  },
+  "gnanapraveen24_odyssey": {
+   "authors": [
+    [
+     "Rajasekhar",
+     "Gnana Praveen"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ]
+   ],
+   "title": "Cross-Modal Transformers for Audio-Visual Person Verification",
+   "original": "32",
+   "order": 39,
+   "page_count": 7,
+   "abstract": [
+    "Although person verification is predominantly explored using voice and faces independently, audio-visual fusion has recently gained a lot of attention as they often compensate for each other. However, most existing works on audiovisual fusion for person verification rely on early feature concatenation or score-level fusion. Recently, transformers have been found to be promising for several applications. In this work, we have explored the potential of Cross-Modal Transformers (CMT) for effective fusion of audio and visual modalities for person verification. In particular, we have explored cross-attention using transformers, where the embeddings of one modality are exploited to attend to another modality to capture the complementary relationships. Extensive experiments are carried out on the Voxceleb1 dataset and show that the proposed approach effectively captures the complementary relationships across audio and visual modalities while outperforming the state-of-the-art approaches.\n"
+   ],
+   "p1": 240,
+   "pn": 246,
+   "doi": "10.21437/odyssey.2024-34",
+   "url": "odyssey_2024/gnanapraveen24_odyssey.html"
+  },
+  "lonergan24_odyssey": {
+   "authors": [
+    [
+     "Liam",
+     "Lonergan"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Neasa Ní",
+     "Chiaráin"
+    ],
+    [
+     "Christer",
+     "Gobl"
+    ],
+    [
+     "Ailbhe Ní",
+     "Chasaide"
+    ]
+   ],
+   "title": "Low-resource speech recognition and dialect identification of Irish in a multi-task framework",
+   "original": "33",
+   "order": 15,
+   "page_count": 7,
+   "abstract": [
+    "This paper explores the use of Hybrid CTC/Attention encoder-decoder models trained with Intermediate CTC (InterCTC) for Irish (Gaelic) low-resource speech recognition (ASR) and dialect identification (DID). Results are compared to the current best performing models trained for ASR (TDNN-HMM) and DID (ECAPA-TDNN). An optimal InterCTC setting is initially established using a Conformer encoder. This setting is then used to train a model with an E-branchformer encoder and the performance of both architectures are compared. A multi-task fine-tuning approach is adopted for language model (LM) shallow fusion. The experiments yielded an improvement in DID accuracy of 10.8% relative to a baseline ECAPA-TDNN, and WER performance approaching the TDNN-HMM model. This multi-task approach emerges as a promising strategy for Irish low-resource ASR and DID."
+   ],
+   "p1": 67,
+   "pn": 73,
+   "doi": "10.21437/odyssey.2024-10",
+   "url": "odyssey_2024/lonergan24_odyssey.html"
+  },
+  "fathan24_odyssey": {
+   "authors": [
+    [
+     "Abderrahim",
+     "Fathan"
+    ],
+    [
+     "Xiaolin",
+     "Zhu"
+    ],
+    [
+     "Jahangir",
+     "Alam"
+    ]
+   ],
+   "title": "An investigative study of the effect of several regularization techniques on label noise robustness of self-supervised speaker verification systems",
+   "original": "34",
+   "order": 12,
+   "page_count": 8,
+   "abstract": [
+    "Clustering-based Pseudo-Labels (PLs) are widely used to optimize Speaker Embedding (SE) networks and train Self-Supervised (SS) Speaker Verification (SV) systems. However, this SS training scheme relies on highly accurate PLs. In this paper, we perform a large investigative study of the effect of several regularization techniques (mixup, label smoothing, employing sub-centers) on the label noise robustness of SSSV systems. We study these techniques and apply them on various recent metric learning loss functions for better generalization of  SSSV systems. In particular, we investigate the effect of these losses and regularizations on the robustness of the self-supervised SV task against label noise using the CAMSAT clustering model to generate PLs.\nWe provide a thorough comparative analysis of the performance of these techniques using different numbers of clusters and show that some of them are effective against label noise and lead to considerable improvements in SV performance."
+   ],
+   "p1": 43,
+   "pn": 50,
+   "doi": "10.21437/odyssey.2024-7",
+   "url": "odyssey_2024/fathan24_odyssey.html"
+  },
+  "zamana24_odyssey": {
+   "authors": [
+    [
+     "Oleksandra",
+     "Zamana"
+    ],
+    [
+     "Priit",
+     "Käärd"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ]
+   ],
+   "title": "Using Pretrained Language Models for Improved Speaker Identification",
+   "original": "37",
+   "order": 13,
+   "page_count": 8,
+   "abstract": [
+    "In this paper, we investigate improving named speaker identification with the help of pretrained language models. First, we experiment with a supervised approach where the content of each speaker's utterances in training data is used to finetune an encoder-based BERT-style language model. Next, we experiment with large generative language models, demonstrating their ability to perform zero-shot named speaker recognition using text transcripts. In both scenarios, we experiment with two languages, including VoxCeleb1 speaker identification dataset and three Estonian broadcast news and conversational datasets. We show that large language models can provide dramatic improvements to named speaker identification performance on conversational speech where speakers are introduced by their name. Furthermore, the OpenAI GPT-4 model sometimes surpasses human performance in recalling Estonian speaker names from public debate transcripts."
+   ],
+   "p1": 51,
+   "pn": 58,
+   "doi": "10.21437/odyssey.2024-8",
+   "url": "odyssey_2024/zamana24_odyssey.html"
+  },
+  "thebaud24_odyssey": {
+   "authors": [
+    [
+     "Thomas",
+     "Thebaud"
+    ],
+    [
+     "Gabriel",
+     "Hernández"
+    ],
+    [
+     "Sarah Flora",
+     "Samson Juan"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ]
+   ],
+   "title": "A Phonetic Analysis of Speaker Verification Systems through Phoneme selection and Integrated Gradients",
+   "original": "38",
+   "order": 14,
+   "page_count": 8,
+   "abstract": [
+    "Speaker recognition systems are usually crafted to identify or verify the identity of a given speaker independently of the linguistic content contained in the utterance used. We use two explainability techniques to analyze the impact of phonetic variations on a speaker verification system using VoxCeleb. We use Whisper and the Montreal Forced Aligner (MFA) to transcribe, then segment phonetically the Voxceleb1 test set. Phoneme selection is first used, before computation of the x-vectors, to observe which phonemes are the most discriminative through their impact on EER and MinDCF metrics. Integrated Gradients are then used to show which phonemes yielded the highest gradients comparing two speakers. We find that for the representation of the x-vector in speaker recognition systems, both consonants and vowels are relevant and important to capture the distinctive characteristics of a speaker’s voice and generate effective and discriminative representations.\n"
+   ],
+   "p1": 59,
+   "pn": 66,
+   "doi": "10.21437/odyssey.2024-9",
+   "url": "odyssey_2024/thebaud24_odyssey.html"
+  },
+  "zhang24_odyssey": {
+   "authors": [
+    [
+     "Lin",
+     "Zhang"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Federico",
+     "Landini"
+    ],
+    [
+     "Mireia",
+     "Diez"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ]
+   ],
+   "title": "Do End-to-End Neural Diarization Attractors Need to Encode Speaker Characteristic Information?",
+   "original": "40",
+   "order": 23,
+   "page_count": 8,
+   "abstract": [
+    "In this paper, we apply the variational information bottleneck approach to end-to-end neural diarization with encoder-decoder attractors (EEND-EDA). This allows us to investigate what information is essential for the model. EEND-EDA utilizes attractors, vector representations of speakers in a conversation. Our analysis shows that, attractors do not necessarily have to contain speaker characteristic information. \nOn the other hand, giving the attractors more freedom to allow them to encode some extra (possibly speaker-specific) information leads to small but consistent diarization performance improvements. Despite architectural differences in EEND systems, the notion of attractors and frame embeddings is common to most of them and not specific to EEND-EDA. We believe that the main conclusions of this work can apply to other variants of EEND. Thus, we hope this paper will be a valuable contribution to guide the community to make more informed decisions when designing new systems."
+   ],
+   "p1": 123,
+   "pn": 130,
+   "doi": "10.21437/odyssey.2024-18",
+   "url": "odyssey_2024/zhang24_odyssey.html"
+  },
+  "motlicek24_odyssey": {
+   "authors": [
+    [
+     "Petr",
+     "Motlicek"
+    ],
+    [
+     "Erinc",
+     "Dikici"
+    ],
+    [
+     "Srikanth",
+     "Madikeri"
+    ],
+    [
+     "Pradeep",
+     "Rangappa"
+    ],
+    [
+     "Miroslav",
+     "Jánošík"
+    ],
+    [
+     "Gerhard",
+     "Backfried"
+    ],
+    [
+     "Dorothea",
+     "Thomas-Aniola"
+    ],
+    [
+     "Maximilian",
+     "Schürz"
+    ],
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Petr",
+     "Schwarz"
+    ],
+    [
+     "Marek",
+     "Kováč"
+    ],
+    [
+     "Květoslav",
+     "Malý"
+    ],
+    [
+     "Dominik",
+     "Boboš"
+    ],
+    [
+     "Mathias",
+     "Leibiger"
+    ],
+    [
+     "Costas",
+     "Kalogiros"
+    ],
+    [
+     "Andreas",
+     "Alexopoulos"
+    ],
+    [
+     "Daniel",
+     "Kudenko"
+    ],
+    [
+     "Zahra",
+     "Ahmadi"
+    ],
+    [
+     "Hoang H.",
+     "Nguyen"
+    ],
+    [
+     "Aravind",
+     "Krishnan"
+    ],
+    [
+     "Dawei",
+     "Zhu"
+    ],
+    [
+     "Dietrich",
+     "Klakow"
+    ],
+    [
+     "Maria",
+     "Jofre"
+    ],
+    [
+     "Francesco",
+     "Calderoni"
+    ],
+    [
+     "Denis",
+     "Marraud"
+    ],
+    [
+     "Nikolaos",
+     "Koutras"
+    ],
+    [
+     "Nikos",
+     "Nikolau"
+    ],
+    [
+     "Christiana",
+     "Aposkiti"
+    ],
+    [
+     "Panagiotis",
+     "Douris"
+    ],
+    [
+     "Konstantinos",
+     "Gkountas"
+    ],
+    [
+     "Eleni",
+     "Sergidou"
+    ],
+    [
+     "Wauter",
+     "Bosma"
+    ],
+    [
+     "Joshua",
+     "Hughes"
+    ],
+    [
+     "Hellenic Police",
+     "Team"
+    ]
+   ],
+   "title": "ROXSD: The ROXANNE Multimodal and Simulated Dataset for Advancing Criminal Investigations",
+   "original": "42",
+   "order": 8,
+   "page_count": 8,
+   "abstract": [
+    "The ROXANNE project, conducted under the European Union’s Horizon 2020 Programme, aimed to revolutionize criminal investigations by integrating speech, language, and video technologies with criminal network analysis. Despite the success in technology development, the project faced evaluation challenges due to the scarcity and legal restrictions surrounding real-world criminal activity datasets. In response, we introduce ROXSD, a simulated dataset of communication in organized crime. ROXSD is a set of wiretapped conversations (collected through communication service providers) between drug dealing suspects, following a realistic screenplay (incl. realistic conditions and constraints of a real investigation) prepared by Law Enforcement Agencies (LEAs). With a focus on multimodality and multilinguality, the dataset comprises 20 hours of telephone and video conversations involving 104 speakers, and is further aligned with ground-truth annotations for each modality involved, enabling precise evaluation and development of technologies. In addition, the multimodal data are enhanced with metadata and prior knowledge (e.g., suspects’ biometric profiles) which is typically available as a result of lawfully intercepted communication. This paper introduces ROXSD as a pivotal resource for advancing technology in criminal research (specifically in domain of speech, text and network analysis). ROXSD not only facilitates in the domain of technology development and evaluation but also showcases the potential of simulated datasets in advancing the field of organized crime analytics, emphasizing the importance of such datasets in the absence of comprehensive real-world alternatives.\n"
+   ],
+   "p1": 17,
+   "pn": 24,
+   "doi": "10.21437/odyssey.2024-3",
+   "url": "odyssey_2024/motlicek24_odyssey.html"
+  },
+  "thienpondt24_odyssey": {
+   "authors": [
+    [
+     "Jenthe",
+     "Thienpondt"
+    ],
+    [
+     "Kris",
+     "Demuynck"
+    ]
+   ],
+   "title": "Speaker Embeddings With Weakly Supervised Voice Activity Detection For Efficient Speaker Diarization",
+   "original": "43",
+   "order": 24,
+   "page_count": 6,
+   "abstract": [
+    "Current speaker diarization systems rely on an external voice activity detection model prior to speaker embedding extraction on the detected speech segments. In this paper, we establish that the attention system of a speaker embedding extractor acts as a weakly supervised internal VAD model and performs equally or better than comparable supervised VAD systems. Subsequently, speaker diarization can be performed efficiently by extracting the VAD logits and corresponding speaker embedding simultaneously, alleviating the need and computational overhead of an external VAD model. We provide an extensive analysis of the behavior of the frame-level attention system in current speaker verification models and propose a novel speaker diarization pipeline using ECAPA2 speaker embeddings for both VAD and embedding extraction. The proposed strategy gains state-of-the-art performance on the AMI, VoxConverse and DIHARD III diarization benchmarks."
+   ],
+   "p1": 131,
+   "pn": 136,
+   "doi": "10.21437/odyssey.2024-19",
+   "url": "odyssey_2024/thienpondt24_odyssey.html"
+  },
+  "gerlach24_odyssey": {
+   "authors": [
+    [
+     "Linda",
+     "Gerlach"
+    ],
+    [
+     "Finnian",
+     "Kelly"
+    ],
+    [
+     "Kirsty",
+     "McDougall"
+    ],
+    [
+     "Anil",
+     "Alexander"
+    ]
+   ],
+   "title": "Exploring speaker similarity based selection of relevant populations for forensic automatic speaker recognition",
+   "original": "44",
+   "order": 9,
+   "page_count": 6,
+   "abstract": [
+    "This study investigates various strategies for selecting relevant populations and their impact on forensic automatic speaker recognition in a likelihood ratio framework. Besides random and demographic metadata-based selection, it explores perceptual voice similarity as a potential criterion. Using a database controlled for gender, language, and recording conditions, an automatic approach based on phonetic features was used to select the most and least perceptually similar speakers to questioned speaker recordings in mock cases. It compares the strength of evidence obtained using these strategies for male and female mock cases and across different relevant population sizes. Random and metadata-based selections converge in log-likelihood ratio cost (Cllr) as the selected population size nears 50. While using perceptually similar speakers improves the overall Cllr, in individual cases effects may vary based on the degree of perceptual similarity or dissimilarity between recordings."
+   ],
+   "p1": 25,
+   "pn": 30,
+   "doi": "10.21437/odyssey.2024-4",
+   "url": "odyssey_2024/gerlach24_odyssey.html"
+  },
+  "shim24_odyssey": {
+   "authors": [
+    [
+     "Hye-jin",
+     "Shim"
+    ],
+    [
+     "Jee-weon",
+     "Jung"
+    ],
+    [
+     "Tomi",
+     "Kinnunen"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ],
+    [
+     "Itshak",
+     "Lapidot"
+    ]
+   ],
+   "title": "a-DCF: an architecture agnostic metric with application to spoofing-robust speaker verification",
+   "original": "46",
+   "order": 28,
+   "page_count": 7,
+   "abstract": [
+    "Spoofing detection is today a mainstream research topic. Standard metrics can be applied to evaluate the performance of isolated spoofing detection solutions and others have been proposed to support their evaluation when they are combined with speaker detection. These either have well-known deficiencies or restrict the architectural approach to combine speaker and spoof detectors. In this paper, we propose an architecture-agnostic detection cost function (a-DCF). A generalisation of the original DCF used widely for the assessment of automatic speaker verification (ASV), the a-DCF is designed for the evaluation of spoofing-robust ASV. Like the DCF, the a-DCF reflects the cost of decisions in a Bayes risk sense, with explicitly defined class priors and detection cost model. We demonstrate the merit of the a-DCF through the benchmarking evaluation of architecturally-heterogeneous spoofing-robust ASV solutions.\n"
+   ],
+   "p1": 158,
+   "pn": 164,
+   "doi": "10.21437/odyssey.2024-23",
+   "url": "odyssey_2024/shim24_odyssey.html"
+  },
+  "espuna24_odyssey": {
+   "authors": [
+    [
+     "Aleix",
+     "Espuña"
+    ],
+    [
+     "Amrutha",
+     "Prasad"
+    ],
+    [
+     "Petr",
+     "Motlicek"
+    ],
+    [
+     "Srikanth",
+     "Madikeri"
+    ],
+    [
+     "Christof",
+     "Schuepbach"
+    ]
+   ],
+   "title": "Normalizing Flows for Speaker and Language Recognition Backend",
+   "original": "49",
+   "order": 16,
+   "page_count": 7,
+   "abstract": [
+    "In this paper, we address the Gaussian distribution assumption made in PLDA, a popular back-end classifier used in Speaker and Language recognition tasks. We study normalizing flows, which allow using non-linear transformations and still obtain a model that can explicitly represent a probability density. The model makes no assumption about the distribution of the observations. This alleviates the need for length normalization, a well known data preprocessing step used to boost PLDA performance. We demonstrate the effectiveness of this flow model on NIST SRE16, LRE17 and LRE22 datasets. We observe that when applying length normalization, both the flow model and PLDA achieve similar EERs for SRE16 (11.5% vs 11.8%). However, when length normalization is not applied, the flow shows more robustness and offers better EERs (13.1% vs 17.1%). For LRE17 and LRE22, the best classification accuracies (84.2%, 75.5%) are obtained by the flow model without any need for length normalization.\n"
+   ],
+   "p1": 74,
+   "pn": 80,
+   "doi": "10.21437/odyssey.2024-11",
+   "url": "odyssey_2024/espuna24_odyssey.html"
+  },
+  "joshi24_odyssey": {
+   "authors": [
+    [
+     "Sonal",
+     "Joshi"
+    ],
+    [
+     "Thomas",
+     "Thebaud"
+    ],
+    [
+     "Jesús",
+     "Villalba"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "Unraveling Adversarial Examples against Speaker Identification - Techniques for Attack Detection and Victim Model Classification",
+   "original": "50",
+   "order": 29,
+   "page_count": 7,
+   "abstract": [
+    "Adversarial examples have proven to threaten speaker identification systems, and several countermeasures against them have been proposed. In this paper, we propose a method to detect the presence of adversarial examples, i.e., a binary classifier distinguishing between benign and adversarial examples. We build upon and extend previous work on attack type classification by exploring new architectures. Additionally, we introduce a method for identifying the victim model on which the adversarial attack is carried out. To achieve this, we generate a new dataset containing multiple attacks performed against various victim models. We achieve an AUC of 0.982 for attack detection, with no more than a 0.03 drop in performance for unknown attacks. Our attack classification accuracy (excluding benign) reaches 86.48% across eight attack types using our LightResNet34 architecture, while our victim model classification accuracy reaches 72.28% across four victim models."
+   ],
+   "p1": 165,
+   "pn": 171,
+   "doi": "10.21437/odyssey.2024-24",
+   "url": "odyssey_2024/joshi24_odyssey.html"
+  },
+  "dutta24_odyssey": {
+   "authors": [
+    [
+     "Satwik",
+     "Dutta"
+    ],
+    [
+     "Iván",
+     "López-Espejo"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Joint Language and Speaker Classification in Naturalistic Bilingual Adult-Toddler Interactions",
+   "original": "51",
+   "order": 17,
+   "page_count": 5,
+   "abstract": [
+    "Bilingual children at a young age can benefit from exposure to dual language, impacting their language and literacy development. Speech technology can aid in developing tools to accurately quantify children's exposure to multiple languages, thereby helping parents, teachers, and early-childhood practitioners to better support bilingual children. This study lays the foundation towards this goal using the Hoff Corpus containing naturalistic adult-child bilingual interactions collected at child ages 2½, 3, and 3½ years. Exploiting self-supervised learning features from XLSR-53 and HuBERT, we jointly predict the language (English/Spanish) and speaker (adult/child) in each utterance using a multi-task learning approach. Our experiments indicate that a trainable linear combination of embeddings across all Transformer layers of the SSL models is a stronger indicator for both tasks with more benefit to speaker classification. However, language classification for children remains challenging."
+   ],
+   "p1": 81,
+   "pn": 85,
+   "doi": "10.21437/odyssey.2024-12",
+   "url": "odyssey_2024/dutta24_odyssey.html"
+  },
+  "jones24_odyssey": {
+   "authors": [
+    [
+     "Karen",
+     "Jones"
+    ],
+    [
+     "Kevin",
+     "Walker"
+    ],
+    [
+     "Christopher",
+     "Caruso"
+    ],
+    [
+     "Stephanie",
+     "Strassel"
+    ]
+   ],
+   "title": "MAGLIC: The Maghrebi Language Identification Corpus",
+   "original": "54",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "The Maghrebi Language Identification Corpus (MAGLIC) is a new resource for language recognition comprising over 600 conversational telephone speech recordings in four North African languages: three Maghrebi Arabic dialects (Algerian, Libyan and Tunisian) plus North African French. Calls from consented subjects were recorded on a custom telephony platform in Tunisia, and call metadata was collected including recording time, anonymized phone number and speaker sex. Segments from collected calls were selected for use as development and test data in the NIST 2022 Language Recognition Evaluation, where results indicate that systems show confusability among the three Maghrebi Arabic dialects, despite an inter-annotator agreement study indicating that humans can distinguish these varieties with high reliability. The MAGLIC corpus will be published in the LDC Catalog, making it broadly available for language recognition and other language-related research, education and technology development.\n"
+   ],
+   "p1": 86,
+   "pn": 90,
+   "doi": "10.21437/odyssey.2024-13",
+   "url": "odyssey_2024/jones24_odyssey.html"
+  },
+  "goncalves24_odyssey": {
+   "authors": [
+    [
+     "Lucas",
+     "Goncalves"
+    ],
+    [
+     "Ali N.",
+     "Salman"
+    ],
+    [
+     "Abinay Reddy",
+     "Naini"
+    ],
+    [
+     "Laureano",
+     "Moro-Velázquez"
+    ],
+    [
+     "Thomas",
+     "Thebaud"
+    ],
+    [
+     "Paola",
+     "Garcia"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ],
+    [
+     "Berrak",
+     "Sisman"
+    ],
+    [
+     "Carlos",
+     "Busso"
+    ]
+   ],
+   "title": "Odyssey 2024 - Speech Emotion Recognition Challenge: Dataset, Baseline Framework, and Results",
+   "original": "55",
+   "order": 40,
+   "page_count": 8,
+   "abstract": [
+    "The Odyssey 2024 Speech Emotion Recognition (SER) Challenge aims to enhance innovation in recognizing emotions from spontaneous speech, moving beyond traditional datasets derived from acted scenarios. It offers speaker-independent training, development, and an exclusive test set, all annotated for the two tracks explored in this challenge: categorical and attribute SER tasks. This initiative promotes collaboration among researchers to develop SER technologies that perform accurately in real-world settings, encouraging researchers to explore innovative approaches that leverage the latest advancements in audio processing for SER. In this paper, we provide a detailed description of the baseline, leaderboard, evaluation of the results, and a discussion of the key findings. The competition website with leaderboards, links to baseline code, and instructions can be found here: https://lab-msp.com/MSP-Podcast_Competition/leaderboard.php"
+   ],
+   "p1": 247,
+   "pn": 254,
+   "doi": "10.21437/odyssey.2024-35",
+   "url": "odyssey_2024/goncalves24_odyssey.html"
+  },
+  "pastor24_odyssey": {
+   "authors": [
+    [
+     "Miguel Ángel",
+     "Pastor"
+    ],
+    [
+     "Alfonso",
+     "Ortega"
+    ],
+    [
+     "Antonio",
+     "Miguel"
+    ],
+    [
+     "Dayana",
+     "Ribas"
+    ]
+   ],
+   "title": "The ViVoLab System for the Odyssey Emotion Recognition Challenge 2024 Evaluation",
+   "original": "56",
+   "order": 44,
+   "page_count": 7,
+   "abstract": [
+    "This paper presents the ViVoLab system designed for emotion classification in the context of the Odyssey 2024 Emotion Recognition Challenge (OERC2024). \nThe motivation behind our participation is to explore the efficacy of novel sequence modeling architectures, with a specific focus on Selective State Space Models (SSM), known as MAMBA, for the challenging task of speech emotion recognition. We aim to investigate whether MAMBA can outperform traditional sequence modeling techniques such as the class-token transformer.\nTherefore, the classification model employed for this task integrates an SSM, in conjunction with a FeedForward layer and a Self-Attention mechanism. SSMs have demonstrated comparable performance to Transformer models in language and audio tasks, with notable advantages in terms of training and inference efficiency. Additionally, various data augmentation techniques, including additive and convolutional noise as well as SpecAugment, are implemented to mitigate overfitting. The proposed model achieves a F1 Macro score of 29.42% in the MSP-Podcast test dataset, a performance level akin to that of the baseline system established in the challenge."
+   ],
+   "p1": 274,
+   "pn": 280,
+   "doi": "10.21437/odyssey.2024-39",
+   "url": "odyssey_2024/pastor24_odyssey.html"
+  },
+  "shamsi24_odyssey": {
+   "authors": [
+    [
+     "Meysam",
+     "Shamsi"
+    ],
+    [
+     "Lara",
+     "Gauder"
+    ],
+    [
+     "Marie",
+     "Tahon"
+    ]
+   ],
+   "title": "The CONILIUM proposition for Odyssey Emotion Challenge : Leveraging major class with complex annotations",
+   "original": "57",
+   "order": 45,
+   "page_count": 7,
+   "abstract": [
+    "This paper describes the contribution of the CONILIUM team in the Odyssey Emotion Recognition Challenge. Our system focuses on predicting categorical emotions from speech recordings in the MSP-Podcast corpus. Focusing on the training protocol, we investigated several approaches to improve emotion recognition accuracy. Different pre-trained models (WavLM-large, Wav2vec2-large, Hubert-large) were evaluated as feature extractors. An agreement-aware loss functions based on all secondary annotations is proposed that consider the disagreement among annotators and the ambiguity of emotional labeling during training.\nAn idea of keeping only samples with high agreement annotation in the training process shows the benefit of using all annotations by all annotators. Our best performing system utilized WavLM-large as the upstream model, weighted binary cross-entropy with secondary labels as the loss function, and a post-processing step that adjusted the decision threshold. This model achieved an F1-Macro score of 0.361 on the development set, 0.335 on the test set, which is a significant improvement compare to the provided baseline. We also explore characteristics of Easy and Difficult samples based on their prediction performance consistency across different models. \n"
+   ],
+   "p1": 281,
+   "pn": 287,
+   "doi": "10.21437/odyssey.2024-40",
+   "url": "odyssey_2024/shamsi24_odyssey.html"
+  },
+  "bellver24_odyssey": {
+   "authors": [
+    [
+     "Jaime",
+     "Bellver"
+    ],
+    [
+     "Ivan",
+     "Martín-Fernández"
+    ],
+    [
+     "Jose M.",
+     "Bravo-Pacheco"
+    ],
+    [
+     "Sergio",
+     "Esteban"
+    ],
+    [
+     "Fernando",
+     "Fernández-Martínez"
+    ],
+    [
+     "Luis Fernando",
+     "D'Haro"
+    ]
+   ],
+   "title": "Multimodal Audio-Language Model for Speech Emotion Recognition",
+   "original": "58",
+   "order": 46,
+   "page_count": 8,
+   "abstract": [
+    "In this paper, we present an approach to speech emotion recognition (SER) leveraging advances in machine learning and audio processing, particularly through the integration of Large Language Models (LLMs) with audio capabilities. Our proposed architecture combines an audio encoder, specifically the Whisper-large-v3 model [1], with LLMs Phi 1.5 [2] and Gemma 2b [3] to create a robust and effective system for categorizing emotions in speech. We compare the performance of our models against existing approaches, achieving outstanding results in speech emotion recognition. Our findings demonstrate the effectiveness of audio-language models (ALMs), with the Whisper-large-V3 and Gemma 2b combination outperforming other alternatives.\n"
+   ],
+   "p1": 288,
+   "pn": 295,
+   "doi": "10.21437/odyssey.2024-41",
+   "url": "odyssey_2024/bellver24_odyssey.html"
+  },
+  "lafore24_odyssey": {
+   "authors": [
+    [
+     "Adrien",
+     "Lafore"
+    ],
+    [
+     "Clément",
+     "Pagés"
+    ],
+    [
+     "Leila",
+     "Moudjari"
+    ],
+    [
+     "Sebastião",
+     "Quintas"
+    ],
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Thomas",
+     "Pellegrini"
+    ],
+    [
+     "Farah",
+     "Benamara"
+    ],
+    [
+     "Isabelle",
+     "Ferrané"
+    ],
+    [
+     "Jérôme",
+     "Bertrand"
+    ],
+    [
+     "Marie-Françoise",
+     "Bertrand"
+    ],
+    [
+     "Véronique",
+     "Moriceau"
+    ],
+    [
+     "Jérôme",
+     "Farinas"
+    ]
+   ],
+   "title": "IRIT-MFU Multi-modal systems for emotion classification for Odyssey 2024 challenge",
+   "original": "59",
+   "order": 47,
+   "page_count": 7,
+   "abstract": [
+    "In this paper, we present our contribution to emotion classification in speech as part of our participation in  Odyssey 2024 challenge. We propose a hybrid system that takes advantage of both audio signal information and semantic information obtained from automatic transcripts. We propose several models for each modality and three different fusion methods for the classification task. The results show that multimodality improves significantly the performance and allows us surpassing the challenge baseline, which is an audio only system, from a 0.311 macro F1-score to 0.337.\n"
+   ],
+   "p1": 296,
+   "pn": 302,
+   "doi": "10.21437/odyssey.2024-42",
+   "url": "odyssey_2024/lafore24_odyssey.html"
+  },
+  "harm24_odyssey": {
+   "authors": [
+    [
+     "Henry",
+     "Härm"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ]
+   ],
+   "title": "TalTech Systems for the Odyssey 2024 Emotion Recognition Challenge",
+   "original": "60",
+   "order": 41,
+   "page_count": 5,
+   "abstract": [
+    "Odyssey 2024 Emotion Recognition Challenge aims to compare\ndifferent emotion recognition systems in two tasks: classifying\nspeech across eight emotional classes and predicting emotional\nattributes for arousal, valence and dominance. This paper describes\nTalTech’s systems prepared for the challenge that fuse\nthe predictions of text and speech based emotion recognition\nmodels. The audio-based model adapts the Wav2Vec2-BERT\nmodel for emotion recognition, while the text-based model uses\nfinetuned LLaMA2-7B as the backbone. The two models are\ncombined for the classification task by training a multi-class\nlogistic regression model, using the posteriors of the underlying\nmodels as input features. The model obtained a macro-F1\nscore of 0.354 on evaluation data and was ranked 2nd among\nall teams. The fusion model for the attribute prediction task\nachieved an average score of 0.5144 and was thereby ranked\n6th among the teams."
+   ],
+   "p1": 255,
+   "pn": 259,
+   "doi": "10.21437/odyssey.2024-36",
+   "url": "odyssey_2024/harm24_odyssey.html"
+  },
+  "diatlova24_odyssey": {
+   "authors": [
+    [
+     "Daria",
+     "Diatlova"
+    ],
+    [
+     "Anton",
+     "Udalov"
+    ],
+    [
+     "Vitalii",
+     "Shutov"
+    ],
+    [
+     "Egor",
+     "Spirin"
+    ]
+   ],
+   "title": "Adapting WavLM for Speech Emotion Recognition",
+   "original": "61",
+   "order": 48,
+   "page_count": 6,
+   "abstract": [
+    "Recently, the usage of speech self-supervised models (SSL) for downstream tasks has been drawing a lot of attention. While large pre-trained models commonly outperform smaller models trained from scratch, questions regarding the optimal fine-tuning strategies remain prevalent. In this paper, we explore the fine-tuning strategies of the WavLM Large model for the speech emotion recognition task on the MSP Podcast Corpus. More specifically, we perform a series of experiments focusing on using gender and semantic information from utterances. We then sum up our findings and describe the final model we used for submission to Speech Emotion Recognition Challenge 2024."
+   ],
+   "p1": 303,
+   "pn": 308,
+   "doi": "10.21437/odyssey.2024-43",
+   "url": "odyssey_2024/diatlova24_odyssey.html"
+  },
+  "chen24_odyssey": {
+   "authors": [
+    [
+     "Mingjie",
+     "Chen"
+    ],
+    [
+     "Hezhao",
+     "Zhang"
+    ],
+    [
+     "Yuanchao",
+     "Li"
+    ],
+    [
+     "Jiachen",
+     "Luo"
+    ],
+    [
+     "Wen",
+     "Wu"
+    ],
+    [
+     "Ziyang",
+     "Ma"
+    ],
+    [
+     "Peter",
+     "Bell"
+    ],
+    [
+     "Catherine",
+     "Lai"
+    ],
+    [
+     "Joshua D.",
+     "Reiss"
+    ],
+    [
+     "Lin",
+     "Wang"
+    ],
+    [
+     "Philip C.",
+     "Woodland"
+    ],
+    [
+     "Xie",
+     "Chen"
+    ],
+    [
+     "Huy",
+     "Phan"
+    ],
+    [
+     "Thomas",
+     "Hain"
+    ]
+   ],
+   "title": "1st Place Solution to Odyssey Emotion Recognition Challenge Task1: Tackling Class Imbalance Problem",
+   "original": "62",
+   "order": 42,
+   "page_count": 6,
+   "abstract": [
+    "Speech emotion recognition is a challenging classification task with natural emotional speech, especially when the distribution of emotion types is imbalanced in the training and test data. In this case, it is more difficult for a model to learn to separate minority classes, resulting in those sometimes being ignored or frequently misclassified. Previous work has utilised class weighted loss for training, but problems remain as it sometimes causes over-fitting for minor classes or under-fitting for major classes. This paper presents the system developed by a multi-site team for the participation in the Odyssey 2024 Emotion Recognition Challenge Track-1. The challenge data has the aforementioned properties and therefore the presented systems aimed to tackle these issues, by introducing focal loss in optimisation when applying class weighted loss. Specifically, the focal loss is further weighted by prior-based class weights. Experimental results show that combining these two approaches brings better overall performance, by sacrificing performance on major classes. The system further employs a majority voting strategy to combine the outputs of an ensemble of 7 models. The models are trained independently, using different acoustic features and loss functions - with the aim to have different properties for different data. Hence these models show different performance preferences on major classes and minor classes. The ensemble system output obtained the best performance in the challenge, ranking top-1 among 68 submissions. It also outperformed all single models in our set. On the Odyssey 2024 Emotion Recognition Challenge Task-1 data the system obtained a Macro-F1 score of 35.69% and an accuracy of 37.32%.\n"
+   ],
+   "p1": 260,
+   "pn": 265,
+   "doi": "10.21437/odyssey.2024-37",
+   "url": "odyssey_2024/chen24_odyssey.html"
+  },
+  "costa24_odyssey": {
+   "authors": [
+    [
+     "Federico",
+     "Costa"
+    ],
+    [
+     "Miquel",
+     "India"
+    ],
+    [
+     "Javier",
+     "Hernando"
+    ]
+   ],
+   "title": "Double Multi-Head Attention Multimodal System for Odyssey 2024 Speech Emotion Recognition Challenge",
+   "original": "63",
+   "order": 43,
+   "page_count": 8,
+   "abstract": [
+    "As computer-based applications are becoming more integrated into our daily lives, the importance of Speech Emotion Recognition (SER) has increased significantly. \nPromoting research with innovative approaches in SER, the Odyssey 2024 Speech Emotion Recognition Challenge was organized as part of the Odyssey 2024 Speaker and Language Recognition Workshop. \nIn this paper we describe the Double Multi-Head Attention Multimodal System developed for this challenge. \nPre-trained self-supervised models were used to extract informative acoustic and text features. \nAn early fusion strategy was adopted, where a Multi-Head Attention layer transforms these mixed features into complementary contextualized representations. \nA second attention mechanism is then applied to pool these representations into an utterance-level vector. \nOur proposed system achieved the third position in the categorical task ranking with a 34.41% Macro-F1 score, where 31 teams participated in total."
+   ],
+   "p1": 266,
+   "pn": 273,
+   "doi": "10.21437/odyssey.2024-38",
+   "url": "odyssey_2024/costa24_odyssey.html"
+  },
+  "duret24_odyssey": {
+   "authors": [
+    [
+     "Jarod",
+     "Duret"
+    ],
+    [
+     "Yannick",
+     "Estève"
+    ],
+    [
+     "Mickael",
+     "Rouvier"
+    ]
+   ],
+   "title": "MSP-Podcast SER Challenge 2024: L'antenne du Ventoux Multimodal Self-Supervised Learning for Speech Emotion Recognition",
+   "original": "64",
+   "order": 49,
+   "page_count": 6,
+   "abstract": [
+    "In this work, we detail our submission to the 2024 edition of the MSP-Podcast Speech Emotion Recognition (SER) Challenge. This challenge is divided into two distinct tasks: Categorical Emotion Recognition and Emotional Attribute Prediction. We concentrated our efforts on Task 1, which involves the categorical classification of eight emotional states using data from the MSP-Podcast dataset. Our approach employs an ensemble of models, each trained independently and then fused at the score level using a Support Vector Machine (SVM) classifier. The models were trained using various strategies, including Self-Supervised Learning (SSL) fine-tuning across different modalities: speech alone, text alone, and a combined speech and text approach. This joint training methodology aims to enhance the system's ability to accurately classify emotional states. This joint training methodology aims to enhance the system's ability to accurately classify emotional states. Thus, the system obtained F1-macro of 0.35% on development set.\n"
+   ],
+   "p1": 309,
+   "pn": 314,
+   "doi": "10.21437/odyssey.2024-44",
+   "url": "odyssey_2024/duret24_odyssey.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Didier Meuwly",
+   "papers": [
+    "meuwly24_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Craig S. Greenberg",
+   "papers": [
+    "greenberg24_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Jesus Villalba",
+   "papers": [
+    "villalba24_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Carlos Busso",
+   "papers": [
+    "busso24_odyssey"
+   ]
+  },
+  {
+   "title": "Keynote: Joon Son Chung",
+   "papers": [
+    "chung24_odyssey"
+   ]
+  },
+  {
+   "title": "Forensic Speaker Recognition",
+   "papers": [
+    "hughes24_odyssey",
+    "benamor24_odyssey",
+    "motlicek24_odyssey",
+    "gerlach24_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Verification",
+   "papers": [
+    "griot24_odyssey",
+    "lepage24_odyssey",
+    "fathan24_odyssey",
+    "zamana24_odyssey",
+    "thebaud24_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker and Language Recogniton",
+   "papers": [
+    "lonergan24_odyssey",
+    "espuna24_odyssey",
+    "dutta24_odyssey",
+    "jones24_odyssey"
+   ]
+  },
+  {
+   "title": "Speaker Diarization",
+   "papers": [
+    "raj24_odyssey",
+    "cui24_odyssey",
+    "alvareztrejos24_odyssey",
+    "kalda24_odyssey",
+    "zhang24_odyssey",
+    "thienpondt24_odyssey"
+   ]
+  },
+  {
+   "title": "Spoofing and Adversarial Attacks",
+   "papers": [
+    "he24_odyssey",
+    "dao24_odyssey",
+    "karo24_odyssey",
+    "shim24_odyssey",
+    "joshi24_odyssey"
+   ]
+  },
+  {
+   "title": "Speech Synthesis",
+   "papers": [
+    "du24_odyssey",
+    "zhou24_odyssey",
+    "gaudier24_odyssey",
+    "chandra24_odyssey"
+   ]
+  },
+  {
+   "title": "Speech Pathologies and Fairness",
+   "papers": [
+    "favaro24_odyssey",
+    "chouchane24_odyssey",
+    "bhatt24_odyssey"
+   ]
+  },
+  {
+   "title": "Applications and Multimedia",
+   "papers": [
+    "gougeh24_odyssey",
+    "lebourdais24_odyssey",
+    "gnanapraveen24_odyssey"
+   ]
+  },
+  {
+   "title": "Emotion Challenge 1",
+   "papers": [
+    "goncalves24_odyssey",
+    "harm24_odyssey",
+    "chen24_odyssey",
+    "costa24_odyssey"
+   ]
+  },
+  {
+   "title": "Emotion Challenge 2",
+   "papers": [
+    "pastor24_odyssey",
+    "shamsi24_odyssey",
+    "bellver24_odyssey",
+    "lafore24_odyssey",
+    "diatlova24_odyssey",
+    "duret24_odyssey"
+   ]
+  }
+ ],
+ "doi": "10.21437/odyssey.2024"
+}
