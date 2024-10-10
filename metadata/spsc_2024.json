@@ -1,0 +1,764 @@
+{
+ "series": "SPSC",
+ "title": "4th Symposium on Security and Privacy in Speech Communication",
+ "location": "Kos, Greece",
+ "startDate": "06/09/2024",
+ "endDate": "06/09/2024",
+ "URL": "https://spsc-symposium.de/",
+ "chair": "Chairs: Ingo Siegert, Jennifer Williams, Sneha Das and Natalia Tomashenko",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "SPSC",
+ "name": "spsc_2024",
+ "year": "2024",
+ "title1": "4th Symposium on Security and Privacy in Speech Communication",
+ "booklet": "intro.pdf",
+ "date": "6 September 2024",
+ "month": 9,
+ "day": 6,
+ "now": 1728467504543313,
+ "papers": {
+  "leschanowsky24_spsc": {
+   "authors": [
+    [
+     "Anna",
+     "Leschanowsky"
+    ],
+    [
+     "Sneha",
+     "Das"
+    ]
+   ],
+   "title": "Examining the Interplay Between Privacy and Fairness for Speech Processing: A Review and Perspective",
+   "original": "SPSC_Paper01",
+   "order": 1,
+   "page_count": 11,
+   "abstract": [
+    "Speech technology has been increasingly deployed in various areas of daily life including sensitive domains such as healthcare and law enforcement. For these technologies to be effective, they must work reliably for all users while preserving individual privacy. Although tradeoffs between privacy and utility, as well as fairness and utility, have been extensively researched, the specific interplay between privacy and fairness in speech processing remains underexplored. This review and position paper offers an overview of emerging privacy-fairness tradeoffs throughout the entire machine learning lifecycle for speech processing. By drawing on well-established frameworks on fairness and privacy, we examine existing biases and sources of privacy harm that coexist during the development of speech processing models. We then highlight how corresponding privacy-enhancing technologies have the potential to inadvertently increase these biases and how bias mitigation strategies may conversely reduce privacy. By raising open questions, we advocate for a comprehensive evaluation of privacy-fairness tradeoffs for speech technology and the development of privacy-enhancing and fairness-aware algorithms in this domain.\n"
+   ],
+   "p1": 1,
+   "pn": 11,
+   "doi": "10.21437/SPSC.2024-1",
+   "url": "spsc_2024/leschanowsky24_spsc.html"
+  },
+  "panariello24_spsc": {
+   "authors": [
+    [
+     "Michele",
+     "Panariello"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Preserving spoken content in voice anonymisation with character-level vocoder conditioning",
+   "original": "SPSC_Paper02",
+   "order": 2,
+   "page_count": 5,
+   "abstract": [
+    "Voice anonymisation can be used to help protect speaker privacy when speech data is shared with untrusted others. In most practical applications, while the voice identity should be sanitised, other attributes such as the spoken content should be preserved. There is always a trade-off; all approaches reported thus far sacrifice spoken content for anonymisation performance. We report what is, to the best of our knowledge, the first attempt to actively preserve spoken content in voice anonymisation. We show how the output of an auxiliary automatic speech recognition model can be used to condition the vocoder module of an anonymisation system using a set of learnable embedding dictionaries in order to preserve spoken content. Relative to a baseline approach, and for only a modest cost in anonymisation performance, the technique is successful in decreasing the word error rate computed from anonymised utterances by almost 60%.\n"
+   ],
+   "p1": 12,
+   "pn": 16,
+   "doi": "10.21437/SPSC.2024-2",
+   "url": "spsc_2024/panariello24_spsc.html"
+  },
+  "hintz24_spsc": {
+   "authors": [
+    [
+     "Jan",
+     "Hintz"
+    ],
+    [
+     "Ingo",
+     "Siegert"
+    ]
+   ],
+   "title": "CommonBench: A larger Scale Speaker Verification Benchmark",
+   "original": "SPSC_Paper03",
+   "order": 3,
+   "page_count": 4,
+   "abstract": [
+    "Speaker recognition has emerged as a significant topic in the field of linguistics, with implications for a diverse range of research areas, including identification, verification, and anonymisation. The current benchmarks already encompass a considerable number of languages but they are relatively limited in size, with approximately 40 or 1,200 speakers. This paper presents a curated very large, text-independent speaker verification benchmark based on the voluntary data donations of the Mozilla CommonVoice project. The corpus comprises 11,793 speakers and approximately 4.7 million speech samples. Our results highlight the robustness of current state-of-the-art speaker recognition systems. With ECAPA-TDNN archieving an EER of 3.09% on our benchmark, with almost ten times more speakers and nineteen times more comparison pairs, in comparison to 2.9% EER on VoxCeleb1-H.\n"
+   ],
+   "p1": 17,
+   "pn": 20,
+   "doi": "10.21437/SPSC.2024-3",
+   "url": "spsc_2024/hintz24_spsc.html"
+  },
+  "rahman24_spsc": {
+   "authors": [
+    [
+     "Mehtab Ur",
+     "Rahman"
+    ],
+    [
+     "Martha",
+     "Larson"
+    ],
+    [
+     "Louis ten",
+     "Bosch"
+    ],
+    [
+     "Cristian",
+     "Tejedor-García"
+    ]
+   ],
+   "title": "Scenario of Use Scheme: Threat Modelling for Speaker Privacy Protection in the Medical Domain",
+   "original": "SPSC_Paper04",
+   "order": 4,
+   "page_count": 5,
+   "abstract": [
+    "Speech recordings are being more frequently used to detect and monitor disease, leading to privacy concerns. Beyond cryptography, protection of speech can be addressed by approaches, such as perturbation, disentanglement, and re-synthesis, that eliminate sensitive information of the speaker, leaving the information necessary for medical analysis purposes. In order for such privacy protective approaches to be developed, clear and systematic specifications of assumptions concerning medical settings and the needs of medical professionals are necessary. In this paper, we propose a Scenario of Use Scheme that incorporates an Attacker Model, which characterizes the adversary against whom the speaker’s privacy must be defended, and a Protector Model, which specifies the defense. We discuss the connection of the scheme with previous work on speech privacy. Finally, we present a concrete example of a specified Scenario of Use and a set of experiments about protecting speaker data against gender inference attacks while maintaining utility for Parkinson’s detection.\n"
+   ],
+   "p1": 21,
+   "pn": 25,
+   "doi": "10.21437/SPSC.2024-4",
+   "url": "spsc_2024/rahman24_spsc.html"
+  },
+  "pizzi24_spsc": {
+   "authors": [
+    [
+     "Karla",
+     "Pizzi"
+    ],
+    [
+     "Matias Patricio Pizarro",
+     "Bustamante"
+    ],
+    [
+     "Asja",
+     "Fischer"
+    ]
+   ],
+   "title": "Reassessing Noise Augmentation Methods in the Context of Adversarial Speech",
+   "original": "SPSC_Paper05",
+   "order": 5,
+   "page_count": 7,
+   "abstract": [
+    "In this study, we investigate if noise-augmented training can concurrently improve adversarial robustness in automatic speech recognition (ASR) systems. We conduct a comparative analysis of the adversarial robustness of four different state-of-the-art ASR architectures, where each of the ASR architectures is trained under three different augmentation conditions: one subject to background noise, speed variations, and reverberations, another subject to speed variations only, and a third without any form of data augmentation. The results demonstrate that noise augmentation not only improves model performance on noisy speech but also the model’s robustness to adversarial attacks.\n"
+   ],
+   "p1": 26,
+   "pn": 32,
+   "doi": "10.21437/SPSC.2024-5",
+   "url": "spsc_2024/pizzi24_spsc.html"
+  },
+  "pizzi24b_spsc": {
+   "authors": [
+    [
+     "Karla",
+     "Pizzi"
+    ]
+   ],
+   "title": "Is Greek safer than English? Investigating the Influence of Language on Adversarial Audio Attacks",
+   "original": "SPSC_Paper06",
+   "order": 6,
+   "page_count": 6,
+   "abstract": [
+    "Adversarial attacks on audio systems have gained significant attention in recent years due to their potential security implications. These attacks exploit vulnerabilities in automatic speech recognition (ASR) systems by introducing imperceptible perturbations into audio samples, leading to manipulated transcriptions. While much research has focused on adversarial attacks in the English language, it is crucial to consider the broader linguistic landscape when evaluating the effectiveness and generalizability of such attacks. This paper aims to shed light on the necessity of considering other languages beyond English in the context of adversarial audio attacks. We explore how data availability, character sets and the language family influence the success rate of adversarial audio samples. By understanding the language-dependent nature of adversarial attacks, we aim to develop more robust defense mechanisms that cater to diverse linguistic contexts.\n"
+   ],
+   "p1": 33,
+   "pn": 38,
+   "doi": "10.21437/SPSC.2024-6",
+   "url": "spsc_2024/pizzi24b_spsc.html"
+  },
+  "webber24_spsc": {
+   "authors": [
+    [
+     "Jacob J",
+     "Webber"
+    ],
+    [
+     "Oliver",
+     "Watts"
+    ],
+    [
+     "Gustav Eje",
+     "Henter"
+    ],
+    [
+     "Jennifer",
+     "Williams"
+    ],
+    [
+     "Simon",
+     "King"
+    ]
+   ],
+   "title": "Voice Conversion-based Privacy through Adversarial Information Hiding",
+   "original": "SPSC_Paper07",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "Privacy-preserving voice conversion aims to remove only the attributes of speech audio that convey identity information, keeping other speech characteristics intact. This paper presents a mechanism for privacy-preserving voice conversion that allows controlling the leakage of identity-bearing information using adversarial information hiding. This enables a deliberate trade-off between maintaining source-speech characteristics and modification of speaker identity. As such, the approach improves on voice-conversion techniques like CycleGAN and StarGAN, which were not designed for privacy, meaning that converted speech may leak personal information in unpredictable ways. Our approach is also more flexible than ASR-TTS voice conversion pipelines, which by design discard all prosodic information linked to textual content. Evaluations show that the proposed system successfully modifies perceived speaker identity whilst well maintaining source lexical content.\n"
+   ],
+   "p1": 39,
+   "pn": 43,
+   "doi": "10.21437/SPSC.2024-7",
+   "url": "spsc_2024/webber24_spsc.html"
+  },
+  "pohlhausen24_spsc": {
+   "authors": [
+    [
+     "Jule",
+     "Pohlhausen"
+    ],
+    [
+     "Francesco",
+     "Nespoli"
+    ],
+    [
+     "Jörg",
+     "Bitzer"
+    ]
+   ],
+   "title": "Enhancing Speech Privacy with LPC Modifications",
+   "original": "SPSC_Paper08",
+   "order": 14,
+   "page_count": 6,
+   "abstract": [
+    "Objective monitoring in everyday life is valuable in health applications, e.g., analyzing recorded conversations as an indicator of well-being. However, these recordings require privacy preservation of the speech content and the speaker identity. This contribution explores a low-cost speaker anonymization technique feasible for edge computing, where modifications throughout linear predictive coding analysis transform voice characteristics. Privacy enhancement is measured by an increased word error rate for speech recognition and equal error rate for speaker verification. Further, we report the impact on utility tasks for conversation analysis, such as voice activity detection and speaker diarization. The evaluation shows that the modifications enhance speech privacy significantly but simultaneously degrade the utility performance. Overall, the specific application scenario and privacy requirements define the acceptable trade-off between privacy enhancement and utility degradation.\n"
+   ],
+   "p1": 80,
+   "pn": 85,
+   "doi": "10.21437/SPSC.2024-14",
+   "url": "spsc_2024/pohlhausen24_spsc.html"
+  },
+  "das24_spsc": {
+   "authors": [
+    [
+     "Arnab",
+     "Das"
+    ],
+    [
+     "Carlos",
+     "Franzreb"
+    ],
+    [
+     "Suhita",
+     "Ghosh"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Speecher: Towards Privacy Ensuring Decoder Only Speech Reconstruction Through Disentanglement for German Speech Anonymization Using Any-to-Many Voice Conversion",
+   "original": "SPSC_Paper09",
+   "order": 15,
+   "page_count": 6,
+   "abstract": [
+    "Voice conversion (VC) has emerged as an essential tool for speaker anonymization providing privacy in speech data. Recent reconstruction-based voice conversion (VC) frameworks learn to reconstruct speech by disentangling content, pitch, and speaker representations. Often these methods show poor content and prosody preservation. Furthermore, these models are constrained in their ability to execute cross-lingual voice conversion, where the source and target speech are from different languages due to the inherent coupling of the encoder and decoder components to specific languages within the model architecture. We propose the decoder-only reconstruction-based VC framework Speecher, trained with perceptual losses, and demonstrate that speech features can be extracted from pre-trained networks without additional encoder training. A thorough objective and subjective study using German speech data reveals that our framework improves prosody and content preservation while maintaining anonymization capabilities.\n"
+   ],
+   "p1": 86,
+   "pn": 91,
+   "doi": "10.21437/SPSC.2024-15",
+   "url": "spsc_2024/das24_spsc.html"
+  },
+  "sinha24_spsc": {
+   "authors": [
+    [
+     "Yamini",
+     "Sinha"
+    ],
+    [
+     "Mykola",
+     "Raivakhovskyi"
+    ],
+    [
+     "Martha",
+     "Schubert"
+    ],
+    [
+     "Ingo",
+     "Siegert"
+    ]
+   ],
+   "title": "Safeguarding Speech Content Style: Enhancing Privacy Beyond Speaker Identity",
+   "original": "SPSC_Paper10",
+   "order": 16,
+   "page_count": 10,
+   "abstract": [
+    "Recent efforts in speech privacy have predominantly focused on anonymizing acoustic speaker attributes, with less emphasis on protecting information conveyed through speech content. Although some research has addressed speech content privacy through content masking and text anonymization by removing personally identifiable information (PII), anonymizing the content style – the ”how” of what’s said – remains largelyunexplored. This paper addresses the challenge of safeguarding information revealed through speech style, not just speaker identity. Inspired by authorship obfuscation techniques, we anonymize the stylistic characteristics of spoken language, crucial in healthcare settings where speech analysis can reveal personal details. Our method paraphrases content style while preserving the original content. Using natural language processing, we identify and de-identify unique speech patterns of individuals. Results show a significant decline in identification accuracy, from 70% for the original text to 24% for the paraphrased text of interview transcripts, indicating a substantial level of authorship obfuscation. We evaluated the utility of the anonymized text with the LIWC tool, focusing on tone and positive and neg- ative emotions.\n"
+   ],
+   "p1": 92,
+   "pn": 101,
+   "doi": "10.21437/SPSC.2024-16",
+   "url": "spsc_2024/sinha24_spsc.html"
+  },
+  "franzreb24_spsc": {
+   "authors": [
+    [
+     "Carlos",
+     "Franzreb"
+    ],
+    [
+     "Arnab",
+     "Das"
+    ],
+    [
+     "Hannes",
+     "Gieseler"
+    ],
+    [
+     "Eva Charlotte",
+     "Jahn"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ],
+    [
+     "Sebastian",
+     "Möller"
+    ]
+   ],
+   "title": "Towards Audiovisual Anonymization for Remote Psychotherapy: a Subjective Evaluation",
+   "original": "SPSC_Paper11",
+   "order": 17,
+   "page_count": 9,
+   "abstract": [
+    "In the audiovisual domain, speaker anonymization is a multifaceted problem with numerous challenges. We design a study to assess the privacy of an audiovisual anonymization system, identifying its weaknesses to inform both the users and developers of the system. Additionally, it evaluates the utility of the anonymized samples regarding audio and video quality, intelligibility and emotion preservation. We evaluate German data on the topic of psychotherapy, with emotions annotated by trained therapists from spontaneous speech. Our participants comprise both experts and amateurs, highlighting the sensitivity of trained therapists. The results of the study unveil anonymization vulnerabilities that need to be addressed moving forward.\n"
+   ],
+   "p1": 102,
+   "pn": 110,
+   "doi": "10.21437/SPSC.2024-17",
+   "url": "spsc_2024/franzreb24_spsc.html"
+  },
+  "akti24_spsc": {
+   "authors": [
+    [
+     "Seymanur",
+     "Akti"
+    ],
+    [
+     "Tuan Nam",
+     "Nguyen"
+    ],
+    [
+     "Yining",
+     "Liu"
+    ],
+    [
+     "Alex",
+     "Waibel"
+    ]
+   ],
+   "title": "Voice Privacy - Investigating Voice Conversion Architecture with Different Bottleneck Features",
+   "original": "VPC_Paper01",
+   "order": 8,
+   "page_count": 6,
+   "abstract": [
+    "The presented work arises from a collaborative effort for the VoicePrivacy Challenge 2024 and the Symposium on Security and Privacy in Speech Communication 2024. We present and compare our voice anonymization systems designed in both cascaded and end-to-end conditions. In end-to-end condition, we investigate the FreeVC architecture based on a conditional variational autoencoder, enhanced with normalizing flow and adversarial training, and propose techniques for extracting clean content information. We disentangle content by imposing an information bottleneck on self-supervised pre-trained representations (such as WavLM and HuBERT), ASR bottleneck features, and ASR output in logits form. By incorporating pitch information, we aim to anonymize the original audio while preserving its prosody. In the cascaded condition, we first obtain the transcript using the reliable Whisper speech recognition system and then input this transcript into a TTS model that preserves prosody to anonymize the original audio. Our results show that two of the proposed systems can surpass the baselines by achieving either better EER or WER scores, while maintaining comparable UAR scores.\n"
+   ],
+   "p1": 44,
+   "pn": 49,
+   "doi": "10.21437/SPSC.2024-8",
+   "url": "spsc_2024/akti24_spsc.html"
+  },
+  "lee24_spsc": {
+   "authors": [
+    [
+     "Jeongae",
+     "Lee"
+    ],
+    [
+     "Taeje",
+     "Park"
+    ],
+    [
+     "Yeawon",
+     "You"
+    ]
+   ],
+   "title": "Voice Anonymization Using Emotion-Enriched Feature Integration with STT and TTS Models",
+   "original": "VPC_Paper02",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "Speech data contain extensive personal information, such as a speaker’s identity, health, ethnicity, and social status, making them subject to privacy laws like the GDPR. Voice anonymization poses the challenge of generating speech that preserves linguistic content while protecting the speaker’s privacy. In this paper, we present a system that integrates emotional and prosodic features through advanced STT and TTS models. Our experimental results demonstrate that while our approach enhances anonymization and maintains speech recognition accuracy, it shows a slight reduction in emotion recognition performance. Despite this, the anonymized utterances retain intelligibility, making them suitable for downstream applications.\n"
+   ],
+   "p1": 50,
+   "pn": 54,
+   "doi": "10.21437/SPSC.2024-9",
+   "url": "spsc_2024/lee24_spsc.html"
+  },
+  "hua24_spsc": {
+   "authors": [
+    [
+     "Hua",
+     "Hua"
+    ],
+    [
+     "Zengqiang",
+     "Shang"
+    ],
+    [
+     "Xuyuan",
+     "Li"
+    ],
+    [
+     "Peiyang",
+     "Shi"
+    ],
+    [
+     "Chen",
+     "Yang"
+    ],
+    [
+     "Li",
+     "Wang"
+    ],
+    [
+     "Pengyuan",
+     "Zhang"
+    ]
+   ],
+   "title": "Emotional Speech Anonymization: Preserving Emotion Characteristics in Pseudo-speaker Speech Generation",
+   "original": "VPC_Paper03",
+   "order": 10,
+   "page_count": 6,
+   "abstract": [
+    "Speech anonymization plays an important part in protecting individuals’ privacy in digital communication. However, ensuring anonymity while preserving the emotional and semantic integrity of speech poses significant challenges. This paper proposes a novel approach to address these challenges by integrating speaker-independent pre-trained emotion encoding into a fully end-to-end voice conversion model. By leveraging this approach, emotional information can be preserved and consistently represented in anonymized speech to a certain degree. This paper also introduces a new method that creates pseudospeakers through model fusion to bypass the mismatch problem between the pseudo-speaker and the target emotion. Experimental results indicate that our methodology achieves a nuanced balance, maintaining an EER exceeding 30%, while effectively enabling accurate emotion recognition of nearly 50% and achieving a WER below 5% in the VPC evaluation.\n"
+   ],
+   "p1": 55,
+   "pn": 60,
+   "doi": "10.21437/SPSC.2024-10",
+   "url": "spsc_2024/hua24_spsc.html"
+  },
+  "xinyuan24_spsc": {
+   "authors": [
+    [
+     "Henry Li",
+     "Xinyuan"
+    ],
+    [
+     "Zexin",
+     "Cai"
+    ],
+    [
+     "Ashi",
+     "Garg"
+    ],
+    [
+     "Kevin",
+     "Duh"
+    ],
+    [
+     "Leibny Paola",
+     "García-Perera"
+    ],
+    [
+     "Sanjeev",
+     "Khudanpur"
+    ],
+    [
+     "Nicholas",
+     "Andrews"
+    ],
+    [
+     "Matthew",
+     "Wiesner"
+    ]
+   ],
+   "title": "HLTCOE JHU Submission to the Voice Privacy Challenge 2024",
+   "original": "VPC_Paper04",
+   "order": 11,
+   "page_count": 6,
+   "abstract": [
+    "We present a number of systems for the Voice Privacy Challenge, including voice conversion based systems such as the kNN-VC method and the WavLM voice Conversion method, and text-to-speech (TTS) based systems including Whisper-VITS. We found that while voice conversion systems better preserve emotional content, they struggle to conceal speaker identity in semi-white-box attack scenarios; conversely, TTS methods perform better at anonymization and worse at emotion preservation. Finally, we propose a random admixture system which seeks to balance out the strengths and weaknesses of the two category of systems, achieving a strong EER of over 40% while maintaining UAR at a respectable 47%.\n"
+   ],
+   "p1": 61,
+   "pn": 66,
+   "doi": "10.21437/SPSC.2024-11",
+   "url": "spsc_2024/xinyuan24_spsc.html"
+  },
+  "yao24_spsc": {
+   "authors": [
+    [
+     "Jixun",
+     "Yao"
+    ],
+    [
+     "Nikita",
+     "Kuzmin"
+    ],
+    [
+     "Qing",
+     "Wang"
+    ],
+    [
+     "Pengcheng",
+     "Guo"
+    ],
+    [
+     "Ziqian",
+     "Ning"
+    ],
+    [
+     "Dake",
+     "Guo"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Eng-Siong",
+     "Chng"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "NPU-NTU System for Voice Privacy 2024 Challenge",
+   "original": "VPC_Paper05",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "Speaker anonymization is an effective privacy protection solution that conceals the speaker’s identity while preserving the linguistic content and paralinguistic information of the original speech. To establish a fair benchmark and facilitate comparison of speaker anonymization systems, the VoicePrivacy Challenge (VPC) was held in 2020 and 2022, with a new edition planned for 2024. In this paper, we describe our proposed speaker anonymization system for VPC 2024. Our system employs a disentangled neural codec architecture and a serial disentanglement strategy to gradually disentangle the global speaker identity and time-variant linguistic content and paralinguistic information. We introduce multiple distillation methods to disentangle linguistic content, speaker identity, and emotion. These methods include semantic distillation, supervised speaker distillation, and frame-level emotion distillation. Based on these distillations, we anonymize the original speaker identity using a weighted sum of a set of candidate speaker identities and a randomly generated speaker identity. Experimental results demonstrate that our proposed system outperforms all VPC 2024 baseline systems in privacy protection and paralinguistic preservation.\n"
+   ],
+   "p1": 67,
+   "pn": 71,
+   "doi": "10.21437/SPSC.2024-12",
+   "url": "spsc_2024/yao24_spsc.html"
+  },
+  "kuzmin24_spsc": {
+   "authors": [
+    [
+     "Nikita",
+     "Kuzmin"
+    ],
+    [
+     "Hieu-Thi",
+     "Luong"
+    ],
+    [
+     "Jixun",
+     "Yao"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Eng-Siong",
+     "Chng"
+    ]
+   ],
+   "title": "NTU-NPU System for Voice Privacy 2024 Challenge",
+   "original": "VPC_Paper06",
+   "order": 13,
+   "page_count": 8,
+   "abstract": [
+    "In this work, we describe our submissions for the Voice Privacy Challenge 2024. Rather than proposing a novel speech anonymization system, we enhance the provided baselines to meet all required conditions and improve evaluated metrics. Specifically, we implement emotion embedding and experiment with WavLM and ECAPA2 speaker embedders for the B3 baseline. Additionally, we compare different speaker and prosody anonymization techniques. Furthermore, we introduce Mean Reversion F0 for B5, which helps to enhance privacy without a loss in utility. Finally, we explore disentanglement models, namely ß-VAE and NaturalSpeech3 FACodec.\n"
+   ],
+   "p1": 72,
+   "pn": 79,
+   "doi": "10.21437/SPSC.2024-13",
+   "url": "spsc_2024/kuzmin24_spsc.html"
+  },
+  "blouch24_spsc": {
+   "authors": [
+    [
+     "Olivier Le",
+     "Blouch"
+    ],
+    [
+     "Rayane",
+     "BAKARI"
+    ],
+    [
+     "Nicolas",
+     "Gengembre"
+    ]
+   ],
+   "title": "Tuning DISSC for Voice Privacy Challenge 2024",
+   "original": "VPC_Paper07",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces our systems submitted to Voice Privacy Challenge 2024. The aim of this work is to analyze potential levers for improving existing voice conversion frameworks used as voice anonymization systems. We concentrated our efforts on an available and modular voice conversion framework named DISSC. Its modularity enables an ablation study focused on improving the three main expected qualities of anonymized speech, namely its intelligibility, the anonymization robustness and the preservation of the original expressiveness. The experiments carried out confirmed a number of assertions, such as the importance of using datasets rich in expressiveness, or of modifying the prosody of the source speaker to improve the quality of anonymization.\n"
+   ],
+   "p1": 111,
+   "pn": 115,
+   "doi": "10.21437/SPSC.2024-18",
+   "url": "spsc_2024/blouch24_spsc.html"
+  },
+  "gu24_spsc": {
+   "authors": [
+    [
+     "Wenju",
+     "Gu"
+    ],
+    [
+     "Zeyan",
+     "Liu"
+    ],
+    [
+     "Liping",
+     "Chen"
+    ],
+    [
+     "Rui",
+     "Wang"
+    ],
+    [
+     "Chenyang",
+     "Guo"
+    ],
+    [
+     "Wu",
+     "Guo"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Zhen-Hua",
+     "Ling"
+    ]
+   ],
+   "title": "A Voice Anonymization Method Based on Content and Non-content Disentanglement for Emotion Preservation",
+   "original": "VPC_Paper08",
+   "order": 19,
+   "page_count": 5,
+   "abstract": [
+    "State-of-the-art voice anonymization methods disentangle speaker attributes from the original speech and generate anonymized speech by replacing these attributes with those of a pseudo-speaker. Regarding the requirements of voice anonymization, this paper focuses on preserving the emotion of the original speech as well as protecting its voice privacy. To this end, a method is proposed that employs information disentanglement to characterize linguistic content and non-content attributes separately, with the latter including both speaker and emotion characteristics. During anonymization, the reference utterance for the pseudo-speaker is selected from a predefined pool that matches the emotional status of the original utterance. Thereafter, voice anonymization is achieved by substituting the speaker and emotion of the original utterance with those of the reference. Experiments conducted on the VoicePrivacy Challenge 2024 configuration demonstrated the effectiveness of the proposed method in both voice privacy protection and emotion preservation. Audio samples can be found in https://voiceprivacy.github.io/content-non-content-disentanglement/.\n"
+   ],
+   "p1": 116,
+   "pn": 120,
+   "doi": "10.21437/SPSC.2024-19",
+   "url": "spsc_2024/gu24_spsc.html"
+  },
+  "das24b_spsc": {
+   "authors": [
+    [
+     "Arnab",
+     "Das"
+    ],
+    [
+     "Carlos",
+     "Franzreb"
+    ],
+    [
+     "Tim",
+     "Herzig"
+    ],
+    [
+     "Philipp",
+     "Pirlet"
+    ],
+    [
+     "Tim",
+     "Polzehl"
+    ]
+   ],
+   "title": "Comparing Speech Anonymization Efficacy by Voice Conversion Using KNN and Disentangled Speaker Feature Representations",
+   "original": "VPC_Paper09",
+   "order": 20,
+   "page_count": 6,
+   "abstract": [
+    "The growing use of speech-based cloud devices and services has heightened the risk of identity theft and misuse of personal information. Speech anonymization techniques help exercise our right to privacy and shield us from falling prey to such malpractices. In this paper, we propose three speech anonymization systems to be submitted to the Voice Privacy Challenge 2024 and describe them in detail. Voice anonymization systems often lack utility for downstream applications, resulting in issues like poor emotion preservation or low intelligibility. This has led to research focused on balancing the privacy-utility trade-off. We propose two methods, that use the KNN-based voice conversion (VC) system as a core anonymization method and show improved intelligibility and emotion preservation. We also propose to employ a vector quantized mutual information-based VC system that learns to distinguish between speaker and content features and alters speaker information during inference time to achieve speaker anonymity. We evaluate these two types of voice conversion systems within the framework of speaker anonymization and analyze the utility-privacy trade-off achieved by each system.\n"
+   ],
+   "p1": 121,
+   "pn": 126,
+   "doi": "10.21437/SPSC.2024-20",
+   "url": "spsc_2024/das24b_spsc.html"
+  },
+  "leang24_spsc": {
+   "authors": [
+    [
+     "Sotheara",
+     "Leang"
+    ],
+    [
+     "Anderson",
+     "Augusma"
+    ],
+    [
+     "Dominique",
+     "Vaufreydaz"
+    ],
+    [
+     "Eric",
+     "Castelli"
+    ],
+    [
+     "Sethserey",
+     "Sam"
+    ],
+    [
+     "Frédérique",
+     "Letué"
+    ]
+   ],
+   "title": "Exploring VQ-VAE with Prosody Parameters for Speaker Anonymization",
+   "original": "VPC_Paper10",
+   "order": 21,
+   "page_count": 5,
+   "abstract": [
+    "Human speech conveys linguistic content, prosody, and speaker identity. We propose a novel speaker anonymization approach using an end-to-end network based on a Vector-Quantized Variational Auto-Encoder (VQ-VAE). This approach disentangles these components to specifically target and modify the speaker identity while preserving the linguistic and emotional content of the speech. During synthesis, the decoder is conditioned on both speaker and prosody information, allowing for precise adjustments to speaker identification. Our findings indicate that this method outperforms most baseline techniques in preserving emotional information. However, it exhibits limited performance, emphasizing the need for further improvements in speaker anonymization.\n"
+   ],
+   "p1": 127,
+   "pn": 131,
+   "doi": "10.21437/SPSC.2024-21",
+   "url": "spsc_2024/leang24_spsc.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Security and Privacy in Speech Communication",
+   "papers": [
+    "leschanowsky24_spsc",
+    "panariello24_spsc",
+    "hintz24_spsc",
+    "rahman24_spsc",
+    "pizzi24_spsc",
+    "pizzi24b_spsc",
+    "webber24_spsc"
+   ]
+  },
+  {
+   "title": "Voice Privacy Challenge",
+   "papers": [
+    "akti24_spsc",
+    "lee24_spsc",
+    "hua24_spsc",
+    "xinyuan24_spsc",
+    "yao24_spsc",
+    "kuzmin24_spsc"
+   ]
+  },
+  {
+   "title": "Security and Privacy in Speech Communication and The VoicePrivacy Challenge (Poster Session)",
+   "papers": [
+    "pohlhausen24_spsc",
+    "das24_spsc",
+    "sinha24_spsc",
+    "franzreb24_spsc",
+    "blouch24_spsc",
+    "gu24_spsc",
+    "das24b_spsc",
+    "leang24_spsc"
+   ]
+  }
+ ],
+ "doi": "10.21437/SPSC.2024"
+}
