@@ -1,0 +1,968 @@
+{
+ "series": "CHiME",
+ "title": "8th International Workshop on Speech Processing in Everyday Environments (CHiME 2024)",
+ "location": "Kos, Greece",
+ "startDate": "6/9/2024",
+ "endDate": "6/9/2024",
+ "URL": "https://www.chimechallenge.org/",
+ "chair": "Chairs: Jon Barker, Shinji Watanabe, Michael Mandel, Marc Delcroix and Leibny Paola Garcia Perera",
+ "conf": "CHiME",
+ "name": "chime_2024",
+ "year": "2024",
+ "title1": "8th International Workshop on Speech Processing in Everyday Environments",
+ "title2": "(CHiME 2024)",
+ "booklet": "intro.pdf",
+ "date": "6 September 2024",
+ "month": 9,
+ "day": 6,
+ "now": 1729606085737997,
+ "papers": {
+  "vinnikov24_chime": {
+   "authors": [
+    [
+     "Alon",
+     "Vinnikov"
+    ],
+    [
+     "Amir Ivry",
+     "Mark"
+    ],
+    [
+     "Aviv",
+     "Hurvitz"
+    ],
+    [
+     "Igor",
+     "Abramovski"
+    ],
+    [
+     "Sharon",
+     "Koubi"
+    ],
+    [
+     "Ilya",
+     "Gurvich"
+    ],
+    [
+     "Shai",
+     "Peer"
+    ],
+    [
+     "Xiong",
+     "Xiao"
+    ],
+    [
+     "Benjamin",
+     "Elizalde"
+    ],
+    [
+     "Naoyuki",
+     "Kanda"
+    ],
+    [
+     "Xiaofei",
+     "Wang"
+    ],
+    [
+     "Shalev",
+     "Shaer"
+    ],
+    [
+     "Stav",
+     "Yagev"
+    ],
+    [
+     "Yossi",
+     "Asher"
+    ],
+    [
+     "Sunit",
+     "Sivasankaran"
+    ],
+    [
+     "Yifan",
+     "Gong"
+    ],
+    [
+     "Min",
+     "Tang"
+    ],
+    [
+     "Huaming",
+     "Wang"
+    ],
+    [
+     "Eyal",
+     "Krupka"
+    ]
+   ],
+   "title": " NOTSOFAR-1 Challenge: New Datasets, Baseline, and Tasks for Distant Meeting Transcription",
+   "original": "CHiME_2024_paper_vinnikov",
+   "order": 2,
+   "page_count": 0,
+   "abstract": [
+    "We introduce the first Natural Office Talkers in Settings of Far-field Audio Recordings (NOTSOFAR) Challenge, datasets, and baseline system. The challenge focuses on distant speaker diarization and automatic speech recognition (DASR) in meeting scenarios, with single-channel and known-geometry multichannel tracks, using a single device. We launch two new datasets: First, a benchmark dataset of 280 English meetings, averaging 6 minutes each, capturing a broad spectrum of acoustic and conversational patterns across 30 rooms with 4-8 attendees. Second, a 1000-hour simulated training dataset, synthesized for real-world generalization, incorporating 15,000 real acoustic transfer functions. The NOTSOFAR-1 Challenge aims to advance research in the field of DASR, providing key resources to unlock the potential of data-driven methods, which we believe are currently constrained by the absence of comprehensive high-quality training and benchmark datasets.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "bibbo24_chime": {
+   "authors": [
+    [
+     "Gabriel",
+     "Bibbó"
+    ],
+    [
+     "Thomas",
+     "Deacon"
+    ],
+    [
+     "Arshdeep",
+     "Singh"
+    ],
+    [
+     "Mark D.",
+     "Plumbley"
+    ]
+   ],
+   "title": "The Sounds of Home: A Speech-Removed Residential Audio Dataset for Sound Event Detection",
+   "original": "CHiME_2024_paper_bibbo",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents a residential audio dataset to support sound event detection research for smart home applications aimed at promoting wellbeing for older adults. The dataset is constructed by deploying audio recording systems in the homes of 8 participants aged 55-80 years for a 7-day period. Acoustic characteristics are documented through detailed floor plans and construction material information to enable replication of the recording environments for AI model deployment. A novel automated speech removal pipeline is developed, using pretrained audio neural networks to detect and remove segments containing spoken voice, while preserving segments containing other sound events. The resulting dataset consists of privacy compliant audio recordings that accurately capture the soundscapes and activities of daily living within residential spaces. The paper details the dataset creation methodology, the speech removal pipeline utilizing cascaded model architectures, and an analysis of the vocal label distribution to validate the speech removal process. This dataset enables the development and benchmarking of sound event detection models tailored specifically for in-home applications.\n"
+   ],
+   "p1": 49,
+   "pn": 53,
+   "doi": "10.21437/CHiME.2024-11",
+   "url": "chime_2024/bibbo24_chime.html"
+  },
+  "broughton24_chime": {
+   "authors": [
+    [
+     "Samuel J",
+     "Broughton"
+    ],
+    [
+     "Lahiru T",
+     "Samarakoon"
+    ],
+    [
+     "Harrison",
+     "Zhu"
+    ]
+   ],
+   "title": "The Fano Labs System for the CHiME-8 NOTSOFAR-1 Challenge Single-channel Track",
+   "original": "CHiME_2024_paper_broughton",
+   "order": 14,
+   "page_count": 5,
+   "abstract": [
+    "This technical report outlines our submissions to the CHiME-8 NOTSOFAR-1 Challenge single-channel track, which focuses on distant speaker diarization and automatic speech recognition. This track evaluates far-field meeting transcriptions on a single audio channel using a single device. Our submission features a highly streamlined and efficient system incorporating both a non-autoregessive speaker diarization and automatic speech recognition model. Each submitted system outperforms the baseline in terms of Time-Constrained minimum Permutation Word Error Rate (tcpWER) on the development set. We provide an analysis on models sizes and inference throughput under constrained computational resources with the most practical system using less than 100 million parameters. Additionally, we report new state-of-the-art results for the AMI Mix and AMI SDM datasets with DER values of 11.83 % and 17.55 %, respectively.\n"
+   ],
+   "p1": 54,
+   "pn": 58,
+   "doi": "10.21437/CHiME.2024-12",
+   "url": "chime_2024/broughton24_chime.html"
+  },
+  "cornell24_chime": {
+   "authors": [
+    [
+     "Samuele",
+     "Cornell"
+    ],
+    [
+     "Tae Jin",
+     "Park"
+    ],
+    [
+     "He",
+     "Huang"
+    ],
+    [
+     "Christoph",
+     "Boeddeker"
+    ],
+    [
+     "Xuankai",
+     "Chang"
+    ],
+    [
+     "Matthew",
+     "Maciejewski"
+    ],
+    [
+     "Matthew S",
+     "Wiesner"
+    ],
+    [
+     "Paola",
+     "Garcia"
+    ],
+    [
+     "Shinji",
+     "Watanabe"
+    ]
+   ],
+   "title": "The CHiME-8 DASR Challenge for Generalizable and Array Agnostic Distant Automatic Speech Recognition and Diarization",
+   "original": "CHiME_2024_paper_cornell",
+   "order": 1,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents the CHiME-8 DASR challenge which carries on from the previous edition CHiME-7 DASR (C7DASR) and the past CHiME-6 challenge. It focuses on joint multi-channel distant speech recognition (DASR) and diarization with one or more, possibly heterogeneous, devices. The main goal is to spur research towards meeting transcription approaches that can generalize across arbitrary number of speakers, diverse settings (formal vs. informal conversations), meeting duration, wide-variety of acoustic scenarios and different recording configurations. Novelties with respect to C7DASR include: i) the addition of NOTSOFAR-1, an additional office/corporate meeting scenario, ii) a manually corrected Mixer 6 development set, iii) a new track in which we allow the use of large-language models (LLM) iv) a jury award mechanism to encourage participants to explore also more practical and innovative solutions. To lower the entry barrier for participants, we provide a standalone toolkit1 for downloading and preparing such datasets as well as performing text normalization and scoring their submissions. Furthermore, this year we also provide two baseline systems, one directly inherited from C7DASR and based on ESPnet and another one developed on NeMo and based on NeMo’s team submission in last year C7DASR. Baseline system results suggest that the addition of the NOTSOFAR-1 scenario significantly increases the task’s difficulty due to its high number of speakers and very short duration."
+   ],
+   "p1": 1,
+   "pn": 6,
+   "doi": "10.21437/CHiME.2024-1",
+   "url": "chime_2024/cornell24_chime.html"
+  },
+  "hirano24_chime": {
+   "authors": [
+    [
+     "Yuta",
+     "Hirano"
+    ],
+    [
+     "Mau",
+     "Nguyen"
+    ],
+    [
+     "Kakeru",
+     "Azuma"
+    ],
+    [
+     "Jan Meyer",
+     "Saragih"
+    ],
+    [
+     "Sakriani",
+     "Sakti"
+    ]
+   ],
+   "title": "The NAIST System for the CHiME-8 NOTSOFAR-1 Task",
+   "original": "CHiME_2024_paper_hirano",
+   "order": 15,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes the NAIST system for the NOTSOFAR-1 (Natural Office Talkers in Settings Of Far-field Audio Recordings) task of the CHiME-8 challenge. Although there is a critical need for real-time processing in everyday applications, most evaluations in the CHiME challenge focus solely on reducing word error rate. Here, we aim to reduce inference speed while improving recognition accuracy. To tackle this issue, we propose enhancing the modular architecture of the baseline by modifying both the CSS and ASR modules. Specifically, our ASR module was built on WavLM-large feature extractor and Zipformer transducer. Additionally, we employed block-wise weighted prediction error (WPE) for dereverberation before the speech separation module. Our system achieved a relative tcpWER reduction of 11.6% over the baseline system in the single-channel track and 18.7% in the multi-channel track. Moreover, our system is two to six times faster than the baseline system while achieving better tcpWER results.This paper presents the CHiME-8 DASR challenge which carries on from the previous edition CHiME-7 DASR (C7DASR) and the past CHiME-6 challenge. It focuses on joint multi-channel distant speech recognition (DASR) and diarization with one or more, possibly heterogeneous, devices. The main goal is to spur research towards meeting transcription approaches that can generalize across arbitrary number of speakers, diverse settings (formal vs. informal conversations), meeting duration, wide-variety of acoustic scenarios and different recording configurations. Novelties with respect to C7DASR include: i) the addition of NOTSOFAR-1, an additional office/corporate meeting scenario, ii) a manually corrected Mixer 6 development set, iii) a new track in which we allow the use of large-language models (LLM) iv) a jury award mechanism to encourage participants to explore also more practical and innovative solutions. To lower the entry barrier for participants, we provide a standalone toolkit1 for downloading and preparing such datasets as well as performing text normalization and scoring their submissions. Furthermore, this year we also provide two baseline systems, one directly inherited from C7DASR and based on ESPnet and another one developed on NeMo and based on NeMo’s team submission in last year C7DASR. Baseline system results suggest that the addition of the NOTSOFAR-1 scenario significantly increases the task’s difficulty due to its high number of speakers and very short duration."
+   ],
+   "p1": 59,
+   "pn": 63,
+   "doi": "10.21437/CHiME.2024-13",
+   "url": "chime_2024/hirano24_chime.html"
+  },
+  "hu24_chime": {
+   "authors": [
+    [
+     "Qinwen",
+     "Hu"
+    ],
+    [
+     "Tianchi",
+     "Sun"
+    ],
+    [
+     "Xinan",
+     "Chen"
+    ],
+    [
+     "Xiaobin",
+     "Rong"
+    ],
+    [
+     "Jing",
+     "Lu"
+    ]
+   ],
+   "title": "System Description of NJU-AALab's Submission for the CHiME-8 NOTSOFAR-1 Challenge",
+   "original": "CHiME_2024_paper_hu",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "The paper describes the NJU-AALab team’s entry to the Natural Office Talkers in Settings of Far-field Audio Recordings (NOTSOFAR-1) task, part of the CHiME-8 Challenge. The approach uses a pipeline consisting of a continuous speech separation (CSS) module based on TF-GridNet, the state-of-the-art speech separation model, a speech recognition module utilizing Whisper ”large-v2”, and a speaker diarization module based on the multilevel normalized maximum eigengap-based spectral clustering (NME-SC) method. Our proposed system achieves a time-constrained minimum permutation word error rate (tcpWER) of 33.5% on the evaluation set and 36.4% on the development set of the NOTSOFAR-1 real recordings, which outperforms the baseline by a large margin and ranks 3rd in the single track of the challenge.\n"
+   ],
+   "p1": 26,
+   "pn": 30,
+   "doi": "10.21437/CHiME.2024-6",
+   "url": "chime_2024/hu24_chime.html"
+  },
+  "huang24_chime": {
+   "authors": [
+    [
+     "Kaixun",
+     "Huang"
+    ],
+    [
+     "Wei",
+     "Rao"
+    ],
+    [
+     "Yue",
+     "Li"
+    ],
+    [
+     "Hongji",
+     "Wang"
+    ],
+    [
+     "Shen",
+     "Huang"
+    ],
+    [
+     "Yannan",
+     "Wang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "The NPU-TEA System Report for the CHiME-8 MMCSG Challenge",
+   "original": "CHiME_2024_paper_huang",
+   "order": 9,
+   "page_count": 3,
+   "abstract": [
+    "This technical report describes the NPU-TEA submissions for the CHiME-8 MMCSG Challenge. In this challenge, our submitted systems are categorized into streaming and non-streaming systems based on latency thresholds. Only audio information is utilized in the submissions. For the streaming system, the same framework as the first baseline system is used. It covers 150ms-, 350ms- and 1000ms-latency thresholds. For the non-streaming system (greater than 1000ms), we submit three different systems. Experimental results indicate that the best streaming system achieved around 4% improvement over the baseline system reported in the challenge website."
+   ],
+   "p1": 37,
+   "pn": 39,
+   "doi": "10.21437/CHiME.2024-8",
+   "url": "chime_2024/huang24_chime.html"
+  },
+  "huang24b_chime": {
+   "authors": [
+    [
+     "Kaixun",
+     "Huang"
+    ],
+    [
+     "Yue",
+     "Li"
+    ],
+    [
+     "Ziqian",
+     "Wang"
+    ],
+    [
+     "Hongji",
+     "Wang"
+    ],
+    [
+     "Wei",
+     "Rao"
+    ],
+    [
+     "Zhaokai",
+     "Sun"
+    ],
+    [
+     "Zhiyuan",
+     "Tang"
+    ],
+    [
+     "Shen",
+     "Huang"
+    ],
+    [
+     "Yannan",
+     "Wang"
+    ],
+    [
+     "Tao",
+     "Yu"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ],
+    [
+     "Shi-dong",
+     "Shang"
+    ]
+   ],
+   "title": "The NPU-TEA System for the CHiME-8 NOTSOFAR-1 Challenge",
+   "original": "CHiME_2024_paper_huang2",
+   "order": 11,
+   "page_count": 4,
+   "abstract": [
+    "This paper presents NPU-TEA’s system submitted to the CHiME-8 NOTSOFAR-1 Challenge. Our system follows the architecture outlined in the official baseline, which comprises continuous speech separation (CSS), automatic speech recognition (ASR), and speaker classification (SD). We enhanced the CSS module by integrating WavLM Large, utilized a language model Rescore to assist ASR decoding, and replaced the speaker embedding extraction model in the SD module with ResNet293. Without utilizing any additional core challenge datasets beyond NOTSOFAR, our best systems achieve tcpWERs of 28.58% and 21.42% on the single-channel and multi- channel dev-2 datasets of NOTSOFAR-1, respectively, which represents a relative reduction of 37.65% and 32.11% compared to the baseline systems.\n"
+   ],
+   "p1": 45,
+   "pn": 48,
+   "doi": "10.21437/CHiME.2024-10",
+   "url": "chime_2024/huang24b_chime.html"
+  },
+  "huang24c_chime": {
+   "authors": [
+    [
+     "Shangkun",
+     "Huang"
+    ],
+    [
+     "Dejun",
+     "Zhang"
+    ],
+    [
+     "Yankai",
+     "Wang"
+    ],
+    [
+     "Jing",
+     "Deng"
+    ],
+    [
+     "Rong",
+     "Zheng"
+    ]
+   ],
+   "title": "The FOSAFER system for the CHiME-8 MMCSG Challenge",
+   "original": "CHiME_2024_paper_huang3",
+   "order": 16,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the system designed by FOSAFER for the CHiME-8 MMCSG challenge. Our system generates text transcriptions with speaker attributes from natural conversations between two participants in a streaming format. To meet the challenge requirements, we developed a directed automatic speech recognition (ASR) system based on a multi-channel microphone array. The system follows a two-stage training approach and incorporates the SpecAugment dynamic data augmentation technique to improve model performance. Its architecture includes a front-end for speaker label detection and crosstalk suppression using the Non-Linearly Constrained Minimum Varianc (NLCMV) beamformer, and a back-end with a streaming hybrid Transducer ASR model that integrates CTC and RNNT decoders. Additionally, the system handles overlapping speech and speaker switching through Sequential Output Training (SOT). Experimental results demonstrate that our system significantly outperforms the official baseline across various delay conditions, underscoring its effectiveness in complex, real-world environments and its potential for practical applications.\n"
+   ],
+   "p1": 64,
+   "pn": 68,
+   "doi": "10.21437/CHiME.2024-14",
+   "url": "chime_2024/huang24c_chime.html"
+  },
+  "jiang24_chime": {
+   "authors": [
+    [
+     "Ya",
+     "Jiang"
+    ],
+    [
+     "Hongbo",
+     "Lan"
+    ],
+    [
+     "Jun",
+     "Du"
+    ],
+    [
+     "Qing",
+     "Wang"
+    ],
+    [
+     "Shutong",
+     "Niu"
+    ]
+   ],
+   "title": "The USTC-NERCSLIP Systems for the CHiME-8 MMCSG Challenge",
+   "original": "CHiME_2024_paper_jiang",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "In the two-person conversation scenario with one wearing smart glasses, transcribing and displaying the speaker’s content in real-time is an intriguing application, providing a priori information for subsequent tasks such as translation and comprehension. Meanwhile, multi-modal data captured from the smart glasses is scarce. Therefore, we propose utilizing simulation data with multiple overlap rates and a one-to-one matching training strategy to narrow down the deviation for the model training between real and simulated data. In addition, combining IMU unit data in the model can assist the audio to achieve better real-time speech recognition performance."
+   ],
+   "p1": 40,
+   "pn": 44,
+   "doi": "10.21437/CHiME.2024-9",
+   "url": "chime_2024/jiang24_chime.html"
+  },
+  "kalda24_chime": {
+   "authors": [
+    [
+     "Joonas",
+     "Kalda"
+    ],
+    [
+     "Tanel",
+     "Alumae"
+    ],
+    [
+     "Séverin",
+     "Baroudi"
+    ],
+    [
+     "Martin",
+     "Lebourdais"
+    ],
+    [
+     "Hervé",
+     "Bredin"
+    ],
+    [
+     "Ricard",
+     "Marxer"
+    ]
+   ],
+   "title": "ToTaTo System Descriptions for the NOTSOFAR1 Challenge",
+   "original": "CHiME_2024_paper_kalda",
+   "order": 6,
+   "page_count": 3,
+   "abstract": [
+    "This technical report describes the submission of team ToTaTo to the NOTSOFAR1 challenge. Our team only participated in the single-channel track of the challenge. Our best-performing system utilizes a Whisper model fine-tuned on the challenge dataset and voice-converted data. It performs CSS through the recently proposed PixIT framework which allows to skip speaker diarization altogether. It achieves a tcpWER score of 41.2% on the challenge evaluation set.\n"
+   ],
+   "p1": 23,
+   "pn": 25,
+   "doi": "10.21437/CHiME.2024-5",
+   "url": "chime_2024/kalda24_chime.html"
+  },
+  "kamo24_chime": {
+   "authors": [
+    [
+     "Naoyuki",
+     "Kamo"
+    ],
+    [
+     "Naohiro",
+     "Tawara"
+    ],
+    [
+     "Atsushi",
+     "Ando"
+    ],
+    [
+     "Takatomo",
+     "Kano"
+    ],
+    [
+     "Hiroshi",
+     "Sato"
+    ],
+    [
+     "Rintaro",
+     "Ikeshita"
+    ],
+    [
+     "Takafumi",
+     "Moriya"
+    ],
+    [
+     "Shota",
+     "Horiguchi"
+    ],
+    [
+     "Kohei",
+     "Matsuura"
+    ],
+    [
+     "Atsunori",
+     "Ogawa"
+    ],
+    [
+     "Alexis",
+     "Plaquet"
+    ],
+    [
+     "Takanori",
+     "Ashihara"
+    ],
+    [
+     "Tsubasa",
+     "Ochiai"
+    ],
+    [
+     "Masato",
+     "Mimura"
+    ],
+    [
+     "Marc",
+     "Delcroix"
+    ],
+    [
+     "Tomohiro",
+     "Nakatani"
+    ],
+    [
+     "Taichi",
+     "Asami"
+    ],
+    [
+     "Shoko",
+     "Araki"
+    ]
+   ],
+   "title": "NTT Multi-Speaker ASR System for the DASR Task of CHiME-8 Challenge",
+   "original": "CHiME_2024_paper_kamo",
+   "order": 17,
+   "page_count": 6,
+   "abstract": [
+    "We present a distant automatic speech recognition (DASR) system developed for the CHiME-8 DASR track. It consists of a diarization first pipeline. For diarization, we use end-to-end diarization with vector clustering (EEND-VC) followed by target speaker voice activity detection (TS-VAD) refinement. To deal with various numbers of speakers, we developed a new multichannel speaker counting approach. We then apply guided source separation (GSS) with several improvements to the baseline system. Finally, we perform ASR using a combination of systems built from strong pre-trained models. Our proposed system achieves a macro tcpWER of 22.0 % on the dev set, which is a more than 60% relative improvement over the baseline.\n"
+   ],
+   "p1": 69,
+   "pn": 74,
+   "doi": "10.21437/CHiME.2024-15",
+   "url": "chime_2024/kamo24_chime.html"
+  },
+  "mitrofanov24_chime": {
+   "authors": [
+    [
+     "Anton",
+     "Mitrofanov"
+    ],
+    [
+     "Tatiana",
+     "Prisyach"
+    ],
+    [
+     "Tatiana",
+     "Timofeeva"
+    ],
+    [
+     "Sergey",
+     "Novoselov"
+    ],
+    [
+     "Maxim",
+     "Korenevsky"
+    ],
+    [
+     "Yuri",
+     "Khokhlov"
+    ],
+    [
+     "Artem",
+     "Akulov"
+    ],
+    [
+     "Aleksandr",
+     "Anikin"
+    ],
+    [
+     "Roman",
+     "Khalili"
+    ],
+    [
+     "Iurii",
+     "Lezhenin"
+    ],
+    [
+     "Aleksandr",
+     "Melnikov"
+    ],
+    [
+     "Dmitriy",
+     "Miroshnichenko"
+    ],
+    [
+     "Nikita",
+     "Mamaev"
+    ],
+    [
+     "Ilya",
+     "Odegov"
+    ],
+    [
+     "Olga",
+     "Rudnitskaya"
+    ],
+    [
+     "Aleksei",
+     "Romanenko"
+    ]
+   ],
+   "title": "STCON System for the CHiME-8 Challenge",
+   "original": "CHiME_2024_paper_mitrofanov",
+   "order": 4,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes the STCON system for the CHiME-8 Challenge Task 1 (DASR) aimed at distant automatic speech transcription and diarization with multiple recording devices. Our main attention was paid to carefully trained and tuned diarization pipeline and speaker counting. This allowed to significantly reduce diarization error rate (DER) and obtain more reliable segments for speech separation and recognition. To improve source separation, we designed a Guided Target speaker Extraction (G-TSE) model and used it in conjunction with the traditional Guided Source Separation (GSS) method. To train various parts of our pipeline, we investigated several data augmentation and generation techniques, which helped us to improve the overall system quality."
+   ],
+   "p1": 13,
+   "pn": 17,
+   "doi": "10.21437/CHiME.2024-3",
+   "url": "chime_2024/mitrofanov24_chime.html"
+  },
+  "niu24_chime": {
+   "authors": [
+    [
+     "Shutong",
+     "Niu"
+    ],
+    [
+     "Ruoyu",
+     "Wang"
+    ],
+    [
+     "Jun",
+     "Du"
+    ],
+    [
+     "Gaobin",
+     "Yang"
+    ],
+    [
+     "Yanhui",
+     "Tu"
+    ],
+    [
+     "Siyuan",
+     "Wu"
+    ],
+    [
+     "Shuangqing",
+     "Qian"
+    ],
+    [
+     "Huaxin",
+     "Wu"
+    ],
+    [
+     "Haitao",
+     "Xu"
+    ],
+    [
+     "Xueyang",
+     "Zhang"
+    ],
+    [
+     "Guolong",
+     "Zhong"
+    ],
+    [
+     "Xindi",
+     "Yu"
+    ],
+    [
+     "Jieru",
+     "Chen"
+    ],
+    [
+     "Mengzhi",
+     "Wang"
+    ],
+    [
+     "Di",
+     "Cai"
+    ],
+    [
+     "Tian",
+     "Gao"
+    ],
+    [
+     "Genshun",
+     "Wan"
+    ],
+    [
+     "Feng",
+     "Ma"
+    ],
+    [
+     "Jia",
+     "Pan"
+    ],
+    [
+     "Jianqing",
+     "Gao"
+    ]
+   ],
+   "title": "The USTC-NERCSLIP Systems for the CHiME-8 NOTSOFAR-1 Challenge",
+   "original": "CHiME_2024_paper_niu",
+   "order": 8,
+   "page_count": 6,
+   "abstract": [
+    "This technical report outlines our submission system for the CHiME-8 NOTSOFAR-1 Challenge [1]. The primary difficulty of this challenge is the dataset recorded across various conference rooms, which captures real-world complexities such as high overlap rates, background noises, a variable number of speakers, and natural conversation styles. To address these issues, we optimized the system in several aspects: For frontend speech signal processing, we introduced a data-driven joint training method for diarization and separation (JDS) to enhance audio quality. Additionally, we also integrated traditional guided source separation (GSS) for multi-channel track to provide complementary information for the JDS. For backend speech recognition, we enhanced Whisper with WavLM, ConvNeXt, and Transformer innovations, applying multi-task training and Noise KLD augmentation, to significantly advance ASR robustness and accuracy. Our system attained a Time-Constrained minimum Permutation Word Error Rate (tcpWER) of 14.265% and 22.989% on the CHiME-8 NOTSOFAR-1 Devset-2 multi-channel and single-channel tracks, respectively.\n"
+   ],
+   "p1": 31,
+   "pn": 36,
+   "doi": "10.21437/CHiME.2024-7",
+   "url": "chime_2024/niu24_chime.html"
+  },
+  "pang24_chime": {
+   "authors": [
+    [
+     "Cong",
+     "Pang"
+    ],
+    [
+     "Feifei",
+     "Xiong"
+    ],
+    [
+     "Ye",
+     "Ni"
+    ],
+    [
+     "Lin",
+     "Zhou"
+    ],
+    [
+     "Jinwei",
+     "Feng"
+    ]
+   ],
+   "title": "The SEUEE System for the CHiME-8 MMCSG Challenge",
+   "original": "CHiME_2024_paper_pang",
+   "order": 18,
+   "page_count": 6,
+   "abstract": [
+    "In this paper, we describe the proposed system SEUEE and our extension work designed for Task 3 of the CHiME-8 Challenge: Multi-modal Conversations in Smart Glasses (MMCSG). To reduce the word error rate (WER) of speaker-attributed transcriptions in a streaming environment, we propose a causal multichannel directional speech extraction (DSE) framework by separating the speech of the wearer and the conversational partner from the mixed audio, with each output fed into separately adapted automatic speech recognition (ASR) engine. Acknowledging that the deep learning based framework could introduce distortions, we improve the training mechanism by incorporating a pre-trained universal model guided by the target speaker voice activity detection, as well as a composite loss to better preserve the speech component. Moreover, we conduct extension research and investigation of such DSE system by exploiting the explicit spatial information derived from the microphone array geometry, and the implicit spatial information learnt from a dedicated narrow-band network. In addition to the signal-based loss functions, we further introduce a loss inspired by the ASR phoneme mismatch to guide the framework training towards distortion-less target speech signals. Evaluated on the MMCSG evaluation set, our submitted SEUEE and the further proposed DSE system outperform the baseline by an absolute WER reduction of 3.0% and 0.2% for the wearer speech, and 4.3% and 2.0% for the partner speech, respectively."
+   ],
+   "p1": 75,
+   "pn": 80,
+   "doi": "10.21437/CHiME.2024-16",
+   "url": "chime_2024/pang24_chime.html"
+  },
+  "polok24_chime": {
+   "authors": [
+    [
+     "Alexander",
+     "Polok"
+    ],
+    [
+     "Dominik",
+     "Klement"
+    ],
+    [
+     "Jiangyu",
+     "Han"
+    ],
+    [
+     "Šimon",
+     "Sedláček"
+    ],
+    [
+     "Bolaji",
+     "Yusuf"
+    ],
+    [
+     "Matthew",
+     "Maciejewski"
+    ],
+    [
+     "Matthew S",
+     "Wiesner"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ]
+   ],
+   "title": "BUT/JHU System Description for CHiME-8 NOTSOFAR-1 Challenge",
+   "original": "CHiME_2024_paper_polok",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents our method for tackling the CHIME-8 chal-\nlenge’s NOTSOFAR-1 task, which requires participants to per-\nform multi-speaker automatic speech recognition (ASR) using\naudio from distant microphone arrays. We modify the Pyan-\nnote3 diarization pipeline, incorporating pre-trained WavLM as\nlocal EEND to adapt effectively to new domains, and we intro-\nduce two diarization-aware approaches to ASR by condition-\ning Whisper on diarization outputs for target-speaker ASR. The\nfirst method, which we refer to as Query-Key Biasing, modi-\nfies Whisper’s attention mechanism and positional embeddings\nwith a learnable attention mask to exclude non-target speaker\nsegments in the audio. The second method, called Frame-\nLevel Diarization-Dependent Transformations, applies affine,\ndiarization-dependent transformations with trainable parame-\nters to the inputs of one or more transformer blocks. We also\nextend both the ASR and diarization systems to a multichannel\nsetup by incorporating cross-channel communication into our\nmodels. Finally, we report the performance of these approaches\non the NOTSOFAR-1 dataset."
+   ],
+   "p1": 18,
+   "pn": 22,
+   "doi": "10.21437/CHiME.2024-4",
+   "url": "chime_2024/polok24_chime.html"
+  },
+  "zmolikova24_chime": {
+   "authors": [
+    [
+     "Kateřina",
+     "Žmolíková"
+    ],
+    [
+     "Simone",
+     "Merello"
+    ],
+    [
+     "Kaustubh",
+     "Kalgaonkar"
+    ],
+    [
+     "Ju",
+     "Lin"
+    ],
+    [
+     "Niko",
+     "Moritz"
+    ],
+    [
+     "Pingchuan",
+     "Ma"
+    ],
+    [
+     "Ming",
+     "Sun"
+    ],
+    [
+     "Honglie",
+     "Chen"
+    ],
+    [
+     "Antoine",
+     "Saliou"
+    ],
+    [
+     "Stavros",
+     "Petridis"
+    ],
+    [
+     "Christian",
+     "Fuegen"
+    ],
+    [
+     "Michael",
+     "Mandel"
+    ]
+   ],
+   "title": "The CHiME-8 MMCSG Challenge: Multi-modal conversations in smart glasses",
+   "original": "CHiME_2024_paper_zmolikova",
+   "order": 3,
+   "page_count": 6,
+   "abstract": [
+    "The increasing adoption of smart glasses has opened up the way for innovative applications such as live speech captioning and translation. This presents new exciting research problems and opportunities. To increase the visibility of this research topic and support the researchers in this field, we are introducing the Multi-modal Conversations in Smart Glasses (MMCSG) dataset and challenge. The MMCSG dataset includes two-party conversations, recorded through smart Aria glasses worn by one of the participants, accompanied by manual annotations. Several modalities including multi-channel audio, video and Inertial measurement unit (IMU) measurements are available. Additionally, we are releasing the Multi-channel Audio Conversation Simulator (MCAS) dataset and tools. The simulator is designed to generate extensive simulated training data, simplifying development of robust systems. In the challenge, we will evaluate speaker-attributed speech recognition systems on both multi-talker word error rate and algorithmic latency. To assist the challenge participants, we are providing two baseline models. These models serve as starting points for development and as benchmarks for comparison. We hope that these resources will lower the barriers to entry for researchers interested in the potential of smart glasses in enhancing communication."
+   ],
+   "p1": 7,
+   "pn": 12,
+   "doi": "10.21437/CHiME.2024-2",
+   "url": "chime_2024/zmolikova24_chime.html"
+  },
+  "lee24_chime": {
+   "authors": [
+    [
+     "Hung-yi",
+     "Lee"
+    ]
+   ],
+   "title": "Teaching Foundation Models New Skills: Insights and Experiences",
+   "original": "CHiME_2024_paper_lee",
+   "order": 13,
+   "page_count": 0,
+   "abstract": [
+    "In today's landscape of natural language processing (NLP) and speech processing, developing applications often begins with fine-tuning a foundation model. However, teaching a foundation model new skills is not as straightforward as it seems. Despite the sophistication of current models, introducing new capabilities can often impair their original functions, a phenomenon known as catastrophic forgetting. While experience replay is a common solution, the lack of open-source training data for models like LLaMA poses challenges for continuous training. This talk will delve into recent research on fine-tuning language models, including their spoken counterparts, focusing on preserving their initial capabilities. This talk will also share some benchmarks related to the ongoing fine-tuning of foundation models."
+   ],
+   "p1": "",
+   "pn": ""
+  }
+ },
+ "sessions": [
+  {
+   "title": "Task Overviews",
+   "papers": [
+    "cornell24_chime",
+    "vinnikov24_chime",
+    "zmolikova24_chime"
+   ]
+  },
+  {
+   "title": "Poster Session 1",
+   "papers": [
+    "mitrofanov24_chime",
+    "polok24_chime",
+    "kalda24_chime",
+    "hu24_chime",
+    "niu24_chime",
+    "huang24_chime",
+    "jiang24_chime",
+    "huang24b_chime",
+    "bibbo24_chime"
+   ]
+  },
+  {
+   "title": "Keynote: Hung-yi Lee",
+   "papers": [
+    "lee24_chime"
+   ]
+  },
+  {
+   "title": "Poster Session 2",
+   "papers": [
+    "broughton24_chime",
+    "hirano24_chime",
+    "huang24c_chime",
+    "kamo24_chime",
+    "pang24_chime"
+   ]
+  }
+ ],
+ "doi": "10.21437/CHiME.2024"
+}
