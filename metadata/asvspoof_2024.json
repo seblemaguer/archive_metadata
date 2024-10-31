@@ -1,0 +1,1080 @@
+{
+ "series": "ASVspoof",
+ "title": "The Automatic Speaker Verification Spoofing Countermeasures Workshop (ASVspoof 2024)",
+ "location": "Kos, Greece",
+ "startDate": "31/08/2024",
+ "endDate": "31/08/2024",
+ "URL": "https://www.asvspoof.org/workshop2024",
+ "chair": "Chairs: Héctor Delgado and Nicholas Evans and Jee-weon Jung and Tomi Kinnunen and Ivan Kukanov and Kong Aik Lee and Xuechen Liu and Hye-jin Shim and Md Sahidullah and Hemlata Tak and Massimiliano Todisco and Xin Wang and Junichi Yamagishi",
+ "conf": "ASVspoof",
+ "name": "asvspoof_2024",
+ "year": "2024",
+ "title1": "The Automatic Speaker Verification Spoofing Countermeasures Workshop",
+ "title2": "(ASVspoof 2024)",
+ "booklet": "intro.pdf",
+ "date": "31 August 2024",
+ "month": 8,
+ "day": 31,
+ "now": 1730361084970095,
+ "papers": {
+  "schafer24_asvspoof": {
+   "authors": [
+    [
+     "Karla",
+     "Schäfer"
+    ],
+    [
+     "Jeong-Eun",
+     "Choi"
+    ],
+    [
+     "Matthias",
+     "Neu"
+    ]
+   ],
+   "title": "Robust audio deepfake detection: exploring front-/back-end combinations and data augmentation strategies for the ASVspoof5 Challenge",
+   "original": "7",
+   "order": 9,
+   "page_count": 8,
+   "abstract": [
+    "The robustness and generalizability of audio deepfake detectors are becoming more important due to the technical advances in generation methods and the widespread usage of audio deepfakes. The ASVspoof5 challenge addresses this by providing a new dataset. This paper presents Fraunhofer SIT's anti-spoofing detectors submitted to the ASVspoof5 challenge. AASIST(-L), RawGAT-ST and data augmentation was used in the closed condition. In the open condition, we evaluated different SSL-based front-ends using diverse training data. The results indicate that the utilisation of extensive data augmentation improve the results when using a non SSL-based front-end, whereas its incorporation with an SSL-based front-end led to a decline in performance. The implementation of a large SSL front-end improved the result. Our best detector in the closed setting attained a min DCF of 0.589 and the best in the open condition (using SSL) a min DCF of 0.174 on the ASVspoof5 evaluation set.\n"
+   ],
+   "p1": 56,
+   "pn": 63,
+   "doi": "10.21437/ASVspoof.2024-9",
+   "url": "asvspoof_2024/schafer24_asvspoof.html"
+  },
+  "dao24_asvspoof": {
+   "authors": [
+    [
+     "Anh-Tuan",
+     "Dao"
+    ],
+    [
+     "Mickael",
+     "Rouvier"
+    ],
+    [
+     "Driss",
+     "Matrouf"
+    ]
+   ],
+   "title": "ASVspoof 5 Challenge: advanced ResNet architectures for robust voice spoofing detection",
+   "original": "8",
+   "order": 24,
+   "page_count": 7,
+   "abstract": [
+    "This paper presents our contributions to the ASVspoof 5 challenge, focusing on Track 1 for both closed and open conditions. In the closed condition, we evaluate various ResNet architectures to identify the most effective model for spoofing detection. For the open condition, we utilize a ResNet architecture in speaker verification called the ResNet-101-SV model that integrates Squeeze-and-Excitation (SE) layers and Attentive Statistics Pooling layer. The ResNet-101-SV model is pre-trained on VoxCeleb2 and fine-tuned on a diverse set of datasets to enhance robustness against spoofing attacks. Our best model in the open condition achieves a 3.32% Equal Error Rate (EER) on the ASVspoof 5 evaluation progress set and a 2.15% EER on the Wild dataset, demonstrating significant improvements in spoofing detection performance.\n"
+   ],
+   "p1": 163,
+   "pn": 169,
+   "doi": "10.21437/ASVspoof.2024-24",
+   "url": "asvspoof_2024/dao24_asvspoof.html"
+  },
+  "guo24_asvspoof": {
+   "authors": [
+    [
+     "Jian",
+     "Guo"
+    ],
+    [
+     "Xiaoyan",
+     "Fu"
+    ]
+   ],
+   "title": "A universal deception speech detection based on an innovative progressive training method with improved virtual softmax and data balance",
+   "original": "10",
+   "order": 19,
+   "page_count": 7,
+   "abstract": [
+    "Spoof speech detection (SSD) is used to protect automatic speaker verification systems from malicious voice attacks. Existing SSDs commonly face a challenge: it is difficult to identify unknown spoof attacks that were not present during the training phase. This problem arises from the fact that deep learning models are prone to learning non-generalizable spurious features belonging to spoof speech in the training set when dealing with class imbalanced data, rather than the core features belonging to bonafide speech that can fundamentally distinguish between bonafide and spoof speech. To overcome this challenge, we propose a progressive training method based on improved virtual softmax and data balancing to assist SSD in learning core features representing bonafide speech, thereby learning the distribution of bonafide speech and delineating its boundaries to distinguish between spoof speech. Firstly, our innovative progressive training method starts training from a subset of class balanced training data, ensuring that the model can learn core features more accurately without being affected by a large number of spurious features. Then, the subset gradually expands to the full training dataset. In addition, the improved virtual softmax with a set of masks enables the added virtual features to focus on guiding the model to learn only the core features representing bonafide speech, while relaxing the clustering requirements for various spoof speech. The improved virtual softmax enables SSD to use core features to distinguish spoof speech, while also solving the overfitting problem caused by over clustering of various spoof samples that do not belong to the same category in the training data. We trained the model using the ASVSpoof2019LA and ASVSpoof5 training datasets. The evaluation results on multiple datasets including ASVSpoof2019LA-eval, ASVSpoof2021LA-eval, ASVSpoof2021DF-eval, ASVSpoof2015-eval, In The Wildeval, and ASVSpoof5 eval demonstrate the generalization capability of our method."
+   ],
+   "p1": 131,
+   "pn": 137,
+   "doi": "10.21437/ASVspoof.2024-19",
+   "url": "asvspoof_2024/guo24_asvspoof.html"
+  },
+  "todisco24_asvspoof": {
+   "authors": [
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Michele",
+     "Panariello"
+    ],
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ]
+   ],
+   "title": "Malacopula: adversarial automatic speaker verification attacks using a neural-based generalised Hammerstein model",
+   "original": "11",
+   "order": 14,
+   "page_count": 7,
+   "abstract": [
+    "We present Malacopula, a neural-based generalised Hammerstein model designed to introduce adversarial perturbations to spoofed speech utterances so that they better deceive automatic speaker verification (ASV) systems. Using non-linear processes to modify speech utterances, Malacopula enhances the effectiveness of spoofing attacks. The model comprises parallel branches of polynomial functions followed by linear time-invariant filters. The adversarial optimisation procedure acts to minimise the cosine distance between speaker embeddings extracted from spoofed and bona fide utterances. Experiments, performed using three recent ASV systems and the ASVspoof 2019 dataset, show that Malacopula increases vulnerabilities by a substantial margin. However, speech quality is reduced and attacks can be detected effectively under controlled conditions. The findings emphasise the need to identify new vulnerabilities and design defences to protect ASV systems from adversarial attacks in the wild.\n"
+   ],
+   "p1": 94,
+   "pn": 100,
+   "doi": "10.21437/ASVspoof.2024-14",
+   "url": "asvspoof_2024/todisco24_asvspoof.html"
+  },
+  "chan24_asvspoof": {
+   "authors": [
+    [
+     "Po-Cheng",
+     "Chan"
+    ],
+    [
+     "Wei-Yu",
+     "Chen"
+    ],
+    [
+     "Jia-Ching",
+     "Wang"
+    ]
+   ],
+   "title": "Enhancing spoofing detection in ASVspoof 5 Workshop 2024: fusion of WavLM-ResNet18-SA for optimal performance against speech deepfakes ",
+   "original": "12",
+   "order": 23,
+   "page_count": 5,
+   "abstract": [
+    "This paper aims to address audio spoofing and deepfake attacks within the ASVspoof 5 Track 1 open condition. We have adopted the WavLM-AASIST, WavLM-LCNN9, and WavLMResNet18-SA models for spoofing detection. Among these, the WavLM-ResNet18-SA model demonstrated superior performance. Consequently, utilizing WavLM-ResNet18-SA, we conducted extensive ablation studies to optimize the system’s performance. These studies focused on adjusting the loss functions, normalization, data augmentation, and training dataset strategies to further enhance the model's performance. To enhance detection capabilities, we implemented a fusion strategy using variations of WavLM-ResNet18-SA, increasing the training datasets. This fusion strategy significantly improved detection accuracy, achieving a minDCF of 0.01793 and an EER of 0.648% in development set. In the final evaluation, this approach demonstrated its efficacy with a minDCF of 0.2021 and an EER of 7.01%. The results highlight the performances of our targeted enhancements and fusion techniques in handling the challenges posed by evolving spoofing and deepfake scenarios."
+   ],
+   "p1": 158,
+   "pn": 162,
+   "doi": "10.21437/ASVspoof.2024-23",
+   "url": "asvspoof_2024/chan24_asvspoof.html"
+  },
+  "xia24_asvspoof": {
+   "authors": [
+    [
+     "Weijiang",
+     "Xia"
+    ],
+    [
+     "Haipeng",
+     "Peng"
+    ],
+    [
+     "Lixiang",
+     "Li"
+    ],
+    [
+     "Yeqing",
+     "Ren"
+    ]
+   ],
+   "title": "A single end-to-end voice anti-spoofing model with graph attention and feature aggregation for ASVspoof 5 Challenge",
+   "original": "13",
+   "order": 18,
+   "page_count": 7,
+   "abstract": [
+    "In this paper, we submit the scores of our single model to the ASVspoof 5 Challenge Track 1 deepfake (DF) task under the closed condition. Voice anti-spoofing detection has always been an important research topic for protecting voice security. Therefore, in order to promote the development of voice anti-spoofing detection, the ASVspoof 5 organizing committee organized this challenge. Based on our previous research, we design a single end-to-end model with graph attention and feature aggregation (SEMAA). And we propose a new higher-order two-dimensional attentive statistics pooling (H2D-ASP) module to extract and aggregate more attention representations in spectral domain and temporal domain. We propose a new channel-dependent self attention based graph aggregation (CSA-GA) module, which squeezes and aggregates spectral graphs and temporal graphs. We use a variant of AASIST as backbone network, and the two proposed modules improves vanilla model by 29.75%. Our single model performs 18.28% better than the single baseline model B02 on minDCF of Eval set, achieves minDCF 0.2994, 0.3604, 0.581 on Dev set, Eval_prog set and Eval set."
+   ],
+   "p1": 124,
+   "pn": 130,
+   "doi": "10.21437/ASVspoof.2024-18",
+   "url": "asvspoof_2024/xia24_asvspoof.html"
+  },
+  "falez24_asvspoof": {
+   "authors": [
+    [
+     "Pierre",
+     "Falez"
+    ],
+    [
+     "Tony",
+     "Marteau"
+    ]
+   ],
+   "title": "Whispeak speech deepfake detection systems for the ASVspoof5 Challenge",
+   "original": "15",
+   "order": 5,
+   "page_count": 4,
+   "abstract": [
+    "In this paper, we present the system submitted by Whispeak for the ASVSpoof5 Speech Deepfake Detection and SASV Challenge. We use an ensemble of systems, consisting of LFCC-LCNN, RawGAT-ST, Wav2Vec-RawGAT-ST and Wav2Vec-Conformer for the Speech Deepfake Detection tracks. We use a linear fusion of an ECAPA-TDNN with the previous ensemble for SASV tracks. A dozen data augmentation techniques are applied during training in order to improve the robustness of the models on the ASVSpoof5 dataset. We also test our models on external datasets and show that models are not yet able to generalize well on out-of-domain data.  The final system gives an EER of 4.16% and a minDCF of 0.1124 on the track 1 evaluation set in open condition.\n"
+   ],
+   "p1": 32,
+   "pn": 35,
+   "doi": "10.21437/ASVspoof.2024-5",
+   "url": "asvspoof_2024/falez24_asvspoof.html"
+  },
+  "stourbe24_asvspoof": {
+   "authors": [
+    [
+     "Théophile",
+     "Stourbe"
+    ],
+    [
+     "Victor",
+     "Miara"
+    ],
+    [
+     "Theo",
+     "Lepage"
+    ],
+    [
+     "Reda",
+     "Dehak"
+    ]
+   ],
+   "title": "Exploring WavLM back-ends for speech spoofing and deepfake detection",
+   "original": "17",
+   "order": 11,
+   "page_count": 7,
+   "abstract": [
+    "This paper describes our submitted systems to the ASVspoof 5 Challenge Track 1: Speech Deepfake Detection - Open Condition, which consists of a stand-alone speech deepfake (bonafide vs spoof) detection task. Recently, large-scale self-supervised models become a standard in Automatic Speech Recognition (ASR) and other speech processing tasks. Thus, we leverage a pre-trained WavLM as a front-end model and pool its representations with different back-end techniques. The complete framework is fine-tuned using only the trained dataset of the challenge, similar to the close condition. Besides, we adopt data-augmentation by adding noise and reverberation using MUSAN noise and RIR datasets. We also experiment with codec augmentations to increase the performance of our method. Ultimately, we use the Bosaris toolkit for score calibration and system fusion to get better Cllr scores. Our fused system achieves 0.0937 minDCF, 3.42% EER, 0.1927 Cllr, and 0.1375 actDCF.\n"
+   ],
+   "p1": 72,
+   "pn": 78,
+   "doi": "10.21437/ASVspoof.2024-11",
+   "url": "asvspoof_2024/stourbe24_asvspoof.html"
+  },
+  "xie24_asvspoof": {
+   "authors": [
+    [
+     "Yuankun",
+     "Xie"
+    ],
+    [
+     "Xiaopeng",
+     "Wang"
+    ],
+    [
+     "Zhiyong",
+     "Wang"
+    ],
+    [
+     "Ruibo",
+     "Fu"
+    ],
+    [
+     "Wen",
+     "Zhengqi"
+    ],
+    [
+     "Haonan",
+     "Cheng"
+    ],
+    [
+     "Long",
+     "Ye"
+    ]
+   ],
+   "title": "Temporal variability and multi-viewed self-supervised representations to tackle the ASVspoof5 Deepfake Challenge",
+   "original": "18",
+   "order": 15,
+   "page_count": 8,
+   "abstract": [
+    "ASVspoof5, the fifth edition of the ASVspoof series, is one of the largest global audio security challenges. It aims to advance the development of countermeasure (CM) to discriminate bonafide and spoofed speech utterances. In this paper, we focus on addressing the problem of open-domain audio deepfake detection, which corresponds directly to the ASVspoof5 Track1 open condition. At first, we comprehensively investigate various CM on ASVspoof5, including data expansion, data augmentation, and self-supervised learning (SSL) features.  Due to the high-frequency gaps characteristic of the ASVspoof5 dataset, we introduce Frequency Mask, a data augmentation method that masks specific frequency bands to improve CM robustness. Combining various scale of temporal information with multiple SSL features, our experiments achieved a minDCF of 0.0158 and an EER of 0.55% on the ASVspoof5 Track 1 evaluation progress set.\n"
+   ],
+   "p1": 101,
+   "pn": 108,
+   "doi": "10.21437/ASVspoof.2024-15",
+   "url": "asvspoof_2024/xie24_asvspoof.html"
+  },
+  "chen24_asvspoof": {
+   "authors": [
+    [
+     "Yihao",
+     "Chen"
+    ],
+    [
+     "Haochen",
+     "Wu"
+    ],
+    [
+     "Nan",
+     "Jiang"
+    ],
+    [
+     "Xiang",
+     "Xia"
+    ],
+    [
+     "Qing",
+     "Gu"
+    ],
+    [
+     "YunQi",
+     "Hao"
+    ],
+    [
+     "Pengfei",
+     "Cai"
+    ],
+    [
+     "Yu",
+     "Guan"
+    ],
+    [
+     "Jialong",
+     "Wang"
+    ],
+    [
+     "Wei-Lin",
+     "Xie"
+    ],
+    [
+     "Lei",
+     "Fang"
+    ],
+    [
+     "Sian",
+     "Fang"
+    ],
+    [
+     "Yan",
+     "Song"
+    ],
+    [
+     "Wu",
+     "Guo"
+    ],
+    [
+     "Lin",
+     "Liu"
+    ],
+    [
+     "Minqiang",
+     "Xu"
+    ]
+   ],
+   "title": "USTC-KXDIGIT system description for ASVspoof5 Challenge",
+   "original": "19",
+   "order": 16,
+   "page_count": 7,
+   "abstract": [
+    "This paper describes the USTC-KXDIGIT system submitted to the ASVspoof5 Challenge for Track 1 (speech deepfake detection) and Track 2 (spoofing-robust automatic speaker verification, SASV). Track 1 showcases a diverse range of technical qualities from potential processing algorithms and includes both open and closed conditions. For these conditions, our system consists of a cascade of a front-end feature extractor and a back-end classifier. We focus on extensive embedding engineering and enhancing the generalization of the back end classifier model. Specifically, the embedding engineering is based on hand-crafted features and speech representations from a selfsupervised model, used for closed and open conditions, respectively. To detect spoof attacks under various adversarial conditions, we trained multiple systems on an augmented training set. Additionally, we used voice conversion technology to synthesize fake audio from genuine audio in the training set to enrich the synthesis algorithms. To leverage the complementary information learned by different model architectures, we employed activation ensemble and fused scores from different systems to obtain the final decision score for spoof detection. During the evaluation phase, the proposed methods achieved 0.3948 minDCF and 14.33% EER in the close condition, and 0.0750 minDCF and 2.59% EER in the open condition, demonstrating the robustness of our submitted systems under adversarial conditions. In Track 2, we continued using the CM system from Track 1 and fused it with a CNN-based ASV system. This approach achieved 0.2814 min-aDCF in the closed condition and 0.0756 min-aDCF in the open condition, showcasing superior performance in the SASV system."
+   ],
+   "p1": 109,
+   "pn": 115,
+   "doi": "10.21437/ASVspoof.2024-16",
+   "url": "asvspoof_2024/chen24_asvspoof.html"
+  },
+  "truong24_asvspoof": {
+   "authors": [
+    [
+     "Duc-Tuan",
+     "Truong"
+    ],
+    [
+     "Yikang",
+     "Wang"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Ming",
+     "Li"
+    ],
+    [
+     "Hiromitsu",
+     "Nishizaki"
+    ],
+    [
+     "Eng Siong",
+     "Chng"
+    ]
+   ],
+   "title": "A study of guided masking data augmentation for deepfake speech detection",
+   "original": "21",
+   "order": 26,
+   "page_count": 5,
+   "abstract": [
+    "In response to advanced deepfake speech threats, notable research in Deepfake Speech Detection (DSD) includes efforts like the ASVspoof Challenge, which benchmarks DSD advancements. This paper describes our system for the ASVspoof 5 Challenge Track 1. We present a Guided Masking Data Augmentation technique for DSD that selectively masks sensitive regions of the input to enhance the model generalizability. The selective masks are guided by the Forgery Activation Map, which highlights input regions contributing to the output decision. Additionally, we incorporate gender classification as an auxiliary training objective to capture gender-specific speech characteristics. Experiments on the ASVspoof 5 progress set show that our method improves the CAM++ baseline system's Equal Error Rate (EER) from 21.59% to 13.82%. Furthermore, by combining the output scores from the AASIST baseline and our proposed model, we reduce the EER of nearly 14% in both models to 10.48%.  \n"
+   ],
+   "p1": 176,
+   "pn": 180,
+   "doi": "10.21437/ASVspoof.2024-26",
+   "url": "asvspoof_2024/truong24_asvspoof.html"
+  },
+  "combei24_asvspoof": {
+   "authors": [
+    [
+     "David",
+     "Combei"
+    ],
+    [
+     "Adriana",
+     "Stan"
+    ],
+    [
+     "Dan",
+     "Oneata"
+    ],
+    [
+     "Horia",
+     "Cucu"
+    ]
+   ],
+   "title": "WavLM model ensemble for audio deepfake detection",
+   "original": "22",
+   "order": 25,
+   "page_count": 6,
+   "abstract": [
+    "Audio deepfake detection has become a pivotal task over the last couple of years, as many recent speech synthesis and voice cloning systems generate highly realistic speech samples, thus enabling their use in malicious activities. In this paper we address the issue of audio deepfake detection as it was set in the ASVspoof5 challenge. First, we benchmark ten types of pretrained representations and show that the self-supervised representations stemming from the wav2vec2 and wavLM families perform best. Of the two, wavLM is better when restricting the pretraining data to LibriSpeech, as required by the challenge rules. To further improve performance, we finetune the wavLM model for the deepfake detection task. We extend the ASVspoof5 dataset with samples from other deepfake detection datasets and apply data augmentation. Our final challenge submission consists of a late fusion combination of four models and achieves an equal error rate of 6.56% and 17.08% on the two evaluation sets. \n"
+   ],
+   "p1": 170,
+   "pn": 175,
+   "doi": "10.21437/ASVspoof.2024-25",
+   "url": "asvspoof_2024/combei24_asvspoof.html"
+  },
+  "negroni24_asvspoof": {
+   "authors": [
+    [
+     "Viola",
+     "Negroni"
+    ],
+    [
+     "Davide",
+     "Salvi"
+    ],
+    [
+     "Paolo",
+     "Bestagini"
+    ],
+    [
+     "Stefano",
+     "Tubaro"
+    ]
+   ],
+   "title": "Analyzing the impact of splicing artifacts in partially fake speech signals",
+   "original": "24",
+   "order": 12,
+   "page_count": 7,
+   "abstract": [
+    "Speech deepfake detection has recently gained significant attention within the multimedia forensics community. Related issues have also been explored, such as the identification of partially fake signals, i.e., tracks that include both real and fake speech segments. However, generating high-quality spliced audio is not as straightforward as it may appear. Spliced signals are typically created through basic signal concatenation. This process could introduce noticeable artifacts that can make the generated data easier to detect. We analyze spliced audio tracks resulting from signal concatenation and investigate their artifacts, study the causes behind their presence, and assess whether such artifacts introduce any bias in existing datasets. Our findings reveal that by analyzing splicing artifacts, we can achieve a detection EER of 6.16% and 7.36% on PartialSpoof and HAD datasets, respectively, without needing to train any detector. These results underscore the complexities of generating reliable spliced audio data and lead to discussions that can help improve future research in this area."
+   ],
+   "p1": 79,
+   "pn": 85,
+   "doi": "10.21437/ASVspoof.2024-12",
+   "url": "asvspoof_2024/negroni24_asvspoof.html"
+  },
+  "tran24_asvspoof": {
+   "authors": [
+    [
+     "Thien",
+     "Tran"
+    ],
+    [
+     "Thanh Duc",
+     "Bui"
+    ],
+    [
+     "Panagiotis",
+     "Simatis"
+    ]
+   ],
+   "title": "ParallelChain Lab's anti-spoofing systems for ASVspoof 5",
+   "original": "25",
+   "order": 2,
+   "page_count": 7,
+   "abstract": [
+    "The recent rise of generative AI makes detecting audio deepfakes increasingly challenging. Deep learning techniques produce highly realistic fake audio that can deceive both humans and Automatic Speaker Verification (ASV) systems. This paper presents ParallelChain Lab's submissions to the ASVspoof 5 challenge, namely a voice anti-spoofing system and a spoofing-robust ASV system. We developed an ensemble architecture comprising models trained with various augmentation types, including waveform augmentations, mel-spectrogram augmentations, and vocoder synthesis. An extensive experimental evaluation confirms the efficacy of our systems, achieving minDCF of 0.2660 for the deepfake detection system and min a-DCF of 0.3173 for the spoofing-robust ASV system in the closed condition.\n"
+   ],
+   "p1": 9,
+   "pn": 15,
+   "doi": "10.21437/ASVspoof.2024-2",
+   "url": "asvspoof_2024/tran24_asvspoof.html"
+  },
+  "kulkarni24_asvspoof": {
+   "authors": [
+    [
+     "Atharva",
+     "Kulkarni"
+    ],
+    [
+     "Hoan My",
+     "Tran"
+    ],
+    [
+     "Ajinkya",
+     "Kulkarni"
+    ],
+    [
+     "Sandipana",
+     "Dowerah"
+    ],
+    [
+     "Damien",
+     "Lolive"
+    ],
+    [
+     "Mathew Maginai",
+     "Doss"
+    ]
+   ],
+   "title": "Exploring generalization to unseen audio data for spoofing: insights from SSL models",
+   "original": "26",
+   "order": 13,
+   "page_count": 8,
+   "abstract": [
+    "Deep learning-based speech synthesis has significantly improved realistic audio deepfakes. Despite advanced techniques such as self-supervised learning (SSL) and datasets, current state-of-the-art (SOTA) detection systems fail in out-of-domain scenarios due to the inability to generalize. This work explores the generalization problem through comprehensive experimentation on cross-data evaluation. We observed how training data impacts model generalization, revealing that even SOTA systems struggle with consistent performance across different evaluation settings. This indicates a lack of extensive generalization abilities, especially in SSL approaches. To address this problem, we propose a multi-stage training framework alongside an ensemble of different systems to enhance the robustness and reliable detection in known and unknown out-of-domain scenarios. Experimental evaluation underscores the importance of an ensemble approach to mitigate the limitations in individual systems.\n"
+   ],
+   "p1": 86,
+   "pn": 93,
+   "doi": "10.21437/ASVspoof.2024-13",
+   "url": "asvspoof_2024/kulkarni24_asvspoof.html"
+  },
+  "duroselle24_asvspoof": {
+   "authors": [
+    [
+     "Raphaël",
+     "Duroselle"
+    ],
+    [
+     "Olivier",
+     "Boeffard"
+    ],
+    [
+     "Adrien",
+     "Courtois"
+    ],
+    [
+     "Hubert",
+     "Nourtel"
+    ],
+    [
+     "Champion",
+     "Pierre"
+    ],
+    [
+     "Heiko",
+     "Agnoli"
+    ],
+    [
+     "Jean-François",
+     "Bonastre"
+    ]
+   ],
+   "title": "Data augmentations for audio deepfake detection for the ASVspoof5 closed condition",
+   "original": "27",
+   "order": 3,
+   "page_count": 8,
+   "abstract": [
+    "This paper describes the joint participation of Inria Défense et Sécurité and Storyzy to the ASVspoof5 challenge. We participated in the closed conditions of the audio deepfake detection and of the spoofing-aware speaker verification tracks with the goal of evaluating the performance of countermeasures with a fixed set of training attacks. The proposed countermeasure system is the combination of three models with different architectures and training algorithms, including the exploration of a self-supervised learning pretraining approach. Specific data augmentation strategies are introduced to increase robustness to numerical transmission and generalization to unknown attacks. The submitted system achieves a minDCF of 0.297 for track1 and a min a-DCF of 0.295 for track2. It has a very small calibration error (actDCF of 0.298) despite the presence of unknown codecs and adversarial attacks within the evaluation corpus.\n"
+   ],
+   "p1": 16,
+   "pn": 23,
+   "doi": "10.21437/ASVspoof.2024-3",
+   "url": "asvspoof_2024/duroselle24_asvspoof.html"
+  },
+  "martindonas24_asvspoof": {
+   "authors": [
+    [
+     "Juan M.",
+     "Martín-Doñas"
+    ],
+    [
+     "Eros",
+     "Rosello"
+    ],
+    [
+     "Angel M.",
+     "Gomez"
+    ],
+    [
+     "Aitor",
+     "Álvarez"
+    ],
+    [
+     "Iván",
+     "López-Espejo"
+    ],
+    [
+     "Antonio M.",
+     "Peinado"
+    ]
+   ],
+   "title": "ASASVIcomtech: the Vicomtech-UGR speech deepfake detection and SASV systems for the ASVspoof5 Challenge",
+   "original": "28",
+   "order": 21,
+   "page_count": 8,
+   "abstract": [
+    "This paper presents the work carried out by the ASASVIcomtech team, made up of researchers from Vicomtech and University of Granada, for the ASVspoof5 Challenge. The team has participated in both Track 1 (speech deepfake detection) and Track 2 (spoofing-aware speaker verification). This work started with an analysis of the challenge available data, which was regarded as an essential step to avoid later potential biases of the trained models, and whose main conclusions are presented here. With respect to the proposed approaches, a closed-condition system employing a deep complex convolutional recurrent architecture was developed for Track 1, although, unfortunately, no noteworthy results were achieved. On the other hand, different possibilities of open-condition systems, based on leveraging self-supervised models, augmented training data from previous challenges, and novel vocoders, were explored for both tracks, finally achieving very competitive results with an ensemble system.\n"
+   ],
+   "p1": 144,
+   "pn": 151,
+   "doi": "10.21437/ASVspoof.2024-21",
+   "url": "asvspoof_2024/martindonas24_asvspoof.html"
+  },
+  "zhu24_asvspoof": {
+   "authors": [
+    [
+     "Yi",
+     "Zhu"
+    ],
+    [
+     "Chirag",
+     "Goel"
+    ],
+    [
+     "Surya",
+     "Koppisetti"
+    ],
+    [
+     "Trang",
+     "Tran"
+    ],
+    [
+     "Ankur",
+     "Kumar"
+    ],
+    [
+     "Gaurav",
+     "Bharaj"
+    ]
+   ],
+   "title": "Learn from real: reality defender's submission to ASVspoof5 Challenge",
+   "original": "29",
+   "order": 17,
+   "page_count": 8,
+   "abstract": [
+    "Audio deepfake detection is crucial to combat the malicious use of AI-synthesized speech. Among many efforts undertaken by the community, the ASVspoof challenge has become one of the benchmarks to evaluate the generalizability and robustness of detection models. In this paper, we present Reality Defender's submission to the ASVspoof5 challenge, highlighting a novel pretraining strategy which significantly improves generalizability while maintaining low computational cost during training. Our system SLIM learns the style-linguistics dependency embeddings from various types of bonafide speech using self-supervised contrastive learning. The learned embeddings help to discriminate spoof from bonafide speech by focusing on the relationship between the style and linguistics aspects. We evaluated our system on ASVspoof5, ASV2019, and In-the-wild. Our submission achieved minDCF of 0.1499 and EER of 5.5% on ASVspoof5 Track 1, and EER of 7.4% and 10.8% on ASV2019 and In-the-wild respectively.\n"
+   ],
+   "p1": 116,
+   "pn": 123,
+   "doi": "10.21437/ASVspoof.2024-17",
+   "url": "asvspoof_2024/zhu24_asvspoof.html"
+  },
+  "borodin24_asvspoof": {
+   "authors": [
+    [
+     "Kirill",
+     "Borodin"
+    ],
+    [
+     "Vasiliy",
+     "Kudryavtsev"
+    ],
+    [
+     "Dmitrii",
+     "Korzh"
+    ],
+    [
+     "Alexey",
+     "Efimenko"
+    ],
+    [
+     "Grach",
+     "Mkrtchian"
+    ],
+    [
+     "Mikhail",
+     "Gorodnichev"
+    ],
+    [
+     "Oleg Y.",
+     "Rogov"
+    ]
+   ],
+   "title": "AASIST3: KAN-enhanced AASIST speech deepfake detection using SSL features and additional regularization for the ASVspoof 2024 Challenge",
+   "original": "31",
+   "order": 8,
+   "page_count": 8,
+   "abstract": [
+    "Automatic Speaker Verification (ASV) systems, which identify speakers based on their voice characteristics, have numerous applications, such as user authentication in financial transactions, exclusive access control in smart devices, and forensic fraud detection. However, the advancement of deep learning algorithms has enabled the generation of synthetic audio through Text-to-Speech (TTS) and Voice Conversion (VC) systems, exposing ASV systems to potential vulnerabilities. To counteract this, we propose a novel architecture named AASIST3. By enhancing the existing AASIST framework with Kolmogorov-Arnold networks, additional layers, encoders, and pre-emphasis techniques, AASIST3 achieves a more than twofold improvement in performance. It demonstrates minDCF results of 0.5357 in the closed condition and 0.1414 in the open condition, significantly enhancing the detection of synthetic voices and improving ASV security.\n"
+   ],
+   "p1": 48,
+   "pn": 55,
+   "doi": "10.21437/ASVspoof.2024-8",
+   "url": "asvspoof_2024/borodin24_asvspoof.html"
+  },
+  "villalba24_asvspoof": {
+   "authors": [
+    [
+     "Jesus Antonio",
+     "Villalba"
+    ],
+    [
+     "Tiantian",
+     "Feng"
+    ],
+    [
+     "Thomas",
+     "Thebaud"
+    ],
+    [
+     "Jihwan",
+     "Lee"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ],
+    [
+     "Najim",
+     "Dehak"
+    ]
+   ],
+   "title": "The SHADOW team submission to the ASVSpoof 2024 Challenge",
+   "original": "32",
+   "order": 6,
+   "page_count": 7,
+   "abstract": [
+    "This paper presents the SHADOW team's submission to the ASVSpoof 2024 challenge. We evaluated various models, including ECAPA-TDNN, ResNet34, ConvNeXt, and S4 Structured-State-Space Models. 2D convolution-based models outperformed other types, with the best Progress set results achieved using FwSE-ResNet34 with codec augmentations. In the Track 1 Eval set, this system achieved minDCF=0.44, a 47\\% improvement over the challenge baseline. For Track2, we contribute a straightforward method for combining well-calibrated speaker and spoofing detection scores into a single system. This involves calculating the posterior probability for a trial being both same-speaker and bonafide. However, the significant mismatch between the Dev and Progress/Eval sets not only complicated the selection of the best systems and codecs but also impacted the Eval set calibration and score combination. Nevertheless, we achieved a-DCF=0.397 in Track 2, a 42% improvement over the baseline.\n"
+   ],
+   "p1": 36,
+   "pn": 42,
+   "doi": "10.21437/ASVspoof.2024-6",
+   "url": "asvspoof_2024/villalba24_asvspoof.html"
+  },
+  "ali24_asvspoof": {
+   "authors": [
+    [
+     "Hashim",
+     "Ali"
+    ],
+    [
+     "Surya",
+     "Subramani"
+    ],
+    [
+     "Hafiz",
+     "Malik"
+    ]
+   ],
+   "title": "Augmentation through laundering attacks for audio spoof detection",
+   "original": "33",
+   "order": 27,
+   "page_count": 7,
+   "abstract": [
+    "Recent text-to-speech (TTS) developments have made voice cloning (VC) more realistic, affordable, and easily accessible. This has given rise to many potential abuses of this technology, including Joe Biden's New Hampshire deepfake robocall. Several methodologies have been proposed to detect such clones. However, these methodologies have been trained and evaluated on relatively clean databases. Recently, ASVspoof 5 Challenge introduced a new crowd-sourced database of diverse acoustic conditions including various spoofing attacks and codec conditions. This paper is our submission to the ASVspoof 5 Challenge and aims to investigate the performance of Audio Spoof Detection, trained using data augmentation through laundering attacks, on the ASVSpoof 5 database. The results demonstrate that our system performs worst on A18, A19, A20, A26, and A30 spoof attacks and in the codec and compression conditions of C08, C09, and C10.\n"
+   ],
+   "p1": 181,
+   "pn": 187,
+   "doi": "10.21437/ASVspoof.2024-27",
+   "url": "asvspoof_2024/ali24_asvspoof.html"
+  },
+  "wang24_asvspoof": {
+   "authors": [
+    [
+     "Xin",
+     "Wang"
+    ],
+    [
+     "Héctor",
+     "Delgado"
+    ],
+    [
+     "Hemlata",
+     "Tak"
+    ],
+    [
+     "Jee-weon",
+     "Jung"
+    ],
+    [
+     "Hye-jin",
+     "Shim"
+    ],
+    [
+     "Massimiliano",
+     "Todisco"
+    ],
+    [
+     "Ivan",
+     "Kukanov"
+    ],
+    [
+     "Xuechen",
+     "Liu"
+    ],
+    [
+     "Md",
+     "Sahidullah"
+    ],
+    [
+     "Tomi H.",
+     "Kinnunen"
+    ],
+    [
+     "Nicholas",
+     "Evans"
+    ],
+    [
+     "Kong Aik",
+     "Lee"
+    ],
+    [
+     "Junichi",
+     "Yamagishi"
+    ]
+   ],
+   "title": "ASVspoof 5: crowdsourced speech data, deepfakes, and adversarial attacks at scale",
+   "original": "35",
+   "order": 1,
+   "page_count": 8,
+   "abstract": [
+    "ASVspoof 5 is the fifth edition in a series of challenges which promote the study of speech spoofing and deepfake attacks, and the design of detection solutions. Compared to previous challenges, the ASVspoof 5 database is built from crowdsourced data collected from a vastly greater number of speakers in diverse acoustic conditions. Attacks, also crowdsourced, are generated and tested using surrogate detection models, while adversarial attacks are incorporated for the first time. New metrics support the evaluation of spoofing-robust automatic speaker verification (SASV) as well as stand-alone detection solutions, i.e., countermeasures without ASV. We describe the two challenge tracks, the new database, the evaluation metrics, baselines, and the evaluation platform, and present a summary of the results. Attacks significantly compromise the baseline systems, while submissions bring substantial improvements. \n"
+   ],
+   "p1": 1,
+   "pn": 8,
+   "doi": "10.21437/ASVspoof.2024-1",
+   "url": "asvspoof_2024/wang24_asvspoof.html"
+  },
+  "aliyev24_asvspoof": {
+   "authors": [
+    [
+     "Ali",
+     "Aliyev"
+    ],
+    [
+     "Alexander",
+     "Kondratev"
+    ]
+   ],
+   "title": "Intema system description for the ASVspoof5 Challenge: power weighted score fusion",
+   "original": "36",
+   "order": 22,
+   "page_count": 6,
+   "abstract": [
+    "The paper describes Intema submissions to the ASVspoof 5 challenge for Track 1 deepfake detection and Track 2 SASV system (both open). Independent spoofing countersure (CM) and automatic speaker verification (ASV) systems based on Self-supervised learning (SSL) and ResNet-like models were developed. The training process is clearly described for CM and ASV tasks. An aggregation method for this systems is proposed. The final submission for the Track 1 (open) achieved minDCF 0.0936, combined system for Track 2 (open) achieved min a-DCF 0.1203.\n"
+   ],
+   "p1": 152,
+   "pn": 157,
+   "doi": "10.21437/ASVspoof.2024-22",
+   "url": "asvspoof_2024/aliyev24_asvspoof.html"
+  },
+  "rohdin24_asvspoof": {
+   "authors": [
+    [
+     "Johan",
+     "Rohdin"
+    ],
+    [
+     "Lin",
+     "Zhang"
+    ],
+    [
+     "Plchot",
+     "Oldřich"
+    ],
+    [
+     "Vojtěch",
+     "Staněk"
+    ],
+    [
+     "David",
+     "Mihola"
+    ],
+    [
+     "Junyi",
+     "Peng"
+    ],
+    [
+     "Themos",
+     "Stafylakis"
+    ],
+    [
+     "Dmitriy",
+     "Beveraki"
+    ],
+    [
+     "Anna",
+     "Silnova"
+    ],
+    [
+     "Jan",
+     "Brukner"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ]
+   ],
+   "title": "BUT systems and analyses for the ASVspoof 5 Challenge",
+   "original": "37",
+   "order": 4,
+   "page_count": 8,
+   "abstract": [
+    "This paper describes the BUT submitted systems for the ASVspoof5 challenge, along with analyses. For the conventional deepfake detection task, we use ResNet18 and self-supervised models for the closed and open conditions, respectively. In addition, we analyze and visualize different combinations of speaker information and spoofing information as label schemes for training. For spoofing-robust automatic speaker verification (SASV), we introduce effective priors and propose using logistic regression to jointly train affine transformations of the countermeasure scores and the automatic speaker verification scores in such a way that the SASV LLR is optimized.\n"
+   ],
+   "p1": 24,
+   "pn": 31,
+   "doi": "10.21437/ASVspoof.2024-4",
+   "url": "asvspoof_2024/rohdin24_asvspoof.html"
+  },
+  "okhotnikov24_asvspoof": {
+   "authors": [
+    [
+     "Anton",
+     "Okhotnikov"
+    ],
+    [
+     "Ivan",
+     "Yakovlev"
+    ],
+    [
+     "Nikita",
+     "Torgashov"
+    ],
+    [
+     "Rostislav",
+     "Makarov"
+    ],
+    [
+     "Esteban",
+     "Gómez"
+    ],
+    [
+     "Pavel",
+     "Malov"
+    ],
+    [
+     "Alexandr",
+     "Alenin"
+    ],
+    [
+     "Andrei",
+     "Balykin"
+    ]
+   ],
+   "title": "IDVoice team system description for ASVSpoof5 Challenge",
+   "original": "40",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "ASVSpoof is a series of community-led challenges aimed at advancing the development of robust automatic speaker verification (ASV) systems and anti-spoofing countermeasures (CM). The fifth edition of the challenge focuses on speech deepfakes and features two tracks: Track 1: Robust Speech Deepfake Detection (DF) and Track 2: Spoofing-Robust Automatic Speaker Verification (SASV). In this report, we describe in detail the system submitted by the IDVoice team to the open condition of the SASV track (Track 2). Our solution is a score-level fusion of independently trained CM and ASV systems. The CM system is composed of six neural networks of four distinct architectures, while the ASV system is a ResNet-based model. Our final submission achieves a 0.1156 min a-DCF on the challenge evaluation set.\n"
+   ],
+   "p1": 43,
+   "pn": 47,
+   "doi": "10.21437/ASVspoof.2024-7",
+   "url": "asvspoof_2024/okhotnikov24_asvspoof.html"
+  },
+  "xu24_asvspoof": {
+   "authors": [
+    [
+     "Yuxiong",
+     "Xu"
+    ],
+    [
+     "Jiafeng",
+     "Zhong"
+    ],
+    [
+     "Sengui",
+     "Zheng"
+    ],
+    [
+     "Zefeng",
+     "Liu"
+    ],
+    [
+     "Bin",
+     "Li"
+    ]
+   ],
+   "title": "SZU-AFS antispoofing system for the ASVspoof 5 Challenge",
+   "original": "41",
+   "order": 10,
+   "page_count": 8,
+   "abstract": [
+    "This paper presents the SZU-AFS anti-spoofing system, designed for Track 1 of the ASVspoof 5 Challenge under open conditions. The system is built with four stages: selecting a baseline model, exploring effective data augmentation (DA) methods for fine-tuning, applying a co-enhancement strategy based on gradient norm aware minimization (GAM) for secondary fine-tuning, and fusing logits scores from the two best-performing fine-tuned models. The system utilizes the Wav2Vec2 front-end feature extractor and the AASIST back-end classifier as the baseline model. During model fine-tuning, three distinct DA policies have been investigated: single-DA, random-DA, and cascade-DA. Moreover, the employed GAM-based co-enhancement strategy, designed to fine-tune the augmented model at both data and optimizer levels,  helps the Adam optimizer find flatter minima, thereby boosting model generalization. Overall, the final fusion system achieves a minDCF of 0.115 and an EER of 4.04% on the evaluation set.\n"
+   ],
+   "p1": 64,
+   "pn": 71,
+   "doi": "10.21437/ASVspoof.2024-10",
+   "url": "asvspoof_2024/xu24_asvspoof.html"
+  },
+  "kurnaz24_asvspoof": {
+   "authors": [
+    [
+     "Oğuzhan",
+     "Kurnaz"
+    ],
+    [
+     "Selim Can",
+     "Demirtaş"
+    ],
+    [
+     "Aykut Büker Jagabandhu",
+     "Mishra"
+    ],
+    [
+     "Cemal",
+     "Hanilçi"
+    ]
+   ],
+   "title": "Spoofing-robust speaker verification using parallel embedding fusion: BTU speech group's approach for ASVspoof5 Challenge",
+   "original": "42",
+   "order": 20,
+   "page_count": 6,
+   "abstract": [
+    "This paper introduces the parallel network-based spoofing-aware speaker verification (SASV) system developed by BTU Speech Group for the ASVspoof5 Challenge. The SASV system integrates ASV and CM systems to enhance security against spoofing attacks. Our approach employs score and embedding fusion from ASV models (ECAPA-TDNN, WavLM) and CM models (AASIST). The fused embeddings are processed using a simple DNN structure, optimizing model performance with a combination of recently proposed a-DCF and BCE losses. We introduce a novel parallel network structure where two identical DNNs, fed with different inputs, independently process embeddings and produce SASV scores. The final SASV probability is derived by averaging these scores, enhancing robustness and accuracy. Experimental results demonstrate that the proposed parallel DNN structure outperforms traditional single DNN methods, offering a more reliable and secure speaker verification system against spoofing attacks. \n"
+   ],
+   "p1": 138,
+   "pn": 143,
+   "doi": "10.21437/ASVspoof.2024-20",
+   "url": "asvspoof_2024/kurnaz24_asvspoof.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "ASVspoof 5 Challenge Summary",
+   "papers": [
+    "wang24_asvspoof"
+   ]
+  },
+  {
+   "title": "ASVspoof 5 Site Presentation 1",
+   "papers": [
+    "tran24_asvspoof",
+    "duroselle24_asvspoof",
+    "rohdin24_asvspoof",
+    "falez24_asvspoof",
+    "villalba24_asvspoof",
+    "okhotnikov24_asvspoof",
+    "borodin24_asvspoof",
+    "schafer24_asvspoof",
+    "xu24_asvspoof",
+    "stourbe24_asvspoof"
+   ]
+  },
+  {
+   "title": "ASVspoof 5 and Beyond",
+   "papers": [
+    "negroni24_asvspoof",
+    "kulkarni24_asvspoof",
+    "todisco24_asvspoof",
+    "xie24_asvspoof",
+    "chen24_asvspoof",
+    "zhu24_asvspoof",
+    "xia24_asvspoof",
+    "guo24_asvspoof"
+   ]
+  },
+  {
+   "title": "ASVspoof 5 Site Presentation 2",
+   "papers": [
+    "kurnaz24_asvspoof",
+    "martindonas24_asvspoof",
+    "aliyev24_asvspoof",
+    "chan24_asvspoof",
+    "dao24_asvspoof",
+    "combei24_asvspoof",
+    "truong24_asvspoof",
+    "ali24_asvspoof"
+   ]
+  }
+ ],
+ "doi": "10.21437/ASVspoof.2024"
+}
