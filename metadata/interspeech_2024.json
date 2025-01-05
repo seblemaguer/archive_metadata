@@ -17,25 +17,6 @@
  "day": 1,
  "now": 1725173628965026,
  "papers": {
-  "wang24_interspeech": {
-   "authors": [
-    [
-     "Ruizhe",
-     "Wang"
-    ]
-   ],
-   "title": "SA-MF: A Novel Self-Attention Mechanism for Multifeature Fusion in Speech Enhancement Networks",
-   "original": "4",
-   "order": 689,
-   "page_count": 5,
-   "abstract": [
-    "Multichannel speech enhancement in complex noise environments remains a formidable challenge due to the necessity of adapting to multiple noise types, addressing nonlinear distortions, and other influencing factors. Current methods using utilizing time and frequency domains often result in inaccurate predictions or distortions. In this paper, we propose a self-attentive multi-feature fusion network to enhance the quality of multichannel speech in noisy environments. The method simultaneously extracts spatial and spectral features, performing feature fusion through the self-attention mechanism. Experimental results demonstrate that, compared with existing methods, our proposed approach achieves significant improvements, effectively enhancing speech quality in noisy environments. SDR show improvements of 0.4, respectively, when compared with other state-of-the-art multi-channel enhancement models."
-   ],
-   "p1": 3365,
-   "pn": 3369,
-   "doi": "10.21437/Interspeech.2024-4",
-   "url": "interspeech_2024/wang24_interspeech.html"
-  },
   "ai24_interspeech": {
    "authors": [
     [
@@ -11417,33 +11398,6 @@
    "pn": 4972,
    "doi": "10.21437/Interspeech.2024-775",
    "url": "interspeech_2024/wu24f_interspeech.html"
-  },
-  "wu24g_interspeech": {
-   "authors": [
-    [
-     "Boyong",
-     "Wu"
-    ],
-    [
-     "Chao",
-     "Yan"
-    ],
-    [
-     "Haoran",
-     "Pu"
-    ]
-   ],
-   "title": "Transferable speech-to-text large language model alignment module",
-   "original": "777",
-   "order": 617,
-   "page_count": 5,
-   "abstract": [
-    "By leveraging the power of Large Language Models(LLMs) and speech foundation models, state of the art speech-text bimodal works can achieve challenging tasks like spoken translation(ST) and question answering(SQA) altogether with much simpler architectures. In this paper, we utilize the capability of Whisper encoder and pre-trained Yi-6B. Empirical results reveal that modal alignment can be achieved with one layer module and hundred hours of speech-text multitask corpus. We further swap the Yi-6B with human preferences aligned version of Yi-6B-Chat during inference, and discover that the alignment capability is applicable as well. In addition, the alignment subspace revealed by singular value decomposition(SVD) also implies linear alignment subspace is sparse, which leaves the possibility to concatenate other features like voice-print or video to expand modality."
-   ],
-   "p1": 3005,
-   "pn": 3009,
-   "doi": "10.21437/Interspeech.2024-777",
-   "url": "interspeech_2024/wu24g_interspeech.html"
   },
   "edlund24_interspeech": {
    "authors": [
@@ -25203,37 +25157,6 @@
    "doi": "10.21437/Interspeech.2024-1778",
    "url": "interspeech_2024/wells24_interspeech.html"
   },
-  "zheng24b_interspeech": {
-   "authors": [
-    [
-     "Beida",
-     "Zheng"
-    ],
-    [
-     "Mijit",
-     "Ablimit"
-    ],
-    [
-     "Hankiz",
-     "Yilahun"
-    ],
-    [
-     "Askar",
-     "Hamdulla"
-    ]
-   ],
-   "title": "Convolutional gated MLP and attention improve end-to-end spoken language understanding",
-   "original": "1780",
-   "order": 720,
-   "page_count": 5,
-   "abstract": [
-    "The task of spoken language understanding(SLU) consists mainly of intention detection and slot filling. Most studies model the two separately, with intention detection as a categorization task and slot filling as a sequence labeling task, which are interrelated. End-to-end(E2E) approaches have recently received much attention due to their structural simplicity and effectiveness. Still, the need for speech datasets is one of the main reasons for their limited development. Second, E2E SLU is plagued by long-tail words. To mitigate the above problems, the use of Hubert as a speech encoder combined with the Convolutional Gated MLP(CgMLP) module is proposed to improve the feature learning capability of the model. The intention detection and slot-filling tasks are jointly modeled E2E. At the same time, the long-tailed word problem is mitigated using the attention mechanism at the decoding, an improvement of 4.77\\% and 1.87\\% over the baseline model on the two tasks."
-   ],
-   "p1": 3520,
-   "pn": 3524,
-   "doi": "10.21437/Interspeech.2024-1780",
-   "url": "interspeech_2024/zheng24b_interspeech.html"
-  },
   "vinnikov24_interspeech": {
    "authors": [
     [
@@ -27311,41 +27234,6 @@
    "pn": 2059,
    "doi": "10.21437/Interspeech.2024-1909",
    "url": "interspeech_2024/geng24_interspeech.html"
-  },
-  "yang24p_interspeech": {
-   "authors": [
-    [
-     "Muqiao",
-     "Yang"
-    ],
-    [
-     "Xiang",
-     "Li"
-    ],
-    [
-     "Umberto",
-     "Cappellazzo"
-    ],
-    [
-     "Shinji",
-     "Watanabe"
-    ],
-    [
-     "Bhiksha",
-     "Raj"
-    ]
-   ],
-   "title": "Towards Unified Evaluation of Continual Learning in Spoken Language Understanding",
-   "original": "1911",
-   "order": 719,
-   "page_count": 5,
-   "abstract": [
-    "Continual learning has emerged as an important challenge across various tasks, including Spoken Language Understanding (SLU). The evaluation of continual learning algorithms typically involves assessing the model's stability, plasticity, and generalizability. However, existing continual learning metrics primarily focus on only one or two of the properties. They neglect the overall performance across all tasks, and do not adequately disentangle the plasticity versus stability/generalizability trade-offs in the model. In this work, we propose an evaluation metric that provides a unified evaluation on stability, plasticity, and generalizability. By employing the proposed metric, we demonstrate how introducing various knowledge distillations can improve these three properties, and we apply it to the SLU model evaluation. We further show that our proposed metric is more sensitive in capturing the impact of task ordering in continual learning, making it better suited for practical scenarios."
-   ],
-   "p1": 3515,
-   "pn": 3519,
-   "doi": "10.21437/Interspeech.2024-1911",
-   "url": "interspeech_2024/yang24p_interspeech.html"
   },
   "lai24b_interspeech": {
    "authors": [
@@ -34730,33 +34618,6 @@
    "doi": "10.21437/Interspeech.2024-2483",
    "url": "interspeech_2024/tao24b_interspeech.html"
   },
-  "li24sa_interspeech": {
-   "authors": [
-    [
-     "Shu",
-     "Li"
-    ],
-    [
-     "Peng",
-     "Zhang"
-    ],
-    [
-     "Ye",
-     "Li"
-    ]
-   ],
-   "title": "Robust Voice Activity Detection using Locality-Sensitive Hashing and Residual Frequency-Temporal Attention",
-   "original": "2489",
-   "order": 50,
-   "page_count": 5,
-   "abstract": [
-    "For voice activity detection (VAD), recent works focus on learning the attention distribution on contextual information of speech to reduce the impact of irrelevant noise. However, contextual frames selected with specific steps may not be relevant, and these attention mechanisms can not fully discover the structure and characteristics of speech. In this paper, we explore a self-attention-inspired locality-sensitive hashing algorithm (SALSH) for dynamic and efficient contextual frame selection to enrich the frame-level features into a 2D partial spectrogram. Then, we propose a residual frequency-temporal attention model (FTAM) for VAD, consisting of an interval branch, an analogous hourglass structure with channel attention, and an attention learning mechanism for speech based on frequency-temporal attention. On the LibriSpeech and TIMIT datasets, the proposed method outperforms the others in terms of area under the curve (AUC), even under extremely low signal-to-noise ratio of -15dB."
-   ],
-   "p1": 242,
-   "pn": 246,
-   "doi": "10.21437/Interspeech.2024-2489",
-   "url": "interspeech_2024/li24sa_interspeech.html"
-  },
   "deheerkloots24_interspeech": {
    "authors": [
     [
@@ -35342,37 +35203,6 @@
    "pn": 3863,
    "doi": "10.21437/Interspeech.2024-2538",
    "url": "interspeech_2024/ta24b_interspeech.html"
-  },
-  "min24_interspeech": {
-   "authors": [
-    [
-     "Anna",
-     "Min"
-    ],
-    [
-     "Chenxu",
-     "Hu"
-    ],
-    [
-     "Yi",
-     "Ren"
-    ],
-    [
-     "Hang",
-     "Zhao"
-    ]
-   ],
-   "title": "A Unit-based System and Dataset for Expressive Direct Speech-to-Speech Translation",
-   "original": "2548",
-   "order": 78,
-   "page_count": 5,
-   "abstract": [
-    "Current research in speech-to-speech translation (S2ST) primarily concentrates on translation accuracy and speech naturalness, often overlooking key elements like paralinguistic information, which is essential for conveying emotions and attitudes in communication. To address this, our research introduces a novel, carefully curated multilingual dataset from various movie audio tracks. Each dataset pair is precisely matched for paralinguistic features and duration. We enhance this by integrating multiple prosody transfer techniques, aiming for translations that are accurate, natural-sounding, and rich in paralinguistic details. Our experimental results confirm that our model retains more paralinguistic information from the source speech while maintaining high standards of translation accuracy and naturalness."
-   ],
-   "p1": 382,
-   "pn": 386,
-   "doi": "10.21437/Interspeech.2024-2548",
-   "url": "interspeech_2024/min24_interspeech.html"
   },
   "jia24_interspeech": {
    "authors": [
@@ -36829,7 +36659,6 @@
     "zhang24q_interspeech",
     "prabhu24_interspeech",
     "miyazaki24_interspeech",
-    "li24sa_interspeech",
     "wan24_interspeech",
     "gupta24_interspeech",
     "gong24b_interspeech"
@@ -36877,7 +36706,6 @@
     "chen24w_interspeech",
     "rabatin24_interspeech",
     "wang24aa_interspeech",
-    "min24_interspeech",
     "oneata24_interspeech",
     "khurana24_interspeech"
    ]
@@ -37791,7 +37619,6 @@
     "wu24l_interspeech",
     "sun24d_interspeech",
     "gudmalwar24_interspeech",
-    "wu24g_interspeech",
     "svirsky24_interspeech"
    ]
   },
@@ -37918,7 +37745,6 @@
     "xu24i_interspeech",
     "aziz24_interspeech",
     "lee24g_interspeech",
-    "wang24_interspeech",
     "zhou24d_interspeech"
    ]
   },
@@ -37973,8 +37799,6 @@
   {
    "title": "Spoken Language Understanding",
    "papers": [
-    "yang24p_interspeech",
-    "zheng24b_interspeech",
     "aimaiti24_interspeech",
     "christ24_interspeech",
     "akani24_interspeech",
