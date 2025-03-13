@@ -35454,7 +35454,7 @@
    "url": "interspeech_2024/gao24f_interspeech.html",
    "author_area_id": "03",
    "author_area_label": "Paralinguistics in Speech and Language: Human and Automatic Analysis and Processing",
-   "erratum": "<p>\n    Equation 3 should be:\n    $$\\begin{eqnarray}\n    s^a & = & softmax( (x^a * W^Q) * (x^a * W^K)^T / \\sqrt(d_k) ) * (x^a * W^V) \\\\\n    s^l & = & softmax( (x^l * W^Q) * (x^l * W^K)^T / \\sqrt(d_k) ) * (x^l * W^V)\n    \\end{eqnarray}$$\n</p>\n\n<p>\n    Text after Equation 4 should be: \\(c^a \\in R^(t × d)\\) integrates emotional information from \\(s^a\\) to \\(s^l\\), and \\(c^l \\in R^(t × d)\\) integrates emotional information from \\(s^l\\) to \\(s^a\\).\n</p>\n"
+   "erratum": "<p>\n    Equation 3 should be:\n    $$\\begin{eqnarray}\n    s^a & = & softmax( (x^a * W^Q) * (x^a * W^K)^T / \\sqrt(d_k) ) * (x^a * W^V) \\\\\n    s^l & = & softmax( (x^l * W^Q) * (x^l * W^K)^T / \\sqrt(d_k) ) * (x^l * W^V)\n    \\end{eqnarray}$$\n</p>\n\n<p>\n    Text after Equation 4 should be: \\(c^a \\in R^{(t × d)}\\) integrates emotional information from \\(s^a\\) to \\(s^l\\), and \\(c^l \\in R^{(t × d)}\\) integrates emotional information from \\(s^l\\) to \\(s^a\\).\n</p>\n"
   },
   "duan24_interspeech": {
    "authors": [
