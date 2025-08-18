@@ -1,0 +1,725 @@
+{
+ "series": "DiSS",
+ "title": "12th edition of the Disfluency in Spontaneous Speech Workshop (DiSS 2025)",
+ "location": "Lisbon, Portugal",
+ "startDate": "4/9/2025",
+ "endDate": "5/9/2025",
+ "URL": "https://diss2025.inesc-id.pt/",
+ "chair": "Chairs: Helena Moniz and Fernando Batista",
+ "intro": "intro.pdf",
+ "": "",
+ "conf": "DiSS",
+ "name": "diss_2025",
+ "year": "2025",
+ "SIG": "",
+ "title1": "12th edition of the Disfluency in Spontaneous Speech Workshop",
+ "title2": "(DiSS 2025)",
+ "booklet": "intro.pdf",
+ "date": "4-5 September 2025",
+ "month": 9,
+ "day": 4,
+ "now": 1755158068051127,
+ "papers": {
+  "wagner25_diss": {
+   "authors": [
+    [
+     "Petra",
+     "Wagner"
+    ],
+    [
+     "Simon",
+     "Betz"
+    ]
+   ],
+   "title": "The dual nature of lengthening",
+   "original": "WagnerBetz_DISS25",
+   "order": 1,
+   "page_count": 1,
+   "abstract": [
+    "Within disfluency research, lengthening has received far less research interest than other phenomena. While lengthening can act as a hesitation signal, which, alongside fillers and silences, may help with dialogue management, it differs from other hesitations as it often passes unnoticed. It therefore cannot fulfill the same function as fillers, which often have a clear message to convey (e.g., „Please don’t interrupt me“). However, if lengthening is perceived, it can impact listeners’ interpretation of meaning and meta-information. This somewhat two-faced nature, the dichotomy of elusiveness and communicative impact, demands closer investigation.\nIn this talk we would like to give an overview of our own research on lengthening. We will outline formal aspects of lengthening, its multimodal production and perception, its pragmatic function, and discuss consequences for its empirical analysis and implications for its potential use in speech-technological applications.\n"
+   ],
+   "p1": 1,
+   "pn": 1
+  },
+  "anumanchipalli25_diss": {
+   "authors": [
+    [
+     "Gopala",
+     "Anumanchipalli"
+    ]
+   ],
+   "title": "SSDM: Scalable Speech Disfluency Modeling",
+   "original": "Anumanchipalli_DISS25",
+   "order": 2,
+   "page_count": 1,
+   "abstract": [
+    "Speech disfluency modeling is the core module for spoken language learning, and speech therapy. However, there are three challenges. First, current state-of-the-art solutions suffer from poor scalability. Second, there is a lack of a large-scale dysfluency corpus. Third, there is not an effective learning framework. In this paper, we propose SSDM: Scalable Speech Disfluency Modeling, which (1) adopts articulatory gestures as scalable forced alignment;(2) introduces connectionist subsequence aligner (CSA) to achieve disfluency alignment;(3) introduces a large-scale simulated disfluency corpus called Libri-Dys; and (4) develops an end-to-end system by leveraging the power of large language models (LLMs). We expect SSDM to serve as a standard in the area of disfluency modeling. Demo is available at https://berkeley-speech-group.github.io/SSDM/.\n"
+   ],
+   "p1": 2,
+   "pn": 2
+  },
+  "starzew25_diss": {
+   "authors": [
+    [
+     "Evelyn",
+     "Starzew"
+    ],
+    [
+     "Suhita",
+     "Ghosh"
+    ],
+    [
+     "Valerie",
+     "Krug"
+    ]
+   ],
+   "title": "Investigating Inclusivity of Whisper for Dysfluent Speech",
+   "original": "3",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "Speech recognition models have gained popularity in the last couple of years and are able to achieve remarkable performance. However, the under-representation of pathological speech in the training data leads to significant performance drops for many state-of-the-art models on pathological speech. In our work, we investigate the inclusivity of the pre-trained Whisper model in its base variant using dysarthric speech as a use case. We aim to identify potential inequalities and whether they can be reduced through fine-tuning. For this, we compare embedding-based and attention-based representations of healthy and dysarthric samples and analyze the development of the layers’ representational capacities. Our key findings are that there are clear inequalities in the performance and computation of representations, which can be reduced significantly in automatic speech recognition by 73.44% WER through the adaptation to dysarthric speech by fine-tuning.\n"
+   ],
+   "p1": 77,
+   "pn": 81,
+   "doi": "10.21437/DiSS.2025-16",
+   "url": "diss_2025/starzew25_diss.html"
+  },
+  "babkoff25_diss": {
+   "authors": [
+    [
+     "Maayan",
+     "Babkoff"
+    ],
+    [
+     "Simon",
+     "Betz"
+    ],
+    [
+     "Eshkol",
+     "Rafaeli"
+    ],
+    [
+     "Gideon E.",
+     "Anholt"
+    ]
+   ],
+   "title": "Distinguishing Intentional from Unintentional Disfluencies in Psychotherapy",
+   "original": "4",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "In psychotherapy, therapists’ disfluencies, such as pauses, repetitions, and elongations, have received little direct study. While these speech patterns are often assumed to reflect cognitive or emotional strain, emerging perspectives suggest they may also serve communicative functions. This pilot study investigates how consistently external raters classify disfluencies in therapy as intentional or unintentional, and how these classifications align with therapists’ retrospective reports. Using coded segments from real therapy sessions, we analyzed inter-rater agreement and modeled how contextual and structural features influenced judgments. Results show low agreement overall, with higher consistency during less structured therapeutic segments. Additionally, disfluencies at syntactic boundaries were more likely to be perceived as intentional, suggesting that structural cues might bias interpretation. These findings highlight the need for refined analytic tools to better distinguish intentional from unintended speech phenomena in clinical and psycholinguistic research.\n"
+   ],
+   "p1": 47,
+   "pn": 51,
+   "doi": "10.21437/DiSS.2025-10",
+   "url": "diss_2025/babkoff25_diss.html"
+  },
+  "wang25_diss": {
+   "authors": [
+    [
+     "Sheng-Fu",
+     "Wang"
+    ],
+    [
+     "Laurent",
+     "Prévot"
+    ]
+   ],
+   "title": "Evaluating Data-Efficient LLMs on a Benchmark of Disfluency Minimal Pairs",
+   "original": "5",
+   "order": 22,
+   "page_count": 5,
+   "abstract": [
+    "Zero-shot benchmarks based on minimal pairs have become an essential part of the toolkit for evaluating large language models’ linguistic capacities. Most of these tasks focus on syntactic, semantic, and morphological phenomena and are built from expert-crafted or semi-automatically generated sentences. Motivated by the crucial role of spontaneous speech in language processing, we experimented with creating a benchmark that leverages spontaneous speech corpora in three languages (English, French, and Mandarin). Crucially, the benchmark tests LLMs on disfluencies, a ubiquitous and essential feature of spontaneous speech. Our findings show that models pretrained on conversational data exhibit a clear advantage in handling disfluencies compared to those trained on written encyclopedic text. Furthermore, cross-linguistic LLMs trained on much larger datasets did not exhibit strong advantages in our proposed benchmark, highlighting the potential of disfluency-based tasks as a challenging problem for language models.\n"
+   ],
+   "p1": 97,
+   "pn": 101,
+   "doi": "10.21437/DiSS.2025-20",
+   "url": "diss_2025/wang25_diss.html"
+  },
+  "pokel25_diss": {
+   "authors": [
+    [
+     "Niclas",
+     "Pokel"
+    ],
+    [
+     "Pehuén",
+     "Moure"
+    ],
+    [
+     "Roman",
+     "Boehringer"
+    ],
+    [
+     "Yingqiang",
+     "Gao"
+    ]
+   ],
+   "title": "Adapting Foundation Speech Recognition Models to Impaired Speech: A Semantic Re-chaining Approach for Personalization of German Speech",
+   "original": "6",
+   "order": 19,
+   "page_count": 5,
+   "abstract": [
+    "Speech impairments caused by conditions such as cerebral palsy or genetic disorders pose significant challenges for automatic speech recognition (ASR) systems. Despite recent advances, ASR models like Whisper struggle with non-normative speech due to limited training data and the difficulty of collecting and annotating non-normative speech samples. In this work, we propose a practical and lightweight pipeline to personalize ASR models, formalizing the selection of words and enriching a small, speech-impaired dataset with semantic coherence. Applied to data from a child with a structural speech impairment, our approach shows promising improvements in transcription quality, demonstrating the potential to reduce communication barriers for individuals with atypical speech patterns.\n"
+   ],
+   "p1": 82,
+   "pn": 86,
+   "doi": "10.21437/DiSS.2025-17",
+   "url": "diss_2025/pokel25_diss.html"
+  },
+  "williams25_diss": {
+   "authors": [
+    [
+     "Simon",
+     "Williams"
+    ]
+   ],
+   "title": "Pauses, reformulations and inhibitory control in speakers with non-specific Alzheimer’s Disease",
+   "original": "7",
+   "order": 15,
+   "page_count": 5,
+   "abstract": [
+    "Compared to healthy individuals, differences have been reported in people living with Alzheimer’s Disease (AD) in their production of reformulations and silences within turns in spontaneous conversation. Inhibitory control has been found to influence the production of the same disfluencies in language learners’ semi-spontaneous monologic speech, but their cumulative incidence in that mode, which is more conveniently collected and analysed than conversation, has not been assessed in AD speakers. We hypothesised that AD speakers would produce fewer reformulations and more silent pauses in long turns over time. Data was collected from seven participants with AD and 10 healthy controls over two years. Elicitation materials comprised a MoCA test, category fluency and Stroop tasks, and speech prompt. In AD participants only the number and duration of pauses correlated with measures of inhibition. Reformulations were not significantly associated with any other measure in either year.\n"
+   ],
+   "p1": 62,
+   "pn": 66,
+   "doi": "10.21437/DiSS.2025-13",
+   "url": "diss_2025/williams25_diss.html"
+  },
+  "kosmala25_diss": {
+   "authors": [
+    [
+     "Loulou",
+     "Kosmala"
+    ]
+   ],
+   "title": "Multimodal Self- and Other-Initiated Repairs in L2 Peer Interactions",
+   "original": "8",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "This study examines the multimodal organization of self- and other-initiated repairs in L2 peer interactions between French secondary pupils. While self-repairs typically reflect errors and language difficulties at different levels (syntactic, lexical, phonological, etc.) and are treated as (dis)fluency features, repair mechanisms are not solely responses to linguistic errors but may be used as tools to negotiate meaning and manage misunderstandings, especially through other-repairs. Adopting a multimodal approach, this study focuses on the visual-gestural properties of repairs, based on different articulators (face, head, and hands). Results show a preference for self-repairs over other-repairs, especially those associated with lexical and syntactic difficulties. Other-repairs mainly consist of restricted offers in contexts of misunderstanding and acceptability problems. Findings also reveal distinct multimodal patterns depending on the type of the repair. A more detailed qualitative analysis of the data highlights the sequential relationship between self- and other- repairs.\n"
+   ],
+   "p1": 32,
+   "pn": 36,
+   "doi": "10.21437/DiSS.2025-7",
+   "url": "diss_2025/kosmala25_diss.html"
+  },
+  "trouvain25_diss": {
+   "authors": [
+    [
+     "Jürgen",
+     "Trouvain"
+    ],
+    [
+     "Ludivine",
+     "Crible"
+    ],
+    [
+     "Malte",
+     "Belz"
+    ],
+    [
+     "Simon",
+     "Betz"
+    ],
+    [
+     "Štefan",
+     "Beňuš"
+    ],
+    [
+     "Lorraine",
+     "Baqué"
+    ],
+    [
+     "Marina",
+     "Cantarutti"
+    ],
+    [
+     "Jessica Di",
+     "Napoli"
+    ],
+    [
+     "Ivana",
+     "Didirková"
+    ],
+    [
+     "Maria",
+     "Machuca"
+    ],
+    [
+     "Lucia",
+     "Mareková"
+    ],
+    [
+     "Oana",
+     "Niculescu"
+    ],
+    [
+     "Pauliina",
+     "Peltonen"
+    ],
+    [
+     "Aurelie",
+     "Pistono"
+    ],
+    [
+     "Loredana",
+     "Schettino"
+    ],
+    [
+     "Vered",
+     "Silber-Varod"
+    ],
+    [
+     "Simon",
+     "Williams"
+    ]
+   ],
+   "title": "On variability in the identification and labelling of disfluencies — preliminary results from 23 annotations of the same data",
+   "original": "9",
+   "order": 14,
+   "page_count": 5,
+   "abstract": [
+    "This study provides a preliminary report on a large inter-annotator agreement experiment where 23 expert annotators from various research backgrounds identified and labelled disfluencies in the same speech sample. Each annotator was instructed to analyze the sample according to the framework (definitions, segmentation, labels, etc.) they typically use. The annotations were then processed and compared across three different dimensions: 1) the scope of the chosen typology and the definitions within, 2) the implementation of the typology in terms of annotation tiers and labels, and 3) the temporal alignment of the annotations. Preliminary findings reveal that there are substantial variations between annotators on various levels of annotation. The lack of a common standard becomes particularly evident in more complex segments, such as repairs.\n"
+   ],
+   "p1": 57,
+   "pn": 61,
+   "doi": "10.21437/DiSS.2025-12",
+   "url": "diss_2025/trouvain25_diss.html"
+  },
+  "bottcher25_diss": {
+   "authors": [
+    [
+     "Marlene",
+     "Böttcher"
+    ],
+    [
+     "Constantijn",
+     "Kaland"
+    ]
+   ],
+   "title": "Prosodic Prototypes of Filler Particles across Three Languages",
+   "original": "10",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "This study investigates the prosodic characteristics of filler particles like “uh” and “uhm” across English (U.S.), German and Russian using manual annotation and cluster analyses. Vocalic filler particles have been reported across languages, and languages differ mainly in the use and amount of a vowel-nasal forms. Prosodically, filler particles have been described as having reduced fundamental frequency and reduced intensity within speakers, as well as having predominantly level pitch contours across languages. To investigate the interplay between segmental and suprasegmental aspects of filler particles, we used corpus data, which was manually annotated for segmental form, and carried out multivariate cluster analyses on the fillers’ fundamental frequency, intensity and duration. The results show similarities in low and flat fundamental frequency and suggest an interplay between the segmental form of filler particles and their duration along with intensity across all three languages, as well as between language specific preferences for filler particles’ segmental string.\n"
+   ],
+   "p1": 12,
+   "pn": 16,
+   "doi": "10.21437/DiSS.2025-3",
+   "url": "diss_2025/bottcher25_diss.html"
+  },
+  "arida25_diss": {
+   "authors": [
+    [
+     "Laudy",
+     "Arida"
+    ],
+    [
+     "Ivana",
+     "Didirková"
+    ]
+   ],
+   "title": "The Impact of Speaking Task on Disfluency distribution in French: Reading Aloud, Picture Description, and Spontaneous Speech",
+   "original": "11",
+   "order": 6,
+   "page_count": 5,
+   "abstract": [
+    "Disfluencies are a characteristic feature of spoken language and are linked to the cognitive demands involved in speech planning and production. While French has been the focus of extensive disfluency research, recent comparative studies examining multiple task types within the same speakers remain scarce. In this paper, we examine the frequency, type distribution, and duration of disfluencies produced by the same native French adult speakers across three tasks: read speech, picture description, and spontaneous speech.\nAs expected, read speech elicited significantly fewer disfluencies than the other tasks, predominantly involving silent pauses and repetitions. A comparative analysis of picture description and semi-spontaneous speech revealed comparable rates of disfluency, accompanied by significant inter-individual variability.\n"
+   ],
+   "p1": 17,
+   "pn": 21,
+   "doi": "10.21437/DiSS.2025-4",
+   "url": "diss_2025/arida25_diss.html"
+  },
+  "fernandezgarcia25_diss": {
+   "authors": [
+    [
+     "David",
+     "Fernández-García"
+    ],
+    [
+     "César",
+     "González-Ferreras"
+    ],
+    [
+     "Valentín",
+     "Cardeñoso-Payo"
+    ],
+    [
+     "David",
+     "Escudero-Mancebo"
+    ],
+    [
+     "Mario",
+     "Corrales-Astorgano"
+    ]
+   ],
+   "title": "The Effects of Spontaneous Speech on Disfluencies Assessment of Spanish Speakers with Down Syndrome",
+   "original": "12",
+   "order": 17,
+   "page_count": 5,
+   "abstract": [
+    "The aim of this study is to investigate the phonetic and fluency characteristics of spontaneous speech produced by Spanish speakers with Down syndrome (DS) compared to nonspontaneous speech modes (read, elicited and imitation) and assess the impact of these differences both on expert speech quality assessment and on automatic speech recognition (ASR) performance. The PRAUTOCAL corpus includes four different speech generation modes of utterances spoken by people with DS. The results show that there are minor differences in some features between spontaneous speech and other modes, but specific types of disfluencies and phonetic errors are more prevalent in spontaneous speech. The Whisper model showed improved performance on spontaneous speech, achieving a significantly lower Word Error Rate (WER) and fewer substitution errors.\nThe Wav2Vec phoneme recognition model performed significantly worse, showing higher phoneme error rate (PER), more substitutions, and greater total errors, no matter the automatic segmentation tool used (MFA or WebMAUS).\n"
+   ],
+   "p1": 72,
+   "pn": 76,
+   "doi": "10.21437/DiSS.2025-15",
+   "url": "diss_2025/fernandezgarcia25_diss.html"
+  },
+  "marekova25_diss": {
+   "authors": [
+    [
+     "Lucia",
+     "Mareková"
+    ],
+    [
+     "Štefan",
+     "Beňuš"
+    ]
+   ],
+   "title": "The Effect of Cognitive Demand on L1 and L2 Speech Fluency",
+   "original": "13",
+   "order": 13,
+   "page_count": 5,
+   "abstract": [
+    "This study investigates the influence of cognitive demand and (non-)native language on three measures of utterance fluency – articulation rate, mean length of runs, and repetition rate – within the framework of speech production models [1], [2], [3]. 48 Slovak native speakers participated in a collaborative map-navigation task conducted in both their L1 and L2 across varying levels of task complexity (easy, medium, and difficult).\nAs expected, all three fluency measures were significantly affected by language: L1 Slovak speech was faster and contained longer runs and fewer repetitions compared to L2 English. Contrary to expectations, task complexity had no significant effect on any of the fluency measures, nor did it interact with language. When compared with previous relevant findings, the results suggest that the analysed fluency measures are more sensitive to linguistic than cognitive demands, indicating a stronger link between the formulation stage of speech and fluency measures of articulation rate, length of runs, and repetition rate. The study also emphasises the need to distinguish between types of demands when analysing fluency across languages.\n"
+   ],
+   "p1": 52,
+   "pn": 56,
+   "doi": "10.21437/DiSS.2025-11",
+   "url": "diss_2025/marekova25_diss.html"
+  },
+  "ferreira25_diss": {
+   "authors": [
+    [
+     "Marcelo Henrique Lopes",
+     "Ferreira"
+    ],
+    [
+     "Alef Iury",
+     "Ferreira"
+    ],
+    [
+     "Lucas Rafael",
+     "Gris"
+    ],
+    [
+     "Rodrigo",
+     "Tanaka"
+    ],
+    [
+     "Israel Jesus Santos",
+     "Filho"
+    ],
+    [
+     "Frederico",
+     "Oliveira"
+    ],
+    [
+     "Arlindo Galvão",
+     "Filho"
+    ]
+   ],
+   "title": "Multimodal Disfluency Detection via Acoustic-Text Fusion: Comparing Intended and Verbatim ASR Transcripts",
+   "original": "14",
+   "order": 20,
+   "page_count": 5,
+   "abstract": [
+    "Multimodal disfluency detection faces challenges due to varied ASR transcript styles. In this work, we investigate whether intended-style (Whisper-OTS) or verbatim-style (CrisperWhisper) transcripts are more effective when fused with acoustic features from Wav2vec 2.0, Whisper, and Voc2vec encoders. Our experiments consistently demonstrate superior multimodal performance using intended transcripts across all tested speech encoders. The combination of Wav2vec 2.0 acoustic features and Whisper-OTS intended transcripts yielded the highest F1-Macro scores. These findings suggest the discrepancy between detailed acoustic features capturing the disfluency and a cleaner textual representation of the intended utterance provides a robust signal for multimodal detection systems.\n"
+   ],
+   "p1": 87,
+   "pn": 91,
+   "doi": "10.21437/DiSS.2025-18",
+   "url": "diss_2025/ferreira25_diss.html"
+  },
+  "coulange25_diss": {
+   "authors": [
+    [
+     "Sylvain",
+     "Coulange"
+    ],
+    [
+     "Nivja H. de",
+     "Jong"
+    ]
+   ],
+   "title": "Measuring L2 Speech Fluency Based on Syntactic Distribution of Pauses",
+   "original": "15",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "Pauses play an important role in structuring speech and making it comprehensible. However, when they occur at unexpected positions–such as within syntactic phrases–they can hinder understanding and become what we often refer to as disfluencies. This paper presents a novel metric for measuring second language (L2) speech fluency, based on the extent to which speakers place pauses at unexpected syntactic locations. We compare different approaches: one categorizing pauses by constituent types (clauses and phrases), and another using a continuous measure of syntactic distance between adjacent words. These scores are applied to conversation-based spontaneous speech produced by Japanese learners of English (CEFR levels B1 to C1) and by native English speakers. Results indicate that pauses tend to shift toward higher syntactic boundaries as proficiency increases. All tested measures positively correlate with proficiency, but syntactic distance yields a substantially stronger correlation.\n"
+   ],
+   "p1": 37,
+   "pn": 41,
+   "doi": "10.21437/DiSS.2025-8",
+   "url": "diss_2025/coulange25_diss.html"
+  },
+  "niculescu25_diss": {
+   "authors": [
+    [
+     "Oana",
+     "Niculescu"
+    ],
+    [
+     "Monica",
+     "Vasileanu"
+    ]
+   ],
+   "title": "Segment Lengthening across Inter-pausal Units: Insights from Romanian Monologue Speech",
+   "original": "16",
+   "order": 8,
+   "page_count": 5,
+   "abstract": [
+    "This pilot study examines (dis)fluent segment lengthening in Romanian monologue speech. Based on data from the Ro-Phon corpus, we analyzed 1721 tokens containing at least one lengthened segment, annotated by part of speech and inter-pausal unit position. Results show that lengthening usually targets function words, particularly conjunctions and prepositions, being unevenly distributed across IPU positions, with a preference for final and medial position. Lengthened content words, especially nouns and adjectives, surface more often in IPU-final position, while verbs and adverbs dominate medial contexts. Conversely, function words frequently surface in IPU-initial positions, suggesting a role in discourse structuring and speech planning. Together, these findings offer a more nuanced view of disfluencies in Romanian spoken data.\n"
+   ],
+   "p1": 27,
+   "pn": 31,
+   "doi": "10.21437/DiSS.2025-6",
+   "url": "diss_2025/niculescu25_diss.html"
+  },
+  "havras25_diss": {
+   "authors": [
+    [
+     "Anna",
+     "Havras"
+    ],
+    [
+     "Carlos",
+     "Mendes"
+    ],
+    [
+     "Helena",
+     "Moniz"
+    ],
+    [
+     "Gueorgui",
+     "Hristovsky"
+    ],
+    [
+     "João",
+     "Miranda"
+    ]
+   ],
+   "title": "Exploratory Study of Filled Pauses in Ukrainian Broadcast News Speech",
+   "original": "17",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "This exploratory study examines the acoustic and distributional analysis of filled pauses (FPs) in Ukrainian broadcast news (BN) speech, focusing on their phonetic structure and speaker-dependent variation. The dataset comprises five hours of manually annotated BN audio (17 recordings, 35490 words), from which 485 FPs were identified. The most frequent forms were [a] (57%) and [I] (34%). Acoustic measurements of duration, fundamental frequency (F0 ), and formant values indicate that Ukrainian FPs predominantly consist of short, central vowels, occasionally accompanied by nasal segments. Less frequent FP variants revealed a wider range of vowel-nasal combinations, however, their low frequency suggests speaker-specific or context-specific usage. Gender differences were observed: female speakers exhibited more dispersed vowel realizations and higher F0 values, while male speakers showed more centralized and acoustically compact vowel spaces.\n"
+   ],
+   "p1": 22,
+   "pn": 26,
+   "doi": "10.21437/DiSS.2025-5",
+   "url": "diss_2025/havras25_diss.html"
+  },
+  "altinok25_diss": {
+   "authors": [
+    [
+     "Duygu",
+     "Altinok"
+    ]
+   ],
+   "title": "Smooth Operators: LLMs Translating Imperfect Hints into Disfluency-Rich Transcripts",
+   "original": "19",
+   "order": 23,
+   "page_count": 5,
+   "abstract": [
+    "Accurate detection of disfluencies in spoken language is crucial for enhancing the performance of automatic speech and language processing systems, as well as fostering the development of more inclusive speech and language technologies. Leveraging the growing trend of large language models (LLMs) as versatile learners capable of processing both lexical and non-lexical inputs (e.g., audio and video), we propose a novel approach to transcribing disfluencies as explicit tokens with timestamps, enabling the generation of fully annotated disfluency-rich transcripts. Our method integrates acoustic representations extracted from an audio encoder with textual inputs of varying quality: clean transcriptions without disfluencies, time-aligned transcriptions from aligners, or outputs from phoneme-based ASR models—all of which may contain imperfections. Importantly, our experiments demonstrate that textual inputs do not need to be flawless. As long as they include timestamp-related cues, LLMs can effectively smooth the input and produce fully disfluency-annotated transcripts, underscoring their robustness in handling imperfect hints.\n"
+   ],
+   "p1": 102,
+   "pn": 106,
+   "doi": "10.21437/DiSS.2025-21",
+   "url": "diss_2025/altinok25_diss.html"
+  },
+  "pollklasener25_diss": {
+   "authors": [
+    [
+     "Christina",
+     "Pollkläsener"
+    ],
+    [
+     "Maria",
+     "Kunilovskaya"
+    ]
+   ],
+   "title": "Euh... where do interpreters hesitate? An information-theoretic perspective on sentence-initial filler particles in simultaneous interpreting",
+   "original": "20",
+   "order": 21,
+   "page_count": 5,
+   "abstract": [
+    "This study investigates the occurrence of sentence-initial filler particles (e.g. euh, hum) in simultaneously interpreted and original speeches using a bidirectional English-German corpus of European Parliament debates. We assume that sentence-initial filler particles indicate planning difficulties at the conceptual level, whereas sentence-medial filler particles mark hesitations over syntactic structure or lexical access. Since interpreters convey the source speech and do not plan their own message, we expect differences between interpreting and original speeches. We operationalise conceptual complexity as average word surprisal per sentence and local lexical or syntactic production problems as surprisal of the word following the filler particle. Our findings indicate that sentence-initial filler particles appear in sentences with higher conceptual complexity but are not well associated with local retrieval difficulty.\n"
+   ],
+   "p1": 92,
+   "pn": 96,
+   "doi": "10.21437/DiSS.2025-19",
+   "url": "diss_2025/pollklasener25_diss.html"
+  },
+  "gallo25_diss": {
+   "authors": [
+    [
+     "Emanuela",
+     "Gallo"
+    ],
+    [
+     "Giuseppe",
+     "Magistro"
+    ],
+    [
+     "Francesca",
+     "Garofalo"
+    ],
+    [
+     "Loredana",
+     "Schettino"
+    ]
+   ],
+   "title": "The relationships between speech rate, disfluencies and reduction phenomena",
+   "original": "22",
+   "order": 4,
+   "page_count": 4,
+   "abstract": [
+    "Disfluencies and phonetic reduction are natural features of spoken communication. It has been shown that several linguistic factors influence their production, with speech rate considered as a strong indicator of phonetic variation and also related to the occurrence of various types of disfluencies. In this study, we explore the relationship between speech rate, disfluency, and phonetic reduction in spontaneous Italian speech. As expected, our results indicate that higher speech rates generally correlate with fewer disfluency occurrences and with more frequent phonetic reductions. However, these phenomena are subject to limitations: after a certain threshold, further increases in speech rate no longer significantly reduce disfluencies, and at the same time, the rate at which phonetic reductions increase slows down at higher speech rates.\n"
+   ],
+   "p1": 8,
+   "pn": 11,
+   "doi": "10.21437/DiSS.2025-2",
+   "url": "diss_2025/gallo25_diss.html"
+  },
+  "vital25_diss": {
+   "authors": [
+    [
+     "Átila",
+     "Vital"
+    ],
+    [
+     "Bruno",
+     "Rocha"
+    ],
+    [
+     "Tommaso",
+     "Raso"
+    ]
+   ],
+   "title": "Disfluencies and Informational Structure in Spontaneous Speech: Classification and a Case Study of Filled Pauses",
+   "original": "23",
+   "order": 11,
+   "page_count": 5,
+   "abstract": [
+    "This study presents an investigation into disfluency patterns in spontaneous speech in Romance languages, particularly Brazilian Portuguese and Italian. The first part of the study, based on corpus-driven analyses, examines reference corpora classifications of disfluencies and proposes an alternative classification based on informational structure. The proposed disfluency categories are distinguished by whether or not they allow for the continuation of the informational unit being developed by the speaker at the moment of the disfluency. The second part of the study offers a phonetic analysis of one of these disfluency types (filled pauses) in Brazilian Portuguese and Italian. The comparison of filled pauses in BP and IT suggests that the phonological system of each language may influence how pauses are filled, favoring segments with specific phonetic properties such as nasality.\n"
+   ],
+   "p1": 42,
+   "pn": 46,
+   "doi": "10.21437/DiSS.2025-9",
+   "url": "diss_2025/vital25_diss.html"
+  },
+  "beradze25_diss": {
+   "authors": [
+    [
+     "Marianna",
+     "Beradze"
+    ],
+    [
+     "Natalia",
+     "Meir"
+    ]
+   ],
+   "title": "Prolongations at the Intersection of Autism and Bilingualism: Evidence from Child Narratives",
+   "original": "24",
+   "order": 16,
+   "page_count": 5,
+   "abstract": [
+    "Despite growing interest in bilingualism and neurodiversity, almost no studies have examined how bilingual experience intersects with autism to influence disfluency production. This study investigates segmental prolongations in the narratives of monolingual Hebrew-speaking and bilingual Russian–Hebrew-speaking children, with and without autism. We focus on both the quantitative distribution of prolongations and their qualitative characteristics, such as word structure (e.g., syllable number and final syllable type), lexical category (function vs. content words and subtypes such as nouns, verbs, and connectives), and the most frequently prolonged words. By examining how language status (monolingual vs. bilingual) and clinical status (autistic vs. non-autistic) interact to influence the production of prolongations, this study provides insights with potential implications for both clinical assessment and intervention—particularly for verbally fluent autistic individuals who may benefit from targeted support aimed at enhancing interactional fluency.\n"
+   ],
+   "p1": 67,
+   "pn": 71,
+   "doi": "10.21437/DiSS.2025-14",
+   "url": "diss_2025/beradze25_diss.html"
+  },
+  "bona25_diss": {
+   "authors": [
+    [
+     "Judit",
+     "Bóna"
+    ],
+    [
+     "Agnes",
+     "Hámori"
+    ]
+   ],
+   "title": "The role of speech tempo in turn taking in children's conversations",
+   "original": "25",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "This paper examines the timing of turn-taking, speech tempo and turn length of 5- and 9-year-old Hungarian children (n=24) during conversation, with particular attention to the effects of age and gender, as well as the relationship between rapid turn-taking and speech rate. Results show that floor transfer offset (FTO) decreased with age, while speech rate and turn length increased significantly. Gender differences were also observed: 5-year-old girls exhibited significantly shorter FTOs than boys; this pattern was less pronounced among 9-year-olds. However, no significant correlations were found between average FTO, speech rate and turn length. These findings suggest age- and gender-related patterns in the development of turn-taking timing, while also highlighting the role of individual characteristics and the need for further research on turn-level factors in children&#x27;s conversational timing.\n"
+   ],
+   "p1": 3,
+   "pn": 7,
+   "doi": "10.21437/DiSS.2025-1",
+   "url": "diss_2025/bona25_diss.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Petra Wagner and Simon Betz",
+   "papers": [
+    "wagner25_diss"
+   ]
+  },
+  {
+   "title": "Keynote: Gopala Anumanchipalli",
+   "papers": [
+    "anumanchipalli25_diss"
+   ]
+  },
+  {
+   "title": "Phonetics",
+   "papers": [
+    "bona25_diss",
+    "gallo25_diss",
+    "bottcher25_diss",
+    "arida25_diss",
+    "havras25_diss",
+    "niculescu25_diss"
+   ]
+  },
+  {
+   "title": "L2 + Psycholinguistics",
+   "papers": [
+    "kosmala25_diss",
+    "coulange25_diss",
+    "vital25_diss",
+    "babkoff25_diss",
+    "marekova25_diss",
+    "trouvain25_diss"
+   ]
+  },
+  {
+   "title": "Health Applications",
+   "papers": [
+    "williams25_diss",
+    "beradze25_diss",
+    "fernandezgarcia25_diss"
+   ]
+  },
+  {
+   "title": "Speech and Language Technologies",
+   "papers": [
+    "starzew25_diss",
+    "pokel25_diss",
+    "ferreira25_diss",
+    "pollklasener25_diss",
+    "wang25_diss",
+    "altinok25_diss"
+   ]
+  }
+ ],
+ "doi": "10.21437/DiSS.2025"
+}
