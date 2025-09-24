@@ -1,0 +1,1601 @@
+{
+ "series": "SLaTE",
+ "title": "10th Workshop on Speech and Language Technology in Education (SLaTE)",
+ "location": "Nijmegen, Netherlands",
+ "startDate": "22/8/2025",
+ "endDate": "24/8/2025",
+ "URL": "https://sites.google.com/view/slate-2025",
+ "chair": "Chairs: Helmer Strik, Rahul Divekar, Kate Knill, Keelan Evanini, Catia Cucchiarini",
+ "intro": "intro.pdf",
+ "ISSN": "",
+ "conf": "SLaTE",
+ "name": "slate_2025",
+ "year": "2025",
+ "SIG": "SLaTE",
+ "title1": "10th Workshop on Speech and Language Technology in Education",
+ "title2": "(SLaTE)",
+ "booklet": "intro.pdf",
+ "date": "22-24 August 2025",
+ "month": 8,
+ "day": 22,
+ "now": 1758705828272158,
+ "papers": {
+  "alwan25_slate": {
+   "authors": [
+    [
+     "Abeer",
+     "Alwan"
+    ]
+   ],
+   "title": "Advances and Challenges of Child ASR",
+   "original": "1",
+   "order": 1,
+   "page_count": 0,
+   "abstract": [
+    "Abstract: Child speech is characterized by larger inter- and intra- speaker variability than adults’ speech, partly due to vocal tract changes as children grow. In addition, there is a lack of large, publicly available datasets that can adequately train machine learning algorithms for various recognition tasks. As a result, the performance of automatic speech recognition (ASR) systems of child speech is worse than that of adults. In this talk, I will summarize various efforts in data collection, developing data augmentation techniques, and benchmarking children’s speech recognition with supervised and self-supervised speech foundation models. Our studies point to the need for accounting for several factors when designing child speech processing systems: age (an ASR system that works well for a 9-year-old child would not necessarily work well for a 6-year-old),  style (reading versus spontaneous speech),  dialect (differences not only in pronunciation but also in word usage and grammar), and reading and/or language impairment. Moreover, for language assessments, transliteration is sometimes more valuable to the teacher than a corrected transcription. As a result, data diversity, and not just quantity, is especially critical when designing child ASR systems. While significant progress has been made in child speech processing, several challenges remain.\n",
+    "Bio: Abeer Alwan received her Ph.D. in Electrical Engineering and Computer Science from MIT in 1992. Since then, she has been with the UCLA ECE department  where she is now a Distinguished Professor and directs the Speech Processing and Auditory Perception Laboratory (http://www.seas.ucla.edu/spapl/).\nDr. Alwan’s research interests are in the areas of speech production and perception modeling and applications to speech technology such as automatic speech recognition, speaker identification and text-to-speech synthesis. Her focus is on limited data or low-resource systems where knowledge of speech production and perception, and linguistics can be critical to system performance. Current projects include detecting depression from speech signals, children’s speech recognition, speaker recognition with limited data, and the recognition of low-resource dialects. She is the recipient of several awards including the NSF Research Initiation and Career Awards, NIH FIRST Award, UCLA-TRW Excellence in Teaching Award, Okawa Foundation Award in Telecommunication, and the Engineer’s Council Educator Award. She is a Fellow of the Acoustical Society of America, IEEE, and the International Speech Communication Association (ISCA). She was a Fellow at the Radcliffe Institute, Harvard University, co-Editor in Chief of Speech Communication, and Associate Editor of both JASA and IEEE TSALP.\n"
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "lin25_slate": {
+   "authors": [
+    [
+     "Hong-Yun",
+     "Lin"
+    ],
+    [
+     "Tien Hong",
+     "Lo"
+    ],
+    [
+     "Yu Hsuan",
+     "Fang"
+    ],
+    [
+     "Jhen Ke",
+     "Lin"
+    ],
+    [
+     "Chung Chun",
+     "Wang"
+    ],
+    [
+     "Hao Chien",
+     "Lu"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "The NTNU System at the S&amp;I Challenge 2025 SLA Open Track",
+   "original": "2",
+   "order": 32,
+   "page_count": 5,
+   "abstract": [
+    "A recent line of research on spoken language assessment (SLA) employs neural models such as BERT and wav2vec 2.0 (W2V) to evaluate speaking proficiency across linguistic and acoustic modalities. Although both models effectively capture features relevant to oral competence, each exhibits modality-specific limitations. BERT-based methods rely on ASR transcripts, which often fail to capture prosodic and phonetic cues for SLA. In contrast, W2V-based methods excel at modeling acoustic features but appear to lack semantic interpretability. To overcome these limitations, we propose a system that integrates W2V with Phi-4 multimodal large language model (MLLM) through a score fusion strategy. The proposed system achieves a root mean square error (RMSE) of 0.375 on the official test set of the Speak &amp; Improve Challenge 2025, securing second place in the competition. For comparison, the RMSEs of the top-ranked, third-ranked, and official baseline system are 0.364, 0.384, and 0.444, respectively."
+   ],
+   "p1": 148,
+   "pn": 152,
+   "doi": "10.21437/SLaTE.2025-30",
+   "url": "slate_2025/lin25_slate.html"
+  },
+  "cai25_slate": {
+   "authors": [
+    [
+     "Danwei",
+     "Cai"
+    ],
+    [
+     "Nitin",
+     "Madnani"
+    ],
+    [
+     "Kevin",
+     "Yancey"
+    ]
+   ],
+   "title": "Team Perezoso’s ASR and SLA System for Speak &amp; Improve Challenge 2025",
+   "original": "3",
+   "order": 12,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents our Automatic Speech Recognition (ASR) and Spoken Language Assessment (SLA) systems developed for the Speak &amp; Improve (S&amp;I) Challenge 2025. For the ASR task, we fine-tuned a state-of-the-art model using L2 learner speech from the S&amp;I corpus, reducing Word Error Rate (WER) to 4.2% on a development subset, comparing to 7.4% for the unadapted model and 9.6% for the Whisper baseline. For SLA, we adopted end-to-end approaches by adapting intermediate representations from large pre-trained Whisper for speech- and BERT for text-based grading, achieving Pearson Correlation Coefficients (PCC) of 0.839 and 0.815. By combining these predictions with interpretable handcrafted features related to fluency, pronunciation, complexity, and content using a linear regression model, our final system achieved a PCC of 0.853 against human ratings."
+   ],
+   "p1": 51,
+   "pn": 55,
+   "doi": "10.21437/SLaTE.2025-11",
+   "url": "slate_2025/cai25_slate.html"
+  },
+  "guo25_slate": {
+   "authors": [
+    [
+     "Jhih-Rong",
+     "Guo"
+    ],
+    [
+     "Kuan-Tang",
+     "Huang"
+    ],
+    [
+     "An-Ci",
+     "Peng"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "The NTNU System at the S&amp;I Challenge 2025 ASR Open Track",
+   "original": "4",
+   "order": 11,
+   "page_count": 5,
+   "abstract": [
+    "This paper explores an effective approach to advancing non-native (L2) automatic speech recognition (ASR). To this end, we design and implement a pragmatic architecture for L2 ASR and use an effective fine-tuning mechanism tailored for L2 ASR. Experiments conducted on the Speak &amp; Improve 2025 corpus demonstrate that our approach can offer a significant improvement of 53.7% in terms of SpWER compared to the baseline. Building on top of the proposed approach, we came out in first place on the open track of the ASR task in Speak &amp; Improve Challenge 2025 (S&amp;I Challenge)."
+   ],
+   "p1": 46,
+   "pn": 50,
+   "doi": "10.21437/SLaTE.2025-10",
+   "url": "slate_2025/guo25_slate.html"
+  },
+  "louw25_slate": {
+   "authors": [
+    [
+     "Retief",
+     "Louw"
+    ],
+    [
+     "Emma",
+     "Sharratt"
+    ],
+    [
+     "Febe",
+     "de Wet"
+    ],
+    [
+     "Christiaan",
+     "Jacobs"
+    ],
+    [
+     "Annelien",
+     "Smith"
+    ],
+    [
+     "Herman",
+     "Kamper"
+    ]
+   ],
+   "title": "Automatically assessing oral narratives of Afrikaans and isiXhosa children",
+   "original": "5",
+   "order": 22,
+   "page_count": 5,
+   "abstract": [
+    "Developing narrative and comprehension skills in early childhood is critical for later literacy. However, teachers in large preschool classrooms struggle to accurately identify students who require intervention. We present a system for automatically assessing oral narratives of preschool children in Afrikaans and isiXhosa. The system uses automatic speech recognition followed by a machine learning scoring model to predict narrative and comprehension scores. For scoring predicted transcripts, we compare a linear model to a large language model (LLM). The LLM-based system outperforms the linear model in most cases, but the linear system is competitive despite its simplicity. The LLM-based system is comparable to a human expert in flagging children who require intervention. We lay the foundation for automatic oral assessments in classrooms, giving teachers extra capacity to focus on personalised support for children’s learning."
+   ],
+   "p1": 101,
+   "pn": 105,
+   "doi": "10.21437/SLaTE.2025-21",
+   "url": "slate_2025/louw25_slate.html"
+  },
+  "yamanaka25_slate": {
+   "authors": [
+    [
+     "Ryoga",
+     "Yamanaka"
+    ],
+    [
+     "Kento",
+     "Osa"
+    ],
+    [
+     "Akari",
+     "Fujiwara"
+    ],
+    [
+     "Geng",
+     "Haopeng"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Yusuke",
+     "Inoue"
+    ]
+   ],
+   "title": "Synthesizing True Golden Voices to Enhance Pronunciation Training for Individual Language Learners",
+   "original": "6",
+   "order": 45,
+   "page_count": 5,
+   "abstract": [
+    "A question that has received researchers&#x27; attention in pronunciation training is: Who might be an ideal, or “golden&quot; speaker for a learner to imitate? Previous studies have explored the voices that blend model pronunciation with the learner&#x27;s voice quality. However, a well-known phenomenon called voice confrontation occurs when one&#x27;s recorded voice sounds different from how s/he perceives it. This discrepancy arises because self-perceived voices (SPVs) contain both air-conducted and body-conducted components. In this study, native speech samples are converted to match learners&#x27; recorded voice quality, which is then further adjusted to resemble their SPVs using voice conversion techniques. Speech imitation training and assessment experiments reveal that learners prefer their SPV quality and imitate target pronunciation more accurately with it than with other voice qualities tested, such as their recorded voices and the voices of other speakers."
+   ],
+   "p1": 209,
+   "pn": 213,
+   "doi": "10.21437/SLaTE.2025-42",
+   "url": "slate_2025/yamanaka25_slate.html"
+  },
+  "dong25_slate": {
+   "authors": [
+    [
+     "Wenwei",
+     "Dong"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Automatic Pronunciation Assessment for L2 English by Incorporating Suprasegmental Features and Weighted Loss Function",
+   "original": "7",
+   "order": 6,
+   "page_count": 5,
+   "abstract": [
+    "Computer-Assisted Language Learning (CALL) systems equipped with Automatic Speech Recognition (ASR) technology for pronunciation training often require separate models to assess different aspects, such as accuracy and prosody. The Goodness of Pronunciation-Transformer (GOPT) system makes it possible to evaluate multiple aspects (accuracy, completeness, fluency, prosody and overall) and different levels (phoneme, word, and utterance) in one system. However, the GOPT system uses only GOP features to evaluate various aspects. This study aims to improve the automatic assessment of fluency and prosody by incorporating suprasegmental features and using a weighted loss function. The results show that both of these changes improved the correlation of automatic prosody and fluency scores with human scores while maintaining the correlations for other scores. The results demonstrate that suprasegmental features contain additional information beyond GOP features in assessing prosody and fluency."
+   ],
+   "p1": 21,
+   "pn": 25,
+   "doi": "10.21437/SLaTE.2025-5",
+   "url": "slate_2025/dong25_slate.html"
+  },
+  "lu25_slate": {
+   "authors": [
+    [
+     "Hao-Chien",
+     "Lu"
+    ],
+    [
+     "Jhen-Ke",
+     "Lin"
+    ],
+    [
+     "Hong-Yun",
+     "Lin"
+    ],
+    [
+     "Chung-Chun",
+     "Wang"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "Advancing Automated Speaking Assessment Leveraging Multifaceted Relevance and Grammar Information",
+   "original": "9",
+   "order": 33,
+   "page_count": 5,
+   "abstract": [
+    "Current automated speaking assessment (ASA) systems for use in multi-aspect evaluations often fail to make full use of content relevance, overlooking image or exemplar cues, and employ superficial grammar analysis that lacks detailed error types. This paper ameliorates these deficiencies by introducing two novel enhancements to construct a hybrid scoring model. First, a multifaceted relevance module integrates question and the associated image content, exemplar, and spoken response of an L2 speaker for a comprehensive assessment of content relevance. Second, fine-grained grammar error features are derived using advanced grammar error correction (GEC) and detailed annotation to identify specific error categories. Experiments and ablation studies demonstrate that these components significantly improve the evaluation of content relevance, language use, and overall ASA performance, highlighting the benefits of using richer, more nuanced feature sets for holistic speaking assessment."
+   ],
+   "p1": 153,
+   "pn": 157,
+   "doi": "10.21437/SLaTE.2025-31",
+   "url": "slate_2025/lu25_slate.html"
+  },
+  "karanasou25_slate": {
+   "authors": [
+    [
+     "Penny",
+     "Karanasou"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Mark J.F.",
+     "Gales"
+    ],
+    [
+     "Kate M.",
+     "Knill"
+    ]
+   ],
+   "title": "Data Augmentation for Spoken Grammatical Error Correction",
+   "original": "10",
+   "order": 42,
+   "page_count": 5,
+   "abstract": [
+    "While there exist strong benchmark datasets for grammatical error correction (GEC), high-quality annotated spoken datasets for Spoken GEC (SGEC) are still under-resourced. In this paper, we propose a fully automated method to generate audio-text pairs with grammatical errors and disfluencies. Moreover, we propose a series of objective metrics that can be used to evaluate the generated data and choose the more suitable dataset for SGEC. The goal is to generate an augmented dataset that maintains the textual and acoustic characteristics of the original data while providing new types of errors. This augmented dataset should augment and enrich the original corpus without altering the language assessment scores of the second language (L2) learners. We evaluate the use of the augmented corpus both for written GEC (the text part) and for SGEC (the audio-text pairs). Our experiments are conducted on the S&amp;I Corpus, the first publicly available speech dataset with grammar error annotations."
+   ],
+   "p1": 194,
+   "pn": 198,
+   "doi": "10.21437/SLaTE.2025-39",
+   "url": "slate_2025/karanasou25_slate.html"
+  },
+  "lo25_slate": {
+   "authors": [
+    [
+     "Tien-Hong",
+     "Lo"
+    ],
+    [
+     "Meng-Ting",
+     "Tsai"
+    ],
+    [
+     "Yao-Ting",
+     "Sung"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "Zero-Shot Text-to-Speech as Golden Speech Generator: A Systematic Framework and its Applicability in Automatic Pronunciation Assessment",
+   "original": "13",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "Second language (L2) learners can improve their pronunciation by imitating golden speech, especially when the speech that aligns with their respective speech characteristics. This study explores the hypothesis that learner-specific golden speech generated with zero-shot text-to-speech (ZS-TTS) techniques can be harnessed as an effective metric for measuring the pronunciation proficiency of L2 learners. Building on this exploration, the contributions of this study are two-fold: 1) design and development of a systematic framework for assessing the ability of a synthesis model to generate golden speech, and 2) investigations of the effectiveness of using golden speech in automatic pronunciation assessment (APA). Comprehensive experiments conducted on the L2-ARCTIC and Speechocean762 benchmark datasets suggest that our proposed modeling can yield significant performance improvements with respect to various assessment metrics in relation to some prior arts. To our knowledge, this study is the first to explore the role of golden speech in both ZS-TTS and APA, offering a promising regime for computer-assisted pronunciation training (CAPT)."
+   ],
+   "p1": 26,
+   "pn": 30,
+   "doi": "10.21437/SLaTE.2025-6",
+   "url": "slate_2025/lo25_slate.html"
+  },
+  "yang25_slate": {
+   "authors": [
+    [
+     "Tzu-Hsuan",
+     "Yang"
+    ],
+    [
+     "Yue-Yang",
+     "He"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "JCAPT: A Joint Modeling Approach for CAPT",
+   "original": "15",
+   "order": 21,
+   "page_count": 5,
+   "abstract": [
+    "Effective pronunciation feedback is critical in second language (L2) learning, for which computer-assisted pronunciation training (CAPT) systems often encompass two key tasks: automatic pronunciation assessment (APA) and mispronunciation detection and diagnosis (MDD). Recent work has shown that joint modeling of these two tasks can yield mutual benefits. Our unified framework leverages Mamba, a selective state space model (SSM), while integrating phonological features and think token strategies to jointly enhance interpretability and fine-grained temporal reasoning in APA and MDD. To our knowledge, this is the first study to combine phonological attribution, SSM-based modeling, and prompting in CAPT. A series of experiments conducted on the speechocean762 benchmark demonstrate that our model consistently outperforms prior methods, particularly on the MDD task."
+   ],
+   "p1": 96,
+   "pn": 100,
+   "doi": "10.21437/SLaTE.2025-20",
+   "url": "slate_2025/yang25_slate.html"
+  },
+  "pepe25_slate": {
+   "authors": [
+    [
+     "Steven",
+     "Pepe"
+    ],
+    [
+     "Rahul",
+     "Divekar"
+    ],
+    [
+     "Veronika",
+     "Timpe-Laughlin"
+    ],
+    [
+     "Tetyana",
+     "Sydorenko"
+    ],
+    [
+     "Judit",
+     "Dombi"
+    ],
+    [
+     "Saerhim",
+     "Oh"
+    ]
+   ],
+   "title": "Error and Recovery Analysis of Intent-based and LLM-based SDS",
+   "original": "17",
+   "order": 19,
+   "page_count": 5,
+   "abstract": [
+    "This paper compares conversation data from a study in which adult English language learners completed a food and beverage ordering roleplay with a barista simulated using two different technologies: an intent-based and LLM-based Spoken Dialogue System (SDS). We observed significantly different word error rates (WER) in the learners’ responses across the two conditions and examined how the intent-based system behavior contributed to this discrepancy, while the LLM-based system mitigated it through proactive repairs. Our analysis highlights how the rigidity of an intent-based dialogue system requires users to repeat utterances, leading to breakdowns and thereby exacerbating ASR issues, whereas an LLM-based system handled such situations with proactive repairs."
+   ],
+   "p1": 86,
+   "pn": 90,
+   "doi": "10.21437/SLaTE.2025-18",
+   "url": "slate_2025/pepe25_slate.html"
+  },
+  "harmsen25_slate": {
+   "authors": [
+    [
+     "Wieke",
+     "Harmsen"
+    ],
+    [
+     "Max",
+     "van der Velde"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Unraveling the relationship between objective and subjective measures of oral reading fluency",
+   "original": "18",
+   "order": 16,
+   "page_count": 5,
+   "abstract": [
+    "Assessing children&#x27;s oral reading fluency is crucial for primary education. Subjective assessment using the Multidimensional Fluency Scale (MDFS) can be employed for this purpose, but this approach faces reliability challenges and is time-consuming. Alternatively, objective measurements obtained through acoustic or Automatic Speech Recognition (ASR)-based analyses could be used. This study investigated the relationship between four subjective MDFS measures and objective features in 187 audio recordings of Dutch 2nd and 3rd graders reading texts. Subjective inter-rater reliability was moderate for most measures, but poor for smoothness. Using LASSO regression and random forest analysis, we predicted subjective measures from objective features. We found that Words Correct Per Minute (WCPM) is a highly important predictor of most MDFS measures, including those related to prosody. Our results demonstrate the potential of objective features in capturing various facets of reading fluency."
+   ],
+   "p1": 71,
+   "pn": 75,
+   "doi": "10.21437/SLaTE.2025-15",
+   "url": "slate_2025/harmsen25_slate.html"
+  },
+  "phan25_slate": {
+   "authors": [
+    [
+     "Nhan",
+     "Phan"
+    ],
+    [
+     "Anusha",
+     "Porwal"
+    ],
+    [
+     "Yaroslav",
+     "Getman"
+    ],
+    [
+     "Ekaterina",
+     "Voskoboinik"
+    ],
+    [
+     "Tamás",
+     "Grósz"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ]
+   ],
+   "title": "One Whisper to Grade Them All",
+   "original": "20",
+   "order": 13,
+   "page_count": 5,
+   "abstract": [
+    "We present an efficient end-to-end approach for holistic Automatic Speaking Assessment (ASA) of multi-part second-language tests, developed for the 2025 Speak &amp; Improve Challenge. Our system&#x27;s main novelty is the ability to process all four spoken responses with a single Whisper-small encoder, combine all information via a lightweight aggregator, and predict the final score. This architecture removes the need for transcription and per-part models, cuts inference time, and makes ASA practical for large-scale Computer-Assisted Language Learning systems.\nOur system achieved a Root Mean Squared Error (RMSE) of 0.384, outperforming the text-based baseline (0.44) while using at most 168M parameters (about 70% of Whisper-small). Furthermore, we propose a data sampling strategy, allowing the model to train on only 44.8% of the speakers in the corpus and still reach 0.383 RMSE, demonstrating improved performance on imbalanced classes and strong data efficiency."
+   ],
+   "p1": 56,
+   "pn": 60,
+   "doi": "10.21437/SLaTE.2025-12",
+   "url": "slate_2025/phan25_slate.html"
+  },
+  "marchal25_slate": {
+   "authors": [
+    [
+     "Marian",
+     "Marchal"
+    ],
+    [
+     "Joey",
+     "Stuiver"
+    ],
+    [
+     "Nafsika",
+     "Lachana"
+    ],
+    [
+     "Max",
+     "van der Velde"
+    ],
+    [
+     "Josine",
+     "Verhagen"
+    ],
+    [
+     "Joost",
+     "Kruis"
+    ]
+   ],
+   "title": "Towards explainable automatic spoken language assessment",
+   "original": "21",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "Automatic spoken language assessment can significantly reduce human scoring efforts. A crucial aspect of human scoring is its analytic nature, which makes scores explainable and allows for an evaluation of reliability and validity. However, automatic approaches to spoken language assessment often function as black-box models, lacking transparency in their scoring processes. This research aims to address this limitation by investigating the extent to which we can develop a more explainable automatic scoring model. In this study, we explore how several subconstructs of spoken language can be assessed using features automatically extracted from speech data. Additionally, we examine the predictive relationship between these features and the holistic scores provided by human judges. These findings can inform the development of explainable automated spoken language assessment systems, bridging the gap between efficiency and transparency."
+   ],
+   "p1": 6,
+   "pn": 10,
+   "doi": "10.21437/SLaTE.2025-2",
+   "url": "slate_2025/marchal25_slate.html"
+  },
+  "sharratt25_slate": {
+   "authors": [
+    [
+     "Emma",
+     "Sharratt"
+    ],
+    [
+     "Annelien",
+     "Smith"
+    ],
+    [
+     "Retief",
+     "Louw"
+    ],
+    [
+     "Daleen",
+     "Klop"
+    ],
+    [
+     "Febe",
+     "de Wet"
+    ],
+    [
+     "Herman",
+     "Kamper"
+    ]
+   ],
+   "title": "Feature-based analysis of oral narratives from Afrikaans and isiXhosa children",
+   "original": "22",
+   "order": 23,
+   "page_count": 5,
+   "abstract": [
+    "Oral narrative skills are strong predictors of later literacy development. This study examines the features of oral narratives from children who were identified by experts as requiring intervention. Using simple machine learning methods, we analyse recorded stories from four- and five-year-old Afrikaans- and isiXhosa-speaking children. Consistent with prior research, we identify lexical diversity (unique words) and length-based features (mean utterance length) as indicators of typical development, but features like articulation rate prove less informative. Despite cross-linguistic variation in part-of-speech patterns, the use of specific verbs and auxiliaries associated with goal-directed storytelling is correlated with a reduced likelihood of requiring intervention. Our analysis of two linguistically distinct languages reveals both language-specific and shared predictors of narrative proficiency, with implications for early assessment in multilingual contexts."
+   ],
+   "p1": 106,
+   "pn": 110,
+   "doi": "10.21437/SLaTE.2025-22",
+   "url": "slate_2025/sharratt25_slate.html"
+  },
+  "wang25_slate": {
+   "authors": [
+    [
+     "Chung-Chun",
+     "Wang"
+    ],
+    [
+     "Jhen-Ke",
+     "Lin"
+    ],
+    [
+     "Hao-Chien",
+     "Lu"
+    ],
+    [
+     "Hong-Yun",
+     "Lin"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "A Novel Data Augmentation Approach for Automatic Speaking Assessment on Opinion Expressions",
+   "original": "23",
+   "order": 43,
+   "page_count": 5,
+   "abstract": [
+    "Automated speaking assessment (ASA) on opinion expressions is often hampered by the scarcity of labeled recordings, which restricts prompt diversity and undermines scoring reliability. To address this challenge, we propose a novel training paradigm that leverages a large language models (LLM) to generate diverse responses of a given proficiency level, converts responses into synthesized speech via speaker-aware text-to-speech synthesis, and employs a dynamic importance loss to adaptively reweight training instances based on feature distribution differences between synthesized and real speech. Subsequently, a multimodal large language model integrates aligned textual features with speech signals to predict proficiency scores directly. Experiments conducted on the LTTC dataset show that our approach outperforms methods relying on real data or conventional augmentation, effectively mitigating low-resource constraints and enabling ASA on opinion expressions with cross-modal information."
+   ],
+   "p1": 199,
+   "pn": 203,
+   "doi": "10.21437/SLaTE.2025-40",
+   "url": "slate_2025/wang25_slate.html"
+  },
+  "mcghee25_slate": {
+   "authors": [
+    [
+     "Charles",
+     "McGhee"
+    ],
+    [
+     "Mark J.F.",
+     "Gales"
+    ],
+    [
+     "Kate M.",
+     "Knill"
+    ]
+   ],
+   "title": "Comparative Pronunciation Assessment and Feedback with Interpretable Speech Features",
+   "original": "24",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "Pronunciation assessment and feedback models typically focus on detecting word or phone-level errors, which can then be fed back to the learner with the phonetic cues required to fix the errors. Annotators have low levels of agreement about these kinds of errors, which affects the consistency of any model trained on these annotations and also the utility of the feedback provided. In this paper, we propose a combined pronunciation assessment and feedback system which uses interpretable speech features to align a learner&#x27;s production with synthetic native and non-native speaker productions. We demonstrate that the overall alignment error correlates well with utterance-level pronunciation scores, and peaks in the alignment error can provide error detection and intuitive feedback over continuous stretches of speech, not limited to strict word or phone boundaries."
+   ],
+   "p1": 36,
+   "pn": 40,
+   "doi": "10.21437/SLaTE.2025-8",
+   "url": "slate_2025/mcghee25_slate.html"
+  },
+  "montoyagomez25_slate": {
+   "authors": [
+    [
+     "Gloria María",
+     "Montoya Gómez"
+    ],
+    [
+     "Pol",
+     "Ghesquière"
+    ],
+    [
+     "Hugo",
+     "Van hamme"
+    ]
+   ],
+   "title": "Refined Analysis of Reading Miscues",
+   "original": "25",
+   "order": 44,
+   "page_count": 5,
+   "abstract": [
+    "Miscue analysis offers valuable insights into reading development by examining oral reading errors, but is time-consuming and prone to human error, affecting early literacy instruction. This paper presents an automatic system combining an end-to-end Automatic Speech Recognition (ASR) model with a Weighted Finite-State Transducer (WFST) to align ASR output with expected pronunciations from target text. Trained on native Dutch-speaking children, it leverages multiple ASR hypotheses without relying on external forced-alignment tools. Results show effective reading assessment with false alarms under 5%, accurate counting of word attempts, and correct word matching in story reading. Miscue classification focusing on external phoneme detection shows promise results. New metrics are proposed to improve evaluation of attempt quality and miscue accuracy."
+   ],
+   "p1": 204,
+   "pn": 208,
+   "doi": "10.21437/SLaTE.2025-41",
+   "url": "slate_2025/montoyagomez25_slate.html"
+  },
+  "banno25_slate": {
+   "authors": [
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Rao",
+     "Ma"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Siyuan",
+     "Tang"
+    ],
+    [
+     "Kate",
+     "Knill"
+    ],
+    [
+     "Mark",
+     "Gales"
+    ]
+   ],
+   "title": "Natural Language-based Assessment of L2 Oral Proficiency using LLMs",
+   "original": "26",
+   "order": 41,
+   "page_count": 5,
+   "abstract": [
+    "Natural language-based assessment (NLA) is an approach to second language assessment that uses instructions - expressed in the form of can-do descriptors - originally intended for human examiners, aiming to determine whether large language models (LLMs) can interpret and apply them in ways comparable to human assessment. In this work, we explore the use of such descriptors with an open-source LLM, Qwen 2.5 72B, to assess responses from the publicly available S&amp;I Corpus in a zero-shot setting. Our results show that this approach - relying solely on textual information - achieves competitive performance: while it does not outperform state-of-the-art speech LLMs fine-tuned for the task, it surpasses a BERT-based model trained specifically for this purpose. NLA proves particularly effective in mismatched task settings, is generalisable to other data types and languages, and offers greater interpretability, as it is grounded in clearly explainable, widely applicable language descriptors."
+   ],
+   "p1": 189,
+   "pn": 193,
+   "doi": "10.21437/SLaTE.2025-38",
+   "url": "slate_2025/banno25_slate.html"
+  },
+  "lin25b_slate": {
+   "authors": [
+    [
+     "Jhen-Ke",
+     "Lin"
+    ],
+    [
+     "Hao-Chien",
+     "Lu"
+    ],
+    [
+     "Chung-Chun",
+     "Wang"
+    ],
+    [
+     "Hong-Yun",
+     "Lin"
+    ],
+    [
+     "Berlin",
+     "Chen"
+    ]
+   ],
+   "title": "Acoustically Precise Hesitation Tagging Is Essential for End-to-End Verbatim Transcription Systems",
+   "original": "27",
+   "order": 35,
+   "page_count": 4,
+   "abstract": [
+    "Verbatim transcription for automatic speaking assessment demands accurate capture of disfluencies, crucial for downstream tasks like error analysis and feedback. However, many ASR systems discard or generalize hesitations, losing important acoustic details. We fine-tune Whisper models on the Speak &amp; Improve 2025 corpus using low-rank adaptation (LoRA), without recourse to external audio training data. We compare three annotation schemes: removing hesitations (Pure), generic tags (Rich), and acoustically precise fillers inferred by Gemini 2.0 Flash from existing audio-transcript pairs (Extra). Our challenge system achieved 6.47% WER (Pure) and 5.81% WER (Extra). Post-challenge experiments reveal that fine-tuning Whisper Large V3 Turbo with the “Extra” scheme yielded a 5.5% WER, an 11.3% relative improvement over the “Pure” scheme (6.2% WER). This demonstrates that explicit, realistic filled-pause labeling significantly enhances ASR accuracy for verbatim L2 speech transcription."
+   ],
+   "p1": 163,
+   "pn": 166,
+   "doi": "10.21437/SLaTE.2025-33",
+   "url": "slate_2025/lin25b_slate.html"
+  },
+  "porwal25_slate": {
+   "authors": [
+    [
+     "Anusha",
+     "Porwal"
+    ],
+    [
+     "Nhan",
+     "Phan"
+    ],
+    [
+     "Yaroslav",
+     "Getman"
+    ],
+    [
+     "Ekaterina",
+     "Voskoboinik"
+    ],
+    [
+     "Tamás",
+     "Grósz"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ]
+   ],
+   "title": "Exploring Ordinal Classification for Spoken Language Assessment",
+   "original": "28",
+   "order": 34,
+   "page_count": 5,
+   "abstract": [
+    "Foreign language learning is a paramount skill in today&#x27;s world, and the need for tools that can be used to practice it has risen. In this paper, we introduce our solutions for the 2025 Speak &amp; Improve Challenge, specifically for the closed track of the Spoken Language Assessment task. In this track, only the provided training data and the pre-selected Language Model (BERT) could be used, so we focused on novel ways of training it. One major issue that we have identified is the choice of the learning objective; previous works on language assessment treated the problem as a regression or classification task, but neither is fitting for the provided unbalanced data. We hypothesize that the Ordinal Loss approach is more suitable, especially when combined with data augmentation. Our empirical results demonstrate that the Ordinal Loss is superior compared to the standard solutions, yielding .411 RMSE and .782 PCC, and data augmentation improves the model&#x27;s robustness."
+   ],
+   "p1": 158,
+   "pn": 162,
+   "doi": "10.21437/SLaTE.2025-32",
+   "url": "slate_2025/porwal25_slate.html"
+  },
+  "tanaka25_slate": {
+   "authors": [
+    [
+     "Ryuya",
+     "Tanaka"
+    ],
+    [
+     "Tsuneo",
+     "Kato"
+    ],
+    [
+     "Seiichi",
+     "Yamamoto"
+    ],
+    [
+     "Akihiro",
+     "Tamura"
+    ],
+    [
+     "Mariko",
+     "Sugahara"
+    ]
+   ],
+   "title": "Effect of Prompt Corrective Feedback in Learning Syntactic Form Using Trialogue-based Computer-Assisted Language Learning System",
+   "original": "29",
+   "order": 39,
+   "page_count": 5,
+   "abstract": [
+    "Corrective feedback (CF) is a powerful means for effectively learning syntactic forms in second language (L2) speaking. However, its installation into dialogue-based computer-assisted language learning (DB-CALL) systems requires careful consideration because false rejection (miscorrection) due to technical limitations is critical from a pedagogical point of view. With recent advancements in automatic speech recognition (ASR) and natural language processing (NLP), we implemented a simple prompt CF function using Whisper ASR and GPT-4o on our form-focused trialogue-based CALL system. The effect was evaluated in comparative experiments where two groups of Japanese university students practiced the English inanimate subject construction with and without feedback. The experimental results showed significant effects of the CF on the learners’ improvement and retention."
+   ],
+   "p1": 182,
+   "pn": 186,
+   "doi": "10.21437/SLaTE.2025-37",
+   "url": "slate_2025/tanaka25_slate.html"
+  },
+  "mallela25_slate": {
+   "authors": [
+    [
+     "Jhansi",
+     "Mallela"
+    ],
+    [
+     "Upendra Vishwanath",
+     "Y.S."
+    ],
+    [
+     "Praneeth",
+     "Soundaraj"
+    ],
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ]
+   ],
+   "title": "Uncovering Lexical Stress Patterns: A Layered Analysis of Self-Supervised Representations for Automatic Syllable Stress Detection",
+   "original": "30",
+   "order": 38,
+   "page_count": 5,
+   "abstract": [
+    "Automatic syllable stress detection traditionally relies on heuristic features like energy, duration, and pitch. Recent self-supervised models, such as wav2vec 2.0, capture stress cues more effectively, enhancing scalability. These models encode different information across layers, yet existing research focuses mainly on final-layer features, leaving intermediate layers unexplored. Stress detection is particularly challenging for non-native speakers due to deviations from correct stress patterns. This study analyzes all layers of self-supervised models to identify the most effective for stress detection. We evaluate wav2vec 2.0 (base, large, xlsr) on supervised and unsupervised classifiers using the ISLE corpus of non-native German and Italian speakers. Results show that wav2vec 2.0-large achieves the highest accuracy (96.43% for German, 96.68% for Italian) at layers 16 and 13, respectively, improving by 2.9% and 3.3% over the baseline."
+   ],
+   "p1": 177,
+   "pn": 181,
+   "doi": "10.21437/SLaTE.2025-36",
+   "url": "slate_2025/mallela25_slate.html"
+  },
+  "wei25_slate": {
+   "authors": [
+    [
+     "Xing",
+     "Wei"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Articulatory-Enhanced Mispronunciation Detection and Diagnosis Models: A Multi-dimensional Error Analysis",
+   "original": "31",
+   "order": 8,
+   "page_count": 5,
+   "abstract": [
+    "This study presents a multi-dimensional error analysis of integrating articulatory features (AFs) into End-to-End (E2E) models for mispronunciation detection and diagnosis (MDD). We examine two output representation frameworks: phoneme-based (PHN) and articulatory-based (ART), employing both customized Conformer-based models and fine-tuned Wav2Vec 2.0 models. Experimental results reveal that AF-integrated ART models demonstrate enhanced capability in identifying common mispronunciations, thereby lowering diagnosis error rates. In contrast, PHN models maintain a slight advantage in overall detection accuracy but provide less articulatory insight. Additional analysis reveals key challenges, such as degraded detection accuracy on medium-length utterances and inter-speaker variability. These findings emphasize critical trade-offs between detection and diagnosis, while proposing practical considerations for building more accurate and learner-aware L2 pronunciation assessment systems."
+   ],
+   "p1": 31,
+   "pn": 35,
+   "doi": "10.21437/SLaTE.2025-7",
+   "url": "slate_2025/wei25_slate.html"
+  },
+  "wei25b_slate": {
+   "authors": [
+    [
+     "Xing",
+     "Wei"
+    ],
+    [
+     "Wenwei",
+     "Dong"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Roeland",
+     "van Hout"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Leveraging Articulatory Information to Enhance End-to-End Models for L2 Mispronunciation Detection and Diagnosis",
+   "original": "32",
+   "order": 17,
+   "page_count": 5,
+   "abstract": [
+    "Pronunciation variability in second language (L2) speech poses crucial challenges for mispronunciation detection and diagnosis (MDD) models. This study leverages articulatory features (AFs) to enhance End-to-End (E2E) MDD models and provide better diagnostic feedback. We investigate AF integration under two distinct output representation frameworks: phoneme-based (PHN) and articulatory-based (ART), using both customized Conformer-based models and fine-tuned XLSR models. The experimental results indicate that AF integration consistently improves detection accuracy and reduces diagnostic error rates across models and frameworks. Notably, combining AFs with XLSR embeddings within the ART framework achieves the lowest diagnostic error rates, enabling the most informative subsegmental feedback. These findings highlight the value of articulatory-informed pre-trained models in developing more accurate and feedback-rich L2 pronunciation training tools."
+   ],
+   "p1": 76,
+   "pn": 80,
+   "doi": "10.21437/SLaTE.2025-16",
+   "url": "slate_2025/wei25b_slate.html"
+  },
+  "smit25_slate": {
+   "authors": [
+    [
+     "Reuben",
+     "Smit"
+    ],
+    [
+     "Retief",
+     "Louw"
+    ],
+    [
+     "Herman",
+     "Kamper"
+    ]
+   ],
+   "title": "Towards few-shot isolated word reading assessment",
+   "original": "33",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "We explore an ASR-free method for isolated word reading assessment in low-resource settings. Our few-shot approach compares input child speech to a small set of adult-provided reference templates. Inputs and templates are encoded using intermediate layers from large self-supervised learned (SSL) models. Using an Afrikaans child speech benchmark, we investigate design options such as discretising SSL features and barycentre averaging of the templates. Idealised experiments show reasonable performance for adults, but a substantial drop for child speech input, even with child templates. Despite the success of employing SSL representations in low-resource speech tasks, our work highlights the limitations of SSL representations for processing child data when used in a few-shot classification system."
+   ],
+   "p1": 81,
+   "pn": 85,
+   "doi": "10.21437/SLaTE.2025-17",
+   "url": "slate_2025/smit25_slate.html"
+  },
+  "roll25_slate": {
+   "authors": [
+    [
+     "Nathan",
+     "Roll"
+    ],
+    [
+     "Calbert",
+     "Graham"
+    ]
+   ],
+   "title": "Scaling Conformation Bias in Automatic Speech Recognition",
+   "original": "34",
+   "order": 29,
+   "page_count": 5,
+   "abstract": [
+    "Modern ASR systems achieve remarkable accuracy on dominant English varieties, but they systematically fail when exposed to even subtle variation—such as the speech of English language learners. We present a comprehensive evaluation of ten ASR models on 300+ distinct English varieties. We find that as models increase in size and L1 English performance, the relative disparity for L2 speakers worsens. These effects are most notable in state-of-the-art conformer-based systems, which exhibit the lowest error rates overall. We also find a significant bias against speakers whose native language is tonal (e.g., Mandarin, Vietnamese) compared to speakers of languages with other prosodic typologies. These findings expose a need to develop and integrate the speech of English languages learners into training and evaluation pipelines."
+   ],
+   "p1": 133,
+   "pn": 137,
+   "doi": "10.21437/SLaTE.2025-27",
+   "url": "slate_2025/roll25_slate.html"
+  },
+  "sirigiraju25_slate": {
+   "authors": [
+    [
+     "Meenakshi",
+     "Sirigiraju"
+    ],
+    [
+     "Chiranjeevi",
+     "Yarra"
+    ]
+   ],
+   "title": "ProMoVecs 1.0: Preliminary Label unaware i-vector framework based representations for pronunciation assessment of second language learner's monologue",
+   "original": "35",
+   "order": 37,
+   "page_count": 5,
+   "abstract": [
+    "Typically, in computer assisted language learning systems, pronunciation assessment of learners&#x27; reading is a critical component when they&#x27;re practicing with long paragraphs. Thus, automatic methods need to be developed for assessing spoken paragraphs i.e. monologues. However, there is a limitation on the availability of monologues data, corresponding ratings and the works to assess them. To address the data and label scarcity, this work proposes a method to obtain vector (ProMoVec) representations to assess the pronunciation of monologue considering the i-vector modelling based on synthetic monologues data. The synthetic monologues are proposed to obtain by concatenating the utterances which are semantically similar and corresponding ratings predicted based on entropy criterion which uses utterance ratings. Experiments with SpeechOcean762 reveal that the PromoVecs used in downstream assessment task with clustering shows a relative improvement of 11.6% compared to the baseline method."
+   ],
+   "p1": 172,
+   "pn": 176,
+   "doi": "10.21437/SLaTE.2025-35",
+   "url": "slate_2025/sirigiraju25_slate.html"
+  },
+  "han25_slate": {
+   "authors": [
+    [
+     "Shiqi",
+     "Han"
+    ],
+    [
+     "Mostafa",
+     "Shahin"
+    ],
+    [
+     "Beena",
+     "Ahmed"
+    ]
+   ],
+   "title": "Developing a Cantonese Pronunciation Error Detection System with Attribute-Based Modeling for Educational Applications",
+   "original": "39",
+   "order": 28,
+   "page_count": 5,
+   "abstract": [
+    "Speech attributes describe how phonemes are produced and how different articulators, such as the tongue and lips, contribute to speech production. They offer a detailed view of pronunciation and are useful for assessing how closely learner speech matches target sounds. Most prior work on speech attribute modeling has focused on high-resource languages like English, with little attention to Cantonese. In this paper, we explore attribute modeling for Cantonese by fine-tuning several self-supervised pretrained models. Since speech attributes are not mutually exclusive, we apply a modified CTC loss to support multi-label learning. Furthermore, we use these predicted attributes to detect articulation-level errors by comparing them to reference sequences. This allows us to identify subtle pronunciation mistakes and lays the foundation for feedback systems that help learners improve their Cantonese speaking skills."
+   ],
+   "p1": 128,
+   "pn": 132,
+   "doi": "10.21437/SLaTE.2025-26",
+   "url": "slate_2025/han25_slate.html"
+  },
+  "fujiwara25_slate": {
+   "authors": [
+    [
+     "Akari",
+     "Fujiwara"
+    ],
+    [
+     "Nobuaki",
+     "Minematsu"
+    ],
+    [
+     "Noriko",
+     "Nakanishi"
+    ],
+    [
+     "Daisuke",
+     "Saito"
+    ]
+   ],
+   "title": "Mutual Shadowing among Speakers of World Englishes and Its Application to Investigating the Influence of Accents on Listening Fluency",
+   "original": "40",
+   "order": 14,
+   "page_count": 5,
+   "abstract": [
+    "English is used as a lingua franca with diverse pronunciations, known as World Englishes (WE), whose intelligibility varies depending on the listener. This study investigates how the accents of WE speakers influence listening fluency when heard by other WE speakers. We used data from 28 WE speakers (in three groups), who each read one of 28 passages, shadowed group recordings a week later, and then reread the same passage. On the collected data, we measured shadowing disfluency, interpreted as listening disfluency (LD). We also measured the phonetic gap (PhG) and prosodic gaps (PrGs) from each speaker&#x27;s accent to three reference accents: General American, Received Pronunciation, and the listener&#x27;s own English. Correlation and regression analyses revealed a general trend: while PhG has a greater influence on LD than PrGs, rhythmic deviations still increase LD. Further, the influences of the gaps to the three reference accents were found to depend on the listener’s learning background. "
+   ],
+   "p1": 61,
+   "pn": 65,
+   "doi": "10.21437/SLaTE.2025-13",
+   "url": "slate_2025/fujiwara25_slate.html"
+  },
+  "rendina25_slate": {
+   "authors": [
+    [
+     "Sophie",
+     "Rendina"
+    ],
+    [
+     "Manny",
+     "Rayner"
+    ],
+    [
+     "Branislav",
+     "Bédi"
+    ],
+    [
+     "Hakeem",
+     "Beedar"
+    ]
+   ],
+   "title": "Harnessing GPT-Image-1 to Create High-Quality Illustrated Texts",
+   "original": "41",
+   "order": 20,
+   "page_count": 5,
+   "abstract": [
+    "We present a lightweight integration of GPT-Image-1, OpenAI’s new native multimodal model, into  C-LARA, a platform for generation of multimodal learner texts. A three-stage prompt pipeline—style definition, reusable element creation, page-level composition—yields coherent, culturally appropriate illustrations for one page of text at a time while preserving global style and character consistency. The recipe can be invoked by users with a few button-presses and allows optional hand-tuning. To gauge quality we used 11 C-LARA texts—seven AI-generated pedagogical English passages and four challenging classical literary texts—and evaluated generated output using a visual questionnaire. Results show good scores for image-text correspondence and cross-page coherence, though some input from humans is still often needed to fine-tune the generated illustrations. We also present our initial observations on the use of this functionality within a low-resource Indigenous language context."
+   ],
+   "p1": 91,
+   "pn": 95,
+   "doi": "10.21437/SLaTE.2025-19",
+   "url": "slate_2025/rendina25_slate.html"
+  },
+  "sivaramasethu25_slate": {
+   "authors": [
+    [
+     "Harinie",
+     "Sivaramasethu"
+    ],
+    [
+     "Bhavana",
+     "Akkiraju"
+    ],
+    [
+     "Narasinga",
+     "Vamshiraghusimha"
+    ],
+    [
+     "Srihari",
+     "Bandarupalli"
+    ],
+    [
+     "Aadil",
+     "Kak"
+    ],
+    [
+     "Anil Kumar",
+     "Vupulla"
+    ]
+   ],
+   "title": "Towards a Common Phone Space for Arabic, Persian, and Urdu: Leveraging Shared Phonology for Low-Resource G2P",
+   "original": "42",
+   "order": 46,
+   "page_count": 2,
+   "abstract": [
+    "Educational technologies like reading tutors and assistive applications rely on accurate pronunciation modeling. Low resource Perso-Arabic languages such as Persian and Urdu lack sufficient Grapheme-to-Phoneme resources compared to Arabic, limiting use in educational tools. We address this by exploiting phonological similarities between Arabic, Persian, and Urdu to construct a unified Common Phone Space (CPS-APU) that enables cross-lingual knowledge transfer. Using linguistic expertise, we develop a shared phoneme mapping across the three languages. To evaluate the hypothesis that lower-resource languages benefit from such shared representations, we test and enrich our G2P parser across three  stages: (A) expert-authored rules, (B) corpus-mined rules from alignments, and (C) LLM-powered generation using lightweight instruction-tuned models. CPS framework consistently outperforms monolingual approaches for low-resource languages, with the LLM- augmented stage yielding the best results."
+   ],
+   "p1": 214,
+   "pn": 215
+  },
+  "lilles25_slate": {
+   "authors": [
+    [
+     "Kelly",
+     "Lilles"
+    ],
+    [
+     "Maarja",
+     "Männik"
+    ],
+    [
+     "Tanel",
+     "Alumäe"
+    ]
+   ],
+   "title": "Fine-Tuning Children's Speech Recognition for Estonian as a First and Second Language",
+   "original": "44",
+   "order": 24,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents experiments in fine-tuning the Whisper large-v3 model for recognizing semi-spontaneous speech from Estonian-speaking children aged 3 to 8. The data, collected from the ALPA Kids educational app, exhibits typical child speech features such as pronunciation variation, disfluencies, and background adult speech. A multi-stage fine-tuning process and data augmentation techniques were employed to improve recognition accuracy. Our results show that the median word error rate (WER) can be reduced from 53% to 21%, with the most significant improvements observed for the youngest age groups. For Russian native children speaking Estonian as L2, the WER median was shown to be 31%. These findings support the use of tailored automatic speech recognition (ASR) models in child-centric educational applications and lay the groundwork for incorporating speech technology into first and second language learning."
+   ],
+   "p1": 111,
+   "pn": 115,
+   "doi": "10.21437/SLaTE.2025-23",
+   "url": "slate_2025/lilles25_slate.html"
+  },
+  "gao25_slate": {
+   "authors": [
+    [
+     "Lingyun",
+     "Gao"
+    ],
+    [
+     "Cristian",
+     "Tejedor Garcia"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Rethinking Reading Miscue Annotation Protocol: Insights from Re-examining Dutch Child Reading Annotation",
+   "original": "45",
+   "order": 25,
+   "page_count": 2,
+   "abstract": [
+    "This study evaluates the reliability of an extended reading miscue annotation protocol applied to a Dutch child read-aloud speech corpus. Two annotators reviewed existing annotations to identify confusing or inconsistent cases. The results indicate that while the protocol allows for fine-grained analysis, several challenges remain. These include insufficient guidelines for labeling disfluent attempts, overlapping or ambiguously defined labels, difficulties in judging reduced pronunciations, and overly detailed grapheme/phoneme distinctions. These issues often led to annotator confusion and inconsistent labeling, underscoring the need for protocol refinement. Refining this protocol can lead to more accurate automated reading assessment tools and a deeper understanding of reading development in children, ultimately improving diagnostic precision."
+   ],
+   "p1": 116,
+   "pn": 117
+  },
+  "parikh25_slate": {
+   "authors": [
+    [
+     "Aditya Kamlesh",
+     "Parikh"
+    ],
+    [
+     "Cristian",
+     "Tejedor Garcia"
+    ],
+    [
+     "Catia",
+     "Cucchiarini"
+    ],
+    [
+     "Helmer",
+     "Strik"
+    ]
+   ],
+   "title": "Zero-Shot Speech LLMs for Multi-Aspect Evaluation of L2 Speech: Challenges and Opportunities",
+   "original": "46",
+   "order": 4,
+   "page_count": 5,
+   "abstract": [
+    "An accurate assessment of L2 English pronunciation is crucial for language learning, as it provides personalized feedback and ensures a fair evaluation of individual progress. However, automated scoring remains challenging due to the complexity of sentence-level fluency, prosody, and completeness. This paper evaluates the zero-shot performance of Qwen2-Audio-7B-Instruct, an instruction-tuned speech-LLM, on 5,000 Speechocean762 utterances. The model generates rubric-aligned scores for accuracy, fluency, prosody, and completeness, showing strong agreement with human ratings within ±2 tolerance, especially for high-quality speech. However, it tends to overpredict low-quality speech scores and lacks precision in error detection. These findings demonstrate the strong potential of speech LLMs in scalable pronunciation assessment and suggest future improvements through enhanced prompting, calibration, and phonetic integration to advance Computer-Assisted Pronunciation Training."
+   ],
+   "p1": 11,
+   "pn": 15,
+   "doi": "10.21437/SLaTE.2025-3",
+   "url": "slate_2025/parikh25_slate.html"
+  },
+  "shankar25_slate": {
+   "authors": [
+    [
+     "Natarajan Balaji",
+     "Shankar"
+    ],
+    [
+     "Kaiyuan",
+     "Zhang"
+    ],
+    [
+     "Andre",
+     "Mai"
+    ],
+    [
+     "Mohan",
+     "Shi"
+    ],
+    [
+     "Alaria",
+     "Long"
+    ],
+    [
+     "Julie",
+     "Washington"
+    ],
+    [
+     "Robin",
+     "Morris"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ]
+   ],
+   "title": "Leveraging ASR and LLMs for Automated Scoring and Feedback in Children's Spoken Language Assessments",
+   "original": "49",
+   "order": 2,
+   "page_count": 5,
+   "abstract": [
+    "This paper explores the use of automatic speech recognition (ASR) and large language models (LLMs) for automated scoring and feedback generation in spoken language assessment. We design a three stage pipeline that (1) optimizes ASR hypotheses from student speech, (2) performs task-based scoring using LLMs, and (3) generates natural language feedback justifying each score. We evaluate this pipeline using audio responses from 3rd-8th grade students in the Atlanta, Georgia area, recorded as part of the Test of Narrative Language. Our results show that LLMs can reliably replicate expert annotations while providing interpretable feedback. We further analyze model performance across demographic factors, including dialect and reading proficiency, to assess equity. Our findings demonstrate the promise of ASR and LLMs for robust, explainable, and fair assessment of children’s spoken narratives.  "
+   ],
+   "p1": 1,
+   "pn": 5,
+   "doi": "10.21437/SLaTE.2025-1",
+   "url": "slate_2025/shankar25_slate.html"
+  },
+  "qian25_slate": {
+   "authors": [
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Kate M.",
+     "Knill"
+    ],
+    [
+     "Stefano",
+     "Bannò"
+    ],
+    [
+     "Siyuan",
+     "Tang"
+    ],
+    [
+     "Penny",
+     "Karanasou"
+    ],
+    [
+     "Mark J.F.",
+     "Gales"
+    ],
+    [
+     "Diane",
+     "Nicholls"
+    ]
+   ],
+   "title": "Speak &amp; Improve Challenge 2025",
+   "original": "51",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "This paper presents the Speak &amp; Improve Challenge 2025: Spoken Language Assessment and Feedback. The Challenge aims to advance research on spoken language assessment and feedback, with tasks associated with both the underlying technology and language learning feedback. Linked with the challenge, the Speak &amp; Improve (S&amp;I) Corpus 2025 was pre-released, a dataset of over 300 hours of L2 learner English data with holistic scores and language error annotation, collected from open (spontaneous) speaking tests on the Speak &amp; Improve learning platform. The Challenge has four shared tasks: Automatic Speech Recognition (ASR), Spoken Language Assessment (SLA), Spoken Grammatical Error Correction (SGEC), and Spoken Grammatical Error Correction Feedback (SGECF). Each task had a closed track which specified a set of models and data sources to use, and an open track where any public resource was allowed. The Challenge setup and results and overview of the systems are presented."
+   ],
+   "p1": 41,
+   "pn": 45,
+   "doi": "10.21437/SLaTE.2025-9",
+   "url": "slate_2025/qian25_slate.html"
+  },
+  "gangireddy25_slate": {
+   "authors": [
+    [
+     "Siva Reddy",
+     "Gangireddy"
+    ],
+    [
+     "Armin",
+     "Saeb"
+    ],
+    [
+     "Arnaud",
+     "Letondor"
+    ],
+    [
+     "Mauro",
+     "Nicolao"
+    ],
+    [
+     "Amelia",
+     "Kelly"
+    ]
+   ],
+   "title": "The SoapBox Labs ASR System for Speak &amp; Improve Challenge 2025",
+   "original": "52",
+   "order": 30,
+   "page_count": 5,
+   "abstract": [
+    "The paper details the development and evaluation of the SoapBox Labs ASR system for the 2025 Speak &amp; Improve Challenge. Three approaches were examined: fine-tuning the decoder and subsequently both encoder and decoder; fine-tuning all the parameters together; and fine-tuning the adapter modules. The study utilized pre-trained models with Connectionist Temporal Classification (CTC) and Recurrent neural network Transducer (RNNT) losses. The CTC-based models outperformed transducers in the open ASR task of the Challenge, and adapter-based model improvements are on par with the standard fine-tuning approach. The best ASR system achieved 33.6% relative improvement on development data and 32.6% on evaluation data of the Challenge. An additional experiment involved training a model on combined supplementary and Challenge data, yielding WER reductions on children&#x27;s evaluation datasets, and showing relative improvements of 2.8% on development and 1.8% on evaluation data of the Challenge."
+   ],
+   "p1": 138,
+   "pn": 142,
+   "doi": "10.21437/SLaTE.2025-28",
+   "url": "slate_2025/gangireddy25_slate.html"
+  },
+  "menevse25_slate": {
+   "authors": [
+    [
+     "Merve Unlu",
+     "Menevse"
+    ],
+    [
+     "Ebru",
+     "Arisoy"
+    ],
+    [
+     "Arzucan",
+     "Ozgur"
+    ]
+   ],
+   "title": "The BU-MEF System for the Speak &amp; Improve Challenge 2025: Spoken Language Assessment Using Speech and Textual Representations",
+   "original": "53",
+   "order": 31,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes the system developed by the BU-MEF team for the spoken language assessment task in the Speak &amp; Improve Challenge 2025. The proposed system integrates discrete speech representations with textual embeddings within a language model-based regression framework. Unlike traditional approaches that rely on hand-crafted features or low-level acoustic features, our method extracts word-aligned acoustic embeddings using a large-scale speech encoder, followed by vector quantization to produce interpretable speech tokens. These discrete representations are combined with textual inputs within a BERT-based grader, enabling structured and scalable modeling. Experimental results show that incorporating discrete speech tokens alongside text improves scoring accuracy over text-only baselines, highlighting the effectiveness of the proposed approach. Our submitted system achieved a 3.4% relative improvement over the baseline system on the official evaluation set."
+   ],
+   "p1": 143,
+   "pn": 147,
+   "doi": "10.21437/SLaTE.2025-29",
+   "url": "slate_2025/menevse25_slate.html"
+  },
+  "kany25_slate": {
+   "authors": [
+    [
+     "Valentin",
+     "Kany"
+    ]
+   ],
+   "title": "From Features to Fluency: Predicting Perceived Speech Fluency of Preschool Children for Language Proficiency Assessments",
+   "original": "54",
+   "order": 26,
+   "page_count": 5,
+   "abstract": [
+    "This study investigates the effect of various fluency-related features on the perception of speech fluency in the speech of German-speaking preschool children. Speech data from 10 children (5 L1, 5 L2) were elicited by means of a serious-game-based method developed for Language Proficiency Assessments (LPAs). Listeners evaluated the perceived fluency in the stimuli on a 9-point Likert scale. The fluency assessment revealed a significant negative effect of the number of disfluent pauses and the number of other disfluencies (such as repairs, truncations, repetitions, and lengthenings) on the fluency rating. A significant positive effect was found for articulation rate. Overall, these results can serve as a basis for a unified evaluation of speech fluency of preschool children to extend LPAs."
+   ],
+   "p1": 118,
+   "pn": 122,
+   "doi": "10.21437/SLaTE.2025-24",
+   "url": "slate_2025/kany25_slate.html"
+  },
+  "knill25_slate": {
+   "authors": [
+    [
+     "Kate M.",
+     "Knill"
+    ],
+    [
+     "Diane",
+     "Nicholls"
+    ],
+    [
+     "Mark J.F.",
+     "Gales"
+    ],
+    [
+     "Mengjie",
+     "Qian"
+    ],
+    [
+     "Pawel",
+     "Stroinski"
+    ]
+   ],
+   "title": "Introducing the Speak &amp; Improve Corpus 2025: an L2 English Speech Corpus for Language Assessment and Feedback",
+   "original": "56",
+   "order": 36,
+   "page_count": 5,
+   "abstract": [
+    "The Speak &amp; Improve Corpus 2025 is a dataset of L2 learner English data with holistic scores and language error annotation, collected from open (spontaneous) speaking tests on the Speak &amp; Improve learning platform from Cambridge University Press &amp; Assessment. It aims to address the lack of publically available data which poses a major challenge for non-commercial research of L2 spoken language processing systems. In designing this corpus we have sought to make it cover a wide-range of speaker attributes, from L1 to speaking ability, as well as providing manual annotations. This enables a range of language-learning tasks to be examined, such as assessing speaking proficiency or providing feedback on grammatical errors in a learner&#x27;s speech. Additionally the data supports research into the underlying technology required for these tasks including automatic speech recognition of low resource L2 learner English, disfluency detection or spoken grammatical error correction."
+   ],
+   "p1": 167,
+   "pn": 171,
+   "doi": "10.21437/SLaTE.2025-34",
+   "url": "slate_2025/knill25_slate.html"
+  },
+  "yang25b_slate": {
+   "authors": [
+    [
+     "Xiaocheng",
+     "Yang"
+    ],
+    [
+     "Sumuk",
+     "Shashidhar"
+    ],
+    [
+     "Dilek",
+     "Hakkani-Tür"
+    ]
+   ],
+   "title": "Question Generation for Assessing Early Literacy Reading Comprehension",
+   "original": "57",
+   "order": 40,
+   "page_count": 2,
+   "abstract": [
+    "Assessment of reading comprehension through content-based interactions plays an important role in the reading acquisition process. In this paper, we propose a novel approach for generating comprehension questions geared to K-2 English learners. Our method ensures complete coverage of the underlying material and adaptation to the learner&#x27;s specific proficiencies, and can generate a large diversity of question types at various difficulty levels to ensure a thorough evaluation. We evaluate the performance of various language models in this framework using the FairytaleQA dataset as the source material. Eventually, the proposed approach has the potential to become an important part of autonomous AI-driven English instructors."
+   ],
+   "p1": 187,
+   "pn": 188
+  },
+  "hansen25_slate": {
+   "authors": [
+    [
+     "John H.L.",
+     "Hansen"
+    ],
+    [
+     "Satwik",
+     "Dutta"
+    ],
+    [
+     "Ellen",
+     "Grand"
+    ]
+   ],
+   "title": "Best Practices and Considerations for Child Speech Corpus Collection and Curation in Educational, Clinical, and Forensic Scenarios",
+   "original": "60",
+   "order": 27,
+   "page_count": 5,
+   "abstract": [
+    "A child&#x27;s spoken ability continues to change until their adult age. Until 7-8yrs, their speech sound development and language structure evolve rapidly. This dynamic shift in their spoken communication skills and data privacy make it challenging to curate technology-ready speech corpora for children. This study aims to bridge this gap and provide researchers and practitioners with the best practices and considerations for developing such a corpus based on an intended goal. Although primarily focused on educational goals, applications of child speech data have spread across fields including clinical and forensics fields. Motivated by this goal, we describe the WHO, WHAT, WHEN, and WHERE of data collection inspired by prior collection efforts and our experience/knowledge. We also provide a guide to establish collaboration, trust, and for navigating the human subjects research protocol. This study concludes with guidelines for corpus quality check, triage, and annotation. "
+   ],
+   "p1": 123,
+   "pn": 127,
+   "doi": "10.21437/SLaTE.2025-25",
+   "url": "slate_2025/hansen25_slate.html"
+  },
+  "gelin25_slate": {
+   "authors": [
+    [
+     "Lucile",
+     "Gelin"
+    ],
+    [
+     "Lucas Block",
+     "Medin"
+    ],
+    [
+     "Alexandre",
+     "Cruel"
+    ],
+    [
+     "Alice",
+     "Liu"
+    ]
+   ],
+   "title": "Combining word and phoneme speech recognition for fluency assessment of young children's oral reading",
+   "original": "64",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "Fluency is a key component of learning how to read, as it unlocks comprehension skills. However, it is not easy for teachers to monitor their students&#x27; fluency practice in class. With the ASR fluency assessment system presented in this work, we aim at enabling students to improve their reading skills through practice and helping teachers assess their progress.\nSince fluency assessment is still rather an uncommon task, we start by defining the feedback expected by teachers and establish a set of metrics to evaluate our automatic system&#x27;s performance. We compare individual phoneme-level and word-level systems and design an innovative system that combines them. This combined system obtains the best WCPM MAE, accuracy MAE and F1-score, showing that it leverages multi-level knowledge for a more accurate detection of reading mistakes in students&#x27; oral reading. We also discuss the behavior of our system depending on the student&#x27;s age and demographic information to detect biases to reduce."
+   ],
+   "p1": 16,
+   "pn": 20,
+   "doi": "10.21437/SLaTE.2025-4",
+   "url": "slate_2025/gelin25_slate.html"
+  },
+  "vallsrates25_slate": {
+   "authors": [
+    [
+     "Ïo",
+     "Valls-Ratés"
+    ],
+    [
+     "Oliver",
+     "Niebuhr"
+    ]
+   ],
+   "title": "From quiet to confident: A VR tool for loudness training in educational public speaking",
+   "original": "65",
+   "order": 15,
+   "page_count": 5,
+   "abstract": [
+    "Vocal projection is a critical but often overlooked component of spoken language competence, particularly in educational contexts such as language learning and oral assessments. This study presents a VR-based speech training tool called AppGoodSpeakers designed to support learners in developing awareness and control of vocal intensity. The tool offers real-time visual feedback on loudness, functioning as a tutoring system for oral performance. A within-subjects pre-/post-test design involving 51 participants demonstrated significant acoustic changes in vocal effort and energy variation following the VR training. These results suggest that such technology-enhanced interventions can contribute to speech education and public speaking training by fostering prosodic control, an essential skill in both native and second language acquisition."
+   ],
+   "p1": 66,
+   "pn": 70,
+   "doi": "10.21437/SLaTE.2025-14",
+   "url": "slate_2025/vallsrates25_slate.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote: Abeer Alwan",
+   "papers": [
+    "alwan25_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 1: Spoken Language Assessment and Scoring",
+   "papers": [
+    "shankar25_slate",
+    "marchal25_slate",
+    "parikh25_slate",
+    "gelin25_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 2: Pronunciation and Mispronunciation Detection",
+   "papers": [
+    "dong25_slate",
+    "lo25_slate",
+    "wei25_slate",
+    "mcghee25_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 3: Speak and Improve Challenge",
+   "papers": [
+    "qian25_slate",
+    "guo25_slate",
+    "cai25_slate",
+    "phan25_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 4: Fluency Assessment",
+   "papers": [
+    "fujiwara25_slate",
+    "vallsrates25_slate",
+    "harmsen25_slate",
+    "wei25b_slate"
+   ]
+  },
+  {
+   "title": "Oral Session 5: Innovative Tools and Techniques in Speech and Language Processing",
+   "papers": [
+    "smit25_slate",
+    "pepe25_slate",
+    "rendina25_slate",
+    "yang25_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 1: Joint with WOCCI",
+   "papers": [
+    "louw25_slate",
+    "sharratt25_slate",
+    "lilles25_slate",
+    "gao25_slate",
+    "kany25_slate",
+    "hansen25_slate",
+    "han25_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 2: Speak and Improve Challenge",
+   "papers": [
+    "roll25_slate",
+    "gangireddy25_slate",
+    "menevse25_slate",
+    "lin25_slate",
+    "lu25_slate",
+    "porwal25_slate",
+    "lin25b_slate",
+    "knill25_slate"
+   ]
+  },
+  {
+   "title": "Poster Session 3",
+   "papers": [
+    "sirigiraju25_slate",
+    "mallela25_slate",
+    "tanaka25_slate",
+    "yang25b_slate",
+    "banno25_slate",
+    "karanasou25_slate",
+    "wang25_slate",
+    "montoyagomez25_slate",
+    "yamanaka25_slate",
+    "sivaramasethu25_slate"
+   ]
+  }
+ ],
+ "doi": "10.21437/SLaTE.2025"
+}
