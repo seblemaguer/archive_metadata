@@ -1,0 +1,648 @@
+{
+ "title": "Workshop on Multilingual Conversational Speech Language Model (MLC-SLM)",
+ "location": "Rotterdam, The Netherlands",
+ "startDate": "22/8/2025",
+ "endDate": "22/8/2025",
+ "chair": "Chairs: Lei Xie",
+ "URL": "https://www.nexdata.ai/competition/mlc-slm",
+ "series": "MLCSLM",
+ "conf": "MLCSLM",
+ "name": "mlcslm_2025",
+ "year": "2025",
+ "SIG": "",
+ "title1": "Workshop on Multilingual Conversational Speech Language Model",
+ "title2": "(MLC-SLM)",
+ "booklet": "intro.pdf",
+ "date": "22 August 2025",
+ "month": 8,
+ "day": 22,
+ "now": 1758770520906413,
+ "papers": {
+  "peng25_mlcslm": {
+   "authors": [
+    [
+     "Yizhou",
+     "Peng"
+    ],
+    [
+     "Bin",
+     "Wang"
+    ],
+    [
+     "Yi-Wen",
+     "Chao"
+    ],
+    [
+     "Ziyang",
+     "Ma"
+    ],
+    [
+     "Haoyang",
+     "Zhang"
+    ],
+    [
+     "Hexin",
+     "Liu"
+    ],
+    [
+     "Xie",
+     "Chen"
+    ],
+    [
+     "Eng Siong",
+     "Chng"
+    ]
+   ],
+   "title": "NTU Speechlab LLM-Based Multilingual ASR System for Interspeech MLC-SLM Challenge 2025",
+   "original": "1",
+   "order": 13,
+   "page_count": 5,
+   "abstract": [
+    "This report details the NTU Speechlab system developed for the Interspeech 2025 Multilingual Conversational Speech and Language Model (MLC-SLM) Challenge (Task I), where we achieved 5th place. We present comprehensive analyses of our multilingual automatic speech recognition system, highlighting key advancements in model architecture, data selection, and training strategies. In particular, language-specific prompts and model averaging techniques were instrumental in boosting system performance across diverse languages. Compared to the initial baseline system, our final model reduced the average Mix Error Rate from 20.2% to 10.6%, representing an absolute improvement of 9.6% (a relative improvement of 48%) on the evaluation set. Our results demonstrate the effectiveness of our approach and offer practical insights for future Speech Large Language Models."
+   ],
+   "p1": 28,
+   "pn": 32,
+   "doi": "10.21437/MLCSLM.2025-7",
+   "url": "mlcslm_2025/peng25_mlcslm.html"
+  },
+  "polok25_mlcslm": {
+   "authors": [
+    [
+     "Alexander",
+     "Polok"
+    ],
+    [
+     "Jiangyu",
+     "Han"
+    ],
+    [
+     "Dominik",
+     "Klement"
+    ],
+    [
+     "Samuele",
+     "Cornell"
+    ],
+    [
+     "Jan",
+     "Černocký"
+    ],
+    [
+     "Lukáš",
+     "Burget"
+    ]
+   ],
+   "title": "BUT System for the MLC-SLM Challenge",
+   "original": "2",
+   "order": 8,
+   "page_count": 5,
+   "abstract": [
+    "We present a two-speaker automatic speech recognition (ASR) system that combines DiCoW—a diarization-conditioned variant of Whisper—with DiariZen, a diarization pipeline built on top of Pyannote. We first evaluate both systems in out-of-domain (OOD) multilingual scenarios without any fine-tuning. In this scenario, DiariZen consistently outperforms the baseline Pyannote diarization model, demonstrating strong generalization. Despite being fine-tuned on English-only data for target-speaker ASR, DiCoW retains solid multilingual performance, indicating that encoder modifications preserve Whisper’s multilingual capabilities. We then fine-tune both DiCoW and DiariZen on the MLC-SLM challenge data. The fine-tuned DiariZen continues to outperform the fine-tuned Pyannote baseline, while DiCoW sees further gains from domain adaptation. Our final system achieves a micro-average tcpWER/CER of 16.75 % and ranks second in Task 2 of the MLC-SLM challenge. Lastly, we identify several labeling inconsistencies in the training data—such as missing speech segments and incorrect silence annotations—which can hinder diarization fine-tuning. We propose simple mitigation strategies to address these issues and improve system robustness."
+   ],
+   "p1": 23,
+   "pn": 27,
+   "doi": "10.21437/MLCSLM.2025-6",
+   "url": "mlcslm_2025/polok25_mlcslm.html"
+  },
+  "peng25b_mlcslm": {
+   "authors": [
+    [
+     "Yizhou",
+     "Peng"
+    ],
+    [
+     "Hexin",
+     "Liu"
+    ],
+    [
+     "Eng Siong",
+     "Chng"
+    ]
+   ],
+   "title": "Bi-directional Context-Enhanced Speech Large Language Models for Multilingual Conversational ASR",
+   "original": "3",
+   "order": 14,
+   "page_count": 5,
+   "abstract": [
+    "This paper introduces the integration of language-specific bi-directional context into a speech large language model (SLLM) to improve multilingual continuous conversational automatic speech recognition (ASR). We propose a character-level contextual masking strategy during training, which randomly removes portions of the context to enhance robustness and better emulate the flawed transcriptions that may occur during inference. For decoding, a two-stage pipeline is utilized: initial isolated segment decoding followed by context-aware re-decoding using neighboring hypotheses. Evaluated on the 1500-hour Multilingual Conversational Speech and Language Model (MLC-SLM) corpus covering eleven languages, our method achieves an 18% relative improvement compared to a strong baseline, outperforming even the model trained on 6000 hours of data for the MLC-SLM competition. These results underscore the significant benefit of incorporating contextual information in multilingual continuous conversational ASR."
+   ],
+   "p1": 33,
+   "pn": 37,
+   "doi": "10.21437/MLCSLM.2025-8",
+   "url": "mlcslm_2025/peng25b_mlcslm.html"
+  },
+  "mei25_mlcslm": {
+   "authors": [
+    [
+     "Yuxiang",
+     "Mei"
+    ],
+    [
+     "Yuang",
+     "Zheng"
+    ],
+    [
+     "Dongxing",
+     "Xu"
+    ],
+    [
+     "Yanhua",
+     "Long"
+    ]
+   ],
+   "title": "SHNU Multilingual Conversational Speech Recognition System for INTERSPEECH 2025 MLC-SLM Challenge",
+   "original": "4",
+   "order": 15,
+   "page_count": 5,
+   "abstract": [
+    "This paper describes SHNU multilingual conversational speech recognition system (SHNU-mASR, team name-“maybe”), submitted to Track 1 of the INTERSPEECH 2025 MLC-SLM Challenge. Our system integrates a arallel-speech-encoder architecture with a large language model (LLM) to form a unified multilingual ASR framework. The parallel-speech-encoder consists of two pre-trained encoders, the Whisper-large-v3 encoder and mHuBERT-147 encoder. Their output embeddings are concatenated and fed into the LLM, enabling the model to leverage complementary acoustic and linguistic knowledge and achieve competitive performance. Moreover, we adopt a tri-stage training strategy to jointly update the low-rank adaptation modules and projector parameters of both the speech encoders and the LLM. In addition, we incorporate an additional language-aware prompt at the LLM input to enhance language-specific text generation. The SHNU-mASR system achieves an overall character/word error rate (CER/WER) of 11.76% on the blind evaluation set of the challenge, outperforming the official MLC-SLM baseline by 8.41 absolute CER/WER, without increasing the baseline training data."
+   ],
+   "p1": 38,
+   "pn": 42,
+   "doi": "10.21437/MLCSLM.2025-9",
+   "url": "mlcslm_2025/mei25_mlcslm.html"
+  },
+  "li25_mlcslm": {
+   "authors": [
+    [
+     "Xiaoxiao",
+     "Li"
+    ],
+    [
+     "An",
+     "Zhu"
+    ],
+    [
+     "Youhai",
+     "Jiang"
+    ],
+    [
+     "Fengjie",
+     "Zhu"
+    ]
+   ],
+   "title": "Transsion Multilingual Speech Recognition System for MLC-SLM 2025 Challenge",
+   "original": "5",
+   "order": 4,
+   "page_count": 3,
+   "abstract": [
+    "This paper presents the architecture and performance of a novel Multilingual Automatic Speech Recognition (ASR) system developed by the Transsion Speech Team for Track 1 of the MLC-SLM 2025 Challenge. The proposed system comprises three key components: 1) a frozen Whisper-large-v3 based speech encoder, leveraging large-scale pretraining to ensure robust acoustic feature extraction; 2) a trainable adaptor module using Linear-ReLU-Linear transformation mechanisms to effectively align speech and text representations; and 3) a frozen Qwen2.5-7B-Instruct large language model (LLM) integrated with trainable LoRA for optimized contextual linguistic decoding. By systematically combining pretrained models with task-specific fine-tuning, the system achieved a word/character error rate (WER/CER) of 9.83% across 11 languages in the evaluation set and ranked third place among global participants."
+   ],
+   "p1": 7,
+   "pn": 9,
+   "doi": "10.21437/MLCSLM.2025-2",
+   "url": "mlcslm_2025/li25_mlcslm.html"
+  },
+  "meng25_mlcslm": {
+   "authors": [
+    [
+     "Qingliang",
+     "Meng"
+    ],
+    [
+     "Hao",
+     "Wu"
+    ],
+    [
+     "Wei",
+     "Liang"
+    ],
+    [
+     "Wei",
+     "Xu"
+    ],
+    [
+     "Qing",
+     "Zhao"
+    ]
+   ],
+   "title": "ILT: Iterative LoRA Training through Focus–Feedback–Fix for Multilingual Speech Recognition",
+   "original": "6",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "The deep integration of large language models and automatic speech recognition systems has become a promising research direction with high practical value. To address the overfitting issue commonly observed in Low-Rank Adaptation (LoRA) during the supervised fine-tuning (SFT) stage, this work proposes an innovative training paradigm Iterative LoRA Training (ILT) in combination with an Iterative Pseudo Labeling strategy, effectively enhancing the theoretical upper bound of model performance. Based on Whisper-large-v3 and Qwen2-Audio, we conduct systematic experiments using a three-stage training process: Focus Training, Feed Back Training, and Fix Training. Experimental results demonstrate the effectiveness of the proposed method. Furthermore, the MegaAIS research team applied this technique in the Interspeech 2025 Multilingual Conversational Speech Language Modeling Challenge (MLC-SLM), achieving 4th in Track 1 (Multilingual ASR Task) and 1st place in Track 2 (Speech Separation and Recognition Task), showcasing the practical feasibility and strong application potential of our approach."
+   ],
+   "p1": 18,
+   "pn": 22,
+   "doi": "10.21437/MLCSLM.2025-5",
+   "url": "mlcslm_2025/meng25_mlcslm.html"
+  },
+  "xue25_mlcslm": {
+   "authors": [
+    [
+     "Hongfei",
+     "Xue"
+    ],
+    [
+     "Kaixun",
+     "Huang"
+    ],
+    [
+     "Zhikai",
+     "Zhou"
+    ],
+    [
+     "Shen",
+     "Huang"
+    ],
+    [
+     "Shidong",
+     "Shang"
+    ],
+    [
+     "Lei",
+     "Xie"
+    ]
+   ],
+   "title": "The TEA-ASLP System for Multilingual Conversational Speech Recognition and Speech Diarization in MLC-SLM 2025 Challenge",
+   "original": "7",
+   "order": 6,
+   "page_count": 4,
+   "abstract": [
+    "This paper presents the TEA-ASLP’s system submitted to the MLC-SLM 2025 Challenge, addressing multilingual conversational automatic speech recognition (ASR) in Task I and speech diarization ASR in Task II. For Task I, we enhance Ideal-LLM model by integrating known language identification and a multilingual MOE LoRA structure, along with using CTC-predicted tokens as prompts to improve autoregressive generation. The model is trained on approximately 180k hours of multilingual ASR data. In Task II, we replace the baseline English-Chinese speaker diarization model with a more suitable English-only version. Our approach achieves a 30.8% reduction in word error rate (WER) compared to the baseline speech language model, resulting in a final WER of 9.60% in Task I and a time-constrained minimum-permutation WER of 17.49% in Task II, earning first and third place in the respective challenge tasks."
+   ],
+   "p1": 14,
+   "pn": 17,
+   "doi": "10.21437/MLCSLM.2025-4",
+   "url": "mlcslm_2025/xue25_mlcslm.html"
+  },
+  "gao25_mlcslm": {
+   "authors": [
+    [
+     "Miaomiao",
+     "Gao"
+    ],
+    [
+     "Xiaoxiao",
+     "Xiang"
+    ],
+    [
+     "Yiwen",
+     "Guo"
+    ]
+   ],
+   "title": "Triple X: A LLM-Based Multilingual Speech Recognition System for the INTERSPEECH2025 MLC-SLM Challenge",
+   "original": "8",
+   "order": 5,
+   "page_count": 4,
+   "abstract": [
+    "This paper describes our Triple X speech recognition system submitted to Task 1 of the Multi-Lingual Conversational Speech Language Modeling (MLC-SLM) Challenge. Our work focuses on optimizing speech recognition accuracy in multilingual conversational scenarios through an innovative encoder-adapter-LLM architecture. This framework harnesses the powerful reasoning capabilities of text-based large language models while incorporating domain-specific adaptations. To further enhance multilingual recognition performance, we adopted a meticulously designed multi-stage training strategy leveraging extensive multilingual audio datasets. Experimental results demonstrate that our approach achieves competitive Word Error Rate (WER) performance on both dev and test sets, obtaining second place in the challenge ranking."
+   ],
+   "p1": 10,
+   "pn": 13,
+   "doi": "10.21437/MLCSLM.2025-3",
+   "url": "mlcslm_2025/gao25_mlcslm.html"
+  },
+  "nguyen25_mlcslm": {
+   "authors": [
+    [
+     "Tuan",
+     "Nguyen"
+    ],
+    [
+     "Long-Vu",
+     "Hoang"
+    ],
+    [
+     "Huy-Dat",
+     "Tran"
+    ]
+   ],
+   "title": "Qwen vs. Gemma Integration with Whisper: A Comparative Study in Multilingual SpeechLLM Systems",
+   "original": "9",
+   "order": 16,
+   "page_count": 4,
+   "abstract": [
+    "This paper presents our system for the MLC-SLM Challenge 2025, focusing on multilingual speech recognition and language modeling with large language models (LLMs). Our approach combines a fine-tuned Whisper-large-v3 encoder with efficient projector architectures and various decoder configurations. We employ a three-stage training methodology that progressively optimizes the encoder, projector, and LLM components. Our system achieves competitive performance with a private test average WER/CER result of 16.63% using the Gemma3-12B and 18.6% using the Qwen2.5-7B as decoder-only language model."
+   ],
+   "p1": 43,
+   "pn": 46,
+   "doi": "10.21437/MLCSLM.2025-10",
+   "url": "mlcslm_2025/nguyen25_mlcslm.html"
+  },
+  "lin25_mlcslm": {
+   "authors": [
+    [
+     "Yuke",
+     "Lin"
+    ],
+    [
+     "Ming",
+     "Cheng"
+    ],
+    [
+     "Ze",
+     "Li"
+    ],
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "The DKU System for Multi-Speaker Automatic Speech Recognition in MLC-SLM Challenge",
+   "original": "10",
+   "order": 17,
+   "page_count": 3,
+   "abstract": [
+    "We present the DKU system for Task 2 of the MLC-SLM Challenge, which aims to perform multi-speaker automatic speech recognition directly from raw audio without Oracle speaker labels or time boundaries. Our approach builds upon a diarization-aware framework integrating speaker embeddings and temporal utterance boundaries into a Qwen2.5-based large language model (LLM). Then, we enhance the system’s multilingual performance by fine-tuning language-specific adapters and LoRA modules within the LLM decoder. Finally, our system achieves the tcpWER of 23.56% and 18.08% on the development and test sets of the MLC-SLM dataset, substantially outperforming the official baseline."
+   ],
+   "p1": 47,
+   "pn": 49,
+   "doi": "10.21437/MLCSLM.2025-11",
+   "url": "mlcslm_2025/lin25_mlcslm.html"
+  },
+  "li25b_mlcslm": {
+   "authors": [
+    [
+     "Bo",
+     "Li"
+    ],
+    [
+     "Chengben",
+     "Xu"
+    ],
+    [
+     "Wufeng",
+     "Zhang"
+    ]
+   ],
+   "title": "Seewo’s Submission to MLC-SLM: Lessons learned from Speech Reasoning Language Models",
+   "original": "11",
+   "order": 3,
+   "page_count": 6,
+   "abstract": [
+    "This paper presents Seewo’s systems for both tracks of the Multilingual Conversational Speech Language Model Challenge (MLC-SLM), addressing automatic speech recognition (ASR) and speaker diarization with ASR (SD-ASR). We introduce a multi-stage training pipeline that explicitly enhances reasoning and self-correction in speech language models for ASR. Our approach combines curriculum learning for progressive capability acquisition, Chain-of-Thought data augmentation to foster intermediate reflection, and Reinforcement Learning with Verifiable Rewards (RLVR) to further refine self-correction. Our approach substantially outperforms the official baselines, achieving 11.57% WER/CER (Track 1) and 17.67% tcpWER/tcpCER (Track 2) on the evaluation set. Comprehensive ablation studies validate each component’s effectiveness."
+   ],
+   "p1": 1,
+   "pn": 6,
+   "doi": "10.21437/MLCSLM.2025-1",
+   "url": "mlcslm_2025/li25b_mlcslm.html"
+  },
+  "concina25_mlcslm": {
+   "authors": [
+    [
+     "Lorenzo",
+     "Concina"
+    ],
+    [
+     "Jordi",
+     "Luque"
+    ],
+    [
+     "Alessio",
+     "Brutti"
+    ],
+    [
+     "Marco",
+     "Matassoni"
+    ],
+    [
+     "Yuchen",
+     "Zhang"
+    ]
+   ],
+   "title": "The Eloquence team submission for task 1 of MLC-SLM challenge",
+   "original": "12",
+   "order": 18,
+   "page_count": 4,
+   "abstract": [
+    "In this paper, we present our studies and experiments carried out for the task 1 of the Challenge and Workshop on Multilingual Conversational Speech Language Model (MLC-SLM), which focuses on advancing multilingual conversational speech recognition through the development of speech language models architectures. Given the increasing relevance of real-world conversational data for building robust Spoken Dialogue Systems, we explore three approaches to multilingual ASR. First, we conduct an evaluation of the official baseline to better understand its strengths and limitations, by training two projectors (linear and qformer) with different foundation models. Second, we leverage the SLAM-ASR framework to train a custom multilingual linear projector. Finally we investigate the role of contrastive learning and the extended conversational context in enhancing the robustness of recognition."
+   ],
+   "p1": 50,
+   "pn": 53,
+   "doi": "10.21437/MLCSLM.2025-12",
+   "url": "mlcslm_2025/concina25_mlcslm.html"
+  },
+  "wang25_mlcslm": {
+   "authors": [
+    [
+     "Pengcheng",
+     "Wang"
+    ],
+    [
+     "Sheng",
+     "Li"
+    ],
+    [
+     "Takahiro",
+     "Shinozaki"
+    ]
+   ],
+   "title": "RAG-Boost: Retrieval-Augmented Generation Enhanced LLM-based Speech Recognition",
+   "original": "13",
+   "order": 19,
+   "page_count": 2,
+   "abstract": [
+    "In this paper, we propose RAG-Boost (ST-ShinozakiLab Task I system), which enhances the baseline LLM-based ASR system of the MLC-SLM Challenge (task I) with a retrieval-augmented generation (RAG) module on the fly. Each partial ASR hypothesis queries a vector store of audio–text pairs and domain terms, and the retrieved results are fused with the live ASR hypotheses to fix recognition errors. The fused hypotheses are passed to the LLM, yielding improved responses."
+   ],
+   "p1": 54,
+   "pn": 55
+  },
+  "saengthong25_mlcslm": {
+   "authors": [
+    [
+     "Phurich",
+     "Saengthong"
+    ],
+    [
+     "Boonnithi",
+     "Jiaramaneepinit"
+    ],
+    [
+     "Sheng",
+     "Li"
+    ],
+    [
+     "Manabu",
+     "Okumura"
+    ],
+    [
+     "Takahiro",
+     "Shinozaki"
+    ]
+   ],
+   "title": "A Unified Speech LLM for Diarization and Speech Recognition in Multilingual Conversations",
+   "original": "14",
+   "order": 20,
+   "page_count": 5,
+   "abstract": [
+    "Speech Large Language Models (Speech LLMs) have emerged as a crucial paradigm in recent years, extending the capabilities of traditional LLMs to speech tasks such as automatic speech recognition (ASR) and spoken dialogue modeling. However, their effectiveness in real-world multilingual conversations remains limited by the scarcity of data that captures natural conversational phenomena. To address this, the MLC-SLM Challenge provides a multilingual conversational dataset and evaluates models on two tasks: ASR with oracle segmentation (Task I) and joint diarization and recognition without oracle information (Task II). In this paper, we focus on Task II and propose a unified speech LLM that jointly performs diarization and ASR in an end-to-end manner. By reformulating the training data format and modifying the inference procedure, our model addresses the ambiguity inherent in pre-segmented audio and achieves a 54.87% relative improvement in tcpWER/tcpCER over the baseline, ranking 8th overall, despite using a smaller LLM backbone. We also report results from Task I using a fine-tuned speech LLM."
+   ],
+   "p1": 56,
+   "pn": 60,
+   "doi": "10.21437/MLCSLM.2025-13",
+   "url": "mlcslm_2025/saengthong25_mlcslm.html"
+  },
+  "watanabe25_mlcslm": {
+   "authors": [
+    [
+     "Shinji",
+     "Watanabe"
+    ]
+   ],
+   "title": "Scaling Multilingual Speech Recognition: From a Handful to Thousands of Languages",
+   "original": "Shinji",
+   "order": 1,
+   "page_count": 0,
+   "abstract": [
+    "This talk focuses on scaling multilingual Automatic Speech Recognition (ASR) from few to thousands of languages. It addresses junior researchers’ key question on research directions, highlighting &quot;Multi-*&quot; (multilingual, multimodal, multi-task, multi-speaker) fields. The talk first critiques HMM-based ASR pipelines, which demand extensive linguistic resources, expert effort (1 engineer/quarter-semester per language), and hinder non-experts. It then introduces end-to-end (E2E) neural networks, which simplify ASR by mapping speech directly to text, enabling easier multilingual adaptation—exemplified by the first tokenizer-free Japanese ASR. Subsequently, it covers multilingual E2E ASR advancements: 2017’s 10-language single model, 2018’s code-switching ASR, datasets like CMU Wilderness (700 langs), Commonvoice (~100 langs), and FLEURS (102 langs). It details OWSM (open Whisper-style model) development, YODAS dataset (140+ langs, 300K+ hrs), and ML SUPERB benchmark (150+ langs). Finally, it explores scaling to thousands of languages via phone-based methods (ASR2K) and self-supervised learning (XEUS, 4K+ langs), and applications in endangered language preservation, emphasizing cross-disciplinary collaboration."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "mu25_mlcslm": {
+   "authors": [
+    [
+     "Bingshen",
+     "Mu"
+    ]
+   ],
+   "title": "Multilingual Conversational Speech Language Model (MLC-SLM) Challenge Summary",
+   "original": "Summary",
+   "order": 2,
+   "page_count": 0,
+   "abstract": [
+    "This talk summarizes the MLC-SLM Challenge. It addresses the need for LLM-based spoken dialogue systems—hindered by real-world conversational complexity and scarce multilingual speech data—by releasing a real-world dataset and presenting challenge outcomes. The dataset covers 11 languages (e.g., English, Japanese, Thai) with 1,507.22h training, 32.18h development, and ~32h evaluation data (per task), featuring 2-speaker natural dialogues. Two tasks are set: Task 1 (multilingual conversational ASR, evaluated via CER/WER) and Task 2 (joint diarization-ASR, via tcpCER/tcpWER), with baselines using Whisper, Qwen2.5/Llama3.1, and 3D-Speaker. 78 teams (13 countries) registered; 25 submitted results. TENP (9.60 avg WER/CER) won Task 1, MegaAIS (16.53 avg tcpWER/tcpCER) won Task 2. Key takeaways include effective LLM-ASR structures, multi-stage training, context utilization, and multilingual adaptation."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "lee25_mlcslm": {
+   "authors": [
+    [
+     "Hung-yi",
+     "Lee"
+    ]
+   ],
+   "title": "Advancements in Spoken Language Models",
+   "original": "Hung-yi",
+   "order": 9,
+   "page_count": 0,
+   "abstract": [
+    "This talk explores advancing Spoken Language Models (SLMs) by enabling text LLMs to process speech. It follows a three-part structure: speech-to-text, speech-to-speech, and speech-input reasoning with speech output. Part 1 focuses on teaching text LLMs to &quot;listen&quot; via speech encoders, adapters, and benchmarks like Dynamic SUPERB (180 tasks). Methods like DeSTA/DeSTA2 align speech-text for instruction following, with DeSTA2.5-Audio achieving strong performance on benchmarks (e.g., 69.53 avg accuracy on Dynamic-SUPERB). Part 2 addresses speech-to-speech generation, proposing TASTE for text-aligned speech tokenization to simplify text-speech alignment. Trained on 40k-hour data, the SLM shows good semantic coherence and audio quality. Part 3 introduces STITCH for simultaneous reasoning-speech output, using chunked reasoning to balance latency and accuracy without extra architecture. Key insights: Data from matching LLMs boosts performance; aligned tokens ease speech-text integration; chunked reasoning enables real-time SLM reasoning."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "li25c_mlcslm": {
+   "authors": [
+    [
+     "Ming",
+     "Li"
+    ]
+   ],
+   "title": "Sequence-to-Sequence Neural Diarization under Online and Multi-modal Scenarios",
+   "original": "Ming",
+   "order": 10,
+   "page_count": 0,
+   "abstract": [
+    "Ming Li received his Ph.D. in Electrical Engineering from University of Southern California in 2013. He is currently a Professor of Electronical and Computer Engineering at Division of Natural and Applied Science and Principal Research Scientist at Digital Innovation Research Center at Duke Kunshan University. He is also an Adjunct Professor at School of Computer Science of Wuhan University. His research interests are in the areas of audio, speech and language processing as well as multimodal behavior signal analysis and interpretation. He has published more than 200 papers and served as the member of IEEE speech and language technical committee, APSIPA speech and language processing technical committee. He was an area chair at Interspeech 2016, Interspeech 2018, Interspeech 2020, SLT2022, Interspeech 2024, Interspeech 2025, ASRU 2025. He is the technical program co-chair at Odyssey 2022 and ASRU 2023. He is an editorial member of IEEE Transactions on Audio, Speech and Language Processing, Computer Speech and Language and APSIPA Transactions on Signal and Information Processing. Works co-authored with his colleagues have won first prize awards at Interspeech Computational Paralinguistic Challenges 2011, 2012 and 2019, ASRU 2019 MGB-5 ADI Challenge, Interspeech 2020 and 2021 Fearless Steps Challenges, VoxSRC 2021, 2022 and 2023 Challenges, ICASSP 2022 M2MeT Challenge, IJCAI 2023 ADD challenge, ICME 2024 ChatCLR challenge and Interspeech 2024 AVSE challenge. As a co-author, he has won the best paper award in DCOSS2009 and ISCSLP2014 as well as the best paper shortlist in Interspeech 2024. He received the IBM faculty award in 2016, the ISCA Computer Speech and Language 5-years best journal paper award in 2018 and the youth achievement award of outstanding scientific research achievements of Chinese higher education in 2020. He is a senior member of IEEE."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "wang25b_mlcslm": {
+   "authors": [
+    [
+     "Shuai",
+     "Wang"
+    ]
+   ],
+   "title": "One Embedding Doesn't Fit All: Rethinking Speaker Modeling for Various Speech Applications",
+   "original": "Shuai",
+   "order": 11,
+   "page_count": 0,
+   "abstract": [
+    "This talk challenges the &quot;one embedding fits all&quot; fallacy in speaker modeling. It first outlines speaker modeling basics—covering methods (GMM-UBM, x-vector, ECAPA-TDNN) and applications (speaker recognition, TTS, target speech extraction, diarization). Key observations reveal misalignment: speaker recognition embeddings prioritize discrimination (suppressing intra-speaker variance) but fail for generative tasks (TTS/VC need prosody/emotion preservation) and target processing (requires relative discrimination). Current limitations include over-reliance on recognition-optimized embeddings, poor dynamic feature capture, and disentanglement gaps. Future directions include task-specific representations, disentangled/interpretable features, enhanced robustness, and balancing unified/specialized frameworks. Guiding principles emphasize aligning objectives with applications, balancing discriminative/generative needs, and holistic evaluation."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "pan25_mlcslm": {
+   "authors": [
+    [
+     "Pan",
+     "Pan"
+    ]
+   ],
+   "title": "Beyond Data Scarcity: Engineering Quality-First Data Pipelines in Different Training Stage",
+   "original": "Pan",
+   "order": 12,
+   "page_count": 0,
+   "abstract": [
+    "Visionary leader and operational architect at Nexdata, Pan leverages over a decade of AI data expertise to lead elite teams in delivering end-to-end solutions for LLM, GenAI, and traditional AI models. She has successfully executed 1000+ projects by integrating global-scale multi-sensor data collection, AI-powered annotation, and a unified platform that streamlines the entire training data pipeline."
+   ],
+   "p1": "",
+   "pn": ""
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote 1: Shinji Watanabe",
+   "papers": [
+    "watanabe25_mlcslm"
+   ]
+  },
+  {
+   "title": "Challenge Summary",
+   "papers": [
+    "mu25_mlcslm"
+   ]
+  },
+  {
+   "title": "Oral Session 1",
+   "papers": [
+    "li25b_mlcslm",
+    "li25_mlcslm",
+    "gao25_mlcslm",
+    "xue25_mlcslm"
+   ]
+  },
+  {
+   "title": "Oral Session 2",
+   "papers": [
+    "meng25_mlcslm",
+    "polok25_mlcslm"
+   ]
+  },
+  {
+   "title": "Keynote 2: Hung-yi Lee",
+   "papers": [
+    "lee25_mlcslm"
+   ]
+  },
+  {
+   "title": "Invited talk 1: Ming Li",
+   "papers": [
+    "li25c_mlcslm"
+   ]
+  },
+  {
+   "title": "Invited talk 2: Shuai Wang",
+   "papers": [
+    "wang25b_mlcslm"
+   ]
+  },
+  {
+   "title": "Invited talk 3: Pan Pan",
+   "papers": [
+    "pan25_mlcslm"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "peng25_mlcslm",
+    "peng25b_mlcslm",
+    "mei25_mlcslm",
+    "nguyen25_mlcslm",
+    "lin25_mlcslm",
+    "concina25_mlcslm",
+    "wang25_mlcslm",
+    "saengthong25_mlcslm"
+   ]
+  }
+ ],
+ "doi": "10.21437/MLCSLM.2025"
+}
