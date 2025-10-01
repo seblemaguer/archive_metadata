@@ -1,0 +1,427 @@
+{
+ "series": "WOCCI",
+ "title": "Workshop on Child Computer Interaction - WOCCI 2025",
+ "location": "Nijmegen, The Netherlands",
+ "startDate": "22/8/2025",
+ "endDate": "24/8/2025",
+ "URL": "https://sites.google.com/view/wocci-isca-is25",
+ "chair": "Chairs: Heysem Kaya, Kay Berkling, Thomas Rolland, Zhengjun Yue",
+ "conf": "WOCCI",
+ "name": "wocci_2025",
+ "year": "2025",
+ "SIG": "CHILD",
+ "title1": "Workshop on Child Computer Interaction - WOCCI 2025",
+ "booklet": "intro.pdf",
+ "date": "22-24 August 2025",
+ "month": 8,
+ "day": 22,
+ "now": 1759239476698995,
+ "papers": {
+  "dutta25_wocci": {
+   "authors": [
+    [
+     "Satwik",
+     "Dutta"
+    ],
+    [
+     "Shruthigna",
+     "Chandupatla"
+    ],
+    [
+     "John",
+     "Hansen"
+    ]
+   ],
+   "title": "Adapting Whisper for Lightweight and Efficient Automatic Speech Recognition of Children for On-device Edge Applications",
+   "original": "1",
+   "order": 8,
+   "page_count": 5,
+   "abstract": [
+    "Reliability on cloud providers for ASR inference to support child-centered voice-based applications is becoming challenging due to regulatory and privacy challenges. Motivated by a privacy-preserving design, this study aims to develop a lightweight &amp; efficient Whisper ASR system capable of running on a Raspberry Pi. Upon evaluation of the MyST corpus and by examining various filtering strategies to fine-tune the `tiny.en&#x27; model, a Word Error Rate (WER) of 15.9% was achieved (11.8% filtered). A low-rank compression reduces the encoder size by 0.51M with 1.26x faster inference in GPU, with 11% relative WER increase. During inference on Pi, the compressed version required ~2 GFLOPS fewer computations. The RTF for both the models ranged between [0.23-0.41] for various input audio durations. Analyzing the RAM usage and CPU temperature showed that the PI was capable of handling both the tiny models, however it was noticed that small models initiated additional overhead/thermal throttling."
+   ],
+   "p1": 36,
+   "pn": 40,
+   "doi": "10.21437/WOCCI.2025-8",
+   "url": "wocci_2025/dutta25_wocci.html"
+  },
+  "shetty25_wocci": {
+   "authors": [
+    [
+     "Vishwas",
+     "Shetty"
+    ],
+    [
+     "Jiusi",
+     "Zheng"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ]
+   ],
+   "title": "G-IFT: A Gated Linear Unit adapter with Iterative Fine-Tuning for Low-Resource Children's Speaker Verification",
+   "original": "2",
+   "order": 1,
+   "page_count": 5,
+   "abstract": [
+    "Speaker Verification (SV) systems trained on adults speech often underperform on children&#x27;s SV due to the acoustic mismatch, and limited children speech data makes fine-tuning not very effective. In this paper, we propose an innovative framework, a Gated Linear Unit adapter with Iterative Fine-Tuning (G-IFT), to enhance knowledge transfer efficiency between the high-resource adults speech domain and the low-resource children&#x27;s speech domain. In this framework, a Gated Linear Unit adapter is first inserted between the pre-trained speaker embedding model and the classifier. Then the classifier, adapter, and pre-trained speaker embedding model are optimized sequentially in an iterative way. This framework is agnostic to the type of the underlying architecture of the SV system. Our experiments on ECAPA-TDNN, ResNet, and X-vector architectures using the OGI and MyST datasets demonstrate that the G-IFT framework yields consistent reductions in Equal Error Rates compared to baseline methods."
+   ],
+   "p1": 1,
+   "pn": 5,
+   "doi": "10.21437/WOCCI.2025-1",
+   "url": "wocci_2025/shetty25_wocci.html"
+  },
+  "zheng25_wocci": {
+   "authors": [
+    [
+     "Jiusi",
+     "Zheng"
+    ],
+    [
+     "Vishwas",
+     "Shetty"
+    ],
+    [
+     "Natarajan Balaji",
+     "Shankar"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ]
+   ],
+   "title": "An Age-Agnostic System for Robust Speaker Verification",
+   "original": "3",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "In speaker verification (SV), the acoustic mismatch between children’s and adults&#x27; speech leads to suboptimal performance when adult-trained SV systems are applied to children&#x27;s speaker verification (C-SV). While domain adaptation techniques can enhance performance on C-SV tasks, they often do so at the expense of significant degradation in performance on adults&#x27; SV (A-SV) tasks. In this study, we propose an Age Agnostic Speaker Verification (AASV) system that achieves robust performance across both C-SV and A-SV tasks. Our approach employs a domain classifier to disentangle age-related attributes from speech and subsequently expands the embedding space using the extracted domain information, forming a unified speaker representation that is robust and highly discriminative across age groups. Experiments on the OGI and VoxCeleb datasets demonstrate the effectiveness of our approach in bridging SV performance disparities, laying the foundation for inclusive and age-adaptive SV systems."
+   ],
+   "p1": 41,
+   "pn": 45,
+   "doi": "10.21437/WOCCI.2025-9",
+   "url": "wocci_2025/zheng25_wocci.html"
+  },
+  "lileikyte25_wocci": {
+   "authors": [
+    [
+     "Rasa",
+     "Lileikyte"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "John H. L.",
+     "Hansen"
+    ]
+   ],
+   "title": "Enhancing Child-Adult Directed Speech: ASR for Progress Monitoring in Preschool Settings",
+   "original": "4",
+   "order": 4,
+   "page_count": 5,
+   "abstract": [
+    "Early monitoring and intervention in speech and language development significantly impact children&#x27;s social interactions, academic success, and cognitive growth. While traditional observation methods are resource-intensive, this study explores the potential of automatic speech recognition (ASR) technology to enhance early childhood education. We investigate low-resource ASR solutions for preschool children&#x27;s (3-5 years) speech captured during child-adult interactions in challenging, real-world classroom settings. Our study demonstrates that the E-Branchformer architecture achieves the lowest word and character error rates when augmented with speed-perturbed and adult/teacher data, particularly from child-adult interactions. We show that our proposed metrics, derived from ASR outcomes, help to assess children&#x27;s speech and language development. By monitoring speech progress and encouraging more engaging conversations, ASR can facilitate early vocal communication."
+   ],
+   "p1": 16,
+   "pn": 20,
+   "doi": "10.21437/WOCCI.2025-4",
+   "url": "wocci_2025/lileikyte25_wocci.html"
+  },
+  "ying25_wocci": {
+   "authors": [
+    [
+     "Anyu",
+     "Ying"
+    ],
+    [
+     "Natarajan Balaji",
+     "Shankar"
+    ],
+    [
+     "Chyi-Jiunn",
+     "Lin"
+    ],
+    [
+     "Mohan",
+     "Shi"
+    ],
+    [
+     "Pu",
+     "Wang"
+    ],
+    [
+     "Hye-jin",
+     "Shim"
+    ],
+    [
+     "Siddhant",
+     "Arora"
+    ],
+    [
+     "Hugo Van",
+     "hamme"
+    ],
+    [
+     "Abeer",
+     "Alwan"
+    ],
+    [
+     "Shinji",
+     "Watanabe"
+    ]
+   ],
+   "title": "Benchmarking Training Paradigms, Dataset Composition, and Model Scaling for Child ASR in ESPnet",
+   "original": "5",
+   "order": 2,
+   "page_count": 5,
+   "abstract": [
+    "Despite advancements in ASR, child speech recognition remains challenging due to acoustic variability and limited annotated data. While fine-tuning adult ASR models on child speech is common, comparisons with flat-start training remain underexplored. We compare flat-start training across multiple datasets, SSL representations (WavLM, XEUS), and decoder architectures. Our results show that SSL representations are biased toward adult speech, with flat-start training on child speech mitigating these biases. We also analyze model scaling, finding consistent improvements up to 1B parameters, beyond which performance plateaus. Additionally, age-related ASR and speaker verification analysis highlights the limitations of proprietary models like Whisper, emphasizing the need for open-data models for reliable child speech research. All investigations are conducted using ESPnet, and our publicly available benchmark provides insights into training strategies for robust child speech processing."
+   ],
+   "p1": 6,
+   "pn": 10,
+   "doi": "10.21437/WOCCI.2025-2",
+   "url": "wocci_2025/ying25_wocci.html"
+  },
+  "dutta25b_wocci": {
+   "authors": [
+    [
+     "Satwik",
+     "Dutta"
+    ],
+    [
+     "Abhejay",
+     "Murali"
+    ],
+    [
+     "Jay",
+     "Buzhardt"
+    ],
+    [
+     "Dwight",
+     "Irvin"
+    ],
+    [
+     "Vishwa",
+     "Kumaravel"
+    ],
+    [
+     "John",
+     "Hansen"
+    ]
+   ],
+   "title": "Little Voices, Big Discoveries - Using Speaker Diarization to Assess Parent-Child Engagement within a Science Museum Scenario",
+   "original": "6",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "Informal learning environments, such as science museums, provide unique opportunities for children to explore scientific phenomena and stimulate STEM interest. Despite how these promote STEM learning, there are few instruments that allow museum designers to systematically measure visitors’ engagement/learning, including early educators who make visits to museums as part of the curriculum. Needed is an unobtrusive, objective measure of visitors’ engagement to provide stakeholders with data on visitor engagement. In this study, we summarize survey responses of science museum staff reflecting ways to measure engagement, and describe initial efforts to measure parent-child interactions based on audio using LENA recorder. We use Speaker Diarization to extract valuable engagement metrics based on conversational turns, number of spoken initiations/responses, and individual speaker talk time. Results from this study are reported using Diarization Error Rate and speaker engagement metrics."
+   ],
+   "p1": 21,
+   "pn": 25,
+   "doi": "10.21437/WOCCI.2025-5",
+   "url": "wocci_2025/dutta25b_wocci.html"
+  },
+  "bonafos25_wocci": {
+   "authors": [
+    [
+     "Guillem",
+     "Bonafos"
+    ],
+    [
+     "Jérémy",
+     "Rouch"
+    ],
+    [
+     "Lény",
+     "Lego"
+    ],
+    [
+     "David",
+     "Reby"
+    ],
+    [
+     "Hugues",
+     "Patural"
+    ],
+    [
+     "Nicolas",
+     "Mathevon"
+    ],
+    [
+     "Rémi",
+     "Emonet"
+    ]
+   ],
+   "title": "Speech transformer models for extracting information from baby cries",
+   "original": "9",
+   "order": 3,
+   "page_count": 5,
+   "abstract": [
+    "Transfer learning using latent representations from pre-trained speech models achieves outstanding performance in tasks where labeled data is scarce. However, their applicability to non-speech data and the specific acoustic properties encoded in these representations remain largely unexplored. In this study, we investigate both aspects. We evaluate five pre-trained speech models on eight baby cries datasets, encompassing 115 hours of audio from 960 babies. For each dataset, we assess the latent representations of each model across all available classification tasks. Our results demonstrate that the latent representations of these models can effectively classify human baby cries and encode key information related to vocal source instability and identity of the crying baby. In addition, a comparison of the architectures and training strategies of these models offers valuable insights for the design of future models tailored to similar tasks, such as emotion detection."
+   ],
+   "p1": 11,
+   "pn": 15,
+   "doi": "10.21437/WOCCI.2025-3",
+   "url": "wocci_2025/bonafos25_wocci.html"
+  },
+  "sinha25_wocci": {
+   "authors": [
+    [
+     "Abhijit",
+     "Sinha"
+    ],
+    [
+     "Harishankar",
+     "Kumar"
+    ],
+    [
+     "Mohit",
+     "Joshi"
+    ],
+    [
+     "Hemant Kumar",
+     "Kathania"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ],
+    [
+     "Sudarsana Reddy",
+     "Kadiri"
+    ]
+   ],
+   "title": "Layer-Wise Analysis of Self-Supervised Representations for Age and Gender Classification in Children's Speech",
+   "original": "10",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "Children’s speech presents challenges for age and gender classification due to high variability in pitch, articulation, and developmental traits. While self-supervised learning (SSL) models perform well on adult speech tasks, their ability to encode speaker traits in children remains underexplored. This paper presents a detailed layer-wise analysis of four Wav2Vec2 variants using the PFSTAR and CMU Kids datasets. Results show that early layers (1–7) capture speaker-specific cues more effectively than deeper layers, which increasingly focus on linguistic information. Applying PCA further improves classification, reducing redundancy and highlighting the most informative components. The Wav2Vec2-large-lv60 model achieves 97.14% (age) and 98.20% (gender) on CMU Kids; base-100h and large-lv60 models reach 86.05% and 95.00% on PFSTAR. These results reveal how speaker traits are structured across SSL model depth and support more targeted, adaptive strategies for child-aware speech interfaces."
+   ],
+   "p1": 46,
+   "pn": 50,
+   "doi": "10.21437/WOCCI.2025-10",
+   "url": "wocci_2025/sinha25_wocci.html"
+  },
+  "rolland25_wocci": {
+   "authors": [
+    [
+     "Thomas",
+     "Rolland"
+    ],
+    [
+     "Alberto",
+     "Abad"
+    ]
+   ],
+   "title": "Personalised Children's Automatic Speech Recognition using Text-To-Speech",
+   "original": "11",
+   "order": 11,
+   "page_count": 5,
+   "abstract": [
+    "Recent advancements in Automatic Speech Recognition (ASR) technology have enabled the development of applications with significant potential for enhancing health and education services for children. However, children&#x27;s ASR is still challenging, primarily due to the domain shift between child and adult speech patterns, but also the great variability among children&#x27;s speech. Although recent studies have suggested that fine-tuning adult pre-trained models for children&#x27;s speech can improve performance, the collection of suitable data for children remains a complex and resource-intensive task. In this study, we propose to leverage voice cloning technology of text-to-speech models to generate synthetic data of specific speakers. Our findings indicate that ASR models fine-tuned with this synthetic data significantly outperform their unadapted pre-trained counterparts. This suggests a promising direction for the development of personalised ASR systems for children."
+   ],
+   "p1": 51,
+   "pn": 55,
+   "doi": "10.21437/WOCCI.2025-11",
+   "url": "wocci_2025/rolland25_wocci.html"
+  },
+  "voskoboinik25_wocci": {
+   "authors": [
+    [
+     "Ekaterina",
+     "Voskoboinik"
+    ],
+    [
+     "Mikko",
+     "Kurimo"
+    ]
+   ],
+   "title": "Assessing Finnish L2 Speech in School Children via Retrieval-Augmented In-Context Learning on Unseen Tasks",
+   "original": "12",
+   "order": 6,
+   "page_count": 5,
+   "abstract": [
+    "Speaking is a critical component of second language (L2) proficiency, yet it is often excluded from assessment due to cost and logistics. Automated speaking assessment offers a scalable alternative but remains challenging for less commonly taught languages like Finnish, especially for learners like school children, where data is scarce. Unlike traditional approaches, large language models (LLMs) can incorporate scoring rubrics and adapt to new tasks with little supervision. We show that LLMs can score unseen tasks without labeled examples using a proficiency-aligned transcript embedder. This embedder enables both pseudo-labeling and retrieval of relevant examples for in-context learning. Examples selected by proficiency similarity improve scoring consistency, particularly for underrepresented levels. While transcript-based scoring omits some delivery features of speech, our approach offers a practical solution for low-stakes formative assessment in under-resourced educational settings."
+   ],
+   "p1": 26,
+   "pn": 30,
+   "doi": "10.21437/WOCCI.2025-6",
+   "url": "wocci_2025/voskoboinik25_wocci.html"
+  },
+  "asvin25_wocci": {
+   "authors": [
+    [
+     "Aditya",
+     "Asvin"
+    ],
+    [
+     "Rimita",
+     "Lahiri"
+    ],
+    [
+     "Aditya",
+     "Kommineni"
+    ],
+    [
+     "Somer",
+     "Bishop"
+    ],
+    [
+     "Catherine",
+     "Lord"
+    ],
+    [
+     "Sudarsana",
+     "Kadiri"
+    ],
+    [
+     "Shrikanth",
+     "Narayanan"
+    ]
+   ],
+   "title": "Evaluation of Speech Foundation Models for ASR on Child-Adult Conversations in Autism Diagnostic Sessions",
+   "original": "13",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "Reliable transcription of child-adult conversations in clinical settings is crucial for diagnosing developmental disorders like Autism. Recent advances in deep learning and availability of large scale transcribed data has led to development of speech foundation models that have shown dramatic improvements in ASR performance. However, their performance on conversational child-adult interactions remains underexplored. In this work, we provide a comprehensive evaluation of ASR performance on a dataset containing child-adult interactions from autism diagnostic sessions, using Whisper, Wav2Vec2, HuBERT, and WavLM. We find that speech foundation models show a noticeable performance drop (15-20% absolute WER) for child speech compared to adult speech in the conversational setting. Then, we fine-tune the best-performing zero-shot model (Whisper-large) using LoRA in a low-resource setting, yielding ~8% and ~13% absolute WER improvements for child and adult speech, respectively."
+   ],
+   "p1": 31,
+   "pn": 35,
+   "doi": "10.21437/WOCCI.2025-7",
+   "url": "wocci_2025/asvin25_wocci.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Models",
+   "papers": [
+    "shetty25_wocci",
+    "ying25_wocci",
+    "bonafos25_wocci"
+   ]
+  },
+  {
+   "title": "Application",
+   "papers": [
+    "lileikyte25_wocci",
+    "dutta25b_wocci",
+    "voskoboinik25_wocci",
+    "asvin25_wocci"
+   ]
+  },
+  {
+   "title": "Robust Speech",
+   "papers": [
+    "dutta25_wocci",
+    "zheng25_wocci",
+    "sinha25_wocci",
+    "rolland25_wocci"
+   ]
+  }
+ ],
+ "doi": "10.21437/WOCCI.2025"
+}
