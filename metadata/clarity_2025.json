@@ -1,0 +1,632 @@
+{
+ "serie": "Clarity",
+ "title": "The 6th Clarity Workshop on Improving Speech-in-Noise for Hearing Devices (Clarity-2025)",
+ "location": "Delft, The Netherlands",
+ "startDate": "22/8/2025",
+ "endDate": "22/8/2025",
+ "URL": "https://claritychallenge.org/clarity2025-workshop/",
+ "chair": "Chairs: Jon Barker, Fei Chen, Jennifer Firth, Simone Graetzer, Michael Akeroyd, Trevor Cox, John Culling, Graham Naylor and Jordi de Vries",
+ "series": "Clarity",
+ "conf": "Clarity",
+ "name": "clarity_2025",
+ "year": "2025",
+ "SIG": "",
+ "title1": "The 6th Clarity Workshop on Improving Speech-in-Noise for Hearing Devices",
+ "title2": "(Clarity-2025)",
+ "booklet": "intro.pdf",
+ "date": "22 August 2025",
+ "month": 8,
+ "day": 22,
+ "now": 1759390454145092,
+ "papers": {
+  "meyer25_clarity": {
+   "authors": [
+    [
+     "Bernd T.",
+     "Meyer"
+    ],
+    [
+     "Jana",
+     "Roßbach"
+    ],
+    [
+     "Dirk E.",
+     "Hoffner"
+    ],
+    [
+     "Nils L.",
+     "Westhausen"
+    ],
+    [
+     "Hartmut",
+     "Schoon"
+    ],
+    [
+     "Simon",
+     "Weihe"
+    ],
+    [
+     "Hendrik",
+     "Kayser"
+    ],
+    [
+     "Swati",
+     "Vivekananthan"
+    ],
+    [
+     "Kirsten",
+     "Wagener"
+    ],
+    [
+     "Thomas",
+     "Brand"
+    ],
+    [
+     "Jan",
+     "Rennies-Hochmuth"
+    ],
+    [
+     "Rainer",
+     "Huber"
+    ]
+   ],
+   "title": "Machine learning for computational audiology: Prediction of auditory perception and improvement of speech signals based on deep learning",
+   "original": "Clarity2025_paper_meyer",
+   "order": 1,
+   "page_count": 0,
+   "abstract": [
+    "Automatic speech recognition (ASR) and speech technology have fundamentally improved over the last decades. While Lippmann (1997) reported an order-of-magnitude difference between the recognition rates of humans and ASR, the human–machine gap has since been closed for specific tasks. These advances - together with deep-learning approaches in speech enhancement - have motivated the use of speech technology in the context of hearing aids. Blind models to predict speech intelligibility based on speech technology could serve as model-in-the-loop in future hearing aids. In our previous work, we analyzed phone posteriors obtained from a deep neural network, which are degraded in the presence of noise and reverberation. We quantified this degradation for phone posteriors with an additional binaural integration stage, which enables accurate predictions of speech intelligibility in spatial scenes. The model can also be used to select the hearing-aid algorithm that maximizes speech intelligibility in hearing-impaired listeners. In a second line of research, we applied deep learning to estimate the filter coefficients of a beamformer in hearing aids. This system has an algorithmic delay of 5.4 ms, a relatively small footprint (below 200k parameters), and improves speech intelligibility for hearing-impaired listeners, as shown in a subjective study."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "barker25_clarity": {
+   "authors": [
+    [
+     "Jon",
+     "Barker"
+    ],
+    [
+     "Michael A.",
+     "Akeroyd"
+    ],
+    [
+     "Trevor J.",
+     "Cox"
+    ],
+    [
+     "John F.",
+     "Culling"
+    ],
+    [
+     "Jennifer",
+     "Firth"
+    ],
+    [
+     "Simone",
+     "Graetzer"
+    ],
+    [
+     "Graham",
+     "Naylor"
+    ]
+   ],
+   "title": "The 3rd Clarity Prediction Challenge: A machine learning challenge for hearing aid intelligibility prediction",
+   "original": "Clarity2025_paper_CPC3_overview",
+   "order": 2,
+   "page_count": 0,
+   "abstract": [
+    "Understanding speech in noisy, everyday environments remains a major challenge for hearing-aid users. The Clarity Project, a six-year UK research programme, addresses this by running a series of international machine learning challenges on speech intelligibility enhancement and prediction. The 3rd Clarity Prediction Challenge (CPC3) built on CPC1 (simple, stationary scenes) and CPC2 (multiple interferers with head movements) by introducing fully dynamic listening environments with real backgrounds and measured hearing-aid signals. Participants were asked to predict, from hearing-aid outputs and listener audiograms, the percentage of words a hearing-impaired listener would correctly recognize. Systems were evaluated on root mean squared error (RMSE) and correlation across thousands of listener–signal pairs. CPC3 attracted 21 submissions from 14 teams worldwide, spanning intrusive and non-intrusive approaches based on speech foundation models. The winning system (E025) achieved an evaluation RMSE of 24.98 and correlation of 0.80, significantly outperforming strong baselines and marking clear progress beyond CPC1 and CPC2."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "buragohain25_clarity": {
+   "authors": [
+    [
+     "Rantu",
+     "Buragohain"
+    ],
+    [
+     "Jejariya",
+     "Ajaybhai"
+    ],
+    [
+     "Aashish Kumar",
+     "Singh"
+    ],
+    [
+     "Karan",
+     "Nathwani"
+    ],
+    [
+     "Sunil Kumar",
+     "Kopparapu"
+    ]
+   ],
+   "title": "Non-Intrusive Speech Intelligibility Prediction Using Whisper ASR and Wavelet Scattering Embeddings for Hearing-Impaired Individuals",
+   "original": "Clarity2025_paper_buragohain_CPC3",
+   "order": 8,
+   "page_count": 4,
+   "abstract": [
+    "Hearing loss affects a significant population worldwide leading to an increase in usage of hearing aids. Ability to accurately predict intelligibility of speech, especially in noisy environments can go a long way in helping improve the performance of hearing aids. We present, as part of the 3rd Clarity Prediction Challenge (CPC3), a deep neural network framework which benefits from the contextual depth of Whisper-based embeddings and the resilience of Wavelet Scattering Transform (WST) embeddings to enable a robust speech intelligibility (SI) prediction. While the Whisper-based embeddings are the output of the final encoder (1024) and the final decoder (768) of a pre-trained encoder-decoder transformer trained on 680k hours of multilingual data, derived from the 80-channel log-Mel spectrogram of the input waveform, the second-order WST-based embeddings, with J=6 filterbanks and Q=8 wavelets per octave are extracted from the raw waveform. The WST-based embeddings provide deformation-stable time-frequency representations. We propose five systematically designed models: (Model #1) encode-only, leveraging embeddings from the final encoder layer of Whisper-medium; (Model #2) decode-only, utilizing the final decoder layer embeddings of Whisper-small; (Model #3) encode-decode, a fusion model that combines both encoder and decoder embeddings; (Model #4) hybrid, a model that uses encode-decode and WST-based embeddings; and (Model #5) ensemble, an average of (Model #1+Model #2+Model #3) with and without post-processing. Each embedding stream is independently processed using bidirectional long-short term memory (Bi-LSTM) layers and attention pooling, followed by fully connected (linear) layers to predict SI score. Our best performing ensemble with &amp; without post processing, combining the outputs of first three models, achieves a root mean square error (RMSE) of 21.87 &amp; 22.66 (development) and 25.31 &amp; 25.3 (evaluation), respectively."
+   ],
+   "p1": 18,
+   "pn": 21,
+   "doi": "10.21437/Clarity.2025-6",
+   "url": "clarity_2025/buragohain25_clarity.html"
+  },
+  "chen25_clarity": {
+   "authors": [
+    [
+     "Hsing-Ting",
+     "Chen"
+    ],
+    [
+     "Po-Hsun",
+     "Sung"
+    ]
+   ],
+   "title": "OSQA-SI: A Lightweight Non-Intrusive Analysis Model for Speech Intelligibility Prediction",
+   "original": "Clarity2025_paper_chen_CPC3",
+   "order": 10,
+   "page_count": 3,
+   "abstract": [
+    "This report proposes a non-intrusive speech intelligibility prediction model named Objective Sound Quality Analysis for Speech Intelligibility (OSQA-SI). The model adopts a simple sequential architecture, trained with a minimal number of parameters, and its performance is compared across two types of input acoustic features. Due to its extremely low parameter count, the model is suitable for real-time speech intelligibility assessment in real-world environments on mobile devices."
+   ],
+   "p1": 25,
+   "pn": 27,
+   "doi": "10.21437/Clarity.2025-8",
+   "url": "clarity_2025/chen25_clarity.html"
+  },
+  "drgas25_clarity": {
+   "authors": [
+    [
+     "Szymon",
+     "Drgas"
+    ]
+   ],
+   "title": "Speech intelligibility prediction based on syllable tokenizer",
+   "original": "Clarity2025_paper_drgas_CPC3",
+   "order": 14,
+   "page_count": 3,
+   "abstract": [
+    "In this report, an intrusive system for speech intelligibility prediction is described. It is based on a pre-trained SD-HuBERT, a neural network that transforms a speech signal to a sequence of embeddings that correspond to syllable-like segments. I propose a neural network that compares such sequences of embeddings using a bilinear neural network architecture. The experimental results show that the proposed system outperforms the baseline HASPI for the CPC3 data set. Furthermore, after adding internal HASPI features to the proposed system, further improvement is achieved.\n"
+   ],
+   "p1": 36,
+   "pn": 38,
+   "doi": "10.21437/Clarity.2025-11",
+   "url": "clarity_2025/drgas25_clarity.html"
+  },
+  "gonzalez25_clarity": {
+   "authors": [
+    [
+     "Philippe",
+     "Gonzalez"
+    ],
+    [
+     "Torsten",
+     "Dau"
+    ],
+    [
+     "Tobias",
+     "May"
+    ]
+   ],
+   "title": "Controllable joint noise reduction and hearing loss compensation using a differentiable auditory model",
+   "original": "Clarity2025_paper_gonzalez",
+   "order": 17,
+   "page_count": 5,
+   "abstract": [
+    "Deep learning-based hearing loss compensation (HLC) seeks to enhance speech intelligibility and quality for hearing impaired listeners using neural networks. One major challenge of HLC is the lack of a ground-truth target. Recent works have used neural networks to emulate non-differentiable auditory peripheral models in closed-loop frameworks, but this approach lacks flexibility. Alternatively, differentiable auditory models allow direct optimization, yet previous studies focused on individual listener profiles, or joint noise reduction (NR) and HLC without balancing each task. This work formulates NR and HLC as a multi-task learning problem, training a system to simultaneously predict denoised and compensated signals from noisy speech and audiograms using a differentiable auditory model. Results show the system achieves similar objective metric performance to systems trained for each task separately, while being able to adjust the balance between NR and HLC during inference.\n"
+   ],
+   "p1": 48,
+   "pn": 52,
+   "doi": "10.21437/Clarity.2025-14",
+   "url": "clarity_2025/gonzalez25_clarity.html"
+  },
+  "huckvale25_clarity": {
+   "authors": [
+    [
+     "Mark",
+     "Huckvale"
+    ]
+   ],
+   "title": "Word-level intelligibility model for the third Clarity Prediction Challenge",
+   "original": "Clarity2025_paper_huckvale_CPC3",
+   "order": 12,
+   "page_count": 3,
+   "abstract": [
+    "This paper presents a speech intelligibility model for the third Clarity Prediction challenge based on an analysis of word-level intelligibility in the training dataset. Using the given test prompts, a word-level alignment was performed on the reference audio, and this was then used to extract information from the test audio, including word-level measures of acoustic and phonetic distortion. Lexical properties of the words were also obtained using other language resources, including phone count, syllable count, word frequency, trigram frequency and number of lexical neighbours. We present an analysis showing how the intelligibility of individual words relates to these properties and build a classification model that uses them to predict word intelligibility. We show that sentence level intelligibility predictions derived from a word-level intelligibility prediction model gives better performance than a model based on whole sentences. On the evaluation data set, the model achieved a correlation of 0.759 and a RMS prediction error of 26.9%."
+   ],
+   "p1": 31,
+   "pn": 33,
+   "doi": "10.21437/Clarity.2025-10",
+   "url": "clarity_2025/huckvale25_clarity.html"
+  },
+  "itani25_clarity": {
+   "authors": [
+    [
+     "Malek",
+     "Itani"
+    ],
+    [
+     "Tuochao",
+     "Chen"
+    ],
+    [
+     "Shyamnath",
+     "Gollakota"
+    ]
+   ],
+   "title": "TF-MLPNet: Tiny Real-Time Neural Speech Separation",
+   "original": "Clarity2025_paper_itani",
+   "order": 16,
+   "page_count": 6,
+   "abstract": [
+    "Speech separation on hearable devices can enable transformative augmented and enhanced hearing capabilities. However, state-of-the-art speech separation networks cannot run in real-time on tiny, low-power neural accelerators designed for hearables, due to their limited compute capabilities. We present TF-MLPNet, the first speech separation network capable of running in real-time on such low-power accelerators while outperforming existing streaming models for blind speech separation and target speech extraction. Our network operates in the time-frequency domain, processing frequency sequences with stacks of fully connected layers that alternate along the channel and frequency dimensions, and independently processing the time sequence at each frequency bin using convolutional layers. Results show that our mixed-precision quantization-aware trained (QAT) model can process 6 ms audio chunks in real-time on the GAP9 processor, achieving a 3.5-4x runtime reduction compared to prior speech separation models."
+   ],
+   "p1": 42,
+   "pn": 47,
+   "doi": "10.21437/Clarity.2025-13",
+   "url": "clarity_2025/itani25_clarity.html"
+  },
+  "jeon25_clarity": {
+   "authors": [
+    [
+     "Haeseung",
+     "Jeon"
+    ],
+    [
+     "Jiwoo",
+     "Hong"
+    ],
+    [
+     "Saeyeon",
+     "Hong"
+    ],
+    [
+     "Hosung",
+     "Kang"
+    ],
+    [
+     "Bona",
+     "Kim"
+    ],
+    [
+     "Se Eun",
+     "Oh"
+    ],
+    [
+     "Noori",
+     "Kim"
+    ]
+   ],
+   "title": "Domain-Adapted Automatic Speech Recognition with Deep Neural Networks for Enhanced Speech Intelligibility Prediction",
+   "original": "Clarity2025_paper_jeon_CPC3",
+   "order": 7,
+   "page_count": 3,
+   "abstract": [
+    "While previous studies have shown that adapting Automatic Speech Recognition (ASR) models can outperform intrusive methods, many existing approaches still rely on pre-trained ASR models without domain-specific adaptation. In this work, we investigate the effect of fine-tuning ASR models using a domain-specific signal dataset to improve representation quality. Furthermore, we conduct a comparative evaluation of two prominent Deep Neural Network (DNN) architectures for audio modeling, such as Convolutional Neural Networks (CNNs) and Transformers. Notably, both models outperform the Hearing Aid Speech Perception Index (HASPI) score, with the Transformer-based model demonstrating higher performance due to its ability to capture global contextual information.\n"
+   ],
+   "p1": 15,
+   "pn": 17,
+   "doi": "10.21437/Clarity.2025-5",
+   "url": "clarity_2025/jeon25_clarity.html"
+  },
+  "jin25_clarity": {
+   "authors": [
+    [
+     "Longbin",
+     "Jin"
+    ],
+    [
+     "Donghun",
+     "Min"
+    ],
+    [
+     "Eun Yi",
+     "Kim"
+    ]
+   ],
+   "title": "A Chorus of Whispers: Modeling Speech Intelligibility via Heterogeneous Whisper Decomposition",
+   "original": "Clarity2025_paper_jin_CPC3",
+   "order": 13,
+   "page_count": 2,
+   "abstract": [
+    "This paper introduces a Chorus of Whispers, a simple yet effective method for modeling speech intelligibility in hearing-impaired listeners, developed for the third Clarity Prediction Challenge (CPC3). Our approach simulates a spectrum of perceptual abilities by creating a “chorus” of heterogeneous Whisper models, ranging from the powerful large version to the lightweight tiny variant. By decomposing the audio signal through the diverse outputs of this chorus, we extract robust representations that reflect listening difficulty. These representations are then fed into an ensemble of word- and sentence-level models to predict the final intelligibility score. The proposed method demonstrates strong generalization to unseen conditions, achieving a competitive RMSE of 23.62 on the CPC3 development set.\n"
+   ],
+   "p1": 34,
+   "pn": 35
+  },
+  "lin25_clarity": {
+   "authors": [
+    [
+     "Guojian",
+     "Lin"
+    ],
+    [
+     "Fei",
+     "Chen"
+    ]
+   ],
+   "title": "Non-intrusive Speech Intelligibility Prediction Model for Hearing Aids using Multi-domain Fused Features",
+   "original": "Clarity2025_paper_lin_CPC3",
+   "order": 11,
+   "page_count": 3,
+   "abstract": [
+    "Automatic speech intelligibility prediction system plays an important part in the development of hearing aids. With two Clarity Prediction Challenges, speech foundation models (SFMs) have shown remarkable performance in the task of speech intelligibility prediction. In this paper, we propose a non-intrusive speech intelligibility assessment model for hearing aids with multi-domain fused SFM embedding representations. The proposed model employs left and right ear branches to process input speech signals, fusing frame-level representations from three pretrained SFMs: Hubert, Whisper, and M2D-CLAP. Moreover, the model utilizes a Bi-LSTM layer and a multi-head attention layer to process the fused representations in both frame and feature dimensions, generating frame-level intelligibility scores. Finally, the model outputs the predicted intelligibility score through global average pooling of the frame-level scores. We evaluated the root mean square error and correlation WITH single SFM representations and multi-domain fused representations on the the third Clarity Prediction Challenge dataset. Experimental results demonstrate that multi-domain fused features present strong ability of capturing comprehensive speech information and the performance of multi-domain fused features relies on the best-performing Whisper representations.\n"
+   ],
+   "p1": 28,
+   "pn": 30,
+   "doi": "10.21437/Clarity.2025-9",
+   "url": "clarity_2025/lin25_clarity.html"
+  },
+  "mawalim25_clarity": {
+   "authors": [
+    [
+     "Candy Olivia",
+     "Mawalim"
+    ],
+    [
+     "Xiajie",
+     "Zhou"
+    ],
+    [
+     "Huy Quoc",
+     "Nguyen"
+    ],
+    [
+     "Masashi",
+     "Unoki"
+    ]
+   ],
+   "title": "Integrating Linguistic and Acoustic Cues for Machine Learning-Based Speech Intelligibility Prediction in Hearing Impairment",
+   "original": "Clarity2025_paper_mawalim_CPC3",
+   "order": 9,
+   "page_count": 3,
+   "abstract": [
+    "Speech intelligibility prediction for individuals with hearing loss is paramount for advancing hearing aid technology. Leveraging recent breakthroughs in ASR foundation models, particularly Whisper, we fine-tuned a Whisper model for speech intelligibility prediction. Our approach incorporates data augmentation using impulse responses from diverse everyday environments. This study investigates the effective integration of linguistic and acoustic cues to enhance the prediction of fine-tune ASR models, aiming to compensate for both hearing loss and information loss during signal downsampling. Our goal is to improve speech intelligibility prediction, especially in noisy conditions. Experiments demonstrate that integrating these cues is beneficial. Furthermore, employing a weighted average ensemble model, which balances predictions from left and right audio channels and considers both stable and unstable linguistic and acoustic cues, significantly improved prediction performance, reducing the RMSE by approximately 2 and enhancing the Pearson correlation coefficient (ρ) by around 0.05.\n"
+   ],
+   "p1": 22,
+   "pn": 24,
+   "doi": "10.21437/Clarity.2025-7",
+   "url": "clarity_2025/mawalim25_clarity.html"
+  },
+  "rahimi25_clarity": {
+   "authors": [
+    [
+     "Akam",
+     "Rahimi"
+    ],
+    [
+     "Triantafyllos",
+     "Afouras"
+    ],
+    [
+     "Andrew",
+     "Zisserman"
+    ]
+   ],
+   "title": "Say Who You Want to Hear: Leveraging TTS Style Embeddings for Text-Guided Speech Extraction",
+   "original": "Clarity2025_paper_rahimi",
+   "order": 18,
+   "page_count": 5,
+   "abstract": [
+    "We introduce TextSep, a novel single-channel speech separation framework that leverages free-form textual description of a speaker’s voice to guide separation from noisy multi-speaker audio mixtures, without relying on enrolment audio, images, or video. Building on advances in text-to-speech (TTS), we invert the Parler-TTS pipeline to extract rich style embeddings from the earliest cross-modal layer, enabling speech separation directly from natural language descriptions. Our main contributions are: (1) Curating a large pair of text description and clean-audio pairs (2) identifying and utilizing the projected key vectors of Parler-TTS as effective style embeddings via a lightweight wrapper; (3) integrating these embeddings into a transformer based architecture as prefix tokens and through FiLM modulation of encoder activations; and (4) demonstrating that TextSep achieves competitive performance on synthetic benchmarks, without requiring any reference audio or visual cues."
+   ],
+   "p1": 53,
+   "pn": 57,
+   "doi": "10.21437/Clarity.2025-15",
+   "url": "clarity_2025/rahimi25_clarity.html"
+  },
+  "saddler25_clarity": {
+   "authors": [
+    [
+     "Mark R.",
+     "Saddler"
+    ],
+    [
+     "Torsten",
+     "Dau"
+    ],
+    [
+     "Josh H.",
+     "McDermott"
+    ]
+   ],
+   "title": "Towards individualized models of hearing-impaired speech perception",
+   "original": "Clarity2025_paper_saddler_CPC3",
+   "order": 5,
+   "page_count": 5,
+   "abstract": [
+    "Computational models that predict the real-world hearing abilities of individuals with hearing loss have the potential to transform hearing aid development. Deep artificial neural networks trained to perform ecological hearing tasks using simulated cochlear input reproduce many aspects of normal hearing, but it is not clear whether such models can also account for impaired hearing. We used the Clarity Prediction Challenge dataset to test whether a model jointly optimized for everyday sound localization and recognition tasks can predict the speech intelligibility of hearing-impaired listeners. We used the model’s learned feature representations as an intrusive speech intelligibility metric (predicting intelligibility from the similarity of representations of clean and distorted speech) and measured the effects of simulating individual listeners’ hearing losses in the model’s peripheral input. Individualizing the hearing loss simulations allowed our model to better predict speech intelligibility differences across listeners. However, this benefit was small when quantified via the overall human-model correlation, likely because the explainable variance in the dataset is driven more by the different hearing aids than by the different listeners.\n"
+   ],
+   "p1": 7,
+   "pn": 11,
+   "doi": "10.21437/Clarity.2025-3",
+   "url": "clarity_2025/saddler25_clarity.html"
+  },
+  "tuttosi25_clarity": {
+   "authors": [
+    [
+     "Paige",
+     "Tuttösí"
+    ],
+    [
+     "H. Henny",
+     "Yeung"
+    ],
+    [
+     "Yue",
+     "Wang"
+    ],
+    [
+     "Jean-Julien",
+     "Aucouturier"
+    ],
+    [
+     "Angelica",
+     "Lim"
+    ]
+   ],
+   "title": "The Dawn of Psychoacoustic Reverse Correlation: A Data-Driven Methodology for Determining Fine Grained Perceptual Cues of Speech Clarity",
+   "original": "Clarity2025_paper_tuttosi",
+   "order": 15,
+   "page_count": 3,
+   "abstract": [
+    "The production of clear speech has been extensively explored, and several contributing cues have been identified. However, synthesizing clear speech by mimicking these cues has shown poor results. We suggest that, rather than trying to replicate clear speech from produced human speech, we should instead use a data-driven approach to understand what cues are driving perception. In past work, we used psychoacoustic reverse correlation to show that vowel duration has a particularly important influence on the perception of English vowels among French adult learners of English. Here, we systematically controlled synthesized speech to identify duration patterns that bias a listener to a specific vowel. We find that increasing the duration of tense vowels improves clarity, but increasing the duration of lax vowels reduces the identification accuracy of those vowels. Moreover, we find that this mechanism is much stronger for those with reduced listening abilities, i.e., French learners of English. We hope that in the future a similar methodology can be used to explore these mechanisms for the hard of hearing."
+   ],
+   "p1": 39,
+   "pn": 41,
+   "doi": "10.21437/Clarity.2025-12",
+   "url": "clarity_2025/tuttosi25_clarity.html"
+  },
+  "yu25_clarity": {
+   "authors": [
+    [
+     "Hanlin",
+     "Yu"
+    ],
+    [
+     "Haoshuai",
+     "Zhou"
+    ],
+    [
+     "Boxuan",
+     "Cao"
+    ],
+    [
+     "Changgeng",
+     "Mo"
+    ],
+    [
+     "Linkai",
+     "Li"
+    ],
+    [
+     "Shan Xiang",
+     "Wang"
+    ]
+   ],
+   "title": "Intrusive Intelligibility Prediction with ASR Encoders",
+   "original": "Clarity2025_paper_yu_CPC3",
+   "order": 4,
+   "page_count": 3,
+   "abstract": [
+    "We present a reference-aware speech intelligibility predictor developed for the 3rd Clarity Prediction Challenge (CPC3). Our system (E025) ranked first on the official leaderboard with a dev-set RMSE of 22.36 and correlation of 0.83, and an evaluation-set RMSE of 24.98 with correlation 0.80. Previous sentence-level predictors have plateaued with RMSEs above 20 on CPC2, highlighting the challenge of estimating intelligibility without a clean reference. We ask whether incorporating clean reference signals can improve sentence-level predictions for hearing-impaired listeners. Our approach combines mid-depth representations from speech foundation models (SFM) with multi-scale CNN features. Specifically, we identify and ensemble layers 10–17 of Canary-1B-Flash and Parakeet-TDT-0.6B-V2, fuse them with a CNN front end, and apply cross-attention across reference and ear streams at both temporal and layer levels. A severity embedding further conditions predictions on listener profiles. The resulting model generalizes well across datasets, achieving state-of-the-art performance on CPC3. These findings demonstrate that integrating clean reference signals with carefully selected SFM layers enables more accurate and robust intelligibility prediction for hearing-impaired listeners."
+   ],
+   "p1": 4,
+   "pn": 6,
+   "doi": "10.21437/Clarity.2025-2",
+   "url": "clarity_2025/yu25_clarity.html"
+  },
+  "zezario25_clarity": {
+   "authors": [
+    [
+     "Ryandhimas E.",
+     "Zezario"
+    ],
+    [
+     "Szu-Wei",
+     "Fu"
+    ],
+    [
+     "Dyah A.M.G.",
+     "Wisnu"
+    ],
+    [
+     "Hsin-Min",
+     "Wang"
+    ],
+    [
+     "Yu",
+     "Tsao"
+    ]
+   ],
+   "title": "Non-Intrusive Multi-Branch Speech Intelligibility Prediction using Multi-Stage Training",
+   "original": "Clarity2025_paper_zezario_CPC3",
+   "order": 6,
+   "page_count": 3,
+   "abstract": [
+    "We propose an improved multi-branch speech intelligibility prediction model (iMBI-Net) for the third edition of the Clarity Prediction Challenge (CPC III). We develop three systems: iMBI-Net, which integrates spectral, waveform, and Whisper-based features with severity-level audiogram information and processes them through a multi-branch convolutional bidirectional long short-term memory (BLSTM) module with attention mechanisms, and also introduces multi-stage training; iMBI-Net-R, which adds a single refinement module to the iMBI-Net model; and iMBI-Net-R2, which incorporates three refinement modules using different acoustic inputs, with scores combined via ensembling. Experimental results demonstrate that all variants achieve notable performance, with iMBI-Net achieving third place at CPC III, highlighting the effectiveness of our approach.\n"
+   ],
+   "p1": 12,
+   "pn": 14,
+   "doi": "10.21437/Clarity.2025-4",
+   "url": "clarity_2025/zezario25_clarity.html"
+  },
+  "zhou25_clarity": {
+   "authors": [
+    [
+     "Xiajie",
+     "Zhou"
+    ],
+    [
+     "Candy Olivia",
+     "Mawalim"
+    ],
+    [
+     "Huy Quoc",
+     "Nguyen"
+    ],
+    [
+     "Masashi",
+     "Unoki"
+    ]
+   ],
+   "title": "Lightweight Speech Intelligibility Prediction with Spectro-Temporal Modulation for Hearing-Impaired Listeners",
+   "original": "Clarity2025_paper_zhou_CPC3",
+   "order": 3,
+   "page_count": 3,
+   "abstract": [
+    "Hearing loss leads to reduced frequency resolution and impaired temporal resolution, making it difficult for listeners to distinguish similar sounds and perceive speech dynamics in noise. To capture these perceptual degradations, we employ spectro-temporal modulation (STM) analysis as the core feature representation. This study proposes a speech intelligibility prediction framework that uses STM representations as input to lightweight convolutional neural network (CNN) models. We design two models: STM-CNN-SE (E020a), which incorporates squeeze-and-excitation (SE) block, and STM-CNN-ECA (E020b), which uses efficient channel attention (ECA) block and richer input features. Compared to the HASPI, experiments on the CPC3 development dataset show that E020a and E020b reduce root-mean-square error (RMSE) by 11.2% and 12.6%, respectively. These results demonstrate the effectiveness of STM-based CNN architectures for speech intelligibility prediction under hearing loss conditions.\n"
+   ],
+   "p1": 1,
+   "pn": 3,
+   "doi": "10.21437/Clarity.2025-1",
+   "url": "clarity_2025/zhou25_clarity.html"
+  }
+ },
+ "sessions": [
+  {
+   "title": "Keynote:Bernd T. Meyer",
+   "papers": [
+    "meyer25_clarity"
+   ]
+  },
+  {
+   "title": "Oral Session 1",
+   "papers": [
+    "barker25_clarity",
+    "zhou25_clarity",
+    "yu25_clarity",
+    "saddler25_clarity"
+   ]
+  },
+  {
+   "title": "Poster Session",
+   "papers": [
+    "zezario25_clarity",
+    "jeon25_clarity",
+    "buragohain25_clarity",
+    "mawalim25_clarity",
+    "chen25_clarity",
+    "lin25_clarity",
+    "huckvale25_clarity",
+    "jin25_clarity",
+    "drgas25_clarity"
+   ]
+  },
+  {
+   "title": "Oral Session 2",
+   "papers": [
+    "tuttosi25_clarity",
+    "itani25_clarity",
+    "gonzalez25_clarity",
+    "rahimi25_clarity"
+   ]
+  }
+ ],
+ "doi": "10.21437/Clarity.2025"
+}
