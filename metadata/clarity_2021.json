@@ -1,0 +1,429 @@
+{
+ "title": "The Clarity Workshop on Machine Learning Challenges for Hearing Aids (Clarity-2021)",
+ "location": "Online",
+ "startDate": "16/9/2021",
+ "endDate": "17/9/2021",
+ "URL": "https://claritychallenge.org/clarity2021-workshop/",
+ "chair": "Chairs: Michael Akeroyd, Jon Barker, Trevor Cox, John Culling, Simone Graetzer, Graham Naylor, Eszter Porter, Rhoddy Viveros Muñoz",
+ "series": "Clarity",
+ "conf": "Clarity",
+ "name": "clarity_2021",
+ "year": "2021",
+ "SIG": "",
+ "title1": "The Clarity Workshop on Machine Learning Challenges for Hearing Aids",
+ "title2": "(Clarity-2021)",
+ "booklet": "intro.pdf",
+ "date": "16-17 September 2021",
+ "month": 9,
+ "day": 16,
+ "now": 1761722106890425,
+ "papers": {
+  "chen21_clarity": {
+   "authors": [
+    [
+     "Xi",
+     "Chen"
+    ],
+    [
+     "Yupeng",
+     "Shi"
+    ],
+    [
+     "Wei",
+     "Xiao"
+    ],
+    [
+     "Meng",
+     "Wang"
+    ],
+    [
+     "Tingzhao",
+     "Wu"
+    ],
+    [
+     "Shi-dong",
+     "Shang"
+    ],
+    [
+     "Nengheng",
+     "Zheng"
+    ],
+    [
+     "Qinglin",
+     "Meng"
+    ]
+   ],
+   "title": "A cascaded speech enhancement for hearing aids in noisy-reverberant conditions",
+   "original": "Clarity_2021_chen",
+   "order": 10,
+   "page_count": 5,
+   "abstract": [
+    "Hearing aid users suffer from poor listening experiences under noise and reverberation. This paper introduces a cascaded speech enhancement system to improve the intelligibility and perception of hearing impairments in noisy-reverberant environments. The system consists of three main parts: a deep learning-based noise reduction, a weighted prediction error-based dereverberation, and a personalized dynamic equalization. The proposed enhancement method is in cooperation with a hearing aid simulator for objective and subjective evaluations. In terms of modified binaural short-time objective intelligibility (MBSTOI), the proposed method outperforms the baseline on the test dataset in different noisy and reverberant conditions. The subjective listening test shows that our scheme obtains a lower word recognition rate under noise and speech interference than other teams."
+   ],
+   "p1": 24,
+   "pn": 28,
+   "doi": "10.21437/Clarity.2021-6",
+   "url": "clarity_2021/chen21_clarity.html"
+  },
+  "gajecki21_clarity": {
+   "authors": [
+    [
+     "Tom",
+     "Gajecki"
+    ],
+    [
+     "Waldo",
+     "Nogueira"
+    ]
+   ],
+   "title": "Binaural speech enhancement based on deep attention layers",
+   "original": "Clarity_2021_gajecki",
+   "order": 11,
+   "page_count": 3,
+   "abstract": [
+    "Here we describe our submission for the 1st Clarity Enhancement Challenge. The algorithm that we present is based on two conv-TasNets and combines the information contained on each of the listening sides to provide the model with potential binaural cues. This information is combined through intermediate layers that we will refer to as “attention layers”, inspired by the classical attention layers used in sequence to sequence modeling. The implemented model is fed with stereo signals and outputs its de-noised version with 2 ms latency. Results show that attention layers can improve the signal-to-distortion ratio, and could further improve speech intelligibility scores."
+   ],
+   "p1": 29,
+   "pn": 31,
+   "doi": "10.21437/Clarity.2021-7",
+   "url": "clarity_2021/gajecki21_clarity.html"
+  },
+  "hussain21_clarity": {
+   "authors": [
+    [
+     "Tassadaq",
+     "Hussain"
+    ],
+    [
+     "Mandar",
+     "Gogate"
+    ],
+    [
+     "Kia K.",
+     "Dashtipour"
+    ],
+    [
+     "Amir",
+     "Hussain"
+    ]
+   ],
+   "title": "Towards intelligibility oriented audio-visual speech enhancement",
+   "original": "Clarity_2021_hussain",
+   "order": 13,
+   "page_count": 6,
+   "abstract": [
+    "Existing deep learning (DL) based approaches are generally optimised to minimise the distance between clean and enhanced speech features. These often result in improved speech quality however they suffer from a lack of generalisation and may not deliver the required speech intelligibility in real noisy situations. In an attempt to address these challenges, researchers have explored intelligibility-oriented (I-O) loss functions and integration of audio-visual (AV) information for more robust speech enhancement (SE). In this paper, we introduce DL based I-O SE algorithms exploiting AV information, which is a novel and previously unexplored research direction. Specifically, we present a fully convolutional AV SE model that uses a modified short-time objective intelligibility (STOI) metric as a training cost function. To the best of our knowledge, this is the first work that exploits the integration of AV modalities with an I-O based loss function for SE. Comparative experimental results demonstrate that our proposed I-O AV SE framework outperforms audio-only (AO) and AV models trained with conventional distance-based loss functions, in terms of standard objective evaluation measures when dealing with unseen speakers and noises. "
+   ],
+   "p1": 35,
+   "pn": 40,
+   "doi": "10.21437/Clarity.2021-9",
+   "url": "clarity_2021/hussain21_clarity.html"
+  },
+  "kendrick21_clarity": {
+   "authors": [
+    [
+     "Paul",
+     "Kendrick"
+    ]
+   ],
+   "title": "Hearing aid speech enhancement using U-Net convolutional neural networks",
+   "original": "Clarity_2021_kendrick",
+   "order": 12,
+   "page_count": 3,
+   "abstract": [
+    "This paper presents an entry into the Clarity-2021 challenge for hearing-aid speech enhancement (CEC1). A U-Net Convolution Neural Network was trained using the provided training data to predict clean spectrograms. The enhanced signal was then adapted to a listener’s audiogram using a hearing aid model that includes frequency equalization and dynamics processing. The average MBSTOI over the dev dataset was 0.56. The method showed a significant improvement over the baseline algorithm."
+   ],
+   "p1": 32,
+   "pn": 34,
+   "doi": "10.21437/Clarity.2021-8",
+   "url": "clarity_2021/kendrick21_clarity.html"
+  },
+  "moore21_clarity": {
+   "authors": [
+    [
+     "Alastair H.",
+     "Moore"
+    ],
+    [
+     "Sina",
+     "Hafezi"
+    ],
+    [
+     "Rebecca",
+     "Vos"
+    ],
+    [
+     "Mike",
+     "Brookes"
+    ],
+    [
+     "Patrick A.",
+     "Naylor"
+    ],
+    [
+     "Mark",
+     "Huckvale"
+    ],
+    [
+     "Stuart",
+     "Rosen"
+    ],
+    [
+     "Tim",
+     "Green"
+    ],
+    [
+     "Gaston",
+     "Hilkhuysen"
+    ]
+   ],
+   "title": "ELO-SPHERES consortium system description for the first Clarity challenge",
+   "original": "Clarity_2021_moore",
+   "order": 5,
+   "page_count": 4,
+   "abstract": [
+    "An adaptive beamformer based on the minimum-variance distortionless response design approach is proposed in the context of the 2021 Clarity Enhancement Challenge. The beamformer aims to improve the signal-to-noise ratio of the target signal while broadband automatic gain control and linear filtering compensate for listener-specific hearing loss. The proposed system exploits a priori knowledge of the target onset time to estimate essential beamforming parameters with more certainty than might be expected in unconstrained listening conditions. On the eval dataset the proposed method obtains a mean MBSTOI metric of 0.66 and, for the 21 hearing impaired listeners for whom data was available, a mean “correctness” of 81.1 %. This a substantial improvement over the baseline which achieves 0.31 and 39.8 %, respectively."
+   ],
+   "p1": 1,
+   "pn": 4,
+   "doi": "10.21437/Clarity.2021-1",
+   "url": "clarity_2021/moore21_clarity.html"
+  },
+  "tammen21_clarity": {
+   "authors": [
+    [
+     "Marvin",
+     "Tammen"
+    ],
+    [
+     "Henri",
+     "Gode"
+    ],
+    [
+     "Hendrik",
+     "Kayser"
+    ],
+    [
+     "Eike",
+     "Nustede"
+    ],
+    [
+     "Nils",
+     "Westhausen"
+    ],
+    [
+     "Jörn",
+     "Anemüller"
+    ],
+    [
+     "Simon",
+     "Doclo"
+    ]
+   ],
+   "title": "Combining binaural LCMP beamforming and deep multi-frame filtering for joint dereverberation and interferer reduction in the Clarity-2021 challenge",
+   "original": "Clarity_2021_tammen",
+   "order": 8,
+   "page_count": 6,
+   "abstract": [
+    "In this paper we present our algorithms submitted to the Clarity Enhancement Challenge, aiming at improving speech intelligibility for hearing-impaired listeners in a reverberant acoustic scenario with a target speaker and an interfering source. The algorithms combine 1) a weighted binaural linearly constrained minimum power beamformer, performing joint dereverberation and interferer reduction, 2) a deep binaural multi-frame postfilter to reduce residual interference, and 3) an audiogram-based hearing loss compensation stage. Objective metrics as well as subjective listening experiments with hearing-impaired listeners show that all submitted systems result in a significant improvement in terms of speech intelligibility compared with the baseline system."
+   ],
+   "p1": 13,
+   "pn": 18,
+   "doi": "10.21437/Clarity.2021-4",
+   "url": "clarity_2021/tammen21_clarity.html"
+  },
+  "tu21_clarity": {
+   "authors": [
+    [
+     "Zehai",
+     "Tu"
+    ],
+    [
+     "Jisi",
+     "Zhang"
+    ],
+    [
+     "Ning",
+     "Ma"
+    ],
+    [
+     "Jon",
+     "Barker"
+    ]
+   ],
+   "title": "A two-stage end-to-end system for speech-in-noise hearing aid processing",
+   "original": "Clarity_2021_tu",
+   "order": 9,
+   "page_count": 5,
+   "abstract": [
+    "This paper summarises an end-to-end system for the first round Clarity enhancement challenge. The system consists of a denoising module and an amplification module for speech-in-noise enhancement for hearing impaired listeners. These two modules are optimised in two stages. In the first stage, the denoising module is optimised for interferer suppression. In the second stage, the amplification module, which is individualised to a listener’s hearing ability, is optimised to maximise the intelligibility. Both objective and subjection evaluation results show the system with the configuration incorporating a multi-channel Conv-TasNet based denoising module and a finite impulse response filter based amplification module can significantly outperform the baseline system."
+   ],
+   "p1": 19,
+   "pn": 23,
+   "doi": "10.21437/Clarity.2021-5",
+   "url": "clarity_2021/tu21_clarity.html"
+  },
+  "yang21_clarity": {
+   "authors": [
+    [
+     "Samuel",
+     "Yang"
+    ],
+    [
+     "Scott",
+     "Wisdom"
+    ],
+    [
+     "Chet",
+     "Gnegy"
+    ],
+    [
+     "Richard F.",
+     "Lyon"
+    ],
+    [
+     "Sagar",
+     "Savia"
+    ]
+   ],
+   "title": "Listening with Googlears: Low-latency neural multiframe beamforming and equalization for hearing aids",
+   "original": "Clarity_2021_yang",
+   "order": 7,
+   "page_count": 5,
+   "abstract": [
+    "We apply and evaluate a deep neural network speech enhancement model with a low-latency recursive least squares (RLS) adaptive beamformer, and a linear equalizer, to improve speech intelligibility in the presence of speech or noise interferers, as submission E003 to the 2021 Clarity Enhancement Challenge Round 1 (CEC1). The enhancement network is trained only on the CEC1 data, and all processing obeys the 5 ms latency requirement. We quantify the improvement using the CEC1 provided hearing loss model and Modified Binaural Short-Time Objective Intelligibility (MBSTOI) score. On the development set we achieve a mean of 0.632 and median of 0.642, compared to the mean and median of 0.41 for the baseline baseline. On the test set, we achieve a mean of 0.644 and median of 0.652 compared to the 0.310 mean and 0.314 median for the baseline. In the CEC1 real listener intelligibility assessment, for scenes with noise interferers, we see an average improvement in intelligibility from 32% to 85%, but for speech interferers, we see more mixed results, potentially from listener confusion."
+   ],
+   "p1": 8,
+   "pn": 12,
+   "doi": "10.21437/Clarity.2021-3",
+   "url": "clarity_2021/yang21_clarity.html"
+  },
+  "zmolikova21_clarity": {
+   "authors": [
+    [
+     "Kateřina",
+     "Žmolíková"
+    ],
+    [
+     "Jan \"Honza\"",
+     "Cernocky"
+    ]
+   ],
+   "title": "BUT system for the first Clarity enhancement challenge",
+   "original": "Clarity_2021_zmolikova",
+   "order": 6,
+   "page_count": 3,
+   "abstract": [
+    "This paper describes BUT’s efforts in the development of the system for the first Clarity challenge, concerned with enhancing the intelligibility of speech-in-noise for hearing-impaired listeners. Our system consists of three main parts: beamforming, post-enhancement neural network, and listener-adjustment neural network. For the beamforming module, we use a Minimum Variance distortion-less response (MVDR) beamformer computed from time-frequency masks estimated by the Complex Gaussian mixture model (CGMM). For the post-enhancement neural network, we use causal ConvTasnet architecture and train it with multi-task objectives of STOI, SNR, and PMSQE measures. The third, listener adjustment neural network extends the second module by an auxiliary neural network that estimates gains based on listener audiogram. Overall algorithmic latency of our processing is 210 samples (about 4.76 milliseconds). For training of the systems, we use only the data provided with the Clarity dataset. Overall, our system achieves a mean MBSTOI of 0.671 as compared with the baseline system with a mean MBSTOI of 0.415."
+   ],
+   "p1": 5,
+   "pn": 7,
+   "doi": "10.21437/Clarity.2021-2",
+   "url": "clarity_2021/zmolikova21_clarity.html"
+  },
+  "evers21_clarity": {
+   "authors": [
+    [
+     "Christine",
+     "Evers"
+    ]
+   ],
+   "title": "Machine listening in dynamic environments",
+   "original": "Clarity_2021_evers",
+   "order": 4,
+   "page_count": 0,
+   "abstract": [
+    "Audio signals encapsulate vital cues about our surrounding environments. However, in everyday environments, audio signals are adversely affected by ambient noise, reverberation, and interference from multiple, competing sources. Therefore, algorithms for acoustic source localization and tracking are required to enable machines (e.g., robots, smart assistants, hearables) to focus on and interact with sound sources of interest. The LOCATA challenge provides an open-access dataset of audio recordings and the accompanying software toolbox that enable researchers to objectively evaluate and benchmark their algorithms against the state of the art. This talk will provide an overview of the LOCATA dataset and challenge results. We will discuss practical insights gained and will explore open opportunities as well as future directions."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "gibbs21_clarity": {
+   "authors": [
+    [
+     "Barry M.",
+     "Gibbs"
+    ]
+   ],
+   "title": "An acoustician’s experience of using a hearing aid",
+   "original": "Clarity_2021_gibbs",
+   "order": 3,
+   "page_count": 0,
+   "abstract": [
+    "This is a personal account of the experiences of wearing a hearing aid to control Tinnitus. It is a description by a non-expert, who however, comes from a career in engineering acoustics, both as a researcher and teacher. The Tinnitus has been of long duration (45 years), is high-frequency and broad-band in character, and is confined to the right ear. With the onset of presbycusis the Tinnitus became progressively louder, again only in the right ear. On the recommendation of the NHS, a hearing aid was fitted three years ago, which, after some adjustments, suppressed the Tinnitus quite well. A year later, a purchased digital hearing aid provided more control of both the volume and frequency content. However, the use of these devices has compromised my binaural perception, which I might be able to explain, but also speech perception and classical music appreciation, which members of the audience might be able to explain."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "kates21_clarity": {
+   "authors": [
+    [
+     "James M.",
+     "Kates"
+    ]
+   ],
+   "title": "Tutorial: Objective intelligibility and quality measures of hearing-aid processed speech",
+   "original": "Clarity_2021_kates",
+   "order": 2,
+   "page_count": 0,
+   "abstract": [
+    "Signal degradations, such as additive noise and nonlinear distortion, can reduce the intelligibility and quality of a speech signal. Predicting intelligibility and quality for hearing aids is especially difficult since these devices may contain intentional nonlinear distortion designed to make speech more audible to a hearing-impaired listener. This speech processing often takes the form of time-varying multichannel gain adjustments. Intelligibility and quality metrics used for hearing aids and hearing-impaired listeners must therefore consider the trade-offs between audibility and distortion introduced by hearing-aid speech envelope modifications. This presentation uses the Hearing Aid Speech Perception Index (HASPI) and the Hearing Aid Speech Quality Index (HASQI) to predict intelligibility and quality, respectively. These indices incorporate a model of the auditory periphery that can be adjusted to reflect hearing loss. They have been trained on intelligibility scores and quality ratings from both normal-hearing and hearing-impaired listeners for a wide variety of signal and processing conditions. The basics of the metrics are explained, and the metrics are then used to analyze the effects of additive noise on speech, to evaluate noise suppression algorithms, and to measure differences among commercial hearing aids."
+   ],
+   "p1": "",
+   "pn": ""
+  },
+  "smeds21_clarity": {
+   "authors": [
+    [
+     "Karolina",
+     "Smeds"
+    ]
+   ],
+   "title": "Tutorial: Hearing loss and hearing-aid signal processing",
+   "original": "Clarity_2021_smeds",
+   "order": 1,
+   "page_count": 0,
+   "abstract": [
+    "Hearing loss leads to several unwanted effects. Loss of audibility for soft sounds is one effect, but also when amplification is used to create audibility for soft sounds, many suprathreshold deficits remain. The most common type of hearing loss is a cochlear hearing loss, where haircells or nerve synapses in the cochlea are damaged. Ageing and noise exposure are the most common causes of cochlear hearing loss. This type of hearing loss is associated with atypical loudness perception and difficulties in noisy situations. Background noise masks for instance speech to a higher degree than for a person with healthy hair cells. This explains why listening to speech in noisy backgrounds is such an important topic to work on. A brief introduction to signal processing in hearing aids will be presented. With the use of frequency-specific amplification and compression (automatic gain control, AGC), hearing aids are usually doing a good job in compensating for reduced audibility and for atypical suprathreshold loudness perception. However, it is more difficult to compensate for the increased masking effect. Some examples of strategies will be presented. Finally, natural conversations in noise will be discussed. The balance between being able to have a conversation with a specific communication partner in a group of people and being able to switch attention if someone else starts to talk will be touched upon."
+   ],
+   "p1": "",
+   "pn": ""
+  }
+ },
+ "sessions": [
+  {
+   "title": "Tutorials",
+   "papers": [
+    "smeds21_clarity",
+    "kates21_clarity"
+   ]
+  },
+  {
+   "title": "Invited Talks",
+   "papers": [
+    "gibbs21_clarity",
+    "evers21_clarity"
+   ]
+  },
+  {
+   "title": "Oral Session 1",
+   "papers": [
+    "moore21_clarity",
+    "zmolikova21_clarity",
+    "yang21_clarity",
+    "tammen21_clarity"
+   ]
+  },
+  {
+   "title": "Oral Session 2",
+   "papers": [
+    "tu21_clarity",
+    "chen21_clarity",
+    "gajecki21_clarity",
+    "kendrick21_clarity",
+    "hussain21_clarity"
+   ]
+  }
+ ],
+ "doi": "10.21437/Clarity.2021"
+}
